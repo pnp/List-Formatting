@@ -5,6 +5,9 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 ![screenshot of the sample](./screenshot.png)
 
+
+NOTE: the json code does not produce the render shown in the picture, "i" icon. PLease fix it.
+
 ## Sample
 
 Solution|Author(s)
