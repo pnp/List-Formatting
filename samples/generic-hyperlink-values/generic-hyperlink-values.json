@@ -1,0 +1,14 @@
+{
+    "elmType": "a",
+    "txtContent": "@currentField",
+    "attributes": {
+       "target": "_blank",
+       "href": {
+          "operator": "+",
+          "operands": [
+             "http://finance.yahoo.com/quote/",
+             "@currentField"
+          ]
+       }
+    }
+ }

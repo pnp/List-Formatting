@@ -1,3 +1,14 @@
+# SharePoint Columns Formatting Samples
+You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements.
+
+This is a open source repository to share different kind of formatting json files between community. Have you build one which you can share? - **We do welcome contributions**.
+
+![](https://github.com/SharePoint/sp-dev-docs/raw/master/docs/images/sp-columnformatting-all.png)
+
+You can find more details around the column formatting capability from official SharePoint Dev documentation. 
+
+- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
 
 # Contributing
 
@@ -12,3 +23,5 @@ provided by the bot. You will only need to do this once across all repos using o
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+> Sharing is caring!

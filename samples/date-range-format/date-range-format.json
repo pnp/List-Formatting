@@ -1,0 +1,21 @@
+{
+    
+       "elmType": "div",
+       "txtContent": "@currentField",
+       "style": {
+          "color": {
+             "operator": "?",
+             "operands": [
+                {
+                   "operator": "<=",
+                   "operands": [
+                      "[$DueDate]",
+                      "@now"
+                   ]
+                },
+                "#ff0000",
+                ""
+             ]
+          }
+       }
+    }
