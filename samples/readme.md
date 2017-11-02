@@ -1,5 +1,5 @@
 # SharePoint Column Formatting samples
 
-Samples around the SharePoint Column Formatting options to demonstrate different capabilities and possibilities.
+Samples for the SharePoint Column Formatting feature to demonstrate different capabilities and possibilities.
 
-Each sample has it's own dedicated readme file with screenshot to show demonstrated capability.
+Each sample has its own dedicated readme file with a screenshot to show the result of the sample applied to a SharePoint column.
