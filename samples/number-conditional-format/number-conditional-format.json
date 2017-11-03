@@ -1,6 +1,7 @@
 {
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
     "elmType": "div",
-    "txtContent": "@currentField",
     "attributes": {
        "class": {
           "operator": "?",
@@ -16,5 +17,34 @@
              ""
           ]
        }
-    }
- }
+    },
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "display": "inline-block",
+                "padding": "0 4px"
+            },
+            "attributes": {
+                "iconName": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": "<=",
+                            "operands": [
+                                "@currentField",                  
+                                70
+                            ]
+                        },
+                        "Error",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "@currentField"
+        }
+    ]
+}
