@@ -1,0 +1,57 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "children": [
+        {
+            "elmType": "span",
+            "attributes": {
+                "class": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": ">",
+                            "operands": [
+                                "[$After]",
+                                "[$Before]"
+                            ]
+                        },
+                        "sp-field-trending--up",
+                        "sp-field-trending--down"
+                    ]
+                },
+                "iconName": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": ">",
+                            "operands": [
+                                "[$After]",
+                                "[$Before]"
+                            ]
+                        },
+                        "SortUp",
+                        {
+                            "operator": "?",
+                            "operands": [
+                                {
+                                    "operator": "<",
+                                    "operands": [
+                                        "[$After]",
+                                        "[$Before]"
+                                    ]
+                                },
+                                "SortDown",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "[$After]"
+        }
+    ]
+}

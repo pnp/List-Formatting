@@ -1,41 +1,42 @@
 {
-    "debugMode": true,
-    "elmType": "div",
-    "txtContent": "@currentField",
-    "attributes": {
-     "class": "sp-field-dataBars"
-    },
-    "style": {
-      "width": {
-        "operator": "?",
-        "operands": [
-          {
-            "operator": ">",
-            "operands": [
-              "@currentField",
-              "20"
-            ]
-          },
-          "100%",
-          {
-            "operator": "+",
-            "operands": [
-              {
-                "operator": "toString()",
-                "operands": [
-                  {
-                    "operator": "*",
-                    "operands": [
-                      "@currentField",
-                      5
-                    ]
-                  }
-                ]
-              },
-              "%"
-            ]
-          }
-        ]
-      }
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "debugMode": true,
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "attributes": {
+    "class": "sp-field-dataBars"
+  },
+  "style": {
+    "width": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": ">",
+          "operands": [
+            "@currentField",
+            "20"
+          ]
+        },
+        "100%",
+        {
+          "operator": "+",
+          "operands": [
+            {
+              "operator": "toString()",
+              "operands": [
+                {
+                  "operator": "*",
+                  "operands": [
+                    "@currentField",
+                    5
+                  ]
+                }
+              ]
+            },
+            "%"
+          ]
+        }
+      ]
     }
   }
+}

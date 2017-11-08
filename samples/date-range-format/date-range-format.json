@@ -1,21 +1,22 @@
 {
-    
-       "elmType": "div",
-       "txtContent": "@currentField",
-       "style": {
-          "color": {
-             "operator": "?",
-             "operands": [
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "txtContent": "@currentField",
+    "style": {
+        "color": {
+            "operator": "?",
+            "operands": [
                 {
-                   "operator": "<=",
-                   "operands": [
-                      "[$DueDate]",
-                      "@now"
-                   ]
+                    "operator": "<=",
+                    "operands": [
+                        "[$DueDate]",
+                        "@now"
+                    ]
                 },
                 "#ff0000",
                 ""
-             ]
-          }
-       }
+            ]
+        }
     }
+}
