@@ -1,0 +1,30 @@
+{
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "debugMode": true,
+  "elmType": "span",
+  "style": {
+    "color": "#0078d7"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "Flow"
+      }
+    },
+    {
+      "elmType": "button",
+      "style": {
+        "border": "none",
+        "background-color": "transparant",
+        "color": "#0078d7",
+        "cursor": "pointer"
+      },
+      "txtContent": "Remind Me",
+      "customRowAction": {
+        "action": "executeFlow",
+        "actionParams": "{\"id\":\"FLOW-GUID\",\"displayName\":\"Remind me\",\"trigger\":{\"type\":\"Request\",\"kind\":\"ApiConnection\",\"api\":{\"name\":\"shared_sharepointonline\",\"id\":\"providers/Microsoft.PowerApps/apis/shared_sharepointonline\"}}}"
+      }
+    }
+  ]
+}
