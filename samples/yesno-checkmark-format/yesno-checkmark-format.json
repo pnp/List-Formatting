@@ -1,6 +1,4 @@
 {
-    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "debugMode": true,
     "elmType": "div",
     "txtContent": "",
     "attributes":{
@@ -71,9 +69,5 @@
                 }
             }
         }
-        // ,{
-        //     "elmType": "span",
-        //     "txtContent": "@currentField"
-        // }
     ]
 }
