@@ -3,7 +3,7 @@
 ## Summary
 You can apply conditional formatting to Yes/No fields. The following example applies different classes depending on whether the value of the field is Yes (true), or No (false). This example applies a CSS class (`sp-field-severity--low, sp-field-severity--good`) to the  `<div />` based on the field's value. Then, it outputs a `<span />` element with an `IconName` attribute. This attribute applies another CSS class to that `<span />` that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./yesno-checkmark-format.PNG)
 
 ## Sample
 
