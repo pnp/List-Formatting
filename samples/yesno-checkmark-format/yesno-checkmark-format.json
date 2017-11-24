@@ -1,0 +1,73 @@
+{
+    "elmType": "div",
+    "txtContent": "",
+    "attributes":{
+        "class": {
+            "operator": "?",
+            "operands": [
+                {
+                    "operator": "==",
+                    "operands": [
+                        {
+                            "operator": "toString()",
+                            "operands": [
+                                "@currentField"
+                            ]
+                        },
+                        "true"
+                    ]
+                },
+                "sp-field-severity--good",
+                {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": "==",
+                            "operands": [
+                                {
+                                    "operator": "toString()",
+                                    "operands": [
+                                        "@currentField"
+                                    ]
+                                },
+                                "false"
+                            ]
+                        },
+                        "sp-field-severity--low",
+                        "sp-field-severity--blocked"
+                    ]
+                }
+            ]
+        }
+    },
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "display": "inline-block",
+                "padding": "0 4px"
+            },
+            "attributes":{
+                "iconName": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": "==",
+                            "operands": [
+                                {
+                                   "operator": "toString()",
+                                    "operands": [
+                                        "@currentField"
+                                    ]
+                                },                
+                                "true"
+                            ]
+                        },
+                        "CheckMark",
+                        ""
+                    ]
+                }
+            }
+        }
+    ]
+}
