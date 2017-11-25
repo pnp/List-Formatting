@@ -6,9 +6,6 @@ Risk register where there are two columns formatted i) ‘Risk Score’ (a calcu
 
 In the risk level change status json file, `@Change` is the internal fieldname. Please replace as appropriate.
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
 ### Project Register column formatting
 Project Register where ‘Current Status’ column is formatted based on the RYAG status.
 ![Alt text](screenshot2.png)
