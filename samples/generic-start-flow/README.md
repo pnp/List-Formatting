@@ -24,4 +24,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/flow-start-button" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-start-flow" />

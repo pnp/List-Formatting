@@ -2,13 +2,28 @@
 
 ### Risk Register columns formatting
 Risk register where there are two columns formatted i) ‘Risk Score’ (a calculated column) is formatted based on the condition and ii) ‘Risk Status Level’ is formatted with icons / colors. You can use other icon from Office Graph.
-![Alt text](https://github.com/sohailmerchant/spo-columnformatting/blob/master/project%20management/risk%20register%20modern.png)
+![Alt text](screenshot.png)
 
 In the risk level change status json file, `@Change` is the internal fieldname. Please replace as appropriate.
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+risk-level-change-status.json, risk-score.json, ryg-status.json | S Merchant
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|November 25, 2017|Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
 ### Project Register column formatting
 Project Register where ‘Current Status’ column is formatted based on the RYAG status.
-![Alt text](https://github.com/sohailmerchant/spo-columnformatting/blob/master/project%20management/project%20register.png)
+![Alt text](screenshot2.png)
 
 <table>
 <thead>
@@ -48,4 +63,4 @@ Project Register where ‘Current Status’ column is formatted based on the RYA
 
 <p><strong>THIS CODE IS PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
 
-[You can download JSON files here](https://github.com/sohailmerchant/spo-columnformatting/tree/master/project%20management)
+<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-project-management" />
