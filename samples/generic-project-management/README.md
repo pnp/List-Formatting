@@ -6,18 +6,6 @@ Risk register where there are two columns formatted i) ‘Risk Score’ (a calcu
 
 In the risk level change status json file, `@Change` is the internal fieldname. Please replace as appropriate.
 
-## Sample
-
-Solution|Author(s)
---------|---------
-risk-level-change-status.json, risk-score.json, ryg-status.json | S Merchant
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.0|November 25, 2017|Initial release
-
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
