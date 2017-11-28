@@ -1,0 +1,70 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "width": "14px",
+                "height": "14px",
+                "border-radius": "14px",
+                "background-color": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": "==",
+                            "operands": [
+                                {
+                                    "operator": "toString()",
+                                    "operands": [
+                                        "@currentField"
+                                    ]
+                                },
+                                "Green"
+                            ]
+                        },
+                        "#2dc937",
+                        {
+                            "operator": "?",
+                            "operands":[
+                                {
+                                    "operator": "==",
+                                    "operands": [
+                                        {
+                                            "operator": "toString()",
+                                            "operands": [
+                                                "@currentField"
+                                            ]
+                                        },
+                                        "Yellow"
+                                    ]        
+                                },
+                                "#e7b416",
+                                {
+                                    "operator": "?",
+                                    "operands":[
+                                        {
+                                            "operator": "==",
+                                            "operands": [
+                                                {
+                                                    "operator": "toString()",
+                                                    "operands": [
+                                                        "@currentField"
+                                                    ]
+                                                },
+                                                "Red"
+                                            ]        
+                                        },
+                                        "#cc3232",
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }            
+        }
+    ]
+}

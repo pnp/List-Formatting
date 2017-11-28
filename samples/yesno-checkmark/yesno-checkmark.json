@@ -1,0 +1,30 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "style": {
+        "font-weight": "bold"
+    },
+    "attributes":
+    {
+        "iconName": {
+            "operator": "?",
+            "operands": [
+                {
+                    "operator": "==",
+                    "operands": [
+                        {
+                            "operator": "toString()",
+                            "operands": [
+                                "@currentField"
+                            ]
+                        },
+                        "true"
+                    ]
+                },
+                "CheckMark",
+                ""
+            ]
+        }
+    }     
+}
