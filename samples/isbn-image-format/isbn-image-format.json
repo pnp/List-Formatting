@@ -1,0 +1,14 @@
+{
+    "elmType": "img",
+    "txtContent": "",
+    "attributes": {
+      "src": {
+        "operator": "+",
+        "operands": [
+          "http://covers.openlibrary.org/b/isbn/",
+          "@currentField",
+          "-S.jpg"
+        ]
+      }
+    }
+  }
