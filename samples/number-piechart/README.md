@@ -3,7 +3,7 @@
 ## Summary
 This example renders whole pie in gray with radius 50 and the number% (column value) as a slice of the pie in blue using `<svg>` with `<path>` tags. The number% displayed at the bottom of the pie in green.
 
-![screenshot of the sample](./number-piechart.png)
+![screenshot of the sample](./number-piechart.PNG)
 
 ## Sample
 
