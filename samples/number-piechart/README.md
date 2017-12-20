@@ -25,3 +25,5 @@ Version|Date|Comments
 ## Additional notes
 This pie chat should be simple. However the json code is not. With support of 3rd party chart library, it could be easier and nicer. Pie chart size and slice and text colors should be adjusted as needed. Showing text within the slice is not trivial.
 It is expected to see better piechat sample from the community.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-piechart" />
