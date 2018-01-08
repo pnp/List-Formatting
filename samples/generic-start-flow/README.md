@@ -1,4 +1,4 @@
-# Formatting an item when a date column is before or after today's date
+# Creating a link to launch a Flow
 
 ## Summary
 This example provides a link/button to start a workflow based on the current item.
