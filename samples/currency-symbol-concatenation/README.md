@@ -7,7 +7,7 @@ Currency column is not currently supported, hence this sample will allow the use
 Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated with Red or Green color.
 ![Alt text](https://github.com/sohailmerchant/spo-columnformatting/blob/master/project%20management/project%20register.png).  Please note that both columns must be number type.
 
-If you need to add  only a currency symbol to the Project Budget column with any formatting, use text.json sample:
+If you need to add  only a currency symbol to the Project Budget column with any formatting, use addsymbolonly.json sample:
 
 Similar technique could be used for adding any text to current existing or empty column. 
 
@@ -23,7 +23,11 @@ Similar technique could be used for adding any text to current existing or empty
 </thead>
 <tbody>
 <tr>
-<td>risk-level-change-status.json</td>
+<td>currency-symbol-concatenation.json</td>
+<td>S Merchant</td>
+</tr>
+ <tr>
+<td>addsymbolonly.json</td>
 <td>S Merchant</td>
 </tr>
  
