@@ -4,12 +4,13 @@ Currency column is not currently supported, hence this sample will allow the use
 
 
 ### Project Budget Column
-Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated with Red or Green color.
-![Alt text](https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/budget%20column%20formating.png).  Please note that both columns must be number type.
+Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated with Red or Green color. Please note that both columns must be number type.
+
+![Alt text](https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/budget%20column%20formating.png).  
 
 If you need to add  only a currency symbol to the Project Budget column with any formatting, use addsymbolonly.json sample:
 
-Similar technique could be used for adding any text to current existing or empty column. 
+Similar technique could be used for adding any text to existing data or empty column. 
 
 
 
