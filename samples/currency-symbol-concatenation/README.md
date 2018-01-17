@@ -1,14 +1,14 @@
-# Concatenate Currency Symbol to Numberic Columns
+# Concatenate Currency Symbol to Numeric Columns
 
-Currency column is not currently supported, hence this sample will allow the users to concatenate a currency symbol(£, $ ... etc.) to the existing data.  This sample will allow users to compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used.
+Currency column is currently not supported, hence this sample will allow the users to concatenate a currency symbol(£, $ ... etc.) to the existing data.  This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used.
 
 
-### Project Budget Column
-Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated with Red or Green color. Please note that both columns must be number type.
+### Project Budget Column with a Currency Symbol
+Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated based on the condition with Red or Green color. Please note that both columns must be a number type for this to work.
 
 ![Alt text](https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/budgetcolumnformating.png).  
 
-If you need to add  only a currency symbol to the Project Budget column with any formatting, use <a href='https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/addsymbolonly.json'>addsymbolonly.json </a> sample:
+If you need to only add a symbol to numeric column without any formatting, please use <a href='https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/addsymbolonly.json'>addsymbolonly.json </a> sample:
 
 Similar technique could be used for adding any text to existing data or empty column. 
 
