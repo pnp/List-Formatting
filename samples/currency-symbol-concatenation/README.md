@@ -8,7 +8,7 @@ Project Register where ‘Project Budget’ column is compared with the 'Expendi
 
 ![Alt text](https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/budgetcolumnformating.png).  
 
-If you need to add  only a currency symbol to the Project Budget column with any formatting, use addsymbolonly.json sample:
+If you need to add  only a currency symbol to the Project Budget column with any formatting, use <a href='https://github.com/sohailmerchant/sp-dev-column-formatting/blob/master/samples/currency-symbol-concatenation/addsymbolonly.json'>addsymbolonly.json </a> sample:
 
 Similar technique could be used for adding any text to existing data or empty column. 
 
