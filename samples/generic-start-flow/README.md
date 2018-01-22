@@ -1,8 +1,13 @@
-# Creating a link to launch a Flow
+# Create a button to launch a Flow
 
 ## Summary
-This example provides a link/button to start a workflow based on the current item.
-To use the example, you first have to create a workflow and use the guid of that specific workflow. The guid than has to be provided in the .json of the column formatting.
+You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item.  If the Flow is configured to gather data from the end user before running, the Flow Launch Panel will be displayed after clicking the button.  Otherwise, the Flow will just run.
+
+To use the sample below, you must substitute the ID of the Flow you want to run.  This ID is contained within the `customRowAction` attribute inside the `button` element.  To obtain a Flow's ID:
+
+1. Click Flow > See your flows in the SharePoint list where the Flow is configured.
+2. Click on the Flow you want to run
+3. Copy the ID from the end of the URL.  
 
 ![screenshot of the sample](./screenshot.png)
 
