@@ -1,0 +1,19 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "children": [
+        {
+            "elmType": "span",
+            "txtContent": "£",
+            "style": {
+                "display": "inline-block",
+                "padding": "0 1px"
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "@currentField"
+        }
+    ]
+}

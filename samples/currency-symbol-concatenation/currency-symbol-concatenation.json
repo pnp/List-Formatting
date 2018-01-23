@@ -1,0 +1,37 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "div",
+    "style": {
+        "color": "#fff",
+        "padding-left": "10px",
+        "background-color": {
+            "operator": "?",
+            "operands": [
+                {
+                    "operator": ">=",
+                    "operands": [
+                        "@currentField",
+                        "[$ProjectBudget]"
+                    ]
+                },
+                "#e81123",
+                "#00B294"
+            ]
+        }
+    },
+    "children": [
+        {
+            "elmType": "span",
+            "txtContent": "£",
+            "style": {
+                "display": "inline-block",
+                "padding": "0 1px"
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "@currentField"
+        }
+    ]
+}
