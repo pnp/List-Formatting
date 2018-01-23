@@ -1,30 +1,29 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-  "debugMode": true,
-  "elmType": "span",
-  "style": {
-    "color": "#0078d7"
-  },
-  "children": [
+	"$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+	"elmType": "span",
+	"style": {
+		"color": "#0078d7"
+	},
+	"children": [
     {
-      "elmType": "span",
-      "attributes": {
-        "iconName": "Flow"
-      }
+		"elmType": "span",
+		"attributes": {
+			"iconName": "Flow"
+		}
     },
     {
-      "elmType": "button",
-      "style": {
-        "border": "none",
-        "background-color": "transparant",
-        "color": "#0078d7",
-        "cursor": "pointer"
-      },
-      "txtContent": "Remind Me",
-      "customRowAction": {
-        "action": "executeFlow",
-        "actionParams": "{\"id\":\"FLOW-GUID\",\"displayName\":\"Remind me\",\"trigger\":{\"type\":\"Request\",\"kind\":\"ApiConnection\",\"api\":{\"name\":\"shared_sharepointonline\",\"id\":\"providers/Microsoft.PowerApps/apis/shared_sharepointonline\"}}}"
-      }
-    }
+		"elmType": "button",
+		"style": {
+			"border": "none",
+			"background-color": "transparent",        
+			"color": "#0078d7",    
+			"cursor": "pointer"
+		},
+		"txtContent": "Send to Manager",
+		"customRowAction": {
+			"action": "executeFlow",
+			"actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
+		}          
+    }        
   ]
 }
