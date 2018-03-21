@@ -1,0 +1,21 @@
+{
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "elmType": "div",
+  "txtContent": "@currentField.title",
+  "style": {
+    "color": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "==",
+          "operands": [
+            "@me",
+            "@currentField.email"
+          ]
+        },
+        "orangered",
+        "inherit"
+      ]
+    }
+  }
+}
