@@ -16,6 +16,7 @@ number-pct-piechart.json | Aaron Miao
 Version|Date|Comments
 -------|----|--------
 1.0|Dec 13, 2017|Initial release
+1.1|March 20, 2018|Added min & max values and fixed skewed drawing issue
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -23,7 +24,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This pie chat should be simple. However the json code is not. With support of 3rd party chart library, it could be easier and nicer. Pie chart size and slice and text colors should be adjusted as needed. Showing text within the slice is not trivial.
-It is expected to see better piechat sample from the community.
+
+A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-piechart" />
