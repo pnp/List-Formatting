@@ -1,6 +1,5 @@
 {
     "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "debugMode": true,
     "elmType": "div",
     "children": [
         {
@@ -17,7 +16,20 @@
                             ]
                         },
                         "sp-field-trending--up",
-                        "sp-field-trending--down"
+                        {
+                            "operator": "?",
+                            "operands": [
+                                {
+                                    "operator": "<",
+                                    "operands": [
+                                        "[$After]",
+                                        "[$Before]"
+                                    ]
+                                },
+                                "sp-field-trending--down",
+                                ""
+                            ]
+                        }
                     ]
                 },
                 "iconName": {
@@ -45,6 +57,22 @@
                                 ""
                             ]
                         }
+                    ]
+                }
+            },
+            "style": {
+                "padding-left": {
+                    "operator": "?",
+                    "operands": [
+                        {
+                            "operator": "==",
+                            "operands": [
+                                "[$After]",
+                                "[$Before]"
+                            ]
+                        },
+                        "12px",
+                        "0"
                     ]
                 }
             }
