@@ -1,21 +1,45 @@
 {
   "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
   "elmType": "div",
-  "txtContent": "@currentField.title",
   "style": {
-    "color": {
-      "operator": "?",
-      "operands": [
-        {
-          "operator": "==",
+    "border": "2px solid #666666",
+    "width": "128px",
+    "height": "64px"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "attributes": {
+        "href": {
+          "operator": "+",
           "operands": [
-            "@me",
-            "@currentField.email"
+            "https://www.google.com/maps/place/",
+            "@currentField",
+            "/"
           ]
         },
-        "orangered",
-        "inherit"
+        "target": "_blank"
+      },
+      "style": {
+        "height": "100%"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": {
+              "operator": "+",
+              "operands": [
+                "https://maps.googleapis.com/maps/api/staticmap?",
+                "center=",
+                "@currentField",
+                "&size=128x64",
+                "&key=AIzaSyDKNauYNcs4ZOq7sQMWYDyz1x82l00ek34"
+              ]
+            }
+          }
+        }
       ]
     }
-  }
+  ]
 }
