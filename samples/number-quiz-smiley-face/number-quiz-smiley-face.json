@@ -1,6 +1,5 @@
 {
     "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "debugMode": true,
     "elmType": "div",
     "children": [
         {
@@ -15,8 +14,7 @@
                     "operands": [
                         {
                             "operator": ">=",
-                            "operands": 
-                                [
+                            "operands": [
                                 "@currentField",
                                 "90"
                             ]
@@ -27,8 +25,7 @@
                             "operands": [
                                 {
                                     "operator": ">=",
-                                    "operands": 
-                                        [
+                                    "operands": [
                                         "@currentField",
                                         "75"
                                     ]
@@ -38,12 +35,11 @@
                                     "operator": "?",
                                     "operands": [
                                         {
-                                                "operator": ">=",
-                                                "operands": 
-                                                    [
-                                                    "@currentField",
-                                                    "60"
-                                                ]
+                                            "operator": ">=",
+                                            "operands": [
+                                                "@currentField",
+                                                "60"
+                                            ]
                                         },
                                         "EmojiNeutral",
                                         {
@@ -52,7 +48,6 @@
                                                 {
                                                     "operator": ">=",
                                                     "operands": [
-                                                        
                                                         "@currentField",
                                                         "0"
                                                     ]
