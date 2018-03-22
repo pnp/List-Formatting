@@ -1,0 +1,62 @@
+{
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "2px",
+        "width": "48px",
+        "height": "48px",
+        "overflow": "hidden",
+        "border-radius": "50%"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": {
+              "operator": "+",
+              "operands": [
+                "https://twitter.com/",
+                "@currentField"
+              ]
+            },
+            "target": "_blank"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "attributes": {
+                "src": {
+                  "operator": "+",
+                  "operands": [
+                    "https://twitter.com/",
+                    "@currentField",
+                    "/profile_image?size=normal"
+                  ]
+                },
+                "title": {
+                  "operator": "+",
+                  "operands": [
+                    "@",
+                    "@currentField"
+                  ]
+                }
+              },
+              "style": {
+                "position": "relative",
+                "top": "50%",
+                "left": "50%",
+                "width": "100%",
+                "height": "auto",
+                "margin-left": "-50%",
+                "margin-top": "-50%"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
