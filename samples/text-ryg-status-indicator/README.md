@@ -1,9 +1,11 @@
 # Traffic Light (Red-Yellow-Green) Status Indicator
 
 ## Summary
-This example displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice column.
+This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of `@currentField` to `@currentField.lookupValue`).
 
 ![screenshot of the sample](./screenshot.png)
+
+> The text values for the column are expected to be Red, Yellow, or Green. Any other values won't be shown.
 
 ## Sample
 
@@ -16,6 +18,7 @@ text-ryg-status-indicator.json | Travis Lingenfelder
 Version|Date|Comments
 -------|----|--------
 1.0|November 27, 2017|Initial release
+1.1|March 22, 2018|Simplified logic
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
