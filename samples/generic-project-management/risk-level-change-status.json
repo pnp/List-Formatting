@@ -27,20 +27,7 @@
                     ]
                   },
                   "sp-field-trending--down",
-                  {
-                    "operator": "?",
-                    "operands": [
-                      {
-                        "operator": "==",
-                        "operands": [
-                          "@currentField",
-                          "Level"
-                        ]
-                      },
-                      "sp-field-trending--down",
-                      ""
-                    ]
-                  }
+                  ""
                 ]
               }
             ]
