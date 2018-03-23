@@ -1,13 +1,15 @@
-# Create a button to launch a Flow
+# Create a button to launch a Flow for the selected item
 
 ## Summary
-You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item.  If the Flow is configured to gather data from the end user before running, the Flow Launch Panel will be displayed after clicking the button.  Otherwise, the Flow will just run.
+You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. If the Flow is configured to gather data from the end user before running, the Flow Launch Panel will be displayed after clicking the button. Otherwise, the Flow will just run.
 
-To use the sample below, you must substitute the ID of the Flow you want to run.  This ID is contained within the `customRowAction` attribute inside the `button` element.  To obtain a Flow's ID:
+To use the sample, you must substitute the ID of the Flow you want to run. This ID is contained within the `customRowAction` attribute inside the `button` element.
 
-1. Click Flow > See your flows in the SharePoint list where the Flow is configured.
+To obtain a Flow's ID:
+
+1. Click _Flow_ > _See your flows_ in the SharePoint list where the Flow is configured
 2. Click on the Flow you want to run
-3. Copy the ID from the end of the URL.  
+3. Copy the ID from the end of the URL
 
 ![screenshot of the sample](./screenshot.png)
 
@@ -17,7 +19,12 @@ Solution|Author(s)
 --------|---------
 start-flow-button.json | Yannick Borghmans
 
+## Version history
 
+Version|Date|Comments
+-------|----|--------
+1.0|November 25, 2017|Initial release
+1.1|January 22, 2018|Adjusted actionParams markup
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -25,7 +32,9 @@ start-flow-button.json | Yannick Borghmans
 ---
 
 ## Additional notes
-This sample is also covered in the main documentation around the Column Formatting
+This sample is also covered in the main documentation around Column Formatting
+
+A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
