@@ -1,99 +1,98 @@
 {
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
     "elmType": "div",
     "children": [
-        {
-            "elmType": "span",
-                   "attributes": {
-                    "class": {
-                        "operator": "?",
+      {
+        "elmType": "span",
+        "attributes": {
+          "class": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "==",
+                "operands": [
+                  "@currentField",
+                  "Down"
+                ]
+              },
+              "sp-field-trending--up",
+              {
+                "operator": "?",
+                "operands": [
+                  {
+                    "operator": "==",
+                    "operands": [
+                      "@currentField",
+                      "Up"
+                    ]
+                  },
+                  "sp-field-trending--down",
+                  {
+                    "operator": "?",
+                    "operands": [
+                      {
+                        "operator": "==",
                         "operands": [
-                            {
-                                "operator": "==",
-                                "operands": [
-                                    "@currentField",
-                                    "Down"
-                                ]
-                            },
-                            "sp-field-trending--up",
-                            {
-                                "operator": "?",
-                                "operands": [
-                                    {
-                                        "operator": "==",
-                                        "operands": [
-                                            "@currentField",
-                                            "Up"
-                                        ]
-                                    },
-                                    "sp-field-trending--down",
-                                    {
-                                        "operator": "?",
-                                        "operands": [
-                                            {
-                                                "operator": "==",
-                                                "operands": [
-                                                    "@currentField",
-                                                    "Level"
-                                                ]
-                                            },
-                                            "sp-field-trending--down",
-                                            ""
-                                        ]
-                                    }
-                                ]
-                            }
+                          "@currentField",
+                          "Level"
                         ]
-                    },
-                   
-                    "iconName": {
-                        "operator": "?",
+                      },
+                      "sp-field-trending--down",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "iconName": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "==",
+                "operands": [
+                  "@currentField",
+                  "Down"
+                ]
+              },
+              "SortDown",
+              {
+                "operator": "?",
+                "operands": [
+                  {
+                    "operator": "==",
+                    "operands": [
+                      "@currentField",
+                      "Up"
+                    ]
+                  },
+                  "SortUp",
+                  {
+                    "operator": "?",
+                    "operands": [
+                      {
+                        "operator": "==",
                         "operands": [
-                            {
-                                "operator": "==",
-                                "operands": [
-                                    "@currentField",
-                                    "Down"
-                                ]
-                            },
-                            "SortDown",
-                            {
-                                "operator": "?",
-                                "operands": [
-                                    {
-                                        "operator": "==",
-                                        "operands": [
-                                            "@currentField",
-                                            "Up"
-                                        ]
-                                    },
-                                    "SortUp",
-                                    {
-                                        "operator": "?",
-                                        "operands": [
-                                            {
-                                                "operator": "==",
-                                                "operands": [
-                                                    "@currentField",
-                                                    "Level"
-                                                ]
-                                            },
-                                            "Split",
-                                            ""
-                                        ]
-                                    }
-                                ]
-                            }
+                          "@currentField",
+                          "Level"
                         ]
-                    }
-                },
-                "style":{
-                    "padding-right":"10px"
-                }
-            
+                      },
+                      "Split",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         },
-        {
-            "elmType": "span",
-            "txtContent": "[$Change]"
+        "style": {
+          "padding-right": "10px"
         }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "@currentField"
+      }
     ]
-}
+  }

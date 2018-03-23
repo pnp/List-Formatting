@@ -1,61 +1,62 @@
 {
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
     "elmType": "div",
     "txtContent": "@currentField",
     "style": {
-        "color": "#fff",
-        "padding-left": "14px",
-        "background-color": {
+      "color": "white",
+      "padding-left": "14px",
+      "background-color": {
+        "operator": "?",
+        "operands": [
+          {
+            "operator": "==",
+            "operands": [
+              "@currentField",
+              "Red"
+            ]
+          },
+          "#e81123",
+          {
             "operator": "?",
             "operands": [
-                {
+              {
+                "operator": "==",
+                "operands": [
+                  "@currentField",
+                  "Green"
+                ]
+              },
+              "#107c10",
+              {
+                "operator": "?",
+                "operands": [
+                  {
                     "operator": "==",
                     "operands": [
-                        "@currentField",
-                        "Red"
+                      "@currentField",
+                      "Amber"
                     ]
-                },
-                "#e81123",
-                {
+                  },
+                  "#ff8c00",
+                  {
                     "operator": "?",
                     "operands": [
-                        {
-                            "operator": "==",
-                            "operands": [
-                                "@currentField",
-                                "Green"
-                            ]
-                        },
-                        "#00B294",
-                        {
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": "==",
-                                    "operands": [
-                                        "@currentField",
-                                        "Amber"
-                                    ]
-                                },
-                                "#ff8c00",
-                                {
-                                    "operator": "?",
-                                    "operands": [
-                                        {
-                                            "operator": "==",
-                                            "operands": [
-                                                "@currentField",
-                                                "Yellow"
-                                            ]
-                                        },
-                                        "#fff100",
-                                        ""
-                                    ]
-                                }
-                            ]
-                        }
+                      {
+                        "operator": "==",
+                        "operands": [
+                          "@currentField",
+                          "Yellow"
+                        ]
+                      },
+                      "#ffb900",
+                      ""
                     ]
-                }
+                  }
+                ]
+              }
             ]
-        }
+          }
+        ]
+      }
     }
-}
+  }
