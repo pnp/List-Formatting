@@ -5,25 +5,25 @@
 		"color": "#0078d7"
 	},
 	"children": [
-    {
-		"elmType": "span",
-		"attributes": {
-			"iconName": "Flow"
-		}
-    },
-    {
-		"elmType": "button",
-		"style": {
-			"border": "none",
-			"background-color": "transparent",        
-			"color": "#0078d7",    
-			"cursor": "pointer"
+		{
+			"elmType": "span",
+			"attributes": {
+				"iconName": "Flow"
+			}
 		},
-		"txtContent": "Send to Manager",
-		"customRowAction": {
-			"action": "executeFlow",
-			"actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
-		}          
-    }        
-  ]
+		{
+			"elmType": "button",
+			"style": {
+				"border": "none",
+				"background-color": "transparent",
+				"color": "#0078d7",
+				"cursor": "pointer"
+			},
+			"txtContent": "Send to Manager",
+			"customRowAction": {
+				"action": "executeFlow",
+				"actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
+			}
+		}
+	]
 }
