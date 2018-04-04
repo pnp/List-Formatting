@@ -1,61 +1,49 @@
 {
-    "elmType": "div",
-    "txtContent": "@currentField",
-    "style": {
-        "color": "#fff",
-        "padding-left": "14px",
-        "background-color": {
-            "operator": "?",
-            "operands": [
+  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "color": "white",
+    "padding-left": "14px",
+    "background-color": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": ">=",
+          "operands": [
+            "@currentField",
+            16
+          ]
+        },
+        "#e81123",
+        {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": ">=",
+              "operands": [
+                "@currentField",
+                12
+              ]
+            },
+            "#ff8c00",
+            {
+              "operator": "?",
+              "operands": [
                 {
-                    "operator": ">=",
-                    "operands": [
-                        "@currentField",
-                        16
-                    ]
+                  "operator": ">=",
+                  "operands": [
+                    "@currentField",
+                    8
+                  ]
                 },
-                "#e81123",
-                {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": ">=",
-                            "operands": [
-                                "@currentField",
-                                12
-                            ]
-                        },
-                        "#ff8c00",
-                        {
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": ">=",
-                                    "operands": [
-                                        "@currentField",
-                                        8
-                                    ]
-                                },
-                                "#fff100",
-                                {
-                                    "operator": "?",
-                                    "operands": [
-                                        {
-                                            "operator": "<=",
-                                            "operands": [
-                                                "@currentField",
-                                                6
-                                            ]
-                                        },
-                                        "#00B294",
-                                        ""
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+                "#ffb900",
+                "#107c10"
+              ]
+            }
+          ]
         }
+      ]
     }
+  }
 }
