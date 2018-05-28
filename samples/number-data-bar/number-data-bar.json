@@ -1,16 +1,26 @@
 {
   "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
   "elmType": "div",
-  "txtContent": "@currentField",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
+      "style": {
+        "padding-left": "8px"
+      }
+    }
+  ],
   "attributes": {
     "class": "sp-field-dataBars"
   },
   "style": {
+    "padding": "0",
+    "overflow-x": "visible",
     "width": {
       "operator": "?",
       "operands": [
         {
-          "operator": ">",
+          "operator": ">=",
           "operands": [
             "@currentField",
             "20"
@@ -21,15 +31,10 @@
           "operator": "+",
           "operands": [
             {
-              "operator": "toString()",
+              "operator": "*",
               "operands": [
-                {
-                  "operator": "*",
-                  "operands": [
-                    "@currentField",
-                    5
-                  ]
-                }
+                "@currentField",
+                5
               ]
             },
             "%"
