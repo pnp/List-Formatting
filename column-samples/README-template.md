@@ -29,4 +29,4 @@ Any potential additional notes to get included in the readme around the sample w
 - topic 2
 - topic 3
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/readme-template" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/samples/readme-template" />

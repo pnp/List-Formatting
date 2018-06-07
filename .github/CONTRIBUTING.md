@@ -9,7 +9,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 ## Question or Problem?
 Please do not open GitHub issues for general support questions as the GitHub list should be used for feature requests and bug reports. This way we can more easily track actual issues or bugs from the code and keep the general discussion separate from the actual code.  
 
-If you have questions about column formatting, feel also free to use following channels for having an open disucssion with the community and engineerig.
+If you have questions about list formatting, feel also free to use following channels for having an open discussion with the community and engineering.
 
 * [SharePoint Developer Space](http://aka.ms/SPPnP-Community) at http://techcommunity.microsoft.com
 * [SharePoint Stack Exchange](http://sharepoint.stackexchange.com/) with 'spfx' tag
@@ -40,12 +40,12 @@ When you are submitting a new sample, it has to follow up below guidelines
 
 - You will need to have a README file for your sample, which is based on [provided template](../samples/README-template.md) under the Samples folder. Please copy this template and update accordingly. README has to be named as README.md with capital letters.
     - You will need to have a picture of the sampe in practice in the README file ("pics or it didn't happen"). Preview image must be located in the sample folder and should be named as screenshot.png.
-- README template contains specific tracking image as a final entry in the page with img tag by default to https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/readme-template. This is transparent image, which is used to track popularity of individual samples in GitHub.
-    - Updated the image src element according with repository name and folder information. If your sample is for example in samples folder and named as date-range-format, src element should be updated as https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/date-range-format
+- README template contains specific tracking image as a final entry in the page with img tag by default to https://telemetry.sharepointpnp.com/sp-dev-list-formatting/samples/readme-template. This is transparent image, which is used to track popularity of individual samples in GitHub.
+    - Updated the image src element according with repository name and folder information. If your sample is for example in samples folder and named as date-range-format, src element should be updated as https://telemetry.sharepointpnp.com/sp-dev-list-formatting/samples/date-range-format
 - When you are submitting new sample solution, please name the sample solution folder accordingly
-    - Folder name should start by identifying type of the field which sample is form - like "number-", "text-", "date-"
+    - Folder name should start by identifying type of the field or data which sample is for - like "number-", "text-", "date-", "image"
     - If sample can be used on any field type, please use "generic-" as the prefix for your sample folder
-    - Do not use words "sample", "field" or "column" in the folder name
+    - Do not use words "sample", "field", "column", "row" in the folder name
 - Do not use period/dot in the folder name of the provided sample
 
 ## Step-by-step on submitting a pull request to this repository
