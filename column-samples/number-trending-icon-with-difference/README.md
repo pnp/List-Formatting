@@ -7,7 +7,7 @@ The example also displays the difference in value between the `Before` and `Afte
 
 The difference values are in a `<span>`, separate from the `After` `<span>`, allowing for unique properties to be applied without altering the `After` value.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./screen-shot.png)
 
 ## Styles
 |Condition|Class|Icon|Style|
