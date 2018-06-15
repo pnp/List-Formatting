@@ -2,109 +2,110 @@
     "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
     "elmType": "div",
     "style": {
-        "position": "relative"
+      "position": "relative"
     },
     "children": [
-        {
-            "elmType": "div",
-            "attributes": {
-                "class": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": "<=",
-                            "operands": [
-                                "[$DueDate]",
-                                "@now"
-                            ]
-                        },
-                        "sp-field-severity--severeWarning",
-                        "sp-field-severity--good"
-                    ]
-                }
-            },
-            "style": {
-                "min-height": "inherit",
-                "width": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": "<=",
-                            "operands": [
-                                "[$DueDate]",
-                                "@now"
-                            ]
-                        },
-                        "100%",
-                        {
-                            "operator": "+",
-                            "operands": [
-                                {
-                                    "operator": "-",
-                                    "operands": [
-                                        100,
-                                        {
-                                            "operator": "*",
-                                            "operands": [
-                                                {
-                                                    "operator": "/",
-                                                    "operands": [
-                                                        {
-                                                            "operator": "/",
-                                                            "operands": [
-                                                                {
-                                                                    "operator": "Number()",
-                                                                    "operands": [
-                                                                        {
-                                                                            "operator": "-",
-                                                                            "operands": [
-                                                                                "[$DueDate]",
-                                                                                "@now"
-                                                                            ]
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                86400000
-                                                            ]
-                                                        },
-                                                        {
-                                                            "operator": "/",
-                                                            "operands": [
-                                                                {
-                                                                    "operator": "Number()",
-                                                                    "operands": [
-                                                                        {
-                                                                            "operator": "-",
-                                                                            "operands": [
-                                                                                "[$DueDate]",
-                                                                                "[$StartDate]"
-                                                                            ]
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                86400000
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                100
-                                            ]
-                                        }
-                                    ]
-                                },
-                                "%"
-                            ]
-                        }
-                    ]
-                }
-            }
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "<=",
+                "operands": [
+                  "[$DueDate]",
+                  "@now"
+                ]
+              },
+              "sp-field-severity--severeWarning",
+              "sp-field-severity--good"
+            ]
+          }
         },
-        {
-            "elmType": "span",
-            "txtContent": "@currentField",
-            "style": {
-                "position": "absolute"
-            }
+        "style": {
+          "min-height": "inherit",
+          "width": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "<=",
+                "operands": [
+                  "[$DueDate]",
+                  "@now"
+                ]
+              },
+              "100%",
+              {
+                "operator": "+",
+                "operands": [
+                  {
+                    "operator": "-",
+                    "operands": [
+                      100,
+                      {
+                        "operator": "*",
+                        "operands": [
+                          {
+                            "operator": "/",
+                            "operands": [
+                              {
+                                "operator": "/",
+                                "operands": [
+                                  {
+                                    "operator": "Number()",
+                                    "operands": [
+                                      {
+                                        "operator": "-",
+                                        "operands": [
+                                          "[$DueDate]",
+                                          "@now"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  86400000
+                                ]
+                              },
+                              {
+                                "operator": "/",
+                                "operands": [
+                                  {
+                                    "operator": "Number()",
+                                    "operands": [
+                                      {
+                                        "operator": "-",
+                                        "operands": [
+                                          "[$DueDate]",
+                                          "[$StartDate]"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  86400000
+                                ]
+                              }
+                            ]
+                          },
+                          100
+                        ]
+                      }
+                    ]
+                  },
+                  "%"
+                ]
+              }
+            ]
+          }
         }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "@currentField",
+        "style": {
+          "position": "absolute",
+          "left": "4px"
+        }
+      }
     ]
-}
+  }
