@@ -6,7 +6,7 @@ This example uses a Column to generate a hyperlink to the Item Thumbnail.
 * Uses getpreview.ashx
 
 ## before you use it
-* change tenant to your tenant URL.
+* change tenant and site to your tenant URL. "https://**tenant**.sharepoint.com/**sites/site**/_layouts/15/getpreview.ashx?resolution=3&path=https://**tenant**.sharepoint.com",
 * change resolution=**3** (0-6) to your NEEDS.   (3: 1024px, 4: 1600px)
 
 ![screenshot of the sample](./screenshot.png)
