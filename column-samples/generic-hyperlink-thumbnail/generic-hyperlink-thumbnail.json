@@ -1,0 +1,17 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "debugMode": true,
+    "elmType": "a",
+    "txtContent": "[$FileRef]",
+    "attributes": {
+        "target": "_blank",
+        "download": true,
+        "href": {
+            "operator": "+",
+            "operands": [
+                "https://tenant.sharepoint.com/sites/site/_layouts/15/getpreview.ashx?resolution=3&path=https://tenant.sharepoint.com",
+                "[$FileRef]"
+            ]
+        }
+    }
+}
