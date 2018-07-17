@@ -5,9 +5,11 @@ This example uses a Column to generate a hyperlink to the Item Thumbnail.
 * Uses FileRef Variable
 * Uses getpreview.ashx
 
-## Parameters
+## before you use it
 * change tenant to your tenant URL.
 * change resolution=**3** (0-6) to your NEEDS.   (3: 1024px, 4: 1600px)
+
+![screenshot of the sample](./screenshot.png)
 
 ## Sample
 
