@@ -1,4 +1,4 @@
-# Turn FileRef field into hyperlink for thumbnail
+# Turn FileRef field into clickable thumbnail hyperlink
 
 ## Summary
 This example uses a Column to generate a hyperlink to the Item Thumbnail.
@@ -7,9 +7,7 @@ This example uses a Column to generate a hyperlink to the Item Thumbnail.
 
 ## Parameters
 * change tenant to your tenant URL.
-* change resolution=3 to your NEEDS. 
-** resolution=3: 1024px
-** resolution=4: 1600px
+* change resolution=**3** (0-6) to your NEEDS.   (3: 1024px, 4: 1600px)
 
 ## Sample
 
