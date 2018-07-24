@@ -6,7 +6,7 @@ Using just the Twitter handle, Twitter profile pictures are displayed in a circl
 
 ![screenshot of the sample](./screenshot.png)
 
-> Note: Twitter updated the [Twitter profile pictures](https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners) API and will not return an image using the "https://twitter.com/username/profileimage" request under certain circumstances. Twitter will redirect to another more cryptic image URL and return a 403 error to SharePoint. This only happens when currently logged into Twitter in the same browser session as the SharePoint session. If not logged into Twitter, the "https://twitter.com/username/profileimage" request succeeds.
+> Note: Twitter updated the [Twitter profile pictures](https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners) API and will not return an image using the "https://twitter.com/username/profileimage" request under certain circumstances. Twitter will redirect to another more cryptic image URL and return a 403 error to SharePoint. This only happens when currently logged into Twitter in the same browser session as the SharePoint session. If NOT logged into Twitter, the "https://twitter.com/username/profileimage" request succeeds.
 
 > Alternative API for returning Twitter pic is replacing "https://twitter.com/username/profileimage" with a http://avatars.io service request using the following format: "http://avatars.io/twitter/username".
 
