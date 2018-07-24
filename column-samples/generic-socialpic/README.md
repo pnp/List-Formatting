@@ -2,7 +2,7 @@
 
 ## Summary
 
-Using just the social media handles supported by https://avatars.io, social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window. The handle is also displayed as a tooltip when hovering over the profile image.
+Using the social media handles supported by https://avatars.io, social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window. The handle is also displayed as a tooltip when hovering over the profile image.
 
 ![screenshot of the sample](./screenshot.png)
 > Note: https://avatars.io currently supports Twitter, Facebook, Instagram and Gravatar
@@ -29,7 +29,7 @@ The field values are case insensitve and should be just the user's twitter handl
 
 Solution|Author(s)
 --------|---------
-generic-socialpic.json | [David Warner II](https://twitter.com/davidwarnerii)
+generic-socialpic.json | [David Warner II](https://twitter.com/davidwarnerii) / [Warner.Digital](http://warner.digital)
 
 ## Version history
 
