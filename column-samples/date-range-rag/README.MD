@@ -36,6 +36,7 @@ date-range-rag.json | [Christopher Parker](https://twitter.com/ChrispyBites)
 Version|Date|Comments
 -------|----|--------
 1.0|June 13, 2018|Initial release
+1.1|July 25, 2018|Updated to include amber class
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
