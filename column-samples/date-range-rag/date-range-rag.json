@@ -174,7 +174,8 @@
             "elmType": "span",
             "txtContent": "@currentField",
             "style": {
-                "position": "absolute"
+                "position": "absolute",
+                "left": "8px"
             }
         }
     ]
