@@ -1,13 +1,13 @@
 # Turn FileRef field into clickable thumbnail hyperlink
 
 ## Summary
-This example uses a Column to generate a hyperlink to the Item Thumbnail.
+This example uses a column to generate a hyperlink to the Item Thumbnail for a document library.
 * Uses FileRef Variable
 * Uses getpreview.ashx
 
-## before you use it
-* change tenant and site to your tenant URL. "https://**tenant**.sharepoint.com/**sites/site**/_layouts/15/getpreview.ashx?resolution=3&path=https://**tenant**.sharepoint.com",
-* change resolution=**3** (0-6) to your NEEDS.   (3: 1024px, 4: 1600px)
+## Before you use it
+* Change the tenant and site to match your tenant and site URLs. "https://**tenant**.sharepoint.com/**sites/site**/_layouts/15/getpreview.ashx?resolution=3&path=https://**tenant**.sharepoint.com",
+* Adjust the resolution=**3** (0-6) value to your NEEDS. _(3: 1024px, 4: 1600px)_
 
 ![screenshot of the sample](./screenshot.png)
 
@@ -16,10 +16,6 @@ This example uses a Column to generate a hyperlink to the Item Thumbnail.
 Solution|Author(s)
 --------|---------
 generic-hyperlink-thumbnail.json | Josef Lahmer
-
-# ideas
-* ? how to force a download of the file
-* ? globalisation of tenant URL
 
 ## Version history
 
@@ -33,7 +29,5 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This sample is also covered in the main documentation around the Column Formatting
-
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 

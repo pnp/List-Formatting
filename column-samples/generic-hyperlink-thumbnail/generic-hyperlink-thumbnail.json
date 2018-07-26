@@ -1,11 +1,9 @@
 {
     "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "debugMode": true,
     "elmType": "a",
     "txtContent": "[$FileRef]",
     "attributes": {
         "target": "_blank",
-        "download": true,
         "href": {
             "operator": "+",
             "operands": [
