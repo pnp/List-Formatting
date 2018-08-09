@@ -1,15 +1,14 @@
 # title of the sample
 
 ## Summary
-Short summary on functionality and used technologies.
+This sample applies conditional formatting to list view rows depending on the value of a DateTime field.
 
-[picture of the web part in action]
-
+![SharePoint list with view formatted with conditional formatting](../../../../../sp-dev-docs/blob/master/docs/images/listformatting-additionalrowclass.png)
 ## Sample
 
 Solution|Author(s)
 --------|---------
-json-file-name | Author details
+date-conditional-formatting.json | Lincoln DeMaris
 
 ## Version history
 
@@ -21,12 +20,3 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-
-## Additional notes
-Any potential additional notes to get included in the readme around the sample with additional pictures etc.
-
-- topic 1
-- topic 2
-- topic 3
-
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/date-conditional-format" />
