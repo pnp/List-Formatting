@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField.title",
+  "attributes": {
+    "class": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "==",
+          "operands": [
+            "@me",
+            "@currentField.email"
+          ]
+        },
+        "ms-fontColor-themePrimary ms-fontWeight-semibold",
+        "ms-fontColor-neutralPrimary"
+      ]
+    }
+  }
+}
