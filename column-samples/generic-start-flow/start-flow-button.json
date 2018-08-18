@@ -1,29 +1,31 @@
 {
-	"$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-	"elmType": "span",
-	"style": {
-		"color": "#0078d7"
-	},
-	"children": [
-		{
-			"elmType": "span",
-			"attributes": {
-				"iconName": "Flow"
-			}
-		},
-		{
-			"elmType": "button",
-			"style": {
-				"border": "none",
-				"background-color": "transparent",
-				"color": "#0078d7",
-				"cursor": "pointer"
-			},
-			"txtContent": "Send to Manager",
-			"customRowAction": {
-				"action": "executeFlow",
-				"actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
-			}
-		}
-	]
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "executeFlow",
+    "actionParams": "{\"id\": \"edf627d9-20f4-45ba-8bc9-4494bf2ff1be\"}"
+  },
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "Flow"
+      },
+      "style": {
+        "padding-right": "6px"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "It's Flow Time!"
+    }
+  ]
 }

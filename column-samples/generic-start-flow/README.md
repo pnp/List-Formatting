@@ -1,7 +1,7 @@
 # Create a button to launch a Flow for the selected item
 
 ## Summary
-You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. If the Flow is configured to gather data from the end user before running, the Flow Launch Panel will be displayed after clicking the button. Otherwise, the Flow will just run.
+You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow.
 
 To use the sample, you must substitute the ID of the Flow you want to run. This ID is contained within the `customRowAction` attribute inside the `button` element.
 
@@ -14,8 +14,10 @@ To obtain a Flow's ID:
 ![screenshot of the sample](./screenshot.png)
 
 ## View requirements
-- This format can be applied to any column type
+- This format can be applied to any column type (its value is ignored)
 - The list is expected to have an associated Flow, the ID of this flow needs to be included in the `actionParams` for the button
+
+> Tip - You can apply this format to a Calculated Column with a formula of `=""`. This prevents this field from being part of your edit/new forms.
 
 ## Sample
 
@@ -29,6 +31,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 25, 2017|Initial release
 1.1|January 22, 2018|Adjusted actionParams markup
+1.2|August 18, 2018|Icon is now included in button and theme colors are used
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
