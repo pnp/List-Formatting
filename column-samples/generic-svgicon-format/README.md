@@ -19,6 +19,9 @@ The pattern of using nested conditional operators with equality operators is the
 
 > Currently, column formatting does not support the `viewbox` attribute which causes issues with SVGs that rely on it to properly scale (basically all of them). You'll need to adjust the page size to have the path coordinates drawing at a 1:1 scale instead of relying on viewbox translation. One approach is to use a tool like [Inkscape](https://inkscape.org/en/release/) using the approach described here [Use Font Awesome icons in Column Formatting](https://thechriskent.com/2018/03/25/use-font-awesome-icons-in-column-formatting/).
 
+## View requirements
+- This format can be applied to a text/choice column and uses the values Female, Male, or anything else
+
 ## Sample
 
 Solution|Author(s)
@@ -42,4 +45,4 @@ The icons used were adapted from Font Awesome which is available under the [Crea
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-svgicon-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-svgicon-format" />

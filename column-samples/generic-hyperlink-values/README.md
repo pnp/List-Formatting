@@ -5,6 +5,9 @@ This example shows how to turn a text field that contains stock ticker symbols i
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to any column type
+
 ## Sample
 
 Solution|Author(s)
@@ -23,8 +26,8 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This sample is also covered in the main documentation around the Column Formatting
+This sample is also covered in the main documentation around Column Formatting
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-hyperlink-values" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-hyperlink-values" />

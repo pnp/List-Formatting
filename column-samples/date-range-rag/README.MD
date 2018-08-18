@@ -25,6 +25,11 @@ This calculates the percentage of days that have passed from the total number of
 
 Additionally, the value of the field (`@currentField`) is displayed when there is a value.
 
+## View requirements
+- This format can be applied to any column type
+- An additional DateTime column with an internal name of `DueDate` is expected
+- An additional DateTime column with an internal name of `StartDate` is expected
+
 ## Sample
 
 Solution|Author(s)
@@ -40,6 +45,8 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
 
 ## Additional notes
 

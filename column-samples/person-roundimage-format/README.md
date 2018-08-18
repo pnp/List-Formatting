@@ -25,6 +25,9 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 > Note: `@currentField.picture` can be used to retrieve a profile picture directly from a person column. However, size options are not available using that approach.
 
+## View requirements
+- This format can be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)
@@ -47,4 +50,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/person-roundimage-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/person-roundimage-format" />

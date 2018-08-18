@@ -13,6 +13,9 @@ An additional format is included to illustrate how to apply the same visualizati
 
 ![screenshot of the Percentage Data Bar](./screenshot-percent.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -39,4 +42,4 @@ This sample is also covered in the main documentation around Column Formatting.
 
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-data-bar" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-data-bar" />

@@ -5,6 +5,9 @@ This example displays a check mark when the value of a Yes/No column is equal to
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Yes/No column
+
 ## Sample
 
 Solution|Author(s)
@@ -27,4 +30,4 @@ Version|Date|Comments
 
 For more information on using this custom formatting see the article [Check Mark SharePoint Modern List Column Format](http://www.constellationsolutions.com/how-to/check-mark-sharepoint-modern-list-column-format/)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/yesno-checkmark" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-checkmark" />

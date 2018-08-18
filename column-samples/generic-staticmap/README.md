@@ -28,6 +28,9 @@ This format will work with Choice and Text columns without any changes. To use L
 
 The values are expected to be addresses such as Indianapolis, IN or Tokyo or 123 Main St. Knoxville, TN.
 
+## View requirements
+- This format can be applied to a text/choice field where the value is expected to be a location
+
 ## Sample
 
 Solution|Author(s)
@@ -50,4 +53,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-staticmap" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-staticmap" />

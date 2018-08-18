@@ -7,6 +7,9 @@ This pattern is useful when you want different values to map to different levels
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values Done, In progress, In review, or Blocked
+
 ## Sample
 
 Solution|Author(s)
@@ -29,4 +32,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/text-conditional-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-conditional-format" />

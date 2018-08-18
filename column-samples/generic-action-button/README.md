@@ -8,6 +8,9 @@ You can use column formatting to render quick action links next to fields. The f
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format expects to be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)
@@ -30,4 +33,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-action-button" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-action-button" />

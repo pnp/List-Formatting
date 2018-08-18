@@ -13,6 +13,10 @@ To obtain a Flow's ID:
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to any column type
+- The list is expected to have an associated Flow, the ID of this flow needs to be included in the `actionParams` for the button
+
 ## Sample
 
 Solution|Author(s)
@@ -38,4 +42,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-start-flow" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-start-flow" />

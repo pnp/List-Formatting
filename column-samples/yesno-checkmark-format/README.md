@@ -13,6 +13,9 @@ You can apply conditional formatting to Yes/No fields. This sample applies diffe
 
 ![screenshot of the sample](./yesno-checkmark-format.PNG)
 
+## View requirements
+- This format can be applied to a Yes/No column
+
 ## Sample
 
 Solution|Author(s)
@@ -33,4 +36,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/yesno-checkmark-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-checkmark-format" />

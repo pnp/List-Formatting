@@ -5,6 +5,9 @@ This sample uses the `@me` keyword to check if the person field is the current u
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)
@@ -29,4 +32,4 @@ This template is also included in the [Column Formatter](https://github.com/Shar
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/person-currentuser-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/person-currentuser-format" />

@@ -5,6 +5,9 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -27,4 +30,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-conditional-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-conditional-format" />

@@ -5,6 +5,9 @@ This example renders whole pie in gray with radius 50 and the number% (column va
 
 ![screenshot of the sample](./number-piechart.PNG)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -27,4 +30,4 @@ Version|Date|Comments
 
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-piechart" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-piechart" />

@@ -7,6 +7,9 @@ This sample displays a traffic light style (Red-Yellow-Green) status indicator b
 
 > The text values for the column are expected to be Red, Yellow, or Green. Any other values won't be shown.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be Green, Yellow, Red, or anything else
+
 ## Sample
 
 Solution|Author(s)
@@ -29,4 +32,4 @@ Version|Date|Comments
 
 For more information on using this custom formatting see the article [SharePoint Modern List Traffic Light (Red-Yellow-Green) Status Indicator Column](http://www.constellationsolutions.com/how-to/sharepoint-modern-list-traffic-light-red-yellow-green-status-indicator-column/)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/text-ryg-status-indicator" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-ryg-status-indicator" />

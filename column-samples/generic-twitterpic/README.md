@@ -25,6 +25,9 @@ This format will work with Choice and Text columns without any changes. To use L
 
 The field values are case insensitve and should be just the user's twitter handle with no @.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be twitter handles
+
 ## Sample
 
 Solution|Author(s)
@@ -48,4 +51,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-twitterpic" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-twitterpic" />
