@@ -19,7 +19,7 @@ The icons and theme colors are conditionally applied based on the field's value.
 
 Solution|Author(s)
 --------|---------
-text-strikethrough.json | [Chris Kent](https://twitter.com/thechriskent)
+yesno-checkbox.json | [Chris Kent](https://twitter.com/thechriskent)
 
 ## Version history
 
