@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": {
+        "operator": "+",
+        "operands": [
+          {
+            "operator": "*",
+            "operands": [
+              100,
+              "@currentField"
+            ]
+          },
+          " %"
+        ]
+      },
+      "style": {
+        "padding-left": "8px",
+        "white-space": "nowrap"
+      }
+    }
+  ],
+  "attributes": {
+    "class": "sp-field-dataBars"
+  },
+  "style": {
+    "padding": "0",
+    "width": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": ">",
+          "operands": [
+            "@currentField",
+            1
+          ]
+        },
+        "100%",
+        {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "<",
+              "operands": [
+                "@currentField",
+                0
+              ]
+            },
+            "0",
+            {
+              "operator": "+",
+              "operands": [
+                {
+                  "operator": "toString()",
+                  "operands": [
+                    {
+                      "operator": "*",
+                      "operands": [
+                        100,
+                        "@currentField"
+                      ]
+                    }
+                  ]
+                },
+                "%"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
