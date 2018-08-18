@@ -5,11 +5,15 @@ This example uses a column to generate a hyperlink to the Item Thumbnail for a d
 * Uses FileRef Variable
 * Uses getpreview.ashx
 
-## Before you use it
+### Before you use it
 * Change the tenant and site to match your tenant and site URLs. "https://**tenant**.sharepoint.com/**sites/site**/_layouts/15/getpreview.ashx?resolution=3&path=https://**tenant**.sharepoint.com",
 * Adjust the resolution=**3** (0-6) value to your NEEDS. _(3: 1024px, 4: 1600px)_
 
 ![screenshot of the sample](./screenshot.png)
+
+## View requirements
+- This format can be applied to any column type (the value is ignored)
+- This format should be used in a Document Library
 
 ## Sample
 
@@ -21,7 +25,7 @@ generic-hyperlink-thumbnail.json | Josef Lahmer
 
 Version|Date|Comments
 -------|----|--------
-1.0|17. July 2018 |Initial release
+1.0|July 17, 2018 |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

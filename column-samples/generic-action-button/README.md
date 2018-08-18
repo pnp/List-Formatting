@@ -8,6 +8,9 @@ You can use column formatting to render quick action links next to fields. The f
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format expects to be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)

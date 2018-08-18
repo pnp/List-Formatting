@@ -25,6 +25,9 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 > Note: `@currentField.picture` can be used to retrieve a profile picture directly from a person column. However, size options are not available using that approach.
 
+## View requirements
+- This format can be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)

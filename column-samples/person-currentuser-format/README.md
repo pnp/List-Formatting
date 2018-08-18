@@ -5,6 +5,9 @@ This sample uses the `@me` keyword to check if the person field is the current u
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Person column
+
 ## Sample
 
 Solution|Author(s)

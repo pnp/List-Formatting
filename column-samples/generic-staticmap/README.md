@@ -28,6 +28,9 @@ This format will work with Choice and Text columns without any changes. To use L
 
 The values are expected to be addresses such as Indianapolis, IN or Tokyo or 123 Main St. Knoxville, TN.
 
+## View requirements
+- This format can be applied to a text/choice field where the value is expected to be a location
+
 ## Sample
 
 Solution|Author(s)

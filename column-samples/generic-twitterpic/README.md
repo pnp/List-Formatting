@@ -25,6 +25,9 @@ This format will work with Choice and Text columns without any changes. To use L
 
 The field values are case insensitve and should be just the user's twitter handle with no @.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be twitter handles
+
 ## Sample
 
 Solution|Author(s)

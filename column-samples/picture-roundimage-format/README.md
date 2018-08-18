@@ -11,6 +11,9 @@ For best results, images should be square.
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Picture column
+
 ## Sample
 
 Solution|Author(s)

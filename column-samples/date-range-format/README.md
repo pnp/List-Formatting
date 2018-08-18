@@ -7,6 +7,10 @@ This example colors the current field red when the value inside an item's DueDat
 
 > Although the color can be specified directly in a style property, the [UI Fabric](https://developer.microsoft.com/en-us/fabric#/styles/colors) `ms-fontColor-redDark` class is used to ensure the color matches the defined Office styles.
 
+## View requirements
+- This format can be applied to any column type
+- An additional DateTime column with an internal name of `DueDate`
+
 ## Sample
 
 Solution|Author(s)

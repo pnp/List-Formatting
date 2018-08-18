@@ -5,6 +5,9 @@ This example renders whole pie in gray with radius 50 and the number% (column va
 
 ![screenshot of the sample](./number-piechart.PNG)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)

@@ -13,6 +13,9 @@ An additional format is included to illustrate how to apply the same visualizati
 
 ![screenshot of the Percentage Data Bar](./screenshot-percent.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)

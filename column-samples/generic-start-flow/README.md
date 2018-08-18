@@ -13,6 +13,10 @@ To obtain a Flow's ID:
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to any column type
+- The list is expected to have an associated Flow, the ID of this flow needs to be included in the `actionParams` for the button
+
 ## Sample
 
 Solution|Author(s)

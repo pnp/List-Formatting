@@ -41,6 +41,17 @@ Combining more than one of the above formats in a single listview can easily tra
 
 ![Combined visualizations](./screenshot4.png)
 
+## View requirements
+
+### ryg-status.json
+- This format should be applied to a text or choice field with values of Green, Yellow, Red, or Amber
+
+### risk-score.json
+- This format should be applied to a Number column
+
+### risk-level-change-status.json
+- This format should be applied to a text or choice field with values of Down, Level, or Up
+
 ## Sample
 
 Solution|Author(s)
@@ -58,5 +69,10 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+
+## Additional notes
+None
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-project-management" />

@@ -5,6 +5,9 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)

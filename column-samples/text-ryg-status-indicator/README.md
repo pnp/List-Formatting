@@ -7,6 +7,9 @@ This sample displays a traffic light style (Red-Yellow-Green) status indicator b
 
 > The text values for the column are expected to be Red, Yellow, or Green. Any other values won't be shown.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be Green, Yellow, Red, or anything else
+
 ## Sample
 
 Solution|Author(s)

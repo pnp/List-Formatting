@@ -1,9 +1,12 @@
-# title of the sample
+# Title of the sample
 
 ## Summary
-Short summary on functionality and used technologies.
+Short summary on functionality and details to help explain the format.
 
-[picture of the web part in action]
+[picture of the format in action]
+
+## View requirements
+- Details about the types of column being referenced
 
 ## Sample
 

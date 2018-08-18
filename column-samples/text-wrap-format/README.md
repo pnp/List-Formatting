@@ -5,6 +5,9 @@ With modern document library and list, Name or Title column is no longer showing
 
 ![screenshot of the sample](./text-wrap-format.png)
 
+## View requirements
+- This format can be applied to any column type (but is intended for multi-line text fields)
+
 ## Sample
 
 Solution|Author(s)

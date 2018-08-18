@@ -6,6 +6,9 @@ This allows teachers to show smiley faces next to quiz results similar to how th
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -24,7 +27,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This sample uses the icons from the Office UI Fabric project
+This sample uses the icons from the Office UI Fabric
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 

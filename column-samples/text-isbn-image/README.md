@@ -9,6 +9,9 @@ This sample retrieves the small (S) image, but there are also medium (M) and lar
 
 > The values are expected to be the ISBN numbers for the books. However, this sample could easily be switched to utilize the OCLC, LCCN, OLID, or ID values for a given book.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be ISBN numbers corresponding to books
+
 ## Sample
 
 Solution|Author(s)

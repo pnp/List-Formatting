@@ -28,6 +28,11 @@ The difference values are in a `<span>`, separate from the `After` `<span>`, all
 |After **<** Before|Before - After|sp-field-trending--down|
 |After **=** Before|No Expression Performed||
 
+## View requirements
+- This format can be applied to any column
+- This format expects a Number column with an internal name of `After`
+- This format expects a Number column with an internal name of `Before`
+
 ## Sample
 
 Solution|Author(s)

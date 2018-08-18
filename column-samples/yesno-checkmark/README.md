@@ -5,6 +5,9 @@ This example displays a check mark when the value of a Yes/No column is equal to
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Yes/No column
+
 ## Sample
 
 Solution|Author(s)

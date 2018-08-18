@@ -7,6 +7,9 @@ This pattern is useful when you want different values to map to different levels
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values Done, In progress, In review, or Blocked
+
 ## Sample
 
 Solution|Author(s)
