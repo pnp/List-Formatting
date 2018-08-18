@@ -30,4 +30,4 @@ Version|Date|Comments
 ## Additional notes
 This sample can be applied to render, for example, product number to product icon/image.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/isbn-image-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/isbn-image-format" />

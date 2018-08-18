@@ -47,4 +47,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/person-roundimage-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/person-roundimage-format" />

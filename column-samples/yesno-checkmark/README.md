@@ -27,4 +27,4 @@ Version|Date|Comments
 
 For more information on using this custom formatting see the article [Check Mark SharePoint Modern List Column Format](http://www.constellationsolutions.com/how-to/check-mark-sharepoint-modern-list-column-format/)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/yesno-checkmark" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-checkmark" />

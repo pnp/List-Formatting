@@ -28,4 +28,4 @@ This sample uses the icons from the Office UI Fabric project
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/readme-template" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />

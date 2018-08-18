@@ -50,3 +50,4 @@ Similar technique could be used for adding any text to existing data or empty co
 
 <p><strong>THIS CODE IS PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
 
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/currency-symbol-concatenation" />

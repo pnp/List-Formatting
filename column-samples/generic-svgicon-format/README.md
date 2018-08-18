@@ -42,4 +42,4 @@ The icons used were adapted from Font Awesome which is available under the [Crea
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-svgicon-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-svgicon-format" />

@@ -25,4 +25,4 @@ Version|Date|Comments
 ## Additional notes
 With modern document library and list, Name or Title column automatically determines how many characters shown in UX. If you have long text for these columns, text is shown in partial. With classic UX, those columns are rendered in multiple-line text.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/text-wrap-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-wrap-format" />

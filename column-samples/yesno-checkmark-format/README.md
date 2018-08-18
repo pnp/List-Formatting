@@ -33,4 +33,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/yesno-checkmark-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-checkmark-format" />

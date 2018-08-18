@@ -27,4 +27,4 @@ Version|Date|Comments
 
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-piechart" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-piechart" />

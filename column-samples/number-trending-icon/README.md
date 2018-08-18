@@ -55,4 +55,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-trending-icon" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-trending-icon" />
