@@ -29,6 +29,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
 1.1|May 27, 2018|Fixed issue with 0 values and added percentage format
+1.2|August 18, 2018|Fixed issue with low value text wrapping and converted to excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -41,5 +42,7 @@ This sample is also covered in the main documentation around Column Formatting.
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
+
+> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-data-bar" />
