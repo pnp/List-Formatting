@@ -1,19 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
-  "txtContent": "@currentField.title",
+  "txtContent": "@currentField",
   "attributes": {
     "class": {
       "operator": "?",
       "operands": [
         {
-          "operator": "==",
+          "operator": "<=",
           "operands": [
-            "@me",
-            "@currentField.email"
+            "[$DueDate]",
+            "@now"
           ]
         },
-        "ms-fontColor-themePrimary ms-fontWeight-semibold",
+        "ms-fontColor-redDark ms-fontWeight-semibold",
         ""
       ]
     }

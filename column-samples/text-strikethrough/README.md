@@ -3,6 +3,8 @@
 ## Summary
 Classic task lists add a strikethrough style to the task name when the task is marked as completed. This sample shows how to achieve this in a modern list view.
 
+> If this is NOT the title field, then the `ms-fontColor-neutralPrimary` class can be removed to ensure styles match.
+
 ![screenshot of the sample](./screenshot.png)
 
 ## View requirements
@@ -27,6 +29,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-None
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-strikethrough" />
