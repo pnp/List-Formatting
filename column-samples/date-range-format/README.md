@@ -5,6 +5,8 @@ This example colors the current field red when the value inside an item's DueDat
 
 ![screenshot of the sample](./screenshot.png)
 
+> Although the color can be specified directly in a style property, the [UI Fabric](https://developer.microsoft.com/en-us/fabric#/styles/colors) `ms-fontColor-redDark` class is used to ensure the color matches the defined Office styles.
+
 ## Sample
 
 Solution|Author(s)
@@ -17,6 +19,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
 1.1|March 22, 2018|Minor color adjustment
+1.2|August 17, 2018|Changed color from style to class
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -24,7 +27,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This sample is also covered in the main documentation around the Column Formatting
+This sample is also covered in the main documentation around Column Formatting
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
