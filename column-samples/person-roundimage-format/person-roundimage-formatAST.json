@@ -14,7 +14,13 @@
         {
           "elmType": "img",
           "attributes": {
-            "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + @currentField.email",
+            "src": {
+              "operator": "+",
+              "operands": [
+                "/_layouts/15/userphoto.aspx?size=S&accountname=",
+                "@currentField.email"
+              ]
+            },
             "title": "@currentField.title"
           },
           "style": {
