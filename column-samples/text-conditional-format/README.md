@@ -21,7 +21,7 @@ text-conditional-format.json | SharePoint Team
 Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
-1.2|August 20, 2018|Switched to Excel-style expression, added theme fontColor, fixed issue with "Has Issues" status
+1.1|August 20, 2018|Switched to Excel-style expression, added theme fontColor, fixed issue with "Has Issues" status
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
