@@ -1,14 +1,7 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "img",
   "attributes": {
-    "src": {
-      "operator": "+",
-      "operands": [
-        "http://covers.openlibrary.org/b/isbn/",
-        "@currentField",
-        "-S.jpg"
-      ]
-    }
+    "src": "='http://covers.openlibrary.org/b/isbn/' + @currentField + '-S.jpg'"
   }
 }
