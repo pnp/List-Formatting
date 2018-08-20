@@ -5,6 +5,13 @@
       "font-weight": "bold"
     },
     "attributes": {
-      "iconName": "=if(@currentField, 'CheckMark', '')"
+      "iconName": {
+        "operator": "?",
+        "operands": [
+          "@currentField",
+          "CheckMark",
+          ""
+        ]
+      }
     }
   }
