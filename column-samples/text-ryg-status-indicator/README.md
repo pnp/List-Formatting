@@ -22,6 +22,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 27, 2017|Initial release
 1.1|March 22, 2018|Simplified logic
+1.2|August 20, 2018|Updated to use Excel-style expressions and theme classes
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -31,5 +32,7 @@ Version|Date|Comments
 ## Additional notes
 
 For more information on using this custom formatting see the article [SharePoint Modern List Traffic Light (Red-Yellow-Green) Status Indicator Column](http://www.constellationsolutions.com/how-to/sharepoint-modern-list-traffic-light-red-yellow-green-status-indicator-column/)
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-ryg-status-indicator" />
