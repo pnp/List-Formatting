@@ -4,6 +4,12 @@
   "txtContent": "@currentField",
   "attributes": {
     "target": "_blank",
-    "href": "='http://finance.yahoo.com/quote/' + @currentField"
+    "href": {
+      "operator": "+",
+      "operands": [
+        "http://finance.yahoo.com/quote/",
+        "@currentField"
+      ]
+    }
   }
 }
