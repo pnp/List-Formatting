@@ -25,6 +25,7 @@ picture-roundimage-format.json | [Chris Kent](https://twitter.com/thechriskent)
 Version|Date|Comments
 -------|----|--------
 1.0|March 21, 2018|Initial release
+1.1|August 20, 2018|Updated schema
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

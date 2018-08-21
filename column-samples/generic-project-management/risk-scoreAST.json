@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "padding-left": "14px"
+  },
+  "attributes": {
+    "class": {
+      "operator": "+",
+      "operands": [
+        {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": ">=",
+              "operands": [
+                "@currentField",
+                16
+              ]
+            },
+            "ms-bgColor-red",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": ">=",
+                  "operands": [
+                    "@currentField",
+                    12
+                  ]
+                },
+                "ms-bgColor-orangeLighter",
+                {
+                  "operator": "?",
+                  "operands": [
+                    {
+                      "operator": ">=",
+                      "operands": [
+                        "@currentField",
+                        8
+                      ]
+                    },
+                    "ms-bgColor-yellow",
+                    "ms-bgColor-green"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " ms-fontColor-white"
+      ]
+    }
+  }
+}

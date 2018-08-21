@@ -1,0 +1,149 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "position": "relative"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "attributes": {
+        "class": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "<=",
+              "operands": [
+                "[$DueDate]",
+                "@now"
+              ]
+            },
+            "sp-field-severity--severeWarning",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": ">",
+                  "operands": [
+                    {
+                      "operator": "-",
+                      "operands": [
+                        1,
+                        {
+                          "operator": "/",
+                          "operands": [
+                            {
+                              "operator": "Number()",
+                              "operands": [
+                                {
+                                  "operator": "-",
+                                  "operands": [
+                                    "[$DueDate]",
+                                    "@now"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "operator": "Number()",
+                              "operands": [
+                                {
+                                  "operator": "-",
+                                  "operands": [
+                                    "[$DueDate]",
+                                    "[$StartDate]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    0.7
+                  ]
+                },
+                "sp-field-severity--warning",
+                "sp-field-severity--good"
+              ]
+            }
+          ]
+        }
+      },
+      "style": {
+        "min-height": "inherit",
+        "width": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "<=",
+              "operands": [
+                "[$DueDate]",
+                "@now"
+              ]
+            },
+            "100%",
+            {
+              "operator": "+",
+              "operands": [
+                {
+                  "operator": "*",
+                  "operands": [
+                    {
+                      "operator": "-",
+                      "operands": [
+                        1,
+                        {
+                          "operator": "/",
+                          "operands": [
+                            {
+                              "operator": "Number()",
+                              "operands": [
+                                {
+                                  "operator": "-",
+                                  "operands": [
+                                    "[$DueDate]",
+                                    "@now"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "operator": "Number()",
+                              "operands": [
+                                {
+                                  "operator": "-",
+                                  "operands": [
+                                    "[$DueDate]",
+                                    "[$StartDate]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    100
+                  ]
+                },
+                "%"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
+      "style": {
+        "position": "absolute",
+        "left": "8px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-neutralSecondary"
+      }
+    }
+  ]
+}

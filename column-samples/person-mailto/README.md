@@ -22,7 +22,7 @@ person-mailto.json | SharePoint Team
 Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
-1.1|August 18, 2018|Changed from generic-action-button to person-mailto
+1.1|August 18, 2018|Changed from generic-action-button to person-mailto and switched to Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

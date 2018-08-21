@@ -1,77 +1,12 @@
 {
-    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
     "elmType": "div",
     "children": [
       {
         "elmType": "span",
         "attributes": {
-          "class": {
-            "operator": "?",
-            "operands": [
-              {
-                "operator": "==",
-                "operands": [
-                  "@currentField",
-                  "Down"
-                ]
-              },
-              "sp-field-trending--up",
-              {
-                "operator": "?",
-                "operands": [
-                  {
-                    "operator": "==",
-                    "operands": [
-                      "@currentField",
-                      "Up"
-                    ]
-                  },
-                  "sp-field-trending--down",
-                  ""
-                ]
-              }
-            ]
-          },
-          "iconName": {
-            "operator": "?",
-            "operands": [
-              {
-                "operator": "==",
-                "operands": [
-                  "@currentField",
-                  "Down"
-                ]
-              },
-              "SortDown",
-              {
-                "operator": "?",
-                "operands": [
-                  {
-                    "operator": "==",
-                    "operands": [
-                      "@currentField",
-                      "Up"
-                    ]
-                  },
-                  "SortUp",
-                  {
-                    "operator": "?",
-                    "operands": [
-                      {
-                        "operator": "==",
-                        "operands": [
-                          "@currentField",
-                          "Level"
-                        ]
-                      },
-                      "Split",
-                      ""
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
+          "class": "=if(@currentField == 'Down', 'sp-field-trending--up', if(@currentField == 'Up', 'sp-field-trending--down', ''))",
+          "iconName": "=if(@currentField == 'Down', 'SortDown', if(@currentField == 'Up', 'SortUp', if(@currentField == 'Level', 'Split', '')))"
         },
         "style": {
           "padding-right": "10px"

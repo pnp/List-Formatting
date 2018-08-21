@@ -24,6 +24,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 27, 2017|Initial release
 1.1|March 22, 2018|Added details about API
+1.2|August 20, 2018|Switched to Excel-style expression
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -32,5 +33,7 @@ Version|Date|Comments
 
 ## Additional notes
 This sample can be applied to render, for example, product number to product icon/image.
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/isbn-image-format" />

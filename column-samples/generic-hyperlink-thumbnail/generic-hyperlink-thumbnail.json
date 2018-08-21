@@ -1,15 +1,9 @@
 {
-    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "elmType": "a",
-    "txtContent": "[$FileRef]",
-    "attributes": {
-        "target": "_blank",
-        "href": {
-            "operator": "+",
-            "operands": [
-                "https://tenant.sharepoint.com/sites/site/_layouts/15/getpreview.ashx?resolution=3&path=https://tenant.sharepoint.com",
-                "[$FileRef]"
-            ]
-        }
-    }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "a",
+  "txtContent": "[$FileRef]",
+  "attributes": {
+    "target": "_blank",
+    "href": "='https://tenant.sharepoint.com/sites/site/_layouts/15/getpreview.ashx?resolution=3&path=https://tenant.sharepoint.com' + [$FileRef]"
+  }
 }

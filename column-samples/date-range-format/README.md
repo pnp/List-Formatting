@@ -23,7 +23,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
 1.1|March 22, 2018|Minor color adjustment
-1.2|August 17, 2018|Changed color from style to class
+1.2|August 17, 2018|Changed color from style to class and switched to Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

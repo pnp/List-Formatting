@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "class": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "<=",
+          "operands": [
+            "@currentField",
+            70
+          ]
+        },
+        "sp-field-severity--warning",
+        ""
+      ]
+    }
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "display": "inline-block",
+        "padding": "0 4px"
+      },
+      "attributes": {
+        "iconName": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "<=",
+              "operands": [
+                "@currentField",
+                70
+              ]
+            },
+            "Error",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField"
+    }
+  ]
+}

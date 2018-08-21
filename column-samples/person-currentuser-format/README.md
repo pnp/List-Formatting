@@ -21,7 +21,7 @@ person-currentuser-format.json | [Chris Kent](https://twitter.com/thechriskent)
 Version|Date|Comments
 -------|----|--------
 1.0|March 20, 2018|Initial release
-1.1|August 18, 2018|Using theme classes
+1.1|August 18, 2018|Using theme classes and switched to Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
