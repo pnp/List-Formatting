@@ -8,7 +8,7 @@ Using just the Twitter handle, Twitter profile pictures are displayed in a circl
 
 > Note: Twitter updated the [Twitter profile pictures](https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners) API and will not return an image using the "https://twitter.com/username/profileimage" request under certain circumstances. Twitter will redirect to another more cryptic image URL and return a 403 error to SharePoint. This only happens when currently logged into Twitter in the same browser session as the SharePoint session. If NOT logged into Twitter, the "https://twitter.com/username/profileimage" request succeeds.
 
-> Alternative API for returning Twitter pic is replacing "https://twitter.com/username/profileimage" with a http://avatars.io service request using the following format: "http://avatars.io/twitter/username".
+> Alternative API for returning Twitter pic is replacing "https://twitter.com/username/profileimage" with a http://avatars.io service request using the following format: "http://avatars.io/twitter/username". For examples of how to use this approach, see the [generic-socialpic](../generic-socialpic) sample.
 
 
 ### Image Size
@@ -44,6 +44,7 @@ generic-twitterpic.json | [Chris Kent](https://twitter.com/thechriskent)
 Version|Date|Comments
 -------|----|--------
 1.0|March 21, 2018|Initial release
+1.1|August 20, 2018|Updated to use Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -55,5 +56,7 @@ Version|Date|Comments
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-twitterpic" />

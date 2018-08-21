@@ -25,6 +25,9 @@ This format will work with Choice and Text columns without any changes. To use L
 
 The field values are case insensitve and should be just the user's twitter handle with no @.
 
+## View requirements
+- 
+
 ## Sample
 
 Solution|Author(s)
@@ -36,6 +39,7 @@ generic-socialpic.json | [David Warner II](https://twitter.com/davidwarnerii) / 
 Version|Date|Comments
 -------|----|--------
 1.0|July 21, 2018|Initial release
+1.1|August 20, 2018|Updated to use Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -48,4 +52,6 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-socialmedia" />
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-socialmedia" />
