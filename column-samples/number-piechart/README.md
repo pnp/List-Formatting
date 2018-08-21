@@ -22,7 +22,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|Dec 13, 2017|Initial release
 1.1|March 20, 2018|Added min & max values and fixed skewed drawing issue
-1.1|August 20, 2018|Switched to Excel-style expressions and use of theme classes
+1.2|August 20, 2018|Switched to Excel-style expressions and use of theme classes
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
