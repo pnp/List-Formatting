@@ -29,6 +29,7 @@ addsymbolonly.json | S Merchant
 Version|Date|Comments
 -------|----|--------
 1.0|January 15, 2018|Initial release
+1.1|August 20, 2018|Updated to use Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -36,7 +37,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-None
 
+> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/currency-symbol-concatenation" />
