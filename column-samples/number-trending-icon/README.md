@@ -47,6 +47,7 @@ Version|Date|Comments
 1.0|November 2, 2017|Initial release
 1.1|March 20, 2018|Added equal value styling
 1.2|June 12, 2018|With Difference format added
+1.3|August 20, 2018|Updated to use Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -59,5 +60,7 @@ This sample is also covered in the main documentation around Column Formatting.
 A similar template is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
+> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-trending-icon" />
