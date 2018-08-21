@@ -15,43 +15,16 @@
           {
             "elmType": "a",
             "attributes": {
-              "href": {
-                "operator": "+",
-                "operands": [
-                  "https://",
-                  "[$Social_x0020_Network]",
-                  ".com/",
-                  "@currentField"
-                ]
-              },
-              "title": {
-                "operator": "+",
-                "operands": [
-                  "@",
-                  "@currentField"
-                ]
-              },
+              "href": "='https://' + [$Social_x0020_Network] + '.com/' + @currentField",
+              "title": "='@' + @currentField",
               "target": "_blank"
             },
             "children": [
               {
                 "elmType": "img",
                 "attributes": {
-                  "src": {
-                    "operator": "+",
-                    "operands": [
-                      "https://avatars.io/twitter/",
-                      "@currentField",
-                      "/medium"
-                    ]
-                  },
-                  "alt": {
-                    "operator": "+",
-                    "operands": [
-                      "@",
-                      "@currentField"
-                    ]
-                  }
+                  "src": "='https://avatars.io/' + [$Social_x0020_Network] + '/' + @currentField + '/medium'",
+                  "alt": "='@' + @currentField"
                 },
                 "style": {
                   "position": "relative",

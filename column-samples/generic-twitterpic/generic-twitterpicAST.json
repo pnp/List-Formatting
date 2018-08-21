@@ -15,16 +15,41 @@
         {
           "elmType": "a",
           "attributes": {
-            "href": "='https://twitter.com/' + @currentField",
+            "href": {
+              "operator": "+",
+              "operands": [
+                "https://twitter.com/",
+                "@currentField"
+              ]
+            },
             "target": "_blank"
           },
           "children": [
             {
               "elmType": "img",
               "attributes": {
-                "src": "='https://twitter.com/' + @currentField + '/profile_image?size=normal'",
-                "title": "='@' + @currentField",
-                "alt": "='@' + @currentField"
+                "src": {
+                  "operator": "+",
+                  "operands": [
+                    "https://twitter.com/",
+                    "@currentField",
+                    "/profile_image?size=normal"
+                  ]
+                },
+                "title": {
+                  "operator": "+",
+                  "operands": [
+                    "@",
+                    "@currentField"
+                  ]
+                },
+                "alt": {
+                  "operator": "+",
+                  "operands": [
+                    "@",
+                    "@currentField"
+                  ]
+                }
               },
               "style": {
                 "position": "relative",
