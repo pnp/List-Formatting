@@ -1,10 +1,10 @@
 {
-	"$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
   "hideSelection": true,
   "hideListHeader": true,
-	"rowFormatter": {
-		"elmType": "div",
-		"style": {
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
       "display": "flex",
       "flex-wrap": "wrap",
       "align-items": "stretch",
@@ -17,7 +17,7 @@
     "attributes": {
       "class": "ms-bgColor-neutralLighter"
     },
-		"children": [
+    "children": [
       {
         "elmType": "div",
         "style": {
@@ -321,7 +321,7 @@
               "flex-direction": "row-reverse",
               "flex-wrap": "nowrap"
             },
-            "children": [          
+            "children": [
               {
                 "elmType": "button",
                 "customRowAction": {
