@@ -16,8 +16,13 @@ This is a sample of a complex format that customizes the entire display of a row
 - Disabling of selection (`hideSelection`)
 - Removal of the list header (`hideListHeader`)
 
-
 ![Light and Dark Themes](./screenshot.png)
+
+### Map API key
+
+The key provided in the template (the ugly text after `&key`) should be changed to your own FREE API Key. This will ensure you don't receive errors from over usage of a shared key. Getting a key takes 2 minutes and is FREE: [Get API Key](https://developers.google.com/maps/documentation/static-maps/get-api-key)
+
+>Note: Failure to switch the key to your own key leaves you open to future issues as other users use this key or if this key were to be revoked.
 
 ## View requirements
 
