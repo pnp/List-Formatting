@@ -1,0 +1,133 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "class": {
+      "operator": "+",
+      "operands": [
+        {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "@currentField",
+                "Done"
+              ]
+            },
+            "sp-field-severity--good",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "@currentField",
+                    "In progress"
+                  ]
+                },
+                "sp-field-severity--low",
+                {
+                  "operator": "?",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "@currentField",
+                        "In review"
+                      ]
+                    },
+                    "sp-field-severity--warning",
+                    {
+                      "operator": "?",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "@currentField",
+                            "Has issues"
+                          ]
+                        },
+                        "sp-field-severity--severeWarning",
+                        "sp-field-severity--blocked"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        " ms-fontColor-neutralSecondary"
+      ]
+    }
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "display": "inline-block",
+        "padding": "0 4px"
+      },
+      "attributes": {
+        "iconName": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "@currentField",
+                "Done"
+              ]
+            },
+            "CheckMark",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "@currentField",
+                    "In progress"
+                  ]
+                },
+                "Forward",
+                {
+                  "operator": "?",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "@currentField",
+                        "In review"
+                      ]
+                    },
+                    "Error",
+                    {
+                      "operator": "?",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "@currentField",
+                            "Has issues"
+                          ]
+                        },
+                        "Warning",
+                        "ErrorBadge"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField"
+    }
+  ]
+}

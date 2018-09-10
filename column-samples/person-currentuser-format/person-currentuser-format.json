@@ -1,21 +1,8 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
   "txtContent": "@currentField.title",
-  "style": {
-    "color": {
-      "operator": "?",
-      "operands": [
-        {
-          "operator": "==",
-          "operands": [
-            "@me",
-            "@currentField.email"
-          ]
-        },
-        "orangered",
-        "inherit"
-      ]
-    }
+  "attributes": {
+    "class": "=if(@me == @currentField.email, 'ms-fontColor-themePrimary ms-fontWeight-semibold', '')"
   }
 }

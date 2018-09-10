@@ -9,6 +9,9 @@ This sample retrieves the small (S) image, but there are also medium (M) and lar
 
 > The values are expected to be the ISBN numbers for the books. However, this sample could easily be switched to utilize the OCLC, LCCN, OLID, or ID values for a given book.
 
+## View requirements
+- This format can be applied to a text/choice column and expects the values to be ISBN numbers corresponding to books
+
 ## Sample
 
 Solution|Author(s)
@@ -21,6 +24,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 27, 2017|Initial release
 1.1|March 22, 2018|Added details about API
+1.2|August 20, 2018|Switched to Excel-style expression
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -30,4 +34,6 @@ Version|Date|Comments
 ## Additional notes
 This sample can be applied to render, for example, product number to product icon/image.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/isbn-image-format" />
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/isbn-image-format" />

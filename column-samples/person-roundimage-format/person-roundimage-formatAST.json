@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "width": "32px",
+        "height": "32px",
+        "overflow": "hidden",
+        "border-radius": "50%"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": {
+              "operator": "+",
+              "operands": [
+                "/_layouts/15/userphoto.aspx?size=S&accountname=",
+                "@currentField.email"
+              ]
+            },
+            "title": "@currentField.title"
+          },
+          "style": {
+            "position": "relative",
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "auto",
+            "margin-left": "-50%",
+            "margin-top": "-50%"
+          }
+        }
+      ]
+    }
+  ]
+}

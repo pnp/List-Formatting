@@ -1,5 +1,5 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
   "children": [
     {
@@ -14,13 +14,7 @@
         {
           "elmType": "img",
           "attributes": {
-            "src": {
-              "operator": "+",
-              "operands": [
-                "/_layouts/15/userphoto.aspx?size=S&accountname=",
-                "@currentField.email"
-              ]
-            },
+            "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + @currentField.email",
             "title": "@currentField.title"
           },
           "style": {

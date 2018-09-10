@@ -17,13 +17,14 @@ The colors used are determined by the classes applied:
 |Number of days passed between StartDate & DueDate > 70% of the total days|sp-field-severity--warning|
 |Else|sp-field-severity--good|
 
-If the `DueDate` has not yet passed, the width of the bar is determined using this formula (where 86,400,000 is the number of milliseconds in a day):
-
-`((Number(DueDate - @now) / 86400000)/(Number(DueDate - StartDate) / 86400000)) * 100`
-
-This calculates the percentage of days that have passed from the total number of days between the `StartDate` and the `DueDate`.
+If the `DueDate` has not yet passed, the width of the bar is determined by calculating the percentage of days that have passed from `StartDate` and the `DueDate`.
 
 Additionally, the value of the field (`@currentField`) is displayed when there is a value.
+
+## View requirements
+- This format can be applied to any column type
+- An additional DateTime column with an internal name of `DueDate` is expected
+- An additional DateTime column with an internal name of `StartDate` is expected
 
 ## Sample
 
@@ -36,12 +37,18 @@ date-range-rag.json | [Christopher Parker](https://twitter.com/ChrispyBites)
 Version|Date|Comments
 -------|----|--------
 1.0|June 13, 2018|Initial release
+1.1|July 25, 2018|Updated to include amber class
+1.2|August 20, 2018|Updated to use Excel-style expressions, add a theme font class, and to simplify the calculations
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+---
+
 ## Additional notes
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-range-rag" />

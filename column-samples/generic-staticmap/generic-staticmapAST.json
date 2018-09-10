@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "border": "2px solid #666666",
+    "width": "128px",
+    "height": "64px"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "attributes": {
+        "href": {
+          "operator": "+",
+          "operands": [
+            "https://www.google.com/maps/place/",
+            "@currentField",
+            "/"
+          ]
+        },
+        "target": "_blank"
+      },
+      "style": {
+        "height": "100%"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": {
+              "operator": "+",
+              "operands": [
+                "https://maps.googleapis.com/maps/api/staticmap?",
+                "center=",
+                "@currentField",
+                "&size=128x64",
+                "&key=AIzaSyDKNauYNcs4ZOq7sQMWYDyz1x82l00ek34"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
