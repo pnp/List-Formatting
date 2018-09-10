@@ -1,0 +1,56 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "span",
+        "style": {
+          "width": "14px",
+          "height": "14px",
+          "border-radius": "50%"
+        },
+        "attributes": {
+          "class": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "==",
+                "operands": [
+                  "@currentField",
+                  "Green"
+                ]
+              },
+              "ms-bgColor-green",
+              {
+                "operator": "?",
+                "operands": [
+                  {
+                    "operator": "==",
+                    "operands": [
+                      "@currentField",
+                      "Yellow"
+                    ]
+                  },
+                  "ms-bgColor-yellow",
+                  {
+                    "operator": "?",
+                    "operands": [
+                      {
+                        "operator": "==",
+                        "operands": [
+                          "@currentField",
+                          "Red"
+                        ]
+                      },
+                      "ms-bgColor-red",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }

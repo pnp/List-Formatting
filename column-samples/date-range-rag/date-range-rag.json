@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "position": "relative"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "attributes": {
+        "class": "=if([$DueDate] <= @now, 'sp-field-severity--severeWarning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7, 'sp-field-severity--warning', 'sp-field-severity--good'))"
+      },
+      "style": {
+        "min-height": "inherit",
+        "width": "=if([$DueDate] <= @now, '100%', (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate])) * 100 + '%')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
+      "style": {
+        "position": "absolute",
+        "left": "8px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-neutralSecondary"
+      }
+    }
+  ]
+}

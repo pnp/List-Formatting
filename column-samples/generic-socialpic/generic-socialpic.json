@@ -1,0 +1,44 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "margin": "2px",
+          "width": "48px",
+          "height": "48px",
+          "overflow": "hidden",
+          "border-radius": "50%"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "='https://' + [$Social_x0020_Network] + '.com/' + @currentField",
+              "title": "='@' + @currentField",
+              "target": "_blank"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "='https://avatars.io/' + [$Social_x0020_Network] + '/' + @currentField + '/medium'",
+                  "alt": "='@' + @currentField"
+                },
+                "style": {
+                  "position": "relative",
+                  "top": "50%",
+                  "left": "50%",
+                  "width": "100%",
+                  "height": "auto",
+                  "margin-left": "-50%",
+                  "margin-top": "-50%"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

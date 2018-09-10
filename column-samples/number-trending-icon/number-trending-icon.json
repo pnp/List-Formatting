@@ -1,0 +1,20 @@
+{
+  "$schema": "hhttps://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "class": "=(if([$After] > [$Before], 'sp-field-trending--up', if([$After] < [$Before], 'sp-field-trending--down', ''))",
+        "iconName": "=(if([$After] > [$Before], 'SortUp', if([$After] < [$Before], 'SortDown', ''))"
+      },
+      "style": {
+        "padding-left": "=if([$After] == [$Before], '12px', '0')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$After]"
+    }
+  ]
+}

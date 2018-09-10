@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "padding-left": "14px"
+  },
+  "attributes": {
+    "class": "=if(@currentField >= 16, 'ms-bgColor-red', if(@currentField >= 12, 'ms-bgColor-orangeLighter', if(@currentField >= 8, 'ms-bgColor-yellow', 'ms-bgColor-green'))) + ' ms-fontColor-white'"
+  }
+}

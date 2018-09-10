@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "width": "14px",
+        "height": "14px",
+        "border-radius": "50%"
+      },
+      "attributes": {
+        "class": "=if(@currentField == 'Green', 'ms-bgColor-green', if(@currentField == 'Yellow', 'ms-bgColor-yellow', if(@currentField == 'Red', 'ms-bgColor-red', '')))"
+      }
+    }
+  ]
+}

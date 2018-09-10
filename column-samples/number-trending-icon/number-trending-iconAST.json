@@ -1,0 +1,85 @@
+{
+  "$schema": "hhttps://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "class": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": ">",
+              "operands": [
+                "[$After]",
+                "[$Before]"
+              ]
+            },
+            "sp-field-trending--up",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "<",
+                  "operands": [
+                    "[$After]",
+                    "[$Before]"
+                  ]
+                },
+                "sp-field-trending--down",
+                ""
+              ]
+            }
+          ]
+        },
+        "iconName": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": ">",
+              "operands": [
+                "[$After]",
+                "[$Before]"
+              ]
+            },
+            "SortUp",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "<",
+                  "operands": [
+                    "[$After]",
+                    "[$Before]"
+                  ]
+                },
+                "SortDown",
+                ""
+              ]
+            }
+          ]
+        }
+      },
+      "style": {
+        "padding-left": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$After]",
+                "[$Before]"
+              ]
+            },
+            "12px",
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$After]"
+    }
+  ]
+}

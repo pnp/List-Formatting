@@ -1,0 +1,20 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "txtContent": "",
+    "attributes": {
+      "class": "=if(@currentField == '', 'sp-field-severity--blocked', if(@currentField, 'sp-field-severity--good', 'sp-field-severity--low')) + ' ms-fontColor-neutralSecondary'"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "style": {
+          "display": "inline-block",
+          "padding": "0 4px"
+        },
+        "attributes": {
+          "iconName": "=if(@currentField == '', 'ErrorBadge', if(@currentField, 'CheckMark', ''))"
+        }
+      }
+    ]
+  }

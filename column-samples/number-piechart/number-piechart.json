@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "padding": "4px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "inline-block",
+        "border-radius": "100%",
+        "fill": "#0078d4",
+        "width": "100px",
+        "height": "100px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralLight"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "='M50,50 L50,0, A50,50 0 ' + if(@currentField <= 0.5, '0', '1') + ',1 ' + toString(50 + (sin(6.2831853 * if(@currentField >= 1, 0.9999, if(@currentField < 0, 0, @currentField))) * 50)) + ',' + toString(50 - (cos(6.2831853 * if(@currentField >= 1, 0.9999, if(@currentField < 0, 0, @currentField))) * 50)) + ' z'"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "left": "-69px",
+        "top": "30px",
+        "white-space": "nowrap"
+      },
+      "attributes": {
+        "class": "ms-fontColor-neutralPrimary ms-fontWeight-light ms-fontSize-xl"
+      },
+      "txtContent": "=toString(@currentField * 100) + '%'"
+    }
+  ]
+}

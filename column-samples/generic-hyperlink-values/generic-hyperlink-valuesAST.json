@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "a",
+  "txtContent": "@currentField",
+  "attributes": {
+    "target": "_blank",
+    "href": {
+      "operator": "+",
+      "operands": [
+        "http://finance.yahoo.com/quote/",
+        "@currentField"
+      ]
+    }
+  }
+}

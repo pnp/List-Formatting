@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "display": "inline-block",
+        "padding": "0 2px"
+      },
+      "attributes": {
+        "iconName": "=if(@currentField >= 90, 'Emoji', if(@currentField >= 75, 'Emoji2', if(@currentField >= 60, 'EmojiNeutral', if(@currentField >= 0, 'EmojiDisappointed', 'Unknown'))))"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField"
+    }
+  ]
+}

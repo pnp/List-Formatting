@@ -1,0 +1,20 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "span",
+        "attributes": {
+          "class": "=if(@currentField == 'Down', 'sp-field-trending--up', if(@currentField == 'Up', 'sp-field-trending--down', ''))",
+          "iconName": "=if(@currentField == 'Down', 'SortDown', if(@currentField == 'Up', 'SortUp', if(@currentField == 'Level', 'Split', '')))"
+        },
+        "style": {
+          "padding-right": "10px"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "@currentField"
+      }
+    ]
+  }

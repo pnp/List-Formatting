@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
+      "style": {
+        "padding-left": "8px",
+        "white-space": "nowrap"
+      }
+    }
+  ],
+  "attributes": {
+    "class": "sp-field-dataBars"
+  },
+  "style": {
+    "padding": "0",
+    "width": "=if(@currentField >= 20, '100%', (@currentField * 5) + '%')"
+  }
+}
