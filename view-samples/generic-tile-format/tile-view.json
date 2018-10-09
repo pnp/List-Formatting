@@ -44,7 +44,7 @@
               {
                 "elmType": "div",
                 "attributes": {
-                  "iconName": "[$j9js]",
+                  "iconName": "[$Icon]",
                   "class": "ms-fontSize-su"
                 }
               }
