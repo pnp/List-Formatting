@@ -1,0 +1,68 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Boolean",
+      "internalName": "RequiresSignOff",
+      "displayName": "Requires Sign Off",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "DateTime",
+      "internalName": "SignOffDueDate",
+      "displayName": "Due Date",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Text",
+      "internalName": "SignOffStatus",
+      "displayName": "Sign Off Status",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSPList",
+      "listName": "Documents",
+      "templateType": 101,
+      "subactions": [
+        {
+          "verb": "addSiteColumn",
+          "internalName": "RequiresSignOff",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "SignOffDueDate",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "SignOffStatus",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPView",
+          "name": "All Documents - customized",
+          "viewFields": [
+            "LinkFilename",
+            "Editor",
+            "Modified",
+            "RequiresSignOff",
+            "SignOffDueDate",
+            "SignOffStatus"
+          ],
+          "query": "",
+          "rowLimit": 100,
+          "isPaged": true,
+          "makeDefault": true
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
