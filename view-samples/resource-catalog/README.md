@@ -10,12 +10,12 @@ SharePoint lists are excellent places to store information.  This example demons
 
 The view must include these columns:
 
-###Standard columns
+### Standard columns
 
 - LinkTitle
 - Modified
 
-###Custom columns
+### Custom columns
 
 Column Name|Type
 -----------|----
@@ -31,7 +31,7 @@ This sample includes a site script ([create-list.json](create-list.json)) that c
 
 See the [SharePoint site design and site script overview article](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview) to learn how to use the site script.
 
-###Authors
+### Authors
 
 - Tyler Lui (Canviz) @TylerLu
 - Justin So (Canviz)

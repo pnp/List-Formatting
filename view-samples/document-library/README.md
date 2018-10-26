@@ -4,7 +4,7 @@
 
 SharePoint is at its best when using lightweight structure and process to organize content and keep things moving forward.  New to Document Libraries is an out of the box Flow that allows you to quickly request a member of your team to sign off on a document in a Dcument Library.  This sample defines a custom view to bring focus to the files that need to be approved.  It also provides a better visual indication of where documents are in the process and which ones require action.
 
-###Desktop and tablet view
+### Desktop and tablet view
 
 ![Document Library Sample](images/document-library.jpg)
 
@@ -12,13 +12,13 @@ SharePoint is at its best when using lightweight structure and process to organi
 
 The view must include these columns:
 
-###Standard columns
+### Standard columns
 
 - LinkFilename
 - Editor
 - Modified
 
-###Custom columns
+### Custom columns
 
 Column Name|Type
 -----------|----
@@ -73,7 +73,7 @@ The View Formatter JSON ([card-format.json](card-format.json)) defines a button 
                 },
 ````
 
-###Authors
+### Authors
 
 - Tyler Lui (Canviz) @TylerLu
 - Justin So (Canviz)
