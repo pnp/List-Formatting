@@ -1,0 +1,57 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": "true",
+  "hideColumnHeader": "true",
+  "rowFormatter": {
+    "elmType": "a",
+    "attributes": {
+      "href": "[$URL]",
+      "target": "=if([$NewTab] == 'Yes', '_blank', '')"
+    },
+    "style": {
+      "float": "left"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover"
+        },
+        "style": {
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "min-width": "180px",
+          "min-height": "150px",
+          "margin-right": "10px",
+          "margin-top": "10px",
+          "box-shadow": "2px 2px 4px darkgrey"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "text-align": "center",
+              "margin": "auto"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "sp-row-title "
+                },
+                "txtContent": "[$Title]"
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "[$Icon]",
+                  "class": "ms-fontSize-su"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

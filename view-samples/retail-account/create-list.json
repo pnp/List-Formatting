@@ -1,0 +1,54 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "createSPList",
+      "listName": "Retail Accounts",
+      "templateType": 100,
+      "subactions": [
+        {
+          "verb": "addSPField",
+          "fieldType": "User",
+          "displayName": "Account Manager",
+          "internalName ": "Account_x0020_Manager",
+          "isRequired": false,
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Type=\"Currency\" DisplayName=\"Sales Target\" StaticName=\"Sales_x0020_Target\" Name=\"Sales_x0020_Target\" Required=\"FALSE\" Decimals=\"0\"></Field>",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPField",
+          "fieldType": "Boolean",
+          "displayName": "Holiday Display Ready",
+          "internalName ": "Holiday_x0020_Display_x0020_Read",
+          "isRequired": false,
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Type=\"Location\" DisplayName=\"Location\" StaticName=\"Location\" Name=\"Location\" Required=\"FALSE\"></Field>",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPView",
+          "name": "All Items - customized",
+          "viewFields": [
+            "LinkTitle",
+            "Account_x0020_Manager",
+            "Sales_x0020_Target",
+            "Holiday_x0020_Display_x0020_Read",
+            "Location"
+          ],
+          "query": "",
+          "rowLimit": 100,
+          "isPaged": true,
+          "makeDefault": true
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
