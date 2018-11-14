@@ -1,0 +1,517 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "debugMode": "false",
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-card"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left",
+          "color": "#f99500",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "vf-StudentGrades-StudentName"
+            },
+            "style": {
+              "color": "#772d96",
+              "font-size": "20px",
+              "margin-bottom": "10px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "vf-StudentGrades-NumericGradeLabel"
+                },
+                "txtContent": "Student Name: "
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "vf-StudentGrades-NumericGradeValue"
+                },
+                "style": {
+                  "font-weight": "bold"
+                },
+                "txtContent": "=toString([$Title])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "vf-StudentGrades-MasterWrapper"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "vf-StudentGrades-Q1Grade-Wrapper vf-StudentGrades-Common-Wrapper"
+                },
+                "style": {
+                  "float": "left",
+                  "width": "22%",
+                  "height": "155px",
+                  "border": "1px solid black",
+                  "margin-right": "1%",
+                  "padding-left": "1%",
+                  "background-color": "#772d96"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-QuarterLabel"
+                    },
+                    "style": {
+                      "text-align": "center",
+                      "font-weight": "bold",
+                      "font-variant": "petite-caps"
+                    },
+                    "txtContent": "1st Quarter"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-LetterGrade-Wrapper"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGradeLabel"
+                        },
+                        "style": {
+                          "text-align": "center",
+                          "font-weight": "bold",
+                          "display": "none"
+                        },
+                        "txtContent": "Q1 Letter Grade"
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGrade"
+                        },
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "55px",
+                          "text-align": "center"
+                        },
+                        "txtContent": "=( if([$Q1NumericGrade] >= 99, 'A+', if([$Q1NumericGrade] >= 90, 'A', if([$Q1NumericGrade] >= 88, 'B+', if([$Q1NumericGrade] >= 80, 'B', if([$Q1NumericGrade] >= 78, 'C+', if([$Q1NumericGrade] >= 70, 'C', if([$Q1NumericGrade] >= 69, 'D+', if([$Q1NumericGrade] >= 60, 'D', if([$Q1NumericGrade] >= 0, 'F', 'Next'))))))))) )"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-NumericGrade"
+                    },
+                    "style": {
+                      "font-size": "15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeLabel"
+                        },
+                        "txtContent": "Q1 Numeric Grade: "
+                      },
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeValue"
+                        },
+                        "style": {
+                          "font-weight": "bold"
+                        },
+                        "txtContent": "=toString([$Q1NumericGrade]) + '%'"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "vf-StudentGrades-Q2Grade-Wrapper vf-StudentGrades-Common-Wrapper"
+                },
+                "style": {
+                  "float": "left",
+                  "width": "22%",
+                  "height": "155px",
+                  "border": "1px solid black",
+                  "margin-right": "1%",
+                  "padding-left": "1%",
+                  "background-color": "#772d96"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-QuarterLabel"
+                    },
+                    "style": {
+                      "text-align": "center",
+                      "font-weight": "bold",
+                      "font-variant": "petite-caps"
+                    },
+                    "txtContent": "2nd Quarter"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-LetterGrade-Wrapper"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGradeLabel"
+                        },
+                        "style": {
+                          "text-align": "center",
+                          "font-weight": "bold",
+                          "display": "none"
+                        },
+                        "txtContent": "Q2 Letter Grade"
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGrade"
+                        },
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "55px",
+                          "text-align": "center"
+                        },
+                        "txtContent": "=( if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 99, 'A+', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 90, 'A', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 88, 'B+', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 80, 'B', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 78, 'C+', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 70, 'C', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 69, 'D+', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 60, 'D', if(([$Q1NumericGrade] + [$Q2NumericGrade])/2 >= 0, 'F', 'Next'))))))))) )"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-NumericGrade"
+                    },
+                    "style": {
+                      "font-size": "15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeAvg"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q1-Q2 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString(([$Q1NumericGrade] + [$Q2NumericGrade])/2) + '%'"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeQuarter"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q2 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString([$Q2NumericGrade]) + '%'"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "vf-StudentGrades-Q3Grade-Wrapper vf-StudentGrades-Common-Wrapper"
+                },
+                "style": {
+                  "float": "left",
+                  "width": "22%",
+                  "height": "155px",
+                  "border": "1px solid black",
+                  "margin-right": "1%",
+                  "padding-left": "1%",
+                  "background-color": "#772d96"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-QuarterLabel"
+                    },
+                    "style": {
+                      "text-align": "center",
+                      "font-weight": "bold",
+                      "font-variant": "petite-caps"
+                    },
+                    "txtContent": "3rd Quarter"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-LetterGrade-Wrapper"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGradeLabel"
+                        },
+                        "style": {
+                          "text-align": "center",
+                          "font-weight": "bold",
+                          "display": "none"
+                        },
+                        "txtContent": "Q3 Letter Grade"
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGrade"
+                        },
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "55px",
+                          "text-align": "center"
+                        },
+                        "txtContent": "=( if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 99, 'A+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 90, 'A', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 88, 'B+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 80, 'B', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 78, 'C+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 70, 'C', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 69, 'D+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 60, 'D', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3 >= 0, 'F', 'Next'))))))))) )"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-NumericGrade"
+                    },
+                    "style": {
+                      "font-size": "15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeAvg"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q1-Q3 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade])/3) + '%'"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeQuarter"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q3 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString([$Q3NumericGrade]) + '%'"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "vf-StudentGrades-Q4Grade-Wrapper vf-StudentGrades-Common-Wrapper"
+                },
+                "style": {
+                  "float": "left",
+                  "width": "22%",
+                  "height": "155px",
+                  "border": "1px solid black",
+                  "margin-right": "1%",
+                  "padding-left": "1%",
+                  "background-color": "#772d96"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-QuarterLabel"
+                    },
+                    "style": {
+                      "text-align": "center",
+                      "font-weight": "bold",
+                      "font-variant": "petite-caps"
+                    },
+                    "txtContent": "4th Quarter"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-LetterGrade-Wrapper"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGradeLabel"
+                        },
+                        "style": {
+                          "text-align": "center",
+                          "font-weight": "bold",
+                          "display": "none"
+                        },
+                        "txtContent": "Q4 Letter Grade"
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-LetterGrade"
+                        },
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "55px",
+                          "text-align": "center"
+                        },
+                        "txtContent": "=( if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 99, 'A+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 90, 'A', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 88, 'B+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 80, 'B', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 78, 'C+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 70, 'C', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 69, 'D+', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 60, 'D', if(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4 >= 0, 'F', 'Next'))))))))) )"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "vf-StudentGrades-NumericGrade"
+                    },
+                    "style": {
+                      "font-size": "15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeAvg"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q1-Q4 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString(([$Q1NumericGrade] + [$Q2NumericGrade] + [$Q3NumericGrade] + [$Q4NumericGrade])/4) + '%'"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "vf-StudentGrades-NumericGradeQuarter"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeLabel"
+                            },
+                            "txtContent": "Q4 Numeric Grade: "
+                          },
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "vf-StudentGrades-NumericGradeValue"
+                            },
+                            "style": {
+                              "font-weight": "bold"
+                            },
+                            "txtContent": "=toString([$Q4NumericGrade]) + '%'"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
