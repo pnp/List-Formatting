@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Site Column Formatting JSON Definition Deployment",
+            "type": "shell",
+            "command": "powershell .\\PowerShell\\ListFormatting.Deployment.SiteColumn.ps1"
+        },
+        {
+            "label": "List Column Formatting JSON Definition Deployment",
+            "type": "shell",
+            "command": "powershell .\\PowerShell\\ListFormatting.Deployment.ListColumn.ps1"
+        },
+        {
+            "label": "List View Formatting JSON Definition Deployment",
+            "type": "shell",
+            "command": "powershell .\\PowerShell\\ListFormatting.Deployment.ListView.ps1"
+        }
+    ]
+}
