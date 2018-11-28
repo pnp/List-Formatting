@@ -6,7 +6,7 @@
     "elmType": "a",
     "attributes": {
       "href": "[$URL]",
-      "target": "=if([$NewTab] == 'Yes', '_blank', '')"
+      "target": "=if([$NewTab] == true, '_blank', '')"
     },
     "style": {
       "float": "left"
