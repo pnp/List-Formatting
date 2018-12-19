@@ -1,4 +1,4 @@
-# Bulletin Board
+# ContentType Format
 
 ## Summary
 Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is "Green" then green is used in the format. It it's Apple with a different type, red is used. Otherwise, orange is used.
