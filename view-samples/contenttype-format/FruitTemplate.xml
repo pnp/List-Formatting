@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.1.1809.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-744FC70582664ADCA6E665439E2630A8">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-744FC70582664ADCA6E665439E2630A8" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+      <pnp:SiteFields>
+        <Field Type="Choice" DisplayName="Apple Type" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Fruit" ID="{9fc50479-d0a5-4c36-a425-0ed2d08a8671}" SourceID="{31b91ae4-6787-43ce-a184-42e20fc54750}" StaticName="AppleType" Name="AppleType" CustomFormatter="">
+          <Default>Red Delicious</Default>
+          <CHOICES>
+            <CHOICE>Red Delicious</CHOICE>
+            <CHOICE>Poisoned</CHOICE>
+            <CHOICE>Green</CHOICE>
+          </CHOICES>
+        </Field>
+        <Field Type="Choice" DisplayName="Orange Type" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Fruit" ID="{045707a5-a857-42ff-9602-795688cc7a6a}" SourceID="{31b91ae4-6787-43ce-a184-42e20fc54750}" StaticName="OrangeType" Name="OrangeType" CustomFormatter="">
+          <Default>Navel</Default>
+          <CHOICES>
+            <CHOICE>Navel</CHOICE>
+            <CHOICE>Chocolate</CHOICE>
+            <CHOICE>Actually a Lemon</CHOICE>
+          </CHOICES>
+        </Field>
+      </pnp:SiteFields>
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x010004BD8C5F20AEBA4F877AFD6ED4B29A19" Name="Orange" Description="" Group="Fruit" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="045707a5-a857-42ff-9602-795688cc7a6a" Name="OrangeType" Required="true" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100524AA836B3D3C645AA562C045097A54A" Name="Apple" Description="" Group="Fruit" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="9fc50479-d0a5-4c36-a425-0ed2d08a8671" Name="AppleType" Required="true" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Fruit" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Fruit" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Fruit/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Fruit/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Fruit/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IsApplicationList="false" ReadSecurity="0" WriteSecurity="0" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100524AA836B3D3C645AA562C045097A54A" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+            <pnp:ContentTypeBinding ContentTypeID="0x010004BD8C5F20AEBA4F877AFD6ED4B29A19" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Remove="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{10CED3D3-0B10-4F16-B49C-DD02227A4ED7}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/Formatting/Lists/Fruit/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Title" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="AppleType" />
+                <FieldRef Name="OrangeType" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter><![CDATA[{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "button",
+    "customRowAction": {
+      "action": "defaultClick"
+    },
+    "attributes": {
+      "class": "='ms-bgColor-white ms-fontColor-white--hover ' + if([$ContentType]=='Apple', if([$AppleType]=='Green','ms-bgColor-greenLight--hover ms-borderColor-green','ms-bgColor-red--hover ms-borderColor-redDark'), 'ms-bgColor-orangeLighter--hover ms-borderColor-orangeLight')"
+    },
+    "style": {
+      "margin": "5px",
+      "padding": "0 5px 0 0",
+      "border-width": "3px",
+      "border-radius": "20px",
+      "border-style": "solid",
+      "cursor": "pointer",
+      "float": "left"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "='../../Shared Documents/Fruit/' + if([$ContentType]=='Apple',[$AppleType],[$OrangeType]) + '.png'"
+        },
+        "style": {
+          "height": "128px",
+          "width": "128px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=if([$ContentType]=='Apple',[$AppleType] + ' Apple', [$OrangeType] + ' Orange')",
+            "attributes": {
+              "class": "='ms-fontSize-m ms-fontWeight-regular ' + if([$ContentType]=='Apple',if([$AppleType]=='Green','ms-fontColor-green','ms-fontColor-redDark'),'ms-fontColor-orangeLight')"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "attributes": {
+              "class": "ms-fontSize-xl ms-fontWeight-semibold"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}]]></CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="9fc50479-d0a5-4c36-a425-0ed2d08a8671" Name="AppleType" DisplayName="Apple Type" />
+            <pnp:FieldRef ID="045707a5-a857-42ff-9602-795688cc7a6a" Name="OrangeType" DisplayName="Orange Type" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:Files>
+        <pnp:Directory Src="Fruit" Folder="{site}/Shared Documents/Fruit/" Overwrite="true" Level="Published" Recursive="false" IncludedExtensions="*.*" ExcludedExtensions="" MetadataMappingFile="">
+        </pnp:Directory>
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
