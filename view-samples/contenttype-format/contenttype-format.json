@@ -23,7 +23,7 @@
       {
         "elmType": "img",
         "attributes": {
-          "src": "='../../Shared Documents/Fruit/' + if([$ContentType]=='Apple',[$AppleType],[$OrangeType]) + '.png'"
+          "src": "=@currentWeb + '/Shared Documents/Fruit/' + if([$ContentType]=='Apple',[$AppleType],[$OrangeType]) + '.png'"
         },
         "style": {
           "height": "128px",

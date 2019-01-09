@@ -14,8 +14,6 @@ ContentType is available as long as it is NOT part of the view. This is a known 
 ## List requirements
 The list has enabled mangement of Content Types and 2 custom content types have been added. Additionally, the format expects images that correspond with the choice values to be located in the Documents library on the site within the Fruit folder. Sample images have been included.
 
-> Note: The format uses the specific ContentTypeId. If you are recreating these content types manually, you'll need to update the id for the format to work properly. However, instructions to recreate these content types and the list automatically are included below.
-
 ### Apple Content Type
 |Type|Internal Name|Required|
 |---|---|:---:|
@@ -71,6 +69,7 @@ contenttype-format | [Chris Kent](https://twitter.com/thechriskent)
 Version|Date|Comments
 -------|----|--------
 1.0|December 19, 2018|Initial release
+1.1|January 9, 2019|Adjusted image src to use @currentWeb
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -80,5 +79,7 @@ Version|Date|Comments
 ## Additional notes
 
 Using the `customRowAction` with an `action` of `defaultClick` creates a great way to make your list into a master view with details easily accessible. This sample wraps the entire row in a button so that you can click anywhere in the row to open the information panel for the item
+
+The image's src attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the images will be pulled from the fruit folder in the Documents library for the site.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/contenttype-format" />

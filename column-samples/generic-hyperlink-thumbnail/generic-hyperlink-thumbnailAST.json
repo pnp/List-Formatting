@@ -7,7 +7,9 @@
     "href": {
       "operator": "+",
       "operands": [
-        "https://tenant.sharepoint.com/sites/site/_layouts/15/getpreview.ashx?resolution=3&path=https://tenant.sharepoint.com",
+        "@currentWeb",
+        "/_layouts/15/getpreview.ashx?resolution=3&path=",
+        "@currentWeb",
         "[$FileRef]"
       ]
     }
