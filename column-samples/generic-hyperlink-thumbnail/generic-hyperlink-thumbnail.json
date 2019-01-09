@@ -4,6 +4,6 @@
   "txtContent": "[$FileRef]",
   "attributes": {
     "target": "_blank",
-    "href": "='https://tenant.sharepoint.com/sites/site/_layouts/15/getpreview.ashx?resolution=3&path=https://tenant.sharepoint.com' + [$FileRef]"
+    "href": "=@currentWeb + '/_layouts/15/getpreview.ashx?resolution=3&path=' + @currentWeb + [$FileRef]"
   }
 }
