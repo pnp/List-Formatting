@@ -15,9 +15,13 @@ This format is the one you should use if you are using Office 365. The image's `
 
 This format illustrates providing a full URL (including the tenant and site). This is NOT recommended because while the image will always work regardless of level, the format will have to be manually updated to be reused. For example, to use this format in your own environment you will first have to update the tenant URL.
 
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported (SP2019).
+
 ### text-relative-image
 
 This format illustrates providing a relative link that assumes the format knows the position of the resources relative to where the format is rendered. This is NOT recommended because while the format is reusable across sites without manual updates required, the format is very fragile because it can easily break across your site depending on the relative location the format is rendered. For instance, a page using a list web part will be at a different level (relative foldering) than the list view itself.
+
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported (SP2019).
 
 ## View requirements
 - This format can be applied to a Text or Choice column
