@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "img",
+  "attributes": {
+    "src": "='https://thechriskent.sharepoint.com/sites/WarriorHorses/Shared Documents/Evilness/' + @currentField + '.png'"
+  },
+  "style": {
+    "width": "64px",
+    "height": "64px"
+  }
+}
