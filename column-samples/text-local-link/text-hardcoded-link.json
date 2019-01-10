@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "a",
+  "txtContent": "@currentField",
+  "attributes": {
+    "href": "='https://thechriskent.sharepoint.com/sites/WarriorHorses/Lists/' + @currentField",
+    "target": "_blank"
+  }
+}
