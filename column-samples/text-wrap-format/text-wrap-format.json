@@ -3,6 +3,7 @@
    "elmType": "div",
    "txtContent": "@currentField",
    "style": {
-      "white-space": "normal"
+      "white-space": "normal",
+      "padding-bottom": "8px"
    }
 }
