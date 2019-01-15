@@ -5,6 +5,8 @@ This sample uses rowFormatter element to overrides the default formatting on the
 
 ![Color status field](./tile-view.png)
 
+> IMPORTANT - This customization will not work reliably in lists with more than 30 items, because it will interfere with the infinite scrolling feature of modern lists.
+
 ## View requirements
 - The format expect the following fields:
 
