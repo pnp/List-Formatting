@@ -20,7 +20,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|December 13, 2017|Initial release
 1.1|August 20, 2018|Schema update
-1.2|January 15, 2018|Added padding
+1.2|January 16, 2018|Added padding
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
