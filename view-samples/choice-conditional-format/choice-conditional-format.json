@@ -1,0 +1,81 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "attributes": {
+        "class": "sp-row-card"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "text-align": "left"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "attributes": {
+                "class": "sp-row-title"
+              },
+              "txtContent": "[$Title]"
+            },
+            {
+              "elmType": "div",
+              "attributes": {
+                "class": "sp-row-listPadding"
+              },
+              "txtContent": "[$Status]"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "background-color": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "Awaiting Approval",
+                "[$Status]"
+              ]
+            },
+            "red",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "Ready to Deploy",
+                    "[$Status]"
+                  ]
+                },
+                "yellow",
+                {
+                  "operator": "?",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "Complete",
+                        "[$Status]"
+                      ]
+                    },
+                    "green",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "width": "100%"
+      }
+    }
+  }
