@@ -34,8 +34,8 @@
                 "src": "=if([$ContentType]=='Document', @currentWeb + '/_layouts/15/getpreview.ashx?path='+[$FileRef], 'https://spoprod-a.akamaihd.net/files/fabric/assets/item-types/96/archive.png')"
               },
               "style": {
-                "width": "190px",
-                "height": "190px"
+                "width": "auto",
+                "height": "300px"
               },
               "children": [
                 {
