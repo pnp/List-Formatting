@@ -6,7 +6,7 @@ This sample uses rowFormatter element to overrides the default formatting on the
 
 
 ## View requirements
-- Allow management of content types is turned on under Library Advanced Settings.
+- "Allow management of content types" is turned on under Library --> Advanced Settings.
 
 
 The size of the tile can be adjusted by chaing the width and height values.
