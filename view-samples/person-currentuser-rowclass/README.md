@@ -8,7 +8,9 @@ By using the Office UI Fabric color classes for themes, we can ensure our format
 ![Light and Dark Themes](./screenshot.png)
 
 ## View requirements
-- This format expects a person column with an internal name of `AssignedTo` to be part of the view
+- This format expects a person column with an internal name of `AssignedTo` to be part of the view 
+
+> Note - This format is intended only for single-select person fields. There is a slightly more complicated sample ([multi-person-currentuser-rowclass](../multi-person-currentuser-rowclass)) that works for both single and multi-select person columns.
 
 ## Sample
 
@@ -40,5 +42,6 @@ Column Format samples shown above:
 - [person-currentuser-format](../../column-samples/person-currentuser-format)
 - [date-range-format](../../column-samples/date-range-format)
 
+A similar sample is available for use with multi-select person fields: [multi-person-currentuser-rowclass](../multi-person-currentuser-rowclass)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/person-currentuser-rowclass" />
