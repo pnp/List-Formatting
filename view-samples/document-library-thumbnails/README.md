@@ -12,6 +12,8 @@ The size of the tiles can be adjusted by changing the width and height values.
 
 ## Sample
 
+![Responsive Screenshot](./document-library-thumbnails.png)
+
 Solution|Author(s)
 --------|---------
 document-library-thumbnails.json | [Ravi Chandra](https://twitter.com/ravi_maniyani)
@@ -25,6 +27,6 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-![Responsive Screenshot](./document-library-thumbnails.png)
+
 
 
