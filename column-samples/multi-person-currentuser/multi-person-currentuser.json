@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "=join(@currentField.title, ', ')",
+  "attributes": {
+    "class": "=if(indexOf(join(@currentField.email,';'), @me) != -1, 'ms-fontColor-themePrimary ms-fontWeight-semibold', '')"
+  }
+}
