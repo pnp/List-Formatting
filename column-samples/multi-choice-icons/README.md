@@ -1,7 +1,7 @@
 # Text StartsWith Calling Codes
 
 ## Summary
-This sample demonstrates using the `indexOf` function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.
+This sample demonstrates using the `indexOf` function (O365 only) to test if a text value starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.
 
 ![screenshot of the sample](./screenshot.png)
 
