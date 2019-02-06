@@ -47,7 +47,7 @@
                   {
                     "elmType": "img",
                     "attributes": {
-                      "src": "=if([$Picture] == '', '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
+                      "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
                       "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
                     },
                     "style": {
