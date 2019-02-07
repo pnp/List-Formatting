@@ -1,8 +1,4 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-  "elmType": "div",
-  "txtContent": "=join(@currentField.title, ', ')",
-  "attributes": {
-    "class": "=if(indexOf(join(@currentField.email,';'), @me) != -1, 'ms-fontColor-themePrimary ms-fontWeight-semibold', '')"
-  }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "additionalRowClass": "=if(indexOf(join([$AssignedTo.email],';'), @me) != -1, 'ms-bgColor-themeLight ms-bgColor-themeLighterAlt--hover', '')"
 }
