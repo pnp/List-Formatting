@@ -13,7 +13,6 @@
       "max-width": "420px",
       "border-radius": "8px",
       "box-shadow": "4px 4px 8px lightblue"
-      
     },
     "attributes": {
       "class": "ms-bgColor-themeLighterAlt"
@@ -104,12 +103,10 @@
                   }
                 ]
               }
-              
             ]
           }
         ]
       },
-      
       {
         "elmType": "div",
         "style": {
@@ -126,16 +123,16 @@
               "flex-grow": "1"
             },
             "children": [
-                 {
-                    "elmType": "span",
-                     "style": {
+              {
+                "elmType": "span",
+                "style": {
                   "display": "=if([$Birthday] <= @now,'block','none')"
                 },
-                    "attributes": {
-                      "iconName": "BirthdayCake"
-              }
+                "attributes": {
+                  "iconName": "BirthdayCake"
+                }
               },
-               {
+              {
                 "elmType": "span",
                 "style": {
                   "display": "block"
@@ -150,7 +147,7 @@
                 "style": {
                   "display": "=if([$Birthday] == '', 'none', 'block')",
                   "padding-left": "0px",
-                  "font-size":"14px"
+                  "font-size": "14px"
                 },
                 "txtContent": "[$BirthMonthDay]",
                 "attributes": {
@@ -170,7 +167,6 @@
               }
             ]
           },
-          
           {
             "elmType": "div",
             "style": {
@@ -186,15 +182,14 @@
                   "action": "mailto:[$Email]"
                 },
                 "elmType": "a",
-                    "style": {
-                      "display": "=if([$Email] == '', 'none', 'block')",
-                      "width": "100%"
-                    },
-                    "attributes": {
-                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
-                      "href": "='mailto:' + [$Email] + '?subject=Happy Birthday!\r\n'"
-                    },
-
+                "style": {
+                  "display": "=if([$Email] == '', 'none', 'block')",
+                  "width": "100%"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                  "href": "='mailto:' + [$Email] + '?subject=Happy Birthday!\r\n'"
+                },
                 "style": {
                   "border": "none",
                   "background-color": "transparent",
@@ -209,7 +204,6 @@
                   }
                 ]
               }
-              
             ]
           }
         ]
