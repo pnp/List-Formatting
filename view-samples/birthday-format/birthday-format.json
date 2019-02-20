@@ -110,7 +110,6 @@
       {
         "elmType": "div",
         "style": {
-          "flex-grow": "1",
           "display": "flex",
           "flex-direction": "column",
           "max-width": "310px",
@@ -177,23 +176,13 @@
             },
             "children": [
               {
-                "elmType": "button",
-                "customRowAction": {
-                  "action": "mailto:[$Email]"
-                },
                 "elmType": "a",
                 "style": {
-                  "display": "=if([$Email] == '', 'none', 'block')",
-                  "width": "100%"
+                  "display": "=if([$Email] == '', 'none', 'block')"
                 },
                 "attributes": {
                   "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
                   "href": "='mailto:' + [$Email] + '?subject=Happy Birthday!\r\n'"
-                },
-                "style": {
-                  "border": "none",
-                  "background-color": "transparent",
-                  "cursor": "pointer"
                 },
                 "children": [
                   {
