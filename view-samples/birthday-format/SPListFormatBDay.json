@@ -1,0 +1,219 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "align-items": "stretch",
+      "padding": "8px",
+      "margin-bottom": "25px",
+      "max-width": "420px",
+      "border-radius": "8px",
+      "box-shadow": "4px 4px 8px lightblue"
+      
+    },
+    "attributes": {
+      "class": "ms-bgColor-themeLighterAlt"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "align-items": "stretch",
+          "max-width": "310px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "100px",
+                  "height": "100px",
+                  "overflow": "hidden",
+                  "border-radius": "50%",
+                  "margin-right": "8px"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
+                      "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
+                    },
+                    "style": {
+                      "position": "relative",
+                      "top": "50%",
+                      "left": "50%",
+                      "width": "100%",
+                      "height": "auto",
+                      "margin-left": "-50%",
+                      "margin-top": "-50%"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "flex-wrap": "nowrap",
+              "align-items": "stretch",
+              "max-width": "200px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "display": "block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$JobTitle]",
+                    "style": {
+                      "display": "=if([$JobTitle] == '', 'none', 'block')"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                    }
+                  }
+                ]
+              }
+              
+            ]
+          }
+        ]
+      },
+      
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-direction": "column",
+          "max-width": "310px",
+          "min-width": "95px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1"
+            },
+            "children": [
+                 {
+                    "elmType": "span",
+                     "style": {
+                  "display": "=if([$Birthday] <= @now,'block','none')"
+                },
+                    "attributes": {
+                      "iconName": "BirthdayCake"
+              }
+              },
+               {
+                "elmType": "span",
+                "style": {
+                  "display": "block"
+                },
+                "attributes": {
+                  "class": "ms-fontWeight-semibold ms-fontSize-m"
+                },
+                "txtContent": "=if([$Birthday] <= @now,'Happy Birthday!', 'Next Birthday')"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Birthday] == '', 'none', 'block')",
+                  "padding-left": "0px",
+                  "font-size":"14px"
+                },
+                "txtContent": "[$BirthMonthDay]",
+                "attributes": {
+                  "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                }
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Birthday] == '', 'block', 'none')",
+                  "padding-left": "8px"
+                },
+                "txtContent": "No Birthday Entered",
+                "attributes": {
+                  "class": "ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary"
+                }
+              }
+            ]
+          },
+          
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none",
+              "display": "flex",
+              "flex-direction": "row-reverse",
+              "flex-wrap": "nowrap"
+            },
+            "children": [
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "mailto:[$Email]"
+                },
+                "elmType": "a",
+                    "style": {
+                      "display": "=if([$Email] == '', 'none', 'block')",
+                      "width": "100%"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                      "href": "='mailto:' + [$Email] + '?subject=Happy Birthday!\r\n'"
+                    },
+
+                "style": {
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Mail"
+                    }
+                  }
+                ]
+              }
+              
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
