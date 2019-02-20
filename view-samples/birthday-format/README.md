@@ -29,7 +29,7 @@ You need the BirthMonthDay Calculated Column so that it only shows the current m
 
 This sample relies on having a View set up which filters to only show items where the Birthday is greater than or equal to the current date. Make sure to apply the necessary filters in your view for this to work.  
 
-To make this a truly automated process, you can use Microsoft Flow to pull Birthday information from your Office 365 User Profiles and populate the SharePoint list with those values.  This is a good blog post which shows how to do that: https://techcommunity.microsoft.com/t5/SharePoint/Celebrating-milestones-with-SharePoint-Flow-and-Delve/td-p/175433
+To make this a truly automated process, you can use Microsoft Flow to pull Birthday information from your Office 365 User Profiles and populate the SharePoint list with those values.  This is a good blog post which shows how to do that: [Celebrating milestones with SharePoint, Flow, and Delve](https://techcommunity.microsoft.com/t5/SharePoint/Celebrating-milestones-with-SharePoint-Flow-and-Delve/td-p/175433)
 
 ## Sample
 
