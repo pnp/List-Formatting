@@ -9,7 +9,9 @@ By usng the `@rowIndex` keyword, the alternating style will be applied regardles
 
 ![Alternating Rows with sorting](./screenshotSorted.png)
 
-By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
+![Alternating Rows with filtering](./screenshotFiltered.png)
+
+By using the [Office UI Fabric color classes](https://developer.microsoft.com/fabric#/styles/colors) for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
 ## View requirements
 - None, this format will apply to any view!
