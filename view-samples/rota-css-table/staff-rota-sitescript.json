@@ -1,0 +1,83 @@
+{
+  "actions": [
+    {
+      "verb": "createSPList",
+      "listName": "Manager on Duty",
+      "templateType": 100,
+      "subactions": [
+        {
+          "verb": "setDescription",
+          "description": "A list to keep track of which staff are on duty for a particular day"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\" DisplayName=\"Title\" Required=\"FALSE\" Hidden=\"TRUE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Title\" FromBaseType=\"TRUE\" CustomFormatter=\"\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\" />"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Name=\"Shift1\" FromBaseType=\"FALSE\" Type=\"MultiChoice\" DisplayName=\"Shift 1\" Required=\"FALSE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" FillInChoice=\"TRUE\" ID=\"{78d998e1-0c4b-4f5a-a27c-86c131c95145}\" StaticName=\"Shift1\"><CHOICES><CHOICE>Adam</CHOICE><CHOICE>Joe</CHOICE><CHOICE>Sarah</CHOICE><CHOICE>Debbie</CHOICE><CHOICE>Roy</CHOICE></CHOICES></Field>"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Name=\"Shift2\" FromBaseType=\"FALSE\" Type=\"MultiChoice\" DisplayName=\"Shift 2\" Required=\"FALSE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" FillInChoice=\"TRUE\" ID=\"{e9dd3147-bbf9-4a1b-a1d2-d714eb221d92}\" StaticName=\"Shift2\"><CHOICES><CHOICE>Adam</CHOICE><CHOICE>Joe</CHOICE><CHOICE>Sarah</CHOICE><CHOICE>Debbie</CHOICE><CHOICE>Roy</CHOICE></CHOICES></Field>"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Name=\"Shift3\" FromBaseType=\"FALSE\" Type=\"MultiChoice\" DisplayName=\"Shift 3\" Required=\"FALSE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" FillInChoice=\"TRUE\" ID=\"{81e1510b-3bc8-498f-b004-c063ef8adfec}\" StaticName=\"Shift3\"><CHOICES><CHOICE>Adam</CHOICE><CHOICE>Joe</CHOICE><CHOICE>Sarah</CHOICE><CHOICE>Debbie</CHOICE><CHOICE>Roy</CHOICE></CHOICES></Field>"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field DisplayName=\"Date\" FriendlyDisplayFormat=\"Disabled\" Format=\"DateOnly\" Title=\"Date\" Type=\"DateTime\" StaticName=\"Date\" Name=\"Date\" ID=\"{67489fdc-a11a-4fc3-b0a8-afaab27049d4}\" />"
+        },
+        {
+          "verb": "addSPFieldXml",
+          "schemaXml": "<Field Type=\"Calculated\" DisplayName=\"Day\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" Format=\"DateOnly\" LCID=\"2057\" ResultType=\"Text\" ReadOnly=\"TRUE\" StaticName=\"Day\" Name=\"Day\" CustomFormatter=\"\" Required=\"FALSE\" ID=\"{aae5ca32-0d2f-4c15-82ae-e24a42739f1c}\"><Formula>=TEXT(Date,\"DDDD\")</Formula></Field>"
+        },
+        {
+          "verb": "addSPView",
+          "name": "All Items",
+          "viewFields": [
+            "LinkTitle",
+            "Shift1",
+            "Shift2",
+            "Shift3",
+            "Date",
+            "Day"
+          ],
+          "query": "<OrderBy><FieldRef Name=\"Date\" /></OrderBy>",
+          "rowLimit": 30,
+          "isPaged": true
+        },
+        {
+          "verb": "addSPView",
+          "name": "All Upcoming",
+          "viewFields": [
+            "Date",
+            "Day",
+            "Shift1",
+            "Shift2",
+            "Shift3"
+          ],
+          "query": "<Where><Geq><FieldRef Name=\"Date\" /><Value Type=\"DateTime\"><Today /></Value></Geq></Where><OrderBy><FieldRef Name=\"Date\" Ascending=\"TRUE\" /></OrderBy>",
+          "rowLimit": 30,
+          "isPaged": true,
+          "makeDefault": true
+        },
+        {
+          "verb": "addSPView",
+          "name": "Todays Shifts",
+          "viewFields": [
+            "Date",
+            "Day",
+            "Shift1",
+            "Shift2",
+            "Shift3"
+          ],
+          "query": "<OrderBy><FieldRef Name=\"ID\" /></OrderBy><Where><Eq><FieldRef Name=\"Date\" /><Value Type=\"DateTime\"><Today /></Value></Eq></Where>",
+          "rowLimit": 30,
+          "isPaged": true
+        }
+      ]
+    }
+  ]
+}
