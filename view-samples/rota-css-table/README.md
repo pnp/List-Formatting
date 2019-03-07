@@ -18,9 +18,9 @@ Included in the sample is a site script that will create the list as needed. How
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|No|
-|Single line of text|Shift1|No|
-|Single line of text|Shift2|No|
-|Single line of text|Shift3|No|
+|Multi-Choice|Shift1|No|
+|Multi-Choice|Shift2|No|
+|Multi-Choice|Shift3|No|
 |Single line of text|Date|No|
 
 ## Sample
