@@ -1,0 +1,27 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "span",
+        "attributes": {
+          "class": "=if(abs([$Actual]-[$Expected])<=[$Tolerance], 'sp-field-trending--up','sp-field-trending--down')",
+          "iconName": "=if(abs([$Actual]-[$Expected])<=[$Tolerance], 'LikeSolid','DislikeSolid')"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "[$After]"
+      },
+      {
+        "elmType": "span",
+        "txtContent": "=if(abs([$Actual]-[$Expected])<=[$Tolerance], 'Pass','Fail')",
+        "attributes": {
+          "class": "=if(abs([$Actual]-[$Expected])<=[$Tolerance], 'sp-field-trending--up','sp-field-trending--down')"
+        },
+        "style": {
+          "padding-left": "5px"
+        }
+      }
+    ]
+  }
