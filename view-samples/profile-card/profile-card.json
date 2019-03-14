@@ -1,0 +1,155 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "float": "left"
+    },
+    "attributes": {},
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "flex-direction": "column",
+          "align-items": "center",
+          "justify-content": "space-around",
+          "min-width": "300px",
+          "min-height": "286px",
+          "border-radius": "8px",
+          "margin-right": "10px",
+          "box-shadow": "2px 2px 4px darkgrey"
+        },
+        "attributes": {
+          "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "img",
+                "style": {
+                  "display": "block",
+                  "height": "auto",
+                  "max-height": "96px",
+                  "max-width": "96px",
+                  "border-radius": "50%"
+                },
+                "attributes": {
+                  "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
+                  "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "text-align": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-weight": "500",
+                  "font-size": "1.5rem"
+                },
+                "txtContent": "[$User.title]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-weight": "500",
+                  "font-size": "1.1em"
+                },
+                "txtContent": "[$Job_x0020_Title]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "height": "2rem",
+                  "width": "2rem",
+                  "font-size": "2em",
+                  "cursor": "pointer",
+                  "margin": "0px 5px",
+                  "vertical-align": "text-bottom"
+                },
+                "children": [
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-magentaLight",                        
+                      "iconName": "CreateMailRule",
+                      "href": "='mailto:' + [$User.email] + '?body=Dear ' + [$User.title] + ',\r\n'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "height": "2rem",
+                  "width": "2rem",
+                  "font-size": "2em",
+                  "cursor": "pointer",
+                  "margin": "0px 5px",
+                  "vertical-align": "text-bottom"
+                },                
+                "children": [
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "cursor": "pointer"
+                      
+                    },
+                    "attributes": {   
+                      "class": "ms-fontColor-magentaLight",                        
+                      "iconName": "LinkedInLogo",
+                      "href": "=[$LinkedIn]"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "height": "2rem",
+                  "width": "2rem",
+                  "font-size": "2em",
+                  "cursor": "pointer",
+                  "margin": "0px 5px",
+                  "vertical-align": "text-bottom"
+                },
+                "children": [
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-magentaLight",                        
+                      "iconName": "ContactLink",
+                      "href": "=[$Twitter]"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
