@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "executeFlow",
+    "actionParams": "=if([$Stage]=='','{\"id\": \"b60a26d3-fd87-4947-9d1d-344cb31d953a\"}',if([$Stage]=='Development','{\"id\": \"3a27a39c-0ec9-4342-8fe3-bfb37fefc3da\"}','{\"id\": \"3091d383-f8ed-48da-9962-bd7c24e70688\"}'))"
+  },
+  "attributes": {
+    "class": "='ms-fontColor-' +if([$Stage]=='','orangeLight',if([$Stage]=='Development','teal','redDark'))"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer",
+    "display": "=if([$Stage]=='Destroyed','none','inherit')"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if([$Stage]=='','Lightbulb',if([$Stage]=='Development','Deploy','HeartBroken'))"
+      },
+      "style": {
+        "padding-right": "6px"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "=if([$Stage]=='','Develop!',if([$Stage]=='Development','Deploy!','Destroy!'))"
+    }
+  ]
+}
