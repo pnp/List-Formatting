@@ -1,20 +1,19 @@
 # User Profile Card
 
 ## Summary
-This is simple user profile card built using following list fields
+This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.
 
-- Showing default image icon if picture url is not given
-- I did use rowFormatter, hideListHeader, hideSelection
+![Screenshot](./profile-card.png)
+
+## View requirements
 
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Job Title|No|
-|Person or Group|User|No|
-|Hyperlink or Picture|Picture|No|
-|Hyperlink or Picture|LinkedIn|No|
-|Hyperlink or Picture|Twitter|No|
-
-![Screenshot](./profile-card.png)
+|Person|User|Yes|
+|Picture|Picture|No|
+|Hyperlink|LinkedIn|No|
+|Hyperlink|Twitter|No|
 
 ## Sample
 
@@ -31,6 +30,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-
-
-
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/profile-card" />
