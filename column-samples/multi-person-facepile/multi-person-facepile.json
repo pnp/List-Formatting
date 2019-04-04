@@ -11,7 +11,7 @@
         "overflow": "hidden",
         "border-radius": "50%",
         "margin": "2px",
-        "display": "=if(length(@currentField) > 3 && loopIndex('personIterator') >= 3, 'none', '')"
+        "display": "=if(loopIndex('personIterator') >= 3, 'none', '')"
       },
       "children": [
         {
