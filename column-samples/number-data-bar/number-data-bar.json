@@ -1,12 +1,13 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
   "children": [
     {
       "elmType": "span",
       "txtContent": "@currentField",
       "style": {
-        "padding-left": "8px"
+        "padding-left": "8px",
+        "white-space": "nowrap"
       }
     }
   ],
@@ -15,32 +16,6 @@
   },
   "style": {
     "padding": "0",
-    "overflow-x": "visible",
-    "width": {
-      "operator": "?",
-      "operands": [
-        {
-          "operator": ">=",
-          "operands": [
-            "@currentField",
-            "20"
-          ]
-        },
-        "100%",
-        {
-          "operator": "+",
-          "operands": [
-            {
-              "operator": "*",
-              "operands": [
-                "@currentField",
-                5
-              ]
-            },
-            "%"
-          ]
-        }
-      ]
-    }
+    "width": "=if(@currentField >= 20, '100%', (@currentField * 5) + '%')"
   }
 }

@@ -1,0 +1,57 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+      "elmType": "a",
+      "attributes": {
+        "class": "ms-borderColor-neutralLight",
+        "href": "[$FileRef]"
+      },
+      "style": {
+        "float": "left"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover"
+          },
+          "style": {
+            "display": "flex",
+            "flex-wrap": "wrap",
+            "flex-direction": "column",
+            "align-items": "stretch",
+            "padding": "1px",
+            "margin": "10px",
+            "max-width": "930px",
+            "box-shadow": "2px 2px 4px darkgrey"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "attributes": {
+                "src": "=if([$ContentType]=='Document', @currentWeb + '/_layouts/15/getpreview.ashx?path='+[$FileRef], 'https://spoprod-a.akamaihd.net/files/fabric/assets/item-types/96/archive.png')"
+              },
+              "style": {
+                "width": "auto",
+                "height": "300px"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "txtContent": "[$FileName]",
+                  "style": {
+                    "margin-bottom": "1px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

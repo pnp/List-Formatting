@@ -1,0 +1,61 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-card"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-row-title"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-row-listPadding"
+            },
+            "txtContent": "[$Feedback]"
+          },
+          {
+            "elmType": "button",
+            "customRowAction": {
+              "action": "defaultClick"
+            },
+            "txtContent": "Give feedback",
+            "attributes": {
+              "class": "sp-row-button"
+            },
+            "style": {
+              "display": {
+                "operator": "?",
+                "operands": [
+                  {
+                    "operator": "==",
+                    "operands": [
+                      "@me",
+                      "[$Assigned_x0020_To.email]"
+                    ]
+                  },
+                  "",
+                  "none"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

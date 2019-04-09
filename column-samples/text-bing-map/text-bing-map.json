@@ -1,0 +1,9 @@
+ {
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "img",
+  "attributes": {
+    "class": " ms-borderColor-neutralLighter",
+    "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/'+[$Address]+'?mapSize=280,215&key=[Insert Your Bing Map API Key Here]' "
+  },
+  "txtContent": "[$Address]" 
+  }

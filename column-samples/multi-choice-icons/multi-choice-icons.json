@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "font-size": "16px"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Water",
+        "iconName": "Precipitation",
+        "class": "='ms-fontColor-' + if(indexOf(join(@currentField,''),'Water') != -1, 'themeDark', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Coffee",
+        "iconName": "CoffeeScript",
+        "class": "='ms-fontColor-' + if(indexOf(join(@currentField,''),'Coffee') != -1, 'themeDark', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px 0 0"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Wine",
+        "iconName": "Wines",
+        "class": "='ms-fontColor-' + if(indexOf(join(@currentField,''),'Wine') != -1, 'themeDark', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Beer",
+        "iconName": "BeerMug",
+        "class": "='ms-fontColor-' + if(indexOf(join(@currentField,''),'Beer') != -1, 'themeDark', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "\"Juice\"",
+        "iconName": "TestBeaker",
+        "class": "='ms-fontColor-' + if(indexOf(join(@currentField,''),'\"Juice\"') != -1, 'themeDark', 'neutralLight')"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    }
+  ]
+}

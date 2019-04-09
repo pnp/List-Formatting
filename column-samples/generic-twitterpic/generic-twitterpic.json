@@ -1,5 +1,5 @@
 {
-  "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
   "children": [
     {
@@ -15,34 +15,16 @@
         {
           "elmType": "a",
           "attributes": {
-            "href": {
-              "operator": "+",
-              "operands": [
-                "https://twitter.com/",
-                "@currentField"
-              ]
-            },
+            "href": "='https://twitter.com/' + @currentField",
             "target": "_blank"
           },
           "children": [
             {
               "elmType": "img",
               "attributes": {
-                "src": {
-                  "operator": "+",
-                  "operands": [
-                    "https://twitter.com/",
-                    "@currentField",
-                    "/profile_image?size=normal"
-                  ]
-                },
-                "title": {
-                  "operator": "+",
-                  "operands": [
-                    "@",
-                    "@currentField"
-                  ]
-                }
+                "src": "='https://twitter.com/' + @currentField + '/profile_image?size=normal'",
+                "title": "='@' + @currentField",
+                "alt": "='@' + @currentField"
               },
               "style": {
                 "position": "relative",

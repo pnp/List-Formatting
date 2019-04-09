@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "iconName": {
+      "operator": "?",
+      "operands": [
+        "@currentField",
+        "CheckboxComposite",
+        "Checkbox"
+      ]
+    },
+    "class": {
+      "operator": "+",
+      "operands": [
+        {
+          "operator": "?",
+          "operands": [
+            "@currentField",
+            "ms-fontColor-neutralPrimary",
+            "ms-fontColor-neutralTertiary"
+          ]
+        },
+        " ms-font-l"
+      ]
+    }
+  }
+}

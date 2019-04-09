@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "iconName": "=if(@currentField,'CheckboxComposite','Checkbox')",
+    "class": "=if(@currentField,'ms-fontColor-neutralPrimary','ms-fontColor-neutralTertiary')+' ms-font-l'"
+  }
+}

@@ -1,17 +1,10 @@
 {
-    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
     "elmType": "div",
     "style": {
       "font-weight": "bold"
     },
     "attributes": {
-      "iconName": {
-        "operator": "?",
-        "operands": [
-          "@currentField",
-          "CheckMark",
-          ""
-        ]
-      }
+      "iconName": "=if(@currentField, 'CheckMark', '')"
     }
   }

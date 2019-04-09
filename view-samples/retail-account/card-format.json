@@ -1,0 +1,192 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "debugMode": false,
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": " ms-borderColor-neutralLight"
+    },
+    "style": {
+      "border-top-width": "1px",
+      "border-top-style": "solid",
+      "width": "100%",
+      "padding": "0 0 0 20px",
+      "flex-wrap": "wrap",
+      "align-items": "flex-start",
+      "justify-content": "space-between"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex": "1 0 300px",
+          "margin": "10px"
+        },
+        "children": [
+          {
+            "elmType": "button",
+            "attributes": {
+              "class": "ms-fontSize-xl ms-fontColor-themePrimary"
+            },
+            "style": {
+              "border": "0",
+              "padding": "0",
+              "margin-bottom": "0.5em",
+              "background-color": "transparent",
+              "cursor": "pointer",
+              "line-height": "1.5em",
+              "overflow": "hidden",
+              "text-align": "left"
+            },
+            "customRowAction": {
+              "action": "defaultClick"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontSize-mPlus"
+            },
+            "style": {
+              "line-height": "1.5em"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "ms-fontWeight-bold"
+                },
+                "txtContent": "[$Account_x0020_Manager.title]"
+              },
+              {
+                "elmType": "span",
+                "txtContent": ", Account Manager"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontSize-m"
+            },
+            "style": {
+              "line-height": "1.5m"
+            },
+            "txtContent": "[$Location.DisplayName]"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex": "0 0 539px",
+          "width": "504px",
+          "margin": "10px",
+          "display": "flex",
+          "justify-content": "space-between"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": " ms-bgColor-neutralLighter"
+            },
+            "style": {
+              "flex": "0 0 173px",
+              "height:": "108px"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "class": " ms-borderColor-neutralLighter",
+                  "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road?mapSize=171,106&pp=' + if([$Location.Coordinates.Latitude], [$Location.Coordinates.Latitude], '0') + ',' + if([$Location.Coordinates.Longitude], [$Location.Coordinates.Longitude], '0') + '&key=Am_p9LOyc3ij2sHWu5H7jFYq-2s4lNNwPDL8hwpZwzJSt5Ob-g0knurihcsFuuhF'"
+
+                },
+                "style": {
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "height": "106px",
+                  "display": "=if([$Location.Coordinates], '', 'none')"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "=if([$Holiday_x0020_Display_x0020_Read], 'ms-bgColor-green', 'ms-bgColor-redDark') + ' ms-fontSize-mPlus ms-fontColor-white ms-fontWeight-bold'"
+            },
+            "style": {
+              "flex": "0 0 173px",
+              "height": "108px",
+              "box-sizing": "border-box",
+              "padding": "12px 10px",
+              "text-align": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "line-height": "1.4em"
+                },
+                "txtContent": "HOLIDAY DISPLAY READY"
+              },
+              {
+                "elmType": "div",
+
+                "style": {
+                  "color": "#fff",
+                  "font-size": "60px",
+                  "line-height": "0.75em"
+                },
+                "attributes": {
+                  "iconName": "=if([$Holiday_x0020_Display_x0020_Read], 'StatusCircleCheckmark', 'StatusCircleErrorX')"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-bgColor-neutralLighter"
+            },
+            "style": {
+              "flex": "0 0 173px",
+              "height": "108px",
+              "text-align": "center"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": " ms-fontSize-mPlus ms-fontWeight-bold"
+                },
+                "style": {
+                  "line-height": "3em"
+                },
+                "txtContent": "SALES TARGET"
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "ms-fontSize-su ms-fontWeight-light"
+                },
+                "style": {
+                  "display": "inline-block",
+                  "line-height": "1.1429em",
+                  "vertical-align": "top",
+                  "text-align": "right"
+                },
+                "txtContent": "='$' +Number([$Sales_x0020_Target])"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "font-size": "16px"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Step 1",
+        "iconName": "=if(@currentField < 1, 'CircleRing', 'SkypeCircleCheck')",
+        "class": "='ms-fontColor-' + if(@currentField == 1, 'green', if(@currentField > 1, 'greenLight', 'neutralLight'))"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Step 2",
+        "iconName": "=if(@currentField < 2, 'CircleRing', 'SkypeCircleCheck')",
+        "class": "='ms-fontColor-' + if(@currentField == 2, 'green', if(@currentField > 2, 'greenLight', 'neutralLight'))"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Step 3",
+        "iconName": "=if(@currentField < 3, 'CircleRing', 'SkypeCircleCheck')",
+        "class": "='ms-fontColor-' + if(@currentField == 3, 'green', if(@currentField > 3, 'greenLight', 'neutralLight'))"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Step 4",
+        "iconName": "=if(@currentField < 4, 'CircleRing', 'SkypeCircleCheck')",
+        "class": "='ms-fontColor-' + if(@currentField == 4, 'green', if(@currentField > 4, 'greenLight', 'neutralLight'))"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    },
+    {
+      "elmType": "span",
+      "attributes": {
+        "title": "Step 5",
+        "iconName": "=if(@currentField < 5, 'CircleRing', 'SkypeCircleCheck')",
+        "class": "='ms-fontColor-' + if(@currentField == 5, 'green', if(@currentField > 5, 'greenLight', 'neutralLight'))"
+      },
+      "style": {
+        "padding": "0 2px"
+      }
+    }
+  ]
+}

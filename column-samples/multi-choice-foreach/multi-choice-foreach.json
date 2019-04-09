@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "forEach": "choiceIterator in @currentField",
+      "elmType": "div",
+      "txtContent": "[$choiceIterator]",
+      "attributes": {
+        "class": "ms-bgColor-themePrimary ms-fontColor-white",
+        "title": "='I am the letter ' + [$choiceIterator]"
+      },
+      "style": {
+        "width": "16px",
+        "height": "16px",
+        "text-align": "center",
+        "margin": "1px"
+      }
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 # Formatting column with long text to multiple-line with word wrap.
 
 ## Summary
-With modern document library and list, Name or Title column is no longer showing long text in full. This example renders column (Name or Title in document library or list) with long text to mutilple lines with word wrap, as shown in classic mode.
+With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode.
 
-![screenshot of the sample](./text-wrap-format.png)
+![screenshot of the sample](./screenshot.png)
+
+## View requirements
+- This format can be applied to any column type (but is intended for multi-line text fields)
 
 ## Sample
 
@@ -15,7 +18,9 @@ text-wrap-format.json | Aaron Miao
 
 Version|Date|Comments
 -------|----|--------
-1.0|Dec 13, 2017|Initial release
+1.0|December 13, 2017|Initial release
+1.1|August 20, 2018|Schema update
+1.2|January 16, 2018|Added padding
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -23,6 +28,8 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-With modern document library and list, Name or Title column automatically determines how many characters shown in UX. If you have long text for these columns, text is shown in partial. With classic UX, those columns are rendered in multiple-line text.
+Multi-line text fields can no longer have formatting applied using the column menu within views. However, by going to the advanced settings for a column through list settings, column formats can still be applied.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/text-wrap-format" />
+Rich text fields return their values with HTML. List Formatting automatically escapes values meaning that these types of fields will include HTML in their text values and that HTML will not be used as part of the page. It is not recommended to use rich text fields with List Formatting.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-wrap-format" />

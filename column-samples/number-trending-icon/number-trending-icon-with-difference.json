@@ -1,183 +1,30 @@
 {
-    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
-    "elmType": "div",
-    "children": [
-        {
-            "elmType": "span",
-            "attributes": {
-                "class": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": ">",
-                            "operands": [
-                                "[$After]",
-                                "[$Before]"
-                            ]
-                        },
-                        "sp-field-trending--up",
-                        {
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": "<",
-                                    "operands": [
-                                        "[$After]",
-                                        "[$Before]"
-                                    ]
-                                },
-                                "sp-field-trending--down",
-                                ""
-                            ]
-                        }
-                    ]
-                },
-                "iconName": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": ">",
-                            "operands": [
-                                "[$After]",
-                                "[$Before]"
-                            ]
-                        },
-                        "SortUp",
-                        {
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": "<",
-                                    "operands": [
-                                        "[$After]",
-                                        "[$Before]"
-                                    ]
-                                },
-                                "SortDown",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            },
-            "style": {
-                "padding-left": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": "==",
-                            "operands": [
-                                "[$After]",
-                                "[$Before]"
-                            ]
-                        },
-                        "12px",
-                        "0"
-                    ]
-                }
-            }
-        },
-        {
-            "elmType": "span",
-            "txtContent": "[$After]"
-        },
-        {
-            "elmType": "span",
-            "txtContent": {
-                "operator": "?",
-                "operands": [
-                    {
-                        "operator": ">",
-                        "operands": [
-                            "[$After]",
-                            "[$Before]"
-                        ]
-                    },
-                    {
-                        "operator": "+",
-                        "operands": [
-                            "(+",
-                            {
-                                "operator": "toString()",
-                                "operands": [
-                                    {
-                                        "operator": "-",
-                                        "operands": [
-                                            "[$After]",
-                                            "[$Before]"
-                                        ]
-                                    }
-                                ]
-                            },
-                            ")"
-                        ]
-                    },
-                    {
-                        "operator": "?",
-                        "operands": [
-                            {
-                                "operator": "<",
-                                "operands": [
-                                    "[$After]",
-                                    "[$Before]"
-                                ]
-                            },
-                            {
-                                "operator": "+",
-                                "operands": [
-                                    "(-",
-                                    {
-                                        "operator": "toString()",
-                                        "operands": [
-                                            {
-                                                "operator": "-",
-                                                "operands": [
-                                                    "[$Before]",
-                                                    "[$After]"
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    ")"
-                                ]
-                            },
-                            ""
-                        ]
-                    }
-                ]
-            },
-            "attributes": {
-                "class": {
-                    "operator": "?",
-                    "operands": [
-                        {
-                            "operator": ">",
-                            "operands": [
-                                "[$After]",
-                                "[$Before]"
-                            ]
-                        },
-                        "sp-field-trending--up",
-                        {
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": "<",
-                                    "operands": [
-                                        "[$After]",
-                                        "[$Before]"
-                                    ]
-                                },
-                                "sp-field-trending--down",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            },
-            "style": {
-                "padding-left": "5px"
-            }
-        }
-    ]
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "class": "=(if([$After] > [$Before], 'sp-field-trending--up', if([$After] < [$Before], 'sp-field-trending--down', ''))",
+        "iconName": "=(if([$After] > [$Before], 'SortUp', if([$After] < [$Before], 'SortDown', ''))"
+      },
+      "style": {
+        "padding-left": "=if([$After] == [$Before], '12px', '0')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$After]"
+    },
+    {
+      "elmType": "span",
+      "txtContent": "=if([$After] > [$Before], '(+' + toString([$After] - [$Before]) + ')', if([$After] < [$Before], '(-' + toString([$Before] - [$After]) + ')', ''))",
+      "attributes": {
+        "class": "=(if([$After] > [$Before], 'sp-field-trending--up', if([$After] < [$Before], 'sp-field-trending--down', ''))"
+      },
+      "style": {
+        "padding-left": "5px"
+      }
+    }
+  ]
 }

@@ -1,0 +1,138 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "URL",
+      "internalName": "ResourceLink",
+      "displayName": "Link",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumnXml",
+      "schemaXml": "<Field Type=\"URL\" DisplayName=\"Link\" StaticName=\"ResourceLink\" Name=\"ResourceLink\" Required=\"FALSE\" Format=\"Hyperlink\" Group=\"View Formatter Samples\"></Field>"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Note",
+      "internalName": "ResourceDescription",
+      "displayName": "Description",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Text",
+      "internalName": "ResourceType",
+      "displayName": "Type",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Text",
+      "internalName": "ResourceTechnology",
+      "displayName": "Technology",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Text",
+      "internalName": "ResourcePillar",
+      "displayName": "Pillar",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "User",
+      "internalName": "ResourceOwner",
+      "displayName": "Owner",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Text",
+      "internalName": "ResourceStatus",
+      "displayName": "Status",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSiteColumn",
+      "fieldType": "Boolean",
+      "internalName": "ResourcePublic",
+      "displayName": "Public",
+      "isRequired": false,
+      "group": "View Formatter Samples"
+    },
+    {
+      "verb": "createSPList",
+      "listName": "Resource Catalog",
+      "templateType": 100,
+      "subactions": [
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceLink",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceDescription",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceType",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceTechnology",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourcePillar",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceOwner",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourceStatus",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSiteColumn",
+          "internalName": "ResourcePublic",
+          "addToDefaultView": true
+        },
+        {
+          "verb": "addSPView",
+          "name": "All Items - customized",
+          "viewFields": [
+            "LinkTitle",
+            "ResourcePillar",
+            "ResourceTechnology",
+            "Modified",
+            "ResourceStatus",
+            "ResourcePublic",
+            "ResourceOwner"
+          ],
+          "query": "",
+          "rowLimit": 100,
+          "isPaged": true,
+          "makeDefault": true
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

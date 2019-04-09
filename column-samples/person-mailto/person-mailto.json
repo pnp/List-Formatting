@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "padding-right": "8px"
+      },
+      "txtContent": "@currentField.title"
+    },
+    {
+      "elmType": "a",
+      "attributes": {
+        "iconName": "Mail",
+        "class": "sp-field-quickActions",
+        "href": "='mailto:' + @currentField.email + '?subject=Task status&body=Hey, how is your task coming along?.\r\n---\r\n' + @currentField.title + '\r\nClick this link for more info. http://contoso.sharepoint.com/sites/ConferencePrep/Tasks/Prep/DispForm.aspx?ID=' + [$ID]"
+      }
+    }
+  ]
+}

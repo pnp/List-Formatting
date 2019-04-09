@@ -5,6 +5,9 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 ![screenshot of the sample](./screenshot.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -16,6 +19,7 @@ number-conditional-format.json | SharePoint Team
 Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
+1.1|August 20, 2018|Switched to Excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -27,4 +31,6 @@ This sample is also covered in the main documentation around the Column Formatti
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-conditional-format" />
+> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-conditional-format" />

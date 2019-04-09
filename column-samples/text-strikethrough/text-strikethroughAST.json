@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "text-decoration": {
+      "operator": "?",
+      "operands": [
+        "[$Complete]",
+        "line-through",
+        "inherit"
+      ]
+    }
+  },
+  "attributes": {
+    "class": "ms-fontColor-neutralPrimary"
+  }
+}

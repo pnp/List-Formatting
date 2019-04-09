@@ -13,6 +13,9 @@ An additional format is included to illustrate how to apply the same visualizati
 
 ![screenshot of the Percentage Data Bar](./screenshot-percent.png)
 
+## View requirements
+- This format can be applied to a Number column
+
 ## Sample
 
 Solution|Author(s)
@@ -26,6 +29,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|November 2, 2017|Initial release
 1.1|May 27, 2018|Fixed issue with 0 values and added percentage format
+1.2|August 18, 2018|Fixed issue with low value text wrapping and converted to excel-style expressions
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -39,4 +43,6 @@ This sample is also covered in the main documentation around Column Formatting.
 
 A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/number-data-bar" />
+> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-data-bar" />
