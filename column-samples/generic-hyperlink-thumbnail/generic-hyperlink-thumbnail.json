@@ -4,6 +4,6 @@
   "txtContent": "[$FileRef]",
   "attributes": {
     "target": "_blank",
-    "href": "=@currentWeb + '/_layouts/15/getpreview.ashx?resolution=3&path=' + @currentWeb + [$FileRef]"
+    "href": "=@currentWeb + '/_layouts/15/getpreview.ashx?resolution=3&path=' + [$FileRef]"
   }
 }
