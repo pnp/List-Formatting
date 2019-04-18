@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "executeFlow",
+    "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\"}"
+  },
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Launch Flow"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "Flow",
+        "class": "ms-font-xxl"
+      }
+    }
+  ]
+}
