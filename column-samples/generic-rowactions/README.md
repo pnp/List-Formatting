@@ -22,7 +22,7 @@ This action will launch the share dialog for an item
 This action will prompt the user with a deletion confirmation dialog and delete the item if they choose yes.
 
 ### executeFlow
-This action will launch a flow for the item as the selected item. This action requires additional configuration through the `actionParams` property.
+This action will launch a flow for the item as the selected item. This action requires additional configuration through the `actionParams` property. The ID is always required, but you can also optionally include `headerText` and/or `runFlowButtonText` properties as well to customize the Flow panel.
 
 #### To obtain a Flow's ID:
 
