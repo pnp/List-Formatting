@@ -3,7 +3,7 @@
   "elmType": "button",
   "customRowAction": {
     "action": "executeFlow",
-    "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\"}"
+    "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\", \"headerText\":\"It's Flow Time!\",\"runFlowButtonText\":\"Do it\"}"
   },
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
