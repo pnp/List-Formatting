@@ -11,6 +11,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 ## View requirements
 - This format can be applied to a Person column
+- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
 ## Sample
 

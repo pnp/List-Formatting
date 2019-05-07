@@ -17,7 +17,7 @@ An Office UI Fabric class and icon is also applied to provide visual indicators 
 The columns used in this sample were created as "Number" column types.
 
 ## View requirements
-- N/A
+- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
 ## Sample
 

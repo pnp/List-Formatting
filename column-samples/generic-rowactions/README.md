@@ -24,6 +24,8 @@ This action will prompt the user with a deletion confirmation dialog and delete 
 ### executeFlow
 This action will launch a flow for the item as the selected item. This action requires additional configuration through the `actionParams` property. The ID is always required, but you can also optionally include `headerText` and/or `runFlowButtonText` properties as well to customize the Flow panel.
 
+>Note - the `headerText` and `runFlowButtonText` parameters are not available in SharePoint 2019
+
 #### To obtain a Flow's ID:
 
 1. Click _Flow_ > _See your flows_ in the SharePoint list where the Flow is configured
