@@ -23,6 +23,7 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 ## View requirements
 - This format can be applied to a Multi-Select Person column
+- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
 ## Sample
 

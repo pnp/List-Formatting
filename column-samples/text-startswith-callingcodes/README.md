@@ -24,6 +24,7 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 ## View requirements
 - This format can be applied to a Text or Choice column
+- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
 ## Sample
 
