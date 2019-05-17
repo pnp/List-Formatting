@@ -30,6 +30,7 @@ Version|Date|Comments
 1.0|November 2, 2017|Initial release
 1.1|May 27, 2018|Fixed issue with 0 values and added percentage format
 1.2|August 18, 2018|Fixed issue with low value text wrapping and converted to excel-style expressions
+1.3|May 17, 2019|Added box-sizing:border-box to root style
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
