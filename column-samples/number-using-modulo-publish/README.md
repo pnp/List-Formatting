@@ -1,4 +1,4 @@
-Publishing Status
+# Publishing Status
 
 ## Summary
 Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages
