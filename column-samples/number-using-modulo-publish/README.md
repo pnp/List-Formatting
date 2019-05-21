@@ -1,4 +1,4 @@
-# Title of the sample
+Publishing Status
 
 ## Summary
 Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages
@@ -36,5 +36,4 @@ Version|Date|Comments
 - Example in the documentation where this is referenced: [https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4](https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4)
 
 
-Update telemetry url below to place your sample name at the end then remove this line
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-publishing-status" />
