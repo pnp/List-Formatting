@@ -1,0 +1,75 @@
+{
+  "elmType": "div",
+      "style": {
+        "background-color": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "@currentField",
+                "Green"
+              ]
+            },
+            "#2ECC71",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "@currentField",
+                    "Red"
+                  ]
+                },
+                "#E74C3C",
+                {
+                  "operator": "?",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "@currentField",
+                        "Yellow"
+                      ]
+                    },
+                    "#F1C40F",
+                    {
+                      "operator": "?",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "@currentField",
+                            "Purple"
+                          ]
+                        },
+                        "#76448A",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "color": "#fff",
+        "white-space": "nowrap"
+      },
+        "children": [
+          {
+            "elmType": "span",
+            "txtContent": "@currentField",
+            "style": {
+              "font-size": "2em",
+              "display": "inline-block",
+              "padding": "0 8px"
+            },
+              "attributes": {
+                "iconName": "=if(@currentField == 'Green', 'Emoji2', if(@currentField == 'Yellow','EmojiNeutral', 'EmojiDisappointed'))"
+              }
+
+          }
+        ]
+   }
