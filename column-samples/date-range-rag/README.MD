@@ -1,6 +1,6 @@
 # Creating Red-Amber-Green (RAG) bars based on date ranges
 
-## Summary
+## date-range-rag.json
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time. The bar fills towards 100% as "Today" approaches the due date. A percentage width is determined based on the total number of days between the StartDate of the item and the DueDate of the item.
 
 ![screenshot of the sample](./screenshot.png)
@@ -21,6 +21,14 @@ If the `DueDate` has not yet passed, the width of the bar is determined by calcu
 
 Additionally, the value of the field (`@currentField`) is displayed when there is a value.
 
+## date-range-rag-days-left.json
+
+In this version of the sample, the days left are displayed within the box:
+
+![screenshot of the days-left sample](./screenshot-daysleft.png)
+
+This version of the sample demonstrates working around limitations in list formatting in regards to rounding numbers. Multiple conditions are provided to ensure the calculated numbers are shown without unnecessary precision.
+
 ## View requirements
 - This format can be applied to any column type
 - An additional DateTime column with an internal name of `DueDate` is expected
@@ -31,6 +39,7 @@ Additionally, the value of the field (`@currentField`) is displayed when there i
 Solution|Author(s)
 --------|---------
 date-range-rag.json | [Christopher Parker](https://twitter.com/ChrispyBites)
+date-range-rag-days-left.json | [Joe Ayre](https://github.com/JoeAyre)
 
 ## Version history
 
@@ -39,6 +48,7 @@ Version|Date|Comments
 1.0|June 13, 2018|Initial release
 1.1|July 25, 2018|Updated to include amber class
 1.2|August 20, 2018|Updated to use Excel-style expressions, add a theme font class, and to simplify the calculations
+1.3|August 12, 2019|Added days-left sample
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
