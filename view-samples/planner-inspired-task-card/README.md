@@ -38,4 +38,10 @@ Version|Date|Comments
 
 ---
 
+## Additional notes
+
+This format takes advantage of `CustomRowActions` to enable the `defaultClick` and `delete` actions from icon buttons:
+
+![Custom Actions in Action](SPPlannerFormat.gif)
+
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/planner-inspired-task-card" />
