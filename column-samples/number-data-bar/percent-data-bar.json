@@ -16,6 +16,7 @@
   },
   "style": {
     "padding": "0",
-		"width": "=if(@currentField > 1, '100%', if(@currentField < 0, '0', (100 * @currentField) + '%'))"
+    "width": "=if(@currentField > 1, '100%', if(@currentField < 0, '0', (100 * @currentField) + '%'))",
+    "box-sizing": "border-box"
   }
 }

@@ -71,6 +71,7 @@
           ]
         }
       ]
-    }
+    },
+    "box-sizing": "border-box"
   }
 }

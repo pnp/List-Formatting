@@ -26,6 +26,8 @@ The key provided in the template (the ugly text after `&key`) should be changed 
 
 ## View requirements
 
+All fields below should be part of the view, but only those marked with Required need to have values:
+
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|Yes|

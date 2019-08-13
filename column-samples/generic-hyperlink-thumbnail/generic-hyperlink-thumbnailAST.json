@@ -9,7 +9,6 @@
       "operands": [
         "@currentWeb",
         "/_layouts/15/getpreview.ashx?resolution=3&path=",
-        "@currentWeb",
         "[$FileRef]"
       ]
     }
