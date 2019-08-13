@@ -21,7 +21,7 @@
       "box-shadow": "2px 2px 4px darkgrey"
     },
     "attributes": {
-      "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover"
+      "class": "ms-fontColor-themePrimary--hover"
     },
     "children": [
       {
@@ -38,6 +38,7 @@
               "font-size": ".8rem",
               "text-align": "center",
               "margin": "10px",
+"padding-bottom":"1px",
               "word-wrap": "break-word",
               "border-bottom": "1px solid gray"
             },
@@ -58,34 +59,12 @@
           {
             "elmType": "span",
             "attributes": {
-              "iconName": "CircleHalfFull",
+              "iconName": "=if([$Status] == 'In Progress', 'CircleHalfFull', if([$Status] == 'Completed', 'CheckMark', if([$Status] == 'Delayed', 'Warning', '')))",
               "class": "ms-fontColor-themePrimary"
             },
             "style": {
               "padding-right": "12px",
-              "display": "=if([$Status] == 'In Progress', 'inline', 'none')"
-            }
-          },
-          {
-            "elmType": "span",
-            "attributes": {
-              "iconName": "CheckMark",
-              "class": "ms-fontColor-themePrimary"
-            },
-            "style": {
-              "padding-right": "12px",
-              "display": "=if([$Status] == 'Completed', 'inline', 'none')"
-            }
-          },
-          {
-            "elmType": "span",
-            "attributes": {
-              "iconName": "Warning",
-              "class": "ms-fontColor-themePrimary"
-            },
-            "style": {
-              "padding-right": "12px",
-              "display": "=if([$Status] == 'Delayed', 'inline', 'none')"
+              "display": "inline"
             }
           },
           {
@@ -95,7 +74,8 @@
               "class": "ms-fontColor-themePrimary"
             },
             "style": {
-              "padding-right": "6px"
+              "padding-right": "6px",
+              "display": "=if([$DueDate], '', 'none')"
             }
           },
           {
@@ -127,7 +107,7 @@
             },
             "attributes": {
               "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$AssignedTo.email]",
-              "title": "[AssignedTo.title]"
+              "title": "[$AssignedTo.title]"
             }
           },
           {
