@@ -26,53 +26,48 @@
           "box-sizing": "border-box",
           "padding": "5px 5px"
         },
-        
         "children": [
           {
             "elmType": "div",
             "style": {
               "flex": " 1 0 300px"
             },
-            
             "children": [
               {
                 "elmType": "div",
                 "style": {},
                 "children": [
-                    {
-                        "elmType": "img",
-                        "attributes": {
-                          "src": "[$TwitterProfilePic]",
-                          "title": "[$TweetBy]",
-                          "target": "_blank",
-                              "href": "[$ProfileLink]"
-                        },
-                        "style": {
-                          "border": "1px solid #808080",
-                          "border-radius": "50%",
-                          "left": "50%",
-                          "width": "48px",
-                          "height": "48px",
-                          "margin-left": "15px",
-                          "float":"left"
-                        }
-                      },
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "[$TwitterProfilePic]",
+                      "title": "[$TweetBy]",
+                      "target": "_blank"
+                    },
+                    "style": {
+                      "border": "1px solid #808080",
+                      "border-radius": "50%",
+                      "left": "50%",
+                      "width": "48px",
+                      "height": "48px",
+                      "margin-left": "15px",
+                      "float": "left"
+                    }
+                  },
                   {
                     "elmType": "a",
                     "attributes": {
-                        "class": "ms-fontWeight-semibold",
-                            "target": "_blank",
-                              "href": "[$ProfileLink]"
-                          
+                      "class": "ms-fontWeight-semibold ms-fontColor-black",
+                      "target": "_blank",
+                      "href": "[$ProfileLink]"
                     },
                     "style": {
                       "line-height": "1.5em",
-                      "color": "black",
                       "margin": "8px 0",
-                      "font-size":"1.2em",
-                      "font-weigth":"bold",
-                      "padding-left":"18px",
-                      "padding-right":"10px"
+                      "font-size": "1.2em",
+                      "font-weigth": "bold",
+                      "padding-left": "18px",
+                      "padding-right": "10px"
                     },
                     "txtContent": "[$TweetByFullName]"
                   },
@@ -85,12 +80,12 @@
                       "line-height": "1.5em",
                       "color": "gray",
                       "margin": "8px 0",
-                      "font-size":"15px",
-                      "font-family":"Helvetica"
+                      "font-size": "15px",
+                      "font-family": "Helvetica"
                     },
                     "txtContent": "@"
                   },
-                    {
+                  {
                     "elmType": "span",
                     "attributes": {
                       "class": "ms-font-xl"
@@ -99,8 +94,8 @@
                       "line-height": "1.5em",
                       "color": "gray",
                       "margin": "8px 0",
-                      "font-size":"15px",
-                      "font-family":"Helvetica"
+                      "font-size": "15px",
+                      "font-family": "Helvetica"
                     },
                     "txtContent": "[$TweetBy]"
                   },
@@ -113,9 +108,9 @@
                       "line-height": "1.5em",
                       "color": "gray",
                       "margin": "8px 0",
-                      "margin-left":"8px",
-                      "font-size":"15px",
-                      "font-family":"Helvetica"
+                      "margin-left": "8px",
+                      "font-size": "15px",
+                      "font-family": "Helvetica"
                     },
                     "txtContent": "."
                   },
@@ -128,9 +123,9 @@
                       "line-height": "1.5em",
                       "color": "gray",
                       "margin": "8px 0",
-                      "margin-left":"8px",
-                      "font-size":"15px",
-                      "font-family":"Helvetica"
+                      "margin-left": "8px",
+                      "font-size": "15px",
+                      "font-family": "Helvetica"
                     },
                     "txtContent": "[$TweetFormattedDate]"
                   },
@@ -147,17 +142,11 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "margin-left":"85px"
+                          "margin-left": "85px"
                         },
                         "children": [
                           {
                             "elmType": "div",
-                            "attributes": {
-                              "class": ""
-                            },
-                            "style": {
-                      
-                            },
                             "txtContent": "[$FullTweet]"
                           }
                         ]
@@ -170,12 +159,8 @@
           }
         ]
       },
-
       {
         "elmType": "div",
-        "attributes": {
-          "class": ""
-        },
         "style": {
           "padding": "4px 88px",
           "line-height": "1.5em",
@@ -186,16 +171,16 @@
           {
             "elmType": "span",
             "children": [
-                {
-                    "elmType": "span",
-                    "style": {
-                      "vertical-align": "bottom",
-                      "margin": "0 9px 0 1px"
-                    },
-                    "attributes": {
-                      "iconName": "BranchCompare"
-                    }
-                  },
+              {
+                "elmType": "span",
+                "style": {
+                  "vertical-align": "bottom",
+                  "margin": "0 9px 0 1px"
+                },
+                "attributes": {
+                  "iconName": "BranchCompare"
+                }
+              },
               {
                 "elmType": "span",
                 "txtContent": "[$NumbRetweets]"
@@ -209,15 +194,13 @@
                 "attributes": {
                   "iconName": "ShareiOS",
                   "target": "_blank",
-                    "href": "[$LinkToTweet]"
+                  "href": "[$LinkToTweet]"
                 }
               }
             ]
           }
         ]
       }
-
-
     ]
   }
 }
