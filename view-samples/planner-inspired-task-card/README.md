@@ -1,18 +1,25 @@
 # Planner Inspired Task Cards
 
 ## Summary
-Formats Task List Items in a Planner Inspired Card View.  Uses OfficeUIFabric Icons to designate "In Progress", "Completed" and "Delayed" Statuses.  Automatically strikes out text for "Completed" items.  
+Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
 
 ![Planner Format](./SPPlannerFormat.png)
 
 ## View requirements
 
+All fields below should be part of the view, but only those marked with Required need to have values:
+
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|Yes|
-|AssignedTo|User|Yes|
-|Status|Choice|No|
-|Due Date|DateTime|No|
+|Person|AssignedTo|Yes|
+|Choice|Status|No|
+|DateTime|DueDate|No|
+
+The `Status` column expects the following choice values:
+- In Progress
+- Delayed
+- Completed
 
 ## Sample
 
@@ -30,3 +37,5 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/planner-inspired-task-card" />

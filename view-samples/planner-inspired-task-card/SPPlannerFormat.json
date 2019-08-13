@@ -14,7 +14,7 @@
       "justify-content": "space-around",
       "min-width": "300px",
       "min-height": "250px",
-      "max-width":"300px",
+      "max-width": "300px",
       "border-radius": "2px",
       "margin-right": "5px",
       "margin-bottom": "5px",
@@ -24,16 +24,14 @@
       "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover"
     },
     "children": [
-
       {
         "elmType": "div",
         "style": {
           "text-align": "center",
-          "flex-basis":"100%"
+          "flex-basis": "100%"
         },
         "children": [
-
-  {
+          {
             "elmType": "div",
             "style": {
               "font-weight": "800",
@@ -45,7 +43,6 @@
             },
             "txtContent": "[$Status]"
           },
-
           {
             "elmType": "div",
             "style": {
@@ -69,7 +66,6 @@
               "display": "=if([$Status] == 'In Progress', 'inline', 'none')"
             }
           },
-
           {
             "elmType": "span",
             "attributes": {
@@ -81,8 +77,7 @@
               "display": "=if([$Status] == 'Completed', 'inline', 'none')"
             }
           },
-
-             {
+          {
             "elmType": "span",
             "attributes": {
               "iconName": "Warning",
@@ -93,7 +88,6 @@
               "display": "=if([$Status] == 'Delayed', 'inline', 'none')"
             }
           },
-
           {
             "elmType": "span",
             "attributes": {
@@ -112,9 +106,9 @@
               "overflow": "hidden",
               "max-width": "280px",
               "white-space": "nowrap",
-              "color": "=if([$Due_x0020_Date] <= @now, 'red', ''"
+              "color": "=if([$DueDate] <= @now, 'red', ''"
             },
-            "txtContent": "=toLocaleDateString([$Due_x0020_Date])"
+            "txtContent": "=toLocaleDateString([$DueDate])"
           }
         ]
       },
