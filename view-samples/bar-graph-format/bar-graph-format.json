@@ -1,0 +1,133 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": "true",
+    "hideColumnHeader": "true",
+    "rowFormatter": {
+        "elmType": "div",
+        "style": {
+            "float": "left",
+            "height": "800px",
+            "align-items": "flex-end",
+            "border-bottom": "3px solid",
+            "border-left": "=if([$IsFirstItem] , '3px solid' , '0px')"
+        },
+        "attributes": {
+            "class": "ms-fontColor-themeDark"
+        },
+        "children": [
+            {
+                "elmType": "span",
+                "txtContent": "Views",
+                "style": {
+                    "display": "=if([$IsFirstItem], 'block','none')",
+                    "position": "absolute",
+                    "left": "-21px",
+                    "top": "75%",
+                    "width": "18px",
+                    "text-align": "center"
+                },
+                "attributes": {
+                    "class": "ms-fontSize-24"
+                }
+            },
+            {
+                "elmType": "span",
+                "style": {
+                    "display": "=if([$IsFirstItem], 'block','none')",
+                    "position": "absolute",
+                    "left": "-27px",
+                    "top": "95%",
+                    "width": "10px"
+                },
+                "attributes": {
+                    "iconName": "ChevronUp",
+                    "class": "ms-fontSize-24"
+                }
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "display": "=if([$IsFirstItem], 'block','none')",
+                    "position": "absolute",
+                    "left": "0px",
+                    "top": "31%",
+                    "border-bottom": "3px dashed",
+                    "width": "35%"
+                }
+            },
+            {
+                "elmType": "span",
+                "style": {
+                    "display": "=if([$IsFirstItem], 'block','none')",
+                    "position": "absolute",
+                    "left": "1%",
+                    "top": "100.2%"
+                },
+                "attributes": {
+                    "iconName": "ChevronRight",
+                    "class": "ms-fontSize-24"
+                }
+            },
+            {
+                "elmType": "span",
+                "txtContent": "Blogs",
+                "style": {
+                    "display": "=if([$IsFirstItem], 'block','none')",
+                    "position": "absolute",
+                    "left": "3%",
+                    "top": "100%"
+                },
+                "attributes": {
+                    "class": "ms-fontSize-24"
+                }
+            },
+            {
+                "elmType": "div",
+                "attributes": {
+                    "class": "=if([$Views] >= 700, 'ms-bgColor-themeDarker ms-fontColor-white ms-bgColor-themePrimary--hover ms-fontColor-white--hover sp-field-dataBars ms-font-m', 'ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover sp-field-dataBars ms-font-m')",
+                    "title": "=[$Title] + ' has ' + [$Views] + ' views' + if([$Views] >= 700, ' and is trending.','.')"
+                },
+                "style": {
+                    "width": "40px",
+                    "height": "=if([$Views] >= 1000, '93%', ([$Views] / 10) + '%')",
+                    "margin-right": "10px",
+                    "margin-left": "10px",
+                    "margin-top": "=if([$Views] >= 1000, '7%', ((1000-[$Views]) / 10) + '%')",
+                    "margin-bottom": "1%",
+                    "box-shadow": "2px 0px 4px 0px darkgrey",
+                    "text-align": "center",
+                    "z-index": "1"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "margin-top": "-45px",
+                            "margin-bottom": "10px",
+                            "display": "=if([$MostRead], 'block','none')",
+                            "color": "#FFD700"
+                        },
+                        "attributes": {
+                            "iconName": "CrownSolid",
+                            "class": "ms-font-su"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "txtContent": "[$Views]"
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "margin-top": "5px",
+                            "display": "=if([$Views] >= 700, 'block','none')"
+                        },
+                        "attributes": {
+                            "iconName": "Trending12"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
