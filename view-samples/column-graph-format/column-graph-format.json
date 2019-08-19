@@ -23,10 +23,11 @@
           "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
           "left": "-24px",
-          "top": "610px",
+          "top": "656px",
           "width": "18px",
           "text-align": "center",
-          "font-size": "24px"
+          "font-size": "24px",
+          "line-height": "22px"
         }
       },
       {
