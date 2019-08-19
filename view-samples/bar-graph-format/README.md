@@ -6,6 +6,7 @@ This is a sample shows how to format a list to show the data as a bar graph. In 
 
 The sample features the following:
 - Conditionally showing a crown icon if the item is marked as MostRead
+- Conditionally showing elements (chart labels) based on `@rowIndex`
 - Conditionally showing a trending icon if the item has more than 700 views
 - Conditionally changing the colour of the bar if the item has more than 700 views
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
@@ -22,18 +23,16 @@ The sample features the following:
 |---|---|:---:|
 |Single line of text|Title|Yes|
 |Number|Views||
-|Yes/No|IsFirstItem||
 |Yes/No|MostRead||
 
 ## Setup
 
 The sample needs the following setup:
-- Only the first item needs to have IsFirstItem as yes
-- Only one item needs to have MostRead as yes
+- Only one item needs to have `MostRead` as yes
 
 The idea is that this data gets populated via some code so that it can represented as graph.
 
-In the sample the height of the parent div is set to 800px and the child div use percentage heights. The percentages are calcuated considering 1000 as max number of views. If this number needs changing then please update the formula in lines 92 and 95 accordingly.
+In the sample, the height of the parent div is set to 800px and the child div use percentage heights. The percentages are calcuated considering 1000 as max number of views. If this number needs changing then please update the formula in lines 92 and 95 accordingly.
 
 ## Enhancements
 
