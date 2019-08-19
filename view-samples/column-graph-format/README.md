@@ -1,8 +1,8 @@
-# Bar Graph format
+# Column Graph format
 
 ## Summary
 
-This is a sample shows how to format a list to show the data as a bar graph. In this instance we are showing number of views per blog.
+This sample shows how to format a list to show the data as a column graph. In this instance we are showing number of views per blog.
 
 The sample features the following:
 - Conditionally showing a crown icon if the item is marked as MostRead
@@ -12,10 +12,10 @@ The sample features the following:
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
 ## Normal view
-![Bar Graph Screenshot](./bargraph.png)
+![Column Graph Screenshot](./columngraph.png)
 
 ## Item Hover view
-![Bar Graph with Title Screenshot](./bargraph_with_title.png)
+![Column Graph with Title Screenshot](./columngraph_with_title.png)
 
 ## View requirements
 
@@ -30,19 +30,15 @@ The sample features the following:
 The sample needs the following setup:
 - Only one item needs to have `MostRead` as yes
 
-The idea is that this data gets populated via some code so that it can represented as graph.
+The idea is that this data gets populated via some code so that it can represented as a graph.
 
-In the sample, the height of the parent div is set to 800px and the child div use percentage heights. The percentages are calcuated considering 1000 as max number of views. If this number needs changing then please update the formula in lines 92 and 95 accordingly.
-
-## Enhancements
-
-The threshold line at the moment has width set to 35%. This can be changed to be set dynamically based on the number of items.
+In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of views. If this number needs changed, please update the formulas in lines 89 and 112 accordingly.
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-bar-graph-format | [Anoop Tatti](https://twitter.com/anooptells)
+column-graph-format | [Anoop Tatti](https://twitter.com/anooptells)
 
 ## Version history
 
@@ -55,4 +51,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bar-graph-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/column-graph-format" />
