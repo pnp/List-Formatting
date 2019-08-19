@@ -109,7 +109,7 @@
           },
           {
             "elmType": "span",
-            "txtContent": "[$Views]"
+            "txtContent": "=if([$Views] > 1000, '1000+', [$Views])"
           },
           {
             "elmType": "div",
