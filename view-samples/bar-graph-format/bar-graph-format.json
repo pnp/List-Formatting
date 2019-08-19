@@ -46,12 +46,11 @@
       {
         "elmType": "div",
         "style": {
-          "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
-          "left": "0px",
-          "top": "31%",
+          "left": "=3 + @rowIndex*76 + 'px'",
+          "top": "=45 + ((800-45) * .3) + 'px'",
           "border-bottom": "3px dashed",
-          "width": "35%"
+          "width": "73px"
         }
       },
       {
