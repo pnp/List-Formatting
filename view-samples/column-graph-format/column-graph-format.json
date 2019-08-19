@@ -1,0 +1,129 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": "true",
+  "hideColumnHeader": "true",
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "float": "left",
+      "height": "800px",
+      "align-items": "flex-end",
+      "box-sizing": "border-box",
+      "border-bottom": "3px solid",
+      "border-left": "=if(@rowIndex == 0, '3px solid' , '0px')"
+    },
+    "attributes": {
+      "class": "ms-fontColor-themeDark"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "txtContent": "Views",
+        "style": {
+          "display": "=if(@rowIndex == 0, 'block','none')",
+          "position": "absolute",
+          "left": "-24px",
+          "top": "656px",
+          "width": "18px",
+          "text-align": "center",
+          "font-size": "24px",
+          "line-height": "22px"
+        }
+      },
+      {
+        "elmType": "span",
+        "style": {
+          "display": "=if(@rowIndex == 0, 'block','none')",
+          "position": "absolute",
+          "left": "-27px",
+          "top": "770px",
+          "width": "10px",
+          "font-size": "24px"
+        },
+        "attributes": {
+          "iconName": "ChevronUp"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "left": "=3 + @rowIndex*76 + 'px'",
+          "top": "=45 + ((800-45) * .3) + 'px'",
+          "border-bottom": "3px dashed",
+          "width": "73px"
+        }
+      },
+      {
+        "elmType": "span",
+        "style": {
+          "display": "=if(@rowIndex == 0, 'block','none')",
+          "position": "absolute",
+          "left": "4px",
+          "top": "802px",
+          "font-size": "24px"
+        },
+        "attributes": {
+          "iconName": "ChevronRight"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "Blogs",
+        "style": {
+          "display": "=if(@rowIndex == 0, 'block','none')",
+          "position": "absolute",
+          "left": "28px",
+          "top": "800px",
+          "font-size": "24px",
+          "line-height": "24px"
+        }
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "=if([$Views] >= 700, 'ms-bgColor-themeDarker ms-fontColor-white ms-bgColor-themePrimary--hover ms-fontColor-white--hover sp-field-dataBars ms-font-m', 'ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover sp-field-dataBars ms-font-m')",
+          "title": "=[$Title] + ' has ' + [$Views] + ' views' + if([$Views] >= 700, ' and is trending.','.')"
+        },
+        "style": {
+          "width": "56px",
+          "height": "=if([$Views] >= 1000, (800 - 45) + 'px', ([$Views] / 1000) * (800 - 45) + 'px')",
+          "margin": "0 10px",
+          "box-shadow": "2px 0px 4px 0px darkgrey",
+          "box-sizing": "border-box",
+          "text-align": "center",
+          "z-index": "1"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "margin-top": "-45px",
+              "margin-bottom": "10px",
+              "display": "=if([$MostRead], 'block','none')",
+              "color": "#FFD700",
+              "font-size": "42px"
+            },
+            "attributes": {
+              "iconName": "CrownSolid"
+            }
+          },
+          {
+            "elmType": "span",
+            "txtContent": "=if([$Views] > 1000, '1000+', [$Views])"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin-top": "5px",
+              "display": "=if([$Views] >= 700, 'block','none')"
+            },
+            "attributes": {
+              "iconName": "Trending12"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
