@@ -86,13 +86,11 @@
           "title": "=[$Title] + ' has ' + [$Views] + ' views' + if([$Views] >= 700, ' and is trending.','.')"
         },
         "style": {
-          "width": "40px",
-          "height": "=if([$Views] >= 1000, '93%', ([$Views] / 10) + '%')",
-          "margin-right": "10px",
-          "margin-left": "10px",
-          "margin-top": "=if([$Views] >= 1000, '7%', ((1000-[$Views]) / 10) + '%')",
-          "margin-bottom": "1%",
+          "width": "56px",
+          "height": "=if([$Views] >= 1000, (800 - 45) + 'px', ([$Views] / 1000) * (800 - 45) + 'px')",
+          "margin": "0 10px",
           "box-shadow": "2px 0px 4px 0px darkgrey",
+          "box-sizing": "border-box",
           "text-align": "center",
           "z-index": "1"
         },
