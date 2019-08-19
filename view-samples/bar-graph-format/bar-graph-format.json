@@ -22,13 +22,11 @@
         "style": {
           "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
-          "left": "-21px",
-          "top": "75%",
+          "left": "-24px",
+          "top": "610px",
           "width": "18px",
-          "text-align": "center"
-        },
-        "attributes": {
-          "class": "ms-fontSize-24"
+          "text-align": "center",
+          "font-size": "24px"
         }
       },
       {
@@ -37,12 +35,12 @@
           "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
           "left": "-27px",
-          "top": "95%",
-          "width": "10px"
+          "top": "770px",
+          "width": "10px",
+          "font-size": "24px"
         },
         "attributes": {
-          "iconName": "ChevronUp",
-          "class": "ms-fontSize-24"
+          "iconName": "ChevronUp"
         }
       },
       {
@@ -61,12 +59,12 @@
         "style": {
           "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
-          "left": "1%",
-          "top": "100.2%"
+          "left": "4px",
+          "top": "802px",
+          "font-size": "24px"
         },
         "attributes": {
-          "iconName": "ChevronRight",
-          "class": "ms-fontSize-24"
+          "iconName": "ChevronRight"
         }
       },
       {
@@ -75,11 +73,10 @@
         "style": {
           "display": "=if(@rowIndex == 0, 'block','none')",
           "position": "absolute",
-          "left": "3%",
-          "top": "100%"
-        },
-        "attributes": {
-          "class": "ms-fontSize-24"
+          "left": "28px",
+          "top": "800px",
+          "font-size": "24px",
+          "line-height": "24px"
         }
       },
       {
@@ -106,11 +103,11 @@
               "margin-top": "-45px",
               "margin-bottom": "10px",
               "display": "=if([$MostRead], 'block','none')",
-              "color": "#FFD700"
+              "color": "#FFD700",
+              "font-size": "42px"
             },
             "attributes": {
-              "iconName": "CrownSolid",
-              "class": "ms-font-su"
+              "iconName": "CrownSolid"
             }
           },
           {
