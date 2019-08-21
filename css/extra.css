@@ -1,0 +1,9 @@
+.md-logo{
+    height:32px;
+    width: 150px;
+}
+.md-logo img {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: -0.25em;
+}
