@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "block"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "txtContent": "@currentField.DisplayName",
+      "attributes": {
+        "href": "='https://www.bing.com/maps?cp=' + @currentField.Coordinates.Latitude + '~' + @currentField.Coordinates.Longitude + '&lvl=17&sV=2'",
+        "target": "_blank",
+        "title": "=@currentField.Coordinates.Latitude + ', ' + @currentField.Coordinates.Longitude"
+      },
+      "style": {
+        "display": "block"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "@currentField.Address.Street"
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=@currentField.Address.City + ', ' + @currentField.Address.State"
+    },
+    {
+      "elmType": "div",
+      "txtContent": "@currentField.Address.CountryOrRegion"
+    }
+  ]
+}
