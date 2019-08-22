@@ -8,12 +8,13 @@ nav:
   - Column Samples: columnsamples.md
   - View Samples: viewsamples.md
   - Groupings:
-    - 'By Column Type': groupings/columntype.md
-    - 'By Operator': groupings/operator.md
-    - 'By Placeholder Token': groupings/token.md
-    - 'By Row Action': groupings/action.md
-    - 'By Category': groupings/category.md
-    - 'By Contributor': groupings/contributor.md
+    - By Column Type: groupings/columntype.md
+    - By Operator: groupings/operator.md
+    - By Placeholder Token: groupings/token.md
+    - By Row Action: groupings/action.md
+    - By Category: groupings/category.md
+    - By Contributor: groupings/contributor.md
+    - SharePoint 2019: groupings/SP2019.md
   - Contributing:
     - Contribution Guide: contributing/index.md
 theme:
