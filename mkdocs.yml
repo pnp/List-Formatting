@@ -17,6 +17,11 @@ nav:
     - SharePoint 2019: groupings/SP2019.md
   - Contributing:
     - Contribution Guide: contributing/index.md
+    - Submitting an Issue or Suggestion: contributing/issues.md
+    - Forking?: contributing/forking.md
+    - Creating a Sample: contributing/sample.md
+    - Submitting a Pull Request: contributing/pullrequest.md
+    - Update the Docs: contributing/docs.md
 theme:
   name: 'material'
   palette:
