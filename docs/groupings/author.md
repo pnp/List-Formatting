@@ -1,4 +1,4 @@
-# Samples by Contributor
+# Samples by Author
 
 Samples are listed by their _original_ creator. Later updates by additional contributors are not listed here.
 

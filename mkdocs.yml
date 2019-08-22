@@ -13,7 +13,7 @@ nav:
     - By Placeholder Token: groupings/token.md
     - By Row Action: groupings/action.md
     - By Category: groupings/category.md
-    - By Contributor: groupings/contributor.md
+    - By Author: groupings/author.md
     - SharePoint 2019: groupings/SP2019.md
   - Contributing:
     - Contribution Guide: contributing/index.md

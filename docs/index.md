@@ -21,7 +21,7 @@ You can head directly to those folders and start looking around if you'd like. B
 - [By **Placeholder Token**](./groupings/token.md)
 - [By **Row Action**](./groupings/action.md)
 - [By **Category**](./groupings/category.md)
-- [By **Contributor**](./groupings/contributor.md)
+- [By **Author**](./groupings/author.md)
 ## Detailed Documentation
 
 - [Use **column formatting** to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
