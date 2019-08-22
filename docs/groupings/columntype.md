@@ -2,17 +2,14 @@
 
 ## ContentType
 
-##### Column Samples
-
 ##### View Samples
 - [contenttype-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contenttype-format)
 - [document-library-thumbnails](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library-thumbnails)
 
 ## Currency
 
-##### Column Samples
-
 ##### View Samples
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 
 
 ## Date/Time
@@ -26,6 +23,8 @@
 - [birthday-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/birthday-format)
 - [date-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/date-conditional-format)
 - [document-library](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 
 
 ## General (Text, Choice, Other)
@@ -76,41 +75,52 @@
 - [contact-card-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contact-card-format)
 - [contenttype-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contenttype-format)
 - [document-library](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library)
+- [generic-numeric-average-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-numeric-average-comparison)
+- [generic-ryg-status-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-ryg-status-format)
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
+- [multi-line-view](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-line-view)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [rota-css-table](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/rota-css-table)
+- [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/text-conditional-format)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 
 ## Hyperlink
 
-##### Column Samples
-
 ##### View Samples
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 
 
 ## Location
 
 ##### Column Samples
-
 - [location-address](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/location-address)
 
 ##### View Samples
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 
 
 ## Multi-Choice
 
 ##### Column Samples
-
 - [multi-choice-foreach](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-foreach)
 - [multi-choice-icons](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-icons)
 
 ##### View Samples
+- [rota-css-table](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/rota-css-table)
 
 
 ## Multi-Person
 
 ##### Column Samples
-
 - [multi-person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-currentuser)
 - [multi-person-facepile](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-facepile)
 
 ##### View Samples
+- [multi-person-currentuser-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-person-currentuser-rowclass)
 
 
 ## Number
@@ -131,6 +141,9 @@
 
 ##### View Samples
 - [column-graph-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/column-graph-format)
+- [generic-numeric-average-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-numeric-average-comparison)
+- [generic-risk-score-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-risk-score-format)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 
 
 ## Person
@@ -141,6 +154,12 @@
 - [person-roundimage-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-roundimage-format)
 
 ##### View Samples
+- [multi-line-view](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-line-view)
+- [person-currentuser-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/person-currentuser-rowclass)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 
 
 ## Picture
@@ -151,6 +170,7 @@
 #### View Samples
 - [birthday-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/birthday-format)
 - [contact-card-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contact-card-format)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
 
 
 ## Yes/No
@@ -164,6 +184,9 @@
 ##### View Samples
 - [column-graph-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/column-graph-format)
 - [document-library](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library)
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/columntype" />

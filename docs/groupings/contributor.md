@@ -1,5 +1,7 @@
 # Samples by Contributor
 
+Samples are listed by their _original_ creator. Later updates by additional contributors are not listed here.
+
 ## Joe Ayre
 - [date-range-rag/days-left](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/date-range-rag)
 
@@ -14,10 +16,17 @@
 
 ## Lincoln DeMaris
 - [date-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/date-conditional-format)
+- [multi-line-view](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-line-view)
+- [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/text-conditional-format)
 
 ## April Dunham
 - [birthday-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/birthday-format)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
 - [text-bing-map](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-bing-map)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
+
+## Ejaz Hussain
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
 
 ## Chris Kent
 - [alternating-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/alternating-rowclass)
@@ -38,9 +47,11 @@
 - [location-address](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/location-address)
 - [multi-choice-foreach](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-foreach)
 - [multi-choice-icons](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-icons)
+- [multi-person-currentuser-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-person-currentuser-rowclass)
 - [multi-person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-currentuser)
 - [multi-person-facepile](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-facepile)
 - [number-data-bar/percent-data-bar](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-data-bar)
+- [person-currentuser-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/person-currentuser-rowclass)
 - [person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-currentuser)
 - [person-roundimage-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-roundimage-format)
 - [picture-roundimage-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/picture-roundimage-format)
@@ -54,6 +65,9 @@
 - [text-startswith-callingcodes](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-startswith-callingcodes)
 - [text-strikethrough](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-strikethrough)
 - [yesno-checkbox](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkbox)
+
+## Ariel Kropp
+- [rota-css-table](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/rota-css-table)
 
 ## Josef Lahmer
 - [generic-hyperlink-thumbnail](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-hyperlink-thumbnail)
@@ -70,6 +84,9 @@
 - [generic-project-management/risk-level-change-status](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
 - [generic-project-management/risk-score](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
 - [generic-project-management/ryg-status](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
+- [generic-risk-score-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-risk-score-format)
+- [generic-ryg-status-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-ryg-status-format)
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
 
 ## Aaron Miao
 - [number-piechart](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-piechart)
@@ -91,6 +108,8 @@
 - [number-data-bar](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-data-bar)
 - [number-trending-icon](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-trending-icon)
 - [person-mailto](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-mailto)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 - [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format)
 
 ## Eric Skaggs
@@ -100,6 +119,7 @@
 - [column-graph-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/column-graph-format)
 
 ## David Warner II
+- [generic-numeric-average-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-numeric-average-comparison)
 - [generic-socialpic](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-socialpic)
 - [number-abs-tolerance-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-abs-tolerance-comparison)
 - [number-trending-icon/with-differences](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-trending-icon)

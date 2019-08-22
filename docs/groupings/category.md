@@ -1,10 +1,17 @@
 # Samples by Category
 
+Samples are listed by topic or approach. This is not an exhaustive list.
+
 ## Cards
 - [birthday-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/birthday-format)
 - [bulletin-board-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/bulletin-board-format)
 - [contact-card-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contact-card-format)
 - [document-library](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library)
+- [generic-numeric-average-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-numeric-average-comparison)
+- [multi-line-view](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/multi-line-view)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [rota-css-table](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/rota-css-table)
 
 ## Charts
 - [column-graph-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/column-graph-format)
@@ -27,6 +34,9 @@
 - [generic-twitterpic](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-twitterpic)
 - [location-address](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/location-address)
 - [person-mailto](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-mailto)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 - [text-bing-map](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-bing-map)
 - [text-isbn-image](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-isbn-image)
 - [text-local-image](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-local-image)
@@ -57,6 +67,7 @@
 - [generic-start-flow-conditionally](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-start-flow-conditionally)
 - [generic-start-flow](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-start-flow)
 - [generic-svgicon-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-svgicon-format)
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
 - [multi-choice-icons](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-icons)
 - [number-abs-tolerance-comparison](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-abs-tolerance-comparison)
 - [number-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-conditional-format)
@@ -66,7 +77,12 @@
 - [number-trending-icon/with-differences](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-trending-icon)
 - [number-using-modulo-publish](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-using-modulo-publish)
 - [person-mailto](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-mailto)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 - [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 - [yesno-checkbox](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkbox)
 - [yesno-checkmark-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkmark-format)
 - [yesno-checkmark](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkmark)
@@ -80,7 +96,9 @@
 ## People
 - [contact-card-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contact-card-format)
 - [multi-person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-currentuser)
+- [multi-person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-currentuser)
 - [multi-person-facepile](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-person-facepile)
+- [person-currentuser-rowclass](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/person-currentuser-rowclass)
 - [person-currentuser](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-currentuser)
 - [person-mailto](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-mailto)
 - [person-roundimage-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/person-roundimage-format)
@@ -92,11 +110,14 @@
 - [number-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-conditional-format)
 - [number-using-modulo-publish](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-using-modulo-publish)
 - [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format)
+- [text-conditional-format (view)](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/text-conditional-format)
 - [yesno-checkmark-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkmark-format)
 
 ## Social Media
 - [generic-socialpic](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-socialpic)
 - [generic-twitterpic](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-twitterpic)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
+- [twitter-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/twitter-format)
 
 ## Status / Progress
 - [choice-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/choice-conditional-format)
@@ -108,12 +129,17 @@
 - [generic-project-management/risk-level-change-status](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
 - [generic-project-management/risk-score](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
 - [generic-project-management/ryg-status](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
+- [generic-risk-score-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-risk-score-format)
+- [generic-ryg-status-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-ryg-status-format)
 - [generic-start-flow-conditionally](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-start-flow-conditionally)
 - [number-data-bar](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-data-bar)
 - [number-data-bar/percent-data-bar](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-data-bar)
 - [number-icon-progressbar](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-icon-progressbar)
 - [number-using-modulo-publish](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/number-using-modulo-publish)
+- [resource-catalog](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/resource-catalog)
+- [retail-account](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/retail-account)
 - [text-conditional-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format)
+- [text-conditional-format (view)](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/text-conditional-format)
 - [text-ryg-status-indicator](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-ryg-status-indicator)
 - [text-strikethrough](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-strikethrough)
 - [yesno-checkbox](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/yesno-checkbox)
@@ -131,6 +157,9 @@
 ## Tiles
 - [contenttype-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/contenttype-format)
 - [document-library-thumbnails](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/document-library-thumbnails)
+- [generic-tile-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/generic-tile-format)
+- [planner-inspired-task-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card)
+- [profile-card](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/profile-card)
 
 ## Trending
 - [generic-project-management/risk-level-change-status](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/generic-project-management)
