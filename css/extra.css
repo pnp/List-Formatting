@@ -1,9 +1,11 @@
 .md-logo{
-    height:32px;
-    width: 150px;
+    width: 80px;
 }
 .md-logo img {
     width: 100% !important;
     height: auto !important;
     margin-top: -0.25em;
+}
+.md-header-nav__topic {
+    margin-left: -16px;
 }
