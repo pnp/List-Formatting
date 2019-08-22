@@ -1,11 +1,27 @@
-site_name: List Formatting Samples
+site_name: SharePoint List Formatting Samples
 nav:
-  - Home: 'index.md'
+  - Home: index.md
+  - Getting Started:
+    - Using the Samples: gettingstarted/index.md
+    - Applying Column Formats: gettingstarted/columnformats.md
+    - Applying View Formats: gettingstarted/viewformats.md
+  - Column Samples: columnsamples.md
+  - View Samples: viewsamples.md
+  - Groupings:
+    - 'By Column Type': groupings/columntype.md
+    - 'By Operator': groupings/operator.md
+    - 'By Placeholder Token': groupings/token.md
+    - 'By Row Action': groupings/action.md
+    - 'By Category': groupings/category.md
+    - 'By Contributor': groupings/contributor.md
+  - Contributing:
+    - Contribution Guide: contributing/index.md
 theme:
   name: 'material'
   palette:
-    primary: 'teal'
-  logo: 'img/Logo.png'
+    primary: 'orange'
+    accent: 'teal'
+  logo: 'img/pnp-samples-white.svg'
   feature:
     tabs: true
 extra_css:
