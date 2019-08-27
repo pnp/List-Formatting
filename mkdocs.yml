@@ -1,0 +1,55 @@
+site_name: SharePoint List Formatting Samples
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Using the Samples: gettingstarted/index.md
+    - Applying Column Formats: gettingstarted/columnformats.md
+    - Applying View Formats: gettingstarted/viewformats.md
+  - Column Samples: columnsamples.md
+  - View Samples: viewsamples.md
+  - Groupings:
+    - By Column Type: groupings/columntype.md
+    - By Operator: groupings/operator.md
+    - By Placeholder Token: groupings/token.md
+    - By Row Action: groupings/action.md
+    - By Category: groupings/category.md
+    - By Author: groupings/author.md
+    - SharePoint 2019: groupings/SP2019.md
+  - Contributing:
+    - Contribution Guide: contributing/index.md
+    - Submitting an Issue or Suggestion: contributing/issues.md
+    - Forking?: contributing/forking.md
+    - Creating a Sample: contributing/sample.md
+    - Submitting a Pull Request: contributing/pullrequest.md
+    - Update the Docs: contributing/docs.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'orange'
+  logo: 'img/pnp-samples-white.svg'
+  feature:
+    tabs: true
+extra_css:
+  - 'css/extra.css'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+plugins:
+  - search
+  - markdownextradata
+extra:
+  version: '1.3.2-0'
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/officedevpnp'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
+    - type: 'link'
+      link: 'https://aka.ms/sppnp'
+repo_url: https://github.com/SharePoint/sp-dev-list-formatting
+edit_uri: tree/master/docs
+site_url: https://sharepoint.github.io/sp-dev-list-formatting/
