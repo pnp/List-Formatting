@@ -127,4 +127,4 @@ Samples are listed by their _original_ creator. Later updates by additional cont
 ## Siddharth Vaghasia
 - [color-based-smiley-face](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/color-based-smiley-face)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/contributor" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/author" />
