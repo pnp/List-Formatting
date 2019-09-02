@@ -96,7 +96,7 @@
         {
           "elmType": "div",
           "attributes": {
-            "class": "=if([$Votes] >= 700, 'ms-bgColor-themeDarker ms-fontColor-white ms-bgColor-themePrimary--hover ms-fontColor-white--hover ms-font-m animated slideInLeft', 'ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover ms-font-m animated slideInLeft')",
+            "class": "=if([$Votes] >= 700, 'ms-bgColor-themeDarker ms-fontColor-white ms-bgColor-themePrimary--hover ms-fontColor-white--hover ms-font-m animated bounceInLeft delay-1s', 'ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover ms-font-m animated bounceInLeft delay-1s')",
             "title": "=[$Title] + ' has ' + [$Votes] + ' Votes' + if([$Votes] >= 700, ' and is trending.','.')"
           },
           "style": {
