@@ -26,6 +26,7 @@ The sample features the following:
 |Number|Votes||
 |Yes/No|IsLastItem||
 |Yes/No|IsHighest||
+|Single line of text|Icon||
 
 ## Setup
 
@@ -35,7 +36,7 @@ The sample needs the following setup:
 
 The idea is that this data gets populated via some code so that it can represented as a graph.
 
-In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of views. If this number needs changed, please update the formulas in lines 49 and 103 accordingly.
+In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of views. If this number needs changed, please update the formulas in lines 50 and 103 accordingly.
 
 ## Sample
 
