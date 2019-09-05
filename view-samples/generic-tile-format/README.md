@@ -5,7 +5,7 @@ This sample uses rowFormatter element to overrides the default formatting on the
 
 ![Color status field](./tile-view.png)
 
-> IMPORTANT - This customization will not work reliably in lists with more than 30 items, because it will interfere with the infinite scrolling feature of modern lists.
+This format takes advantage of the `tileProps` property to create tiles in the Tiles display for the view. To see the tiles, switch your view to the Tiles display.
 
 ## View requirements
 - The format expect the following fields:
@@ -30,6 +30,7 @@ title-view.json | [S Merchant](https://twitter.com/sohailmerchant)
 Version|Date|Comments
 -------|----|--------
 1.0|Septmeber 9, 2018|Initial release
+2.0|September 5, 2019|Utilizes tileProps
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
