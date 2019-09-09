@@ -15,6 +15,7 @@ Field |Type
 Title | Single line of text 
 ProductPhoto | Hyperlink (to the image)
 ProductPrice | Number
+Features | Multiple lines of text
 
 The size of the tile can be adjusted by changing the width and height values.
 
