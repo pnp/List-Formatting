@@ -1,0 +1,123 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideListHeader": false,
+    "tileProps": {
+      "height": "450",
+      "width": "300",
+      "additionalRowClass": "=if(@rowIndex%2 == 0, 'sp-css-backgroundColor-neutralBackground', '')",
+      "formatter": {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "stretch",
+          "margin-bottom": "16px",
+          "min-width": "150px",
+          "flex-grow": "1",
+          "justify-content": "space-around",
+          "padding": "8px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "97%",
+              "height": "97%",
+              "box-shadow": "4px 4px 8px #a9a9a985",
+              "overflow": "hidden",
+              "border-radius": "4px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralLighter"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "min-width": "300px"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=if([$ProductPhoto] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$ProductPhoto])",
+                      "title": "=if([$ProductPhoto] == '', 'No picture available', [$Picture.desc])"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "200px"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "8px",
+                  "min-width": "300px",
+                  "vertical-align": "top"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "color": "grey",
+                      "font-size": "12px"
+                    },
+                    "txtContent": "Product"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-weight": "bold",
+                      "font-size": "15px",
+                      "margin-bottom": "10px"
+                    },
+                    "txtContent": "[$Title]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "8px",
+                  "min-width": "300px",
+                  "vertical-align": "top"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "8px",
+                  "min-width": "300px",
+                  "vertical-align": "top"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "Price",
+                    "style": {
+                      "color": "grey",
+                      "font-size": "12px"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "15px",
+                      "margin-bottom": "10px"
+                    },
+                    "txtContent": "[$ProductPrice]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
