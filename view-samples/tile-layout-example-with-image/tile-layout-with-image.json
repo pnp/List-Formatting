@@ -12,7 +12,8 @@
         "min-width": "150px",
         "flex-grow": "1",
         "justify-content": "space-around",
-        "padding": "8px"
+        "padding": "8px",
+        "color": "#333333"
       },
       "children": [
         {
@@ -25,7 +26,7 @@
             "border-radius": "2px"
           },
           "attributes": {
-            "class": "ms-bgColor-neutralLighter"
+            "class": "ms-bgColor-neutralLighterAlt"
           },
           "children": [
             {
@@ -61,7 +62,7 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "color": "grey",
+                    "color": "#767676",
                     "font-size": "12px"
                   },
                   "txtContent": "Product"
@@ -69,38 +70,26 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "margin-bottom": "10px",
-                    "color": "#333333",
+                    "margin-bottom": "12px",
                     "font-size": "16px",
                     "font-weight": "600"
                   },
                   "txtContent": "[$Title]"
-                }
-              ]
-            },
-            {
-              "elmType": "div",
-              "style": {
-                "display": "inline-block",
-                "min-width": "300px",
-                "vertical-align": "top",
-                "padding-left": "16px",
-                "padding-top": "5px"
-              },
-              "children": [
+                },
                 {
                   "elmType": "div",
                   "txtContent": "Price",
                   "style": {
-                    "color": "grey",
-                    "font-size": "12px"
+                    "color": "#767676",
+                    "font-size": "12px",
+                    "margin-bottom": "2px"
                   }
                 },
                 {
                   "elmType": "div",
                   "style": {
                     "font-size": "14px",
-                    "margin-bottom": "10px"
+                    "margin-bottom": "12px"
                   },
                   "txtContent": {
                     "operator": "+",
@@ -110,25 +99,14 @@
                       "[$ProductPrice]"
                     ]
                   }
-                }
-              ]
-            },
-            {
-              "elmType": "div",
-              "style": {
-                "display": "inline-block",
-                "min-width": "300px",
-                "vertical-align": "top",
-                "padding-left": "16px",
-                "padding-top": "5px"
-              },
-              "children": [
+                },
                 {
                   "elmType": "div",
                   "txtContent": "Features",
                   "style": {
-                    "color": "grey",
-                    "font-size": "12px"
+                    "color": "#767676",
+                    "font-size": "12px",
+                    "margin-bottom": "2px"
                   }
                 },
                 {
