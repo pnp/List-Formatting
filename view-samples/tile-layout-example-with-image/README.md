@@ -5,7 +5,7 @@ This sample uses tileProps element to format the tile layout of the view.
 
 ![Color status field](./tile-layout.png)
 
-This format takes advantage of the `tileProps` property to create tiles in the Tiles layout for the view. To see the tiles, switch your view to the Tiles layout after you've added the JSON.
+This format takes advantage of the `tileProps` property to create tiles in the Tiles layout for the view. To see the tiles, switch your layout to the Tiles layout after you've added the JSON.
 
 ## View requirements
 - The format expect the following fields:
