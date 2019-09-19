@@ -5,7 +5,7 @@
 This sample shows how to format a list to show the data as a bar graph. In this instance we are showing number of votes per fruit.
 
 The sample features the following:
-- If [animate css application customiser](https://github.com/anoopt/spfx-ext-animate-css) is deployed then, this sample adds slide animation to bars.
+- If [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss) with [animate.css](https://daneden.github.io/animate.css/) is deployed then, this sample adds animation to bars.
 - Conditionally showing a crown icon if the item is marked as MostVoted
 - Conditionally showing elements (trending limit) based on `@rowIndex`
 - Conditionally showing a trending icon if the item has more than 700 votes
@@ -36,7 +36,10 @@ The sample needs the following setup:
 
 The idea is that this data gets populated via some code so that it can represented as a graph.
 
-In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of views. If this number needs changed, please update the formulas in lines 50 and 103 accordingly.
+In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of votes. If this number needs changed, please update the formulas in lines 50 and 103 accordingly.
+
+### Inject CSS applcation customiser
+The [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss) by [Hugo Bernier](http://tahoeninjas.blog/) shows how we can inject css on to pages. Please follow the instructions in readme.md of that sample and use [animate.min.css](https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css) instead of custom.css .
 
 ## Sample
 
