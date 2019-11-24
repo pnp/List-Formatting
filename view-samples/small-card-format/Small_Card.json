@@ -1,0 +1,137 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideListHeader": true,
+    "rowFormatter": {
+      "elmType": "div",
+      "style": {
+        "float": "left",
+        "margin": "10px",
+        "padding": "5px",
+        "min-width":"340px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "img",
+              "style": {
+                "display": "block",
+                "height": "auto",
+                "max-height": "120px",
+                "border-radius": "50%"
+              },
+              "attributes": {
+                "src": "='/_layouts/15/userphoto.aspx?size=S&username='[$Person.email]"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "text-align": "center",
+            "padding": "5px",
+            "margin":"auto"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "font-weight": "500",
+                "font-size": "1.5rem"
+              },
+              "txtContent": "[$Title]"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "font-weight": "500",
+                "font-size": "1.1em",
+                "overflow": "hidden",
+                "max-width": "280px",
+                "white-space": "nowrap"
+              },
+              "txtContent": "[$JobTitle]"
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$PhoneNumber]"
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "height": "2rem",
+                "width": "2rem",
+                "font-size": "2em",
+                "cursor": "pointer",
+                "margin": "0px 5px",
+                "vertical-align": "text-bottom"
+              }
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "height": "2rem",
+                "width": "2rem",
+                "font-size": "2em",
+                "cursor": "pointer",
+                "margin": "0px 5px",
+                "vertical-align": "text-bottom",
+                "display": "=if([$LinkedIn]=='','none','')"
+              },
+              "children": [
+                {
+                  "elmType": "a",
+                  "style": {
+                    "cursor": "pointer"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover",
+                    "iconName": "LinkedInLogo",
+                    "href": "=[$LinkedIn]",
+                    "title": "LinkedIn"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "height": "2rem",
+                "width": "2rem",
+                "font-size": "2em",
+                "cursor": "pointer",
+                "margin": "0px 5px",
+                "vertical-align": "text-bottom",
+                "display": "=if([$Person]=='','none','')"
+              },
+              "children": [
+                {
+                  "elmType": "a",
+                  "style": {
+                    "cursor": "pointer"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover",
+                    "iconName": "OutlookLogo",
+                    "href": "='mailto:' + [$Person.email]",
+                    "title": "Email"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
