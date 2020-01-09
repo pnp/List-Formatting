@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "position": "relative",
+    "display": "=if(@currentField, 'inherit', 'none')"
+  },
+  "attributes": {
+    "title": "@currentField"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "attributes": {
+        "iconName": "HeartFill",
+        "class": "='ms-fontColor-' + if(@currentField=='Positive', 'red', if(@currentField=='Negative', 'blue', 'neutral'))"
+      },
+      "style": {
+        "font-size": "36px"
+      }
+    },
+    {
+      "elmType": "div",
+      "attributes": {
+        "iconName": "=if(@currentField=='Positive', 'Heart', if(@currentField=='Negative', 'HeartBroken', 'Health'))",
+        "class": "ms-fontColor-black"
+      },
+      "style": {
+        "font-size": "36px",
+        "position": "absolute",
+        "top": "0",
+        "left": "0"
+      }
+    }
+  ]
+}
