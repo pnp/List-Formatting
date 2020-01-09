@@ -1,0 +1,50 @@
+{
+	"elmType": "div",
+	"style": {
+	  "position": "relative",
+	  "display": "=if(@currentField && [$Sentiment], 'inherit', 'none')",
+	  "width": "40px",
+	  "height": "40px"
+	},
+	"attributes": {
+	  "title": "=[$Sentiment] + ' - ' + @currentField"
+	},
+	"children": [
+	  {
+		"elmType": "div",
+		"attributes": {
+		  "iconName": "FullCircleMask",
+		  "class": "ms-fontColor-yellow"
+		},
+		"style": {
+		  "font-size": "36px"
+		}
+	  },
+	  {
+		"elmType": "div",
+		"attributes": {
+		  "iconName": "=if([$Sentiment]=='Positive', 'Emoji2', if([$Sentiment]=='Negative', 'Sad', 'EmojiNeutral'))",
+		  "class": "ms-fontColor-black"
+		},
+		"style": {
+		  "font-size": "36px",
+		  "position": "absolute",
+		  "top": "0",
+		  "left": "0"
+		}
+	  },
+	  {
+		"elmType": "div",
+		"attributes": {
+		  "iconName": "=if(@currentField=='Done', 'SkypeCircleCheck', if(@currentField=='In progress', 'SyncStatusSolid', if(@currentField=='In review', 'StarburstSolid', 'SkypeCircleMinus')))",
+		  "class": "='ms-fontColor-' + if(@currentField=='Done', 'green', if(@currentField=='In progress', 'blue', if(@currentField=='In review', 'magentaLight', 'redDark')))"
+		},
+		"style": {
+		  "position": "absolute",
+		  "right": "0",
+		  "bottom": "0",
+		  "font-size": "12px"
+		}
+	  }
+	]
+  }

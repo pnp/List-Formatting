@@ -1,0 +1,10 @@
+{
+	"elmType": "div",
+	"attributes": {
+		"iconName": "Cat",
+		"class": "ms-fontColor-themePrimary"
+	},
+	"style": {
+		"font-size": "36px"
+	}
+}
