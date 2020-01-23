@@ -28,7 +28,8 @@
             "height": "auto",
             "margin-left": "-50%",
             "margin-top": "-50%",
-            "display": "=if(length(@currentField) > 3 && loopIndex('personIterator') >= 2, 'none', '')"
+            "display": "=if(length(@currentField) > 3 && loopIndex('personIterator') >= 2, 'none', '')",
+            "vertical-align": "baseline"
           }
         },
         {
