@@ -17,7 +17,7 @@
         {
           "elmType": "img",
           "attributes": {
-            "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$personIterator.email]",
+            "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=S&accountname=' + [$personIterator.email]",
             "title": "[$personIterator.title]"
           },
           "style": {
