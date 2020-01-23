@@ -36,6 +36,7 @@ multi-person-facepile.json | [Chris Kent](https://twitter.com/thechriskent)
 Version|Date|Comments
 -------|----|--------
 1.0|April 4, 2019|Initial release
+1.1|January 22, 2020|Added vertical-align property for use in Microsoft Teams
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
