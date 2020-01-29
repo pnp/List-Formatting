@@ -1,0 +1,926 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/07/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.7.1903.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-15C32C931CBD46418E1EC6AB0DDF35E8">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-15C32C931CBD46418E1EC6AB0DDF35E8" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Images" Description="This system library was created by the Publishing feature to store images that are used on pages in this site." DocumentTemplate="" TemplateType="851" Url="PublishingImages" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="4bcccd62-dcaf-46dc-a7d4-e38277ef33f4" ContentTypesEnabled="true" EnableAttachments="false" DefaultDisplayFormUrl="{site}/PublishingImages/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/PublishingImages/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/PublishingImages/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/ital.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:Views>
+            <View Name="{FE978EA7-48D4-431D-A4E2-1DEC481DEACE}" Type="HTML" DisplayName="All Assets" Url="{site}/PublishingImages/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="LinkFilename" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="ThumbnailOnForm" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="MediaLengthInSeconds" />
+                <FieldRef Name="_ModerationStatus" />
+                <FieldRef Name="PublishingStartDate" />
+                <FieldRef Name="PublishingExpirationDate" />
+                <FieldRef Name="ImageWidth" Explicit="TRUE" />
+                <FieldRef Name="ImageHeight" Explicit="TRUE" />
+                <FieldRef Name="PreviewOnForm" Explicit="TRUE" />
+                <FieldRef Name="_Comments" Explicit="TRUE" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">20</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{07F8AADB-7A1A-49E7-A74D-C83CB45650F6}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Thumbnails" Url="{site}/PublishingImages/Forms/Thumbnails.aspx" Level="1" BaseViewID="40" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="LinkFilename" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilenameNoMenu" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="MediaLengthInSeconds" />
+                <FieldRef Name="NameOrTitle" Explicit="TRUE" CalloutMenu="TRUE" />
+                <FieldRef Name="FileSizeDisplay" Explicit="TRUE" />
+                <FieldRef Name="ImageWidth" Explicit="TRUE" />
+                <FieldRef Name="ImageHeight" Explicit="TRUE" />
+                <FieldRef Name="PreviewOnForm" Explicit="TRUE" />
+                <FieldRef Name="Created_x0020_Date" Explicit="TRUE" />
+                <FieldRef Name="Author" Explicit="TRUE" />
+                <FieldRef Name="_Comments" Explicit="TRUE" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js|SP.UI.TileView.js|SP.UI.AssetLibrary.js|callout.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{d1cff744-ba61-4189-94d6-97d0a9eb4f6a}" Type="Text" DisplayName="Tags" Name="MediaServiceAutoTags" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInNewForm="FALSE" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInListSettings="FALSE" Viewable="FALSE" Json="FALSE" SourceID="{{listid:Images}}" StaticName="MediaServiceAutoTags" ColName="nvarchar14" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="8c0d0aac-9b76-4951-927a-2490abe13c0b" Name="PreviewOnForm" DisplayName="Preview" />
+            <pnp:FieldRef ID="9941082a-4160-46a1-a5b2-03394bfdf7ee" Name="ThumbnailOnForm" DisplayName="Thumbnail Preview" />
+            <pnp:FieldRef ID="246d0907-637c-46b7-9aa0-0bb914daa832" Name="_Author" DisplayName="Author" />
+            <pnp:FieldRef ID="922551b8-c7e0-46a6-b7e3-3cf02917f68a" Name="ImageSize" DisplayName="Picture Size" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" DisplayName="Title" />
+            <pnp:FieldRef ID="7e68a0f9-af76-404c-9613-6f82bc6dc28c" Name="ImageWidth" DisplayName="Width" />
+            <pnp:FieldRef ID="1944c034-d61b-42af-aa84-647f2e74ca70" Name="ImageHeight" DisplayName="Height" />
+            <pnp:FieldRef ID="a5d2f824-bc53-422e-87fd-765939d863a5" Name="ImageCreateDate" DisplayName="Date Picture Taken" />
+            <pnp:FieldRef ID="52578fc3-1f01-4f4d-b016-94ccbcf428cf" Name="_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="b66e9b50-a28e-469b-b1a0-af0e45486874" Name="Keywords" DisplayName="Keywords" />
+            <pnp:FieldRef ID="f08ab41d-9a03-49ae-9413-6cd284a15625" Name="wic_System_Copyright" DisplayName="Copyright" />
+            <pnp:FieldRef ID="f39d44af-d3f3-4ae6-b43f-ac7330b5e9bd" Name="AlternateThumbnailUrl" DisplayName="Preview Image URL" />
+            <pnp:FieldRef ID="de38f937-8578-435e-8cd3-50be3ea59253" Name="MediaLengthInSeconds" DisplayName="Length (seconds)" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://12-eastus1.pushp.svc.ms/notifications?token=w2-44e062dc-85f8-4389-a035-d07b1e59dff7" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Cost Center" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Cost Center" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Cost Center/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Cost Center/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Cost Center/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Research</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Marketing</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Events</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Training</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{01F79643-965D-49A2-8B61-113474BC6744}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Cost Center/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Retention label" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Retention label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w2-8ee02b4f-c1c2-44e0-b2e9-1aae1a6b9b46" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w2-cf860e28-71c5-4c76-8fd6-72283af80e0c" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://10-southcentralus1.pushp.svc.ms/notifications?token=w0-be37aa6d-f9c5-46cf-8f9d-a2fe4534d52a" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Owner" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Owner" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Owner/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Owner/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Owner/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sigrid Abbas</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Beatriz Fernandes</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Daijiro Ota</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Philipp Lagos</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{4001BB50-CDB6-4C2D-A467-1D42983DCCDF}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Owner/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Retention label" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Retention label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w2-8f1946ef-9fb2-4281-a696-9df86e33c98f" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://12-southcentralus1.pushp.svc.ms/notifications?token=w0-7579a4aa-2b4c-4da0-b3ba-fa20d0b50dbd" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Vendor" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Vendor" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Vendor/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Vendor/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Vendor/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Proseware</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fourth Coffee</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Adatum Corporation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Trey Research</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fabrikam</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{74805FE0-A31B-4578-837E-1A008DBBDFE8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Vendor/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Retention label" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Retention label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://14-southcentralus1.pushp.svc.ms/notifications?token=w2-25965c71-f0e9-456d-9db6-f32581e7b4a8" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://10-southcentralus1.pushp.svc.ms/notifications?token=w0-58e51588-e83a-4a1c-95ef-dfa8bc360c03" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Projects" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Projects" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Projects/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Projects/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Projects/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Competitive research report</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">Competitive research report</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Learn about competitive and industry positioning</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Approved</pnp:DataValue>
+              <pnp:DataValue FieldName="PO">307495</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Trey Research</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Research</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">Completed</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_1">21500</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Sigrid Abbas</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Industry white papers</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">Industry white papers</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Create three white papers based on the research report</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Pending</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Fabrikam</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Research</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">Not Started</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_2">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Sigrid Abbas</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New branding</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">New branding</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Create and roll out new solution branding</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Approved</pnp:DataValue>
+              <pnp:DataValue FieldName="PO">307417</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Proseware</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Marketing</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">In Progress</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_1">57500</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_2">40000</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Beatriz Fernandes</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New brand launch party</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">New brand launch party</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Hold a launch party for customers to celebrate new brand</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Open</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Fourth Coffee</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Events</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">Not Started</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_2">12500</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Daijiro Ota</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fall conference collateral</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">Fall conference collateral</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Develop presentations and handouts for the conference</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Open</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Proseware</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Marketing</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">Not Started</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_3">7500</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Beatriz Fernandes</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Internal training - financial system</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Title">Internal training - financial system</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Conduct employee training for the new financial reporting tools</pnp:DataValue>
+              <pnp:DataValue FieldName="PO">307451</pnp:DataValue>
+              <pnp:DataValue FieldName="Funding_x0020_Status">Approved</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">Adatum Corporation</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">Training</pnp:DataValue>
+              <pnp:DataValue FieldName="Project_x0020_Status">Completed</pnp:DataValue>
+              <pnp:DataValue FieldName="_x0051_3">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="FY">2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">Philipp Lagos</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{C8DFE1C2-9D50-4670-856B-6223E4C80168}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Projects/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="Project_x0020_Title" />
+                <FieldRef Name="Project_x0020_Status" />
+                <FieldRef Name="Total" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter><![CDATA[{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "debugMode": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "text-align": "left",
+      "font-family": "Segoe UI",
+      "padding": "12px 0px 10px 3px",
+      "display": "flex",
+      "width": "=if(@window.innerWidth > 480, '750px', '310px')"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex": "1"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "style": {
+              "display": "=if(@window.innerWidth > 480, 'none', 'block')",
+              "flex": "1",
+              "font-size": "14px",
+              "color": "#444444",
+              "line-height": "19px",
+              "font-weight": "600"
+            },
+            "attributes": {
+              "href": "=@currentWeb+'/Lists/Milestone/AllItems.aspx?FilterField1=Project&FilterValue1='+[$Project_x0020_Title]"
+            },
+            "txtContent": "[$Project_x0020_Title]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(@window.innerWidth > 480, 'block', 'none')",
+              "flex": "1",
+              "font-size": "14px",
+              "color": "#444444",
+              "line-height": "19px",
+              "font-weight": "600"
+            },
+            "txtContent": "[$Project_x0020_Title]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(@window.innerWidth > 480, 'none', 'block')",
+              "font-size": "16px",
+              "line-height": "21px",
+              "font-weight": "600",
+              "color": "#605e5c"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "='$'+[$Total]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "12px",
+              "color": "#605e5c",
+              "font-weight": "normal",
+              "line-height": "16px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "font-weight": "600"
+                },
+                "txtContent": "Status: "
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "color": {
+                    "operator": "?",
+                    "operands": [
+                      {
+                        "operator": "==",
+                        "operands": [
+                          "Completed",
+                          "[$Project_x0020_Status]"
+                        ]
+                      },
+                      "#107c10",
+                      {
+                        "operator": "?",
+                        "operands": [
+                          {
+                            "operator": "==",
+                            "operands": [
+                              "Not Started",
+                              "[$Project_x0020_Status]"
+                            ]
+                          },
+                          "#a80000",
+                          "#737373"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "txtContent": "[$Project_x0020_Status]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "iconName": "=if([$Project_x0020_Status] == 'Completed', 'Completed', if([$Project_x0020_Status] == 'Not Started', 'Warning', ''))"
+        },
+        "style": {
+          "display": "flex",
+          "text-align": "center",
+          "align-items": "center",
+          "padding-right": "14px",
+          "font-size": "16px",
+          "color": {
+            "operator": "?",
+            "operands": [
+              {
+                "operator": "==",
+                "operands": [
+                  "Completed",
+                  "[$Project_x0020_Status]"
+                ]
+              },
+              "#107c10",
+              {
+                "operator": "?",
+                "operands": [
+                  {
+                    "operator": "==",
+                    "operands": [
+                      "Not Started",
+                      "[$Project_x0020_Status]"
+                    ]
+                  },
+                  "#a80000",
+                  "transparent"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "=if(@window.innerWidth > 480, 'flex', 'none')",
+          "align-items": "center",
+          "font-size": "16px",
+          "line-height": "21px",
+          "font-weight": "600",
+          "color": "#605e5c",
+          "width": "80px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "='$'+[$Total]"
+          }
+        ]
+      }
+    ]
+  }
+}]]></CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="Project Title" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{816fcb2d-eaa1-4d61-b7f7-ab7e55ccd862}" SourceID="{{listid:Projects}}" StaticName="Project_x0020_Title" Name="Project_x0020_Title" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Note" DisplayName="Description" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" RichTextMode="Compatible" IsolateStyles="FALSE" Sortable="FALSE" ID="{3be1a8a1-9dc4-4b7e-bb95-a61bb2bc48e5}" SourceID="{{listid:Projects}}" StaticName="Description" Name="Description" ColName="ntext2" RowOrdinal="0" CustomFormatter="" RestrictedMode="TRUE" AppendOnly="FALSE" Version="1" />
+            <Field Type="Choice" DisplayName="Funding Status" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{accf2f7d-b861-4bb3-b050-de8b28126dfd}" SourceID="{{listid:Projects}}" StaticName="Funding_x0020_Status" Name="Funding_x0020_Status" ColName="nvarchar5" RowOrdinal="0">
+              <Default>Open</Default>
+              <CHOICES>
+                <CHOICE>Open</CHOICE>
+                <CHOICE>Pending</CHOICE>
+                <CHOICE>Approved</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Text" DisplayName="PO" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{a63bce6b-27e6-4fc4-b8b0-aae31df29e3e}" SourceID="{{listid:Projects}}" StaticName="PO" Name="PO" ColName="nvarchar6" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Vendor" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{7bbddf90-237a-4476-83e6-9ab62fea5cd8}" SourceID="{{listid:Projects}}" StaticName="Vendor" Name="Vendor" ColName="nvarchar7" RowOrdinal="0" />
+            <Field Type="Text" DisplayName="Cost Center" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{ff38aa3e-ded6-40d8-9a91-0a7f84ef5d70}" SourceID="{{listid:Projects}}" StaticName="Cost_x0020_Center" Name="Cost_x0020_Center" ColName="nvarchar8" RowOrdinal="0" />
+            <Field Type="Choice" DisplayName="Project Status" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{3917f8a1-8608-454f-becb-16149d425280}" SourceID="{{listid:Projects}}" StaticName="Project_x0020_Status" Name="Project_x0020_Status" ColName="nvarchar9" RowOrdinal="0">
+              <Default>Not Started</Default>
+              <CHOICES>
+                <CHOICE>Not Started</CHOICE>
+                <CHOICE>In Progress</CHOICE>
+                <CHOICE>On Hold</CHOICE>
+                <CHOICE>Completed</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Currency" DisplayName="Q1" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{a789fe43-a551-4ef7-9674-0f31e7ba5a1a}" SourceID="{{listid:Projects}}" StaticName="_x0051_1" Name="_x0051_1" ColName="float1" RowOrdinal="0" Version="1" />
+            <Field Type="Currency" DisplayName="Q2" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{455ceebc-b309-4bd8-8cfd-fe98dc349cb6}" SourceID="{{listid:Projects}}" StaticName="_x0051_2" Name="_x0051_2" ColName="float2" RowOrdinal="0" Version="1" />
+            <Field Type="Currency" DisplayName="Q3" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{4b5e3f64-08bb-4815-9649-09337b1a68b5}" SourceID="{{listid:Projects}}" StaticName="_x0051_3" Name="_x0051_3" ColName="float3" RowOrdinal="0" Version="1" />
+            <Field Type="Currency" DisplayName="Q4" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{3adb9d6d-267a-4db3-99f0-c616a5fdf037}" SourceID="{{listid:Projects}}" StaticName="_x0051_4" Name="_x0051_4" ColName="float4" RowOrdinal="0" Version="1" />
+            <Field Type="Choice" DisplayName="FY" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{aaea2230-1c95-44fa-be4c-fb1f1696dfa9}" SourceID="{{listid:Projects}}" StaticName="FY" Name="FY" ColName="nvarchar10" RowOrdinal="0">
+              <Default>2019</Default>
+              <CHOICES>
+                <CHOICE>2019</CHOICE>
+                <CHOICE>2020</CHOICE>
+                <CHOICE>2021</CHOICE>
+                <CHOICE>2022</CHOICE>
+                <CHOICE>2023</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Calculated" DisplayName="Total" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" LCID="1033" ResultType="Text" ReadOnly="TRUE" ID="{b8c61b0a-d5ed-4d25-bbb6-d45edd46dad1}" SourceID="{{listid:Projects}}" StaticName="Total" Name="Total" ColName="sql_variant1" RowOrdinal="0">
+              <Formula>=[{fieldtitle:_x0051_1}]+[{fieldtitle:_x0051_2}]+[{fieldtitle:_x0051_3}]+[{fieldtitle:_x0051_4}]</Formula>
+            </Field>
+            <Field Type="Text" DisplayName="Owner" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{28475ce5-9d4b-41a9-af82-cbf561b321b5}" SourceID="{{listid:Projects}}" StaticName="Owner" Name="Owner" ColName="nvarchar11" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://24-southcentralus1.pushp.svc.ms/notifications?token=w3-efff5e8e-11e4-44b5-8e09-044570f144b0" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Milestone" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Milestone" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Milestone/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Milestone/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Milestone/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New brand logo</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">New brand logo</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">02 - Feb</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">50000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">50000</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">2/23/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New brand style guidelines</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">New brand style guidelines</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">03 - Mar</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">7500</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">7500</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">4/1/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New brand templates</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">New brand templates</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">04 - Apr</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">9000</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">4/1/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New website</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">New website</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">05 - May</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">25000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">5000</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">4/1/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Localization - new website content</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">Localization - new website content</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">05 - May</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">2</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Event space, food and bev</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">4</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">Event space, food and bev</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">05 - May</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">12000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">3</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">DJ reservation</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">4</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">DJ reservation</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">05 - May</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">5000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">2</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">3</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Training sessions</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">6</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">Training sessions</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">02 - Feb</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">15000</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">3/3/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">3</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">4</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">4</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Survey and draft report</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">Survey and draft report</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">02 - Feb</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">16500</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Invoiced_x0020_Amount">16500</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Date_x0020_Posted">2/27/2019</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">4</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">1</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Final report</pnp:DataValue>
+              <pnp:DataValue FieldName="Project">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Milestone">Final report</pnp:DataValue>
+              <pnp:DataValue FieldName="Month">03 - Mar</pnp:DataValue>
+              <pnp:DataValue FieldName="Amount">5500</pnp:DataValue>
+              <pnp:DataValue FieldName="Included_x0020_in_x0020_SOW_x002">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Complete">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Paid">0</pnp:DataValue>
+              <pnp:DataValue FieldName="Vendor">4</pnp:DataValue>
+              <pnp:DataValue FieldName="Cost_x0020_Center">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Owner">1</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{F4D09877-5096-46EE-96DC-89C2A45199D8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Milestone/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="Milestone" />
+                <FieldRef Name="Vendor" />
+                <FieldRef Name="AmountCal" />
+                <FieldRef Name="Complete" />
+                <FieldRef Name="Balance_x0020_Remaining" />
+                <FieldRef Name="Project" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter><![CDATA[{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "text-align": "left",
+      "font-family": "Segoe UI",
+      "width": "95.2%",
+      "padding": "16px 16px 0px 16px",
+      "background-color": "#f3f2f1"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "100%",
+          "padding-bottom": "16px",
+          "border-bottom": "solid 1px #e1dfdd"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "16px",
+              "color": "#323130",
+              "line-height": "21px",
+              "font-weight": "600"
+            },
+            "txtContent": "[$Milestone]"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "14px",
+              "color": "#323130",
+              "font-weight": "normal",
+              "line-height": "20px"
+            },
+            "txtContent": "='Vendor: '+[$Vendor.lookupValue]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "14px",
+              "color": "=if([$Complete],'#107c10','#a80000')",
+              "font-weight": "600",
+              "line-height": "20px"
+            },
+            "txtContent": "=if([$Complete],'Completed','Incomplete')"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px",
+                  "color": "#606e5c",
+                  "font-weight": "600",
+                  "line-height": "20px",
+                  "flex": "1"
+                },
+                "txtContent": "Amount"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "16px",
+                  "color": "#323130",
+                  "font-weight": "600",
+                  "line-height": "20px"
+                },
+                "txtContent": "='$'+[$AmountCal]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px",
+                  "color": "#606e5c",
+                  "font-weight": "600",
+                  "line-height": "20px",
+                  "flex": "1"
+                },
+                "txtContent": "Balance remaining"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "16px",
+                  "color": "#323130",
+                  "font-weight": "600",
+                  "line-height": "20px"
+                },
+                "txtContent": "='$'+[$Balance_x0020_Remaining]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}]]></CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field Type="Text" DisplayName="Milestone" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{f0804e6a-5d81-4e6d-997c-d2eccac52ba0}" SourceID="{{listid:Milestone}}" StaticName="Milestone" Name="Milestone" ColName="nvarchar4" RowOrdinal="0" />
+            <Field Type="Choice" DisplayName="Month" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{bf58a8a0-b5af-43e7-9e06-90fbc66812d4}" SourceID="{{listid:Milestone}}" StaticName="Month" Name="Month" ColName="nvarchar5" RowOrdinal="0">
+              <Default>01 - Jan</Default>
+              <CHOICES>
+                <CHOICE>01 - Jan</CHOICE>
+                <CHOICE>02 - Feb</CHOICE>
+                <CHOICE>03 - Mar</CHOICE>
+                <CHOICE>04 - Apr</CHOICE>
+                <CHOICE>05 - May</CHOICE>
+                <CHOICE>06 - Jun</CHOICE>
+                <CHOICE>07 - Jul</CHOICE>
+                <CHOICE>08 - Aug</CHOICE>
+                <CHOICE>09 - Sept</CHOICE>
+                <CHOICE>10 - Oct</CHOICE>
+                <CHOICE>11 - Nov</CHOICE>
+                <CHOICE>12 - Dec</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Currency" DisplayName="Amount" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{45ab14ca-240d-40e3-9180-2ae181efbcc4}" SourceID="{{listid:Milestone}}" StaticName="Amount" Name="Amount" ColName="float1" RowOrdinal="0" />
+            <Field Type="Boolean" DisplayName="Included in SOW/PO" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{518bcb17-111a-4f2b-9104-ee93cb547d7f}" SourceID="{{listid:Milestone}}" StaticName="Included_x0020_in_x0020_SOW_x002" Name="Included_x0020_in_x0020_SOW_x002" ColName="bit1" RowOrdinal="0" Version="1">
+              <Default>1</Default>
+            </Field>
+            <Field Type="Boolean" DisplayName="Complete" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{42793e72-aca9-4d5b-ab86-738f7386f6c9}" SourceID="{{listid:Milestone}}" StaticName="Complete" Name="Complete" ColName="bit2" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+            <Field Type="Currency" DisplayName="Invoiced Amount" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" LCID="1033" ID="{59de6bca-9c78-493b-be57-ebaf6e0560b5}" SourceID="{{listid:Milestone}}" StaticName="Invoiced_x0020_Amount" Name="Invoiced_x0020_Amount" ColName="float2" RowOrdinal="0" />
+            <Field Type="Calculated" DisplayName="Balance Remaining" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" LCID="1033" ResultType="Text" ReadOnly="TRUE" ID="{6404abc7-deff-4930-a7e2-8eba9a65c1b0}" SourceID="{{listid:Milestone}}" StaticName="Balance_x0020_Remaining" Name="Balance_x0020_Remaining" ColName="sql_variant1" RowOrdinal="0">
+              <Formula>=[{fieldtitle:Amount}]-[{fieldtitle:Invoiced_x0020_Amount}]</Formula>
+            </Field>
+            <Field Type="Boolean" DisplayName="Paid" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{8391d304-0bc3-4e72-bd36-19b06bc6efae}" SourceID="{{listid:Milestone}}" StaticName="Paid" Name="Paid" ColName="bit3" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+            <Field Type="DateTime" DisplayName="Date Posted" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" FriendlyDisplayFormat="Disabled" ID="{7b977caa-cc13-4489-b3c1-148666401168}" SourceID="{{listid:Milestone}}" StaticName="Date_x0020_Posted" Name="Date_x0020_Posted" ColName="datetime1" RowOrdinal="0" />
+            <Field Type="Calculated" DisplayName="AmountCal" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" LCID="1033" ResultType="Text" ReadOnly="TRUE" ID="{41393390-ba90-4714-8f3e-4feedaa1f7fe}" SourceID="{{listid:Milestone}}" StaticName="AmountCal" Name="AmountCal" ColName="sql_variant2" RowOrdinal="0">
+              <Formula>=[{fieldtitle:Amount}]</Formula>
+            </Field>
+            <Field Type="Lookup" DisplayName="Vendor" Required="FALSE" EnforceUniqueValues="FALSE" List="{listid:Vendor}" ShowField="Title" UnlimitedLengthInDocumentLibrary="FALSE" ID="{1a16f0b8-5f7e-4930-ae20-5f76faac30f3}" SourceID="{{listid:Milestone}}" StaticName="Vendor" Name="Vendor" ColName="int2" RowOrdinal="0" />
+            <Field Type="Lookup" DisplayName="Cost Center" Required="FALSE" EnforceUniqueValues="FALSE" List="{listid:Cost Center}" ShowField="Title" UnlimitedLengthInDocumentLibrary="FALSE" ID="{f7a7e777-4017-4a39-8e82-b96bca57ea9d}" SourceID="{{listid:Milestone}}" StaticName="Cost_x0020_Center" Name="Cost_x0020_Center" ColName="int3" RowOrdinal="0" />
+            <Field Type="Lookup" DisplayName="Owner" Required="FALSE" EnforceUniqueValues="FALSE" List="{listid:Owner}" ShowField="Title" UnlimitedLengthInDocumentLibrary="FALSE" ID="{2aab6706-4d96-48df-99c2-8919c5a1aabe}" SourceID="{{listid:Milestone}}" StaticName="Owner" Name="Owner" ColName="int4" RowOrdinal="0" />
+            <Field Type="Lookup" DisplayName="Project" Required="FALSE" EnforceUniqueValues="FALSE" List="{listid:Projects}" ShowField="Title" UnlimitedLengthInDocumentLibrary="FALSE" RelationshipDeleteBehavior="None" ID="{c757b95b-24bc-450b-adae-58ab3038abfd}" SourceID="{{listid:Milestone}}" StaticName="Project" Name="Project" ColName="int1" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w2-93f86325-ebdb-4893-a8ef-7ba0bafe987f" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w2-292da97f-b0fa-4482-a349-8e453217cb51" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://13-southcentralus1.pushp.svc.ms/notifications?token=w3-162e4d29-30ab-41b5-b5ac-93cb340f23df" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-63b2ae5d-6c39-4537-b94b-c208e5736bb9" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w1-70ce4596-2625-46a6-a3f1-ad64c9392ecb" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w1-bcdd7718-92e8-440e-accf-5fa8e7050018" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-32f3ecfa-efa2-413d-9aa1-3aec5a1c9122" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w1-d20f09e6-8145-426e-b98c-05bc8c726cbc" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-f46409e0-41e3-49de-97d2-5de803e82d8d" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-c07c81bb-ba7a-4c4d-8a28-c6c36a176604" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w1-d4044e06-514e-4b77-9e10-7dc8ebb820c2" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-804a69be-a114-4a4a-a6f5-8235ed4e9002" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-6e5b0fd2-a06a-4133-9bb6-581b55d5b12d" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://8-southcentralus1.pushp.svc.ms/notifications?token=w1-bc227018-0fab-445e-b7f0-14e462fb3cc9" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-53e99d27-ca43-4c17-9147-ab01e9b1a8f6" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://19-southcentralus1.pushp.svc.ms/notifications?token=w1-c9864fab-29ef-46ec-afee-26c8e035339b" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w2-e741dbca-b378-4410-8db5-593016b26699" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w0-c0ae601c-bd56-443d-abb2-35bdd1c46ee5" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w1-6cec1962-9633-4619-b073-b524fdddc834" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w0-1bcda0f4-ea12-4fe5-aeac-13efd50ac281" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w3-638c9a15-fa83-44d9-9088-7c308792294c" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://1-southcentralus1.pushp.svc.ms/notifications?token=w2-38c1d6a5-1d81-467b-ad0d-c5f7597a3142" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>          
+      </pnp:Lists>  
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="budget-tracker.aspx" PromoteAsNewsArticle="false" Overwrite="true" Title="Budget Tracker">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="b0b07af3-547b-4c00-b2de-3b02bb730676" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="Use this tool to track project and milestone progress and PO status against your project budget." />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumnLeft">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="List" JsonControlData="{&quot;id&quot;: &quot;f92bf067-bc19-489e-a556-7fe95f508720&quot;, &quot;instanceId&quot;: &quot;78c517ee-0d95-4eb9-83be-d16c1548e5ed&quot;, &quot;title&quot;: &quot;List&quot;, &quot;description&quot;: &quot;Add a list&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;isDocumentLibrary&quot;:false,&quot;selectedListId&quot;:&quot;{listid:Projects}&quot;,&quot;listTitle&quot;:&quot;Projects&quot;,&quot;selectedListUrl&quot;:&quot;{site}/Lists/Projects&quot;,&quot;webRelativeListUrl&quot;:&quot;/Lists/Projects&quot;,&quot;webpartHeightKey&quot;:4,&quot;selectedViewId&quot;:&quot;{viewid:Projects,All Items}&quot;,&quot;selectedFolderPath&quot;:&quot;&quot;,&quot;hideCommandBar&quot;:true}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="f92bf067-bc19-489e-a556-7fe95f508720" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="ContentEmbed" JsonControlData="{&quot;id&quot;: &quot;490d7c76-1824-45b2-9de3-676421c997fa&quot;, &quot;instanceId&quot;: &quot;ddd9d947-5394-452f-adb2-189be2dd21c1&quot;, &quot;title&quot;: &quot;Embed&quot;, &quot;description&quot;: &quot;Embed content from other sites such as Sway, YouTube, Vimeo, and more&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;embedCode&quot;:&quot;&lt;iframe width=\&quot;400\&quot; height=\&quot;463\&quot;   src=\&quot;{hosturl}{site}/Lists/Milestone/AllItems.aspx?FilterField1=Project&amp;FilterValue1=[$Title]\&quot; frameborder=\&quot;0\&quot; scrolling=\&quot;no\&quot;&gt; &lt;/iframe&gt;&quot;,&quot;cachedEmbedCode&quot;:&quot;&quot;,&quot;shouldScaleWidth&quot;:true,&quot;tempState&quot;:{}}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {&quot;requestedDynamicProperty&quot;:&quot;WebPart.f92bf067-bc19-489e-a556-7fe95f508720.78c517ee-0d95-4eb9-83be-d16c1548e5ed:selectedItems&quot;}, &quot;dynamicDataValues&quot;: {}}" ControlId="490d7c76-1824-45b2-9de3-676421c997fa" Order="1" Column="2" />
+              </pnp:Controls>
+            </pnp:Section>           
+          </pnp:Sections>       
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+      <pnp:Files>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\budget-tracker-header.png" Level="Published"></pnp:File>
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

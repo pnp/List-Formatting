@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/07/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.7.1903.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-15C32C931CBD46418E1EC6AB0DDF35E8">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-15C32C931CBD46418E1EC6AB0DDF35E8" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Images" Description="This system library was created by the Publishing feature to store images that are used on pages in this site." DocumentTemplate="" TemplateType="851" Url="PublishingImages" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="4bcccd62-dcaf-46dc-a7d4-e38277ef33f4" ContentTypesEnabled="true" EnableAttachments="false" DefaultDisplayFormUrl="{site}/PublishingImages/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/PublishingImages/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/PublishingImages/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/ital.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:Views>
+            <View Name="{FE978EA7-48D4-431D-A4E2-1DEC481DEACE}" Type="HTML" DisplayName="All Assets" Url="{site}/PublishingImages/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="LinkFilename" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="ThumbnailOnForm" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="MediaLengthInSeconds" />
+                <FieldRef Name="_ModerationStatus" />
+                <FieldRef Name="PublishingStartDate" />
+                <FieldRef Name="PublishingExpirationDate" />
+                <FieldRef Name="ImageWidth" Explicit="TRUE" />
+                <FieldRef Name="ImageHeight" Explicit="TRUE" />
+                <FieldRef Name="PreviewOnForm" Explicit="TRUE" />
+                <FieldRef Name="_Comments" Explicit="TRUE" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">20</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{07F8AADB-7A1A-49E7-A74D-C83CB45650F6}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Thumbnails" Url="{site}/PublishingImages/Forms/Thumbnails.aspx" Level="1" BaseViewID="40" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="LinkFilename" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilenameNoMenu" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="MediaLengthInSeconds" />
+                <FieldRef Name="NameOrTitle" Explicit="TRUE" CalloutMenu="TRUE" />
+                <FieldRef Name="FileSizeDisplay" Explicit="TRUE" />
+                <FieldRef Name="ImageWidth" Explicit="TRUE" />
+                <FieldRef Name="ImageHeight" Explicit="TRUE" />
+                <FieldRef Name="PreviewOnForm" Explicit="TRUE" />
+                <FieldRef Name="Created_x0020_Date" Explicit="TRUE" />
+                <FieldRef Name="Author" Explicit="TRUE" />
+                <FieldRef Name="_Comments" Explicit="TRUE" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js|SP.UI.TileView.js|SP.UI.AssetLibrary.js|callout.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field ID="{d1cff744-ba61-4189-94d6-97d0a9eb4f6a}" Type="Text" DisplayName="Tags" Name="MediaServiceAutoTags" Group="_Hidden" Hidden="FALSE" Sealed="TRUE" ReadOnly="TRUE" ShowInNewForm="FALSE" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInListSettings="FALSE" Viewable="FALSE" Json="FALSE" SourceID="{{listid:Images}}" StaticName="MediaServiceAutoTags" ColName="nvarchar14" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="8c0d0aac-9b76-4951-927a-2490abe13c0b" Name="PreviewOnForm" DisplayName="Preview" />
+            <pnp:FieldRef ID="9941082a-4160-46a1-a5b2-03394bfdf7ee" Name="ThumbnailOnForm" DisplayName="Thumbnail Preview" />
+            <pnp:FieldRef ID="246d0907-637c-46b7-9aa0-0bb914daa832" Name="_Author" DisplayName="Author" />
+            <pnp:FieldRef ID="922551b8-c7e0-46a6-b7e3-3cf02917f68a" Name="ImageSize" DisplayName="Picture Size" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" DisplayName="Title" />
+            <pnp:FieldRef ID="7e68a0f9-af76-404c-9613-6f82bc6dc28c" Name="ImageWidth" DisplayName="Width" />
+            <pnp:FieldRef ID="1944c034-d61b-42af-aa84-647f2e74ca70" Name="ImageHeight" DisplayName="Height" />
+            <pnp:FieldRef ID="a5d2f824-bc53-422e-87fd-765939d863a5" Name="ImageCreateDate" DisplayName="Date Picture Taken" />
+            <pnp:FieldRef ID="52578fc3-1f01-4f4d-b016-94ccbcf428cf" Name="_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="b66e9b50-a28e-469b-b1a0-af0e45486874" Name="Keywords" DisplayName="Keywords" />
+            <pnp:FieldRef ID="f08ab41d-9a03-49ae-9413-6cd284a15625" Name="wic_System_Copyright" DisplayName="Copyright" />
+            <pnp:FieldRef ID="f39d44af-d3f3-4ae6-b43f-ac7330b5e9bd" Name="AlternateThumbnailUrl" DisplayName="Preview Image URL" />
+            <pnp:FieldRef ID="de38f937-8578-435e-8cd3-50be3ea59253" Name="MediaLengthInSeconds" DisplayName="Length (seconds)" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://12-eastus1.pushp.svc.ms/notifications?token=w2-44e062dc-85f8-4389-a035-d07b1e59dff7" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Documents" Description="" DocumentTemplate="{site}/Shared Documents/Forms/template.dotx" OnQuickLaunch="true" TemplateType="101" Url="Shared Documents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Shared Documents/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Shared Documents/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Shared Documents/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0101" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{71313F8B-4B72-4B15-9F44-502AEDD32DB9}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="{site}/Shared Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="product" />
+                <FieldRef Name="CheckoutUser" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter>
+                <![CDATA[{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "text-align": "left",
+      "display": "flex",
+      "font-family": "Segoe UI",
+      "padding": "20px 20px 20px 20px",
+      "border": "solid 1px #e6e6e6",
+      "margin-top": "21px"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "style": {
+          "width": "50px",
+          "height": "50px"
+        },
+        "attributes": {
+          "src": "='https://spoprod-a.akamaihd.net/files/fabric/assets/item-types/40/'+[$File_x0020_Type]+'.svg'"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex": "1",
+          "margin-left": "20px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "a",
+                "style": {
+                  "font-size": "16px",
+                  "color": "#0078d4",
+                  "text-decoration": "none"
+                },
+                "attributes": {
+                  "target": "_blank",
+                  "href": "[$FileRef]"
+                },
+                "txtContent": "[$FileLeafRef]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin-top": "15px",
+              "color": "#444444",
+              "font-size": "11px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "=toString([$File_x0020_Size])+' bytes'"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "margin-left": "20px"
+                },
+                "txtContent": "='Last modified ' + toLocaleDateString([$Modified])"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}]]>
+              </CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="product" Format="Dropdown" MaxLength="255" Title="product" Type="Text" ID="{b1564950-43cc-4d89-bfd7-a88fa5f1318a}" SourceID="{{listid:Documents}}" StaticName="product" Name="product" ColName="nvarchar13" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="51d39414-03dc-4bd0-b777-d3e20cb350f7" Name="PublishingStartDate" DisplayName="Scheduling Start Date" />
+            <pnp:FieldRef ID="a990e64f-faa3-49c1-aafa-885fda79de62" Name="PublishingExpirationDate" DisplayName="Scheduling End Date" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Retention label" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Retention label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
+            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w1-003cf2e5-1f6b-4780-bf68-9652c4750833" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+        <pnp:ListInstance Title="Devices" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Devices" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Devices/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Devices/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Devices/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.gif?rev=45" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Contoso Unleash</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Name">Contoso Unleash</pnp:DataValue>
+              <pnp:DataValue FieldName="Price">2499</pnp:DataValue>
+              <pnp:DataValue FieldName="Release_x0020_Date">11/16/2017</pnp:DataValue>
+              <pnp:DataValue FieldName="Available_x0020_Market">NA;#LATAM;#EMEA;#APAC</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Type">Laptop</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Size">15"</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Resolution">3000x1688</pnp:DataValue>
+              <pnp:DataValue FieldName="Hard_x0020_Drive">256GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Memory">16GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Weight">1.5kg</pnp:DataValue>
+              <pnp:DataValue FieldName="Publishing_x0020_Status">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Spec_x0020_Sheet">{site}/Shared%20Documents/Contoso Unleash.docx</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Picture">{site}/PublishingImages/Contoso Unleash.png</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Contoso Trek</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Name">Contoso Trek</pnp:DataValue>
+              <pnp:DataValue FieldName="Price">999</pnp:DataValue>
+              <pnp:DataValue FieldName="Release_x0020_Date">3/24/2017</pnp:DataValue>
+              <pnp:DataValue FieldName="Available_x0020_Market">NA;#EMEA;#APAC</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Type">Laptop</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Size">13.5"</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Resolution">2256x1269</pnp:DataValue>
+              <pnp:DataValue FieldName="Hard_x0020_Drive">128GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Memory">8GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Weight">1.25kg</pnp:DataValue>
+              <pnp:DataValue FieldName="Publishing_x0020_Status">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Spec_x0020_Sheet">{site}/Shared%20Documents/Contoso Trek.docx</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Picture">{site}/PublishingImages/Contoso Trek.png</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Contoso Stretch</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Name">Contoso Stretch</pnp:DataValue>
+              <pnp:DataValue FieldName="Price">899</pnp:DataValue>
+              <pnp:DataValue FieldName="Release_x0020_Date">10/16/2018</pnp:DataValue>
+              <pnp:DataValue FieldName="Available_x0020_Market">NA;#LATAM;#EMEA;#APAC</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Type">Tablet</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Size">12.3"</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Resolution">2736x1539</pnp:DataValue>
+              <pnp:DataValue FieldName="Hard_x0020_Drive">128GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Memory">8GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Weight">0.77kg</pnp:DataValue>
+              <pnp:DataValue FieldName="Publishing_x0020_Status">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Spec_x0020_Sheet">{site}/Shared%20Documents/Contoso Stretch.docx</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Picture">{site}/PublishingImages/Contoso Stretch.png</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Contoso Wander</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Name">Contoso Wander</pnp:DataValue>
+              <pnp:DataValue FieldName="Price">399</pnp:DataValue>
+              <pnp:DataValue FieldName="Release_x0020_Date">8/2/2018</pnp:DataValue>
+              <pnp:DataValue FieldName="Available_x0020_Market">NA;#EMEA</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Type">Tablet</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Size">10"</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Resolution">1800x1012</pnp:DataValue>
+              <pnp:DataValue FieldName="Hard_x0020_Drive">64GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Memory">4GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Weight">0.5kg</pnp:DataValue>
+              <pnp:DataValue FieldName="Publishing_x0020_Status">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Spec_x0020_Sheet">{site}/Shared%20Documents/Contoso Wander.docx</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Picture">{site}/PublishingImages/Contoso Wander.png</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Contoso Sketch</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Name">Contoso Sketch</pnp:DataValue>
+              <pnp:DataValue FieldName="Price">3499</pnp:DataValue>
+              <pnp:DataValue FieldName="Release_x0020_Date">6/7/2018</pnp:DataValue>
+              <pnp:DataValue FieldName="Available_x0020_Market">NA;#EMEA;#APAC</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Type">Integrated</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Size">28"</pnp:DataValue>
+              <pnp:DataValue FieldName="Screen_x0020_Resolution">4500x2531</pnp:DataValue>
+              <pnp:DataValue FieldName="Hard_x0020_Drive">1TB</pnp:DataValue>
+              <pnp:DataValue FieldName="Memory">16GB</pnp:DataValue>
+              <pnp:DataValue FieldName="Weight">9.5kg</pnp:DataValue>
+              <pnp:DataValue FieldName="Publishing_x0020_Status">1</pnp:DataValue>
+              <pnp:DataValue FieldName="Spec_x0020_Sheet">{site}/Shared%20Documents/Contoso Sketch.docx</pnp:DataValue>
+              <pnp:DataValue FieldName="Product_x0020_Picture">{site}/PublishingImages/Contoso Sketch.png</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Views>
+            <View Name="{CB532C8B-C97D-4C2A-B468-D0853A2D5C50}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/Product Catalog/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=45">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="ID" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="Product_x0020_Name" />
+                <FieldRef Name="Release_x0020_Date" />
+                <FieldRef Name="PriceCal" />
+                <FieldRef Name="Screen_x0020_Size" />
+                <FieldRef Name="Available_x0020_Market" />
+                <FieldRef Name="Product_x0020_Type" />
+                <FieldRef Name="Spec_x0020_Sheet" />
+                <FieldRef Name="Product_x0020_Picture" />
+                <FieldRef Name="Screen_x0020_Resolution" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter>
+                <![CDATA[{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "text-align": "left",
+      "display": "block",
+      "font-family": "Segoe UI",
+      "background-color": "#F3F2F1",
+      "padding": "10px 10px",
+      "width": "=if(@window.innerWidth > 480, '98%', '92%')"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "box-shadow": "0 3px 6px 0 #00000029"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "88px",
+              "display": "flex",
+              "justify-content": "center",
+              "overflow": "hidden",
+              "background-color": "#e1dfdd"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "style": {
+                  "height": "88px",
+                  "flex-shrink": "0"
+                },
+                "attributes": {
+                  "src": "[$Product_x0020_Picture]"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1",
+              "padding-left": "16px",
+              "padding-right": "20px",
+              "padding-top": "0px",
+              "padding-bottom": "0px",
+              "background-color": "#FFFFFF"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "margin-top": "8px",
+                  "flex-wrap": "wrap"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "flex": "1 0 180px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "color": "#444444",
+                          "font-weight": "600"
+                        },
+                        "txtContent": "[$Product_x0020_Name]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "180px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "color": "#323130",
+                          "font-weight": "600"
+                        },
+                        "txtContent": "='$'+[$PriceCal]"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-wrap": "wrap-reverse",
+                  "padding-bottom": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "flex": "1 0 180px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "12px",
+                          "color": "#323130",
+                          "font-weight": "normal"
+                        },
+                        "txtContent": "[$Product_x0020_Type]"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "12px",
+                          "color": "#323130",
+                          "font-weight": "normal"
+                        },
+                        "txtContent": "='Available in '+[$Available_x0020_Market]"
+                      },
+                      {
+                        "elmType": "div",
+                        "children": [
+                          {
+                            "elmType": "a",
+                            "style": {
+                              "font-size": "12px",
+                              "color": "#0078d4",
+                              "font-weight": "normal",
+                              "text-decoration": "none"
+                            },
+                            "attributes": {
+                              "target": "_blank",
+                              "href": "[$Spec_x0020_Sheet]"
+                            },
+                            "txtContent": "Specifications"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "180px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "12px",
+                          "font-weight": "normal",
+                          "color": "#606e5c",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "110px"
+                            },
+                            "txtContent": "Release date"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "color": "#323130"
+                            },
+                            "txtContent": "=toLocaleDateString([$Release_x0020_Date])"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "12px",
+                          "font-weight": "normal",
+                          "color": "#606e5c",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "110px"
+                            },
+                            "txtContent": "Screen size"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "color": "#323130"
+                            },
+                            "txtContent": "[$Screen_x0020_Size]"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "12px",
+                          "font-weight": "normal",
+                          "color": "#606e5c",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "110px"
+                            },
+                            "txtContent": "Screen resolution"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "color": "#323130"
+                            },
+                            "txtContent": "[$Screen_x0020_Resolution]"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}]]>
+              </CustomFormatter>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field DisplayName="Product Name" Type="Text" Required="FALSE" ID="{e58714ca-0038-41fb-9623-a106de21ccdd}" SourceID="{{listid:Product Catalog}}" StaticName="Product_x0020_Name" Name="Product_x0020_Name" ColName="nvarchar4" RowOrdinal="0" Version="2" CustomFormatter="{&#xD;&#xA;   &quot;$schema&quot;: &quot;https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json&quot;,&#xD;&#xA;   &quot;elmType&quot;: &quot;a&quot;,&#xD;&#xA;   &quot;txtContent&quot;: &quot;@currentField&quot;,&#xD;&#xA;   &quot;attributes&quot;: {&#xD;&#xA;      &quot;target&quot;: &quot;_blank&quot;,&#xD;&#xA;      &quot;href&quot;: &quot;='http://finance.yahoo.com/quote/' + @currentField&quot;&#xD;&#xA;   }&#xD;&#xA;}" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" />
+            <Field Type="Currency" DisplayName="Price" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Min="0" Max="999999" Decimals="2" LCID="1033" StaticName="Price" Name="Price" ID="{0d75e21f-86c5-410b-8843-20042f574f33}" SourceID="{{listid:Product Catalog}}" ColName="float1" RowOrdinal="0" />
+            <Field DisplayName="Release Date" Type="DateTime" Required="FALSE" ID="{6bc92570-19f4-4f86-8837-e0f6331f096b}" SourceID="{{listid:Product Catalog}}" StaticName="Release_x0020_Date" Name="Release_x0020_Date" ColName="datetime1" RowOrdinal="0" Version="1" />
+            <Field Type="Text" DisplayName="Screen Size" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{8470b001-31a4-4416-825a-703c11929d53}" SourceID="{{listid:Product Catalog}}" StaticName="Screen_x0020_Size" Name="Screen_x0020_Size" ColName="nvarchar8" RowOrdinal="0" />
+            <Field Name="Available_x0020_Market" FromBaseType="FALSE" Type="MultiChoice" DisplayName="Available Market" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" FillInChoice="FALSE" ID="{88c11a9b-b2f5-4ab5-ad32-153bfcfde361}" Version="2" StaticName="Available_x0020_Market" SourceID="{{listid:Product Catalog}}" ColName="ntext2" RowOrdinal="0">
+              <Default>NA</Default>
+              <CHOICES>
+                <CHOICE>NA</CHOICE>
+                <CHOICE>LATAM</CHOICE>
+                <CHOICE>EMEA</CHOICE>
+                <CHOICE>APAC</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Choice" DisplayName="Product Type" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{b3bdad9c-c49a-4ba5-993e-394f0336beae}" SourceID="{{listid:Product Catalog}}" StaticName="Product_x0020_Type" Name="Product_x0020_Type" ColName="nvarchar6" RowOrdinal="0" CustomFormatter="" Version="1">
+              <Default>Laptop</Default>
+              <CHOICES>
+                <CHOICE>Laptop</CHOICE>
+                <CHOICE>Tablet</CHOICE>
+                <CHOICE>Integrated</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Text" DisplayName="Weight" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{d0a2f95b-9dff-4057-b097-f6c6444f9b06}" SourceID="{{listid:Product Catalog}}" StaticName="Weight" Name="Weight" ColName="nvarchar13" RowOrdinal="0" />
+            <Field Type="Choice" DisplayName="Hard Drive" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{66e1c90c-75d0-4a8b-af18-c993c6bb2313}" SourceID="{{listid:Product Catalog}}" StaticName="Hard_x0020_Drive" Name="Hard_x0020_Drive" ColName="nvarchar7" RowOrdinal="0">
+              <Default>256GB</Default>
+              <CHOICES>
+                <CHOICE>256GB</CHOICE>
+                <CHOICE>128GB</CHOICE>
+                <CHOICE>64GB</CHOICE>
+                <CHOICE>1TB</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Choice" DisplayName="Memory" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{c59a4766-bec2-439f-8262-4fb48cc52430}" SourceID="{{listid:Product Catalog}}" StaticName="Memory" Name="Memory" ColName="nvarchar11" RowOrdinal="0">
+              <Default>8GB</Default>
+              <CHOICES>
+                <CHOICE>8GB</CHOICE>
+                <CHOICE>4GB</CHOICE>
+                <CHOICE>16GB</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field Type="Boolean" DisplayName="Publishing Status" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{20778298-c2b9-459a-9308-478d2619a9ca}" SourceID="{{listid:Product Catalog}}" StaticName="Publishing_x0020_Status" Name="Publishing_x0020_Status" ColName="bit1" RowOrdinal="0">
+              <Default>1</Default>
+            </Field>
+            <Field Type="URL" DisplayName="Spec Sheet" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Hyperlink" ID="{9060202b-fc5d-4d9e-afdf-68aff3b7b475}" SourceID="{{listid:Product Catalog}}" StaticName="Spec_x0020_Sheet" Name="Spec_x0020_Sheet" ColName="nvarchar9" RowOrdinal="0" ColName2="nvarchar12" RowOrdinal2="0" />
+            <Field Type="URL" DisplayName="Product Picture" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Image" ID="{f0531724-d9e2-4c4a-8b35-d26fbf1f333f}" SourceID="{{listid:Product Catalog}}" StaticName="Product_x0020_Picture" Name="Product_x0020_Picture" ColName="nvarchar10" RowOrdinal="0" ColName2="nvarchar14" RowOrdinal2="0" CustomFormatter="" Version="1" />
+            <Field Type="Text" DisplayName="Screen Resolution" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{436a4577-f4ca-44f2-aa76-b52f33dade94}" SourceID="{{listid:Product Catalog}}" StaticName="Screen_x0020_Resolution" Name="Screen_x0020_Resolution" ColName="nvarchar5" RowOrdinal="0" />
+            <Field Type="Calculated" DisplayName="PriceCal" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" LCID="1033" ResultType="Text" ReadOnly="TRUE" ID="{ca434ff8-4c16-4b02-917a-9ea18e13a71e}" SourceID="{{listid:Product Catalog}}" StaticName="PriceCal" Name="PriceCal" ColName="sql_variant1" RowOrdinal="0">
+              <Formula>=[{fieldtitle:Price}]</Formula>
+            </Field>
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
+            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
+            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Retention label" />
+            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Retention label Applied" />
+            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
+            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
+          </pnp:FieldRefs>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://9-eastus1.pushp.svc.ms/notifications?token=w2-0f95ab68-8b7d-4e4d-9d04-33dc8a29749e" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="product-catalog.aspx" PromoteAsNewsArticle="false" Overwrite="true" Title="Contoso Electronics Product Catalog">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="TwoColumnLeft">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="List" JsonControlData="{&quot;id&quot;: &quot;f92bf067-bc19-489e-a556-7fe95f508720&quot;, &quot;instanceId&quot;: &quot;00ea20a6-edc9-4b66-93c8-c3a094dc5a95&quot;, &quot;title&quot;: &quot;List&quot;, &quot;description&quot;: &quot;List&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;isDocumentLibrary&quot;:false,&quot;selectedListId&quot;:&quot;{listid:Devices}&quot;,&quot;listTitle&quot;:&quot;Devices&quot;,&quot;selectedListUrl&quot;:&quot;{site}/Lists/Devices&quot;,&quot;webRelativeListUrl&quot;:&quot;/Lists/Devices&quot;,&quot;webpartHeightKey&quot;:4,&quot;selectedViewId&quot;:&quot;{viewid:Devices,All Items}&quot;,&quot;selectedFolderPath&quot;:&quot;&quot;,&quot;hideCommandBar&quot;:true}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="f92bf067-bc19-489e-a556-7fe95f508720" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="Text" ControlId="c0ca1854-5771-49a6-9f69-f079de42b9ac" Order="1" Column="2">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;span&gt;&lt;span&gt;Contoso Electronics is a global leader in providing versatile personal devices. From desktop machines to tablets, Contoso has a wide range of products to meet the varying needs of our clients. Use this product catalog to search through Contoso products to find the best match for your customer whether that’s by price, available market, product type, technical details, or the product publishing status. &lt;/span&gt;&lt;/span&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>            
+          </pnp:Sections>          
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+      <pnp:Files>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\product-catalog-header.png" Level="Published"></pnp:File>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\Contoso Sketch.png" Level="Published"></pnp:File>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\Contoso Stretch.png" Level="Published"></pnp:File>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\Contoso Trek.png" Level="Published"></pnp:File>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\Contoso Unleash.png" Level="Published"></pnp:File>
+        <pnp:File Folder="PublishingImages" Overwrite="true" Src="images\Contoso Wander.png" Level="Published"></pnp:File>
+        <pnp:File Folder="Shared Documents" Overwrite="true" Src="documents\Contoso Sketch.docx" Level="Published"></pnp:File>
+        <pnp:File Folder="Shared Documents" Overwrite="true" Src="documents\Contoso Stretch.docx" Level="Published"></pnp:File>
+        <pnp:File Folder="Shared Documents" Overwrite="true" Src="documents\Contoso Trek.docx" Level="Published"></pnp:File>
+        <pnp:File Folder="Shared Documents" Overwrite="true" Src="documents\Contoso Unleash.docx" Level="Published"></pnp:File>
+        <pnp:File Folder="Shared Documents" Overwrite="true" Src="documents\Contoso Wander.docx" Level="Published"></pnp:File>
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
