@@ -1,4 +1,10 @@
-# Product Catalog Installation
+# Product Catalog Sample
+
+## Summary
+The product catalog sample demonstrates how to use view formatting to format lists and display views of the lists inside web parts. It also demonstrates how to create links to download documents from the SharePoint Document libraries.
+
+### Desktop and tablet view
+![avatar](assets/page-review.png)
 
 ## Prerequisites
 
@@ -51,3 +57,23 @@ After the script has successfully run you will see the following screen.
 6. Verify the page appears like this:
 
  ![avatar](assets/page-review.png)
+
+### Authors
+
+- Chad Liu (Canviz)
+- Damian Gibbs (Canviz)
+- Randy Wang (Canviz)
+- Todd Baginski (Microsoft MVP, Canviz) @TBag
+- Chris McNulty (Microsoft)
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|January 29, 2020|Initial release
+
+## Disclaimer
+
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---

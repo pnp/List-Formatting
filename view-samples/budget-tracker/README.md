@@ -1,4 +1,10 @@
-# Budget Tracker Installation
+# Budget Tracker Sample
+
+## Summary
+The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page. 
+
+### Desktop and tablet view
+ ![avatar](assets/page-review.png)
 
 ## Prerequisites
 
@@ -8,7 +14,7 @@ Install **PnP PowerShell modules**
    
   ``Install-Module SharePointPnPPowerShellOnline -AllowClobber``
 
-## Deployment 
+## Installation 
  
 1. Open PowerShell as an administrator and go to the folder where the script is located. Then run the following command: 
 
@@ -46,8 +52,28 @@ After the script has successfully run you will see the following screen.
 
 4. Copy the [Budget Tracker] URL.
  
-5. Open a web broswer and navigate to the URL.
+5. Open a web browser and navigate to the URL.
  
 6. Select the first item in the Projects list and verify the page appears like this:
 
  ![avatar](assets/page-review.png)
+
+### Authors
+
+- Chad Liu (Canviz)
+- Damian Gibbs (Canviz)
+- Randy Wang (Canviz)
+- Todd Baginski (Microsoft MVP, Canviz) @TBag
+- Chris McNulty (Microsoft)
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|January 29, 2020|Initial release
+
+## Disclaimer
+
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
