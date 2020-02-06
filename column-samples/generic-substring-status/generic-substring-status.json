@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if(indexOf(@currentField, 'Not Started') == 0, 'WarningSolid', if(indexOf(@currentField, 'In Progress') == 0, 'AirplaneSolid', 'CompletedSolid'))",
+        "class": "='ms-fontColor-' + if(indexOf(@currentField, 'Not Started') == 0, 'redDark', if(indexOf(@currentField, 'In Progress') == 0, 'yellow', 'green'))",
+        "title": "@currentField"
+      },
+      "style": {
+        "font-size": "32px"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "padding-left": "4px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "=substring(@currentField, 0, indexOf(@currentField,':'))",
+          "style": {
+            "display": "inline-block",
+            "width": "100%",
+            "font-size": "10px",
+            "line-height": "8px",
+            "vertical-align": "text-top"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "=substring(@currentField, indexOf(@currentField,':') + 2, 100)",
+          "style": {
+            "display": "inline-block",
+            "font-size": "14px",
+            "font-weight": "bold",
+            "vertical-align": "text-top",
+            "line-height": "13px",
+            "margin-top": "-4px"
+          }
+        }
+      ]
+    }
+  ]
+}
