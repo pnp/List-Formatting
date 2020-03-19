@@ -4,7 +4,7 @@
   "children": [
     {
       "elmType": "span",
-			"txtContent": "=(100 * @currentField) + ' %'",
+      "txtContent": "=(100 * @currentField) + ' %'",
       "style": {
         "padding-left": "8px",
         "white-space": "nowrap"
@@ -12,7 +12,11 @@
     }
   ],
   "attributes": {
-    "class": "sp-field-dataBars"
+    "class": "sp-field-dataBars",
+    "role": "progressbar",
+    "aria-valuenow": "@currentField",
+    "aria-valuemin": "0",
+    "aria-valuemax": "1"
   },
   "style": {
     "padding": "0",
