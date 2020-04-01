@@ -1,0 +1,29 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-fontColor-neutralDark ms-fontColor-themePrimary--hover"
+    },
+    "style": {
+      "font-size": "24px",
+      "height": "100%"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "attributes": {
+          "iconName": "MSNVideosSolid"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "[$Title]",
+        "style": {
+          "padding-left": "8px"
+        }
+      }
+    ]
+  }
+}
