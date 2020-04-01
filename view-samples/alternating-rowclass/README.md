@@ -13,6 +13,8 @@ By usng the `@rowIndex` keyword, the alternating style will be applied regardles
 
 By using the [Office UI Fabric color classes](https://developer.microsoft.com/fabric#/styles/colors) for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
+> Note - The alternating row format is now available as a Design Mode wizard for View Formatting. However, this sample uses Excel style syntax (design mode uses AST) and takes advantage of theme colors (rather than the default neutral). The Design Mode wizard is awesome, but there is still value in this sample as well.
+
 ## View requirements
 - None, this format will apply to any view!
 
