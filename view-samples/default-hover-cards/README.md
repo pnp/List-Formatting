@@ -1,9 +1,11 @@
-# Defalut hover card on Lists
+# Defalut hover card on doclib
 
 ## Summary
-The following image shows a list with a defalut hover added to a formatted view in a list
+The following image shows a list with a defalut hover added to a formatted view in a doclib
 
-On hover on a formatted view a file card is displayed 
+On hover in a formatted view on a file a file card is displayed and
+
+On hover in a formatted view on a person column a profile card is displayed and
 
 ![screenshot of the sample](./File_hover.png)
 

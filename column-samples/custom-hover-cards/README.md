@@ -10,9 +10,15 @@ On hover - Metadata on the column "Status" is made available via column formatti
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
 
-Column Name|Type
---------|---------
-Status  | Choice
+Column Name         |Type
+--------------------|--------------
+Status              | Choice
+Product ID          | Single Line Text
+PackedDate          | Date and Time 
+ShippedDate         | Date and Time
+InTransitStartDate  | Date and Time 
+DeliveredDate       | Date and Time
+Product Photo       | Picture
 
 ## Sample
 
