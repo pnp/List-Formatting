@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "img",
+      "style": {
+        "width": "32px",
+        "height": "32px",
+        "overflow": "hidden",
+        "border-radius": "50%",
+        "margin": "2px"
+      },
+      "attributes": {
+        "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Editor.email]",
+        "title": "[$Editor.title]"
+      }
+    },
+    {
+      "elmType": "span",
+      "style": {
+        "vertical-align": "middle",
+        "margin-left": "2px"
+      },
+      "txtContent": "[$Editor.title]"
+    }
+  ],
+  "defaultHoverField": "[$Editor]"
+}
