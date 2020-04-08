@@ -10,8 +10,9 @@ On hover on a formatted person column a profile card is displayed
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
 
-Column Name   Column Type
-Modified By -   Person  
+Column Name|Type
+--------|---------
+Modified By  | Person
 
 ## Sample
 
