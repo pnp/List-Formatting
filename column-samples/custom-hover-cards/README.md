@@ -1,7 +1,7 @@
 # Custom hover card on Lists
 
 ## Summary
-TThe following image shows a list with a custom hover added to a List:
+The following image shows a list with a custom hover added to a List:
 
 On hover - Metadata on the column "Status" is made available via column formatting
 
@@ -10,8 +10,9 @@ On hover - Metadata on the column "Status" is made available via column formatti
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
 
-Column Name    Type
-Status        - Choice 
+Column Name|Type
+--------|---------
+Status  | Choice
 
 ## Sample
 

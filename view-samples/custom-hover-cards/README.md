@@ -10,8 +10,9 @@ On hover - Metadata on the column "Status" is made available via view formatting
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
 
-Column Name    Type
-Status        - Choice 
+Column Name|Type
+--------|---------
+Status  | Choice
 
 ## Sample
 
