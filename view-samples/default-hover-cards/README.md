@@ -37,4 +37,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/default-hover-cards" />
