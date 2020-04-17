@@ -1,4 +1,4 @@
-# Defalut hover card on doclib
+# Default hover card on doclib
 
 ## Summary
 The following image shows a list with a defalut hover added to a formatted view in a doclib
