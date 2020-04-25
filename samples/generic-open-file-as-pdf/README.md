@@ -1,8 +1,8 @@
 # Customise SharePoint Online Columns Using JSON - Column Formatting
 
 ### Open file as pdf
-This Json can be applied to a calculated column to render a link that will open an Office Document as a pdf. It relies on the sharepoint 2.0 rest api. The --driveurl-- placeholder in the json needs to be replaced with the correct driveurl for the docuement library where the JSON Is being used.
-To Get the driveurl navigate to
+This JSON can be applied to a calculated column to render a link that will open an Office Document as a pdf. It relies on the SharePoint 2.0 rest api. The --driveurl-- placeholder in the JSON needs to be replaced with the correct driveurl for the document library where the JSON Is being used.
+To get the driveurl navigate to
   https://tenant.sharepoint.com/sites/sitename/_api/v2.0/drives
 
 Find the entry where the "name" attribute is the Title of the library where you want to use this JSON. 
