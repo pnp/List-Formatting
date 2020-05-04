@@ -1,4 +1,4 @@
-# Defalut hover card on Lists
+# Default hover card on Lists
 
 ## Summary
 The following image shows a list with a defalut hover added to a formatted column in a list
