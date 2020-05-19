@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41E Bug"
+name: Bug
 about: Report a problem with one of our list formatting samples
 title: SAMPLE has made me sad, please help
 labels: ''
@@ -15,7 +15,6 @@ Thank you for reporting a bug! Use the sections below to submit a bug ONLY if it
 - Include sufficient details and context.
 - If you have multiple bugs please submit them separately so we can track resolution.
 - Screenshots are always helpful (just paste any images right here in the bug report)
-- We accept pull requests. If you know how to fix it - go ahead!
 
 DELETE EVERYTHING ABOVE AFTER READING - THANKS!
 
