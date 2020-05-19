@@ -2,7 +2,7 @@
 name: "\U0001F4A1 Suggestion"
 about: Suggest an idea to make one our list formatting samples even better
 title: Let's make SAMPLE even better!
-labels: Enhancement ✨
+labels: "\U0001F4A1 Enhancement"
 assignees: ''
 
 ---

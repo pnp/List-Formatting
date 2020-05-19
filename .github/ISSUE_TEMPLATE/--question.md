@@ -2,7 +2,7 @@
 name: "❓ Question"
 about: Ask a question about one of our list formatting samples
 title: I have a question about SAMPLE
-labels: ''
+labels: "❓ Question"
 assignees: ''
 
 ---

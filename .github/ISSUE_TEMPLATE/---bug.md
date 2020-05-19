@@ -2,7 +2,7 @@
 name: "\U0001F41E Bug"
 about: Report a problem with one of our list formatting samples
 title: SAMPLE has made me sad, please help
-labels: ''
+labels: "\U0001F41E Bug"
 assignees: ''
 
 ---

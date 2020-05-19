@@ -2,7 +2,7 @@
 name: "\U0001F434 Sample Request"
 about: Need a list formatting sample we don't have yet? Let us know!
 title: ''
-labels: "Help Wanted \U0001F4CB"
+labels: "\U0001F4CB Help Wanted"
 assignees: ''
 
 ---
