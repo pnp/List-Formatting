@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Main Issues List
+    url: https://github.com/SharePoint/sp-dev-docs/issues/new
+    about: 📚 Issue or question related to List Formatting itself or its documentation? Submit an issue here.
