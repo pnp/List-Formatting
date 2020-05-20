@@ -1,43 +1,32 @@
-# Customise SharePoint Online Columns Using JSON - Column Formatting
+# Open file as pdf
 
-### Open file as pdf
-This JSON can be applied to a calculated column to render a link that will open an Office Document as a pdf. It relies on the SharePoint 2.0 rest api. The --driveurl-- placeholder in the JSON needs to be replaced with the correct driveurl for the document library where the JSON Is being used.
-To get the driveurl navigate to
-  https://tenant.sharepoint.com/sites/sitename/_api/v2.0/drives
+## Summary
+This JSON can be applied to a calculated column to render a link that will open an Office Document as a pdf. It relies on the SharePoint 2.0 rest api
 
-Find the entry where the "name" attribute is the Title of the library where you want to use this JSON. 
-Select the coresponding "@odata.id" attribute and paste it into the JSON template replacing the --driveurl-- paceholder.
+[picture of the format in action]
 
-<strong>Large files may not be successfully converted to PDFs. It is unclear to me if this is a supported API</strong>
+## View requirements
+The --driveurl-- placeholder in the JSON needs to be replaced with the correct driveurl for the document library where the JSON Is being used. To get the driveurl navigate to https://tenant.sharepoint.com/sites/sitename/_api/v2.0/drives
 
-<table>
-<thead>
-<tr>
-<th>Solution</th>
-<th>Author(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>open-file-as-pdf.json</td>
-<td>Russell Gove</td>
-</tr>
-  </tbody></table>
-<table>
-<thead>
-<tr>
-<th>Version</th>
-<th>Date</th>
-<th>Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1.0</td>
-<td>25 April 2020</td>
-<td>Initial release</td>
-</tr></tbody></table>
+Find the entry where the "name" attribute is the Title of the library where you want to use this JSON. Select the coresponding "@odata.id" attribute and paste it into the JSON template replacing the --driveurl-- paceholder.
+## Sample
 
-<p><strong>THIS CODE IS PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
+Solution|Author(s)
+--------|---------
+open-file-as-pdf.json | Russell Gove
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-column-formatting/samples/generic-project-management" />
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|May 20, 2021|Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+
+## Additional notes
+This sample only works with Office documents.
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-open-file-as-pdf" />
