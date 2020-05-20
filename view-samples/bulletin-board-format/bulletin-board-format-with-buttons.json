@@ -1,0 +1,179 @@
+{
+  "hideListHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "width": "100%",
+      "margin": "5px 0"
+    },
+    "children": [
+      {
+        "elmType": "button",
+        "customRowAction": {
+          "action": "defaultClick"
+        },
+        "attributes": {
+          "class": "ms-bgColor-white ms-bgColor-themeLighter--hover"
+        },
+        "style": {
+          "width": "100%",
+          "display": "flex",
+          "padding": 0,
+          "border": "none",
+          "cursor": "pointer"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-borderColor-themePrimary ms-bgColor-themePrimary"
+            },
+            "style": {
+              "min-width": "220px",
+              "display": "flex",
+              "border-width": "3px",
+              "border-style": "solid",
+              "box-sizing": "border-box",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "=if([$Category] == 'Books For Sale', 'ReadingMode', if([$Category] == 'Ride Share', 'Car', if([$Category] == 'Electronics For Sale', 'LightningBolt', 'Tag')))",
+                  "class": "ms-fontSize-su ms-fontWeight-regular  ms-fontColor-white",
+                  "title": "[$Category]"
+                },
+                "style": {
+                  "flex": "none",
+                  "padding": "12px",
+                  "padding-left": "18px",
+                  "height": "42px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1",
+                  "text-align": "left",
+                  "max-width": "140px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                      "title": "=toLocaleDateString([$Modified])"
+                    },
+                    "style": {
+                      "margin-right": "12px",
+                      "overflow": "hidden",
+                      "white-space": "nowrap"
+                    },
+                    "txtContent": "=toLocaleDateString([$Modified])"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                      "title": "[$Category]"
+                    },
+                    "style": {
+                      "margin-right": "12px",
+                      "overflow": "hidden",
+                      "white-space": "nowrap"
+                    },
+                    "txtContent": "[$Category]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-l"
+            },
+            "style": {
+              "border-width": "3px",
+              "border-style": "solid",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "text-align": "left",
+              "padding": "21px 12px",
+              "overflow": "hidden"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "style": {
+                  "height": "24px"
+                },
+                "attributes": {
+                  "title": "[$Title]"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "button",
+        "customRowAction": {
+          "action": "share"
+        },
+        "attributes": {
+          "class": "ms-fontColor-themeLight ms-fontColor-themeDark--hover",
+          "title": "Share Item"
+        },
+        "style": {
+          "border": "none",
+          "background-color": "transparent",
+          "cursor": "pointer",
+          "position": "absolute",
+          "top": "12px",
+          "right": "0"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "Share",
+              "class": "ms-font-l"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "button",
+        "customRowAction": {
+          "action": "delete"
+        },
+        "attributes": {
+          "class": "ms-fontColor-themeLight ms-fontColor-themeDark--hover",
+          "title": "Delete Item"
+        },
+        "style": {
+          "border": "none",
+          "background-color": "transparent",
+          "cursor": "pointer",
+          "position": "absolute",
+          "bottom": "12px",
+          "right": "0"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "Delete",
+              "class": "ms-font-l"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
