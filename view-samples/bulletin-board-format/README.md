@@ -17,17 +17,25 @@ By using the Office UI Fabric color classes for themes, we can ensure our format
 |Choice|Category|Yes|
 |Multiple lines of text|Details||
 
+## Bulletin Board with Buttons
+
+An additional format, bulletin-board-format-with-buttons.json is provided that demonstrates adding additional buttons for sharing and deleting items. This is important because this sample removes item selection and this makes using this functionality difficult. By adding the buttons you can choose to provide this functionality while still taking advantage of the Bulletin Board format itself.
+
+![With Buttons](./screenshotWithButtons.png)
+
 ## Sample
 
 Solution|Author(s)
 --------|---------
 bulletin-board-format | [Chris Kent](https://twitter.com/thechriskent)
+bulletin-board-format-with-buttons | [Chris Kent](https://twitter.com/thechriskent)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|August 22, 2018|Initial release
+1.1|May 20, 2020|Added a version with Buttons
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
