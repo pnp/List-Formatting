@@ -1,0 +1,8 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "txtContent": "=if(Number([$DueDate]) == 0, 'Blank Date' , if([$DueDate] < @now, 'Expired', 'Active'))",
+    "attributes": {
+        "class": "=if(Number([$DueDate]) == 0, 'sp-field-severity--warning' , if([$DueDate] < @now, 'sp-field-severity--blocked', 'sp-field-severity--good'))"
+    }
+}
