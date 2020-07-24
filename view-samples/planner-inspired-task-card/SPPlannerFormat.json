@@ -33,7 +33,8 @@
                 "style": 
                 {
                     "text-align": "center",
-                    "flex-basis": "100%"
+                    "flex-basis": "100%",
+                    "width":"100%"
                 },
                 "children": 
                 [
