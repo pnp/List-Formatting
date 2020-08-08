@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Fullscreen PreView",
+    "target": "_blank",
+    "href": "=@currentWeb +'/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=embedview'"
+
+  },
+
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "View"
+        }
+    }
+  ]
+}
