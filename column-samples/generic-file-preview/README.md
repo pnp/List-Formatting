@@ -4,7 +4,7 @@
 On click the file preview will open in a new tab. This is the same preview as used in the fileviewer webpart.
 So no toolbars, no context. It is therefore recommended to open it a new tab.
 
-[picture of the format in action]
+![screenshot of the sample](./screenshot_file_preview.png)
 
 ## View requirements
 - The format can be applied to any column, although it is recommended to add it to a calculated column with a ="" formula
