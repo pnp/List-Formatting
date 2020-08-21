@@ -40,7 +40,7 @@
                   "src": {
                     "operator": "+",
                     "operands": [
-                      "https://avatars.io/",
+                      "https://unavatar.now.sh/",
                       "[$Social_x0020_Network]",
                       "/",
                       "@currentField",
