@@ -19,7 +19,7 @@ This JSON sample demonstrates how you can format the work progress category choi
 
 | Solution                      | Author(s)                                    |
 |-------------------------------|----------------------------------------------|
-| multi-choice-workcategory-pill.json | Ganesh Sanap |
+| multi-choice-workcategory-pill.json | [Ganesh Sanap](https://twitter.com/ganeshsanap20) |
 
 ## Version history
 
