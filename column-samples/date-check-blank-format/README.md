@@ -22,7 +22,7 @@ The text content and classes applied are determined based on following condition
 
 Solution|Author(s)
 --------|---------
-date-check-blank-format.json | Ganesh Sanap
+date-check-blank-format.json | [Ganesh Sanap](https://twitter.com/ganeshsanap20)
 
 ## Version history
 
@@ -39,3 +39,5 @@ Version|Date|Comments
 This sample uses some predefined classes also covered in the official documentation of Column Formatting:
 
 - [Use column formatting to customize SharePoint - Style guidelines](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-check-blank-format" />

@@ -19,7 +19,7 @@ This JSON sample demonstrates how you can format the work progress category choi
 
 | Solution                      | Author(s)                                    |
 |-------------------------------|----------------------------------------------|
-| multi-choice-workcategory-pill.json | Ganesh Sanap |
+| multi-choice-workcategory-pill.json | [Ganesh Sanap](https://twitter.com/ganeshsanap20) |
 
 ## Version history
 
@@ -38,3 +38,5 @@ This JSON sample demonstrates how you can format the work progress category choi
 This sample uses some predefined classes also covered in the official documentation of Column Formatting:
 
 - [Use column formatting to customize SharePoint - Style guidelines](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-choice-workcategory-pill" />
