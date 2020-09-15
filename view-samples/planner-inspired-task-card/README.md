@@ -14,7 +14,7 @@ All fields below should be part of the view, but only those marked with Required
 |Single line of text|Title|Yes|
 |Person|AssignedTo|Yes|
 |Choice|Status|No|
-|DateTime|DueDate|No|
+|DateTime|DateReported|No|
 
 The `Status` column expects the following choice values:
 - In Progress
@@ -32,6 +32,7 @@ planner-inspired-task-card | [April Dunnam](https://twitter.com/aprildunnam)
 Version|Date|Comments
 -------|----|--------
 1.0|July 26, 2019|Initial release
+1.1|September 15, 2020|Update (Jeff Angama)
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
