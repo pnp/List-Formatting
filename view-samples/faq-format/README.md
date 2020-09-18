@@ -41,3 +41,6 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 * KeywordLink - "https://www.microsoft.com"
 
 ![FAQ Single Format Screenshot](./SingleQuestionFAQScreenshot.png)
+
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
