@@ -1,9 +1,9 @@
 # Faq-Format
 
 ## Summary
-This is sample creates an FAQ formatted list. Optionally, you can include the Keyword and KeywordLink columns for the [faq-keyword-links-format.json](./faq-format/faq-keyword-links-format.json) sample.
+This is sample creates an FAQ formatted list. Optionally, you can include the Keyword and KeywordLink columns for the [faq-keyword-links-format.json](./faq-keyword-links-format.json) sample.
 
-![FAQ Format Screenshot](./FAQScreenShot.png)
+![FAQ Format Screenshot](./FAQ.png)
 
 ## View requirements
 
