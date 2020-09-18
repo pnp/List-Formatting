@@ -1,0 +1,32 @@
+.collapsibleContainer {
+  width: 100%;
+}
+
+.collapsibleContainer .collapsibleHeader {
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: #f3f2f1;
+}
+
+.collapsibleContainer .collapsibleHeader .chevronIcon {
+  transition: transform 0.1s linear;
+  transform: rotate(90deg);
+  height: 16px;
+  width: 16px;
+  padding: 4px;
+}
+
+.collapsibleContainer .collapsibleHeader .chevronIcon.collapsed {
+  transform: rotate(0);
+}
+
+.collapsibleContent {
+  padding: 4px;
+}
+
+.collapsibleContent.hideContent {
+  display: none;
+}
