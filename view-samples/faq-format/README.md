@@ -3,7 +3,7 @@
 ## Summary
 This is sample creates an FAQ formatted list. Optionally, you can include the Keyword and KeywordLink columns for the [faq-keyword-links-format.json](./faq-format/faq-keyword-links-format.json) sample.
 
-![FAQ Format Screenshot](./faq-format/FAQScreenShot.png)
+![FAQ Format Screenshot](./FAQScreenShot.png)
 
 ## View requirements
 
@@ -40,4 +40,4 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 * Keyword - "Information"
 * KeywordLink - "https://www.microsoft.com"
 
-![FAQ Single Format Screenshot](./faq-format/SingleQuestionFAQScreenshot.png)
+![FAQ Single Format Screenshot](./SingleQuestionFAQScreenshot.png)
