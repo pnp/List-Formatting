@@ -22,6 +22,7 @@ nav:
     - Creating a Sample: contributing/sample.md
     - Submitting a Pull Request: contributing/pullrequest.md
     - Update the Docs: contributing/docs.md
+  - Tools: tools/index.md
 theme:
   name: 'material'
   palette:

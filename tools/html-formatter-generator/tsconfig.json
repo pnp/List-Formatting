@@ -8,6 +8,7 @@
     "typeRoots": ["./node_modules/@types", "./typings"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "rootDir": "src",
+    "baseUrl": ".",
     "sourceMap": true,
     "experimentalDecorators": true,
     "importHelpers": true,

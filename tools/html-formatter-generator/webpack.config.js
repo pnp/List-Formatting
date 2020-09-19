@@ -8,6 +8,10 @@ const configOverrides = {
   entry: {
     main: ["./src/index.tsx"],
   },
+  output: {
+    filename: `htm2fmt.[name].[contenthash:9].js`,
+    path: path.resolve(process.cwd(), "../../docs/tools/html-formatter-generator/public/"),
+  },
   devServer: {
     contentBase: path.join(__dirname, "assets"),
   },
@@ -32,6 +36,6 @@ const configOverrides = {
 module.exports = [
   createConfig(configOverrides, {
     bundleName: "htmtofmt",
-    isProduction: false,
+    isProduction: true,
   }),
 ];
