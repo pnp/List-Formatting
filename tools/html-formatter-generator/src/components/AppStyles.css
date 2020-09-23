@@ -11,6 +11,7 @@ pre code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   white-space: pre-wrap;
+  overflow-wrap:break-word;
 }
 
 pre {
@@ -19,6 +20,9 @@ pre {
   border-radius: 12px;
   width: 100%;
   min-height: 100px;
+  max-height: 300px;
+  word-wrap: wrap;
+  overflow-y:scroll;
   margin: 0;
 }
 
@@ -60,6 +64,7 @@ header.header .title #titleText {
 #editorsRootContainer {
   display: flex;
   flex-grow: 1;
+  justify-content: space-evenly;
   position: relative;
 }
 

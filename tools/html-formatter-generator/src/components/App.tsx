@@ -18,6 +18,7 @@ export const App: React.FC<any> = (props: any) => {
   const htmlEditorRef = React.useRef(null);
   const cssEditorRef = React.useRef(null);
   const jsonRef = React.useRef(null);
+  const previewRef = React.useRef(null);
 
   const [json, setJSON] = React.useState(JSON.stringify({}, null, 2));
 
@@ -39,6 +40,9 @@ export const App: React.FC<any> = (props: any) => {
     if (csseditor) {
       css = csseditor.getValue();
     }
+    
+    const previewDiv = previewRef.current as any;
+    previewDiv.innerHTML = html;
     const json = createFormatter(htmlToElement(html), 0, css);
     setJSON(JSON.stringify(json, null, 2));
   };
@@ -82,7 +86,7 @@ export const App: React.FC<any> = (props: any) => {
       />
       <div id="editorsRootContainer">
         <CodeEditor {...codeEditorsPaneProps} />
-        <div className="paneContainer" style={{ width: "320px" }}>
+        <div className="paneContainer" style={{ width: "340px" }}>
           <span className="paneTitle">{"Output"}</span>
           <CollapsibleSection title="JSON">
             <div style={{ position: "relative" }}>
@@ -95,6 +99,9 @@ export const App: React.FC<any> = (props: any) => {
                 copy
               </button>
             </div>
+          </CollapsibleSection>
+          <CollapsibleSection title="Preview">
+            <div ref={previewRef}></div>
           </CollapsibleSection>
         </div>
       </div>
