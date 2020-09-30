@@ -4,15 +4,12 @@ import { Header } from "./Header";
 import { CollapsibleSection } from "./collapsible/CollapsibleSection";
 import "./AppStyles.css";
 
-import {
-  createFormatter,
-  htmlToElement,
-} from "../utilities/HtmlToJsonConverter";
+import HTMLToFormatter from "../utilities/HTMLToFormatter";
 
 export const App: React.FC<any> = (props: any) => {
   const [paneState, setPaneState] = React.useState<any>({
     html: true,
-    css: false,
+    css: true,
   });
 
   const htmlEditorRef = React.useRef(null);
@@ -41,10 +38,11 @@ export const App: React.FC<any> = (props: any) => {
       css = csseditor.getValue();
     }
     
+    const result = HTMLToFormatter.generateFormatter(html, css);
     const previewDiv = previewRef.current as any;
-    previewDiv.innerHTML = html;
-    const json = createFormatter(htmlToElement(html), 0, css);
-    setJSON(JSON.stringify(json, null, 2));
+    previewDiv.innerHTML = "";
+    previewDiv.appendChild(result.html);
+    setJSON(JSON.stringify(result.json, null, 2));
   };
 
   const copyToClipboard = () => {
