@@ -42,10 +42,10 @@ export default class HTMLToFormatterConverter {
     this.setStyleAttributeRecursively(parsedDocument.body, styleObjectMap);
 
     // generate json from the processed html
-    const generated = this.elementToJSON(parsedDocument.body.children[0] as HTMLElement, isTest);
+    const generated = this.elementToJSON(parsedDocument.body.children[0] as HTMLElement);
     return {
       json: generated,
-      html: parsedDocument.body.children[0],
+      html: parsedDocument.body.children[0]
     };
   }
 
@@ -67,12 +67,16 @@ export default class HTMLToFormatterConverter {
     node: HTMLElement,
     styleObjectMap: { [x: string]: IStyleAttribute }
   ) {
-    const matches = node.getAttribute("inline-css");
+    // process the nodes marked with inline-css
+    const allMatchedSelectors = node.getAttribute("inline-css");
     let stylesToApply: string = "";
-    if (matches) {
-      matches.split(";").forEach((match) => {
-        if (styleObjectMap[match]) {
-          stylesToApply += styleObjectMap[match].style + ";";
+    if (allMatchedSelectors) {
+      // for each matched selector, 
+      // get style and create the attribute value
+      allMatchedSelectors.split(";").forEach(
+        (selector) => {
+        if (styleObjectMap[selector]) {
+          stylesToApply += styleObjectMap[selector].style + ";";
         }
       });
     }
@@ -87,16 +91,15 @@ export default class HTMLToFormatterConverter {
     node.setAttribute("style", finalStyleString);
   }
 
-  public static elementToJSON(elm: HTMLElement, isTest?: boolean) {
+  public static elementToJSON(elm: HTMLElement, level: number = 0) {
     const tagName = elm && elm.tagName && elm.tagName.toLowerCase();
     if (!tagName || !accepted.OK_ELMS[tagName]) {
       return;
     }
     //create formatter
     const jsonVal: any = {
-      $schema: accepted.SCHEMA_URI,
-      debugMode: true,
-      elmType: tagName,
+      ...(level === 0 ? { $schema: accepted.SCHEMA_URI, debugMode: true } : {}),
+      elmType: tagName
     };
     // parse each attribute and set on the json
     for (let index = 0; index < elm.attributes.length; index++) {
@@ -120,7 +123,9 @@ export default class HTMLToFormatterConverter {
         jsonVal.style = styleObj;
       }
     }
-
+    
+    // if there is txtContent, sp-formatter ignores children.
+    // we sort of give higer precedence to children here, and only set txtContent if no children exist 
     if (elm.children.length === 0 && !!elm.textContent) {
       jsonVal.txtContent = elm.textContent.replace(/\n/g, "");
     }
@@ -129,7 +134,7 @@ export default class HTMLToFormatterConverter {
     for (let index = 0; index < elm.children.length; index++) {
       if (index === 0) jsonVal.children = [];
       const element = elm.children[index] as HTMLElement;
-      const childNode = this.elementToJSON(element);
+      const childNode = this.elementToJSON(element, level + 1);
       if (childNode) {
         jsonVal.children.push(childNode);
       }
