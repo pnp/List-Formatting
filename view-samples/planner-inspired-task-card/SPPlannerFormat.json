@@ -88,7 +88,7 @@
                         "style": 
                         {
                             "padding-right": "6px",
-                            "display": "=if([$DueDate], '', 'none')"
+                            "display": "=if([$DateReported], '', 'none')"
                         }
                     },
                     {
@@ -99,9 +99,9 @@
                             "overflow": "hidden",
                             "max-width": "280px",
                             "white-space": "nowrap",
-                            "color": "=if([$DueDate] <= @now, 'red', ''"
+                            "color": "=if([$DateReported] <= @now, 'red', ''"
                         },
-                        "txtContent": "=toLocaleDateString([$DueDate])"
+                        "txtContent": "=toLocaleDateString([$DateReported])"
                     }
                 ]
             },
