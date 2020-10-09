@@ -1,0 +1,187 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "background-color": "white",
+      "float": "left",
+      "display": "flex",
+      "flex-wrap": "nowrap",
+      "flex-direction": "column",
+      "align-items": "left",
+      "justify-content": "space-around",
+      "min-width": "300px",
+      "min-height": "250px",
+      "max-width": "300px",
+      "border-radius": "2px",
+      "margin-right": "5px",
+      "margin-bottom": "5px",
+      "box-shadow": "2px 2px 4px darkgrey"
+    },
+    "attributes": {
+      "class": "ms-fontColor-themePrimary--hover"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "center",
+          "flex-basis": "100%",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "800",
+              "font-size": ".8rem",
+              "text-align": "center",
+              "margin": "10px",
+              "padding-bottom": "1px",
+              "word-wrap": "break-word",
+              "border-bottom": "1px solid gray"
+            },
+            "txtContent": "[$Status]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "500",
+              "font-size": "1.2rem",
+              "text-align": "center",
+              "margin": "12px",
+              "word-wrap": "break-word",
+              "text-decoration": "=if([$Status] == 'Completed','line-through','inherit')"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "=if([$Status] == 'In Progress', 'CircleHalfFull', if([$Status] == 'Completed', 'CheckMark', if([$Status] == 'Delayed', 'Warning', '')))",
+              "class": "ms-fontColor-themePrimary"
+            },
+            "style": {
+              "padding-right": "12px",
+              "display": "inline"
+            }
+          },
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "Calendar",
+              "class": "ms-fontColor-themePrimary"
+            },
+            "style": {
+              "padding-right": "6px",
+              "display": "=if([$DueDate], '', 'none')"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-weight": "500",
+              "font-size": "1.2em",
+              "overflow": "hidden",
+              "max-width": "280px",
+              "white-space": "nowrap",
+              "color": "=if([$DueDate] <= @now, 'red', ''"
+            },
+            "txtContent": "=toLocaleDateString([$DueDate])"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "border-top": "1px solid gray",
+          "padding-top": "8px"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "style": {
+              "border-radius": "50%",
+              "vertical-align": "middle"
+            },
+            "attributes": {
+              "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$AssignedTo.email]",
+              "title": "[$AssignedTo.title]"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "height": "1rem",
+              "width": "2rem",
+              "font-size": "1.2em",
+              "cursor": "pointer",
+              "margin": "24px 5px",
+              "vertical-align": "middle"
+            },
+            "txtContent": "[$AssignedTo.title]"
+          }
+        ]
+      },
+      {
+        "elmType": "span",
+        "style": {
+          "flex": "none",
+          "display": "flex",
+          "flex-direction": "row-reverse",
+          "flex-wrap": "nowrap"
+        },
+        "children": [
+          {
+            "elmType": "button",
+            "customRowAction": {
+              "action": "defaultClick"
+            },
+            "attributes": {
+              "title": "Edit",
+              "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+            },
+            "style": {
+              "border": "none",
+              "background-color": "transparent",
+              "cursor": "pointer"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "Edit"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "button",
+            "customRowAction": {
+              "action": "delete"
+            },
+            "attributes": {
+              "title": "Delete",
+              "class": "ms-fontColor-neutralPrimary ms-fontColor-red--hover"
+            },
+            "style": {
+              "border": "none",
+              "background-color": "transparent",
+              "cursor": "pointer"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "Delete"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
