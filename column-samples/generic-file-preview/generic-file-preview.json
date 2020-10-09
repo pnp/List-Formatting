@@ -3,23 +3,23 @@
   "elmType": "a",
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-    "title": "Fullscreen PreView",
+    "title": "Fullscreen Preview",
     "target": "_blank",
     "href": "=@currentWeb +'/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=embedview'"
-
   },
-
   "style": {
     "border": "none",
     "background-color": "transparent",
-    "cursor": "pointer"
+    "cursor": "pointer",
+    "text-decoration": "none",
+    "display": "=if([$File_x0020_Type] == 'docx' || [$File_x0020_Type] == 'dotx' || [$File_x0020_Type] == 'dotm' || [$File_x0020_Type] == 'docm' || [$File_x0020_Type] == 'docb' || [$File_x0020_Type] == 'pptx' || [$File_x0020_Type] == 'pptm' || [$File_x0020_Type] == 'potx' || [$File_x0020_Type] == 'potm' || [$File_x0020_Type] == 'ppam' || [$File_x0020_Type] == 'ppsx' || [$File_x0020_Type] == 'ppsm' || [$File_x0020_Type] == 'sldx' || [$File_x0020_Type] == 'sldm' || [$File_x0020_Type] == 'vsdx' || [$File_x0020_Type] == 'xlsx' || [$File_x0020_Type] == 'xlsm' || [$File_x0020_Type] == 'xltx' || [$File_x0020_Type] == 'xltm','inherit','none')"
   },
   "children": [
     {
       "elmType": "span",
       "attributes": {
         "iconName": "View"
-        }
+      }
     }
   ]
 }

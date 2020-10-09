@@ -1,19 +1,33 @@
 # File Preview
 
 ## Summary
-On click the file preview will open in a new tab. This is the same preview as used in the fileviewer webpart.
-So no toolbars, no context. It is therefore recommended to open it a new tab.
+This sample opens Microsoft Office documents in full screen within a new tab. This is the same view as used in the fileviewer webpart (no toolbars).
 
-![screenshot of the sample](./samplescreenshot_file_preview.png)
+![screenshot of the sample](./screenshot.png)
+
+![screenshot of the file preview](./screenshotFilePreview.png)
 
 ## View requirements
+- This format is intended for document libraries
 - The format can be applied to any column, although it is recommended to add it to a calculated column with a ="" formula
-- Folder are currently problematic and return an error.
+- Only specific file types are supported (see below)
+
+### Supported File Types
+
+This format relies on `Doc.aspx` which supports the viewing of Microsoft Office documents. The format only displays for the following extensions:
+
+- **Word**: docx, dotx, dotm, docm, docb
+- **PowerPoint**: pptx, pptm, potx, potm, ppam, ppsx, ppsm, sldx, sldm
+- **Visio**: vsdx
+- **Excel**: xlsx, xlsm, xltx, xltm
+
+> This list of extensions can be adjusted by either removing or adding another condition in the `display` style property.
+
 ## Sample
 
 Solution|Author(s)
 --------|---------
-generic-file-preview.json | Geert de Kooter
+generic-file-preview.json | [Geert de Kooter](@gdekooter)
 
 ## Version history
 
