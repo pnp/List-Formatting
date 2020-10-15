@@ -1,5 +1,6 @@
 {
   "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "additionalRowClass": "=if([$Status] == 'Blocked', 'sp-css-backgroundColor-errorBackground','')",
   "tileProps": {
     "width": "314",
     "height": "190",
@@ -344,6 +345,5 @@
         }
       ]
     }
-  },
-  "additionalRowClass": "=if([$Status] == 'Blocked', 'sp-css-backgroundColor-errorBackground','')"
+  }
 }
