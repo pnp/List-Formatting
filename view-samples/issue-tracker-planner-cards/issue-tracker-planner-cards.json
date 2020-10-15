@@ -60,7 +60,7 @@
                   },
                   "txtContent": "[$Status]",
                   "attributes": {
-                    "class": "=if([$Status]=='Blocked', 'sp-css-backgroundColor-errorBackground50 sp-css-color-redDark', if([$Status]=='In progress', 'sp-css-backgroundColor-neutralBackground10', if([$Status]=='Completed', 'sp-css-backgroundColor-successBackground40 sp-css-color-green', if([$Status]=='Duplicate', 'sp-css-backgroundColor-warningBackground50 sp-css-color-themeDarker', if([$Status]=='By design', 'sp-css-backgroundColor-blueBackground07 sp-css-color-neutralPrimary', if([$Status]=='Won''t fix', 'sp-css-backgroundColor-errorBackground sp-css-color-redDark', 'sp-css-backgroundColor-blueBackground17 sp-css-color-blue'))))))"
+                    "class": "=if([$Status]=='Blocked', 'sp-css-backgroundColor-errorBackground50 sp-css-color-redDark', if([$Status]=='In progress', 'sp-css-backgroundColor-neutralBackground10', if([$Status]=='Completed', 'sp-css-backgroundColor-successBackground40 sp-css-color-green', if([$Status]=='Duplicate', 'sp-css-backgroundColor-warningBackground50 sp-css-color-themeDarker', if([$Status]=='By design', 'sp-css-backgroundColor-blueBackground07 sp-css-color-neutralPrimary', if(startsWith([$Status],'Won'), 'sp-css-backgroundColor-errorBackground sp-css-color-redDark', 'sp-css-backgroundColor-blueBackground17 sp-css-color-blue'))))))"
                   }
                 },
                 {
@@ -89,7 +89,7 @@
                         "display": "flexbox",
                         "flex-direction": "column"
                       },
-                      "attributes":{
+                      "attributes": {
                         "class": "ms-fontColor-neutralTertiaryAlt"
                       },
                       "children": [
@@ -228,7 +228,7 @@
                 "height": "38px",
                 "word-wrap": "break-word",
                 "overflow": "hidden",
-                "text-decoration": "=if([$Status] == 'Completed','line-through','inherit')"
+                "text-decoration": "=if([$Status] == 'Completed' || [$Status] == 'Duplicate' || startsWith([$Status],'Won') || [$Status] == 'By design','line-through','inherit')"
               },
               "attributes": {
                 "title": "[$Description]"
@@ -250,7 +250,8 @@
                   "elmType": "div",
                   "attributes": {
                     "iconName": "=if([$Priority] == 'High', 'Important', 'RingerSolid')",
-                    "class": "ms-fontColor-red"
+                    "class": "ms-fontColor-red",
+                    "title": "[$Priority]"
                   },
                   "style": {
                     "padding-right": "12px",
@@ -277,9 +278,10 @@
                     "padding": "0 4.5px"
                   },
                   "attributes": {
-                    "class": "=if([$DaysOld] >= 7, 'ms-bgColor-red ms-fontColor-white', '')"
+                    "class": "=if([$DaysOld] >= 7, 'ms-bgColor-red ms-fontColor-white', '')",
+                    "title": "='Reported ' + [$DaysOld] + ' day' + if([$DaysOld] == 1,'','s') + ' ago'"
                   },
-                  "children":[
+                  "children": [
                     {
                       "elmType": "span",
                       "attributes": {
@@ -308,9 +310,10 @@
                 "border-top-width": "1px",
                 "border-top-style": "solid"
               },
-              "attributes":{
+              "attributes": {
                 "class": "ms-borderColor-neutralLight"
               },
+              "defaultHoverField": "[$Assignedto]",
               "children": [
                 {
                   "elmType": "img",
