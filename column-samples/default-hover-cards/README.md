@@ -1,9 +1,9 @@
 # Default hover card on Lists
 
 ## Summary
-The following image shows a list with a defalut hover added to a formatted column in a list
+The following image shows a list with a default hover added to a formatted column in a list
 
-On hover on a formatted person column a profile card is displayed 
+On hover, on a formatted person column : a profile card is displayed 
 
 ![screenshot of the sample](./People_hover.png)
 
