@@ -1,0 +1,349 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "additionalRowClass": "=if([$Status] == 'Blocked', 'sp-css-backgroundColor-errorBackground','')",
+  "tileProps": {
+    "width": "314",
+    "height": "190",
+    "hideSelection": true,
+    "formatter": {
+      "elmType": "button",
+      "style": {
+        "border-radius": "3px",
+        "width": "300px",
+        "height": "176px",
+        "margin-top": "6px",
+        "margin-left": "7px",
+        "box-shadow": "0 3.2px 7.2px 0",
+        "border": "none",
+        "outline": "none",
+        "padding": "0",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-bgColor-white ms-fontColor-neutralSecondary--hover ms-fontColor-neutralTertiaryAlt"
+      },
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "display": "flex",
+            "flex-wrap": "nowrap",
+            "flex-direction": "column",
+            "align-items": "flex-start",
+            "justify-content": "left"
+          },
+          "attributes": {
+            "class": "ms-fontColor-neutralPrimary"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "width": "100%",
+                "justify-content": "space-between",
+                "align-items": "center",
+                "margin-top": "12px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "border-radius": "3px",
+                    "display": "inline",
+                    "padding": "1px 7px",
+                    "margin-left": "12px"
+                  },
+                  "txtContent": "[$Status]",
+                  "attributes": {
+                    "class": "=if([$Status]=='Blocked', 'sp-css-backgroundColor-errorBackground50 sp-css-color-redDark', if([$Status]=='In progress', 'sp-css-backgroundColor-neutralBackground10', if([$Status]=='Completed', 'sp-css-backgroundColor-successBackground40 sp-css-color-green', if([$Status]=='Duplicate', 'sp-css-backgroundColor-warningBackground50 sp-css-color-themeDarker', if([$Status]=='By design', 'sp-css-backgroundColor-blueBackground07 sp-css-color-neutralPrimary', if(startsWith([$Status],'Won'), 'sp-css-backgroundColor-errorBackground sp-css-color-redDark', 'sp-css-backgroundColor-blueBackground17 sp-css-color-blue'))))))"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "cursor": "pointer",
+                    "width": "32px",
+                    "height": "20px",
+                    "line-height": "20px",
+                    "outline": "none",
+                    "margin-right": "12px"
+                  },
+                  "attributes": {
+                    "iconName": "More",
+                    "class": "ms-fontColor-neutralSecondary ms-bgColor-neutralLight--hover"
+                  },
+                  "customCardProps": {
+                    "directionalHint": "bottomLeftEdge",
+                    "openOnEvent": "hover",
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "font-size": "14px",
+                        "box-shadow": "0 3.2px 7.2px 0",
+                        "width": "100px",
+                        "display": "flexbox",
+                        "flex-direction": "column"
+                      },
+                      "attributes": {
+                        "class": "ms-fontColor-neutralTertiaryAlt"
+                      },
+                      "children": [
+                        {
+                          "elmType": "button",
+                          "customRowAction": {
+                            "action": "editProps"
+                          },
+                          "attributes": {
+                            "class": "ms-bgColor-white ms-fontColor-neutralPrimary ms-bgColor-neutralLight--hover"
+                          },
+                          "style": {
+                            "border": "none",
+                            "outline": "none",
+                            "cursor": "pointer",
+                            "padding": "4px",
+                            "width": "100%",
+                            "display": "flex",
+                            "align-items": "center",
+                            "height": "36px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "span",
+                              "attributes": {
+                                "iconName": "Edit"
+                              },
+                              "style": {
+                                "font-size": "16px",
+                                "margin": "0 4px"
+                              }
+                            },
+                            {
+                              "elmType": "span",
+                              "txtContent": "Edit",
+                              "style": {
+                                "text-align": "left",
+                                "flex-grow": "1",
+                                "margin": "0 4px"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "elmType": "button",
+                          "customRowAction": {
+                            "action": "share"
+                          },
+                          "attributes": {
+                            "class": "ms-bgColor-white ms-fontColor-neutralPrimary ms-bgColor-neutralLight--hover"
+                          },
+                          "style": {
+                            "border": "none",
+                            "outline": "none",
+                            "cursor": "pointer",
+                            "padding": "4px",
+                            "width": "100%",
+                            "display": "flex",
+                            "align-items": "center",
+                            "height": "36px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "span",
+                              "attributes": {
+                                "iconName": "Share"
+                              },
+                              "style": {
+                                "font-size": "16px",
+                                "margin": "0 4px"
+                              }
+                            },
+                            {
+                              "elmType": "span",
+                              "txtContent": "Share",
+                              "style": {
+                                "text-align": "left",
+                                "flex-grow": "1",
+                                "margin": "0 4px"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "elmType": "button",
+                          "customRowAction": {
+                            "action": "delete"
+                          },
+                          "attributes": {
+                            "class": "ms-bgColor-white ms-fontColor-neutralPrimary ms-bgColor-neutralLight--hover"
+                          },
+                          "style": {
+                            "border": "none",
+                            "outline": "none",
+                            "cursor": "pointer",
+                            "padding": "4px",
+                            "width": "100%",
+                            "display": "flex",
+                            "align-items": "center",
+                            "height": "36px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "span",
+                              "attributes": {
+                                "iconName": "Delete"
+                              },
+                              "style": {
+                                "font-size": "16px",
+                                "margin": "0 4px"
+                              }
+                            },
+                            {
+                              "elmType": "span",
+                              "txtContent": "Delete",
+                              "style": {
+                                "text-align": "left",
+                                "flex-grow": "1",
+                                "margin": "0 4px"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "14px",
+                "text-align": "left",
+                "margin": "12px",
+                "height": "38px",
+                "word-wrap": "break-word",
+                "overflow": "hidden",
+                "text-decoration": "=if([$Status] == 'Completed' || [$Status] == 'Duplicate' || startsWith([$Status],'Won') || [$Status] == 'By design','line-through','inherit')"
+              },
+              "attributes": {
+                "title": "[$Description]"
+              },
+              "txtContent": "[$Title]"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "11px",
+                "display": "flex",
+                "align-items": "center",
+                "height": "20px",
+                "line-height": "20px",
+                "margin": "0 12px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "iconName": "=if([$Priority] == 'High', 'Important', 'RingerSolid')",
+                    "class": "ms-fontColor-red",
+                    "title": "[$Priority]"
+                  },
+                  "style": {
+                    "padding-right": "12px",
+                    "display": "=if([$Priority] == 'High' || [$Priority] == 'Critical', 'inherit', 'none')"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "iconName": "CircleHalfFull",
+                    "class": "ms-fontColor-themePrimary",
+                    "title": "In progress"
+                  },
+                  "style": {
+                    "padding-right": "12px",
+                    "display": "=if([$Status] == 'In progress', 'inherit', 'none')"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "=if([$DateReported], 'flex', 'none')",
+                    "border-radius": "2px",
+                    "padding": "0 4.5px"
+                  },
+                  "attributes": {
+                    "class": "=if([$DaysOld] >= 7, 'ms-bgColor-red ms-fontColor-white', '')",
+                    "title": "='Reported ' + [$DaysOld] + ' day' + if([$DaysOld] == 1,'','s') + ' ago'"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "attributes": {
+                        "iconName": "Calendar"
+                      },
+                      "style": {
+                        "margin-right": "4px"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "=replace(toLocaleDateString([$DateReported]),'/' + toString(getYear(@now)),'')"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "width": "100%",
+                "margin-top": "12px",
+                "align-items": "center",
+                "padding": "8px 14px",
+                "border-top-width": "1px",
+                "border-top-style": "solid"
+              },
+              "attributes": {
+                "class": "ms-borderColor-neutralLight"
+              },
+              "defaultHoverField": "[$Assignedto]",
+              "children": [
+                {
+                  "elmType": "img",
+                  "style": {
+                    "border-radius": "50%",
+                    "height": "32px",
+                    "opacity": "=if([$Assignedto], 1, 0.6)"
+                  },
+                  "attributes": {
+                    "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Assignedto.email]"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "14px",
+                    "padding-left": "8px",
+                    "font-style": "=if([$Assignedto],'inherit','italic')"
+                  },
+                  "attributes": {
+                    "class": "=if([$Assignedto],'','ms-fontColor-neutralTertiaryAlt')"
+                  },
+                  "txtContent": "=if([$Assignedto],[$Assignedto.title],'Unassigned')"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
