@@ -1,0 +1,107 @@
+{
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "height": "150px",
+            "width": "400px"
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "style": {
+                    "font-size": "20px",
+                    "width": "50%",
+                    "text-align": "center"
+                },
+                "txtContent": "[$Title]"
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center",
+                    "justify-content": "center",
+                    "height": "100%",
+                    "width": "50%"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "background-color": "#5d5958",
+                            "border": "2px solid #5d5958",
+                            "height": "40%"
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "height": "20%",
+                            "width": "30px",
+                            "border-radius": "100%",
+                            "cursor": "pointer",
+                            "color": "white"
+                        },
+                        "attributes": {
+                            "class": "ms-bgColor-themePrimary"
+                        },
+                        "customCardProps": {
+                            "directionalHint": "rightCenter",
+                            "isBeakVisible": true,
+                            "openOnEvent": "click",
+                            "formatter": {
+                                "elmType": "div",
+                                "style": {
+                                    "display": "flex",
+                                    "flex-direction": "column",
+                                    "height": "200px",
+                                    "width": "450px"
+                                },
+                                "children": [
+                                    {
+                                        "elmType": "div",
+                                        "txtContent": "[$Title]",
+                                        "style": {
+                                            "height": "20%",
+                                            "width": "100%",
+                                            "color": "white",
+                                            "font-size": "20px",
+                                            "display": "flex",
+                                            "align-items": "center",
+                                            "padding-left": "40px"
+                                        },
+                                        "attributes": {
+                                            "class": "ms-bgColor-themePrimary"
+                                        }
+                                    },
+                                    {
+                                        "elmType": "div",
+                                        "txtContent": "[$Description]",
+                                        "style": {
+                                            "height": "80%",
+                                            "width": "90%",
+                                            "padding-top": "10px"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "background-color": "#5d5958",
+                            "border": "2px solid #5d5958",
+                            "height": "40%"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
