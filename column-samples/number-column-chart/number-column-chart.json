@@ -1,0 +1,54 @@
+{
+    "elmType": "div",
+    "style": {
+      "fill": "#038387",
+      "height": "100px",
+      "padding-top": "50px"
+    },
+    "children": [
+      {
+        "elmType": "svg",
+        "children": [
+          {
+            "elmType": "path",
+            "attributes": {
+              "d": "= 'M 0,100 L 0,' + (100 - [$January]) + ' 20,' + (100 - [$January]) + ' 20,100'"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "svg",
+        "children": [
+          {
+            "elmType": "path",
+            "attributes": {
+              "d": "= 'M 0,100 L 0,' + (100 - [$February]) + ' 20,' + (100 - [$February]) + ' 20,100'"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "svg",
+        "children": [
+          {
+            "elmType": "path",
+            "attributes": {
+              "d": "= 'M 0,100 L 0,' + (100 - [$March]) + ' 20,' + (100 - [$March]) + ' 20,100'"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "svg",
+        "children": [
+          {
+            "elmType": "path",
+            "attributes": {
+              "d": "= 'M 0,100 L 0,' + (100 - [$April]) + ' 20,' + (100 - [$April]) + ' 20,100'"
+            }
+          }
+        ]
+      }
+    ]
+  }
