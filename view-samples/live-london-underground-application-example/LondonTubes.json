@@ -1,0 +1,349 @@
+{
+	"schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+	"debugMode": false,
+	"hideSelection": true,
+	"hideColumnHeader": true,
+	"rowFormatter": {
+		"elmType": "div",
+		"style": {
+			"display": "table",
+			"overflow": "hidden",
+			"cursor": "pointer"
+		},
+		"children": [
+			{
+				"elmType": "div",
+				"txtContent": "[$Title]",
+				"attributes": {
+					"class": "=if([$LineID] == 'circle', ' ms-fontColor-black',if([$LineID] == 'hammersmith-city', 'ms-fontColor-black',if([$LineID] == 'victoria', ' ms-fontColor-black',if([$LineID] == 'waterloo-city', 'ms-fontColor-black',if([$LineID] == 'dlr', 'ms-fontColor-black',if([$LineID] == 'london-overground', 'ms-fontColor-black','ms-fontColor-white'))))))"
+				},
+				"style": {
+					"display": "=if([$LineStatus] == 'Good Service', 'table-cell','none')",
+					"background-color": "=if([$LineID] == 'bakerloo', '#894E24',if([$LineID] == 'central', '#DC241F',if([$LineID] == 'circle', '#FCCE00',if([$LineID] == 'district', '#007229',if([$LineID] == 'hammersmith-city', '#D799AF',if([$LineID] == 'jubilee', '#6A7278',if([$LineID] == 'metropolitan', '#751056',if([$LineID] == 'northern', '#000000',if([$LineID] == 'piccadilly', '#0019A8',if([$LineID] == 'victoria', '#00A0E2',if([$LineID] == 'waterloo-city', '#76D0BD',if([$LineID] == 'london-overground', '#E86A1C',if([$LineID] == 'dlr', '#00AFAD',if([$LineID] == 'tfl-rail', '#0019A8',if([$LineID] == 'tram', '#66CC00','#D29200')))))))))))))))",
+					"width": "170px",
+					"padding": "0px 2px 13px 6px",
+					"font-size": "16px",
+					"border-width": "1px",
+					"border-color": "#CCCCCC",
+					"border-style": "solid",
+					"vertical-align": "top",
+					"overflow": "hidden",
+					"outline-color": "#CCCCCC",
+					"cursor": "auto"
+				}
+			},
+			{
+				"elmType": "div",
+				"txtContent": "[$Title]",
+				"attributes": {
+					"class": "=if([$LineID] == 'circle', ' ms-fontColor-black',if([$LineID] == 'hammersmith-city', 'ms-fontColor-black',if([$LineID] == 'victoria', ' ms-fontColor-black',if([$LineID] == 'waterloo-city', 'ms-fontColor-black',if([$LineID] == 'dlr', 'ms-fontColor-black', if([$LineID] == 'london-overground','ms-fontColor-black','ms-fontColor-white'))))))"
+				},
+				"style": {
+					"display": "=if([$LineStatus] != 'Good Service', 'table-cell','none')",
+					"background-color": "=if([$LineID] == 'bakerloo', '#894E24',if([$LineID] == 'central', '#DC241F',if([$LineID] == 'circle', '#FCCE00',if([$LineID] == 'district', '#007229',if([$LineID] == 'hammersmith-city', '#D799AF',if([$LineID] == 'jubilee', '#6A7278',if([$LineID] == 'metropolitan', '#751056',if([$LineID] == 'northern', '#000000',if([$LineID] == 'piccadilly', '#0019A8',if([$LineID] == 'victoria', '#00A0E2',if([$LineID] == 'waterloo-city', '#76D0BD',if([$LineID] == 'london-overground', '#E86A1C',if([$LineID] == 'dlr', '#00AFAD',if([$LineID] == 'tfl-rail', '#0019A8',if([$LineID] == 'tram', '#66CC00','#D29200')))))))))))))))",
+					"width": "170px",
+					"padding": "0px 2px 0px 6px",
+					"font-size": "16px",
+					"border-width": "1px",
+					"border-color": "#CCCCCC",
+					"border-style": "solid",
+					"vertical-align": "top",
+					"overflow": "hidden",
+					"outline-color": "#CCCCCC"
+				},
+				"customCardProps": {
+					"openOnEvent": "click",
+					"directionalHint": "bottomCenter",
+					"isBeakVisible": true,
+					"formatter": {
+						"elmType": "div",
+						"children": [
+							{
+								"elmType": "div",
+								"children": [
+									{
+										"elmType": "div",
+										"style": {
+											"padding": "15px 45px 15px 15px"
+										},
+										"children": [
+											{
+												"elmType": "div",
+												"children": [
+													{
+														"elmType": "div",
+														"style": {
+															"font-size": "18px",
+															"font-weight": "550",
+															"text-align": "center",
+															"margin-bottom": "10px"
+														},
+														"txtContent": "[$Reason]"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			},
+			{
+				"elmType": "div",
+				"style": {
+					"display": "=if([$LineStatus] == 'Good Service', 'table-cell','none')",
+					"background-color": "#FFFFFF",
+					"min-width": "170px",
+					"padding-left": "10px",
+					"padding-right": "3px",
+					"font-size": "16px",
+					"border-width": "1px",
+					"border-color": "#CCCCCC",
+					"border-style": "solid",
+					"box-sizing": "border-box",
+					"overflow": "hidden",
+					"cursor": "auto"
+				},
+				"children": [
+					{
+						"elmType": "div",
+						"txtContent": "[$LineStatus]",
+						"style": {
+							"color": "#000000",
+							"font-size": "16px",
+							"display": "normal",
+							"float": "left",
+							"overflow": "hidden"
+						},
+						"attributes": {
+							"title": "[$LineStatus]"
+						}
+					}
+				]
+			},
+			{
+				"elmType": "div",
+				"style": {
+					"display": "=if([$LineStatus] != 'Good Service', 'table-cell','none')",
+					"background-color": "#FAF5E1",
+					"min-width": "170px",
+					"padding-left": "10px",
+					"padding-right": "3px",
+					"font-size": "16px",
+					"border-width": "1px",
+					"border-color": "#CCCCCC",
+					"border-style": "solid",
+					"box-sizing": "border-box",
+					"overflow": "hidden",
+					"outline-color": "#CCCCCC"
+				},
+				"children": [
+					{
+						"elmType": "div",
+						"txtContent": "[$LineStatus]",
+						"style": {
+							"color": "#2070b0",
+							"font-size": "16px",
+							"display": "normal",
+							"float": "left",
+							"outline-color": "#CCCCCC",
+							"overflow": "hidden"
+						},
+						"attributes": {
+							"title": "[$LineStatus]"
+						},
+						"customCardProps": {
+							"openOnEvent": "click",
+							"directionalHint": "bottomCenter",
+							"isBeakVisible": true,
+							"formatter": {
+								"elmType": "div",
+								"children": [
+									{
+										"elmType": "div",
+										"children": [
+											{
+												"elmType": "div",
+												"style": {
+													"padding": "15px 45px 15px 15px",
+													"overflow": "hidden"
+												},
+												"children": [
+													{
+														"elmType": "div",
+														"children": [
+															{
+																"elmType": "div",
+																"style": {
+																	"font-size": "18px",
+																	"font-weight": "550",
+																	"text-align": "center",
+																	"margin-bottom": "10px",
+																	"overflow": "hidden"
+																},
+																"txtContent": "[$Reason]"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					},
+					{
+						"elmType": "div",
+						"style": {
+							"flex-grow": "1",
+							"text-align": "right",
+							"outline-color": "#CCCCCC",
+							"overflow": "hidden"
+						},
+						"children": [
+							{
+								"elmType": "div",
+								"attributes": {
+									"iconName": "CirclePlus",
+									"class": "ms-fontSize-xxl ms-fontWeight-regular  ms-fontColor-black",
+									"title": "[$LineStatus]"
+								},
+								"style": {
+									"flex": "none",
+									"padding": "2px 0px 0px 0px",
+									"color": "#2070B0",
+									"display": "normal",
+									"outline-color": "#CCCCCC",
+									"overflow": "hidden"
+								},
+								"customCardProps": {
+									"openOnEvent": "click",
+									"directionalHint": "bottomCenter",
+									"isBeakVisible": true,
+									"formatter": {
+										"elmType": "div",
+										"children": [
+											{
+												"elmType": "div",
+												"children": [
+													{
+														"elmType": "div",
+														"style": {
+															"padding": "15px 45px 15px 15px",
+															"overflow": "hidden"
+														},
+														"children": [
+															{
+																"elmType": "div",
+																"children": [
+																	{
+																		"elmType": "div",
+																		"style": {
+																			"font-size": "18px",
+																			"font-weight": "550",
+																			"text-align": "center",
+																			"margin-bottom": "10px",
+																			"overflow": "hidden"
+																		},
+																		"txtContent": "[$Reason]"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								}
+							}
+						],
+						"customCardProps": {
+							"openOnEvent": "click",
+							"directionalHint": "bottomCenter",
+							"isBeakVisible": true,
+							"formatter": {
+								"elmType": "div",
+								"children": [
+									{
+										"elmType": "div",
+										"children": [
+											{
+												"elmType": "div",
+												"style": {
+													"padding": "15px 45px 15px 15px",
+													"overflow": "hidden"
+												},
+												"children": [
+													{
+														"elmType": "div",
+														"children": [
+															{
+																"elmType": "div",
+																"style": {
+																	"font-size": "18px",
+																	"font-weight": "550",
+																	"text-align": "center",
+																	"margin-bottom": "10px",
+																	"overflow": "hidden"
+																},
+																"txtContent": "[$Reason]"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						}
+					}
+				],
+				"customCardProps": {
+					"openOnEvent": "click",
+					"directionalHint": "bottomCenter",
+					"isBeakVisible": true,
+					"formatter": {
+						"elmType": "div",
+						"children": [
+							{
+								"elmType": "div",
+								"children": [
+									{
+										"elmType": "div",
+										"style": {
+											"padding": "15px 45px 15px 15px",
+											"overflow": "hidden"
+										},
+										"children": [
+											{
+												"elmType": "div",
+												"children": [
+													{
+														"elmType": "div",
+														"style": {
+															"font-size": "18px",
+															"font-weight": "550",
+															"text-align": "center",
+															"margin-bottom": "10px",
+															"overflow": "hidden"
+														},
+														"txtContent": "[$Reason]"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}
