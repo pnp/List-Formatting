@@ -1,7 +1,7 @@
 # Page-a-day Calendar
 
 ## Summary
-This sample is to customize a date column to look like page-a-day calendar.
+This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (`getDate`, `getMonth`, and `getYear`).
 
 ![screenshot of the sample](./screenshot.png)
 
