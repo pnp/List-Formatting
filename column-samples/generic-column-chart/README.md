@@ -21,13 +21,13 @@ Chart         | Any
 The column where you apply your format (Chart above) can be any type since it's value is ignored. A calculated column with a formula of `=""` will prevent the field from showing up on your forms.
 
 ### Adapting to your fields
-This sample can easily be adjusted to work with your columns. Each column uses the internal name of a column 3 times. You can replace these with your own fields. You can also add additional column by copying one of the child div elements and changing the referenced field.
+This sample can easily be adjusted to work with your columns. Each chart column uses the internal name of a field 3 times. You can replace these with your own fields. You can also add additional columns by copying one of the child div elements and changing the referenced field.
 
 ## Sample
 
 Solution                 |Author(s)
 -------------------------|---------------------------
-number-column-chart.json |  [Tetsuya Kawahara](https://twitter.com/techan_k)
+generic-column-chart.json |  [Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
