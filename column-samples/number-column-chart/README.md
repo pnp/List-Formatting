@@ -1,12 +1,14 @@
-# Display a column chart
+# Inline Column Chart
 
 ## Summary
-This sample demonstrates displaying a column chart using SVG.
+This sample demonstrates displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme.
 
 ![screenshot of the sample](./screenshot.png)
 
+This example shows values from 0 to 100. You can adjust this scale by changing the `d` attribute of the path elements to calculate a percentage rather than use the value directly.
+
 ## View requirements
-- This format can be applied to any column type though the example is based on -
+This format can be applied to any column type. However, it expects to have 4 number columns in the view.
 
 Column Name   |Type
 --------------|--------------
@@ -14,7 +16,12 @@ January       | Number
 February      | Number
 March         | Number
 April         | Number
-Chart         | Single Line Text
+Chart         | Any
+
+The column where you apply your format (Chart above) can be any type since it's value is ignored. A calculated column with a formula of `=""` will prevent the field from showing up on your forms.
+
+### Adapting to your fields
+This sample can easily be adjusted to work with your columns. Each column uses the internal name of a column 3 times. You can replace these with your own fields. You can also add additional column by copying one of the child div elements and changing the referenced field.
 
 ## Sample
 

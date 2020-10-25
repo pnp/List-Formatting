@@ -1,54 +1,121 @@
 {
-    "elmType": "div",
-    "style": {
-      "fill": "#038387",
-      "height": "100px",
-      "padding-top": "50px"
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "fill": "currentColor",
+    "height": "104px"
+  },
+  "attributes": {
+    "class": "ms-fontColor-themePrimary"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "height": "100%"
+      },
+      "attributes": {
+        "title": "[$January]"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "width": "20px",
+            "height": "100px",
+            "padding": "0 4px"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M 0,100 L 0,' + (100 - [$January]) + ' 20,' + (100 - [$January]) + ' 20,100'"
+              }
+            }
+          ]
+        }
+      ]
     },
-    "children": [
-      {
-        "elmType": "svg",
-        "children": [
-          {
-            "elmType": "path",
-            "attributes": {
-              "d": "= 'M 0,100 L 0,' + (100 - [$January]) + ' 20,' + (100 - [$January]) + ' 20,100'"
-            }
-          }
-        ]
+    {
+      "elmType": "div",
+      "style": {
+        "height": "100%"
       },
-      {
-        "elmType": "svg",
-        "children": [
-          {
-            "elmType": "path",
-            "attributes": {
-              "d": "= 'M 0,100 L 0,' + (100 - [$February]) + ' 20,' + (100 - [$February]) + ' 20,100'"
-            }
-          }
-        ]
+      "attributes": {
+        "title": "[$February]"
       },
-      {
-        "elmType": "svg",
-        "children": [
-          {
-            "elmType": "path",
-            "attributes": {
-              "d": "= 'M 0,100 L 0,' + (100 - [$March]) + ' 20,' + (100 - [$March]) + ' 20,100'"
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "width": "20px",
+            "height": "100px",
+            "padding": "0 4px"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M 0,100 L 0,' + (100 - [$February]) + ' 20,' + (100 - [$February]) + ' 20,100'"
+              }
             }
-          }
-        ]
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "height": "100%"
       },
-      {
-        "elmType": "svg",
-        "children": [
-          {
-            "elmType": "path",
-            "attributes": {
-              "d": "= 'M 0,100 L 0,' + (100 - [$April]) + ' 20,' + (100 - [$April]) + ' 20,100'"
+      "attributes": {
+        "title": "[$March]"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "width": "20px",
+            "height": "100px",
+            "padding": "0 4px"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M 0,100 L 0,' + (100 - [$March]) + ' 20,' + (100 - [$March]) + ' 20,100'"
+              }
             }
-          }
-        ]
-      }
-    ]
-  }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "height": "100%"
+      },
+      "attributes": {
+        "title": "[$April]"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "width": "20px",
+            "height": "100px",
+            "padding": "0 4px"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M 0,100 L 0,' + (100 - [$April]) + ' 20,' + (100 - [$April]) + ' 20,100'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
