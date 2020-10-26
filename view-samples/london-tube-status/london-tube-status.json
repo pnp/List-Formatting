@@ -11,7 +11,8 @@
       "flex-direction": "row",
       "align-items": "stretch",
       "position": "relative",
-      "min-height": "44px"
+      "min-height": "44px",
+      "width": "340px"
     },
     "children": [
       {
@@ -41,7 +42,7 @@
         "style": {
           "display": "=if([$LineStatus] == 'Good Service', 'flex','none')",
           "align-items": "center",
-          "width": "170px",
+          "width": "150px",
           "border-bottom": "1px solid #CCC",
           "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
           "padding": "10px"
@@ -61,7 +62,7 @@
         "style": {
           "display": "=if([$LineStatus] != 'Good Service', 'flex','none')",
           "background-color": "#FAF5E1",
-          "width": "170px",
+          "width": "150px",
           "padding": "10px",
           "border-bottom": "1px solid #CCC",
           "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
