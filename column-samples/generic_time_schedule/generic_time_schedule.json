@@ -1,0 +1,352 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "margin": "10px",
+        "height": "50px",
+        "border": "2px solid"
+    },
+    "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontSize-l"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "txtContent": "0",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=0 , if([$End]>=0,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "1",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=1 , if([$End]>=1,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "2",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=2 , if([$End]>=2,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "3",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=3 , if([$End]>=3,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "4",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=4 , if([$End]>=4,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "5",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=5 , if([$End]>=5,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "6",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=6 , if([$End]>=6,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "7",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=7 , if([$End]>=7,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "8",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=8 , if([$End]>=8,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "9",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=9 , if([$End]>=9,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "10",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=10 , if([$End]>=10,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "11",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=11 , if([$End]>=11,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "12",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=12 , if([$End]>=12,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "13",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=13 , if([$End]>=13,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "14",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=14 , if([$End]>=14,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "15",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=15 , if([$End]>=15,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "16",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=16 , if([$End]>=16,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "17",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=17 , if([$End]>=17,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "18",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=18 , if([$End]>=18,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "19",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=19 , if([$End]>=19,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "20",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=20 , if([$End]>=20,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "21",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=21 , if([$End]>=21,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "22",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=22 , if([$End]>=22,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "23",
+            "style": {
+                "display": "flex",
+                "width": "4.17%",
+                "height": "100%",
+                "justify-content": "center",
+                "align-items": "center"
+            },
+            "attributes": {
+                "class": "=if([$Start]<=23 , if([$End]>=23,'ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-l',''),'')"
+            }
+        }
+    ]
+}
