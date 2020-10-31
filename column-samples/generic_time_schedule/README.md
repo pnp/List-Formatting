@@ -14,7 +14,7 @@ Start         |Choice
 End           |Choice
 Schedule      |Any
 
-`Start` and `End` columns are choice columns that allow you to select from 0 to 23.
+`Start` and `End` columns are choice columns that allow you to select from 0 to 24.
 
 ## Sample
 
