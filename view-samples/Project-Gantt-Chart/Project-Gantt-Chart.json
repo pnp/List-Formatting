@@ -1,0 +1,61 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin-left": "2em",
+      "height": "4em"
+    },
+    "children": [
+      {
+        "elmType": "button",
+        "txtContent": "[$Title]",
+        "customRowAction": {
+          "action": "editProps"
+        },
+        "style": {
+          "width": "200px",
+          "border": "none",
+          "background-color": "transparent",
+          "cursor": "pointer",
+          "text-decoration": "none",
+          "text-align": "left"
+        },
+        "attributes": {
+          "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "80%",
+          "height": "3em",
+          "border": "1px dotted gray",
+          "padding": "0 1em 0 1em"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent" : "=if( floor( (Number([$TaskDue])-Number([$TaskStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 98 ) >  10 , toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue]) ,'' )",
+            "style": {
+              "position": "relative",
+              "box-sizing": "border-box",
+              "display": "flex",
+              "border-radius": "5000px",
+              "height": "3em",
+              "padding": "0 1% 0 1%",
+              "left": "= floor( (Number([$TaskStart])-Number([$ProjectStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 98 ) + '%' ",
+              "width": "= floor( (Number([$TaskDue])-Number([$TaskStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 98 ) + '%' "
+            },
+            "attributes": {
+              "title" : "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue]) ",
+              "class": "=if( [$TaskDue] < @now,  'ms-bgColor-themeLighter', if ([$TaskStart] <= @now , 'ms-bgColor-themeDark ms-fontColor-neutralLight', 'ms-bgColor-neutralTertiaryAlt')) + ' sp-field-borderLeftRightRegular sp-field-borderLeftRightSolid sp-css-borderColor-neutralPrimary'"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
