@@ -4,7 +4,10 @@
 This project Gantt Chart sample demonstrates how to show a list of high level tasks in a kind of Gantt chart.  
 Mind me, it is far from perfect and in its current version it is mainly useful for top-level views.
 
-### Links
+So this
+![avatar](Project_phases_textV2.png)  
+Turns into this
+![avatar](Gantt_chart_result.png)  
 
 ## View requirements
 This specific format expects the following columns to be part of the view:
