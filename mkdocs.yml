@@ -22,6 +22,7 @@ nav:
     - Creating a Sample: contributing/sample.md
     - Submitting a Pull Request: contributing/pullrequest.md
     - Update the Docs: contributing/docs.md
+    - Tool Contributions: contributing/tools.md
   - Tools: tools/index.md
 theme:
   name: 'material'
@@ -45,12 +46,12 @@ plugins:
 extra:
   version: '1.3.2-0'
   social:
-    - type: 'twitter'
+    - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/officedevpnp'
-    - type: 'youtube'
+    - icon: fontawesome/brands/youtube
       link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
-    - type: 'link'
-      link: 'https://aka.ms/sppnp'
+    - icon: material/cloud
+      link: 'https://aka.ms/m365pnp'
 repo_url: https://github.com/SharePoint/sp-dev-list-formatting
 edit_uri: tree/master/docs
 site_url: https://sharepoint.github.io/sp-dev-list-formatting/

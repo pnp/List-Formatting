@@ -18,7 +18,7 @@ Current HTML tags supported in list formatting:
 
 ## Getting Started
 
-If you just want to use the tool, it's available in the List Formatting Sample Repo site here: https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/public/
+If you just want to use the tool, it's available in the List Formatting Sample Repo site here: https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/
 
 To run a local version you can use these commands run from the project directory (tools/html-formatter-generator):
 
@@ -40,7 +40,7 @@ Installs all the required dependencies.
 
 Builds the app for production to the `build` folder. This bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include hashes. The bundle files then get copied to the `docs/html-formatter-generator/public` folder which integrates the build step with mkdocs. This allows them to be served directly from the list formatting Github site.
+The build is minified and the filenames include hashes. The bundle files then get copied to the `docs/html-formatter-generator` folder which integrates the build step with mkdocs. This allows them to be served directly from the list formatting Github site.
 
 ### `yarn start`
 

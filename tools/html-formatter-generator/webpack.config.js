@@ -10,7 +10,7 @@ const configOverrides = {
   },
   output: {
     filename: `htm2fmt.[name].[contenthash:9].js`,
-    path: path.resolve(process.cwd(), "../../docs/tools/html-formatter-generator/public/"),
+    path: path.resolve(process.cwd(), "../../docs/tools/html-formatter-generator/"),
   },
   devServer: {
     contentBase: path.join(__dirname, "assets"),
