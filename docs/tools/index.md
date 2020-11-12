@@ -8,4 +8,4 @@ Most developers are tuned to seeing and writing HTML quicker than JSON. This too
 
 This tool doesnot recognize `expressions` , but you can write `expression strings` in place of any attribute value and it will be put as-is on the generated JSON.
 
-- **[HTML To Formatter](./html-formatter-generator/public/index.html)**
+- **[HTML To Formatter](./html-formatter-generator/index.html)**

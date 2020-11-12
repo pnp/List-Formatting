@@ -26,6 +26,7 @@ nav:
   - Tools: tools/index.md
 theme:
   name: 'material'
+  favicon: img/favicon.png
   palette:
     primary: 'teal'
     accent: 'orange'
