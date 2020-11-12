@@ -21,10 +21,11 @@
           "background-color": "transparent",
           "cursor": "pointer",
           "text-decoration": "none",
-          "text-align": "left"
+          "text-align": "left",
+          "outline": "none"
         },
         "attributes": {
-          "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+          "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
         }
       },
       {
@@ -32,25 +33,29 @@
         "style": {
           "width": "80%",
           "height": "3em",
-          "border": "1px dotted gray",
+          "border-style": "dotted",
+          "border-width": "1px",
           "padding": "0 1em 0 1em"
+        },
+        "attributes": {
+          "class": "ms-borderColor-neutralTertiary"
         },
         "children": [
           {
             "elmType": "div",
-            "txtContent" : "=if( floor( (Number([$TaskDue])-Number([$TaskStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 98 ) >  10 , toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue]) ,'' )",
+            "txtContent": "=if( floor( (Number([$TaskDue])-Number([$TaskStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 98 ) >  10 , toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue]) ,'' )",
             "style": {
               "position": "relative",
               "box-sizing": "border-box",
               "display": "flex",
-              "border-radius": "5000px",
+              "border-radius": "1.5em",
               "height": "3em",
-              "padding": "0 1% 0 1%",
-              "left": "= floor( (Number([$TaskStart])-Number([$ProjectStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 98 ) + '%' ",
-              "width": "= floor( (Number([$TaskDue])-Number([$TaskStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 98 ) + '%' "
+              "padding": "0 1%",
+              "left": "= floor( (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 98 ) + '%'",
+              "width": "= floor( (Number([$TaskDue])-Number([$TaskStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 98 ) + '%'"
             },
             "attributes": {
-              "title" : "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue]) ",
+              "title": "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])",
               "class": "=if( [$TaskDue] < @now,  'ms-bgColor-themeLighter', if ([$TaskStart] <= @now , 'ms-bgColor-themeDark ms-fontColor-neutralLight', 'ms-bgColor-neutralTertiaryAlt')) + ' sp-field-borderLeftRightRegular sp-field-borderLeftRightSolid sp-css-borderColor-neutralPrimary'"
             }
           }

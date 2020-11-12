@@ -1,16 +1,18 @@
-# Project Gantt Chart view
+# Project Gantt Chart View
 
 ## Summary
-This project Gantt Chart sample demonstrates how to show a list of high level tasks in a kind of Gantt chart.  
-Mind me, it is far from perfect and in its current version it is mainly useful for top-level views.
+This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views.
 
 So this
-![avatar](Project_phases_textV2.png)  
+
+![list view](./unformattedlistview.png)  
+
 Turns into this
-![avatar](Gantt_chart_result.png)  
+
+![screenshot of format](./screenshot.png)  
 
 ## View requirements
-This specific format expects the following columns to be part of the view:
+This format expects the following columns to be part of the view:
 
 |Type|Internal Name|Required|
 |---|---|:---:|
@@ -39,4 +41,6 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/prject-gantt-chart" />
+None
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/project-gantt-chart" />
