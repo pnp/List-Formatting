@@ -6,13 +6,12 @@ This sample demonstrates a time schedule with a filled background from `Start` t
 ![screenshot of the sample](./screenshot.png)
 
 ## View requirements
-This format can be applied to any column type.
+This format can be applied to any column type but expects the following columns to be part of the view:
 
-Column Name   |Type
---------------|--------------
-Start         |Single Line Text or Choice
-End           |Single Line Text or Choice
-Schedule      |Any
+|Type|Internal Name|Required|
+|---|---|:---:|
+|Single line of text or Choice|Start|Yes|
+|Single line of text or Choice|End|Yes|
 
 `Start` and `End` columns must be in `hh:mm` format.
 

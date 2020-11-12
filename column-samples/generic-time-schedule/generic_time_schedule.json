@@ -1,5 +1,4 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "display": "flex",
@@ -73,6 +72,10 @@
       "children": [
         {
           "elmType": "svg",
+          "style": {
+            "width": "100%",
+            "height": "100%"
+          },
           "children": [
             {
               "elmType": "path",
