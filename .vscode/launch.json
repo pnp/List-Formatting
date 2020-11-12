@@ -1,0 +1,48 @@
+{
+    // This file sets up debug/test for VS Code editor. 
+    // visit: https://go.microsoft.com/fwlink/?linkid=830387 for more.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug test",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/tools/html-formatter-generator/jest-debug-launch.js",
+            "cwd": "${fileDirname}",
+            "stopOnEntry": false,
+            "args": [
+                "-i"
+            ],
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--inspect"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "sourceMaps": true
+        },
+        {
+            "name": "Debug selected test",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/jest",
+            "cwd": "${fileDirname}",
+            "stopOnEntry": false,
+            "args": [
+                "-i",
+                "--testNamePattern=${selectedText}"
+            ],
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--debug"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "sourceMaps": true
+        }
+    ]
+}
