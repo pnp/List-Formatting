@@ -3,7 +3,11 @@
 ## Summary
 This sample formats your SharePoint list view to look like a timeline.
 
-![screenshot of the sample](./timeline-format.gif)
+vartical-timeline-format.json
+![screenshot of the sample](./vertical-timeline-format.gif)
+
+horizontal-timeline-format.json
+![screenshot of the sample](./horizontal-timeline-format.gif)
 
 ## View requirements
 
@@ -14,15 +18,17 @@ Description   | Multi Line Text
 
 ## Sample
 
-Solution             |Author(s)
----------------------|---------------------------
-timeline-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution                        |Author(s)
+--------------------------------|---------------------------
+vartical-timeline-format.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
+horizontal-timeline-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |October 17, 2020 |Initial release
+Version |Date              |Comments
+--------|------------------|--------------------------------
+1.0     |October 17, 2020  |Initial release
+2.0     |November 17, 2020 |Added horizontal-timeline-format
 
 
 ## Disclaimer
