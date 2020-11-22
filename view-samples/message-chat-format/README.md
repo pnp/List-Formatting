@@ -14,7 +14,8 @@ This sample formats your SharePoint list view to look like a message chat. If `A
 |Person|Author|Yes|
 |DateTime|Created|Yes|
 
-Show the default column `Author` and `Created` column in the view.
+* Show the default column `Author` and `Created` column in the view.
+* If you want to display the latest messages at the top, please sort them in descending order by `Created`.
 
 ## Sample
 
