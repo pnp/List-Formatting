@@ -1,0 +1,22 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-fontColor-themePrimary ms-fontSize-m"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "style": {
+          "padding-right": "10px"
+        },
+        "attributes": {
+          "iconName": "Comment"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount]) "
+      }
+    ]
+  }
