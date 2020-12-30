@@ -96,7 +96,7 @@
           {
             "elmType": "svg",
             "style": {
-              "width": "50px",
+              "width": "=if(@rowIndex % 2 == 0,'0px','50px')",
               "height": "50px"
             },
             "children": [
