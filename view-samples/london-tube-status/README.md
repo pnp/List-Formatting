@@ -17,7 +17,7 @@ Display on the homepage of your SharePoint intranet a continually updated feed o
 ### Prerequisites
 
 * You must be licenced and able to create Power Automate flows
-* If Azure Logic Apps option is chosen you must be able to create of have a Logic app created for you that can be modified.
+* If Azure Logic Apps option is chosen you must be able to create or have a Logic app created for you that you can modify.
 * You must have a valid SharePoint Online license and permission to create lists.
 * You must have a modern SharePoint site where you can store the data for the app.
 * Download the assets from this folder
@@ -35,14 +35,19 @@ An overview is provided below, but detailed installation instructions can be fou
 
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
-### Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
+### UPDATE v2.0
+I have now recreated the TFL Status Power Automate (Flow) to run in Azure Logic Apps, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc. 
+
+Runs sections 1 & 2 for the Power Automate option and sections 1 & 3 for the Logic Apps option.
+
+### 1 Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
 
 - In PowerAutomate, import the [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) template.
 - Once imported, edit the flow to change the Target Site for Lists variable to point to the site where you would like the Tube Status list to be deployed.
 - Run the flow
 - You can now safely remove this flow as it was only needed once to create the list and install the view format
 
-### TFL Tube Status flow (Power Automate Option)
+### 2 TFL Tube Status flow (Power Automate Option)
 
 - In PowerAutomate, import the [LondonTubes-TFLTubeStatusAPI.zip](./flows/LondonTubes-TFLTubeStatusAPI.zip) template.
 - **You will receive an error** (_import failed for one or more package resources_)
@@ -52,7 +57,7 @@ There are 2 Power Automate flow templates included in the Assets folder in this 
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
-### TFL Tube Status flow (Azure Logic Apps Option)
+### 3 TFL Tube Status flow (Azure Logic Apps Option)
 
 - Create an Azure Logic App in your Azure subscription (can be named anything i.e TFL_API)
 - Select to create a "Blank Logic App" from the list of Logic App templates.
