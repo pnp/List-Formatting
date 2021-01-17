@@ -1,0 +1,1786 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Apply_to_each_-_Line": {
+                "actions": {
+                    "Apply_to_each_DISTINCT_LineStatus_(LineStatus)": {
+                        "actions": {
+                            "Append_to_string_variable_statusSeverityDescriptionText": {
+                                "inputs": {
+                                    "name": "statusSeverityDescriptionText",
+                                    "value": "@{items('Apply_to_each_DISTINCT_LineStatus_(LineStatus)')}\n"
+                                },
+                                "runAfter": {},
+                                "type": "AppendToStringVariable"
+                            }
+                        },
+                        "foreach": "@union(variables('statusSeverityDescription'),variables('statusSeverityDescription'))",
+                        "runAfter": {
+                            "Apply_to_each_DISTINCT_lineStatuses_(Reason)": [
+                                "Succeeded"
+                            ]
+                        },
+                        "runtimeConfiguration": {
+                            "concurrency": {
+                                "repetitions": 1
+                            }
+                        },
+                        "type": "Foreach"
+                    },
+                    "Apply_to_each_DISTINCT_lineStatuses_(Reason)": {
+                        "actions": {
+                            "Condition": {
+                                "actions": {
+                                    "Append_to_string_variable_reason_(No_additionalInfo)": {
+                                        "inputs": {
+                                            "name": "reason",
+                                            "value": "@{items('Apply_to_each_DISTINCT_lineStatuses_(Reason)')['reason']}\n"
+                                        },
+                                        "runAfter": {},
+                                        "type": "AppendToStringVariable"
+                                    }
+                                },
+                                "else": {
+                                    "actions": {
+                                        "Append_to_string_variable_no_reason_(additionalInfo)": {
+                                            "inputs": {
+                                                "name": "reason",
+                                                "value": "@{items('Apply_to_each_DISTINCT_lineStatuses_(Reason)')['reason']}\n@{items('Apply_to_each_DISTINCT_lineStatuses_(Reason)')?['additionalInfo']}\n"
+                                            },
+                                            "runAfter": {},
+                                            "type": "AppendToStringVariable"
+                                        }
+                                    }
+                                },
+                                "expression": {
+                                    "and": [
+                                        {
+                                            "equals": [
+                                                "@items('Apply_to_each_DISTINCT_lineStatuses_(Reason)')['additionalInfo']",
+                                                "@null"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "runAfter": {},
+                                "type": "If"
+                            }
+                        },
+                        "foreach": "@union(variables('lineStatuses'),variables('lineStatuses'))",
+                        "runAfter": {
+                            "Apply_to_each_lineStatuses": [
+                                "Succeeded"
+                            ]
+                        },
+                        "runtimeConfiguration": {
+                            "concurrency": {
+                                "repetitions": 1
+                            }
+                        },
+                        "type": "Foreach"
+                    },
+                    "Apply_to_each_lineStatuses": {
+                        "actions": {
+                            "Switch_statusSeverity": {
+                                "cases": {
+                                    "Case_\"Good_Service\"": {
+                                        "actions": {
+                                            "Append_to_array_variable_statusSeverityDescription_-_Good_Service": {
+                                                "inputs": {
+                                                    "name": "statusSeverityDescription",
+                                                    "value": "@items('Apply_to_each_lineStatuses')['statusSeverityDescription']"
+                                                },
+                                                "runAfter": {
+                                                    "Set_variable_goodService_-_true": [
+                                                        "Succeeded"
+                                                    ]
+                                                },
+                                                "type": "AppendToArrayVariable"
+                                            },
+                                            "Set_variable_goodService_-_true": {
+                                                "inputs": {
+                                                    "name": "goodService",
+                                                    "value": "@true"
+                                                },
+                                                "runAfter": {},
+                                                "type": "SetVariable"
+                                            }
+                                        },
+                                        "case": 10
+                                    }
+                                },
+                                "default": {
+                                    "actions": {
+                                        "Append_to_array_variable_statusSeverityDescription": {
+                                            "inputs": {
+                                                "name": "statusSeverityDescription",
+                                                "value": "@items('Apply_to_each_lineStatuses')['statusSeverityDescription']"
+                                            },
+                                            "runAfter": {
+                                                "Set_variable_goodService_-false": [
+                                                    "Succeeded"
+                                                ]
+                                            },
+                                            "type": "AppendToArrayVariable"
+                                        },
+                                        "Apply_to_each_(create_Reason_aka_LineStatuses_Array)": {
+                                            "actions": {
+                                                "Append_to_array_variable_lineStatuses": {
+                                                    "inputs": {
+                                                        "name": "lineStatuses",
+                                                        "value": "@item()"
+                                                    },
+                                                    "runAfter": {},
+                                                    "type": "AppendToArrayVariable"
+                                                }
+                                            },
+                                            "foreach": "@body('Select_lineStatuses_(for_reason)')",
+                                            "runAfter": {
+                                                "Select_lineStatuses_(for_reason)": [
+                                                    "Succeeded"
+                                                ]
+                                            },
+                                            "runtimeConfiguration": {
+                                                "concurrency": {
+                                                    "repetitions": 1
+                                                }
+                                            },
+                                            "type": "Foreach"
+                                        },
+                                        "Select_lineStatuses_(for_reason)": {
+                                            "inputs": {
+                                                "from": "@array(null)",
+                                                "select": {
+                                                    "additionalInfo": "@items('Apply_to_each_lineStatuses')?['disruption']?['additionalInfo']",
+                                                    "reason": "@items('Apply_to_each_lineStatuses')?['reason']"
+                                                }
+                                            },
+                                            "runAfter": {
+                                                "Append_to_array_variable_statusSeverityDescription": [
+                                                    "Succeeded"
+                                                ]
+                                            },
+                                            "type": "Select"
+                                        },
+                                        "Set_variable_goodService_-false": {
+                                            "inputs": {
+                                                "name": "goodService",
+                                                "value": "@false"
+                                            },
+                                            "runAfter": {},
+                                            "type": "SetVariable"
+                                        }
+                                    }
+                                },
+                                "expression": "@items('Apply_to_each_lineStatuses')['statusSeverity']",
+                                "runAfter": {},
+                                "type": "Switch"
+                            }
+                        },
+                        "foreach": "@items('Apply_to_each_-_Line')['lineStatuses']",
+                        "runAfter": {
+                            "Select_for_SPListItem": [
+                                "Succeeded"
+                            ]
+                        },
+                        "runtimeConfiguration": {
+                            "concurrency": {
+                                "repetitions": 1
+                            }
+                        },
+                        "type": "Foreach"
+                    },
+                    "Compose_-_Reporting_Values_for_Testing": {
+                        "inputs": "@{body('Select_for_SPListItem')}\n\n@{body('Select_for_APILineItem')}\n\n@{body('Filter_array_Tube_Status_SP_List')}",
+                        "runAfter": {
+                            "Select_for_APILineItem": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Compose"
+                    },
+                    "Condition_SPListItem_equals_APILineItem": {
+                        "actions": {
+                            "Compose_Matches_(Do_Nothing)": {
+                                "inputs": "Matches",
+                                "runAfter": {},
+                                "type": "Compose"
+                            }
+                        },
+                        "else": {
+                            "actions": {
+                                "Compose_No_Match_(Make_Changes_To_SP_List)": {
+                                    "inputs": "No Match",
+                                    "runAfter": {},
+                                    "type": "Compose"
+                                },
+                                "Condition_If_Line_Item_exists_already_in_SP_List": {
+                                    "actions": {
+                                        "Update_item_Tube_Status": {
+                                            "inputs": {
+                                                "body": {
+                                                    "GoodService": "@variables('goodService')",
+                                                    "LineID": "@{first(body('Select_for_APILineItem'))?['LineID']}",
+                                                    "LineStatus": "@{trim(variables('statusSeverityDescriptionText'))}",
+                                                    "ModeName": "@{first(body('Select_for_APILineItem'))?['modeName']}",
+                                                    "Reason": "@{trim(variables('reason'))}",
+                                                    "Title": "@{first(body('Select_for_APILineItem'))?['LineName']}"
+                                                },
+                                                "host": {
+                                                    "connection": {
+                                                        "name": "@parameters('$connections')['sharepointonline']['connectionId']"
+                                                    }
+                                                },
+                                                "method": "patch",
+                                                "path": "/datasets/@{encodeURIComponent(encodeURIComponent('https://leonarmstondev.sharepoint.com/sites/LondonTubes'))}/tables/@{encodeURIComponent(encodeURIComponent('38a863ed-742a-4830-8707-902b14c4ba75'))}/items/@{encodeURIComponent(first(body('Filter_array_Tube_Status_SP_List'))?['ID'])}"
+                                            },
+                                            "runAfter": {},
+                                            "type": "ApiConnection"
+                                        }
+                                    },
+                                    "else": {
+                                        "actions": {
+                                            "Create_item_Tube_Status": {
+                                                "inputs": {
+                                                    "body": {
+                                                        "GoodService": "@variables('goodService')",
+                                                        "LineID": "@{first(body('Select_for_APILineItem'))?['LineID']}",
+                                                        "LineStatus": "@{trim(variables('statusSeverityDescriptionText'))}",
+                                                        "ModeName": "@{first(body('Select_for_APILineItem'))?['modeName']}",
+                                                        "Reason": "@{trim(variables('reason'))}",
+                                                        "Title": "@{first(body('Select_for_APILineItem'))?['LineName']}"
+                                                    },
+                                                    "host": {
+                                                        "connection": {
+                                                            "name": "@parameters('$connections')['sharepointonline']['connectionId']"
+                                                        }
+                                                    },
+                                                    "method": "post",
+                                                    "path": "/datasets/@{encodeURIComponent(encodeURIComponent('https://leonarmstondev.sharepoint.com/sites/LondonTubes'))}/tables/@{encodeURIComponent(encodeURIComponent('38a863ed-742a-4830-8707-902b14c4ba75'))}/items"
+                                                },
+                                                "runAfter": {},
+                                                "type": "ApiConnection"
+                                            }
+                                        }
+                                    },
+                                    "expression": {
+                                        "and": [
+                                            {
+                                                "not": {
+                                                    "equals": [
+                                                        "@empty(body('Select_for_SPListItem'))",
+                                                        "@true"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "runAfter": {
+                                        "Compose_No_Match_(Make_Changes_To_SP_List)": [
+                                            "Succeeded"
+                                        ]
+                                    },
+                                    "type": "If"
+                                }
+                            }
+                        },
+                        "expression": {
+                            "and": [
+                                {
+                                    "equals": [
+                                        "@body('Select_for_SPListItem')",
+                                        "@body('Select_for_APILineItem')"
+                                    ]
+                                }
+                            ]
+                        },
+                        "runAfter": {
+                            "Compose_-_Reporting_Values_for_Testing": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "If"
+                    },
+                    "Filter_array_Tube_Status_SP_List": {
+                        "inputs": {
+                            "from": "@body('Get_items_Tube_Status_SP_List')?['value']",
+                            "where": "@equals(item()?['LineID'], items('Apply_to_each_-_Line')['id'])"
+                        },
+                        "runAfter": {
+                            "Set_variable_lineStatuses-_Clear": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Query"
+                    },
+                    "Select_for_APILineItem": {
+                        "inputs": {
+                            "from": "@array(null)",
+                            "select": {
+                                "LineID": "@items('Apply_to_each_-_Line')['id']",
+                                "LineName": "@items('Apply_to_each_-_Line')['name']",
+                                "LineStatus": "@trim(variables('statusSeverityDescriptionText'))",
+                                "ModeName": "@items('Apply_to_each_-_Line')['modeName']",
+                                "Reason": "@trim(variables('reason'))"
+                            }
+                        },
+                        "runAfter": {
+                            "Apply_to_each_DISTINCT_LineStatus_(LineStatus)": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Select"
+                    },
+                    "Select_for_SPListItem": {
+                        "inputs": {
+                            "from": "@body('Filter_array_Tube_Status_SP_List')",
+                            "select": {
+                                "LineID": "@item()?['LineID']",
+                                "LineName": "@item()?['Title']",
+                                "LineStatus": "@item()['LineStatus']",
+                                "ModeName": "@item()['ModeName']",
+                                "Reason": "@if(empty(item()?['Reason']),'',item()?['Reason'])"
+                            }
+                        },
+                        "runAfter": {
+                            "Filter_array_Tube_Status_SP_List": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "Select"
+                    },
+                    "Set_variable_lineStatuses-_Clear": {
+                        "inputs": {
+                            "name": "lineStatuses",
+                            "value": "@null"
+                        },
+                        "runAfter": {
+                            "Set_variable_statusSeverityDescriptionText_-_Clear": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "SetVariable"
+                    },
+                    "Set_variable_reason_-_Clear": {
+                        "inputs": {
+                            "name": "reason",
+                            "value": "@{null}"
+                        },
+                        "runAfter": {
+                            "Set_variable_statusSeverityDescription_-_Clear": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "SetVariable"
+                    },
+                    "Set_variable_statusSeverityDescriptionText_-_Clear": {
+                        "inputs": {
+                            "name": "statusSeverityDescriptionText",
+                            "value": "@{null}"
+                        },
+                        "runAfter": {
+                            "Set_variable_reason_-_Clear": [
+                                "Succeeded"
+                            ]
+                        },
+                        "type": "SetVariable"
+                    },
+                    "Set_variable_statusSeverityDescription_-_Clear": {
+                        "inputs": {
+                            "name": "statusSeverityDescription",
+                            "value": []
+                        },
+                        "runAfter": {},
+                        "type": "SetVariable"
+                    }
+                },
+                "foreach": "@body('HTTP_-_TFL_API_Tube_Status')",
+                "runAfter": {
+                    "HTTP_-_TFL_API_Tube_Status": [
+                        "Succeeded"
+                    ]
+                },
+                "runtimeConfiguration": {
+                    "concurrency": {
+                        "repetitions": 1
+                    }
+                },
+                "type": "Foreach"
+            },
+            "Compose_Delays_JSON": {
+                "description": "Use for Testing with Delays TFL API Data",
+                "inputs": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "bakerloo",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Bakerloo",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.837Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "central",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.837Z",
+                        "name": "Central",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "circle",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "RealTime",
+                                    "categoryDescription": "RealTime",
+                                    "closureText": "partSuspended",
+                                    "description": "Circle Line: No service Anti-clockwise due to a signal failure at High Street Kensington. Severe delays in the Clockwise direction. "
+                                },
+                                "id": 0,
+                                "lineId": "circle",
+                                "reason": "Circle Line: Test service Anti-clockwise due to a signal failure at High Street Kensington. Severe delays in the Clockwise direction. ",
+                                "statusSeverity": 3,
+                                "statusSeverityDescription": "Part Suspended",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-10T17:43:46Z",
+                                        "isNow": true,
+                                        "toDate": "2020-08-10T20:43:46Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "RealTime",
+                                    "categoryDescription": "RealTime",
+                                    "closureText": "severeDelays",
+                                    "description": "Circle Line: No service Anti-clockwise due to a signal failure at High Street Kensington. Severe delays in the Clockwise direction. "
+                                },
+                                "id": 0,
+                                "lineId": "circle",
+                                "reason": "Circle Line: No service Anti-clockwise due to a signal failure at High Street Kensington. Severe delays in the Clockwise direction. ",
+                                "statusSeverity": 6,
+                                "statusSeverityDescription": "Severe Delays",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-10T17:43:46Z",
+                                        "isNow": true,
+                                        "toDate": "2020-08-11T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Circle",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "district",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "RealTime",
+                                    "categoryDescription": "RealTime",
+                                    "closureText": "severeDelays",
+                                    "description": "District Line: Severe delays between Edgware Road and Wimbledon due to an earlier signal failure at High Street Kensington. GOOD SERVICE on the rest of the line. "
+                                },
+                                "id": 0,
+                                "lineId": "district",
+                                "reason": "District Line: Severe delays between Edgware Road and Wimbledon due to an earlier signal failure at High Street Kensington. GOOD SERVICE on the rest of the line. ",
+                                "statusSeverity": 6,
+                                "statusSeverityDescription": "Severe Delays",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-10T17:50:14Z",
+                                        "isNow": true,
+                                        "toDate": "2020-08-11T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "District",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "dlr",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "dlr",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "DLR",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=DLR&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "hammersmith-city",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "RealTime",
+                                    "categoryDescription": "RealTime",
+                                    "closureText": "severeDelays",
+                                    "description": "Hammersmith and City Line: Severe delays while we fix a faulty train at Baker Street. "
+                                },
+                                "id": 0,
+                                "lineId": "hammersmith-city",
+                                "reason": "Hammersmith and City Line: Severe delays while we fix a faulty train at Baker Street. ",
+                                "statusSeverity": 6,
+                                "statusSeverityDescription": "Severe Delays",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-10T16:53:15Z",
+                                        "isNow": true,
+                                        "toDate": "2020-08-11T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Hammersmith & City",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "jubilee",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Jubilee",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "london-overground",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "overground",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "London Overground",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=London Overground&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=London Overground&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "metropolitan",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "RealTime",
+                                    "categoryDescription": "RealTime",
+                                    "closureText": "severeDelays",
+                                    "description": "Metropolitan Line: Severe delays due to an earlier faulty train at Baker Street. Tickets are being accepted on local buses and Chiltern services. "
+                                },
+                                "id": 0,
+                                "lineId": "metropolitan",
+                                "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at Baker Street. Tickets are being accepted on local buses and Chiltern services. ",
+                                "statusSeverity": 6,
+                                "statusSeverityDescription": "Severe Delays",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-10T17:17:21Z",
+                                        "isNow": true,
+                                        "toDate": "2020-08-11T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Metropolitan",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.837Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "northern",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.837Z",
+                        "name": "Northern",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "piccadilly",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Piccadilly",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "tfl-rail",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tflrail",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "TfL Rail",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=TfL Rail&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "tram",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tram",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Tram",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Tram&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.867Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "victoria",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.867Z",
+                        "name": "Victoria",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "waterloo-city",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "plannedClosure",
+                                    "created": "2020-07-20T09:55:00Z",
+                                    "description": "WATERLOO & CITY LINE: No service until further notice."
+                                },
+                                "id": 0,
+                                "lineId": "waterloo-city",
+                                "reason": "WATERLOO & CITY LINE: No service until further notice.",
+                                "statusSeverity": 4,
+                                "statusSeverityDescription": "Planned Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-07-20T09:55:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-12-31T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Waterloo & City",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+                            }
+                        ]
+                    }
+                ],
+                "runAfter": {
+                    "Compose_Weekends_JSON": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Compose"
+            },
+            "Compose_Weekends_JSON": {
+                "description": "Use for Testing with Weekends TFL API Data",
+                "inputs": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "bakerloo",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Bakerloo",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.837Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "central",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.837Z",
+                        "name": "Central",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "circle",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Circle",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "district",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "additionalInfo": "Replacement buses operate Service DL6: Tower Hill - Aldgate and Aldgate East - Whitechapel - Stepney Green - Mile End - Bow Road - Bromley-by-Bow - Canning Town (for Jubilee line and DLR connections to West Ham) - Barking.",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "partClosure",
+                                    "created": "2020-06-22T13:20:00Z",
+                                    "description": "DISTRICT LINE: Saturday 1 and Sunday 2 August, no service between Tower Hill and West Ham. Replacement buses operate."
+                                },
+                                "id": 0,
+                                "lineId": "district",
+                                "reason": "DISTRICT LINE: Saturday 1 and Sunday 2 August, no service between Tower Hill and West Ham. Replacement buses operate.",
+                                "statusSeverity": 5,
+                                "statusSeverityDescription": "Part Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-01T04:30:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-08-03T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "District",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "dlr",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "dlr",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "DLR",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=DLR&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "hammersmith-city",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "additionalInfo": "Replacement buses operate Service DL6: Tower Hill - Aldgate and Aldgate East - Whitechapel - Stepney Green - Mile End - Bow Road - Bromley-by-Bow - Canning Town (for Jubilee line and DLR connections to West Ham) - Barking.",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "plannedClosure",
+                                    "created": "2020-06-22T13:21:00Z",
+                                    "description": "HAMMERSMITH & CITY LINE: Saturday 1 and Sunday 2 August, no service between Hammersmith and Barking. Replacement buses operate between Tower Hill and Barking via Canning Town."
+                                },
+                                "id": 0,
+                                "lineId": "hammersmith-city",
+                                "reason": "HAMMERSMITH & CITY LINE: Saturday 1 and Sunday 2 August, no service between Hammersmith and Barking. Replacement buses operate between Tower Hill and Barking via Canning Town.",
+                                "statusSeverity": 4,
+                                "statusSeverityDescription": "Planned Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-01T04:30:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-08-03T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Hammersmith & City",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "jubilee",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Jubilee",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "london-overground",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "additionalInfo": "Replacement buses operate:Service M: Canada Water - Surrey Quays - Queens Road Peckham - Peckham Rye - Denmark Hill - Clapham High Street - Wandsworth Road - Clapham Junction.Service X: Dalston Kingsland - Dalston Junction - Haggerston - Hoxton - Shoreditch High Street - Whitechapel (for local London Buses Route D3 to Shadwell and Wapping) - Tower Gateway DLR - Bermondsey (Jubilee line and for local London Buses 381 and C10 to Rotherhithe) - Canada Water - Surrey Quays - Deptford Bridge DLR - New Cross - New Cross Gate.",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "partClosure",
+                                    "created": "2020-07-20T12:01:00Z",
+                                    "description": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Highbury & Islington and New Cross / Clapham Junction / Crystal Palace / West Croydon. Use alternative London Overground services between Highbury & Islington and Dalston Kingsland. Replacement buses operate between Dalston Kingsland and New Cross Gate, and between Canada Water and Clapham Junction. On Saturday, Southern trains operate as normal south of New Cross Gate but on Sunday a limited Southern train service operates between New Cross Gate and East Croydon, calling at all stations, between 0830 and 1930 only, there will be no service outside these times, and no replacement buses. For Crystal Palace, change at Anerley for London Buses services, for West Croydon, use Tramlink from East Croydon."
+                                },
+                                "id": 0,
+                                "lineId": "london-overground",
+                                "reason": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Highbury & Islington and New Cross / Clapham Junction / Crystal Palace / West Croydon. Use alternative London Overground services between Highbury & Islington and Dalston Kingsland. Replacement buses operate between Dalston Kingsland and New Cross Gate, and between Canada Water and Clapham Junction. On Saturday, Southern trains operate as normal south of New Cross Gate but on Sunday a limited Southern train service operates between New Cross Gate and East Croydon, calling at all stations, between 0830 and 1930 only, there will be no service outside these times, and no replacement buses. For Crystal Palace, change at Anerley for London Buses services, for West Croydon, use Tramlink from East Croydon.",
+                                "statusSeverity": 5,
+                                "statusSeverityDescription": "Part Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-01T04:30:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-08-03T01:29:00Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "additionalInfo": "Replacement buses operate:Service M: Canada Water - Surrey Quays - Queens Road Peckham - Peckham Rye - Denmark Hill - Clapham High Street - Wandsworth Road - Clapham Junction.Service X: Dalston Kingsland - Dalston Junction - Haggerston - Hoxton - Shoreditch High Street - Whitechapel (for local London Buses Route D3 to Shadwell and Wapping) - Tower Gateway DLR - Bermondsey (Jubilee line and for local London Buses 381 and C10 to Rotherhithe) - Canada Water - Surrey Quays - Deptford Bridge DLR - New Cross - New Cross Gate.",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "partClosure",
+                                    "created": "2020-07-20T11:59:00Z",
+                                    "description": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Highbury & Islington and New Cross / Clapham Junction / Crystal Palace / West Croydon. Use alternative London Overground services between Highbury & Islington and Dalston Kingsland, and Southern services between New Cross Gate and West Croydon / Crystal Palace. Replacement buses operate between Dalston Kingsland and New Cross Gate, and between Canada Water and Clapham Junction."
+                                },
+                                "id": 0,
+                                "lineId": "london-overground",
+                                "reason": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Highbury & Islington and New Cross / Clapham Junction / Crystal Palace / West Croydon. Use alternative London Overground services between Highbury & Islington and Dalston Kingsland, and Southern services between New Cross Gate and West Croydon / Crystal Palace. Replacement buses operate between Dalston Kingsland and New Cross Gate, and between Canada Water and Clapham Junction.",
+                                "statusSeverity": 5,
+                                "statusSeverityDescription": "Part Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-01T04:30:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-08-03T01:29:00Z"
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "additionalInfo": "Replacement bus services operateService L1: Seven Sisters - Bruce Grove - White Hart Lane - Silver Street - Edmonton Green - Bush Hill Park (Great Cambridge Road) - Enfield TownService L2: Seven Sisters - Bruce Grove - White Hart Lane - Silver Street - Edmonton Green - Bush Hill Park (Great Cambridge Road) - Southbury - Turkey Street - Theobalds Grove - Cheshunt",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "partClosure",
+                                    "created": "2020-07-20T12:03:00Z",
+                                    "description": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Liverpool Street and Enfield Town / Cheshunt. Use local London Buses and London Underground connections between Liverpool Street and Seven Sisters. Replacement buses operate between Seven Sisters and Enfield Town / Cheshunt."
+                                },
+                                "id": 0,
+                                "lineId": "london-overground",
+                                "reason": "LONDON OVERGROUND: Saturday 1 and Sunday 2 August, no service between Liverpool Street and Enfield Town / Cheshunt. Use local London Buses and London Underground connections between Liverpool Street and Seven Sisters. Replacement buses operate between Seven Sisters and Enfield Town / Cheshunt.",
+                                "statusSeverity": 5,
+                                "statusSeverityDescription": "Part Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-08-01T04:30:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-08-03T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "overground",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "London Overground",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=London Overground&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=London Overground&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "metropolitan",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Metropolitan",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.837Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "northern",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.837Z",
+                        "name": "Northern",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "piccadilly",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Piccadilly",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "tfl-rail",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tflrail",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "TfL Rail",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=TfL Rail&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "tram",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tram",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Tram",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Tram&serviceTypes=Regular"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.867Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "victoria",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "id": 0,
+                                "statusSeverity": 10,
+                                "statusSeverityDescription": "Good Service",
+                                "validityPeriods": []
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.867Z",
+                        "name": "Victoria",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Night",
+                                "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+                        "created": "2020-07-28T15:40:06.853Z",
+                        "crowding": {
+                            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                        },
+                        "disruptions": [],
+                        "id": "waterloo-city",
+                        "lineStatuses": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                                "created": "0001-01-01T00:00:00",
+                                "disruption": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                                    "affectedRoutes": [],
+                                    "affectedStops": [],
+                                    "category": "PlannedWork",
+                                    "categoryDescription": "PlannedWork",
+                                    "closureText": "plannedClosure",
+                                    "created": "2020-07-20T09:55:00Z",
+                                    "description": "WATERLOO & CITY LINE: No service until further notice."
+                                },
+                                "id": 0,
+                                "lineId": "waterloo-city",
+                                "reason": "WATERLOO & CITY LINE: No service until further notice.",
+                                "statusSeverity": 4,
+                                "statusSeverityDescription": "Planned Closure",
+                                "validityPeriods": [
+                                    {
+                                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                                        "fromDate": "2020-07-20T09:55:00Z",
+                                        "isNow": false,
+                                        "toDate": "2020-12-31T01:29:00Z"
+                                    }
+                                ]
+                            }
+                        ],
+                        "modeName": "tube",
+                        "modified": "2020-07-28T15:40:06.853Z",
+                        "name": "Waterloo & City",
+                        "routeSections": [],
+                        "serviceTypes": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                                "name": "Regular",
+                                "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+                            }
+                        ]
+                    }
+                ],
+                "runAfter": {
+                    "Get_items_Tube_Status_SP_List": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Compose"
+            },
+            "Get_items_Tube_Status_SP_List": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['sharepointonline']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/datasets/@{encodeURIComponent(encodeURIComponent('https://leonarmstondev.sharepoint.com/sites/LondonTubes'))}/tables/@{encodeURIComponent(encodeURIComponent('38a863ed-742a-4830-8707-902b14c4ba75'))}/items",
+                    "queries": {
+                        "$top": 20
+                    }
+                },
+                "runAfter": {
+                    "Initialize_variable_lineStatuses_Array": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            },
+            "HTTP_-_TFL_API_Tube_Status": {
+                "inputs": {
+                    "method": "GET",
+                    "uri": "https://api.tfl.gov.uk/Line/Mode/tube,dlr,overground,tflrail,tram/Status"
+                },
+                "runAfter": {
+                    "Compose_Delays_JSON": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Http"
+            },
+            "Initialize_variable_goodService_Boolean": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "goodService",
+                            "type": "boolean"
+                        }
+                    ]
+                },
+                "runAfter": {},
+                "type": "InitializeVariable"
+            },
+            "Initialize_variable_lineStatuses_Array": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "lineStatuses",
+                            "type": "array",
+                            "value": []
+                        }
+                    ]
+                },
+                "runAfter": {
+                    "Initialize_variable_reason_String": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "InitializeVariable"
+            },
+            "Initialize_variable_reason_String": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "reason",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "runAfter": {
+                    "Initialize_variable_statusSeverityDescription_Array": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "InitializeVariable"
+            },
+            "Initialize_variable_statusSeverityDescriptionText_String": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "statusSeverityDescriptionText",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "runAfter": {
+                    "Initialize_variable_goodService_Boolean": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "InitializeVariable"
+            },
+            "Initialize_variable_statusSeverityDescription_Array": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "statusSeverityDescription",
+                            "type": "array",
+                            "value": []
+                        }
+                    ]
+                },
+                "runAfter": {
+                    "Initialize_variable_statusSeverityDescriptionText_String": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "InitializeVariable"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "Recurrence": {
+                "recurrence": {
+                    "frequency": "Minute",
+                    "interval": 60
+                },
+                "type": "Recurrence"
+            }
+        }
+    },
+    "parameters": {
+        "$connections": {
+            "value": {
+                "sharepointonline": {
+                    "connectionId": "/subscriptions/d27cea1b-b229-4d46-aeb0-3e7e3ca937a2/resourceGroups/Tubes/providers/Microsoft.Web/connections/sharepointonline",
+                    "connectionName": "sharepointonline",
+                    "connectionProperties": {},
+                    "id": "/subscriptions/d27cea1b-b229-4d46-aeb0-3e7e3ca937a2/providers/Microsoft.Web/locations/uksouth/managedApis/sharepointonline"
+                }
+            }
+        }
+    }
+}
