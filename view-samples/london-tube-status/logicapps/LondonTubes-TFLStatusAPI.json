@@ -1765,7 +1765,7 @@
             "Recurrence": {
                 "recurrence": {
                     "frequency": "Minute",
-                    "interval": 60
+                    "interval": 15
                 },
                 "type": "Recurrence"
             }
