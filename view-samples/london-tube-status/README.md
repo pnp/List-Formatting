@@ -12,10 +12,12 @@ Display on the homepage of your SharePoint intranet a continually updated feed o
   * **List** (used to store the latest TFL line status data)
     * **View Formatting** (JSON used to style the list into the familiar TFL Status board)
 * **Power Automate** (used for both creating the Tube Status SharePoint list using the SharePoint REST API and then, on a scheduled basis, retrieving the latest TFL tube statuses)
+* **Azure Logic Apps** (OPTIONAL - used for retrieving the latest TFL tube statuses using Azure Logic Apps instead of Power Automate.
 
 ### Prerequisites
 
 * You must be licenced and able to create Power Automate flows
+* If Azure Logic Apps option is chosen you must be able to create of have a Logic app created for you that can be modified.
 * You must have a valid SharePoint Online license and permission to create lists.
 * You must have a modern SharePoint site where you can store the data for the app.
 * Download the assets from this folder
@@ -33,7 +35,7 @@ An overview is provided below, but detailed installation instructions can be fou
 
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
-### Deployment flow
+### Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
 
 - In PowerAutomate, import the [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) template.
 - Once imported, edit the flow to change the Target Site for Lists variable to point to the site where you would like the Tube Status list to be deployed.
@@ -47,6 +49,8 @@ There are 2 Power Automate flow templates included in the Assets folder in this 
 - Click the **Save as a new flow** link within the error section
 - Use the flow checker to find each action that needs to be updated (there are 3 total). Update the action to point to your site and choose the Tube Status list.
 - Save the flow and Run it
+
+Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
 ### TFL Tube Status flow (Azure Logic Apps Option)
 
