@@ -40,13 +40,39 @@ There are 2 Power Automate flow templates included in the Assets folder in this 
 - Run the flow
 - You can now safely remove this flow as it was only needed once to create the list and install the view format
 
-### TFL Tube Status flow
+### TFL Tube Status flow (Power Automate Option)
 
 - In PowerAutomate, import the [LondonTubes-TFLTubeStatusAPI.zip](./flows/LondonTubes-TFLTubeStatusAPI.zip) template.
 - **You will receive an error** (_import failed for one or more package resources_)
 - Click the **Save as a new flow** link within the error section
 - Use the flow checker to find each action that needs to be updated (there are 3 total). Update the action to point to your site and choose the Tube Status list.
 - Save the flow and Run it
+
+### TFL Tube Status flow (Azure Logic Apps Option)
+
+- Create an Azure Logic App in your Azure subscription (can be named anything i.e TFL_API)
+- Select to create a "Blank Logic App" from the list of Logic App templates.
+- IMPORTANT: In Logic Apps Designer add one trigger SharePoint - When an item is created.Connect to your site and choose the Tube Status list (you may need to authenticate to your M365 tenant.
+- Once Authenticated using SharePoint go to Code View on the top Logic Apps Designer bar.
+- Make a copy of the parameters block of JSON and paste it somewhere safe into a notepad. i.e. see example of below to copy:
+```json
+"parameters": {
+    "$connections": {
+        "value": {
+            "sharepointonline": {
+                "connectionId": "/subscriptions/<Your Azure Subscription ID>/resourceGroups/<Resource Group Name>/providers/Microsoft.Web/connections/sharepointonline",
+                "connectionName": "sharepointonline",
+                "id": "/subscriptions/<Your Azure Subscription ID>/providers/Microsoft.Web/locations/<Azure DC Location>/managedApis/sharepointonline"
+            }
+        }
+    }
+}
+```
+- Now go to [LondonTubes-TFLStatusAPI.json](./logicapps/LondonTubes-TFLStatusAPI.json) and copy all of the JSON to your clipboard.
+- Go back to the Logic App Code View - Select All of the JSON there already then Paste the JSON from previous step.
+- Retrieve the parameters block from your notepad and overwrite the parameters block in Code View (this is adding your SharePoint connection details to the Logic App json).
+- Now go to the Logic Apps Designer view and three SharePoint actions will need to be updated. Update the action to point to your site and choose the Tube Status list.
+- Save the Logic App and Run it.
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
@@ -56,6 +82,7 @@ Solution|Author(s)
 --------|---------
 DeploySPList-LondonTubes.zip | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
 LondonTubes-TFLTubeStatusAPI.zip  | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
+LondonTubes-TFLStatusAPI.json  | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
 LondonTubes | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
 
 ## Version history
@@ -63,6 +90,7 @@ LondonTubes | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
 Version|Date|Comments
 -------|----|--------
 1.0|October 24, 2020|Initial release
+2.0|January 17, 2021|Updated to include Logic App version and improved Flow.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
