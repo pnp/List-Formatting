@@ -12,12 +12,12 @@ Display on the homepage of your SharePoint intranet a continually updated feed o
   * **List** (used to store the latest TFL line status data)
     * **View Formatting** (JSON used to style the list into the familiar TFL Status board)
 * **Power Automate** (used for both creating the Tube Status SharePoint list using the SharePoint REST API and then, on a scheduled basis, retrieving the latest TFL tube statuses)
-* **Azure Logic Apps** (OPTIONAL - used for retrieving the latest TFL tube statuses using Azure Logic Apps instead of Power Automate.
+* **Azure Logic Apps** (OPTIONAL - used for retrieving the latest TFL tube statuses using Azure Logic Apps instead of Power Automate.)
 
 ### Prerequisites
 
 * You must be licenced and able to create Power Automate flows
-* If Azure Logic Apps option is chosen you must be able to create or have a Logic app created for you that you can modify.
+* If Azure Logic Apps option is chosen you must be able to create or have a Logic app created for you.
 * You must have a valid SharePoint Online license and permission to create lists.
 * You must have a modern SharePoint site where you can store the data for the app.
 * Download the assets from this folder
@@ -36,9 +36,9 @@ An overview is provided below, but detailed installation instructions can be fou
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
 ### UPDATE v2.0
-I have now recreated the TFL Status Power Automate (Flow) to provide an option to run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc. 
+I have now recreated the TFL Status Power Automate (Flow) to also run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc. 
 
-Runs sections 1 & 2 for the Power Automate option and sections 1 & 3 for the Logic Apps option.
+**Runs sections 1 & 2 for the Power Automate option and sections 1 & 3 for the Logic Apps option.**
 
 ### 1 Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
 
@@ -53,7 +53,7 @@ Runs sections 1 & 2 for the Power Automate option and sections 1 & 3 for the Log
 - **You will receive an error** (_import failed for one or more package resources_)
 - Click the **Save as a new flow** link within the error section
 - Use the flow checker to find each action that needs to be updated (there are 3 total). Update the action to point to your site and choose the Tube Status list.
-- Save the flow and Run it
+- Save the flow and run it
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
@@ -81,7 +81,7 @@ Head over to your list and you'll see the Tube Statuses being updated using the 
 - Go back to the Logic App Code View - Select All of the JSON there already then Paste the JSON from previous step.
 - Retrieve the parameters block from your notepad and overwrite the parameters block in Code View (this is adding your SharePoint connection details to the Logic App json).
 - Now go to the Logic Apps Designer view and three SharePoint actions will need to be updated. Update the action to point to your site and choose the Tube Status list.
-- Save the Logic App and Run it.
+- Save the Logic App and run it.
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
