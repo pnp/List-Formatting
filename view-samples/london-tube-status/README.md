@@ -61,9 +61,9 @@ Head over to your list and you'll see the Tube Statuses being updated using the 
 
 - Create an Azure Logic App in your Azure subscription (can be named anything i.e TFL_API)
 - Select to create a "Blank Logic App" from the list of Logic App templates.
-- IMPORTANT: In Logic Apps Designer add one trigger SharePoint - When an item is created.Connect to your site and choose the Tube Status list (you may need to authenticate to your M365 tenant.
-- Once Authenticated using SharePoint go to Code View on the top Logic Apps Designer bar.
-- Make a copy of the the current parameters block of JSON from Code View and paste it somewhere safe into a notepad. i.e. see example of below of a parameters block to copy(it will have your Azure subscription ID, resource group and azure location):
+- IMPORTANT STEP: In Logic Apps Designer add one trigger SharePoint - When an item is created. Connect to your site and choose the Tube Status list (you may need to authenticate to your M365 tenant. This is an important step as it will help you retrieve the sharepointonline connection details which are unique to your environment.
+- Once authenticated using SharePoint go to Code View on the top Logic Apps Designer bar.
+- Make a copy of the the current parameters block of JSON from Code View and paste it somewhere safe into a notepad. i.e. see example of below of a parameters block to copy (it will have your Azure subscription ID, resource group and azure location):
 ```json
 "parameters": {
     "$connections": {
