@@ -1,0 +1,364 @@
+{
+    "hideColumnHeader": true,
+    "rowFormatter": {
+      "elmType": "div",
+      "style": {
+        "flex-wrap": "wrap",
+        "margin-bottom": "25px"
+      },
+      "attributes": {
+        "class": "sp-row-card ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "text-align": "left",
+            "padding-bottom": "15px",
+            "width": "100%"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "[$Title]",
+              "attributes": {
+                "class": "ms-fontSize-32"
+              },
+              "style": {
+                "float": "left"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "='$'+[$Project_x0020_Cost]",
+              "style": {
+                "float": "right"
+              },
+              "attributes": {
+                "class": "ms-fontSize-20"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "padding-bottom": "15px"
+          },
+          "children": [
+            {
+              "forEach": "Project in [$Project_x0020_Members]",
+              "elmType": "div",
+              "style": {
+                "width": "100px",
+                "height": "100px",
+                "overflow": "hidden",
+                "border-radius": "50%",
+                "margin": "2px"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "attributes": {
+                    "src": "='/_layouts/15/userphoto.aspx?size=L&username='+[$Project.email]",
+                    "title": "[$Project.title]"
+                  },
+                  "style": {
+                    "position": "relative",
+                    "top": "50%",
+                    "left": "50%",
+                    "width": "100%",
+                    "height": "100%",
+                    "margin-left": "-50%",
+                    "margin-top": "-50%",
+                    "display": "=if(length([$Project_x0020_Members]) > 5 && loopIndex('Project') >= 5, 'none', '')",
+                    "vertical-align": "baseline"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "title": "=join([$Project_x0020_Members.title], ', ')",
+                    "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary"
+                  },
+                  "style": {
+                    "width": "100%",
+                    "height": "100%",
+                    "text-align": "center",
+                    "line-height": "90px",
+                    "font-size": "28px",
+                    "display": "=if(length([$Project_x0020_Members]) > 5 && loopIndex('Project') == 5, '', 'none')"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "='+' + toString(length([$Project_x0020_Members]) - (5))",
+                      "style": {
+                        "padding-top": "20px"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "text-align": "center",
+            "margin-top": "10px",
+            "margin-left": "10px",
+            "width": "30%",
+            "display": "flex",
+            "column-gap": "10px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "50%"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "attributes": {
+                    "iconName": "=if([$Risk] <= 3, 'DoubleChevronDown8',if([$Risk] >= 4 && [$Risk] <= 7,'Remote',if([$Risk] > 7, 'DoubleChevronUp8','Remote')",
+                    "class": "if([$Risk] == 0,'sp-row-card sp-field-severity--good','sp-row-card sp-field-severity--warning','sp-row-card')))"
+                  },
+                  "style": {
+                    "font-size": "xx-large",
+                    "width": "100%"
+                  }
+                },
+                {
+                  "elmType": "span",
+                  "txtContent": "=if([$Risk] <= 3, 'Risk Low',if([$Risk] >= 4 && [$Risk] <= 7,'Risk Medium',if([$Risk] > 7, 'Risk High','')))",
+                  "style": {
+                    "width": "100%",
+                    "font-size": "x-large"
+                  }
+                }
+              ],
+              "attributes": {
+                "class": "=if([$Risk] <= 3,'sp-row-card sp-field-severity--good',if([$Risk] >= 4 && [$Risk] <= 7,'sp-row-card sp-field-severity--warning',if([$Risk] > 8,'sp-row-card sp-field-severity--blocked','')))"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "50%"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "attributes": {
+                    "iconName": "=if([$OnSchedule.displayValue] == 'Yes', 'LikeSolid','DislikeSolid')",
+                    "class": ""
+                  },
+                  "style": {
+                    "font-size": "xx-large",
+                    "width": "100%"
+                  }
+                },
+                {
+                  "elmType": "span",
+                  "txtContent": "=if([$OnSchedule.displayValue] =='Yes', 'On-Time','Delayed')",
+                  "style": {
+                    "width": "100%",
+                    "font-size": "x-large"
+                  }
+                }
+              ],
+              "attributes": {
+                "class": "=if([$OnSchedule.displayValue] == 'Yes', 'sp-row-card sp-field-severity--good','sp-row-card sp-field-severity--warning')"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "width": "100%",
+            "margin-left": "-15px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "color": "#004e8c",
+                "font-size": "xx-large",
+                "width": "100%",
+                "margin-left": "=if([$Severity] == 'Critical','12.5%',if([$Severity] == 'Poor','37.5%',if([$Severity] == 'Fair','62.5%',if([$Severity] == 'Good','87.5%','100%'))))"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "customCardProps": {
+                    "directionalHint": "bottomCenter",
+                    "isBeakVisible": true,
+                    "openOnEvent": "hover",
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "height": "200px",
+                        "width": "450px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "background-color": "#004e8c",
+                            "color": "#ffffff",
+                            "display": "flex",
+                            "width": "100%",
+                            "justify-content": "center",
+                            "margin-bottom": "5px"
+                          },
+                          "attributes": {
+                            "class": "ms-fontWeight-semibold ms-fontSize-20"
+                          },
+                          "txtContent": "Project Updates"
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "[$Project_x0020_Updates]",
+                          "attributes": {
+                            "class": "ms-fontWeight-regular ms-fontSize-16"
+                          }
+                        }
+                      ]
+                    },
+                    "beakStyle": {
+                      "backgroundColor": "white"
+                    }
+                  },
+                  "attributes": {
+                    "iconName": "DrillDownSolid",
+                    "class": "ms-motion-slideRightIn ms-motion-duration-4"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "text-align": "center",
+            "border-radius": "15px",
+            "width": "100%"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "border-bottom-left-radius": "15px",
+                "border-top-left-radius": "15px",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-bgColor-sharedRed20"
+              },
+              "txtContent": "‏‏‎‎‏‏‎ ‎"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-bgColor-orange"
+              },
+              "txtContent": "‏‏‎ ‎"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-bgColor-yellow"
+              },
+              "txtContent": "‏‏‎‏‏‎ ‎"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "border-bottom-right-radius": "15px",
+                "border-top-right-radius": "15px",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-bgColor-green"
+              },
+              "txtContent": "‏‏‎ ‎‏‏‎"
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "width": "100%"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "color": "#a4262c",
+                "text-align": "center",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-fontSize-28"
+              },
+              "txtContent": "Critical"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "color": "#ca5010",
+                "text-align": "center",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-fontSize-28"
+              },
+              "txtContent": "Poor"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "color": "#fce100",
+                "text-align": "center",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-fontSize-28"
+              },
+              "txtContent": "Fair"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "color": "#0b6a0b",
+                "text-align": "center",
+                "width": "25%"
+              },
+              "attributes": {
+                "class": "ms-fontSize-28"
+              },
+              "txtContent": "Good"
+            }
+          ]
+        }
+      ]
+    },
+    "hideSelection": true
+  }
