@@ -215,7 +215,7 @@
                         {
                           "elmType": "span",
                           "style": {
-                            "background-color": "#004e8c",
+                            "background-color": "=if([$Severity] == 'Critical','#a4262c',if([$Severity] == 'Poor','#d83b01',if([$Severity] == 'Fair','#ffb900',if([$Severity] == 'Good','#107c10','white'))))",
                             "color": "#ffffff",
                             "display": "flex",
                             "width": "100%",
