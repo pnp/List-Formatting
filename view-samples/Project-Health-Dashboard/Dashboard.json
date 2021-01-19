@@ -188,7 +188,7 @@
             {
               "elmType": "span",
               "style": {
-                "color": "#004e8c",
+                "color": "currentColor",
                 "font-size": "xx-large",
                 "width": "100%",
                 "margin-left": "=if([$Severity] == 'Critical','12.5%',if([$Severity] == 'Poor','37.5%',if([$Severity] == 'Fair','62.5%',if([$Severity] == 'Good','87.5%','100%'))))"
@@ -208,6 +208,9 @@
                         "height": "200px",
                         "width": "450px"
                       },
+                      "attributes": {
+                        "class": "ms-fontWeight-regular"
+                      },
                       "children": [
                         {
                           "elmType": "span",
@@ -220,7 +223,7 @@
                             "margin-bottom": "5px"
                           },
                           "attributes": {
-                            "class": "ms-fontWeight-semibold ms-fontSize-20"
+                            "class": "ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-20"
                           },
                           "txtContent": "Project Updates"
                         },
@@ -239,7 +242,7 @@
                   },
                   "attributes": {
                     "iconName": "DrillDownSolid",
-                    "class": "ms-motion-slideRightIn ms-motion-duration-4"
+                    "class": "ms-motion-slideRightIn ms-motion-duration-4 ms-fontColor-themePrimary"
                   }
                 }
               ]
