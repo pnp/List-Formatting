@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "img",
+  "attributes": {
+    "src": "@currentField.serverRelativeUrl"
+  },
+  "style": {
+    "width": "42px",
+    "padding": "5px"
+  },
+  "customCardProps": {
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "padding": "15px 45px 15px 15px"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "@currentField.serverRelativeUrl"
+          },
+          "style": {
+            "width": "600px",
+            "padding": "5px"
+          }
+        }
+      ]
+    },
+    "openOnEvent": "hover",
+    "directionalHint": "rightCenter",
+    "isBeakVisible": true,
+    "beakStyle": {
+      "backgroundColor": "white"
+    }
+  }
+}
