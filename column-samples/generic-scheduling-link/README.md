@@ -3,8 +3,7 @@
 ## Summary
 This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.
 
-![screenshot of the sample](./screenshot.png)
-![screenshot of the sample](./screen_capture.gif)
+
 
 ## View requirements
 This format can be applied to any column type but expects the following columns to be part of the view:
