@@ -1,38 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "style": {
-    "display": "flex",
-    "flex-direction": "row"
-  },
-  "attributes": {
-    "class": "ms-fontSize-xxl"
-  },
-  "children": [
-    {
-      "elmType": "a",
-      "style": {
-        "text-decoration": "none"
-      },
-      "attributes": {
-        "href": "= 'https://teams.microsoft.com/l/meeting/new?subject=' + [$Title] + '&content=' + [$Content] + '&startTime=' + [$FormattedStart] + '&endTime=' + [$FormattedEnd]",
-        "target": "_blank",
-        "iconName": "TeamsLogo",
-        "class": "ms-fontColor-themePrimary"
-      }
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "flex-direction": "row"
     },
-    {
-      "elmType": "a",
-      "style": {
-        "text-decoration": "none",
-        "margin-left": "15px"
-      },
-      "attributes": {
-        "href": "= 'https://outlook.office.com/owa/?path=/calendar/action/compose&subject=' + [$Title] + '&body=' + [$Content] + '&startdt=' + [$FormattedStart] + '&enddt=' + [$FormattedEnd]",
-        "target": "_blank",
-        "iconName": "OutlookLogo",
-        "class": "ms-fontColor-themePrimary"
-      }
-    }
-  ]
+    "attributes": {
+        "class": "ms-fontSize-xxl"
+    },
+    "children": [
+        {
+            "elmType": "a",
+            "style": {
+                "text-decoration": "none"
+            },
+            "attributes": {
+                "href": "= 'https://teams.microsoft.com/l/meeting/new?subject=' + [$Title] + '&content=' + [$Content] + '&startTime=' + [$FormattedStart] + '&endTime=' + [$FormattedEnd]",
+                "target": "_blank",
+                "iconName": "TeamsLogo",
+                "class": "ms-fontColor-themePrimary"
+            }
+        },
+        {
+            "elmType": "a",
+            "style": {
+                "text-decoration": "none",
+                "margin-left": "15px"
+            },
+            "attributes": {
+                "href": "= 'https://outlook.office.com/owa/?path=/calendar/action/compose&subject=' + [$Title] + '&body=' + [$Content] + '&startdt=' + [$FormattedStart] + '&enddt=' + [$FormattedEnd]",
+                "target": "_blank",
+                "iconName": "OutlookLogo",
+                "class": "ms-fontColor-themePrimary"
+            }
+        }
+    ]
 }
