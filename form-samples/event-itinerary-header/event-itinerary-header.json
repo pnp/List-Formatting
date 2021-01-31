@@ -1,0 +1,272 @@
+{
+    "elmType": "div",
+    "style": {
+        "display": "=if([$Title] == '' , 'none' , '')",
+        "flex-direction": "row",
+        "min-height": "100px",
+        "width": "100%",
+        "margin-bottom": "10px"
+    },
+    "attributes": {
+        "class": "ms-fontColor-themePrimary"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "width": "150px",
+                "justify-content": "center",
+                "padding-bottom": "5px",
+                "display": "=if(Number([$StartDateAndTime]) == 0 , 'none' , 'flex')"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "flex-direction": "column",
+                        "width": "85px",
+                        "margin": "5px",
+                        "display": "flex",
+                        "align-items": "center"
+                    },
+                    "children": [
+                        {
+                            "elmType": "div",
+                            "txtContent": "=getYear([$StartDateAndTime])",
+                            "style": {
+                                "margin": "2px"
+                            },
+                            "attributes": {
+                                "class": "ms-fontColor-themePrimary ms-fontWeight-bold ms-fontSize-24"
+                            }
+                        },
+                        {
+                            "elmType": "div",
+                            "txtContent": "=if(getMonth([$StartDateAndTime])==0, 'Jan', if(getMonth([$StartDateAndTime])==1, 'Feb', if(getMonth([$StartDateAndTime])==2, 'Mar', if(getMonth([$StartDateAndTime])==3, 'Apr',  if(getMonth([$StartDateAndTime])==4, 'May', if(getMonth([$StartDateAndTime])==5, 'Jun', if(getMonth([$StartDateAndTime])==6 , 'Jul', if(getMonth([$StartDateAndTime])==7, 'Aug', if(getMonth([$StartDateAndTime])==8 , 'Sep', if(getMonth([$StartDateAndTime])==9, 'Oct', if(getMonth([$StartDateAndTime])==10, 'Nov', if(getMonth([$StartDateAndTime])==11, 'Dec', ''))))))))))))",
+                            "style": {
+                                "display": "flex",
+                                "justify-content": "center",
+                                "align-items": "center",
+                                "width": "100%",
+                                "height": "30px",
+                                "border": "1px solid",
+                                "margin-bottom": "-1px"
+                            },
+                            "attributes": {
+                                "class": "ms-bgColor-themePrimary ms-fontColor-white ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-24"
+                            }
+                        },
+                        {
+                            "elmType": "div",
+                            "txtContent": "=getDate([$StartDateAndTime])",
+                            "style": {
+                                "display": "flex",
+                                "justify-content": "center",
+                                "align-items": "center",
+                                "width": "83px",
+                                "border": "1px solid",
+                                "height": "50px"
+                            },
+                            "attributes": {
+                                "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-42"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "margin": "10px",
+                "width": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center"
+            },
+            "attributes": {
+                "class": "ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "margin": "10px",
+                        "width": "100%",
+                        "height": "100%",
+                        "border": "2px dashed",
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "align-items": "center"
+                    },
+                    "children": [
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "padding": "5px",
+                                "text-align": "center"
+                            },
+                            "attributes": {
+                                "class": "ms-fontSize-28 ms-fontWeight-bold"
+                            },
+                            "children": [
+                                {
+                                    "elmType": "span",
+                                    "style": {
+                                        "display": "=if([$SessionCode] == '' , 'none' , '')",
+                                        "padding-right": "10px"
+                                    },
+                                    "txtContent": "= '[' + [$SessionCode] + ']'"
+                                },
+                                {
+                                    "elmType": "span",
+                                    "txtContent": "[$Title]"
+                                }
+                            ]
+                        },
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "padding": "5px",
+                                "display": "=if([$Description] == '' , 'none' , '')",
+                                "text-align": "center"
+                            },
+                            "txtContent": "[$Description]",
+                            "attributes": {
+                                "class": "ms-fontSize-16"
+                            }
+                        },
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "width": "100%",
+                                "min-height": "50px",
+                                "display": "=if([$SessionType] == '' , if(Number([$StartDateAndTime]) == 0 , if([$Location] == '' , if([$Capacity] == '' , 'none' , 'flex') , 'flex') , 'flex') , 'flex')",
+                                "flex-wrap": "wrap",
+                                "align-items": "center",
+                                "justify-content": "space-evenly"
+                            },
+                            "attributes": {
+                                "class": "ms-fontSize-14 ms-fontColor-themePrimary"
+                            },
+                            "children": [
+                                {
+                                    "elmType": "div",
+                                    "style": {
+                                        "display": "=if([$SessionType] == '' , 'none' , '')",
+                                        "border-radius": "10px",
+                                        "padding": "5px 10px 5px 10px",
+                                        "white-space": "nowrap",
+                                        "margin": "5px"
+                                    },
+                                    "attributes": {
+                                        "class": "ms-bgColor-white"
+                                    },
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "padding-right": "5px"
+                                            },
+                                            "attributes": {
+                                                "iconName": "Tag"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "txtContent": "[$SessionType]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "style": {
+                                        "display": "=if(Number([$StartDateAndTime]) == 0 , 'none' , '')",
+                                        "border-radius": "10px",
+                                        "padding": "5px 10px 5px 10px",
+                                        "white-space": "nowrap",
+                                        "margin": "5px"
+                                    },
+                                    "attributes": {
+                                        "class": "ms-bgColor-white"
+                                    },
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "padding-right": "5px"
+                                            },
+                                            "attributes": {
+                                                "iconName": "DateTimeMirrored"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "txtContent": "=toLocaleTimeString([$StartDateAndTime]) + ' - ' + toLocaleTimeString([$EndDateAndTime])"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "style": {
+                                        "display": "=if([$Location] == '' , 'none' , '')",
+                                        "border-radius": "10px",
+                                        "padding": "5px 10px 5px 10px",
+                                        "white-space": "nowrap",
+                                        "margin": "5px"
+                                    },
+                                    "attributes": {
+                                        "class": "ms-bgColor-white"
+                                    },
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "padding-right": "5px"
+                                            },
+                                            "attributes": {
+                                                "iconName": "MapPin"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "txtContent": "[$Location]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "style": {
+                                        "display": "=if([$Capacity] == '' , 'none' , '')",
+                                        "border-radius": "10px",
+                                        "padding": "5px 10px 5px 10px",
+                                        "white-space": "nowrap",
+                                        "margin": "5px"
+                                    },
+                                    "attributes": {
+                                        "class": "ms-bgColor-white"
+                                    },
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "padding-right": "5px"
+                                            },
+                                            "attributes": {
+                                                "iconName": "People"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "txtContent": "[$Capacity]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
