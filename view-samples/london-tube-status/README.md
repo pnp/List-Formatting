@@ -99,7 +99,7 @@ LondonTubes | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
 Version|Date|Comments
 -------|----|--------
 1.0|October 24, 2020|Initial release
-2.0|January 17, 2021|Updated to include Logic App version and improved Flow.
+2.0|January 31, 2021|Updated to include Logic App version and improved Flow.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
