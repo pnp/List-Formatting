@@ -36,7 +36,8 @@ An overview is provided below, but detailed installation instructions can be fou
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
 ### UPDATE v2.0
-I have now recreated the TFL Status Power Automate (Flow) to also run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc. 
+I have now recreated the TFL Status Power Automate (Flow) to also run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc.
+Further instructions and new blog article [here](https://www.leonarmston.com/2021/01/live-london-underground-line-status-solution-summary-learnings-from-converting-to-azure-logic-apps/)
 
 **Run sections 1 & 2 for the Power Automate option** or **sections 1 & 3 for the Logic Apps option.**
 
