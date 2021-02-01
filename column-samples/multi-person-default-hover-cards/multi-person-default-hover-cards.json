@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "forEach": "personIterator in @currentField",
+      "elmType": "div",
+      "style": {
+        "height": "24px",
+        "overflow": "hidden",
+        "display": "flex",
+        "border-radius": "24px",
+        "background-color": "#eee",
+        "margin": "2px"
+      },
+      "defaultHoverField": "[$personIterator]",
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=S&accountname=' + [$personIterator.email]",
+            "title": "[$personIterator.title]"
+          },
+          "style": {
+              "width": "24px"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+              "line-height": "24px",
+              "padding": "0 4px",
+              "text-overflow": "ellipsis",
+              "white-space": "nowrap",
+              "overflow": "hidden"
+          },
+          "txtContent": "[$personIterator.title]"
+        }
+      ]
+    }
+  ]
+}
