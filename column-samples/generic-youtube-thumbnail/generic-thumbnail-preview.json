@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "@currentField",
+    "target": "_blank"
+  },
+  "style": {
+    "width": "75px",
+    "height": "55px"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": {
+          "operator": "+",
+          "operands": [
+            "https://img.youtube.com/vi/",
+            "=substring(@currentField, 32, 44)",
+            "/mqdefault.jpg"
+          ]
+        }
+      },
+      "style": {
+        "width": "75px",
+        "padding": "5px"
+      }
+    }
+  ],
+  "customCardProps": {
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "padding": "15px",
+        "display": "grid"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "font-size": "18px",
+            "margin-bottom": "10px",
+            "font-weight": "700"
+          },
+          "txtContent": "[$Title]"
+        },
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": {
+              "operator": "+",
+              "operands": [
+                "https://img.youtube.com/vi/",
+                "=substring(@currentField, 32, 44)",
+                "/sddefault.jpg"
+              ]
+            }
+          },
+          "style": {
+            "width": "550px",
+            "padding": "5px"
+          }
+        }
+      ]
+    },
+    "openOnEvent": "hover",
+    "directionalHint": "rightCenter",
+    "isBeakVisible": true,
+    "beakStyle": {
+      "backgroundColor": "white"
+    }
+  }
+}
