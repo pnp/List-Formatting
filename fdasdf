@@ -1,0 +1,276 @@
+[33m97c0ce1[m[33m ([m[1;36mHEAD -> [m[1;32mpr/304[m[33m, [m[1;31mgithub-desktop-gdk-max/master[m[33m)[m Folder Casing Merge Conflict
+[33m7681106[m Minor Updates
+[33m6492840[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Starter Form Samples
+[33m798de9e[m Add files via upload
+[33mbff6411[m Add files via upload
+[33mf1cacae[m Update README.md
+[33mf8d3487[m Update Project-Gantt-Chart.json
+[33m723ea6b[m[33m ([m[1;33mtag: 248110[m[33m)[m Create generic-flow-status.json
+[33m560a88e[m[33m ([m[1;33mtag: 246651[m[33m, [m[1;33mtag: 246649[m[33m, [m[1;33mtag: 246648[m[33m)[m Merge pull request #294 from tecchan1107/dev_comment_count
+[33mc46f3f5[m Merge pull request #290 from tecchan1107/dev_message
+[33mb740e8c[m Merge pull request #289 from tecchan1107/dev_timeline
+[33m143d7b4[m Added GIF
+[33mfebfcf2[m Formatted JSON
+[33mdf243fc[m Added generic-comment-count
+[33m75f7157[m Updated README
+[33maf63ff6[m Added message-chat-format
+[33m8b8b388[m Added horizontal-timeline-format
+[33m558b5ef[m[33m ([m[1;33mtag: 230736[m[33m)[m Merge pull request #284 from tecchan1107/dev_time_schedule
+[33m32960e7[m[33m ([m[1;32mpr/284[m[33m)[m Minor Adjustments
+[33m6877d38[m[33m ([m[1;33mtag: 230721[m[33m, [m[1;33mtag: 230718[m[33m, [m[1;33mtag: 230717[m[33m)[m Folder Casing Fix
+[33me94259a[m Folder Fix part 1
+[33m84aa7df[m Rename Project-Gantt-Chart.json to project-gantt-chart.json
+[33m65b2485[m Merge pull request #282 from gdk-max/master
+[33mbafbf54[m[33m ([m[1;32mpr/282[m[33m)[m Minor Adjustments
+[33m62a3797[m[33m ([m[1;33mtag: 230526[m[33m)[m Merge pull request #263 from pKalaga/master
+[33me47c316[m[33m ([m[1;32mpr/263[m[33m)[m Fixed favicon
+[33m0a57e35[m[33m ([m[1;33mtag: 230468[m[33m)[m Merge pull request #287 from pnp/horse-crests
+[33m425c074[m Added Horse-Crests Sample
+[33m7cdcbff[m mkdocs adjustments
+[33m01ddfd1[m Added generic_time_schedule
+[33m047ac57[m Add files via upload
+[33mf9ca77d[m Update and rename readme.md to README.md
+[33m11132fc[m Add files via upload
+[33m2b18e8a[m Create readme.md
+[33m8036458[m Delete Project-Gantt-Chart
+[33m2f3ee7a[m Create Project-Gantt-Chart
+[33m18a5954[m Update README.md
+[33m02c0b8b[m[33m ([m[1;33mtag: 220524[m[33m, [m[1;32mhorse-crests-sample[m[33m)[m London Tubes - resolved readme image issues and fixed Flows for updated view formatting code (#277)
+[33m0808d89[m[33m ([m[1;32mpr/277[m[33m, [m[1;32mpr/276[m[33m)[m Updated Readme
+[33mcdf037c[m Adding correct updated Flows
+[33m93a0882[m Deleted incorrect Flows
+[33mf7d7029[m Revert "Updated view and flows"
+[33m6c12996[m Updated view and flows
+[33ma44376a[m Updated image size
+[33mf9c40fa[m Updated images
+[33madaccbd[m Updated Flows
+[33mb9dc869[m Update README.md
+[33m3ae1be8[m[33m ([m[1;33mtag: 218238[m[33m)[m Merge pull request #276 from LeonArmston/master
+[33mc34e60d[m Renamed Sample
+[33mfa7a025[m Update LondonTubes.json
+[33mda0b676[m[33m ([m[1;33mtag: 218118[m[33m)[m Merge pull request #272 from tecchan1107/develop_timeline-format
+[33m2a4444d[m[33m ([m[1;32mpr/272[m[33m)[m Minor Adjustments
+[33m78b9285[m[33m ([m[1;33mtag: 218116[m[33m)[m Merge pull request #271 from tecchan1107/develop_number-column-chart
+[33m4739a97[m[33m ([m[1;32mpr/271[m[33m)[m Forgot the tracking image
+[33m6caf38e[m Renamed sample
+[33maa9c2c4[m Additional Updates
+[33m0de20e8[m[33m ([m[1;33mtag: 218101[m[33m)[m Merge pull request #270 from tecchan1107/develop_date-page-a-day-calendar
+[33m4770ac2[m[33m ([m[1;32mpr/270[m[33m)[m Minor Corrections
+[33m89f26e1[m Added London Underground Line Status Web Formatting Application Example
+[33m709654b[m Updated README.md
+[33m0e9b811[m Updated RADEME.md
+[33m4e72843[m Added timeline-format
+[33m0385d15[m Added number-column-chart
+[33mcf647a0[m Added date-page-a-day-calendar
+[33m5612b17[m[33m ([m[1;33mtag: 211828[m[33m)[m Merge pull request #268 from pnp/employee-onboarding-steps
+[33m718115b[m Added Employee-Onboarding-Steps sample
+[33ma2ed193[m[33m ([m[1;33mtag: 211825[m[33m)[m Merge pull request #267 from pnp/Issue-Tracker-Planner-Cards
+[33mf11c01b[m Added README/screenshot
+[33m2cae9dd[m Update issue-tracker-planner-cards.json
+[33m7afb190[m[33m ([m[1;33mtag: 211464[m[33m)[m typo error (#266)
+[33m2b657de[m Create issue-tracker-planner-cards.json
+[33mb7d7e04[m[33m ([m[1;33mtag: 207666[m[33m)[m Updated names to standardize (#264)
+[33m164adcf[m[33m ([m[1;33mtag: 207459[m[33m)[m Update SPPlannerFormat.json (#258)
+[33me6716b7[m[33m ([m[1;33mtag: 207366[m[33m)[m Generic File Preview (#251)
+[33m12febcb[m fix duplicating schema
+[33m1bcb254[m cmdline scripts to build and generate gh-pages
+[33md84113d[m improvements in html processing
+[33m2bbfbab[m small fixes
+[33me3076dc[m add link in MkDocs
+[33mc4413fa[m app-code for tools/generator (#1)
+[33md0126ed[m[33m ([m[1;33mtag: 196864[m[33m)[m Merge pull request #262 from tomresing/master
+[33m40e86d6[m Delete SingleQuestionFAQScreenshot.png
+[33m97949e7[m Delete FAQScreenShot.png
+[33m9d20d2d[m Updating single format screenshot
+[33m2827519[m Alternate single question image
+[33me995b5a[m Corrected link to json and replaced screenshot
+[33m4bae1d9[m Merge pull request #1 from tomresing/tomresing-patch-1
+[33m3754a37[m Alternate screenshot
+[33m35ee31a[m[33m ([m[1;33mtag: 196377[m[33m)[m Adding README for FAQ sample (#261)
+[33m09caf69[m[33m ([m[1;33mtag: 186983[m[33m)[m Merge pull request #255 from pnp/thechriskent-patch-1
+[33mff4a7a1[m Update README.md
+[33m8f8c357[m Update README.md
+[33m58d794d[m Update README.md
+[33mc056f19[m[33m ([m[1;33mtag: 186981[m[33m)[m Merge pull request #245 from ganesh-sanap/master
+[33m7c659de[m[33m ([m[1;33mtag: 185438[m[33m)[m Merge pull request #254 from PopWarner/master
+[33me3f8d9b[m Updated Readme
+[33mf707c10[m Updates to use new profile picture service, https://unavatar.now.sh/.
+[33mbb91077[m[33m ([m[1;33mtag: 185432[m[33m)[m Merge pull request #249 from hugoabernier/master
+[33m1b32edb[m Merge pull request #2 from ganesh-sanap/ganesh-sanap-multi-choice-sample
+[33mc109ca9[m Added JSON code and Screenshot
+[33m000ddf1[m Create README.md
+[33m422b793[m Added screenshot
+[33m2fa1527[m Added json file
+[33m301c5b3[m Added readme
+[33mf840b1b[m[33m ([m[1;33mtag: 175242[m[33m, [m[1;33mtag: 175240[m[33m, [m[1;33mtag: 175237[m[33m)[m Update SPPlannerFormat.json
+[33m2d9295b[m Merge pull request #242 from Salman-Shafi/patch-1
+[33mebc204e[m Merge branch 'master' into patch-1
+[33mc125725[m Updating the correct JSON
+[33m5f4fbb4[m Added Screenshot and README.md files
+[33m2758714[m Merge pull request #1 from ganesh-sanap/Formatting-a-column-when-a-date-column-is-blank
+[33m2a3fdf5[m Create date-check-blank-format.json
+[33m1321696[m Update SPPlannerFormat.json
+[33m134d559[m[33m ([m[1;33mtag: 162486[m[33m)[m Merge pull request #240 from pnp/events-format
+[33mddd3125[m Initial Events Format Check in
+[33m712f4d6[m[33m ([m[1;33mtag: 151290[m[33m)[m Merge pull request #238 from pnp/text-wrap-format-Firefox-Fix
+[33mee8c418[m Update README.md
+[33mb710fbf[m Update text-wrap-format.json
+[33m47fc918[m[33m ([m[1;33mtag: 149195[m[33m)[m Merge pull request #235 from pnp/Bulletin-Board-Buttons-Addition
+[33maeeb467[m Update README.md
+[33md75637d[m Add files via upload
+[33mc8cd1e6[m Create bulletin-board-format-with-buttons.json
+[33m947a986[m[33m ([m[1;33mtag: 148844[m[33m)[m Update issue templates
+[33m493a5ee[m[33m ([m[1;33mtag: 148840[m[33m, [m[1;33mtag: 148837[m[33m)[m Update config.yml
+[33mb524eb9[m Create config.yml
+[33mee0deee[m[33m ([m[1;33mtag: 148833[m[33m)[m Delete question.md
+[33m8f03ed9[m Delete bug.md
+[33m852348b[m Update issue templates
+[33m53c135c[m[33m ([m[1;33mtag: 148817[m[33m)[m Update issue templates
+[33mc5bd937[m[33m ([m[1;33mtag: 148807[m[33m, [m[1;33mtag: 148803[m[33m)[m Delete ISSUE_TEMPLATE.md
+[33m36d3b7b[m Update issue templates
+[33m8449e14[m[33m ([m[1;33mtag: 144200[m[33m)[m Fixing typo on sample readme
+[33m76d260c[m[33m ([m[1;33mtag: 139107[m[33m)[m Update README.md
+[33ma4728b9[m[33m ([m[1;33mtag: 137618[m[33m)[m Merge pull request #228 from niketjain2020/hovercardupdate
+[33m95455df[m Update README.md
+[33m5a76278[m Update README.md
+[33m2ff75f2[m Update README.md
+[33m8c822dd[m Update README.md
+[33m8a93bf5[m hovercardupdate
+[33mf592d38[m hovercardupdate
+[33m4349978[m hovercardupdate
+[33m2e6a064[m hovercardupdate
+[33mb9ac7a6[m hovercardupdate
+[33m233bb73[m[33m ([m[1;33mtag: 134217[m[33m)[m Merge pull request #227 from SharePoint/Missing-Samples
+[33m5d32be1[m Added in-memoriam-tileProps-format Sample
+[33m047b11c[m Added current-year-rowclass Sample
+[33mdbf4017[m Added faq-format Sample
+[33m146fa91[m Added generic-video-button Sample
+[33m63b9cad[m Added date-difference Sample
+[33m3f3dcd3[m Added number-gauge Sample
+[33m1ea7451[m Added disclaimer to Alternating Row Class concerning Design Mode
+[33mc4f82e5[m[33m ([m[1;33mtag: 130647[m[33m)[m Update percent-data-bar.json
+[33m1daca88[m[33m ([m[1;33mtag: 127657[m[33m)[m Merge pull request #222 from shagra-ms/pr-193-cleanup
+[33mb2d4b4f[m Removed misplaced files
+[33m2cca8a4[m[33m ([m[1;33mtag: 125569[m[33m)[m Update number-trending-iconAST.json
+[33mdbe1d36[m[33m ([m[1;33mtag: 122605[m[33m)[m Merge pull request #218 from SharePoint/generic-rowIndex-drawing
+[33mbe7e37f[m Added generic-rowIndex-drawing sample
+[33m6aa25fc[m[33m ([m[1;33mtag: 122600[m[33m)[m Merge pull request #217 from SharePoint/custom-header-format
+[33m56aa0bb[m Added custom-header-format sample
+[33md07f892[m Updated sample YAML description
+[33m7c1a427[m Update readme.md (#212)
+[33md0d2b4c[m Merge pull request #214 from SharePoint/generic-substring-status
+[33m44a0d6a[m[33m ([m[1;31morigin/generic-substring-status[m[33m, [m[1;31mgithub-desktop-gdk-max/generic-substring-status[m[33m)[m Added generic-substring-status sample
+[33m1599bc9[m Updated README files for new samples.
+[33m510d82e[m Adding Product Catalog and Budget Tracker samples.
+[33m711945c[m Merge pull request #207 from SharePoint/multi-person-teams-chat-link
+[33mebad58b[m Added Sample
+[33md37455d[m Update multi-person-facepile.json
+[33m725ffeb[m Incorrect File Name (#202)
+[33mcd11521[m Merge pull request #206 from SharePoint/multi-person-facepile_update
+[33m6661d50[m Update README.md
+[33m9725aa6[m Update multi-person-facepile.json
+[33md1ed68e[m Added generic-icon-overlay sample (#197)
+[33m7c6b176[m Small card sample commit (#196)
+[33mfb1ba17[m Rename _Readme.md to README.md
+[33m65b5276[m Merge pull request #193 from niketjain2020/Tile_Foramtting
+[33m31f9755[m New Sample
+[33m1f00bbf[m New Sample
+[33mc8feb3a[m New Sample
+[33m4fbfd8c[m Added bar-graph-format (#182)
+[33me5905aa[m Merge pull request #185 from rk-menon/rk/tileLayoutExampleImage
+[33m1d19772[m removed header from image
+[33m5e6f508[m minor changes to JSON+image
+[33m691109f[m minor updates to words & updated JSON
+[33mc9ccb64[m Added more high res image
+[33m3653707[m Fixing typos
+[33m142a9a0[m Fixing typos
+[33m60a0c17[m Added higher res image
+[33mdffc269[m Initial commit for tile layout example
+[33m2ac8aec[m Merge pull request #184 from SharePoint/tile-update
+[33mc469941[m Updated to use tilegroups
+[33m1457e57[m Merge pull request #181 from SharePoint/Docs
+[33me41bc81[m Updated Theme
+[33m38eb9a7[m Changed by contributor to author
+[33m50a44bb[m Contribution placeholders
+[33m91899e7[m Additional groupings
+[33mc51932f[m Initial Groupings
+[33m22eea79[m Getting Started Section
+[33m3659e73[m Added main animation
+[33m4655a49[m Basic Structure
+[33mbc586cf[m Initial MKDocs setup
+[33m974f92f[m Merge pull request #179 from SharePoint/location-address
+[33m25ee003[m Added location-address sample
+[33m3876803[m Merge pull request #178 from SharePoint/thechriskent-patch-1
+[33mbf33655[m Added missing parenthesis
+[33mb19318c[m Merge pull request #175 from anoopt/master
+[33mca74c42[m Updated screenshots & adjusted Views line height
+[33m47b1589[m Renamed sample to column-graph-format
+[33m4a961d8[m Indicate when value is outside of chart scale
+[33mb7ccdaa[m Adjusted Trending Bar to work regardless of number of items
+[33m21445a8[m Normalized columns
+[33m48aaa2c[m Removed font classes and percentages within absolute positioning
+[33m3141fff[m Smaller Formatting
+[33m1d4c8b6[m Removed need for IsFirstItem column
+[33m89346bc[m Added files related to "Bar Graph" view format
+[33m566f52e[m Added View Formatting Example for Planner Inspired Task Cards (#172)
+[33m722f179[m Create date-range-rag-days-left.json (#160)
+[33m9ff7203[m Merge pull request #161 from siddharth-vaghasia/colorbasedsmileysample
+[33mb552f5b[m added sample for color based smiley
+[33medd0d55[m added file-thumbnail sample (#158)
+[33m940771d[m Update README.md
+[33ma410abb[m Update README.md
+[33m14038cd[m Sample showing publish status via modulo (#156)
+[33mc167d4e[m Added box-sizing:border-box to number-data-bar sample formats (#155)
+[33mba0471b[m Added SP2019 warnings to formats that are not applicable (#150)
+[33mb4452d7[m Added extended executeflow actionParams to rowactions sample (#147)
+[33m07f3b62[m Added generic-rowactions samples (#146)
+[33md4b26c6[m Turn FileRef field into thumbnail image or clickable hyperlink (#144)
+[33m04666d7[m Merge pull request #142 from SharePoint/Multi-Person-Facepile
+[33m003767e[m Added multi-choice-foreach sample
+[33m0900a78[m New Screenshot, simplization
+[33m222ad65[m Added the Multi-Person-Facepile sample
+[33m5da129a[m Merge pull request #138 from ejazhussain/profile-card
+[33md9cf3a6[m Sample Cleanup
+[33mb8b292c[m Merge pull request #140 from SharePoint/generic-start-flow-conditionally
+[33mb296446[m Added FlowID details
+[33m233ac28[m Simplified condition
+[33mf3f2208[m Added generic-start-flow-conditionally sample
+[33m8128f5b[m profile-card sample added
+[33mfed1fa4[m Merge pull request #135 from PopWarner/master
+[33m76d0516[m Merge pull request #134 from arielkropp/master
+[33mb63686f[m Column sample for Tolerance comparison using abs() operator
+[33meaa85dd[m update README.md view requirements for correct filed types
+[33m84f8e99[m add new CSS table sample
+[33m967da4a[m Update README.md
+[33m0e71e8c[m Add new sample number-icon-progressbar (#133)
+[33m2f0c560[m Update birthday-format.json
+[33m69c7d37[m Birthday List Formatting (#129)
+[33m579be95[m Merge pull request #130 from SharePoint/Alternating-Rows
+[33m43f18e0[m Updated Screenshots
+[33m4694013[m Added alternating-rowclass sample
+[33mcc0e8c9[m Update ISSUE_TEMPLATE.md
+[33m42b79aa[m Sample Fix
+[33m22b3bbf[m Added @currentWeb for missing picture
+[33mab8a1fd[m New list-view-formatting sample: thumbnails for Document library  (#121)
+[33m30ddc8d[m Merge pull request #122 from SharePoint/Multi-Select-Samples
+[33m494f344[m Fixed README for multi-choice-icons
+[33ma4ef235[m Added text-contains and multi-choice-icons samples
+[33m992afcb[m Added text-startswith-callingcodes sample
+[33m13f55d3[m Multi-Person Samples
+[33m2518912[m Merge pull request #120 from aprildunnam/master
+[33m443633e[m Update README.md
+[33m1d73c3c[m txt-bing-maps
+[33md9c0b2e[m Merge pull request #118 from skaggej/statuscolorsviewformat
+[33me3e4392[m Added choice-conditional-format sample
+[33maa05a8d[m Merge pull request #116 from SharePoint/text-wrap_update
+[33m846713c[m Updated Padding
+[33me18fa1b[m Added padding and updated readme
+[33mbf298dd[m Update README.md
+[33md396e25[m Merge pull request #115 from SharePoint/local-link-samples
+[33m518b65e[m Added AST versions for SP2019
+[33me8811df[m Added screenshots and READMEs
+[33m34d12f6[m Added sample json
+[33m908ddbe[m Adjusted samples to take advantage of @currentWeb (#114)
+[33m255454e[m Fixed Title
+[33m4313212[m Added contenttype-format sample (#112)
+[33m106f130[m Updating the 'Open in New Window' conditional logic for generic-tile-format (#110)
