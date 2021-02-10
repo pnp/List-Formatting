@@ -3,7 +3,7 @@
 ## Summary
 Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
 
-![Planner Format](./SPPlannerFormat.png)
+![Planner Format](./screenshot.png)
 
 ## View requirements
 
@@ -42,6 +42,6 @@ Version|Date|Comments
 
 This format takes advantage of `CustomRowActions` to enable the `defaultClick` and `delete` actions from icon buttons:
 
-![Custom Actions in Action](SPPlannerFormat.gif)
+![Custom Actions in Action](screenshot.gif)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/planner-inspired-task-card" />

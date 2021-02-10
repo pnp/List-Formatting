@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-direction": "column",
+    "width": "50px",
+    "margin": "5px",
+    "display": "=if(@currentField,'flex','none')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "=getYear(@currentField)",
+      "style": {
+        "margin": "2px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(getMonth(@currentField)==0, 'Jan', if(getMonth(@currentField)==1, 'Feb', if(getMonth(@currentField)==2, 'Mar', if(getMonth(@currentField)==3, 'Apr',  if(getMonth(@currentField)==4, 'May', if(getMonth(@currentField)==5, 'Jun', if(getMonth(@currentField)==6 , 'Jul', if(getMonth(@currentField)==7, 'Aug', if(getMonth(@currentField)==8 , 'Sep', if(getMonth(@currentField)==9, 'Oct', if(getMonth(@currentField)==10, 'Nov', if(getMonth(@currentField)==11, 'Dec', ''))))))))))))",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "width": "100%",
+        "height": "20px",
+        "border": "1px solid",
+        "margin-bottom": "-1px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themePrimary ms-fontColor-white ms-borderColor-themePrimary ms-fontWeight-bold"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=getDate(@currentField)",
+      "style": {
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "width": "48px",
+        "border": "1px solid",
+        "height": "30px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-20"
+      }
+    }
+  ]
+}

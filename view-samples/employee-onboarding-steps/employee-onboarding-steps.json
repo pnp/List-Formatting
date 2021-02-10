@@ -1,0 +1,260 @@
+{
+  "additionalRowClass": "=if(@rowIndex % 2 == 0, 'sp-css-backgroundColor-neutralBackground', 'sp-css-backgroundColor-noFill'",
+  "tileProps": {
+    "width": "300",
+    "height": "250",
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "padding": "14px",
+        "box-sizing": "border-box",
+        "height": "100%",
+        "position": "relative"
+      },
+      "attributes": {
+        "class": "='sp-css-backgroundColor-' + if([$Completeby]=='Before joining', 'blueBackground37', if([$Completeby]=='First day', 'successBackground50', if([$Completeby]=='Week 1', 'warningBackground50', if([$Completeby]=='After 30 days', 'blockingBackground', if([$Completeby]=='After 60 days', 'errorBackground', 'blueBackground27')))))"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "display": "flex",
+            "flex-direction": "column"
+          },
+          "attributes": {
+            "class": "ms-bgColor-white"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "align-items": "center",
+                "width": "100%",
+                "height": "48px",
+                "margin": "12px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "border-radius": "50%",
+                    "min-width": "48px",
+                    "height": "48px",
+                    "display": "flex",
+                    "justify-content": "center",
+                    "align-items": "center",
+                    "margin-right": "12px"
+                  },
+                  "attributes": {
+                    "class": "='sp-css-backgroundColor-' + if([$Completeby]=='Before joining', 'blueBackground37', if([$Completeby]=='First day', 'successBackground50', if([$Completeby]=='Week 1', 'warningBackground50', if([$Completeby]=='After 30 days', 'blockingBackground', if([$Completeby]=='After 60 days', 'errorBackground', 'blueBackground27')))))",
+                    "title": "= 'Step ' + (@rowIndex+1) + ': Complete ' + [$Completeby]"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-weight": "700",
+                        "font-size": "24px"
+                      },
+                      "txtContent": "=@rowIndex+1"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "[$Title]",
+                  "style": {
+                    "font-weight": "700",
+                    "font-size": "18px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$Description]",
+              "style": {
+                "margin": "0px 24px",
+                "height": "72px",
+                "text-align": "center"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "justify-content": "space-evenly"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-weight": "500",
+                        "font-size": "16px",
+                        "margin-bottom": "4px"
+                      },
+                      "txtContent": "Mentor"
+                    },
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "border-radius": "50%",
+                        "vertical-align": "middle",
+                        "width": "36px",
+                        "opacity": "=if([$Mentor],1,0.6)"
+                      },
+                      "attributes": {
+                        "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Mentor.email]",
+                        "title": "=if([$Mentor],[$Mentor.title], 'Unassigned')"
+                      },
+                      "defaultHoverField": "[$Mentor]"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-weight": "500",
+                        "font-size": "16px",
+                        "margin-bottom": "4px"
+                      },
+                      "txtContent": "Relevant link"
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "align-items": "center",
+                        "height": "36px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "a",
+                          "style": {
+                            "display": "=if([$Relevantlink],'inherit','none')"
+                          },
+                          "attributes": {
+                            "href": "[$Relevantlink]"
+                          },
+                          "txtContent": "[$Relevantlink.desc]"
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "font-style": "italic",
+                            "display": "=if([$Relevantlink],'none','inherit')"
+                          },
+                          "attributes": {
+                            "class": "ms-fontColor-neutralSecondary"
+                          },
+                          "txtContent": "None"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "left": "14px",
+                "top": "14px",
+                "right": "14px",
+                "bottom": "14px",
+                "opacity": "0.65",
+                "display": "=if([$Complete],'inherit','none')"
+              },
+              "attributes": {
+                "class": "ms-bgColor-neutralPrimary"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "left": "14px",
+                "top": "14px",
+                "right": "14px",
+                "bottom": "14px",
+                "display": "=if([$Complete],'flex','none')",
+                "flex-direction": "column",
+                "align-items": "center",
+                "justify-content": "center"
+              },
+              "attributes": {
+                "class": "ms-fontColor-white"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "relative",
+                    "height": "52px",
+                    "width": "48px"
+                  },
+                  "attributes": {
+                    "title": "='Completed on ' + [$Completedon.displayValue]"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "position": "absolute",
+                        "font-size": "48px"
+                      },
+                      "attributes": {
+                        "iconName": "CircleShapeSolid",
+                        "class": "ms-fontColor-green"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "position": "absolute",
+                        "font-size": "36px",
+                        "top": "6px",
+                        "left": "6px"
+                      },
+                      "attributes": {
+                        "iconName": "SkypeCheck",
+                        "class": "ms-fontColor-white"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-weight": "600"
+                  },
+                  "txtContent": "[$Completedon.displayValue]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

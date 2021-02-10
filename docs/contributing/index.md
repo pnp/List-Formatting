@@ -19,6 +19,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 - [Minor update or fix to an existing sample](./forking.md)
 - [Add a new sample](./sample.md)
 - [Update these docs](./docs.md)
+- [Work on one of the tools](./tools.md)
 
 > Sharing is caring!
 

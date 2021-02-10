@@ -1,0 +1,26 @@
+{
+  "elmType": "div",
+  "style": {
+      "display": "flex",
+      "justify-content": "space-between",
+      "border-radius": "10px 10px 0 0",
+      "padding": "8px",
+      "font-size": "24px"
+  },
+  "attributes": {
+      "class": "=if([$Status] == 'Done', 'ms-bgColor-greenLight', if([$Status] == 'Working on it', 'ms-bgColor-blueLight', if([$Status] == 'Thinking about it', 'ms-bgColor-neutralLight', if([$Status] == 'Nevermind', 'ms-bgColor-yellow', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
+  },
+  "children": [
+      {
+          "elmType": "div",
+          "txtContent": "[$Title]"
+      },
+      {
+          "elmType": "div",
+          "attributes": {
+              "iconName": "=if([$Status] == 'Done', 'CompletedSolid', if([$Status] == 'Working on it', 'PinnedSolid', if([$Status] == 'Thinking about it', 'TestBeakerSolid', if([$Status] == 'Nevermind', 'WarningSolid', 'Blocked2Solid'))))",
+              "title": "[$Status]"
+          }
+      }
+  ]
+}
