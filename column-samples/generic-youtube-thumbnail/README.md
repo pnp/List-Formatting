@@ -1,28 +1,29 @@
-# Custom hover card on Lists
+# YouTube Thumbnail
 
 ## Summary
-The following image shows a hyperlink column with YouTube links converted into Thumbnails with a preview shown on mouse hover:
+This sample provides a thumbnail of a YouTube video that links to the video and a larger preview image on hover.
 
 ![screenshot of the sample](./animation.gif)
 
 ## View requirements
-- This format can be applied to any hyperlink column type
+- This format can be applied to any text column but expects that value to be a URL to a YouTube video. The `Title` column is also used in the hover card.
 
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-generic-youtube-thumbnail.json | João Ferreira
+generic-youtube-thumbnail.json | [João Ferreira](https://twitter.com/Joao12Ferreira)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0|February 5, 2021|Initial release
+1.0|February 10, 2021|Initial release
 
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-youtube-thumbnail" />
