@@ -1,0 +1,188 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "height": "=if(@rowIndex == 0, '7.3em', '4em')",
+      "display": "block",
+      "width": "100%"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-gray20"
+        },
+        "style": {
+          "width": "100%",
+          "display": "=if(@rowIndex == 0, 'flex', 'none')",
+          "height": "3em",
+          "padding": ".2em",
+          "font-weight": "bold"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "Task",
+            "style": {
+              "width": "220px",
+              "text-align": "left",
+              "padding-left": "0.4em",
+              "box-sizing": "border-box"
+            },
+            "attributes": {
+              "class": "ms-fontSize-16"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "height": "100%",
+              "position": "relative"
+            },
+            "attributes": {
+              "class": "ms-fontSize-14"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "=toLocaleDateString([$ProjectStart])",
+                "style": {
+                  "text-align": "left"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=toLocaleDateString([$ProjectDue])",
+                "style": {
+                  "position": "absolute",
+                  "right": "0"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=toLocaleDateString( @now)",
+                "style": {
+                  "position": "relative",
+                  "width": "100px",
+                  "z-index": "100",
+                  "display": "=if([$ProjectDue] < @now , 'none', 'block')",
+                  "left": "=floor( (Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 ) + '%' "
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "100%",
+          "display": "flex",
+          "padding": "0.2em"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "style": {
+              "width": "21px",
+              "padding-top": "0.55em"
+            },
+            "attributes": {
+              "iconName": "=if([$Progress] >= 1, 'CompletedSolid', if([$TaskDue] > [$ProjectDue], 'WarningSolid', if([$TaskStart] > @now, 'Calendar', if([$TaskDue] < @now, 'AlarmClock', 'CircleRing'))))",
+              "title": "=if([$Progress] >= 1, 'Complete', if([$TaskDue] > [$ProjectDue], 'Due date is past project due date', if([$TaskStart] > @now, 'Upcoming task', if([$TaskDue] < @now, 'Overdue', 'In progress'))))",
+              "class": "='ms-fontSize-16 ms-fontColor-' + if([$Progress] >= 1, 'sharedGreen20', if([$TaskDue] > [$ProjectDue], 'sharedRed20', if([$TaskStart] > @now, 'gray100', if([$TaskDue]< @now, 'sharedRed20', 'sharedCyanBlue20'))))"
+            }
+          },
+          {
+            "elmType": "button",
+            "txtContent": "[$Title]",
+            "customRowAction": {
+              "action": "editProps"
+            },
+            "style": {
+              "width": "199px",
+              "max-height": "2em",
+              "padding": "0",
+              "border": "none",
+              "background-color": "transparent",
+              "cursor": "pointer",
+              "text-decoration": "none",
+              "text-align": "left",
+              "outline": "none",
+              "display": "inline-block",
+              "overflow": "hidden",
+              "text-overflow": "ellipsis"
+            },
+            "attributes": {
+              "title": "[$Title]",
+              "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "position": "relative",
+              "height": "3em",
+              "border-style": "dotted",
+              "border-width": "1px 0 1px 0"
+            },
+            "attributes": {
+              "class": "ms-borderColor-sharedGray20"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])",
+                "style": {
+                  "position": "relative",
+                  "box-sizing": "border-box",
+                  "display": "flex",
+                  "border-radius": "1em",
+                  "z-index": "1",
+                  "top": "0.2em",
+                  "height": "3em",
+                  "overflow": "hidden",
+                  "word-break": "break-word",
+                  "padding": "0.2em 0.4em",
+                  "font-size": "10px",
+                  "line-height": "12px",
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
+                  "width": "= if( [$TaskDue] > [$ProjectDue],  (Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100  ,  (Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 ) + '%'"
+                },
+                "attributes": {
+                  "title": "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])",
+                  "class": "=if([$Progress] >= 1, 'ms-borderColor-sharedGreen20 ms-bgColor-sharedYellowGreen10', if([$TaskDue] > [$ProjectDue], 'ms-borderColor-sharedRed20 ms-bgColor-sharedRed10', if([$TaskStart] > @now, 'ms-borderColor-gray100 ms-bgColor-gray40', if([$TaskDue]< @now, 'ms-borderColor-sharedRed20 ms-bgColor-sharedRed10', 'ms-borderColor-sharedCyanBlue20 ms-bgColor-sharedCyanBlue10'))))"
+                }
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "title": "=toLocaleDateString(@now)",
+                  "class": "ms-borderColor-gray40"
+                },
+                "style": {
+                  "position": "relative",
+                  "display": "=if([$ProjectDue] < @now , 'none', 'block')",
+                  "top": "-2.6em",
+                  "z-index": "100",
+                  "border-left-width": "5px",
+                  "border-left-style": "solid",
+                  "height": "3em",
+                  "width": "1em",
+                  "left": "=(Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 + '%'"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
