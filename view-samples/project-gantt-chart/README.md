@@ -21,6 +21,9 @@ This format expects the following columns to be part of the view:
 |Date|ProjectDue|Yes|
 |Date|TaskStart|Yes|
 |Date|TaskDue|Yes|
+|Number|Progress|Yes|
+
+The view should be sorted by `TaskStart`, ascending
 
 ## Sample
 
@@ -33,6 +36,7 @@ Project-Gantt-Chart | [Geert de Kooter](https://twitter.com/gdekooter)
 Version|Date|Comments
 -------|----|--------
 1.0|November 1, 2020|Initial release
+2.0|February 10, 2021| Added status Progress indicator, current date indicator, and width fixes
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
