@@ -11,7 +11,7 @@
                 "width": "100%",
                 "border": "2px dashed",
                 "padding": "10px",
-                "display": "flex",
+                "display": "=if([$Title] == '' , 'none' , 'flex')",
                 "flex-direction": "column"
             },
             "children": [
@@ -19,8 +19,7 @@
                     "elmType": "div",
                     "txtContent": "[$Title]",
                     "style": {
-                        "text-align": "center",
-                        "display": "=if([$Title] == '' , 'none' , '')"
+                        "text-align": "center"
                     },
                     "attributes": {
                         "class": "ms-fontSize-28 ms-fontWeight-bold"
