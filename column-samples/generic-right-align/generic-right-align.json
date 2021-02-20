@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "table",
+    "width": "100%"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "@currentField.displayValue",
+      "style": {
+        "display": "table-cell",
+        "text-align": "right",
+        "vertical-align": "middle"
+      }
+    }
+  ]
+}
