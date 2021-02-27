@@ -18,6 +18,7 @@
 - [date-range-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/date-range-format)
 - [date-range-rag](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/date-range-rag)
 - [date-range-rag/days-left](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/date-range-rag)
+- [date-check-blank-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/date-check-blank-format)
 
 ##### View Samples
 - [birthday-format](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/birthday-format)
@@ -108,6 +109,7 @@
 ##### Column Samples
 - [multi-choice-foreach](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-foreach)
 - [multi-choice-icons](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-icons)
+- [multi-choice-workcategory-pill](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/multi-choice-workcategory-pill)
 
 ##### View Samples
 - [rota-css-table](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/view-samples/rota-css-table)
