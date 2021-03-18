@@ -1,0 +1,32 @@
+{
+  "elmType": "div",
+  "style": {
+    "position": "relative",
+    "height": "42px"
+  },
+  "attributes": {
+    "class": "=if([$_CommentCount]>0,'ms-fontColor-themePrimary','ms-fontColor-neutralTertiary')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "36px"
+      },
+      "attributes": {
+        "iconName": "Message"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if([$_CommentCount],if([$_CommentCount] > 999, '1k+', [$_CommentCount]),0)",
+      "style": {
+        "position": "absolute",
+        "width": "36px",
+        "text-align": "center",
+        "font-size": "16px",
+        "top": "6px"
+      }
+    }
+  ]
+}
