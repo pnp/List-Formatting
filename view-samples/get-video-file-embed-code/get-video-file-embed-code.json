@@ -1,0 +1,124 @@
+{
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "debugMode": true,
+  "hideSelection": true,
+  "hideColumnHeader": false,
+  "rowFormatter": {
+      "elmType": "div",
+      "attributes": {
+          "class": "ms-borderColor-neutralLight"
+      },
+      "style": {
+          "box-sizing": "border-box",
+          "width": "100%",
+          "border-width": "1px",
+          "border-style": "solid",
+          "padding": "0 0 0 20px",
+          "margin-bottom": "10px",
+          "align-items": "stretch"
+      },
+      "children": [
+          {
+              "elmType": "div",
+              "style": {
+                  "flex": "1 0 300px",
+                  "display": "flex",
+                  "flex-wrap": "wrap"
+              },
+              "children": [
+                  {
+                      "elmType": "div",
+                      "style": {
+                          "flex": "1 0 300px",
+                          "box-sizing": "border-box",
+                          "padding": "10px"
+                      },
+                      "children": [
+                          {
+                              "elmType": "button",
+                              "attributes": {
+                                  "class": "ms-fontSize-m"
+                              },
+                              "style": {
+                                  "border": "0",
+                                  "padding": "0px",
+                                  "color": "#0077ff",
+                                  "background-color": "transparent",
+                                  "cursor": "pointer"
+                              },
+                              "txtContent": "[$FileLeafRef]",
+                              "customRowAction": {
+                                  "action": "defaultClick"
+                              }
+                          },
+                          {
+                              "elmType": "div",
+                              "attributes": {
+                                  "class": "ms-fontSize-s"
+                              },
+                              "style": {
+                                  "line-height": "1.5em",
+                                  "margin-bottom": "8px"
+                              },
+                              "txtContent": "='Modified by ' + [$Editor.title] + ', ' + toLocaleString([$Modified])"
+                          },
+                          {
+                              "elmType": "div",
+                              "attributes": {
+                                  "class": "ms-fontSize-s"
+                              },
+                              "txtContent": "=if([$File_x0020_Type] == 'mp4' || [$File_x0020_Type] == 'mov' || [$File_x0020_Type] == 'wmv' || [$File_x0020_Type] == 'avi' || [$File_x0020_Type] == 'mpg'|| [$File_x0020_Type] == 'mpeg' || [$File_x0020_Type] == 'mkv','Embed code: <div style=\"max-width: 640px\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"><iframe width=640 height=360 src=\"'+ @currentWeb + '/_layouts/15/embed.aspx?uniqueID=' + [$UniqueId] + '\" allowfullscreen style=\"border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;\"></iframe></div></div>','')"
+                          }
+                      ]
+                  },
+                  {
+                      "elmType": "div",
+                      "style": {
+                          "flex": "0 0 170px",
+                          "display": "flex",
+                          "flex-direction": "column"
+                      },
+                      "children": [
+                          {
+                              "elmType": "button",
+                              "customRowAction": {
+                                  "action": "editProps"
+                              },
+                              "txtContent": "Edit Properties",
+                              "attributes": {
+                                  "class": "sp-row-button ms-bgColor-neutralLighter ms-fontWeight-semibold"
+                              },
+                              "style": {
+                                  "width": "145px",
+                                  "height": "32px",
+                                  "margin": "20px 0 10px 0"
+                              }
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "elmType": "div",
+              "attributes": {},
+              "style": {
+                  "flex": "0 0 173px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding-right": "8px"
+              },
+              "children": [
+                  {
+                      "elmType": "img",
+                      "attributes": {
+                          "src": "@thumbnail.200x100"
+                      },
+                      "style": {
+                          "float": "right"
+                      }
+                  }
+              ]
+          }
+      ]
+  }
+}
