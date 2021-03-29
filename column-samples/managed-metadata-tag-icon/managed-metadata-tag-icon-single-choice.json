@@ -1,0 +1,54 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "width": "100%"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "margin": "5px",
+                "padding": "5px",
+                "border-radius": "10px"
+            },
+            "attributes": {
+                "class": "ms-bgColor-themePrimary"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "vertical-align": "middle",
+                        "white-space": "nowrap",
+                        "width": "auto"
+                    },
+                    "attributes": {
+                        "class": "ms-fontColor-white ms-font-s"
+                    },
+                    "children": [
+                        {
+                            "elmType": "span",
+                            "style": {
+                                "position": "relative",
+                                "top": "2px"
+                            },
+                            "attributes": {
+                                "iconName": "Tag"
+                            }
+                        },
+                        {
+                            "elmType": "span",
+                            "style": {
+                                "padding-left": "5px"
+                            },
+                            "txtContent": "@currentField"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
