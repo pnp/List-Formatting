@@ -1,0 +1,77 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "groupProps": {
+        "headerFormatter": {
+            "elmType": "div",
+            "style": {
+                "flex-direction": "row",
+                "width": "100%",
+                "overflow": "hidden"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "children": [
+                        {
+                            "elmType": "span",
+                            "txtContent": "= @group.columnDisplayName + '：'"
+                        }
+                    ]
+                },
+                {
+                    "elmType": "div",
+                    "attributes": {
+                        "class": "ms-bgColor-themeLighter ms-fontColor-neutralSecondary"
+                    },
+                    "style": {
+                        "display": "inline-flex",
+                        "align-items": "center",
+                        "height": "32px",
+                        "overflow": "hidden",
+                        "border-radius": "19px",
+                        "padding-right": "8px",
+                        "margin": "2px"
+                    },
+                    "children": [
+                        {
+                            "elmType": "img",
+                            "attributes": {
+                                "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + @group.fieldData.email",
+                                "title": "@group.fieldData.title"
+                            },
+                            "style": {
+                                "width": "32px",
+                                "height": "32px",
+                                "display": "block",
+                                "border-radius": "50%"
+                            }
+                        },
+                        {
+                            "elmType": "div",
+                            "txtContent": "@group.fieldData.title",
+                            "attributes": {
+                                "title": "@group.fieldData.title",
+                                "class": "ms-fontWeight-bold"
+                            },
+                            "style": {
+                                "padding-left": "5px",
+                                "white-space": "nowrap"
+                            }
+                        },
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "padding-left": "5px",
+                                "padding-right": "5px"
+                            },
+                            "attributes": {
+                                "class": "ms-fontWeight-bold"
+                            },
+                            "txtContent": "= '(' + @group.count + ')'"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
