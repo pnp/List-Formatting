@@ -7,10 +7,19 @@ View formatters to buid a glossary page using connected list WebParts.
 
 ## View requirements
 List 1: Glossary Filter
-This list will use only the default Title field. In this list we need to store all the alphabet letters from A to Z (or your country language variation of the alphabet if preferred) to be used later as filters.
+----
+This list will use only the default Title field. 
+----
+Field|Field Type|Details
+-----|----------|--------
+Title| Default title field|Used to store a character to be used as a filter
+---
+In this list we need to store all the alphabet letters from A to Z (or your country language variation of the alphabet if preferred) to be used later as filters.
 
 List 2: Glossary Terms
+----
 This is the list used to store all terms and descriptions. This list will consist of 3 fields:
+----
 Field|Field Type|Details
 -----|----------|--------
 Title| Default title field|Used to store the glossary term
