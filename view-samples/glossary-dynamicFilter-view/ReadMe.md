@@ -11,10 +11,11 @@ This list will use only the default Title field. In this list we need to store a
 
 List 2: Glossary Terms
 This is the list used to store all terms and descriptions. This list will consist of 3 fields:
-•	Title (default field, used to store the term)
-•	Description (Multiline text field, no rich text enabled - Used to store the description)
-•	FirstChar (calculated field to show the first character of the term. This will be the key for the whole functionality). Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).
-This will extract only the first character from the Title field and use it as the value. 
+Field|Field Type|Details
+-----|----------|--------
+Title| Default title field|Used to store the glossary term
+Description|Multiline text field, no rich text enabled|Used to store the term description)
+FirstChar|Calculated| Used too show the first character of the term. This will be the key for the whole functionality). Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).This will extract only the first character from the Title field and use it as the value. 
 
 ## Sample
 
