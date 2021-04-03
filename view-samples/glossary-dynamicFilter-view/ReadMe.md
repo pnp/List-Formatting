@@ -5,10 +5,10 @@ View formatters to buid a glossary page using connected list WebParts.
 ![Filtered Glossary](images/filteredGlossary.gif)
 
 This sample consists of two JSON files:
-
-[glossary-filter.json](./glossary-filter.json) Used to format the filter list. 
-
-[glossary-view.json](./glossary-view.json) Used to format the main list.
+File Name|Details
+---------|--------
+[glossary-filter.json](./glossary-filter.json)|Used to format the filter list. 
+[glossary-view.json](./glossary-view.json)|Used to format the main list.
 
 Two lists are needed to use this sample.
 
@@ -20,10 +20,11 @@ Type|Internal Name|Required|Details
 -----|----------|--------|--------
 Single line of text|Title|Yes|Used to store a character to be used as a filter
 
----
+
 In this list we need to store all the alphabet letters from A to Z (or your country language variation of the alphabet if preferred) to be used later as filters.
 Apply the [glossary-filter.json](./glossary-filter.json) view formatter in a view in this list.
 
+---
 List 2: Glossary Terms
 This is the list used to store all terms and descriptions. This list will consist of 3 fields:
 
