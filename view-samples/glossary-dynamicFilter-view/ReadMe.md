@@ -4,13 +4,12 @@
 View formatters to buid a glossary page using connected list WebParts. 
 ![Filtered Glossary](images/filteredGlossary.gif)
 
-This sample consists of two JSON files:
+Two lists are needed to use this sample, so two separate JSON files are used:
+
 File Name|Details
 ---------|--------
 [glossary-filter.json](./glossary-filter.json)|Used to format the filter list. 
 [glossary-view.json](./glossary-view.json)|Used to format the main list.
-
-Two lists are needed to use this sample.
 
 ## View requirements
 
