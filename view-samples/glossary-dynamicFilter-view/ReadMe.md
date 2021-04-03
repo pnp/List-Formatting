@@ -4,7 +4,7 @@
 View formatters to buid a glossary page using connected list WebParts. 
 ![Filtered Glossary](images/filteredGlossary.gif)
 
-Two lists are needed to use this sample, so two separate JSON files are used:
+Two lists are needed on this sample, so two separate JSON files are used:
 
 File Name|Details
 ---------|--------
