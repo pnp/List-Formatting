@@ -3,7 +3,7 @@
 ## Summary
 View formatters to buid a glossary page using connected list WebParts.
 
-[picture of the format in action]
+![Document Library Sample](filteregGlossary.gif)
 
 ## View requirements
 List 1: Glossary Filter
