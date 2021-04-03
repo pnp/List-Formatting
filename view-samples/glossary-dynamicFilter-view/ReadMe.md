@@ -76,6 +76,7 @@ Version|Date|Comments
 ## Additional notes
 
 References:
+
 Glossary content was built using Microsoft Terminology Collection:
 https://www.microsoft.com/en-us/language/Terminology
 
