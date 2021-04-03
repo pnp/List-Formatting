@@ -5,8 +5,11 @@ View formatters to buid a glossary page using connected list WebParts.
 ![Filtered Glossary](images/filteredGlossary.gif)
 
 This sample consists of two JSON files:
+
 [glossary-filter.json](./glossary-filter.json) Used to format the filter list. 
+
 [glossary-view.json](./glossary-view.json) Used to format the main list.
+
 Two lists are needed to use this sample.
 
 ## View requirements
@@ -29,6 +32,7 @@ Type|Internal Name|Required|Details
 Single line of text|Title|Yes|Used to store the glossary term
 Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled)
 Calculated|FirstChar| |Used too show the first character of the term. This will be the key for the whole functionality). Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).This will extract only the first character from the Title field and use it as the value. 
+
 Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in this list.
 
 ## Setting up the glossary page
