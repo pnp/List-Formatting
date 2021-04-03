@@ -56,8 +56,12 @@ Version|Date|Comments
 ## Additional notes
 Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
-- topic 1
-- topic 2
-- topic 3
+References:
+Glossary content was built using Microsoft Terminology Collection:
+https://www.microsoft.com/en-us/language/Terminology
+
+JSON for Glossary view was adapted from the FAQ Sample from PnP GitHub Samples:
+https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/faq-format
+
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
