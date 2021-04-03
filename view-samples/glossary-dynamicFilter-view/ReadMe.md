@@ -1,4 +1,4 @@
-# Glossary View Formatters - To be used in connected list WebParts
+# Glossary View Formatters (connected list WebParts)
 
 ## Summary
 View formatters to buid a glossary page using connected list WebParts. 
