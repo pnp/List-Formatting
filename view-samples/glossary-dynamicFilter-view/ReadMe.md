@@ -30,8 +30,8 @@ This is the list used to store all terms and descriptions. This list will consis
 Type|Internal Name|Required|Details
 -----|----------|--------|--------
 Single line of text|Title|Yes|Used to store the glossary term
-Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled)
-Calculated|FirstChar| |Used too show the first character of the term. This will be the key for the whole functionality). Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).This will extract only the first character from the Title field and use it as the value. 
+Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled
+Calculated|FirstChar| |Used too show the first character of the term. This is the key for the whole functionality. Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).This will extract only the first character from the Title field and use it as the value. 
 
 Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in this list.
 
@@ -74,7 +74,6 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
 References:
 Glossary content was built using Microsoft Terminology Collection:
