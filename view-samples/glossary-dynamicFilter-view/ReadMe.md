@@ -1,4 +1,4 @@
-# Glossary View Formatter - To be used in connected list WebParts
+# Glossary View Formatters - To be used in connected list WebParts
 
 ## Summary
 View formatters to buid a glossary page using connected list WebParts. 
@@ -37,7 +37,7 @@ Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in
 
 ## Setting up the glossary page
 
-Create a new blank page under your site and add a single column section.
+Create a new blank page and add a single column section.
 On this section, add a first List WebPart for the Glossary Filter list and use the following settings for the WebPart (hide the command bar so only the view content is shown):
 
 ![Filtered Glossary](images/gFilterWPSetup.PNG)
