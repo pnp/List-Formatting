@@ -48,6 +48,13 @@ Add another list WebPart below it, but now select the Glossary Terms list, with 
 
 Rename the webparts as desired, save and publish your page to get the correct settings applied. 
 
+In the example shown above, they were renamed from:
+
+-Glossary Terms to Terms
+
+-Glossary Filters to Glossary
+
+
 ## Sample
 
 Solution|Author(s)
