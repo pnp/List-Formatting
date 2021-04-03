@@ -59,7 +59,7 @@ To be more user friendly, in the example shown above they were renamed from:
 
 Solution|Author(s)
 --------|---------
-glossary-filter.json |  [Michel Mendes](https://twitter.com/michelcarlo)
+glossary-filter.json | Michel Mendes ([@michelcarlo](https://twitter.com/michelcarlo) / [michelcarlo.com](https://michelcarlo.com/))
 glossary-view.json | [Michel Mendes](https://twitter.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://twitter.com/theChrisKent)
 
 ## Version history
