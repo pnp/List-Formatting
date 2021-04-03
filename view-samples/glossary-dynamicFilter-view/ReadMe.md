@@ -5,7 +5,7 @@ View formatters to buid a glossary page using connected list WebParts.
 ![Filtered Glossary](images/filteredGlossary.gif)
 
 This sample consists of two JSON files:
-[glossary-filter.json](./glossary-filter.json) Used to format the filter list. lalalalal
+[glossary-filter.json](./glossary-filter.json) Used to format the filter list. 
 [glossary-view.json](./glossary-view.json) Used to format the main list.
 Two lists are needed to use this sample.
 
@@ -27,7 +27,7 @@ This is the list used to store all terms and descriptions. This list will consis
 Type|Internal Name|Required|Details
 -----|----------|--------|--------
 Single line of text|Title|Yes|Used to store the glossary term
-Multiline text field| Description|Yes|Used to store the term description, no rich text enabled)
+Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled)
 Calculated|FirstChar| |Used too show the first character of the term. This will be the key for the whole functionality). Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1).This will extract only the first character from the Title field and use it as the value. 
 Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in this list.
 
@@ -41,6 +41,8 @@ On this section, add a first List WebPart for the Glossary Filter list and use t
 Add another list WebPart below it, but now select the Glossary Terms list, with the following settings (remember to hide the command bar so only the custom view will be shown):
 
 ![Filtered Glossary](images/gTermsWPSetup.PNG)
+
+Rename the webparts as desired, save and publish your page to get the correct settings applied. 
 
 ## Sample
 
