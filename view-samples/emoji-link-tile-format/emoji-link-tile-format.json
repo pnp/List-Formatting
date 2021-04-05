@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "height": 200,
+  "width": 250,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "border-left": "10px solid",
+        "display": "flex",
+        "flex-direction": "row",
+        "width": "98%",
+        "height": "50px",
+        "margin-top": "10px",
+        "margin-bottom": "10px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeLighter ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "@group.fieldData.displayValue",
+          "style": {
+            "padding-left": "25px",
+            "font-size": "20px",
+            "padding-right": "10px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-neutralPrimary ms-fontWeight-bold"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "= '(' + @group.count + ')'",
+          "style": {
+            "font-size": "20px",
+            "padding-right": "10px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-neutralPrimary ms-fontWeight-bold"
+          }
+        }
+      ]
+    }
+  },
+  "formatter": {
+    "elmType": "a",
+    "style": {
+      "diplay": "flex",
+      "flex-direction": "column",
+      "width": "230px",
+      "height": "180px",
+      "box-shadow": "0 4px 12px rgba(0,0,0,.2)",
+      "border": "1px solid",
+      "border-radius": "10px",
+      "cursor": "pointer",
+      "text-decoration": "none",
+      "margin": "10px"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralTertiaryAlt ms-bgColor-white",
+      "href": "[$URL]",
+      "target": "_blank"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "height": "70%",
+          "width": "100%",
+          "border-radius": "10px 10px 0px 0px",
+          "justify-content": "center",
+          "align-items": "center"
+        },
+        "txtContent": "[$Emoji]",
+        "attributes": {
+          "class": "ms-bgColor-themePrimary ms-fontSize-68"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "center",
+          "width": "85%",
+          "height": "30%",
+          "font-size": "16px",
+          "white-space": "nowrap",
+          "overflow": "hidden"
+        },
+        "txtContent": "[$Title]",
+        "attributes": {
+          "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+        }
+      }
+    ]
+  }
+}
