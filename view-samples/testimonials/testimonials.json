@@ -5,17 +5,14 @@
     "elmType": "div",
     "style": {
       "display": "flex",
-      "flex-direction": "row",
+      "flex-direction": "=if(@rowIndex % 2 == 0,'row','row-reverse')",
       "align-content": "start",
       "flex-wrap": "wrap",
-      "padding-left": "=if(@rowIndex % 2 == 0,'5px','')",
-      "padding-right": "=if(@rowIndex % 2 == 0,'','5px')",
-      "width": "100%",
-      "background-color": "#f0f0f0",
-      "direction": "=if(@rowIndex % 2 == 0,'ltr','rtl')"
+      "padding": "5px",
+      "width": "100%"
     },
     "attributes": {
-      "class": "ms-fontColor-themePrimary"
+      "class": "ms-bgColor-neutralLighter"
     },
     "children": [
       {
@@ -24,12 +21,12 @@
           "border-radius": "50px",
           "width": "150px",
           "height": "150px",
-          "border": "solid",
-          "border-color": "currentColor",
-          "border-width": "thick"
+          "border-width": "thick",
+          "border-style": "solid"
         },
         "attributes": {
-          "src": "='/_layouts/15/userphoto.aspx?size=L&username='+[$BusinessLead.email]"
+          "src": "=getUserImage([$BusinessLead.email],'large')",
+          "class": "ms-borderColor-themePrimary"
         },
         "defaultHoverField": "[$BusinessLead]"
       },
@@ -39,10 +36,9 @@
           "display": "flex",
           "align-content": "start",
           "align-self": "stretch",
-          "border": "solid",
-          "border-color": "currentColor",
-          "border-radius": "10px",
           "border-width": "thick",
+          "border-style": "solid",
+          "border-radius": "10px",
           "font-family": "fangsong",
           "font-size": "large",
           "height": "100px",
@@ -55,21 +51,24 @@
           "border-left": "=if(@rowIndex % 2 == 0,'none','')",
           "border-right": "=if(@rowIndex % 2 == 0,'','none')"
         },
+        "attributes": {
+          "class": "ms-borderColor-themePrimary ms-fontColor-neutralPrimary"
+        },
         "children": [
           {
             "elmType": "svg",
             "style": {
-              "width": "=if(@rowIndex % 2 == 0,'50px','0px')",
+              "width": "50px",
               "height": "50px",
-              "padding-left": "=if(@rowIndex % 2 == 0,'10px','0px')"
+              "padding-left": "=if(@rowIndex % 2 == 0,'10px','0')",
+              "fill": "currentColor"
             },
             "children": [
               {
                 "elmType": "path",
                 "style": {
                   "width": "100%",
-                  "height": "50px",
-                  "display": "=if(@rowIndex % 2 == 0,'','none')"
+                  "height": "50px"
                 },
                 "attributes": {
                   "d": "M5.278 6.711c-.841 1.39-1.278 2.942-1.278 4.289v2h4v6h-6v-5.391c0-2.936 1.176-5.333 3.278-6.898zm13.993.011c-.836 1.386-1.271 2.934-1.271 4.278v2h4v6h-6v-5.391c0-2.93 1.184-5.322 3.271-6.887zm3.729-3.722c-5.252 1.039-8.983 4.905-8.983 10.609v7.391h9.983v-10h-4c0-2.211 1.562-4.932 3.995-5.849l-.995-2.151zm-14 0c-5.252 1.039-9 4.905-9 10.609v7.391h9.983v-10h-3.983c0-2.211 1.563-4.932 3.996-5.849l-.996-2.151z"
@@ -80,39 +79,14 @@
           {
             "elmType": "span",
             "style": {
-              "display": "flex",
-              "align-content": "start",
-              "align-self": "stretch",
-              "color": "black",
-              "font-style": "oblique",
+              "font-style": "italic",
               "text-align": "center",
               "padding": "10px",
-              "max-width": "=if(length([$Statement]) > 135, '340px', '306px')",
-              "margin-right": "=if(length([$Statement]) > 135, '0px', '15px')",
-              "overflow-y": "auto",
-              "direction": "=if(@rowIndex % 2 == 0,'','ltr')"
+              "max-width": "340px",
+              "margin-right": "15px",
+              "overflow-y": "auto"
             },
             "txtContent": "[$Statement]"
-          },
-          {
-            "elmType": "svg",
-            "style": {
-              "width": "=if(@rowIndex % 2 == 0,'0px','50px')",
-              "height": "50px"
-            },
-            "children": [
-              {
-                "elmType": "path",
-                "style": {
-                  "width": "100%",
-                  "height": "50px",
-                  "display": "=if(@rowIndex % 2 == 0,'none','')"
-                },
-                "attributes": {
-                  "d": "M5.278 6.711c-.841 1.39-1.278 2.942-1.278 4.289v2h4v6h-6v-5.391c0-2.936 1.176-5.333 3.278-6.898zm13.993.011c-.836 1.386-1.271 2.934-1.271 4.278v2h4v6h-6v-5.391c0-2.93 1.184-5.322 3.271-6.887zm3.729-3.722c-5.252 1.039-8.983 4.905-8.983 10.609v7.391h9.983v-10h-4c0-2.211 1.562-4.932 3.995-5.849l-.995-2.151zm-14 0c-5.252 1.039-9 4.905-9 10.609v7.391h9.983v-10h-3.983c0-2.211 1.563-4.932 3.996-5.849l-.996-2.151z"
-                }
-              }
-            ]
           }
         ]
       }
