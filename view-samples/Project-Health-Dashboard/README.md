@@ -16,10 +16,11 @@ This format expects the following columns to be part of the view:
 |---|---|:---:|---|
 |Single line of text|Title|Yes|
 |Mulit-Person|ProjectMembers|Yes|
-|Single line of text|ProjectCost|Yes|
+|Currency|ProjectCost|Yes|
 |Number|Risk|Yes|
 |Yes/No|OnSchedule|Yes|
 |Choice|Severity|Yes|Critical, Poor, Fair, Good|
+|Multi-Text|ProjectUpdates|Yes|
 
 ## Sample
 
