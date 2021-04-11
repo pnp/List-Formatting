@@ -3,7 +3,6 @@
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
-    "debugMode": true,
     "elmType": "div",
     "style": {
       "display": "block",
@@ -34,22 +33,23 @@
           "display": "flex",
           "width": "50%",
           "justify-content": "space-between",
-          "float": "=if(@rowIndex%2==0,'left','right')",
-          "direction": "=if(@rowIndex%2==0,'rtl','ltr')",
-          "margin": "=if(@rowIndex%2==0,'0 0 0 8px','0 8px 0 0')"
+          "float": "=if(@rowIndex % 2 == 0, 'left', 'right')",
+          "flex-direction": "=if(@rowIndex % 2 == 0, 'row-reverse', 'row')",
+          "margin": "=if(@rowIndex % 2 == 0, '0 0 0 8px', '0 8px 0 0')"
         },
         "children": [
           {
             "elmType": "div",
             "attributes": {
-              "class": "ms-bgColor-themePrimary"
+              "class": "ms-bgColor-themePrimary ms-borderColor-themeLighterAlt"
             },
             "style": {
               "box-sizing": "border-box",
               "width": "16px",
               "height": "16px",
               "border-radius": "50%",
-              "border": "2px solid #F5F7FA",
+              "border-width": "2px",
+              "border-style": "solid",
               "margin-top": "10px",
               "z-index": "9999"
             }
@@ -69,12 +69,16 @@
                 },
                 "style": {
                   "margin": "5px 0",
-                  "font-weight": "500"
+                  "font-weight": "500",
+                  "text-align": "=if(@rowIndex % 2 == 0, 'right', 'left')"
                 },
                 "txtContent": "[$Title]"
               },
               {
                 "elmType": "div",
+                "style": {
+                  "text-align": "=if(@rowIndex % 2 == 0, 'right', 'left')"
+                },
                 "attributes": {
                   "class": "ms-fontSize-16 ms-fontColor-neutralTertiary"
                 },
@@ -88,7 +92,8 @@
                 "style": {
                   "line-height": "1.5em",
                   "word-spacing": "1px",
-                  "font-weight": "600"
+                  "font-weight": "600",
+                  "text-align": "=if(@rowIndex % 2 == 0, 'right', 'left')"
                 },
                 "txtContent": "[$Description]"
               }

@@ -1,7 +1,7 @@
 # Chronological Format
 
 ## Summary
-This sample formats your SharePoint list view to look like a chronological order.
+This sample formats your view to look like a chronological timeline.
 This view is responsive.
 
 chronological-format.json
@@ -31,4 +31,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/timeline-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/chronological-format" />
