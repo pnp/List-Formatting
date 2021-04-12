@@ -60,7 +60,7 @@
             "style": {
               "width": "50px",
               "height": "50px",
-              "padding-left": "=if(@rowIndex % 2 == 0,'10px','0')",
+              "padding-left": "=if(@rowIndex % 2 == 0,'10px','2px')",
               "fill": "currentColor"
             },
             "children": [
@@ -83,7 +83,8 @@
               "text-align": "center",
               "padding": "10px",
               "max-width": "340px",
-              "margin-right": "15px",
+              "width": "100%",
+              "margin-right": "=if(@rowIndex %2 == 0, '0', '6px')",
               "overflow-y": "auto"
             },
             "txtContent": "[$Statement]"
