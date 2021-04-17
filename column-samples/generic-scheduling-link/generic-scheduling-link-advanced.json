@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-direction": "row"
+  },
+  "attributes": {
+    "class": "ms-fontSize-xxl"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "style": {
+        "text-decoration": "none"
+      },
+      "attributes": {
+        "href": "= 'https://teams.microsoft.com/l/meeting/new?subject=' + [$Title] + '&content=' + [$Content] + '&startTime=' + getYear([$Start])+'-'+padStart(toString(getMonth([$Start])+1),2,'0')+'-'+padStart(toString(getDate([$Start])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$Start]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')),2,'0'))+':'+substring(toLocaleTimeString([$Start]),indexOf(toLocaleTimeString([$Start]),':')+1,indexOf(toLocaleTimeString([$Start]),' ')) + '&endTime=' + getYear([$End])+'-'+padStart(toString(getMonth([$End])+1),2,'0')+'-'+padStart(toString(getDate([$End])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$End]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')),2,'0'))+':'+substring(toLocaleTimeString([$End]),indexOf(toLocaleTimeString([$End]),':')+1,indexOf(toLocaleTimeString([$End]),' '))",
+        "target": "_blank",
+        "iconName": "TeamsLogo",
+        "class": "ms-fontColor-themePrimary"
+      }
+    },
+    {
+      "elmType": "a",
+      "style": {
+        "text-decoration": "none",
+        "margin-left": "15px"
+      },
+      "attributes": {
+        "href": "= 'https://outlook.office.com/owa/?path=/calendar/action/compose&subject=' + [$Title] + '&body=' + [$Content] + '&startdt=' + getYear([$Start])+'-'+padStart(toString(getMonth([$Start])+1),2,'0')+'-'+padStart(toString(getDate([$Start])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$Start]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')),2,'0'))+':'+substring(toLocaleTimeString([$Start]),indexOf(toLocaleTimeString([$Start]),':')+1,indexOf(toLocaleTimeString([$Start]),' ')) + '&enddt=' + getYear([$End])+'-'+padStart(toString(getMonth([$End])+1),2,'0')+'-'+padStart(toString(getDate([$End])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$End]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')),2,'0'))+':'+substring(toLocaleTimeString([$End]),indexOf(toLocaleTimeString([$End]),':')+1,indexOf(toLocaleTimeString([$End]),' '))",
+        "target": "_blank",
+        "iconName": "OutlookLogo",
+        "class": "ms-fontColor-themePrimary"
+      }
+    }
+  ]
+}

@@ -24,10 +24,17 @@ You need `FormattedStart` and `FormattedEnd` Calculated Columns so that it shows
 
 `=TEXT([End],"yyyy-mm-ddThh:mm:ss")`
 
+### Advanced Format
+
+Alternatively, an additional format (generic-scheduling-link-advanced.json) is included that will eliminate the need for the Calculated Columns (`FormattedStart` & `FormattedEnd`). This is done by parsing the results of the `toLocaleTimeString` operation and is assuming results return in the format `h:mm:ss tt` (12 hour clock with minutes, seconds, and the ante/post meridiem indicator). This matches the local time format in the United States and several other countries.
+
+These formulas have been put into the separate format because they are difficult to read and are not universally applicable. If you are targeting multiple regions with varying locale formats it is advised to use the calculated columns and the standard version of the format.
+
 ## Sample
 Solution                     |Author(s)
 -----------------------------|---------------------------
 generic-scheduling-link.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+generic-scheduling-link-advanced.json |[Tetsuya Kawahara](https://twitter.com/techan_k) & [Chris Kent](https://twitter.com/thechriskent)
 
 ## Version history
 
@@ -39,6 +46,6 @@ Version |Date             |Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ## Additional notes
-- [Create deep links to content and features in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links)
+- [Create deep links to content and features in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#generating-a-deep-link-to-the-scheduling-dialog)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-scheduling-link" />
