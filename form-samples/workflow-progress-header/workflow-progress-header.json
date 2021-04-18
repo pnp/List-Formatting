@@ -1,140 +1,140 @@
 {
-    "elmType": "div",
-    "style": {
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "width": "100%"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
         "display": "flex",
-        "align-items": "center",
-        "justify-content": "center",
+        "flex-wrap": "wrap",
+        "flex-direction": "row",
+        "justify-content": "space-evenly",
         "width": "100%"
-    },
-    "children": [
+      },
+      "children": [
         {
-            "elmType": "div",
-            "style": {
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "flex-direction": "row",
-                "justify-content": "space-evenly",
-                "width": "100%"
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "column",
+            "align-items": "center",
+            "margin": "20px",
+            "white-space": "nowrap"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "Process1",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
             },
-            "children": [
-                {
-                    "elmType": "div",
-                    "style": {
-                        "display": "flex",
-                        "flex-direction": "column",
-                        "align-items": "center",
-                        "margin": "20px",
-                        "white-space": "nowrap"
-                    },
-                    "children": [
-                        {
-                            "elmType": "div",
-                            "txtContent": "Process1",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "iconName": "=if(Number([$Date1]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
-                                "class": "=if(Number([$Date1]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "txtContent": "=toLocaleDateString([$Date1])",
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "elmType": "div",
-                    "style": {
-                        "display": "flex",
-                        "flex-direction": "column",
-                        "align-items": "center",
-                        "margin": "20px",
-                        "white-space": "nowrap"
-                    },
-                    "children": [
-                        {
-                            "elmType": "div",
-                            "txtContent": "Process2",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "iconName": "=if(Number([$Date2]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
-                                "class": "=if(Number([$Date2]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "txtContent": "=toLocaleDateString([$Date2])",
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "elmType": "div",
-                    "style": {
-                        "display": "flex",
-                        "flex-direction": "column",
-                        "align-items": "center",
-                        "margin": "20px",
-                        "white-space": "nowrap"
-                    },
-                    "children": [
-                        {
-                            "elmType": "div",
-                            "txtContent": "Process3",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "style": {
-                                "margin-bottom": "10px"
-                            },
-                            "attributes": {
-                                "iconName": "=if(Number([$Date3]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
-                                "class": "=if(Number([$Date3]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
-                            }
-                        },
-                        {
-                            "elmType": "div",
-                            "txtContent": "=toLocaleDateString([$Date3])",
-                            "attributes": {
-                                "class": "ms-fontSize-18"
-                            }
-                        }
-                    ]
-                }
-            ]
+            {
+              "elmType": "div",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "iconName": "=if(Number([$Date1]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+                "class": "=if(Number([$Date1]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=toLocaleDateString([$Date1])",
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "column",
+            "align-items": "center",
+            "margin": "20px",
+            "white-space": "nowrap"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "Process2",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "iconName": "=if(Number([$Date2]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+                "class": "=if(Number([$Date2]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=toLocaleDateString([$Date2])",
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "column",
+            "align-items": "center",
+            "margin": "20px",
+            "white-space": "nowrap"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "Process3",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "iconName": "=if(Number([$Date3]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+                "class": "=if(Number([$Date3]) == 0 ,'ms-fontSize-42 ms-fontColor-neutralTertiary' , 'ms-fontSize-42 ms-fontColor-success')"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=toLocaleDateString([$Date3])",
+              "attributes": {
+                "class": "ms-fontSize-18"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
