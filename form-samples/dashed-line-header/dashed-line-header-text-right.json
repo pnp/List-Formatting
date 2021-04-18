@@ -1,42 +1,42 @@
 {
-    "elmType": "div",
-    "attributes": {
-        "class": "ms-bgColor-themePrimary ms-fontColor-white"
-    },
-    "children": [
+  "elmType": "div",
+  "attributes": {
+    "class": "ms-bgColor-themePrimary ms-fontColor-white"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "10px",
+        "width": "100%",
+        "border": "2px dashed",
+        "padding": "10px",
+        "display": "=if([$Title] == '' , 'none' , 'flex')",
+        "flex-direction": "column"
+      },
+      "children": [
         {
-            "elmType": "div",
-            "style": {
-                "margin": "10px",
-                "width": "100%",
-                "border": "2px dashed",
-                "padding": "10px",
-                "display": "=if([$Title] == '' , 'none' , 'flex')",
-                "flex-direction": "column"
-            },
-            "children": [
-                {
-                    "elmType": "div",
-                    "txtContent": "[$Title]",
-                    "style": {
-                        "text-align": "right"
-                    },
-                    "attributes": {
-                        "class": "ms-fontSize-28 ms-fontWeight-bold"
-                    }
-                },
-                {
-                    "elmType": "div",
-                    "txtContent": "[$Description]",
-                    "style": {
-                        "text-align": "right",
-                        "display": "=if([$Description] == '' , 'none' , '')"
-                    },
-                    "attributes": {
-                        "class": "ms-fontSize-16"
-                    }
-                }
-            ]
+          "elmType": "div",
+          "txtContent": "[$Title]",
+          "style": {
+            "text-align": "right"
+          },
+          "attributes": {
+            "class": "ms-fontSize-28 ms-fontWeight-bold"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "[$Description]",
+          "style": {
+            "text-align": "right",
+            "display": "=if([$Description] == '' , 'none' , '')"
+          },
+          "attributes": {
+            "class": "ms-fontSize-16"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
