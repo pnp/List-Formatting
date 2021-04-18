@@ -14,10 +14,10 @@ dashed-line-header-text-right.json
 
 ## View requirements
 
-|Type                                |Internal Name|Required|
-|------------------------------------|-------------|:------:|
-|Single line of text                 |Title        |Yes     |
-|Multiple lines of text line of text |Description  |No      |
+|Type                   |Internal Name|Required|
+|-----------------------|-------------|:------:|
+|Single line of text    |Title        |Yes     |
+|Multiple lines of text |Description  |No      |
 
 ## Sample
 
