@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "flex-start",
+    "padding": "11px 0",
+    "min-height": "0"
+  },
+  "children": [
+    {
+      "forEach": "itemIterator in @currentField",
+      "elmType": "div",
+      "txtContent": "[$itemIterator.lookupValue]",
+      "style": {
+        "padding-bottom": "1px"
+      }
+    }
+  ]
+}

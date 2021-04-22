@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "flex-start",
+    "padding": "11px 0",
+    "min-height": "0"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "=if(indexOf(@currentField,';')>=0,substring(@currentField,0,indexOf(@currentField,';')),@currentField)",
+      "style": {
+        "display": "=if(@currentField,'inherit','none')",
+        "padding-bottom": "1px"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')>=0,substring(substring(@currentField,indexOf(@currentField,';')+2,1000),0,indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')),substring(@currentField,indexOf(@currentField,';')+2,1000))",
+      "style": {
+        "display": "=if(indexOf(@currentField,';')>=0,'inherit','none')",
+        "padding-bottom": "1px"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')>=0,substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),0,indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')),substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000))",
+      "style": {
+        "display": "=if(indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')>=0,'inherit','none')",
+        "padding-bottom": "1px"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')>=0,substring(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),0,indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')),substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000))",
+      "style": {
+        "display": "=if(indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')>=0,'inherit','none')",
+        "padding-bottom": "1px"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(indexOf(substring(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')+2,1000),';')>=0,substring(substring(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')+2,1000),0,indexOf(substring(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')+2,1000),';')),substring(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')+2,1000))",
+      "style": {
+        "display": "=if(indexOf(substring(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),indexOf(substring(substring(@currentField,indexOf(@currentField,';')+2,1000),indexOf(substring(@currentField,indexOf(@currentField,';')+2,1000),';')+2,1000),';')+2,1000),';')>=0,'inherit','none')",
+        "padding-bottom": "1px"
+      }
+    }
+  ]
+}
