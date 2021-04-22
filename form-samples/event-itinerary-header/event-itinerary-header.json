@@ -266,7 +266,7 @@
                     },
                     {
                       "elmType": "span",
-                      "txtContent": "[$Capacity]"
+                      "txtContent": "[$Capacity.displayValue]"
                     }
                   ]
                 }
