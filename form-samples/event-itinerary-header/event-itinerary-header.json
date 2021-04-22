@@ -153,11 +153,13 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "display": "=if([$SessionType] == '' , 'none' , '')",
+                    "display": "=if([$SessionType] == '' , 'none' , 'flex')",
                     "border-radius": "10px",
                     "padding": "5px 10px 5px 10px",
                     "white-space": "nowrap",
-                    "margin": "5px"
+                    "margin": "5px",
+                    "align-items": "center",
+                    "line-height": "14px"
                   },
                   "attributes": {
                     "class": "ms-bgColor-white"
@@ -181,11 +183,13 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "display": "=if(Number([$StartDateAndTime]) == 0 , 'none' , '')",
+                    "display": "=if(Number([$StartDateAndTime]) == 0 , 'none' , 'flex')",
                     "border-radius": "10px",
                     "padding": "5px 10px 5px 10px",
                     "white-space": "nowrap",
-                    "margin": "5px"
+                    "margin": "5px",
+                    "align-items": "center",
+                    "line-height": "14px"
                   },
                   "attributes": {
                     "class": "ms-bgColor-white"
@@ -209,11 +213,13 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "display": "=if([$Location] == '' , 'none' , '')",
+                    "display": "=if([$Location] == '' , 'none' , 'flex')",
                     "border-radius": "10px",
                     "padding": "5px 10px 5px 10px",
                     "white-space": "nowrap",
-                    "margin": "5px"
+                    "margin": "5px",
+                    "align-items": "center",
+                    "line-height": "14px"
                   },
                   "attributes": {
                     "class": "ms-bgColor-white"
@@ -237,11 +243,13 @@
                 {
                   "elmType": "div",
                   "style": {
-                    "display": "=if([$Capacity] == '' , 'none' , '')",
+                    "display": "=if([$Capacity] == '' , 'none' , 'flex')",
                     "border-radius": "10px",
                     "padding": "5px 10px 5px 10px",
                     "white-space": "nowrap",
-                    "margin": "5px"
+                    "margin": "5px",
+                    "align-items": "center",
+                    "line-height": "14px"
                   },
                   "attributes": {
                     "class": "ms-bgColor-white"

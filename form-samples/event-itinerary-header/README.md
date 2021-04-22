@@ -1,15 +1,17 @@
 # Event Itinerary Header
 
 ## Summary
-This sample shows a customized header for the "Event itinerary" list in the list template.
-
-![image on the list template](./event_itinerary.png)
+This sample shows a customized header for the item form used in the "Event itinerary" list template.
 
 ![screenshot of the sample](./screenshot.png)
 
-## View requirements
+This format is intended for the Header Format of the form body in the Configure Layout panel. The body layout shown in the screenshot can be obtained by configuring sections within the Body panel (not included in this format).
 
-The following fields are all included in the "Event itinerary" template.
+## Form requirements
+
+The following fields are all included in the "Event itinerary" template. You can find this template in the new List dialog:
+
+![image on the list template](./listtemplates.png)
 
 |Type                   |Internal Name    |Required|
 |-----------------------|-----------------|:------:|
