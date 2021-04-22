@@ -1,0 +1,114 @@
+{
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "flex-direction": "row",
+    "justify-content": "space-evenly",
+    "width": "100%"
+  },
+  "attributes": {
+    "class": "ms-fontSize-18"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "margin": "20px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "Process 1",
+          "style": {
+            "margin-bottom": "10px"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "10px"
+          },
+          "attributes": {
+            "iconName": "=if(Number([$Date1]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+            "class": "='ms-fontSize-42' + if(Number([$Date1]) == 0 ,' ms-fontColor-neutralTertiary' , ' ms-fontColor-success')"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=toLocaleDateString([$Date1])"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "margin": "20px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "Process 2",
+          "style": {
+            "margin-bottom": "10px"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "10px"
+          },
+          "attributes": {
+            "iconName": "=if(Number([$Date2]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+            "class": "='ms-fontSize-42' + if(Number([$Date2]) == 0 ,' ms-fontColor-neutralTertiary' , ' ms-fontColor-success')"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=toLocaleDateString([$Date2])"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "margin": "20px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "Process 3",
+          "style": {
+            "margin-bottom": "10px"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "10px"
+          },
+          "attributes": {
+            "iconName": "=if(Number([$Date3]) == 0 ,'CircleShapeSolid' , 'CompletedSolid')",
+            "class": "='ms-fontSize-42' + if(Number([$Date3]) == 0 ,' ms-fontColor-neutralTertiary' , ' ms-fontColor-success')"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=toLocaleDateString([$Date3])"
+        }
+      ]
+    }
+  ]
+}
