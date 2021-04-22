@@ -1,7 +1,7 @@
 # Workflow Progress Header
 
 ## Summary
-This is a sample that displays a check mark in the header when a date is entered.
+This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit.
 
 ![screenshot of the sample](./screen_capture.gif)
 
