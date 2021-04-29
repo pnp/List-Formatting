@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "width": "100%",
+    "height": "100%",
+    "align-items": "center",
+    "justify-content": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "width": "65px",
+        "height": "30px",
+        "border-radius": "20px",
+        "align-items": "center",
+        "flex-direction": "row",
+        "justify-content": "=if(@currentField , 'flex-end' , 'flex-start')"
+      },
+      "attributes": {
+        "class": "=if(@currentField , 'ms-bgColor-themePrimary' , 'ms-bgColor-neutralTertiaryAlt')"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "25px",
+            "height": "25px",
+            "margin-left": "3px",
+            "margin-right": "3px",
+            "border-radius": "50%",
+            "box-shadow": "0 0 5px rgba(0, 0, 0, 0.2)"
+          },
+          "attributes": {
+            "class": "ms-bgColor-white"
+          }
+        }
+      ]
+    }
+  ]
+}
