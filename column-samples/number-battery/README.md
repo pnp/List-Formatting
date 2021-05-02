@@ -10,16 +10,15 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-| Solution            | Author(s)                                        |
-| ------------------- | ------------------------------------------------ |
-| number-battery.json | [Tetsuya Kawahara](https://twitter.com/techan_k) |
+Solution            |Author(s)
+--------------------|------------------------------------------------
+number-battery.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
-| Version | Date        | Comments        |
-| ------- | ----------- | --------------- |
-| 1.0     | May 2, 2021 | Initial release |
-
+Version |Date        |Comments
+--------|------------|----------------
+1.0     |May 2, 2021 |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
