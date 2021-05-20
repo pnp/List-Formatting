@@ -39,7 +39,7 @@ All fields below should be part of the view, but only those marked with Required
 |Single line of text|City||
 |Single line of text|State||
 |Single line of text|ZipCode||
-|Picture|Picture||
+|Hyperlink|Picture||
 |Multiple lines of text|Notes||
 
 ## Sample
