@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "='mailto:' + [$Commander.email] + '?subject=' + [$Title] + '&body=Dearest ' + [$Commander.title] + ',\r\n\r\nPlease assist me with details on the ' + [$Title] + '.'",
+    "target": "_blank",
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Email the Commander"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer",
+    "text-decoration": "none",
+    "outline": "none"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "Mail",
+        "class": "ms-font-xxl"
+      }
+    }
+  ]
+}
