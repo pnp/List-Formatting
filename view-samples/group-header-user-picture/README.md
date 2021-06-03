@@ -5,6 +5,8 @@ This is a sample of customizing the group header when grouping by user column. D
 
 ![screenshot of the sample](./screenshot.png)
 
+> This format only affects the group header, the Assign column in the screenshot above is using out of the box display.
+
 ## View requirements
 
 Group by user column and display that user column in the view.
