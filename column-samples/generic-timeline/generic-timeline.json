@@ -34,7 +34,7 @@
       "elmType": "div",
       "style": {
         "position": "absolute",
-        "display": "=if(@currentField == '' , 'none' , 'flex')",
+        "display": "=if(@currentField, 'flex' , 'none')",
         "align-items": "center",
         "justify-content": "center",
         "width": "100%",
