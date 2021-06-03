@@ -1,173 +1,173 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-    "hideSelection": true,
-    "hideListHeader": true,
-    "rowFormatter": {
-      "elmType": "div",
-      "style": {
-        "display": "flex",
-        "flex-wrap": "wrap",
-        "align-items": "stretch",
-        "padding": "8px",
-        "margin-bottom": "25px",
-        "max-width": "420px",
-        "border-radius": "8px",
-        "box-shadow": "4px 4px 8px lightblue"
-      },
-      "attributes": {
-        "class": "ms-bgColor-themeLighterAlt"
-      },
-      "children": [
-        {
-          "elmType": "div",
-          "style": {
-            "flex-grow": "1",
-            "display": "flex",
-            "flex-wrap": "wrap",
-            "align-items": "stretch",
-            "max-width": "310px"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "none"
-              },
-              "children": [
-                {
-                  "elmType": "div",
-                  "children": [
-                    {
-                      "elmType": "img",
-                      "attributes": {
-                        "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Who.email]",
-                        "title": "[$Who.title]"
-                      },
-                      "style": {
-                        "border-radius": "50%",
-                        "vertical-align": "middle"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "elmType": "div",
-              "style": {
-                "flex-grow": "1",
-                "display": "flex",
-                "flex-direction": "column",
-                "flex-wrap": "nowrap",
-                "align-items": "stretch",
-                "max-width": "200px",
-                "padding": "0px 5px"
-              },
-              "children": [
-                {
-                  "elmType": "div",
-                  "style": {
-                    "flex-grow": "1"
-                  },
-                  "children": [
-                    {
-                      "elmType": "span",
-                      "txtContent": "[$Who.title]",
-                      "style": {
-                        "display": "block"
-                      },
-                      "attributes": {
-                        "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary"
-                      }
-                    },
-                    {
-                      "elmType": "span",
-                      "txtContent": "[$Title]",
-                      "style": {
-                        "display": "=if([$Title] == '', 'none', 'block')"
-                      },
-                      "attributes": {
-                        "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "align-items": "stretch",
+      "padding": "8px",
+      "margin-bottom": "25px",
+      "max-width": "420px",
+      "border-radius": "8px",
+      "box-shadow": "4px 4px 8px lightblue"
+    },
+    "attributes": {
+      "class": "ms-bgColor-themeLighterAlt"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "align-items": "stretch",
+          "max-width": "310px"
         },
-        {
-          "elmType": "div",
-          "style": {
-            "display": "flex",
-            "flex-direction": "column",
-            "max-width": "310px",
-            "min-width": "140px"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "style": {
-                "flex-grow": "1"
-              },
-              "children": [
-                {
-                  "elmType": "span",
-                  "style": {
-                    "display": "=if([$Startdate] <= @now,'block','none')"
-                  },
-                  "attributes": {
-                    "iconName": "GotoToday"
-                  }
-                },
-                {
-                  "elmType": "span",
-                  "style": {
-                    "display": "=if([$Startdate] != '','block','none')"
-                  },
-                  "attributes": {
-                    "class": "ms-fontWeight-semibold ms-fontSize-m"
-                  },
-                  "txtContent": "=if([$Startdate] <= @now,'Out of office today', 'Upcoming out of office')"
-                },
-                {
-                  "elmType": "span",
-                  "style": {
-                    "display": "=if([$Startdate] <= @now, 'none', 'block')",
-                    "padding-left": "0px",
-                    "font-size": "14px"
-                  },
-                  "txtContent": "=toDateString([$Startdate])",
-                  "attributes": {
-                    "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
-                  }
-                }
-              ]
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none"
             },
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "none",
-                "display": "flex",
-                "flex-wrap": "nowrap"
-              },
-              "children": [
-                {
-                    "elmType": "span",
-                    "style": {
-                      "display": "=if([$Enddate] == [$Startdate], 'none', 'block')",
-                      "padding-left": "0px",
-                      "font-size": "14px"
-                    },
-                    "txtContent": "='until '+toDateString([$Enddate])",
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "elmType": "img",
                     "attributes": {
-                      "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                      "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Who.email]",
+                      "title": "[$Who.title]"
+                    },
+                    "style": {
+                      "border-radius": "50%",
+                      "vertical-align": "middle"
                     }
                   }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "flex-wrap": "nowrap",
+              "align-items": "stretch",
+              "max-width": "200px",
+              "padding": "0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Who.title]",
+                    "style": {
+                      "display": "block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "display": "=if([$Title] == '', 'none', 'block')"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "max-width": "310px",
+          "min-width": "140px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Startdate] <= @now,'block','none')"
+                },
+                "attributes": {
+                  "iconName": "GotoToday"
+                }
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Startdate] != '','block','none')"
+                },
+                "attributes": {
+                  "class": "ms-fontWeight-semibold ms-fontSize-m"
+                },
+                "txtContent": "=if([$Startdate] <= @now,'Out of office today', 'Upcoming out of office')"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Startdate] <= @now, 'none', 'block')",
+                  "padding-left": "0px",
+                  "font-size": "14px"
+                },
+                "txtContent": "=toDateString([$Startdate])",
+                "attributes": {
+                  "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none",
+              "display": "flex",
+              "flex-wrap": "nowrap"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if([$Enddate] == [$Startdate], 'none', 'block')",
+                  "padding-left": "0px",
+                  "font-size": "14px"
+                },
+                "txtContent": "='until '+toDateString([$Enddate])",
+                "attributes": {
+                  "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
+}
