@@ -12,10 +12,11 @@
       "margin-bottom": "25px",
       "max-width": "420px",
       "border-radius": "8px",
-      "box-shadow": "4px 4px 8px lightblue"
+      "min-height": "51px",
+      "box-shadow": "4px 4px 8px"
     },
     "attributes": {
-      "class": "ms-bgColor-themeLighterAlt"
+      "class": "ms-bgColor-themeLighterAlt ms-fontColor-themeLighter"
     },
     "children": [
       {
@@ -40,12 +41,14 @@
                   {
                     "elmType": "img",
                     "attributes": {
-                      "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Who.email]",
+                      "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Who.email]",
                       "title": "[$Who.title]"
                     },
                     "style": {
                       "border-radius": "50%",
-                      "vertical-align": "middle"
+                      "vertical-align": "middle",
+                      "width": "48px",
+                      "height": "48px"
                     }
                   }
                 ]
@@ -102,7 +105,10 @@
           "display": "flex",
           "flex-direction": "column",
           "max-width": "310px",
-          "min-width": "140px"
+          "min-width": "150px"
+        },
+        "attributes": {
+          "class": "ms-fontColor-neutralSecondary"
         },
         "children": [
           {
@@ -117,7 +123,8 @@
                   "display": "=if([$Startdate] <= @now,'block','none')"
                 },
                 "attributes": {
-                  "iconName": "GotoToday"
+                  "iconName": "GotoToday",
+                  "class": "ms-fontSize-s"
                 }
               },
               {
@@ -134,12 +141,11 @@
                 "elmType": "span",
                 "style": {
                   "display": "=if([$Startdate] <= @now, 'none', 'block')",
-                  "padding-left": "0px",
-                  "font-size": "14px"
+                  "padding-left": "0px"
                 },
                 "txtContent": "=toDateString([$Startdate])",
                 "attributes": {
-                  "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                  "class": "ms-fontSize-s ms-fontWeight-regular"
                 }
               }
             ]
@@ -155,13 +161,12 @@
               {
                 "elmType": "span",
                 "style": {
-                  "display": "=if([$Enddate] == [$Startdate], 'none', 'block')",
-                  "padding-left": "0px",
-                  "font-size": "14px"
+                  "display": "=if([$Enddate] && [$Enddate] != [$Startdate], 'block', 'none')",
+                  "padding-left": "0px"
                 },
                 "txtContent": "='until '+toDateString([$Enddate])",
                 "attributes": {
-                  "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                  "class": "ms-fontSize-s ms-fontWeight-regular"
                 }
               }
             ]
