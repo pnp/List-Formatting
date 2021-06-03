@@ -36,7 +36,7 @@
             {
               "elmType": "img",
               "attributes": {
-                "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + @group.fieldData.email",
+                "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=S&accountname=' + @group.fieldData.email",
                 "title": "@group.fieldData.title"
               },
               "style": {
