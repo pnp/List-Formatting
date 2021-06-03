@@ -1,7 +1,7 @@
 # Link collection using Emoji
 
 ## Summary
-This sample demonstrates a link collection using Emoji and is a customization of the `Gallery` layout.
+This sample demonstrates a link collection using Emoji and is a customization of the `Gallery` layout. Additionally, this sample combines group customization with a tile format.
 
 ![screenshot of the sample](./screenshot.png)
 
