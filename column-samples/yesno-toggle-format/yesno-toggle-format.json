@@ -12,9 +12,9 @@
       "elmType": "div",
       "style": {
         "display": "flex",
-        "width": "65px",
+        "width": "60px",
         "height": "30px",
-        "border-radius": "20px",
+        "border-radius": "15px",
         "align-items": "center",
         "flex-direction": "row",
         "justify-content": "=if(@currentField , 'flex-end' , 'flex-start')"
@@ -26,12 +26,11 @@
         {
           "elmType": "div",
           "style": {
-            "width": "25px",
-            "height": "25px",
-            "margin-left": "3px",
-            "margin-right": "3px",
-            "border-radius": "50%",
-            "box-shadow": "0 0 5px rgba(0, 0, 0, 0.2)"
+            "width": "18px",
+            "height": "18px",
+            "margin-left": "6px",
+            "margin-right": "6px",
+            "border-radius": "50%"
           },
           "attributes": {
             "class": "ms-bgColor-white"

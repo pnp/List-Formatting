@@ -12,9 +12,9 @@
       "elmType": "div",
       "style": {
         "display": "flex",
-        "width": "65px",
+        "width": "60px",
         "height": "30px",
-        "border-radius": "20px",
+        "border-radius": "15px",
         "align-items": "center",
         "flex-direction": "row",
         "justify-content": "=if(@currentField , 'flex-end' , 'flex-start')"
@@ -27,9 +27,9 @@
           "elmType": "div",
           "txtContent": "=if(@currentField , '😊' , '😔')",
           "style": {
-            "font-size": "22px",
-            "margin-left": "3px",
-            "margin-right": "3px",
+            "font-size": "18px",
+            "margin-left": "4px",
+            "margin-right": "4px",
             "padding-bottom": "2px"
           }
         }
