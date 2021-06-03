@@ -18,7 +18,7 @@ Current HTML tags supported in list formatting:
 
 ## Getting Started
 
-If you just want to use the tool, it's available in the List Formatting Sample Repo site here: https://pnp.github.io/sp-dev-list-formatting/tools/html-formatter-generator/
+If you just want to use the tool, it's available in the List Formatting Sample Repo site here: https://pnp.github.io/List-Formatting/tools/html-formatter-generator/
 
 To run a local version you can use these commands run from the project directory (tools/html-formatter-generator):
 
