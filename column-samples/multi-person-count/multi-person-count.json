@@ -1,0 +1,102 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "5px 10px 5px 10px",
+          "border-radius": "10px",
+          "cursor": "pointer",
+          "display": "=if(length(@currentField) > 0 , '' ,'none')"
+        },
+        "attributes": {
+          "class": "ms-bgColor-themeLighter ms-fontColor-themeDarker ms-bgColor-themePrimary--hover ms-fontColor-white--hover ms-fontSize-14"
+        },
+        "customCardProps": {
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "openOnEvent": "hover",
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "display": "=if(length(@currentField) > 0 , 'flex' ,'none')",
+              "flex-wrap": "wrap",
+              "max-width": "550px",
+              "max-height": "250px",
+              "padding": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "width": "100px",
+                  "height": "100px",
+                  "text-align": "center",
+                  "padding": "5px"
+                },
+                "forEach": "personIterator in @currentField",
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "justify-content": "center",
+                      "align-items": "center",
+                      "height": "65%",
+                      "width": "100%"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "50px",
+                          "height": "50px",
+                          "border-radius": "50%",
+                          "border": "1px solid"
+                        },
+                        "attributes": {
+                          "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$personIterator.email]",
+                          "title": "[$personIterator.title]",
+                          "class": "ms-fontColor-neutralQuaternary"
+                        },
+                        "defaultHoverField": "[$personIterator]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "height": "35%",
+                      "overflow": "hidden"
+                    },
+                    "txtContent": "[$personIterator.title]",
+                    "attributes": {
+                      "class": "ms-font-s"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "style": {
+              "margin-right": "10px"
+            },
+            "attributes": {
+              "iconName": "Contact"
+            }
+          },
+          {
+            "elmType": "span",
+            "txtContent": "=length(@currentField)"
+          }
+        ]
+      }
+    ]
+  }
