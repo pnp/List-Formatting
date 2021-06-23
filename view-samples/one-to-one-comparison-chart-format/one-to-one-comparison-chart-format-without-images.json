@@ -6,7 +6,7 @@
         "elmType": "div",
         "style": {
             "width": "90%",
-            "height": "=if(@rowIndex == 0, '200px' , '90px')",
+            "height": "90px",
             "display": "flex",
             "flex-direction": "column",
             "margin-left": "40px",
@@ -15,90 +15,7 @@
         "children": [
             {
                 "elmType": "div",
-                "style": {
-                    "width": "100%",
-                    "flex-direction": "row",
-                    "display": "=if(@rowIndex == 0, 'flex' , 'none')"
-                },
-                "children": [
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "width": "50%",
-                            "display": "flex",
-                            "flex-direction": "row"
-                        },
-                        "children": [
-                            {
-                                "elmType": "img",
-                                "style": {
-                                    "width": "100px",
-                                    "height": "100px",
-                                    "display": "flex",
-                                    "flex-direction": "row",
-                                    "align-items": "center"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "style": {
-                                            "position": "relative",
-                                            "top": "35px",
-                                            "left": "10px"
-                                        },
-                                        "txtContent": "[!Entity1.DisplayName]",
-                                        "attributes": {
-                                            "class": "ms-fontSize-20"
-                                        }
-                                    }
-                                ],
-                                "attributes": {
-                                    "src": "[$Entity1Image.serverRelativeUrl]"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "width": "50%",
-                            "display": "flex",
-                            "flex-direction": "row-reverse"
-                        },
-                        "children": [
-                            {
-                                "elmType": "img",
-                                "style": {
-                                    "width": "100px",
-                                    "height": "100px",
-                                    "display": "flex",
-                                    "flex-direction": "row",
-                                    "align-items": "center"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "style": {
-                                            "position": "relative",
-                                            "top": "35px",
-                                            "right": "10px"
-                                        },
-                                        "txtContent": "[!Entity2.DisplayName]",
-                                        "attributes": {
-                                            "class": "ms-fontSize-20"
-                                        }
-                                    }
-                                ],
-                                "attributes": {
-                                    "src": "[$Entity2Image.serverRelativeUrl]"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "elmType": "div",
+                "txtContent": "[$Title]",
                 "style": {
                     "width": "100%",
                     "height": "100%",
@@ -109,22 +26,7 @@
                 },
                 "attributes": {
                     "class": "ms-fontSize-28"
-                },
-                "children": [
-                    {
-                        "elmType": "div",
-                        "attributes": {
-                            "iconName": "[$Icon]"
-                        },
-                        "style": {
-                            "margin-right": "5px"
-                        }
-                    },
-                    {
-                        "elmType": "div",
-                        "txtContent": "[$Title]"
-                    }
-                ]
+                }
             },
             {
                 "elmType": "div",
@@ -143,23 +45,12 @@
                             "cursor": "pointer",
                             "display": "flex",
                             "flex-direction": "row",
-                            "align-items": "center"
+                            "align-items": "center",
+                            "justify-content": "center"
                         },
-                        "children": [
-                            {
-                                "elmType": "span",
-                                "style": {
-                                    "position": "relative",
-                                    "left": "40px"
-                                },
-                                "txtContent": "=([$Entity1] + if([$IsPercent], '%', ''))",
-                                "attributes": {
-                                    "class": "ms-fontSize-20"
-                                }
-                            }
-                        ],
+                        "txtContent": "=([$Entity1] + if([$IsPercent], '%', ''))",
                         "attributes": {
-                            "class": "ms-fontSize-20 ms-bgColor-black ms-bgColor-yellow--hover ms-fontColor-white ms-fontColor-black--hover"
+                            "class": "ms-fontSize-20 ms-bgColor-blue ms-bgColor-blueDark--hover ms-fontColor-white"
                         },
                         "customCardProps": {
                             "directionalHint": "bottomCenter",
@@ -193,7 +84,7 @@
                                             ]
                                         },
                                         "attributes": {
-                                            "class": "ms-fontSize-20 ms-fontColor-black"
+                                            "class": "ms-fontSize-20 ms-fontColor-blue"
                                         }
                                     }
                                 ]
@@ -207,22 +98,11 @@
                             "height": "45px",
                             "cursor": "pointer",
                             "display": "flex",
-                            "flex-direction": "row-reverse",
-                            "align-items": "center"
+                            "flex-direction": "row",
+                            "align-items": "center",
+                            "justify-content": "center"
                         },
-                        "children": [
-                            {
-                                "elmType": "span",
-                                "style": {
-                                    "position": "relative",
-                                    "right": "40px"
-                                },
-                                "txtContent": "=([$Entity2] + if([$IsPercent], '%', ''))",
-                                "attributes": {
-                                    "class": "ms-fontSize-20"
-                                }
-                            }
-                        ],
+                        "txtContent": "=([$Entity2] + if([$IsPercent], '%', ''))",
                         "attributes": {
                             "class": "ms-fontSize-20 ms-bgColor-red ms-bgColor-redDark--hover ms-fontColor-white"
                         },
