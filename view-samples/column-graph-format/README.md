@@ -12,10 +12,10 @@ The sample features the following:
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
 ## Normal view
-![Column Graph Screenshot](./columngraph.png)
+![Column Graph Screenshot](./assets/columngraph.png)
 
 ## Item Hover view
-![Column Graph with Title Screenshot](./columngraph_with_title.png)
+![Column Graph with Title Screenshot](./assets/columngraph_with_title.png)
 
 ## View requirements
 

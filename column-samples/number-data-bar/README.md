@@ -6,12 +6,12 @@ These formats apply `background-color` and `border-top` styles to create a data 
 ### Simple Data Bar (number-data-bar.json)
 In this format, the data bar width is set to `100%` when the value is greater than or equal to 20, and `(@currentField * 5)%` when the value is less than 20. This achieves a width of 5% for the data bar for values of 1, 10% for values of 2, and so on. To fit this example to your number column, you can adjust the boundary condition (`20`) to match the maximum anticipated value inside the field, and the multiplier (`5`) to specify how much the bar should grow depending on the value inside the field.
 
-![screenshot of the Simple Data Bar](./screenshot.png)
+![screenshot of the Simple Data Bar](./assets/screenshot.png)
 
 ### Percentage Data Bar (percent-data-bar.json)
 An additional format is included to illustrate how to apply the same visualization to a number column set to display as a percent. The data bar width is set to the `@currentField`'s value directly and the display text adds the % sign as expected.
 
-![screenshot of the Percentage Data Bar](./screenshot-percent.png)
+![screenshot of the Percentage Data Bar](./assets/screenshot-percent.png)
 
 ## View requirements
 - This format can be applied to a Number column

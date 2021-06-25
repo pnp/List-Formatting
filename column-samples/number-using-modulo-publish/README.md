@@ -4,9 +4,9 @@
 Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages
 
 **Before**
-![screenshot of the sample before formatting](./example-before.jpg)
+![screenshot of the sample before formatting](./assets/example-before.jpg)
 **After**
-![screenshot of the sample after formatting](./example-after.jpg)
+![screenshot of the sample after formatting](./assets/example-after.jpg)
 
 
 ## View requirements

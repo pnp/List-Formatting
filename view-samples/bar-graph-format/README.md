@@ -13,10 +13,10 @@ The sample features the following:
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
 ## View with animate.css application customiser
-![Bar Graph Screenshot with animate.css app customiser](./bargraph.gif)
+![Bar Graph Screenshot with animate.css app customiser](./assets/bargraph.gif)
 
 ## View without animate.css application customiser
-![Bar Graph Screenshot](./bargraphnormal.png)
+![Bar Graph Screenshot](./assets/bargraphnormal.png)
 
 ## View requirements
 

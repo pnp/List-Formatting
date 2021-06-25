@@ -3,13 +3,13 @@
 ## Summary
 Highlights every other row using theme colors.
 
-![Alternating Rows](./screenshot.png)
+![Alternating Rows](./assets/screenshot.png)
 
 By usng the `@rowIndex` keyword, the alternating style will be applied regardless of sorting and filtering.
 
-![Alternating Rows with sorting](./screenshotSorted.png)
+![Alternating Rows with sorting](./assets/screenshotSorted.png)
 
-![Alternating Rows with filtering](./screenshotFiltered.png)
+![Alternating Rows with filtering](./assets/screenshotFiltered.png)
 
 By using the [Office UI Fabric color classes](https://developer.microsoft.com/fabric#/styles/colors) for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 

@@ -3,9 +3,9 @@
 ## Summary
 This sample demonstrates creating a deep link to a Microsoft Teams chat. This format works both within Microsoft Teams and within SharePoint Online.
 
-![screenshot of the sample in Microsoft Teams](./screenshotTeams.png)
+![screenshot of the sample in Microsoft Teams](./assets/screenshotTeams.png)
 
-![screenshot of the sample in a Modern List View](./screenshotList.png)
+![screenshot of the sample in a Modern List View](./assets/screenshotList.png)
 
 ### Link Parts
 The Microsoft Teams chat link is broken down into a base URL _https://teams.microsoft.com/l/chat/0/0_ and then query parameters to set portions of the chat:

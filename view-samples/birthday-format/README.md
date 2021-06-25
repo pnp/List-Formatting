@@ -9,7 +9,7 @@ This is a sample derived from the [contact card row format](../contact-card-form
   - Emailing the person with a pre-filled Happy Birthday Subject
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Birthday Format Screenshot](./birthdayScreenshot.png)
+![Birthday Format Screenshot](./assets/TODO-GETSCREENSHOT.png)
 
 
 ## View requirements
