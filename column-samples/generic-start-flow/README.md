@@ -11,7 +11,7 @@ To obtain a Flow's ID:
 2. Click on the Flow you want to run
 3. Copy the ID from the end of the URL
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any column type (its value is ignored)

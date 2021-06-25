@@ -5,7 +5,7 @@ This sample formats your view to look like a chronological timeline.
 This view is responsive.
 
 chronological-format.json
-![screenshot of the sample](./chronological-format.png)
+![screenshot of the sample](./assets/chronological-format.png)
 
 ## View requirements
 

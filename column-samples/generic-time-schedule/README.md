@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates a time schedule with a filled background from `Start` time to `End` time.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 This format can be applied to any column type but expects the following columns to be part of the view:

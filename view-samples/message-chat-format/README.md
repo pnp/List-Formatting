@@ -3,7 +3,7 @@
 ## Summary
 This sample formats your SharePoint list view to look like a message chat. If `Author` equals `@me`, the message will be displayed on the right.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 

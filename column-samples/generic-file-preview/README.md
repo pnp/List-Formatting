@@ -3,7 +3,7 @@
 ## Summary
 This sample opens Microsoft Office documents in full screen within a new tab. This is the same view as used in the fileviewer webpart (no toolbars).
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ![screenshot of the file preview](./screenshotFilePreview.png)
 

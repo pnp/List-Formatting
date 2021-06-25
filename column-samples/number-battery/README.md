@@ -3,7 +3,7 @@
 ## Summary
 This sample changes the appearance of the values in number columns (percent)  to look like a battery.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent).

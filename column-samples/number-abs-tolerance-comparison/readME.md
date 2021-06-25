@@ -10,7 +10,7 @@ An Office UI Fabric class and icon is also applied to provide visual indicators 
 
 
 ### Screenshot
-![screenshot of the sample](./screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.jpg)
 
 
 ## Column Types

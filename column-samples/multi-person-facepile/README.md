@@ -5,7 +5,7 @@ This sample provides rounded images for each person in a multi-select person fie
 
 The sample demonstrates the use of the `forEach` property to apply a format for each value of an array (multi-select person fields). Additionally, the `loopIndex` operator is used in conjunction with the `length` operator to ensure that regardless of how many persons are selected the field doesn't run over. This style of profile pictures with a descriptive overflow is often called a [facepile](https://developer.microsoft.com/en-us/fabric#/components/facepile)
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### User Profile Picture sizes
 

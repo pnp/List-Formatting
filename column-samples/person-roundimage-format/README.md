@@ -9,7 +9,7 @@ You can also adjust the `border-radius` value of the parent div to change it fro
 
 For best results, images should be square (S & M user profile pictures always are).
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### User Profile Picture sizes
 

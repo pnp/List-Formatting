@@ -8,14 +8,14 @@ This example uses a column to generate a hyperlink to the Item Thumbnail for a d
 ### Before you use generic-hyperlink-thumbnail
 * Adjust the resolution=**3** (0-6) value to your NEEDS. _(3: 1024px, 4: 1600px)_
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### generic-image-thumbnail 
 basics from: https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/picture-roundimage-format
 
 * Adjust Thumbnail Sizes or Rounded Edges to your NEEDS. 
 
-![screenshot of the sample](./screenshot2.png)
+![screenshot of the sample](./assets/screenshot2.png)
 
 
 ## View requirements

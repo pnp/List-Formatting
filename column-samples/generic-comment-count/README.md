@@ -3,9 +3,9 @@
 ## Summary
 This sample shows the comment count for a list item.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-![screenshot of the sample](./generic-comment-count.gif)
+![screenshot of the sample](./assets/generic-comment-count.gif)
 
 ## View requirements
 This format can be applied to any column type.

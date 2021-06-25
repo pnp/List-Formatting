@@ -4,7 +4,7 @@
 
 Location columns provide several properties that can be accessed to provide more information to users. This sample pulls out sub properties to turn the standard Display Name only to a full address and provides a link to Bing Maps for a given location.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > Note: Location columns do not currently have the "Format this column" option in the column menu. Instead, formats to these columns need to be applied through the Field Settings screen for the column.
 

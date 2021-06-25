@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates using the `indexOf` function (O365 only) to test if text contains a given value. The sample also uses the `toLowerCase` function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word _"dead"_ a class is applied to turn the text red.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 The `indexOf` function returns the index where a given value is found within a string (indexes start at 0). If the value is not found in the text, the result is -1.
 

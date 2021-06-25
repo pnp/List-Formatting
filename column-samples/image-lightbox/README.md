@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates showing the full size image in a lightbox (hover card) rather than opening this image in a new window.
 
-![screenshot of the sample](./imagesPreview.gif)
+![screenshot of the sample](./assets/imagesPreview.gif)
 
 ## View requirements
 - This format can be applied to any image column type (Note: this sample does not work with the Picture column type)

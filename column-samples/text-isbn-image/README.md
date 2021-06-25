@@ -5,7 +5,7 @@ This example retrieves book cover images based on their ISBN numbers by utilizin
 
 This sample retrieves the small (S) image, but there are also medium (M) and large (L) sizes available. Simply swap out the `S` in `-S.jpg` portion of the `src` attribute in the `img` element to retrieve one of the other sizes. 
 
-![screenshot of the sample](./text-isbn-image.png)
+![screenshot of the sample](./assets/text-isbn-image.png)
 
 > The values are expected to be the ISBN numbers for the books. However, this sample could easily be switched to utilize the OCLC, LCCN, OLID, or ID values for a given book.
 

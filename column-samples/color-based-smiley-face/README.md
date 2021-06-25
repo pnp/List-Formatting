@@ -7,7 +7,7 @@ Green, Red and Yellow. Color value will add smiley face which come from the Offi
 Sample can be extended to diffrent other colors based on requirement
 
 
-![screenshot of the sample](./display.png)
+![screenshot of the sample](./assets/display.png)
 
 ## View requirements
 - This format can be applied to a Choice, Single line of text column

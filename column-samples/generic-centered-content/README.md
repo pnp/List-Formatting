@@ -3,7 +3,7 @@
 ## Summary
 This is a basic sample that demonstrates making your content be both vertically and horizontally centered (in the middle) within the cell.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any column type

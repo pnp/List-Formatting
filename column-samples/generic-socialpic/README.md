@@ -4,7 +4,7 @@
 
 Using the social media handles supported by https://unavatar.now.sh, social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window. The handle is also displayed as a tooltip when hovering over the profile image.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 > Note: https://unavatar.now.sh currently supports a variety of services including Twitter, Facebook, Instagram and GitHub.
 
 ### Column Types

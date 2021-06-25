@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates using the `indexOf` and `join` functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 This sample also demonstrates how to use double-quotes within your values. To include double quotes, you'll need to escape them using standard JSON syntax where you place a slash in front of the double quote: `"\"Juice\""`
 

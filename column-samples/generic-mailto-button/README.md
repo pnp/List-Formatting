@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates making a mailto link (opens email with prepopulated values) button that references a different field.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements

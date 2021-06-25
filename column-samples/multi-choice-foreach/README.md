@@ -4,7 +4,7 @@
 This sample demonstrates usage of the `forEach` property to create template elements applied to each choice in a multi-select choice field.
 
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Multi-Select Choice column

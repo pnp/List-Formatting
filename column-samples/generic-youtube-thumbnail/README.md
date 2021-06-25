@@ -3,7 +3,7 @@
 ## Summary
 This sample provides a thumbnail of a YouTube video that links to the video and a larger preview image on hover.
 
-![screenshot of the sample](./animation.gif)
+![screenshot of the sample](./assets/animation.gif)
 
 ## View requirements
 - This format can be applied to any text column but expects that value to be a URL to a YouTube video. The `Title` column is also used in the hover card.

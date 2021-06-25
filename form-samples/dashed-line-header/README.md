@@ -4,13 +4,13 @@
 This sample displays the `Title` and `Description` values in the heading and decorates them with dashed lines. If the `Description` value is empty, it will be hidden.
 
 dashed-line-header-text-left.json
-![screenshot of the sample](./screenshot_text-left.png)
+![screenshot of the sample](./assets/screenshot_text-left.png)
 
 dashed-line-header-text-center.json
-![screenshot of the sample](./screenshot_text-center.png)
+![screenshot of the sample](./assets/screenshot_text-center.png)
 
 dashed-line-header-text-right.json
-![screenshot of the sample](./screenshot_text-right.png)
+![screenshot of the sample](./assets/screenshot_text-right.png)
 
 ## View requirements
 

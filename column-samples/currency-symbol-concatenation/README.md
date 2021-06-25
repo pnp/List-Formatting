@@ -7,7 +7,7 @@ Currency column is currently not supported, hence this sample will allow the use
 ### Project Budget Column with a Currency Symbol
 Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated based on the condition with Red or Green color. Please note that both columns must be a number type for this to work.
 
-![screenshot of sample](./budgetcolumnformating.png).  
+![screenshot of sample](./assets/budgetcolumnformating.png).  
 
 If you only need to add a symbol to a numeric column without any formatting, please use the [./addsymbolonly.json](addsymbolonly.json) format.
 

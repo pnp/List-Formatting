@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 This example shows values from 0 to 100. You can adjust this scale by changing the `d` attribute of the path elements to calculate a percentage rather than use the value directly.
 

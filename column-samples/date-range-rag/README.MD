@@ -3,7 +3,7 @@
 ## date-range-rag.json
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time. The bar fills towards 100% as "Today" approaches the due date. A percentage width is determined based on the total number of days between the StartDate of the item and the DueDate of the item.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 Unlike some of the other examples, this one applies formatting to one field by looking at the value inside other fields. Note that `DueDate` and `StartDate` are referenced using the `[$FieldName]` syntax where FieldName is the internal name of the field. This example also takes advantage of a special value that can be used in date/time fields - `@now`, which resolves to the current date/time, evaluated when the user loads the list view.
 
@@ -25,7 +25,7 @@ Additionally, the value of the field (`@currentField`) is displayed when there i
 
 In this version of the sample, the days left are displayed within the box:
 
-![screenshot of the days-left sample](./screenshot-daysleft.png)
+![screenshot of the days-left sample](./assets/screenshot-daysleft.png)
 
 This version of the sample demonstrates working around limitations in list formatting in regards to rounding numbers. Multiple conditions are provided to ensure the calculated numbers are shown without unnecessary precision.
 

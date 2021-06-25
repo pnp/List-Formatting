@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji). These toggles are NOT interactive.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 This format can be applied to a Yes/No column.

@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates creating a progress bar using icons. The number column represents the stage in a process and the format provides a visual indicator of where an item is in relation to the process by showing the previous steps as completed, highlighting the current step, and indicating which steps remain.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Number column (the format expects values from 0-5, but can easily be adjusted to account for more)

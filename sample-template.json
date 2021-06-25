@@ -1,0 +1,88 @@
+[
+    {
+        "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+        "name": "pnp-list-formatting-folder-name",
+        "version": "1.0.0.0",
+        "source": "pnp",
+        "title": "TITLE",
+        "url": "https://github.com/pnp/List-Formatting/folder-name",
+        "creationDateTime": "2021-04-20T18:25:43.511Z",
+        "updateDateTime": "2021-04-20T18:25:43.511Z",
+        "shortDescription": "SHORTDESCRIPTION",
+        "longDescription": [
+            "LONGDESCRIPTION"
+        ],
+        "products": [
+            "Microsoft Teams",
+            "SharePoint",
+            "Office"
+        ],
+        "categories": [
+            "CATEGORY1",
+            "CATEGORY4"
+        ],
+        "metadata": [
+            {
+                "key": "LIST-SAMPLE-TYPE",
+                "value": "View, Column, Form"
+            },
+            {
+                "key": "LIST-COLUMN-TYPE",
+                "value": "ContentType, Currency, Date/Time, General, Hyperlink, Location, Multi-Choice, Multi-Person, Number, Person, Picture, Yes/No"
+            },
+            {
+                "key": "LIST-OPERATOR",
+                "value": "abs, cos, Date, forEach, indexOf, join, length, loopIndex, Modulus %, Number, sin, toLocaleString, toLocaleDateString, toLocaleDateTimeString, toLowerCase, toString"
+            },
+            {
+                "key": "LIST-PLACEHOLDER-TOKEN",
+                "value": "@currentWeb, @me, @now, @rowIndex, @thumbnail, @window"
+            },
+            {
+                "key": "LIST-ROW-ACTION",
+                "value": "defaultClick, delete, editProps, executeFlow, share"
+            },
+            {
+                "key": "LIST-CATEGORY",
+                "value": "Cards, Charts, Document Library, Dynamic Links, Flow, Icons, Maps, People, Severity, Social Media, Status / Progress, SVG, Text Conditional, Tiles, Trending"
+            }
+        ],
+        "thumbnails": [
+            {
+                "type": "image",
+                "order": 100,
+                "url": "https://fuufaafuu.png",
+                "alt": "Alt text for the image"
+            }
+        ],
+        "authors": [
+            {
+                "gitHubAccount": "paolopia",
+                "company": "PiaSys.com",
+                "pictureUrl": "https://github.com/paolopia.png"
+            }
+        ],
+        "references": [
+            {
+                "name": "Use column formatting to customize SharePoint",
+                "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it’s displayed to users who browse the list.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+            },
+            {
+                "name": "Use view formatting to customize SharePoint",
+                "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+            },
+            {
+                "name": "Configure the list form",
+                "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+            },
+            {
+                "name": "Show or hide columns in a list or library form",
+                "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn't affect the column or the data in the column, as it would if you delete it.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
+            }
+        ]
+    }
+]

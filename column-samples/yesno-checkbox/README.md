@@ -10,7 +10,7 @@ The icons and theme colors are conditionally applied based on the field's value.
 |Yes|ms-fontColor-neutralPrimary|CheckboxComposite|
 |No|ms-fontColor-neutralTertiary|Checkbox|
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Yes/No column

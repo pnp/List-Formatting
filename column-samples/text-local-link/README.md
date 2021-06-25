@@ -3,7 +3,7 @@
 ## Summary
 This sample provides multiple formats to illustrate the options available to link to local resources. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view. This format links to other lists, but this could just as easily be specific pages/files/etc. on a site.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 >Note - this format only provides the link shown above in the "List" column. The image is related to the [text-local-image](../text-local-image/) sample. The image also just shows a link. The real power is in clicking on the link regardless of location.
 

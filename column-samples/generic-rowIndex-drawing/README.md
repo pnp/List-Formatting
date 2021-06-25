@@ -3,7 +3,7 @@
 ## Summary
 This is a silly format that draws a picture in your view using the `@rowIndex` token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up.
 
-![screenshot of the sample](./screenshot.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 Also included is the AquaticAssetsGenerator.ps1 PowerShell script that demonstrates creating lots of random entries in a list. You'll want at least 201 items to show the full picture.
 

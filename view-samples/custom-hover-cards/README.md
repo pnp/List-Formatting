@@ -5,7 +5,7 @@ The following image shows a list with a custom hover added to a List view:
 
 On hover - Metadata on the column "Status" is made available via view formatting
 
-![screenshot of the sample](./Status_hover.png)
+![screenshot of the sample](./assets/Status_hover.png)
 
 ## View requirements
 - This format can be applied to any column type though the example is based on - 

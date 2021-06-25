@@ -3,7 +3,7 @@
 ## Summary
 This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit.
 
-![screenshot of the sample](./screen_capture.gif)
+![screenshot of the sample](./assets/screen_capture.gif)
 
 ## View requirements
 

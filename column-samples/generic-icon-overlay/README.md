@@ -9,7 +9,7 @@ Overlays are done by using a parent element with a `style` -> `position` value o
 
 This sample demonstrates using a solid icon (HeartFill) to provide a colored background to our icon and overlaying a wireframe icon to create an outline. The icons are shown conditionally based on the value. Using this technique with the various Solid, Mask, and Fill icons available can create far more icons than are currently available and allows more precise control of the coloring.
 
-![screenshot of the sample](./screenshotOverlay.png)
+![screenshot of the sample](./assets/screenshotOverlay.png)
 
 #### View requirements
 - This format expects to be applied to a text or choice column with the following values:
@@ -21,14 +21,14 @@ This sample demonstrates using a solid icon (HeartFill) to provide a colored bac
 
 This is a very basic sample that simply displays a Cat icon and is helpful for demonstrating how to display an icon and set it's size and color. The icon and color are NOT conditionally set (see the other files in this sample for examples of that). In this case, the theme color has been applied with a class but it could just as easily have been set using the `style` -> `color` property.
 
-![screenshot of the sample](./screenshotSimple.png)
+![screenshot of the sample](./assets/screenshotSimple.png)
 
 #### View requirements
 - This format can be applied to any column type (the value is ignored)
 
 ### generic-icon-overlay-multiple
 
-![screenshot of the sample](./screenshotOverlayMultiple.png)
+![screenshot of the sample](./assets/screenshotOverlayMultiple.png)
 
 #### View requirements
 - This format expects to be applied to a text or choice column with the following values:

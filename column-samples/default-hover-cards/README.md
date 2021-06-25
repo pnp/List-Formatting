@@ -5,7 +5,7 @@ The following image shows a list with a default hover added to a formatted colum
 
 On hover, on a formatted person column : a profile card is displayed 
 
-![screenshot of the sample](./People_hover.png)
+![screenshot of the sample](./assets/People_hover.png)
 
 ## View requirements
 - This format can be applied to any column type though the example is based on - 

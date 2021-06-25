@@ -5,7 +5,7 @@ This format demonstrates how you can reproduce the status choices as pills found
 
 You can use this formatting to implement your own version of the *choices as pills* formatting.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any text/choice column, but expects the column values to be one of the following choices:

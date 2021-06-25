@@ -3,7 +3,7 @@
 ## Summary
 This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the `iconName` attribute to display the `CheckMark` [Office UI Fabric predefined icon](https://developer.microsoft.com/en-us/fabric#/styles/icons).
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Yes/No column

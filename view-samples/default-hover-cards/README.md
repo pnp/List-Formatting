@@ -7,7 +7,7 @@ On hover in a formatted view on a file a file card is displayed
 
 On hover in a formatted view on a person column a profile card is displayed and
 
-![screenshot of the sample](./File_hover.png)
+![screenshot of the sample](./assets/File_hover.png)
 
 ## View requirements
 - This format can be applied to any view type

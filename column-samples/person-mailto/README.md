@@ -6,7 +6,7 @@ You can use column formatting to render quick action links next to fields. This 
 - A `<span />` element that contains the person’s display name.
 - An `<a />` element that opens a mailto: link that creates an email with a subject and body populated dynamically via item metadata. The `<a />` element is styled using the `sp-field-quickActions` class and uses the `iconName` attribute to make it a clickable email icon. 
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format expects to be applied to a Person column

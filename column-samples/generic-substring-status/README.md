@@ -5,7 +5,7 @@ This format demonstrates using a combination of the `substring` and `indexOf` op
 
 The value before the colon is used to set an icon and font-color as well as being displayed in it's own `span` element. The value after the colon is used to display the details in a secondary `span` element.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a text/choice column but expects values similar to:

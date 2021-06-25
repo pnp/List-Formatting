@@ -5,7 +5,7 @@ You can apply conditional formatting to text or choice fields that might contain
 
 This pattern is useful when you want different values to map to different levels of urgency or severity. You can start from this example and edit it to specify your own field values and the styles and icons that should map to those values.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a text/choice column and expects the values Done, In progress, In review, Has Issues, or anything else

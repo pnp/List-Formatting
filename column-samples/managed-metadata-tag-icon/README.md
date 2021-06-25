@@ -3,7 +3,7 @@
 ## Summary
 This sample displays a tag icon to the left of the value in the managed metadata column.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 There are 2 versions of the sample included depending on if your Managed Metadata column is single or multi-value.
 

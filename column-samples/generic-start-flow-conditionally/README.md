@@ -5,7 +5,7 @@ You can use column formatting to create buttons that, when clicked, run Flows on
 
 This sample demonstrates how to take it further to conditionally change which flow is launched or if a flow button option should be shown at all.
 
-![screenshot of the sample](./Screenshot.gif)
+![screenshot of the sample](./assets/Screenshot.gif)
 
 Column Formatting allows you to use expressions for individual attributes. This provides us a lot of power, but doesn't always make it obvious when we want to make multiple changes based on the same expression or conditionally include/exclude elements.
 

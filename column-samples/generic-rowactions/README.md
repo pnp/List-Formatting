@@ -7,7 +7,7 @@ These samples are all built for column formatting, but these can be easily adapt
 
 Custom row actions only work when placed inside of a `button` element. However, you can adjust the button's styles/children to customize the look entirely _(you can even wrap your entire format in a button - see the [bulletin-board-format](../../view-samples/bulletin-board-format) for an example)_.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### defaultClick
 This action will open the info panel for an item.

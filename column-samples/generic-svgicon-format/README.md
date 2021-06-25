@@ -15,7 +15,7 @@ This sample uses the value of the current field to show a custom icon and color.
 
 The pattern of using nested conditional operators with equality operators is the column formatting equivalent of a switch statement. The same logic is used 3 times in this sample. First for the `svg`'s `fill` style attribute to determine the color of the icon. Next, it is used for the `d` attribute of the `svg` element's `path` element to change the icon. Finally, it is used for the `span`'s `color` style attribute to ensure the text color is also changed.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > Currently, column formatting does not support the `viewbox` attribute which causes issues with SVGs that rely on it to properly scale (basically all of them). You'll need to adjust the page size to have the path coordinates drawing at a 1:1 scale instead of relying on viewbox translation. One approach is to use a tool like [Inkscape](https://inkscape.org/en/release/) using the approach described here [Use Font Awesome icons in Column Formatting](https://thechriskent.com/2018/03/25/use-font-awesome-icons-in-column-formatting/).
 

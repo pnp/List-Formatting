@@ -11,7 +11,7 @@ You can apply conditional formatting to Yes/No fields. This sample applies diffe
 
 > Note: the `sp-field-severity--low` class has a transparent background and since no icon is shown, it is expected that false values will appear to have no display
 
-![screenshot of the sample](./yesno-checkmark-format.PNG)
+![screenshot of the sample](./assets/yesno-checkmark-format.PNG)
 
 ## View requirements
 - This format can be applied to a Yes/No column

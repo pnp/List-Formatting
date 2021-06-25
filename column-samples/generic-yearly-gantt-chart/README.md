@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates the display of a yearly Gantt chart.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 

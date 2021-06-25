@@ -5,7 +5,7 @@ These formats rely on two number fields, `Before` and `After`, for which the val
 
 ### Trending Icons (number-trending-icon.json)
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 |Condition|Class|Icon|Style|
 |---|---|---|---|

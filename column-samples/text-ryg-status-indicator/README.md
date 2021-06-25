@@ -3,7 +3,7 @@
 ## Summary
 This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of `@currentField` to `@currentField.lookupValue`).
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > The text values for the column are expected to be Red, Yellow, or Green. Any other values won't be shown.
 

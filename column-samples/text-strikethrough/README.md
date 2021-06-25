@@ -5,7 +5,7 @@ Classic task lists add a strikethrough style to the task name when the task is m
 
 > If this is NOT the title field, then the `ms-fontColor-neutralPrimary` class can be removed to ensure styles match.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any column type (but is intended for text fields)

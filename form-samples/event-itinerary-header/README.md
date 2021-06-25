@@ -3,7 +3,7 @@
 ## Summary
 This sample shows a customized header for the item form used in the "Event itinerary" list template.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 This format is intended for the Header Format of the form body in the Configure Layout panel. The body layout shown in the screenshot can be obtained by configuring sections within the Body panel (not included in this format).
 

@@ -3,7 +3,7 @@
 ## Summary
 This is a sample of customizing the group header when grouping by user column. Display the user's picture as well as the user's name in the group header.
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > This format only affects the group header, the Assign column in the screenshot above is using out of the box display.
 

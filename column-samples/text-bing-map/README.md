@@ -8,7 +8,7 @@ In this template we are just using the current field's value as the location, bu
 
 To add additional parameters, just continue to add operands in the + operation!
 
-![screenshot of the sample](./text-bing-map-Screenshot.png)
+![screenshot of the sample](./assets/text-bing-map-Screenshot.png)
 
 ### API key
 

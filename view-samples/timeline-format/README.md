@@ -4,10 +4,10 @@
 This sample formats your SharePoint list view to look like a timeline.
 
 vartical-timeline-format.json
-![screenshot of the sample](./vertical-timeline-format.gif)
+![screenshot of the sample](./assets/vertical-timeline-format.gif)
 
 horizontal-timeline-format.json
-![screenshot of the sample](./horizontal-timeline-format.gif)
+![screenshot of the sample](./assets/horizontal-timeline-format.gif)
 
 ## View requirements
 
