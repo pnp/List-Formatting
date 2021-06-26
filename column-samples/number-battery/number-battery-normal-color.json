@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-direction": "row",
+    "margin": "5px",
+    "align-items": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "display": "flex",
+        "align-items": "center",
+        "width": "100px",
+        "height": "30px",
+        "border": "2px solid",
+        "border-radius": "5px",
+        "padding": "2px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-neutralPrimary"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "@currentField.displayValue",
+            "height": "100%"
+          },
+          "attributes": {
+            "class": "=if(@currentField > 0.5 , 'ms-bgColor-tealLight' , if(@currentField > 0.2 , 'ms-bgColor-yellow' , 'ms-bgColor-red') )"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "@currentField.displayValue",
+          "style": {
+            "position": "absolute",
+            "width": "100%",
+            "text-align": "center",
+            "font-weight": "bold",
+            "font-size": "16px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-neutralPrimary"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "width": "5px",
+        "height": "7px",
+        "border-radius": "0 2px 2px 0"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralPrimary"
+      }
+    }
+  ]
+}
