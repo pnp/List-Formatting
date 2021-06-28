@@ -1296,7 +1296,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-list-sample.jpg?raw=true",
+        "alt": "generic-numeric-average-comparison-list-sample"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-sample.jpg?raw=true",
+        "alt": "generic-numeric-average-comparison-sample"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "PopWarner",
