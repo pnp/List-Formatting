@@ -33,7 +33,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-tile-format/assets/responsive-tile-view.png?raw=true",
+        "alt": "responsive-tile-view"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-tile-format/assets/tile-view.png?raw=true",
+        "alt": "tile-view"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "sohailmerchant",
