@@ -41,7 +41,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/planner-inspired-task-card/assets/screenshot.gif?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/planner-inspired-task-card/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "aprildunnam",

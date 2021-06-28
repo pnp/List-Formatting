@@ -3,7 +3,7 @@
 ## Summary
 Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
 
-![Planner Formatassets/screenshot.png)
+![Planner Format](./assets/screenshot.png)
 
 ## View requirements
 
