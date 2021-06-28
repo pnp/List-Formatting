@@ -33,7 +33,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-ryg-status-format/assets/ryg-status.png?raw=true",
+        "alt": "ryg-status"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "sohailmerchant",
