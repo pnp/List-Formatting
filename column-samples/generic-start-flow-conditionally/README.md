@@ -29,7 +29,7 @@ To obtain a Flow's ID:
 1. Click _Flow_ > _See your flows_ in the SharePoint list where the Flow is configured
 2. Click on the Flow you want to run
 3. Copy the ID from the end of the URL (between _flows/_ and _/details_)
-![Flow ID](./FlowID.png)
+![Flow ID](./assets/FlowID.png)
 
 ## View requirements
 - This format can be applied to any column type (its value is ignored)

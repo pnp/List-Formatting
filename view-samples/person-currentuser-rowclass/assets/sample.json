@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pnp-list-formatting-person-currentuser-rowclass",
+    "reponame": "person-currentuser-rowclass",
+    "source": "pnp",
+    "title": "Current User\u0027s Rows",
+    "shortDescription": "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the \u0060[$AssignedTo]\u0060 portion of the expression.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/person-currentuser-rowclass",
+    "longDescription": [
+      "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the \u0060[$AssignedTo]\u0060 portion of the expression."
+    ],
+    "creationDateTime": "2018-08-21T00:00:00.000Z",
+    "updateDateTime": "2018-08-21T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Person"
+      },
+      {
+        "key": "LIST-PLACEHOLDER-TOKEN",
+        "value": "@me"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "People"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

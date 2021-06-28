@@ -1,0 +1,44 @@
+[
+  {
+    "name": "pnp-list-formatting-project-gantt-chart",
+    "reponame": "project-gantt-chart",
+    "source": "pnp",
+    "title": "Project Gantt Chart View",
+    "shortDescription": "This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart",
+    "longDescription": [
+      "This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."
+    ],
+    "creationDateTime": "2020-11-01T00:00:00.000Z",
+    "updateDateTime": "2021-02-10T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "gdk-max",
+        "pictureUrl": "https://github.com/gdk-max.png",
+        "name": "Geert de Kooter"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -9,7 +9,7 @@ This is a sample that uses `rowFormatter` to customise the entire display of a r
 - hiding column headers (`hideColumnHeader`)
 - using `join` and `\n` to join choice column values on separate lines
 
-![Screenshot](./screenshot.jpeg)
+![Screenshot](./assets/screenshot.jpeg)
 
 ## View Requirements
 

@@ -10,11 +10,11 @@ This sample features the following:
 - The Person's name is a hyperlink to their Profile
 - Pulls in Twitter Profile Pictures
 
-![Twitter Format Screenshot](./twitterFormat.png)
+![Twitter Format Screenshot](./assets/twitterFormat.png)
 
 Screen Capture of working Links
 
-![Twitter Format Screenshot](./SPTwitter.gif)
+![Twitter Format Screenshot](./assets/SPTwitter.gif)
 
 
 ## View requirements

@@ -1,5 +1,8 @@
 # Creating Red-Amber-Green (RAG) bars based on date ranges
 
+## Summary
+This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time.
+
 ## date-range-rag.json
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time. The bar fills towards 100% as "Today" approaches the due date. A percentage width is determined based on the total number of days between the StartDate of the item and the DueDate of the item.
 

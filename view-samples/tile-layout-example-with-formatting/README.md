@@ -3,7 +3,7 @@
 ## Summary
 This sample uses tileProps element to format the tile layout  for document libraries.
 
-![Color status field](./Tile-with-formatting.png)
+![Color status field](./assets/Tile-with-formatting.png)
 
 This format takes advantage of the `tileProps` property to format tiles in doclib to have metadata. To see the tiles, switch your layout to the Tiles layout after you've added the JSON.
 

@@ -6,7 +6,7 @@ Text or choice column where the value is used to determine the color. This allow
 
 This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions.
 
-![Color status field](./screenshot.png)
+![Color status field](./assets/screenshot.png)
 
 ## Color-coded score ranges (risk-score.json)
 
@@ -21,7 +21,7 @@ A number column is evaluated against tiers of values to provide colors correspon
 
 You can easily adjust the values/colors to provide your own ranges. You can also add or remove nested conditions to increase or decrease the number of ranges needed.
 
-![Color-coded ranges](./screenshot2.png)
+![Color-coded ranges](./assets/screenshot2.png)
 
 ## Change direction indicator (risk-level-change-status.json)
 
@@ -33,13 +33,13 @@ A text or choice column where the value is represented as a colored icon. The co
 |Level||Split|
 |Up|sp-field-trending--down|SortUp|
 
-![Change direction indicator](./screenshot3.png)
+![Change direction indicator](./assets/screenshot3.png)
 
 ## Combined formats
 
 Combining more than one of the above formats in a single listview can easily tranform your list into an intuitive and powerful dashboard.
 
-![Combined visualizations](./screenshot4.png)
+![Combined visualizations](./assets/screenshot4.png)
 
 ## View requirements
 

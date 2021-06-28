@@ -5,7 +5,7 @@ Highlights the entire row for any list items assigned to the current user (the u
 
 By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![Light and Dark Themes](./screenshot.png)
+![Light and Dark Themes](./assets/screenshot.png)
 
 ## View requirements
 - This format expects a person column with an internal name of `AssignedTo` to be part of the view 
@@ -33,7 +33,7 @@ Version|Date|Comments
 
 Because this format is only using the `additionalRowClass` property, it can be combined with column formats to make a pretty compelling visualization:
 
-![Combined with Column Formatting](./screenshotCombined.png)
+![Combined with Column Formatting](./assets/screenshotCombined.png)
 
 Column Format samples shown above:
 - [yesno-checkbox](../../column-samples/yesno-checkbox)

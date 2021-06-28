@@ -5,11 +5,11 @@ This project Gantt Chart sample demonstrates how to show a list of high level ta
 
 So this
 
-![list view](./unformattedlistview.png)  
+![list view](./assets/unformattedlistview.png)  
 
 Turns into this
 
-![screenshot of format](./screenshot.png)  
+![screenshot of format](./assets/screenshot.png)  
 
 ## View requirements
 This format expects the following columns to be part of the view:

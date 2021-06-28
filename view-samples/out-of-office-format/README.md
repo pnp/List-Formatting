@@ -7,7 +7,7 @@ This is a sample derived from the [birthday row format](../birthday-format). It 
 - Conditionally changing the text which shows based on if the out of office start date is the current date
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Out of Office Format Screenshot](./outOfOfficeScreenshot.png)
+![Out of Office Format Screenshot](./assets/outOfOfficeScreenshot.png)
 
 
 ## View requirements
@@ -21,7 +21,7 @@ This is a sample derived from the [birthday row format](../birthday-format). It 
 
 This sample relies on having a View set up which filters to only show items where either the Start date or the End date is greater than or equal to the current date. Make sure to apply the necessary filters in your view for this to work:
 
-![View Filter](./ViewFilter.png)
+![View Filter](./assets/ViewFilter.png)
 
 ## Sample
 

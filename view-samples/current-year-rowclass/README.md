@@ -3,7 +3,7 @@
 ## Summary
 Demonstrates applying a class to rows where a value equals the current year. Can easily be updated to compare other portions of the date such as the month, hour, minute etc. by using the other date-part operators.
 
-![Screenshot](./screenshot.png)
+![Screenshot](./assets/screenshot.png)
 
 ## View requirements
 

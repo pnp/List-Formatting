@@ -9,10 +9,10 @@ In addition to the numeric average calculation displayed within each quarter, th
 
 
 ## View Formatting Screenshot
-![Screenshot Sample](./generic-numeric-average-comparison-sample.jpg)
+![Screenshot Sample](./assets/generic-numeric-average-comparison-sample.jpg)
 
 ## List Details Screenshot
-![Screenshot Sample](./generic-numeric-average-comparison-list-sample.jpg)
+![Screenshot Sample](./assets/generic-numeric-average-comparison-list-sample.jpg)
 
 ## View requirements
 

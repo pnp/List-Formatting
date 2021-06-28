@@ -4,7 +4,7 @@
 
 This sample applies conditional formatting to list view rows depending on the value of a "Status" Choice field.
 
-![SharePoint list with view formatted with conditional formatting](./images/sample01.png)
+![SharePoint list with view formatted with conditional formatting](./assets/sample01.png)
 
 ## View requirements
 - The format expects a Choice column with an internal name of `Status`

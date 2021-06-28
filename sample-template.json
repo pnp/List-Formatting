@@ -45,6 +45,10 @@
             {
                 "key": "LIST-CATEGORY",
                 "value": "Cards, Charts, Document Library, Dynamic Links, Flow, Icons, Maps, People, Severity, Social Media, Status / Progress, SVG, Text Conditional, Tiles, Trending"
+            },
+            {
+                "key": "SHAREPOINT-COMPATIBILITY",
+                "value": "SharePoint Online, SharePoint 2019"
             }
         ],
         "thumbnails": [

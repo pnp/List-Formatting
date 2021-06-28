@@ -1,10 +1,13 @@
 # London Underground Line Status
 
-Display on the homepage of your SharePoint intranet a continually updated feed of London Underground line statuses using the publicly available Transport for London (TFL) API. The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar TFL tube status board with correct line colours. Any line not currently in Good service can be clicked and a hovercard will show with further information i.e. delays/suspension/closure etc. 
+## Summary
+Display on the homepage of your SharePoint intranet a continually updated feed of London Underground line statuses using the publicly available Transport for London (TFL) API. 
 
-![Image of SharePoint List view web part on an Intranet](./screenshot.png)
+The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar TFL tube status board with correct line colours. Any line not currently in Good service can be clicked and a hovercard will show with further information i.e. delays/suspension/closure etc. 
 
-![Animated GIF of the Styled SharePoint List View In Action](./screenshot-animated.gif)
+![Image of SharePoint List view web part on an Intranet](./assets/screenshot.png)
+
+![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
 ### Technologies Used
 

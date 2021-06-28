@@ -1,0 +1,59 @@
+[
+  {
+    "name": "pnp-list-formatting-number-conditional-format",
+    "reponame": "number-conditional-format",
+    "source": "pnp",
+    "title": "Conditional formatting based on a number range",
+    "shortDescription": "This example uses the conditional operator \u0060?\u0060 to apply a class (\u0060sp-field-severity--warning\u0060) to the parent \u0060\u003Cdiv /\u003E\u0060 element when the  value in the current field is less than or equal to 70.  This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it\u0027s greater than 70.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-conditional-format",
+    "longDescription": [
+      "This example uses the conditional operator \u0060?\u0060 to apply a class (\u0060sp-field-severity--warning\u0060) to the parent \u0060\u003Cdiv /\u003E\u0060 element when the  value in the current field is less than or equal to 70.  This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it\u0027s greater than 70."
+    ],
+    "creationDateTime": "2017-11-02T00:00:00.000Z",
+    "updateDateTime": "2018-08-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Icons"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-conditional-format/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "VesaJuvonen",
+        "pictureUrl": "https://github.com/VesaJuvonen.png",
+        "name": "Vesa Juvonen"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

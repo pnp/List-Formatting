@@ -1,0 +1,60 @@
+[
+  {
+    "name": "pnp-list-formatting-bulletin-board-format",
+    "reponame": "bulletin-board-format",
+    "source": "pnp",
+    "title": "Bulletin Board",
+    "shortDescription": "Provides an example of creating a simple bulletin board listing. The \u0060rowFormatter\u0060 property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details (see animation below). The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/bulletin-board-format",
+    "longDescription": [
+      "Provides an example of creating a simple bulletin board listing. The \u0060rowFormatter\u0060 property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details (see animation below). The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users."
+    ],
+    "creationDateTime": "2018-08-22T00:00:00.000Z",
+    "updateDateTime": "2020-05-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "LIST-OPERATOR",
+        "value": "toLocaleDateString"
+      },
+      {
+        "key": "LIST-ROW-ACTION",
+        "value": "defaultClick"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Cards"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

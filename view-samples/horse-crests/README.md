@@ -4,7 +4,7 @@
 
 This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children). Details for each technique can be found below.
 
-![Screenshot of Horse Crests Gallery view](./screenshot.png)
+![Screenshot of Horse Crests Gallery view](./assets/screenshot.png)
 
 ## View requirements
 

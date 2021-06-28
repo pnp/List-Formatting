@@ -1,0 +1,44 @@
+[
+  {
+    "name": "pnp-list-formatting-project-health-dashboard",
+    "reponame": "project-health-dashboard",
+    "source": "pnp",
+    "title": "Project Health Dashboard",
+    "shortDescription": "This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/project-health-dashboard",
+    "longDescription": [
+      "This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project."
+    ],
+    "creationDateTime": "2020-12-29T00:00:00.000Z",
+    "updateDateTime": "2020-12-29T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "Riftsan",
+        "pictureUrl": "https://github.com/Riftsan.png",
+        "name": "Andres Ibarra"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

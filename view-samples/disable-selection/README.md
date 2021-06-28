@@ -3,7 +3,7 @@
 ## Summary
 This is a very basic sample that disables list item selection within your view.
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 > The formatted choice column shown above is not part of this sample, it's just part of the list where this sample was applied
 

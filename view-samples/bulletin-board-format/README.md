@@ -7,7 +7,7 @@ The view is sorted by the modified date descending (this is also the date that i
 
 By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![Light and Dark Themes](./screenshot.png)
+![Light and Dark Themes](./assets/screenshot.png)
 
 ## View requirements
 
@@ -21,7 +21,7 @@ By using the Office UI Fabric color classes for themes, we can ensure our format
 
 An additional format, bulletin-board-format-with-buttons.json is provided that demonstrates adding additional buttons for sharing and deleting items. This is important because this sample removes item selection and this makes using this functionality difficult. By adding the buttons you can choose to provide this functionality while still taking advantage of the Bulletin Board format itself.
 
-![With Buttons](./screenshotWithButtons.png)
+![With Buttons](./assets/screenshotWithButtons.png)
 
 ## Sample
 
@@ -46,6 +46,6 @@ Version|Date|Comments
 
 Using the `customRowAction` with an `action` of `defaultClick` creates a great way to make your list into a master view with details easily accessible. This sample wraps the entire row in a button so that you can click anywhere in the row to open the information panel for the item:
 
-![Master Detail View](./BulletinBoardDetails.gif)
+![Master Detail View](./assets/BulletinBoardDetails.gif)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bulletin-board-format" />

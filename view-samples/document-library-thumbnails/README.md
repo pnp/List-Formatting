@@ -12,7 +12,7 @@ The size of the tiles can be adjusted by changing the width and height values.
 
 ## Sample
 
-![Responsive Screenshot](./document-library-thumbnails.png)
+![Responsive Screenshot](./assets/document-library-thumbnails.png)
 
 Solution|Author(s)
 --------|---------

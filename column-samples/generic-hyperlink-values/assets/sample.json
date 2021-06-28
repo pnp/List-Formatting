@@ -1,0 +1,59 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-hyperlink-values",
+    "reponame": "generic-hyperlink-values",
+    "source": "pnp",
+    "title": "Turn field values into hyperlinks",
+    "shortDescription": "This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a \u0060\u002B\u0060 operator that appends the current field value to the static hyperlink \u003Ca\u003Ehttp://finance.yahoo.com/quote/\u003C/a\u003E. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-hyperlink-values",
+    "longDescription": [
+      "This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a \u0060\u002B\u0060 operator that appends the current field value to the static hyperlink \u003Ca\u003Ehttp://finance.yahoo.com/quote/\u003C/a\u003E. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item."
+    ],
+    "creationDateTime": "2017-11-02T00:00:00.000Z",
+    "updateDateTime": "2018-08-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Dynamic Links"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/generic-hyperlink-values/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "VesaJuvonen",
+        "pictureUrl": "https://github.com/VesaJuvonen.png",
+        "name": "Vesa Juvonen"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

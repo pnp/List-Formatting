@@ -3,11 +3,11 @@
 ## Summary
 This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project.
 
-![screenshot of format](./screenshot.png)
+![screenshot of format](./assets/screenshot.png)
 
 ### Hover Display
 
-![screenshot of format with hover](./screenshot-hover.png)
+![screenshot of format with hover](./assets/screenshot-hover.png)
 
 ## View requirements
 This format expects the following columns to be part of the view:

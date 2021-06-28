@@ -1,0 +1,52 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-ryg-status-format",
+    "reponame": "generic-ryg-status-format",
+    "source": "pnp",
+    "title": "Project Indicator - RYG Status Format",
+    "shortDescription": "Text or choice column where the value is used to determine the color. This allows for an easy visualization of status. To use a lookup column instead, replace all occurences of [$internalfieldname] with  [$internalfieldname.lookupValue].",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/generic-ryg-status-format",
+    "longDescription": [
+      "Text or choice column where the value is used to determine the color. This allows for an easy visualization of status. To use a lookup column instead, replace all occurences of [$internalfieldname] with  [$internalfieldname.lookupValue]."
+    ],
+    "creationDateTime": "T00:00:00.000Z",
+    "updateDateTime": "T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Status / Progress"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "sohailmerchant",
+        "pictureUrl": "https://github.com/sohailmerchant.png",
+        "name": "S Merchant"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

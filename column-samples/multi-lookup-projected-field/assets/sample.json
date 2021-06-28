@@ -1,0 +1,57 @@
+[
+  {
+    "name": "pnp-list-formatting-multi-lookup-projected-field",
+    "reponame": "multi-lookup-projected-field",
+    "source": "pnp",
+    "title": "Multi-lookup fields and projected fields",
+    "shortDescription": "Lookup columns that support multiple values can be formatted using the advanced \u0060forEach\u0060 property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-lookup-projected-field",
+    "longDescription": [
+      "Lookup columns that support multiple values can be formatted using the advanced \u0060forEach\u0060 property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted."
+    ],
+    "creationDateTime": "2021-04-22T00:00:00.000Z",
+    "updateDateTime": "2021-04-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-lookup-projected-field/assets/ListSettings-Multi-Lookup.png?raw=true",
+        "alt": "ListSettings-Multi-Lookup"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-lookup-projected-field/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

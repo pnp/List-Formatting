@@ -1,0 +1,52 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-risk-score-format",
+    "reponame": "generic-risk-score-format",
+    "source": "pnp",
+    "title": "Project Indicator - Risk Score Indicator",
+    "shortDescription": "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. ",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/generic-risk-score-format",
+    "longDescription": [
+      "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. "
+    ],
+    "creationDateTime": "T00:00:00.000Z",
+    "updateDateTime": "T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Status / Progress"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "sohailmerchant",
+        "pictureUrl": "https://github.com/sohailmerchant.png",
+        "name": "S Merchant"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

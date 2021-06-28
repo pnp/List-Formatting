@@ -4,7 +4,7 @@
 
 This sample applies conditional formatting to list view rows depending on the value of a DateTime field.
 
-![SharePoint list with view formatted with conditional formatting](./listformatting-additionalrowclass.png)
+![SharePoint list with view formatted with conditional formatting](./assets/listformatting-additionalrowclass.png)
 
 ## View requirements
 - The format expects a DateTime column with an internal name of `DueDate`

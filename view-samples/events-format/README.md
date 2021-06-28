@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart. The format is implemented using the Tiles view and there is a format included that only includes this portion to make customization easier ([events-format-tiles-only](./events-format-tiles-only.json)). The primary sample demonstrates using a single format to provide both a list and tile view as well as demonstrating implementing a custom hover card with default person hover cards as well.
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 ### Links
 

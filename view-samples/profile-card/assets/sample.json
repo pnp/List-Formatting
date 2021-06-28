@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pnp-list-formatting-profile-card",
+    "reponame": "profile-card",
+    "source": "pnp",
+    "title": "User Profile Card",
+    "shortDescription": "This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/profile-card",
+    "longDescription": [
+      "This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided."
+    ],
+    "creationDateTime": "2019-03-13T00:00:00.000Z",
+    "updateDateTime": "2019-03-13T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "LIST-PLACEHOLDER-TOKEN",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Cards"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "ejazhussain",
+        "pictureUrl": "https://github.com/ejazhussain.png",
+        "name": "Ejaz Hussain"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -1,5 +1,8 @@
 # Project Indicator - Risk Score Indicator
 
+## Summary
+A number column is evaluated against tiers of values to provide colors corresponding to score ranges. 
+
 ## Color-coded score ranges (risk-score-viewformat.json)
 
 A number column is evaluated against tiers of values to provide colors corresponding to score ranges. This format provides 4 ranges:
@@ -13,7 +16,7 @@ A number column is evaluated against tiers of values to provide colors correspon
 
 You can easily adjust the values/colors to provide your own ranges. You can also add or remove nested conditions to increase or decrease the number of ranges needed.
 
-![Color-coded ranges](./risk-score.png)
+![Color-coded ranges](./assets/risk-score.png)
 
 ## View requirements
 The format expect the following fields:

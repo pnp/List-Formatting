@@ -3,7 +3,7 @@
 ## Summary
 This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach.
 
-![Screenshot](./screenshot.png)
+![Screenshot](./assets/screenshot.png)
 
 ## View requirements
 

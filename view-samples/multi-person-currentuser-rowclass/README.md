@@ -5,7 +5,7 @@ Highlights the entire row for any list items where one of the assigned to users 
 
 By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![Light and Dark Themes](./screenshot.png)
+![Light and Dark Themes](./assets/screenshot.png)
 
 ## View requirements
 - This format expects a person column with an internal name of `AssignedTo` to be part of the view. This column can be single or multi-select.

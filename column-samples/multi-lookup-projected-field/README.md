@@ -9,7 +9,7 @@ Lookup columns that support multiple values can be formatted using the advanced 
 
 A lookup column becomes a multi-lookup column when you check the _Allow multiple values_ box under the primary column selection in the classic Column Settings screen for the Lookup column. If you check the box for any additional columns, these values become [projected fields](https://docs.microsoft.com/en-us/sharepoint/dev/schema/projectedfields-element-view).
 
-![List Settings for Lookup Field](./ListSettings-Multi-Lookup.png)
+![List Settings for Lookup Field](./assets/ListSettings-Multi-Lookup.png)
 
 ### Formatting Multi-Lookup Columns
 

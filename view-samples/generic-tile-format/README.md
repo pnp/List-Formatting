@@ -3,7 +3,7 @@
 ## Summary
 This sample uses tileProps element to create tile layout on the view.  This layout allow users to see the list as the promoted links app (including the power the security trimming on the items).  This sample uses the Icons from the Microsoft UI Fabric. The name of the icon is referenced through an Icon field.
 
-![Color status field](./tile-view.png)
+![Color status field](./assets/tile-view.png)
 
 This format takes advantage of the `tileProps` property to create tiles in the Tiles layout for the view. To see the tiles, switch your layout to the Tiles layout.
 

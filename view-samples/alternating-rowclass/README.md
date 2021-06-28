@@ -39,7 +39,7 @@ Version|Date|Comments
 
 Because this format is using the `additionalRowClass` property, it can be combined with column formats to make a pretty compelling visualization:
 
-![Combined with Column Formatting](./screenshotCombined.png)
+![Combined with Column Formatting](./assets/screenshotCombined.png)
 
 Column Format samples shown above:
 - [yesno-checkbox](../../column-samples/yesno-checkbox)

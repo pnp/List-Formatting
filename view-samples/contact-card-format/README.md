@@ -16,7 +16,7 @@ This is a sample of a complex format that customizes the entire display of a row
 - Disabling of selection (`hideSelection`)
 - Removal of the list header (`hideListHeader`)
 
-![Light and Dark Themes](./screenshot.png)
+![Light and Dark Themes](./assets/screenshot.png)
 
 ### Map API key
 
@@ -63,7 +63,7 @@ Version|Date|Comments
 
 This format takes advantage of CSS Flexbox to help make it responsive:
 
-![Responsive Screenshot](./screenshotResponsive.png)
+![Responsive Screenshot](./assets/screenshotResponsive.png)
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/contact-card-format" />

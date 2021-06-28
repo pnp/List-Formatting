@@ -9,7 +9,7 @@ Both `ContentType` and `ContentTypeId` are always available (even when not expli
 
 ContentType is available as long as it is NOT part of the view. This is a known limitation in List Formatting.
 
-![Fruit](./screenshot.png)
+![Fruit](./assets/screenshot.png)
 
 ## List requirements
 The list has enabled mangement of Content Types and 2 custom content types have been added. Additionally, the format expects images that correspond with the choice values to be located in the Documents library on the site within the Fruit folder. Sample images have been included.

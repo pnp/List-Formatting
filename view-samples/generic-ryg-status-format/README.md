@@ -5,7 +5,7 @@ Text or choice column where the value is used to determine the color. This allow
 
 This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions.
 
-![Color status field](./ryg-status.png)
+![Color status field](./assets/ryg-status.png)
 
 ## View requirements
 The format expect the following fields:

@@ -1,0 +1,81 @@
+[
+  {
+    "name": "pnp-list-formatting-alternating-rowclass",
+    "reponame": "alternating-rowclass",
+    "source": "pnp",
+    "title": "Alternating Rows",
+    "shortDescription": "Highlights every other row using theme colors.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/alternating-rowclass",
+    "longDescription": [
+      "Highlights every other row using theme colors."
+    ],
+    "creationDateTime": "2019-02-19T00:00:00.000Z",
+    "updateDateTime": "2019-02-19T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "LIST-OPERATOR",
+        "value": "Modulus %"
+      },
+      {
+        "key": "LIST-PLACEHOLDER-TOKEN",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotCombined.png?raw=true",
+        "alt": "screenshotCombined"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotFiltered.png?raw=true",
+        "alt": "screenshotFiltered"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotSorted.png?raw=true",
+        "alt": "screenshotSorted"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

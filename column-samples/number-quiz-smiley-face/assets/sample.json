@@ -1,0 +1,59 @@
+[
+  {
+    "name": "pnp-list-formatting-number-quiz-smiley-face",
+    "reponame": "number-quiz-smiley-face",
+    "source": "pnp",
+    "title": "Smiley faces for good quiz results",
+    "shortDescription": "This allows teachers to show smiley faces next to quiz results similar to how they do it on paper. The number (based on a 0-100 score) will indicate if its a smiley or frown, which come from the Offie UI Fabric Icon set. If the number is above 90 the student gets a super smiley (\u0060Emoji\u0060), above 75 regular smile (\u0060Emoji2\u0060), above 60 neutral smiley (\u0060EmojiNeutral\u0060), below 60 a frown (\u0060EmojiDisappointed\u0060), and anything else gets an \u0060Unknown\u0060.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-quiz-smiley-face",
+    "longDescription": [
+      "This allows teachers to show smiley faces next to quiz results similar to how they do it on paper. The number (based on a 0-100 score) will indicate if its a smiley or frown, which come from the Offie UI Fabric Icon set. If the number is above 90 the student gets a super smiley (\u0060Emoji\u0060), above 75 regular smile (\u0060Emoji2\u0060), above 60 neutral smiley (\u0060EmojiNeutral\u0060), below 60 a frown (\u0060EmojiDisappointed\u0060), and anything else gets an \u0060Unknown\u0060."
+    ],
+    "creationDateTime": "2017-12-01T00:00:00.000Z",
+    "updateDateTime": "2018-08-18T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Icons"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-quiz-smiley-face/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Maher256",
+        "pictureUrl": "https://github.com/Maher256.png",
+        "name": "Matt Maher"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

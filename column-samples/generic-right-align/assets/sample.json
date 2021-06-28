@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-right-align",
+    "reponame": "generic-right-align",
+    "source": "pnp",
+    "title": "Centered Content",
+    "shortDescription": "This sample shows how to right-align your content, while preserving the number or date format set using the SharePoint / Lists UI.  Numbers and dates should typically be presented as right-aligned, for improved readability.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-right-align",
+    "longDescription": [
+      "This sample shows how to right-align your content, while preserving the number or date format set using the SharePoint / Lists UI.  Numbers and dates should typically be presented as right-aligned, for improved readability."
+    ],
+    "creationDateTime": "2021-02-13T00:00:00.000Z",
+    "updateDateTime": "2021-02-13T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-right-align/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Mike-Honey",
+        "pictureUrl": "https://github.com/Mike-Honey.png",
+        "name": "Mike Honey"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

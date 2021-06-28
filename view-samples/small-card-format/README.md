@@ -4,7 +4,7 @@
 
 Sample of a list Formatting for SharePoint using a small card sample. You can use this as quick contact list.
 
-![formatting](./formatting.PNG)
+![formatting](./assets/formatting.PNG)
 
 ## View requirements
 

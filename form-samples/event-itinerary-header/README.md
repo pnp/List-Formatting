@@ -11,7 +11,7 @@ This format is intended for the Header Format of the form body in the Configure 
 
 The following fields are all included in the "Event itinerary" template. You can find this template in the new List dialog:
 
-![image on the list template](./listtemplates.png)
+![image on the list template](./assets/listtemplates.png)
 
 |Type                   |Internal Name    |Required|
 |-----------------------|-----------------|:------:|

@@ -3,7 +3,7 @@
 ## Summary
 This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌
 
-![screenshot of format](./screenshot.gif)  
+![screenshot of format](./assets/screenshot.gif)  
 
 ## View requirements
 This format expects the following columns to be part of the view:

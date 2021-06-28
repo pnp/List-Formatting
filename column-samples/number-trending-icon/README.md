@@ -19,7 +19,7 @@ This format also displays the difference in value between the `Before` and `Afte
 
 The difference values are in a `<span>`, separate from the `After` `<span>`, allowing for unique properties to be applied without altering the `After` value.
 
-![screenshot of the sample with difference](./screenshotWithDifference.png)
+![screenshot of the sample with difference](./assets/screenshotWithDifference.png)
 
 #### Difference Calculation
 |Condition|Expression|Class|

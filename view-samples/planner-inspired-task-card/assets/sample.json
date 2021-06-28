@@ -1,0 +1,60 @@
+[
+  {
+    "name": "pnp-list-formatting-planner-inspired-task-card",
+    "reponame": "planner-inspired-task-card",
+    "source": "pnp",
+    "title": "Planner Inspired Task Cards",
+    "shortDescription": "Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate \u0022In Progress\u0022, \u0022Completed\u0022 and \u0022Delayed\u0022 Statuses. Automatically strikes out text for \u0022Completed\u0022 items.  ",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card",
+    "longDescription": [
+      "Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate \u0022In Progress\u0022, \u0022Completed\u0022 and \u0022Delayed\u0022 Statuses. Automatically strikes out text for \u0022Completed\u0022 items.  "
+    ],
+    "creationDateTime": "2019-07-26T00:00:00.000Z",
+    "updateDateTime": "2019-07-26T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Date/Time"
+      },
+      {
+        "key": "LIST-PLACEHOLDER-TOKEN",
+        "value": "@now"
+      },
+      {
+        "key": "LIST-ROW-ACTION",
+        "value": "defaultClick"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Cards"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "aprildunnam",
+        "pictureUrl": "https://github.com/aprildunnam.png",
+        "name": "April Dunham"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

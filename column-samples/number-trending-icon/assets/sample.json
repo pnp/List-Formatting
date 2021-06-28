@@ -1,0 +1,65 @@
+[
+  {
+    "name": "pnp-list-formatting-number-trending-icon",
+    "reponame": "number-trending-icon",
+    "source": "pnp",
+    "title": "Show trending up/trending down icons ",
+    "shortDescription": "These formats rely on two number fields, \u0060Before\u0060 and \u0060After\u0060, for which the values can be compared. They show the appropriate trending icon next to the value of the \u0060After\u0060 field, depending on that field\u0027s value compared to the value in \u0060Before\u0060. The \u0060sp-field-trending--up\u0060 class is used when \u0060After\u0060\u0027s value is higher; the \u0060sp-field-trending--down\u0060 class is used when \u0060After\u0060\u0027s value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment).",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-trending-icon",
+    "longDescription": [
+      "These formats rely on two number fields, \u0060Before\u0060 and \u0060After\u0060, for which the values can be compared. They show the appropriate trending icon next to the value of the \u0060After\u0060 field, depending on that field\u0027s value compared to the value in \u0060Before\u0060. The \u0060sp-field-trending--up\u0060 class is used when \u0060After\u0060\u0027s value is higher; the \u0060sp-field-trending--down\u0060 class is used when \u0060After\u0060\u0027s value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment)."
+    ],
+    "creationDateTime": "2017-11-02T00:00:00.000Z",
+    "updateDateTime": "2018-08-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "LIST-CATEGORY",
+        "value": "Icons"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-trending-icon/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-trending-icon/assets/screenshotWithDifference.png?raw=true",
+        "alt": "screenshotWithDifference"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "VesaJuvonen",
+        "pictureUrl": "https://github.com/VesaJuvonen.png",
+        "name": "Vesa Juvonen"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
