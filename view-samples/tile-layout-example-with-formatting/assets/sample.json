@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/tile-layout-example-with-formatting/assets/Tile-with-formatting.png?raw=true",
+        "alt": "Tile-with-formatting"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "NiketJain",

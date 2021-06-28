@@ -41,7 +41,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshotResponsive.png?raw=true",
+        "alt": "screenshotResponsive"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

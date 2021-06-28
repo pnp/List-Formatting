@@ -296,7 +296,26 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/bulletin-board-format/assets/BulletinBoardDetails.gif?raw=true",
+        "alt": "BulletinBoardDetails"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/bulletin-board-format/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/bulletin-board-format/assets/screenshotWithButtons.png?raw=true",
+        "alt": "screenshotWithButtons"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
@@ -573,7 +592,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshotResponsive.png?raw=true",
+        "alt": "screenshotResponsive"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
@@ -1028,7 +1060,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/document-library-thumbnails/assets/document-library-thumbnails.png?raw=true",
+        "alt": "document-library-thumbnails"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "Ravikadri",
@@ -2524,7 +2563,14 @@
         "value": "SharePoint 2019, SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-conditional-format/assets/textformatting-status.png?raw=true",
+        "alt": "textformatting-status"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "ldemaris",
@@ -2566,7 +2612,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/tile-layout-example-with-formatting/assets/Tile-with-formatting.png?raw=true",
+        "alt": "Tile-with-formatting"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "NiketJain",
@@ -2608,7 +2661,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/tile-layout-example-with-image/assets/tile-layout.png?raw=true",
+        "alt": "tile-layout"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "rk-menon",

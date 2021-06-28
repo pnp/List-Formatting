@@ -33,7 +33,14 @@
         "value": "SharePoint 2019, SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-conditional-format/assets/textformatting-status.png?raw=true",
+        "alt": "textformatting-status"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "ldemaris",
