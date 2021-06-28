@@ -33,7 +33,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-risk-score-format/assets/risk-score.png?raw=true",
+        "alt": "risk-score"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "sohailmerchant",
