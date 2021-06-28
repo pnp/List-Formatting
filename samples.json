@@ -857,7 +857,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/date-conditional-format/assets/listformatting-additionalrowclass.png?raw=true",
+        "alt": "listformatting-additionalrowclass"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "ldemaris",
