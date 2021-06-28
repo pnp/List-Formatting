@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/testimonials/assets/screenshot.gif?raw=true",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "Riftsan",
