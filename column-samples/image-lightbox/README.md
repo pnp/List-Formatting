@@ -3,7 +3,15 @@
 ## Summary
 This sample demonstrates showing the full size image in a lightbox (hover card) rather than opening this image in a new window.
 
-![screenshot of the sample](./assets/imagesPreview.gif)
+![screenshot of the sample](./assets/screenshot.gif)
+
+### Taking it further
+
+An additional format (image-lightbox-advanced.json) is provided which demonstrates the same lightbox effects but dynamically scales the lightbox image based on the window size (50% of the rendered inner width/height). This format also adds a link in the bottom right corner of the hoverbox to open the image in a new window (matches the standard Image display behavior).
+
+![screenshot of the advanced sample](./assets/screenshotAdvanced.gif)
+
+Additional details about what size options are available can be found here: [Drive Item Thumbnail Size Options](https://docs.microsoft.com/graph/api/driveitem-list-thumbnails?view=graph-rest-1.0&tabs=http#size-options)
 
 ## View requirements
 - This format can be applied to any image column type (Note: this sample does not work with the Picture column type)
@@ -14,12 +22,14 @@ This sample demonstrates showing the full size image in a lightbox (hover card) 
 Solution|Author(s)
 --------|---------
 image-lightbox.json | [João Ferreira](https://twitter.com/Joao12Ferreira)
+image-lightbox-advanced.json | [Chris Kent](https://twitter.com/thechriskent)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|February 10, 2020|Initial release
+1.1|July 8, 2021|Added advanced format
 
 
 ## Disclaimer

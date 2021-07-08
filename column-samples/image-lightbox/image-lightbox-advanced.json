@@ -1,0 +1,68 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+      "display": "=if(@currentField,'block','none')",
+      "max-width": "64px",
+      "max-height": "64px",
+      "overflow": "hidden",
+      "margin": "8px auto -3px -4px",
+      "cursor": "pointer"
+    },
+    "attributes": {
+      "title": "@currentField.fileName"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c48x48/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken"
+        },
+        "customCardProps": {
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "padding": "8px",
+              "background-color": "black"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c' + ceiling(@window.innerWidth*.5) + 'x' + ceiling(@window.innerHeight*.5) + '/content?prefer=noredirect&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken",
+                  "title": "@currentField.fileName"
+                },
+                "style": {
+                  "background-color": "#e6e6e6"
+                }
+              },
+              {
+                  "elmType": "a",
+                  "attributes": {
+                      "iconName": "OpenInNewWindow",
+                      "href": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c3000x2000/content?prefer=noredirect&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken",
+                      "target": "_blank",
+                      "class": "ms-bgColor-black ms-fontColor-white ms-fontColor-themeLight--hover",
+                      "title": "Open in New Window"
+                  },
+                  "style": {
+                    "font-size": "18px",
+                    "text-decoration": "none",
+                    "position": "absolute",
+                    "right": "2px",
+                    "bottom": "2px",
+                    "padding": "8px"
+                  }
+              }
+            ]
+          },
+          "openOnEvent": "click",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "beakStyle": {
+            "backgroundColor": "black"
+          }
+        }
+      }
+    ]
+  }
