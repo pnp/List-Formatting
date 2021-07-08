@@ -2,11 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
+    "display": "=if(@currentField,'block','none')",
     "max-width": "64px",
     "max-height": "64px",
     "overflow": "hidden",
-    "display": "block",
-    "margin": "8px auto -3px -4px"
+    "margin": "8px auto -3px -4px",
+    "cursor": "pointer"
+  },
+  "attributes": {
+    "title": "@currentField.fileName"
   },
   "children": [
     {
@@ -18,7 +22,8 @@
         "formatter": {
           "elmType": "div",
           "style": {
-            "padding": "8px"
+            "padding": "8px",
+            "background-color": "black"
           },
           "children": [
             {
@@ -33,11 +38,11 @@
             }
           ]
         },
-        "openOnEvent": "hover",
+        "openOnEvent": "click",
         "directionalHint": "rightCenter",
         "isBeakVisible": true,
         "beakStyle": {
-          "backgroundColor": "white"
+          "backgroundColor": "black"
         }
       }
     }
