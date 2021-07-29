@@ -3,7 +3,7 @@
 ## Summary
 This is sample creates an FAQ formatted list. Optionally, you can include the Keyword and KeywordLink columns for the [faq-keyword-links-format.json](./faq-keyword-links-format.json) sample.
 
-![FAQ Format Screenshot](./assets/FAQ.png)
+![FAQ Format Screenshot](./FAQ.png)
 
 ## View requirements
 
@@ -40,7 +40,7 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 * Keyword - "Information"
 * KeywordLink - "https://www.microsoft.com"
 
-![FAQ Single Format Screenshot](./assets/FAQSingleQuestionScreenshot.png)
+![FAQ Single Format Screenshot](./FAQSingleQuestionScreenshot.png)
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/faq-format" />
