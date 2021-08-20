@@ -5,7 +5,7 @@ This sample opens Microsoft Office documents in full screen within a new tab. Th
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-![screenshot of the file preview](./screenshotFilePreview.png)
+![screenshot of the file preview](./assets/screenshotFilePreview.png)
 
 ## View requirements
 - This format is intended for document libraries

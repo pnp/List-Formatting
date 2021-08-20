@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates calculating the difference between 2 dates. In this sample the age in years is calculated based on the date of birth and the date of death. This format could easily be adjusted to calculate a different unit of time (months, days, hours, minutes, etc.) by adjusting the multiplier.
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 
 ## View requirements
