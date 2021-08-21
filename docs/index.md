@@ -8,10 +8,11 @@ This repository contains ready to use samples. You can use these samples as star
 
 ## Organization
 
-This repo is divided up into 3 main sections:
+This repo is divided up into 4 main sections:
 
 - **[column-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/column-samples)**: Column Formatting samples
 - **[view-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/view-samples)**: View Formatting samples
+- **[form-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/form-samples)**: Form Formatting samples
 - **[tools](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/tools)**: tools/scripts for advanced scenarios
 
 You can head directly to those folders and start looking around if you'd like. But if you're looking for something specific, we've grouped our samples into various categories:
@@ -26,6 +27,7 @@ You can head directly to those folders and start looking around if you'd like. B
 
 - [Use **column formatting** to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 - [Use **view formatting** to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
+- [Configure the list **form**](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/list-form-configuration)
 
 ## Contributing
 
