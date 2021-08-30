@@ -1,4 +1,4 @@
-# Honeycomb Link
+# Honeycomb Links
 
 ## Summary
 This sample demonstrates a honeycomb structure of links. The hexagons are displayed using SVG, so that five hexagons are displayed per line. This sample uses the Icons from the Fluent UI. The name of the icon is referenced through an `Icon` field.
