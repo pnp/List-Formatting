@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "position": "relative",
+    "margin": "10px",
+    "width": "75px",
+    "height": "75px"
+  },
+  "children": [
+    {
+      "elmType": "svg",
+      "style": {
+        "fill": "currentColor",
+        "position": "absolute",
+        "top": "0",
+        "right": "0"
+      },
+      "attributes": {
+        "viewBox": "0 0 600 600",
+        "class": "ms-fontColor-neutralQuaternaryAlt"
+      },
+      "children": [
+        {
+          "elmType": "path",
+          "attributes": {
+            "d": "M300,0 A300,300 0 1,1 299.998407846124,4.2249439502484165e-9 L299.99880588459297,75.00000000316868 A225,225 0 1,0 300,75 Z"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "svg",
+      "style": {
+        "fill": "currentColor",
+        "position": "absolute",
+        "top": "0",
+        "right": "0"
+      },
+      "attributes": {
+        "viewBox": "0 0 600 600",
+        "class": "ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "path",
+          "attributes": {
+            "d": "= 'M300,0 A300,300 0 ' + if( @currentField > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * @currentField * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * @currentField * (3.14159 / 180))) + ' L' + (300 + 225 * sin(360 * @currentField * (3.14159 / 180))) + ',' + (300 - 225 * cos(360 * @currentField * (3.14159 / 180))) + ' A225,225 0 ' + if( @currentField > 0.5 , '1,0 ' , '0,0 ') + ' 300,75 Z'"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "position": "absolute",
+        "width": "100%",
+        "height": "100%",
+        "display": "flex",
+        "flex-direction": "column",
+        "justify-content": "center",
+        "align-items": "center",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary"
+      },
+      "customCardProps": {
+        "directionalHint": "rightCenter",
+        "isBeakVisible": true,
+        "openOnEvent": "hover",
+        "formatter": {
+          "elmType": "div",
+          "style": {
+            "padding": "15px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "25px",
+                "font-weight": "bold"
+              },
+              "txtContent": "@currentField.displayValue",
+              "attributes": {
+                "class": "ms-fontColor-themePrimary"
+              }
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "font-size": "30px"
+          },
+          "attributes": {
+            "iconName": "HeartFill"
+          }
+        }
+      ]
+    }
+  ]
+}
