@@ -1,276 +1,270 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-    "elmType": "button",
-    "customRowAction": {
-      "action": "executeFlow",
-      "actionParams": "=if([$_ModerationStatus]=='Draft', '{\"id\": \"2100ec15-e270-48c8-8838-cce3183e780b\"}',  'null')"
-    },
-    "attributes": {
-      "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
-      "title": "=if([$_ModerationStatus]=='Draft', 'An Approval Request can be submitted', if([$_ModerationStatus]=='Pending', 'An Approval Request is already submitted','The last Approval Request had the outcome: ' + [$_ModerationStatus]))"
-    },
-    "style": {
-      "border": "none",
-      "background-color": "transparent",
-      "cursor": "pointer"
-    },
-    "children": [
-      {
-        "elmType": "span",
-        "attributes": {
-          "iconName": "=if([$_ModerationStatus]=='Draft', 'Flow', if([$_ModerationStatus]=='Pending','WorkFlow','CircleStopSolid')",
-          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'neutralSecondaryAlt',if([$_ModerationStatus] == 'Rejected', 'red','orange')))"
-        },
-        "style": {
-          "padding-right": "6px"
-        }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
+    "title": "=if([$_ModerationStatus]=='Draft', 'An Approval Request can be submitted', if([$_ModerationStatus]=='Pending', 'An Approval Request is already submitted','The last Approval Request had the outcome: ' + [$_ModerationStatus]))"
+  },
+  "style": {
+    "font-size": "14px"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "=if([$_ModerationStatus]=='Draft', 'Flow', if([$_ModerationStatus]=='Pending', 'WorkFlow', 'CircleStopSolid')",
+        "class": "='ms-fontColor-' + if([$_ModerationStatus]=='Pending' || [$_ModerationStatus]=='Approved', 'neutralSecondaryAlt', if([$_ModerationStatus]=='Rejected', 'red', 'orange'))"
       },
-      {
-        "elmType": "span",
-        "txtContent": "=if([$FlowStatus]=='',[$_ModerationStatus],if([$FlowStatus]=='Completed',if([$FlowTrigger]=='Yes','Flow started',[$_ModerationStatus]),if([$_ModerationStatus]=='Draft','To be started',@currentField)))"
+      "style": {
+        "padding-right": "6px"
       }
-    ],
-    "customCardProps": {
-      "formatter": {
-        "elmType": "div",
-        "children": [
-          {
-            "elmType": "div",
-            "children": [
-              {
-                "elmType": "div",
-                "style": {
-                  "padding": "15px 45px 15px 15px"
-                },
-                "children": [
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "font-size": "18px",
-                          "font-weight": "550",
-                          "text-align": "center",
-                          "margin-bottom": "10px"
-                        },
-                        "txtContent": "Approval Status details"
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "padding-left": "15px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "=if([$_ModerationStatus] == 'Draft', 'StatusCircleQuestionMark',if([$_ModerationStatus] == 'Approved', 'StatusCircleCheckmark',if([$_ModerationStatus] == 'Rejected', 'StatusCircleCheckmark', 'StatusCircleCheckmark')))",
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "margin-left": "-16px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "CircleRing",
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "=if([$_ModerationStatus] == 'Draft', '16px', '')",
-                          "font-weight": "=if([$_ModerationStatus] == 'Draft', '600', ''",
-                          "padding-left": "9px"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Draft', 'Ready to start flow', if([$_ModerationStatus] == 'Pending', 'Flow started',if([$_ModerationStatus] == 'Rejected', 'Flow run','Flow run')))",
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "font-size": "=if([$_ModerationStatus] == 'Draft', '10px', '')",
-                          "font-weight": "=if([$_ModerationStatus] == 'Draft', '600', ''",
-                          "text-align": "center",
-                          "border-left-style": "solid",
-                          "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Draft', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))",
-                          "margin-left": "21px"
-                        },
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Draft', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Draft', 'This could be now', if([$_ModerationStatus] == 'Approved', '',if([$_ModerationStatus] == 'Rejected', '','')))"
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "border-left-style": "solid",
-                          "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Pending','green',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))",
-                          "text-align": "center",
-                          "margin-left": "21px"
-                        },
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','green',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "padding-left": "15px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "=if([$_ModerationStatus] == 'Pending', 'StatusCircleQuestionMark',if([$_ModerationStatus] == 'Approved', 'StatusCircleCheckmark',if([$_ModerationStatus] == 'Rejected', 'StatusCircleCheckmark', 'CircleRing')))",
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "margin-left": "-16px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "CircleRing",
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "=if([$_ModerationStatus] == 'Pending', '16px', ''",
-                          "font-weight": "=if([$_ModerationStatus] == 'Pending', '600', ''",
-                          "padding-left": "9px"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Pending','Pending',if([$_ModerationStatus] == 'Approved','Assessed',if([$_ModerationStatus] == 'Rejected','Assessed','To be assessed')))",
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "font-size": "10px",
-                          "font-weight": "600",
-                          "text-align": "center",
-                          "border-left-style": "solid",
-                          "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Pending', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))",
-                          "margin-left": "21px"
-                        },
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Pending', ' since ' +toLocaleDateString([$Modified]), if([$_ModerationStatus] == 'Approved', '',if([$_ModerationStatus] == 'Rejected', '','')))"
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "border-left-style": "solid",
-                          "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))",
-                          "margin-left": "21px"
-                        },
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "children": [
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "padding-left": "15px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "=if([$_ModerationStatus]== 'Approved', 'StatusCircleCheckmark', if([$_ModerationStatus]== 'Rejected', 'Cancel','CircleRing'))",
-                          "class": "='ms-fontColor-' +if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "16px",
-                          "font-weight": "600",
-                          "margin-left": "-16px"
-                        },
-                        "txtContent": " ",
-                        "attributes": {
-                          "iconName": "CircleRing",
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "span",
-                        "style": {
-                          "font-size": "=if([$_ModerationStatus] == 'Approved', '16px', if([$_ModerationStatus] == 'Rejected', '16px',''))",
-                          "font-weight": "=if([$_ModerationStatus] == 'Approved', '600', if([$_ModerationStatus] == 'Rejected', '600',''))",
-                          "padding-left": "9px"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Draft', 'Outcome', if([$_ModerationStatus] == 'Approved', 'Approved',if([$_ModerationStatus] == 'Rejected', 'Rejected','Outcome')))",
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
-                        }
-                      },
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "font-size": "10px",
-                          "font-weight": "600",
-                          "text-align": "center",
-                          "margin-left": "21px"
-                        },
-                        "attributes": {
-                          "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Approved', 'black', 'black')"
-                        },
-                        "txtContent": "=if([$_ModerationStatus] == 'Pending', '', if([$_ModerationStatus] == 'Approved', ' on ' + toLocaleDateString([$Modified]),if([$_ModerationStatus] == 'Rejected', ' on ' + toLocaleDateString([$Modified]),'')))"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "openOnEvent": "hover",
-      "directionalHint": "bottomCenter",
-      "isBeakVisible": true
+    },
+    {
+      "elmType": "span",
+      "txtContent": "=if([$FlowStatus]=='',[$_ModerationStatus],if([$FlowStatus]=='Completed',if([$FlowTrigger]=='Yes','Flow started',[$_ModerationStatus]),if([$_ModerationStatus]=='Draft','To be started',@currentField)))"
     }
+  ],
+  "customCardProps": {
+    "formatter": {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "padding": "15px 45px 15px 15px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-size": "18px",
+                        "font-weight": "550",
+                        "text-align": "center",
+                        "margin-bottom": "10px"
+                      },
+                      "txtContent": "Approval Status details"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "padding-left": "15px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "=if([$_ModerationStatus] == 'Draft', 'StatusCircleQuestionMark',if([$_ModerationStatus] == 'Approved', 'StatusCircleCheckmark',if([$_ModerationStatus] == 'Rejected', 'StatusCircleCheckmark', 'StatusCircleCheckmark')))",
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "margin-left": "-16px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "CircleRing",
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "=if([$_ModerationStatus] == 'Draft', '16px', '')",
+                        "font-weight": "=if([$_ModerationStatus] == 'Draft', '600', ''",
+                        "padding-left": "9px"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Draft', 'Ready to start flow', if([$_ModerationStatus] == 'Pending', 'Flow started',if([$_ModerationStatus] == 'Rejected', 'Flow run','Flow run')))",
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'green', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-size": "=if([$_ModerationStatus] == 'Draft', '10px', '')",
+                        "font-weight": "=if([$_ModerationStatus] == 'Draft', '600', ''",
+                        "text-align": "center",
+                        "border-left-style": "solid",
+                        "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Draft', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))",
+                        "margin-left": "21px"
+                      },
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Draft', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'green','neutralSecondaryAlt')))"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Draft', 'This could be now', if([$_ModerationStatus] == 'Approved', '',if([$_ModerationStatus] == 'Rejected', '','')))"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "border-left-style": "solid",
+                        "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Pending','green',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))",
+                        "text-align": "center",
+                        "margin-left": "21px"
+                      },
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','green',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "padding-left": "15px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "=if([$_ModerationStatus] == 'Pending', 'StatusCircleQuestionMark',if([$_ModerationStatus] == 'Approved', 'StatusCircleCheckmark',if([$_ModerationStatus] == 'Rejected', 'StatusCircleCheckmark', 'CircleRing')))",
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "margin-left": "-16px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "CircleRing",
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "=if([$_ModerationStatus] == 'Pending', '16px', ''",
+                        "font-weight": "=if([$_ModerationStatus] == 'Pending', '600', ''",
+                        "padding-left": "9px"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Pending','Pending',if([$_ModerationStatus] == 'Approved','Assessed',if([$_ModerationStatus] == 'Rejected','Assessed','To be assessed')))",
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending','orange',if([$_ModerationStatus] == 'Approved','green',if([$_ModerationStatus] == 'Rejected','green','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-size": "10px",
+                        "font-weight": "600",
+                        "text-align": "center",
+                        "border-left-style": "solid",
+                        "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'Pending', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))",
+                        "margin-left": "21px"
+                      },
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Pending', 'neutralSecondaryAlt', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Pending', ' since ' +toLocaleDateString([$Modified]), if([$_ModerationStatus] == 'Approved', '',if([$_ModerationStatus] == 'Rejected', '','')))"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "border-left-style": "solid",
+                        "border-left-color": "='ms-borderColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))",
+                        "margin-left": "21px"
+                      },
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "padding-left": "15px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "=if([$_ModerationStatus]== 'Approved', 'StatusCircleCheckmark', if([$_ModerationStatus]== 'Rejected', 'Cancel','CircleRing'))",
+                        "class": "='ms-fontColor-' +if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "16px",
+                        "font-weight": "600",
+                        "margin-left": "-16px"
+                      },
+                      "txtContent": " ",
+                      "attributes": {
+                        "iconName": "CircleRing",
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "font-size": "=if([$_ModerationStatus] == 'Approved', '16px', if([$_ModerationStatus] == 'Rejected', '16px',''))",
+                        "font-weight": "=if([$_ModerationStatus] == 'Approved', '600', if([$_ModerationStatus] == 'Rejected', '600',''))",
+                        "padding-left": "9px"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Draft', 'Outcome', if([$_ModerationStatus] == 'Approved', 'Approved',if([$_ModerationStatus] == 'Rejected', 'Rejected','Outcome')))",
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'neutralSecondaryAlt', 'Outcome', if([$_ModerationStatus] == 'Approved', 'green',if([$_ModerationStatus] == 'Rejected', 'red','neutralSecondaryAlt')))"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "font-size": "10px",
+                        "font-weight": "600",
+                        "text-align": "center",
+                        "margin-left": "21px"
+                      },
+                      "attributes": {
+                        "class": "='ms-fontColor-' + if([$_ModerationStatus] == 'Approved', 'black', 'black')"
+                      },
+                      "txtContent": "=if([$_ModerationStatus] == 'Pending', '', if([$_ModerationStatus] == 'Approved', ' on ' + toLocaleDateString([$Modified]),if([$_ModerationStatus] == 'Rejected', ' on ' + toLocaleDateString([$Modified]),'')))"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "openOnEvent": "hover",
+    "directionalHint": "bottomCenter",
+    "isBeakVisible": true
   }
+}

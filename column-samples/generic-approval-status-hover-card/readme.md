@@ -1,23 +1,23 @@
-# Approval Status column of SharePoint with a Hover Card
+# Approval Status Hover Card
 
 ## Summary
-The following image shows a document library where Content Approval is enabled. In the Approval Status column the English value is used to show an icon with a colour and on hover - a hover card is shows 
+This sample provides more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover.
 
-![screenshot of the sample](./SharePoint_ColumnFormatting_ApprovalStatus.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- This format can be applied to any column in your view as long as the Approval Status column ([$_ModerationStatus]) and the Modified column ([$Modified]) are also visible in the same view:
+This format requires Content Approval to be enabled for your list/library (see below for instructions). Once enabled, this format can be applied to any column in your view as long as the Approval Status column ([$_ModerationStatus]) and the Modified column ([$Modified]) are also visible in the same view.
 
-Column Name         |Type
---------------------|--------------
-Approval Status     | Default when Content Approval is enabled
-Modified            | Default modified column
+### Enable Content Approval
+On your list use the menu to choose Integrate > Power Automate > Configure flows. In the panel that opens, choose to enable approvals for the library and choose Content approval for the approval mode.
+
+In the Add column menu choose to Show/hide columns and add Approval Status and Modified to your view.
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-approval-status-hover-card.json | Django Lohn
+approval-status-hover-card.json | [Django Lohn](https://twitter.com/LohnDjango)
 
 ## Version history
 
@@ -32,6 +32,6 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-This sample uses icons from the Office UI Fabric
+This sample uses icons from Fluent UI
 
-- [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
+- [Fluent UI Iconography](https://developer.microsoft.com/fluentui#/styles/web/icons)
