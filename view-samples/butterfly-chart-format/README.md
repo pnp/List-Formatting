@@ -26,6 +26,7 @@ butterfly-chart-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 Version |Date              |Comments
 --------|------------------|--------
 1.0     |February 5, 2021  |Initial release
+2.0     |August 20, 2021  |Screenshot added
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
