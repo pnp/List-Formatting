@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "flex-direction": "column",
@@ -17,6 +17,67 @@
       "attributes": {
         "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
       }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "margin-bottom": "2px",
+        "white-space": "nowrap"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "Sunday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 0 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 0 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Monday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 1 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 1 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Tuesday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 2 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 2 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Wednesday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 3 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 3 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Thursday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 4 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 4 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Friday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 5 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 5 , '' ,'none'))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Saturday",
+          "style": {
+            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 6 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 6 , '' ,'none'))"
+          }
+        }
+      ]
     },
     {
       "elmType": "div",
