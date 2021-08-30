@@ -32,4 +32,4 @@ This sample uses icons from the Fluent UI
 
 - [Fluent UI](https://developer.microsoft.com/en-us/fluentui)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-battery" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-doughnut-chart" />
