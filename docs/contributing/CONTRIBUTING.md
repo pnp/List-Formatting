@@ -118,12 +118,14 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 - Select **Pull requests**
 - Select **New pull request**
 
-![create pull request](img/create-pr.png)
+![create pull request](/docs/img/create-pr.png)
 
 - Select **compare across forks**
 - Select your fork from the **head repository**
 
 ![compare changes](img/create-pr.png)
+
+https://github.com/LuiseFreese/sp-dev-list-formatting/blob/master/docs/img/create-pr.png
 
 - fill out the form
 
