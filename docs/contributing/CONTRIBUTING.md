@@ -46,7 +46,7 @@ Fork our repository to create a copy in your account:
 - open [pnp/sp-dev-list-formatting/](https://github.com/pnp/sp-dev-list-formatting/) (this repository)
 - select **Fork**
 
-![fork repository](img/fork-repository.png)
+![fork repository](/docs/img/fork-repository.png)
 
 The URL of your fork is now `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting/`
 
@@ -57,7 +57,7 @@ Now you want to clone the repository so you have it locally available:
 (1) Select **Code**
 (2) Copy the URL (it is `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting.git`)
 
-![clone repository](img/clone-repository.png)
+![clone repository](/docs/img/clone-repository.png)
 
 - Open the terminal in VS Code
 - navigate to a directory where you want to clone the repository
@@ -90,8 +90,8 @@ Now it's time to make some changes:
 
 - type `code .` in VSCode terminal (yes, there is a space (` `) between `code` and the `.`) to open your project in a new VS Code instance
 - develop your sample, for help here are some resources:
-  - [Use view formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
-  - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+  - [Use view formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting)
+  - [Use column formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
   - [Getting started with SharePoint’s custom column formatting](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-column-formatting/ba-p/2207937)
   - [Getting started with SharePoint's custom view formatting](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/getting-started-with-sharepoint-s-custom-view-formatting/ba-p/2222740)
   - [LIST FORMATTING by Chris Kent](https://thechriskent.com/tag/list-formatting/)
@@ -123,11 +123,19 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 - Select **compare across forks**
 - Select your fork from the **head repository**
 
-![compare changes](img/create-pr.png)
+![compare changes](/docs/img/create-pr.png)
 
-https://github.com/LuiseFreese/sp-dev-list-formatting/blob/master/docs/img/create-pr.png
+- Select **Compare & pull request**
 
-- fill out the form
+![compare and pull request](/docs/img/compare-and-pr.png)
+
+- Fill out the form (please read carefully, this way we don't need to go back and forth too often)
+  - give your PR a descriptive title
+  - fill out the markdown table in the body of the PR
+  - describe what's in the PR
+- You can always switch to **Preview** to see how it looks like
+- Select **Create pull request**
+- If needed, you can commit more files and changes
 
 ### working together
 
@@ -136,3 +144,5 @@ A maintainer will review your pull request, this repository is maintained by vol
 ## What if you need help?
 
 We are here and happy to support you and provide you with resources, guidance and an entire community to help you contributing. Our friends at [Sharing is Caring](https://aka.ms/sharing-is-caring) run sessions on how you get started and will help you along the way. If you have any questions, please reach out to any [Microsoft 365 PnP member](https://aka.ms/m365pnp), they will point you into the right direction.
+
+_Sharing is Caring!_
