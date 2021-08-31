@@ -46,7 +46,7 @@ Fork our repository to create a copy in your account:
 - open [pnp/sp-dev-list-formatting/](https://github.com/pnp/sp-dev-list-formatting/) (this repository)
 - select **Fork**
 
-![fork repository](docs/img/fork-repository.png)
+![fork repository](img/fork-repository.png)
 
 The URL of your fork is now `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting/`
 
@@ -57,7 +57,7 @@ Now you want to clone the repository so you have it locally available:
 (1) Select **Code**
 (2) Copy the URL (it is `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting.git`)
 
-![clone repository](docs/img/clone-repository.png)
+![clone repository](img/clone-repository.png)
 
 - Open the terminal in VS Code
 - navigate to a directory where you want to clone the repository
@@ -118,12 +118,12 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 - Select **Pull requests**
 - Select **New pull request**
 
-![create pull request](docs/img/create-pr.png)
+![create pull request](img/create-pr.png)
 
 - Select **compare across forks**
 - Select your fork from the **head repository**
 
-![compare changes](docs/img/create-pr.png)
+![compare changes](img/create-pr.png)
 
 - fill out the form
 
