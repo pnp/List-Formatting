@@ -10,10 +10,10 @@ This repository contains ready to use samples. You can use these samples as star
 
 This repo is divided up into 4 main sections:
 
-- **[column-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/column-samples)**: Column Formatting samples
-- **[view-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/view-samples)**: View Formatting samples
-- **[form-samples](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/form-samples)**: Form Formatting samples
-- **[tools](https://github.com/sharepoint/sp-dev-list-formatting/tree/master/tools)**: tools/scripts for advanced scenarios
+- **[column-samples](https://github.com/pnp/List-Formatting/tree/master/column-samples)**: Column Formatting samples
+- **[view-samples](https://github.com/pnp/List-Formatting/tree/master/view-samples)**: View Formatting samples
+- **[form-samples](https://github.com/pnp/List-Formatting/tree/master/form-samples)**: Form Formatting samples
+- **[tools](https://github.com/pnp/List-Formatting/tree/master/tools)**: tools/scripts for advanced scenarios
 
 You can head directly to those folders and start looking around if you'd like. But if you're looking for something specific, we've grouped our samples into various categories:
 
