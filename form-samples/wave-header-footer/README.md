@@ -11,9 +11,10 @@ Nothing.
 
 ## Sample
 
-Solution                |Author(s)
-------------------------|---------------------------
-wave-header-footer.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution         |Author(s)
+-----------------|---------------------------
+wave-header.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+wave-footer.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
