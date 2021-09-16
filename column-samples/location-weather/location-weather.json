@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField && (@currentField.Address.CountryOrRegion == 'US' || @currentField.Address.CountryOrRegion == 'United States'), 'flex', 'none')",
+    "align-items": "flex-start",
+    "width": "175px",
+    "height": "74px",
+    "overflow": "hidden",
+    "margin-bottom": "8px"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": "='https://www.weatherforyou.net/fcgi-bin/hw3/hw3.cgi?config=png&forecast=hourly&alt=hwihourly&place=' + @currentField.Address.City + '&state=' + @currentField.Address.State + '&country=us' + '&hwvbg=transparent&hwvtc=black&hwvdisplay=' + @currentField.DisplayName"
+      }
+    }
+  ]
+}
