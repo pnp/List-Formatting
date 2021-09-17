@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample pulls out sub properties of a Location column to build an image `src` that pulls weather from [WeatherForYou.com](https://www.weatherforyou.com/).
+This sample utilizes sub properties of a Location column to build an image `src` that pulls weather from [WeatherForYou.com](https://www.weatherforyou.com/).
 
 ![screenshot of the sample](./assets/screenshot.png)
 
