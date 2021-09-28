@@ -1,0 +1,131 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "width": "= @window.innerWidth * 0.07 + 'px'",
+      "height": "= @window.innerHeight * 0.6 + 'px'",
+      "position": "absolute",
+      "top": "0",
+      "left": "= @rowIndex * @window.innerWidth * 0.07 + 'px'",
+      "cursor": "pointer"
+    },
+    "attributes": {
+      "class": "=if(@rowIndex % 7 == 0 , 'ms-bgColor-sharedRed10' , if(@rowIndex % 7 == 1 , 'ms-bgColor-sharedOrange10' , if(@rowIndex % 7 == 2 , 'ms-bgColor-sharedYellow10' , if(@rowIndex % 7 == 3 , 'ms-bgColor-sharedYellowGreen10' , if(@rowIndex % 7 == 4 , 'ms-bgColor-sharedCyan10' , if(@rowIndex % 7 == 5 , 'ms-bgColor-sharedCyanBlue10' , if(@rowIndex % 7 == 6 , 'ms-bgColor-sharedBlueMagenta10' , '')))))))"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "100%",
+          "height": "100%",
+          "position": "relative"
+        },
+        "customCardProps": {
+          "openOnEvent": "click",
+          "directionalHint": "topCenter",
+          "isBeakVisible": false,
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "padding": "30px"
+            },
+            "attributes": {
+              "class": "=if(@rowIndex % 7 == 0 , 'ms-bgColor-sharedRed10 ms-fontColor-white' , if(@rowIndex % 7 == 1 , 'ms-bgColor-sharedOrange10 ms-fontColor-white' , if(@rowIndex % 7 == 2 , 'ms-bgColor-sharedYellow10 ms-fontColor-white' , if(@rowIndex % 7 == 3 , 'ms-bgColor-sharedYellowGreen10 ms-fontColor-white' , if(@rowIndex % 7 == 4 , 'ms-bgColor-sharedCyan10 ms-fontColor-white' , if(@rowIndex % 7 == 5 , 'ms-bgColor-sharedCyanBlue10 ms-fontColor-white' , if(@rowIndex % 7 == 6 , 'ms-bgColor-sharedBlueMagenta10 ms-fontColor-white' , '')))))))"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "style": {
+                  "font-size": "30px",
+                  "font-weight": "bold"
+                }
+              }
+            ]
+          }
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "30%",
+              "height": "60%",
+              "display": "=if(@rowIndex % 7 == 0 , 'none' , if(@rowIndex % 7 == 3 , 'none' , ''))"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralPrimary"
+            },
+            "customCardProps": {
+              "openOnEvent": "click",
+              "directionalHint": "topCenter",
+              "isBeakVisible": false,
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "padding": "30px"
+                },
+                "attributes": {
+                  "class": "=if(@rowIndex % 7 == 0 , 'ms-bgColor-sharedRed10 ms-fontColor-white' , if(@rowIndex % 7 == 1 , 'ms-bgColor-sharedOrange10 ms-fontColor-white' , if(@rowIndex % 7 == 2 , 'ms-bgColor-sharedYellow10 ms-fontColor-white' , if(@rowIndex % 7 == 3 , 'ms-bgColor-sharedYellowGreen10 ms-fontColor-white' , if(@rowIndex % 7 == 4 , 'ms-bgColor-sharedCyan10 ms-fontColor-white' , if(@rowIndex % 7 == 5 , 'ms-bgColor-sharedCyanBlue10 ms-fontColor-white' , if(@rowIndex % 7 == 6 , 'ms-bgColor-sharedBlueMagenta10 ms-fontColor-white' , '')))))))"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "= [$Title] + '♭'",
+                    "style": {
+                      "font-size": "30px",
+                      "font-weight": "bold"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "30%",
+              "height": "60%",
+              "display": "=if(@rowIndex % 7 == 2 , 'none' , if(@rowIndex % 7 == 6 , 'none' , ''))"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralPrimary"
+            },
+            "customCardProps": {
+              "openOnEvent": "click",
+              "directionalHint": "topCenter",
+              "isBeakVisible": false,
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "padding": "30px"
+                },
+                "attributes": {
+                  "class": "=if(@rowIndex % 7 == 0 , 'ms-bgColor-sharedRed10 ms-fontColor-white' , if(@rowIndex % 7 == 1 , 'ms-bgColor-sharedOrange10 ms-fontColor-white' , if(@rowIndex % 7 == 2 , 'ms-bgColor-sharedYellow10 ms-fontColor-white' , if(@rowIndex % 7 == 3 , 'ms-bgColor-sharedYellowGreen10 ms-fontColor-white' , if(@rowIndex % 7 == 4 , 'ms-bgColor-sharedCyan10 ms-fontColor-white' , if(@rowIndex % 7 == 5 , 'ms-bgColor-sharedCyanBlue10 ms-fontColor-white' , if(@rowIndex % 7 == 6 , 'ms-bgColor-sharedBlueMagenta10 ms-fontColor-white' , '')))))))"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "= [$Title] + '#'",
+                    "style": {
+                      "font-size": "30px",
+                      "font-weight": "bold"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
