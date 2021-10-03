@@ -21,6 +21,7 @@ number-doughnut-chart-icon-only.json    |[Tetsuya Kawahara](https://twitter.com/
 Version |Date            |Comments
 --------|----------------|----------------
 1.0     |August 20, 2021 |Initial release
+1.1     |October 3, 2021 |Fixed the display when the value is less than 0% and greater than 100%.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
