@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates displaying progress bar with conditional color based on the value.
 - Red for value <= 0.3 (30%)
-- Yellow for 0.3 (30%) < value <= 1 (100%)
+- Yellow for 0.3 (30%) < value < 1 (100%)
 - Green for value == 1 (100%)
 
 ![screenshot](./assets/screenshot.png)
