@@ -20,7 +20,7 @@ August    |🏄
 September |🌰
 October   |🎃
 November  |🍁
-November  |🎅
+December  |🎅
 
 ## View requirements
 This format can be applied to a Date column
