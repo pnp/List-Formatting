@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "additionalRowClass": "=if(indexOf([$LikedBy.email] , @me) >= 0 , 'ms-bgColor-themeLighter' , '')"
+}
