@@ -5,17 +5,34 @@ This sample demonstrates how to change the background color of a row depending o
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-### Prerequisites
+## Prerequisites
+### Enabling the ratings feature
 The ratings feature is available by default in the team site, but not in the communication site. If you want to use the ratings feature in the list of communication sites, you need to enable the feature GUID ` 915c240e-a6cc-49b8-8b2c-0bff8b553ed3`. The following is an example of how to enable it using [PnP PowerShell](https://pnp.github.io/powershell).
 
 ```
-$targetURL = "https://tenent.sharepoint.com/sites/CommunicationSite"
+$targetURL = "https://<tenent name>.sharepoint.com/sites/<site name>"
 Connect-PnPOnline -Url $targetURL -Interactive
 Enable-PnPFeature –identity 915c240e-a6cc-49b8-8b2c-0bff8b553ed3 -Scope site
+Disconnect-PnPOnline
 ```
 
+### Add an ratings feature to the list
+1. Click **gear icon**
+2. Click **List Settings**
+3. Under **General Settings**, click **Rating settings**.
+
+   ![screenshot of how to add the ratings feature](./assets/add_ratings_1.png)
+
+4. Under **Allow items in this list to be rated?**, click **Yes**.
+5. Under **Which voting/rating experience would you like to enable for this list?**, click **Likes**.
+6. Click **OK**.
+
+   ![screenshot of how to add the ratings feature](./assets/add_ratings_2.png)
+
 ## View requirements
-- You need to add a ratings feature to the list and display a like button. To add it, please refer to [this page](https://support.microsoft.com/en-us/office/add-a-ratings-feature-to-your-library-5901fcfd-19ca-4f27-a65f-284654298552).
+|Type           |Internal Name|Required|
+|---------------|-------------|:------:|
+|Number of Likes|LikesCount   |Yes     |
 
 ## Sample
 
