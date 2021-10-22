@@ -32,7 +32,7 @@ Disconnect-PnPOnline
 ## View requirements
 |Type           |Internal Name|Required|
 |---------------|-------------|:------:|
-|Number of Likes|LikesCount   |Yes     |
+|Number of Likes|LikesCount   |No      |
 
 ## Sample
 
