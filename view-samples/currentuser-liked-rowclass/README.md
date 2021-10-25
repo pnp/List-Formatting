@@ -16,7 +16,7 @@ Enable-PnPFeature –identity 915c240e-a6cc-49b8-8b2c-0bff8b553ed3 -Scope site
 Disconnect-PnPOnline
 ```
 
-### Add an ratings feature to the list
+### Add a ratings feature to the list
 1. Click **gear icon**
 2. Click **List Settings**
 3. Under **General Settings**, click **Rating settings**.
@@ -30,9 +30,8 @@ Disconnect-PnPOnline
    ![screenshot of how to add the ratings feature](./assets/add_ratings_2.png)
 
 ## View requirements
-|Type           |Internal Name|Required|
-|---------------|-------------|:------:|
-|Number of Likes|LikesCount   |No      |
+
+- Add a ratings feature to the list and display a like button.
 
 ## Sample
 
