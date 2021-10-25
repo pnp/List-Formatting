@@ -53,4 +53,8 @@ Version |Date            |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+## Additional notes
+- [PnP PowerShell](https://pnp.github.io/powershell)
+- [Add a ratings feature to your library](https://support.microsoft.com/en-us/office/add-a-ratings-feature-to-your-library-5901fcfd-19ca-4f27-a65f-284654298552)
+
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-likedby" />
