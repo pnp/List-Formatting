@@ -10,7 +10,7 @@
       "This example creates colored data bars on the current field based on \u0060DueDate\u0060 and \u0060StartDate\u0060 fields compared to the current date/time."
     ],
     "creationDateTime": "2018-06-13T00:00:00.000Z",
-    "updateDateTime": "2019-08-12T00:00:00.000Z",
+    "updateDateTime": "2021-11-01T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Office"
@@ -60,6 +60,11 @@
         "gitHubAccount": "ChrispyBites",
         "pictureUrl": "https://github.com/ChrispyBites.png",
         "name": "Christopher Parker"
+      },
+      {
+        "gitHubAccount": "JoeAyre",
+        "pictureUrl": "https://github.com/JoeAyre.png",
+        "name": "Joe Ayre"
       }
     ],
     "references": [
