@@ -11,7 +11,7 @@ This example uses a column to generate a hyperlink to the Item Thumbnail for a d
 ![screenshot of the sample](./assets/screenshot.png)
 
 ### generic-image-thumbnail 
-basics from: https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/picture-roundimage-format
+basics from: https://github.com/pnp/List-Formatting/tree/master/column-samples/picture-roundimage-format
 
 * Adjust Thumbnail Sizes or Rounded Edges to your NEEDS. 
 
