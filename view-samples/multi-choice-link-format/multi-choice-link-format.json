@@ -1,137 +1,137 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-    "hideSelection": true,
-    "hideListHeader": true,
-    "rowFormatter": {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "align-items": "stretch",
+      "padding": "8px",
+      "margin-bottom": "25px",
+      "max-width": "410px",
+      "box-shadow": "4px 4px 8px lightblue"
+    },
+    "attributes": {
+      "class": "ms-bgColor-themeLighterAlt"
+    },
+    "children": [
+      {
         "elmType": "div",
         "style": {
-            "display": "flex",
-            "flex-wrap": "wrap",
-            "align-items": "stretch",
-            "padding": "8px",
-            "margin-bottom": "25px",
-            "max-width": "410px",
-            "box-shadow": "4px 4px 8px lightblue"
-        },
-        "attributes": {
-            "class": "ms-bgColor-themeLighterAlt"
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "align-items": "stretch"
         },
         "children": [
-            {
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none"
+            },
+            "children": [
+              {
                 "elmType": "div",
                 "style": {
-                    "flex-grow": "1",
-                    "display": "flex",
-                    "flex-wrap": "wrap",
-                    "align-items": "stretch"
+                  "width": "100px",
+                  "height": "100px",
+                  "overflow": "hidden",
+                  "border-radius": "50%",
+                  "margin-right": "8px"
                 },
                 "children": [
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "flex": "none"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "width": "100px",
-                                    "height": "100px",
-                                    "overflow": "hidden",
-                                    "border-radius": "50%",
-                                    "margin-right": "8px"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "img",
-                                        "attributes": {
-                                            "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
-                                            "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
-                                        },
-                                        "style": {
-                                            "position": "relative",
-                                            "top": "50%",
-                                            "left": "50%",
-                                            "width": "100%",
-                                            "height": "auto",
-                                            "margin-left": "-50%",
-                                            "margin-top": "-50%"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
+                      "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
                     },
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "flex-grow": "1",
-                            "display": "flex",
-                            "flex-direction": "column",
-                            "flex-wrap": "nowrap",
-                            "align-items": "stretch",
-                            "max-width": "300px"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "flex-grow": "1"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "[$Title]",
-                                        "style": {
-                                            "display": "block"
-                                        },
-                                        "attributes": {
-                                            "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary"
-                                        }
-                                    },
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "[$JobTitle]",
-                                        "style": {
-                                            "display": "=if([$JobTitle] == '', 'none', 'block')"
-                                        },
-                                        "attributes": {
-                                            "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
-                                        }
-                                    },
-                                    {
-                                        "elmType": "span",
-                                        "style": {
-                                            "display": "block",
-                                            "margin": "5px 0px"
-                                        },
-                                        "attributes": {
-                                            "class": "ms-fontWeight-semibold ms-fontSize-m"
-                                        },
-                                        "txtContent": "Sessions"
-                                    },
-                                    {
-                                        "forEach": "sessionIterator in [$Sessions]",
-                                        "elmType": "a",
-                                        "txtContent": "=substring([$sessionIterator], 0, indexOf([$sessionIterator], '|'))",
-                                        "style": {
-                                            "padding": "5px",
-                                            "margin": "0px 5px 5px 0px",
-                                            "float": "left",
-                                            "text-decoration": "none"
-                                        },
-                                        "attributes": {
-                                            "class": "ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-themeDark ms-bgColor-themeLight ms-bgColor-themeLighter--hover",
-                                            "href": "=substring([$sessionIterator], indexOf([$sessionIterator], '|') + 1,  lastIndexOf([$sessionIterator], '|'))",
-                                            "target": "_blank"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
+                    "style": {
+                      "position": "relative",
+                      "top": "50%",
+                      "left": "50%",
+                      "width": "100%",
+                      "height": "auto",
+                      "margin-left": "-50%",
+                      "margin-top": "-50%"
                     }
+                  }
                 ]
-            }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "flex-wrap": "nowrap",
+              "align-items": "stretch",
+              "max-width": "300px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "display": "block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$JobTitle]",
+                    "style": {
+                      "display": "=if([$JobTitle] == '', 'none', 'block')"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "display": "block",
+                      "margin": "5px 0px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontWeight-semibold ms-fontSize-m"
+                    },
+                    "txtContent": "Sessions"
+                  },
+                  {
+                    "forEach": "sessionIterator in [$Sessions]",
+                    "elmType": "a",
+                    "txtContent": "=substring([$sessionIterator], 0, indexOf([$sessionIterator], '|'))",
+                    "style": {
+                      "padding": "5px",
+                      "margin": "0px 5px 5px 0px",
+                      "float": "left",
+                      "text-decoration": "none"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-themeDark ms-bgColor-themeLight ms-bgColor-themeLighter--hover",
+                      "href": "=substring([$sessionIterator], indexOf([$sessionIterator], '|') + 1,  lastIndexOf([$sessionIterator], '|'))",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }

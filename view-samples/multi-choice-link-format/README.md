@@ -1,15 +1,15 @@
 # Multi choice link row format
 
-## Overview
-Rendering multiple links in list view format cannot be achieved using rich text column. This sample helps in solving that problem (rendering multiple links) using a multi choice column. 
-
 ## Summary
-This is a sample derived from the [birthday row format](../birthday-format). This sample shows how to format a list to show sessions associated with a speaker. It features the following:
+
+Rendering multiple links with a list view format cannot be achieved by using a rich text column. This sample solves that problem (rendering multiple links) using a multi choice column.
+
+This sample is derived from the [birthday row format](../birthday-format). This sample shows how to format a list to show sessions associated with a speaker. It features the following:
 - Responsive layout through flexbox.
-- Show links to multiple sessions associated with a speaker. (The sessions are stored as choices in a multi choice column.)
+- Shows links to multiple sessions associated with a speaker (The sessions are stored as choices in a multi choice column).
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Multi choice link row format](./multi-choice-link-format.png)
+![Multi choice link row format](./assets/screenshot.png)
 
 ## View requirements
 
@@ -21,21 +21,25 @@ This is a sample derived from the [birthday row format](../birthday-format). Thi
 |Picture|Picture||
 
 ### Important requirement
-The sample expects the choices in the `Sessions` column to be the format `<Link Title>|<The actual link>|`. Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column must be set to `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
+The sample expects the choices in the `Sessions` column to be in the format `<Link Title>|<The actual link>|`.
 
-Session column's choice values used in the example screenshot above
+For Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column should have a value of `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
 
-![Example choice values](./example-choice-values.png)
+Session column's choice values used in the example screenshot above:
+
+![Example choice values](./assets/example-choice-values.png)
 
 ## Details of the sample
 
-To display the links, we loop through the values present in the `Sessions` column of the current item and extract the `<Link title>` using the formula (line #116)
+To display the links, we loop through the values present in the `Sessions` column of the current item and extract the `<Link title>` using this formula:
+```JSON
+"=substring([$sessionIterator], 0, indexOf([$sessionIterator], '|'))"
+```
 
-`=substring([$sessionIterator], 0, indexOf([$sessionIterator], '|'))`
-
-We then extract `<the actual link>` using the formula (line #125)
-
-`=substring([$sessionIterator], indexOf([$sessionIterator], '|') + 1,  lastIndexOf([$sessionIterator], '|'))`
+We then extract `<the actual link>` using this formula:
+```JSON
+"=substring([$sessionIterator], indexOf([$sessionIterator], '|') + 1,  lastIndexOf([$sessionIterator], '|'))"
+```
 
 ## Sample
 
