@@ -5,24 +5,28 @@ This sample shows how we can display multiple links in a single column using the
 
 **Note:** If rich text column is used to display links then this sample can be ignored. 
 
-![multi-choice-link-column](./multi-choice-link-column.png)
+![multi-choice-link-column](./assets/screenshot.png)
 
 ## Important requirement
-The sample expects the choices in the `Sessions` column to be the format `<Link Title>|<The actual link>|`. Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column must be set to `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
+The sample expects the choices in the `Sessions` column to use the format `<Link Title>|<The actual link>|`.
 
-Session column's choice values used in the example screenshot above
+For Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column should be `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
 
-![Example choice values](./example-choice-values.png)
+Session column's choice values used in the example screenshot above:
+
+![Example choice values](./assets/example-choice-values.png)
 
 ## Details of the sample
 
-To display the links, we loop through the values present in the multi-choice column of the current item and extract the `<Link title>` using the formula (line #12)
+To display the links, we loop through the values present in the multi-choice column of the current item and extract the `<Link title>` using this formula:
+```JSON
+"=substring([$choiceIterator], 0, indexOf([$choiceIterator], '|'))"
+```
 
-`=substring([$choiceIterator], 0, indexOf([$choiceIterator], '|'))`
-
-We then extract `<the actual link>` using the formula (line #27)
-
-`=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))`
+We then extract `<the actual link>` using this formula:
+```JSON
+"=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))"
+```
 
 ## Sample
 
