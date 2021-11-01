@@ -21,7 +21,7 @@ This is a sample derived from the [contact card row format](../contact-card-form
 |Single line of text|Email||
 |Date Time|Birthday|Yes|
 |Calculated Column|BirthMonthDay||
-|Picture|Picture||
+|Hyperlink|Picture||
 
 You need the BirthMonthDay Calculated Column so that it only shows the current month name spelled out and date, not the year. The formula for this calculated column is below:
 
