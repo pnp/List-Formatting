@@ -1,0 +1,97 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "margin": "3px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "padding": "5px 10px 5px 10px",
+        "cursor": "pointer",
+        "white-space": "nowrap",
+        "border-radius": "5px",
+        "display": "flex",
+        "align-items": "center"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themePrimary ms-bgColor-themeTertiary--hover ms-fontColor-white"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "font-size": "15px",
+            "margin-right": "5px"
+          },
+          "attributes": {
+            "iconName": "Contact"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "LikedBy"
+        }
+      ],
+      "customCardProps": {
+        "openOnEvent": "hover",
+        "directionalHint": "rightCenter",
+        "isBeakVisible": true,
+        "formatter": {
+          "elmType": "div",
+          "style": {
+            "max-height": "300px",
+            "padding": "5px 20px 5px 20px",
+            "display": "flex",
+            "flex-direction": "column"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "= if([$LikesCount] == '' , '0' , [$LikesCount]) + ' Likes'",
+              "style": {
+                "padding": "10px",
+                "font-weight": "bold",
+                "font-size": "15px"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "forEach": "personIterator in [$LikedBy]",
+                  "elmType": "div",
+                  "style": {
+                    "margin-bottom": "5px",
+                    "display": "flex",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "width": "32px",
+                        "height": "32px",
+                        "border-radius": "50%",
+                        "margin-right": "5px"
+                      },
+                      "attributes": {
+                        "src": "=getUserImage([$personIterator.email], 'S')",
+                        "title": "[$personIterator.title]"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "[$personIterator.title]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
