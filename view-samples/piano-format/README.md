@@ -3,11 +3,15 @@
 ## Summary
 This sample formats your SharePoint list view to look like a piano.
 
-theme-color-piano-format.json
+### piano-format.json
 
-![screenshot of the sample](./assets/screenshot_theme-color.png)
+Uses your site's theme color:
 
-rainbow-color-piano-format.json
+![screenshot of the sample](./assets/screenshot.png)
+
+### piano-format-rainbow.json
+
+Uses rainbow colors:
 
 ![screenshot of the sample](./assets/screenshot_rainbow-color.png)
 
@@ -17,7 +21,7 @@ Column Name   |Type
 --------------|--------------
 Title         | Single Line Text
 
-Set up the view so that the note names are displayed in order starting with C.
+Set up the view so that the note names are displayed in order starting with C:
 
 ![screenshot of the sample](./assets/screenshot_item-sample.png)
 
@@ -25,8 +29,8 @@ Set up the view so that the note names are displayed in order starting with C.
 
 Solution                        |Author(s)
 --------------------------------|---------------------------
-theme-color-piano-format.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
-rainbow-color-piano-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+piano-format.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
+piano-format-rainbow.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
