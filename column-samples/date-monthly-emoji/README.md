@@ -5,7 +5,7 @@ This sample demonstrates how to display a emoji representing the month of the da
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-The correspondence between the months and emoji in this sample is as follows.
+The correspondence between the months and emoji in this sample is as follows:
 
 Month     |Emoji
 ----------|------
