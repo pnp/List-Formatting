@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates how to change the background color of a row that has been liked by the current user.
 
-![screen capture of the sample](./assets/screen_capture.gif)
+![screen capture of the sample](./assets/screenshot.gif)
 
 ## Prerequisites
 ### Enabling the ratings feature
