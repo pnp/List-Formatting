@@ -10,7 +10,7 @@
         {
           "elmType": "div",
           "attributes": {
-            "class": "=if(@group.fieldData == 'Submitted', 'sp-css-backgroundColor-BgCornflowerBlue', if(@group.fieldData == 'Approved', 'sp-css-backgroundColor-BgMintGreen',if(@group.fieldData == 'On Hold', 'sp-css-backgroundColor-BgGold',if(@group.fieldData == 'Rejected', 'sp-css-backgroundColor-BgCoral','sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary'))))"
+            "class": "=if(@group.fieldData == 'Pending', 'sp-css-backgroundColor-BgCornflowerBlue', if(@group.fieldData == 'Approved', 'sp-css-backgroundColor-BgMintGreen',if(@group.fieldData == 'On Hold', 'sp-css-backgroundColor-BgGold',if(@group.fieldData == 'Rejected', 'sp-css-backgroundColor-BgCoral','sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary'))))"
           },
           "style": {
             "display": "inline-flex",
@@ -24,7 +24,7 @@
             {
               "elmType": "span",
               "attributes": {
-                "iconName": "=if(@group.fieldData == 'On Hold', 'CirclePauseSolid', if(@group.fieldData == 'Approved', 'SkypeCircleCheck',if(@group.fieldData == 'Submitted', 'ClipboardListQuestion',if(@group.fieldData == 'Rejected', 'Blocked','StatusCircleQuestionMark'))))"
+                "iconName": "=if(@group.fieldData == 'On Hold', 'CirclePauseSolid', if(@group.fieldData == 'Approved', 'SkypeCircleCheck',if(@group.fieldData == 'Pending', 'ClipboardListQuestion',if(@group.fieldData == 'Rejected', 'Blocked','StatusCircleQuestionMark'))))"
               },
               "style": {
                 "padding-right": "6px",
