@@ -1,7 +1,7 @@
 # Number Circle in Circle
 
 ## Summary
-This sample shows who the percentage value in a column can be displayed as the areaof a circle within  another circle.
+This sample shows who the percentage value in a column can be displayed as the area of a circle within  another circle.
 
 ![screenshot of the sample](./Circle_percent_result.png)
 
