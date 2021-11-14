@@ -13,7 +13,7 @@ This sample shows who the percentage value in a column can be displayed as the a
 
 Solution|Author(s)
 --------|---------
-json-file-name | [Geert de Kooter](@gdekooter)
+number-circle-in-circle.json | [Geert de Kooter](@gdekooter)
 
 ## Version history
 
