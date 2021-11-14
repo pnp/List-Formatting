@@ -3,7 +3,7 @@
 ## Summary
 This sample shows who the percentage value in a column can be displayed as the areaof a circle within  another circle.
 
-[Circle_percent_result.png]
+![screenshot of the sample](./Circle_percent_result.png)
 
 ## View requirements
 - This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent)
