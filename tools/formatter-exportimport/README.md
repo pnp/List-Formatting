@@ -5,7 +5,7 @@ The Export-SPOListFormatting.ps1 allows exporting of SPO list configuration:
 - form customizers
 - list views
 - list view formatting 
-- columns formatting [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- columns formatting 
 
 ## Authentication
 The [Export-SPOListFormatting.ps1](tools/formatter-exportimport/Export-SPOListFormatting.ps1) and [Apply-SPOListFormatting.ps1](tools/formatter-exportimport/Apply-SPOListFormatting.ps1) scripts are using `Connect-PnPOnline` to authenticate to SPO site. 
