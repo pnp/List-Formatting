@@ -31,19 +31,10 @@ function Export-ListFormatting {
     $clientContext = Get-PnPContext
     $list = Get-PnPList $listName -Includes SchemaXml
 
-    #Get Content Type
-    $contentTypes = $list.ContentTypes
-    $clientContext.Load($contentTypes)
-    $clientContext.ExecuteQuery()    
-    $ct = $ContentTypes[0]
-
-    #Get Field links
-    $fieldLinks = $ct.FieldLinks
-    $clientContext.Load($fieldLinks)
-    $clientContext.ExecuteQuery()
-
-    #Get All List Views of the List
+    $contentType = Get-PnPContentType -List $listName | Where-Object { $_.Name -eq "Item" -or $_.Name -eq "Element" }
     $clientContext.Load($list.Views)
+    $clientContext.Load($contentType)
+    $clientContext.Load($contentType.FieldLinks)
     $clientContext.ExecuteQuery()
     
     # 1. Get form customizer
