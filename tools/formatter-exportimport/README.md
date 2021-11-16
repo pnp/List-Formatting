@@ -52,7 +52,7 @@ steps:
     git push  origin HEAD:$(Build.SourceBranch)
     displayName: Commit generated files to repo
 ```
-### Example export pipeline
+### Example import pipeline
 ```
 # vmImage: 'ubuntu-latest'
 steps:
