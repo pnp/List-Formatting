@@ -1,7 +1,7 @@
 # User Profile Card
 
 ## Summary
-This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.
+This is a simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.
 
 ![Screenshot](./assets/profile-card.png)
 
