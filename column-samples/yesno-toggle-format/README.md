@@ -32,6 +32,6 @@ Version |Date              |Comments
 
 ## Additional notes
 
-This sample demonstrates applying a view-only format. However, if you would like to have an actual toggle control in your list view that can change the value of the column, a free sample of how to do this as an SPFx Extension is available from PnP: [React Toggle Field Customizer](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-field-toggle)
+There is also a way to implement this with SPFx Extensions, available from PnP: [React Toggle Field Customizer](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-field-toggle)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-toggle-format" />
