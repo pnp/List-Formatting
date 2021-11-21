@@ -5,7 +5,7 @@ This sample demonstrates changing the value of the Yes/No column to a toggle. Th
 
 ![screenshot of the sample](./assets/screen_capture.gif)
 
-Using the `setValue` of `customRowAction`, a field is being updated. You need to set the `actionInput` to the internal value of the column to be updated.
+Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
 
 ## View requirements
 This format can be applied to a Yes/No column.
