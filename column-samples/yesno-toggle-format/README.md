@@ -1,9 +1,11 @@
 # Yes/No Column Toggle
 
 ## Summary
-This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji). These toggles are NOT interactive.
+This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji).
 
-![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the sample](./assets/screen_capture.gif)
+
+Using the `setValue` of `customRowAction`, a field is being updated. You need to set the `actionInput` to the internal value of the column to be updated.
 
 ## View requirements
 This format can be applied to a Yes/No column.
@@ -18,10 +20,10 @@ yesno-toggle-emoji-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
-Version |Date           |Comments
---------|---------------|--------
-1.0     |April 29, 2021 |Initial release
-
+Version |Date              |Comments
+--------|------------------|--------
+1.0     |April 29, 2021    |Initial release
+1.1     |November 21, 2021 |Modified to update item using `setValue`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

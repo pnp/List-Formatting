@@ -10,7 +10,7 @@
       "This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, \u0026 Emoji). These toggles are NOT interactive."
     ],
     "creationDateTime": "2021-04-29T00:00:00.000Z",
-    "updateDateTime": "2021-04-29T00:00:00.000Z",
+    "updateDateTime": "2021-11-21T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Office"
@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/yesno-toggle-format/assets/screenshot.png?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/yesno-toggle-format/assets/screen_capture.gif?raw=true",
         "alt": "screenshot"
       }
     ],
