@@ -1,11 +1,9 @@
 # Reacting and displaying users who have reacted
 
 ## Summary
-This sample demonstrates how to react and display users who have reacted. If the current user reacts, the number will be bolded.
+This sample demonstrates how to react and display users who have reacted. If the current user reacts, the number will be bolded. Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
 
 ![screenshot of the sample](./assets/screen_capture.gif)
-
-Using the `setValue` of `customRowAction`, a field is being updated. You need to set the `actionInput` to the internal value of the column to be updated.
 
 ## View requirements
 This format can be applied to a Multi-Select Person column.
