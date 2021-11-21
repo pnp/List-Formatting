@@ -1,11 +1,9 @@
 # Yes/No Column Toggle
 
 ## Summary
-This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji).
+This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji). Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
 
 ![screenshot of the sample](./assets/screen_capture.gif)
-
-Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
 
 ## View requirements
 This format can be applied to a Yes/No column.
