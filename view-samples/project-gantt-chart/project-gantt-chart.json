@@ -115,7 +115,8 @@
               "outline": "none",
               "display": "inline-block",
               "overflow": "hidden",
-              "text-overflow": "ellipsis"
+              "text-overflow": "ellipsis",
+              "white-space": "nowrap"
             },
             "attributes": {
               "title": "[$Title]",
