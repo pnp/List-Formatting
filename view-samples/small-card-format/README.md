@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sample of a list Formatting for SharePoint using a small card sample. You can use this as quick contact list.
+Sample of a list Formatting for SharePoint using a small card sample. You can use this as a quick contact list.
 
 ![formatting](./assets/formatting.PNG)
 
