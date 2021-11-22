@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "width": "180px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "width": "20px",
+        "height": "20px",
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+        "iconName": "CalculatorSubtract"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "NumberColumnInternalName": "= @currentField - 1"
+        }
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "@currentField",
+      "style": {
+        "font-size": "30px",
+        "width": "140px",
+        "text-align": "center"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "width": "20px",
+        "height": "20px",
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+        "iconName": "CalculatorAddition"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "NumberColumnInternalName": "= @currentField + 1"
+        }
+      }
+    }
+  ]
+}
