@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+    "style": {
+    "display": "flex",
+    "padding": "4px",
+    "align-items": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "inline-block",
+        "border-radius": "100%",
+        "fill": "currentColor",
+        "width": "100px",
+        "height": "100px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeLight ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "='M 0,50' + 'a '+ pow(50*@currentField,0.5) + ','+pow(50*@currentField,0.5) + ' 0 1,1 ' + 100*pow(@currentField,0.5) +',0' + 'a '+ pow(50*@currentField,0.5) + ','+pow(50*@currentField,0.5) + ' 0 1,1 ' + -100*pow(@currentField,0.5) +',0' "
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "txtContent" : "@currentField.displayValue",
+      "style": {
+        "position" : "absolute",
+        "z-index" : "10",
+        "left" : "45px",
+        "width" :"40px",
+        "text-align" : "center",
+        "white-space" :"nowrap",
+        "border-radius" : "0.2em"
+
+      },
+      "attributes": {
+        "class" :"ms-bgColor-white ms-fontColor-themeDarker"
+      }
+
+    }
+  ]
+}
