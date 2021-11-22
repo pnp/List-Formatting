@@ -2,7 +2,7 @@
 
 ## Summary
 
-SharePoint is at its best when using lightweight structure and process to organize content and keep things moving forward.  New to Document Libraries is an out of the box Flow that allows you to quickly request a member of your team to sign off on a document in a Dcument Library.  This sample defines a custom view to bring focus to the files that need to be approved.  It also provides a better visual indication of where documents are in the process and which ones require action.
+SharePoint is at its best when using lightweight structure and process to organize content and keep things moving forward.  There is a Power Automate allows you to quickly request a member of your team to sign off on a document in a Dcument Library. This sample defines a custom view to bring focus to the files that need to be approved. It also provides a better visual indication of where documents are in the process and which ones require action.
 
 ### Desktop and tablet view
 
