@@ -1,0 +1,120 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-directon": "row",
+    "justify-content": "left",
+    "align-items": "center",
+    "flex-wrap": "nowrap"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if([$ItemStatus] == 'Pending' || [$ItemStatus] == '', 'inherit','none')",
+        "flex-directon": "row",
+        "justify-content": "left",
+        "align-items": "center",
+        "flex-wrap": "wrap"
+      },
+      "children": [
+        {
+          "elmType": "button",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "ItemStatus": "Approved",
+              "ApprovalActionBy": "@me"
+            }
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+          },
+          "style": {
+            "border": "none",
+            "background-color": "transparent",
+            "cursor": "pointer",
+            "display": "flex",
+            "flex-directon": "row",
+            "justify-content": "left",
+            "align-items": "center",
+            "flex-wrap": "wrap"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "SkypeCircleCheck"
+              },
+              "style": {
+                "padding": "4px"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "Approve",
+              "style": {
+                "word-break": "keep-all"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "button",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "ItemStatus": "Rejected",
+              "ApprovalActionBy": "@me"
+            }
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+          },
+          "style": {
+            "border": "none",
+            "background-color": "transparent",
+            "cursor": "pointer",
+            "display": "flex",
+            "flex-directon": "row",
+            "justify-content": "left",
+            "align-items": "center",
+            "flex-wrap": "wrap"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "Blocked"
+              },
+              "style": {
+                "padding": "4px"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "Reject",
+              "style": {
+                "word-break": "keep-all"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "='This item is ' + toLowerCase([$ItemStatus])",
+          "style": {
+            "display": "=if([$ItemStatus] == 'Pending' ||[$ItemStatus] == '' , 'none','inherit')",
+            "padding-left": "5px",
+            "word-break": "keep-all"
+          }
+        }
+      ]
+    }
+  ]
+}
