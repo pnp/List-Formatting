@@ -44,4 +44,4 @@ This format takes advantage of `CustomRowActions` to enable the `defaultClick` a
 
 ![Custom Actions in Action](screenshot.gif)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/planner-inspired-task-card" />
+<img src="https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-rowactions/assets/screenshot.png" />
