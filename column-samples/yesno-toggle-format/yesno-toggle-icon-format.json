@@ -17,7 +17,14 @@
         "border-radius": "15px",
         "align-items": "center",
         "flex-direction": "row",
-        "justify-content": "=if(@currentField , 'flex-end' , 'flex-start')"
+        "justify-content": "=if(@currentField , 'flex-end' , 'flex-start')",
+        "cursor": "pointer"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "YesNoColumnInternalName": "=if(@currentField , '0' , '1' )"
+        }
       },
       "attributes": {
         "class": "=if(@currentField , 'ms-bgColor-themePrimary' , 'ms-bgColor-neutralTertiaryAlt')"

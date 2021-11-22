@@ -4,13 +4,13 @@
     "reponame": "yesno-toggle-format",
     "source": "pnp",
     "title": "Yes/No Column Toggle",
-    "shortDescription": "This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, \u0026 Emoji). These toggles are NOT interactive.",
+    "shortDescription": "This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, Emoji).",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-toggle-format",
     "longDescription": [
-      "This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, \u0026 Emoji). These toggles are NOT interactive."
+      "This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, Emoji)."
     ],
     "creationDateTime": "2021-04-29T00:00:00.000Z",
-    "updateDateTime": "2021-04-29T00:00:00.000Z",
+    "updateDateTime": "2021-11-21T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Office"
@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/yesno-toggle-format/assets/screenshot.png?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/yesno-toggle-format/assets/screen_capture.gif?raw=true",
         "alt": "screenshot"
       }
     ],
@@ -43,7 +43,7 @@
     "references": [
       {
         "name": "Use column formatting to customize SharePoint",
-        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       }
     ]
