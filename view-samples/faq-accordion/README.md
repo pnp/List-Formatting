@@ -4,9 +4,7 @@
 This sample formats your view to appear and work like Accordion style FAQ.
 This view is responsive.
 
-
-chronological-format.json
-![screenshot of the sample](./assets/FAQ Accordion 2.jpg)
+![screenshot of the sample](/assets/FAQ Accordion 2.jpg)
 
 ## View requirements
 
