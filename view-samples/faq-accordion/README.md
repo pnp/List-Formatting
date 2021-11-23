@@ -4,7 +4,7 @@
 This sample formats your view to appear and work like Accordion style FAQ.
 This view is responsive.
 
-![screenshot of the sample](/assets/FAQ Accordion 2.jpg)
+![screenshot](./assets/screenshot.jpg)
 
 ## View requirements
 
