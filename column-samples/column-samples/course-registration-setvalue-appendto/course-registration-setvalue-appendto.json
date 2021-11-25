@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-directon": "row",
+    "justify-content": "left",
+    "align-items": "center",
+    "flex-wrap": "nowrap"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) == -1 && length([$PeopleWhoRegistered]) != [$NumberofPlaces] && @now <= [$RegistrationEndDate], 'inherit','none')",
+        "flex-directon": "row",
+        "justify-content": "left",
+        "align-items": "center",
+        "flex-wrap": "wrap"
+      },
+      "children": [
+        {
+          "elmType": "button",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Text": "Update",
+              "PeopleWhoRegistered": "=appendTo([$PeopleWhoRegistered], @me)"
+            }
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+          },
+          "style": {
+            "border": "none",
+            "background-color": "transparent",
+            "cursor": "pointer",
+            "display": "flex",
+            "flex-directon": "row",
+            "justify-content": "left",
+            "align-items": "center",
+            "flex-wrap": "wrap"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "AddTo"
+              },
+              "style": {
+                "padding": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "Already Registered",
+          "style": {
+            "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) == -1, 'none','inherit')",
+            "padding-left": "5px",
+            "word-break": "keep-all"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "Course is full",
+          "style": {
+            "display": "=if(length([$PeopleWhoRegistered]) != [$NumberofPlaces], 'none','inherit')",
+            "padding-left": "5px",
+            "word-break": "keep-all"
+          }
+        }
+      ]
+    },
+        {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "Registration has ended",
+          "style": {
+            "display": "=if(@now <= [$RegistrationEndDate], 'none','inherit')",
+            "padding-left": "5px",
+            "word-break": "keep-all"
+          }
+        }
+      ]
+    }
+  ]
+}
