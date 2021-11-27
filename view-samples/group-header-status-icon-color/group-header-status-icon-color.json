@@ -14,7 +14,7 @@
           },
           "style": {
             "display": "inline-flex",
-            "align-Sessions": "center",
+            "align-items": "center",
             "height": "25px",
             "border-radius": "15px",
             "padding-left": "8px",
