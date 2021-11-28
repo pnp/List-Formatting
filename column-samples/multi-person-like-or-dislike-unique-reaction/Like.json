@@ -1,0 +1,35 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "button",
+    "customRowAction": {
+      "action": "setValue",
+      "actionInput": {
+        "Like": "=if(indexOf([$Like.email] , @me) > -1 , removeFrom([$Like.email] , @me) , appendTo([$Like.email] , @me) )",
+        "Dislike": "=removeFrom([$Dislike.email] , @me)"
+      }
+    },
+    "attributes": {
+      "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
+      "title": "I Like this"
+    },
+    "style": {
+      "border": "none",
+      "background-color": "transparent",
+      "cursor": "pointer"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "attributes": {
+          "iconName": "=if(indexOf([$Like.email] , @me) > -1, 'LikeSolid', 'Like')"
+        },
+        "style": {
+          "padding-right": "6px"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "=length([$Like])"       
+      }
+    ]
+  }
