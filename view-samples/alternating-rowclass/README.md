@@ -45,7 +45,7 @@ Column Format samples shown above:
 - [yesno-checkbox](../../column-samples/yesno-checkbox)
 - [text-strikethrough](../../column-samples/text-strikethrough)
 - [number-data-bar](../../column-samples/number-data-bar)
-- [person-currentuser-format](../../column-samples/person-currentuser-format)
+- [multi-person-currentuser](../../column-samples/multi-person-currentuser)
 - [date-range-format](../../column-samples/date-range-format)
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/alternating-rowclass" />
