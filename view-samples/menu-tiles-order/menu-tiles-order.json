@@ -1,0 +1,125 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": "true",
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "text-decoration": "none",
+      "float": "left",
+      "position": "relative"
+    },
+    "children": [{
+        "elmType": "a",
+        "attributes": {
+          "href": "[$URL]",
+          "target": "=if([$NewTab] == true, '_blank', '')",
+          "class": "=if([$Color]!='','ms-fontColor-shared'+[$Color]+'10 ms-bgColor-shared'+[$Color]+'20 ms-bgColor-shared'+[$Color]+'10--hover ms-fontColor-white--hover','ms-bgColor-theme ms-fontColor-sharedGray10 ms-bgColor-sharedGray10--hover ms-fontColor-white--hover')"
+        },
+        "style": {
+          "text-decoration": "none",
+          "background-color": "=if([$Color]!='','r'+[$Color],'')",
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "width": "=if([$Small] == true,'145px','300px')",
+          "height": "160px",
+          "margin-right": "10px",
+          "margin-top": "10px",
+          "box-shadow": "2px 2px 4px darkgrey",
+          "border-radius": "10px"
+        },
+        "children": [{
+            "elmType": "div",
+            "style": {
+              "font-size": "32px",
+              "margin-top": "50px",
+              "margin-left": "=if([$Small] == true,'60px','130px')"
+            },
+            "attributes": {
+              "iconName": "[$icon]"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "bottom": "10px",
+              "color": "white",
+              "z-index": "1",
+              "font-size": "18px",
+              "padding-left": "10px"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "=if([$Small] == true,'145px','300px')",
+              "text-align": "left",
+              "color": "white",
+              "padding-top": "5px",
+              "background-color": "rgba(0, 0, 0, 0.6)",
+              "opacity": "0.5",
+              "border-radius": "0px 0px 10px 10px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "bottom": "10px",
+          "color": "white",
+          "z-index": "1",
+          "font-size": "18px",
+          "padding-left": "=if([$Small] == true,'120px','280px')",
+          "display": "=if([$Description] == '', 'none', 'block')",
+          "cursor": "pointer"
+        },
+        "txtContent": "...",
+        "customCardProps": {
+          "formatter": {
+            "elmType": "div",
+            "txtContent": "[$Description]",
+            "style": {
+              "font-size": "14px",
+              "padding": "10px",
+              "width": "160px",
+              "color": "black",
+              "background-color": "white"
+            }
+          },
+          "openOnEvent": "click",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "beakStyle": {
+            "backgroundColor": "white"
+          }
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "bottom": "10px",
+          "color": "white",
+          "z-index": "1",
+          "font-size": "18px",
+          "padding-left": "=if([$Small] == true,'95px','255px')",
+          "cursor": "pointer"
+        },
+        "attributes": {
+          "iconName": "AddFavorite"
+        },
+        "customRowAction": {
+          "action": "setValue",
+          "actionInput": {
+            "OrderDate": "@now"
+          }
+        }
+      }
+    ]
+  }
+}
