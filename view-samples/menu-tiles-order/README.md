@@ -6,7 +6,7 @@ Include the capabilities from "[generic-tile-format](./../generic-tile-format/RE
 
 ![Menu Tile configuration](./assets/custom-tiles-menu.gif)
 
-This format uses icon "**AddFavorite**" with option  `"action": "setValue",` to update item and reorganize Tiles in List View is order by "**Modified**". 
+This format uses icon "**AddFavorite**" with option  `"action": "setValue",` to update item and reorganize Tiles in List View when order by "**Modified**". 
 
 ![Menu Tile configuration](./assets/custom-tiles-menu1.gif)
 
