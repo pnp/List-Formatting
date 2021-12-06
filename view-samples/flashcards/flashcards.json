@@ -1,0 +1,75 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+    "height": 305,
+    "width": 340,
+    "hideSelection": true,
+    "fillHorizontally": false,
+    "formatter": {
+        "elmType": "div",
+        "attributes": {
+            "class": "sp-row-card sp-card-borderHighlight"
+        },
+        "style": {
+            "width": "340px",
+            "height": "305px",
+            "border-color": "=if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Teams', '#6264a7',if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'SharePoint', '#036C70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Forms', '#007F70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Stream', '#BC1948', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'PowerApps', '#73276C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power automate', '#0E41B1', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power BI', '#EDBF2C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power Virtual agents', '#09566A',  if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Microsoft List', '#974A8B',   '#0082f0')",
+            "border-style": "solid",
+            "border-width": "1.5px",
+            "box-shadow": "1px 1px 2px darkgrey",
+            "border-radius": "6px",
+            "background-color": "=if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Teams', '#6264a7',if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'SharePoint', '#036C70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Forms', '#007F70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Stream', '#BC1948', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'PowerApps', '#73276C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power automate', '#0E41B1', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power BI', '#EDBF2C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power Virtual agents', '#09566A', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Microsoft List', '#974A8B',  '#0082f0')",
+            "white-space": "normal",
+            "padding": "4px 4px 4px 4px",
+            "font-size": "13px",
+            "flex-direction": "column",
+            "justify-content": "center"
+        },
+        "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+                "Users": "=if(indexOf([$Users.email] , @me) > -1 , removeFrom([$Users.email] , @me) , appendTo([$Users.email] , @me))"
+            }
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "attributes": {
+                    "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-subContainer"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "justify-content": "center",
+                            "flex-direction": "row"
+                        },
+                        "attributes": {
+                            "class": "sp-card-displayColumnContainer"
+                        },
+                        "children": [
+                            {
+                                "elmType": "div",
+                                "style": {
+                                    "background-color": "=if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Teams', '#6264a7',if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'SharePoint', '#036C70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Forms', '#007F70', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Stream', '#BC1948', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'PowerApps', '#73276C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power automate', '#0E41B1', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power BI', '#EDBF2C', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Power Virtual agents', '#09566A', if(indexOf([$Users.email] , @me) > -1 && [$Title] == 'Microsoft List', '#974A8B',   '#0082f0')",
+                                    "white-space": "normal",
+                                    "padding": "4px 4px 4px 4px",
+                                    "font-size": "=if(indexOf([$Users.email] , @me) > -1, '17px', '30px')",
+                                    "font-weight": "600",
+                                    "color": "white",
+                                    "justify-content": "center",
+                                    "flex-direction": "column",
+                                    "align-items": "center"
+                                },
+                                "attributes": {
+                                    "title": "[$Title]",
+                                    "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"
+                                },
+                                "txtContent": "=if(indexOf([$Users.email] , @me) > -1, '[$Description]', '[$Title]')"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
