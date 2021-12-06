@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "10px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "width": "50px",
+        "height": "50px",
+        "float": "left"
+      },
+      "attributes": {
+        "class": ""
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "top": "2px",
+            "left": "0",
+            "width": "32px",
+            "height": "24px"
+          },
+          "txtContent": "=if(getMonth([$DueDate])==0, 'Jan', if(getMonth([$DueDate])==1, 'Feb', if(getMonth([$DueDate])==2, 'Mar', if(getMonth([$DueDate])==3, 'Apr',  if(getMonth([$DueDate])==4, 'May', if(getMonth([$DueDate])==5, 'Jun', if(getMonth([$DueDate])==6 , 'Jul', if(getMonth([$DueDate])==7, 'Aug', if(getMonth([$DueDate])==8 , 'Sep', if(getMonth([$DueDate])==9, 'Oct', if(getMonth([$DueDate])==10, 'Nov', if(getMonth([$DueDate])==11, 'Dec', ''))))))))))))",
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-16 ms-fontColor-themeTertiary--hover"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "display": "flex",
+            "justify-content": "center",
+            "align-items": "center",
+            "top": "25px",
+            "left": "0",
+            "width": "32px",
+            "height": "25px",
+            "border": "1px"
+          },
+          "txtContent": "=getDate([$DueDate])",
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-20 ms-fontColor-themeTertiary--hover"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "top": "0",
+            "left": "35px",
+            "width": "10px",
+            "height": "48px",
+            "border": "1px"
+          },
+          "txtContent": "=getYear([$DueDate])",
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-10 ms-fontColor-themeTertiary--hover"
+          }
+        }
+      ]
+    }
+  ]
+}
