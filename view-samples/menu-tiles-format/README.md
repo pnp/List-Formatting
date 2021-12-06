@@ -1,7 +1,7 @@
-# Menu Tiles Order 
+# Menu Tiles format
 
 ## Summary
-This sample is based on sample "[generic-tile-format](./../generic-tile-format/README.md)" and includes redesign of tiles with new functionalities such us configuration of tiles based on **size**, **color** and reorganize tiles as **favorites** using option `"setValue"` and also include `customCardProps` base on **description** of tile.
+This sample includes the Metro tiles style menu with additional features. It's based on sample "[generic-tile-format](./../generic-tile-format/README.md)" and includes redesign of tiles with new functionalities such us configuration of tiles based on **size**, **color** and reorganize tiles as **favorites** using option `"setValue"` and also include `customCardProps` base on **description** of tile.
 Include the capabilities from "[generic-tile-format](./../generic-tile-format/README.md)" such us Icons from the Microsoft UI Fabric, Url and NewTab fields.
 
 ![Menu Tile configuration](./assets/custom-tiles-menu.gif)
@@ -33,7 +33,7 @@ OrderDate | Date & Time - this field will be used to update item to order tile.
 
 Solution|Author(s)
 --------|---------
-menu-tiles-order.json | [André Lage](https://twitter.com/aaclage)
+menu-tiles-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
@@ -45,4 +45,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/menu-tiles-order" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/menu-tiles-format" />
