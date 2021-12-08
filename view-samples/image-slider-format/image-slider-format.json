@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": "true",
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "[$url]"
+        }
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "iconName": "ChevronRightEnd6",
+          "class": "ms-fontColor-themePrimary--hover ms-fontSize-24 ms-fontColor-white"
+        },
+        "style": {
+          "top": "10px",
+          "left": "10px",
+          "position": "absolute",
+          "cursor": "pointer"
+        },
+        "customRowAction": {
+          "action": "setValue",
+          "actionInput": {
+            "UpdateState": "@now"
+          }
+        }
+      }
+    ]
+  }
+}
