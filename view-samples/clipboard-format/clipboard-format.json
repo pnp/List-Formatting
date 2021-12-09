@@ -26,6 +26,7 @@
               "height": "50px",
               "float": "left"
             },
+            "inlineEditField": "[$[$DueDate]]",
             "children": [
               {
                 "elmType": "div",
@@ -89,9 +90,11 @@
           "font-size": "18px",
           "margin-top": "30px",
           "margin-left": "80px",
-          "width": "240px"
+          "width": "240px",
+          "height": "180px"
         },
         "txtContent": "=if(lastIndexOf([$Description]+'.','.')<= 130,[$Description], substring([$Description], 0, 127))",
+        "inlineEditField": "[$Description]",
         "children": [
           {
             "elmType": "div"
