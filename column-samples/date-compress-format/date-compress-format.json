@@ -13,6 +13,7 @@
         "height": "50px",
         "float": "left"
       },
+      "inlineEditField": "[$[$DueDate]]",
       "attributes": {
         "class": ""
       },
