@@ -43,7 +43,8 @@
         "font-size": "12pt",
         "padding": "5px"
       },
-      "txtContent": "=if(length([$CustomDateYear]) == 0,'(no date)',toLocaleDateString((Date([$CustomDateYear])))"
+      "txtContent": "=if(length([$CustomDateYear]) == 0,'(no date)',toLocaleDateString((Date([$CustomDateYear])))",
+      "inlineEditField": "[$CustomDateYear]"
     },
     {
       "elmType": "div",
