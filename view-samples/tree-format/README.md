@@ -1,7 +1,7 @@
 # Tree format
 
 ## Summary
-This sample includes format to add a Christmas tree in 3 different stages "**alt**" as top, "**body**" as tree and "**wood**" as bottom. Format also allow to include icons gifts in the tree. When clicked on gift the **Title** message appear as tooltip.
+This sample includes format to add a tree in 3 different stages "**alt**" as top, "**body**" as tree and "**wood**" as bottom. Format also allow to include icons in the tree. When clicked on icon the **Title** message appear as tooltip.
 
 ![Tree](./assets/ChristmasTree.gif)
 
@@ -29,7 +29,7 @@ GiftSide | Single line of text - options "**Left**" or "**Right**"
 
 Solution|Author(s)
 --------|---------
-[tree-format.json](./christmas-tree-format.json) | [André Lage](https://twitter.com/aaclage)
+[tree-format.json](./christmas-tree-format.json) | [AndrÃ© Lage](https://twitter.com/aaclage)
 
 ## Version history
 
