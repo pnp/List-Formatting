@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-list-formatting-hyperlink-click-count",
+    "reponame": "hyperlink-click-count",
+    "source": "pnp",
+    "title": "Count the number of clicks on a link",
+    "shortDescription": "This sample demonstrates counting the number of clicks on a link.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/hyperlink-click-count",
+    "longDescription": [
+      "This sample demonstrates counting the number of clicks on a link. By keeping track of the number of link clicks, you can figure out which links are popular with users."
+    ],
+    "creationDateTime": "2021-12-11T00:00:00.000Z",
+    "updateDateTime": "2021-12-11T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/hyperlink-click-count/assets/screen_capture.gif?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
