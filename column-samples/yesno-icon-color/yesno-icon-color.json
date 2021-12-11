@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "margin": "5px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "width": "40px",
+        "height": "40px",
+        "border-radius": "50%",
+        "display": "flex",
+        "justify-content": "center",
+        "align-items": "center",
+        "font-size": "20px",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "=if(@currentField , 'ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white' , 'ms-bgColor-neutralQuaternaryAlt ms-bgColor-neutralTertiaryAlt--hover ms-fontColor-neutralSecondary')",
+        "iconName": "Rocket"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "YesNoColumnInternalName": "=if(@currentField , '0' , '1' )"
+        }
+      }
+    }
+  ]
+}
