@@ -29,4 +29,4 @@ Version |Date              |Comments
 
 - [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-toggle-format" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-icon-color" />
