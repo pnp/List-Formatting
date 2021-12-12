@@ -1,7 +1,7 @@
 # Search Tag format
 
 ## Summary
-This sample includes format allow search words in field and also allow to include as tags in Choice field with option of editing using "inlineEditField".
+This sample includes format to allow search word in field and allow to include tags in Choice field with option of editing "inlineEditField".
 
 ![Search and Tag words](./assets/SearchWordTag.gif)
 
@@ -13,7 +13,7 @@ Field |Type
 Title | Single line of text 
 Description | Multiple line of text 
 SearchText | Single line of text - Support field to search words in description field.
-CustomTags | Choice ("Allow multiple selections" to yes and check "Can add values manually") - This choice configuration field allow to add multiple values.
+CustomTags | Choice ("Allow multiple selections" to yes and check "Can add values manually") - This field configuration allow to add multiple values.
 
 ## Sample
 
