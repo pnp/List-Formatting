@@ -1,0 +1,41 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [{
+        "elmType": "div",
+        "children": [{
+            "forEach": "personIterator in @currentField",
+            "elmType": "div",
+            "style": {
+                "padding": "5px 0px"
+            },
+            "children": [{
+                    "elmType": "span",
+                    "txtContent": "[$personIterator.title]"
+                },
+                {
+                    "elmType": "a",
+                    "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                    },
+                    "attributes": {
+                        "iconName": "Mail",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction",
+                        "href": {
+                            "operator": "+",
+                            "operands": [
+                                "mailto:",
+                                "[$personIterator.email]",
+                                "?subject=Task status&body=Hey, how is your task coming along?.\r\n---\r\n",
+                                "[$personIterator.title]",
+                                "\r\nClick this link for more info. http://contoso.sharepoint.com/sites/ConferencePrep/Tasks/Prep/DispForm.aspx?ID=",
+                                "[$ID]"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }]
+    }]
+}
