@@ -1,0 +1,142 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative"
+      },
+      "children": [
+        {
+          "forEach": "personIterator in @currentField",
+          "elmType": "div",
+          "style": {
+            "padding": "5px 0px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "[$personIterator.title]"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "text-decoration": "none",
+                "vertical-align": "middle",
+                "position": "relative",
+                "font-size": "42pt"
+              },
+              "attributes": {
+                "iconName": "TeamsLogo",
+                "class": "ms-fontColor-themePrimary sp-field-quickAction"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "display": "inline-block",
+                    "left": "80px",
+                    "width": "300px",
+                    "top": "-30px",
+                    "cursor": "pointer",
+                    "height": "0px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "Phone",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-20",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "CalculatorAddition",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-10",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "VideoOff",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-20",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "display": "inline-block",
+                    "left": "80px",
+                    "width": "300px",
+                    "top": "0px",
+                    "cursor": "pointer",
+                    "height": "0px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "Phone",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-20",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]+'&withVideo=true'"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "CalculatorAddition",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-10",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]+'&withVideo=true'"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "text-decoration": "none",
+                        "vertical-align": "middle"
+                      },
+                      "attributes": {
+                        "iconName": "Video",
+                        "class": "ms-fontColor-themePrimary sp-field-quickAction ms-fontSize-20",
+                        "href": "='https://teams.microsoft.com/l/call/0/0?users=' + [$personIterator.sip]+'&withVideo=true'"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
