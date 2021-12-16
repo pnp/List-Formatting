@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample recreate the tic tac toe game using SharePoint List formating and new feature "**setValue**" to allow Powerusers provide aditional flexibility to their custom solutions.
+This sample recreate the tic tac toe game using SharePoint List formatting and new feature "**setValue**" to allow Power users provide additional flexibility to their custom solutions.
 
 ![tic tac toe format](./assets/TicTacToeformat.gif)
 
