@@ -158,7 +158,7 @@
                   "visibility": "=if([$Count] != 1 ,if( indexOf([$Red],'1') > -1 ,'',if(indexOf([$Yellow],'1') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 1 ,if(indexOf([$Red],'1') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'1') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 1 ,if(indexOf([$Red],'1') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'1') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -193,7 +193,7 @@
                   "visibility": "=if([$Count] != 2 ,if( indexOf([$Red],'2') > -1 ,'',if(indexOf([$Yellow],'2') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 2 ,if(indexOf([$Red],'2') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'2') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 2 ,if(indexOf([$Red],'2') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'2') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -226,7 +226,7 @@
                   "visibility": "=if([$Count] != 3 ,if( indexOf([$Red],'3') > -1 ,'',if(indexOf([$Yellow],'3') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 3 ,if(indexOf([$Red],'3') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'3') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 3 ,if(indexOf([$Red],'3') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'3') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -267,7 +267,7 @@
                   "visibility": "=if([$Count] != 4 ,if( indexOf([$Red],'4') > -1 ,'',if(indexOf([$Yellow],'4') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 4 ,if(indexOf([$Red],'4') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'4') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 4 ,if(indexOf([$Red],'4') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'4') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -302,7 +302,7 @@
                   "visibility": "=if([$Count] != 5 ,if( indexOf([$Red],'5') > -1 ,'',if(indexOf([$Yellow],'5') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 5 ,if(indexOf([$Red],'5') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'5') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 5 ,if(indexOf([$Red],'5') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'5') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -335,7 +335,7 @@
                   "visibility": "=if([$Count] != 6 ,if( indexOf([$Red],'6') > -1 ,'',if(indexOf([$Yellow],'6') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 6 ,if(indexOf([$Red],'6') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'6') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 6 ,if(indexOf([$Red],'6') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'6') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -375,7 +375,7 @@
                   "visibility": "=if([$Count] != 7 ,if( indexOf([$Red],'7') > -1 ,'',if(indexOf([$Yellow],'7') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 7 ,if(indexOf([$Red],'7') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'7') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 7 ,if(indexOf([$Red],'7') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'7') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -409,7 +409,7 @@
                   "visibility": "=if([$Count] != 8 ,if( indexOf([$Red],'8') > -1 ,'',if(indexOf([$Yellow],'8') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 8 ,if(indexOf([$Red],'8') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'8') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 8 ,if(indexOf([$Red],'8') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'8') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
@@ -441,7 +441,7 @@
                   "visibility": "=if([$Count] != 9 ,if( indexOf([$Red],'9') > -1 ,'',if(indexOf([$Yellow],'9') > -1,'','hidden')) ,'')"
                 },
                 "attributes": {
-                  "class": "=if([$Count] != 9 ,if(indexOf([$Red],'9') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-black',if(indexOf([$Yellow],'9') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-black','ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-bgColor-themeLight--hover')"
+                  "class": "=if([$Count] != 9 ,if(indexOf([$Red],'9') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'9') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
                 },
                 "customRowAction": {
                   "action": "setValue",
