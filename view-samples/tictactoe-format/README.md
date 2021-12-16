@@ -21,7 +21,7 @@ Red | Choice - check allow multiple selections and check "Allow 'Fill-in' choice
 
 Solution|Author(s)
 --------|---------
-tictactoe-format.json | André Lage (Microsoft)
+tictactoe-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
