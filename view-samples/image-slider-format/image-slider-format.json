@@ -9,7 +9,7 @@
       {
         "elmType": "img",
         "style": {
-          "width": "800px"
+          "width": "100%"
         },
         "attributes": {
           "src": "[$url]"
