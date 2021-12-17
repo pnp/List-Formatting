@@ -8,6 +8,9 @@
     "children": [
       {
         "elmType": "img",
+        "style": {
+          "width": "800px"
+        },
         "attributes": {
           "src": "[$url]"
         }
