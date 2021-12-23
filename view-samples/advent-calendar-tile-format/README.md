@@ -29,7 +29,7 @@ advent-calendar-tile-format.json |[Tetsuya Kawahara](https://twitter.com/techan_
 
 Version |Date              |Comments
 --------|------------------|--------------------------------
-1.0     |December 10, 2021 |Initial release
+1.0     |December 19, 2021 |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
