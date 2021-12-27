@@ -1,0 +1,51 @@
+[
+	{
+		"name": "pnp-list-formatting-tictactoe-format",
+		"reponame": "tictactoe-format",
+		"source": "pnp",
+		"title": "tic tac toe format",
+		"shortDescription": "This sample recreate the tic tac toe game using SharePoint List formatting and new feature setValue.",
+		"url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/tictactoe-format",
+		"longDescription": [
+			"This sample recreate the tic tac toe game using SharePoint List formatting and new feature setValue."
+		],
+		"creationDateTime": "2021-12-16T00:00:00.000Z",
+		"updateDateTime": "2021-12-16T00:00:00.000Z",
+		"products": [
+			"SharePoint",
+			"Office"
+		],
+		"metadata": [
+			{
+				"key": "LIST-SAMPLE-TYPE",
+				"value": "View"
+			},
+			{
+				"key": "SHAREPOINT-COMPATIBILITY",
+				"value": "SharePoint Online"
+			}
+		],
+		"thumbnails": [
+			{
+				"type": "image",
+				"order": 100,
+				"url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/tictactoe-format/assets/TicTacToeformat.gif?raw=true",
+				"alt": "tic tac toe format"
+			}
+		],
+		"authors": [
+			{
+				"gitHubAccount": "aaclage",
+				"pictureUrl": "https://github.com/aaclage.png",
+				"name": "André Lage"
+			}
+		],
+		"references": [
+			{
+				"name": "Use view formatting to customize SharePoint",
+                "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+			}
+		]
+	}
+]
