@@ -1,0 +1,42 @@
+[{
+    "name": "pnp-list-formatting-search-tag-format",
+    "reponame": "search-tag-format",
+    "source": "pnp",
+    "title": "Search Tag format",
+    "shortDescription": "This sample includes format to allow search word in field and allow to include tags in Choice field.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/search-tag-format",
+    "longDescription": [
+        "This sample includes format to allow search word in field and allow to include tags in Choice field."
+    ],
+    "creationDateTime": "2021-12-12T00:00:00.000Z",
+    "updateDateTime": "2021-12-12T00:00:00.000Z",
+    "products": [
+        "SharePoint",
+        "Office"
+    ],
+    "metadata": [{
+            "key": "LIST-SAMPLE-TYPE",
+            "value": "View"
+        },
+        {
+            "key": "SHAREPOINT-COMPATIBILITY",
+            "value": "SharePoint Online"
+        }
+    ],
+    "thumbnails": [{
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/search-tag-format/assets/SearchWordTag.gif?raw=true",
+        "alt": "Search Tag format"
+    }],
+    "authors": [{
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+    }],
+    "references": [{
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+    }]
+}]
