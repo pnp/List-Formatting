@@ -13,7 +13,7 @@ Once a page is created as news page, it cannot be demoted to a site page under n
 
 This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news page to a site page.
 
-![screenshot of the sample](./assets/screen_capture.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 After demoting it, please republish it. Otherwise, view-only users will not reflect the change and the page will remain displayed as a news page.
 
