@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates how to change the color of the icon according to the value of the Yes/No column. Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
 
-![screenshot of the sample](./assets/screen_capture.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 This format can be applied to a Yes/No column.
