@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates counting the number of clicks on a link. By keeping track of the number of link clicks, you can figure out which links are popular with users.
 
-![screenshot of the sample](./assets/screen_capture.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 
