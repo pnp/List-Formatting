@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents. The present box cannot be opened if the value in the `Date` column is later than today.
 
-![screenshot of the sample](./assets/screen_capture.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 
