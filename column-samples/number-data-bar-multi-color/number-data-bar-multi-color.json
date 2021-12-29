@@ -1,0 +1,26 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [{
+        "elmType": "span",
+        "txtContent": "=(100 * @currentField) + '%'",
+        "style": {
+            "padding-left": "8px",
+            "white-space": "nowrap"
+        }
+    }],
+    "attributes": {
+        "role": "progressbar",
+        "aria-valuenow": "@currentField",
+        "aria-valuemin": "0",
+        "aria-valuemax": "1"
+    },
+    "style": {
+        "padding": "0",
+        "color": "black",
+        "background-color": "=if(@currentField <= 0.25, '#c86c70', if(@currentField <= 0.5, '#ffc83d', '#85b44c'))",
+        "border-top": "='2px solid' + if(@currentField <= 0.25, '#a4262c', if(@currentField <= 0.5, '#997825', '#498205'))",
+        "width": "=if(@currentField > 1, '100%', if(@currentField < 0, '0', (100 * @currentField) + '%'))",
+        "box-sizing": "border-box"
+    }
+}
