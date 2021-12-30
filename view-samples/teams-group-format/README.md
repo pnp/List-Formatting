@@ -4,7 +4,7 @@
 
 This sample uses [Microsoft Teams deep links](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat)  to create Teams chat group based on selected users with associated Group name and message.
 
-![Teams group format](./assets/TicTacToeformat.gif)
+![Teams group format](./assets/CreateUserGroupChat.gif)
 
 ## View requirements
 - The format expect the following fields:
