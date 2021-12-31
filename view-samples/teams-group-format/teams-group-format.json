@@ -94,7 +94,7 @@
             "elmType": "div",
             "inlineEditField": "[$PersonChat]",
             "style": {
-              "max-width": "220px",
+              "max-width": "235px",
               "height": "80px",
               "overflow": "hidden",
               "display": "inline-block",
@@ -108,7 +108,8 @@
                 "style": {
                   "display": "inline-block",
                   "padding": "10px",
-                  "text-align": "center"
+                  "text-align": "center",
+                  "width": "58px"
                 },
                 "children": [
                   {
@@ -127,6 +128,11 @@
                       },
                       {
                         "elmType": "div",
+                        "style": {
+                          "text-overflow": "ellipsis",
+                          "overflow": "hidden",
+                          "white-space": "nowrap"
+                        },
                         "txtContent": "[$personIterator.title]"
                       }
                     ]
@@ -140,7 +146,7 @@
             "elmType": "div",
             "style": {
               "display": "=if(length([$PersonChat])>3,'inline-block','none')",
-              "width": "70px",
+              "width": "60px",
               "padding-top": "10px",
               "float": "left",
               "text-align": "center",
@@ -179,6 +185,8 @@
                           },
                           {
                             "elmType": "div",
+                            "style": {
+                            },
                             "txtContent": "[$personIterator.title]"
                           }
                         ]
