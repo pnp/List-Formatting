@@ -197,7 +197,7 @@
               "target": "_blank"
             },
             "style": {
-              "display": "block",
+              "display": "inline-block",
               "width": "300px"
             },
             "children": [
