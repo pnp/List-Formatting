@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "border": "1px solid #000000",
+        "border-radius": "10px",
+        "width": "40px",
+        "padding": "5px",
+        "text-align": "center",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralLight--hover"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "Vote": "=if(indexOf([$Vote.email],@me) > -1, removeFrom([$Vote.email],@me), appendTo([$Vote.email],@me))"
+        }
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "iconName": "SortUp",
+            "class": "ms-fontSize-16 ms-fontWeight-semibold"
+          },
+          "style": {
+            "display": "inline-block"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=length([$Vote])",
+          "attributes": {
+            "class": "ms-fontSize-16 ms-fontWeight-semibold"
+          },
+          "style": {
+            "display": "inline-block"
+          }
+        }
+      ]
+    }
+  ]
+}
