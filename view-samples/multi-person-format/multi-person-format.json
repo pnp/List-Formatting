@@ -24,7 +24,6 @@
                 "inlineEditField": "[$PersonChat]",
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -45,19 +44,16 @@
                               "margin": "0 auto",
                               "background-color": "=if(indexOf([$personIterator.title]+'.','.')%10==0, '#e3008c', if(indexOf([$personIterator.title]+'.','.')%10==1, '#00ad56', if(indexOf([$personIterator.title]+'.','.')%10==2, '#0078d4', if(indexOf([$personIterator.title]+'.','.')%10==3, '#c19c00', if(indexOf([$personIterator.title]+'.','.')%10==4, '#fce100', if(indexOf([$personIterator.title]+'.','.')%10==5, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==6, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==7, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==8, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==9, '#ff8c00', '#00b7c3'))))))))))"
                             },
-
                             "children": [
                               {
                                 "elmType": "div",
                                 "style": {
                                   "padding-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-20 ms-fontColor-white"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           },
@@ -73,7 +69,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               }
@@ -92,7 +87,6 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -107,6 +101,7 @@
                           {
                             "elmType": "div",
                             "style": {
+                              "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'block')",
                               "width": "40px",
                               "height": "40px",
                               "border-radius": "50%",
@@ -119,13 +114,11 @@
                                 "elmType": "div",
                                 "style": {
                                   "padding-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-20 ms-fontColor-white"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           },
@@ -138,13 +131,12 @@
                             },
                             "txtContent": "[$personIterator.title]",
                             "attributes": {
-                              "title": "=getUserImage('[$personIterator.email]','small')"
+                              "title": "[$personIterator.title]"
                             }
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -192,13 +184,11 @@
                                     "elmType": "div",
                                     "style": {
                                       "padding-top": "5px"
-
                                     },
                                     "attributes": {
                                       "class": "ms-fontSize-20 ms-fontColor-white"
                                     },
                                     "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                                   }
                                 ]
                               },
@@ -210,7 +200,6 @@
                             ]
                           }
                         ]
-
                       }
                     ]
                   }
@@ -228,9 +217,7 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
-
                     "elmType": "div",
                     "style": {
                       "display": "inline-block",
@@ -243,8 +230,8 @@
                         "children": [
                           {
                             "elmType": "div",
-
                             "style": {
+
                               "width": "40px",
                               "height": "40px",
                               "border-radius": "50%",
@@ -256,21 +243,18 @@
                                 "elmType": "div",
                                 "style": {
                                   "margin-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-20 ms-fontColor-white",
                                   "title": "[$personIterator.title]"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               }
@@ -289,7 +273,6 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -301,31 +284,28 @@
                       {
                         "elmType": "div",
                         "style": {
+                          "display": "=if(length([$PersonChat])>1 && loopIndex('personIterator')>=1, 'none', 'block')",
                           "width": "40px",
                           "height": "40px",
                           "border-radius": "50%",
                           "margin": "0 auto",
                           "background-color": "=if(indexOf([$personIterator.title]+'.','.')%10==0, '#e3008c', if(indexOf([$personIterator.title]+'.','.')%10==1, '#00ad56', if(indexOf([$personIterator.title]+'.','.')%10==2, '#0078d4', if(indexOf([$personIterator.title]+'.','.')%10==3, '#c19c00', if(indexOf([$personIterator.title]+'.','.')%10==4, '#fce100', if(indexOf([$personIterator.title]+'.','.')%10==5, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==6, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==7, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==8, '#e81123', if(indexOf([$personIterator.title]+'.','.')%10==9, '#ff8c00', '#00b7c3'))))))))))"
                         },
-
                         "children": [
                           {
                             "elmType": "div",
                             "style": {
                               "padding-top": "5px"
-
                             },
                             "attributes": {
                               "class": "ms-fontSize-20 ms-fontColor-white",
                               "title": "[$personIterator.title]"
                             },
                             "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -374,14 +354,12 @@
                                 "elmType": "div",
                                 "style": {
                                   "padding-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-10 ms-fontColor-white",
                                   "title": "[$personIterator.title]"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           }
@@ -406,7 +384,6 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -422,6 +399,7 @@
                           {
                             "elmType": "div",
                             "style": {
+                              "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'block')",
                               "width": "24px",
                               "height": "24px",
                               "border-radius": "50%",
@@ -434,21 +412,18 @@
                                 "elmType": "div",
                                 "style": {
                                   "padding-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-10 ms-fontColor-white",
                                   "title": "[$personIterator.title]"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -496,21 +471,18 @@
                                     "elmType": "div",
                                     "style": {
                                       "padding-top": "5px"
-
                                     },
                                     "attributes": {
                                       "class": "ms-fontSize-10 ms-fontColor-white",
                                       "title": "[$personIterator.title]"
                                     },
                                     "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                                   }
                                 ]
                               }
                             ]
                           }
                         ]
-
                       }
                     ]
                   }
@@ -531,7 +503,6 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -547,6 +518,7 @@
                           {
                             "elmType": "div",
                             "style": {
+                              "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'block')",
                               "width": "24px",
                               "height": "24px",
                               "border-radius": "50%",
@@ -559,21 +531,18 @@
                                 "elmType": "div",
                                 "style": {
                                   "padding-top": "5px"
-
                                 },
                                 "attributes": {
                                   "class": "ms-fontSize-10 ms-fontColor-white",
                                   "title": "[$personIterator.title]"
                                 },
                                 "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                               }
                             ]
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -623,21 +592,18 @@
                                     "elmType": "div",
                                     "style": {
                                       "padding-top": "5px"
-
                                     },
                                     "attributes": {
                                       "class": "ms-fontSize-10 ms-fontColor-white",
                                       "title": "[$personIterator.title]"
                                     },
                                     "txtContent": "=if(indexOf([$personIterator.title]+'.','.') > 0, toUpperCase(substring([$personIterator.title],0,1) +if(indexOf([$personIterator.title]+'.',' ') > 0,substring([$personIterator.title],indexOf([$personIterator.title]+'.',' ')+1,indexOf([$personIterator.title]+'.',' ')+2),'')), lastIndexOf([$personIterator.title]+'.',0))"
-
                                   }
                                 ]
                               }
                             ]
                           }
                         ]
-
                       }
                     ]
                   }
@@ -656,7 +622,6 @@
                 "inlineEditField": "[$PersonChat]",
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -694,7 +659,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               }
@@ -713,11 +677,10 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
-                      "display": "inline-block",
+                      "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')",
                       "text-align": "center",
                       "width": "60px"
                     },
@@ -751,7 +714,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -806,7 +768,6 @@
                             ]
                           }
                         ]
-
                       }
                     ]
                   }
@@ -824,7 +785,6 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
@@ -851,7 +811,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               }
@@ -870,11 +829,10 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
-                      "display": "inline-block",
+                      "display": "=if(length([$PersonChat])>1 && loopIndex('personIterator')>=1, 'none', 'inline-block')",
                       "text-align": "center",
                       "width": "40px"
                     },
@@ -896,7 +854,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -968,11 +925,10 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
-                      "display": "inline-block",
+                      "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')",
                       "padding": "5px",
                       "text-align": "center",
                       "width": "28px"
@@ -999,7 +955,6 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               },
@@ -1067,11 +1022,10 @@
                 },
                 "children": [
                   {
-
                     "forEach": "personIterator in [$PersonChat]",
                     "elmType": "div",
                     "style": {
-                      "display": "inline-block",
+                      "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')",
                       "padding": "5px",
                       "text-align": "center",
                       "width": "28px"
@@ -1098,14 +1052,13 @@
                         ]
                       }
                     ]
-
                   }
                 ]
               },
               {
                 "elmType": "div",
                 "style": {
-                  "display": "=if(length([$PersonChat])>2,'inline-block','none')",
+                  "display": "=if(length([$PersonChat])>2 ,'inline-block','none')",
                   "width": "24px",
                   "height": "24px",
                   "text-align": "center",
@@ -1160,5 +1113,4 @@
       }
     ]
   }
-
 }
