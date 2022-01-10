@@ -106,7 +106,7 @@
                 "forEach": "personIterator in [$PersonChat]",
                 "elmType": "div",
                 "style": {
-                  "display": "inline-block",
+                  "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')",
                   "padding": "10px",
                   "text-align": "center",
                   "width": "58px"
@@ -155,7 +155,7 @@
             "attributes": {
               "class": "ms-fontSize-32 ms-fontWeight-semibold ms-fontColor-themePrimary"
             },
-            "txtContent": "='+'+(length([$PersonChat])-3)",
+            "txtContent": "='+'+(length([$PersonChat])-2)",
             "customCardProps": {
               "openOnEvent": "click",
               "formatter": {
