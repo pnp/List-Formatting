@@ -3,8 +3,6 @@
 ## Summary
 This sample provider different formats on how multiple person selection can be display based in 2 categories (by person image or color association where first letter from name is display).
 
-This sample uses **Anand Ragav** formula to limit multiple users to be displayed `=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')"`
-
 ![Multiple person format](./assets/MultiPersonFormats.gif)
 
 ## View requirements
