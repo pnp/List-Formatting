@@ -163,8 +163,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'1')>-1 || indexOf([$Yellow],'1')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'1')>-1 || indexOf([$Yellow],'1')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -198,8 +198,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'2')>-1 || indexOf([$Yellow],'2')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'2')>-1 || indexOf([$Yellow],'2')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -231,8 +231,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'3')>-1 || indexOf([$Yellow],'3')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'3')>-1 || indexOf([$Yellow],'3')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -272,8 +272,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'4')>-1 || indexOf([$Yellow],'4')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'4')>-1 || indexOf([$Yellow],'4')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -307,8 +307,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'5')>-1 || indexOf([$Yellow],'5')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'5')>-1 || indexOf([$Yellow],'5')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -340,8 +340,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'6')>-1 || indexOf([$Yellow],'6')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],[$Count])>-1 || indexOf([$Yellow],[$Count])>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -380,8 +380,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'7')>-1 || indexOf([$Yellow],'7')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'7')>-1 || indexOf([$Yellow],'7')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -414,8 +414,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'8')>-1 || indexOf([$Yellow],'8')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'8')>-1 || indexOf([$Yellow],'8')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
                   }
                 }
               }
@@ -446,8 +446,8 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))",
-                    "Red": "=if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) ))"
+                    "Yellow": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))) ",
+                    "Red": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]))))"
                   }
                 }
               }
