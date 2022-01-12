@@ -3,6 +3,10 @@
 ## Summary
 
 This sample recreate the tic tac toe game using SharePoint List formatting and new feature "**setValue**" to allow Power users provide additional flexibility to their custom solutions.
+There are 2 types of samples: 
+- **tictactoe-click-format** allow to click directly in the position and add associated color.
+- **tictactoe-board-format** provides a board where you can move position based on arrows provided by board.
+
 
 ![tic tac toe format](./assets/TicTacToeformat.gif)
 
@@ -21,7 +25,8 @@ Red | Choice - check allow multiple selections and check "Allow 'Fill-in' choice
 
 Solution|Author(s)
 --------|---------
-tictactoe-format.json | [André Lage](https://twitter.com/aaclage)
+tictactoe-click-format.json | [André Lage](https://twitter.com/aaclage)
+tictactoe-board-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
