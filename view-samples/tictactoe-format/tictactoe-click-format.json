@@ -53,7 +53,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "width": "550px"
+          "width": "300px"
         },
         "children": [
           {
@@ -165,7 +165,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "width": "550px"
+          "width": "300px"
         },
         "children": [
           {
@@ -277,7 +277,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "width": "550px"
+          "width": "300px"
         },
         "children": [
           {
