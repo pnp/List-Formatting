@@ -1,0 +1,715 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "padding": "10px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "inline-block"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "border": "3px solid #ccc",
+              "border-radius": "50%",
+              "padding": "10px",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "iconName": "Add",
+              "class": "ms-fontSize-24 ms-fontColor-blueDark ms-bgColor-communicationTint40 ms-bgColor-communicationTint20--hover"
+            },
+            "customCardProps": {
+              "openOnEvent": "click",
+              "directionalHint": "topCenter",
+              "isBeakVisible": true,
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "🙂",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'🙂'+@me) > -1, replace([$Emotion],'🙂'+@me,''), [$Emotion]+'🙂'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂1🙁0😃0👏0👋0🔔0👑0🔎0☕0|',if(indexOf([$Emotion],'🙂'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🙂')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,lastIndexOf([$EmotionCount],'🙁'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🙁'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🙂')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,lastIndexOf([$EmotionCount],'🙁'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🙁'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "🙁",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'🙁'+@me) > -1, replace([$Emotion],'🙁'+@me,''), [$Emotion]+'🙁'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁1😃0👏0👋0🔔0👑0🔎0☕0|',if(indexOf([$Emotion],'🙁'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🙁')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,lastIndexOf([$EmotionCount],'😃'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'😃'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🙁')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,lastIndexOf([$EmotionCount],'😃'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'😃'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "😃",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'😃'+@me) > -1, replace([$Emotion],'😃'+@me,''), [$Emotion]+'😃'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃1👏0👋0🔔0👑0🔎0☕0|',if(indexOf([$Emotion],'😃'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'😃')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,lastIndexOf([$EmotionCount],'👏'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👏'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'😃')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,lastIndexOf([$EmotionCount],'👏'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👏'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "👏",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'👏'+@me) > -1, replace([$Emotion],'👏'+@me,''), [$Emotion]+'👏'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏1👋0🔔0👑0🔎0☕0|',if(indexOf([$Emotion],'👏'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👏')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,lastIndexOf([$EmotionCount],'👋'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👋'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👏')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,lastIndexOf([$EmotionCount],'👋'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👋'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "👋",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'👋'+@me) > -1, replace([$Emotion],'👋'+@me,''), [$Emotion]+'👋'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏0👋1🔔0👑0🔎0☕0|',if(indexOf([$Emotion],'👋'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👋')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,lastIndexOf([$EmotionCount],'🔔'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔔'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👋')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,lastIndexOf([$EmotionCount],'🔔'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔔'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "🔔",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'🔔'+@me) > -1, replace([$Emotion],'🔔'+@me,''), [$Emotion]+'🔔'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏0👋0🔔1👑0🔎0☕0|',if(indexOf([$Emotion],'🔔'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🔔')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,lastIndexOf([$EmotionCount],'👑'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👑'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🔔')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,lastIndexOf([$EmotionCount],'👑'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👑'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "👑",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'👑'+@me) > -1, replace([$Emotion],'👑'+@me,''), [$Emotion]+'👑'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏0👋0🔔0👑1🔎0☕0|',if(indexOf([$Emotion],'👑'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👑')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,lastIndexOf([$EmotionCount],'🔎'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔎'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👑')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,lastIndexOf([$EmotionCount],'🔎'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔎'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "🔎",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'🔎'+@me) > -1, replace([$Emotion],'🔎'+@me,''), [$Emotion]+'🔎'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏0👋0🔔0👑0🔎1☕0|',if(indexOf([$Emotion],'🔎'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🔎')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,lastIndexOf([$EmotionCount],'☕'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'☕'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🔎')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,lastIndexOf([$EmotionCount],'☕'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'☕'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "border-radius": "5px",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-gray30--hover ms-fontSize-20"
+                    },
+                    "txtContent": "☕",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Emotion": "=if(indexOf([$Emotion],'☕'+@me) > -1, replace([$Emotion],'☕'+@me,''), [$Emotion]+'☕'+@me)",
+                        "EmotionCount": "=if(length([$EmotionCount])==0,'🙂0🙁0😃0👏0👋0🔔0👑0🔎0☕1|',if(indexOf([$Emotion],'☕'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'☕')+1)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'|'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'☕')+1)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'|'),indexOf([$EmotionCount]+'.','.'))))"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "inline-block",
+          "padding": "5px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,indexOf([$EmotionCount],'🙁'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "🙂"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,indexOf([$EmotionCount],'🙁')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'🙂'+@me) > -1, replace([$Emotion],'🙂'+@me,''), [$Emotion]+'🙂'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'🙂'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🙂')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,lastIndexOf([$EmotionCount],'🙁'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🙁'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🙂')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,lastIndexOf([$EmotionCount],'🙁'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🙁'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,indexOf([$EmotionCount],'😃'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "🙁"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,indexOf([$EmotionCount],'😃')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'🙁'+@me) > -1, replace([$Emotion],'🙁'+@me,''), [$Emotion]+'🙁'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'🙁'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🙁')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,lastIndexOf([$EmotionCount],'😃'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'😃'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🙁')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,lastIndexOf([$EmotionCount],'😃'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'😃'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,indexOf([$EmotionCount],'👏'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "😃"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,indexOf([$EmotionCount],'👏')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'😃'+@me) > -1, replace([$Emotion],'😃'+@me,''), [$Emotion]+'😃'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'😃'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'😃')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,lastIndexOf([$EmotionCount],'👏'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👏'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'😃')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,lastIndexOf([$EmotionCount],'👏'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👏'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,indexOf([$EmotionCount],'👋'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "👏"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,indexOf([$EmotionCount],'👋')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'👏'+@me) > -1, replace([$Emotion],'👏'+@me,''), [$Emotion]+'👏'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'👏'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👏')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,lastIndexOf([$EmotionCount],'👋'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👋'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👏')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,lastIndexOf([$EmotionCount],'👋'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👋'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,indexOf([$EmotionCount],'🔔'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "👋"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,indexOf([$EmotionCount],'🔔')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'👋'+@me) > -1, replace([$Emotion],'👋'+@me,''), [$Emotion]+'👋'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'👋'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👋')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,lastIndexOf([$EmotionCount],'🔔'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔔'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👋')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,lastIndexOf([$EmotionCount],'🔔'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔔'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,indexOf([$EmotionCount],'👑'))) >0,'inline-block','none')",
+              "padding": "0px 0px 0px 5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "🔔"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,indexOf([$EmotionCount],'👑')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'🔔'+@me) > -1, replace([$Emotion],'🔔'+@me,''), [$Emotion]+'🔔'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'🔔'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🔔')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,lastIndexOf([$EmotionCount],'👑'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👑'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🔔')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,lastIndexOf([$EmotionCount],'👑'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'👑'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,indexOf([$EmotionCount],'🔎'))) >0,'inline-block','none')",
+              "padding-left": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "0px 0px 0px 5px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "border": "1px solid #ccc",
+                      "border-radius": "5px",
+                      "display": "inline-block",
+                      "padding-left": "5px"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-communicationTint20--hover"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "5px",
+                          "cursor": "pointer",
+                          "display": "inline-block"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-20"
+                        },
+                        "txtContent": "👑"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "5px",
+                          "cursor": "pointer",
+                          "display": "inline-block"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-20"
+                        },
+                        "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,indexOf([$EmotionCount],'🔎')))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'👑'+@me) > -1, replace([$Emotion],'👑'+@me,''), [$Emotion]+'👑'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'👑'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'👑')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,lastIndexOf([$EmotionCount],'🔎'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔎'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'👑')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'👑')+2,lastIndexOf([$EmotionCount],'🔎'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'🔎'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,indexOf([$EmotionCount],'☕'))) >0,'inline-block','none')",
+              "padding-left": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "display": "inline-block",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "🔎"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,indexOf([$EmotionCount],'☕')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'🔎'+@me) > -1, replace([$Emotion],'🔎'+@me,''), [$Emotion]+'🔎'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'🔎'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'🔎')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,lastIndexOf([$EmotionCount],'☕'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'☕'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'🔎')+2)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔎')+2,lastIndexOf([$EmotionCount],'☕'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'☕'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|'))) >0,'inline-block','none')",
+              "padding-left": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "border": "1px solid #ccc",
+                  "border-radius": "5px",
+                  "padding-left": "5px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-communicationTint20--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "☕"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px",
+                      "cursor": "pointer",
+                      "display": "inline-block"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-20"
+                    },
+                    "txtContent": "=Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|')))"
+                  }
+                ]
+              }
+            ],
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Emotion": "=if(indexOf([$Emotion],'☕'+@me) > -1, replace([$Emotion],'☕'+@me,''), [$Emotion]+'☕'+@me)",
+                "EmotionCount": "=if(indexOf([$Emotion],'☕'+@me) > -1, substring([$EmotionCount],0,indexOf([$EmotionCount],'☕')+1)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|'))))-1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'|'),indexOf([$EmotionCount]+'.','.')), substring([$EmotionCount],0,indexOf([$EmotionCount],'☕')+1)+toString((Number(substring([$EmotionCount],indexOf([$EmotionCount],'☕')+1,lastIndexOf([$EmotionCount],'|'))))+1)+substring([$EmotionCount],lastIndexOf([$EmotionCount],'|'),indexOf([$EmotionCount]+'.','.')))"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
