@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample recreate the selection of emotions emojis based on html unicode in 2 formats **Emotions-single-format** and **Emotions-format**.
+This sample allow the selection of emotions emojis based on html unicode in 2 formats **Emotions-single-format** and **Emotions-format**.
 
 - **Emotions-single-format**:
   - This format display emotion emojis of current user. This format required the field **"Emotion"**.
