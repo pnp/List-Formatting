@@ -19,7 +19,7 @@ Value | Number - Default value 0
 
 Solution|Author(s)
 --------|---------
-bar-option-format.json.json | [André Lage](https://twitter.com/aaclage)
+bar-option-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
