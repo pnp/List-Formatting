@@ -1,0 +1,292 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "30px",
+          "border": "1px solid #ccc",
+          "box-shadow": "0 0 5px #ccc"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "0px 0px 20px 10px"
+                },
+                "txtContent": "[$Title]",
+                "attributes": {
+                  "class": "ms-fontSize-20"
+                },
+                "children": [
+                  {
+                    "elmType": "div"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontSize-42"
+                },
+                "txtContent": "=if([$Value] ==0,'0️⃣',if([$Value] ==1,'1️⃣',if([$Value] ==2,'2️⃣',if([$Value] ==3,'3️⃣',if([$Value] ==4,'4️⃣','')))))"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding-left": "20px",
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-items": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "background-color": "#eee",
+                          "border-radius": "25px",
+                          "width": "380px",
+                          "display": "table"
+                        },
+                        "attributes": {},
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "table-cell",
+                              "background-color": "=if([$Value]==0,'#FF2C05',if([$Value]==1,'#FD6104',if([$Value]==2,'#FD9A01',if([$Value]==3,'#FFCE03',if([$Value]==4,'#FEF001','Orange'))))",
+                              "width": "=if(length([$Value])==0 || [$Value]==0 ,'0px',if([$Value]==1 ,'100px',if([$Value]==2 ,'190px',if([$Value]==3 ,'280px',if([$Value]==4 ,'380px','0px')))))",
+                              "height": "13px",
+                              "padding-left": "5px",
+                              "border-radius": "25px",
+                              "vertical-align": "middle",
+                              "text-align": "left"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if(length([$Value])==0 || [$Value]==0 ,'none','inline-block')",
+                                  "background-color": "white",
+                                  "border-radius": "5px",
+                                  "height": "10px",
+                                  "width": "10px",
+                                  "cursor": "pointer"
+                                },
+                                "customRowAction": {
+                                  "action": "setValue",
+                                  "actionInput": {
+                                    "Value": "0"
+                                  }
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if([$Value]>=1,'inline-block' ,'none')",
+                                  "background-color": "white",
+                                  "border-radius": "5px",
+                                  "height": "10px",
+                                  "width": "10px",
+                                  "margin-left": "80px",
+                                  "cursor": "pointer"
+                                },
+                                "customRowAction": {
+                                  "action": "setValue",
+                                  "actionInput": {
+                                    "Value": "1"
+                                  }
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if([$Value]>=2 ,'inline-block' ,'none')",
+                                  "background-color": "white",
+                                  "border-radius": "5px",
+                                  "height": "10px",
+                                  "width": "10px",
+                                  "margin-left": "80px",
+                                  "cursor": "pointer"
+                                },
+                                "customRowAction": {
+                                  "action": "setValue",
+                                  "actionInput": {
+                                    "Value": "2"
+                                  }
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if(Number([$Value]>=3) ,'inline-block' ,'none')",
+                                  "background-color": "white",
+                                  "border-radius": "5px",
+                                  "height": "10px",
+                                  "width": "10px",
+                                  "margin-left": "80px",
+                                  "cursor": "pointer"
+                                },
+                                "customRowAction": {
+                                  "action": "setValue",
+                                  "actionInput": {
+                                    "Value": "3"
+                                  }
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if([$Value]>=4 ,'inline-block' ,'none')",
+                                  "background-color": "white",
+                                  "border-radius": "5px",
+                                  "height": "10px",
+                                  "width": "10px",
+                                  "margin-left": "80px",
+                                  "cursor": "pointer"
+                                },
+                                "customRowAction": {
+                                  "action": "setValue",
+                                  "actionInput": {
+                                    "Value": "4"
+                                  }
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "position": "absolute",
+                                  "border": "2px solid #eee",
+                                  "display": "inline-block",
+                                  "background-color": "white",
+                                  "border-radius": "50%",
+                                  "height": "40px",
+                                  "width": "40px",
+                                  "box-shadow": "0 0 5px #eee",
+                                  "left": "=if([$Value]==0,'80px',if([$Value]==1,'175px',if([$Value]==2,'260px',if([$Value]==3,'350px',if([$Value]==4,'440px','0px')))))",
+                                  "margin-top": "=if([$Value]==0,'-23px','-15px')"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if([$Value]==0 ,'inline-block','none')",
+                              "background-color": "white",
+                              "border-radius": "5px",
+                              "height": "10px",
+                              "width": "10px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Value": "0"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if([$Value]>=1 ,'none','inline-block')",
+                              "background-color": "white",
+                              "border-radius": "5px",
+                              "height": "10px",
+                              "width": "10px",
+                              "margin-left": "80px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Value": "1"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if([$Value]>=2 ,'none','inline-block')",
+                              "background-color": "white",
+                              "border-radius": "5px",
+                              "height": "10px",
+                              "width": "10px",
+                              "margin-left": "80px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Value": "2"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if([$Value]>=3 ,'none','inline-block')",
+                              "background-color": "white",
+                              "border-radius": "5px",
+                              "height": "10px",
+                              "width": "10px",
+                              "margin-left": "80px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Value": "3"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if([$Value]==4 ,'none','inline-block')",
+                              "background-color": "white",
+                              "border-radius": "5px",
+                              "height": "10px",
+                              "width": "10px",
+                              "margin-left": "80px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Value": "4"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
