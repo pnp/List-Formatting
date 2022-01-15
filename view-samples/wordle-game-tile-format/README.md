@@ -24,7 +24,7 @@ This sample has the following points to note.
 |Single line of text|InputText6   |        |
 
 - You need to use the Gallery View.
-- Set 5 English characters for your answer in `Title`.
+- Set `Title` to the 5 single-byte English characters of the answer.
 
 ## Sample
 
