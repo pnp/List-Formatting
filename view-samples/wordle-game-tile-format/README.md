@@ -6,9 +6,9 @@ This sample reproduces the popular word puzzle game Wordle with Microsoft Lists.
 ![screenshot of the sample](./assets/screenshot.gif)
 
 This sample has the following points to note.
-- There are no input restrictions that regulate the order of input. Therefore, you can answer from any line.
-- There is no restriction on the number of characters entered. Therefore, you can answer with any number of characters other than 5.
-- You can edit your answer even after you have answered.
+- There is no input order restriction. Therefore, you can answer from any line.
+- There is no restriction on the number of characters to be input. Therefore, you can answer with any number of characters other than 5.
+- You can edit your answer even after it has been input.
 
 ## View requirements
 
