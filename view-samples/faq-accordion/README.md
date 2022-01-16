@@ -15,6 +15,8 @@ Question      | Single Line Text
 Answer     | Multi Line Text
 ShowMore     | Single Line Text
 
+Apply a Group By on the Question column in your view.
+
 ## Sample
 
 Solution                        |Author(s)
