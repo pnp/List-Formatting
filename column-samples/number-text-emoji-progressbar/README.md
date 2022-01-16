@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates the use of text symbols and emoji to display a progress bar.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 This format can be applied to a Number column (the format expects values from 0-5)
