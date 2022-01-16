@@ -182,7 +182,7 @@
                                   "height": "40px",
                                   "width": "40px",
                                   "box-shadow": "0 0 5px #eee",
-                                  "left": "=if([$Value]==0,'80px',if([$Value]==1,'175px',if([$Value]==2,'260px',if([$Value]==3,'350px',if([$Value]==4,'440px','0px')))))",
+                                  "margin-left": "=if([$Value]==0,'-20px','-23px')",
                                   "margin-top": "=if([$Value]==0,'-23px','-15px')"
                                 }
                               }
