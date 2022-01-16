@@ -48,4 +48,4 @@ Column Format samples shown above:
 - [multi-person-currentuser](../../column-samples/multi-person-currentuser)
 - [date-range-format](../../column-samples/date-range-format)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/alternating-rowclass" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/alternating-rowclass" />
