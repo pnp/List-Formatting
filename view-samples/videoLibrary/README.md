@@ -40,10 +40,5 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
-- topic 1
-- topic 2
-- topic 3
-
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/videolibary" />
