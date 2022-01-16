@@ -52,4 +52,4 @@ For questions regarding this sample, [create a new question](https://github.com/
 Finally, if you have an idea for improvement, [make a suggestion](https://github.com/pnp/List-Formattings/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=suggestion.yml&sample=YOUR-SOLUTION-NAME&authors=@YOURGITHUBUSERNAME&title=YOUR-SOLUTION-NAME%20-%20).
 
 > Update telemetry url below to place your sample name at the end then remove this line
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/readme-template" />
