@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-text-emoji-progressbar",
     "reponame": "number-text-emoji-progressbar",
     "source": "pnp",
-    "title": "Progress bar with text or emoji",
+    "title": "Progress bar using text or emoji",
     "shortDescription": "This sample demonstrates the use of text symbols and emoji to display a progress bar.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-text-emoji-progressbar",
     "longDescription": [

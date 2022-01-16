@@ -1,4 +1,4 @@
-# Progress bar with text or emoji
+# Progress bar using text or emoji
 
 ## Summary
 This sample demonstrates how to display a progress bar by repeating text or emoji using the **padStart** operator.
