@@ -19,7 +19,7 @@ ColorP | Single line of text
 Solution|Author(s)
 --------|---------
 color-picker-all-format.json | [André Lage](https://twitter.com/aaclage)
-color-picker-12Sections-format | [André Lage](https://twitter.com/aaclage)
+color-picker-12Sections-format.json | [André Lage](https://twitter.com/aaclage)
 color-picker-basic-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
