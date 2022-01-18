@@ -30,7 +30,7 @@
         "customRowAction": {
           "action": "setValue",
           "actionInput": {
-            "UpdateState": "@now"
+            "UpdateState": "=Number(@now)"
           }
         }
       }
