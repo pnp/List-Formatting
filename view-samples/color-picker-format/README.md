@@ -6,13 +6,22 @@ This sample pre defined palettes of colors by Microsoft documentation [color enu
 
 ![color picker format](./assets/ColorPickerOptions.gif)
 
+## color-picker-all-format
+
+This format allow users to select up to 140 colors existing in Power Apps, it's also possible to select what colors can be displayed using field  **ColorF** as filter and include the names of the colors. Sample **"red,azure,gold"**.
+
+If field **ColorF** empty then all 140 colors are displayed. 
+
+![color picker format](./assets/ColorPickerFilter.PNG)
+
 ## View requirements
 - The format expect the following fields:
 
 Field |Type
 --------|---------
 Title | Single line of text 
-ColorP | Single line of text 
+ColorP | Single lines of text
+ColorF | Single lines of text
 
 ## Sample
 
