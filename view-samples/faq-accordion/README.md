@@ -8,15 +8,14 @@ This view is responsive.
 
 ## View requirements
 
-- Create below columns in list:
+Column Name   |Type
+--------------|--------------
+Title         | Single Line Text
+Question      | Single Line Text
+Answer     | Multi Line Text
+ShowMore     | Single Line Text
 
-  Column Name   |Type
-  --------------|--------------
-  Question      | Single Line Text
-  Answer     | Multi Line Text
-  ShowMore     | Single Line Text
-
-- Apply grouping on "Question" column from list view settings.
+Apply a Group By on the Question column in your view.
 
 ## Sample
 
