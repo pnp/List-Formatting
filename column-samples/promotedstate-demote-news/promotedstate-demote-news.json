@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-wrap": "wrap",
+    "display": "flex",
+    "flex-direction": "row"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "=if(@currentField == 0 ,'0 : Page' , if(@currentField == 1, '1 : News (Unpublished)' , if(@currentField == 2 , '2 : News','') ) )",
+      "style": {
+        "box-sizing": "border-box",
+        "padding": "4px 8px 5px 8px",
+        "display": "flex",
+        "border-radius": "16px",
+        "height": "27px",
+        "align-items": "center",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+        "margin": "4px 4px 4px 4px",
+        "border": "1px solid"
+      },
+      "attributes": {
+        "class": "=if(@currentField == 0 ,'ms-fontColor-themePrimary ms-borderColor-themePrimary ms-bgColor-white' , if(@currentField == 1, 'ms-fontColor-themePrimary ms-borderColor-themePrimary ms-bgColor-themeLighter' , if(@currentField == 2 , 'ms-fontColor-white ms-borderColor-themePrimary ms-bgColor-themePrimary','') ) )"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "18px",
+        "cursor": "pointer",
+        "padding": "10px",
+        "border-radius": "50%",
+        "display": "=if(@currentField == 0 , 'none' ,'')"
+      },
+      "attributes": {
+        "iconName": "MoreVertical",
+        "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover"
+      },
+      "customCardProps": {
+        "openOnEvent": "click",
+        "directionalHint": "rightCenter",
+        "isBeakVisible": true,
+        "formatter": {
+          "elmType": "div",
+          "txtContent": "Demote (Change to 0:Page)",
+          "style": {
+            "padding": "10px 20px 10px 20px",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter--hover"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "PromotedState": "0"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
