@@ -32,4 +32,4 @@ Any potential additional notes to get included in the readme around the sample w
 - topic 2
 - topic 3
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/readme-template" />
