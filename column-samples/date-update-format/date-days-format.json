@@ -1,0 +1,81 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+	"elmType": "div",
+	"children": [
+		{
+			"elmType": "div",
+			"style": {
+				"font-size": "14pt",
+				"padding": "5px",
+				"cursor": "pointer"
+			},
+			"attributes": {
+				"iconName": "EventDate"
+			},
+			"customRowAction": {
+				"action": "setValue",
+				"actionInput": {
+					"CustomDate": "@now"
+				}
+			}
+		},
+		{
+			"elmType": "div",
+			"attributes": {
+				"iconName": "Add"
+			},
+			"style": {
+				"font-size": "12pt",
+				"padding": "5px",
+				"cursor": "pointer"
+			},
+			"customRowAction": {
+				"action": "setValue",
+				"actionInput": {
+					"CustomDate": "=addDays(Date([$CustomDate]),1)"
+				}
+			}
+		},
+		{
+			"elmType": "div",
+			"style": {
+				"font-size": "12pt",
+				"padding": "5px"
+			},
+			"txtContent": "=if(length([$CustomDate]) == 0,'(no date)',toLocaleDateString((Date([$CustomDate])))",
+			"inlineEditField": "[$CustomDate]"
+		},
+		{
+			"elmType": "div",
+			"style": {
+				"font-size": "12pt",
+				"padding": "5px",
+				"cursor": "pointer"
+			},
+			"attributes": {
+				"iconName": "Remove"
+			},
+			"customRowAction": {
+				"action": "setValue",
+				"actionInput": {
+					"CustomDate": "=addDays(Date([$CustomDate]),-1)"
+				}
+			}
+		},
+		{
+			"elmType": "div",
+			"attributes": {
+				"iconName": "ErrorBadge"
+			},
+			"style": {
+				"cursor": "pointer"
+			},
+			"customRowAction": {
+				"action": "setValue",
+				"actionInput": {
+					"CustomDate": ""
+				}
+			}
+		}
+	]
+}
