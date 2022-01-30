@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample provides discussion board where title, description, tags and votes are avaliable. Users can include emotions on discussions, comments and inline editing is avaliable to update information. 
+This sample provides discussion board where title, description, tags and votes are available. Users can include emotions on discussions, comments and inline editing is available to update information. 
 
 ![discussion board format](./assets/DiscussionBoardformat.gif)
 
