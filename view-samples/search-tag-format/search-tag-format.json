@@ -1,0 +1,134 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "block",
+      "width": "200px",
+      "padding-top": "10px",
+      "font-size": "14pt"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "padding-left": "10px",
+          "width": "200px",
+          "height": "30px",
+          "border": "1px solid #ccc"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "inline-block",
+              "font-size": "10pt"
+            },
+            "attributes": {
+              "iconName": "search"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "=if(length([$SearchText]) == 0, 'Search word',[$SearchText])",
+            "inlineEditField": "[$SearchText]",
+            "style": {
+              "padding-left": "10px",
+              "display": "inline-block"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "10pt",
+              "display": "inline-block",
+              "padding-left": "10px"
+            },
+            "attributes": {
+              "iconName": "ErrorBadge"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "SearchText": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "relative"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding-top": "10px"
+            },
+            "txtContent": "=substring([$Description],0,indexOf(toLowerCase([$Description]),toLowerCase([$SearchText])))"
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "5px",
+                  "font-weight": "bold",
+                  "display": "inline-block"
+                },
+                "attributes": {
+                  "class": "=if(indexOf(toLowerCase([$Description]),toLowerCase([$SearchText])) >0,'sp-field-severity--good sp-field-underline','')"
+                },
+                "txtContent": "=if(indexOf(toLowerCase([$Description]),toLowerCase([$SearchText])) >0,substring([$Description],indexOf(toLowerCase([$Description]),toLowerCase([$SearchText])),indexOf(toLowerCase([$Description]),toLowerCase([$SearchText]))+lastIndexOf(toLowerCase([$SearchText])+'.','.')),'')"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding-left": "5px",
+                  "font-size": "14pt",
+                  "display": "inline-block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "iconName": "=if(indexOf(toLowerCase([$Description]),toLowerCase([$SearchText])) >0,'TagUnknown','')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "CustomTags": "=appendTo([$CustomTags], [$SearchText])"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding-bottom": "10px"
+            },
+            "txtContent": "=substring([$Description],indexOf(toLowerCase([$Description]),toLowerCase([$SearchText]))+lastIndexOf(toLowerCase([$SearchText])+'.','.'),lastIndexOf(toLowerCase([$Description])+'.','.'))"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding-bottom": "20px",
+              "font-size": "14pt",
+              "letter-spacing": "2px"
+            },
+            "attributes": {
+              "iconName": "Tag",
+              "class": "sp-field-borderBottomDashed"
+            },
+            "txtContent": "[$CustomTags]",
+            "inlineEditField": "[$CustomTags]"
+          }
+        ]
+      }
+    ]
+  }
+}
