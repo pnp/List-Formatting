@@ -14,7 +14,7 @@ Key points:
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
-|Approval|Calculated|Yes| Apply the template to this column
+|Calculated|Approval|Yes| Apply the template to this column
 |Choice|ApprovalStatus|No| Choice values needed: Pending / Approved / Rejected
 |Person or Group|ApprovalActionBy|No|Single selection
 
