@@ -1,0 +1,293 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "width": "100%",
+      "height": "90%",
+      "display": "flex",
+      "justify-content": "center",
+      "border": "1px solid",
+      "border-radius": "3px",
+      "box-shadow": "0 3.2px 7.2px 0",
+      "padding-top": "5px",
+      "padding-bottom": "10px"
+    },
+    "attributes": {
+      "class": "=if([$Color] == '' , 'ms-fontColor-neutralQuaternary ms-bgColor-white' , 'ms-fontColor-neutralQuaternary ' + [$Color])"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "width": "90%",
+          "height": "100%",
+          "justify-content": "center"
+        },
+        "attributes": {
+          "class": "ms-fontColor-neutralSecondary"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "100%",
+              "height": "75%"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "inlineEditField": "[$Title]",
+                "style": {
+                  "width": "100%",
+                  "font-weight": "bold",
+                  "font-size": "22px",
+                  "margin": "5px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Description]",
+                "inlineEditField": "[$Description]",
+                "style": {
+                  "width": "100%",
+                  "min-height": "25px",
+                  "margin": "5px"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row-reverse",
+              "align-items": "center",
+              "width": "100%",
+              "height": "15%",
+              "font-size": "15px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-left": "15px"
+                },
+                "attributes": {
+                  "iconName": "Color",
+                  "class": "ms-fontColor-neutralSecondaryAlt ms-fontColor-neutralPrimary--hover"
+                },
+                "customCardProps": {
+                  "openOnEvent": "click",
+                  "directionalHint": "rightCenter",
+                  "isBeakVisible": true,
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "width": "150px",
+                      "padding": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-direction": "row",
+                          "justify-content": "space-around",
+                          "align-items": "center",
+                          "width": "100%",
+                          "height": "40px"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary sp-css-backgroundColor-BgCoral30"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "sp-css-backgroundColor-BgCoral30"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary sp-css-backgroundColor-BgGold60"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "sp-css-backgroundColor-BgGold60"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary sp-css-backgroundColor-BgMintGreen30"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "sp-css-backgroundColor-BgMintGreen30"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-direction": "row",
+                          "justify-content": "space-around",
+                          "align-items": "center",
+                          "width": "100%",
+                          "height": "40px"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary sp-css-backgroundColor-BgCornflowerBlue40"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "sp-css-backgroundColor-BgCornflowerBlue40"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary sp-css-backgroundColor-BgLightPurple30"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "sp-css-backgroundColor-BgLightPurple30"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "25px",
+                              "height": "25px",
+                              "border-radius": "50%",
+                              "cursor": "pointer",
+                              "border": "1px solid"
+                            },
+                            "attributes": {
+                              "class": "ms-fontColor-neutralQuaternary ms-bgColor-white"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color": "ms-bgColor-white"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-left": "15px"
+                },
+                "customRowAction": {
+                  "action": "defaultClick"
+                },
+                "attributes": {
+                  "iconName": "OpenPane",
+                  "class": "ms-fontColor-neutralSecondaryAlt ms-fontColor-neutralPrimary--hover"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "customRowAction": {
+                  "action": "defaultClick"
+                },
+                "attributes": {
+                  "class": "ms-fontColor-neutralSecondaryAlt ms-fontColor-neutralPrimary--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "margin-right": "10px"
+                    },
+                    "attributes": {
+                      "iconName": "Comment"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount]) "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
