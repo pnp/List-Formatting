@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pnp-list-formatting-ribbon-header",
+    "reponame": "ribbon-header",
+    "source": "pnp",
+    "title": "Ribbon Header",
+    "shortDescription": "This sample demonstrates displaying a ribbon in the header.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/ribbon-header",
+    "longDescription": [
+      "This sample demonstrates displaying a ribbon in the header."
+    ],
+    "creationDateTime": "2022-02-08T00:00:00.000Z",
+    "updateDateTime": "2022-02-08T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "List Formatting"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Form"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/ribbon-header/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Configure the list form",
+        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+      },
+      {
+        "name": "Show or hide columns in a list or library form",
+        "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn't affect the column or the data in the column, as it would if you delete it.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
+      }
+    ]
+  }
+]
