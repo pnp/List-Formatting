@@ -6,7 +6,7 @@ The following sample provide a format that display content based on expand/colla
 ![Expand collapse format](./assets/ExpandCollapse.gif)
 
 ## View requirements
-- This format can be applied to any column type though the example is based on - 
+- This format can be applied to any column type though the example is based on a single line of text field.
 
 Column Name|Type
 --------|---------
@@ -17,7 +17,7 @@ Expand | Yes/No - default value **"No"**
 
 Solution|Author(s)
 --------|---------
-expand-collapse-format.json | [André Lage](https://twitter.com/aaclage)
+expand-collapse-format.json | [Andrï¿½ Lage](https://twitter.com/aaclage)
 
 ## Version history
 
