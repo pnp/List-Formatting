@@ -1,0 +1,247 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideFooter": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "float": "left",
+      "position": "relative",
+      "box-shadow": "0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)",
+      "margin": "10px",
+      "width": "300px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontSize-16 ms-bgColor-themeTertiary ms-fontColor-white ms-fontWeight-semibold"
+            },
+            "style": {
+              "width": "300px",
+              "padding": "15px 0px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "0px 15px"
+                },
+                "txtContent": "[$Title]",
+                "inlineEditField": "[$Title]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontSize-14"
+            },
+            "style": {
+              "justify-content": "left",
+              "padding": "10px",
+              "align-items": "baseline",
+              "max-width": "300px",
+              "height": "30px",
+              "max-height": "30px"
+            },
+            "txtContent": "[$Chat]",
+            "inlineEditField": "[$Chat]"
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "class": "ms-fontSize-20  ms-fontColor-themePrimary",
+                      "iconName": "Feedback"
+                    },
+                    "style": {
+                      "padding": "0px 15px"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-24  ms-fontColor-themePrimary"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "Group chat users:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$PersonChat]",
+            "style": {
+              "max-width": "235px",
+              "height": "80px",
+              "overflow": "hidden",
+              "display": "inline-block",
+              "float": "left"
+            },
+            "children": [
+              {
+
+                "forEach": "personIterator in [$PersonChat]",
+                "elmType": "div",
+                "style": {
+                  "display": "=if(length([$PersonChat])>2 && loopIndex('personIterator')>=2, 'none', 'inline-block')",
+                  "padding": "10px",
+                  "text-align": "center",
+                  "width": "58px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "38px",
+                          "border-radius": "50%"
+                        },
+                        "defaultHoverField": "[$personIterator]",
+                        "attributes": {
+                          "src": "=getUserImage('[$personIterator.email]','small')"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "text-overflow": "ellipsis",
+                          "overflow": "hidden",
+                          "white-space": "nowrap"
+                        },
+                        "txtContent": "[$personIterator.title]"
+                      }
+                    ]
+                  }
+                ]
+
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(length([$PersonChat])>3,'inline-block','none')",
+              "width": "60px",
+              "padding-top": "10px",
+              "float": "left",
+              "text-align": "center",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "class": "ms-fontSize-32 ms-fontWeight-semibold ms-fontColor-themePrimary"
+            },
+            "txtContent": "='+'+(length([$PersonChat])-2)",
+            "customCardProps": {
+              "openOnEvent": "click",
+              "formatter": {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "personIterator in [$PersonChat]",
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px",
+                      "text-align": "center"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "defaultHoverField": "[$personIterator]",
+                        "children": [
+                          {
+                            "elmType": "img",
+                            "style": {
+                              "width": "38px",
+                              "border-radius": "50%"
+                            },
+                            "attributes": {
+                              "src": "=getUserImage('[$personIterator.email]','small')"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                            },
+                            "txtContent": "[$personIterator.title]"
+                          }
+                        ]
+                      }
+                    ]
+
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "='https://teams.microsoft.com/l/chat/0/0?users='+if(length([$PersonChat.sip])>1,replace([$PersonChat.sip],';',',') ,replace([$PersonChat.email],';',','))+'&message='+[$Chat]+if(length([$PersonChat]) > 2,'&topicName='+[$Title],'')",
+              "target": "_blank"
+            },
+            "style": {
+              "display": "inline-block",
+              "width": "300px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-bgColor-themePrimary ms-fontColor-white ms-bgColor-themeTertiary--hover"
+                },
+                "style": {
+                  "border": "none",
+                  "padding": "15px 0px",
+                  "text-align": "center",
+                  "text-decoration": "none",
+                  "display": "inline-block",
+                  "font-size": "16px",
+                  "cursor": "pointer",
+                  "width": "300px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "OfficeChat",
+                      "class": "ms-fontSize-24"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "Go to chat"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
