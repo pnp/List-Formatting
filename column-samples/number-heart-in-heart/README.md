@@ -3,8 +3,8 @@
 ## Summary
 This sample demonstrates how to change the size of a heart by using the percent value of a numeric column.
 
-- `number-heart-in-heart-site-theme-color` uses the theme color of the site as the color of the heart.
-- `number-heart-in-heart-custom-color` uses the HTML color code as the the color of the heart, and in the sample, `#FF0000` is set.
+- `number-heart-in-heart-site-theme-color.json` uses the theme color of the site as the color of the heart.
+- `number-heart-in-heart-custom-color.json` uses the HTML color code as the the color of the heart, and in the sample, `#FF0000` is set.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
