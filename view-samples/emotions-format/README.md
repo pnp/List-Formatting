@@ -48,4 +48,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/emotions-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/emotions-format" />
