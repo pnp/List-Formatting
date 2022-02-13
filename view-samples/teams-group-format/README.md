@@ -20,7 +20,7 @@ PersonChat | Person - check to yes, Allow multiple selections
 
 Solution|Author(s)
 --------|---------
-teams-group-format.json | [André Lage](https://twitter.com/aaclage)
+teams-group-format.json | [Andrï¿½ Lage](https://twitter.com/aaclage)
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/teams-group-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/teams-group-format" />
