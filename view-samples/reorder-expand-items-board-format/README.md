@@ -1,7 +1,7 @@
 # reorder expand items board format
 
 ## Summary
-This sample allow users to manage cards order in Board Views and also allow to expand and collapse images based on url or iconName option.
+This sample allow users to manage cards order in Board Views and also allow to expand and collapse images based on url option.
 This sample has option "**Move to Top**" that allows to manage cards to top of board view as way to rearrange card positions.
 
 ![reorder expand items board format](./assets/BoardReorderExpand.gif)
@@ -14,7 +14,7 @@ Field |Type
 Title | Single line of text 
 Category | Choice - Include the following options **"Started,Pending,Completed"**
 Order | Single line of text   - Manage the order of cards
-Image | Single line of text   - This field allow to include url to image or add iconName.
+Image | Single line of text   - This field allow to include url to image.
 Expand | Yes/No - default value **"No"**
 
 ### Create Board View
