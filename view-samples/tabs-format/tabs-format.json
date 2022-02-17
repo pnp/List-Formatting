@@ -1,6 +1,6 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-    "hideColumnHeader": false,
+    "hideColumnHeader": true,
     "hideSelection": true,
     "rowFormatter": {
       "elmType": "div",
