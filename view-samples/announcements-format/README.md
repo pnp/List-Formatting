@@ -20,7 +20,7 @@ On Microsoft Lists will also show a image that you can connect with the Announce
 | Title               | Single Line Text                       | Title                |
 | Description         | Single Line Text                       | Description          |
 | TypeAnn             | Choice (Error, Success, Info, Warning) | TypeAnn              |
-| RemovedDate         | Date and Time                          | RemovedDate          |
+| RemoveDate         | Date and Time                          | RemoveDate          |
 | (optional) ImgHover | Picture                                | ImgHover             |
 
 ## Sample
