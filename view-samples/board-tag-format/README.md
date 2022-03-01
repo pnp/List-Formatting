@@ -1,7 +1,7 @@
 # Board tag format
 
 ## Summary
-This sample display formated card in board that allow tag definition, date of card and menu option to define card position in category . 
+This sample display formatted card in board that allow tag definition, date of card and menu option to define card position in category. 
 
 ![Board tag format](./assets/Board-Card-Tag-formating.gif)
 
