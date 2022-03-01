@@ -1,0 +1,308 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/board-formatting.schema.json",
+    "hideSelection": true,
+    "formatter": {
+      "elmType": "div",
+      "attributes": {
+        "class": "sp-card-container sp-card-container-noPadding"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "height": "120px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "relative"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin-top": "0px",
+                    "height": "30px",
+                    "width": "30px",
+                    "font-size": "15px",
+                    "border-radius": "50%",
+                    "position": "relative"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-themePrimary"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "padding": "7px"
+                      },
+                      "attributes": {
+                        "iconName": "=if([$Category] == 'Completed', 'accept', if([$Category] == 'Cancel', 'cancel', if([$Category] == 'Pending','HourGlass',if([$Category] == 'Started','InsertSignatureLine',''))))",
+                        "class": "=if([$Category] == 'Completed', 'ms-fontColor-white', if([$Category] == 'Cancel', 'ms-fontColor-white', if([$Category] == 'Pending', 'ms-fontColor-white', if([$Category] == 'Started', 'ms-fontColor-white', 'ms-fontColor-themePrimary'))))"
+                      },
+                      "customCardProps": {
+                        "openOnEvent": "click",
+                        "directionalHint": "topCenter",
+                        "isBeakVisible": true,
+                        "formatter": {
+                          "elmType": "div",
+                          "style": {
+                            "padding": "5px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "5px 10px",
+                                "cursor": "pointer"
+                              },
+                              "attributes": {
+                                "iconName": "InsertSignatureLine"
+                              },
+                              "customRowAction": {
+                                "action": "setValue",
+                                "actionInput": {
+                                  "Category": "Started"
+                                }
+                              }
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "5px 10px",
+                                "cursor": "pointer"
+                              },
+                              "attributes": {
+                                "iconName": "HourGlass"
+                              },
+                              "customRowAction": {
+                                "action": "setValue",
+                                "actionInput": {
+                                  "Category": "Pending"
+                                }
+                              }
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "5px 10px",
+                                "cursor": "pointer"
+                              },
+                              "attributes": {
+                                "iconName": "accept"
+                              },
+                              "customRowAction": {
+                                "action": "setValue",
+                                "actionInput": {
+                                  "Category": "Completed"
+                                }
+                              }
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "5px 10px",
+                                "cursor": "pointer"
+                              },
+                              "attributes": {
+                                "iconName": "cancel"
+                              },
+                              "customRowAction": {
+                                "action": "setValue",
+                                "actionInput": {
+                                  "Category": "Cancel"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "margin": "0 0 0px 14px",
+                    "padding-top": "10px",
+                    "border-radius": "25px",
+                    "height": "95px",
+                    "width": "2px",
+                    "background-color": "#666"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "padding-left": "10px",
+                "width": "240px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "box-shadow": "rgba(149, 157, 165, 0.2) 0px 8px 24px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "padding": "10px 10px 0px 10px",
+                        "border-bottom": "2px solid #eee"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-white"
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "width": "100%",
+                            "line-height": "30px"
+                          },
+                          "attributes": {
+                            "class": "ms-fontWeight-bold"
+                          },
+                          "txtContent": "[$Title]"
+                        },
+                        {
+                          "elmType": "div",
+                          "inlineEditField": "[$Tag]",
+                          "children": [
+                            {
+                              "columnFormatterReference": "[$Tag]"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "font-size": "12px",
+                        "padding": "5px 10px 10px 10px",
+                        "max-height": "65px"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-white"
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "max-width": "160px",
+                            "text-overflow": "ellipsis",
+                            "overflow": "hidden",
+                            "text-decoration": "=if([$Category] == 'Cancel','line-through','')"
+                          },
+                          "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 96, substring([$Description], 0, 96)+'...',[$Description]) ",
+                          "customCardProps": {
+                            "openOnEvent": "click",
+                            "directionalHint": "topCenter",
+                            "formatter": {
+                              "elmType": "div",
+                              "style": {
+                                "max-width": "300px"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "padding": "10px"
+                                  },
+                                  "txtContent": "[$Description]"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "padding": "0px 5px 0px 10px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "position": "relative",
+                                "width": "50px",
+                                "height": "50px",
+                                "float": "left"
+                              },
+                              "inlineEditField": "[$Date]",
+                              "attributes": {
+                                "class": ""
+                              },
+                              "children": [
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "position": "absolute",
+                                    "top": "2px",
+                                    "left": "0",
+                                    "width": "32px",
+                                    "height": "24px"
+                                  },
+                                  "txtContent": "=if(getMonth([$Date])==0, 'Jan', if(getMonth([$Date])==1, 'Feb', if(getMonth([$Date])==2, 'Mar', if(getMonth([$Date])==3, 'Apr',  if(getMonth([$Date])==4, 'May', if(getMonth([$Date])==5, 'Jun', if(getMonth([$Date])==6 , 'Jul', if(getMonth([$Date])==7, 'Aug', if(getMonth([$Date])==8 , 'Sep', if(getMonth([$Date])==9, 'Oct', if(getMonth([$Date])==10, 'Nov', if(getMonth([$Date])==11, 'Dec', ''))))))))))))",
+                                  "attributes": {
+                                    "class": "ms-fontWeight-bold ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover"
+                                  }
+                                },
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "position": "absolute",
+                                    "display": "flex",
+                                    "justify-content": "center",
+                                    "align-items": "center",
+                                    "top": "25px",
+                                    "left": "0",
+                                    "width": "32px",
+                                    "height": "25px",
+                                    "border": "1px"
+                                  },
+                                  "txtContent": "=getDate([$Date])",
+                                  "attributes": {
+                                    "class": "ms-fontWeight-bold ms-fontSize-20 ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover"
+                                  }
+                                },
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "position": "absolute",
+                                    "top": "0",
+                                    "left": "35px",
+                                    "width": "10px",
+                                    "height": "48px",
+                                    "border": "1px",
+                                    "word-wrap": "break-word"
+                                  },
+                                  "txtContent": "=getYear([$Date])",
+                                  "attributes": {
+                                    "class": "ms-fontWeight-bold ms-fontSize-10 ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
