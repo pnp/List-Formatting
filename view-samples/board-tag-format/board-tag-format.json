@@ -40,8 +40,8 @@
                       "padding": "7px"
                     },
                     "attributes": {
-                      "iconName": "=if([$Category] == 'Completed ✔️', 'accept', if([$Category] == 'Cancel', 'cancel', if([$Category] == 'Pending','HourGlass',if([$Category] == 'Started','InsertSignatureLine',''))))",
-                      "class": "=if([$Category] == 'Completed ✔️', 'ms-fontColor-white', if([$Category] == 'Cancel', 'ms-fontColor-white', if([$Category] == 'Pending', 'ms-fontColor-white', if([$Category] == 'Started', 'ms-fontColor-white', 'ms-fontColor-themePrimary'))))"
+                      "iconName": "=if([$Category] == 'Completed ✔️', 'accept', if([$Category] == 'Cancel', 'cancel', if([$Category] == 'Pending','HourGlass',if([$Category] == 'Started','InsertSignatureLine','More'))))",
+                      "class": "=if([$Category] == 'Completed ✔️', 'ms-fontColor-white', if([$Category] == 'Cancel', 'ms-fontColor-white', if([$Category] == 'Pending', 'ms-fontColor-white', if([$Category] == 'Started', 'ms-fontColor-white', 'ms-fontColor-white'))))"
                     },
                     "customCardProps": {
                       "openOnEvent": "click",
