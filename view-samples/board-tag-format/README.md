@@ -15,9 +15,9 @@ Description | Multiple lines of text.
 Category | Choice - include following values **(Started,Pending,Completed ✔️,Cancel)**.
 Date | Date and time - Date of task.
 Tag | Choice - include tag names and define format for each choice.
-Flag | True/False - include flag and change backgound color of card.
+Flag | True/False - include flag and change backgound color of card (Default value **False**).
 Assigned | Person - Assigned user associated to task.
-Expand | True/False - Minimize or expand Card.
+Expand | True/False - Minimize or expand Card (Default value **False**).
 
 ## Sample
 
