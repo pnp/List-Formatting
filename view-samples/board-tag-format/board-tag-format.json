@@ -11,7 +11,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "height": "120px"
+          "height": "=if(length([$Assignee]) == 0,'120px','155px')"
         },
         "children": [
           {
@@ -79,6 +79,18 @@
                               "actionInput": {
                                 "Flag": "=if([$Flag] == true,0,1)"
                               }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "block",
+                              "padding": "5px 10px",
+                              "cursor": "pointer"
+                            },
+                            "txtContent": "Edit properties",
+                            "customRowAction": {
+                              "action": "editProps"
                             }
                           },
                           {
@@ -249,7 +261,7 @@
                   "margin": "0 0 0px 14px",
                   "padding-top": "10px",
                   "border-radius": "25px",
-                  "height": "95px",
+                  "height": "=if(length([$Assignee]) == 0,'95px','130px')",
                   "width": "2px",
                   "background-color": "#666"
                 }
@@ -285,9 +297,13 @@
                         "elmType": "div",
                         "style": {
                           "width": "100%",
-                          "line-height": "30px"
+                          "line-height": "30px",
+                          "white-space": "nowrap",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis"
                         },
                         "attributes": {
+                          "title": "[$Title]",
                           "class": "ms-fontWeight-bold"
                         },
                         "txtContent": "[$Title]"
@@ -326,7 +342,7 @@
                     "style": {
                       "display": "flex",
                       "font-size": "12px",
-                      "padding": "5px 10px 10px 10px",
+                      "padding": "5px 10px 5px 10px",
                       "max-height": "65px",
                       "background-color": "=if([$Flag]== true, '#f8d7da', 'White')"
                     },
@@ -366,7 +382,7 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "padding": "0px 5px 0px 10px"
+                          "padding": "0px 5px 5px 10px"
                         },
                         "children": [
                           {
@@ -431,6 +447,114 @@
                                 }
                               }
                             ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-left": "10px",
+                      "display": "=if(length([$Assignee]) == 0, 'none', '')",
+                      "background-color": "=if([$Flag]== true, '#f8d7da', 'White')"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex"
+                        },
+                        "inlineEditField": "[$Assignee]",
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "attributes": {
+                              "class": "ms-fontWeight-bold"
+                            },
+                            "txtContent": "Assignee:"
+                          },
+                          {
+                            "forEach": "personIterator in [$Assignee]",
+                            "elmType": "a",
+                            "attributes": {
+                              "class": "=if(loopIndex('personIterator') >= 5, 'sp-card-userContainer', 'sp-card-userContainer sp-card-keyboard-focusable')"
+                            },
+                            "style": {
+                              "display": "=if(loopIndex('personIterator') >= 5, 'none', '')"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "defaultHoverField": "[$personIterator]",
+                                "attributes": {
+                                  "src": "=getUserImage([$personIterator.email], 'S')",
+                                  "title": "[$personIterator.title]",
+                                  "class": "sp-card-userThumbnail"
+                                },
+                                "style": {
+                                  "display": "=if(length([$Assignee]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary sp-card-userOthers"
+                                },
+                                "style": {
+                                  "display": "=if(length([$Assignee]) > 5 && loopIndex('personIterator') == 4, '', 'none')"
+                                },
+                                "customCardProps": {
+                                  "formatter": {
+                                    "elmType": "div",
+                                    "attributes": {
+                                      "class": "sp-card-personCallout"
+                                    },
+                                    "children": [
+                                      {
+                                        "forEach": "personIterator in [$Assignee]",
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "sp-card-userContainer sp-card-userCustomCard"
+                                        },
+                                        "style": {
+                                          "display": "=if(loopIndex('personIterator') < 4, 'none', '')"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "img",
+                                            "defaultHoverField": "[$personIterator]",
+                                            "attributes": {
+                                              "src": "=getUserImage([$personIterator.email], 'S')",
+                                              "title": "[$personIterator.title]",
+                                              "class": "sp-card-userThumbnail"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "openOnEvent": "hover"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "span",
+                                    "txtContent": "='+' + toString(length([$Assignee]) - (4))"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "attributes": {
+                              "class": "sp-card-userTitle"
+                            },
+                            "style": {
+                              "display": "=if(length([$Assignee]) == 1, '', 'none')"
+                            },
+                            "defaultHoverField": "[$personIterator]",
+                            "txtContent": "[$Assignee.title]"
                           }
                         ]
                       }
