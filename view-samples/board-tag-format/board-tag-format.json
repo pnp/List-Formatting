@@ -276,7 +276,7 @@
                   "margin": "0 0 0px 14px",
                   "padding-top": "10px",
                   "border-radius": "25px",
-                  "height": "=if([$Expand]==true,'40px',if(length([$Assignee]) == 0,'95px','130px'))",
+                  "height": "=if([$Expand]==true,'40px',if(length([$Assigned]) == 0,'95px','130px'))",
                   "width": "2px",
                   "background-color": "#666"
                 }
