@@ -11,7 +11,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "height": "=if([$Expand]== false, if(length([$Assigned]) == 0,'120px','155px'), '60px')"
+          "height": "=if([$Expand]== false, '155px', '60px')"
         },
         "children": [
           {
@@ -276,7 +276,7 @@
                   "margin": "0 0 0px 14px",
                   "padding-top": "10px",
                   "border-radius": "25px",
-                  "height": "=if([$Expand]==true,'40px',if(length([$Assigned]) == 0,'95px','130px'))",
+                  "height": "=if([$Expand]==true,'40px','130px')",
                   "width": "2px",
                   "background-color": "#666"
                 }
@@ -433,6 +433,32 @@
                               {
                                 "elmType": "div",
                                 "style": {
+                                  "display": "=if(length([$Date])==1,'none','inline-block')"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "width": "60px",
+                                      "font-size": "10px"
+                                    },
+                                    "txtContent": "Select Date"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "5px 5px 5px 10px",
+                                      "font-size": "30px"
+                                    },
+                                    "attributes": {
+                                      "iconName": "Clock"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
                                   "position": "absolute",
                                   "top": "2px",
                                   "left": "0",
@@ -487,8 +513,8 @@
                   {
                     "elmType": "div",
                     "style": {
+                      "display": "=if([$Expand]==false,'','none')",
                       "padding-left": "10px",
-                      "display": "=if(length([$Assigned]) == 0 || [$Expand]==true, 'none', '')",
                       "background-color": "=if([$Flag]== true, '#f8d7da', 'White')"
                     },
                     "children": [
@@ -507,13 +533,24 @@
                             "txtContent": "Assigned:"
                           },
                           {
+                            "elmType": "div",
+                            "style": {
+                              "display": "=if(length([$Assigned]) == 0,'','none')",
+                              "font-size": "30px",
+                              "padding": "5px"
+                            },
+                            "attributes": {
+                              "iconName": "AddFriend"
+                            }
+                          },
+                          {
                             "forEach": "personIterator in [$Assigned]",
                             "elmType": "a",
                             "attributes": {
                               "class": "=if(loopIndex('personIterator') >= 5, 'sp-card-userContainer', 'sp-card-userContainer sp-card-keyboard-focusable')"
                             },
                             "style": {
-                              "display": "=if(loopIndex('personIterator') >= 5, 'none', '')"
+                              "display": "=if(loopIndex('personIterator') >= 5 || length([$Assigned]) == 0 , 'none', '')"
                             },
                             "children": [
                               {
