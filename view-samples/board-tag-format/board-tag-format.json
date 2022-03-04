@@ -100,6 +100,18 @@
                               "padding": "5px 10px",
                               "cursor": "pointer"
                             },
+                            "txtContent": "Delete",
+                            "customRowAction": {
+                              "action": "delete"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "block",
+                              "padding": "5px 10px",
+                              "cursor": "pointer"
+                            },
                             "customRowAction": {
                               "action": "share"
                             },
