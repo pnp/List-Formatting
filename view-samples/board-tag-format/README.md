@@ -16,7 +16,7 @@ Category | Choice - include following values **(Started,Pending,Completed ✔️
 Date | Date and time - Date of task.
 Tag | Choice - include tag names and define format for each choice.
 Flag | True/False - include flag and change backgound color of card.
-Assignee | Person - Assigned user associated to task.
+Assigned | Person - Assigned user associated to task.
 
 ## Sample
 

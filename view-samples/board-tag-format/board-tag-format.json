@@ -11,7 +11,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "height": "=if(length([$Assignee]) == 0,'120px','155px')"
+          "height": "=if(length([$Assigned]) == 0,'120px','155px')"
         },
         "children": [
           {
@@ -261,7 +261,7 @@
                   "margin": "0 0 0px 14px",
                   "padding-top": "10px",
                   "border-radius": "25px",
-                  "height": "=if(length([$Assignee]) == 0,'95px','130px')",
+                  "height": "=if(length([$Assigned]) == 0,'95px','130px')",
                   "width": "2px",
                   "background-color": "#666"
                 }
@@ -456,7 +456,7 @@
                     "elmType": "div",
                     "style": {
                       "padding-left": "10px",
-                      "display": "=if(length([$Assignee]) == 0, 'none', '')",
+                      "display": "=if(length([$Assigned]) == 0, 'none', '')",
                       "background-color": "=if([$Flag]== true, '#f8d7da', 'White')"
                     },
                     "children": [
@@ -465,17 +465,17 @@
                         "style": {
                           "display": "flex"
                         },
-                        "inlineEditField": "[$Assignee]",
+                        "inlineEditField": "[$Assigned]",
                         "children": [
                           {
                             "elmType": "div",
                             "attributes": {
                               "class": "ms-fontWeight-bold"
                             },
-                            "txtContent": "Assignee:"
+                            "txtContent": "Assigned:"
                           },
                           {
-                            "forEach": "personIterator in [$Assignee]",
+                            "forEach": "personIterator in [$Assigned]",
                             "elmType": "a",
                             "attributes": {
                               "class": "=if(loopIndex('personIterator') >= 5, 'sp-card-userContainer', 'sp-card-userContainer sp-card-keyboard-focusable')"
@@ -493,7 +493,7 @@
                                   "class": "sp-card-userThumbnail"
                                 },
                                 "style": {
-                                  "display": "=if(length([$Assignee]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
+                                  "display": "=if(length([$Assigned]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
                                 }
                               },
                               {
@@ -502,7 +502,7 @@
                                   "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary sp-card-userOthers"
                                 },
                                 "style": {
-                                  "display": "=if(length([$Assignee]) > 5 && loopIndex('personIterator') == 4, '', 'none')"
+                                  "display": "=if(length([$Assigned]) > 5 && loopIndex('personIterator') == 4, '', 'none')"
                                 },
                                 "customCardProps": {
                                   "formatter": {
@@ -512,7 +512,7 @@
                                     },
                                     "children": [
                                       {
-                                        "forEach": "personIterator in [$Assignee]",
+                                        "forEach": "personIterator in [$Assigned]",
                                         "elmType": "div",
                                         "attributes": {
                                           "class": "sp-card-userContainer sp-card-userCustomCard"
@@ -539,7 +539,7 @@
                                 "children": [
                                   {
                                     "elmType": "span",
-                                    "txtContent": "='+' + toString(length([$Assignee]) - (4))"
+                                    "txtContent": "='+' + toString(length([$Assigned]) - (4))"
                                   }
                                 ]
                               }
@@ -551,10 +551,10 @@
                               "class": "sp-card-userTitle"
                             },
                             "style": {
-                              "display": "=if(length([$Assignee]) == 1, '', 'none')"
+                              "display": "=if(length([$Assigned]) == 1, '', 'none')"
                             },
                             "defaultHoverField": "[$personIterator]",
-                            "txtContent": "[$Assignee.title]"
+                            "txtContent": "[$Assigned.title]"
                           }
                         ]
                       }
