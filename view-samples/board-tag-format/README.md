@@ -1,7 +1,7 @@
 # Board tag format
 
 ## Summary
-This sample display formatted card in board that allow tag definition, date of card and menu option to define card position in category, share link and include Flag for focus color on card and associate assigned user. 
+This sample display formatted card in board that allow tag definition, date of card and menu option to define card position in category, share link and include Flag for focus color on card, associate assigned user and minimize/expand Card. 
 
 ![Board tag format](./assets/Board-Card-Tag-formating.gif)
 
@@ -17,6 +17,7 @@ Date | Date and time - Date of task.
 Tag | Choice - include tag names and define format for each choice.
 Flag | True/False - include flag and change backgound color of card.
 Assigned | Person - Assigned user associated to task.
+Expand | True/False - Minimize or expand Card.
 
 ## Sample
 

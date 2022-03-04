@@ -11,7 +11,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "height": "=if(length([$Assigned]) == 0,'120px','155px')"
+          "height": "=if([$Expand]== false, if(length([$Assigned]) == 0,'120px','155px'), '60px')"
         },
         "children": [
           {
@@ -104,6 +104,21 @@
                               "action": "share"
                             },
                             "txtContent": "Copy link"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "block",
+                              "padding": "5px 10px",
+                              "cursor": "pointer"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Expand": "=if([$Expand]==false,1,0)"
+                              }
+                            },
+                            "txtContent": "=if([$Expand]==false,'Minimize Card','Maximize Card')"
                           },
                           {
                             "elmType": "div",
@@ -340,7 +355,24 @@
                   {
                     "elmType": "div",
                     "style": {
-                      "display": "flex",
+                      "display": "=if([$Expand] == false,'none','flex')",
+                      "background-color": "=if([$Flag]== true, '#f8d7da', 'White')",
+                      "padding": "5px "
+                    },
+                    "attributes": {
+                      "iconName": "=if([$Expand]==true,'CirclePlus','')"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Expand": "=if([$Expand] == false,1,0)"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if([$Expand] == false,'flex','none')",
                       "font-size": "12px",
                       "padding": "5px 10px 5px 10px",
                       "max-height": "65px",
@@ -361,7 +393,7 @@
                         "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 96, substring([$Description], 0, 96)+'...',[$Description]) ",
                         "customCardProps": {
                           "openOnEvent": "click",
-                          "directionalHint": "topCenter",
+                          "directionalHint": "bottomCenter",
                           "formatter": {
                             "elmType": "div",
                             "style": {
@@ -456,7 +488,7 @@
                     "elmType": "div",
                     "style": {
                       "padding-left": "10px",
-                      "display": "=if(length([$Assigned]) == 0, 'none', '')",
+                      "display": "=if(length([$Assigned]) == 0 || [$Expand]==true, 'none', '')",
                       "background-color": "=if([$Flag]== true, '#f8d7da', 'White')"
                     },
                     "children": [
