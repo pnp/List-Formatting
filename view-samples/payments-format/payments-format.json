@@ -1,0 +1,589 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideFooter": true,
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "padding": "5px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "baseline",
+          "justify-content": "center",
+          "border": "1px solid #ccc",
+          "box-shadow": "0 0 5px #ccc",
+          "border-radius": "25px",
+          "padding": "10px"
+        },
+        "attributes": {
+          "class": "ms-bgColor-gray10--hover"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "15px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px",
+                  "border-radius": "50%",
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center"
+                },
+                "inlineEditField": "[$Category]",
+                "attributes": {
+                  "iconName": "[$Category]",
+                  "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-32 '"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "cursor": "pointer"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "500px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "width": "300px",
+                          "white-space": "nowrap",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-24 ms-fontColor-gray90",
+                          "title": "[$Title]"
+                        },
+                        "txtContent": "[$Title]",
+                        "customCardProps": {
+                          "formatter": {
+                            "elmType": "div",
+                            "style": {
+                              "width": "520px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "width": "500px"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "10px",
+                                      "width": "100%",
+                                      "white-space": "nowrap",
+                                      "overflow": "hidden",
+                                      "text-overflow": "ellipsis"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-semibold",
+                                          "title": "[$Title]"
+                                        },
+                                        "txtContent": "[$Title]"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "inline-block",
+                                          "width": "50%"
+                                        },
+                                        "txtContent": "Amount",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "display": "inline-block",
+                                          "text-align": "right"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                        },
+                                        "inlineEditField": "[$Payment]",
+                                        "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "inline-block",
+                                          "width": "50%"
+                                        },
+                                        "inlineEditField": "[$OtherCostDescription]",
+                                        "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
+                                        "attributes": {
+                                          "class": "ms-fontSize-20 ms-fontColor-gray90"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "display": "inline-block",
+                                          "text-align": "right"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                        },
+                                        "inlineEditField": "[$OtherCosts]",
+                                        "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding-top": "10px",
+                                          "padding-bottom": "10px",
+                                          "border-top": "1px solid #ccc"
+                                        },
+                                        "attributes": {
+                                          "class": ""
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "display": "inline-block",
+                                              "width": "50%"
+                                            },
+                                            "txtContent": "Total",
+                                            "attributes": {
+                                              "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-semibold"
+                                            }
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "width": "50%",
+                                              "cursor": "pointer",
+                                              "display": "inline-block",
+                                              "text-align": "right"
+                                            },
+                                            "attributes": {
+                                              "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold '"
+                                            },
+                                            "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "forEach": "personIterator in [$Editor]",
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "txtContent": "= 'Last Modified ' + toLocaleDateString([$Modified]) + ' by ' + [$personIterator.title]",
+                                            "attributes": {
+                                              "class": "ms-fontSize-12 ms-fontColor-gray100"
+                                            },
+                                            "style": {
+                                              "padding": "0px 10px 10px 5px",
+                                              "margin-left": "5px",
+                                              "display": "inline-block"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "openOnEvent": "click",
+                          "directionalHint": "topCenter",
+                          "isBeakVisible": true
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "text-align": "right",
+                          "width": "200px"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "padding-top": "15px"
+                                },
+                                "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))",
+                                "attributes": {
+                                  "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontColor-black ms-fontWeight-bold'"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "120px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontColor-black ms-fontWeight-semibold"
+                    },
+                    "inlineEditField": "[$PaymentDay]",
+                    "txtContent": "=if((getMonth(Date([$PaymentDay]))+1)==1,'JAN',if((getMonth(Date([$PaymentDay]))+1)==2,'FEV',if((getMonth(Date([$PaymentDay]))+1)==3,'MAR',if((getMonth(Date([$PaymentDay]))+1)==4,'ABR',if((getMonth(Date([$PaymentDay]))+1)==5,'MAY',if((getMonth(Date([$PaymentDay]))+1)==6,'JUN',if((getMonth(Date([$PaymentDay]))+1)==7,'JUL',if((getMonth(Date([$PaymentDay]))+1)==8,'AUG',if((getMonth(Date([$PaymentDay]))+1)==9,'SEP',if((getMonth(Date([$PaymentDay]))+1)==10,'OCT',if((getMonth(Date([$PaymentDay]))+1)==11,'NOV',if((getMonth(Date([$PaymentDay]))+1)==12,'DEC',''))))))))))))+' '+getDate(Date([$PaymentDay]))+ ', '+getYear(Date([$PaymentDay]))"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-top": "10px",
+                      "display": "=if([$Expand]==false,'none','block')",
+                      "border-radius": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "width": "50%"
+                        },
+                        "txtContent": "Amount",
+                        "attributes": {
+                          "class": "ms-fontSize-24 ms-fontColor-gray90"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "50%",
+                          "cursor": "pointer",
+                          "font-style": "italic",
+                          "display": "inline-block",
+                          "text-align": "right"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
+                        },
+                        "inlineEditField": "[$Payment]",
+                        "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-top": "10px",
+                      "display": "=if([$Expand]==false,'none','block')"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "width": "50%"
+                        },
+                        "inlineEditField": "[$OtherCostDescription]",
+                        "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
+                        "attributes": {
+                          "class": "ms-fontSize-20 ms-fontColor-gray90"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "50%",
+                          "cursor": "pointer",
+                          "font-style": "italic",
+                          "display": "inline-block",
+                          "text-align": "right"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
+                        },
+                        "inlineEditField": "[$OtherCosts]",
+                        "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "display": "=if([$Expand]==false,'none','block')",
+                      "border-top": "1px solid #ccc"
+                    },
+                    "attributes": {},
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "width": "50%"
+                        },
+                        "txtContent": "Total",
+                        "attributes": {
+                          "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-bold"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "50%",
+                          "cursor": "pointer",
+                          "display": "=if([$Expand]==false,'none','inline-block')",
+                          "text-align": "right"
+                        },
+                        "attributes": {
+                          "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold'"
+                        },
+                        "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "15px",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "iconName": "=if([$Expand]==true, 'Blocked2','CirclePlus')",
+              "class": "ms-fontSize-18 ms-fontColor-black ms-fontWeight-bold"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Expand": "=if([$Expand]==true, 0,1)"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "relative",
+              "width": "150px"
+            },
+            "attributes": {},
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "200px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "10px",
+                          "display": "inline",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-32",
+                          "title": "=if([$Paid]==true, 'Paid','pending')"
+                        },
+                        "txtContent": "=if([$Paid]==true, '💸','⌛')",
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "Paid": "=if([$Paid]==true, 0,1)"
+                          }
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin-left": "10px",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "Edit",
+                          "class": "ms-fontColor-black ms-fontSize-24"
+                        },
+                        "customRowAction": {
+                          "action": "defaultClick"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin-left": "20px",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "Delete",
+                          "class": "ms-fontColor-black ms-fontSize-24"
+                        },
+                        "customRowAction": {
+                          "action": "delete"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontSize-16 ms-fontWeight-semibold"
+                    },
+                    "style": {
+                      "padding-left": "10px",
+                      "padding-top": "20px",
+                      "display": "=if([$Expand]== true,'block','none')"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "0px 5px 0px 0px"
+                        },
+                        "txtContent": "Tap to rate"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-top": "10px",
+                      "display": "=if([$Expand]== true,'block','none')"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-32"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "inlineEditField": "[$Rate]",
+                        "style": {
+                          "text-align": "center",
+                          "margin-left": "20px",
+                          "width": "50px",
+                          "height": "50px",
+                          "cursor": "pointer",
+                          "border-radius": "50%"
+                        },
+                        "attributes": {
+                          "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                        },
+                        "txtContent": "=if(length([$Rate])>0,[$Rate],0)"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if([$Expand]== true,if(length([$_CommentCount])>0,'inline-block','none'),'none')",
+                      "padding-top": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-24"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "inline-block",
+                          "border-radius": "10px",
+                          "margin": "10px",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "Chat",
+                          "class": "ms-fontSize-24 ms-fontWeight-semibold"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding-left": "10px",
+                          "display": "inline-block",
+                          "cursor": "pointer"
+                        },
+                        "txtContent": "[$_CommentCount]"
+                      }
+                    ],
+                    "customRowAction": {
+                      "action": "defaultClick"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
