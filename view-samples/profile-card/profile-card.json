@@ -64,7 +64,7 @@
               "max-width": "280px",
               "white-space": "nowrap"
             },
-            "txtContent": "[$Job_x0020_Title]"
+            "txtContent": "[$JobTitle]"
           }
         ]
       },

@@ -9,7 +9,7 @@ This is a simple user profile card built to provide a tile view with contact but
 
 |Type|Internal Name|Required|
 |---|---|:---:|
-|Single line of text|Job Title|No|
+|Single line of text|JobTitle|No|
 |Person|User|Yes|
 |Picture|Picture|No|
 |Hyperlink|LinkedIn|No|
