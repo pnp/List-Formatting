@@ -13,7 +13,7 @@
     "updateDateTime": "2022-03-05T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -37,7 +37,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "André Lage"
+        "name": "AndrÃ© Lage"
       }
     ],
     "references": [
