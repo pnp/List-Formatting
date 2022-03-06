@@ -14,7 +14,7 @@ Key points:
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
-|Approval|Calculated|Yes| Apply the template to this column
+|Calculated|Approval|Yes| Apply the template to this column
 |Choice|ApprovalStatus|No| Choice values needed: Pending / Approved / Rejected
 |Person or Group|ApprovalActionBy|No|Single selection
 
@@ -34,3 +34,5 @@ Version |Date          |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 ##
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-buttons-setValue-status-user" />
