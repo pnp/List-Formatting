@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "center",
+        "margin": "3px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "position": "relative",
+            "height": "60px",
+            "width": "100px",
+            "color": "#FF0000"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "height": "100%",
+                "width": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center"
+              },
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "fill-opacity": "10%",
+                    "height": "100%"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "height": "100%",
+                "width": "100%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center"
+              },
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "height": "=if(@currentField > 1 , '100%', if(@currentField < 0 , '0%' , @currentField.displayValue))"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "txtContent": "@currentField.displayValue",
+          "style": {
+            "font-size": "18px",
+            "font-weight": "bold"
+          }
+        }
+      ]
+    }
+  ]
+}
