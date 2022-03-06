@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "padding": "2px",
+        "border": "1px solid #ccc",
+        "border-radius": "30px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 0px",
+            "width": "70px",
+            "text-align": "center",
+            "background-color": "=if([$AzureOption] != true ,'#0078d4','transparent')",
+            "border-top": "=if([$AzureOption] != true ,'2px solid #0078d4','')",
+            "border-bottom": "=if([$AzureOption] != true ,'2px solid #0078d4','')",
+            "color": "=if([$AzureOption] != true ,'white','black')",
+            "border-radius": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-white "
+          },
+          "txtContent": "Off",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "AzureOption": "0"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "70px",
+            "text-align": "center",
+            "padding": "5px 0px",
+            "cursor": "pointer",
+            "background-color": "=if([$AzureOption] == true,'#0078d4','transparent')",
+            "color": "=if([$AzureOption] != true,'black','white')",
+            "border-top": "=if([$AzureOption] == true ,'2px solid #0078d4','')",
+            "border-bottom": "=if([$AzureOption] == true ,'2px solid #0078d4','')",
+            "border-radius": "30px"
+          },
+          "attributes": {
+            "class": ""
+          },
+          "txtContent": "On",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "AzureOption": "1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
