@@ -9,8 +9,8 @@
     "longDescription": [
       "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. "
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2018-09-09T00:00:00.000Z",
+    "updateDateTime": "2018-09-09T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Office"
