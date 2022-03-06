@@ -1,0 +1,167 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "white-space": "nowrap",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "height": "25px",
+            "white-space": "nowrap"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "stroke": "currentColor",
+                    "fill-opacity": "=if(@currentField >= 0.2 , '1' , (@currentField / 0.2) )",
+                    "height": "100%",
+                    "color": "#AA8ED6"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "stroke": "currentColor",
+                    "fill-opacity": "=if(@currentField >= 0.4 , '1' , if(@currentField > 0.2 , ((@currentField - 0.2) / 0.2) , '0')) ",
+                    "height": "100%",
+                    "color": "#5DADEC"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "stroke": "currentColor",
+                    "fill-opacity": "=if(@currentField >= 0.6 , '1' , if(@currentField > 0.4 , ((@currentField - 0.4) / 0.2) , '0')) ",
+                    "height": "100%",
+                    "color": "#78B159"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "stroke": "currentColor",
+                    "fill-opacity": "=if(@currentField >= 0.8 , '1' , if(@currentField > 0.6 , ((@currentField - 0.6) / 0.2) , '0')) ",
+                    "height": "100%",
+                    "color": "#FDCB58"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "stroke": "currentColor",
+                    "fill-opacity": "= ((@currentField - 0.8) / 0.2)",
+                    "height": "100%",
+                    "color": "#DD2E44"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 100 100"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-left": "12px",
+            "font-weight": "bold",
+            "font-size": "14px"
+          },
+          "txtContent": "@currentField.displayValue"
+        }
+      ]
+    }
+  ]
+}

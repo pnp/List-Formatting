@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-list-formatting-number-heart-shading",
+    "reponame": "number-heart-shading",
+    "source": "pnp",
+    "title": "Heart shading",
+    "shortDescription": "This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-heart-shading",
+    "longDescription": [
+      "This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG."
+    ],
+    "creationDateTime": "2022-02-13T00:00:00.000Z",
+    "updateDateTime": "2022-02-13T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/number-heart-shading/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
