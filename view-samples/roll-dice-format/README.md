@@ -1,4 +1,4 @@
-# Roll dice format 
+# Roll Dice format 
 
 ## Summary
 This sample format provides a simulation of game where random number (between 1 - 6) is generated and display in dice,value associated make progress bar advance with associated emoji untill value 0 is reach and winner emoji appear.
@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/roll-dice-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/roll-dice-format" />
