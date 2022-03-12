@@ -1,0 +1,176 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "5px 0px 20px 30px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "text-align": "center",
+            "font-size": "14px"
+          },
+          "txtContent": "@currentField",
+          "inlineEditField": "@currentField"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "height": "100px",
+            "width": "100px",
+            "border-left": "1px solid black",
+            "border-bottom": "1px solid black"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "relative"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "width": "10px",
+                    "top": "0px",
+                    "left": "-20px",
+                    "font-size": "12px"
+                  },
+                  "txtContent": "[!x.DisplayName]"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "width": "10px",
+                    "top": "25px",
+                    "left": "-6px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "width": "10px",
+                    "top": "50px",
+                    "left": "-6px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "width": "10px",
+                    "top": "75px",
+                    "left": "-6px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "height": "10px",
+                    "top": "95px",
+                    "left": "25px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "height": "10px",
+                    "top": "95px",
+                    "left": "50px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px solid black",
+                    "height": "10px",
+                    "top": "95px",
+                    "left": "75px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "height": "10px",
+                    "top": "105px",
+                    "left": "0px",
+                    "font-size": "12px"
+                  },
+                  "txtContent": "[!y.DisplayName]"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px dashed black",
+                    "width": "44px",
+                    "top": "50px",
+                    "left": "6px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "border": "1px dashed black",
+                    "height": "44px",
+                    "top": "50px",
+                    "left": "50px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "border-radius": "50%",
+                    "position": "absolute",
+                    "margin": "42px",
+                    "width": "16px",
+                    "height": "16px",
+                    "border": "1px solid black",
+                    "cursor": "pointer"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary"
+                  },
+                  "customCardProps": {
+                    "openOnEvent": "hover",
+                    "directionalHint": "topCenter",
+                    "isBeakVisible": true,
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "padding": "10px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "txtContent": "='('+'[!x.DisplayName]'+'='+[$x]+','+'[!y.DisplayName]'+'='+[$y]+')'"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
