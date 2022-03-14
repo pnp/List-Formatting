@@ -1384,8 +1384,8 @@
     "longDescription": [
       "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. "
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2018-09-09T00:00:00.000Z",
+    "updateDateTime": "2018-09-09T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -1441,8 +1441,8 @@
     "longDescription": [
       "Text or choice column where the value is used to determine the color. This allows for an easy visualization of status. To use a lookup column instead, replace all occurences of [$internalfieldname] with  [$internalfieldname.lookupValue]."
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2018-09-09T00:00:00.000Z",
+    "updateDateTime": "2018-09-09T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -1561,8 +1561,8 @@
     "longDescription": [
       "generic-video-button"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2020-03-31T00:00:00.000Z",
+    "updateDateTime": "2020-03-31T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -1729,8 +1729,8 @@
     "longDescription": [
       "in-memoriam-tileProps-format"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2020-03-31T00:00:00.000Z",
+    "updateDateTime": "2020-03-31T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -2802,8 +2802,8 @@
     "longDescription": [
       "This sample uses tileProps element to format the tile layout of the view."
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2019-09-09T00:00:00.000Z",
+    "updateDateTime": "2019-09-09T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -3026,8 +3026,8 @@
     "longDescription": [
       "comment-count"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-03-19T00:00:00.000Z",
+    "updateDateTime": "2021-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -3775,8 +3775,8 @@
     "longDescription": [
       "generic-flow-status"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-12-10T00:00:00.000Z",
+    "updateDateTime": "2021-12-10T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -5300,8 +5300,8 @@
     "longDescription": [
       ""
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2020-08-08T00:00:00.000Z",
+    "updateDateTime": "2020-08-08T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -7209,8 +7209,8 @@
     "longDescription": [
       "blank-header"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-01-21T00:00:00.000Z",
+    "updateDateTime": "2021-01-21T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -7382,8 +7382,8 @@
     "longDescription": [
       "status-header-footer"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-01-31T00:00:00.000Z",
+    "updateDateTime": "2021-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -7483,8 +7483,8 @@
     "longDescription": [
       "wrapped-body"
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-01-21T00:00:00.000Z",
+    "updateDateTime": "2021-01-21T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
