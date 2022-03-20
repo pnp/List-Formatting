@@ -12,10 +12,10 @@ Using [multi-person-like-or-dislike-unique-reaction](./../multi-person-like-or-d
 ## View requirements
 This format can be applied to any column type but expects the following columns to be part of the view:
 
-|Type                 |Internal Name  |Required|
-|---------------------|---------------|:------:|
-|Multi-Select Person  |Like           |No      |
-|Multi-Select Person  |Dislike        |No      |
+|Type                    |Internal Name  |Required|
+|------------------------|---------------|:------:|
+|Person or Group (Multi) |Like           |No      |
+|Person or Group (Multi) |Dislike        |No      |
 
 ## Sample
 
