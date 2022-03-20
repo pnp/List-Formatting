@@ -2,37 +2,131 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
-    "display": "flex",
-    "flex-direction": "row"
-  },
-  "attributes": {
-    "class": "ms-fontSize-xxl"
+    "width": "100%",
+    "text-align": "center"
   },
   "children": [
     {
-      "elmType": "a",
+      "elmType": "div",
       "style": {
-        "text-decoration": "none"
+        "height": "20px",
+        "width": "90%",
+        "display": "flex",
+        "flex-direction": "row"
       },
       "attributes": {
-        "href": "= 'https://teams.microsoft.com/l/meeting/new?subject=' + [$Title] + '&content=' + [$Content] + '&startTime=' + getYear([$Start])+'-'+padStart(toString(getMonth([$Start])+1),2,'0')+'-'+padStart(toString(getDate([$Start])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$Start]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')),2,'0'))+':'+substring(toLocaleTimeString([$Start]),indexOf(toLocaleTimeString([$Start]),':')+1,indexOf(toLocaleTimeString([$Start]),' ')) + '&endTime=' + getYear([$End])+'-'+padStart(toString(getMonth([$End])+1),2,'0')+'-'+padStart(toString(getDate([$End])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$End]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')),2,'0'))+':'+substring(toLocaleTimeString([$End]),indexOf(toLocaleTimeString([$End]),':')+1,indexOf(toLocaleTimeString([$End]),' '))",
-        "target": "_blank",
-        "iconName": "TeamsLogo",
-        "class": "ms-fontColor-themePrimary"
-      }
-    },
-    {
-      "elmType": "a",
-      "style": {
-        "text-decoration": "none",
-        "margin-left": "15px"
+        "class": "=if((length([$Like]) + length([$Dislike]) == 0 , 'ms-bgColor-sharedGray10' , '')"
       },
-      "attributes": {
-        "href": "= 'https://outlook.office.com/owa/?path=/calendar/action/compose&subject=' + [$Title] + '&body=' + [$Content] + '&startdt=' + getYear([$Start])+'-'+padStart(toString(getMonth([$Start])+1),2,'0')+'-'+padStart(toString(getDate([$Start])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$Start]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$Start]),0,indexOf(toLocaleTimeString([$Start]),':')),2,'0'))+':'+substring(toLocaleTimeString([$Start]),indexOf(toLocaleTimeString([$Start]),':')+1,indexOf(toLocaleTimeString([$Start]),' ')) + '&enddt=' + getYear([$End])+'-'+padStart(toString(getMonth([$End])+1),2,'0')+'-'+padStart(toString(getDate([$End])),2,'0')+'T'+if(indexOf(toLocaleTimeString([$End]),'PM')!=-1,padStart(toString(Number(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')))+12),2,'0'),padStart(substring(toLocaleTimeString([$End]),0,indexOf(toLocaleTimeString([$End]),':')),2,'0'))+':'+substring(toLocaleTimeString([$End]),indexOf(toLocaleTimeString([$End]),':')+1,indexOf(toLocaleTimeString([$End]),' '))",
-        "target": "_blank",
-        "iconName": "OutlookLogo",
-        "class": "ms-fontColor-themePrimary"
-      }
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "height": "100%",
+            "width": "=((length([$Like])  / (length([$Like]) + length([$Dislike]))) * 100 + '%'",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-tealLight ms-bgColor-teal--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "directionalHint": "topCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "padding": "10px 20px 10px 20px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "25px",
+                    "font-weight": "bold"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-tealLight"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "=floor(((length([$Like])/(length([$Like]) + length([$Dislike])) * 100)"
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "%",
+                      "style": {
+                        "margin-left": "5px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "='(' + length([$Like])  + '/' + (length([$Like]) + length([$Dislike]) + ')'",
+                  "style": {
+                    "margin-left": "5px"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "height": "100%",
+            "width": "=((length([$Dislike])  / (length([$Like]) + length([$Dislike]))) * 100 + '%'",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-red ms-bgColor-redDark--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "directionalHint": "topCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "padding": "10px 20px 10px 20px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "25px",
+                    "font-weight": "bold"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-red"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "=floor(((length([$Dislike])/(length([$Like]) + length([$Dislike])) * 100)"
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "%",
+                      "style": {
+                        "margin-left": "5px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "='(' + length([$Dislike])  + '/' + (length([$Like]) + length([$Dislike]) + ')'",
+                  "style": {
+                    "margin-left": "5px"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
     }
   ]
 }
