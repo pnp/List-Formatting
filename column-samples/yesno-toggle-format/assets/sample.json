@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/yesno-toggle-format/assets/screen_capture.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-toggle-format/assets/screen_capture.gif",
         "alt": "screenshot"
       }
     ],

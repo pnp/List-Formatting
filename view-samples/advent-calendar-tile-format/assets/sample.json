@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/advent-calendar-tile-format/assets/screenshot.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/advent-calendar-tile-format/assets/screenshot.gif",
         "alt": "Advent Calendar Tile Format"
       }
     ],

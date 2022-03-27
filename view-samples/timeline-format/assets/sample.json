@@ -29,13 +29,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/timeline-format/assets/horizontal-timeline-format.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/timeline-format/assets/horizontal-timeline-format.gif",
         "alt": "horizontal-timeline-format"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/timeline-format/assets/vertical-timeline-format.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/timeline-format/assets/vertical-timeline-format.gif",
         "alt": "vertical-timeline-format"
       }
     ],

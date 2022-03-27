@@ -41,7 +41,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/profile-card/assets/profile-card.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/profile-card/assets/profile-card.png",
         "alt": "profile-card"
       }
     ],

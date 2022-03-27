@@ -26,7 +26,7 @@
     "thumbnails": [{
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/search-tag-format/assets/SearchWordTag.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/search-tag-format/assets/SearchWordTag.gif",
         "alt": "Search Tag format"
     }],
     "authors": [{

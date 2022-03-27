@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/default-hover-cards/assets/File_hover.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/default-hover-cards/assets/People_hover.png",
         "alt": "File_hover"
       }
     ],

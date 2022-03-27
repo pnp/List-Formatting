@@ -37,13 +37,13 @@
             {
                 "type": "image",
                 "order": 100,
-                "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/stat-comparison-chart/assets/screenshot.png?raw=true",
+                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot.png",
                 "alt": "screenshot"
             },
             {
                 "type": "image",
                 "order": 100,
-                "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/stat-comparison-chart/assets/screenshot_without_images.png?raw=true",
+                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot_without_images.png",
                 "alt": "screenshot without images"
             }
         ],

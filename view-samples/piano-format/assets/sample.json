@@ -29,13 +29,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/piano-format/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/piano-format/assets/screenshot.png",
         "alt": "theme-color-piano-format"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/piano-format/assets/screenshot_rainbow-color.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/piano-format/assets/screenshot_rainbow-color.png",
         "alt": "rainbow-color-piano-formatt"
       }
     ],

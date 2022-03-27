@@ -45,7 +45,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/multi-line-view/assets/listformatting-rowformatter.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/multi-line-view/assets/listformatting-rowformatter.png",
         "alt": "listformatting-rowformatter"
       }
     ],
