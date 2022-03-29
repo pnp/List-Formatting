@@ -1,0 +1,490 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "0px 5px",
+            "position": "relative",
+            "width": "15px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "color": "#0078d4",
+                "bottom": 0,
+                "left": 0,
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-12"
+              },
+              "txtContent": "Min",
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-left": "1px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "5px solid transparent",
+                "border-bottom": "0px solid transparent",
+                "border-right": "='10px solid'+ if(@currentField == 1,'#0078d4',if(@currentField > 1,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-left": "1px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "5px solid transparent",
+                "border-bottom": "0px solid transparent",
+                "border-right": "='10px solid'+ if(@currentField == 2,'#0078d4',if(@currentField > 2,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "2"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 2,'#0078d4',if(@currentField > 2,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 2,'#0078d4',if(@currentField > 2,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 2,'#0078d4',if(@currentField > 2,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 2,'#0078d4',if(@currentField > 2,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-left": "1px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "5px solid transparent",
+                "border-bottom": "0px solid transparent",
+                "border-right": "='10px solid'+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "3"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "3"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 3,'#0078d4',if(@currentField > 3,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-left": "1px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "0px solid transparent",
+                "border-right": "10px solid transparent",
+                "border-left": "0px solid transparent",
+                "border-bottom": "5px solid transparent",
+                "height": "0px",
+                "width": "0px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "5px solid transparent",
+                "border-bottom": "0px solid transparent",
+                "border-right": "='10px solid'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "4"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "4"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "4"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-right": "='10px solid'+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-left": "='0px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "border-bottom": "='5px solid '+ if(@currentField == 4,'#0078d4',if(@currentField > 4,'#0078d4','#8a8886'))",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-left": "1px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "5px solid transparent",
+                "border-bottom": "0px solid transparent",
+                "border-right": "='10px solid'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "5"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-right": "='10px solid'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-left": "='0px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-bottom": "='5px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "5"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-right": "='10px solid'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-left": "='0px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-bottom": "='5px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "5"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-right": "='10px solid'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-left": "='0px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-bottom": "='5px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "5"
+                }
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "='0px soli'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-right": "='10px solid'+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-left": "='0px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "border-bottom": "='5px solid '+ if(@currentField == 5,'#0078d4','#8a8886')",
+                "height": "0px",
+                "width": "0px",
+                "cursor": "pointer"
+              },
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": "5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "0px 5px",
+            "position": "relative",
+            "width": "15px",
+            "margin-left": "5px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "color": "#0078d4",
+                "bottom": 0,
+                "left": 0,
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-12"
+              },
+              "txtContent": "Max",
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "Volume": 5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
