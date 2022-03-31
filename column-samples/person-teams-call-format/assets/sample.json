@@ -5,7 +5,7 @@
 		"source": "pnp",
 		"title": "teams call format",
 		"shortDescription": "This sample uses Microsoft Teams deep links to create links from selected user that allow to make Microsoft Teams calls to user.",
-		"url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/teams-call-format",
+		"url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-teams-call-format",
 		"longDescription": [
 			"This sample uses Microsoft Teams deep links to create links from selected user that allow to make Microsoft Teams calls to user."
 		],
@@ -29,7 +29,7 @@
 			{
 				"type": "image",
 				"order": 100,
-				"url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/teams-call-format/assets/Teamscallformat.png?raw=true",
+				"url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-teams-call-format/assets/Teamscallformat.png",
 				"alt": "teams call format"
 			}
 		],
