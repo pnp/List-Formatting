@@ -1,0 +1,625 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "margin-top": "10px",
+            "display": "flex",
+            "border-top-left-radius": "10px",
+            "border-top-right-radius": "10px"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "C",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": ";|"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "150px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border": "1px solid #eee",
+                    "border-radius": "5px",
+                    "text-align": "right",
+                    "padding-right": "5px",
+                    "height": "20px",
+                    "width": "120px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "=if(length(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))) == 0,substring(@currentField,0,indexOf(@currentField,';')),substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "7",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'7')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "8",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'8')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "9",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'9')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "x",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=toString(if(length(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')))==0,substring(@currentField,0,indexOf(@currentField,';')), if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')), Number(substring(@currentField,0,indexOf(@currentField,';'))) * Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))))))+';|x'"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "4",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'4')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "5",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'5')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "6",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'6')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "/",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=toString(if(length(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')))==0,substring(@currentField,0,indexOf(@currentField,';')), if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')), Number(substring(@currentField,0,indexOf(@currentField,';'))) / Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))))))+';|/'"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "1",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'1')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "2",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'2')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "3",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'3')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "-",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-16 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+ ';|-', if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,0,indexOf(@currentField,';'))+';'+substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'|-', toString(Number(substring(@currentField,0,indexOf(@currentField,';'))) - Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')))+';|-' )))"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "border-bottom-left-radius": "10px",
+            "border-bottom-right-radius": "10px"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeLighter"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": ".",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'.')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "0",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-themeLight--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=substring(@currentField,0,indexOf(@currentField,';'))+';'+(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'0')+'|'+substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "=",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=toString(if(length(substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#'))))==0,substring(@currentField,0,indexOf(@currentField,';')),if(substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))== '+',Number(substring(@currentField,0,indexOf(@currentField,';'))) + Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))),if(substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))== '-',Number(substring(@currentField,0,indexOf(@currentField,';'))) - Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))),if(substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))== 'x',Number(substring(@currentField,0,indexOf(@currentField,';'))) * Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))),if(substring((@currentField + '#'),lastIndexOf(@currentField,'|')+1,(indexOf((@currentField + '#'),'#')))== '/',Number(substring(@currentField,0,indexOf(@currentField,';'))) / Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))),substring(@currentField,0,indexOf(@currentField,';'))))))))+';|'"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "height": "40px",
+                "width": "50px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin": "10px",
+                    "border-radius": "5px",
+                    "text-align": "center",
+                    "height": "20px",
+                    "width": "30px",
+                    "cursor": "pointer"
+                  },
+                  "txtContent": "+",
+                  "attributes": {
+                    "class": "ms-bgColor-sharedOrange10 ms-fontColor-themePrimary ms-fontWeight-semibold ms-fontSize-14 ms-bgColor-sharedOrange20--hover"
+                  },
+                  "customRowAction": {
+                    "action": "setValue",
+                    "actionInput": {
+                      "Calc": "=if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+ ';|+', if(length(substring(@currentField,0,indexOf(@currentField,';')))==0,substring(@currentField,0,indexOf(@currentField,';'))+';'+substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|'))+'|+', toString(Number(substring(@currentField,0,indexOf(@currentField,';'))) + Number(substring(@currentField,indexOf(@currentField,';')+1,indexOf(@currentField,'|')))+';|+' )))"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
