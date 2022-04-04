@@ -10,7 +10,7 @@ This sample provide decimal converter to binary using out of the List formatting
 
 Field |Type
 --------|---------
-DecimalBinary | Number- Define min value or 0 and max value of 255
+DecimalBinary | Number- Define min value of 0 and max value of 255.
 
 
 ## Sample
