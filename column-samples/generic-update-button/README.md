@@ -1,7 +1,7 @@
-# Field Update Button
+# Field Value Update Button
 
 ## Summary
-This sample demonstrates field update buttons using the `setValue` action.
+This sample demonstrates displaying a button to update the fields values of an item.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
