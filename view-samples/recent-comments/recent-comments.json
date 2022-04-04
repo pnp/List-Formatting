@@ -1,0 +1,25 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "hideColumnHeader": true,
+    "hideSelection": true,
+    "rowFormatter": {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "[$Title]",
+          "attributes": {
+            "class": "='ms-fontColor-neutral' + if(@rowIndex==0,'Primary',if(@rowIndex==1,'Secondary','Tertiary')"
+          },
+          "style": {
+            "font-size": "=if(@rowIndex==0,'42px',if(@rowIndex==1,'28px','16px')",
+            "padding-bottom": "8px"
+          }
+        }
+      ]
+    }
+  }
