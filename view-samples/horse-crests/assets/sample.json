@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/horse-crests/assets/screenshot.png",
+        "alt": "horses"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
