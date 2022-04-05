@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Recent Comments",
     "shortDescription": "This sample shows text from the most recent items by showing them in decresing sizes as they get older.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/recent-comments",
     "longDescription": [
       "This sample shows text from the most recent items by showing them in decresing sizes as they get older. This is very helpful for a quick summary view of a list and is great for adding directly to a page."
     ],
@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/recent-comments/assets/screenshot.png",
+        "alt": "comments"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
