@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Heat Map",
     "shortDescription": "This sample demonstrates creating a layered dynamic SVG image in a view format.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/heat-map",
     "longDescription": [
       "This sample demonstrates creating a layered dynamic SVG image in a view format. States are highlighted when they have list items that correspond to them. They get darker the more times a state is mentioned."
     ],
@@ -25,7 +25,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/heat-map/assets/screenshot.png",
+        "alt": "heat map"
+      },
+      {
+        "type": "image",
+        "order": 105,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/heat-map/assets/screenshotDark.png",
+        "alt": "dark theme heat map"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
