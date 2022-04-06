@@ -1,4 +1,4 @@
-# Disable Selection
+# Disable default click action on a tile list view
 
 ## Summary
 The sample list of items in a tile view where default click action is disabled. When item is clicked it is selected only.
