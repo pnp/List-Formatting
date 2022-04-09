@@ -1,4 +1,4 @@
-# Icon Overlays
+# Icon Overlays [![Live Preview in Microsoft Lists](../../assets/mslists-livepreview.png)](https://lists.live.com/:l:/g/personal/9a047f63f4e26abf/FJtVGK9R4VVIvJszNCR4OtgBYrCAzX_f6rra6dACxzKQmQ?e=fYH1aF "Live Preview in Microsoft Lists") [![Help](../../assets/info-light.png#gh-light-mode-only)](https://pnp.github.io/List-Formatting/gettingstarted/ "Help")[![Help](../../assets/info-Dark.png#gh-dark-mode-only)](https://pnp.github.io/List-Formatting/gettingstarted/ "Help")
 
 ## Summary
 You can UI Fabric Icons within your column and view formats. This sample demonstrates combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can.
