@@ -1,7 +1,7 @@
 # Number Gradation
 
 ## Summary
-This sample demonstrates a background color that gradually changes according to the value of a Number column.
+This sample demonstrates a gradual background color change between the minimum and maximum values. In this sample, the minimum value is -30 and the maximum value is 90.
 
 ![screenshot of the sample](./assets/screenshot.png)
 

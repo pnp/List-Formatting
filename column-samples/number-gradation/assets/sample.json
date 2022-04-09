@@ -4,10 +4,10 @@
     "reponame": "number-gradation",
     "source": "pnp",
     "title": "Number Gradation",
-    "shortDescription": "This sample demonstrates a background color that gradually changes according to the value of a Number column.",
+    "shortDescription": "This sample demonstrates a gradual background color change between the minimum and maximum values.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-gradation",
     "longDescription": [
-      "This sample demonstrates a background color that gradually changes according to the value of a Number column."
+      "This sample demonstrates a gradual background color change between the minimum and maximum values."
     ],
     "creationDateTime": "2022-04-08T00:00:00.000Z",
     "updateDateTime": "2022-04-08T00:00:00.000Z",
