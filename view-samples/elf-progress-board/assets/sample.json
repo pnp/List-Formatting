@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif",
+        "alt": "Progress Board"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
