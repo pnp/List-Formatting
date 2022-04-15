@@ -426,13 +426,13 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "display": "=if([$Expand] == false,'none','flex')",
+                          "display": "flex",
                           "background-color": "=if([$Flag]== true, '#f8d7da', 'White')",
                           "padding": "5px",
                           "font-size": "16px"
                         },
                         "attributes": {
-                          "iconName": "=if([$Expand]==true,'CirclePlus','')"
+                          "iconName": "=if([$Expand]==true,'CirclePlus','Blocked2')"
                         },
                         "customRowAction": {
                           "action": "setValue",
