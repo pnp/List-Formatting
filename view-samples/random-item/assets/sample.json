@@ -1,0 +1,44 @@
+[
+  {
+    "name": "pnp-list-formatting-random-item",
+    "reponame": "random-item",
+    "source": "pnp",
+    "title": "Random Item",
+    "shortDescription": "This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
+    "longDescription": [
+      "This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top. This can easily be added to a page using the list web part and will act as a miniature application."
+    ],
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2020-04-15T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
