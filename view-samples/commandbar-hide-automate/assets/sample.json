@@ -1,0 +1,57 @@
+[
+  {
+    "name": "pnp-list-formatting-commandbar-hide-automate",
+    "reponame": "commandbar-hide-automate",
+    "source": "pnp",
+    "title": "Hide Automate Button in the CommandBar",
+    "shortDescription": "Hides the Automate button when an item or items are selected.",
+    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/bulletin-board-format",
+    "longDescription": [
+      "The Automate button in the CommandBar provides access to Rules as well as associated Power Automate flows for our list/library. However, there are times when we don't want the associated flows to be shown because we are providing flow launch buttons. Maybe we're conditionally picking which flow should run based on properties of an individual item or were customizing the flow run panel and the inclusion of these menu options would undermine that. This sample only hides the Automate button when an item or items are selected. This ensures the Rules option remains available but prevents users from launching flows for a selected item using this menu."
+    ],
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2022-04-15T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/commandbar-hide-automate/assets/screenshot.png?raw=true",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/commandbar-hide-automate/assets/screenshotNoSelection.png?raw=true",
+        "alt": "screenshot no selection"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
