@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-faq-grouped",
     "reponame": "faq-grouped",
     "source": "pnp",
-    "title": "",
+    "title": "Grouped FAQs",
     "shortDescription": "This sample uses standard group rendering to provide a list of expandable questions.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
     "longDescription": [
@@ -25,7 +25,14 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faq-grouped/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
