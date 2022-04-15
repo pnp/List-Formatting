@@ -4,10 +4,10 @@
     "reponame": "generic-video-button",
     "source": "pnp",
     "title": "generic-video-button",
-    "shortDescription": "generic-video-button",
+    "shortDescription": "Demonstrates the use of dynamic connections in the list webpart while using a custom format. This results in a custom video selection application that changes the embeded video on the page.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-video-button",
     "longDescription": [
-      "generic-video-button"
+      "This sample demonstrates the use of dynamic connections in the list webpart while using a custom format. The format is applied to a list of YouTube videos with each item containing the shortcode for the video. On a page, the list webpart with the custom view is used. The embed webpart is configured to accept it as a connection. This results in a custom video selection application that changes the embeded video on the page."
     ],
     "creationDateTime": "2020-03-31T00:00:00.000Z",
     "updateDateTime": "2020-03-31T00:00:00.000Z",
