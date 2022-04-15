@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "id": "='tool_' + @rowIndex"
+    },
+    "style": {
+      "display": "block",
+      "height": "240px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "font-size": "32px",
+              "font-weight": "bold",
+              "flex-grow": "1"
+            }
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "iconName": "ChromeBack",
+              "href": "='#tool_' + (@rowIndex - 1)",
+              "title": "Previous",
+              "class": "ms-fontColor-themeLight ms-fontColor-themePrimary--hover"
+            },
+            "style": {
+              "font-size": "18px",
+              "text-decoration": "none",
+              "padding": "8px",
+              "display": "=if(@rowIndex == 0, 'none', 'inherit')"
+            }
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "iconName": "ChromeBackMirrored",
+              "href": "='#tool_' + (@rowIndex + 1)",
+              "title": "Next",
+              "class": "ms-fontColor-themeLight ms-fontColor-themePrimary--hover"
+            },
+            "style": {
+              "font-size": "18px",
+              "text-decoration": "none",
+              "padding": "8px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Content]",
+        "style": {
+          "font-size": "18px"
+        }
+      }
+    ]
+  }
+}
