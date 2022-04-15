@@ -1,27 +1,29 @@
-# Grouped FAQs
+# Random Item
 
 ## Summary
-This sample uses standard group rendering to provide a list of expandable questions. By default, when grouping by a column the column name and the count of grouped items will be included in the group name. This format provides some small tweaks to the group header to only show the value (question in this case). By also hiding the column header and item selection, this format acts like a mini application and could easily be added to a page using the list web part.
+This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top.
 
-![screenshot of the sample](./assets/screenshot.png)
+The trick is that the z-index is set using the `@now` parameter with a modulo operator against the total number of items (7). This number should be updated to match the number of items in the list you are trying to display. However, it can also be dynamic by setting this to a relatively high number.
 
+![screenshot of the sample](./assets/screenshot.gif)
+
+In the above use case, this format has been used to display a random turkey fact! This can easily be added to a page using the list web part and will act as a miniature application.
+
+![screenshot of the sample on a page](./assets/screenshotOnPage.png)
 
 ## View requirements
 
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|Yes|
-|Multiple line of text|Answer|Yes|
-
-In this case, the Title column has been renamed to Question (though it doesn't make any difference to the format). The view is grouped by the Question (Title) column and then the Question column has been removed from display (so that the value doesn't repeat alongside the answer).
-
-> FAQs - Stands for **F**requently **A**sked **Q**uestions
+|Multiple line of text|Details|Yes|
+|Image|Image|Yes
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-faq-grouped.json | [Chris Kent](https://twitter.com/theChrisKent)
+random-item.json | [Chris Kent](https://twitter.com/theChrisKent)
 
 ## Version history
 
@@ -34,4 +36,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/faq-grouped" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/random-item" />

@@ -25,7 +25,20 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/random-item/assets/screenshot.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/random-item/assets/screenshotOnPage.png",
+        "alt": "screenshot on page"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
