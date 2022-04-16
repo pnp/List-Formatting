@@ -50,7 +50,12 @@
         "gitHubAccount": "thechriskent",
         "pictureUrl": "https://github.com/thechriskent.png",
         "name": "Chris Kent"
-      }
+      },
+      {
+          "gitHubAccount": "tecchan1107",
+          "pictureUrl": "https://github.com/tecchan1107.png",
+          "name": "Tetsuya Kawahara"
+        }
     ],
     "references": [
       {
