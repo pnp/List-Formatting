@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-elf-progress-board",
-    "reponame": "elf-progress-board",
+    "name": "pnp-list-formatting-content-navigator",
+    "reponame": "content-navigator",
     "source": "pnp",
-    "title": "Elf Progress Board",
-    "shortDescription": "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board",
+    "title": "Content Navigator",
+    "shortDescription": "Demonstrates the use of the id attribute to create linkable anchors.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
     "longDescription": [
-      "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"
+      "This sample demonstrates the use of the id attribute to create linkable anchors. The list is intended to have 2 views (Content and Links) using the 2 view formats supplied. Each view can be added to a page as a separate list webpart. No connections are required. Clicking on an item in the links view webpart will navigate to the item in the content view webpart. Additionally, previous and next buttons are included in the content view for internal navigation."
     ],
-    "creationDateTime": "2021-12-09T00:00:00.000Z",
-    "updateDateTime": "2021-12-09T00:00:00.000Z",
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2020-04-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -29,8 +29,8 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif",
-        "alt": "Progress Board"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/content-navigator/assets/screenshot.gif",
+        "alt": "screenshot"
       }
     ],
     "authors": [

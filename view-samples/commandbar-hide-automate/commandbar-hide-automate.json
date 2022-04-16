@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands":[
+      {
+        "key": "automate",
+        "hide": true,
+        "selectionModes": [
+          "SingleSelection",
+          "MultiSelection"
+        ]
+      }
+    ]
+  }
+}

@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-elf-progress-board",
-    "reponame": "elf-progress-board",
+    "name": "pnp-list-formatting-faq-grouped",
+    "reponame": "faq-grouped",
     "source": "pnp",
-    "title": "Elf Progress Board",
-    "shortDescription": "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board",
+    "title": "Grouped FAQs",
+    "shortDescription": "This sample uses standard group rendering to provide a list of expandable questions.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
     "longDescription": [
-      "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"
+      "This sample uses standard group rendering to provide a list of expandable questions. By default, when grouping by a column the column name and the count of grouped items will be included in the group name. This format provides some small tweaks to the group header to only show the value (question in this case). By also hiding the column header and item selection, this format acts like a mini application and could easily be added to a page using the list web part."
     ],
-    "creationDateTime": "2021-12-09T00:00:00.000Z",
-    "updateDateTime": "2021-12-09T00:00:00.000Z",
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2020-04-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -29,8 +29,8 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif",
-        "alt": "Progress Board"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faq-grouped/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-bgColor-themeDark ms-fontColor-white"
+    },
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "border-width": "2px",
+      "border-style": "solid",
+      "width": "250px",
+      "height": "350px",
+      "overflow": "hidden",
+      "padding": "16px",
+      "border-radius": "16px",
+      "position": "absolute",
+      "z-index": "=Number(@now)%7"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "height": "200px",
+          "overflow": "hidden",
+          "display": "flex",
+          "justify-content": "center"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "style": {
+              "margin": "0 auto",
+              "height": "200px"
+            },
+            "attributes": {
+              "src": "=[$Image.serverUrl]+[$Image.serverRelativeUrl]"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "style": {
+          "font-size": "18px",
+          "font-weight": "600",
+          "padding": "8px 0"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Details]",
+        "style": {
+          "font-size": "14px"
+        }
+      }
+    ]
+  }
+}
