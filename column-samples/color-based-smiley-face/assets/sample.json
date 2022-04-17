@@ -37,7 +37,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/color-based-smiley-face/assets/display.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/color-based-smiley-face/assets/screenshot.png",
         "alt": "display"
       }
     ],

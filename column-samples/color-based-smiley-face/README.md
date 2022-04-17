@@ -7,7 +7,7 @@ Green, Red and Yellow. Color value will add smiley face which come from the Offi
 Sample can be extended to diffrent other colors based on requirement
 
 
-![screenshot of the sample](./assets/display.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Choice, Single line of text column
@@ -16,7 +16,7 @@ Sample can be extended to diffrent other colors based on requirement
 
 Solution|Author(s)
 --------|---------
-color-based-smiley-face.json | Siddharth Vaghasia
+color-based-smiley-face.json | [Siddharth Vaghasia](https://github.com/siddharth-vaghasia) [@siddh_me](https://twitter.com/siddh_me)
 
 ## Version history
 
@@ -37,4 +37,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/color-based-smiley-face" />
