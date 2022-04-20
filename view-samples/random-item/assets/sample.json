@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Random Item",
     "shortDescription": "This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/random-item",
     "longDescription": [
       "This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top. This can easily be added to a page using the list web part and will act as a miniature application."
     ],
