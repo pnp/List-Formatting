@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Content Navigator",
     "shortDescription": "Demonstrates the use of the id attribute to create linkable anchors.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-format",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/content-navigator",
     "longDescription": [
       "This sample demonstrates the use of the id attribute to create linkable anchors. The list is intended to have 2 views (Content and Links) using the 2 view formats supplied. Each view can be added to a page as a separate list webpart. No connections are required. Clicking on an item in the links view webpart will navigate to the item in the content view webpart. Additionally, previous and next buttons are included in the content view for internal navigation."
     ],
