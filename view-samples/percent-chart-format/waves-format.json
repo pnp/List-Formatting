@@ -1,0 +1,145 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "20px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding-right": "10px",
+              "min-width": "100px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "end",
+                  "border-bottom": "1px dotted"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-14 ms-fontWeight-bold"
+                },
+                "txtContent": "[$Year]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontWeight-bold"
+                },
+                "txtContent": "Value"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace",
+                  "border-bottom": "1px dotted"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontColor-themePrimary"
+                },
+                "inlineEditField": "[$Value]",
+                "txtContent": "=[$Value.displayValue]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontWeight-bold"
+                },
+                "txtContent": "Total"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontColor-themePrimary"
+                },
+                "inlineEditField": "[$Total]",
+                "txtContent": "=[$Total.displayValue]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative"
+                },
+                "children": [
+                  {
+                    "elmType": "svg",
+                    "attributes": {
+                      "viewBox": "0 0 1440 320",
+                      "class": "ms-fontColor-neutralTertiary"
+                    },
+                    "style": {
+                      "float": "left",
+                      "height": "88px",
+                      "width": "425px",
+                      "fill": "[$Color]",
+                      "stroke": "none"
+                    },
+                    "children": [
+                      {
+                        "elmType": "path",
+                        "attributes": {
+                          "d": "M0,32L6.2,58.7C12.3,85,25,139,37,144C49.2,149,62,107,74,80C86.2,53,98,43,111,37.3C123.1,32,135,32,148,80C160,128,172,224,185,266.7C196.9,309,209,299,222,250.7C233.8,203,246,117,258,112C270.8,107,283,181,295,186.7C307.7,192,320,128,332,128C344.6,128,357,192,369,218.7C381.5,245,394,235,406,234.7C418.5,235,431,245,443,213.3C455.4,181,468,107,480,80C492.3,53,505,75,517,106.7C529.2,139,542,181,554,181.3C566.2,181,578,139,591,154.7C603.1,171,615,245,628,245.3C640,245,652,171,665,154.7C676.9,139,689,181,702,213.3C713.8,245,726,267,738,250.7C750.8,235,763,181,775,149.3C787.7,117,800,107,812,122.7C824.6,139,837,181,849,197.3C861.5,213,874,203,886,197.3C898.5,192,911,192,923,181.3C935.4,171,948,149,960,165.3C972.3,181,985,235,997,218.7C1009.2,203,1022,117,1034,96C1046.2,75,1058,117,1071,149.3C1083.1,181,1095,203,1108,202.7C1120,203,1132,181,1145,186.7C1156.9,192,1169,224,1182,224C1193.8,224,1206,192,1218,176C1230.8,160,1243,160,1255,170.7C1267.7,181,1280,203,1292,186.7C1304.6,171,1317,117,1329,106.7C1341.5,96,1354,128,1366,117.3C1378.5,107,1391,53,1403,42.7C1415.4,32,1428,64,1434,80L1440,96L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "=toString(425-((425*[$Value])/[$Total])) + 'px'",
+                      "min-width": "190px",
+                      "height": "88px",
+                      "float": "left",
+                      "position": "absolute",
+                      "top": "0",
+                      "left": "=if([$Value]>[$Total],'425',toString(((425*[$Value])/[$Total]))) + 'px'"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-white"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-family": "sans-serif",
+                          "padding": "5px"
+                        },
+                        "txtContent": "=toString(ceiling(((100*[$Value])/[$Total])))+'%'",
+                        "attributes": {
+                          "class": "ms-fontSize-68 ms-fontColor-themePrimary"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
