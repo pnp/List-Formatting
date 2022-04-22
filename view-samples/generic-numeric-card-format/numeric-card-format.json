@@ -1,0 +1,425 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "width": "200px",
+      "text-decoration": "none",
+      "float": "left"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "10px 10px 10px 0",
+              "width": "150px",
+              "height": "200px",
+              "border-radius": "5px",
+              "border": "1px solid #eee",
+              "box-shadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+              "position": "relative"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "margin": "10px 0 0 10px",
+                  "font-family": "serif",
+                  "font-size": "20px",
+                  "color": "[$Color]"
+                },
+                "txtContent": "[$Number]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-weight": "700",
+                  "font-family": "serif",
+                  "font-size": "=if(indexOf([$Name]+'.', '.') > 1, '20px','25px')",
+                  "margin": "0px 0 0 10px",
+                  "color": "[$Color]"
+                },
+                "txtContent": "[$Name]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "absolute",
+                  "top": "5px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 33px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "relative"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 -20px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 4,[$Color],if([$Number] == 5,[$Color],if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))))"
+                            },
+                            "txtContent": "=if([$Number] == 4,[$Name],if([$Number] == 5,[$Name],if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 10px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 2,[$Color],if([$Number] == 3,[$Color],''))"
+                            },
+                            "txtContent": "=if([$Number] == 2,[$Name],if([$Number] == 3,[$Name],''))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 10px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 10,[$Color],'')"
+                            },
+                            "txtContent": "=if([$Number] == 10,[$Name],'')"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 40px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 4,[$Color],if([$Number] == 5,[$Color],if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))))"
+                            },
+                            "txtContent": "=if([$Number] == 4,[$Name],if([$Number] == 5,[$Name],if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))))"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px"
+                        },
+                        "txtContent": ""
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 33px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "relative"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 -20px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))"
+                            },
+                            "txtContent": "=if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 10px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 1,[$Color],if([$Number] == 3,[$Color],if([$Number] == 5,[$Color],if([$Number] == 9,[$Color],''))))"
+                            },
+                            "txtContent": "=if([$Number] == 1,[$Name],if([$Number] == 3,[$Name],if([$Number] == 5,[$Name],if([$Number] == 9,[$Name],''))))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 40px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))"
+                            },
+                            "txtContent": "=if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 7,[$Color],'')"
+                        },
+                        "txtContent": "=if([$Number] == 7,[$Name],'')"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 33px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "relative"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 -20px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 4,[$Color],if([$Number] == 5,[$Color],if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))))"
+                            },
+                            "txtContent": "=if([$Number] == 4,[$Name],if([$Number] == 5,[$Name],if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 10px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 10,[$Color],if([$Number] == 3,[$Color],if([$Number] == 2,[$Color],'')))"
+                            },
+                            "txtContent": "=if([$Number] == 10,[$Name],if([$Number] == 3,[$Name],if([$Number] == 2,[$Name],'')))"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "position": "absolute",
+                              "font-weight": "700",
+                              "font-family": "serif",
+                              "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                              "margin": "25px 0 0 40px",
+                              "width": "20px",
+                              "height": "50px",
+                              "color": "=if([$Number] == 4,[$Color],if([$Number] == 5,[$Color],if([$Number] == 6,[$Color],if([$Number] == 7,[$Color],''))))"
+                            },
+                            "txtContent": "=if([$Number] == 4,[$Name],if([$Number] == 5,[$Name],if([$Number] == 6,[$Name],if([$Number] == 7,[$Name],''))))"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 40px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 33px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px"
+                        },
+                        "txtContent": " "
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "700",
+                          "font-family": "serif",
+                          "font-size": "=if(indexOf([$Name]+'.', '.') > 1, if([$Name] == '♠️', '40px','25px'),'40px')",
+                          "margin": "0px 0 0 10px",
+                          "width": "20px",
+                          "height": "50px",
+                          "color": "=if([$Number] == 8,[$Color],if([$Number] == 9,[$Color],if([$Number] == 10,[$Color],'')))"
+                        },
+                        "txtContent": "=if([$Number] == 8,[$Name],if([$Number] == 9,[$Name],if([$Number] == 10,[$Name],'')))"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-weight": "700",
+                  "font-family": "serif",
+                  "font-size": "=if(indexOf([$Name]+'.', '.') > 1, '20px','25px')",
+                  "margin": "80px 0 0 125px",
+                  "color": "[$Color]"
+                },
+                "inlineEditField": "[$Name]",
+                "txtContent": "[$Name]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "margin": "0 0 0 125px",
+                  "font-family": "serif",
+                  "font-size": "20px",
+                  "color": "[$Color]"
+                },
+                "inlineEditField": "[$Number]",
+                "txtContent": "[$Number]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
