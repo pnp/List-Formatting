@@ -41,6 +41,7 @@ Modified by | Person - Include field in View
 Solution|Author(s)
 --------|---------
 board-tag-format.json | [André Lage](https://twitter.com/aaclage)
+board-tag-box-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
