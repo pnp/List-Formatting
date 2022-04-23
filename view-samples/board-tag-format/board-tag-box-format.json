@@ -51,8 +51,7 @@
                           {
                             "elmType": "div",
                             "style": {
-                              "padding": "5px",
-                              "border": "1px solid black"
+                              "padding": "5px"
                             },
                             "attributes": {
                               "iconName": "=if([$Category] == 'Completed ✔️', 'accept', if([$Category] == 'Cancel', 'cancel', if([$Category] == 'Pending','HourGlass',if([$Category] == 'Started','InsertSignatureLine','More'))))",
