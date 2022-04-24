@@ -435,6 +435,8 @@
                                           "class": "sp-card-userThumbnail"
                                         },
                                         "style": {
+                                          "border-radius": "50%",
+                                          "padding": "0 5px",
                                           "display": "=if(length([$Assigned]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
                                         }
                                       },
