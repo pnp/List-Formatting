@@ -970,6 +970,7 @@
                         "style": {
                           "max-width": "200px",
                           "max-height": "50px",
+                          "width": "100%",
                           "text-overflow": "ellipsis",
                           "overflow": "hidden",
                           "text-decoration": "=if([$Category] == 'Cancel','line-through','')"
