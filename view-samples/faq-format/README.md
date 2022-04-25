@@ -36,7 +36,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-The Keyword field is used to match a value in the Answer column, and adds a hyperlink from the KeywordLink field to that value in the Answer column. In the below example, the formatting will change the "information" column in the Answer field, to a hyperlink linking to https://www.microsoft.com
+The Keyword field is used to match a value in the Answer column, and adds a hyperlink from the KeywordLink field to that value in the Answer column. In the below example, the formatting will change the word "information" in the Answer field, to be a hyperlink linking to https://www.microsoft.com - rather than just text.
 
 * Title - "What's the difference between 32-bit and 64-bit versions of windows?"
 * Answer - "The terms 32-bit and 64-bit refer to the way a computer's processor (also called a CPU) handles information. The 64-bit version of Windows handles large amounts of random access memory (RAM) more effectively than a 32-bit system. Not all devices can run the 64-bit versions of Windows."
