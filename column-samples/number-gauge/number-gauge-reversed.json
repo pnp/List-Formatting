@@ -1,7 +1,7 @@
 {
   "elmType": "div",
   "attributes": {
-    "title": "@currentField"
+    "title": "@currentField.displayValue"
   },
   "children": [
     {
