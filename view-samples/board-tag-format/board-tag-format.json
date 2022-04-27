@@ -73,7 +73,6 @@
                               "padding": "5px 10px",
                               "cursor": "pointer"
                             },
-                            "txtContent": "=if([$Flag] == true,'Remove flag','Add flag')",
                             "attributes": {
                               "class": "ms-bgColor-neutralLighter--hover"
                             },
@@ -82,7 +81,26 @@
                               "actionInput": {
                                 "Flag": "=if([$Flag] == true,0,1)"
                               }
-                            }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "flag"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "=if([$Flag] == true,'Remove flag','Add flag')"
+                              }
+                            ]
                           },
                           {
                             "elmType": "div",
@@ -94,10 +112,28 @@
                             "attributes": {
                               "class": "ms-bgColor-neutralLighter--hover"
                             },
-                            "txtContent": "Edit properties",
                             "customRowAction": {
                               "action": "editProps"
-                            }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "edit"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "Edit properties"
+                              }
+                            ]
                           },
                           {
                             "elmType": "div",
@@ -109,7 +145,25 @@
                             "attributes": {
                               "class": "ms-bgColor-neutralLighter--hover"
                             },
-                            "txtContent": "Delete",
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "delete"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "Delete"
+                              }
+                            ],
                             "customRowAction": {
                               "action": "delete"
                             }
@@ -127,7 +181,25 @@
                             "customRowAction": {
                               "action": "share"
                             },
-                            "txtContent": "Send/Copy link"
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "link"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "Send/Copy link"
+                              }
+                            ]
                           },
                           {
                             "elmType": "div",
@@ -145,7 +217,25 @@
                             "attributes": {
                               "class": "ms-bgColor-neutralLighter--hover"
                             },
-                            "txtContent": "Move top"
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "upload"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "Move top"
+                              }
+                            ]
                           },
                           {
                             "elmType": "div",
@@ -163,7 +253,25 @@
                             "attributes": {
                               "class": "ms-bgColor-neutralLighter--hover"
                             },
-                            "txtContent": "=if([$Expand]==false,'Minimize Card','Maximize Card')"
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "attributes": {
+                                  "iconName": "=if([$Expand]==true,'CirclePlus','Blocked2')"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "inline-block",
+                                  "padding-left": "5px"
+                                },
+                                "txtContent": "=if([$Expand]==false,'Minimize Card','Maximize Card')"
+                              }
+                            ]
                           },
                           {
                             "elmType": "div",
