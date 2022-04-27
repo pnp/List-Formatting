@@ -5,6 +5,9 @@ This sample display formatted card in board that allow tag definition, date of c
 
 ![Board tag format](./assets/Board-Card-Tag-formating.gif)
 
+### Task Cards
+![Board tag format](./assets/Card-tasks.PNG)
+
 ## View requirements
 - The format expect the following fields, create fields in View:
 
@@ -27,8 +30,8 @@ Modified by | Person - Include field in View
 
 ### Create Board View
 
-- Access to View dropdown and select "**Create new view**"
-- Add new Name and select option "**Board**"
+- Access to View dropdown and select "**Create new view**".
+- Add new Name and select option "**Board**" and include referenced fields in View.
 
 ### Edit List View requirements
 
@@ -42,6 +45,7 @@ Solution|Author(s)
 --------|---------
 board-tag-format.json | [André Lage](https://twitter.com/aaclage)
 board-tag-box-format.json | [André Lage](https://twitter.com/aaclage)
+card-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 

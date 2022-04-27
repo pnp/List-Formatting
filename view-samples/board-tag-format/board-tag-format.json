@@ -127,7 +127,7 @@
                             "customRowAction": {
                               "action": "share"
                             },
-                            "txtContent": "Copy link"
+                            "txtContent": "Send/Copy link"
                           },
                           {
                             "elmType": "div",
@@ -368,17 +368,14 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "width": "100%",
-                          "line-height": "30px",
-                          "white-space": "nowrap",
-                          "overflow": "hidden",
-                          "text-overflow": "ellipsis"
+                          "padding": "5px 5px 0 0",
+                          "font-size": "18px"
                         },
                         "attributes": {
                           "title": "[$Title]",
-                          "class": "ms-fontWeight-bold ms-fontColor-themePrimary"
+                          "class": "ms-fontColor-themePrimary",
+                          "iconName": "redeye"
                         },
-                        "txtContent": "[$Title]",
                         "customCardProps": {
                           "openOnEvent": "click",
                           "directionalHint": "bottomCenter",
@@ -867,6 +864,22 @@
                             ]
                           }
                         }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "100%",
+                          "line-height": "30px",
+                          "white-space": "nowrap",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "font-size": "18px"
+                        },
+                        "attributes": {
+                          "title": "[$Title]",
+                          "class": "ms-fontWeight-bold ms-fontColor-themePrimary"
+                        },
+                        "txtContent": "[$Title]"
                       },
                       {
                         "elmType": "div",

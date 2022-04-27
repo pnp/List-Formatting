@@ -141,7 +141,7 @@
                                     "customRowAction": {
                                       "action": "share"
                                     },
-                                    "txtContent": "Copy link"
+                                    "txtContent": "Send/Copy link"
                                   },
                                   {
                                     "elmType": "div",
@@ -343,6 +343,507 @@
                       {
                         "elmType": "div",
                         "style": {
+                          "padding": "5px 5px 0 5px",
+                          "font-size": "18px"
+                        },
+                        "attributes": {
+                          "title": "[$Title]",
+                          "class": "ms-fontColor-themePrimary",
+                          "iconName": "redeye"
+                        },
+                        "customCardProps": {
+                          "openOnEvent": "click",
+                          "directionalHint": "bottomCenter",
+                          "isBeakVisible": true,
+                          "formatter": {
+                            "elmType": "div",
+                            "style": {
+                              "display": "table",
+                              "max-width": "300px",
+                              "padding": "20px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "ms-fontWeight-bold"
+                                },
+                                "txtContent": "[!Title.DisplayName]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "padding": "5px"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-italic"
+                                },
+                                "txtContent": "[$Title]"
+                              },
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "ms-fontWeight-bold"
+                                },
+                                "txtContent": "[!Assigned.DisplayName]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex",
+                                  "cursor": "pointer",
+                                  "margin": "5px 5px 5px 0",
+                                  "padding": "5px"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-italic "
+                                },
+                                "inlineEditField": "[$Assigned]",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "=if(length([$Assigned]) == 0,'','none')",
+                                      "font-size": "20px",
+                                      "padding": "5px"
+                                    },
+                                    "attributes": {
+                                      "iconName": "AddFriend",
+                                      "class": "ms-fontColor-themePrimary"
+                                    }
+                                  },
+                                  {
+                                    "forEach": "personIterator in [$Assigned]",
+                                    "elmType": "a",
+                                    "attributes": {
+                                      "class": "=if(loopIndex('personIterator') >= 5, 'sp-card-userContainer', 'sp-card-userContainer sp-card-keyboard-focusable')"
+                                    },
+                                    "style": {
+                                      "display": "=if(loopIndex('personIterator') >= 5 || length([$Assigned]) == 0 , 'none', '')"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "img",
+                                        "defaultHoverField": "[$personIterator]",
+                                        "attributes": {
+                                          "src": "=getUserImage([$personIterator.email], 'S')",
+                                          "title": "[$personIterator.title]",
+                                          "class": "sp-card-userThumbnail"
+                                        },
+                                        "style": {
+                                          "border-radius": "50%",
+                                          "padding": "0 5px",
+                                          "display": "=if(length([$Assigned]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary sp-card-userOthers"
+                                        },
+                                        "style": {
+                                          "display": "=if(length([$Assigned]) > 5 && loopIndex('personIterator') == 4, '', 'none')"
+                                        },
+                                        "customCardProps": {
+                                          "formatter": {
+                                            "elmType": "div",
+                                            "attributes": {
+                                              "class": "sp-card-personCallout"
+                                            },
+                                            "children": [
+                                              {
+                                                "forEach": "personIterator in [$Assigned]",
+                                                "elmType": "div",
+                                                "attributes": {
+                                                  "class": "sp-card-userContainer sp-card-userCustomCard"
+                                                },
+                                                "style": {
+                                                  "display": "=if(loopIndex('personIterator') < 4, 'none', '')"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "img",
+                                                    "defaultHoverField": "[$personIterator]",
+                                                    "attributes": {
+                                                      "src": "=getUserImage([$personIterator.email], 'S')",
+                                                      "title": "[$personIterator.title]",
+                                                      "class": "sp-card-userThumbnail"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          "openOnEvent": "hover"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "span",
+                                            "txtContent": "='+' + toString(length([$Assigned]) - (4))"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "attributes": {
+                                      "class": "sp-card-userTitle"
+                                    },
+                                    "style": {
+                                      "display": "=if(length([$Assigned]) == 1, '', 'none')"
+                                    },
+                                    "defaultHoverField": "[$personIterator]",
+                                    "txtContent": "[$Assigned.title]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "margin": "0px 0px 5px 0"
+                                },
+                                "attributes": {
+                                  "class": "ms-fontWeight-bold"
+                                },
+                                "txtContent": "[!Tag.DisplayName]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "5px",
+                                      "padding-left": "5px",
+                                      "font-size": "18px"
+                                    },
+                                    "attributes": {
+                                      "title": "[$Tag]",
+                                      "iconName": "Tag",
+                                      "class": "ms-fontColor-themePrimary "
+                                    },
+                                    "inlineEditField": "[$Tag]",
+                                    "txtContent": "=length([$Tag])"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "5px",
+                                      "height": "32px",
+                                      "width": "100%",
+                                      "white-space": "nowrap",
+                                      "overflow": "hidden",
+                                      "text-overflow": "ellipsis"
+                                    },
+                                    "attributes": {
+                                      "title": "[$Tag]",
+                                      "class": "sp-field-italic "
+                                    },
+                                    "txtContent": "[$Tag]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontWeight-bold"
+                                    },
+                                    "txtContent": "[!Category.DisplayName]"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding-left": "15px",
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontWeight-bold"
+                                    },
+                                    "txtContent": "[!Progress.DisplayName]"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding-left": "15px",
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontWeight-bold"
+                                    },
+                                    "txtContent": "[!Priority.DisplayName]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "5px 5px 5px 0",
+                                      "padding": "5px",
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                    },
+                                    "txtContent": "[$Category]"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "5px 5px 5px 0",
+                                      "padding": "5px",
+                                      "width": "100px",
+                                      "display": "flex"
+                                    },
+                                    "attributes": {
+                                      "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding-right": "5px",
+                                          "color": "=if(indexOf([$Progress],'Not Started') > -1,'black',if(indexOf([$Progress],'In progress') > -1,'#327eaa',if(indexOf([$Progress],'Completed') > -1,'#418040','')))"
+                                        },
+                                        "attributes": {
+                                          "title": "[$Progress]",
+                                          "iconName": "=if(indexOf([$Progress],'Not Started') > -1,'StatusCircleRing',if(indexOf([$Progress],'In progress') > -1,'CircleHalfFull',if(indexOf([$Progress],'Completed') > -1,'CompletedSolid','')))"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "[$Progress]"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "5px 5px 5px 0",
+                                      "padding": "5px",
+                                      "width": "100px",
+                                      "display": "flex"
+                                    },
+                                    "attributes": {
+                                      "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding-right": "5px",
+                                          "color": "=if(indexOf([$Priority],'Urgent') > -1,'#d13438',if(indexOf([$Priority],'Important') > -1,'#d13438',if(indexOf([$Priority],'Medium') > -1,'#418040',if(indexOf([$Priority],'Low') > -1,'#327eaa',''))))"
+                                        },
+                                        "attributes": {
+                                          "title": "[$Priority]",
+                                          "iconName": "=if(indexOf([$Priority],'Urgent') > -1,'RingerSolid',if(indexOf([$Priority],'Important') > -1,'Important',if(indexOf([$Priority],'Medium') > -1,'LocationDot',if(indexOf([$Priority],'Low') > -1,'SortDown',''))))"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "[$Priority]"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontWeight-bold"
+                                    },
+                                    "txtContent": "[!StartDate.DisplayName]"
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding-left": "15px",
+                                      "width": "100px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontWeight-bold"
+                                    },
+                                    "txtContent": "Due Date"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "5px 5px 5px 0",
+                                      "padding": "5px",
+                                      "width": "100px",
+                                      "display": "flex"
+                                    },
+                                    "attributes": {
+                                      "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "=toLocaleDateString([$StartDate])"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "100%",
+                                          "padding-top": "3px",
+                                          "text-align": "end"
+                                        },
+                                        "attributes": {
+                                          "iconName": "calendar"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "5px 5px 5px 0",
+                                      "padding": "5px",
+                                      "width": "100px",
+                                      "display": "flex"
+                                    },
+                                    "attributes": {
+                                      "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "=toLocaleDateString([$EndDate])"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "100%",
+                                          "padding-top": "3px",
+                                          "text-align": "end"
+                                        },
+                                        "attributes": {
+                                          "iconName": "calendar"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "width": "100px"
+                                },
+                                "attributes": {
+                                  "class": "ms-fontWeight-bold"
+                                },
+                                "txtContent": "[!Description.DisplayName]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "margin": "5px 5px 5px 0",
+                                  "padding": "5px"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
+                                },
+                                "txtContent": "[$Description]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "=if([$Flag] == true,'','none')",
+                                  "padding-top": "5px",
+                                  "padding-left": "5px",
+                                  "font-size": "16px",
+                                  "color": "#e81123"
+                                },
+                                "attributes": {
+                                  "iconName": "EndPointSolid"
+                                }
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "padding-top": "5px",
+                                  "padding-left": "5px",
+                                  "font-size": "16px"
+                                },
+                                "attributes": {
+                                  "iconName": "Comment"
+                                },
+                                "txtContent": "[$_CommentCount]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "padding-top": "5px",
+                                  "padding-left": "5px",
+                                  "font-size": "16px"
+                                },
+                                "attributes": {
+                                  "iconName": "Attach"
+                                },
+                                "txtContent": "[$Attachments]"
+                              },
+                              {
+                                "elmType": "div",
+                                "forEach": "personIterator in [$Editor]",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "= 'Last Modified ' + toLocaleDateString([$Modified]) + ' by ' + [$personIterator.title]",
+                                    "attributes": {
+                                      "class": "ms-fontSize-12 ms-fontColor-gray100"
+                                    },
+                                    "style": {
+                                      "padding": "5px 0px 0px 0px",
+                                      "margin-left": "5px",
+                                      "display": "inline-block"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "18px",
                           "padding-left": "5px",
                           "width": "100%",
                           "line-height": "30px",
