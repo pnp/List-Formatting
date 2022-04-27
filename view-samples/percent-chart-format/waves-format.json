@@ -77,11 +77,16 @@
           },
           {
             "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
             "children": [
               {
                 "elmType": "div",
                 "style": {
-                  "position": "relative"
+                  "position": "relative",
+                  "width": "= toString(((425*[$Value])/[$Total]))+ 'px'",
+                  "overflow": "hidden"
                 },
                 "children": [
                   {
@@ -105,34 +110,30 @@
                         }
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "=toString(425-((425*[$Value])/[$Total])) + 'px'",
+                  "min-width": "190px",
+                  "height": "88px",
+                  "float": "left",
+                  "top": "0",
+                  "left": "145px"
+                },
+                "children": [
                   {
                     "elmType": "div",
                     "style": {
-                      "width": "=toString(425-((425*[$Value])/[$Total])) + 'px'",
-                      "min-width": "190px",
-                      "height": "88px",
-                      "float": "left",
-                      "position": "absolute",
-                      "top": "0",
-                      "left": "=if([$Value]>[$Total],'425',toString(((425*[$Value])/[$Total]))) + 'px'"
+                      "font-family": "sans-serif",
+                      "padding": "5px"
                     },
+                    "txtContent": "=toString(ceiling(((100*[$Value])/[$Total])))+'%'",
                     "attributes": {
-                      "class": "ms-bgColor-white"
-                    },
-                    "children": [
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "font-family": "sans-serif",
-                          "padding": "5px"
-                        },
-                        "txtContent": "=toString(ceiling(((100*[$Value])/[$Total])))+'%'",
-                        "attributes": {
-                          "class": "ms-fontSize-68 ms-fontColor-themePrimary"
-                        }
-                      }
-                    ]
+                      "class": "ms-fontSize-68 ms-fontColor-themePrimary"
+                    }
                   }
                 ]
               }
