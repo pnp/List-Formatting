@@ -32,6 +32,7 @@ discussion-board-format.json | [André Lage](https://twitter.com/aaclage)
 
 Version|Date|Comments
 -------|----|--------
+2.0|April January 30, 2022|Initial release
 1.0|January 30, 2022|Initial release
 
 ## Disclaimer

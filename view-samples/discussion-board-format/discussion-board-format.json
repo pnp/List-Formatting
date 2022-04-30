@@ -64,7 +64,7 @@
         "children": [
           {
             "elmType": "div",
-            "txtContent": "=substring([$Categories],0,2)"
+            "txtContent": "=substring([$Categories],0,indexOf([$Categories], ' '))"
           }
         ]
       },
@@ -368,7 +368,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙂')+2,indexOf([$EmotionCount],'🙁'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -421,7 +421,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🙁')+2,indexOf([$EmotionCount],'😃'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -474,7 +474,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'😃')+2,indexOf([$EmotionCount],'👏'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -527,7 +527,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'👏')+2,indexOf([$EmotionCount],'👋'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -580,7 +580,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'👋')+2,indexOf([$EmotionCount],'🔔'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -633,7 +633,7 @@
                             "elmType": "div",
                             "style": {
                               "display": "=if(Number(substring([$EmotionCount],indexOf([$EmotionCount],'🔔')+2,indexOf([$EmotionCount],'👑'))) >0,'inline-block','none')",
-                              "padding": "0px 0px 0px 5px"
+                              "padding": "5px 0px 5px 5px"
                             },
                             "children": [
                               {
@@ -693,7 +693,7 @@
                                 "elmType": "div",
                                 "style": {
                                   "display": "inline-block",
-                                  "padding": "0px 0px 0px 5px"
+                                  "padding": "5px 0px 5px 5px"
                                 },
                                 "children": [
                                   {
@@ -886,30 +886,7 @@
             "inlineEditField": "[$Tags]",
             "children": [
               {
-                "elmType": "div",
-                "forEach": "iteratorName in [$Tags]",
-                "style": {
-                  "display": "inline-block",
-                  "padding": "5px"
-                },
-                "attributes": {
-                  "class": "ms-fontSize-14 "
-                },
-                "children": [
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "5px",
-                      "border-radius": "10px",
-                      "color": "=if([$iteratorName]=='Bug/Issue 🐞','#ffffff', if([$iteratorName]=='Triage 🔍','#000000',if([$iteratorName]=='Investigation','#000000',if([$iteratorName]=='Feature','#ffffff','#000000'))))",
-                      "background-color": "=if([$iteratorName]=='Bug/Issue 🐞','#FABBC3', if([$iteratorName]=='Triage 🔍','#D8D8EE',if([$iteratorName]=='Investigation','#D4E7F6',if([$iteratorName]=='Feature','#0078D4',''))))"
-                    },
-                    "attributes": {
-                      "class": "ms-fontColor-white"
-                    },
-                    "txtContent": "=[$iteratorName]"
-                  }
-                ]
+                "columnFormatterReference": "[$Tags]"
               }
             ]
           },
