@@ -1,366 +1,113 @@
-{
+﻿{
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideColumnHeader": true,
   "hideSelection": true,
   "rowFormatter": {
     "elmType": "div",
-    "attributes": {
-      "class": "ms-bgColor-info--hover"
-    },
-    "style": {
-      "border-bottom": "1px solid #eee"
-    },
     "children": [
       {
         "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "20px"
+        },
         "children": [
           {
             "elmType": "div",
             "style": {
-              "padding": "5px 10px 0 10px",
-              "float": "=if([$Expand]==true || [$PermMask]=='0xb008431061','','left')"
+              "display": "=if((@rowIndex % 2)==0,'none','')",
+              "margin-top": "10px",
+              "height": "80px",
+              "width": "80px",
+              "font-size": "30px",
+              "border-radius": "50%",
+              "position": "relative"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
             },
             "children": [
               {
                 "elmType": "div",
                 "style": {
-                  "display": "=if([$PermMask]=='0xb008431061','none','')",
-                  "border": "1px solid ",
-                  "border-radius": "50%",
-                  "padding": "10px",
-                  "cursor": "pointer",
-                  "margin-right": "10px"
+                  "padding": "20px",
+                  "text-align": "center"
                 },
-                "attributes": {
-                  "title": "Menu",
-                  "iconName": "=if([$Expand]==false || length([$Expand])==0,'GlobalNavButton','cancel')",
-                  "class": "ms-fontSize-20 ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                },
-                "customRowAction": {
-                  "action": "setValue",
-                  "actionInput": {
-                    "Expand": "=if([$Expand]==false || length([$Expand])==0, 1 ,0)"
-                  }
-                }
+                "txtContent": "=substring([$Categories],0,indexOf([$Categories], ' '))"
               },
               {
                 "elmType": "div",
                 "style": {
-                  "display": "=if([$Expand]==true && [$PermMask]!='0xb008431061','inline-block','none')"
+                  "margin": "0 0 0 40px",
+                  "border-radius": "25px",
+                  "height": "50px",
+                  "width": "2px"
                 },
-                "children": [
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "10px",
-                      "cursor": "pointer",
-                      "border-top": "1px solid",
-                      "border-bottom": "1px solid",
-                      "border-left": "1px solid",
-                      "border-top-left-radius": "25px",
-                      "border-bottom-left-radius": "25px"
-                    },
-                    "attributes": {
-                      "title": "Permission Mask",
-                      "iconName": "SignIn",
-                      "class": "ms-fontSize-20 ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                    },
-                    "customCardProps": {
-                      "openOnEvent": "click",
-                      "directionalHint": "topCenter",
-                      "isBeakVisible": true,
-                      "formatter": {
-                        "elmType": "div",
-                        "children": [
-                          {
-                            "elmType": "div",
-                            "style": {},
-                            "children": [
-                              {
-                                "elmType": "div",
-                                "style": {
-                                  "display": "flex",
-                                  "padding-top": "10px"
-                                },
-                                "children": [
-                                  {
-                                    "elmType": "div",
-                                    "style": {
-                                      "padding": "0px 10px"
-                                    },
-                                    "attributes": {
-                                      "iconName": "Signin",
-                                      "class": "ms-fontColor-themePrimary ms-fontSize-20"
-                                    }
-                                  },
-                                  {
-                                    "elmType": "div",
-                                    "attributes": {
-                                      "class": "ms-fontColor-themePrimary ms-fontSize-16 ms-fontWeight-bold"
-                                    },
-                                    "txtContent": "USER PERMISSION"
-                                  }
-                                ]
-                              },
-                              {
-                                "elmType": "div",
-                                "children": [
-                                  {
-                                    "elmType": "div",
-                                    "style": {
-                                      "display": "flex",
-                                      "padding": "10px 10px 0px 10px"
-                                    },
-                                    "children": [
-                                      {
-                                        "elmType": "div",
-                                        "style": {
-                                          "display": "flex"
-                                        },
-                                        "attributes": {
-                                          "class": "ms-fontWeight-bold"
-                                        },
-                                        "children": [
-                                          {
-                                            "elmType": "div",
-                                            "style": {
-                                              "padding": "5px"
-                                            },
-                                            "attributes": {
-                                              "iconName": "Contact",
-                                              "class": "ms-fontColor-themePrimary ms-fontSize-28"
-                                            }
-                                          },
-                                          {
-                                            "elmType": "div",
-                                            "style": {
-                                              "padding": "5px 0px"
-                                            },
-                                            "attributes": {
-                                              "class": "ms-fontColor-info ms-fontSize-16"
-                                            },
-                                            "txtContent": "@me"
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "elmType": "div",
-                                "children": [
-                                  {
-                                    "elmType": "div",
-                                    "style": {
-                                      "display": "flex",
-                                      "padding": "0px 10px 0px 10px"
-                                    },
-                                    "children": [
-                                      {
-                                        "elmType": "div",
-                                        "style": {
-                                          "display": "flex"
-                                        },
-                                        "attributes": {
-                                          "class": "ms-fontWeight-bold"
-                                        },
-                                        "children": [
-                                          {
-                                            "elmType": "div",
-                                            "style": {
-                                              "padding": "5px"
-                                            },
-                                            "attributes": {
-                                              "iconName": "Signin",
-                                              "class": "ms-fontColor-themePrimary ms-fontSize-28"
-                                            }
-                                          },
-                                          {
-                                            "elmType": "div",
-                                            "style": {
-                                              "padding": "5px 0px"
-                                            },
-                                            "attributes": {
-                                              "class": "ms-fontColor-info ms-fontSize-24"
-                                            },
-                                            "txtContent": "=if([$PermMask]== '0x7fffffffffffffff','Full Control',if([$PermMask]== '0x1b03c431aef','Edit',if([$PermMask]== '0xb008431061','Read','')))"
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "10px",
-                      "cursor": "pointer",
-                      "border-top": "1px solid",
-                      "border-bottom": "1px solid"
-                    },
-                    "attributes": {
-                      "title": "Send/Copy link",
-                      "iconName": "Link",
-                      "class": "ms-fontSize-20 ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                    },
-                    "customRowAction": {
-                      "action": "share"
-                    }
-                  },
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "display": "=if([$_CommentCount]>0,'inline-flex','none')"
-                    },
-                    "children": [
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "padding": "10px",
-                          "display": "flex",
-                          "cursor": "pointer",
-                          "border-bottom": "1px solid",
-                          "border-top": "1px solid"
-                        },
-                        "attributes": {
-                          "title": "= [$_CommentCount] + ' Comments'",
-                          "class": "ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                        },
-                        "customRowAction": {
-                          "action": "defaultClick"
-                        },
-                        "children": [
-                          {
-                            "elmType": "div",
-                            "attributes": {
-                              "iconName": "Comment",
-                              "class": "ms-fontSize-20 ms-fontColor-themePrimary"
-                            }
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "padding-left": "5px"
-                            },
-                            "attributes": {
-                              "class": "ms-fontSize-14 ms-fontColor-themePrimary"
-                            },
-                            "txtContent": "[$_CommentCount]"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "10px",
-                      "cursor": "pointer",
-                      "border-bottom": "1px solid",
-                      "border-top": "1px solid"
-                    },
-                    "attributes": {
-                      "title": "Edit",
-                      "iconName": "Edit",
-                      "class": "ms-fontSize-20 ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                    },
-                    "customRowAction": {
-                      "action": "defaultClick"
-                    }
-                  },
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "10px",
-                      "border-top": "1px solid",
-                      "border-bottom": "1px solid",
-                      "border-right": "1px solid",
-                      "border-top-right-radius": "25px",
-                      "border-bottom-right-radius": "25px",
-                      "cursor": "pointer"
-                    },
-                    "attributes": {
-                      "title": "Delete",
-                      "iconName": "Delete",
-                      "class": "ms-fontSize-20 ms-bgColor-gray60--hover ms-fontColor-themePrimary"
-                    },
-                    "customRowAction": {
-                      "action": "delete"
-                    }
-                  }
-                ]
+                "attributes": {
+                  "class": "ms-bgColor-themePrimary"
+                }
               }
             ]
           },
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
-              "padding-left": "=if([$Expand]==true && [$PermMask]!='0xb008431061','65px','0px')"
+              "display": "=if((@rowIndex % 2)==0,'none','')",
+              "margin-top": "50px",
+              "border-radius": "25px",
+              "height": "2px",
+              "width": "30px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
             },
             "children": [
               {
                 "elmType": "div",
-                "style": {
-                  "border": "1px solid",
-                  "border-radius": "10px",
-                  "width": "40px",
-                  "height": "20px",
-                  "padding": "5px",
-                  "text-align": "center",
-                  "margin-top": "20px",
-                  "cursor": "pointer"
-                },
-                "attributes": {
-                  "class": "ms-bgColor-neutralLight--hover ms-fontColor-themePrimary"
-                },
-                "customRowAction": {
-                  "action": "setValue",
-                  "actionInput": {
-                    "Vote": "=if(indexOf([$Vote.email],@me) > -1, removeFrom([$Vote.email],@me), appendTo([$Vote.email],@me))"
-                  }
-                },
                 "children": [
                   {
                     "elmType": "div",
-                    "attributes": {
-                      "iconName": "SortUp",
-                      "class": "ms-fontSize-16 ms-fontWeight-semibold ms-fontColor-themePrimary"
-                    },
                     "style": {
-                      "display": "inline-block"
-                    }
-                  },
-                  {
-                    "elmType": "div",
-                    "txtContent": "=length([$Vote])",
-                    "attributes": {
-                      "class": "ms-fontSize-16 ms-fontWeight-semibold"
+                      "display": "=if((@rowIndex % 2)==1,'none','')",
+                      "height": "100px",
+                      "width": "120px",
+                      "border-radius": "10px  0 0 10px",
+                      "position": "relative"
                     },
-                    "style": {
-                      "display": "inline-block"
-                    }
+                    "attributes": {
+                      "class": "ms-bgColor-themePrimary"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "absolute",
+                          "top": "35px",
+                          "left": "20px",
+                          "opacity": "1.8"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-18 ms-fontWeight-bold ms-fontColor-white"
+                        },
+                        "txtContent": "=toLocaleDateString([$Modified])"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "elmType": "div",
-                "attributes": {
-                  "class": "ms-fontSize-16 ms-bgColor-gray30"
-                },
                 "style": {
-                  "padding": "15px",
-                  "border-radius": "10px",
-                  "margin": "10px",
-                  "height": "20px"
+                  "padding": "8px",
+                  "width": "600px",
+                  "border-radius": "=if((@rowIndex % 2)==1,'0 10px 10px 0','10px 0 0 10px ')",
+                  "box-shadow": "rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px"
                 },
                 "children": [
                   {
@@ -368,28 +115,10 @@
                     "style": {
                       "cursor": "pointer"
                     },
-                    "inlineEditField": "[$Categories]",
-                    "txtContent": "=substring([$Categories],0,indexOf([$Categories], ' '))"
-                  }
-                ]
-              },
-              {
-                "elmType": "div",
-                "style": {},
-                "children": [
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "cursor": "pointer",
-                      "white-space": "nowrap",
-                      "overflow": "hidden",
-                      "text-overflow": "ellipsis",
-                      "padding": "0 10px"
-                    },
-                    "txtContent": "[$Title]",
                     "attributes": {
-                      "class": "ms-fontSize-20 ms-fontWeight-semibold ms-fontColor-themePrimary"
+                      "class": "ms-fontSize-18 ms-fontWeight-bold "
                     },
+                    "txtContent": "=toUpperCase([$Title])",
                     "customCardProps": {
                       "formatter": {
                         "elmType": "div",
@@ -419,7 +148,6 @@
                               },
                               {
                                 "elmType": "div",
-                                "inlineEditField": "[$Title]",
                                 "txtContent": "[$Title]",
                                 "style": {
                                   "padding": "0px 5px 5px 5px",
@@ -442,19 +170,15 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "inlineEditField": "[$Description]",
                                 "txtContent": "[$Description]",
                                 "style": {
-                                  "padding": "10px",
-                                  "margin-left": "15px",
+                                  "padding": "0px 10px 10px 5px",
+                                  "margin-left": "35px",
                                   "display": "inline-block",
-                                  "width": "350px",
+                                  "max-width": "400px",
                                   "max-height": "300px",
                                   "overflow": "auto",
                                   "cursor": "pointer"
-                                },
-                                "attributes": {
-                                  "class": "sp-field-italic sp-css-backgroundColor-neutralLighterAlt"
                                 }
                               }
                             ]
@@ -1159,6 +883,7 @@
                                   }
                                 ]
                               }
+
                             ]
                           },
                           {
@@ -1167,7 +892,7 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "txtContent": "= [$ID] +' Last Modified ' + if(getMonth([$Modified])==0, 'Jan', if(getMonth([$Modified])==1, 'Feb', if(getMonth([$Modified])==2, 'Mar', if(getMonth([$Modified])==3, 'Apr',  if(getMonth([$Modified])==4, 'May', if(getMonth([$Modified])==5, 'Jun', if(getMonth([$Modified])==6 , 'Jul', if(getMonth([$Modified])==7, 'Aug', if(getMonth([$Modified])==8 , 'Sep', if(getMonth([$Modified])==9, 'Oct', if(getMonth([$Modified])==10, 'Nov', if(getMonth([$Modified])==11, 'Dec', ''))))))))))))+ ' ' +getDate([$Modified])+ ', '+ getYear([$Modified]) + ' by ' + [$personIterator.title] +' v'+[$owshiddenversion]",
+                                "txtContent": "= [$ID] +' Last Modified ' + toLocaleDateString([$Modified]) + ' by ' + [$personIterator.title] +' v'+[$owshiddenversion]",
                                 "attributes": {
                                   "class": "ms-fontSize-12 ms-fontColor-gray100"
                                 },
@@ -1182,70 +907,110 @@
                         ]
                       },
                       "openOnEvent": "click",
-                      "directionalHint": "bottomCenter",
+                      "directionalHint": "topCenter",
                       "isBeakVisible": true
                     }
                   },
                   {
                     "elmType": "div",
                     "style": {
-                      "height": "30px",
+                      "height": "60px",
                       "white-space": "nowrap",
                       "overflow": "hidden",
-                      "text-overflow": "ellipsis",
-                      "cursor": "pointer"
+                      "text-overflow": "ellipsis"
                     },
-                    "inlineEditField": "[$Tags]",
                     "attributes": {
-                      "iconName": "=if(length([$Tags])==0,'Tag','')",
-                      "class": "=if(length([$Tags])==0,'ms-fontSize-24','ms-fontSize-14')+ ' ms-fontColor-themePrimary'"
+                      "class": "ms-fontSize-14 sp-field-italic"
                     },
-                    "children": [
-                      {
-                        "columnFormatterReference": "[$Tags]"
-                      }
-                    ]
-                  },
-                  {
-                    "elmType": "div",
-                    "style": {
-                      "padding": "10px"
-                    },
-                    "forEach": "personIterator in [$Author]",
-                    "children": [
-                      {
-                        "elmType": "div",
-                        "style": {
-                          "border-radius": "50%"
-                        },
-                        "attributes": {
-                          "class": "ms-fontColor-gray100"
-                        },
-                        "txtContent": "=[$personIterator.title] + ' started on '+ if(getMonth([$Created])==0, 'Jan', if(getMonth([$Created])==1, 'Feb', if(getMonth([$Created])==2, 'Mar', if(getMonth([$Created])==3, 'Apr',  if(getMonth([$Created])==4, 'May', if(getMonth([$Created])==5, 'Jun', if(getMonth([$Created])==6 , 'Jul', if(getMonth([$Created])==7, 'Aug', if(getMonth([$Created])==8 , 'Sep', if(getMonth([$Created])==9, 'Oct', if(getMonth([$Created])==10, 'Nov', if(getMonth([$Created])==11, 'Dec', ''))))))))))))+ ' ' +getDate([$Created])+ ', '+ getYear([$Created]) +' in '+ substring([$Categories],indexOf([$Categories], ' '),lastIndexOf([$Categories]+';', ';'))"
-                      }
-                    ]
+                    "txtContent": "[$Description]"
                   }
                 ]
               },
               {
                 "elmType": "div",
                 "style": {
-                  "padding": "10px"
+                  "display": "=if((@rowIndex % 2)==0,'none','')"
                 },
-                "forEach": "personIterator in [$Author]",
                 "children": [
                   {
-                    "elmType": "img",
-                    "defaultHoverField": "[$personIterator]",
+                    "elmType": "div",
                     "style": {
-                      "width": "40",
-                      "border-radius": "50%"
+                      "height": "100px",
+                      "width": "120px",
+                      "border-radius": "0px  10px 10px 0px",
+                      "position": "relative"
                     },
                     "attributes": {
-                      "src": "=getUserImage('[$personIterator.email]','small')"
-                    }
+                      "class": "ms-bgColor-themePrimary"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "absolute",
+                          "top": "35px",
+                          "left": "20px",
+                          "opacity": "1.8"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-18 ms-fontWeight-bold ms-fontColor-white"
+                        },
+                        "txtContent": "=toLocaleDateString([$Modified])"
+                      }
+                    ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if((@rowIndex % 2)==1,'none','')",
+              "margin-top": "50px",
+              "border-radius": "25px",
+              "height": "2px",
+              "width": "30px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if((@rowIndex % 2)==1,'none','')",
+              "margin-top": "10px",
+              "height": "80px",
+              "width": "80px",
+              "font-size": "30px",
+              "border-radius": "50%",
+              "position": "relative"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "20px",
+                  "text-align": "center"
+                },
+                "txtContent": "=substring([$Categories],0,indexOf([$Categories], ' '))"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "margin": "0px 0 0 40px",
+                  "border-radius": "25px",
+                  "height": "50px",
+                  "width": "2px",
+                  "background-color": "[$Color]"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-themePrimary"
+                }
               }
             ]
           }
