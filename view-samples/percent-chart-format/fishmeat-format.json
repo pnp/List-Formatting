@@ -1,0 +1,239 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "20px",
+          "border-bottom": "1px solid #eee",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding-right": "10px",
+              "min-width": "100px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "end",
+                  "border-bottom": "1px dotted"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-14 ms-fontWeight-bold"
+                },
+                "txtContent": "[$Year]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontWeight-bold"
+                },
+                "txtContent": "Value"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace",
+                  "border-bottom": "1px dotted"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontColor-themePrimary"
+                },
+                "inlineEditField": "[$Value]",
+                "txtContent": "=[$Value.displayValue]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontWeight-bold"
+                },
+                "txtContent": "Total"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontColor-themePrimary"
+                },
+                "inlineEditField": "[$Total]",
+                "txtContent": "=[$Total.displayValue]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "=toString(((580*[$Value])/[$Total]))+ 'px'"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralTertiary"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "fill": "[$Color]",
+                      "stroke": "none",
+                      "overflow": "hidden"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🐟"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🥩"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🐟"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🥩"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🐟"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🥩"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🐟"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🥩"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🐟"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 0 10px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-42"
+                        },
+                        "txtContent": "🥩"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "20px 0 10px 0",
+                      "color": "#0000",
+                      "width": "=toString(580-((580*[$Value])/[$Total])) + 'px'",
+                      "min-width": "190px",
+                      "height": "88px",
+                      "float": "left",
+                      "position": "absolute",
+                      "top": "0",
+                      "left": "=if([$Value]>[$Total],'580',toString(((580*[$Value])/[$Total]))) + 'px'"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-family": "sans-serif",
+                          "padding": "5px"
+                        },
+                        "txtContent": "=toString(ceiling(((100*[$Value])/[$Total])))+'%'",
+                        "attributes": {
+                          "class": "ms-fontSize-42 ms-fontColor-themePrimary"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
