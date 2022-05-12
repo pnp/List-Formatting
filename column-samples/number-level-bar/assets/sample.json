@@ -4,10 +4,10 @@
     "reponame": "number-level-bar",
     "source": "pnp",
     "title": "Number Level Bar",
-    "shortDescription": "This sample demonstrates changing text output based on the @lcid token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue.",
+    "shortDescription": "This sample demonstrates displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-level-bar",
     "longDescription": [
-      "This sample demonstrates changing text output based on the @lcid token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue."
+      "This sample demonstrates displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons."
     ],
     "creationDateTime": "2022-05-12T00:00:00.000Z",
     "updateDateTime": "2022-05-12T00:00:00.000Z",

@@ -7,7 +7,7 @@ This sample demonstrates displaying a percentage across a bar. End users are abl
 
 ## View requirements
 
-This format can be applied to any peson column. Shown above on the default Created By column.
+This format can be applied to any number column. It expects the values to be percents (0-1) but the format could be adjusted for custom ranges by changing the expressions.
 
 ## Sample
 
