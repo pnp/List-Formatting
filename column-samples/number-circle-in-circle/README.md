@@ -1,9 +1,9 @@
 # Number Circle in Circle
 
 ## Summary
-This sample shows who the percentage value in a column can be displayed as the area of a circle within  another circle.
+This sample shows how the percentage value in a column can be displayed as the area of a circle within another circle.
 
-![screenshot of the sample](./Circle_percent_result.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent)
@@ -13,7 +13,7 @@ This sample shows who the percentage value in a column can be displayed as the a
 
 Solution|Author(s)
 --------|---------
-number-circle-in-circle.json | [Geert de Kooter](@gdekooter)
+number-circle-in-circle.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-circle-in-circle" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-circle-in-circle" />
