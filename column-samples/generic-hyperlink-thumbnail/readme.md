@@ -26,8 +26,8 @@ basics from: https://github.com/pnp/List-Formatting/tree/master/column-samples/p
 
 Solution|Author(s)
 --------|---------
-generic-hyperlink-thumbnail.json | Josef Lahmer
-generic-image-thumbnail.json | Josef Lahmer
+generic-hyperlink-thumbnail.json | [Josef Lahmer](https://github.com/josy1024) ([@josy1024](https://twitter.com/josy1024))
+generic-image-thumbnail.json | [Josef Lahmer](https://github.com/josy1024) ([@josy1024](https://twitter.com/josy1024))
 
 ## Version history
 
@@ -36,7 +36,7 @@ Version|Date|Comments
 1.0|July 17, 2018 |Initial release
 1.1|August 20, 2018|Switched to Excel-style expressions
 1.2|January 9, 2019|Removed hardcoded url and replaced with @currentWeb token
-1.3|April 9, 2019|Bugfix in @currentWeb, + generic-image-thumbnail
+1.3|April 9, 2019|Bug fix in @currentWeb, + generic-image-thumbnail
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -48,4 +48,4 @@ Version|Date|Comments
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-hyperlink-thumbnail" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-hyperlink-thumbnail" />

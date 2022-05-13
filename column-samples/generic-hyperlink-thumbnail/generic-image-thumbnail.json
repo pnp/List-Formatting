@@ -1,32 +1,32 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-    "elmType": "div",
-    "children": [
-      {
-        "elmType": "div",
-        "style": {
-          "width": "64px",
-          "height": "64px",
-          "overflow": "hidden",
-          "border-radius": "10%"
-        },
-        "children": [
-          {
-            "elmType": "img",
-            "attributes": {
-              "src": "=@currentWeb + '/_layouts/15/getpreview.ashx?resolution=1&path=' + [$FileRef]"
-            },
-            "style": {
-              "position": "relative",
-              "top": "50%",
-              "left": "50%",
-              "width": "100%",
-              "height": "auto",
-              "margin-left": "-50%",
-              "margin-top": "-50%"
-            }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "width": "64px",
+        "height": "64px",
+        "overflow": "hidden",
+        "border-radius": "10%"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "=@currentWeb + '/_layouts/15/getpreview.ashx?resolution=1&path=' + [$FileRef]"
+          },
+          "style": {
+            "position": "relative",
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "auto",
+            "margin-left": "-50%",
+            "margin-top": "-50%"
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
+}
