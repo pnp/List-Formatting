@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Smiley faces for good quiz results",
     "shortDescription": "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/color-based-smiley-face",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/color-based-smiley-face",
     "longDescription": [
       "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of"
     ],
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Status / Progress"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
