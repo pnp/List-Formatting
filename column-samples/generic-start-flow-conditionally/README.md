@@ -46,7 +46,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-generic-start-flow-conditionally.json | Chris Kent
+generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -63,4 +63,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-start-flow-conditionally" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-start-flow-conditionally" />
