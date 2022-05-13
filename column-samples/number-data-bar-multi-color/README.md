@@ -1,4 +1,4 @@
-# Number column as data bars with multiple colors
+# Multi-Colored Databars
 
 ## Summary
 
@@ -20,9 +20,9 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-number-data-bar-multi-color.json |[Ganesh Sanap](https://twitter.com/GaneshSanap20)
+Solution|Author(s)
+--------|---------
+number-data-bar-multi-color.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
 
 ## Version history
 
