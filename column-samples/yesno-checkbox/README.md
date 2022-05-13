@@ -23,7 +23,7 @@ Also, this sample uses the `setValue` of `customRowAction` to update the field. 
 
 Solution|Author(s)
 --------|---------
-yesno-checkbox.json | [Chris Kent](https://twitter.com/thechriskent) & [Tetsuya Kawahara](https://twitter.com/techan_k)
+yesno-checkbox.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent)), [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version|Date|Comments
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-checkbox" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/yesno-checkbox" />
