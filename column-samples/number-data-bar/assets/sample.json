@@ -4,10 +4,10 @@
     "reponame": "number-data-bar",
     "source": "pnp",
     "title": "Format a number column as a data bar",
-    "shortDescription": "These formats apply \u0060background-color\u0060 and \u0060border-top\u0060 styles to create a data bar visualization of \u0060@currentField\u0060, which is a number field. These styles are applied using the special column formatting class \u0060sp-field-dataBars\u0060. The bars are sized differently for different values based on the way the \u0060width\u0060 attribute of the main \u0060div\u0060 is set.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-data-bar",
+    "shortDescription": "These formats apply background-color and border-top styles to create a data bar visualization of @currentField, which is a number field. These styles are applied using the special column formatting class sp-field-dataBars. The bars are sized differently for different values based on the way the width attribute of the main div is set.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-data-bar",
     "longDescription": [
-      "These formats apply \u0060background-color\u0060 and \u0060border-top\u0060 styles to create a data bar visualization of \u0060@currentField\u0060, which is a number field. These styles are applied using the special column formatting class \u0060sp-field-dataBars\u0060. The bars are sized differently for different values based on the way the \u0060width\u0060 attribute of the main \u0060div\u0060 is set."
+      "These formats apply background-color and border-top styles to create a data bar visualization of @currentField, which is a number field. These styles are applied using the special column formatting class sp-field-dataBars. The bars are sized differently for different values based on the way the width attribute of the main div is set."
     ],
     "creationDateTime": "2017-11-02T00:00:00.000Z",
     "updateDateTime": "2019-05-17T00:00:00.000Z",
@@ -21,30 +21,50 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-dataBars"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-data-bar/assets/screenshot-percent.png?raw=true",
-        "alt": "screenshot-percent"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-data-bar/assets/screenshot.png",
+        "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-data-bar/assets/screenshot.png?raw=true",
-        "alt": "screenshot"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-data-bar/assets/screenshot-percent.png",
+        "alt": "screenshot-percent"
       }
     ],
     "authors": [
@@ -52,6 +72,11 @@
         "gitHubAccount": "VesaJuvonen",
         "pictureUrl": "https://github.com/VesaJuvonen.png",
         "name": "Vesa Juvonen"
+      },
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
       }
     ],
     "references": [
