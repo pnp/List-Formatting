@@ -27,7 +27,7 @@ This format relies on `Doc.aspx` which supports the viewing of Microsoft Office 
 
 Solution|Author(s)
 --------|---------
-generic-file-preview.json | [Geert de Kooter](@gdekooter)
+generic-file-preview.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
 
 ## Version history
 
@@ -43,4 +43,4 @@ Version|Date|Comments
 ## Additional notes
 none
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-file-preview/" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-file-preview" />
