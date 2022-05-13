@@ -40,7 +40,7 @@ In this version of the sample, the days left are displayed within the box:
 
 Solution|Author(s)
 --------|---------
-date-range-rag.json | [Christopher Parker](https://twitter.com/ChrispyBites)
+date-range-rag.json | [Christopher Parker](https://github.com/ChrispyBites) ([@ChrispyBites](https://twitter.com/ChrispyBites))
 date-range-rag-days-left.json | [Joe Ayre](https://github.com/JoeAyre)
 
 ## Version history
@@ -64,4 +64,4 @@ Version|Date|Comments
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-range-rag" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-range-rag" />
