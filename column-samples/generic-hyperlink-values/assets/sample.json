@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Turn field values into hyperlinks",
     "shortDescription": "This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a \u0060\u002B\u0060 operator that appends the current field value to the static hyperlink \u003Ca\u003Ehttp://finance.yahoo.com/quote/\u003C/a\u003E. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-hyperlink-values",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-hyperlink-values",
     "longDescription": [
       "This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a \u0060\u002B\u0060 operator that appends the current field value to the static hyperlink \u003Ca\u003Ehttp://finance.yahoo.com/quote/\u003C/a\u003E. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item."
     ],
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/generic-hyperlink-values/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-hyperlink-values/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
