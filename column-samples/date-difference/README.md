@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates calculating the difference between 2 dates. In this sample the age in years is calculated based on the date of birth and the date of death. This format could easily be adjusted to calculate a different unit of time (months, days, hours, minutes, etc.) by adjusting the multiplier.
 
-![screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -18,7 +18,7 @@ This format can be applied to any column, however it expects the following field
 
 Solution|Author(s)
 --------|---------
-date-difference.json | [Chris Kent](https://twitter.com/thechriskent)
+date-difference.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -35,4 +35,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-difference" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-difference" />
