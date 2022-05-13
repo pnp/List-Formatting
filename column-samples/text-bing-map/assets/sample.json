@@ -4,10 +4,10 @@
     "reponame": "text-bing-map",
     "source": "pnp",
     "title": "Displays a customizable Bing Map image for a given location in a Multi-Line of Text Field",
-    "shortDescription": "This template uses Bing Maps\u0027 [staticmap API](https://docs.microsoft.com/en-us/bingmaps) which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation: ([static map](https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map)",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-bing-map",
+    "shortDescription": "This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-bing-map",
     "longDescription": [
-      "This template uses Bing Maps\u0027 [staticmap API](https://docs.microsoft.com/en-us/bingmaps) which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation: ([static map](https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map)"
+      "This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation"
     ],
     "creationDateTime": "2019-02-04T00:00:00.000Z",
     "updateDateTime": "2019-02-04T00:00:00.000Z",
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-borderColor-neutralLighter"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-bing-map/assets/text-bing-map-Screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-bing-map/assets/screenshot.png",
         "alt": "text-bing-map-Screenshot"
       }
     ],
@@ -53,6 +73,16 @@
         "name": "Use column formatting to customize SharePoint",
         "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      },
+      {
+        "name": "Microsoft Bing Maps",
+        "description": "Microsoft Bing Maps",
+        "url": "https://docs.microsoft.com/en-us/bingmaps"
+      },
+      {
+        "name": "Microsoft Bing Static Map API Documentation",
+        "description": "Microsoft Bing Static Map API Documentation",
+        "url": "https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map"
       }
     ]
   }
