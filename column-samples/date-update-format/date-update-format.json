@@ -1,7 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
-  "style": {},
   "children": [
     {
       "elmType": "div",
@@ -11,12 +10,12 @@
         "cursor": "pointer"
       },
       "attributes": {
-        "iconName": "Calendar"
+        "iconName": "EventDate"
       },
       "customRowAction": {
         "action": "setValue",
         "actionInput": {
-          "CustomDateYear": "@now"
+          "CustomDate": "@now"
         }
       }
     },
@@ -33,7 +32,7 @@
       "customRowAction": {
         "action": "setValue",
         "actionInput": {
-          "CustomDateYear": "=addDays(Date([$CustomDateYear]),365)"
+          "CustomDate": "=addDays(Date([$CustomDate]),1)"
         }
       }
     },
@@ -43,8 +42,8 @@
         "font-size": "12pt",
         "padding": "5px"
       },
-      "txtContent": "=if(length([$CustomDateYear]) == 0,'(no date)',toLocaleDateString((Date([$CustomDateYear])))",
-      "inlineEditField": "[$CustomDateYear]"
+      "txtContent": "=if(length([$CustomDate]) == 0,'(no date)',toLocaleDateString((Date([$CustomDate])))",
+      "inlineEditField": "[$CustomDate]"
     },
     {
       "elmType": "div",
@@ -59,22 +58,22 @@
       "customRowAction": {
         "action": "setValue",
         "actionInput": {
-          "CustomDateYear": "=addDays(Date([$CustomDateYear]),-365)"
+          "CustomDate": "=addDays(Date([$CustomDate]),-1)"
         }
       }
     },
     {
       "elmType": "div",
-      "style": {
-        "cursor": "pointer"
-      },
       "attributes": {
         "iconName": "ErrorBadge"
+      },
+      "style": {
+        "cursor": "pointer"
       },
       "customRowAction": {
         "action": "setValue",
         "actionInput": {
-          "CustomDateYear": ""
+          "CustomDate": ""
         }
       }
     }

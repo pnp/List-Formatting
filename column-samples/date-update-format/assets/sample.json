@@ -1,51 +1,79 @@
 [
-	{
-		"name": "pnp-list-formatting-date-update-format",
-		"reponame": "date-update-format",
-		"source": "pnp",
-		"title": "date update format",
-		"shortDescription": "This sample includes format to manage date in view column.",
-		"url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-update-format",
-		"longDescription": [
-			"This sample includes format to manage date in view column."
-		],
-		"creationDateTime": "2021-12-09T00:00:00.000Z",
-		"updateDateTime": "2021-12-09T00:00:00.000Z",
-		"products": [
-			"SharePoint",
-			"List Formatting"
-		],
-		"metadata": [
-			{
-				"key": "LIST-SAMPLE-TYPE",
-				"value": "Column"
-			},
-			{
-				"key": "SHAREPOINT-COMPATIBILITY",
-				"value": "SharePoint Online"
-			}
-		],
-		"thumbnails": [
-			{
-				"type": "image",
-				"order": 100,
-				"url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-update-format/assets/ColumnDates.gif",
-				"alt": "date update format"
-			}
-		],
-		"authors": [
-			{
-				"gitHubAccount": "aaclage",
-				"pictureUrl": "https://github.com/aaclage.png",
-				"name": "André Lage"
-			}
-		],
-		"references": [
-			{
-				"name": "Use column formatting to customize SharePoint",
-                "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
-                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
-			}
-		]
-	}
+  {
+    "name": "pnp-list-formatting-date-update-format",
+    "reponame": "date-update-format",
+    "source": "pnp",
+    "title": "date update format",
+    "shortDescription": "Demonstrates updating a date value directly from the format.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-update-format",
+    "longDescription": [
+      "This sample demonstrates updating a date value directly from the format. This includes setting the date to the current date/time, incremeting/decrementing the date by day (alternate format included to demonstrate incrementing/decrementing by year), and clearing the date."
+    ],
+    "creationDateTime": "2021-12-09T00:00:00.000Z",
+    "updateDateTime": "2021-12-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Date"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Date, toLocaleDateString, length, addDays, setValue, inlineEditField, addYears"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "inlineEditField"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-update-format/assets/screenshot.gif",
+        "alt": "date update format"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
 ]
