@@ -14,7 +14,7 @@ This pattern is useful when you want different values to map to different levels
 
 Solution|Author(s)
 --------|---------
-text-conditional-format.json | SharePoint Team
+text-conditional-format.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
 
 ## Version history
 
@@ -35,4 +35,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-conditional-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-conditional-format" />
