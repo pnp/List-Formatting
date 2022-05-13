@@ -1,18 +1,19 @@
 [
     {
-      "name": "pnp-list-formatting-multi-choice-link",
-      "reponame": "multi-choice-link",
+      "name": "pnp-list-formatting-multi-choice-links",
+      "reponame": "multi-choice-links",
       "source": "pnp",
-      "title": "Multi choice link",
+      "title": "Multi choice Links",
       "shortDescription": "This sample shows how we can display multiple links in a single column using the multi-choice column.",
-      "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-link",
+      "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-links",
       "longDescription": [
         "This sample shows how we can display multiple links in a single column using the multi-choice column."
       ],
       "creationDateTime": "2021-04-14T00:00:00.000Z",
       "updateDateTime": "2021-04-14T00:00:00.000Z",
       "products": [
-        "SharePoint"
+        "SharePoint",
+        "Microsoft Lists"
       ],
       "metadata": [
         {
@@ -20,23 +21,43 @@
           "value": "Column"
         },
         {
-          "key": "LIST-COLUMN-TYPE",
-          "value": "Choice"
-        },
-        {
-          "key": "LIST-CATEGORY",
-          "value": "Links"
-        },
-        {
           "key": "SHAREPOINT-COMPATIBILITY",
           "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": ""
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": "Multi-Choice"
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "indexOf, substring, lastIndexOf"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "forEach"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-bgColor-themeLight, ms-bgColor-themeLighter--hover, ms-fontColor-themeDark, ms-fontWeight-regular, ms-fontSize-sPlus, ms-fontSize-s"
         }
       ],
       "thumbnails": [
         {
           "type": "image",
           "order": 100,
-          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-link/assets/screenshot.png",
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-links/assets/screenshot.png",
           "alt": "screenshot"
         }
       ],

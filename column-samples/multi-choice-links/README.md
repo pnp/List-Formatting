@@ -1,13 +1,13 @@
-# Multi-Choice link
+# Multi-Choice Links
 
 ## Summary
 This sample shows how we can display multiple links in a single column using the multi-choice column.
 
 **Note:** If rich text column is used to display links then this sample can be ignored. 
 
-![multi-choice-link-column](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-## Important requirement
+## View requirements
 The sample expects the choices in the `Sessions` column to use the format `<Link Title>|<The actual link>|`.
 
 For Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column should be `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
@@ -32,7 +32,7 @@ We then extract `<the actual link>` using this formula:
 
 Solution|Author(s)
 --------|---------
-multi-choice-link | [Anoop Tatti](https://twitter.com/anooptells)
+multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
 
 ## Version history
 
@@ -45,4 +45,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-choice-links" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-links" />
