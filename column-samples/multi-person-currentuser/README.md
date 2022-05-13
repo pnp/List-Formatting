@@ -17,7 +17,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 Solution|Author(s)
 --------|---------
-multi-person-currentuser.json | [Chris Kent](https://twitter.com/thechriskent)
+multi-person-currentuser.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version|Date|Comments
 This sample works for **both** single and multi-select person fields.However, an additional sample is available intended for use with single-select person fields: [person-currentuser-rowclass](../person-currentuser). It is a simpler sample intended to show how to use the `@me` operator.
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-person-currentuser" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-currentuser" />
