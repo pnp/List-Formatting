@@ -4,10 +4,10 @@
     "reponame": "multi-choice-icons",
     "source": "pnp",
     "title": "Multi-Choice Icons",
-    "shortDescription": "This sample demonstrates using the \u0060indexOf\u0060 and \u0060join\u0060 functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn\u0027t suffer from varying item order or text formatting issues.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-icons",
+    "shortDescription": "This sample demonstrates using the indexOf and join functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-icons",
     "longDescription": [
-      "This sample demonstrates using the \u0060indexOf\u0060 and \u0060join\u0060 functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn\u0027t suffer from varying item order or text formatting issues."
+      "This sample demonstrates using the indexOf and join functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues."
     ],
     "creationDateTime": "2019-02-05T00:00:00.000Z",
     "updateDateTime": "2019-02-05T00:00:00.000Z",
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Multi-Choice"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "indexOf"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, join"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themeDark, ms-fontColor-neutralLight"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/multi-choice-icons/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-icons/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

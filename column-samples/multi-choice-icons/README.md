@@ -46,7 +46,7 @@ We can use the `join` or `toString` functions on the value first and then nest t
 
 Solution|Author(s)
 --------|---------
-multi-choice-icons.json | [Chris Kent](https://twitter.com/thechriskent)
+multi-choice-icons.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -64,4 +64,4 @@ Version|Date|Comments
 
 The `indexOf` and `join` functions are not available in SharePoint 2019
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-choice-icons" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-icons" />
