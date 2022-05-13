@@ -1,9 +1,9 @@
-# teams call format
+# Teams Call Format
 
 ## Summary
 This sample uses [Microsoft Teams deep links](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-an-audio-or-audio-video-call)  to create links from selected user that allow to make Microsoft Teams calls to user.
 
-![Date update](./assets/Teamscallformat.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - The format expect the following fields:
@@ -17,7 +17,7 @@ Person | Person - Person field with multiple selections
 
 Solution|Author(s)
 --------|---------
-[teams-call-format.json](./teams-call-format.json) | [André Lage](https://twitter.com/aaclage)
+person-teams-call-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
