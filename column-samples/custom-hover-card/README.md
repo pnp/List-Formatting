@@ -5,7 +5,7 @@ The following image shows a list with a custom hover added to a List:
 
 On hover - Metadata on the column "Status" is made available via column formatting
 
-![screenshot of the sample](./assets/Status_hover.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
@@ -24,7 +24,7 @@ Product Photo       | Picture
 
 Solution|Author(s)
 --------|---------
-custom-hover-card.json | Niket Jain
+custom-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 
 ## Version history
 
@@ -45,4 +45,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/custom-hover-cards" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/custom-hover-card" />

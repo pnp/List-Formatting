@@ -1,4 +1,5 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "font-size": "12px"
@@ -225,7 +226,7 @@
                         "font-weight": "600",
                         "text-align": "center",
                         "border-left-style": "solid",
-                        "border-left-color": "= if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
+                        "border-left-color": "=if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
                         "margin-left": "21px"
                       },
                       "attributes": {

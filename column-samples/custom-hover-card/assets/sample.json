@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-custom-hover-cards",
-    "reponame": "custom-hover-cards",
+    "name": "pnp-list-formatting-custom-hover-card",
+    "reponame": "custom-hover-card",
     "source": "pnp",
     "title": "Custom hover card on Lists",
     "shortDescription": "The following image shows a list with a custom hover added to a List:",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-cards",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/custom-hover-card",
     "longDescription": [
       "The following image shows a list with a custom hover added to a List:"
     ],
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-black, ms-fontColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-neutralSecondaryAlt"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/custom-hover-cards/assets/Status_hover.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/custom-hover-card/assets/screenshot.png",
         "alt": "Status_hover"
       }
     ],
