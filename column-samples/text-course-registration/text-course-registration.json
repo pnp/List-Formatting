@@ -11,7 +11,7 @@
     {
       "elmType": "div",
       "style": {
-        "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) == -1 && length([$PeopleWhoRegistered]) != [$NumberofPlaces] && @now <= [$RegistrationEndDate], 'inherit','none')",
+        "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) == -1 && length([$PeopleWhoRegistered]) != [$NumberOfPlaces] && @now <= [$RegistrationEndDate], '','none')",
         "flex-directon": "row",
         "justify-content": "left",
         "align-items": "center",
@@ -23,12 +23,12 @@
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
-              "Text": "Update",
               "PeopleWhoRegistered": "=appendTo([$PeopleWhoRegistered], @me)"
             }
           },
           "attributes": {
-            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
+            "title": "Register"
           },
           "style": {
             "border": "none",
@@ -56,12 +56,58 @@
     },
     {
       "elmType": "div",
+      "style": {
+        "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) > -1 && @now <= [$RegistrationEndDate], '','none')",
+        "flex-directon": "row",
+        "justify-content": "left",
+        "align-items": "center",
+        "flex-wrap": "wrap"
+      },
+      "children": [
+        {
+          "elmType": "button",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "PeopleWhoRegistered": "=removeFrom([$PeopleWhoRegistered], @me)"
+            }
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
+            "title": "Unregister"
+          },
+          "style": {
+            "border": "none",
+            "background-color": "transparent",
+            "cursor": "pointer",
+            "display": "flex",
+            "flex-directon": "row",
+            "justify-content": "left",
+            "align-items": "center",
+            "flex-wrap": "wrap"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "Blocked12"
+              },
+              "style": {
+                "padding": "0px"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Already Registered",
+          "txtContent": "Registered",
           "style": {
-            "display": "=if(indexOf([$PeopleWhoRegistered.email], @me) == -1, 'none','inherit')",
+            "display": "=if([$RegistrationEndDate] > @now && indexOf([$PeopleWhoRegistered.email], @me) > -1, '','none')",
             "padding-left": "5px",
             "word-break": "keep-all"
           }
@@ -75,21 +121,21 @@
           "elmType": "span",
           "txtContent": "Course is full",
           "style": {
-            "display": "=if(length([$PeopleWhoRegistered]) != [$NumberofPlaces], 'none','inherit')",
+            "display": "=if([$RegistrationEndDate] > @now && length([$PeopleWhoRegistered]) >= [$NumberOfPlaces], '','none')",
             "padding-left": "5px",
             "word-break": "keep-all"
           }
         }
       ]
     },
-        {
+    {
       "elmType": "div",
       "children": [
         {
           "elmType": "span",
           "txtContent": "Registration has ended",
           "style": {
-            "display": "=if(@now <= [$RegistrationEndDate], 'none','inherit')",
+            "display": "=if([$RegistrationEndDate] > @now, 'none','inherit')",
             "padding-left": "5px",
             "word-break": "keep-all"
           }
