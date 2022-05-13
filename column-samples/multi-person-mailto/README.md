@@ -2,7 +2,7 @@
 
 ## Summary
 
-This column formatting sample demonstrates how to add `mailto:` link against each person in multiple selection person column.
+This column formatting sample demonstrates how to add a `mailto:` link for each person in a multiple selection person column.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -14,9 +14,9 @@ This format expects to be applied to a multiple selection person column.
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-multi-person-mailto.json |[Ganesh Sanap](https://twitter.com/GaneshSanap20)
+Solution|Author(s)
+--------|---------
+multi-person-mailto.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
 
 ## Version history
 
