@@ -25,7 +25,7 @@
             "border-radius": "30px"
           },
           "attributes": {
-            "class": "ms-fontColor-white "
+            "class": "ms-fontColor-white"
           },
           "txtContent": "Off",
           "customRowAction": {
@@ -47,9 +47,6 @@
             "border-top": "=if([$AzureOption] == true ,'2px solid #0078d4','')",
             "border-bottom": "=if([$AzureOption] == true ,'2px solid #0078d4','')",
             "border-radius": "30px"
-          },
-          "attributes": {
-            "class": ""
           },
           "txtContent": "On",
           "customRowAction": {
