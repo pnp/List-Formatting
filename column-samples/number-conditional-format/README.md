@@ -12,7 +12,7 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 Solution|Author(s)
 --------|---------
-number-conditional-format.json | SharePoint Team
+number-conditional-format.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
 
 ## Version history
 
@@ -33,4 +33,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-conditional-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-conditional-format" />
