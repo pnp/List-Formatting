@@ -21,7 +21,7 @@ You can use this formatting to implement your own version of the *choices as pil
 
 Solution|Author(s)
 --------|---------
-generic-issuestatus-pill.json | [Hugo Bernier](https://twitter.com/bernierh)
+generic-issuestatus-pill.json | [Hugo Bernier](https://github.com/hugoabernier) ([@bernierh](https://twitter.com/bernierh))
 
 ## Version history
 
@@ -38,4 +38,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-issuestatus-pill" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-issuestatus-pill" />

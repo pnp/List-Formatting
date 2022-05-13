@@ -1,4 +1,5 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "flex-wrap": "wrap",
