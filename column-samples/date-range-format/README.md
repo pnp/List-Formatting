@@ -15,7 +15,7 @@ This example colors the current field red when the value inside an item's DueDat
 
 Solution|Author(s)
 --------|---------
-date-range-format.json | SharePoint Team
+date-range-format.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
 
 ## Version history
 
@@ -37,4 +37,4 @@ This sample is also covered in the main documentation around Column Formatting
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-range-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-range-format" />
