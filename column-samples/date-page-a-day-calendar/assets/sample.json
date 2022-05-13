@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Date"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Date, floor, getDate, getMonth, getYear"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontWeight-bold, ms-bgColor-themePrimary, ms-fontColor-white, ms-borderColor-themePrimary, ms-fontSize-20"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/date-page-a-day-calendar/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-page-a-day-calendar/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
@@ -45,6 +73,11 @@
         "name": "Use column formatting to customize SharePoint",
         "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      },
+      {
+        "name": "Zeller's congruence",
+        "description": "Details on how to calculate the day of the week",
+        "url": "https://en.wikipedia.org/wiki/Zeller%27s_congruence"
       }
     ]
   }
