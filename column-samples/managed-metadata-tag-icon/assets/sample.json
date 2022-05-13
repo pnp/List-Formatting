@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Managed Metadata"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-fontColor-white, ms-font-s"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/managed-metadata-tag-icon/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/managed-metadata-tag-icon/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
