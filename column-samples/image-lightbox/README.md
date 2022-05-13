@@ -21,8 +21,8 @@ Additional details about what size options are available can be found here: [Dri
 
 Solution|Author(s)
 --------|---------
-image-lightbox.json | [João Ferreira](https://twitter.com/Joao12Ferreira)
-image-lightbox-advanced.json | [Chris Kent](https://twitter.com/thechriskent)
+image-lightbox.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/Joao12Ferreira))
+image-lightbox-advanced.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/image-lightbox" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-lightbox" />
