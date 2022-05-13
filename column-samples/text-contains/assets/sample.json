@@ -4,10 +4,10 @@
     "reponame": "text-contains",
     "source": "pnp",
     "title": "Text Contains",
-    "shortDescription": "This sample demonstrates using the \u0060indexOf\u0060 function (O365 only) to test if text contains a given value. The sample also uses the \u0060toLowerCase\u0060 function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word _\u0022dead\u0022_ a class is applied to turn the text red.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-contains",
+    "shortDescription": "This sample demonstrates using the indexOf function (O365 only) to test if text contains a given value. The sample also uses the toLowerCase function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word 'dead' a class is applied to turn the text red.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-contains",
     "longDescription": [
-      "This sample demonstrates using the \u0060indexOf\u0060 function (O365 only) to test if text contains a given value. The sample also uses the \u0060toLowerCase\u0060 function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word _\u0022dead\u0022_ a class is applied to turn the text red."
+      "This sample demonstrates using the indexOf function (O365 only) to test if text contains a given value. The sample also uses the toLowerCase function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word 'dead' a class is applied to turn the text red."
     ],
     "creationDateTime": "2019-02-05T00:00:00.000Z",
     "updateDateTime": "2019-02-05T00:00:00.000Z",
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "indexOf"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Text Conditional"
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, toLowerCase"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-redDark"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-contains/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-contains/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
