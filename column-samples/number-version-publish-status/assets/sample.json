@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-number-using-modulo-publish",
-    "reponame": "number-using-modulo-publish",
+    "name": "pnp-list-formatting-number-version-publish-status",
+    "reponame": "number-version-publish-status",
     "source": "pnp",
     "title": "Publishing Status",
     "shortDescription": "Sample contains an example of using the modulo math expression for highlighting \u0027published\u0027, \u0027published with draft\u0027 and \u0027draft with no published versions\u0027 of pages",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-using-modulo-publish",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-version-publish-status",
     "longDescription": [
       "Sample contains an example of using the modulo math expression for highlighting \u0027published\u0027, \u0027published with draft\u0027 and \u0027draft with no published versions\u0027 of pages"
     ],
@@ -21,33 +21,49 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "Modulus %"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-severity--good, sp-field-severity--warning, sp-field-severity--severeWarning"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-using-modulo-publish/assets/example-after.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-version-publish-status/assets/screenshot.png",
         "alt": "example-after"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-using-modulo-publish/assets/example-before.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-version-publish-status/assets/screenshotBefore.png",
         "alt": "example-before"
       }
     ],

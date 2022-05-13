@@ -4,9 +4,9 @@
 Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages
 
 **Before**
-![screenshot of the sample before formatting](./assets/example-before.jpg)
+![screenshot of the sample before formatting](./assets/screenshotBefore.png)
 **After**
-![screenshot of the sample after formatting](./assets/example-after.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -17,7 +17,7 @@ Sample contains an example of using the modulo math expression for highlighting 
 
 Solution|Author(s)
 --------|---------
-publish-status-with-description.json | [Paul Bullock](https://twitter.com/pkbullock)
+number-version-publish-status.json | [Paul Bullock](https://github.com/pkbullock) ([@pkbullock](https://twitter.com/pkbullock))
 
 ## Version history
 
@@ -32,8 +32,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-
-- Example in the documentation where this is referenced: [https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4](https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4)
-
-
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-publishing-status" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-version-publish-status" />
