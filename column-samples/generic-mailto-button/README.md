@@ -16,7 +16,7 @@ This sample demonstrates making a mailto link (opens email with prepopulated val
 
 Solution|Author(s)
 --------|---------
-generic-mailto-button.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-mailto-button.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 - The [person-mailto](../person-mailto/) demonstrates a similar technique but is applied directly to a person field
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-mailto-button" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-mailto-button" />
