@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates combining a fixed SVG (gauge background) with a dynamic SVG (needle). It makes understanding number columns (percent) very intuitive.
 
-![screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 An alternate version (number-gauge-reversed) has been provided for scenarios where the gauge background should be reversed (green to red).
 
@@ -16,8 +16,8 @@ An alternate version (number-gauge-reversed) has been provided for scenarios whe
 
 Solution|Author(s)
 --------|---------
-number-gauge.json | [Chris Kent](https://twitter.com/thechriskent)
-number-gauge-reversed.json | [Chris Kent](https://twitter.com/thechriskent)
+number-gauge.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-gauge-reversed.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-gauge" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-gauge" />
