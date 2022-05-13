@@ -4,10 +4,10 @@
     "reponame": "file-thumbnail",
     "source": "pnp",
     "title": "File Thumbnails",
-    "shortDescription": "This sample utilizes the \u0060@thumbnail\u0060 placeholder token to create an inline preview for document libraries. Folders and filetypes where previews are not available will not display at all.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/file-thumbnail",
+    "shortDescription": "Utilizes the @thumbnail placeholder token to create an inline preview for document libraries.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/file-thumbnail",
     "longDescription": [
-      "This sample utilizes the \u0060@thumbnail\u0060 placeholder token to create an inline preview for document libraries. Folders and filetypes where previews are not available will not display at all."
+      "This sample utilizes the @thumbnail placeholder token to create an inline preview for document libraries. Folders and filetypes where previews are not available will not display at all."
     ],
     "creationDateTime": "2019-05-27T00:00:00.000Z",
     "updateDateTime": "2019-05-27T00:00:00.000Z",
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Document Library"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@thumbnail"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Document Library"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/file-thumbnail/assets/screenshot.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/file-thumbnail/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

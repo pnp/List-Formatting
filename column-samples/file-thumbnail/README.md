@@ -11,12 +11,15 @@ This sample utilizes the `@thumbnail` placeholder token to create an inline prev
 
 >Note - the automatic removal of the `img` element when dealing with folders or filetypes where previews are not available requires that properties of the `img` element do not use expressions.
 
+## View requirements
+This can be added on any column in a document library, overwriting its contents.
+
 ## Sample
 
 Solution|Author(s)
 --------|---------
-file-thumbnail.json | [Chris Kent](https://twitter.com/thechriskent)
-file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://twitter.com/techan_k)
+file-thumbnail.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -34,4 +37,4 @@ Version|Date|Comments
 
 - SharePoint Online only
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/file-thumbnail" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/file-thumbnail" />
