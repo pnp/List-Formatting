@@ -13,7 +13,7 @@ This allows teachers to show smiley faces next to quiz results similar to how th
 
 Solution|Author(s)
 --------|---------
-number-quiz-smiley-face.json | Matt Maher
+number-quiz-smiley-face.json | [Matt Maher](https://github.com/Maher256)
 
 ## Version history
 
@@ -34,4 +34,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-quiz-smiley-face" />
