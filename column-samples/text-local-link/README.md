@@ -32,9 +32,9 @@ This format illustrates providing a relative link that assumes the format knows 
 
 Solution|Author(s)
 --------|---------
-text-hardcoded-link.json | [Chris Kent](https://twitter.com/thechriskent)
-text-relative-link.json | [Chris Kent](https://twitter.com/thechriskent)
-text-local-link.json | [Chris Kent](https://twitter.com/thechriskent)
+text-local-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-hardcoded-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-relative-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -52,4 +52,4 @@ Version|Date|Comments
 
 The link's `href` attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the resources will be referenced from the correct location within the site. However, `@currentWeb` is not available in SharePoint 2019, so alternative approaches are included.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-local-link" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-local-link" />
