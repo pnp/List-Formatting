@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Displays a customizable Google map image for a given location",
     "shortDescription": "This template takes advantage of Google Maps\u0027 [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) \u0026 [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-staticmap",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-staticmap",
     "longDescription": [
       "This template takes advantage of Google Maps\u0027 [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) \u0026 [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:"
     ],
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/generic-staticmap/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-staticmap/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
