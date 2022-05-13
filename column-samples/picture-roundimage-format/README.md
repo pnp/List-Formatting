@@ -18,7 +18,7 @@ For best results, images should be square.
 
 Solution|Author(s)
 --------|---------
-picture-roundimage-format.json | [Chris Kent](https://twitter.com/thechriskent)
+picture-roundimage-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -37,4 +37,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/picture-roundimage-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/picture-roundimage-format" />
