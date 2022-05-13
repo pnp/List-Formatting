@@ -15,7 +15,7 @@ Classic task lists add a strikethrough style to the task name when the task is m
 
 Solution|Author(s)
 --------|---------
-text-strikethrough.json | [Chris Kent](https://twitter.com/thechriskent)
+text-strikethrough.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -32,4 +32,4 @@ Version|Date|Comments
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-strikethrough" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-strikethrough" />
