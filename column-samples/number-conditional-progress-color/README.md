@@ -6,7 +6,7 @@ This sample demonstrates displaying progress bar with conditional color based on
 - Yellow for 0.3 (30%) < value < 1 (100%)
 - Green for value == 1 (100%)
 
-![screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent)
@@ -32,4 +32,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-conditional-progress-color" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-conditional-progress-color" />
