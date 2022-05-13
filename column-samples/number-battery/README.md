@@ -3,7 +3,7 @@
 ## Summary
 This sample changes the appearance of the values in number columns (percent)  to look like a battery.
 
-- `number-battery-theme-color.json` displays a battery of colors for the site's theme color. The background color will not change depending on the value.
+- `number-battery.json` displays a battery of colors for the site's theme color. The background color will not change depending on the value.
 - `number-battery-normal-color.json` and `number-battery-unicorn-color.json` are independent of the site theme color. Also, the background color will change depending on the value: greater than 50%, greater than 20%, and greater than 0%.
 
 ![screenshot of the sample](./assets/screenshot.png)
@@ -13,11 +13,11 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-Solution                          |Author(s)
-----------------------------------|------------------------------------------------
-number-battery-theme-color.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-battery-normal-color.json  |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-battery-unicorn-color.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+number-battery.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-battery-normal-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-battery-unicorn-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version |Date          |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-battery" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-battery" />
