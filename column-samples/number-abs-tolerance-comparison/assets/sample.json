@@ -4,10 +4,10 @@
     "reponame": "number-abs-tolerance-comparison",
     "source": "pnp",
     "title": "Determine Tolerance Comparison using abs()",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-abs-tolerance-comparison",
+    "shortDescription": "Display if a value is within the expected tolerance.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-abs-tolerance-comparison",
     "longDescription": [
-      ""
+      "Display if a value is within the expected tolerance."
     ],
     "creationDateTime": "2019-03-08T00:00:00.000Z",
     "updateDateTime": "2019-03-08T00:00:00.000Z",
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-OPERATOR",
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
         "value": "abs"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-trending--up, sp-field-trending--down"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-abs-tolerance-comparison/assets/screenshot.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-abs-tolerance-comparison/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
