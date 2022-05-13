@@ -38,8 +38,8 @@ This is the approach used by the `multi-lookup-projected-field.json` format. It 
 
 Solution|Author(s)
 --------|---------
-multi-lookup.json | [Chris Kent](https://twitter.com/thechriskent)
-multi-lookup-projected-field.json | [Chris Kent](https://twitter.com/thechriskent)
+multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-lookup.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -57,4 +57,4 @@ Version|Date|Comments
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-lookup-projected-field" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-lookup-projected-field" />
