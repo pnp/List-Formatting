@@ -5,7 +5,7 @@
       "source": "pnp",
       "title": "Approval Status Hover Card",
       "shortDescription": "Adds a hover card with additional details when using Content Approval",
-      "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-cards",
+      "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card",
       "longDescription": [
         "This sample provides more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover."
       ],
@@ -13,7 +13,7 @@
       "updateDateTime": "2021-03-08T00:00:00.000Z",
       "products": [
         "SharePoint",
-        "Office"
+        "Microsoft Lists"
       ],
       "metadata": [
         {
@@ -23,13 +23,41 @@
         {
           "key": "SHAREPOINT-COMPATIBILITY",
           "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": "General"
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "toLocaleDateString"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "customCardProps, directionalHint"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontColor-black, ms-fontColor-neutralSecondaryAlt, ms-fontColor-red, ms-fontColor-green, ms-fontColor-orange, ms-borderColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-themeDark, ms-fontColor-themeDarker"
         }
       ],
       "thumbnails": [
         {
           "type": "image",
           "order": 100,
-          "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/generic-approval-status-hover-card/assets/screenshot.png?raw=true",
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png",
           "alt": "Status_hover"
         }
       ],
