@@ -4,10 +4,10 @@
     "reponame": "multi-choice-workcategory-pill",
     "source": "pnp",
     "title": "Work Progress Category Pill ",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-workcategory-pill",
+    "shortDescription": "This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill",
     "longDescription": [
-      ""
+      "This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."
     ],
     "creationDateTime": "2020-08-08T00:00:00.000Z",
     "updateDateTime": "2020-08-08T00:00:00.000Z",
@@ -21,19 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Multi-Choice"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-warningBackground, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-blue, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-blueBackground07, sp-field-borderBottomRegular"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
