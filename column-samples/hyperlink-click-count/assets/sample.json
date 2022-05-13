@@ -13,7 +13,7 @@
     "updateDateTime": "2021-12-11T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Hyperlink"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themePrimary--hover, ms-bgColor-themeLight, ms-bgColor-themeLighter, ms-fontColor-white, ms-fontColor-white--hover"
       }
     ],
     "thumbnails": [
