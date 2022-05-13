@@ -23,7 +23,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-start-flow-button.json | Yannick Borghmans
+generic-start-flow.json | [Yannick Borghmans](https://github.com/yborghmans) ([@yborghmans](https://twitter.com/yborghmans))
 
 ## Version history
 
@@ -45,4 +45,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-start-flow" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-start-flow" />
