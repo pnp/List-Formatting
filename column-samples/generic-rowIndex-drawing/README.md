@@ -14,7 +14,7 @@ Also included is the AquaticAssetsGenerator.ps1 PowerShell script that demonstra
 
 Solution|Author(s)
 --------|---------
-generic-rowIndex-drawing.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-rowIndex-drawing.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -31,4 +31,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-rowIndex-drawing" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-rowIndex-drawing" />
