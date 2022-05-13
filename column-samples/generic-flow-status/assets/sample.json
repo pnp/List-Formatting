@@ -9,8 +9,8 @@
     "longDescription": [
       "generic-flow-status"
     ],
-    "creationDateTime": "2020-12-20T00:00:00.000Z",
-    "updateDateTime": "2020-12-20T00:00:00.000Z",
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2022-04-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -23,9 +23,56 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Power Automate"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "startsWith"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "executeFlow"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themePrimary--hover, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-bgColor-white, ms-font-xl, ms-font-l"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshotCustomFlowPanel.png",
+        "alt": "Custom Flow Panel"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshotFlowURL.png",
+        "alt": "Flow URL"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
