@@ -4,10 +4,10 @@
     "reponame": "location-address",
     "source": "pnp",
     "title": "Display Location Address Details",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/location-address",
+    "shortDescription": "Location columns provide several properties that can be accessed to provide more information to users. This sample pulls out sub properties to turn the standard Display Name only to a full address and provides a link to Bing Maps for a given location.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/location-address",
     "longDescription": [
-      ""
+      "Location columns provide several properties that can be accessed to provide more information to users. This sample pulls out sub properties to turn the standard Display Name only to a full address and provides a link to Bing Maps for a given location."
     ],
     "creationDateTime": "2019-08-21T00:00:00.000Z",
     "updateDateTime": "2019-08-21T00:00:00.000Z",
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Location"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/location-address/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/location-address/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
