@@ -9,7 +9,7 @@ Overlays are done by using a parent element with a `style` -> `position` value o
 
 This sample demonstrates using a solid icon (HeartFill) to provide a colored background to our icon and overlaying a wireframe icon to create an outline. The icons are shown conditionally based on the value. Using this technique with the various Solid, Mask, and Fill icons available can create far more icons than are currently available and allows more precise control of the coloring.
 
-![screenshot of the sample](./assets/screenshotOverlay.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 #### View requirements
 - This format expects to be applied to a text or choice column with the following values:
@@ -45,9 +45,9 @@ This is a very basic sample that simply displays a Cat icon and is helpful for d
 
 Solution|Author(s)
 --------|---------
-simple-icon.json | [Chris Kent](https://twitter.com/thechriskent)
-generic-icon-overlay.json | [Chris Kent](https://twitter.com/thechriskent)
-generic-icon-overlay-multiple.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-icon-overlay.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+simple-icon.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-icon-overlay-multiple.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -61,4 +61,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-icon-overlay" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-icon-overlay" />
