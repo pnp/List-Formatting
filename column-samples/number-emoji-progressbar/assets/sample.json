@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-number-text-emoji-progressbar",
-    "reponame": "number-text-emoji-progressbar",
+    "name": "pnp-list-formatting-number-emoji-progressbar",
+    "reponame": "number-emoji-progressbar",
     "source": "pnp",
     "title": "Progress bar using text or emoji",
     "shortDescription": "This sample demonstrates the use of text symbols and emoji to display a progress bar.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-text-emoji-progressbar",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-emoji-progressbar",
     "longDescription": [
       "This sample demonstrates the use of text symbols and emoji to display a progress bar."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2022-01-16T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "padStart"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-text-emoji-progressbar/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-emoji-progressbar/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
