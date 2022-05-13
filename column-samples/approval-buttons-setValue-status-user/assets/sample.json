@@ -5,7 +5,7 @@
       "source": "pnp",
       "title": "Inline Approval",
       "shortDescription": "Creates buttons to approve/reject an item by updating an Approval Status field created using a choice field, and also set the value of a person field to the user who took the action by using the setValue action.",
-      "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/approval-buttons-setValue-status-user",
+      "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/approval-buttons-setValue-status-user",
       "longDescription": [
         "Creates buttons to approve/reject an item by updating an Approval Status field created using a choice field, and also set the value of a person field to the user who took the action by using the setValue action."
       ],
@@ -21,12 +21,36 @@
           "value": "Column"
         },
         {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, Inline Editing"
+        },
+        {
           "key": "LIST-COLUMN-TYPE",
           "value": "General"
         },
         {
-          "key": "SHAREPOINT-COMPATIBILITY",
-          "value": "SharePoint Online"
+          "key": "FORMATTING-TOKENS",
+          "value": "@me"
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "toLowerCase"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": "setValue"
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": ""
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover"
         }
       ],
       "thumbnails": [
@@ -39,9 +63,9 @@
       ],
       "authors": [
         {
-          "gitHubAccount": "siddharth-vaghasia",
-          "pictureUrl": "https://github.com/siddharth-vaghasia.png",
-          "name": "Siddharth Vaghasia"
+          "gitHubAccount": "michelcarlo",
+          "pictureUrl": "https://github.com/michelcarlo.png",
+          "name": "Michel Mendes"
         }
       ],
       "references": [
