@@ -14,7 +14,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 Solution|Author(s)
 --------|---------
-person-currentuser-format.json | [Chris Kent](https://twitter.com/thechriskent)
+person-currentuser.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -39,4 +39,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 A similar sample is available for use with multi-select person fields: [multi-person-currentuser](../multi-person-currentuser)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/person-currentuser-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-currentuser" />
