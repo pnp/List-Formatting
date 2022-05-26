@@ -1,4 +1,4 @@
-# File Viewing Card
+# File Preview Card
 
 ## Summary
 This sample demonstrates displaying a file on a custom card. The file is displayed with `filepreview` set to `elmType`.
@@ -20,7 +20,7 @@ It can display pages from the Site Pages as well as files from the document libr
 
 Solution                      |Author(s)
 ------------------------------|---------------------------
-generic-file-viewing-card.json|[Tetsuya Kawahara](https://twitter.com/techan_k)
+generic-file-preview-card.json|[Tetsuya Kawahara](https://twitter.com/techan_k)
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version |Date         |Comments
 
 - Some file types may not be supported for display.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-file-viewing-card" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-file-preview-card" />

@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-generic-file-viewing-card",
-    "reponame": "generic-file-viewing-card",
+    "name": "pnp-list-formatting-generic-file-preview-card",
+    "reponame": "generic-file-preview-card",
     "source": "pnp",
-    "title": "File View Card",
+    "title": "File Preview Card",
     "shortDescription": "This sample demonstrates displaying a file on a custom card.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-file-viewing-card",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-file-preview-card",
     "longDescription": [
       "This sample demonstrates displaying a file on a custom card. The file is displayed with `filepreview` set to `elmType`."
     ],
@@ -29,19 +29,19 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-viewing-card/assets/screenshot.png?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-preview-card/assets/screenshot.png?raw=true",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-viewing-card/assets/screenshot_document_library.gif?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-preview-card/assets/screenshot_document_library.gif?raw=true",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-viewing-card/assets/screenshot_site_pages?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-preview-card/assets/screenshot_site_pages?raw=true",
         "alt": "screenshot"
       }
     ],
