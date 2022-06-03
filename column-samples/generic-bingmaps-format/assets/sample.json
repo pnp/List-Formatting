@@ -4,10 +4,10 @@
     "reponame": "generic-bingmaps-format",
     "source": "pnp",
     "title": "Bing Maps formatting",
-    "shortDescription": "This sample demonstrates how to column Location and use filepreview to display Bing Map in column.",
+    "shortDescription": "This sample demonstrates how to column Location to display Bing Map in column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-bingmaps-format",
     "longDescription": [
-      "This sample demonstrates how to column Location and use filepreview to display Bing Map in column."
+      "This sample demonstrates how to column Location to display Bing Map in column."
     ],
     "creationDateTime": "2022-05-27T00:00:00.000Z",
     "updateDateTime": "2022-05-27T00:00:00.000Z",

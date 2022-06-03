@@ -114,15 +114,15 @@
                       ]
                     },
                     {
-                      "elmType": "filepreview",
-                      "attributes": {
-                        "src": "='https://www.bing.com/maps/embed?h=400&w=500&cp='+@currentField.Coordinates.Latitude+'~'+@currentField.Coordinates.Longitude+'&lvl=15&typ=d&sty=a&src=SHELL&FORM=MBEDV8'"
-                      },
+                      "elmType": "a",
                       "style": {
-                        "display": "=if(length(@currentField)>0,'','none')",
-                        "width": "500px",
-                        "height": "400px",
-                        "cursor": "pointer"
+                        "text-decoration": "none"
+                      },
+                      "attributes": {
+                        "iconName": "POI",
+                        "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+@currentField.Coordinates.Latitude+'~'+@currentField.Coordinates.Longitude+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                        "target": "_blank",
+                        "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
                       }
                     }
                   ]

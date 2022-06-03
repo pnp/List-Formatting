@@ -1,7 +1,7 @@
 # Bing Maps format
 
 ## Summary
-This sample demonstrates how to column `Location` and use `filepreview` to display Bing Map in column.
+This sample demonstrates how to column `Location` and display Bing Map in column.
 
 ![Bing Maps format](./assets/generic-BingMaps-format.gif)
 
