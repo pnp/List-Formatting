@@ -1,7 +1,7 @@
 # File Picker format
 
 ## Summary
-This sample demonstrates how to use `filepreview` to simulate a dialog to select file and display in column.
+This sample demonstrates how to copy file link from Library and display in column.
 
 ![File Picker format](./assets/generic-filepicker-format.gif)
 
@@ -27,6 +27,10 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+## Additional notes
+
+- The [person-mailto](../person-mailto/) demonstrates a similar technique but is applied directly to a person field
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-filepicker-format" />

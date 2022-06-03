@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-generic-filepicker-format",
+    "name": "pnp-list-formattinggeneric-filepicker-format",
     "reponame": "generic-filepicker-format",
     "source": "pnp",
     "title": "File Picker",
-    "shortDescription": "This sample demonstrates how to use filepreview to simulate a dialog to select file and display in column.",
+    "shortDescription": "This sample demonstrates how to copy file link from Library and display in column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-filepicker-format",
     "longDescription": [
-      "This sample demonstrates how to use filepreview to simulate a dialog to select file and display in column."
+      "This sample demonstrates how to copy file link from Library and display in column."
     ],
     "creationDateTime": "2022-05-27T00:00:00.000Z",
     "updateDateTime": "2022-05-27T00:00:00.000Z",
@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-filepicker-format/assets/generic-filepicker-format.gif?raw=true",
+        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-preview/assets/screenshot.png?raw=true",
         "alt": "screenshot"
       }
     ],
@@ -37,7 +37,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "AndrÃ© Lage"
+        "name": "André Lage"
       }
     ],
     "references": [
