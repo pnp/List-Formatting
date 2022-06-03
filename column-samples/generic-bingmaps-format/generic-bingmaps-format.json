@@ -110,20 +110,20 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "elmType": "a",
+                          "style": {
+                            "text-decoration": "none"
+                          },
+                          "attributes": {
+                            "iconName": "POI",
+                            "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+@currentField.Coordinates.Latitude+'~'+@currentField.Coordinates.Longitude+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                            "target": "_blank",
+                            "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
+                          }
                         }
                       ]
-                    },
-                    {
-                      "elmType": "a",
-                      "style": {
-                        "text-decoration": "none"
-                      },
-                      "attributes": {
-                        "iconName": "POI",
-                        "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+@currentField.Coordinates.Latitude+'~'+@currentField.Coordinates.Longitude+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
-                        "target": "_blank",
-                        "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
-                      }
                     }
                   ]
                 }
