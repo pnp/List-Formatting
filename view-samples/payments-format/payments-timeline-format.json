@@ -28,8 +28,7 @@
                       "top": "-20px",
                       "position": "absolute",
                       "padding": "20px 10px",
-                      "border-radius": "0 10px 10px 0",
-                      "border": "1px solid #eee",
+                      "border-radius": "10px",
                       "box-shadow": "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px",
                       "width": "400px"
                     },
@@ -274,6 +273,25 @@
                                             "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
                                           }
                                         ]
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "min-height": "30px",
+                                          "padding": "0 10px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
                                       },
                                       {
                                         "elmType": "div",
@@ -555,8 +573,7 @@
                       "top": "-20px",
                       "position": "absolute",
                       "padding": "20px 10px",
-                      "border-radius": "0 10px 10px 0",
-                      "border": "1px solid #eee",
+                      "border-radius": "10px",
                       "box-shadow": "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px",
                       "width": "400px"
                     },
@@ -788,6 +805,25 @@
                                             "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
                                           }
                                         ]
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding": "0 10px",
+                                          "min-height": "30px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
                                       },
                                       {
                                         "elmType": "div",

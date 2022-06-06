@@ -419,6 +419,26 @@
                                       },
                                       {
                                         "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "min-height": "30px",
+                                          "padding": "0 10px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
+                                      },
+                                      {
+                                        "elmType": "div",
                                         "style": {
                                           "display": "=if(length([$Location])>0,'','none')"
                                         },
@@ -746,7 +766,7 @@
                             "Paid": "=if([$Paid]==true, 0,1)"
                           }
                         }
-                      },                      
+                      },
                       {
                         "elmType": "div",
                         "style": {

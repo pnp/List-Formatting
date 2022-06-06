@@ -410,6 +410,26 @@
                                       },
                                       {
                                         "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "min-height": "30px",
+                                          "padding": "0 10px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
+                                      },
+                                      {
+                                        "elmType": "div",
                                         "style": {
                                           "padding": "10px",
                                           "display": "=if(length([$Location])>0,'','none')"

@@ -14,7 +14,8 @@ Format includes icon for type of payment, capability to choose currency, expand 
 Field |Type
 --------|---------
 Title | Single line of text 
-Category | Choice - Include the following options **"PaymentCard,Bank,Savings,Money,AllCurrency,EatDrink,AirTickets,ShoppingCart,Shop"**
+Description | Multiple Line of Text
+Category | Choice - Include the following options **"PaymentCard,Bank,Savings,Money,AllCurrency,EatDrink,AirTickets,ShoppingCart,Shop,Home,Health"**
 Payment | Number  - define number of decimal places to 2
 OtherCosts | Number - this field will be used order the clipboards
 Currency | Choice - Include the following options **"CHF(CHF),€(EUR)£(GBP),$(USD),¥(JPY)"**
