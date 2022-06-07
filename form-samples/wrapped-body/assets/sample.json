@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-wrapped-body",
     "reponame": "wrapped-body",
     "source": "pnp",
-    "title": "wrapped-body",
-    "shortDescription": "wrapped-body",
+    "title": "Wrapped Form Body",
+    "shortDescription": "By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/wrapped-body",
     "longDescription": [
-      "wrapped-body"
+      "By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping."
     ],
     "creationDateTime": "2021-01-21T00:00:00.000Z",
     "updateDateTime": "2021-01-21T00:00:00.000Z",
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/wrapped-body/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
