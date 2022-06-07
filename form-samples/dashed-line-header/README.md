@@ -3,16 +3,17 @@
 ## Summary
 This sample displays the `Title` and `Description` values in the heading and decorates them with dashed lines. If the `Description` value is empty, it will be hidden.
 
-dashed-line-header-text-left.json
-![screenshot of the sample](./assets/screenshot_text-left.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-dashed-line-header-text-center.json
-![screenshot of the sample](./assets/screenshot_text-center.png)
+### Additional alignments
 
-dashed-line-header-text-right.json
-![screenshot of the sample](./assets/screenshot_text-right.png)
+dashed-line-header-align-center.json
+![screenshot of the sample](./assets/screenshot_align-center.png)
 
-## View requirements
+dashed-line-header-align-right.json
+![screenshot of the sample](./assets/screenshot_align-right.png)
+
+## Form requirements
 
 |Type                   |Internal Name|Required|
 |-----------------------|-------------|:------:|
@@ -21,9 +22,11 @@ dashed-line-header-text-right.json
 
 ## Sample
 
-Solution                |Author(s)
-------------------------|---------------------------
-dashed-line-header.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+dashed-line-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+dashed-line-header-align-center.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+dashed-line-header-align-right.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -34,4 +37,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/form-samples/dashed-line-header" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/dashed-line-header" />

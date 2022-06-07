@@ -4,10 +4,10 @@
     "reponame": "dashed-line-header",
     "source": "pnp",
     "title": "Dashed Line Header",
-    "shortDescription": "This sample displays the \u0060Title\u0060 and \u0060Description\u0060 values in the heading and decorates them with dashed lines. If the \u0060Description\u0060 value is empty, it will be hidden.",
+    "shortDescription": "This sample displays the Title and Description values in the heading and decorates them with dashed lines. If the Description value is empty, it will be hidden.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/dashed-line-header",
     "longDescription": [
-      "This sample displays the \u0060Title\u0060 and \u0060Description\u0060 values in the heading and decorates them with dashed lines. If the \u0060Description\u0060 value is empty, it will be hidden."
+      "This sample displays the Title and Description values in the heading and decorates them with dashed lines. If the Description value is empty, it will be hidden."
     ],
     "creationDateTime": "2021-02-07T00:00:00.000Z",
     "updateDateTime": "2021-02-07T00:00:00.000Z",
@@ -23,26 +23,54 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-fontColor-white, ms-fontWeight-bold, ms-fontSize-28, ms-fontSize-16"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/dashed-line-header/assets/screenshot_text-center.png?raw=true",
-        "alt": "screenshot_text-center"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/dashed-line-header/assets/screenshot.png",
+        "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/dashed-line-header/assets/screenshot_text-left.png?raw=true",
-        "alt": "screenshot_text-left"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/dashed-line-header/assets/screenshot_align-center.png",
+        "alt": "screenshot_align-center"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/dashed-line-header/assets/screenshot_text-right.png?raw=true",
-        "alt": "screenshot_text-right"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/dashed-line-header/assets/screenshot_align-right.png",
+        "alt": "screenshot_align-right"
       }
     ],
     "authors": [
