@@ -5,7 +5,7 @@ By default, uncustomized list forms display the `Title` field at the top. This i
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-## View requirements
+## Form requirements
 None
 
 ## Sample
