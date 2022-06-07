@@ -12,7 +12,8 @@
     "creationDateTime": "2021-01-31T00:00:00.000Z",
     "updateDateTime": "2021-01-31T00:00:00.000Z",
     "products": [
-      "SharePoint"
+      "SharePoint",
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -22,9 +23,62 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getYear"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-borderColor-neutralLight, ms-borderColor-yellow, ms-borderColor-orangeLight, ms-borderColor-blueLight, ms-borderColor-greenLight, ms-fontColor-neutralPrimary, ms-bgColor-neutralLight, ms-bgColor-yellow, ms-bgColor-orangeLight, ms-bgColor-blueLight, ms-bgColor-greenLight"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-done.png",
+        "alt": "status-done"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-nevermind.png",
+        "alt": "status-nevermind"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-workingonit.png",
+        "alt": "status-workingonit"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
