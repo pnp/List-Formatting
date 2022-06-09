@@ -6,7 +6,7 @@
       "elmType": "div",
       "style": {
         "position": "relative",
-        "min-width": "100%",
+        "min-width": "90%",
         "display": "flex",
         "align-items": "center",
         "white-space": "nowrap"
@@ -21,7 +21,8 @@
             "flex-direction": "row",
             "justify-content": "space-around",
             "border": "2px solid",
-            "font-size": "15px"
+            "font-size": "15px",
+            "margin-left": "=if([$TimeDifference] % 1 == 0 , '0px', if([$TimeDifference] > 0 , ((abs(1 - [$TimeDifference] % 1) * 60) / (60 * 24) * 100) + '%' , ((abs([$TimeDifference] % 1) * 60) / (60 * 24) * 100) + '%'))"
           },
           "attributes": {
             "class": "ms-fontColor-themePrimary"
@@ -29,7 +30,7 @@
           "children": [
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference]) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference]) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -40,7 +41,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 1) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 1) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -51,7 +52,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 2) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 2) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -62,7 +63,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 3) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 3) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -73,7 +74,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 4) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 4) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -84,7 +85,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 5) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 5) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -95,7 +96,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 6) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 6) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -106,7 +107,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 7) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 7) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -117,7 +118,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 8) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 8) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -128,7 +129,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 9) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 9) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -139,7 +140,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 10) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 10) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -150,7 +151,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 11) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 11) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -161,7 +162,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 12) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 12) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -172,7 +173,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 13) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 13) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -183,7 +184,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 14) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 14) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -194,7 +195,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 15) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 15) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -205,7 +206,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 16) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 16) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -216,7 +217,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 17) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 17) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -227,7 +228,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 18) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 18) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -238,7 +239,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 19) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 19) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -249,7 +250,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 20) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 20) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -260,7 +261,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 21) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 21) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -271,7 +272,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 22) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 22) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
@@ -282,7 +283,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=abs((24 + [$TimeDifference] + 23) % 24)",
+              "txtContent": "=ceiling(abs((24 + [$TimeDifference] + 23) % 24))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
