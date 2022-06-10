@@ -31,7 +31,6 @@
               "elmType": "div",
               "style": {
                 "width": "=if([$TimeDifference] > 0 , ((1 - abs([$TimeDifference] % 1)) * 100) + '%' , (abs([$TimeDifference] % 1) * 100) + '%')",
-                "text-align": "center",
                 "display": "=if([$TimeDifference] % 1 == 0 , 'none' , '')"
               },
               "attributes": {
