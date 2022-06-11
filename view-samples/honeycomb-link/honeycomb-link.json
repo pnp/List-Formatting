@@ -24,7 +24,8 @@
         },
         "attributes": {
           "href": "[$URL]",
-          "target": "_blank"
+          "target": "_blank",
+          "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
         },
         "children": [
           {
@@ -34,8 +35,7 @@
               "cursor": "pointer"
             },
             "attributes": {
-              "viewBox": "-150 -150 300 300",
-              "class": "ms-fontColor-themePrimary"
+              "viewBox": "-150 -150 300 300"
             },
             "children": [
               {
@@ -59,7 +59,7 @@
               "height": "100%"
             },
             "attributes": {
-              "class": "ms-fontColor-white  ms-fontColor-themeLight--hover"
+              "class": "ms-fontColor-white"
             },
             "children": [
               {
