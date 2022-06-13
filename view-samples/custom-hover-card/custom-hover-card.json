@@ -1,6 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "debugMode": true,
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
   "tileProps": {
     "hideSelection": true,
     "height": "520",
@@ -412,7 +411,6 @@
                         "operator": "+",
                         "operands": [
                           "$",
-                          "",
                           "[$ProductPrice]"
                         ]
                       }
@@ -423,7 +421,6 @@
                         "margin-left": "5px",
                         "margin-top": "5px"
                       },
-                      "txtContent": "",
                       "attributes": {
                         "iconName": "Info"
                       },
@@ -489,7 +486,6 @@
                                             "operator": "+",
                                             "operands": [
                                               "$",
-                                              "",
                                               "=floor([$BasePrice]*100)/100"
                                             ]
                                           }
@@ -520,7 +516,6 @@
                                             "operator": "+",
                                             "operands": [
                                               "$",
-                                              "",
                                               "=floor([$ShippingCharges]*100)/100"
                                             ]
                                           }
@@ -551,7 +546,6 @@
                                             "operator": "+",
                                             "operands": [
                                               "$",
-                                              "",
                                               "=floor([$Tax]*100)/100"
                                             ]
                                           }
@@ -677,7 +671,6 @@
                                         "font-weight": "600",
                                         "padding-left": "15px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "StatusCircleCheckmark",
                                         "class": "ms-fontColor-green"
@@ -690,7 +683,6 @@
                                         "font-weight": "600",
                                         "margin-left": "-16px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "CircleRing",
                                         "class": "ms-fontColor-green"
@@ -705,7 +697,7 @@
                                       },
                                       "txtContent": "Ready to be packed",
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0, 'green', 'green')"
+                                        "class": "ms-fontColor-green"
                                       }
                                     },
                                     {
@@ -716,7 +708,7 @@
                                         "text-align": "center"
                                       },
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0, 'black', 'black')"
+                                        "class": "ms-fontColor-black"
                                       }
                                     }
                                   ]
@@ -748,7 +740,6 @@
                                         "font-weight": "600",
                                         "padding-left": "15px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "=if([$StatusCode] > 0, 'StatusCircleCheckmark', 'CircleRing')",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
@@ -761,7 +752,6 @@
                                         "font-weight": "600",
                                         "margin-left": "-16px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "CircleRing",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
@@ -790,7 +780,7 @@
                                         "margin-left": "21px"
                                       },
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0, 'black', 'black')"
+                                        "class": "ms-fontColor-black"
                                       },
                                       "txtContent": "[$PackedDate]"
                                     }
@@ -822,7 +812,6 @@
                                         "font-weight": "600",
                                         "padding-left": "15px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "=if([$StatusCode] > 1, 'StatusCircleCheckmark', 'CircleRing')",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
@@ -835,7 +824,6 @@
                                         "font-weight": "600",
                                         "margin-left": "-16px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "CircleRing",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
@@ -864,7 +852,7 @@
                                         "margin-left": "21px"
                                       },
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 1, 'black', 'black')"
+                                        "class": "ms-fontColor-black"
                                       },
                                       "txtContent": "[$ShippedDate]"
                                     }
@@ -896,7 +884,6 @@
                                         "font-weight": "600",
                                         "padding-left": "15px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "=if([$StatusCode] > 2, 'StatusCircleCheckmark', 'CircleRing')",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
@@ -909,7 +896,6 @@
                                         "font-weight": "600",
                                         "margin-left": "-16px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "CircleRing",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
@@ -938,7 +924,7 @@
                                         "margin-left": "21px"
                                       },
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 2, 'black', 'black')"
+                                        "class": "ms-fontColor-black"
                                       },
                                       "txtContent": "[$InTransitStartDate]"
                                     }
@@ -970,7 +956,6 @@
                                         "font-weight": "600",
                                         "padding-left": "15px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "=if([$StatusCode] > 3, 'StatusCircleCheckmark', 'CircleRing')",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
@@ -983,7 +968,6 @@
                                         "font-weight": "600",
                                         "margin-left": "-16px"
                                       },
-                                      "txtContent": " ",
                                       "attributes": {
                                         "iconName": "CircleRing",
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
@@ -1010,7 +994,7 @@
                                         "margin-left": "21px"
                                       },
                                       "attributes": {
-                                        "class": "='ms-fontColor-' + if([$StatusCode] > 3, 'black', 'black')"
+                                        "class": "ms-fontColor-black"
                                       },
                                       "txtContent": "[$DeliveredDate]"
                                     }

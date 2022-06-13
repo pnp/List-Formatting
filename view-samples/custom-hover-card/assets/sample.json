@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-custom-hover-cards",
-    "reponame": "custom-hover-cards",
+    "name": "pnp-list-formatting-custom-hover-card",
+    "reponame": "custom-hover-card",
     "source": "pnp",
-    "title": "Custom hover card on List view",
+    "title": "Custom Hover Card in List view",
     "shortDescription": "The following image shows a list with a custom hover added to a List view:",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-cards",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card",
     "longDescription": [
       "The following image shows a list with a custom hover added to a List view:"
     ],
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Power Automate, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "floor"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "executeFlow, share, delete, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLight--hover, ms-bgColor-neutralLighterAlt, ms-fontColor-green, ms-fontColor-black, ms-borderColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-neutralSecondaryAlt"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-hover-cards/assets/Status_hover.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-hover-card/assets/screenshot.png",
         "alt": "Status_hover"
       }
     ],
