@@ -1,10 +1,10 @@
-# Small Card
+# Person Cards
 
 ## Summary
 
-Sample of a list Formatting for SharePoint using a small card sample. You can use this as a quick contact list.
+This sample demonstrates creating a basic person card. You can use this as a quick contact list.
 
-![formatting](./assets/formatting.PNG)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -20,7 +20,7 @@ Sample of a list Formatting for SharePoint using a small card sample. You can us
 
 Solution|Author(s)
 --------|---------
-Small_Card | David Ramalho ([sharepoint-tricks.com](http://sharepoint-tricks.com), [@davRamalho](https://twitter.com/davRamalho))
+person-cards.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalho](https://twitter.com/davRamalho))
 
 ## Version history
 
@@ -36,3 +36,5 @@ Version|Date|Comments
 If you intend to add a sample list of this list formatting, take a look at the following article that contains PowerShell information on how to deploy this. 
 
 - http://sharepoint-tricks.com/apply-view-formatting-of-staff-with-powershell/
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/person-cards" />
