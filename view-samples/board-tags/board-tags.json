@@ -369,7 +369,7 @@
                     "style": {
                       "display": "=if([$Expand] == false,'none','flex')",
                       "background-color": "=if([$Flag]== true, '#f8d7da', 'White')",
-                      "padding": "5px "
+                      "padding": "5px"
                     },
                     "attributes": {
                       "iconName": "=if([$Expand]==true,'CirclePlus','')"
@@ -402,7 +402,7 @@
                           "overflow": "hidden",
                           "text-decoration": "=if([$Category] == 'Cancel','line-through','')"
                         },
-                        "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 96, substring([$Description], 0, 96)+'...',[$Description]) ",
+                        "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 96, substring([$Description], 0, 96)+'...',[$Description])",
                         "customCardProps": {
                           "openOnEvent": "click",
                           "directionalHint": "bottomCenter",
@@ -438,9 +438,6 @@
                               "float": "left"
                             },
                             "inlineEditField": "[$Date]",
-                            "attributes": {
-                              "class": ""
-                            },
                             "children": [
                               {
                                 "elmType": "div",

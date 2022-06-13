@@ -1,12 +1,12 @@
-# Board tag format
+# Board Tags
 
 ## Summary
-This sample display formatted card in board that allow tag definition, date of card and menu option to define card position in category, share link and include Flag for focus color on card, associate assigned user and minimize/expand Card. 
+This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card.
 
-![Board tag format](./assets/Board-Card-Tag-formating.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
-- The format expect the following fields:
+- The format expects the following fields:
 
 Field |Type
 --------|---------
@@ -23,7 +23,8 @@ Expand | True/False - Minimize or expand Card (Default value **False**).
 
 Solution|Author(s)
 --------|---------
-board-tag-format.json | [André Lage](https://twitter.com/aaclage)
+board-tags.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+
 
 ## Version history
 
@@ -35,4 +36,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/board-tag-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/board-tags" />

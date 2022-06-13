@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-board-tags",
+    "reponame": "board-tags",
+    "source": "pnp",
+    "title": "Board Tags",
+    "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags",
+    "longDescription": [
+      "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card."
+    ],
+    "creationDateTime": "2022-03-05T00:00:00.000Z",
+    "updateDateTime": "2022-03-05T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards, Board"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Date, loopIndex, indexOf, length, substring, getDate, getMonth, getYear, lastIndexOf, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue, share, delete, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, inlineEditField, columnFormatterReference, defaultHoverField, customCardProps, directionalHint, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-neutralLight, ms-bgColor-white, ms-fontColor-themePrimary, ms-fontColor-themeTertiary--hover, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontColor-gray100, ms-fontWeight-bold, ms-fontSize-20, ms-fontSize-16, ms-fontSize-10, sp-card-personCallout, sp-card-container, sp-card-keyboard-focusable, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userTitle, sp-card-userCustomCard, sp-card-container-noPadding"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/board-tags/assets/screenshot.gif",
+        "alt": "Timeline in Board View"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
