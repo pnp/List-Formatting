@@ -21,7 +21,7 @@ None, this can be applied to any view. This can also be combined with other view
 
 Solution|Author(s)
 --------|---------
-commandbar-hide-automate | [Chris Kent](https://twitter.com/thechriskent)
+commandbar-hide-automate.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -38,4 +38,4 @@ Version|Date|Comments
 
 This sample works well with the [generic-flow-status](../../column-samples/generic-flow-status/) column format.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/commandbar-hide-automate" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/commandbar-hide-automate" />
