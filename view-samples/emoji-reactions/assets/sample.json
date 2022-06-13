@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-emoji-reactions",
+    "reponame": "emoji-reactions",
+    "source": "pnp",
+    "title": "Emoji Reactions",
+    "shortDescription": "This sample demonstrates reacting with an emoji. Who reacted and the total counts per reaction are stored with the list item.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/emoji-reactions",
+    "longDescription": [
+      "This sample demonstrates reacting with an emoji. Who reacted and the total counts per reaction are stored with the list item."
+    ],
+    "creationDateTime": "2021-12-06T00:00:00.000Z",
+    "updateDateTime": "2021-12-06T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Emoji, Icons, Inline Editing, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Number, indexOf, length, substring, lastIndexOf, replace"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-communicationTint20--hover, ms-bgColor-communicationTint40, ms-bgColor-gray30--hover, ms-fontColor-blueDark, ms-fontSize-24, ms-fontSize-20"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/emoji-reactions/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/emoji-reactions/assets/screenshotCount.png",
+        "alt": "screenshot count"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
