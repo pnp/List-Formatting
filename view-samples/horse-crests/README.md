@@ -2,9 +2,9 @@
 
 ## Summary
 
-This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children). Details for each technique can be found below.
+This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children).
 
-![Screenshot of Horse Crests Gallery view](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -17,7 +17,7 @@ This sample illustrates some advanced techniques for applying theme colors to SV
 
 Solution|Author(s)
 --------|---------
-horse-crests.json | [Chris Kent](https://twitter.com/theChrisKent)
+horse-crests.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/horse-crests" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/horse-crests" />
