@@ -1,22 +1,22 @@
-# Bar Graph format
+# Bar Graph
 
 ## Summary
 
 This sample shows how to format a list to show the data as a bar graph. In this instance we are showing number of votes per fruit.
 
+![screenshot of the sample](./assets/screenshot.png)
+
 The sample features the following:
-- If [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss) with [animate.css](https://daneden.github.io/animate.css/) is deployed then, this sample adds animation to bars.
 - Conditionally showing a crown icon if the item is marked as MostVoted
 - Conditionally showing elements (trending limit) based on `@rowIndex`
 - Conditionally showing a trending icon if the item has more than 700 votes
 - Conditionally changing the colour of the bar if the item has more than 700 votes
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
+- If [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss) with [animate.css](https://daneden.github.io/animate.css/) is deployed then, this sample adds animation to bars.
 
 ## View with animate.css application customiser
 ![Bar Graph Screenshot with animate.css app customiser](./assets/bargraph.gif)
 
-## View without animate.css application customiser
-![Bar Graph Screenshot](./assets/bargraphnormal.png)
 
 ## View requirements
 
@@ -45,7 +45,7 @@ The [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-
 
 Solution|Author(s)
 --------|---------
-bar-graph-format | [Anoop Tatti](https://twitter.com/anooptells)
+bar-graph.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
 
 ## Version history
 
@@ -61,4 +61,4 @@ Need to check if a gradient css can also be added to the bars, with an applicati
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bar-graph-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bar-graph" />
