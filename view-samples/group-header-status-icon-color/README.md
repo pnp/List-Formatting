@@ -1,9 +1,7 @@
-# Displays related status icon and background color in group header
+# Group Header Status Icon and Color
 
 ## Summary
-This is a sample of customizing the group header when grouping by a Status column.
-
-Displays a different color and icon according to the Status.
+This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status.
 
 Also changes labeling according to being only one item or more:
 
@@ -27,9 +25,9 @@ Choice values managed for the status choice column in this sample:
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-group-header-approval-status.json |[Michel Mendes](https://twitter.com/michelcarlo) [@michelcarlo](https://twitter.com/michelcarlo)
+Solution|Author(s)
+--------|---------
+group-header-status-icon-color.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
 
 ## Version history
 
@@ -40,3 +38,5 @@ Version |Date          |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 ##
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/group-header-status-icon-color" />
