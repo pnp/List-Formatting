@@ -189,7 +189,7 @@
                         },
                         "attributes": {
                           "iconName": "blog",
-                          "class": "ms-fontSize-16 "
+                          "class": "ms-fontSize-16"
                         }
                       },
                       {
@@ -381,7 +381,6 @@
                               },
                               {
                                 "elmType": "div",
-                                "style": {},
                                 "attributes": {
                                   "title": "[$personIterator.title]"
                                 },
