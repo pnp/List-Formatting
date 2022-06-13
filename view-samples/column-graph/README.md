@@ -4,6 +4,8 @@
 
 This sample shows how to format a list to show the data as a column graph. In this instance we are showing number of views per blog.
 
+![screenshot of the sample](./assets/screenshot.png)
+
 The sample features the following:
 - Conditionally showing a crown icon if the item is marked as MostRead
 - Conditionally showing elements (chart labels) based on `@rowIndex`
@@ -11,10 +13,7 @@ The sample features the following:
 - Conditionally changing the colour of the bar if the item has more than 700 views
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-## Normal view
-![Column Graph Screenshot](./assets/columngraph.png)
-
-## Item Hover view
+### Item Hover view
 ![Column Graph with Title Screenshot](./assets/columngraph_with_title.png)
 
 ## View requirements
@@ -25,7 +24,7 @@ The sample features the following:
 |Number|Views||
 |Yes/No|MostRead||
 
-## Setup
+### Setup
 
 The sample needs the following setup:
 - Only one item needs to have `MostRead` as yes
@@ -38,7 +37,7 @@ In the sample, the height of the parent div is set to 800px and the child div ca
 
 Solution|Author(s)
 --------|---------
-column-graph-format | [Anoop Tatti](https://twitter.com/anooptells)
+column-graph.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
 
 ## Version history
 
@@ -51,4 +50,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/column-graph-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/column-graph" />
