@@ -1,11 +1,11 @@
-# Display User Properties (Picture/Email/Job Title/Department) in the view group header
+# Display User Properties in the Group Header
 
 ## Summary
-This is a sample demonstrates the usage of the special string values (User Properties) for a Person field in the group header.
+This sample demonstrates showing additional properties for a grouped user field in the group header. The user's picture, email, title, and department are all shown.
 
 If any property is empty, its respective icon and label are not displayed.
 
-![Sample in action](./assets/userDetails.PNG)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -15,9 +15,9 @@ If any property is empty, its respective icon and label are not displayed.
 
 ## Sample
 
-Solution                                   |Author(s)
--------------------------------------------|---------------------------
-group-header-user-properties |[Michel Mendes](https://twitter.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+Solution|Author(s)
+--------|---------
+group-header-user-properties.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version |Date          |Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 ##
 
-<img src="https://pnptelemetry.azurewebsites.net/List-Formatting/view-samples/group-header-user-properties" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/group-header-user-properties" />

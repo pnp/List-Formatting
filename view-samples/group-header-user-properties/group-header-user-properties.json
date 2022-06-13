@@ -1,165 +1,165 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-    "groupProps": {
-      "headerFormatter": {
-        "elmType": "div",
-        "style": {
-          "display": "inline-flex",
-          "align-items": "flex-end",
-          "height": "25px",            
-          "padding-left": "8px",
-          "padding-top": "5px",
-          "padding-bottom": "5px",
-          "border-radius": "10px"
-        },
-        "attributes": {
-            "class": "ms-bgColor-themeLighter"
-          },
-        "children": [
-          {
-            "elmType": "div",
-            "txtContent": "=@group.columnDisplayName + ':' ",
-            "children": [
-              {
-                "elmType": "span"
-              }
-            ],
-            "style": {
-              "padding-right": "9px",
-              "padding-bottom": "3px"
-            },
-            "attributes": {
-              "class": "ms-fontWeight-bold"
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "display": "inline-flex",
+        "align-items": "flex-end",
+        "height": "25px",
+        "padding-left": "8px",
+        "padding-top": "5px",
+        "padding-bottom": "5px",
+        "border-radius": "10px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeLighter"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=@group.columnDisplayName + ':'",
+          "children": [
+            {
+              "elmType": "span"
             }
+          ],
+          "style": {
+            "padding-right": "9px",
+            "padding-bottom": "3px"
           },
-          {
-            "elmType": "img",
-            "attributes": {
-              "src": "=getUserImage(@group.fieldData.email, 'small')",
-              "title": "@group.fieldData.title"
-            },
-            "style": {
-              "width": "25px",
-              "height": "25px",
-              "border-radius": "50%"
-            }
-          },
-          {
-            "elmType": "div",
-            "style": {
-              "display": "inline-flex",
-              "padding-right": "9px",
-              "padding-bottom": "3px"
-            },
-            "children": [
-              {
-                "elmType": "span",
-                "txtContent": "=@group.fieldData.title",
-                "attributes": {
-                  "title": "=@group.fieldData.title",
-                  "class": "ms-fontWeight-semibold"
-                },
-                "style": {
-                  "padding-left": "5px"
-                }
-              },
-              {
-                "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "attributes": {
-                      "iconName": "Mail"
-                    },
-                    "style": {
-                      "padding-left": "10px",
-                      "padding-top": "3px"
-                    }
-                  },
-                  {
-                    "elmType": "span",
-                    "txtContent": "=@group.fieldData.email",
-                    "style": {
-                      "padding-left": "5px"
-                    },
-                    "attributes": {
-                        "title": "=@group.fieldData.email"                       
-                      }                    
-                  }
-                ],
-                "style": {
-                  "display": "=if(@group.fieldData.email == '' || @group.fieldData.email == 'Unassigned' ,'none','inherit')"
-                }
-              },
-              {
-                "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "attributes": {
-                      "iconName": "Work"
-                    },
-                    "style": {
-                      "padding-left": "10px",
-                      "padding-top": "3px"
-                    }
-                  },
-                  {
-                    "elmType": "span",
-                    "txtContent": "=@group.fieldData.jobTitle",
-                    "style": {
-                      "padding-left": "5px"
-                    },
-                    "attributes": {
-                        "title": "=@group.fieldData.jobTitle"                       
-                      }                    
-                  }
-                ],
-                "style": {
-                  "display": "=if(@group.fieldData.jobTitle == '' || @group.fieldData.jobTitle == 'Unassigned','none','inherit')"
-                }
-              },
-              {
-                "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "attributes": {
-                      "iconName": "WorkforceManagement"
-                    },
-                    "style": {
-                      "padding-left": "10px",
-                      "padding-top": "3px"
-                    }
-                  },
-                  {
-                    "elmType": "span",
-                    "txtContent": "=@group.fieldData.department",
-                    "style": {
-                      "padding-left": "5px"
-                    },
-                    "attributes": {
-                        "title": "=@group.fieldData.department"                       
-                      }
-                  }
-                ],
-                "style": {
-                  "display": "=if(@group.fieldData.department == '' || @group.fieldData.department == 'Unassigned','none','inherit')"
-                }
-              },
-              {
-                "elmType": "span",
-                "style": {
-                  "padding-left": "5px"
-                },
-                "attributes": {
-                  "class": "ms-fontWeight-bold"
-                },
-                "txtContent": "='(' + @group.count +')'"
-              }
-            ]
+          "attributes": {
+            "class": "ms-fontWeight-bold"
           }
-        ]
-      }
+        },
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "=getUserImage(@group.fieldData.email, 'small')",
+            "title": "@group.fieldData.title"
+          },
+          "style": {
+            "width": "25px",
+            "height": "25px",
+            "border-radius": "50%"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "inline-flex",
+            "padding-right": "9px",
+            "padding-bottom": "3px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "=@group.fieldData.title",
+              "attributes": {
+                "title": "=@group.fieldData.title",
+                "class": "ms-fontWeight-semibold"
+              },
+              "style": {
+                "padding-left": "5px"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "span",
+                  "attributes": {
+                    "iconName": "Mail"
+                  },
+                  "style": {
+                    "padding-left": "10px",
+                    "padding-top": "3px"
+                  }
+                },
+                {
+                  "elmType": "span",
+                  "txtContent": "=@group.fieldData.email",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "title": "=@group.fieldData.email"
+                  }
+                }
+              ],
+              "style": {
+                "display": "=if(@group.fieldData.email == '' || @group.fieldData.email == 'Unassigned' ,'none','inherit')"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "span",
+                  "attributes": {
+                    "iconName": "Work"
+                  },
+                  "style": {
+                    "padding-left": "10px",
+                    "padding-top": "3px"
+                  }
+                },
+                {
+                  "elmType": "span",
+                  "txtContent": "=@group.fieldData.jobTitle",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "title": "=@group.fieldData.jobTitle"
+                  }
+                }
+              ],
+              "style": {
+                "display": "=if(@group.fieldData.jobTitle == '' || @group.fieldData.jobTitle == 'Unassigned','none','inherit')"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "span",
+                  "attributes": {
+                    "iconName": "WorkforceManagement"
+                  },
+                  "style": {
+                    "padding-left": "10px",
+                    "padding-top": "3px"
+                  }
+                },
+                {
+                  "elmType": "span",
+                  "txtContent": "=@group.fieldData.department",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "title": "=@group.fieldData.department"
+                  }
+                }
+              ],
+              "style": {
+                "display": "=if(@group.fieldData.department == '' || @group.fieldData.department == 'Unassigned','none','inherit')"
+              }
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "padding-left": "5px"
+              },
+              "attributes": {
+                "class": "ms-fontWeight-bold"
+              },
+              "txtContent": "='(' + @group.count +')'"
+            }
+          ]
+        }
+      ]
     }
   }
+}
