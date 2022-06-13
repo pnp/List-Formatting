@@ -67,7 +67,6 @@
                           "width": "380px",
                           "display": "table"
                         },
-                        "attributes": {},
                         "children": [
                           {
                             "elmType": "div",
