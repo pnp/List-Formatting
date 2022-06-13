@@ -3,7 +3,7 @@
 ## Summary
 This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach.
 
-![Screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -17,7 +17,7 @@ Adding a new list using the Employee Onboarding template will provide all the fi
 
 Solution|Author(s)
 --------|---------
-employee-onboarding-steps | [Chris Kent](https://twitter.com/thechriskent)
+employee-onboarding-steps.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -30,4 +30,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/employee-onboarding-steps" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/employee-onboarding-steps" />

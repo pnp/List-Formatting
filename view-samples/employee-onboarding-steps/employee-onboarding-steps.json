@@ -1,4 +1,5 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
   "additionalRowClass": "=if(@rowIndex % 2 == 0, 'sp-css-backgroundColor-neutralBackground', 'sp-css-backgroundColor-noFill'",
   "tileProps": {
     "width": "300",
