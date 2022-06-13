@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-advent-calendar-tile-format",
-    "reponame": "advent-calendar-tile-format",
+    "name": "pnp-list-formatting-advent-calendar",
+    "reponame": "advent-calendar",
     "source": "pnp",
-    "title": "Advent Calendar Tile Format",
+    "title": "Advent Calendar",
     "shortDescription": "This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/advent-calendar-tile-format",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/advent-calendar",
     "longDescription": [
       "This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2021-12-19T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG, Inline Editing, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Date, getDate"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/advent-calendar-tile-format/assets/screenshot.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/advent-calendar/assets/screenshot.gif",
         "alt": "Advent Calendar Tile Format"
       }
     ],

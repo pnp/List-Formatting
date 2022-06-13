@@ -1,4 +1,4 @@
-# Advent Calendar Tile Format
+# Advent Calendar
 
 ## Summary
 This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents. The present box cannot be opened if the value in the `Date` column is later than today.
@@ -21,9 +21,9 @@ This sample demonstrates an advent calendar where you can click on the present b
 
 ## Sample
 
-Solution                         |Author(s)
----------------------------------|---------------------------
-advent-calendar-tile-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+advent-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/advent-calendar-tile-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/advent-calendar" />
