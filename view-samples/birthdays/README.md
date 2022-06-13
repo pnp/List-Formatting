@@ -1,7 +1,7 @@
-# Birthday Row Format
+# Birthdays
 
 ## Summary
-This is a sample derived from the [contact card row format](../contact-card-format). It shows how to format a list to show upcoming employee birthdays. It features the following:
+This is a sample derived from the [contact cards](../contact-cards) sample. It shows how to format a list to show upcoming employee birthdays. It features the following:
 - Responsive layout through flexbox
 - Conditionally showing a birthday cake icon if the persons birthday is the current date
 - Conditionally changing the text which shows based on if the persons birthday is the current date
@@ -9,7 +9,7 @@ This is a sample derived from the [contact card row format](../contact-card-form
   - Emailing the person with a pre-filled Happy Birthday Subject
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Birthday Format Screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -38,7 +38,7 @@ To make this a truly automated process, you can use Microsoft Flow to pull Birth
 
 Solution|Author(s)
 --------|---------
-birthday-format | [April Dunnam](https://twitter.com/aprildunnam)
+birthdays.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunham](https://twitter.com/aprildunnam))
 
 ## Version history
 
@@ -52,4 +52,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/birthday-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/birthdays" />

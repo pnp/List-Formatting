@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-birthdays",
+    "reponame": "birthdays",
+    "source": "pnp",
+    "title": "Birthdays",
+    "shortDescription": "This sample shows how to format a list to show upcoming employee birthdays.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/birthdays",
+    "longDescription": [
+      "This sample shows how to format a list to show upcoming employee birthdays."
+    ],
+    "creationDateTime": "2019-02-20T00:00:00.000Z",
+    "updateDateTime": "2019-02-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb, @now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighterAlt, ms-fontColor-themePrimary--hover, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontWeight-regular, ms-fontWeight-semibold, ms-fontWeight-semilight, ms-fontSize-l, ms-fontSize-m, ms-fontSize-s, ms-fontSize-xs"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/birthdays/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aprildunnam",
+        "pictureUrl": "https://github.com/aprildunnam.png",
+        "name": "April Dunham"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
