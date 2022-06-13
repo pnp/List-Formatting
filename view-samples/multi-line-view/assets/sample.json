@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-multi-line-view",
     "reponame": "multi-line-view",
     "source": "pnp",
-    "title": "Multi-line view rendering",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/multi-line-view",
+    "title": "Multi-line View",
+    "shortDescription": "This sample demonstrates showing fields on separate rows, conditionally showing a button based on the current user, and how to use the defaultClick rowaction.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/multi-line-view",
     "longDescription": [
-      ""
+      "This sample demonstrates showing fields on separate rows, conditionally showing a button based on the current user, and how to use the defaultClick rowaction."
     ],
     "creationDateTime": "2018-08-10T00:00:00.000Z",
     "updateDateTime": "2018-08-10T00:00:00.000Z",
@@ -21,32 +21,44 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
         "value": "@me"
       },
       {
-        "key": "LIST-ROW-ACTION",
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
         "value": "defaultClick"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "CLASSES",
+        "value": "sp-row-card, sp-row-listPadding, sp-row-title, sp-row-button"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/multi-line-view/assets/listformatting-rowformatter.png",
-        "alt": "listformatting-rowformatter"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/multi-line-view/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
