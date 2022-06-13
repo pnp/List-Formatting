@@ -1,0 +1,646 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px"
+                },
+                "txtContent": "Color Picker - 12 sections"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "5px",
+                  "border-radius": "5px",
+                  "cursor": "pointer",
+                  "heigth": "20px",
+                  "width": "20px"
+                },
+                "attributes": {
+                  "class": "ms-bgColor-gray30--hover ms-fontSize-20",
+                  "iconName": "color"
+                },
+                "customCardProps": {
+                  "openOnEvent": "click",
+                  "isBeakVisible": false,
+                  "directionalHint": "topCenter",
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "flex"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#ffff00",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Yellow",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#ffff00"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#adff2f",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Yellow-Green",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#adff2f"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#008000",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Green",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#008000"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#0d98ba",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Blue-green",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#0d98ba"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#0000ff",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Blue",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#0000ff"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#8a2be2",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Blue-violet",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#8a2be2"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "flex"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#ee82ee",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Violet",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#ee82ee"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#953553",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Red-Violet",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#953553"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#ff0000",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Red",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#ff0000"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#ff4500",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Red-Orange",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#ff4500"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#ffa500",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Orange",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#ffa500"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-bgColor-gray30--hover"
+                                        },
+                                        "style": {
+                                          "border-radius": "5px"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "border": "1px solid #eeeeee",
+                                              "background-color": "#FFAE42",
+                                              "border-radius": "50%",
+                                              "height": "10px",
+                                              "width": "10px",
+                                              "padding": "5px",
+                                              "margin": "5px",
+                                              "cursor": "pointer"
+                                            },
+                                            "attributes": {
+                                              "title": "Yellow-Orange",
+                                              "class": "ms-bgColor-gray30--hover"
+                                            },
+                                            "customRowAction": {
+                                              "action": "setValue",
+                                              "actionInput": {
+                                                "ColorP": "#FFAE42"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "background-color": "[$ColorP]",
+              "border": "1px solid #eeeeee",
+              "width": "100px",
+              "height": "50px",
+              "border-radius": "10px"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
