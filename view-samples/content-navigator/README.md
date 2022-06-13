@@ -18,8 +18,8 @@ The sample utilizes the `@rowIndex` magic string to generate the anchor links. T
 
 Solution|Author(s)
 --------|---------
-content-navigator.json | [Chris Kent](https://twitter.com/theChrisKent)
-content-navigator-links.json | [Chris Kent](https://twitter.com/theChrisKent)
+content-navigator.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+content-navigator-links.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -32,4 +32,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/content-navigator" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/content-navigator" />
