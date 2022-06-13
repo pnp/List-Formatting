@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-event-tiles",
+    "reponame": "event-tiles",
+    "source": "pnp",
+    "title": "Modern Event Tiles",
+    "shortDescription": "This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles",
+    "longDescription": [
+      "This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart."
+    ],
+    "creationDateTime": "2020-06-25T00:00:00.000Z",
+    "updateDateTime": "2020-06-25T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Gallery, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Date, toLocaleTimeString, getDate, getMonth, toString, loopIndex, join, length"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, forEach, defaultHoverField, customCardProps, directionalHint, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-bgColor-neutralLight, ms-borderColor-neutralTertiary--hover, ms-borderColor-neutralLight, ms-borderColor-black, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-black"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/event-tiles/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/event-tiles/assets/screenshotTiles.png",
+        "alt": "screenshotTiles"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
