@@ -1,4 +1,4 @@
-# Butterfly Chart Format
+# Butterfly Chart
 
 ## Summary
 This sample formats a SharePoint list view into a butterfly chart.
@@ -17,9 +17,9 @@ This example shows values from 0 to 500. You can adjust this scale by changing t
 
 ## Sample
 
-Solution                    |Author(s)
-----------------------------|---------------------------
-butterfly-chart-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+butterfly-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -31,4 +31,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/butterfly-chart-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/butterfly-chart" />

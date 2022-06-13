@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-butterfly-chart-format",
-    "reponame": "butterfly-chart-format",
+    "name": "pnp-list-formatting-butterfly-chart",
+    "reponame": "butterfly-chart",
     "source": "pnp",
-    "title": "Butterfly Chart Format",
+    "title": "Butterfly Chart",
     "shortDescription": "This sample formats a SharePoint list view into a butterfly chart.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/butterfly-chart-format",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/butterfly-chart",
     "longDescription": [
       "This sample formats a SharePoint list view into a butterfly chart."
     ],
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Hover Cards, Charts"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-red, ms-bgColor-redDark--hover, ms-bgColor-blueDark--hover, ms-bgColor-blue, ms-fontColor-red, ms-fontColor-blue, ms-fontSize-42, ms-fontSize-28, ms-fontSize-20"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/butterfly-chart/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "tecchan1107",
