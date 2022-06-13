@@ -1,22 +1,18 @@
-# Default hover card on doclib
+# Default Hover Card
 
 ## Summary
-The following image shows a list with a defalut hover added to a formatted view in a doclib
+This sample demonstrates showing a default hover card in a document library. On hover in a formatted view on a file a file card is displayed. On hover in a formatted view on a person column a profile card is displayed.
 
-On hover in a formatted view on a file a file card is displayed
-
-On hover in a formatted view on a person column a profile card is displayed and
-
-![screenshot of the sample](./assets/File_hover.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- This format can be applied to any view type
+- This format can be applied to any view type for a document libary.
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-File-hover-card.json | Niket Jain
+default-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 
 ## Version history
 
@@ -37,4 +33,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/default-hover-cards" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/default-hover-card" />
