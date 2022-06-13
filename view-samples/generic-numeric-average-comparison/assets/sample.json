@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Numeric Average Comparison",
     "shortDescription": "Provides an example of comparing numeric values across time periods. In this example, we are using grades for students across 4 quarters, though the principle can be applied to any repetitive numeric values.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/generic-numeric-average-comparison",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/generic-numeric-average-comparison",
     "longDescription": [
       "Provides an example of comparing numeric values across time periods. In this example, we are using grades for students across 4 quarters, though the principle can be applied to any repetitive numeric values."
     ],
@@ -21,34 +21,44 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-OPERATOR",
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
         "value": "toString"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-row-card"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-list-sample.jpg?raw=true",
-        "alt": "generic-numeric-average-comparison-list-sample"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-sample.jpg?raw=true",
-        "alt": "generic-numeric-average-comparison-sample"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/generic-numeric-average-comparison/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

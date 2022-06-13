@@ -7,12 +7,7 @@ The View Formatting definition calculates the average of the current and prior q
 
 In addition to the numeric average calculation displayed within each quarter, this example also illustrates how the average value in each quarter can be used to assign additional labels, such as the Student Grade. (Example: A,B,C,D,F)
 
-
-## View Formatting Screenshot
-![Screenshot Sample](./assets/generic-numeric-average-comparison-sample.jpg)
-
-## List Details Screenshot
-![Screenshot Sample](./assets/generic-numeric-average-comparison-list-sample.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -25,11 +20,13 @@ In addition to the numeric average calculation displayed within each quarter, th
 |Number|Q3NumericGrade|Yes|
 |Number|Q4NumericGrade|Yes|
 
+![Unformatted View](./assets/screenshotUnformatted.png)
+
 ## Sample
 
 Solution|Author(s)
 --------|---------
-generic-numeric-average-comparison | David Warner II ([@DavidWarnerII](https://twitter.com/davidwarnerii) / [Warner Digital](http://warner.digital))
+generic-numeric-average-comparison.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
 
 
 ## Version history
@@ -49,4 +46,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/generic-numeric-average-comparison" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/generic-numeric-average-comparison" />
