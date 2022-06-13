@@ -5,9 +5,9 @@
     "source": "pnp",
     "title": "Budget Tracker Sample",
     "shortDescription": "The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page. ",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/budget-tracker",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/budget-tracker",
     "longDescription": [
-      "The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page. "
+      "The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page."
     ],
     "creationDateTime": "2020-01-29T00:00:00.000Z",
     "updateDateTime": "2020-01-29T00:00:00.000Z",
@@ -23,32 +23,42 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Provisioning"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb, @window.innerWidth"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/budget-tracker/assets/credential-popup.png?raw=true",
-        "alt": "credential-popup"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/budget-tracker/assets/Finish.png?raw=true",
-        "alt": "Finish"
-      },
-      {
-        "type": "image",
-        "order": 102,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/budget-tracker/assets/page-review.png?raw=true",
-        "alt": "page-review"
-      },
-      {
-        "type": "image",
-        "order": 103,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/budget-tracker/assets/security-warning.png?raw=true",
-        "alt": "security-warning"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/budget-tracker/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

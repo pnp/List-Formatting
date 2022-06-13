@@ -1,6 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "debugMode": true,
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideColumnHeader": true,
   "rowFormatter": {
     "elmType": "div",
