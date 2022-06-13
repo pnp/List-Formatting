@@ -1,0 +1,91 @@
+[
+  {
+    "name": "pnp-list-formatting-bulletin-board",
+    "reponame": "bulletin-board",
+    "source": "pnp",
+    "title": "Bulletin Board",
+    "shortDescription": "Provides an example of creating a simple bulletin board listing. The rowFormatter property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details. The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/bulletin-board",
+    "longDescription": [
+      "Provides an example of creating a simple bulletin board listing. The rowFormatter property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details. The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users."
+    ],
+    "creationDateTime": "2018-08-22T00:00:00.000Z",
+    "updateDateTime": "2020-05-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, share, delete"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeLighter--hover, ms-bgColor-white, ms-borderColor-themePrimary, ms-fontColor-themePrimary, ms-fontColor-themeLight, ms-fontColor-themeDark--hover, ms-fontColor-white, ms-fontWeight-regular, ms-fontWeight-semibold, ms-font-l, ms-fontSize-su, ms-fontSize-l, ms-bgColor-themeLight--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bulletin-board/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bulletin-board/assets/BulletinBoardDetails.gif",
+        "alt": "BulletinBoardDetails"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bulletin-board/assets/screenshotWithButtons.png",
+        "alt": "screenshotWithButtons"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -7,7 +7,7 @@ The view is sorted by the modified date descending (this is also the date that i
 
 By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![Light and Dark Themes](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -27,8 +27,8 @@ An additional format, bulletin-board-format-with-buttons.json is provided that d
 
 Solution|Author(s)
 --------|---------
-bulletin-board-format | [Chris Kent](https://twitter.com/thechriskent)
-bulletin-board-format-with-buttons | [Chris Kent](https://twitter.com/thechriskent)
+bulletin-board.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+bulletin-board-with-buttons.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -48,4 +48,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 ![Master Detail View](./assets/BulletinBoardDetails.gif)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bulletin-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bulletin-board" />
