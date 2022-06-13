@@ -1,11 +1,9 @@
-# Chronological Format
+# Chronological Items
 
 ## Summary
-This sample formats your view to look like a chronological timeline.
-This view is responsive.
+This sample formats your view to look like a chronological timeline. This view is responsive.
 
-chronological-format.json
-![screenshot of the sample](./assets/chronological-format.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -17,9 +15,9 @@ Description   | Multi Line Text
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-chronological-format.json   |[Catinot Franck](https://www.linkedin.com/in/franck-catinot/)
+Solution|Author(s)
+--------|---------
+chronological-items.json | [Catinot Franck](https://github.com/fcatinot)
 
 ## Version history
 
@@ -31,4 +29,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/chronological-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/chronological-items" />
