@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-alternating-rowclass",
-    "reponame": "alternating-rowclass",
+    "name": "pnp-list-formatting-alternating-rows",
+    "reponame": "alternating-rows",
     "source": "pnp",
     "title": "Alternating Rows",
     "shortDescription": "Highlights every other row using theme colors.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/alternating-rowclass",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/alternating-rows",
     "longDescription": [
       "Highlights every other row using theme colors."
     ],
@@ -21,45 +21,61 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": ""
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "Modulus %"
-      },
-      {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@rowIndex"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLight--hover, ms-bgColor-themeLighter"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/alternating-rows/assets/screenshot.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotCombined.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/alternating-rows/assets/screenshotCombined.png",
         "alt": "screenshotCombined"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotFiltered.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/alternating-rows/assets/screenshotFiltered.png",
         "alt": "screenshotFiltered"
       },
       {
         "type": "image",
         "order": 103,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/alternating-rowclass/assets/screenshotSorted.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/alternating-rows/assets/screenshotSorted.png",
         "alt": "screenshotSorted"
       }
     ],

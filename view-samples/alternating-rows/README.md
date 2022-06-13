@@ -3,7 +3,7 @@
 ## Summary
 Highlights every other row using theme colors.
 
-![Alternating Rows](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 By usng the `@rowIndex` keyword, the alternating style will be applied regardless of sorting and filtering.
 
@@ -22,7 +22,7 @@ By using the [Office UI Fabric color classes](https://developer.microsoft.com/fa
 
 Solution|Author(s)
 --------|---------
-alternating-rowclass | [Chris Kent](https://twitter.com/thechriskent)
+alternating-rows.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -48,4 +48,4 @@ Column Format samples shown above:
 - [multi-person-currentuser](../../column-samples/multi-person-currentuser)
 - [date-range-format](../../column-samples/date-range-format)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/alternating-rowclass" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/alternating-rows" />
