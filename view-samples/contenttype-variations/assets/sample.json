@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-contenttype-variations",
+    "reponame": "contenttype-variations",
+    "source": "pnp",
+    "title": "ContentType Variations",
+    "shortDescription": "Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations",
+    "longDescription": [
+      "Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used."
+    ],
+    "creationDateTime": "2018-12-19T00:00:00.000Z",
+    "updateDateTime": "2019-01-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Provisioning"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "ContentType"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-bgColor-orangeLighter--hover, ms-bgColor-red--hover, ms-bgColor-greenLight--hover, ms-borderColor-orangeLight, ms-borderColor-redDark, ms-borderColor-green, ms-fontColor-white--hover, ms-fontColor-orangeLight, ms-fontColor-redDark, ms-fontColor-green, ms-fontWeight-regular, ms-fontWeight-semibold, ms-fontSize-xl, ms-fontSize-m"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contenttype-variations/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

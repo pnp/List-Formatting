@@ -1,7 +1,7 @@
-# ContentType Format
+# ContentType Variations
 
 ## Summary
-Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is "Green" then green is used in the format. It it's Apple with a different type, red is used. Otherwise, orange is used.
+Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is "Green" then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used.
 
 The `rowFormatter` property is used to fully customize the display of rows to create a simple view of list items while easily allowing users to click on the item for additional details. The colors used for each item are applied using the Office UI Fabric color classes for themes. These classes are then applied conditionally based on an item's content type.
 
@@ -9,7 +9,7 @@ Both `ContentType` and `ContentTypeId` are always available (even when not expli
 
 ContentType is available as long as it is NOT part of the view. This is a known limitation in List Formatting.
 
-![Fruit](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## List requirements
 The list has enabled mangement of Content Types and 2 custom content types have been added. Additionally, the format expects images that correspond with the choice values to be located in the Documents library on the site within the Fruit folder. Sample images have been included.
@@ -55,14 +55,14 @@ You will need to have [SharePoint PnP PowerShell for Online](https://docs.micros
 
 ```bash
 Connect-PnPOnline https://mytenant.sharepoint.com/sites/mysite
-Apply-PnPProvisioningTemplate -Path FruitTemplate.xml
+Invoke-PnPSiteTemplate -Path FruitTemplate.xml
 ```
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-contenttype-format | [Chris Kent](https://twitter.com/thechriskent)
+contenttype-variations.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -82,4 +82,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 The image's src attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the images will be pulled from the fruit folder in the Documents library for the site.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/contenttype-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/contenttype-variations" />
