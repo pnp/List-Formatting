@@ -1,4 +1,4 @@
-# Link collection using Emoji
+# Link Collection using Emojis
 
 ## Summary
 This sample demonstrates a link collection using Emoji and is a customization of the `Gallery` layout. Additionally, this sample combines group customization with a tile format.
@@ -18,9 +18,9 @@ Set up grouping in `Category` column
 
 ## Sample
 
-Solution                    |Author(s)
-----------------------------|---------------------------
-emoji-link-tile-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+emoji-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -31,4 +31,4 @@ Version |Date          |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/emoji-link-tile-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/emoji-link-tiles" />
