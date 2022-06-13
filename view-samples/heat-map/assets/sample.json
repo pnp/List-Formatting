@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-neutralSecondary--hover, ms-fontColor-neutralTertiary"
       }
     ],
     "thumbnails": [
