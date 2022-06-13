@@ -1,17 +1,12 @@
-# Announcements style
+# Announcements
 
 ## Summary
 
-This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page.
-On Microsoft Lists will also show a image that you can connect with the Announcement
+This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement.
 
-### Announcements on SharePoint page using Default List Web Part
+![screenshot of the sample](./assets/screenshot.png)
 
-![Announcements Sample 1](./assets/announcementsImg1.png)
-
-### Announcements on Microsoft List
-
-![Announcements Sample 2](./assets/announcementsImg2.png)
+![screenshot of the sample on a Modern page](./assets/screenshot2.png)
 
 ## View requirements
 
@@ -25,9 +20,9 @@ On Microsoft Lists will also show a image that you can connect with the Announce
 
 ## Sample
 
-| Solution           | Author(s)                                                                                                            |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| announcements.json | David Ramalho ([sharepoint-tricks.com](http://sharepoint-tricks.com), [@davRamalho](https://twitter.com/davRamalho)) |
+Solution|Author(s)
+--------|---------
+announcements.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalho](https://twitter.com/davRamalho))
 
 ## Version history
 
@@ -39,4 +34,4 @@ On Microsoft Lists will also show a image that you can connect with the Announce
 
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/List-Formatting/view-samples/announcements-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/announcements" />
