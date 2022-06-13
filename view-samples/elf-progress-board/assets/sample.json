@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Inline Editing, Hover Cards, Gallery, Randomization"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now, @rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Number, loopIndex, length, ceiling, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, inlineEditField, defaultHoverField, customCardProps, directionalHint, hideSelection, fillHorizontally"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-bgColor-neutralLight, ms-bgColor-neutralLighter, ms-bgColor-white, ms-borderColor-neutralPrimary, ms-borderColor-neutralLight, ms-borderColor-neutralLighter, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontColor-neutralLight, ms-fontColor-red--hover, ms-fontColor-greenDark--hover, sp-card-borderHighlight, sp-card-personCallout, sp-card-container, sp-card-keyboard-focusable, sp-card-subContainer, sp-card-displayColumnContainer, sp-card-previewColumnContainer, sp-card-imagePreviewBackground, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userCustomCard, sp-card-defaultImage, sp-card-defaultImageOverlay, sp-card-imagePreview, sp-card-imageContainer"
       }
     ],
     "thumbnails": [

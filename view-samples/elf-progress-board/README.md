@@ -8,7 +8,7 @@ This sample demonstrates:
 - inlineEditField
 - setValue
 
-![screenshot](./assets/screenshot.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 
 ## View requirements
@@ -28,7 +28,7 @@ This sample demonstrates:
 
 Solution|Author(s)
 --------|---------
-elf-progress-board.json | [Chris Kent](https://twitter.com/theChrisKent)
+elf-progress-board.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -42,4 +42,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/elf-progress-board" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/elf-progress-board" />
