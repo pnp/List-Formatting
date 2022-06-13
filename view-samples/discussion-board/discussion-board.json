@@ -70,7 +70,6 @@
       },
       {
         "elmType": "div",
-        "style": {},
         "children": [
           {
             "elmType": "div",
@@ -107,7 +106,7 @@
                         },
                         "attributes": {
                           "iconName": "Blog",
-                          "class": "ms-fontSize-24 "
+                          "class": "ms-fontSize-24"
                         }
                       },
                       {
@@ -893,7 +892,7 @@
                   "padding": "5px"
                 },
                 "attributes": {
-                  "class": "ms-fontSize-14 "
+                  "class": "ms-fontSize-14"
                 },
                 "children": [
                   {

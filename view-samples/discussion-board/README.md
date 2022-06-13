@@ -1,10 +1,10 @@
-# discussion board format
+# Discussion Board
 
 ## Summary
 
-This sample provides discussion board where title, description, tags and votes are available. Users can include emotions on discussions, comments and inline editing is available to update information. 
+This sample transforms your list into a discussion board with title, desription, tags, and votes are available. Additionally, users can react, comment, and perform inline edits!
 
-![discussion board format](./assets/DiscussionBoardformat.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -20,13 +20,13 @@ Emotion | Multiple lines of text - Store icons for users
 EmotionCount | Single line of text  - stores counts of icons
 
 Edit View requirements
-- Include in View the following additional fields "**Created**", "**Created By**", "**Modified**" and "**Modified By**".
+- Include in View the following additional fields `Created`, `Created By`, `Modified` and `Modified By`.
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-discussion-board-format.json | [André Lage](https://twitter.com/aaclage)
+discussion-board.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -43,4 +43,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/discussion-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/discussion-board" />
