@@ -1,4 +1,4 @@
-# Contact Card Row Format
+# Contact Cards
 
 ## Summary
 This is a sample of a complex format that customizes the entire display of a row. The goal is to illustrate several key principals including:
@@ -16,7 +16,7 @@ This is a sample of a complex format that customizes the entire display of a row
 - Disabling of selection (`hideSelection`)
 - Removal of the list header (`hideListHeader`)
 
-![Light and Dark Themes](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### Map API key
 
@@ -46,7 +46,7 @@ All fields below should be part of the view, but only those marked with Required
 
 Solution|Author(s)
 --------|---------
-contact-card-format | [Chris Kent](https://twitter.com/thechriskent)
+contact-cards.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -66,4 +66,4 @@ This format takes advantage of CSS Flexbox to help make it responsive:
 ![Responsive Screenshot](./assets/screenshotResponsive.png)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/contact-card-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/contact-cards" />

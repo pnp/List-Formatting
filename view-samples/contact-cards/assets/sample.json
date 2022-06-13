@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-contact-card-format",
-    "reponame": "contact-card-format",
+    "name": "pnp-list-formatting-contact-cards",
+    "reponame": "contact-cards",
     "source": "pnp",
-    "title": "Contact Card Row Format",
+    "title": "Contact Cards",
     "shortDescription": "This is a sample of a complex format that customizes the entire display of a row. The goal is to illustrate several key principals including:",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/contact-card-format",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/contact-cards",
     "longDescription": [
       "This is a sample of a complex format that customizes the entire display of a row. The goal is to illustrate several key principals including:"
     ],
@@ -21,37 +21,49 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
         "value": "@currentWeb"
       },
       {
-        "key": "LIST-ROW-ACTION",
-        "value": "defaultClick"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, share, delete, editProps"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter, ms-fontColor-themePrimary, ms-fontColor-themePrimary--hover, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontColor-red--hover, ms-fontWeight-semibold, ms-fontWeight-regular, ms-fontWeight-semilight, ms-fontSize-l, ms-fontSize-m, ms-fontSize-sPlus, ms-fontSize-s, ms-fontSize-xs"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contact-cards/assets/screenshot.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/contact-card-format/assets/screenshotResponsive.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contact-cards/assets/screenshotResponsive.png",
         "alt": "screenshotResponsive"
       }
     ],
