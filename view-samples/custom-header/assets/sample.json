@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-custom-header-format",
-    "reponame": "custom-header-format",
+    "name": "pnp-list-formatting-custom-header",
+    "reponame": "custom-header",
     "source": "pnp",
     "title": "Custom Header",
     "shortDescription": "Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the \u0060display\u0060 style attribute to \u0060none\u0060 (hidden) whenever the \u0060@rowIndex\u0060 is not 0 (first row).",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header-format",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header",
     "longDescription": [
       "Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the \u0060display\u0060 style attribute to \u0060none\u0060 (hidden) whenever the \u0060@rowIndex\u0060 is not 0 (first row)."
     ],
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-borderColor-neutralQuaternary, ms-fontColor-white, ms-fontColor-redDark"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-header/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

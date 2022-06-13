@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideColumnHeader": true,
   "hideSelection": true,
   "rowFormatter": {
@@ -16,7 +16,7 @@
           "class": "ms-bgColor-themePrimary ms-fontColor-white"
         },
         "style": {
-          "display": "=if(@rowIndex == 0, 'flex', 'none')",
+          "display": "=if(@rowIndex % 30 == 0, 'flex', 'none')",
           "font-weight": "bold",
           "font-size": "18px",
           "width": "100%",
