@@ -12,8 +12,6 @@ This format can be applied to any column type but expects the following columns 
 |----------------|--------------|:------:|
 |TimeDifference  |Number        |Yes     |
 
-The `TimeDifference` column needs to be set to the time difference from the site's time zone.
-
 ## Sample
 
 Solution                |Author(s)
