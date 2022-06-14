@@ -6,7 +6,7 @@
       "elmType": "div",
       "style": {
         "position": "relative",
-        "min-width": "90%",
+        "min-width": "100%",
         "display": "flex",
         "align-items": "center",
         "white-space": "nowrap"
@@ -21,13 +21,22 @@
             "flex-direction": "row",
             "justify-content": "space-around",
             "border": "2px solid",
-            "font-size": "15px",
-            "margin-left": "=if([$TimeDifference] % 1 == 0 , '0px', if([$TimeDifference] > 0 , ((abs(1 - [$TimeDifference] % 1) * 60) / (60 * 24) * 100) + '%' , ((abs([$TimeDifference] % 1) * 60) / (60 * 24) * 100) + '%'))"
+            "font-size": "15px"
           },
           "attributes": {
             "class": "ms-fontColor-themePrimary"
           },
           "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "=if([$TimeDifference] > 0 , ((1 - abs([$TimeDifference] % 1)) * 100) + '%' , (abs([$TimeDifference] % 1) * 100) + '%')",
+                "display": "=if([$TimeDifference] % 1 == 0 , 'none' , '')"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$TimeDifference] + 23) % 24) <= 5 || abs((24 + [$TimeDifference] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 23) % 24) <= 8 || abs((24 + [$TimeDifference] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
             {
               "elmType": "div",
               "txtContent": "=if(ceiling(abs((24 + [$TimeDifference]) % 24)) == 24 , 0, ceiling(abs((24 + [$TimeDifference]) % 24)))",
@@ -285,7 +294,7 @@
               "elmType": "div",
               "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 23) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 23) % 24)))",
               "style": {
-                "width": "100%",
+                "width": "=if([$TimeDifference] % 1 == 0 , '100%', if([$TimeDifference] > 0 , (abs([$TimeDifference] % 1) * 100) + '%' , ((1 - abs([$TimeDifference] % 1)) * 100) + '%'))",
                 "text-align": "center"
               },
               "attributes": {
