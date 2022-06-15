@@ -23,7 +23,8 @@ publish-status-with-description.json | [Paul Bullock](https://twitter.com/pkbull
 
 Version|Date|Comments
 -------|----|--------
-1.0| 20 May 2019|Initial release
+1.0| May 20, 2019|Initial release
+1.1| June 15, 2022|Version number added
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
