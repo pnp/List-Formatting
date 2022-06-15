@@ -8,9 +8,9 @@ This sample demonstrates the side-by-side display and comparison of the current 
 ## View requirements
 This format can be applied to any column type but expects the following columns to be part of the view:
 
-|Type            |Internal Name |Required|
-|----------------|--------------|:------:|
-|TimeDifference  |Number        |Yes     |
+|Type |Internal Name |Required|
+|-----|--------------|:------:|
+|UTC  |Number        |Yes     |
 
 ## Sample
 

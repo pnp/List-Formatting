@@ -30,275 +30,275 @@
             {
               "elmType": "div",
               "style": {
-                "width": "=if([$TimeDifference] > 0 , ((1 - abs([$TimeDifference] % 1)) * 100) + '%' , (abs([$TimeDifference] % 1) * 100) + '%')",
-                "display": "=if([$TimeDifference] % 1 == 0 , 'none' , '')"
+                "width": "=if([$UTC] > 0 , ((1 - abs([$UTC] % 1)) * 100) + '%' , (abs([$UTC] % 1) * 100) + '%')",
+                "display": "=if([$UTC] % 1 == 0 , 'none' , '')"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 23) % 24) <= 5 || abs((24 + [$TimeDifference] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 23) % 24) <= 8 || abs((24 + [$TimeDifference] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 23) % 24) <= 5 || abs((24 + [$UTC] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 23) % 24) <= 8 || abs((24 + [$UTC] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference]) % 24)) == 24 , 0, ceiling(abs((24 + [$TimeDifference]) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC]) % 24)) == 24 , 0, ceiling(abs((24 + [$UTC]) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference]) % 24) <= 5 || abs((24 + [$TimeDifference]) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference]) % 24) <= 8 || abs((24 + [$TimeDifference]) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC]) % 24) <= 5 || abs((24 + [$UTC]) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC]) % 24) <= 8 || abs((24 + [$UTC]) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 1) % 24)) == 24, 0, ceiling(abs((24 + [$TimeDifference] + 1) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 1) % 24)) == 24, 0, ceiling(abs((24 + [$UTC] + 1) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 1) % 24) <= 5 || abs((24 + [$TimeDifference] + 1) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 1) % 24) <= 8 || abs((24 + [$TimeDifference] + 1) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 1) % 24) <= 5 || abs((24 + [$UTC] + 1) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 1) % 24) <= 8 || abs((24 + [$UTC] + 1) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 2) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 2) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 2) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 2) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 2) % 24) <= 5 || abs((24 + [$TimeDifference] + 2) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 2) % 24) <= 8 || abs((24 + [$TimeDifference] + 2) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 2) % 24) <= 5 || abs((24 + [$UTC] + 2) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 2) % 24) <= 8 || abs((24 + [$UTC] + 2) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 3) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 3) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 3) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 3) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 3) % 24) <= 5 || abs((24 + [$TimeDifference] + 3) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 3) % 24) <= 8 || abs((24 + [$TimeDifference] + 3) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 3) % 24) <= 5 || abs((24 + [$UTC] + 3) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 3) % 24) <= 8 || abs((24 + [$UTC] + 3) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 4) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 4) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 4) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 4) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 4) % 24) <= 5 || abs((24 + [$TimeDifference] + 4) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 4) % 24) <= 8 || abs((24 + [$TimeDifference] + 4) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 4) % 24) <= 5 || abs((24 + [$UTC] + 4) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 4) % 24) <= 8 || abs((24 + [$UTC] + 4) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 5) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 5) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 5) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 5) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 5) % 24) <= 5 || abs((24 + [$TimeDifference] + 5) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 5) % 24) <= 8 || abs((24 + [$TimeDifference] + 5) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 5) % 24) <= 5 || abs((24 + [$UTC] + 5) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 5) % 24) <= 8 || abs((24 + [$UTC] + 5) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 6) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 6) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 6) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 6) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 6) % 24) <= 5 || abs((24 + [$TimeDifference] + 6) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 6) % 24) <= 8 || abs((24 + [$TimeDifference] + 6) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 6) % 24) <= 5 || abs((24 + [$UTC] + 6) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 6) % 24) <= 8 || abs((24 + [$UTC] + 6) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 7) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 7) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 7) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 7) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 7) % 24) <= 5 || abs((24 + [$TimeDifference] + 7) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 7) % 24) <= 8 || abs((24 + [$TimeDifference] + 7) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 7) % 24) <= 5 || abs((24 + [$UTC] + 7) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 7) % 24) <= 8 || abs((24 + [$UTC] + 7) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 8) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 8) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 8) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 8) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 8) % 24) <= 5 || abs((24 + [$TimeDifference] + 8) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 8) % 24) <= 8 || abs((24 + [$TimeDifference] + 8) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 8) % 24) <= 5 || abs((24 + [$UTC] + 8) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 8) % 24) <= 8 || abs((24 + [$UTC] + 8) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 9) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 9) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 9) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 9) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 9) % 24) <= 5 || abs((24 + [$TimeDifference] + 9) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 9) % 24) <= 8 || abs((24 + [$TimeDifference] + 9) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 9) % 24) <= 5 || abs((24 + [$UTC] + 9) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 9) % 24) <= 8 || abs((24 + [$UTC] + 9) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 10) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 10) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 10) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 10) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 10) % 24) <= 5 || abs((24 + [$TimeDifference] + 10) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 10) % 24) <= 8 || abs((24 + [$TimeDifference] + 10) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 10) % 24) <= 5 || abs((24 + [$UTC] + 10) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 10) % 24) <= 8 || abs((24 + [$UTC] + 10) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 11) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 11) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 11) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 11) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 11) % 24) <= 5 || abs((24 + [$TimeDifference] + 11) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 11) % 24) <= 8 || abs((24 + [$TimeDifference] + 11) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 11) % 24) <= 5 || abs((24 + [$UTC] + 11) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 11) % 24) <= 8 || abs((24 + [$UTC] + 11) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 12) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 12) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 12) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 12) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 12) % 24) <= 5 || abs((24 + [$TimeDifference] + 12) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 12) % 24) <= 8 || abs((24 + [$TimeDifference] + 12) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 12) % 24) <= 5 || abs((24 + [$UTC] + 12) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 12) % 24) <= 8 || abs((24 + [$UTC] + 12) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 13) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 13) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 13) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 13) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 13) % 24) <= 5 || abs((24 + [$TimeDifference] + 13) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 13) % 24) <= 8 || abs((24 + [$TimeDifference] + 13) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 13) % 24) <= 5 || abs((24 + [$UTC] + 13) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 13) % 24) <= 8 || abs((24 + [$UTC] + 13) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 14) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 14) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 14) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 14) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 14) % 24) <= 5 || abs((24 + [$TimeDifference] + 14) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 14) % 24) <= 8 || abs((24 + [$TimeDifference] + 14) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 14) % 24) <= 5 || abs((24 + [$UTC] + 14) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 14) % 24) <= 8 || abs((24 + [$UTC] + 14) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 15) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 15) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 15) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 15) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 15) % 24) <= 5 || abs((24 + [$TimeDifference] + 15) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 15) % 24) <= 8 || abs((24 + [$TimeDifference] + 15) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 15) % 24) <= 5 || abs((24 + [$UTC] + 15) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 15) % 24) <= 8 || abs((24 + [$UTC] + 15) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 16) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 16) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 16) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 16) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 16) % 24) <= 5 || abs((24 + [$TimeDifference] + 16) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 16) % 24) <= 8 || abs((24 + [$TimeDifference] + 16) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 16) % 24) <= 5 || abs((24 + [$UTC] + 16) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 16) % 24) <= 8 || abs((24 + [$UTC] + 16) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 17) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 17) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 17) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 17) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 17) % 24) <= 5 || abs((24 + [$TimeDifference] + 17) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 17) % 24) <= 8 || abs((24 + [$TimeDifference] + 17) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 17) % 24) <= 5 || abs((24 + [$UTC] + 17) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 17) % 24) <= 8 || abs((24 + [$UTC] + 17) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 18) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 18) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 18) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 18) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 18) % 24) <= 5 || abs((24 + [$TimeDifference] + 18) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 18) % 24) <= 8 || abs((24 + [$TimeDifference] + 18) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 18) % 24) <= 5 || abs((24 + [$UTC] + 18) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 18) % 24) <= 8 || abs((24 + [$UTC] + 18) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 19) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 19) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 19) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 19) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 19) % 24) <= 5 || abs((24 + [$TimeDifference] + 19) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 19) % 24) <= 8 || abs((24 + [$TimeDifference] + 19) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 19) % 24) <= 5 || abs((24 + [$UTC] + 19) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 19) % 24) <= 8 || abs((24 + [$UTC] + 19) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 20) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 20) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 20) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 20) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 20) % 24) <= 5 || abs((24 + [$TimeDifference] + 20) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 20) % 24) <= 8 || abs((24 + [$TimeDifference] + 20) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 20) % 24) <= 5 || abs((24 + [$UTC] + 20) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 20) % 24) <= 8 || abs((24 + [$UTC] + 20) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 21) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 21) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 21) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 21) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 21) % 24) <= 5 || abs((24 + [$TimeDifference] + 21) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 21) % 24) <= 8 || abs((24 + [$TimeDifference] + 21) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 21) % 24) <= 5 || abs((24 + [$UTC] + 21) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 21) % 24) <= 8 || abs((24 + [$UTC] + 21) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 22) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 22) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 22) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 22) % 24)))",
               "style": {
                 "width": "100%",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 22) % 24) <= 5 || abs((24 + [$TimeDifference] + 22) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 22) % 24) <= 8 || abs((24 + [$TimeDifference] + 22) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 22) % 24) <= 5 || abs((24 + [$UTC] + 22) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 22) % 24) <= 8 || abs((24 + [$UTC] + 22) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             },
             {
               "elmType": "div",
-              "txtContent": "=if(ceiling(abs((24 + [$TimeDifference] + 23) % 24))==24 , 0, ceiling(abs((24 + [$TimeDifference] + 23) % 24)))",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 23) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 23) % 24)))",
               "style": {
-                "width": "=if([$TimeDifference] % 1 == 0 , '100%', if([$TimeDifference] > 0 , (abs([$TimeDifference] % 1) * 100) + '%' , ((1 - abs([$TimeDifference] % 1)) * 100) + '%'))",
+                "width": "=if([$UTC] % 1 == 0 , '100%', if([$UTC] > 0 , (abs([$UTC] % 1) * 100) + '%' , ((1 - abs([$UTC] % 1)) * 100) + '%'))",
                 "text-align": "center"
               },
               "attributes": {
-                "class": "=if(abs((24 + [$TimeDifference] + 23) % 24) <= 5 || abs((24 + [$TimeDifference] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$TimeDifference] + 23) % 24) <= 8 || abs((24 + [$TimeDifference] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+                "class": "=if(abs((24 + [$UTC] + 23) % 24) <= 5 || abs((24 + [$UTC] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 23) % 24) <= 8 || abs((24 + [$UTC] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
               }
             }
           ]
@@ -309,7 +309,7 @@
             "position": "absolute",
             "width": "7px",
             "height": "43px",
-            "left": "=((Number(@now) - Number(Date(getYear(@now) + '/' + (getMonth(@now) + 1) + '/' + getDate(@now)))) / (3600000 * 24)) * 100 + '%'",
+            "left": "=((Number(@now) % 86400000) / 3600000) / 24 * 100 + '%'",
             "cursor": "pointer"
           },
           "attributes": {
@@ -321,7 +321,7 @@
             "isBeakVisible": true,
             "formatter": {
               "elmType": "div",
-              "txtContent": "=Date(Number(@now) + ([$TimeDifference] * 3600000))",
+              "txtContent": "=padStart(toString(floor(((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000)),2,'0') + ':' + padStart(toString(floor(((((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000) - floor(((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000)) * 60)),2,'0')",
               "style": {
                 "padding": "10px 20px",
                 "font-weight": "bold",
