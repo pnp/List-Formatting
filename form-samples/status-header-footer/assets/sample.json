@@ -24,7 +24,32 @@
         "value": "SharePoint Online"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-thinkingaboutit.png",
+        "alt": "Thinking about it"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-workingonit.png",
+        "alt": "Working on it"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-done.png",
+        "alt": "Status Done"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-nevermind.png",
+        "alt": "Status Nevermind"
+      }      
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",
