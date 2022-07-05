@@ -52,4 +52,4 @@ Version|Date|Comments
 - [Deep linking to a chat](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-person-teams-chat-link" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-person-teams-chat-link" />

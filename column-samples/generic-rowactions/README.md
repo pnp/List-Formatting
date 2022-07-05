@@ -66,4 +66,4 @@ Version|Date|Comments
   - [generic-start-flow-conditionally](../generic-start-flow-conditionally)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-rowactions" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-rowactions" />

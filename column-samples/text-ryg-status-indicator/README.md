@@ -35,4 +35,4 @@ For more information on using this custom formatting see the article [SharePoint
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-ryg-status-indicator" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-ryg-status-indicator" />

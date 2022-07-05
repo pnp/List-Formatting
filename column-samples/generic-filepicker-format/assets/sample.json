@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-file-preview/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-file-preview/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
@@ -37,7 +37,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "André Lage"
+        "name": "Andrï¿½ Lage"
       }
     ],
     "references": [

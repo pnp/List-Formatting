@@ -61,4 +61,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-icon-overlay" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-icon-overlay" />

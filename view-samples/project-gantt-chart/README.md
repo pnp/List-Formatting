@@ -47,4 +47,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/project-gantt-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/project-gantt-chart" />

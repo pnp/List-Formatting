@@ -5,7 +5,7 @@
       "source": "pnp",
       "title": "Approval Status Hover Card",
       "shortDescription": "Adds a hover card with additional details when using Content Approval",
-      "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-cards",
+      "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-approval-status-hover-card/",
       "longDescription": [
         "This sample provides more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover."
       ],
@@ -29,7 +29,7 @@
         {
           "type": "image",
           "order": 100,
-          "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/generic-approval-status-hover-card/assets/screenshot.png?raw=true",
+          "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png",
           "alt": "Status_hover"
         }
       ],

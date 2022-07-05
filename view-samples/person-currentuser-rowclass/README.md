@@ -44,4 +44,4 @@ Column Format samples shown above:
 
 A similar sample is available for use with multi-select person fields: [multi-person-currentuser-rowclass](../multi-person-currentuser-rowclass)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/person-currentuser-rowclass" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/person-currentuser-rowclass" />

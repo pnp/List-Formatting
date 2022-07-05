@@ -12,7 +12,7 @@ This sample demonstrates how to column `Location` to display Bing info and Map i
 
 Solution|Author(s)
 --------|---------
-generic-bingmaps-format.json | [André Lage](https://twitter.com/aaclage)
+generic-bingmaps-format.json | [Andrï¿½ Lage](https://twitter.com/aaclage)
 
 ## Version history
 
@@ -25,4 +25,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-bingmaps-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-bingmaps-format" />

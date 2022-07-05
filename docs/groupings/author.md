@@ -131,4 +131,4 @@ Samples are listed by their _original_ creator. Later updates by additional cont
 - [date-check-blank-format](https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/date-check-blank-format)
 - [multi-choice-workcategory-pill](https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-workcategory-pill)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/author" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/author" />

@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-youtube-thumbnail/assets/animation.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-youtube-thumbnail/assets/animation.gif",
         "alt": "animation"
       }
     ],

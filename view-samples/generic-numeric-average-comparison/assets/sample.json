@@ -41,13 +41,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-list-sample.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-list-sample.jpg",
         "alt": "generic-numeric-average-comparison-list-sample"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-sample.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/generic-numeric-average-comparison/assets/generic-numeric-average-comparison-sample.jpg",
         "alt": "generic-numeric-average-comparison-sample"
       }
     ],

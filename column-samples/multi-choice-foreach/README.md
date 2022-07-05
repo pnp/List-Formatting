@@ -33,4 +33,4 @@ Version|Date|Comments
 
 - For a more elaborate usage of `forEach` check out the [multi-person-facepile](../multi-person-facepile) sample.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-choice-foreach" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-choice-foreach" />

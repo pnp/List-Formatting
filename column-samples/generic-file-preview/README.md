@@ -43,4 +43,4 @@ Version|Date|Comments
 ## Additional notes
 none
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-file-preview/" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-file-preview/" />

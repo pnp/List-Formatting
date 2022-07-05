@@ -34,4 +34,4 @@ Version|Date|Comments
 - The [person-mailto](../person-mailto/) demonstrates a similar technique but is applied directly to a person field
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-mailto-button" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-mailto-button" />

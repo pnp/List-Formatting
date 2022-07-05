@@ -63,4 +63,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-trending-icon" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/number-trending-icon" />

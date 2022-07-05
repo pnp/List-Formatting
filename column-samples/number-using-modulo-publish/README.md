@@ -37,4 +37,4 @@ Version|Date|Comments
 - Example in the documentation where this is referenced: [https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4](https://docs.microsoft.com/en-gb/sharepoint/dev/declarative-customization/column-formatting#section-4)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-publishing-status" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/number-publishing-status" />

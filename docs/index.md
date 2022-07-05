@@ -38,4 +38,4 @@ This is the perfect place to get involved in the SharePoint Community and become
 
 > Sharing is caring!
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/index" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/index" />

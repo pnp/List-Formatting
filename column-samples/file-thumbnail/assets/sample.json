@@ -41,7 +41,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/file-thumbnail/assets/screenshot.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/file-thumbnail/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],

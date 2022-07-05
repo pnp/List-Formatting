@@ -30,4 +30,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/issue-tracker-planner-cards" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/issue-tracker-planner-cards" />

@@ -41,13 +41,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-using-modulo-publish/assets/example-after.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-using-modulo-publish/assets/example-after.jpg",
         "alt": "example-after"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-using-modulo-publish/assets/example-before.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-using-modulo-publish/assets/example-before.jpg",
         "alt": "example-before"
       }
     ],

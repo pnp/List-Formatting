@@ -52,4 +52,4 @@ Version|Date|Comments
 None
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-launch-powerapp" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-launch-powerapp" />

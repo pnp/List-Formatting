@@ -53,4 +53,4 @@ Navigate to http://127.0.0.1:8000 in a browser to see the documentation. As you 
 
 ## Tool considerations
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/contributing/docs" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/contributing/docs" />

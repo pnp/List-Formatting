@@ -29,13 +29,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/event-itinerary-header/assets/listtemplates.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/event-itinerary-header/assets/listtemplates.png",
         "alt": "listtemplates"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/event-itinerary-header/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/event-itinerary-header/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -45,4 +45,4 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 
 ![FAQ Single Format Screenshot](./FAQSingleQuestionScreenshot.png)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/faq-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/faq-format" />

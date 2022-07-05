@@ -29,13 +29,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-lookup-projected-field/assets/ListSettings-Multi-Lookup.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-lookup-projected-field/assets/ListSettings-Multi-Lookup.png",
         "alt": "ListSettings-Multi-Lookup"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-lookup-projected-field/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-lookup-projected-field/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

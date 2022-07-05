@@ -32,4 +32,4 @@ Version |Date              |Comments
 
 There is also a way to implement this with SPFx Extension, available from PnP: [React Toggle Field Customizer](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-field-toggle)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/yesno-toggle-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/yesno-toggle-format" />

@@ -25,4 +25,4 @@ You can also apply formats directly in the field settings screen for both list f
 !!! Note
     This is currently the only way to apply formats directly to fields of type `Currency` or `Location` since they don't provide a Format this column menu option.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/gettingstarted/columnformats" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/gettingstarted/columnformats" />

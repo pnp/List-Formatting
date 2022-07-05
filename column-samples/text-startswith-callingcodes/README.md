@@ -48,4 +48,4 @@ Version|Date|Comments
 
 The `indexOf` function is not available in SharePoint 2019
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-startswith-callingcodes" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-startswith-callingcodes" />

@@ -2,4 +2,4 @@
 
 Coming soon!
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/contributing/issues" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/contributing/issues" />

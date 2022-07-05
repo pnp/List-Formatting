@@ -27,4 +27,4 @@ Version |Date             |Comments
 ## Additional notes
 - [Zeller's congruence](https://en.wikipedia.org/wiki/Zeller%27s_congruence)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-page-a-day-calendar" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/date-page-a-day-calendar" />

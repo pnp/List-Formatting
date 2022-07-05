@@ -37,7 +37,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-bing-map/assets/text-bing-map-Screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-bing-map/assets/text-bing-map-Screenshot.png",
         "alt": "text-bing-map-Screenshot"
       }
     ],

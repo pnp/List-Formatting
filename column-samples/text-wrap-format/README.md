@@ -33,4 +33,4 @@ Multi-line text fields can no longer have formatting applied using the column me
 
 Rich text fields return their values with HTML. List Formatting automatically escapes values meaning that these types of fields will include HTML in their text values and that HTML will not be used as part of the page. It is not recommended to use rich text fields with List Formatting.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-wrap-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-wrap-format" />

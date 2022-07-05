@@ -39,4 +39,4 @@ This sample uses some predefined classes also covered in the official documentat
 
 - [Use column formatting to customize SharePoint - Style guidelines](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-choice-workcategory-pill" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-choice-workcategory-pill" />

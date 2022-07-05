@@ -34,4 +34,4 @@ Version|Date|Comments
 
 - SharePoint Online only
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/file-thumbnail" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/file-thumbnail" />

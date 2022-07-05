@@ -37,7 +37,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/yesno-checkmark-format/assets/yesno-checkmark-format.PNG?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkmark-format/assets/yesno-checkmark-format.PNG",
         "alt": "yesno-checkmark-format"
       }
     ],

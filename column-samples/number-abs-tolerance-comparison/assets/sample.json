@@ -41,7 +41,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-abs-tolerance-comparison/assets/screenshot.jpg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-abs-tolerance-comparison/assets/screenshot.jpg",
         "alt": "screenshot"
       }
     ],

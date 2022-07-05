@@ -82,4 +82,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 The image's src attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the images will be pulled from the fruit folder in the Documents library for the site.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/contenttype-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/contenttype-format" />

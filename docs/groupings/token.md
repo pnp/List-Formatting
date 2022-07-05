@@ -36,4 +36,4 @@ Samples are listed by their usage of placeholder tokens. `@currentField` is excl
 
 ## @window
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/token" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/token" />

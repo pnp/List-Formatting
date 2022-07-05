@@ -50,4 +50,4 @@ Version|Date|Comments
 
 The image's `src` attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the images will be pulled from the correct folder in the Documents library for the site. However, `@currentWeb` is not available in SharePoint 2019, so alternative approaches are included.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-local-image" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-local-image" />

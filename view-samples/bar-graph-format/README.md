@@ -61,4 +61,4 @@ Need to check if a gradient css can also be added to the bars, with an applicati
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bar-graph-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/bar-graph-format" />

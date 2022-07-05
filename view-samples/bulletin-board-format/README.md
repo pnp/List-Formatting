@@ -48,4 +48,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 ![Master Detail View](./assets/BulletinBoardDetails.gif)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/bulletin-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/bulletin-board-format" />

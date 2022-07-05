@@ -49,4 +49,4 @@ Version|Date|Comments
 
 - A format geared toward providing a rounded image for single person fields can be found here: [person-roundimage-format](../person-roundimage-format)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/multi-person-facepile" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-person-facepile" />

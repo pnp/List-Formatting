@@ -36,4 +36,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/comment-count" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/comment-count" />

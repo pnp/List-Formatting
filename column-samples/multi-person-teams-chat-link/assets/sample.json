@@ -29,13 +29,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-person-teams-chat-link/assets/screenshotList.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-teams-chat-link/assets/screenshotList.png",
         "alt": "screenshotList"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/multi-person-teams-chat-link/assets/screenshotTeams.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-teams-chat-link/assets/screenshotTeams.png",
         "alt": "screenshotTeams"
       }
     ],

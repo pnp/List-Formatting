@@ -167,4 +167,4 @@ Samples are listed by topic or approach. This is not an exhaustive list.
 - [number-trending-icon](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-trending-icon)
 - [number-trending-icon/with-differences](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-trending-icon)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/category" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/category" />

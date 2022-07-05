@@ -49,4 +49,4 @@ Version|Date|Comments
 
 The `indexOf` and `toLowerCase` functions are not available in SharePoint 2019
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-contains" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-contains" />

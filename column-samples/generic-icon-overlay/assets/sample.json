@@ -29,19 +29,19 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotOverlay.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshotOverlay.png",
         "alt": "screenshotOverlay"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotOverlayMultiple.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshotOverlayMultiple.png",
         "alt": "screenshotOverlayMultiple"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotSimple.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshotSimple.png",
         "alt": "screenshotSimple"
       }
     ],

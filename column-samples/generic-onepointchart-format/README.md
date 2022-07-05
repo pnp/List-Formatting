@@ -19,7 +19,7 @@ The format expect the following fields:
 
 Solution|Author(s)
 --------|---------
-generic-one-point-chart.json | [André Lage](https://twitter.com/aaclage)
+generic-one-point-chart.json | [Andrï¿½ Lage](https://twitter.com/aaclage)
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-onepointchart-format" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-onepointchart-format" />

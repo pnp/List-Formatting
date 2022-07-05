@@ -23,4 +23,4 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 > Sharing is caring!
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/contributing" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/contributing" />

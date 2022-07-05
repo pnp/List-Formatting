@@ -37,7 +37,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-isbn-image/assets/text-isbn-image.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-isbn-image/assets/text-isbn-image.png",
         "alt": "text-isbn-image"
       }
     ],

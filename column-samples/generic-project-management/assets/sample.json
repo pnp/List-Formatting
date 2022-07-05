@@ -29,25 +29,25 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-project-management/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-project-management/assets/screenshot.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-project-management/assets/screenshot2.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-project-management/assets/screenshot2.png",
         "alt": "screenshot2"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-project-management/assets/screenshot3.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-project-management/assets/screenshot3.png",
         "alt": "screenshot3"
       },
       {
         "type": "image",
         "order": 103,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-project-management/assets/screenshot4.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-project-management/assets/screenshot4.png",
         "alt": "screenshot4"
       }
     ],

@@ -49,4 +49,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/generic-numeric-average-comparison" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/generic-numeric-average-comparison" />

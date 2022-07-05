@@ -32,4 +32,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-conditional-progress-color" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/number-conditional-progress-color" />
