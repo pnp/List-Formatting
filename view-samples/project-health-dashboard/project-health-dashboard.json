@@ -1,351 +1,352 @@
 {
-    "hideColumnHeader": true,
-    "hideSelection": true,
-    "rowFormatter": {
-      "elmType": "div",
-      "style": {
-        "flex-wrap": "wrap",
-        "margin-bottom": "25px"
-      },
-      "attributes": {
-        "class": "sp-row-card ms-fontColor-themePrimary"
-      },
-      "children": [
-        {
-          "elmType": "div",
-          "style": {
-            "text-align": "left",
-            "padding-bottom": "15px",
-            "width": "100%"
-          },
-          "children": [
-            {
-              "elmType": "span",
-              "txtContent": "[$Title]",
-              "attributes": {
-                "class": "ms-fontSize-32"
-              },
-              "style": {
-                "float": "left"
-              }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "flex-wrap": "wrap",
+      "margin-bottom": "25px"
+    },
+    "attributes": {
+      "class": "sp-row-card ms-fontColor-themePrimary"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left",
+          "padding-bottom": "15px",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "txtContent": "[$Title]",
+            "attributes": {
+              "class": "ms-fontSize-32"
             },
-            {
-              "elmType": "span",
-              "txtContent": "[$ProjectCost.displayValue]",
-              "style": {
-                "float": "right"
-              },
-              "attributes": {
-                "class": "ms-fontSize-20"
-              }
+            "style": {
+              "float": "left"
             }
-          ]
-        },
-        {
-          "elmType": "div",
-          "style": {
-            "display": "flex",
-            "padding-bottom": "15px"
           },
-          "children": [
-            {
-              "forEach": "projectIterator in [$ProjectMembers]",
-              "elmType": "div",
-              "style": {
-                "width": "100px",
-                "height": "100px",
-                "overflow": "hidden",
-                "border-radius": "50%",
-                "margin": "2px"
-              },
-              "children": [
-                {
-                  "elmType": "img",
-                  "attributes": {
-                    "src": "=getUserImage([$projectIterator.email],'large')"
-                  },
-                  "style": {
-                    "position": "relative",
-                    "top": "50%",
-                    "left": "50%",
-                    "width": "100%",
-                    "height": "100%",
-                    "margin-left": "-50%",
-                    "margin-top": "-50%",
-                    "display": "=if(loopIndex('projectIterator') >= 5, 'none', '')"
-                  },
-                  "defaultHoverField": "[$projectIterator]"
-                },
-                {
-                  "elmType": "div",
-                  "attributes": {
-                    "title": "=join([$ProjectMembers.title], ', ')",
-                    "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary"
-                  },
-                  "style": {
-                    "width": "100%",
-                    "height": "100%",
-                    "font-size": "28px",
-                    "line-height": "28px",
-                    "display": "=if(loopIndex('projectIterator') == 5, 'flex', 'none')",
-                    "align-items": "center",
-                    "justify-content": "center"
-                  },
-                  "children": [
-                    {
-                      "elmType": "div",
-                      "txtContent": "='+' + toString(length([$ProjectMembers]) - 5)"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "elmType": "div",
-          "style": {
-            "text-align": "center",
-            "margin-top": "10px",
-            "margin-left": "10px",
-            "width": "30%",
-            "display": "flex",
-            "column-gap": "10px"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "1",
-                "display": "flex",
-                "flex-direction": "column",
-                "justify-content": "space-between"
-              },
-              "attributes": {
-                "class": "='sp-row-card ' + if([$Risk] <= 3,'sp-field-severity--good', if([$Risk] >= 4 && [$Risk] <= 7,'sp-field-severity--warning', 'sp-field-severity--blocked'))"
-              },
-              "children": [
-                {
-                  "elmType": "span",
-                  "attributes": {
-                    "iconName": "=if([$Risk] <= 3, 'DoubleChevronDown8', if([$Risk] >= 4 && [$Risk] <= 7,'Remote', 'DoubleChevronUp8'))"
-                  },
-                  "style": {
-                    "font-size": "xx-large"
-                  }
-                },
-                {
-                  "elmType": "span",
-                  "txtContent": "=if([$Risk] <= 3, 'Risk Low', if([$Risk] >= 4 && [$Risk] <= 7, 'Risk Medium', 'Risk High'))",
-                  "style": {
-                    "font-size": "x-large"
-                  }
-                }
-              ]
+          {
+            "elmType": "span",
+            "txtContent": "[$ProjectCost.displayValue]",
+            "style": {
+              "float": "right"
             },
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "1",
-                "display": "flex",
-                "flex-direction": "column",
-                "justify-content": "space-between"
-              },
-              "children": [
-                {
-                  "elmType": "span",
-                  "attributes": {
-                    "iconName": "=if([$OnSchedule], 'LikeSolid', 'DislikeSolid')"
-                  },
-                  "style": {
-                    "font-size": "xx-large"
-                  }
-                },
-                {
-                  "elmType": "span",
-                  "txtContent": "=if([$OnSchedule], 'On-Time', 'Delayed')",
-                  "style": {
-                    "font-size": "x-large"
-                  }
-                }
-              ],
-              "attributes": {
-                "class": "='sp-row-card ' + if([$OnSchedule], 'sp-field-severity--good',' sp-field-severity--warning')"
-              }
+            "attributes": {
+              "class": "ms-fontSize-20"
             }
-          ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding-bottom": "15px"
         },
-        {
-          "elmType": "div",
-          "style": {
-            "display": "flex",
-            "width": "100%",
-            "margin-left": "-15px"
-          },
-          "children": [
-            {
-              "elmType": "span",
-              "style": {
-                "font-size": "xx-large",
-                "width": "100%",
-                "margin-left": "=if([$Severity] == 'Critical', '12.5%', if([$Severity] == 'Poor', '37.5%', if([$Severity] == 'Fair', '62.5%', '87.5%')))"
+        "children": [
+          {
+            "forEach": "projectIterator in [$ProjectMembers]",
+            "elmType": "div",
+            "style": {
+              "width": "100px",
+              "height": "100px",
+              "overflow": "hidden",
+              "border-radius": "50%",
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getUserImage([$projectIterator.email],'large')"
+                },
+                "style": {
+                  "position": "relative",
+                  "top": "50%",
+                  "left": "50%",
+                  "width": "100%",
+                  "height": "100%",
+                  "margin-left": "-50%",
+                  "margin-top": "-50%",
+                  "display": "=if(loopIndex('projectIterator') >= 5, 'none', '')"
+                },
+                "defaultHoverField": "[$projectIterator]"
               },
-              "children": [
-                {
-                  "elmType": "span",
-                  "attributes": {
-                    "iconName": "DrillDownSolid",
-                    "class": "ms-motion-slideRightIn ms-motion-duration-4 ms-fontColor-themePrimary"
-                  },
-                  "customCardProps": {
-                    "directionalHint": "bottomCenter",
-                    "isBeakVisible": true,
-                    "openOnEvent": "hover",
-                    "formatter": {
-                      "elmType": "div",
-                      "style": {
-                        "display": "flex",
-                        "flex-direction": "column",
-                        "height": "200px",
-                        "width": "450px"
-                      },
-                      "attributes": {
-                        "class": "ms-fontWeight-regular"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "background-colord": "=if([$Severity] == 'Critical', '#a4262c', if([$Severity] == 'Poor', '#d83b01', if([$Severity] == 'Fair', '#ffb900', if([$Severity] == 'Good', '#107c10', 'white'))))",
-                            "display": "flex",
-                            "width": "100%",
-                            "justify-content": "center",
-                            "padding-bottom": "4px",
-                            "margin-bottom": "5px"
-                          },
-                          "attributes": {
-                            "class": "='ms-fontColor-white ms-fontWeight-semibold ms-fontSize-20 ' + if([$Severity] == 'Critical', 'ms-bgColor-sharedRed20', if([$Severity] == 'Poor', 'ms-bgColor-orange', if([$Severity] == 'Fair', 'ms-bgColor-yellow', if([$Severity] == 'Good', 'ms-bgColor-green', ''))))"
-                          },
-                          "txtContent": "Project Updates"
+              {
+                "elmType": "div",
+                "attributes": {
+                  "title": "=join([$ProjectMembers.title], ', ')",
+                  "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary"
+                },
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "font-size": "28px",
+                  "line-height": "28px",
+                  "display": "=if(loopIndex('projectIterator') == 5, 'flex', 'none')",
+                  "align-items": "center",
+                  "justify-content": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "='+' + toString(length([$ProjectMembers]) - 5)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "center",
+          "margin-top": "10px",
+          "margin-left": "10px",
+          "width": "30%",
+          "display": "flex",
+          "column-gap": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "space-between"
+            },
+            "attributes": {
+              "class": "='sp-row-card ' + if([$Risk] <= 3,'sp-field-severity--good', if([$Risk] >= 4 && [$Risk] <= 7,'sp-field-severity--warning', 'sp-field-severity--blocked'))"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Risk] <= 3, 'DoubleChevronDown8', if([$Risk] >= 4 && [$Risk] <= 7,'Remote', 'DoubleChevronUp8'))"
+                },
+                "style": {
+                  "font-size": "xx-large"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if([$Risk] <= 3, 'Risk Low', if([$Risk] >= 4 && [$Risk] <= 7, 'Risk Medium', 'Risk High'))",
+                "style": {
+                  "font-size": "x-large"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "space-between"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$OnSchedule], 'LikeSolid', 'DislikeSolid')"
+                },
+                "style": {
+                  "font-size": "xx-large"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if([$OnSchedule], 'On-Time', 'Delayed')",
+                "style": {
+                  "font-size": "x-large"
+                }
+              }
+            ],
+            "attributes": {
+              "class": "='sp-row-card ' + if([$OnSchedule], 'sp-field-severity--good',' sp-field-severity--warning')"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "margin-left": "-15px"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "xx-large",
+              "width": "100%",
+              "margin-left": "=if([$Severity] == 'Critical', '12.5%', if([$Severity] == 'Poor', '37.5%', if([$Severity] == 'Fair', '62.5%', '87.5%')))"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "DrillDownSolid",
+                  "class": "ms-motion-slideRightIn ms-motion-duration-4 ms-fontColor-themePrimary"
+                },
+                "customCardProps": {
+                  "directionalHint": "bottomCenter",
+                  "isBeakVisible": true,
+                  "openOnEvent": "hover",
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "height": "200px",
+                      "width": "450px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontWeight-regular"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "background-colord": "=if([$Severity] == 'Critical', '#a4262c', if([$Severity] == 'Poor', '#d83b01', if([$Severity] == 'Fair', '#ffb900', if([$Severity] == 'Good', '#107c10', 'white'))))",
+                          "display": "flex",
+                          "width": "100%",
+                          "justify-content": "center",
+                          "padding-bottom": "4px",
+                          "margin-bottom": "5px"
                         },
-                        {
-                          "elmType": "span",
-                          "txtContent": "[$ProjectUpdates]",
-                          "attributes": {
-                            "class": "ms-fontWeight-regular ms-fontSize-16"
-                          }
+                        "attributes": {
+                          "class": "='ms-fontColor-white ms-fontWeight-semibold ms-fontSize-20 ' + if([$Severity] == 'Critical', 'ms-bgColor-sharedRed20', if([$Severity] == 'Poor', 'ms-bgColor-orange', if([$Severity] == 'Fair', 'ms-bgColor-yellow', if([$Severity] == 'Good', 'ms-bgColor-green', ''))))"
+                        },
+                        "txtContent": "Project Updates"
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$ProjectUpdates]",
+                        "attributes": {
+                          "class": "ms-fontWeight-regular ms-fontSize-16"
                         }
-                      ]
-                    }
+                      }
+                    ]
                   }
                 }
-              ]
-            }
-          ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "height": "15px"
         },
-        {
-          "elmType": "div",
-          "style": {
-            "display": "flex",
-            "width": "100%",
-            "height": "15px"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "style": {
-                "border-bottom-left-radius": "15px",
-                "border-top-left-radius": "15px",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-bgColor-sharedRed20"
-              }
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "border-bottom-left-radius": "15px",
+              "border-top-left-radius": "15px",
+              "flex": "1"
             },
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-bgColor-orange"
-              }
-            },
-            {
-              "elmType": "div",
-              "style": {
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-bgColor-yellow"
-              }
-            },
-            {
-              "elmType": "div",
-              "style": {
-                "border-bottom-right-radius": "15px",
-                "border-top-right-radius": "15px",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-bgColor-green"
-              }
+            "attributes": {
+              "class": "ms-bgColor-sharedRed20"
             }
-          ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1"
+            },
+            "attributes": {
+              "class": "ms-bgColor-orange"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1"
+            },
+            "attributes": {
+              "class": "ms-bgColor-yellow"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "border-bottom-right-radius": "15px",
+              "border-top-right-radius": "15px",
+              "flex": "1"
+            },
+            "attributes": {
+              "class": "ms-bgColor-green"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%"
         },
-        {
-          "elmType": "div",
-          "style": {
-            "display": "flex",
-            "width": "100%"
+        "children": [
+          {
+            "elmType": "span",
+            "style": {
+              "text-align": "center",
+              "flex": "1"
+            },
+            "attributes": {
+              "class": "ms-fontSize-28 ms-fontColor-sharedRed20"
+            },
+            "txtContent": "Critical"
           },
-          "children": [
-            {
-              "elmType": "span",
-              "style": {
-                "text-align": "center",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-fontSize-28 ms-fontColor-sharedRed20"
-              },
-              "txtContent": "Critical"
+          {
+            "elmType": "span",
+            "style": {
+              "text-align": "center",
+              "flex": "1"
             },
-            {
-              "elmType": "span",
-              "style": {
-                "text-align": "center",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-fontSize-28 ms-fontColor-orange"
-              },
-              "txtContent": "Poor"
+            "attributes": {
+              "class": "ms-fontSize-28 ms-fontColor-orange"
             },
-            {
-              "elmType": "span",
-              "style": {
-                "text-align": "center",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-fontSize-28 ms-fontColor-yellow"
-              },
-              "txtContent": "Fair"
+            "txtContent": "Poor"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "text-align": "center",
+              "flex": "1"
             },
-            {
-              "elmType": "span",
-              "style": {
-                "text-align": "center",
-                "flex": "1"
-              },
-              "attributes": {
-                "class": "ms-fontSize-28 ms-fontColor-green"
-              },
-              "txtContent": "Good"
-            }
-          ]
-        }
-      ]
-    }
+            "attributes": {
+              "class": "ms-fontSize-28 ms-fontColor-yellow"
+            },
+            "txtContent": "Fair"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "text-align": "center",
+              "flex": "1"
+            },
+            "attributes": {
+              "class": "ms-fontSize-28 ms-fontColor-green"
+            },
+            "txtContent": "Good"
+          }
+        ]
+      }
+    ]
   }
+}
