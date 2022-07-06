@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-status-header-footer",
     "reponame": "status-header-footer",
     "source": "pnp",
-    "title": "status-header-footer",
-    "shortDescription": "status-header-footer",
+    "title": "Status Header and Footer",
+    "shortDescription": "This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer",
     "longDescription": [
-      "status-header-footer"
+      "This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."
     ],
     "creationDateTime": "2021-01-31T00:00:00.000Z",
     "updateDateTime": "2021-01-31T00:00:00.000Z",
