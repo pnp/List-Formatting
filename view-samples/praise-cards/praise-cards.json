@@ -339,7 +339,7 @@
                   },
                   {
                     "elmType": "div",
-                    "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount]) "
+                    "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount])"
                   }
                 ]
               }

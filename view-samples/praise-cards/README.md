@@ -1,7 +1,7 @@
-# Praise Card
+# Praise Cards
 
 ## Summary
-This sample demonstrates how to display the Praise Card. By creating a Praise Card, you can express your appreciation and admiration to others for their daily cooperation and actions.
+This sample demonstrates how to display Praise Cards. By creating a Praise Card, you can express your appreciation and admiration to others for their daily cooperation and actions!
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -21,9 +21,9 @@ This sample demonstrates how to display the Praise Card. By creating a Praise Ca
 
 ## Sample
 
-Solution                     |Author(s)
------------------------------|---------------------------
-praise-card-tile-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+praise-cards.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version |Date             |Comments
 ## Additional notes
 - [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/praise-card-tile-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/praise-cards" />
