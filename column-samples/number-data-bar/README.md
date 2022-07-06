@@ -1,4 +1,4 @@
-# Format a number column as a data bar
+# Data Bar
 
 ## Summary
 These formats apply `background-color` and `border-top` styles to create a data bar visualization of `@currentField`, which is a number field. These styles are applied using the special column formatting class `sp-field-dataBars`. The bars are sized differently for different values based on the way the `width` attribute of the main `div` is set.
