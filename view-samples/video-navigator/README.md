@@ -1,4 +1,4 @@
-# Video Button
+# Video Navigator
 
 ## Summary
 This sample demonstrates the use of dynamic connections in the list webpart while using a custom format. The format is applied to a list of YouTube videos with each item containing the shortcode for the video. On a page, the list webpart with the custom view is used. The embed webpart is configured to accept it as a connection. This results in a custom video selection application that changes the embeded video on the page.
@@ -32,7 +32,7 @@ The Gobble column above is where the YouTube shortcode goes. Both the Title and 
 
 Solution|Author(s)
 --------|---------
-generic-video-button.json | [Chris Kent](https://twitter.com/theChrisKent)
+video-navigator.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -45,4 +45,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/generic-video-button" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/video-navigator" />
