@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-text-isbn-image",
     "reponame": "text-isbn-image",
     "source": "pnp",
-    "title": "Formatting an ISBN (text column) to book cover image. Images are retrieved by calling Open Library Covers API.",
+    "title": "ISBN to Book Cover Image",
     "shortDescription": "This example retrieves book cover images based on their ISBN numbers by utilizing the Open Library Covers API. The API works by building a cover image URL with the ISBN.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-isbn-image",
     "longDescription": [
-      "Formatting an ISBN (text column) to book cover image. Images are retrieved by calling Open Library Covers API."
+      "This example retrieves book cover images based on their ISBN numbers by utilizing the Open Library Covers API. The API works by building a cover image URL with the ISBN."
     ],
     "creationDateTime": "2017-11-27T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",

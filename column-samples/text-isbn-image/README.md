@@ -1,4 +1,4 @@
-# Formatting an ISBN (text column) to book cover image. Images are retrieved by calling Open Library Covers API.
+# ISBN to Book Cover Image
 
 ## Summary
 This example retrieves book cover images based on their ISBN numbers by utilizing the [Open Library Covers API](https://openlibrary.org/dev/docs/api/covers). The API works by building a cover image URL with the ISBN.
