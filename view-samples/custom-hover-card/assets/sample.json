@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-custom-hover-card",
     "reponame": "custom-hover-card",
     "source": "pnp",
-    "title": "Custom Hover Card in List view",
-    "shortDescription": "The following image shows a list with a custom hover added to a List view:",
+    "title": "Custom Hover Card (View)",
+    "shortDescription": "A custom card is shown on hover of an item. The hover card shows additional details about an item's status.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card",
     "longDescription": [
-      "The following image shows a list with a custom hover added to a List view:"
+      "A custom card is shown on hover of an item. The hover card shows additional details about an item's status."
     ],
     "creationDateTime": "2020-04-08T00:00:00.000Z",
     "updateDateTime": "2020-04-08T00:00:00.000Z",
