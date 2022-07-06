@@ -56,7 +56,7 @@
                   "style": {
                     "fill": "currentColor",
                     "stroke": "currentColor",
-                    "fill-opacity": "=if(@currentField >= 0.4 , '1' , if(@currentField > 0.2 , ((@currentField - 0.2) / 0.2) , '0')) ",
+                    "fill-opacity": "=if(@currentField >= 0.4 , '1' , if(@currentField > 0.2 , ((@currentField - 0.2) / 0.2) , '0'))",
                     "height": "100%"
                   },
                   "attributes": {
@@ -81,7 +81,7 @@
                   "style": {
                     "fill": "currentColor",
                     "stroke": "currentColor",
-                    "fill-opacity": "=if(@currentField >= 0.6 , '1' , if(@currentField > 0.4 , ((@currentField - 0.4) / 0.2) , '0')) ",
+                    "fill-opacity": "=if(@currentField >= 0.6 , '1' , if(@currentField > 0.4 , ((@currentField - 0.4) / 0.2) , '0'))",
                     "height": "100%"
                   },
                   "attributes": {
@@ -106,7 +106,7 @@
                   "style": {
                     "fill": "currentColor",
                     "stroke": "currentColor",
-                    "fill-opacity": "=if(@currentField >= 0.8 , '1' , if(@currentField > 0.6 , ((@currentField - 0.6) / 0.2) , '0')) ",
+                    "fill-opacity": "=if(@currentField >= 0.8 , '1' , if(@currentField > 0.6 , ((@currentField - 0.6) / 0.2) , '0'))",
                     "height": "100%"
                   },
                   "attributes": {
