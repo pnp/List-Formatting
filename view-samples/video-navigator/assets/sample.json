@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-video-navigator",
     "reponame": "video-navigator",
     "source": "pnp",
-    "title": "video-navigator",
+    "title": "Video Navigator",
     "shortDescription": "Demonstrates the use of dynamic connections in the list webpart while using a custom format. This results in a custom video selection application that changes the embeded video on the page.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/video-navigator",
     "longDescription": [
