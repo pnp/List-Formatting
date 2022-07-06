@@ -1,15 +1,15 @@
-# Piano Format
+# Piano
 
 ## Summary
 This sample formats your SharePoint list view to look like a piano.
 
-### piano-format.json
+### piano.json
 
 Uses your site's theme color:
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-### piano-format-rainbow.json
+### piano-rainbow.json
 
 Uses rainbow colors:
 
@@ -27,10 +27,10 @@ Set up the view so that the note names are displayed in order starting with C:
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-piano-format.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
-piano-format-rainbow.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+piano.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+piano-rainbow.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version |Date               |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/piano-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/piano" />
