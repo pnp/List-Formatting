@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-date-range-format",
     "reponame": "date-range-format",
     "source": "pnp",
-    "title": "Formatting an item when a date column is before or after today\u0027s date",
+    "title": "Overdue Date",
     "shortDescription": "This example colors the current field red when the value inside an item\u0027s DueDate is before the current date/time. Unlike some of the previous examples, this example applies formatting to one field by looking at the value inside another field. Note that DueDate is referenced using the [$FieldName] syntax. FieldName is assumed to be the internal name of the field. This example also takes advantage of a special value that can be used in date/time fields - \u0060@now\u0060, which resolves to the current date/time, evaluated when the user loads the list view.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/date-range-format",
     "longDescription": [
