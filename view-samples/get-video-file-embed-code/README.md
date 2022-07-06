@@ -1,4 +1,4 @@
-# View to get the embed code for a video file
+# Video Embed Codes
 
 ## Summary
 If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the [Microsoft Graph Preview item API](https://docs.microsoft.com/en-us/graph/api/driveitem-preview). This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it.

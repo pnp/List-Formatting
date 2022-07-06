@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-get-video-file-embed-code",
     "reponame": "get-video-file-embed-code",
     "source": "pnp",
-    "title": "View to get the embed code for a video file",
+    "title": "Video Embed Codes",
     "shortDescription": "If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/get-video-file-embed-code",
     "longDescription": [
