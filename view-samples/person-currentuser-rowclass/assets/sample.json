@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-person-currentuser-rowclass",
     "reponame": "person-currentuser-rowclass",
     "source": "pnp",
-    "title": "Current User\u0027s Rows",
-    "shortDescription": "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the \u0060[$AssignedTo]\u0060 portion of the expression.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/person-currentuser-rowclass",
+    "title": "Current User's Rows",
+    "shortDescription": "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the [$AssignedTo] portion of the expression.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/person-currentuser-rowclass",
     "longDescription": [
-      "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the \u0060[$AssignedTo]\u0060 portion of the expression."
+      "Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the [$AssignedTo] portion of the expression."
     ],
     "creationDateTime": "2018-08-21T00:00:00.000Z",
     "updateDateTime": "2018-08-21T00:00:00.000Z",
@@ -21,20 +21,36 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Person"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@me"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "People"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLight, ms-bgColor-themeLighterAlt--hover"
       }
     ],
     "thumbnails": [
