@@ -1,4 +1,4 @@
-# Formatting percentage number (%) to pie chart.
+# Pie Chart
 
 ## Summary
 This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using `<svg>` with `<path>` tags. The number% displayed at the bottom of the pie in neutralPrimary.

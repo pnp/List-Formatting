@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-piechart",
     "reponame": "number-piechart",
     "source": "pnp",
-    "title": "Formatting percentage number (%) to pie chart.",
+    "title": "Pie Chart",
     "shortDescription": "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using \u0060\u003Csvg\u003E\u0060 with \u0060\u003Cpath\u003E\u0060 tags. The number% displayed at the bottom of the pie in neutralPrimary.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-piechart",
     "longDescription": [
