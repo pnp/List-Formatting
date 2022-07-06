@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-date-update-format",
     "reponame": "date-update-format",
     "source": "pnp",
-    "title": "date update format",
+    "title": "Date Update Format",
     "shortDescription": "Demonstrates updating a date value directly from the format.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-update-format",
     "longDescription": [
