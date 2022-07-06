@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-date-conditional-format",
-    "reponame": "date-conditional-format",
+    "name": "pnp-list-formatting-overdue-rowclass",
+    "reponame": "overdue-rowclass",
     "source": "pnp",
-    "title": "Conditional formatting based on date",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/date-conditional-format",
+    "title": "Overdue Row Class",
+    "shortDescription": "This sample applies a class to any row where the DueDate column is overdue (earlier than @now).",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/overdue-rowclass",
     "longDescription": [
-      ""
+      "This sample applies a class to any row where the DueDate column is overdue (earlier than @now)."
     ],
     "creationDateTime": "2018-08-10T00:00:00.000Z",
     "updateDateTime": "2018-08-10T00:00:00.000Z",
@@ -21,28 +21,44 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "Date/Time"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Date"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
         "value": "@now"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Severity"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-severity--severeWarning"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/date-conditional-format/assets/listformatting-additionalrowclass.png",
-        "alt": "listformatting-additionalrowclass"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/overdue-rowclass/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

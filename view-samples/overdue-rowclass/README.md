@@ -1,10 +1,10 @@
-# Conditional formatting based on date
+# Overdue Row Class
 
 ## Summary
 
-This sample applies conditional formatting to list view rows depending on the value of a DateTime field.
+This sample applies a class to any row where the `DueDate` column is overdue (earlier than `@now`).
 
-![SharePoint list with view formatted with conditional formatting](./assets/listformatting-additionalrowclass.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - The format expects a DateTime column with an internal name of `DueDate`
@@ -13,7 +13,7 @@ This sample applies conditional formatting to list view rows depending on the va
 
 Solution|Author(s)
 --------|---------
-date-conditional-formatting.json | Lincoln DeMaris
+overdue-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
 
 ## Version history
 
@@ -30,4 +30,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/date-conditional-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/overdue-rowclass" />
