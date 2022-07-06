@@ -1,12 +1,13 @@
-# Conditional formatting based on a Choice field
+# Status Blocks
 
 ## Summary
 
-This sample applies conditional formatting to list view rows depending on the value of a "Status" Choice field.
+This sample demonstrates basic row display with conditional logic to adjust the background-color based on a `Status` field.
 
-![SharePoint list with view formatted with conditional formatting](./assets/sample01.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
+- The format utilizes the `Title` column
 - The format expects a Choice column with an internal name of `Status`
 - The values for `Status` in this sample are:
     - Awaiting Approval
@@ -18,7 +19,7 @@ This sample applies conditional formatting to list view rows depending on the va
 
 Solution|Author(s)
 --------|---------
-choice-conditional-formatting.json | Eric Skaggs (<a target="_blank" href="https://twitter.com/skaggej">@skaggej</a>)
+status-blocks.json | [Eric Skaggs](https://github.com/skaggej) ([@skaggej](https://twitter.com/skaggej))
 
 ## Version history
 
@@ -35,4 +36,4 @@ Version | Date | Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/choice-conditional-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/status-blocks" />

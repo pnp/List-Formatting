@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-choice-conditional-format",
-    "reponame": "choice-conditional-format",
+    "name": "pnp-list-formatting-status-blocks",
+    "reponame": "status-blocks",
     "source": "pnp",
-    "title": "Conditional formatting based on a Choice field",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/choice-conditional-format",
+    "title": "Status Blocks",
+    "shortDescription": "This sample demonstrates basic row display with conditional logic to adjust the background-color based on a Status field.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/status-blocks",
     "longDescription": [
-      ""
+      "This sample demonstrates basic row display with conditional logic to adjust the background-color based on a Status field."
     ],
     "creationDateTime": "2019-01-18T00:00:00.000Z",
     "updateDateTime": "2019-01-18T00:00:00.000Z",
@@ -21,28 +21,44 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-ROW-ACTION",
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
         "value": "defaultClick"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Status / Progress"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "CLASSES",
+        "value": "sp-row-card, sp-row-listPadding, sp-row-title"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/choice-conditional-format/assets/sample01.png",
-        "alt": "sample01"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/status-blocks/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
