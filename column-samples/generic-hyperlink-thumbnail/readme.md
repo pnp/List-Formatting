@@ -1,4 +1,4 @@
-# Turn FileRef field into thumbnail image or clickable hyperlink
+# File Thumbnails or Hyperlinks
 
 ## Summary
 This example uses a column to generate a hyperlink to the Item Thumbnail for a document library.

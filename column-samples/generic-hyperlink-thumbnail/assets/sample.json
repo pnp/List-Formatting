@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-hyperlink-thumbnail",
     "reponame": "generic-hyperlink-thumbnail",
     "source": "pnp",
-    "title": "Turn FileRef field into thumbnail image or clickable hyperlink",
+    "title": "File Thumbnails or Hyperlinks",
     "shortDescription": "This example uses a column to generate a hyperlink to the Item Thumbnail for a document library.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-hyperlink-thumbnail",
     "longDescription": [
