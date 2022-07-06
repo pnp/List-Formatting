@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-tile-layout-example-with-image",
-    "reponame": "tile-layout-example-with-image",
+    "name": "pnp-list-formatting-product-gallery",
+    "reponame": "product-gallery",
     "source": "pnp",
-    "title": "Items in Tile Layout with images",
+    "title": "Product Gallery",
     "shortDescription": "This sample uses tileProps element to format the tile layout of the view.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/tile-layout-example-with-image",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/product-gallery",
     "longDescription": [
       "This sample uses tileProps element to format the tile layout of the view."
     ],
@@ -23,14 +23,42 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighterAlt"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/tile-layout-example-with-image/assets/tile-layout.png",
-        "alt": "tile-layout"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-gallery/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

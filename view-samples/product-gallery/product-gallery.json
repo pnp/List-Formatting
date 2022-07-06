@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
   "tileProps": {
     "height": "450",
     "width": "300",
