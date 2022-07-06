@@ -3,6 +3,53 @@
   "hideFooter": true,
   "hideColumnHeader": true,
   "hideSelection": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "padding": "5px",
+        "border-radius": "35px",
+        "width": "100%"
+      },
+      "attributes": {
+        "class": "ms-fontColor-white ms-bgColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "padding-left": "10px"
+          },
+          "attributes": {
+            "class": "ms-fontSize-20"
+          },
+          "txtContent": "@group.columnDisplayName"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "padding-left": "10px"
+          },
+          "attributes": {
+            "iconName": "@group.fieldData",
+            "class": "ms-fontSize-20"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "0px 10px"
+          },
+          "attributes": {
+            "class": "ms-fontSize-20"
+          },
+          "txtContent": "=@group.count"
+        }
+      ]
+    }
+  },
   "rowFormatter": {
     "elmType": "div",
     "style": {
@@ -43,15 +90,15 @@
                 "attributes": {
                   "iconName": "[$Category]",
                   "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-32 '"
-                },
-                "children": []
+                }
               }
             ]
           },
           {
             "elmType": "div",
             "style": {
-              "cursor": "pointer"
+              "padding-top": "15px",
+              "padding-left": "15px"
             },
             "children": [
               {
@@ -195,9 +242,6 @@
                                           "padding-top": "10px",
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
-                                        },
-                                        "attributes": {
-                                          "class": ""
                                         },
                                         "children": [
                                           {
@@ -378,7 +422,6 @@
                       "display": "=if([$Expand]==false,'none','block')",
                       "border-top": "1px solid #ccc"
                     },
-                    "attributes": {},
                     "children": [
                       {
                         "elmType": "div",
@@ -433,7 +476,6 @@
               "position": "relative",
               "width": "150px"
             },
-            "attributes": {},
             "children": [
               {
                 "elmType": "div",

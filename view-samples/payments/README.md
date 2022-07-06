@@ -1,12 +1,11 @@
-# Payment format 
+# Payments
 
 ## Summary
-This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment.
-Solution has 3 formats Desktop, Mobile and Group by Category.
+This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category.
 
 Format includes icon for type of payment, capability to choose currency, expand collapse to view details, payment status and payment date.
 
-![Payment format ](./assets/PaymentsList.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -35,9 +34,9 @@ Rate | Choice - Values from 1 to 5
 
 Solution|Author(s)
 --------|---------
-payments-format.json | [André Lage](https://twitter.com/aaclage)
-payments-mobile-format.json | [André Lage](https://twitter.com/aaclage)
-payments-groupby-format.json | [André Lage](https://twitter.com/aaclage)
+payments.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+payments-mobile.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+payments-grouped.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -49,4 +48,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/payments-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/payments" />

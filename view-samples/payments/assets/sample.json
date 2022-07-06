@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-payments",
+    "reponame": "payments",
+    "source": "pnp",
+    "title": "Payments",
+    "shortDescription": "This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/payments",
+    "longDescription": [
+      "This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category."
+    ],
+    "creationDateTime": "2022-01-10T00:00:00.000Z",
+    "updateDateTime": "2022-01-10T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards, Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.count, @group.columnDisplayName"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, Date, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, setValue, delete"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, inlineEditField, customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter, hideFooter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-purple, ms-bgColor-blue, ms-bgColor-green, ms-bgColor-gray10--hover, ms-bgColor-sharedYellow10, ms-fontColor-white, ms-fontColor-black, ms-fontColor-red, ms-fontColor-gray100, ms-fontColor-gray90, ms-fontWeight-semibold, ms-fontWeight-bold, ms-fontSize-32, ms-fontSize-24, ms-fontSize-20, ms-fontSize-18, ms-fontSize-16, ms-fontSize-14, ms-fontSize-12, ms-bgColor-info--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/payments/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

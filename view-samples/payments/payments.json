@@ -1,11 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideFooter": true,
   "hideColumnHeader": true,
   "hideSelection": true,
   "rowFormatter": {
     "elmType": "div",
     "style": {
-      "padding": "0px 5px 0px 5px"
+      "padding": "5px"
     },
     "children": [
       {
@@ -14,16 +15,19 @@
           "display": "flex",
           "align-items": "baseline",
           "justify-content": "center",
-          "border-bottom": "1px solid #ccc"
+          "border": "1px solid #ccc",
+          "box-shadow": "0 0 5px #ccc",
+          "border-radius": "25px",
+          "padding": "10px"
         },
         "attributes": {
-          "class": "ms-bgColor-info--hover"
+          "class": "ms-bgColor-gray10--hover"
         },
         "children": [
           {
             "elmType": "div",
             "style": {
-              "padding": "5px"
+              "padding": "15px"
             },
             "children": [
               {
@@ -31,30 +35,28 @@
                 "style": {
                   "padding": "10px",
                   "border-radius": "50%",
-                  "width": "20px",
-                  "height": "20px",
+                  "width": "40px",
+                  "height": "40px",
                   "text-align": "center"
                 },
                 "inlineEditField": "[$Category]",
                 "attributes": {
                   "iconName": "[$Category]",
-                  "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-20 '"
-                },
-                "children": []
+                  "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-32 '"
+                }
               }
             ]
           },
           {
             "elmType": "div",
             "style": {
-              "padding-top": "5px",
-              "padding-left": "5px"
+              "cursor": "pointer"
             },
             "children": [
               {
                 "elmType": "div",
                 "style": {
-                  "width": "200px"
+                  "width": "500px"
                 },
                 "children": [
                   {
@@ -64,14 +66,14 @@
                         "elmType": "div",
                         "style": {
                           "display": "inline-block",
-                          "width": "100px",
+                          "width": "300px",
                           "white-space": "nowrap",
                           "overflow": "hidden",
                           "text-overflow": "ellipsis",
                           "cursor": "pointer"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90",
+                          "class": "ms-fontSize-24 ms-fontColor-gray90",
                           "title": "[$Title]"
                         },
                         "txtContent": "[$Title]",
@@ -79,13 +81,13 @@
                           "formatter": {
                             "elmType": "div",
                             "style": {
-                              "width": "320px"
+                              "width": "520px"
                             },
                             "children": [
                               {
                                 "elmType": "div",
                                 "style": {
-                                  "width": "300px"
+                                  "width": "500px"
                                 },
                                 "children": [
                                   {
@@ -101,7 +103,7 @@
                                       {
                                         "elmType": "div",
                                         "attributes": {
-                                          "class": "ms-fontSize-20 ms-fontColor-black ms-fontWeight-semibold",
+                                          "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-semibold",
                                           "title": "[$Title]"
                                         },
                                         "txtContent": "[$Title]"
@@ -123,7 +125,7 @@
                                         },
                                         "txtContent": "Amount",
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90"
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90"
                                         }
                                       },
                                       {
@@ -136,7 +138,7 @@
                                           "text-align": "right"
                                         },
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
                                         },
                                         "inlineEditField": "[$Payment]",
                                         "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -154,17 +156,12 @@
                                         "elmType": "div",
                                         "style": {
                                           "display": "inline-block",
-                                          "width": "50%",
-                                          "white-space": "nowrap",
-                                          "overflow": "hidden",
-                                          "text-overflow": "ellipsis",
-                                          "cursor": "pointer"
+                                          "width": "50%"
                                         },
                                         "inlineEditField": "[$OtherCostDescription]",
                                         "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90",
-                                          "title": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')"
+                                          "class": "ms-fontSize-20 ms-fontColor-gray90"
                                         }
                                       },
                                       {
@@ -177,7 +174,7 @@
                                           "text-align": "right"
                                         },
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
                                         },
                                         "inlineEditField": "[$OtherCosts]",
                                         "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -198,9 +195,6 @@
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
                                         },
-                                        "attributes": {
-                                          "class": ""
-                                        },
                                         "children": [
                                           {
                                             "elmType": "div",
@@ -210,7 +204,7 @@
                                             },
                                             "txtContent": "Total",
                                             "attributes": {
-                                              "class": "ms-fontWeight-semibold ms-fontSize-16 ms-fontColor-black"
+                                              "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-semibold"
                                             }
                                           },
                                           {
@@ -222,7 +216,7 @@
                                               "text-align": "right"
                                             },
                                             "attributes": {
-                                              "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-16 ms-fontWeight-semibold '"
+                                              "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold '"
                                             },
                                             "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
                                           }
@@ -267,7 +261,7 @@
                         "style": {
                           "display": "inline-block",
                           "text-align": "right",
-                          "width": "100px"
+                          "width": "200px"
                         },
                         "children": [
                           {
@@ -276,11 +270,11 @@
                               {
                                 "elmType": "div",
                                 "style": {
-                                  "padding-top": "5px"
+                                  "padding-top": "15px"
                                 },
                                 "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))",
                                 "attributes": {
-                                  "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-16 ms-fontColor-black ms-fontWeight-bold'"
+                                  "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontColor-black ms-fontWeight-bold'"
                                 }
                               }
                             ]
@@ -291,8 +285,11 @@
                   },
                   {
                     "elmType": "div",
+                    "style": {
+                      "width": "120px"
+                    },
                     "attributes": {
-                      "class": "ms-fontSize-14 ms-fontColor-black ms-fontWeight-semibold"
+                      "class": "ms-fontSize-18 ms-fontColor-black ms-fontWeight-semibold"
                     },
                     "inlineEditField": "[$PaymentDay]",
                     "txtContent": "=if((getMonth(Date([$PaymentDay]))+1)==1,'JAN',if((getMonth(Date([$PaymentDay]))+1)==2,'FEV',if((getMonth(Date([$PaymentDay]))+1)==3,'MAR',if((getMonth(Date([$PaymentDay]))+1)==4,'ABR',if((getMonth(Date([$PaymentDay]))+1)==5,'MAY',if((getMonth(Date([$PaymentDay]))+1)==6,'JUN',if((getMonth(Date([$PaymentDay]))+1)==7,'JUL',if((getMonth(Date([$PaymentDay]))+1)==8,'AUG',if((getMonth(Date([$PaymentDay]))+1)==9,'SEP',if((getMonth(Date([$PaymentDay]))+1)==10,'OCT',if((getMonth(Date([$PaymentDay]))+1)==11,'NOV',if((getMonth(Date([$PaymentDay]))+1)==12,'DEC',''))))))))))))+' '+getDate(Date([$PaymentDay]))+ ', '+getYear(Date([$PaymentDay]))"
@@ -313,7 +310,7 @@
                         },
                         "txtContent": "Amount",
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90"
+                          "class": "ms-fontSize-24 ms-fontColor-gray90"
                         }
                       },
                       {
@@ -326,7 +323,7 @@
                           "text-align": "right"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
                         },
                         "inlineEditField": "[$Payment]",
                         "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -344,17 +341,12 @@
                         "elmType": "div",
                         "style": {
                           "display": "inline-block",
-                          "width": "50%",
-                          "white-space": "nowrap",
-                          "overflow": "hidden",
-                          "text-overflow": "ellipsis",
-                          "cursor": "pointer"
+                          "width": "50%"
                         },
                         "inlineEditField": "[$OtherCostDescription]",
                         "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90",
-                          "title": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')"
+                          "class": "ms-fontSize-20 ms-fontColor-gray90"
                         }
                       },
                       {
@@ -367,7 +359,7 @@
                           "text-align": "right"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold"
                         },
                         "inlineEditField": "[$OtherCosts]",
                         "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -382,9 +374,6 @@
                       "display": "=if([$Expand]==false,'none','block')",
                       "border-top": "1px solid #ccc"
                     },
-                    "attributes": {
-                      "class": ""
-                    },
                     "children": [
                       {
                         "elmType": "div",
@@ -394,7 +383,7 @@
                         },
                         "txtContent": "Total",
                         "attributes": {
-                          "class": "ms-fontWeight-semibold ms-fontSize-16 ms-fontColor-black"
+                          "class": "ms-fontSize-24 ms-fontColor-black ms-fontWeight-bold"
                         }
                       },
                       {
@@ -406,7 +395,7 @@
                           "text-align": "right"
                         },
                         "attributes": {
-                          "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-16 ms-fontWeight-semibold '"
+                          "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold'"
                         },
                         "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
                       }
@@ -419,7 +408,7 @@
           {
             "elmType": "div",
             "style": {
-              "padding": "10px",
+              "padding": "15px",
               "cursor": "pointer"
             },
             "attributes": {
@@ -439,11 +428,12 @@
               "position": "relative",
               "width": "150px"
             },
-            "attributes": {},
             "children": [
               {
                 "elmType": "div",
-                "style": {},
+                "style": {
+                  "width": "200px"
+                },
                 "children": [
                   {
                     "elmType": "div",
@@ -451,12 +441,12 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "padding": "5px",
+                          "padding": "10px",
                           "display": "inline",
                           "cursor": "pointer"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-24",
+                          "class": "ms-fontSize-32",
                           "title": "=if([$Paid]==true, 'Paid','pending')"
                         },
                         "txtContent": "=if([$Paid]==true, '💸','⌛')",
@@ -470,7 +460,7 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "margin-left": "20px",
+                          "margin-left": "10px",
                           "cursor": "pointer"
                         },
                         "attributes": {
@@ -503,12 +493,16 @@
                       "class": "ms-fontSize-16 ms-fontWeight-semibold"
                     },
                     "style": {
-                      "padding-top": "10px",
+                      "padding-left": "10px",
+                      "padding-top": "20px",
                       "display": "=if([$Expand]== true,'block','none')"
                     },
                     "children": [
                       {
                         "elmType": "div",
+                        "style": {
+                          "padding": "0px 5px 0px 0px"
+                        },
                         "txtContent": "Tap to rate"
                       }
                     ]
@@ -516,11 +510,11 @@
                   {
                     "elmType": "div",
                     "style": {
-                      "padding-top": "5px",
+                      "padding-top": "10px",
                       "display": "=if([$Expand]== true,'block','none')"
                     },
                     "attributes": {
-                      "class": "ms-fontSize-24"
+                      "class": "ms-fontSize-32"
                     },
                     "children": [
                       {
@@ -529,8 +523,8 @@
                         "style": {
                           "text-align": "center",
                           "margin-left": "20px",
-                          "width": "35px",
-                          "height": "35px",
+                          "width": "50px",
+                          "height": "50px",
                           "cursor": "pointer",
                           "border-radius": "50%"
                         },
@@ -548,7 +542,7 @@
                       "padding-top": "10px"
                     },
                     "attributes": {
-                      "class": "ms-fontSize-20"
+                      "class": "ms-fontSize-24"
                     },
                     "children": [
                       {
@@ -561,7 +555,7 @@
                         },
                         "attributes": {
                           "iconName": "Chat",
-                          "class": "ms-fontSize-20 ms-fontWeight-semibold"
+                          "class": "ms-fontSize-24 ms-fontWeight-semibold"
                         }
                       },
                       {
