@@ -117,7 +117,6 @@
           {
             "elmType": "span",
             "txtContent": "New game",
-            "style": {},
             "attributes": {
               "class": "ms-fontSize-16"
             },
@@ -446,7 +445,7 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "Yellow": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow])))) ",
+                    "Yellow": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
                     "Red": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]))))"
                   }
                 }
