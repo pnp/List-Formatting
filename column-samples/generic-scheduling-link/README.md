@@ -1,4 +1,4 @@
-# Linking to the scheduling dialog in Microsoft Teams and Microsoft Outlook
+# Scheduling Dialog Links to MS Teams and Outlook
 
 ## Summary
 This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.
