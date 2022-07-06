@@ -1,4 +1,4 @@
-# Highlight the current user
+# Highlight the Current User (Using a Multi-Person Column)
 
 ## Summary
 This sample uses the `@me` keyword to check if the person field contains the current user and shows that entry using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields.
