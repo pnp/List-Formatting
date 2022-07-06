@@ -1,4 +1,4 @@
-# Conditional formatting based on a number range
+# Minimum Value Highlight
 
 ## Summary
 This example uses the conditional operator `?` to apply a class (`sp-field-severity--warning`) to the parent `<div />` element when the  value in the current field is less than or equal to 70.  This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it's greater than 70.

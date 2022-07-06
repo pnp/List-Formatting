@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-conditional-format",
     "reponame": "number-conditional-format",
     "source": "pnp",
-    "title": "Conditional formatting based on a number range",
+    "title": "Minimum Value Highlight",
     "shortDescription": "This example uses the conditional operator ? to apply a class (sp-field-severity--warning) to the parent div element when the value in the current field is less than or equal to 70. This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it's greater than 70.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-format",
     "longDescription": [
