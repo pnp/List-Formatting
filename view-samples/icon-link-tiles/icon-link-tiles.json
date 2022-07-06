@@ -1,5 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
   "hideColumnHeader": "true",
   "hideSelection": true,
   "tileProps": {
@@ -38,7 +38,7 @@
                 {
                   "elmType": "div",
                   "attributes": {
-                    "class": "sp-row-title "
+                    "class": "sp-row-title"
                   },
                   "txtContent": "[$Title]"
                 },
@@ -91,7 +91,7 @@
               {
                 "elmType": "div",
                 "attributes": {
-                  "class": "sp-row-title "
+                  "class": "sp-row-title"
                 },
                 "txtContent": "[$Title]"
               },
