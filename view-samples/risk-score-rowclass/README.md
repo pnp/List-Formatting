@@ -1,9 +1,9 @@
-# Project Indicator - Risk Score Indicator
+# Risk Score Indicator
 
 ## Summary
 A number column is evaluated against tiers of values to provide colors corresponding to score ranges. 
 
-## Color-coded score ranges (risk-score-viewformat.json)
+![screenshot of the sample](./assets/screenshot.png)
 
 A number column is evaluated against tiers of values to provide colors corresponding to score ranges. This format provides 4 ranges:
 
@@ -16,10 +16,8 @@ A number column is evaluated against tiers of values to provide colors correspon
 
 You can easily adjust the values/colors to provide your own ranges. You can also add or remove nested conditions to increase or decrease the number of ranges needed.
 
-![Color-coded ranges](./assets/risk-score.png)
-
 ## View requirements
-The format expect the following fields:
+The format expects the following fields:
 
 Field |Type
 --------|---------
@@ -29,7 +27,7 @@ Score | Number
 
 Solution|Author(s)
 --------|---------
-title-view.json | [S Merchant](https://twitter.com/sohailmerchant)
+risk-score-rowclass.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
 
 ## Version history
 
@@ -40,4 +38,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/generic-risk-score-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/risk-score-rowclass" />

@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "additionalRowClass": "=if([$Score]>= 16, 'ms-bgColor-red', if([$Score] >= 12, 'ms-bgColor-orangeLighter', if([$Score] >= 8, 'ms-bgColor-yellow', 'ms-bgColor-green'))) + ' ms-fontColor-white'"
+}

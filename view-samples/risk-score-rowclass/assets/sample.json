@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-generic-risk-score-format",
-    "reponame": "generic-risk-score-format",
+    "name": "pnp-list-formatting-risk-score-rowclass",
+    "reponame": "risk-score-rowclass",
     "source": "pnp",
-    "title": "Project Indicator - Risk Score Indicator",
+    "title": "Risk Score Indicator",
     "shortDescription": "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. ",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/generic-risk-score-format",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/risk-score-rowclass",
     "longDescription": [
       "A number column is evaluated against tiers of values to provide colors corresponding to score ranges. "
     ],
@@ -21,23 +21,43 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Status / Progress"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-yellow, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-green, ms-fontColor-white"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/generic-risk-score-format/assets/risk-score.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/risk-score-rowclass/assets/screenshot.png",
         "alt": "risk-score"
       }
     ],
