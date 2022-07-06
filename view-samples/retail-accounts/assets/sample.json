@@ -1,0 +1,84 @@
+[
+  {
+    "name": "pnp-list-formatting-retail-accounts",
+    "reponame": "retail-accounts",
+    "source": "pnp",
+    "title": "Retail Accounts",
+    "shortDescription": "SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts",
+    "longDescription": [
+      "SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps."
+    ],
+    "creationDateTime": "2018-10-09T00:00:00.000Z",
+    "updateDateTime": "2018-10-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter, ms-bgColor-redDark, ms-bgColor-green, ms-borderColor-neutralLight, ms-borderColor-neutralLighter, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontWeight-bold, ms-fontWeight-light, ms-fontSize-su, ms-fontSize-xl, ms-fontSize-mPlus, ms-fontSize-m"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/retail-accounts/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "TBag",
+        "pictureUrl": "https://github.com/TBag.png",
+        "name": "Todd Baginski"
+      },
+      {
+        "gitHubAccount": "ldemaris",
+        "pictureUrl": "https://github.com/ldemaris.png",
+        "name": "Lincoln DeMaris"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

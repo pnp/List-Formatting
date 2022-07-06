@@ -1,12 +1,11 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "debugMode": false,
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
     "elmType": "div",
     "attributes": {
-      "class": " ms-borderColor-neutralLight"
+      "class": "ms-borderColor-neutralLight"
     },
     "style": {
       "border-top-width": "1px",
@@ -92,7 +91,7 @@
           {
             "elmType": "div",
             "attributes": {
-              "class": " ms-bgColor-neutralLighter"
+              "class": "ms-bgColor-neutralLighter"
             },
             "style": {
               "flex": "0 0 173px",
@@ -102,9 +101,8 @@
               {
                 "elmType": "img",
                 "attributes": {
-                  "class": " ms-borderColor-neutralLighter",
+                  "class": "ms-borderColor-neutralLighter",
                   "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road?mapSize=171,106&pp=' + if([$Location.Coordinates.Latitude], [$Location.Coordinates.Latitude], '0') + ',' + if([$Location.Coordinates.Longitude], [$Location.Coordinates.Longitude], '0') + '&key=Am_p9LOyc3ij2sHWu5H7jFYq-2s4lNNwPDL8hwpZwzJSt5Ob-g0knurihcsFuuhF'"
-
                 },
                 "style": {
                   "border-width": "1px",
@@ -137,7 +135,6 @@
               },
               {
                 "elmType": "div",
-
                 "style": {
                   "color": "#fff",
                   "font-size": "60px",
@@ -163,7 +160,7 @@
               {
                 "elmType": "span",
                 "attributes": {
-                  "class": " ms-fontSize-mPlus ms-fontWeight-bold"
+                  "class": "ms-fontSize-mPlus ms-fontWeight-bold"
                 },
                 "style": {
                   "line-height": "3em"

@@ -1,10 +1,10 @@
-# Retail Account Sample
+# Retail Accounts
 
 ## Summary
 
-SharePoint lists are excellent places to store information.  This example demonstrates how to use a custom SharePoint list to manage retail stores.  This sample defines a custom view to bring focus to the status of store locations.  It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps.
+SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps.
 
-![Retail Account Sample](images/retail-accounts.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -48,14 +48,11 @@ The View Formatter JSON ([card-format.json](card-format.json)) uses the Bing Map
   "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road?mapSize=171,106&pp=' + if([$Location.Coordinates.Latitude], [$Location.Coordinates.Latitude], '0') + ',' + if([$Location.Coordinates.Longitude], [$Location.Coordinates.Longitude], '0') + '&key=YOUR BING MAP API KEY'"
 ````
 
-### Authors
+## Sample
 
-
-- Tyler Lui (Canviz) @TylerLu
-- Justin So (Canviz)
-- Todd Baginski (Microsoft MVP, Canviz) @TBag
-- Jeremy Mazner (Microsoft)
-- Lincoln DeMaris (Microsoft) @ldemaris
+Solution|Author(s)
+--------|---------
+retail-accounts.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Tyler Lui, Justin So
 
 ## Version history
 
@@ -72,4 +69,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/retail-account" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/retail-accounts" />
