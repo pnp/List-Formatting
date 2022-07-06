@@ -1,4 +1,4 @@
-# Displays a customizable Bing Map image for a given location in a Multi-Line of Text Field
+# Display a Bing Maps Image for a Location
 
 ## Summary
 This template uses Bing Maps' [staticmap API](https://docs.microsoft.com/en-us/bingmaps) which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation: ([static map](https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map)

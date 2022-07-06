@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-text-bing-map",
     "reponame": "text-bing-map",
     "source": "pnp",
-    "title": "Displays a customizable Bing Map image for a given location in a Multi-Line of Text Field",
+    "title": "Display a Bing Maps Image for a Location",
     "shortDescription": "This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-bing-map",
     "longDescription": [
