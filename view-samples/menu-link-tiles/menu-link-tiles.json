@@ -1,7 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "hideColumnHeader": "true",
+  "hideColumnHeader": true,
   "hideSelection": true,
   "rowFormatter": {
     "elmType": "div",
@@ -10,7 +9,8 @@
       "float": "left",
       "position": "relative"
     },
-    "children": [{
+    "children": [
+      {
         "elmType": "a",
         "attributes": {
           "href": "[$URL]",
@@ -29,7 +29,8 @@
           "box-shadow": "2px 2px 4px darkgrey",
           "border-radius": "10px"
         },
-        "children": [{
+        "children": [
+          {
             "elmType": "div",
             "style": {
               "font-size": "32px",
