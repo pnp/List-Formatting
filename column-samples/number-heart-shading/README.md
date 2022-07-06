@@ -1,4 +1,4 @@
-# Heart shading
+# Heart Shading
 
 ## Summary
 This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG.
