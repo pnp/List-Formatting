@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-background-color-shading",
     "reponame": "number-background-color-shading",
     "source": "pnp",
-    "title": "Background color shading by number column value",
+    "title": "Shaded Backgrounds",
     "shortDescription": "This sample demonstrates how to change the shade of the background color according to the value of the number column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-background-color-shading",
     "longDescription": [

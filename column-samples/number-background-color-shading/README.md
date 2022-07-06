@@ -1,4 +1,4 @@
-# Background color shading by number column value
+# Shaded Backgrounds
 
 ## Summary
 This sample demonstrates how to change the shade of the background color depending on the value of the number column. Also, in this sample, the background color is lightest at `-100` and darkest at `350`.
