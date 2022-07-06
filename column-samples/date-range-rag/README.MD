@@ -1,4 +1,4 @@
-# Creating Red-Amber-Green (RAG) bars based on date ranges
+# Red-Amber-Green (RAG) Bars Based on Date Ranges
 
 ## Summary
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time.
