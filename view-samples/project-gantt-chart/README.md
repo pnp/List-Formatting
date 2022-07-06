@@ -1,4 +1,4 @@
-# Project Gantt Chart View
+# Project Gantt Chart
 
 ## Summary
 This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views.
@@ -9,7 +9,7 @@ So this
 
 Turns into this
 
-![screenshot of format](./assets/screenshot.png)  
+![screenshot of the sample](./assets/screenshot.png)  
 
 ## View requirements
 This format expects the following columns to be part of the view:
@@ -29,7 +29,7 @@ The view should be sorted by `TaskStart`, ascending
 
 Solution|Author(s)
 --------|---------
-Project-Gantt-Chart | [Geert de Kooter](https://twitter.com/gdekooter)
+project-gantt-chart.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
 
 ## Version history
 
@@ -47,4 +47,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/project-gantt-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/project-gantt-chart" />
