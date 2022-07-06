@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-color-based-smiley-face",
     "reponame": "color-based-smiley-face",
     "source": "pnp",
-    "title": "Smiley faces for good quiz results",
-    "shortDescription": "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of",
+    "title": "Color Based Emojis",
+    "shortDescription": "This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/color-based-smiley-face",
     "longDescription": [
-      "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of"
+      "This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI."
     ],
     "creationDateTime": "2019-06-16T00:00:00.000Z",
     "updateDateTime": "2019-06-16T00:00:00.000Z",

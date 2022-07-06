@@ -1,11 +1,9 @@
-# Smiley faces for good quiz results
+# Color Based Emojis
 
 ## Summary
-This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of
-Green, Red and Yellow. Color value will add smiley face which come from the Offie UI Fabric Icon set. If color is Green smiley (`Emoji2`), If color is Yellow (`EmojiNeutral`), if color is Red (`EmojiDisappointed`).
+This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI. If the value is `Green` then the icon will be `Emoji2`, if the value is `Yellow` then the icon will be `EmojiNeutral`, if the value is Red the icon will be `EmojiDisappointed`.
 
-Sample can be extended to diffrent other colors based on requirement
-
+Sample can be extended to different colors based on your requirements.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
