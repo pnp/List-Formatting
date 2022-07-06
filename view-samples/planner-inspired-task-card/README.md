@@ -1,9 +1,9 @@
 # Planner Inspired Task Cards
 
 ## Summary
-Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
+Formats Task List Items in a Planner Inspired Card View. Uses Fluent UI Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
 
-![Planner Format](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -25,7 +25,7 @@ The `Status` column expects the following choice values:
 
 Solution|Author(s)
 --------|---------
-planner-inspired-task-card | [April Dunnam](https://twitter.com/aprildunnam)
+planner-inspired-task-card.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunnam](https://twitter.com/aprildunnam))
 
 ## Version history
 
@@ -42,6 +42,6 @@ Version|Date|Comments
 
 This format takes advantage of `CustomRowActions` to enable the `defaultClick` and `delete` actions from icon buttons:
 
-![Custom Actions in Action](screenshot.gif)
+![Custom Actions in Action](./assets/screenshot.gif)
 
-<img src="https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-rowactions/assets/screenshot.png" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/planner-inspired-task-card" />
