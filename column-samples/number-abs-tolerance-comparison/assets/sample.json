@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-abs-tolerance-comparison",
     "reponame": "number-abs-tolerance-comparison",
     "source": "pnp",
-    "title": "Determine Tolerance Comparison using abs()",
+    "title": "Tolerance Comparison",
     "shortDescription": "Display if a value is within the expected tolerance.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-abs-tolerance-comparison",
     "longDescription": [
