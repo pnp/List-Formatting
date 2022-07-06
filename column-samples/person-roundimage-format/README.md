@@ -1,4 +1,4 @@
-# Display a person's profile picture in a circle
+# Display a Person's Profile Picture in a Circle
 
 ## Summary
 This sample applies styles to a parent `div` element and a child `img` element to show a person's profile picture in a circle.

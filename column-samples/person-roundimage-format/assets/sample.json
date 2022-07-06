@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-person-roundimage-format",
     "reponame": "person-roundimage-format",
     "source": "pnp",
-    "title": "Display a person's profile picture in a circle",
+    "title": "Display a Person's Profile Picture in a Circle",
     "shortDescription": "This sample applies styles to a parent div element and a child img element to show a person's profile picture in a circle.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-roundimage-format",
     "longDescription": [
