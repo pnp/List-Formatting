@@ -1,10 +1,9 @@
-# reorder expand items board format
+# Reorder and Expand Board Items
 
 ## Summary
-This sample allow users to manage cards order in Board Views and also allow to expand and collapse images based on url option.
-This sample has option "**Move to Top**" that allows to manage cards to top of board view as way to rearrange card positions.
+This sample allow users to manage card order in Board Views and also enables expanding and collapsing images. This sample has the option "**Move to Top**" that allows users to move cards to the top of the board view as a way to rearrange card positions.
 
-![reorder expand items board format](./assets/BoardReorderExpand.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -33,7 +32,7 @@ Expand | Yes/No - default value **"No"**
 
 Solution|Author(s)
 --------|---------
-reorder-expand-items-board-format.json | [André Lage](https://twitter.com/aaclage)
+reorder-expand-board-items.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -45,4 +44,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/reorder-expand-items-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/reorder-expand-board-items" />

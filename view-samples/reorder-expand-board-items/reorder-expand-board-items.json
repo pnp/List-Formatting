@@ -104,7 +104,7 @@
                 "attributes": {
                   "src": "[$Image]",
                   "title": "[$Image]",
-                  "class": "ms-fontColor-neutralPrimary "
+                  "class": "ms-fontColor-neutralPrimary"
                 }
               }
             ],
@@ -161,7 +161,7 @@
                 },
                 "attributes": {
                   "title": "[$Order0]",
-                  "class": "ms-fontColor-neutralPrimary sp-card-content "
+                  "class": "ms-fontColor-neutralPrimary sp-card-content"
                 },
                 "txtContent": "=if ([$Order0] == '', '–', [$Order0])"
               }
@@ -187,7 +187,7 @@
                 "elmType": "p",
                 "attributes": {
                   "title": "=if ([$Expand.displayValue] == '', '–', [$Expand.displayValue])",
-                  "class": "ms-fontColor-neutralPrimary sp-card-content "
+                  "class": "ms-fontColor-neutralPrimary sp-card-content"
                 },
                 "txtContent": "=if ([$Expand.displayValue] == '', '–', [$Expand.displayValue])"
               }
