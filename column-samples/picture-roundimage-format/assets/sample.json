@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-picture-roundimage-format",
     "reponame": "picture-roundimage-format",
     "source": "pnp",
-    "title": "Display a picture column as a circle",
-    "shortDescription": "This sample applies styles to a parent \u0060div\u0060 element and a child \u0060img\u0060 element to show a picture column in a circle.",
+    "title": "Display a Picture Column in a Circle",
+    "shortDescription": "This sample applies styles to a parent div element and a child img element to show a picture column in a circle.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/picture-roundimage-format",
     "longDescription": [
-      "This sample applies styles to a parent \u0060div\u0060 element and a child \u0060img\u0060 element to show a picture column in a circle."
+      "This sample applies styles to a parent div element and a child img element to show a picture column in a circle."
     ],
     "creationDateTime": "2018-03-21T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",

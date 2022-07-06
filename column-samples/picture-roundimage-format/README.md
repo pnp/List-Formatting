@@ -1,4 +1,4 @@
-# Display a picture column as a circle
+# Display a Picture Column in a Circle
 
 ## Summary
 This sample applies styles to a parent `div` element and a child `img` element to show a picture column in a circle.
