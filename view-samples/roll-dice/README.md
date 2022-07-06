@@ -1,12 +1,12 @@
-# Roll Dice format 
+# Roll Dice
 
 ## Summary
-This sample format provides a simulation of game where random number (between 1 - 6) is generated and display in dice,value associated make progress bar advance with associated emoji untill value 0 is reach and winner emoji appear.
+This sample format provides a simulation of a game where a random number (between 1 and 6) is generated and displayed as a die. The value makes the progress bar advance with the associated emoji until the value 0 is reached and the winner emoji appears.
 
-![Roll dice format](./assets/RollDices.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
-- The format expect the following fields:
+- The format expects the following fields:
 
 Field |Type
 --------|---------
@@ -23,7 +23,7 @@ Character2 | Single line of text - Include emoji of runner "🏃"
 
 Solution|Author(s)
 --------|---------
-roll-dice-format.json | [André Lage](https://twitter.com/aaclage)
+roll-dice.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/roll-dice-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/roll-dice" />

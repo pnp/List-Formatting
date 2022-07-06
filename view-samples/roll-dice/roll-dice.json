@@ -76,7 +76,7 @@
                           "visibility": "=if([$Position]=='Race2',if(([$Dice2]-[$Value2])==4 || ([$Dice2]-[$Value2])==5 || ([$Dice2]-[$Value2])==6, 'visible','hidden'),if(([$Dice]-[$Value])==4 || ([$Dice]-[$Value])==5 || ([$Dice]-[$Value])==6, 'visible','hidden')"
                         },
                         "attributes": {
-                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -98,7 +98,7 @@
                           "border-radius": "25px 25px 25px 25px"
                         },
                         "attributes": {
-                          "class": "ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -124,7 +124,7 @@
                           "visibility": "=if([$Position]=='Race2',if(([$Dice2]-[$Value2])==2 || ([$Dice2]-[$Value2])==3 || ([$Dice2]-[$Value2])==4 || ([$Dice2]-[$Value2])==6 || ([$Dice2]-[$Value2])==5, 'visible','hidden'),if(([$Dice]-[$Value])==2 || ([$Dice]-[$Value])==3 || ([$Dice]-[$Value])==4 || ([$Dice]-[$Value])==6 || ([$Dice]-[$Value])==5, 'visible','hidden')"
                         },
                         "attributes": {
-                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -158,7 +158,7 @@
                           "visibility": "=if([$Position]=='Race2',if(([$Dice2]-[$Value2])==6 , 'visible','hidden'),if(([$Dice]-[$Value])==6 , 'visible','hidden')"
                         },
                         "attributes": {
-                          "class": "ms-bgColor-red ms-fontColor-red ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-bgColor-red ms-fontColor-red ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -181,7 +181,7 @@
                           "visibility": "=if([$Position]=='Race2',if(([$Dice2]-[$Value2])==5 || ([$Dice2]-[$Value2])==3 || ([$Dice2]-[$Value2])==1, 'visible','hidden'),if(([$Dice]-[$Value])==5 || ([$Dice]-[$Value])==3 || ([$Dice]-[$Value])==1, 'visible','hidden')"
                         },
                         "attributes": {
-                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-bgColor-red ms-fontColor-red  ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -205,7 +205,7 @@
                           "visibility": "=if([$Position]=='Race2',if(([$Dice2]-[$Value2])==6, 'visible','hidden'),if(([$Dice]-[$Value])==6, 'visible','hidden')"
                         },
                         "attributes": {
-                          "class": "ms-bgColor-red ms-fontColor-red ms-fontWeight-semibold ms-fontSize-10 "
+                          "class": "ms-bgColor-red ms-fontColor-red ms-fontWeight-semibold ms-fontSize-10"
                         }
                       }
                     ]
@@ -370,7 +370,6 @@
                           "width": "320px",
                           "display": "table"
                         },
-                        "attributes": {},
                         "children": [
                           {
                             "elmType": "div",
@@ -575,7 +574,6 @@
                           "width": "320px",
                           "display": "table"
                         },
-                        "attributes": {},
                         "children": [
                           {
                             "elmType": "div",
