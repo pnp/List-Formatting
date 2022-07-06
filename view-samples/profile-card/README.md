@@ -3,7 +3,7 @@
 ## Summary
 This is a simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.
 
-![Screenshot](./assets/profile-card.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -19,7 +19,7 @@ This is a simple user profile card built to provide a tile view with contact but
 
 Solution|Author(s)
 --------|---------
-Profile-card | [Ejaz Hussain](https://twitter.com/ejazhussain_)
+profile-card.json | [Ejaz Hussain](https://github.com/ejazhussain) ([@EjazHussain_](https://twitter.com/ejazhussain_))
 
 ## Version history
 
@@ -30,4 +30,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/profile-card" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/profile-card" />
