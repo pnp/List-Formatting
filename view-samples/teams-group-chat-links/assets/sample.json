@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-teams-group-format",
-    "reponame": "teams-group-format",
+    "name": "pnp-list-formatting-teams-group-chat-links",
+    "reponame": "teams-group-chat-links",
     "source": "pnp",
-    "title": "teams group format",
+    "title": "Teams Group Chat Links",
     "shortDescription": "This sample uses Microsoft Teams deep links to create Teams chat group based on selected users with associated Group name and message.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/teams-group-format",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/teams-group-chat-links",
     "longDescription": [
       "This sample uses Microsoft Teams deep links to create Teams chat group based on selected users with associated Group name and message."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2021-12-31T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,21 +23,49 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "loopIndex, length, replace, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, inlineEditField, defaultHoverField, customCardProps, hideSelection, hideColumnHeader, rowFormatter, hideFooter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontWeight-semibold, ms-fontSize-32, ms-fontSize-24, ms-fontSize-20, ms-fontSize-16, ms-fontSize-14"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/teams-group-format/assets/CreateUserGroupChat.gif",
-        "alt": "teams group format"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/teams-group-chat-links/assets/screenshot.gif",
+        "alt": "screenshot"
       }
     ],
     "authors": [
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "Andr� Lage"
+        "name": "André Lage"
       }
     ],
     "references": [
@@ -48,4 +76,4 @@
       }
     ]
   }
-] 
+]

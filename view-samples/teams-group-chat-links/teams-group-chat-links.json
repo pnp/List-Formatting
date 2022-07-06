@@ -102,7 +102,6 @@
             },
             "children": [
               {
-
                 "forEach": "personIterator in [$PersonChat]",
                 "elmType": "div",
                 "style": {
@@ -138,7 +137,6 @@
                     ]
                   }
                 ]
-
               }
             ]
           },
@@ -185,14 +183,11 @@
                           },
                           {
                             "elmType": "div",
-                            "style": {
-                            },
                             "txtContent": "[$personIterator.title]"
                           }
                         ]
                       }
                     ]
-
                   }
                 ]
               }

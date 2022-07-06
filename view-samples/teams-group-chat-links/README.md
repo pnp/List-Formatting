@@ -1,10 +1,10 @@
-# Teams group format
+# Teams Group Chat Links
 
 ## Summary
 
-This sample uses [Microsoft Teams deep links](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat)  to create Teams chat group based on selected users with associated Group name and message.
+This sample uses [Microsoft Teams deep links](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat) to create Teams chat group based on selected users with the associated Group name and message.
 
-![Teams group format](./assets/CreateUserGroupChat.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -20,7 +20,7 @@ PersonChat | Person - check to yes, Allow multiple selections
 
 Solution|Author(s)
 --------|---------
-teams-group-format.json | [Andr� Lage](https://twitter.com/aaclage)
+teams-group-chat-links.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/teams-group-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/teams-group-chat-links" />
