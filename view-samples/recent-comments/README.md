@@ -4,7 +4,7 @@
 
 This sample shows text from the most recent items by showing them in decresing sizes as they get older. This is very helpful for a quick summary view of a list and is great for adding directly to a page.
 
-![Screenshot of Recent Comments view](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -18,7 +18,7 @@ The view itself is sorted by `Created` in descending order (Newest to Oldest) an
 
 Solution|Author(s)
 --------|---------
-recent-comments.json | [Chris Kent](https://twitter.com/theChrisKent)
+recent-comments.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/recent-comments" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/recent-comments" />
