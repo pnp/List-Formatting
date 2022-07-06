@@ -1,13 +1,12 @@
-# Timeline Format
+# Timeline
 
 ## Summary
 This sample formats your SharePoint list view to look like a timeline.
 
-vartical-timeline-format.json
-![screenshot of the sample](./assets/vertical-timeline-format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
-horizontal-timeline-format.json
-![screenshot of the sample](./assets/horizontal-timeline-format.gif)
+**timeline-horizontal.json**
+![screenshot of the sample](./assets/screenshot-horizontal.gif)
 
 ## View requirements
 
@@ -18,10 +17,10 @@ Description   | Multi Line Text
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-vartical-timeline-format.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
-horizontal-timeline-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+timeline-horizontal.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -34,4 +33,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/timeline-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/timeline" />
