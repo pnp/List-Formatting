@@ -1,4 +1,4 @@
-# Display Twitter profile pics using Twitter handles
+# Twitter Profile Pics
 
 ## Summary
 

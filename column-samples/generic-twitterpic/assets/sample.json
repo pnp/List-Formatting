@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-twitterpic",
     "reponame": "generic-twitterpic",
     "source": "pnp",
-    "title": "Display Twitter profile pics using Twitter handles",
+    "title": "Twitter Profile Pics",
     "shortDescription": "Using just the Twitter handle, Twitter profile pictures are displayed in a circle and clicking them will open the user's Twitter page in a new window. The handle is also displayed as a tooltip when hovering over the profile image.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-twitterpic",
     "longDescription": [
