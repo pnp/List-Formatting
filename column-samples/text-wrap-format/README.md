@@ -1,7 +1,7 @@
-# Formatting column with long text to multiple-line with word wrap.
+# Multi-line Text with Word Wrap
 
 ## Summary
-With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode.
+With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rendering long text to multiple lines with word wrap, similar to classic mode.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
