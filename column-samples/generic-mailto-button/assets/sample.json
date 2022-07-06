@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-mailto-button",
     "reponame": "generic-mailto-button",
     "source": "pnp",
-    "title": "Mail To Button",
+    "title": "MailTo Button",
     "shortDescription": "This sample demonstrates making a mailto link (opens email with prepopulated values) button that references a different field.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-mailto-button",
     "longDescription": [

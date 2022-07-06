@@ -1,4 +1,4 @@
-# Mail To Button
+# MailTo Button
 
 ## Summary
 This sample demonstrates making a mailto link (opens email with prepopulated values) button that references a different field.
