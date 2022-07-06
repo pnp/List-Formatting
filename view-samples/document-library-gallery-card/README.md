@@ -1,9 +1,9 @@
-# Items in Tile Layout with images and Formatting for Doclib
+# Custom Document Library Gallery Card
 
 ## Summary
 This sample uses tileProps element to format the tile layout  for document libraries.
 
-![Color status field](./assets/Tile-with-formatting.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 This format takes advantage of the `tileProps` property to format tiles in doclib to have metadata. To see the tiles, switch your layout to the Tiles layout after you've added the JSON.
 
@@ -13,11 +13,8 @@ This format takes advantage of the `tileProps` property to format tiles in docli
 Field |Type
 --------|---------
 Name | Single line of text 
-Proromotio ID | Number
-Modified | Date
-Status | Choice(Single Select)
+Status | Choice(Single Select) - expected values: Approved, Ready for Review, Draft, or Rejected
 Owner | People
-Participating Locations | Managed Metadata 
 
 The size of the tile can be adjusted by changing the width and height values.
 
@@ -25,7 +22,8 @@ The size of the tile can be adjusted by changing the width and height values.
 
 Solution|Author(s)
 --------|---------
-Tile_with_formatting.json | [Niket Jain](https://twitter.com/niketjain2002 )
+document-library-gallery-card.json | [Niket Jain](https://github.com/NiketJain) ([@niketjain2002](https://twitter.com/niketjain2002))
+
 ## Version history
 
 Version|Date|Comments
@@ -35,4 +33,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/generic-tile-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/document-library-gallery-card" />

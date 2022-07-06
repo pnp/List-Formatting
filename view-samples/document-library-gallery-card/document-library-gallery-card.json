@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
   "tileProps": {
     "hideSelection": true,
     "height": "385",
@@ -58,7 +58,6 @@
                   "style": {
                     "width": "=if([$File_x0020_Type] == '', '100px', '100%')",
                     "height": "=if([$File_x0020_Type] == '', '100px', '100%')",
-                    "oveflow": "=if([$File_x0020_Type] == '', 'auto', 'hidden')",
                     "text-align": "center",
                     "overflow": "hidden"
                   },
