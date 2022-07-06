@@ -1,7 +1,7 @@
-# Message Chat Format
+# Message Chat Bubbles
 
 ## Summary
-This sample formats your SharePoint list view to look like a message chat. If `Author` equals `@me`, the message will be displayed on the right.
+This sample formats your SharePoint list view to look like message chat bubbles! If the `Author` is the current user, the message will be displayed on the right.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -19,9 +19,9 @@ This sample formats your SharePoint list view to look like a message chat. If `A
 
 ## Sample
 
-Solution                 |Author(s)
--------------------------|---------------------------
-message-chat-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+message-chat-bubbles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -33,4 +33,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/message-chat-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/message-chat-bubbles" />

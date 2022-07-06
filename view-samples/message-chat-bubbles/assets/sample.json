@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-message-chat-bubbles",
+    "reponame": "message-chat-bubbles",
+    "source": "pnp",
+    "title": "Message Chat Bubbles",
+    "shortDescription": "This sample formats your SharePoint list view to look like message chat bubbles! If the Author is the current user, the message will be displayed on the right.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/message-chat-bubbles",
+    "longDescription": [
+      "This sample formats your SharePoint list view to look like message chat bubbles! If the Author is the current user, the message will be displayed on the right."
+    ],
+    "creationDateTime": "2020-11-19T00:00:00.000Z",
+    "updateDateTime": "2020-11-19T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-bgColor-neutralLighter, ms-fontWeight-bold, ms-fontSize-18, ms-fontSize-14"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/message-chat-bubbles/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
