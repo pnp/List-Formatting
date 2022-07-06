@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-promotedstate-demote-news",
     "reponame": "promotedstate-demote-news",
     "source": "pnp",
-    "title": "Demoting the news",
+    "title": "Demote News to Site Page",
     "shortDescription": "This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/promotedstate-demote-news",
     "longDescription": [
