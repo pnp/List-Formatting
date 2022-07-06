@@ -1,4 +1,4 @@
-# Count the number of clicks on a link
+# Count the Number of Clicks on a Link
 
 ## Summary
 This sample demonstrates counting the number of clicks on a link. By keeping track of the number of link clicks, you can figure out which links are popular with users.
