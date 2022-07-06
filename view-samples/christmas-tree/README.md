@@ -1,13 +1,13 @@
-# Tree format
+# Christmas Tree
 
 ## Summary
-This sample includes format to add a tree in 3 different stages "**alt**" as top, "**body**" as tree and "**wood**" as bottom. Format also allow to include icons in the tree. When clicked on icon the **Title** message appear as tooltip.
+This sample draws a tree across rows in 3 different stages "**alt**" as top, "**body**" as tree and "**wood**" as bottom. You can also include icons in the tree. The **Title** field will appear as a tooltip on the icons.
 
-![Tree](./assets/ChristmasTree.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
-## Full Christmas Tree 
+**Christmas Tree with Presents** 
 
-![Christmas Tree](./assets/TreePresentes.PNG)
+![Christmas Tree](./assets/screenshot-presents.PNG)
 
 ## View requirements
 - The format expect the following fields:
@@ -29,7 +29,7 @@ GiftSide | Single line of text - options "**Left**" or "**Right**"
 
 Solution|Author(s)
 --------|---------
-[tree-format.json](./christmas-tree-format.json) | [André Lage](https://twitter.com/aaclage)
+christmas-tree.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/tree-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/christmas-tree" />
