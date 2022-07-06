@@ -5,8 +5,9 @@ Short summary on functionality and details to help explain the format.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-## View requirements
-- Details about the types of columns being referenced along with any details about the view (sorting, gallery/list, board, etc.)
+## Form requirements
+- Details about any conditional expressions required for the form
+- Add details about any expected columns being referenced
 
 ## Sample
 
@@ -19,7 +20,8 @@ Short summary on functionality and details to help explain the format.
 
 Solution|Author(s)
 --------|---------
-json-file-name.json | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/YOURTWITTERHANDLE))
+json-file-name.json | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/YOURTWITTERHANDLE)), Company
+
 
 ## Version history
 
@@ -28,6 +30,7 @@ Version|Date|Comments
 1.0|December 26, 2081|Initial release
 
 ## Disclaimer
+
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
@@ -36,5 +39,5 @@ Version|Date|Comments
 Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
 
-> Update telemetry url below to place your sample name at the end then remove this line
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/readme-template" />
+> Update telemetry url below to replace "readme-template" with the internal name of your sample (same as the containing folder)
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/readme-template" />
