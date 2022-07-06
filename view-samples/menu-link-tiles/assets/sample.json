@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-menu-link-tiles",
     "reponame": "menu-link-tiles",
     "source": "pnp",
-    "title": "Menu Link tiles",
+    "title": "Menu Link Tiles",
     "shortDescription": "This sample includes a Metro tiles style menu with additional features such us configuration of tiles using size and color, option to favorite a tile using setValue, and also includes customCardProps to show a custom hover card with the description of a tile.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles",
     "longDescription": [
