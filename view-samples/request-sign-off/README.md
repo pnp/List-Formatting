@@ -1,12 +1,10 @@
-# Document Library Sample
+# Request Sign-Off
 
 ## Summary
 
-SharePoint is at its best when using lightweight structure and process to organize content and keep things moving forward.  There is a Power Automate allows you to quickly request a member of your team to sign off on a document in a Dcument Library. This sample defines a custom view to bring focus to the files that need to be approved. It also provides a better visual indication of where documents are in the process and which ones require action.
+This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process.
 
-### Desktop and tablet view
-
-![Document Library Sample](images/document-library.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -26,9 +24,9 @@ RequiresSignOff | Boolean
 SignOffDueDate | DateTime
 SignOffStatus | Text
 
-## Site Script
+### Provisioning
 
-This sample includes a site script ([update-documents.json](update-documents.json)) that creates the required site columns, the Document Library, and a new view named **All Documents - customized** in the Document Library that contains all the required columns.
+This sample includes a site script ([update-documents.json](./provisioning/update-documents.json)) that creates the required site columns, the Document Library, and a new view named **All Documents - customized** in the Document Library that contains all the required columns.
 
 See the [SharePoint site design and site script overview article](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview) to learn how to use the site script.
 
@@ -36,13 +34,13 @@ See the [SharePoint site design and site script overview article](https://docs.m
 
 ### Install the Flow
 
-1.	**Import** the Flow ([requestsignoff.zip](requestsignoff.zip)), which is basically the same Flow as the out of the box Request Sign Off Flow, but its ID is knowable and it can be modified.
+1.	**Import** the Flow ([requestsignoff.zip](./provisioning/requestsignoff.zip)), which is basically the same Flow as the out of the box Request Sign Off Flow, but its ID is knowable and it can be modified.
 2.	**Rename** the Flow.
 3.  Find all the places where the Flow refers to the original site and Document Library, and change it to the site / Document Library in your environment.
 
   > **Note:** Be sure to use the Document Library GUID, not the name.
 
-  ![flow-changes.jpg](images/flow-changes.jpg)
+  ![flow-changes.jpg](./assets/flow-changes.jpg)
 
   You will make these updates in 5 places:
 
@@ -57,7 +55,7 @@ See the [SharePoint site design and site script overview article](https://docs.m
 
 ### Update the Flow ID in the View Formatter JSON
 
-The View Formatter JSON ([card-format.json](card-format.json)) defines a button labeled Request Sign Off that executes a Flow.  To make it execute the Flow you just imported, follow these steps.
+The View Formatter JSON ([request-signoff.json](request-signoff.json)) defines a button labeled Request Sign Off that executes a Flow.  To make it execute the Flow you just imported, follow these steps.
 
 1. Replace the **actionParams id value** (shown below) with the ID of the Flow you imported and configured in the steps above.
 
@@ -73,12 +71,11 @@ The View Formatter JSON ([card-format.json](card-format.json)) defines a button 
                 },
 ````
 
-### Authors
+## Sample
 
-- Tyler Lui (Canviz) @TylerLu
-- Justin So (Canviz)
-- Todd Baginski (Microsoft MVP, Canviz) @TBag
-- Lincoln DeMaris (Microsoft) @ldemaris
+Solution|Author(s)
+--------|---------
+request-sign-off.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists)), [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Justin So, Tyler Lui
 
 ## Version history
 
@@ -95,4 +92,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/document-library" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/request-sign-off" />

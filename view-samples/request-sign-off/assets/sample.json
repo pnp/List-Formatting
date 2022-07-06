@@ -1,0 +1,90 @@
+[
+  {
+    "name": "pnp-list-formatting-request-sign-off",
+    "reponame": "request-sign-off",
+    "source": "pnp",
+    "title": "Request Sign-off",
+    "shortDescription": "This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off",
+    "longDescription": [
+      "This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process."
+    ],
+    "creationDateTime": "2018-10-09T00:00:00.000Z",
+    "updateDateTime": "2018-10-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Provisioning, Icons, Power Automate"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleString, toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, executeFlow, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter, ms-bgColor-yellow, ms-bgColor-redDark, ms-bgColor-green, ms-borderColor-neutralLight, ms-borderColor-redDark, ms-fontColor-neutralPrimary, ms-fontColor-redDark, ms-fontWeight-semibold, ms-fontWeight-bold, ms-fontSize-xl, ms-fontSize-l, ms-fontSize-s, sp-row-button"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/request-sign-off/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/request-sign-off/assets/document-library-mobile.jpg",
+        "alt": "screenshot mobile"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "ldemaris",
+        "pictureUrl": "https://github.com/ldemaris.png",
+        "name": "Lincoln DeMaris"
+      },
+      {
+        "gitHubAccount": "TBag",
+        "pictureUrl": "https://github.com/TBag.png",
+        "name": "Todd Baginski"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
