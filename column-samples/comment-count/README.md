@@ -1,4 +1,4 @@
-# Display number of Comments on current item
+# Comment Count
 
 ## Summary
 This sample adds a visual indicator to a list item, showing the number of comments present on it. This is achieved by using the built-in [$_CommentCount] reference, which returns the number of comments on the current item.
