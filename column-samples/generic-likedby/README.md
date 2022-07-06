@@ -1,4 +1,4 @@
-# Display users who have liked
+# Liked By Users
 
 ## Summary
 This sample demonstrates showing the users who have liked an item.

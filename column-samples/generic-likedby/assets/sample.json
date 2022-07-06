@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-likedby",
     "reponame": "generic-likedby",
     "source": "pnp",
-    "title": "Display users who have liked",
+    "title": "Liked By Users",
     "shortDescription": "This sample demonstrates showing the users who have liked an item.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-likedby",
     "longDescription": [
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
