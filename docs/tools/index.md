@@ -9,3 +9,5 @@ Most developers are tuned to seeing and writing HTML quicker than JSON. This too
 This tool doesnot recognize `expressions` , but you can write `expression strings` in place of any attribute value and it will be put as-is on the generated JSON.
 
 - **[HTML To Formatter](./html-formatter-generator/index.html)**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/tools/html-formatter-generator" />

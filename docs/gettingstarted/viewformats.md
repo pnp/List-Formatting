@@ -15,4 +15,4 @@ This will open the **Format view panel** where you can **paste** your format and
 !!! tip
     You can apply multiple view formats to a list by using different views. This can make for powerful displays of the same data.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/gettingstarted/viewformats" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/gettingstarted/viewformats" />

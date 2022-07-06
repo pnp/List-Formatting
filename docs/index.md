@@ -20,8 +20,9 @@ You can head directly to those folders and start looking around if you'd like. B
 - [By **Column Type**](./groupings/columntype.md)
 - [By **Operator**](./groupings/operator.md)
 - [By **Placeholder Token**](./groupings/token.md)
-- [By **Row Action**](./groupings/action.md)
+- [By **Action**](./groupings/action.md)
 - [By **Category**](./groupings/category.md)
+- [By **Class**](./groupings/classes/ms-bgColor.md)
 - [By **Author**](./groupings/author.md)
 ## Detailed Documentation
 
@@ -38,4 +39,4 @@ This is the perfect place to get involved in the SharePoint Community and become
 
 > Sharing is caring!
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/index" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/index" />
