@@ -1,4 +1,4 @@
-# Sticky Notes Board Format
+# Sticky Notes Board
 
 ## Summary
 This sample demonstrates how to display sticky notes in Board View. The color of the stickies can be changed from the palette icon, and there are 6 different colors available.
@@ -17,9 +17,9 @@ This sample demonstrates how to display sticky notes in Board View. The color of
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-sticky-notes-board-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+sticky-notes-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -30,4 +30,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/sticky-notes-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/sticky-notes-board" />
