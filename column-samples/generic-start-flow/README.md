@@ -1,4 +1,4 @@
-# Create a button to launch a Flow for the selected item
+# Launch a Flow for a Selected Item
 
 ## Summary
 You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow.
