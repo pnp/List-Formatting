@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-wave-header-footer",
     "reponame": "wave-header-footer",
     "source": "pnp",
-    "title": "Wave header and footer",
+    "title": "Wave Header and Footer",
     "shortDescription": "This sample demonstrates how to display waves in the header and footer of a form. Waves are displayed using SVG.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/wave-header-footer",
     "longDescription": [

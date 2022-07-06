@@ -1,4 +1,4 @@
-# Wave header and footer
+# Wave Header and Footer
 
 ## Summary
 This sample demonstrates how to display waves in the header and footer of a form. Waves are displayed using SVG.
