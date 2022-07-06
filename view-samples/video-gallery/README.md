@@ -1,9 +1,9 @@
-# Video library for SharePoint and the new Stream in SharePoint
+# Video Gallery
 
 ## Summary
 A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like.
 
-![screenshot of the sample](./assets/VideoLibrary.jpeg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -26,7 +26,7 @@ Tool          | Choice
 
 Solution|Author(s)
 --------|---------
-videoLibrary.json | Anand Ragav https://twitter.com/anandVragav 
+video-gallery.json | [Anand Ragav](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/videolibary" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/video-gallery" />
