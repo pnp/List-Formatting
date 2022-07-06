@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-socialpic",
     "reponame": "generic-socialpic",
     "source": "pnp",
-    "title": "Display Social Media Profile Pics Using Social Media Handles",
+    "title": "Social Media Profile Pics",
     "shortDescription": "Social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window..",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-socialpic",
     "longDescription": [

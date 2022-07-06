@@ -1,4 +1,4 @@
-# Display Social Media Profile Pics Using Social Media Handles
+# Social Media Profile Pics
 
 ## Summary
 
