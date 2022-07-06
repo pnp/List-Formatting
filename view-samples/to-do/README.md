@@ -1,9 +1,9 @@
-# Timeline Format
+# To-do List
 
 ## Summary
 This sample formats your SharePoint list view to look like Microsoft To Do.
 
-![screenshot of the sample](./assets/to-do-format.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -35,9 +35,9 @@ A resumed version of the articles is also available in video format
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-to-do-format.json   |[João Ferreira](https://twitter.com/joao12ferreira)
+Solution|Author(s)
+--------|---------
+to-do.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/joao12ferreira))
 
 
 
@@ -51,4 +51,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/to-do-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/to-do" />
