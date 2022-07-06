@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-text-local-image",
     "reponame": "text-local-image",
     "source": "pnp",
-    "title": "Demonstrates how to reference a local image",
+    "title": "Reference a Local Image",
     "shortDescription": "This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of \u0060@currentWeb\u0060 (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-local-image",
     "longDescription": [

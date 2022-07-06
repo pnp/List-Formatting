@@ -1,4 +1,4 @@
-# Demonstrates how to reference a local image
+# Reference a Local Image
 
 ## Summary
 This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view.
