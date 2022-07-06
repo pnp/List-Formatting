@@ -1,15 +1,15 @@
-# Multi choice link row format
+# Multi-Choice Links
 
 ## Summary
 
 Rendering multiple links with a list view format cannot be achieved by using a rich text column. This sample solves that problem (rendering multiple links) using a multi choice column.
 
-This sample is derived from the [birthday row format](../birthday-format). This sample shows how to format a list to show sessions associated with a speaker. It features the following:
+This sample is derived from the [birthdays](../birthdays) sample. This sample shows how to format a list to show sessions associated with a speaker. It features the following:
 - Responsive layout through flexbox.
 - Shows links to multiple sessions associated with a speaker (The sessions are stored as choices in a multi choice column).
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Multi choice link row format](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -45,7 +45,7 @@ We then extract `<the actual link>` using this formula:
 
 Solution|Author(s)
 --------|---------
-multi-choice-link-format | [Anoop Tatti](https://twitter.com/anooptells)
+multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
 
 ## Version history
 
@@ -58,4 +58,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/multi-choice-link-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/multi-choice-links" />
