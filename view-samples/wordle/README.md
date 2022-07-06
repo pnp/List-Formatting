@@ -28,9 +28,9 @@ This sample has the following points to note.
 
 ## Sample
 
-Solution                     |Author(s)
------------------------------|---------------------------
-wordle-game-tile-format.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+wordle.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/wordle-game-tile-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/wordle" />
