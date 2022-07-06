@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, toLocaleDateString, length, addDays, setValue, inlineEditField, addYears"
+        "value": "Date, toLocaleDateString, length, addDays, addYears"
       },
       {
         "key": "FORMATTING-ACTIONS",
