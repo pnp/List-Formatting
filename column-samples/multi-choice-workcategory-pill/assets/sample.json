@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-warningBackground, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-blue, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-blueBackground07, sp-field-borderBottomRegular"
+        "value": "sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-warningBackground, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-blue, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-blueBackground07, sp-field-borderBottomRegular, sp-field-borderBottomSolid"
       }
     ],
     "thumbnails": [
