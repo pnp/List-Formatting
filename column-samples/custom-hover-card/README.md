@@ -1,9 +1,7 @@
-# Custom hover card on Lists
+# Custom Hover Card (Column)
 
 ## Summary
-The following image shows a list with a custom hover added to a List:
-
-On hover - Metadata on the column "Status" is made available via column formatting
+A custom card is shown on hover of an item. The hover card shows additional details about an item's status.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
