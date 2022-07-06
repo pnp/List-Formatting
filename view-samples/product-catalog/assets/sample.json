@@ -23,32 +23,42 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Provisioning"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@window.innerWidth"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/credential-popup.png",
-        "alt": "credential-popup"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/Finish.png",
-        "alt": "Finish"
-      },
-      {
-        "type": "image",
-        "order": 102,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/page-review.png",
-        "alt": "page-review"
-      },
-      {
-        "type": "image",
-        "order": 103,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/security-warning.png",
-        "alt": "security-warning"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
