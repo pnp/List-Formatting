@@ -1,4 +1,4 @@
-# Demonstrates how to link to a local resource
+# Linking to a Local Resource
 
 ## Summary
 This sample provides multiple formats to illustrate the options available to link to local resources. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view. This format links to other lists, but this could just as easily be specific pages/files/etc. on a site.
