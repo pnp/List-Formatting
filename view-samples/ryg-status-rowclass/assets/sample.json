@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-ryg-status-rowclass",
+    "reponame": "ryg-status-rowclass",
+    "source": "pnp",
+    "title": "RYG Status",
+    "shortDescription": "A status column is evaluated to provide colors corresponding to status. This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/ryg-status-rowclass",
+    "longDescription": [
+      "A status column is evaluated to provide colors corresponding to status. This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions."
+    ],
+    "creationDateTime": "2018-09-09T00:00:00.000Z",
+    "updateDateTime": "2018-09-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-yellow, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-green, ms-fontColor-white"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/ryg-status-rowclass/assets/screenshot.png",
+        "alt": "ryg-status"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sohailmerchant",
+        "pictureUrl": "https://github.com/sohailmerchant.png",
+        "name": "S Merchant"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
