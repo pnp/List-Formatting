@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-countup-countdown",
     "reponame": "number-countup-countdown",
     "source": "pnp",
-    "title": "Display count-up and count-down buttons",
+    "title": "Display Count Up and Count Down Buttons",
     "shortDescription": "This sample demonstrates a button with a number increasing by one and a button with a number decreasing by one.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-countup-countdown",
     "longDescription": [

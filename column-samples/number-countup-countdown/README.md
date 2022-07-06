@@ -1,4 +1,4 @@
-# Display count-up and count-down buttons
+# Display Count Up and Count Down Buttons
 
 ## Summary
 This sample demonstrates a button with a number increasing by one and a button with a number decreasing by one. Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
