@@ -4,10 +4,10 @@
     "reponame": "resource-catalog",
     "source": "pnp",
     "title": "Resource Catalog Sample",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/resource-catalog",
+    "shortDescription": "SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/resource-catalog",
     "longDescription": [
-      ""
+      "SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures."
     ],
     "creationDateTime": "2018-10-09T00:00:00.000Z",
     "updateDateTime": "2018-10-09T00:00:00.000Z",
@@ -21,32 +21,56 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": ""
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "toLocaleDateString"
-      },
-      {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@currentWeb"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter, ms-borderColor-neutralLight, ms-fontWeight-semibold, ms-font-xl, ms-font-m, ms-fontSize-sPlus"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/resource-catalog/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
-        "gitHubAccount": "VesaJuvonen",
-        "pictureUrl": "https://github.com/VesaJuvonen.png",
-        "name": "Vesa Juvonen"
+        "gitHubAccount": "TBag",
+        "pictureUrl": "https://github.com/TBag.png",
+        "name": "Todd Baginski"
+      },
+      {
+        "gitHubAccount": "ldemaris",
+        "pictureUrl": "https://github.com/ldemaris.png",
+        "name": "Lincoln DeMaris"
       }
     ],
     "references": [

@@ -1,6 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "debugMode": false,
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
@@ -37,7 +36,6 @@
             "children": [
               {
                 "elmType": "div",
-                "style": {},
                 "children": [
                   {
                     "elmType": "div",
@@ -97,7 +95,6 @@
                         "children": [
                           {
                             "elmType": "span",
-                            "style": {},
                             "txtContent": "[$ResourceTechnology]"
                           }
                         ]
@@ -171,9 +168,6 @@
             "children": [
               {
                 "elmType": "span",
-                "attributes": {
-                  "class": ""
-                },
                 "txtContent": "Last updated "
               },
               {
@@ -190,9 +184,6 @@
             "children": [
               {
                 "elmType": "span",
-                "attributes": {
-                  "class": ""
-                },
                 "txtContent": "Status: "
               },
               {
@@ -209,9 +200,6 @@
             "children": [
               {
                 "elmType": "span",
-                "attributes": {
-                  "class": ""
-                },
                 "txtContent": "Public: "
               },
               {
