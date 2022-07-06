@@ -1,10 +1,13 @@
-# tabs format 
+# Tabs
 
 ## Summary
-This sample format allow to create tabs with associated content. This sample help users to display content in SharePoint page content using a more interactive and user friendly approach. Sample allow to include the header of Tab, icon or url to image, content to display when tab selected and link redirection for more information.
-Since is possible to create multiple tabs, using the view capabilties can filter each view to only display associated tab and then include in associated SharePoint page.
+This sample creates tabs with associated content. Users can then navigate between tabs. This sample is intended to display content within a SharePoint page (using the lists webpart) to provide a more interactive and user friendly approach.
 
-![tabs format](./assets/TabsFormatting.gif)
+You can include the tab header, icon (or URL to an image), content, and link redirection for more information. By using views, you can filter to only display specific list items to allow the list to power multiple tabs on different pages.
+
+![screenshot of the sample](./assets/screenshot.gif)
+
+> Note - the active tab is stored with the list item meaning that changes on the active tab position will affect ALL users.
 
 ## View requirements
 - The format expect the following fields:
@@ -44,7 +47,7 @@ Access to View edit option and access to "**Filter**" area, check "**Show items 
 
 Solution|Author(s)
 --------|---------
-tabs-format.json | [André Lage](https://twitter.com/aaclage)
+tabs.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -56,4 +59,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/tabs-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/tabs" />
