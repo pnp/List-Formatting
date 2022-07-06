@@ -1,4 +1,4 @@
-# Displays a customizable Google map image for a given location
+# Display a Google Maps Image for a Location
 
 ## Summary
 This template takes advantage of Google Maps' [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) & [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:

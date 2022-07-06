@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-generic-staticmap",
     "reponame": "generic-staticmap",
     "source": "pnp",
-    "title": "Displays a customizable Google map image for a given location",
-    "shortDescription": "This template takes advantage of Google Maps\u0027 [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) \u0026 [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:",
+    "title": "Display a Google Maps Image for a Location",
+    "shortDescription": "This template takes advantage of Google Maps' staticmap API which generates an image using a parameterized URL.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-staticmap",
     "longDescription": [
-      "This template takes advantage of Google Maps\u0027 [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) \u0026 [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:"
+      "This template takes advantage of Google Maps' staticmap API which generates an image using a parameterized URL."
     ],
     "creationDateTime": "2018-03-21T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
