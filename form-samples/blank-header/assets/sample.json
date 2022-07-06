@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-blank-header",
     "reponame": "blank-header",
     "source": "pnp",
-    "title": "blank-header",
+    "title": "Blank Header",
     "shortDescription": "By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/blank-header",
     "longDescription": [
