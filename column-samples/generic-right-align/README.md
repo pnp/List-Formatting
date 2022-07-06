@@ -1,4 +1,4 @@
-# Centered Content
+# Right-Aligned Content
 
 ## Summary
 This sample shows how to right-align your content, while preserving the number or date format set using the SharePoint / Lists UI.  Numbers and dates should typically be presented as right-aligned, for improved readability.
