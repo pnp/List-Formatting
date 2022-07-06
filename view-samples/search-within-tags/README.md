@@ -1,9 +1,9 @@
-# Search Tag format
+# Search Within Tag
 
 ## Summary
-This sample includes format to allow search word in field and allow to include tags in Choice field with option of editing "inlineEditField".
+This sample demonstrates using `inlineEditField` to enable searching for a word against tags (choice column) within a list item.
 
-![Search and Tag words](./assets/SearchWordTag.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -19,7 +19,7 @@ CustomTags | Choice ("Allow multiple selections" to yes and check "Can add value
 
 Solution|Author(s)
 --------|---------
-[search-tag-format.json](./search-tag-format.json) | [André Lage](https://twitter.com/aaclage)
+search-within-tags.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -31,4 +31,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/search-tag-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/search-within-tags" />
