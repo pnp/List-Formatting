@@ -3,7 +3,7 @@
       "name": "pnp-list-formatting-multi-choice-links",
       "reponame": "multi-choice-links",
       "source": "pnp",
-      "title": "Multi choice Links",
+      "title": "Multi-Choice Links",
       "shortDescription": "This sample shows how we can display multiple links in a single column using the multi-choice column.",
       "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-links",
       "longDescription": [
