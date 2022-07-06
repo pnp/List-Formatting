@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-currency-symbol-concatenation",
     "reponame": "currency-symbol-concatenation",
     "source": "pnp",
-    "title": "Concatenate Currency Symbol to Numeric Columns",
+    "title": "Concatenate Currency Symbol",
     "shortDescription": "This sample will allow the users to concatenate a currency symbol(\u00A3, $ ... etc.) to the existing data. This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a Project Register has been used.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/currency-symbol-concatenation",
     "longDescription": [

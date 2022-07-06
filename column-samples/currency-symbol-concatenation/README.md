@@ -1,8 +1,9 @@
-# Concatenate Currency Symbol to Numeric Columns
+# Concatenate Currency Symbol
 
 ## Summary
-Currency column is currently not supported, hence this sample will allow the users to concatenate a currency symbol(£, $ ... etc.) to the existing data.  This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used.
+Currency column is currently not supported*, hence this sample will allow the users to concatenate a currency symbol(£, $ ... etc.) to the existing data. This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a Project Register has been used.
 
+> \*this is no longer true, but this sample still provides an example of string concatenation that some will find helpful
 
 ### Project Budget Column with a Currency Symbol
 Project Register where ‘Project Budget’ column is compared with the 'Expenditure To Date' column and formated based on the condition with Red or Green color. Please note that both columns must be a number type for this to work.
