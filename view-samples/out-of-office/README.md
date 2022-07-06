@@ -1,14 +1,15 @@
-# Out of office row format
+# Out of Office
 
 ## Summary
-This is a sample derived from the [birthday row format](../birthday-format). It shows how to format a list to show upcoming employee time away from office. It features the following:
+This sample shows how to format a list to show upcoming employee time away from office. It features the following:
 - Responsive layout through flexbox
 - Conditionally showing a today icon if the out of office overlaps the current date
 - Conditionally changing the text which shows based on if the out of office start date is the current date
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![Out of Office Format Screenshot](./assets/outOfOfficeScreenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
+> This sample is derived from the [birthdays](../birthdays) sample.
 
 ## View requirements
 
@@ -27,7 +28,7 @@ This sample relies on having a View set up which filters to only show items wher
 
 Solution|Author(s)
 --------|---------
-out-of-office-format.json | [Tom Resing](https://twitter.com/resing)
+out-of-office.json | [Tom Resing](https://github.com/tomresing) ([@resing](https://twitter.com/resing))
 
 ## Version history
 
@@ -40,4 +41,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/out-of-office-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/out-of-office" />
