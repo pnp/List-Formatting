@@ -1,6 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "debugMode": false,
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
@@ -30,12 +29,11 @@
           {
             "elmType": "div",
             "style": {
-              "flex": " 1 0 300px"
+              "flex": "1 0 300px"
             },
             "children": [
               {
                 "elmType": "div",
-                "style": {},
                 "children": [
                   {
                     "elmType": "img",

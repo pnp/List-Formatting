@@ -1,4 +1,4 @@
-# Twitter Format
+# Twitter Timeline
 
 ## Summary
 This sample formats your SharePoint list view to look like Twitter. If you are using the Microsoft Flow Templates to track tweets in a SharePoint list, this is a great way to format your list so that it looks more like Twitter. For more info on Flow Templates that take Tweets and add them to a SharePoint list check out this template: https://us.flow.microsoft.com/en-us/galleries/public/templates/e78571e5c70e4806a18eeacba5a897c8/save-tweets-that-include-a-specific-hashtag-to-a-sharepoint-list/
@@ -10,7 +10,7 @@ This sample features the following:
 - The Person's name is a hyperlink to their Profile
 - Pulls in Twitter Profile Pictures
 
-![Twitter Format Screenshot](./assets/twitterFormat.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 Screen Capture of working Links
 
@@ -41,7 +41,7 @@ You need the `TweetFormattedDate` Calculated Column so that it only shows the cu
 
 Solution|Author(s)
 --------|---------
-twitter-format | [April Dunnam](https://twitter.com/aprildunnam)
+twitter-timeline.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunnam](https://twitter.com/aprildunnam))
 
 ## Version history
 
@@ -54,4 +54,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/twitter-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/twitter-timeline" />
