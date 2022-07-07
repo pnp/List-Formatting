@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-calculator",
     "reponame": "generic-calculator",
     "source": "pnp",
-    "title": "Calculator sample",
+    "title": "Calculator",
     "shortDescription": "This sample includes design capabilities and formulas to simulate a simple calculator.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-calculator",
     "longDescription": [
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Number, indexOf, length, substring, lastIndexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeLight--hover, ms-bgColor-themeLighter, ms-bgColor-sharedOrange20--hover, ms-bgColor-sharedOrange10, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontWeight-semibold, ms-fontSize-16, ms-fontSize-14"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-calculator/assets/Calculator-Format.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-calculator/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],
@@ -37,7 +65,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "André Lage"
+        "name": "Andrï¿½ Lage"
       }
     ],
     "references": [
