@@ -10,11 +10,11 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-Solution                         |Author(s)
----------------------------------|------------------------------------------------
-number-gradation-red-green.json  |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-gradation-green-blue.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-gradation-red-blue.json   |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+number-gradation.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-gradation-green-blue.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-gradation-red-blue.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
