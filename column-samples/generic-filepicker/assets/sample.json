@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formattinggeneric-filepicker-format",
-    "reponame": "generic-filepicker-format",
+    "name": "pnp-list-formatting-generic-filepicker",
+    "reponame": "generic-filepicker",
     "source": "pnp",
     "title": "File Picker",
-    "shortDescription": "This sample demonstrates how to copy file link from Library and display in column.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-filepicker-format",
+    "shortDescription": "This sample demonstrates how to prompt users to copy a file link from a specific library and displays it in the column.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-filepicker",
     "longDescription": [
-      "This sample demonstrates how to copy file link from Library and display in column."
+      "This sample demonstrates how to prompt users to copy a file link from a specific library and displays it in the column."
     ],
     "creationDateTime": "2022-05-27T00:00:00.000Z",
     "updateDateTime": "2022-05-27T00:00:00.000Z",
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "length"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "inlineEditField"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontSize-20"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-file-preview/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-filepicker/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],
@@ -37,7 +65,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "Andr� Lage"
+        "name": "André Lage"
       }
     ],
     "references": [

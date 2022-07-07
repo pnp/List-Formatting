@@ -1,9 +1,9 @@
-# File Picker format
+# File Picker
 
 ## Summary
-This sample demonstrates how to copy file link from Library and display in column.
+This sample demonstrates how to prompt users to copy a file link from a specific library and displays it in the column.
 
-![File Picker format](./assets/generic-filepicker-format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 
 ## View requirements
@@ -13,7 +13,7 @@ This sample demonstrates how to copy file link from Library and display in colum
 
 Solution|Author(s)
 --------|---------
-generic-filepicker-format.json | [André Lage](https://twitter.com/aaclage)
+generic-filepicker.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 - Replace `[replaceUrlPathtoLibrary]` with path to SharePoint Library, sample: '/SiteAssets/'
 
@@ -28,4 +28,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-filepicker-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-filepicker" />

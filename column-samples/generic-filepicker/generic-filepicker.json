@@ -35,7 +35,7 @@
                 "target": "blank",
                 "title": "Select image",
                 "iconName": "ImageSearch",
-                "class": "ms-fontSize-20 ms-fontColor-themePrimary "
+                "class": "ms-fontSize-20 ms-fontColor-themePrimary"
               }
             },
             {
