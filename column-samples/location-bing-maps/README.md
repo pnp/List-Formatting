@@ -1,9 +1,9 @@
-# Bing Maps format
+# Location Bing Maps
 
 ## Summary
-This sample demonstrates how to column `Location` to display Bing info and Map in column.
+This sample demonstrates how to use a Location column to display details and a Map from Bing.
 
-![Bing Maps format](./assets/generic-BingMaps-format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - This format can be applied to any `Location` Column.
@@ -12,7 +12,7 @@ This sample demonstrates how to column `Location` to display Bing info and Map i
 
 Solution|Author(s)
 --------|---------
-generic-bingmaps-format.json | [Andr� Lage](https://twitter.com/aaclage)
+location-bing-maps.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -25,4 +25,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-bingmaps-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/location-bing-maps" />

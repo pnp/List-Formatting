@@ -25,7 +25,7 @@
                 "min-width": "100px"
               },
               "attributes": {
-                "class": "ms-fontSize-18 ms-fontColor-themePrimary "
+                "class": "ms-fontSize-18 ms-fontColor-themePrimary"
               },
               "inlineEditField": "@currentField",
               "txtContent": "@currentField.DisplayName"
@@ -40,7 +40,7 @@
               },
               "attributes": {
                 "iconName": "OpenInNewWindow",
-                "class": "ms-fontSize-18 ms-fontColor-themePrimary "
+                "class": "ms-fontSize-18 ms-fontColor-themePrimary"
               },
               "customCardProps": {
                 "openOnEvent": "click",
