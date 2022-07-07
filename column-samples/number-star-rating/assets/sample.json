@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-star-rating",
     "reponame": "number-star-rating",
     "source": "pnp",
-    "title": "Display Star Rating",
+    "title": "Star Rating",
     "shortDescription": "This sample demonstrates changing the value of a number column to a star rating.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-star-rating",
     "longDescription": [
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralTertiaryAlt, ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-star-rating/assets/screenshot_star.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-star-rating/assets/screenshot.png",
         "alt": "screenshot"
       },
       {

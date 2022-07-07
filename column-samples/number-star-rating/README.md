@@ -1,4 +1,4 @@
-# Display Star Rating
+# Star Rating
 
 ## Summary
 This sample demonstrates changing the value of a number column to a star rating.
@@ -6,7 +6,7 @@ This sample demonstrates changing the value of a number column to a star rating.
 - `number-star-rating-theme-color.json` uses the theme color of the site as the color of the star.
 - `number-star-rating-custom-color.json` uses the HTML color code as the the color of the star, and in the sample, `#FFB951` is set.
 
-![screenshot of the star sample](./assets/screenshot_star.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 You can also change the `★` set in `txtContent` to `♥` or `♡` to make it a heart rating.
 
@@ -17,10 +17,10 @@ This format can be applied to a Number column (the format expects values from 0-
 
 ## Sample
 
-Solution                             |Author(s)
--------------------------------------|---------------------------
-number-star-rating-theme-color.json  |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-star-rating-custom-color.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+number-star-rating.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-star-rating-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
