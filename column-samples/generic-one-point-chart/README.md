@@ -3,8 +3,7 @@
 ## Summary
 This sample demonstrates making one point chart with support of 2 numeric fields (x,y) with dialog description.
 
-![One Point Chart](./assets/Line-Chart-formatting.gif)
-
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 
@@ -19,7 +18,7 @@ The format expect the following fields:
 
 Solution|Author(s)
 --------|---------
-generic-one-point-chart.json | [Andr� Lage](https://twitter.com/aaclage)
+generic-one-point-chart.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -34,4 +33,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-onepointchart-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-one-point-chart" />
