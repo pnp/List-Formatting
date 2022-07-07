@@ -6,7 +6,7 @@ This sample displays a formatted card in a board view that enables tagging, upda
 ![screenshot of the sample](./assets/screenshot.gif)
 
 ### Task Cards
-![Board tag format](./assets/Card-tasks.PNG)
+![Board tag format](./assets/screenshot-card-tasks.png)
 
 ## View requirements
 - The format expects the following fields:
@@ -44,10 +44,8 @@ Modified by | Person - Include field in View
 Solution|Author(s)
 --------|---------
 board-tags.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-
-board-tag-format.json | [André Lage](https://twitter.com/aaclage)
-board-tag-box-format.json | [André Lage](https://twitter.com/aaclage)
-card-format.json | [André Lage](https://twitter.com/aaclage)
+board-tags-boxes.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+board-tags-cards.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 

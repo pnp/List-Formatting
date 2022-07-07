@@ -4,10 +4,10 @@
     "reponame": "board-tags",
     "source": "pnp",
     "title": "Board Tags",
-    "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card.",
+    "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags",
     "longDescription": [
-      "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card."
+      "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card."
     ],
     "creationDateTime": "2022-03-05T00:00:00.000Z",
     "updateDateTime": "2022-03-05T00:00:00.000Z",
@@ -34,23 +34,23 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@now"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toString, Date, loopIndex, indexOf, length, substring, getDate, getMonth, getYear, lastIndexOf, getUserImage"
+        "value": "toString, Number, Date, loopIndex, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear, lastIndexOf, getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "setValue, share, delete, editProps"
+        "value": "defaultClick, setValue, share, delete, editProps"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach, inlineEditField, columnFormatterReference, defaultHoverField, customCardProps, directionalHint, hideSelection"
+        "value": "forEach, inlineEditField, columnFormatterReference, defaultHoverField, customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themePrimary, ms-bgColor-neutralLight, ms-bgColor-white, ms-fontColor-themePrimary, ms-fontColor-themeTertiary--hover, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontColor-gray100, ms-fontWeight-bold, ms-fontSize-20, ms-fontSize-16, ms-fontSize-10, sp-card-personCallout, sp-card-container, sp-card-keyboard-focusable, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userTitle, sp-card-userCustomCard, sp-card-container-noPadding"
+        "value": "ms-bgColor-themePrimary, ms-bgColor-neutralLight, ms-bgColor-neutralLighter--hover, ms-bgColor-white, ms-fontColor-themePrimary, ms-fontColor-themeTertiary--hover, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontColor-gray100, ms-fontWeight-bold, ms-fontSize-20, ms-fontSize-16, ms-fontSize-12, ms-fontSize-10, sp-css-backgroundColor-neutralLighterAlt, sp-card-personCallout, sp-card-container, sp-card-keyboard-focusable, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userTitle, sp-card-userCustomCard, sp-card-container-noPadding, sp-field-italic"
       }
     ],
     "thumbnails": [
@@ -59,6 +59,12 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/board-tags/assets/screenshot.gif",
         "alt": "Timeline in Board View"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/board-tags/assets/screenshot-card-tasks.png",
+        "alt": "Card Tasks"
       }
     ],
     "authors": [

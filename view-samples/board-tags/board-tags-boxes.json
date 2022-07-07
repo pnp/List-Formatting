@@ -55,7 +55,7 @@
                             },
                             "attributes": {
                               "iconName": "=if([$Category] == 'Completed ✔️', 'accept', if([$Category] == 'Cancel', 'cancel', if([$Category] == 'Pending','HourGlass',if([$Category] == 'Started','InsertSignatureLine','More'))))",
-                              "class": " ms-fontColor-themePrimary ms-bgColor-neutralLighter--hover"
+                              "class": "ms-fontColor-themePrimary ms-bgColor-neutralLighter--hover"
                             },
                             "customCardProps": {
                               "openOnEvent": "click",
@@ -504,7 +504,7 @@
                                   "padding": "5px"
                                 },
                                 "attributes": {
-                                  "class": "sp-field-italic "
+                                  "class": "sp-field-italic"
                                 },
                                 "inlineEditField": "[$Assigned]",
                                 "children": [
@@ -632,7 +632,7 @@
                                     "attributes": {
                                       "title": "[$Tag]",
                                       "iconName": "Tag",
-                                      "class": "ms-fontColor-themePrimary "
+                                      "class": "ms-fontColor-themePrimary"
                                     },
                                     "inlineEditField": "[$Tag]",
                                     "txtContent": "=length([$Tag])"
@@ -649,7 +649,7 @@
                                     },
                                     "attributes": {
                                       "title": "[$Tag]",
-                                      "class": "sp-field-italic "
+                                      "class": "sp-field-italic"
                                     },
                                     "txtContent": "[$Tag]"
                                   }
@@ -1009,7 +1009,7 @@
                                   "padding": "5px"
                                 },
                                 "attributes": {
-                                  "class": "sp-field-italic "
+                                  "class": "sp-field-italic"
                                 },
                                 "inlineEditField": "[$Assigned]",
                                 "children": [
@@ -1137,7 +1137,7 @@
                                     "attributes": {
                                       "title": "[$Tag]",
                                       "iconName": "Tag",
-                                      "class": "ms-fontColor-themePrimary "
+                                      "class": "ms-fontColor-themePrimary"
                                     },
                                     "inlineEditField": "[$Tag]",
                                     "txtContent": "=length([$Tag])"
@@ -1154,7 +1154,7 @@
                                     },
                                     "attributes": {
                                       "title": "[$Tag]",
-                                      "class": "sp-field-italic "
+                                      "class": "sp-field-italic"
                                     },
                                     "txtContent": "[$Tag]"
                                   }
@@ -1589,7 +1589,7 @@
                         "attributes": {
                           "class": "sp-css-backgroundColor-neutralLighterAlt--hover"
                         },
-                        "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 75, substring([$Description], 0, 75)+'...',[$Description]) ",
+                        "txtContent": "=if(lastIndexOf([$Description]+'.','.') > 75, substring([$Description], 0, 75)+'...',[$Description])",
                         "customCardProps": {
                           "openOnEvent": "hover",
                           "directionalHint": "bottomCenter",
@@ -1626,9 +1626,6 @@
                               "float": "left"
                             },
                             "inlineEditField": "[$EndDate]",
-                            "attributes": {
-                              "class": ""
-                            },
                             "children": [
                               {
                                 "elmType": "div",
