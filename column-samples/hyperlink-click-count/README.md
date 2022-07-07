@@ -1,4 +1,4 @@
-# Count the number of clicks on a link
+# Count the Number of Clicks on a Link
 
 ## Summary
 This sample demonstrates counting the number of clicks on a link. By keeping track of the number of link clicks, you can figure out which links are popular with users.
@@ -14,9 +14,9 @@ This sample demonstrates counting the number of clicks on a link. By keeping tra
 
 ## Sample
 
-Solution                   |Author(s)
----------------------------|---------------------------
-hyperlink-click-count.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+hyperlink-click-count.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

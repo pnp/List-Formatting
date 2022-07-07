@@ -14,7 +14,7 @@ This sample displays a traffic light style (Red-Yellow-Green) status indicator b
 
 Solution|Author(s)
 --------|---------
-text-ryg-status-indicator.json | Travis Lingenfelder
+text-ryg-status-indicator.json | [Travis Lingenfelder](https://github.com/Travis-Constellation)
 
 ## Version history
 
@@ -35,4 +35,4 @@ For more information on using this custom formatting see the article [SharePoint
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-ryg-status-indicator" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-ryg-status-indicator" />

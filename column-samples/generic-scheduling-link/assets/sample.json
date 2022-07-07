@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-scheduling-link",
     "reponame": "generic-scheduling-link",
     "source": "pnp",
-    "title": "Linking to the scheduling dialog in Microsoft Teams and Microsoft Outlook",
+    "title": "Scheduling Dialog Links to MS Teams and Outlook",
     "shortDescription": "This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-scheduling-link",
     "longDescription": [
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Microsoft Teams, Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Number, Date, toLocaleTimeString, indexOf, substring, getDate, getMonth, getYear, padStart"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontSize-xxl, ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [

@@ -3,11 +3,11 @@
       "name": "pnp-list-formatting-number-decimal-binary",
       "reponame": "number-decimal-binary",
       "source": "pnp",
-      "title": "Decimal to Binary sample",
-      "shortDescription": "This sample provide decimal converter to binary using out of the List formatting math functions.",
+      "title": "Decimal to Binary Conversion",
+      "shortDescription": "This sample provides decimal conversion to binary using standard List formatting math functions.",
       "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-decimal-binary",
       "longDescription": [
-        "This sample provide decimal converter to binary using out of the List formatting math functions."
+        "This sample provides decimal conversion to binary using standard List formatting math functions."
       ],
       "creationDateTime": "2022-03-04T00:00:00.000Z",
       "updateDateTime": "2022-03-04T00:00:00.000Z",
@@ -23,13 +23,41 @@
         {
           "key": "SHAREPOINT-COMPATIBILITY",
           "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Inline Editing"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": "Number"
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "Number, floor"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "inlineEditField"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-bgColor-themeLighter, ms-fontColor-themePrimary, ms-fontWeight-bold, ms-fontSize-18, sp-field-borderAllSolid"
         }
       ],
       "thumbnails": [
         {
           "type": "image",
           "order": 100,
-          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-decimal-binary/assets/Calculator-Format.gif",
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-decimal-binary/assets/screenshot.gif",
           "alt": "screenshot"
         }
       ],

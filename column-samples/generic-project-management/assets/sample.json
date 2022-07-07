@@ -4,10 +4,10 @@
     "reponame": "generic-project-management",
     "source": "pnp",
     "title": "Project Indicator Formats",
-    "shortDescription": "Project Indicator Formats",
+    "shortDescription": "Three related formats for use in project management.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-project-management",
     "longDescription": [
-      "Project Indicator Formats"
+      "Three related formats for use in project management."
     ],
     "creationDateTime": "2017-11-10T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-white, ms-bgColor-yellow, ms-bgColor-orange, ms-bgColor-orangeLight, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-green, sp-field-trending--up, sp-field-trending--down"
       }
     ],
     "thumbnails": [

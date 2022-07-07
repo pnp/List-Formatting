@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-generic-start-flow",
     "reponame": "generic-start-flow",
     "source": "pnp",
-    "title": "Create a button to launch a Flow for the selected item",
+    "title": "Launch a Flow for a Selected Item",
     "shortDescription": "You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-start-flow",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-start-flow",
     "longDescription": [
       "You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow."
     ],
@@ -21,20 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Power Automate"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-ROW-ACTION",
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
         "value": "executeFlow"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-FEATURES",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDark, ms-fontColor-themeDarker, ms-fontColor-themeDarker--hover"
       }
     ],
     "thumbnails": [

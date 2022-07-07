@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-date-range-rag",
     "reponame": "date-range-rag",
     "source": "pnp",
-    "title": "Creating Red-Amber-Green (RAG) bars based on date ranges",
+    "title": "Red-Amber-Green (RAG) Bars Based on Date Ranges",
     "shortDescription": "This example creates colored data bars on the current field based on \u0060DueDate\u0060 and \u0060StartDate\u0060 fields compared to the current date/time.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/date-range-rag",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/date-range-rag",
     "longDescription": [
       "This example creates colored data bars on the current field based on \u0060DueDate\u0060 and \u0060StartDate\u0060 fields compared to the current date/time."
     ],
@@ -21,38 +21,50 @@
         "value": "Column"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "Date/Time"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "Number"
-      },
-      {
-        "key": "LIST-PLACEHOLDER-TOKEN",
-        "value": "@now"
-      },
-      {
-        "key": "LIST-CATEGORY",
+        "key": "SAMPLE-CATEGORIES",
         "value": "Severity"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Date"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, Date, floor"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralSecondary, sp-field-severity--good, sp-field-severity--warning, sp-field-severity--severeWarning, ms-fontColor-neutralSecondary"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-range-rag/assets/screenshot-daysleft.png",
-        "alt": "screenshot-daysleft"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-range-rag/assets/screenshot.png",
+        "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-range-rag/assets/screenshot.png",
-        "alt": "screenshot"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-range-rag/assets/screenshot-daysleft.png",
+        "alt": "screenshot-daysleft"
       }
     ],
     "authors": [

@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-currentuser-liked-rowclass",
     "reponame": "currentuser-liked-rowclass",
     "source": "pnp",
-    "title": "Currentuser Liked Row Class",
+    "title": "Current User Liked Row Class",
     "shortDescription": "This sample demonstrates how to change the background color of a row that has been liked by the current user.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/currentuser-liked-rowclass",
     "longDescription": [
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter"
       }
     ],
     "thumbnails": [

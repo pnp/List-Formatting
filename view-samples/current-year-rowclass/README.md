@@ -3,7 +3,7 @@
 ## Summary
 Demonstrates applying a class to rows where a value equals the current year. Can easily be updated to compare other portions of the date such as the month, hour, minute etc. by using the other date-part operators.
 
-![Screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -15,7 +15,7 @@ Demonstrates applying a class to rows where a value equals the current year. Can
 
 Solution|Author(s)
 --------|---------
-current-year-rowclass | [Chris Kent](https://twitter.com/thechriskent)
+current-year-rowclass.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -28,4 +28,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/current-year-rowclass" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/current-year-rowclass" />

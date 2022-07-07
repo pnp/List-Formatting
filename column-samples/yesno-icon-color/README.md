@@ -10,9 +10,9 @@ This format can be applied to a Yes/No column.
 
 ## Sample
 
-Solution              |Author(s)
-----------------------|---------------------------
-yesno-icon-color.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+yesno-icon-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

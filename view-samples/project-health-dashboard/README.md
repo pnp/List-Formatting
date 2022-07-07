@@ -3,7 +3,7 @@
 ## Summary
 This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project.
 
-![screenshot of format](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### Hover Display
 
@@ -26,7 +26,7 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-project-health-dashboard.json | [Andres Ibarra](https://twitter.com/riftsan)
+project-health-dashboard.json | [Andres Ibarra](https://github.com/Riftsan) ([@riftsan](https://twitter.com/riftsan))
 
 ## Version history
 
@@ -43,4 +43,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/project-health-dashboard" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/project-health-dashboard" />

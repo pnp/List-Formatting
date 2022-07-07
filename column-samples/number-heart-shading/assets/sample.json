@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-heart-shading",
     "reponame": "number-heart-shading",
     "source": "pnp",
-    "title": "Heart shading",
+    "title": "Heart Shading",
     "shortDescription": "This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-heart-shading",
     "longDescription": [
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [

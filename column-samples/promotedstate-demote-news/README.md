@@ -1,4 +1,4 @@
-# Demoting the news
+# Demote News to Site Page
 
 ## Summary
 In the Site Pages library, there is a Promoted State column. Depending on the value stored in this column, you can identify whether it is a site page or a news page. The correspondence between the value and page type is as follows.
@@ -35,9 +35,9 @@ This format can be applied to a Promoted State column.
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-promotedstate-demote-news.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+promotedstate-demote-news.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

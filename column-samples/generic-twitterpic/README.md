@@ -1,4 +1,4 @@
-# Display Twitter profile pics using Twitter handles
+# Twitter Profile Pics
 
 ## Summary
 
@@ -37,7 +37,7 @@ The field values are case insensitve and should be just the user's twitter handl
 
 Solution|Author(s)
 --------|---------
-generic-twitterpic.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-twitterpic.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -59,4 +59,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-twitterpic" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-twitterpic" />

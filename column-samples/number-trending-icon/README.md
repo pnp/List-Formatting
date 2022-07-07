@@ -37,8 +37,8 @@ The difference values are in a `<span>`, separate from the `After` `<span>`, all
 
 Solution|Author(s)
 --------|---------
-number-trending-icon.json | SharePoint Team
-number-trending-icon-with-difference.json | [David Warner II](https://twitter.com/davidwarnerii)
+number-trending-icon.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
+number-trending-icon-with-difference.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
 
 ## Version history
 
@@ -63,4 +63,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/number-trending-icon" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-trending-icon" />

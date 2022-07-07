@@ -15,9 +15,9 @@ This sample demonstrates a honeycomb structure of links. The hexagons are displa
 
 ## Sample
 
-Solution            |Author(s)
---------------------|---------------------------
-honeycomb-link.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+honeycomb-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -32,4 +32,4 @@ Version |Date         |Comments
 ## Additional notes
 - [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/honeycomb-link" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/honeycomb-link" />

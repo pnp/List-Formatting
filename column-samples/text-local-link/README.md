@@ -1,4 +1,4 @@
-# Demonstrates how to link to a local resource
+# Linking to a Local Resource
 
 ## Summary
 This sample provides multiple formats to illustrate the options available to link to local resources. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view. This format links to other lists, but this could just as easily be specific pages/files/etc. on a site.
@@ -32,9 +32,9 @@ This format illustrates providing a relative link that assumes the format knows 
 
 Solution|Author(s)
 --------|---------
-text-hardcoded-link.json | [Chris Kent](https://twitter.com/thechriskent)
-text-relative-link.json | [Chris Kent](https://twitter.com/thechriskent)
-text-local-link.json | [Chris Kent](https://twitter.com/thechriskent)
+text-local-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-hardcoded-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-relative-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -52,4 +52,4 @@ Version|Date|Comments
 
 The link's `href` attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the resources will be referenced from the correct location within the site. However, `@currentWeb` is not available in SharePoint 2019, so alternative approaches are included.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-local-link" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-local-link" />

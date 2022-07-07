@@ -663,7 +663,7 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "txtContent": "Built ",
+                                "txtContent": "Built",
                                 "style": {
                                   "padding-bottom": "2px",
                                   "padding-right": "4px"
@@ -768,7 +768,7 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "txtContent": "Wrapped ",
+                                "txtContent": "Wrapped",
                                 "style": {
                                   "padding-bottom": "2px",
                                   "padding-right": "4px"

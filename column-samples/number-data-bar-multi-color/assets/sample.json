@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-number-data-bar-multi-color",
+    "reponame": "number-data-bar-multi-color",
+    "source": "pnp",
+    "title": "Multi-Colored Databars",
+    "shortDescription": "This column formatting sample demonstrates how to show the number column as data bars with multiple colors.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-data-bar-multi-color",
+    "longDescription": [
+      "This column formatting sample demonstrates how to show the number column as data bars with multiple colors."
+    ],
+    "creationDateTime": "2017-11-02T00:00:00.000Z",
+    "updateDateTime": "2019-05-17T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-data-bar-multi-color/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "ganesh-sanap",
+        "pictureUrl": "https://github.com/ganesh-sanap.png",
+        "name": "Ganesh Sanap"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

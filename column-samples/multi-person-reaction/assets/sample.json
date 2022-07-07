@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Inline Editing, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Person"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, length, getUserImage, appendTo, removeFrom"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeTertiary--hover"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-reaction/assets/screen_capture.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-reaction/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],

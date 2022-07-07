@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@lcid"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "length"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-orange, ms-fontColor-orangeLight, ms-fontColor-red, ms-fontColor-redDark"
       }
     ],
     "thumbnails": [

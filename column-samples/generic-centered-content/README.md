@@ -12,7 +12,7 @@ This is a basic sample that demonstrates making your content be both vertically 
 
 Solution|Author(s)
 --------|---------
-generic-centered-content.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-centered-content.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -28,4 +28,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-centered-content" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-centered-content" />

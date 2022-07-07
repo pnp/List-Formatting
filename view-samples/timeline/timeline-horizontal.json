@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "absolute",
+      "left": "= @rowIndex * 300 + 'px'",
+      "display": "flex",
+      "flex-direction": "column",
+      "width": "300px",
+      "height": "200px",
+      "float": "left"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "style": {
+          "display": "flex",
+          "width": "90%",
+          "height": "60%",
+          "align-items": "center",
+          "justify-content": "center",
+          "font-size": "20px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "width": "100%",
+          "height": "40%",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "border-width": "2px",
+              "border-style": "solid",
+              "height": "2px",
+              "width": "135px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralSecondary ms-borderColor-neutralSecondary"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "height": "30px",
+              "width": "30px",
+              "border-radius": "50%",
+              "cursor": "pointer",
+              "outline": "none"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            },
+            "customCardProps": {
+              "directionalHint": "bottomCenter",
+              "isBeakVisible": true,
+              "openOnEvent": "click",
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "height": "200px",
+                  "width": "450px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "height": "20%",
+                      "width": "100%",
+                      "color": "white",
+                      "font-size": "20px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "padding-left": "40px"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-themePrimary"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Description]",
+                    "style": {
+                      "height": "80%",
+                      "width": "90%",
+                      "padding-top": "10px"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "border-width": "2px",
+              "border-style": "solid",
+              "height": "2px",
+              "width": "135px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralSecondary ms-borderColor-neutralSecondary"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

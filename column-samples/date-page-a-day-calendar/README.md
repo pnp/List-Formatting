@@ -10,9 +10,9 @@ This format can be applied to a Date column
 
 ## Sample
 
-Solution                      |Author(s)
-------------------------------|---------------------------
-date-page-a-day-calendar.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+date-page-a-day-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -27,4 +27,4 @@ Version |Date             |Comments
 ## Additional notes
 - [Zeller's congruence](https://en.wikipedia.org/wiki/Zeller%27s_congruence)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/date-page-a-day-calendar" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-page-a-day-calendar" />

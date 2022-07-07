@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-background-color-shading",
     "reponame": "number-background-color-shading",
     "source": "pnp",
-    "title": "Background color shading by number column value",
+    "title": "Shaded Backgrounds",
     "shortDescription": "This sample demonstrates how to change the shade of the background color according to the value of the number column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-background-color-shading",
     "longDescription": [
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeTertiary"
       }
     ],
     "thumbnails": [

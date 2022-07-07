@@ -4,7 +4,7 @@
 
 This sample shows a gauge in the list footer (when aggregates are enabled).
 
-![Screenshot of Gauge view](./assets/screenshot.png)
+![Screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -23,7 +23,7 @@ The format assumes a value between 0 and 10 (and is converting to a percentage).
 
 Solution|Author(s)
 --------|---------
-heat-map.json | [Chris Kent](https://twitter.com/theChrisKent)
+gauge-aggregate-footer.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -40,4 +40,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/gauge-aggregate-footer" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/gauge-aggregate-footer" />

@@ -1,134 +1,505 @@
-# Samples by Author
+#Samples by Author
 
-Samples are listed by their _original_ creator. Later updates by additional contributors are not listed here.
+Samples are grouped by their _original_ creator. Later updates by additional contributors are not listed here. Expand to see the related samples.
 
-## Joe Ayre
-- [date-range-rag/days-left](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-range-rag)
+:fontawesome-solid-angles-down:{.expand-all title="Expand All"}
+:fontawesome-solid-angles-up:{.collapse-all title="Collapse All"}
 
-## Yannick Borghmans
-- [generic-start-flow](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-start-flow)
-
-## Paul Bullock
-- [number-using-modulo-publish](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-using-modulo-publish)
-
-## Ravi Chandra
-- [document-library-thumbnails](https://github.com/pnp/List-Formatting/tree/master/view-samples/document-library-thumbnails)
-
-## Lincoln DeMaris
-- [date-conditional-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/date-conditional-format)
-- [multi-line-view](https://github.com/pnp/List-Formatting/tree/master/view-samples/multi-line-view)
-- [text-conditional-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/text-conditional-format)
-
-## April Dunham
-- [birthday-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/birthday-format)
-- [planner-inspired-task-card](https://github.com/pnp/List-Formatting/tree/master/view-samples/planner-inspired-task-card)
-- [text-bing-map](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-bing-map)
-- [twitter-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/twitter-format)
-
-## Ejaz Hussain
-- [profile-card](https://github.com/pnp/List-Formatting/tree/master/view-samples/profile-card)
-
-## Chris Kent
-- [alternating-rowclass](https://github.com/pnp/List-Formatting/tree/master/view-samples/alternating-rowclass)
-- [bulletin-board-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/bulletin-board-format)
-- [contact-card-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/contact-card-format)
-- [contenttype-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/contenttype-format)
-- [file-thumbnail](https://github.com/pnp/List-Formatting/tree/master/column-samples/file-thumbnail)
-- [generic-centered-content](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-centered-content)
-- [generic-rowactions/defaultClick](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
-- [generic-rowactions/delete](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
-- [generic-rowactions/editProps](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
-- [generic-rowactions/executeFlow](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
-- [generic-rowactions/share](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
-- [generic-start-flow-conditionally](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-start-flow-conditionally)
-- [generic-staticmap](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-staticmap)
-- [generic-svgicon-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-svgicon-format)
-- [generic-twitterpic](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-twitterpic)
-- [location-address](https://github.com/pnp/List-Formatting/tree/master/column-samples/location-address)
-- [multi-choice-foreach](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-choice-foreach)
-- [multi-choice-icons](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-choice-icons)
-- [multi-person-currentuser-rowclass](https://github.com/pnp/List-Formatting/tree/master/view-samples/multi-person-currentuser-rowclass)
-- [multi-person-currentuser](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-currentuser)
-- [multi-person-facepile](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-facepile)
-- [number-data-bar/percent-data-bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-data-bar)
-- [person-currentuser-rowclass](https://github.com/pnp/List-Formatting/tree/master/view-samples/person-currentuser-rowclass)
-- [person-currentuser](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-currentuser)
-- [person-roundimage-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-roundimage-format)
-- [picture-roundimage-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/picture-roundimage-format)
-- [text-contains](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-contains)
-- [text-local-image](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-image)
-- [text-local-image/hardcoded-image](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-image)
-- [text-local-image/relative-image](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-image)
-- [text-local-link](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-link)
-- [text-local-link/hardcoded-link](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-link)
-- [text-local-link/relative-link](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-local-link)
-- [text-startswith-callingcodes](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-startswith-callingcodes)
-- [text-strikethrough](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-strikethrough)
-- [yesno-checkbox](https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-checkbox)
-
-## Ariel Kropp
-- [rota-css-table](https://github.com/pnp/List-Formatting/tree/master/view-samples/rota-css-table)
-
-## Josef Lahmer
-- [generic-hyperlink-thumbnail](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-hyperlink-thumbnail)
-
-## Travis Lingenfelder
-- [text-ryg-status-indicator](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-ryg-status-indicator)
-- [yesno-checkmark](https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-checkmark)
-
-## Matt Maher
-- [number-quiz-smiley-face](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-quiz-smiley-face)
-
-## S Merchant
-- [currency-symbol-concatenation](https://github.com/pnp/List-Formatting/tree/master/column-samples/currency-symbol-concatenation)
-- [generic-project-management/risk-level-change-status](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-project-management)
-- [generic-project-management/risk-score](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-project-management)
-- [generic-project-management/ryg-status](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-project-management)
-- [generic-risk-score-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-risk-score-format)
-- [generic-ryg-status-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-ryg-status-format)
-- [generic-tile-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-tile-format)
-
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![aaronmi](https://github.com/aaronmi.png?size=24)](https://github.com/aaronmi){.authorImage title="aaronmi" target="_blank"}
 ## Aaron Miao
-- [number-piechart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-piechart)
-- [text-isbn-image](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-isbn-image)
-- [text-wrap-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-wrap-format)
-- [yesno-checkmark-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-checkmark-format)
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [ISBN to Book Cover Image](https://github.com/pnp/list-formatting/tree/master/column-samples/text-isbn-image){target=_blank title="text-isbn-image (Column): This example retrieves book cover images based on their ISBN numbers by utilizing the Open Library Covers API. The API works by building a cover image URL with the ISBN."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-line Text with Word Wrap](https://github.com/pnp/list-formatting/tree/master/column-samples/text-wrap-format){target=_blank title="text-wrap-format (Column): With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Pie Chart](https://github.com/pnp/list-formatting/tree/master/column-samples/number-piechart){target=_blank title="number-piechart (Column): This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using <svg> with <path> tags. The number% displayed at the bottom of the pie in neutralPrimary."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Checkmark](https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkmark-format){target=_blank title="yesno-checkmark-format (Column): You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of ms-fontColor-neutralSecondary is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element."}
 
-## Christopher Parker
-- [date-range-rag](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-range-rag)
+<div class="expansiongroup">
+    <span class="sampleCount">3 samples</span>
+</div>
+[![anandragav](https://github.com/anandragav.png?size=24)](https://github.com/anandragav){.authorImage title="anandragav" target="_blank"}
+## Anand Ragav
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [FAQ Accordion](https://github.com/pnp/list-formatting/tree/master/view-samples/faq-accordion){target=_blank title="faq-accordion (View): This sample formats your view to appear and work like an Accordion style FAQ (Frequently Asked Questions)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Flashcards](https://github.com/pnp/list-formatting/tree/master/view-samples/flashcards){target=_blank title="flashcards (View): This sample creates a set of flashcards from list items. A flashcard is a card bearing information on both sides, which is intended to be used as an aid in memorization. Each flashcard bears a question on one side and an answer on the other. Flashcards are often used to memorize vocabulary, historical dates, formulas or any subject matter that can be learned via a question-and-answer format."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery){target=_blank title="video-gallery (View): A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like."}
 
-## Julien Seguin
-- [number-icon-progressbar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-icon-progressbar)
+<div class="expansiongroup">
+    <span class="sampleCount">33 samples</span>
+</div>
+[![aaclage](https://github.com/aaclage.png?size=24)](https://github.com/aaclage){.authorImage title="aaclage" target="_blank"}
+## André Lage
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Bar Option Picker](https://github.com/pnp/list-formatting/tree/master/view-samples/bar-option-picker){target=_blank title="bar-option-picker (View): This sample displays a bar with multiple options. When an option on the bar is clicked, the Value column is updated to the corresponding value (0-4) using setValue."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Board Tags](https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags){target=_blank title="board-tags (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Calculator](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-calculator){target=_blank title="generic-calculator (Column): This sample includes design capabilities and formulas to simulate a simple calculator."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Chevron shape format](https://github.com/pnp/List-Formatting/tree/master/view-samples/chevron-shape-format){target=_blank title="chevron-shape-format (View): This sample how to create chevron style shape with background image. When mouse over image popups and display title and description."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Christmas Tree](https://github.com/pnp/List-Formatting/tree/master/view-samples/christmas-tree){target=_blank title="christmas-tree (View): This sample draws a tree across rows in 3 different stages 'alt' as top, 'body' as tree and 'wood' as bottom. You can also include icons in the tree. The Title field will appear as a tooltip on the icons."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Clipboards](https://github.com/pnp/list-formatting/tree/master/view-samples/clipboards){target=_blank title="clipboards (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Color Picker](https://github.com/pnp/list-formatting/tree/master/view-samples/color-picker){target=_blank title="color-picker (View): This sample contains pre-defined palettes of color (default matches Power Apps). These palettes are then made available as a color picker setting the value on selection."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Compressed Date](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-compress-format){target=_blank title="date-compress-format (Column): This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Date Update Format](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-update-format){target=_blank title="date-update-format (Column): Demonstrates updating a date value directly from the format."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Decimal to Binary Conversion](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-decimal-binary){target=_blank title="number-decimal-binary (Column): This sample provides decimal conversion to binary using standard List formatting math functions."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Discussion Board](https://github.com/pnp/list-formatting/tree/master/view-samples/discussion-board){target=_blank title="discussion-board (View): This sample transforms your list into a discussion board with title, desription, tags, and votes are available. Additionally, users can react, comment, and perform inline edits!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Emoji Reactions](https://github.com/pnp/list-formatting/tree/master/view-samples/emoji-reactions){target=_blank title="emoji-reactions (View): This sample demonstrates reacting with an emoji. Who reacted and the total counts per reaction are stored with the list item."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Event Registration](https://github.com/pnp/list-formatting/tree/master/view-samples/event-registration){target=_blank title="event-registration (View): This sample provides Event registration with different capabilities such us Start and End dates, Category, Attendees, All Day option, Location, Team URL, and favoriting."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Expand Collapse Format](https://github.com/pnp/list-formatting/tree/master/column-samples/text-expand-collapse-format){target=_blank title="text-expand-collapse-format (Column): Demonstrates creating a button to register for a course."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [File Picker](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-filepicker){target=_blank title="generic-filepicker (Column): This sample demonstrates how to prompt users to copy a file link from a specific library and displays it in the column."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Image Slider](https://github.com/pnp/List-Formatting/tree/master/view-samples/image-slider){target=_blank title="image-slider (View): This sample includes format to display images in Lists as slider moving to next clicking the icon on top left of image."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Location Bing Maps](https://github.com/pnp/List-Formatting/tree/master/column-samples/location-bing-maps){target=_blank title="location-bing-maps (Column): This sample demonstrates how to use a Location column to display details and a Map from Bing."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Menu Link Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles){target=_blank title="menu-link-tiles (View): This sample includes a Metro tiles style menu with additional features such us configuration of tiles using size and color, option to favorite a tile using setValue, and also includes customCardProps to show a custom hover card with the description of a tile."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Multi-Person Displays](https://github.com/pnp/List-Formatting/tree/master/view-samples/multi-person-displays){target=_blank title="multi-person-displays (View): This sample provides multiple formats illustrating different ways multi-person field display and inline editing can occur. The field is rendered multiple times to show different options."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Numeric card format](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-numeric-card-format){target=_blank title="generic-numeric-card-format (View): This sample display formatted number column as playing card."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [One Point Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-one-point-chart){target=_blank title="generic-one-point-chart (Column): This sample demonstrates making one point chart with support of 2 numeric fields (x,y) with dialog description."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Open File as PDF](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-open-file-as-pdf){target=_blank title="generic-open-file-as-pdf (Column): This sample can be applied to a column in a Document Library to render a link that will open an Office Document as a pdf."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Payments](https://github.com/pnp/List-Formatting/tree/master/view-samples/payments){target=_blank title="payments (View): This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Percent Chart format](https://github.com/pnp/List-Formatting/tree/master/view-samples/percent-chart-format){target=_blank title="percent-chart-format (View): This sample display formatted percent chart row based on icon/emoji/svg and associated result number, used is able to manage to total and used items for percent calculation."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Reorder and Expand Board Items](https://github.com/pnp/List-Formatting/tree/master/view-samples/reorder-expand-board-items){target=_blank title="reorder-expand-board-items (View): This sample allow users to manage card order in Board Views and also enables expanding and collapsing images. This sample has the option 'Move to Top' that allows users to move cards to the top of the board view as a way to rearrange card positions."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Roll Dice](https://github.com/pnp/List-Formatting/tree/master/view-samples/roll-dice){target=_blank title="roll-dice (View): This sample format provides a simulation of a game where a random number (between 1 and 6) is generated and displayed as a die. The value makes the progress bar advance with the associated emoji until the value 0 is reached and the winner emoji appears."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Rounded Fill Checkbox](https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-roundedfill-format){target=_blank title="yesno-roundedfill-format (Column): This sample includes custom checkbox rounded styles."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Search Within Tags](https://github.com/pnp/List-Formatting/tree/master/view-samples/search-within-tags){target=_blank title="search-within-tags (View): This sample demonstrates using inlineEditField to enable searching for a word against tags (choice column) within a list item."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Tabs](https://github.com/pnp/List-Formatting/tree/master/view-samples/tabs){target=_blank title="tabs (View): This sample creates tabs with associated content. Users can then navigate between tabs. This sample is intended to display content within a SharePoint page (using the lists webpart) to provide a more interactive and user friendly approach."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Teams Call Format](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-teams-call-format){target=_blank title="person-teams-call-format (Column): This sample uses Microsoft Teams deep links to create links from selected user that allow to make Microsoft Teams calls to user."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Teams Group Chat Links](https://github.com/pnp/List-Formatting/tree/master/view-samples/teams-group-chat-links){target=_blank title="teams-group-chat-links (View): This sample uses Microsoft Teams deep links to create Teams chat group based on selected users with associated Group name and message."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Tic-tac-toe](https://github.com/pnp/List-Formatting/tree/master/view-samples/tic-tac-toe){target=_blank title="tic-tac-toe (View): This sample demonstrates a version of tic-tac-toe using list formatting. By using the setValue action, the underlying list items are updated and the format is redrawn."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Volume option](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-volume){target=_blank title="number-volume (Column): This sample includes visual selection of volume from 0 to 5."}
 
-## SharePoint Team
-- [date-range-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-range-format)
-- [document-library](https://github.com/pnp/List-Formatting/tree/master/view-samples/document-library)
-- [generic-hyperlink-values](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-hyperlink-values)
-- [number-conditional-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-conditional-format)
-- [number-data-bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-data-bar)
-- [number-trending-icon](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-trending-icon)
-- [person-mailto](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-mailto)
-- [resource-catalog](https://github.com/pnp/List-Formatting/tree/master/view-samples/resource-catalog)
-- [retail-account](https://github.com/pnp/List-Formatting/tree/master/view-samples/retail-account)
-- [text-conditional-format](https://github.com/pnp/List-Formatting/tree/master/column-samples/text-conditional-format)
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
+</div>
+[![Riftsan](https://github.com/Riftsan.png?size=24)](https://github.com/Riftsan){.authorImage title="Riftsan" target="_blank"}
+## Andres Ibarra
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Health Dashboard](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-health-dashboard){target=_blank title="project-health-dashboard (View): This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Testimonials](https://github.com/pnp/List-Formatting/tree/master/view-samples/testimonials){target=_blank title="testimonials (View): This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌"}
 
-## Eric Skaggs
-- [choice-conditional-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/choice-conditional-format)
-
+<div class="expansiongroup">
+    <span class="sampleCount">5 samples</span>
+</div>
+[![anoopt](https://github.com/anoopt.png?size=24)](https://github.com/anoopt){.authorImage title="anoopt" target="_blank"}
 ## Anoop Tatti
-- [column-graph-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/column-graph-format)
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Bar Graph](https://github.com/pnp/list-formatting/tree/master/view-samples/bar-graph){target=_blank title="bar-graph (View): This sample shows how to format a list to show the data as a bar graph."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Column Graph](https://github.com/pnp/list-formatting/tree/master/view-samples/column-graph){target=_blank title="column-graph (View): This sample shows how to format a list to show the data as a column graph."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Multi-Choice Links](https://github.com/pnp/list-formatting/tree/master/view-samples/multi-choice-links){target=_blank title="multi-choice-links (View): Demonstrates using a multi-choice column to create multiple links"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Choice Links](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-links){target=_blank title="multi-choice-links (Column): This sample shows how we can display multiple links in a single column using the multi-choice column."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Stat Comparison Chart](https://github.com/pnp/list-formatting/tree/master/view-samples/stat-comparison-chart){target=_blank title="stat-comparison-chart (View): Format a list view into a chart that shows a comparison between two entities against various attributes"}
 
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![aprildunnam](https://github.com/aprildunnam.png?size=24)](https://github.com/aprildunnam){.authorImage title="aprildunnam" target="_blank"}
+## April Dunham
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Birthdays](https://github.com/pnp/list-formatting/tree/master/view-samples/birthdays){target=_blank title="birthdays (View): This sample shows how to format a list to show upcoming employee birthdays."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Bing Maps Image for a Location](https://github.com/pnp/list-formatting/tree/master/column-samples/text-bing-map){target=_blank title="text-bing-map (Column): This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Planner Inspired Task Cards](https://github.com/pnp/list-formatting/tree/master/view-samples/planner-inspired-task-card){target=_blank title="planner-inspired-task-card (View): Formats Task List Items in a Planner Inspired Card View. Uses Fluent UI Icons to designate In Progress, Completed, and Delayed Statuses. Automatically strikes out text for Completed items."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Twitter Timeline](https://github.com/pnp/list-formatting/tree/master/view-samples/twitter-timeline){target=_blank title="twitter-timeline (View): This sample formats your SharePoint list view to look like Twitter. If you are using the Microsoft Flow Templates to track tweets in a SharePoint list, this is a great way to format your list so that it looks more like Twitter."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![AriGunawan](https://github.com/AriGunawan.png?size=24)](https://github.com/AriGunawan){.authorImage title="AriGunawan" target="_blank"}
+## Ari Gunawan
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![arielkropp](https://github.com/arielkropp.png?size=24)](https://github.com/arielkropp){.authorImage title="arielkropp" target="_blank"}
+## Ariel Kropp
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Staff Rota Shifts with CSS Table](https://github.com/pnp/list-formatting/tree/master/view-samples/rota-css-table){target=_blank title="rota-css-table (View): This sample demonstrates creating a Rota Shifts table using CSS Table layout by using rowFormatter to customise the entire display of a row."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">69 samples</span>
+</div>
+[![thechriskent](https://github.com/thechriskent.png?size=24)](https://github.com/thechriskent){.authorImage title="thechriskent" target="_blank"}
+## Chris Kent
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Alternating Rows](https://github.com/pnp/list-formatting/tree/master/view-samples/alternating-rows){target=_blank title="alternating-rows (View): Highlights every other row using theme colors."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Blank Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/blank-header){target=_blank title="blank-header (Form): By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Bulletin Board](https://github.com/pnp/list-formatting/tree/master/view-samples/bulletin-board){target=_blank title="bulletin-board (View): Provides an example of creating a simple bulletin board listing. The rowFormatter property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details. The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Centered Content](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-centered-content){target=_blank title="generic-centered-content (Column): Demonstrates making your content be both vertically and horizontally centered (in the middle) within the cell."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Comment Count](https://github.com/pnp/List-Formatting/tree/master/column-samples/comment-count){target=_blank title="comment-count (Column): This sample adds a visual indicator to a list item, showing the number of comments present on it."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditionally Launch Flow for Item](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-start-flow-conditionally){target=_blank title="generic-start-flow-conditionally (Column): You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow. This is demonstrated in the Generic-Start-Flow sample."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Contact Cards](https://github.com/pnp/list-formatting/tree/master/view-samples/contact-cards){target=_blank title="contact-cards (View): This is a sample of a complex format that customizes the entire display of a row. The goal is to illustrate several key principals including:"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Content Navigator](https://github.com/pnp/List-Formatting/tree/master/view-samples/content-navigator){target=_blank title="content-navigator (View): Demonstrates the use of the id attribute to create linkable anchors."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Course Registration](https://github.com/pnp/list-formatting/tree/master/column-samples/text-course-registration){target=_blank title="text-course-registration (Column): Demonstrates creating a button to register for a course."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Current User's Rows](https://github.com/pnp/list-formatting/tree/master/view-samples/person-currentuser-rowclass){target=_blank title="person-currentuser-rowclass (View): Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the [$AssignedTo] portion of the expression."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Current User's Rows (Using a Multi-Person Column)](https://github.com/pnp/list-formatting/tree/master/view-samples/multi-person-currentuser-rowclass){target=_blank title="multi-person-currentuser-rowclass (View): Highlights the entire row for any list items where one of the assigned to users is the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different person column by changing the [$AssignedTo] portion of the expression."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Current Year Row Class](https://github.com/pnp/List-Formatting/tree/master/view-samples/current-year-rowclass){target=_blank title="current-year-rowclass (View): Demonstrates applying a class to rows where a value equals the current year. Can easily be updated to compare other portions of the date such as the month, hour, minute etc. by using the other date-part operators."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Header](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header){target=_blank title="custom-header (View): Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the display style attribute to none (hidden) whenever the @rowIndex is not 0 (first row)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Data Bar](https://github.com/pnp/list-formatting/tree/master/column-samples/number-data-bar){target=_blank title="number-data-bar (Column): These formats apply background-color and border-top styles to create a data bar visualization of @currentField, which is a number field. These styles are applied using the special column formatting class sp-field-dataBars. The bars are sized differently for different values based on the way the width attribute of the main div is set."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Date Difference](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-difference){target=_blank title="date-difference (Column): This sample demonstrates calculating the difference between 2 dates. In this sample the age in years is calculated based on the date of birth and the date of death. This format could easily be adjusted to calculate a different unit of time (months, days, hours, minutes, etc.) by adjusting the multiplier."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Disable Selection](https://github.com/pnp/List-Formatting/tree/master/view-samples/disable-selection){target=_blank title="disable-selection (View): This is a very basic sample that disables list item selection within your view."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Google Maps Image for a Location](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-staticmap){target=_blank title="generic-staticmap (Column): This template takes advantage of Google Maps' staticmap API which generates an image using a parameterized URL."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Person's Profile Picture in a Circle](https://github.com/pnp/list-formatting/tree/master/column-samples/person-roundimage-format){target=_blank title="person-roundimage-format (Column): This sample applies styles to a parent div element and a child img element to show a person's profile picture in a circle."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Picture Column in a Circle](https://github.com/pnp/list-formatting/tree/master/column-samples/picture-roundimage-format){target=_blank title="picture-roundimage-format (Column): This sample applies styles to a parent div element and a child img element to show a picture column in a circle."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display Location Address Details](https://github.com/pnp/list-formatting/tree/master/column-samples/location-address){target=_blank title="location-address (Column): Location columns provide several properties that can be accessed to provide more information to users. This sample pulls out sub properties to turn the standard Display Name only to a full address and provides a link to Bing Maps for a given location."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display Location Weather Details](https://github.com/pnp/list-formatting/tree/master/column-samples/location-weather){target=_blank title="location-weather (Column): This sample utilizes sub properties of a Location column to build an image that pulls weather from WeatherForYou.com"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [FAQs](https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs){target=_blank title="faqs (View): This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [File Thumbnails](https://github.com/pnp/list-formatting/tree/master/column-samples/file-thumbnail){target=_blank title="file-thumbnail (Column): Utilizes the @thumbnail placeholder token to create an inline preview for document libraries."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Flow Status](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-flow-status){target=_blank title="generic-flow-status (Column): This sample conditionally shows a button to launch a flow. Additional details are provided to customize the flow panel title and button. This provides context to users and is often far more meaningful than the default of 'Run Flow' which generally doesn't mean much to end users."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Gauge Aggregate Footer](https://github.com/pnp/List-Formatting/tree/master/view-samples/gauge-aggregate-footer){target=_blank title="gauge-aggregate-footer (View): This sample shows a gauge in the list footer (when aggregates are enabled)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Generic Gauge](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-gauge){target=_blank title="generic-gauge (Column): This sample demonstrates combining a fixed SVG (gauge background) with a dynamic SVG (needle). The values are based on text values (choice or text)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Grouped FAQs](https://github.com/pnp/List-Formatting/tree/master/view-samples/faq-grouped){target=_blank title="faq-grouped (View): This sample uses standard group rendering to provide a list of expandable questions."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Heat Map](https://github.com/pnp/List-Formatting/tree/master/view-samples/heat-map){target=_blank title="heat-map (View): This sample demonstrates creating a layered dynamic SVG image in a view format."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Hide Automate Button in the CommandBar](https://github.com/pnp/list-formatting/tree/master/view-samples/commandbar-hide-automate){target=_blank title="commandbar-hide-automate (View): Hides the Automate button when an item or items are selected."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Highlight the Current User](https://github.com/pnp/list-formatting/tree/master/column-samples/person-currentuser){target=_blank title="person-currentuser (Column): This sample uses the @me keyword to check if the person field is the current user and shows that person using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Highlight the Current User (Using a Multi-Person Column)](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-currentuser){target=_blank title="multi-person-currentuser (Column): This sample uses the @me keyword to check if the person field contains the current user and shows that entry using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Horse Crests](https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests){target=_blank title="horse-crests (View): This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Icon Overlays](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-icon-overlay){target=_blank title="generic-icon-overlay (Column): You can UI Fabric Icons within your column and view formats. This sample demonstrates combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Image Lightbox](https://github.com/pnp/List-Formatting/tree/master/column-samples/image-lightbox){target=_blank title="image-lightbox (Column): This sample demonstrates showing the full size image in a lightbox (hover card) rather than opening this image in a new window."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [In Memoriam Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/in-memoriam-tiles){target=_blank title="in-memoriam-tiles (View): This is a silly sample that shows tombstones for items. It demonstrates custom date formatting, custom tiles (gallery) layout, and safe local image referencing."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Launch Power App Button](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-launch-powerapp){target=_blank title="generic-launch-powerapp (Column): Providing a direct link to an item within Power Apps is easy to do using this sample. To use it follow the instructions below to get the link to your Power App (and replace that portion of the format)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Linking to a Local Resource](https://github.com/pnp/list-formatting/tree/master/column-samples/text-local-link){target=_blank title="text-local-link (Column): This sample provides multiple formats to illustrate the options available to link to local resources. The primary purpose is to demonstrate the usage of @currentWeb (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view. This format links to other lists, but this could just as easily be specific pages/files/etc. on a site."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [MailTo Button](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-mailto-button){target=_blank title="generic-mailto-button (Column): This sample demonstrates making a mailto link (opens email with prepopulated values) button that references a different field."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Choice forEach](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-foreach){target=_blank title="multi-choice-foreach (Column): This sample demonstrates usage of the forEach property to create template elements applied to each choice in a multi-select choice field."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Choice Icons](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-icons){target=_blank title="multi-choice-icons (Column): This sample demonstrates using the indexOf and join functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-lookup fields and projected fields](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-lookup-projected-field){target=_blank title="multi-lookup-projected-field (Column): Lookup columns that support multiple values can be formatted using the advanced forEach property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Person Facepile](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-facepile){target=_blank title="multi-person-facepile (Column): This sample provides rounded images for each person in a multi-select person field."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Person Teams Chat Link](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-teams-chat-link){target=_blank title="multi-person-teams-chat-link (Column): This sample demonstrates creating a deep link to a Microsoft Teams chat. This format works both within Microsoft Teams and within SharePoint Online."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Gauge](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-gauge){target=_blank title="number-gauge (Column): This sample demonstrates combining a fixed SVG (gauge background) with a dynamic SVG (needle). It makes understanding number columns (percent) very intuitive."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Level Bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-level-bar){target=_blank title="number-level-bar (Column): This sample demonstrates displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Localization](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-localization){target=_blank title="number-localization (Column): This sample demonstrates changing text output based on the @lcid token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Person Localization](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-localization){target=_blank title="person-localization (Column): This sample demonstrates changing text output based on the @lcid token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Pie Chart](https://github.com/pnp/list-formatting/tree/master/column-samples/number-piechart){target=_blank title="number-piechart (Column): This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using <svg> with <path> tags. The number% displayed at the bottom of the pie in neutralPrimary."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Project Indicator Formats](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-project-management){target=_blank title="generic-project-management (Column): Three related formats for use in project management."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Random Item](https://github.com/pnp/List-Formatting/tree/master/view-samples/random-item){target=_blank title="random-item (View): This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Recent Comments](https://github.com/pnp/List-Formatting/tree/master/view-samples/recent-comments){target=_blank title="recent-comments (View): This sample shows text from the most recent items by showing them in decresing sizes as they get older."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Reference a Local Image](https://github.com/pnp/list-formatting/tree/master/column-samples/text-local-image){target=_blank title="text-local-image (Column): This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of @currentWeb (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Row Actions](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions){target=_blank title="generic-rowactions (Column): You can use column and view formatting to create buttons that perform pre-defined actions when clicked. This sample provides a quick format that demonstrates the use of each of the possible actions."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Row Index Drawing](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowIndex-drawing){target=_blank title="generic-rowIndex-drawing (Column): This is a silly format that draws a picture in your view using the @rowIndex token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Strikethrough on Completion](https://github.com/pnp/list-formatting/tree/master/column-samples/text-strikethrough){target=_blank title="text-strikethrough (Column): Classic task lists add a strikethrough style to the task name when the task is marked as completed. This sample shows how to achieve this in a modern list view."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Substring Status](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-substring-status){target=_blank title="generic-substring-status (Column): This format demonstrates using a combination of the substring and indexOf operations to 'split' a value and make style decisions based on portions of the value."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [SVG icons](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-svgicon-format){target=_blank title="generic-svgicon-format (Column): The Fluent UI icons are easy to use in column formatting by simply specifying the name in the iconName attribute. However, the available selection of icons may not always meet your needs. Fortunately, you can use inline SVG elements with custom paths. This means you can use icons from sources like Font Awesome that provide SVG versions of their icons!"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Text Contains](https://github.com/pnp/list-formatting/tree/master/column-samples/text-contains){target=_blank title="text-contains (Column): This sample demonstrates using the indexOf function (O365 only) to test if text contains a given value. The sample also uses the toLowerCase function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word 'dead' a class is applied to turn the text red."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Text StartsWith Calling Codes](https://github.com/pnp/list-formatting/tree/master/column-samples/text-startswith-callingcodes){target=_blank title="text-startswith-callingcodes (Column): This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Twitter Profile Pics](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-twitterpic){target=_blank title="generic-twitterpic (Column): Using just the Twitter handle, Twitter profile pictures are displayed in a circle and clicking them will open the user's Twitter page in a new window. The handle is also displayed as a tooltip when hovering over the profile image."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Navigator](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-navigator){target=_blank title="video-navigator (View): Demonstrates the use of dynamic connections in the list webpart while using a custom format. This results in a custom video selection application that changes the embeded video on the page."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Wrapped Form Body](https://github.com/pnp/List-Formatting/tree/master/form-samples/wrapped-body){target=_blank title="wrapped-body (Form): By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Checkbox](https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkbox){target=_blank title="yesno-checkbox (Column): This sample uses Fluent UI icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![ChrispyBites](https://github.com/ChrispyBites.png?size=24)](https://github.com/ChrispyBites){.authorImage title="ChrispyBites" target="_blank"}
+## Christopher Parker
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Red-Amber-Green (RAG) Bars Based on Date Ranges](https://github.com/pnp/list-formatting/tree/master/column-samples/date-range-rag){target=_blank title="date-range-rag (Column): This example creates colored data bars on the current field based on DueDate and StartDate fields compared to the current date/time."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
+</div>
+[![DRamalho92](https://github.com/DRamalho92.png?size=24)](https://github.com/DRamalho92){.authorImage title="DRamalho92" target="_blank"}
+## David Ramalho
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Announcements](https://github.com/pnp/list-formatting/tree/master/view-samples/announcements){target=_blank title="announcements (View): This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Person Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/person-cards){target=_blank title="person-cards (View): This sample demonstrates creating a basic person card. You can use this as a quick contact list."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![PopWarner](https://github.com/PopWarner.png?size=24)](https://github.com/PopWarner){.authorImage title="PopWarner" target="_blank"}
 ## David Warner II
-- [generic-numeric-average-comparison](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-numeric-average-comparison)
-- [generic-socialpic](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-socialpic)
-- [number-abs-tolerance-comparison](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-abs-tolerance-comparison)
-- [number-trending-icon/with-differences](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-trending-icon)
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Numeric Average Comparison](https://github.com/pnp/list-formatting/tree/master/view-samples/generic-numeric-average-comparison){target=_blank title="generic-numeric-average-comparison (View): Provides an example of comparing numeric values across time periods. In this example, we are using grades for students across 4 quarters, though the principle can be applied to any repetitive numeric values."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Show trending up/trending down icons ](https://github.com/pnp/list-formatting/tree/master/column-samples/number-trending-icon){target=_blank title="number-trending-icon (Column): These formats rely on two number fields, Before and After, for which the values can be compared. They show the appropriate trending icon next to the value of the After field, depending on that field's value compared to the value in Before. The sp-field-trending--up class is used when After's value is higher; the sp-field-trending--down class is used when After's value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Social Media Profile Pics](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-socialpic){target=_blank title="generic-socialpic (Column): Social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window.."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Tolerance Comparison](https://github.com/pnp/list-formatting/tree/master/column-samples/number-abs-tolerance-comparison){target=_blank title="number-abs-tolerance-comparison (Column): Display if a value is within the expected tolerance."}
 
-## Siddharth Vaghasia
-- [color-based-smiley-face](https://github.com/pnp/List-Formatting/tree/master/column-samples/color-based-smiley-face)
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![expiscornovus](https://github.com/expiscornovus.png?size=24)](https://github.com/expiscornovus){.authorImage title="expiscornovus" target="_blank"}
+## Dennis
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Course Registration](https://github.com/pnp/list-formatting/tree/master/column-samples/text-course-registration){target=_blank title="text-course-registration (Column): Demonstrates creating a button to register for a course."}
 
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![m3ngi3](https://github.com/m3ngi3.png?size=24)](https://github.com/m3ngi3){.authorImage title="m3ngi3" target="_blank"}
+## Django Lohn
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Approval Status Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card){target=_blank title="generic-approval-status-hover-card (Column): Adds a hover card with additional details when using Content Approval"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![ejazhussain](https://github.com/ejazhussain.png?size=24)](https://github.com/ejazhussain){.authorImage title="ejazhussain" target="_blank"}
+## Ejaz Hussain
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [User Profile Card](https://github.com/pnp/list-formatting/tree/master/view-samples/profile-card){target=_blank title="profile-card (View): This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![skaggej](https://github.com/skaggej.png?size=24)](https://github.com/skaggej){.authorImage title="skaggej" target="_blank"}
+## Eric Skaggs
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Status Blocks](https://github.com/pnp/list-formatting/tree/master/view-samples/status-blocks){target=_blank title="status-blocks (View): This sample demonstrates basic row display with conditional logic to adjust the background-color based on a Status field."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![fcatinot](https://github.com/fcatinot.png?size=24)](https://github.com/fcatinot){.authorImage title="fcatinot" target="_blank"}
+## Franck Catinot
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Chronological Items](https://github.com/pnp/List-Formatting/tree/master/view-samples/chronological-items){target=_blank title="chronological-items (View): This sample formats your view to look like a chronological timeline."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">7 samples</span>
+</div>
+[![ganesh-sanap](https://github.com/ganesh-sanap.png?size=24)](https://github.com/ganesh-sanap){.authorImage title="ganesh-sanap" target="_blank"}
 ## Ganesh Sanap
-- [date-check-blank-format](https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/date-check-blank-format)
-- [multi-choice-workcategory-pill](https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-workcategory-pill)
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Download File Button](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-download-file-button){target=_blank title="generic-download-file-button (Column): This sample demonstrates adding a button within a document library view which downloads the file."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Formatting a column when a date column is blank](https://github.com/pnp/list-formatting/tree/master/column-samples/date-check-blank-format){target=_blank title="date-check-blank-format (Column): This example populates the text content and applies different classes to the Status field depending on the value inside an item's DueDate field. This example applies formatting to one field by looking at the value inside another field. Note that DueDate is referenced using the [$FieldName] syntax. FieldName is assumed to be the internal name of the field. This example also takes advantage of a special value that can be used in date/time fields - @now, which resolves to the current date/time, evaluated when the user loads the list view."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Like/Unlike List Item](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-like-unlike){target=_blank title="generic-like-unlike (Column): Demonstrates how to like/unlike a list item."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Colored Databars](https://github.com/pnp/list-formatting/tree/master/column-samples/number-data-bar-multi-color){target=_blank title="number-data-bar-multi-color (Column): This column formatting sample demonstrates how to show the number column as data bars with multiple colors."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multi-Person Mail To Link](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-mailto){target=_blank title="multi-person-mailto (Column): This column formatting sample demonstrates how to add a mailto: link for each person in a multiple selection person column."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Remove Column Name from Group Header](https://github.com/pnp/List-Formatting/tree/master/view-samples/group-header-remove-column-name){target=_blank title="group-header-remove-column-name (View): This view formatting sample can be used to customize the group header to remove column name from group header."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/author" />
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![gdk-max](https://github.com/gdk-max.png?size=24)](https://github.com/gdk-max){.authorImage title="gdk-max" target="_blank"}
+## Geert de Kooter
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [File Preview](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-file-preview){target=_blank title="generic-file-preview (Column): This sample opens Microsoft Office documents in full screen within a new tab. This is the same view as used in the fileviewer webpart (no toolbars)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Link to Parent Documentset](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-link-to-parent-documentset){target=_blank title="generic-link-to-parent-documentset (Column): The purpose of this sample is to enhance the use of documentsets. Assuming you have a SharePoint Library  with documentsets, it can be useful to create a view that shows all the files without the documentset (folder) structure. By adding a column to this view using this sample, users can open the parent documentset of a file."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Circle in Circle](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-circle-in-circle){target=_blank title="number-circle-in-circle (Column): This sample shows how the percentage value in a column can be displayed as the area of a circle within another circle."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![hugoabernier](https://github.com/hugoabernier.png?size=24)](https://github.com/hugoabernier){.authorImage title="hugoabernier" target="_blank"}
+## Hugo Bernier
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">3 samples</span>
+</div>
+[![joaoferreira](https://github.com/joaoferreira.png?size=24)](https://github.com/joaoferreira){.authorImage title="joaoferreira" target="_blank"}
+## João Ferreira
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Image Lightbox](https://github.com/pnp/List-Formatting/tree/master/column-samples/image-lightbox){target=_blank title="image-lightbox (Column): This sample demonstrates showing the full size image in a lightbox (hover card) rather than opening this image in a new window."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [To-Do List](https://github.com/pnp/List-Formatting/tree/master/view-samples/to-do){target=_blank title="to-do (View): This sample formats your SharePoint list view to look like Microsoft To Do."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [YouTube Thumbnail](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-youtube-thumbnail){target=_blank title="generic-youtube-thumbnail (Column): This sample provides a thumbnail of a YouTube video that links to the video and a larger preview image on hover."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![ChrispyBites](https://github.com/ChrispyBites.png?size=24)](https://github.com/ChrispyBites){.authorImage title="ChrispyBites" target="_blank"}
+## Joe Ayre
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Red-Amber-Green (RAG) Bars Based on Date Ranges](https://github.com/pnp/list-formatting/tree/master/column-samples/date-range-rag){target=_blank title="date-range-rag (Column): This example creates colored data bars on the current field based on DueDate and StartDate fields compared to the current date/time."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![josy1024](https://github.com/josy1024.png?size=24)](https://github.com/josy1024){.authorImage title="josy1024" target="_blank"}
+## Josef Lahmer
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [File Thumbnails or Hyperlinks](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-hyperlink-thumbnail){target=_blank title="generic-hyperlink-thumbnail (Column): This example uses a column to generate a hyperlink to the Item Thumbnail for a document library."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-user-pen:{title="No GitHub account provided"}
+## Julien Seguin
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Icon Progress Bar](https://github.com/pnp/list-formatting/tree/master/column-samples/number-icon-progressbar){target=_blank title="number-icon-progressbar (Column): This sample demonstrates creating a progress bar using icons. The number column represents the stage in a process and the format provides a visual indicator of where an item is in relation to the process by showing the previous steps as completed, highlighting the current step, and indicating which steps remain."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![LeonArmston](https://github.com/LeonArmston.png?size=24)](https://github.com/LeonArmston){.authorImage title="LeonArmston" target="_blank"}
+## Leon Armston
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [London Underground Line Status](https://github.com/pnp/List-Formatting/tree/master/view-samples/london-tube-status){target=_blank title="london-tube-status (View): Display on the homepage of your SharePoint intranet a continually updated feed of London Underground line statuses using the publicly available Transport for London (TFL) API. "}
+
+<div class="expansiongroup">
+    <span class="sampleCount">7 samples</span>
+</div>
+[![ldemaris](https://github.com/ldemaris.png?size=24)](https://github.com/ldemaris){.authorImage title="ldemaris" target="_blank"}
+## Lincoln DeMaris
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Text Formatting (Severity)](https://github.com/pnp/list-formatting/tree/master/column-samples/text-conditional-format){target=_blank title="text-conditional-format (Column): You can apply conditional formatting to text or choice fields that might contain a fixed set of values. This sample applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Multi-line View](https://github.com/pnp/list-formatting/tree/master/view-samples/multi-line-view){target=_blank title="multi-line-view (View): This sample demonstrates showing fields on separate rows, conditionally showing a button based on the current user, and how to use the defaultClick rowaction."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Overdue Row Class](https://github.com/pnp/list-formatting/tree/master/view-samples/overdue-rowclass){target=_blank title="overdue-rowclass (View): This sample applies a class to any row where the DueDate column is overdue (earlier than @now)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Resource Catalog Sample](https://github.com/pnp/list-formatting/tree/master/view-samples/resource-catalog){target=_blank title="resource-catalog (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Status Row Class](https://github.com/pnp/list-formatting/tree/master/view-samples/status-rowclass){target=_blank title="status-rowclass (View): This sample applies a class to the entire row based on the value of a choice field using additionalRowClass to conditionally apply the severity classes."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![MarcMroz](https://github.com/MarcMroz.png?size=24)](https://github.com/MarcMroz){.authorImage title="MarcMroz" target="_blank"}
+## Marc Mroz
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Embed Codes](https://github.com/pnp/List-Formatting/tree/master/view-samples/get-video-file-embed-code){target=_blank title="get-video-file-embed-code (View): If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![Maher256](https://github.com/Maher256.png?size=24)](https://github.com/Maher256){.authorImage title="Maher256" target="_blank"}
+## Matt Maher
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Quiz Results with Emoji](https://github.com/pnp/list-formatting/tree/master/column-samples/number-quiz-smiley-face){target=_blank title="number-quiz-smiley-face (Column): This allows teachers to show smiley faces next to quiz results similar to how they do it on paper. The number (based on a 0-100 score) will indicate if its a smiley or frown, which come from the Offie UI Fabric Icon set. If the number is above 90 the student gets a super smiley (Emoji), above 75 regular smile (Emoji2), above 60 neutral smiley (EmojiNeutral), below 60 a frown (EmojiDisappointed), and anything else gets an Unknown."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![michelcarlo](https://github.com/michelcarlo.png?size=24)](https://github.com/michelcarlo){.authorImage title="michelcarlo" target="_blank"}
+## Michel Mendes
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Display User Properties in the Group Header](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-user-properties){target=_blank title="group-header-user-properties (View): This sample demonstrates showing additional properties for a grouped user field in the group header. The user's picture, email, title, and department are all shown."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Inline Approval](https://github.com/pnp/list-formatting/tree/master/column-samples/approval-buttons-setValue-status-user){target=_blank title="approval-buttons-setValue-status-user (Column): Creates buttons to approve/reject an item by updating an Approval Status field created using a choice field, and also set the value of a person field to the user who took the action by using the setValue action."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Like / Dislike - Unique reaction](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-unique-reaction){target=_blank title="multi-person-unique-reaction (Column): This sample provides rounded images for each person in a multi-select person field."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![Mike-Honey](https://github.com/Mike-Honey.png?size=24)](https://github.com/Mike-Honey){.authorImage title="Mike-Honey" target="_blank"}
+## Mike Honey
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Right-Aligned Content](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-right-align){target=_blank title="generic-right-align (Column): This sample shows how to right-align your content, while preserving the number or date format set using the SharePoint / Lists UI.  Numbers and dates should typically be presented as right-aligned, for improved readability."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">5 samples</span>
+</div>
+[![NiketJain](https://github.com/NiketJain.png?size=24)](https://github.com/NiketJain){.authorImage title="NiketJain" target="_blank"}
+## Niket Jain
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Document Library Gallery Card](https://github.com/pnp/List-Formatting/tree/master/view-samples/document-library-gallery-card){target=_blank title="document-library-gallery-card (View): This sample uses tileProps element to format the tile layout for document libraries."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Custom Hover Card (Column)](https://github.com/pnp/list-formatting/tree/master/column-samples/custom-hover-card){target=_blank title="custom-hover-card (Column): A custom card is shown on hover of an item. The hover card shows additional details about an item's status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Hover Card (View)](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card){target=_blank title="custom-hover-card (View): A custom card is shown on hover of an item. The hover card shows additional details about an item's status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Default Hover Card](https://github.com/pnp/List-Formatting/tree/master/view-samples/default-hover-card){target=_blank title="default-hover-card (View): This sample demonstrates showing a default hover card in a document library. On hover in a formatted view on a file a file card is displayed. On hover in a formatted view on a person column a profile card is displayed."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Person Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-hover-card){target=_blank title="person-hover-card (Column): The following image shows a list with a default hover added to a formatted column in a list"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![pkbullock](https://github.com/pkbullock.png?size=24)](https://github.com/pkbullock){.authorImage title="pkbullock" target="_blank"}
+## Paul Bullock
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Publishing Status](https://github.com/pnp/list-formatting/tree/master/column-samples/number-version-publish-status){target=_blank title="number-version-publish-status (Column): Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![Ravikadri](https://github.com/Ravikadri.png?size=24)](https://github.com/Ravikadri){.authorImage title="Ravikadri" target="_blank"}
+## Ravi Chandra
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Document Library Thumbnails](https://github.com/pnp/list-formatting/tree/master/view-samples/document-library-thumbnails){target=_blank title="document-library-thumbnails (View): This sample demonstrates showing files in a document libary as preview images."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![rk-menon](https://github.com/rk-menon.png?size=24)](https://github.com/rk-menon){.authorImage title="rk-menon" target="_blank"}
+## Rk Menon
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Product Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/product-gallery){target=_blank title="product-gallery (View): This sample uses tileProps element to format the tile layout of the view."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
+[![sohailmerchant](https://github.com/sohailmerchant.png?size=24)](https://github.com/sohailmerchant){.authorImage title="sohailmerchant" target="_blank"}
+## S Merchant
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Concatenate Currency Symbol](https://github.com/pnp/list-formatting/tree/master/column-samples/currency-symbol-concatenation){target=_blank title="currency-symbol-concatenation (Column): This sample will allow the users to concatenate a currency symbol(£, $ ... etc.) to the existing data. This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a Project Register has been used."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Icon Link Tiles](https://github.com/pnp/list-formatting/tree/master/view-samples/icon-link-tiles){target=_blank title="icon-link-tiles (View): This sample uses tileProps element to create tile layout on the view.  This layout allow users to see the list as the promoted links app (including the power the security trimming on the items).  This sample uses the Icons from the Microsoft UI Fabric. The name of the icon is referenced through an Icon field."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Risk Score Indicator](https://github.com/pnp/list-formatting/tree/master/view-samples/risk-score-rowclass){target=_blank title="risk-score-rowclass (View): A number column is evaluated against tiers of values to provide colors corresponding to score ranges. "}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [RYG Status](https://github.com/pnp/list-formatting/tree/master/view-samples/ryg-status-rowclass){target=_blank title="ryg-status-rowclass (View): A status column is evaluated to provide colors corresponding to status. This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![siddharth-vaghasia](https://github.com/siddharth-vaghasia.png?size=24)](https://github.com/siddharth-vaghasia){.authorImage title="siddharth-vaghasia" target="_blank"}
+## Siddharth Vaghasia
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Color Based Emojis](https://github.com/pnp/list-formatting/tree/master/column-samples/color-based-smiley-face){target=_blank title="color-based-smiley-face (Column): This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">50 samples</span>
+</div>
+[![tecchan1107](https://github.com/tecchan1107.png?size=24)](https://github.com/tecchan1107){.authorImage title="tecchan1107" target="_blank"}
+## Tetsuya Kawahara
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Advent Calendar](https://github.com/pnp/List-Formatting/tree/master/view-samples/advent-calendar){target=_blank title="advent-calendar (View): This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Average Rating Row Class](https://github.com/pnp/List-Formatting/tree/master/view-samples/average-rating-rowclass){target=_blank title="average-rating-rowclass (View): This sample demonstrates how to change the background color of a row based on Average Rating."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Butterfly Chart](https://github.com/pnp/list-formatting/tree/master/view-samples/butterfly-chart){target=_blank title="butterfly-chart (View): This sample formats a SharePoint list view into a butterfly chart."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Count the Number of Clicks on a Link](https://github.com/pnp/List-Formatting/tree/master/column-samples/hyperlink-click-count){target=_blank title="hyperlink-click-count (Column): This sample demonstrates counting the number of clicks on a link."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Current User Liked Row Class](https://github.com/pnp/List-Formatting/tree/master/view-samples/currentuser-liked-rowclass){target=_blank title="currentuser-liked-rowclass (View): This sample demonstrates how to change the background color of a row that has been liked by the current user."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Dashed Line Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/dashed-line-header){target=_blank title="dashed-line-header (Form): This sample displays the Title and Description values in the heading and decorates them with dashed lines. If the Description value is empty, it will be hidden."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Demote News to Site Page](https://github.com/pnp/List-Formatting/tree/master/column-samples/promotedstate-demote-news){target=_blank title="promotedstate-demote-news (Column): This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Display a User's Photo in Group Header](https://github.com/pnp/List-Formatting/tree/master/view-samples/group-header-user-picture){target=_blank title="group-header-user-picture (View): This is a sample of customizing the group header when grouping by user column. Display the user's picture as well as the user's name in the group header."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display Comment Count](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-comment-count){target=_blank title="generic-comment-count (Column): This sample shows the comment count for a list item."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display Count Up and Count Down Buttons](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-countup-countdown){target=_blank title="number-countup-countdown (Column): This sample demonstrates a button with a number increasing by one and a button with a number decreasing by one."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display Hourglass](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-hourglass){target=_blank title="generic-hourglass (Column): This sample demonstrates displaying an hourglass."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart){target=_blank title="number-doughnut-chart (Column): Changes the appearance of the values in number columns (percent) to a donut chart."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Event Itinerary Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/event-itinerary-header){target=_blank title="event-itinerary-header (Form): This sample shows a customized header for the item form used in the "Event itinerary" list template."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Field Value Update Button](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-update-button){target=_blank title="generic-update-button (Column): This sample demonstrates displaying a button to update the fields values of an item."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [File Thumbnails](https://github.com/pnp/list-formatting/tree/master/column-samples/file-thumbnail){target=_blank title="file-thumbnail (Column): Utilizes the @thumbnail placeholder token to create an inline preview for document libraries."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Heart in Heart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-heart-in-heart){target=_blank title="number-heart-in-heart (Column): This sample demonstrates how to change the size of a heart by using the percent value of a numeric column."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Heart Shading](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-heart-shading){target=_blank title="number-heart-shading (Column): This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Honeycomb Links](https://github.com/pnp/List-Formatting/tree/master/view-samples/honeycomb-link){target=_blank title="honeycomb-link (View): Formats links to look like honeycombs!"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Inline Column Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-column-chart){target=_blank title="generic-column-chart (Column): This sample demonstrates displaying a column chart using SVG. It uses the currentColor for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Like/Dislike Bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-like-dislike-bar){target=_blank title="generic-like-dislike-bar (Column): This sample demonstrates displaying a Like/Dislike bar that visualizes the ratio of Like to Dislike users."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Liked By Users](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-likedby){target=_blank title="generic-likedby (Column): This sample demonstrates showing the users who have liked an item."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Likes Count Row Class](https://github.com/pnp/List-Formatting/tree/master/view-samples/likes-count-rowclass){target=_blank title="likes-count-rowclass (View): This sample demonstrates how to change the background color of a row depending on the number of likes."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Link Collection using Emojis](https://github.com/pnp/List-Formatting/tree/master/view-samples/emoji-link-tiles){target=_blank title="emoji-link-tiles (View): This sample demonstrates a link collection using Emoji and is a customization of the Gallery layout. Additionally, this sample combines group customization with a tile format."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Managed Metadata Tag Icon](https://github.com/pnp/List-Formatting/tree/master/column-samples/managed-metadata-tag-icon){target=_blank title="managed-metadata-tag-icon (Column): This sample displays a tag icon to the left of the value in the managed metadata column."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Message Chat Bubbles](https://github.com/pnp/List-Formatting/tree/master/view-samples/message-chat-bubbles){target=_blank title="message-chat-bubbles (View): This sample formats your SharePoint list view to look like message chat bubbles! If the Author is the current user, the message will be displayed on the right."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Monthly Emoji](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-monthly-emoji){target=_blank title="date-monthly-emoji (Column): This sample demonstrates how to display a emoji representing the month of the date to the left of the date."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Battery](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-battery){target=_blank title="number-battery (Column): This sample changes the appearance of the values in number columns (percent)  to look like a battery."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Number Gradation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-gradation){target=_blank title="number-gradation (Column): This sample demonstrates a gradual background color change between the minimum and maximum values."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Page-a-day Calendar](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-page-a-day-calendar){target=_blank title="date-page-a-day-calendar (Column): This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (getDate, getMonth, and getYear)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Piano](https://github.com/pnp/List-Formatting/tree/master/view-samples/piano){target=_blank title="piano (View): This sample formats your SharePoint list view to look like a piano."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Praise Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/praise-cards){target=_blank title="praise-cards (View): This sample demonstrates how to display Praise Cards. By creating a Praise Card, you can express your appreciation and admiration to others for their daily cooperation and actions!"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Progress bar using text or emoji](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-emoji-progressbar){target=_blank title="number-emoji-progressbar (Column): This sample demonstrates the use of text symbols and emoji to display a progress bar."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Reacting and displaying users who have reacted](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-reaction){target=_blank title="multi-person-reaction (Column): This sample demonstrates how to react and display users who have reacted."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Ribbon Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/ribbon-header){target=_blank title="ribbon-header (Form): This sample demonstrates displaying a ribbon in the header."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Scheduling Dialog Links to MS Teams and Outlook](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-scheduling-link){target=_blank title="generic-scheduling-link (Column): This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Shaded Backgrounds](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-background-color-shading){target=_blank title="number-background-color-shading (Column): This sample demonstrates how to change the shade of the background color according to the value of the number column."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Star Rating](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-star-rating){target=_blank title="number-star-rating (Column): This sample demonstrates changing the value of a number column to a star rating."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Time Schedule](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-time-schedule){target=_blank title="generic-time-schedule (Column): This sample demonstrates a time schedule with a filled background from Start time to End time."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Timeline](https://github.com/pnp/List-Formatting/tree/master/view-samples/timeline){target=_blank title="timeline (View): This sample formats your SharePoint list view to look like a timeline."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Timeline Format](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-timeline){target=_blank title="generic-timeline (Column): This sample demonstrates displaying a timeline in a column. If the column value is empty, no circle will be displayed. The content of the column will be shown in a popup when you click on the dot."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Timeline in Board View](https://github.com/pnp/List-Formatting/tree/master/view-samples/timeline-board){target=_blank title="timeline-board (View): This sample demonstrates displaying timelines in Board View."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Wave Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/wave-header-footer){target=_blank title="wave-header-footer (Form): This sample demonstrates how to display waves in the header and footer of a form. Waves are displayed using SVG."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Wordle](https://github.com/pnp/List-Formatting/tree/master/view-samples/wordle){target=_blank title="wordle (View): This sample reproduces the popular word puzzle game Wordle with Microsoft Lists."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Workflow Progress Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/workflow-progress-header){target=_blank title="workflow-progress-header (Form): This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [World Time](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-world-time){target=_blank title="generic-world-time (Column): This sample demonstrates the side-by-side display and comparison of the current time in different countries around the world."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yearly Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-yearly-gantt-chart){target=_blank title="generic-yearly-gantt-chart (Column): This sample demonstrates the display of a yearly Gantt chart."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Checkbox](https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkbox){target=_blank title="yesno-checkbox (Column): This sample uses Fluent UI icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Column Toggle](https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-toggle-format){target=_blank title="yesno-toggle-format (Column): This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, Emoji)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Icon Color](https://github.com/pnp/List-Formatting/tree/master/column-samples/yesno-icon-color){target=_blank title="yesno-icon-color (Column): This sample demonstrates how to change the color of the icon according to the value of the Yes/No column."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">5 samples</span>
+</div>
+[![TBag](https://github.com/TBag.png?size=24)](https://github.com/TBag){.authorImage title="TBag" target="_blank"}
+## Todd Baginski
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Budget Tracker Sample](https://github.com/pnp/list-formatting/tree/master/view-samples/budget-tracker){target=_blank title="budget-tracker (View): The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page. "}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Product Catalog](https://github.com/pnp/List-Formatting/tree/master/view-samples/product-catalog){target=_blank title="product-catalog (View): The product catalog sample demonstrates how to use view formatting to format lists and display views of the lists inside web parts. It also demonstrates how to create links to download documents from the SharePoint Document libraries."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Resource Catalog Sample](https://github.com/pnp/list-formatting/tree/master/view-samples/resource-catalog){target=_blank title="resource-catalog (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![tomresing](https://github.com/tomresing.png?size=24)](https://github.com/tomresing){.authorImage title="tomresing" target="_blank"}
+## Tom Resing
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Out of Office](https://github.com/pnp/List-Formatting/tree/master/view-samples/out-of-office){target=_blank title="out-of-office (View): This sample shows how to format a list to show upcoming employee time away from office."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
+</div>
+[![Travis-Constellation](https://github.com/Travis-Constellation.png?size=24)](https://github.com/Travis-Constellation){.authorImage title="Travis-Constellation" target="_blank"}
+## Travis Lingenfelder
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Traffic Light (Red-Yellow-Green) Status Indicator](https://github.com/pnp/list-formatting/tree/master/column-samples/text-ryg-status-indicator){target=_blank title="text-ryg-status-indicator (Column): This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of @currentField to @currentField.lookupValue)."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yes/No Column Check Mark](https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkmark){target=_blank title="yesno-checkmark (Column): This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the iconName attribute to display the CheckMark Fluent UI icon."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">6 samples</span>
+</div>
+[![VesaJuvonen](https://github.com/VesaJuvonen.png?size=24)](https://github.com/VesaJuvonen){.authorImage title="VesaJuvonen" target="_blank"}
+## Vesa Juvonen
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Data Bar](https://github.com/pnp/list-formatting/tree/master/column-samples/number-data-bar){target=_blank title="number-data-bar (Column): These formats apply background-color and border-top styles to create a data bar visualization of @currentField, which is a number field. These styles are applied using the special column formatting class sp-field-dataBars. The bars are sized differently for different values based on the way the width attribute of the main div is set."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Dynamic Links](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-hyperlink-values){target=_blank title="generic-hyperlink-values (Column): This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a + operator that appends the current field value to the static hyperlink http://finance.yahoo.com/quote/. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Minimum Value Highlight](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-format){target=_blank title="number-conditional-format (Column): This example uses the conditional operator ? to apply a class (sp-field-severity--warning) to the parent div element when the value in the current field is less than or equal to 70. This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it's greater than 70."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Overdue Date](https://github.com/pnp/list-formatting/tree/master/column-samples/date-range-format){target=_blank title="date-range-format (Column): This example colors the current field red when the value inside an item's DueDate is before the current date/time. Unlike some of the previous examples, this example applies formatting to one field by looking at the value inside another field. Note that DueDate is referenced using the [$FieldName] syntax. FieldName is assumed to be the internal name of the field. This example also takes advantage of a special value that can be used in date/time fields - @now, which resolves to the current date/time, evaluated when the user loads the list view."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Person Mail To Link](https://github.com/pnp/list-formatting/tree/master/column-samples/person-mailto){target=_blank title="person-mailto (Column): You can use column formatting to render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent <div /> element:"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Show trending up/trending down icons ](https://github.com/pnp/list-formatting/tree/master/column-samples/number-trending-icon){target=_blank title="number-trending-icon (Column): These formats rely on two number fields, Before and After, for which the values can be compared. They show the appropriate trending icon next to the value of the After field, depending on that field's value compared to the value in Before. The sp-field-trending--up class is used when After's value is higher; the sp-field-trending--down class is used when After's value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment)."}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+[![yborghmans](https://github.com/yborghmans.png?size=24)](https://github.com/yborghmans){.authorImage title="yborghmans" target="_blank"}
+## Yannick Borghmans
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Launch a Flow for a Selected Item](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-start-flow){target=_blank title="generic-start-flow (Column): You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow."}
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/author" />

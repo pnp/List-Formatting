@@ -1,73 +1,73 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-    "elmType": "div",
-    "children": [
-      {
-        "elmType": "div",
-        "style": {
-          "margin": "2px",
-          "width": "48px",
-          "height": "48px",
-          "overflow": "hidden",
-          "border-radius": "50%"
-        },
-        "children": [
-          {
-            "elmType": "a",
-            "attributes": {
-              "href": {
-                "operator": "+",
-                "operands": [
-                  "https://",
-                  "[$Social_x0020_Network]",
-                  ".com/",
-                  "@currentField"
-                ]
-              },
-              "title": {
-                "operator": "+",
-                "operands": [
-                  "@",
-                  "@currentField"
-                ]
-              },
-              "target": "_blank"
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "2px",
+        "width": "48px",
+        "height": "48px",
+        "overflow": "hidden",
+        "border-radius": "50%"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": {
+              "operator": "+",
+              "operands": [
+                "https://",
+                "[$SocialNetwork]",
+                ".com/",
+                "@currentField"
+              ]
             },
-            "children": [
-              {
-                "elmType": "img",
-                "attributes": {
-                  "src": {
-                    "operator": "+",
-                    "operands": [
-                      "https://unavatar.now.sh/",
-                      "[$Social_x0020_Network]",
-                      "/",
-                      "@currentField",
-                      "/medium"
-                    ]
-                  },
-                  "alt": {
-                    "operator": "+",
-                    "operands": [
-                      "@",
-                      "@currentField"
-                    ]
-                  }
+            "title": {
+              "operator": "+",
+              "operands": [
+                "@",
+                "@currentField"
+              ]
+            },
+            "target": "_blank"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "attributes": {
+                "src": {
+                  "operator": "+",
+                  "operands": [
+                    "https://unavatar.now.sh/",
+                    "[$SocialNetwork]",
+                    "/",
+                    "@currentField",
+                    "/medium"
+                  ]
                 },
-                "style": {
-                  "position": "relative",
-                  "top": "50%",
-                  "left": "50%",
-                  "width": "100%",
-                  "height": "auto",
-                  "margin-left": "-50%",
-                  "margin-top": "-50%"
+                "alt": {
+                  "operator": "+",
+                  "operands": [
+                    "@",
+                    "@currentField"
+                  ]
                 }
+              },
+              "style": {
+                "position": "relative",
+                "top": "50%",
+                "left": "50%",
+                "width": "100%",
+                "height": "auto",
+                "margin-left": "-50%",
+                "margin-top": "-50%"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

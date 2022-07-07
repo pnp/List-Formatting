@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Person Mail To Link",
     "shortDescription": "You can use column formatting to render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent \u0060\u003Cdiv /\u003E\u0060 element:",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/person-mailto",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-mailto",
     "longDescription": [
       "You can use column formatting to render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent \u0060\u003Cdiv /\u003E\u0060 element:"
     ],
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Person"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-quickAction"
       }
     ],
     "thumbnails": [

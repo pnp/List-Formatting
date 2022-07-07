@@ -1,0 +1,120 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideListHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themePrimary ms-borderColor-themeDark ms-fontColor-white"
+        },
+        "style": {
+          "font-size": "24px",
+          "border-width": "2px",
+          "border-style": "solid",
+          "width": "100%",
+          "padding": "4px"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "txtContent": "Q",
+            "attributes": {
+              "class": "ms-fontColor-themeTertiary"
+            },
+            "style": {
+              "padding-right": "10px",
+              "padding-left": "6px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "elmType": "span",
+            "txtContent": "[$Title]"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-borderColor-themeDark"
+        },
+        "style": {
+          "padding-left": "40px",
+          "width": "100%",
+          "border-width": "2px",
+          "border-style": "solid",
+          "padding": "4px",
+          "font-size": "14px",
+          "border-top-width": "0",
+          "margin-bottom": "20px"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "txtContent": "[$Answer]",
+            "style": {
+              "display": "=if(length([$Keyword]) && length([$KeywordLink]),'none','')"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if(length([$Keyword]) && length([$KeywordLink]),'','none')"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "=substring([$Answer],0,indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))"
+              },
+              {
+                "elmType": "a",
+                "style": {
+                  "display": "=if(indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword])) != -1, '', 'none')",
+                  "font-weight": "bold"
+                },
+                "attributes": {
+                  "class": "ms-fontColor-themeSecondary",
+                  "href": "[$KeywordLink]",
+                  "title": "[$KeywordLink.desc]"
+                },
+                "txtContent": "=substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword])),indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'))"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "=if(indexOf(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)+'|','|') < indexOf([$Answer]+'|','|'), '', 'none')"
+                },
+                "txtContent": "=substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),if(indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword])) == -1, 1000, indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|') + indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword]))))"
+              },
+              {
+                "elmType": "a",
+                "style": {
+                  "display": "=if(indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword])) != -1, '', 'none')",
+                  "font-weight": "bold"
+                },
+                "attributes": {
+                  "class": "ms-fontColor-themeSecondary",
+                  "href": "[$KeywordLink]",
+                  "title": "[$KeywordLink.desc]"
+                },
+                "txtContent": "=substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|')+indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword])),indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|')+indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'))"
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|')+indexOf(toLowerCase(substring([$Answer],indexOf(toLowerCase([$Answer]),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)),toLowerCase([$Keyword]))+indexOf([$Keyword]+'|','|'),1000)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

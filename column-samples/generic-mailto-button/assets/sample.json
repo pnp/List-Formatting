@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-mailto-button",
     "reponame": "generic-mailto-button",
     "source": "pnp",
-    "title": "Mail To Button",
+    "title": "MailTo Button",
     "shortDescription": "This sample demonstrates making a mailto link (opens email with prepopulated values) button that references a different field.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-mailto-button",
     "longDescription": [
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDark, ms-fontColor-themeDark--hover, ms-font-xxl"
       }
     ],
     "thumbnails": [

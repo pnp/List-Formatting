@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Icon Progress Bar",
     "shortDescription": "This sample demonstrates creating a progress bar using icons. The number column represents the stage in a process and the format provides a visual indicator of where an item is in relation to the process by showing the previous steps as completed, highlighting the current step, and indicating which steps remain.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-icon-progressbar",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-icon-progressbar",
     "longDescription": [
       "This sample demonstrates creating a progress bar using icons. The number column represents the stage in a process and the format provides a visual indicator of where an item is in relation to the process by showing the previous steps as completed, highlighting the current step, and indicating which steps remain."
     ],
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-green, ms-fontColor-greenLight, ms-fontColor-neutralLight"
       }
     ],
     "thumbnails": [
@@ -43,8 +63,8 @@
     ],
     "authors": [
       {
-        "gitHubAccount": "Julien Seguin",
-        "pictureUrl": "https://github.com/Julien Seguin.png",
+        "gitHubAccount": "[NA]",
+        "pictureUrl": "https://pbs.twimg.com/profile_images/1420442939797409794/dl6xyLe3_400x400.jpg",
         "name": "Julien Seguin"
       }
     ],

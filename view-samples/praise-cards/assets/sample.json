@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-praise-cards",
+    "reponame": "praise-cards",
+    "source": "pnp",
+    "title": "Praise Cards",
+    "shortDescription": "This sample demonstrates how to display Praise Cards. By creating a Praise Card, you can express your appreciation and admiration to others for their daily cooperation and actions!",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/praise-cards",
+    "longDescription": [
+      "This sample demonstrates how to display Praise Cards. By creating a Praise Card, you can express your appreciation and admiration to others for their daily cooperation and actions!"
+    ],
+    "creationDateTime": "2022-01-23T00:00:00.000Z",
+    "updateDateTime": "2022-01-23T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, length, getUserImage, appendTo, removeFrom"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, defaultHoverField, customCardProps, directionalHint, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeLighter--hover, ms-fontColor-themePrimary, ms-fontColor-themeDark--hover, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiaryAlt, ms-fontColor-white"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/praise-cards/assets/screenshot.png",
+        "alt": "Praise Card"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

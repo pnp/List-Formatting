@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-number-countup-countdown",
     "reponame": "number-countup-countdown",
     "source": "pnp",
-    "title": "Display count-up and count-down buttons",
+    "title": "Display Count Up and Count Down Buttons",
     "shortDescription": "This sample demonstrates a button with a number increasing by one and a button with a number decreasing by one.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-battery",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-countup-countdown",
     "longDescription": [
       "This sample demonstrates a button with a number increasing by one and a button with a number decreasing by one."
     ],
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeDark--hover, ms-fontColor-white"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-countup-countdown/assets/screen_capture.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-countup-countdown/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],

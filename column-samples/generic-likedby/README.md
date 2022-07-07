@@ -1,4 +1,4 @@
-# Display users who have liked
+# Liked By Users
 
 ## Summary
 This sample demonstrates showing the users who have liked an item.
@@ -40,9 +40,9 @@ Disconnect-PnPOnline
 
 ## Sample
 
-Solution             |Author(s)
----------------------|------------------------------------------------
-generic-likedby.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-likedby.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -57,4 +57,4 @@ Version |Date            |Comments
 - [PnP PowerShell](https://pnp.github.io/powershell)
 - [Add a ratings feature to your library](https://support.microsoft.com/en-us/office/add-a-ratings-feature-to-your-library-5901fcfd-19ca-4f27-a65f-284654298552)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-likedby" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-likedby" />

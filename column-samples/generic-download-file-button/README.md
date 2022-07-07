@@ -2,7 +2,7 @@
 
 ## Summary
 
-This column formatting sample demonstrates how to add a button in document library view which downloads the file on click of button. 
+This sample demonstrates adding a button within a document library view which downloads the file. 
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -14,9 +14,9 @@ This format can be applied to any column type (its value is ignored).
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-generic-download-file-button.json |[Ganesh Sanap](https://twitter.com/GaneshSanap20)
+Solution|Author(s)
+--------|---------
+generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
 
 ## Version history
 

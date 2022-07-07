@@ -34,16 +34,16 @@ This format can be applied to any column type but expects the following columns 
 
 ## Sample
 
-Solution                                                |Author(s)
---------------------------------------------------------|---------------------------
-generic-update-button-theme-color-border-text.json      |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-theme-color-filled-icon-text.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-theme-color-filled-icon.json      |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-theme-color-filled-text.json      |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-OK-NG-border-text.json            |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-OK-NG-filled-icon-text.json       |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-OK-NG-filled-icon.json            |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-update-button-OK-NG-filled-text.json            |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-update-button.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-theme-color-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-theme-color-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-theme-color-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-OK-NG-border-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-OK-NG-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-OK-NG-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button-OK-NG-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

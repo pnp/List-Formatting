@@ -15,9 +15,9 @@ This sample demonstrates the display of a yearly Gantt chart.
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-generic-yearly-gantt-chart.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-yearly-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -28,4 +28,4 @@ Version |Date          |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-yearly-gantt-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-yearly-gantt-chart" />

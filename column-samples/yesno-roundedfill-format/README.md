@@ -3,10 +3,10 @@
 ## Summary
 This sample includes custom checkbox rounded styles.
 
-![Date update](./assets/CheckboxOptionsStyles.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
-- The format expect the following fields:
+- The format expects the following fields:
 
 Field |Type
 --------|---------
@@ -19,8 +19,8 @@ AzureOption | Yes/No - field with Azure look style
 
 Solution|Author(s)
 --------|---------
-[yesno-roundedfill-format.json](./yesno-roundedfill-format.json) | [André Lage](https://twitter.com/aaclage)
-[yesno-azure-format.json](./yesno-azure-format.json) | [André Lage](https://twitter.com/aaclage)
+yesno-roundedfill-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+yesno-azure-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 

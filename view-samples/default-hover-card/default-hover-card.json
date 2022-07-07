@@ -1,0 +1,271 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "tileProps": {
+    "height": "500",
+    "width": "300",
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "align-items": "stretch",
+        "box-shadow": "0 1.6px 3.6px 0 #00000022, 0 0.3px 0.9px 0 #0000001c",
+        "min-width": "150px",
+        "width": "100%",
+        "margin-bottom": "0",
+        "border-radius": "3px",
+        "margin": "0 2px",
+        "background-color": "#fbfbfb",
+        "height": "500px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-wrap": "wrap",
+            "position": "relative",
+            "padding-bottom": "30px",
+            "width": "100%"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "100%",
+                "background-color": "#e4e4e4",
+                "overflow": "hidden",
+                "height": "200px",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "position": "relative"
+              },
+              "children": [
+                {
+                  "elmType": "button",
+                  "style": {
+                    "position": "absolute",
+                    "height": "100%",
+                    "width": "100%",
+                    "opacity": "0",
+                    "cursor": "pointer"
+                  },
+                  "customRowAction": {
+                    "action": "defaultClick"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "oveflow": "=if([$File_x0020_Type] == '', 'auto', 'hidden')"
+                  },
+                  "children": [
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "width": "=if([$File_x0020_Type] == '', '100%', '0'",
+                        "height": "=if([$File_x0020_Type] == '', '100px', '0'"
+                      },
+                      "attributes": {
+                        "src": "=if([$File_x0020_Type] == '', 'https://spoprod-a.akamaihd.net/files/fabric/office-ui-fabric-react-assets/foldericons-fluent/folder-large_frontplate_nopreview.svg', '')"
+                      }
+                    },
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "width": "100%",
+                        "height": "100%",
+                        "display": "=if([$File_x0020_Type] == '', 'none', '')"
+                      },
+                      "attributes": {
+                        "src": "@thumbnail.300x300"
+                      },
+                      "defaultHoverField": "[$FileLeafRef]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "margin": "15px 0",
+                "position": "absolute",
+                "top": "200px",
+                "width": "100%"
+              },
+              "attributes": {
+                "class": "ms-fontSize-14 ms-fontWeight-semibold"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "[$FileLeafRef]",
+                  "style": {
+                    "padding": "0 0 0 16px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "padding": "0 16px",
+                "line-height": "20px",
+                "width": "100%"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "inline-block",
+                    "flex": "1 0 34%"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "color": "#a7a7a7"
+                      },
+                      "txtContent": "=if([$File_x0020_Type] == '', 'Folder Name', 'File Name')"
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$FileLeafRef]"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "inline-block",
+                    "flex": "1 0 34%"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "color": "#a7a7a7"
+                      },
+                      "txtContent": "Modified"
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "=toDateString([$Modified])"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "inline-block",
+                    "flex": "1 0 34%"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "color": "#a7a7a7"
+                      },
+                      "txtContent": "Editor Name"
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Editor.title]",
+                      "defaultHoverField": "[$Editor]"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "inline-block",
+                    "flex": "1 0 34%"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "color": "#a7a7a7"
+                      },
+                      "txtContent": "Item Child Count"
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$ItemChildCount]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "border-top": "1px solid #c8c8c8",
+                "width": "100%",
+                "height": "30px",
+                "padding": "8px 0",
+                "position": "absolute",
+                "bottom": "0",
+                "display": "flex",
+                "justify-content": "space-around"
+              },
+              "children": [
+                {
+                  "elmType": "button",
+                  "customRowAction": {
+                    "action": "executeFlow",
+                    "actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
+                  },
+                  "attributes": {
+                    "title": "Edit"
+                  },
+                  "style": {
+                    "padding": "5px 10px",
+                    "cursor": "pointer",
+                    "border": "none",
+                    "color": "white",
+                    "font-weight": "600",
+                    "background-color": "#0078d4"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "Request Sign Off"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "button",
+                  "customRowAction": {
+                    "action": "editProps"
+                  },
+                  "attributes": {
+                    "title": "Edit"
+                  },
+                  "style": {
+                    "padding": "5px",
+                    "color": "black",
+                    "border": "1px solid black",
+                    "background-color": "white",
+                    "cursor": "pointer"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "Edit Item"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

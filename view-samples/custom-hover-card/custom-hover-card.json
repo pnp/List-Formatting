@@ -1,0 +1,1023 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "tileProps": {
+    "hideSelection": true,
+    "height": "520",
+    "width": "300",
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "align-items": "stretch",
+        "margin-bottom": "16px",
+        "min-width": "150px",
+        "flex-grow": "1",
+        "justify-content": "space-around",
+        "padding": "8px",
+        "color": "#333333"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "95%",
+            "height": "98%",
+            "box-shadow": "0px 1.6px 3.6px 0 #00000024, 0px 0.3px 0.9px 0 #00000024",
+            "overflow": "hidden",
+            "border-radius": "2px"
+          },
+          "attributes": {
+            "class": "ms-bgColor-neutralLighterAlt"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "inline-block",
+                "min-width": "300px"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "attributes": {
+                    "src": "=if([$ProductPhoto] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$ProductPhoto])",
+                    "title": "=if([$ProductPhoto] == '', 'No picture available', [$Picture.desc])"
+                  },
+                  "style": {
+                    "width": "100%",
+                    "height": "200px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "inline-block",
+                "min-width": "300px",
+                "vertical-align": "top",
+                "padding-left": "16px",
+                "padding-top": "16px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "iconName": "More"
+                  },
+                  "style": {
+                    "font-weight": "bold",
+                    "padding-left": "220px"
+                  },
+                  "customCardProps": {
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "width": "180px",
+                        "line-height": "35px"
+                      },
+                      "attributes": {
+                        "class": "ms-ContextualMenu-list is-open list-436"
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "width": "100%"
+                          },
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "attributes": {
+                                "class": "ms-bgColor-themeLight--hover"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "button",
+                                  "txtContent": "Share",
+                                  "style": {
+                                    "border": "unset",
+                                    "background-color": "unset",
+                                    "font-size": "16px",
+                                    "cursor": "pointer",
+                                    "width": "100%",
+                                    "text-align": "left",
+                                    "padding": "10px"
+                                  },
+                                  "customRowAction": {
+                                    "action": "share"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "attributes": {
+                                "class": "ms-bgColor-themeLight--hover"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "button",
+                                  "style": {
+                                    "border": "unset",
+                                    "background-color": "unset",
+                                    "font-size": "16px",
+                                    "width": "100%",
+                                    "text-align": "left",
+                                    "cursor": "pointer",
+                                    "padding": "10px"
+                                  },
+                                  "txtContent": "Delete",
+                                  "customRowAction": {
+                                    "action": "delete"
+                                  },
+                                  "attributes": {
+                                    "class": "ms-ContextualMenu-link root-441"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "attributes": {
+                                "class": "ms-bgColor-themeLight--hover"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "button",
+                                  "txtContent": "Edit",
+                                  "style": {
+                                    "border": "unset",
+                                    "background-color": "unset",
+                                    "font-size": "16px",
+                                    "width": "100%",
+                                    "text-align": "left",
+                                    "cursor": "pointer",
+                                    "padding": "10px"
+                                  },
+                                  "customRowAction": {
+                                    "action": "editProps"
+                                  },
+                                  "attributes": {
+                                    "class": "ms-ContextualMenu-link root-441"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "width": "100%"
+                              },
+                              "attributes": {
+                                "class": "ms-bgColor-themeLight--hover"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "button",
+                                  "txtContent": "Flow",
+                                  "style": {
+                                    "border": "unset",
+                                    "background-color": "unset",
+                                    "font-size": "16px",
+                                    "width": "100%",
+                                    "text-align": "left",
+                                    "cursor": "pointer",
+                                    "padding": "10px"
+                                  },
+                                  "customRowAction": {
+                                    "action": "executeFlow",
+                                    "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\", \"headerText\":\"It's Flow Time!\",\"runFlowButtonText\":\"Do it\"}"
+                                  },
+                                  "attributes": {
+                                    "class": "ms-ContextualMenu-link root-441"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "display": "flex",
+                                "flex-direction": "normal"
+                              },
+                              "attributes": {
+                                "class": "ms-bgColor-themeLight--hover"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "div",
+                                  "txtContent": "Vendor details",
+                                  "style": {
+                                    "border": "unset",
+                                    "background-color": "unset",
+                                    "font-size": "16px",
+                                    "width": "100%",
+                                    "text-align": "left",
+                                    "cursor": "pointer",
+                                    "padding": "10px"
+                                  },
+                                  "customCardProps": {
+                                    "formatter": {
+                                      "elmType": "div",
+                                      "style": {
+                                        "line-height": "35px"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-ContextualMenu-list is-open list-436"
+                                      },
+                                      "children": [
+                                        {
+                                          "elmType": "div",
+                                          "style": {
+                                            "width": "100%"
+                                          },
+                                          "children": [
+                                            {
+                                              "elmType": "div",
+                                              "style": {
+                                                "width": "100%"
+                                              },
+                                              "attributes": {
+                                                "class": "ms-bgColor-themeLight--hover"
+                                              },
+                                              "children": [
+                                                {
+                                                  "elmType": "div",
+                                                  "style": {
+                                                    "border": "unset",
+                                                    "background-color": "unset",
+                                                    "font-size": "16px",
+                                                    "cursor": "pointer",
+                                                    "width": "100%",
+                                                    "text-align": "left",
+                                                    "padding": "10px"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "elmType": "a",
+                                                      "style": {
+                                                        "margin-right": "20px",
+                                                        "border": "unset",
+                                                        "background-color": "unset",
+                                                        "font-size": "16px"
+                                                      },
+                                                      "attributes": {
+                                                        "iconName": "Mail",
+                                                        "href": "mailto:arkgupta@microsoft.com"
+                                                      }
+                                                    },
+                                                    {
+                                                      "elmType": "span",
+                                                      "txtContent": "[$VendorPersonnel]",
+                                                      "style": {
+                                                        "margin-right": "20px",
+                                                        "border": "unset",
+                                                        "background-color": "unset",
+                                                        "font-size": "16px"
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "elmType": "div",
+                                              "style": {
+                                                "width": "100%"
+                                              },
+                                              "attributes": {
+                                                "class": "ms-bgColor-themeLight--hover"
+                                              },
+                                              "children": [
+                                                {
+                                                  "elmType": "div",
+                                                  "style": {
+                                                    "border": "unset",
+                                                    "background-color": "unset",
+                                                    "font-size": "16px",
+                                                    "cursor": "pointer",
+                                                    "width": "100%",
+                                                    "text-align": "left",
+                                                    "padding": "10px"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "elmType": "a",
+                                                      "style": {
+                                                        "margin-right": "20px",
+                                                        "border": "unset",
+                                                        "background-color": "unset",
+                                                        "font-size": "16px"
+                                                      },
+                                                      "attributes": {
+                                                        "iconName": "Globe",
+                                                        "href": "www.bing.com"
+                                                      }
+                                                    },
+                                                    {
+                                                      "elmType": "a",
+                                                      "txtContent": "[$Vendor]",
+                                                      "style": {
+                                                        "margin-right": "20px",
+                                                        "border": "unset",
+                                                        "background-color": "unset",
+                                                        "font-size": "16px"
+                                                      },
+                                                      "attributes": {
+                                                        "href": "www.bing.com"
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    "openOnEvent": "hover",
+                                    "directionalHint": "rightBottomEdge",
+                                    "hoverCardProps": {
+                                      "isSticky": true
+                                    }
+                                  }
+                                },
+                                {
+                                  "elmType": "div",
+                                  "attributes": {
+                                    "iconName": "ChevronRight"
+                                  },
+                                  "style": {
+                                    "float": "right",
+                                    "padding": "11px 5px 0px 0px"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "openOnEvent": "click",
+                    "directionalHint": "bottomRightEdge"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "color": "#767676",
+                    "font-size": "12px"
+                  },
+                  "txtContent": "Product"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "margin-bottom": "12px",
+                    "font-size": "16px",
+                    "font-weight": "600"
+                  },
+                  "txtContent": "[$Title]"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "Price",
+                  "style": {
+                    "color": "#767676",
+                    "font-size": "12px",
+                    "margin-bottom": "2px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "14px",
+                    "margin-bottom": "12px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                          "$",
+                          "[$ProductPrice]"
+                        ]
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "margin-left": "5px",
+                        "margin-top": "5px"
+                      },
+                      "attributes": {
+                        "iconName": "Info"
+                      },
+                      "customCardProps": {
+                        "formatter": {
+                          "elmType": "div",
+                          "style": {
+                            "background-color": "none",
+                            "box-shadow": "0px 6.4px 14.4px 0 #00000024, 0px 1.2px 3.6px 0 #00000024",
+                            "border-radius": "2px"
+                          },
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "15px",
+                                "padding-right": "30px"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "margin-bottom": "9px"
+                                  },
+                                  "children": [
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "14px",
+                                        "font-weight": "600"
+                                      },
+                                      "txtContent": "Price breakup"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "style": {
+                                    "border-radius": "2px"
+                                  },
+                                  "children": [
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "margin-bottom": "9px"
+                                      },
+                                      "children": [
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "font-size": "14px",
+                                            "font-weight": "400"
+                                          },
+                                          "txtContent": "Base Price"
+                                        },
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "margin-left": "100px",
+                                            "float": "right"
+                                          },
+                                          "txtContent": {
+                                            "operator": "+",
+                                            "operands": [
+                                              "$",
+                                              "=floor([$BasePrice]*100)/100"
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "margin-bottom": "9px"
+                                      },
+                                      "children": [
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "font-size": "14px",
+                                            "font-weight": "400"
+                                          },
+                                          "txtContent": "Shipping"
+                                        },
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "margin-left": "100px",
+                                            "float": "right"
+                                          },
+                                          "txtContent": {
+                                            "operator": "+",
+                                            "operands": [
+                                              "$",
+                                              "=floor([$ShippingCharges]*100)/100"
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "margin-bottom": "9px"
+                                      },
+                                      "children": [
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "font-size": "14px",
+                                            "font-weight": "400"
+                                          },
+                                          "txtContent": "Tax @8.6%"
+                                        },
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "margin-left": "100px",
+                                            "float": "right"
+                                          },
+                                          "txtContent": {
+                                            "operator": "+",
+                                            "operands": [
+                                              "$",
+                                              "=floor([$Tax]*100)/100"
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "border": "1px solid #CCCCCC",
+                                        "margin-top": "12px",
+                                        "margin-bottom": "12px"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "children": [
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "font-size": "14px",
+                                            "font-weight": "600"
+                                          },
+                                          "txtContent": "Total"
+                                        },
+                                        {
+                                          "elmType": "span",
+                                          "style": {
+                                            "margin-left": "100px",
+                                            "float": "right"
+                                          },
+                                          "txtContent": "= '$' + [$ProductPrice]"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "hoverCardProps": {
+                          "isSticky": false
+                        },
+                        "openOnEvent": "hover",
+                        "directionalHint": "bottomCenter"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "Features",
+                  "style": {
+                    "color": "#767676",
+                    "font-size": "12px",
+                    "margin-bottom": "2px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "14px",
+                    "margin-bottom": "10px",
+                    "width": "235px",
+                    "height": "70px"
+                  },
+                  "txtContent": "[$Features]"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "Status",
+                  "style": {
+                    "color": "#767676",
+                    "font-size": "12px",
+                    "margin-bottom": "2px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "14px",
+                    "margin-bottom": "10px",
+                    "width": "235px",
+                    "height": "70px"
+                  },
+                  "txtContent": "[$Status]",
+                  "customCardProps": {
+                    "formatter": {
+                      "elmType": "div",
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "style": {
+                                "padding": "15px 45px 15px 15px"
+                              },
+                              "children": [
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "18px",
+                                        "font-weight": "550",
+                                        "text-align": "center",
+                                        "margin-bottom": "10px"
+                                      },
+                                      "txtContent": "Tracking details"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "padding-left": "15px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "StatusCircleCheckmark",
+                                        "class": "ms-fontColor-green"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "margin-left": "-16px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "CircleRing",
+                                        "class": "ms-fontColor-green"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "=if([$StatusCode] > 0, '16px', ''",
+                                        "font-weight": "=if([$StatusCode] > 0, '600', ''",
+                                        "padding-left": "9px"
+                                      },
+                                      "txtContent": "Ready to be packed",
+                                      "attributes": {
+                                        "class": "ms-fontColor-green"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "10px",
+                                        "font-weight": "600",
+                                        "text-align": "center"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-fontColor-black"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "border-left-style": "solid",
+                                        "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')",
+                                        "text-align": "center",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "padding-left": "15px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "=if([$StatusCode] > 0, 'StatusCircleCheckmark', 'CircleRing')",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "margin-left": "-16px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "CircleRing",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "=if([$StatusCode] > 0, '16px', ''",
+                                        "font-weight": "=if([$StatusCode] > 0, '600', ''",
+                                        "padding-left": "9px"
+                                      },
+                                      "txtContent": "Packed",
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "10px",
+                                        "font-weight": "600",
+                                        "text-align": "center",
+                                        "border-left-style": "solid",
+                                        "border-left-color": "=if([$StatusCode] > 1,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-fontColor-black"
+                                      },
+                                      "txtContent": "[$PackedDate]"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "border-left-style": "solid",
+                                        "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "padding-left": "15px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "=if([$StatusCode] > 1, 'StatusCircleCheckmark', 'CircleRing')",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "margin-left": "-16px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "CircleRing",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "=if([$StatusCode] > 1, '16px', ''",
+                                        "font-weight": "=if([$StatusCode] > 1, '600', ''",
+                                        "padding-left": "9px"
+                                      },
+                                      "txtContent": "Shipped",
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "10px",
+                                        "font-weight": "600",
+                                        "text-align": "center",
+                                        "border-left-style": "solid",
+                                        "border-left-color": "= if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-fontColor-black"
+                                      },
+                                      "txtContent": "[$ShippedDate]"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "border-left-style": "solid",
+                                        "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "padding-left": "15px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "=if([$StatusCode] > 2, 'StatusCircleCheckmark', 'CircleRing')",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "margin-left": "-16px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "CircleRing",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "=if([$StatusCode] > 2, '16px', ''",
+                                        "font-weight": "=if([$StatusCode] > 2, '600', ''",
+                                        "padding-left": "9px"
+                                      },
+                                      "txtContent": "In transit",
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "10px",
+                                        "font-weight": "600",
+                                        "text-align": "center",
+                                        "border-left-style": "solid",
+                                        "border-left-color": "=if([$StatusCode] > 3,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-fontColor-black"
+                                      },
+                                      "txtContent": "[$InTransitStartDate]"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "border-left-style": "solid",
+                                        "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "elmType": "div",
+                                  "children": [
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "padding-left": "15px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "=if([$StatusCode] > 3, 'StatusCircleCheckmark', 'CircleRing')",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "16px",
+                                        "font-weight": "600",
+                                        "margin-left": "-16px"
+                                      },
+                                      "attributes": {
+                                        "iconName": "CircleRing",
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "span",
+                                      "style": {
+                                        "font-size": "=if([$StatusCode] > 3, '16px', ''",
+                                        "font-weight": "=if([$StatusCode] > 3, '600', ''",
+                                        "padding-left": "9px"
+                                      },
+                                      "txtContent": "Delivered",
+                                      "attributes": {
+                                        "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
+                                      }
+                                    },
+                                    {
+                                      "elmType": "div",
+                                      "style": {
+                                        "font-size": "10px",
+                                        "font-weight": "600",
+                                        "text-align": "center",
+                                        "margin-left": "21px"
+                                      },
+                                      "attributes": {
+                                        "class": "ms-fontColor-black"
+                                      },
+                                      "txtContent": "[$DeliveredDate]"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "hoverCardProps": {
+                      "isSticky": false
+                    },
+                    "openOnEvent": "hover",
+                    "directionalHint": "topCenter"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,7 @@ This sample demonstrates displaying a ribbon in the header. The values of the `T
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-## View requirements
+## Form requirements
 
 |Type                   |Internal Name|Required|
 |-----------------------|-------------|:------:|
@@ -13,9 +13,9 @@ This sample demonstrates displaying a ribbon in the header. The values of the `T
 
 ## Sample
 
-Solution           |Author(s)
--------------------|---------------------------
-ribbon-header.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+ribbon-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

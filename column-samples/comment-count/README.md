@@ -1,13 +1,9 @@
-# Display number of Comments on current item
+# Comment Count
 
 ## Summary
 This sample adds a visual indicator to a list item, showing the number of comments present on it. This is achieved by using the built-in [$_CommentCount] reference, which returns the number of comments on the current item.
 
-
-
-![screenshot of sample](./assets/screenshot.png).  
-
-
+![screenshot of the sample](./assets/screenshot.png).  
 
 ## View requirements
 This can be added on any column, overwriting its contents. You could, e.g., create an empty Single Line of Text column called Comment Count and format it with this sample.
@@ -20,7 +16,7 @@ Comment Count  | Single Line of Text.
 
 Solution|Author(s)
 --------|---------
-comment-count.json | [Chris Kent](https://twitter.com/thechriskent)
+comment-count.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -36,4 +32,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/comment-count" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/comment-count" />

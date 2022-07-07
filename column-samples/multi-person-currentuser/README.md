@@ -1,4 +1,4 @@
-# Highlight the current user
+# Highlight the Current User (Using a Multi-Person Column)
 
 ## Summary
 This sample uses the `@me` keyword to check if the person field contains the current user and shows that entry using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields.
@@ -17,7 +17,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 Solution|Author(s)
 --------|---------
-multi-person-currentuser.json | [Chris Kent](https://twitter.com/thechriskent)
+multi-person-currentuser.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -37,4 +37,4 @@ Version|Date|Comments
 This sample works for **both** single and multi-select person fields.However, an additional sample is available intended for use with single-select person fields: [person-currentuser-rowclass](../person-currentuser). It is a simpler sample intended to show how to use the `@me` operator.
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-person-currentuser" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-currentuser" />

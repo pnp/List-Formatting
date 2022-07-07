@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-christmas-tree",
+    "reponame": "christmas-tree",
+    "source": "pnp",
+    "title": "Christmas Tree",
+    "shortDescription": "This sample draws a tree across rows in 3 different stages 'alt' as top, 'body' as tree and 'wood' as bottom. You can also include icons in the tree. The Title field will appear as a tooltip on the icons.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/christmas-tree",
+    "longDescription": [
+      "This sample draws a tree across rows in 3 different stages 'alt' as top, 'body' as tree and 'wood' as bottom. You can also include icons in the tree. The Title field will appear as a tooltip on the icons."
+    ],
+    "creationDateTime": "2021-12-09T00:00:00.000Z",
+    "updateDateTime": "2021-12-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/christmas-tree/assets/screenshot.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/christmas-tree/assets/screenshot-presents.png",
+        "alt": "screenshot with presents"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

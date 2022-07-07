@@ -15,7 +15,7 @@ This sample utilizes sub properties of a Location column to build an image `src`
 
 Solution|Author(s)
 --------|---------
-location-weather.json | [Chris Kent](https://twitter.com/thechriskent)
+location-weather.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/location-weather" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/location-weather" />

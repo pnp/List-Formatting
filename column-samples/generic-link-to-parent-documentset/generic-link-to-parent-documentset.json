@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "txtContent": "=replace(replace([$FileRef], '/'+[$FileLeafRef],''),'/sites/Sitecollection/Library name/',''",
+  "attributes": {
+    "href": "=replace([$FileRef], '/'+[$FileLeafRef],'') + '/'"
+  }
+}

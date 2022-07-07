@@ -1,4 +1,4 @@
-# Linking to the scheduling dialog in Microsoft Teams and Microsoft Outlook
+# Scheduling Dialog Links to MS Teams and Outlook
 
 ## Summary
 This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.
@@ -31,10 +31,11 @@ Alternatively, an additional format (generic-scheduling-link-advanced.json) is i
 These formulas have been put into the separate format because they are difficult to read and are not universally applicable. If you are targeting multiple regions with varying locale formats it is advised to use the calculated columns and the standard version of the format.
 
 ## Sample
-Solution                     |Author(s)
------------------------------|---------------------------
-generic-scheduling-link.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-generic-scheduling-link-advanced.json |[Tetsuya Kawahara](https://twitter.com/techan_k) & [Chris Kent](https://twitter.com/thechriskent)
+
+Solution|Author(s)
+--------|---------
+generic-scheduling-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-scheduling-link-advanced.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)) & [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -48,4 +49,4 @@ Version |Date             |Comments
 ## Additional notes
 - [Create deep links to content and features in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#generating-a-deep-link-to-the-scheduling-dialog)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-scheduling-link" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-scheduling-link" />

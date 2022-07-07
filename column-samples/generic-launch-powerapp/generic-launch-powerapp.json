@@ -1,26 +1,26 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-    "elmType": "a",
-    "attributes": {
-      "href": "='https://apps.powerapps.com/play/e34b237b-25d1-462a-9a1c-595780e60d60?tenantId=77786066-d992-41bf-acd7-cf14da844ffd&hidenavbar=true&itemId=' + [$ID]",
-      "target": "_blank",
-      "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-      "title": "Open in App"
-    },
-    "style": {
-      "border": "none",
-      "background-color": "transparent",
-      "cursor": "pointer",
-      "text-decoration": "none",
-      "outline": "none"
-    },
-    "children": [
-      {
-        "elmType": "span",
-        "attributes": {
-          "iconName": "OpenInNewWindow",
-          "class": "ms-font-xxl"
-        }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "='https://apps.powerapps.com/play/e34b237b-25d1-462a-9a1c-595780e60d60?tenantId=77786066-d992-41bf-acd7-cf14da844ffd&hidenavbar=true&itemId=' + [$ID]",
+    "target": "_blank",
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Open in App"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer",
+    "text-decoration": "none",
+    "outline": "none"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "OpenInNewWindow",
+        "class": "ms-font-xxl"
       }
-    ]
-  }
+    }
+  ]
+}

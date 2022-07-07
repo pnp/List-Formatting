@@ -3,16 +3,17 @@
     "name": "pnp-list-formatting-status-header-footer",
     "reponame": "status-header-footer",
     "source": "pnp",
-    "title": "status-header-footer",
-    "shortDescription": "status-header-footer",
+    "title": "Status Header and Footer",
+    "shortDescription": "This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer",
     "longDescription": [
-      "status-header-footer"
+      "This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."
     ],
     "creationDateTime": "2021-01-31T00:00:00.000Z",
     "updateDateTime": "2021-01-31T00:00:00.000Z",
     "products": [
-      "SharePoint"
+      "SharePoint",
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -22,33 +23,61 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getYear"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-borderColor-neutralLight, ms-borderColor-yellow, ms-borderColor-orangeLight, ms-borderColor-blueLight, ms-borderColor-greenLight, ms-fontColor-neutralPrimary, ms-bgColor-neutralLight, ms-bgColor-yellow, ms-bgColor-orangeLight, ms-bgColor-blueLight, ms-bgColor-greenLight"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-thinkingaboutit.png",
-        "alt": "Thinking about it"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png",
+        "alt": "screenshot"
       },
       {
         "type": "image",
-        "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-workingonit.png",
-        "alt": "Working on it"
-      },
-      {
-        "type": "image",
-        "order": 100,
+        "order": 101,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-done.png",
-        "alt": "Status Done"
+        "alt": "status-done"
       },
       {
         "type": "image",
-        "order": 100,
+        "order": 102,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-nevermind.png",
-        "alt": "Status Nevermind"
-      }      
+        "alt": "status-nevermind"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/status-workingonit.png",
+        "alt": "status-workingonit"
+      }
     ],
     "authors": [
       {

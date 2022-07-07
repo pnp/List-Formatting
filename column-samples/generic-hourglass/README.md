@@ -15,9 +15,9 @@ This format can be applied to any column type but expects the following columns 
 
 ## Sample
 
-Solution               |Author(s)
------------------------|------------------------------------------------
-generic-hourglass.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-hourglass.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

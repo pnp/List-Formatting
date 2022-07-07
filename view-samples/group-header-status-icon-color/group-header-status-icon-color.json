@@ -13,7 +13,7 @@
             "class": "=if(@group.fieldData == 'Pending', 'sp-css-backgroundColor-BgCornflowerBlue', if(@group.fieldData == 'Approved', 'sp-css-backgroundColor-BgMintGreen',if(@group.fieldData == 'On Hold', 'sp-css-backgroundColor-BgGold',if(@group.fieldData == 'Rejected', 'sp-css-backgroundColor-BgCoral','sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary'))))"
           },
           "style": {
-            "display": "inline-flex",           
+            "display": "inline-flex",
             "height": "25px",
             "border-radius": "15px",
             "padding-left": "8px",

@@ -1,17 +1,29 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
   "elmType": "div",
-      "style": {
-        "background-color": {
+  "style": {
+    "background-color": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "==",
+          "operands": [
+            "@currentField",
+            "Green"
+          ]
+        },
+        "#2ECC71",
+        {
           "operator": "?",
           "operands": [
             {
               "operator": "==",
               "operands": [
                 "@currentField",
-                "Green"
+                "Red"
               ]
             },
-            "#2ECC71",
+            "#E74C3C",
             {
               "operator": "?",
               "operands": [
@@ -19,10 +31,10 @@
                   "operator": "==",
                   "operands": [
                     "@currentField",
-                    "Red"
+                    "Yellow"
                   ]
                 },
-                "#E74C3C",
+                "#F1C40F",
                 {
                   "operator": "?",
                   "operands": [
@@ -30,46 +42,34 @@
                       "operator": "==",
                       "operands": [
                         "@currentField",
-                        "Yellow"
+                        "Purple"
                       ]
                     },
-                    "#F1C40F",
-                    {
-                      "operator": "?",
-                      "operands": [
-                        {
-                          "operator": "==",
-                          "operands": [
-                            "@currentField",
-                            "Purple"
-                          ]
-                        },
-                        "#76448A",
-                        ""
-                      ]
-                    }
+                    "#76448A",
+                    ""
                   ]
                 }
               ]
             }
           ]
-        },
-        "color": "#fff",
-        "white-space": "nowrap"
+        }
+      ]
+    },
+    "color": "#fff",
+    "white-space": "nowrap"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
+      "style": {
+        "font-size": "2em",
+        "display": "inline-block",
+        "padding": "0 8px"
       },
-        "children": [
-          {
-            "elmType": "span",
-            "txtContent": "@currentField",
-            "style": {
-              "font-size": "2em",
-              "display": "inline-block",
-              "padding": "0 8px"
-            },
-              "attributes": {
-                "iconName": "=if(@currentField == 'Green', 'Emoji2', if(@currentField == 'Yellow','EmojiNeutral', 'EmojiDisappointed'))"
-              }
-
-          }
-        ]
-   }
+      "attributes": {
+        "iconName": "=if(@currentField == 'Green', 'Emoji2', if(@currentField == 'Yellow','EmojiNeutral', 'EmojiDisappointed'))"
+      }
+    }
+  ]
+}

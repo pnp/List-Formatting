@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-person-currentuser",
     "reponame": "person-currentuser",
     "source": "pnp",
-    "title": "Highlight the current user",
-    "shortDescription": "This sample uses the \u0060@me\u0060 keyword to check if the person field is the current user and shows that person using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/person-currentuser",
+    "title": "Highlight the Current User",
+    "shortDescription": "This sample uses the @me keyword to check if the person field is the current user and shows that person using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-currentuser",
     "longDescription": [
-      "This sample uses the \u0060@me\u0060 keyword to check if the person field is the current user and shows that person using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields."
+      "This sample uses the @me keyword to check if the person field is the current user and shows that person using a different color and weight. This is a dynamic check that will always highlight the user using the list (not the creater of the format). This template could easily be extended to apply different/additional styles or icons as desired by simply copying the same expression logic for other fields."
     ],
     "creationDateTime": "2018-03-20T00:00:00.000Z",
     "updateDateTime": "2018-08-18T00:00:00.000Z",
@@ -21,20 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Person"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@me"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "People"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontWeight-semibold"
       }
     ],
     "thumbnails": [

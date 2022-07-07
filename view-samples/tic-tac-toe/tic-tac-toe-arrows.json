@@ -1,0 +1,495 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "font-size": "18pt",
+      "cursor": "pointer",
+      "display": "block"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "block"
+        },
+        "children": [
+          {
+            "elmType": "div"
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Back"
+            },
+            "style": {
+              "font-size": "24pt",
+              "padding": "0px 10px"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Count": "=if([$Count]-1 > 0,[$Count]-1, [$Count])"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "SortUp"
+            },
+            "style": {
+              "font-size": "24pt",
+              "padding": "0px 10px"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Count": "=if([$Count]-3 > 0,[$Count]-3, [$Count])"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "SortDown"
+            },
+            "style": {
+              "font-size": "24pt",
+              "padding": "0px 10px"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Count": "=if([$Count]+3 > 9,[$Count], [$Count]+3)"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Forward"
+            },
+            "style": {
+              "font-size": "24pt",
+              "padding": "0px 10px"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Count": "=if([$Count]+1 > 9,[$Count], [$Count]+1)"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "24pt"
+            },
+            "attributes": {
+              "iconName": "Cancel"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Count": "0"
+              }
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding-left": "10px"
+            },
+            "attributes": {
+              "iconName": "WaffleOffice365"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Yellow": "",
+                "Red": ""
+              }
+            }
+          },
+          {
+            "elmType": "span",
+            "txtContent": "New game",
+            "attributes": {
+              "class": "ms-fontSize-16"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Yellow": "",
+                "Red": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "300px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "1",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 1 ,if( indexOf([$Red],'1') > -1 ,'',if(indexOf([$Yellow],'1') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 1 ,if(indexOf([$Red],'1') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'1') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'1')>-1 || indexOf([$Yellow],'1')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'1')>-1 || indexOf([$Yellow],'1')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc",
+              "border-left": "1px solid #ccc",
+              "border-right": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "2",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 2 ,if( indexOf([$Red],'2') > -1 ,'',if(indexOf([$Yellow],'2') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 2 ,if(indexOf([$Red],'2') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'2') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'2')>-1 || indexOf([$Yellow],'2')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'2')>-1 || indexOf([$Yellow],'2')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "3",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 3 ,if( indexOf([$Red],'3') > -1 ,'',if(indexOf([$Yellow],'3') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 3 ,if(indexOf([$Red],'3') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'3') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'3')>-1 || indexOf([$Yellow],'3')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'3')>-1 || indexOf([$Yellow],'3')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "300px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "4",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 4 ,if( indexOf([$Red],'4') > -1 ,'',if(indexOf([$Yellow],'4') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 4 ,if(indexOf([$Red],'4') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'4') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'4')>-1 || indexOf([$Yellow],'4')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'4')>-1 || indexOf([$Yellow],'4')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc",
+              "border-left": "1px solid #ccc",
+              "border-right": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "5",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 5 ,if( indexOf([$Red],'5') > -1 ,'',if(indexOf([$Yellow],'5') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 5 ,if(indexOf([$Red],'5') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'5') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'5')>-1 || indexOf([$Yellow],'5')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'5')>-1 || indexOf([$Yellow],'5')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-bottom": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "6",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 6 ,if( indexOf([$Red],'6') > -1 ,'',if(indexOf([$Yellow],'6') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 6 ,if(indexOf([$Red],'6') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'6') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'6')>-1 || indexOf([$Yellow],'6')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],[$Count])>-1 || indexOf([$Yellow],[$Count])>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "300px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "7",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 7 ,if( indexOf([$Red],'7') > -1 ,'',if(indexOf([$Yellow],'7') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 7 ,if(indexOf([$Red],'7') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'7') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'7')>-1 || indexOf([$Yellow],'7')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'7')>-1 || indexOf([$Yellow],'7')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px",
+              "border-left": "1px solid #ccc",
+              "border-right": "1px solid #ccc"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "8",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 8 ,if( indexOf([$Red],'8') > -1 ,'',if(indexOf([$Yellow],'8') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 8 ,if(indexOf([$Red],'8') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'8') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'8')>-1 || indexOf([$Yellow],'8')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'8')>-1 || indexOf([$Yellow],'8')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]) )))"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "padding": "10px 10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "9",
+                "style": {
+                  "width": "40px",
+                  "height": "40px",
+                  "text-align": "center",
+                  "border": "1px solid #ccc",
+                  "border-radius": "25px 25px 25px 25px",
+                  "box-shadow": "2px 2px 4px darkgrey",
+                  "visibility": "=if([$Count] != 9 ,if( indexOf([$Red],'9') > -1 ,'',if(indexOf([$Yellow],'9') > -1,'','hidden')) ,'')"
+                },
+                "attributes": {
+                  "class": "=if([$Count] != 9 ,if(indexOf([$Red],'9') > -1,'ms-bgColor-sharedRedOrange10 ms-fontColor-sharedRedOrange10',if(indexOf([$Yellow],'9') > -1,'ms-bgColor-sharedYellow10 ms-fontColor-sharedYellow10','ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')) ,'ms-bgColor-themePrimary ms-fontColor-themePrimary ms-fontWeight-semibold ms-bgColor-themeLight--hover ms-fontColor-themeLight--hover')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Yellow": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Yellow],if(length([$Yellow]) == 0,if(length([$Red]) != 0,appendTo([$Yellow],[$Count]),[$Yellow]),if(length([$Red]) == 0,[$Yellow],if(length([$Yellow])%2 == 1 && length([$Red])%2 == 0 || length([$Yellow])%2 == 0 && length([$Red])%2 == 1,appendTo([$Yellow],[$Count]),[$Yellow]))))",
+                    "Red": "=if(indexOf([$Red],'9')>-1 || indexOf([$Yellow],'9')>-1,[$Red],if(length([$Red]) == 0,appendTo([$Red],[$Count]), if(length([$Red]) == 0 && length([$Yellow])%2 == 1 , appendTo([$Red],[$Count]), if(length([$Yellow]) == length([$Red]),appendTo([$Red],[$Count]), [$Red]))))"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "10px 0px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Contact",
+              "class": "ms-bgColor-sharedRedOrange10"
+            },
+            "txtContent": "[$Red]",
+            "inlineEditField": "[$Red]"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "10px 0px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Contact",
+              "class": "ms-bgColor-sharedYellow10"
+            },
+            "txtContent": "[$Yellow]",
+            "inlineEditField": "[$Yellow]"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-faq-accordion",
+    "reponame": "faq-accordion",
+    "source": "pnp",
+    "title": "FAQ Accordion",
+    "shortDescription": "This sample formats your view to appear and work like an Accordion style FAQ (Frequently Asked Questions).",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/faq-accordion",
+    "longDescription": [
+      "This sample formats your view to appear and work like an Accordion style FAQ (Frequently Asked Questions)."
+    ],
+    "creationDateTime": "2021-07-09T00:00:00.000Z",
+    "updateDateTime": "2021-07-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Grouped, Frequently Asked Questions"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighterAlt, ms-fontSize-m, sp-row-card, sp-row-listPadding, sp-row-button"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faq-accordion/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faq-accordion/assets/screenshot2.png",
+        "alt": "screenshot2"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "anandragav",
+        "pictureUrl": "https://github.com/anandragav.png",
+        "name": "Anand Ragav"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

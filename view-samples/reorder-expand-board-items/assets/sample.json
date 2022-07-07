@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-reorder-expand-board-items",
+    "reponame": "reorder-expand-board-items",
+    "source": "pnp",
+    "title": "Reorder and Expand Board Items",
+    "shortDescription": "This sample allow users to manage card order in Board Views and also enables expanding and collapsing images. This sample has the option 'Move to Top' that allows users to move cards to the top of the board view as a way to rearrange card positions.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/reorder-expand-board-items",
+    "longDescription": [
+      "This sample allow users to manage card order in Board Views and also enables expanding and collapsing images. This sample has the option 'Move to Top' that allows users to move cards to the top of the board view as a way to rearrange card positions."
+    ],
+    "creationDateTime": "2022-02-15T00:00:00.000Z",
+    "updateDateTime": "2022-02-15T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "columnFormatterReference, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, sp-card-borderHighlight, sp-card-container, sp-card-subContainer, sp-card-displayColumnContainer, sp-card-label, sp-card-content, sp-card-boldText, sp-card-highlightedContent, sp-card-formatterRef, sp-card-container-noPadding, sp-card-subContainer-borderRadius"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/reorder-expand-board-items/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

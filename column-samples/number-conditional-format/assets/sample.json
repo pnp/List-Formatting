@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-number-conditional-format",
     "reponame": "number-conditional-format",
     "source": "pnp",
-    "title": "Conditional formatting based on a number range",
-    "shortDescription": "This example uses the conditional operator \u0060?\u0060 to apply a class (\u0060sp-field-severity--warning\u0060) to the parent \u0060\u003Cdiv /\u003E\u0060 element when the  value in the current field is less than or equal to 70.  This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it\u0027s greater than 70.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-conditional-format",
+    "title": "Minimum Value Highlight",
+    "shortDescription": "This example uses the conditional operator ? to apply a class (sp-field-severity--warning) to the parent div element when the value in the current field is less than or equal to 70. This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it's greater than 70.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-format",
     "longDescription": [
-      "This example uses the conditional operator \u0060?\u0060 to apply a class (\u0060sp-field-severity--warning\u0060) to the parent \u0060\u003Cdiv /\u003E\u0060 element when the  value in the current field is less than or equal to 70.  This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it\u0027s greater than 70."
+      "This example uses the conditional operator ? to apply a class (sp-field-severity--warning) to the parent div element when the value in the current field is less than or equal to 70. This causes the field to be highlighted when the value is less than or equal to 70, and appear normally if it's greater than 70."
     ],
     "creationDateTime": "2017-11-02T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-severity--warning"
       }
     ],
     "thumbnails": [

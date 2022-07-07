@@ -3,7 +3,7 @@
 ## Summary
 This sample includes visual selection of volume from 0 to 5.
 
-![Volume Option](./assets/Volume-Option.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -17,7 +17,7 @@ Volume | Number - Volume options from 0 to 5
 
 Solution|Author(s)
 --------|---------
-[number-volume-format.json](./number-volume-format.json) | [André Lage](https://twitter.com/aaclage)
+number-volume.json | [AndrÃ© Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 

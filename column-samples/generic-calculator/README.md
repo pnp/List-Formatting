@@ -1,9 +1,9 @@
-# Calculator sample
+# Calculator
 
 ## Summary
 This sample includes design capabilities and formulas to simulate a simple calculator.
 
-![Calculator sample](./assets/Calculator-Format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -17,7 +17,7 @@ Calc | Single line of text - Calculator format
 
 Solution|Author(s)
 --------|---------
-[generic-calculator-format.json](./generic-calculator-format.json) | [André Lage](https://twitter.com/aaclage)
+generic-calculator.json | [AndrÃ© Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-volume" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-calculator" />

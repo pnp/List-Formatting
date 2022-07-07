@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontSize-m"
@@ -16,7 +16,7 @@
     },
     {
       "elmType": "span",
-      "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount]) "
+      "txtContent": "=if([$_CommentCount] == '' , 0 ,[$_CommentCount])"
     }
   ]
 }

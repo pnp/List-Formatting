@@ -1,64 +1,85 @@
 [
-    {
-        "name": "pnp-list-formatting-stat-comparison-chart",
-        "reponame": "stat-comparison-chart",
-        "source": "pnp",
-        "title": "Stat Comparison Chart",
-        "shortDescription": "Format a list view into a chart that shows a comparison between two entities against various attributes",
-        "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/stat-comparison-chart",
-        "longDescription": [
-            "Format a list view into a chart that shows a comparison between two entities against various attributes"
-        ],
-        "creationDateTime": "2021-06-23T00:00:00.000Z",
-        "updateDateTime": "2021-06-23T00:00:00.000Z",
-        "products": [
-            "SharePoint"
-        ],
-        "metadata": [
-            {
-                "key": "LIST-SAMPLE-TYPE",
-                "value": "View"
-            },
-            {
-                "key": "LIST-COLUMN-TYPE",
-                "value": "Number"
-            },
-            {
-                "key": "LIST-CATEGORY",
-                "value": "Charts"
-            },
-            {
-                "key": "SHAREPOINT-COMPATIBILITY",
-                "value": "SharePoint Online"
-            }
-        ],
-        "thumbnails": [
-            {
-                "type": "image",
-                "order": 100,
-                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot.png",
-                "alt": "screenshot"
-            },
-            {
-                "type": "image",
-                "order": 100,
-                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot_without_images.png",
-                "alt": "screenshot without images"
-            }
-        ],
-        "authors": [
-            {
-                "gitHubAccount": "anoopt",
-                "pictureUrl": "https://github.com/anoopt.png",
-                "name": "Anoop Tatti"
-            }
-        ],
-        "references": [
-            {
-                "name": "Use column formatting to customize SharePoint",
-                "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
-                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
-            }
-        ]
-    }
+  {
+    "name": "pnp-list-formatting-stat-comparison-chart",
+    "reponame": "stat-comparison-chart",
+    "source": "pnp",
+    "title": "Stat Comparison Chart",
+    "shortDescription": "Format a list view into a chart that shows a comparison between two entities against various attributes",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/stat-comparison-chart",
+    "longDescription": [
+      "Format a list view into a chart that shows a comparison between two entities against various attributes"
+    ],
+    "creationDateTime": "2021-06-23T00:00:00.000Z",
+    "updateDateTime": "2021-06-23T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Hover Cards, Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLowerCase"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-red, ms-bgColor-redDark--hover, ms-bgColor-blueDark--hover, ms-bgColor-blue, ms-fontColor-white, ms-fontColor-red, ms-fontColor-blue, ms-fontSize-28, ms-fontSize-20, ms-bgColor-black, ms-bgColor-yellow--hover, ms-fontColor-black, ms-fontColor-black--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/stat-comparison-chart/assets/screenshot_without_images.png",
+        "alt": "screenshot without images"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "anoopt",
+        "pictureUrl": "https://github.com/anoopt.png",
+        "name": "Anoop Tatti"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
 ]

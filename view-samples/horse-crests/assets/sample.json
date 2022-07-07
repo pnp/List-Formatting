@@ -4,10 +4,10 @@
     "reponame": "horse-crests",
     "source": "pnp",
     "title": "Horse Crests",
-    "shortDescription": "",
+    "shortDescription": "This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children).",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests",
     "longDescription": [
-      ""
+      "This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)."
     ],
     "creationDateTime": "2020-11-12T00:00:00.000Z",
     "updateDateTime": "2020-11-12T00:00:00.000Z",
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-borderColor-themePrimary--hover, ms-borderColor-white, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralLight"
       }
     ],
     "thumbnails": [

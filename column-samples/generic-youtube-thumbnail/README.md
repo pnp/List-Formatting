@@ -3,7 +3,7 @@
 ## Summary
 This sample provides a thumbnail of a YouTube video that links to the video and a larger preview image on hover.
 
-![screenshot of the sample](./assets/animation.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - This format can be applied to any text column but expects that value to be a URL to a YouTube video. The `Title` column is also used in the hover card.
@@ -13,7 +13,7 @@ This sample provides a thumbnail of a YouTube video that links to the video and 
 
 Solution|Author(s)
 --------|---------
-generic-youtube-thumbnail.json | [João Ferreira](https://twitter.com/Joao12Ferreira)
+generic-youtube-thumbnail.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/Joao12Ferreira))
 
 ## Version history
 
@@ -26,4 +26,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-youtube-thumbnail" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-youtube-thumbnail" />

@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-currency-symbol-concatenation",
     "reponame": "currency-symbol-concatenation",
     "source": "pnp",
-    "title": "Concatenate Currency Symbol to Numeric Columns",
-    "shortDescription": "Currency column is currently not supported, hence this sample will allow the users to concatenate a currency symbol(\u00A3, $ ... etc.) to the existing data.  This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/currency-symbol-concatenation",
+    "title": "Concatenate Currency Symbol",
+    "shortDescription": "This sample will allow the users to concatenate a currency symbol(\u00A3, $ ... etc.) to the existing data. This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a Project Register has been used.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/currency-symbol-concatenation",
     "longDescription": [
-      "Currency column is currently not supported, hence this sample will allow the users to concatenate a currency symbol(\u00A3, $ ... etc.) to the existing data.  This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used."
+      "Currency column is currently not supported, hence this sample will allow the users to concatenate a currency symbol(\u00A3, $ ... etc.) to the existing data. This sample will compare two numeric columns and add a currrency symbol. In this example, two columns (Budget Approved and Expenditure To Date) from a  Project Register has been used."
     ],
     "creationDateTime": "2018-01-15T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -21,19 +21,43 @@
         "value": "Column"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "Number"
-      },
-      {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Currency"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/currency-symbol-concatenation/assets/budgetcolumnformating.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/currency-symbol-concatenation/assets/screenshot.png",
         "alt": "budgetcolumnformating"
       }
     ],

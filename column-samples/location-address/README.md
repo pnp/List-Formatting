@@ -15,8 +15,7 @@ Location columns provide several properties that can be accessed to provide more
 
 Solution|Author(s)
 --------|---------
-location-address.json | [Chris Kent](https://twitter.com/thechriskent)
-
+location-address.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 ## Version history
 
 Version|Date|Comments
@@ -29,4 +28,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/location-address" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/location-address" />

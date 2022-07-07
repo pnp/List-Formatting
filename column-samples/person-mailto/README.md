@@ -15,7 +15,7 @@ You can use column formatting to render quick action links next to fields. This 
 
 Solution|Author(s)
 --------|---------
-person-mailto.json | SharePoint Team
+person-mailto.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
 
 ## Version history
 
@@ -38,4 +38,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/person-mailto" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-mailto" />

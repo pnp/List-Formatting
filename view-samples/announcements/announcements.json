@@ -1,0 +1,87 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "min-width": "15vw",
+      "max-width": "19vw",
+      "padding-bottom": "20px",
+      "display": "=if([$RemoveDate] <= @now, 'none', '')"
+    },
+    "customCardProps": {
+      "formatter": {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$ImgHover]"
+            }
+          }
+        ],
+        "style": {
+          "display": "=if([$ImgHover], '', 'none')",
+          "height": "200px",
+          "width": "200px",
+          "cursor": "pointer",
+          "font-size": "14px",
+          "padding": "14px",
+          "align-items": "stretch"
+        }
+      },
+      "openOnEvent": "hover",
+      "directionalHint": "leftCenter",
+      "isBeakVisible": false,
+      "beakStyle": {
+        "backgroundColor": "white"
+      }
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "border-radius": "8px",
+          "box-shadow": "#00000022 0px 1.6px 3.6px 0px, #00000022 0px 0.3px 0.9px 0px",
+          "display": "flex",
+          "font-size": "1rem",
+          "background-color": "=if([$TypeAnn] == 'Error', '#fdeded', if([$TypeAnn] == 'Success', '#edf7ed', if([$TypeAnn] == 'Warning', '#fff4e5', '#e5f6fd')))",
+          "line-height": "1.43",
+          "padding": "6px 16px",
+          "align-items": "center",
+          "flex-flow": "wrap"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "=if([$TypeAnn] == 'Error', 'ErrorBadge', if([$TypeAnn] == 'Success', 'Completed', if([$TypeAnn] == 'Warning', 'warning', 'info')))"
+            },
+            "style": {
+              "padding-right": "10px",
+              "font-weight": "700",
+              "color": "=if([$TypeAnn] == 'Error', '#ef5350', if([$TypeAnn] == 'Success', '#4caf50', if([$TypeAnn] == 'Warning', '#ff9800', '#03a9f4')))"
+            }
+          },
+          {
+            "txtContent": "[$Title]",
+            "elmType": "div",
+            "style": {
+              "font-weight": "700",
+              "margin-bottom": "0.35em"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Description]",
+            "style": {
+              "padding-left": "26px",
+              "flex-direction": "column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

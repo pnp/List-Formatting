@@ -1,4 +1,4 @@
-# Display a person's profile picture in a circle
+# Display a Person's Profile Picture in a Circle
 
 ## Summary
 This sample applies styles to a parent `div` element and a child `img` element to show a person's profile picture in a circle.
@@ -32,7 +32,7 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 Solution|Author(s)
 --------|---------
-person-roundimage-format.json | [Chris Kent](https://twitter.com/thechriskent)
+person-roundimage-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -53,4 +53,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/person-roundimage-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-roundimage-format" />

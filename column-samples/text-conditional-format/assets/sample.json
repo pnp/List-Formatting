@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-text-conditional-format",
     "reponame": "text-conditional-format",
     "source": "pnp",
-    "title": "Conditional formatting based on the value in a text or choice field",
-    "shortDescription": "You can apply conditional formatting to text or choice fields that might contain a fixed set of values. The following example applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value. This example applies a CSS class (\u0060sp-field-severity--low, sp-field-severity--good, sp-field-severity--warning, sp-field-severity--blocked\u0060) to the  \u0060\u003Cdiv /\u003E\u0060 based on the field\u0027s value. This is what determines the element\u0027s background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a \u0060\u003Cspan /\u003E\u0060 element with an \u0060iconName\u0060 attribute. This attribute applies another CSS class to that \u0060\u003Cspan /\u003E\u0060 that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element. Finally, another \u0060\u003Cspan /\u003E\u0060 element is outputted that contains the value inside the field.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format",
+    "title": "Conditional Text Formatting (Severity)",
+    "shortDescription": "You can apply conditional formatting to text or choice fields that might contain a fixed set of values. This sample applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-conditional-format",
     "longDescription": [
-      "You can apply conditional formatting to text or choice fields that might contain a fixed set of values. The following example applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value. This example applies a CSS class (\u0060sp-field-severity--low, sp-field-severity--good, sp-field-severity--warning, sp-field-severity--blocked\u0060) to the  \u0060\u003Cdiv /\u003E\u0060 based on the field\u0027s value. This is what determines the element\u0027s background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a \u0060\u003Cspan /\u003E\u0060 element with an \u0060iconName\u0060 attribute. This attribute applies another CSS class to that \u0060\u003Cspan /\u003E\u0060 that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element. Finally, another \u0060\u003Cspan /\u003E\u0060 element is outputted that contains the value inside the field."
+      "You can apply conditional formatting to text or choice fields that might contain a fixed set of values. This sample applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value."
     ],
     "creationDateTime": "2017-11-02T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralSecondary, sp-field-severity--good, sp-field-severity--low, sp-field-severity--warning, sp-field-severity--severeWarning, sp-field-severity--blocked"
       }
     ],
     "thumbnails": [

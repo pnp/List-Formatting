@@ -3,14 +3,14 @@
     "name": "pnp-list-formatting-generic-flow-status",
     "reponame": "generic-flow-status",
     "source": "pnp",
-    "title": "generic-flow-status",
-    "shortDescription": "generic-flow-status",
+    "title": "Flow Status",
+    "shortDescription": "This sample conditionally shows a button to launch a flow. Additional details are provided to customize the flow panel title and button. This provides context to users and is often far more meaningful than the default of 'Run Flow' which generally doesn't mean much to end users.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-flow-status",
     "longDescription": [
-      "generic-flow-status"
+      "This sample conditionally shows a button to launch a flow. Additional details are provided to customize the flow panel title and button. This provides context to users and is often far more meaningful than the default of 'Run Flow' which generally doesn't mean much to end users."
     ],
-    "creationDateTime": "2020-12-20T00:00:00.000Z",
-    "updateDateTime": "2020-12-20T00:00:00.000Z",
+    "creationDateTime": "2022-04-15T00:00:00.000Z",
+    "updateDateTime": "2022-04-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -23,9 +23,56 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Power Automate, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "startsWith"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "executeFlow"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themePrimary--hover, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-bgColor-white, ms-font-xl, ms-font-l"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshotCustomFlowPanel.png",
+        "alt": "Custom Flow Panel"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-flow-status/assets/screenshotFlowURL.png",
+        "alt": "Flow URL"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

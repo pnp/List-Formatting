@@ -3,16 +3,17 @@
     "name": "pnp-list-formatting-generic-socialpic",
     "reponame": "generic-socialpic",
     "source": "pnp",
-    "title": "Display social media profile pics using social media handles",
-    "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-socialpic",
+    "title": "Social Media Profile Pics",
+    "shortDescription": "Social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window..",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-socialpic",
     "longDescription": [
-      ""
+      "Using the social media handles supported by https://unavatar.now.sh, social media profile pictures are displayed in a circle and clicking them will open the user's social media page in a new window. The handle is also displayed as a tooltip when hovering over the profile image."
     ],
     "creationDateTime": "2018-07-21T00:00:00.000Z",
     "updateDateTime": "2020-08-20T00:00:00.000Z",
     "products": [
-      "SharePoint"
+      "SharePoint",
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -20,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [

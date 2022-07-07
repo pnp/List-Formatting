@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-yesno-checkmark-format",
     "reponame": "yesno-checkmark-format",
     "source": "pnp",
-    "title": "Formatting Yes/No field to check mark based on the value in the field",
-    "shortDescription": "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting [predefined classes](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#predefined-classes) (\u0060sp-field-severity--good\u0060,\u0060sp-field-severity--low\u0060, or \u0060sp-field-severity--blocked\u0060) to the root \u0060\u003Cdiv /\u003E\u0060 based on the field\u0027s value. This is what determines the element\u0027s background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a \u0060\u003Cspan /\u003E\u0060 element with an \u0060iconName\u0060 attribute that shows an [Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/styles/icons) icon inside that element.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/yesno-checkmark-format",
+    "title": "Yes/No Checkmark",
+    "shortDescription": "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkmark-format",
     "longDescription": [
-      "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting [predefined classes](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#predefined-classes) (\u0060sp-field-severity--good\u0060,\u0060sp-field-severity--low\u0060, or \u0060sp-field-severity--blocked\u0060) to the root \u0060\u003Cdiv /\u003E\u0060 based on the field\u0027s value. This is what determines the element\u0027s background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a \u0060\u003Cspan /\u003E\u0060 element with an \u0060iconName\u0060 attribute that shows an [Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/styles/icons) icon inside that element."
+      "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element."
     ],
     "creationDateTime": "2017-11-22T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -21,24 +21,44 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Yes/No"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralSecondary, sp-field-severity--good, sp-field-severity--low, sp-field-severity--blocked"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkmark-format/assets/yesno-checkmark-format.PNG",
-        "alt": "yesno-checkmark-format"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkmark-format/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

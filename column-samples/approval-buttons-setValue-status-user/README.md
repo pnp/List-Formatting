@@ -1,9 +1,9 @@
-# Update a Status (Choice) and a Person field using Buttons and the setValue action
+# Inline Approval
 
 ## Summary
-This is a sample of creating buttons to approve/reject an item by updating an Approval Status field created using a choice field, and also set the value of a person field to the user who took the action by using the setValue action as below:
+This sample creates buttons to approve/reject an item by updating an Approval Status field created using a choice field, and also set the value of a person field to the user who took the action by using the setValue action as seen below:
 
-![Sample in action](./assets/quickApprovals.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 Key points:
 
@@ -21,9 +21,9 @@ Key points:
 
 ## Sample
 
-Solution                                   |Author(s)
--------------------------------------------|---------------------------
-approval-buttons-setValue-status-user.json |[Michel Mendes](https://twitter.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+Solution|Author(s)
+--------|---------
+approval-buttons-setValue-status-user.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
 
 ## Version history
 

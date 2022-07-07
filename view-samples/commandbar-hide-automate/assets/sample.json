@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Hide Automate Button in the CommandBar",
     "shortDescription": "Hides the Automate button when an item or items are selected.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/commandbar-hide-automate",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/commandbar-hide-automate",
     "longDescription": [
       "The Automate button in the CommandBar provides access to Rules as well as associated Power Automate flows for our list/library. However, there are times when we don't want the associated flows to be shown because we are providing flow launch buttons. Maybe we're conditionally picking which flow should run based on properties of an individual item or were customizing the flow run panel and the inclusion of these menu options would undermine that. This sample only hides the Automate button when an item or items are selected. This ensures the Rules option remains available but prevents users from launching flows for a selected item using this menu."
     ],
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "CommandBar Customization"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [

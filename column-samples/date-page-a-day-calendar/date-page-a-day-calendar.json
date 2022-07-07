@@ -15,7 +15,7 @@
         "margin": "2px"
       },
       "attributes": {
-        "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
       }
     },
     {
@@ -25,7 +25,7 @@
         "white-space": "nowrap"
       },
       "attributes": {
-        "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
       },
       "children": [
         {

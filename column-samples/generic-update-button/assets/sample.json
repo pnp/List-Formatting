@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me, @now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-red--hover, ms-bgColor-teal--hover, ms-fontColor-white--hover, ms-fontColor-red, ms-fontColor-teal, ms-fontWeight-bold, ms-fontSize-12, ms-bgColor-themePrimary, ms-bgColor-themeDark--hover, ms-fontColor-white, ms-bgColor-red, ms-bgColor-redDark--hover, ms-bgColor-tealLight, ms-fontColor-white, ms-fontSize-16, ms-bgColor-themePrimary--hover, ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [

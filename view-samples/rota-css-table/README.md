@@ -1,15 +1,15 @@
-# Staff Rota Shifts View Format
+# Staff Rota Shifts with CSS Table
 
 ## Summary
-This is a sample that uses `rowFormatter` to customise the entire display of a row. The aim is to demonstrate the following concepts:
+This sample demonstrates creating a Rota Shifts table using CSS Table layout by using `rowFormatter` to customise the entire display of a row. The aim is to demonstrate the following concepts:
 - using a CSS table layout (`"display": "table"`, `"display": "table-row"`, `"display": "table-cell"`)
-- using Office UI fabric classes for font sizing, font colour and background colour
+- using Fluent UI classes for font sizing, font color and background color
   - specifically the theme color class to ensure display matches the theme of the site (`ms-bgColor-themePrimary`)
 - disabling selection (`hideSelection`)
 - hiding column headers (`hideColumnHeader`)
 - using `join` and `\n` to join choice column values on separate lines
 
-![Screenshot](./assets/screenshot.jpeg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -27,7 +27,7 @@ Included in the sample is a site script that will create the list as needed. How
 
 Solution|Author(s)
 --------|---------
-rota-css-table | [Ariel Kropp](https://twitter.com/arielkropp)
+rota-css-table.json | [Ariel Kropp](https://github.com/arielkropp) ([@arielkropp](https://twitter.com/arielkropp))
 
 ## Version history
 
@@ -37,3 +37,5 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/rota-css-table" />

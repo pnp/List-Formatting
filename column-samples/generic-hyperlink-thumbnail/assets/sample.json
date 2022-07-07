@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-generic-hyperlink-thumbnail",
     "reponame": "generic-hyperlink-thumbnail",
     "source": "pnp",
-    "title": "Turn FileRef field into thumbnail image or clickable hyperlink",
+    "title": "File Thumbnails or Hyperlinks",
     "shortDescription": "This example uses a column to generate a hyperlink to the Item Thumbnail for a document library.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/generic-hyperlink-thumbnail",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-hyperlink-thumbnail",
     "longDescription": [
       "This example uses a column to generate a hyperlink to the Item Thumbnail for a document library."
     ],
@@ -21,16 +21,36 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Document Library"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Document Library"
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [

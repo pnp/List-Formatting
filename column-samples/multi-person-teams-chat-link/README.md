@@ -5,7 +5,7 @@ This sample demonstrates creating a deep link to a Microsoft Teams chat. This fo
 
 ![screenshot of the sample in Microsoft Teams](./assets/screenshotTeams.png)
 
-![screenshot of the sample in a Modern List View](./assets/screenshotList.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### Link Parts
 The Microsoft Teams chat link is broken down into a base URL _https://teams.microsoft.com/l/chat/0/0_ and then query parameters to set portions of the chat:
@@ -33,7 +33,7 @@ There are a few key differences when it comes to creating formats to be used wit
 
 Solution|Author(s)
 --------|---------
-multi-person-teams-chat-link.json | [Chris Kent](https://twitter.com/thechriskent)
+multi-person-teams-chat-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -52,4 +52,4 @@ Version|Date|Comments
 - [Deep linking to a chat](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/multi-person-teams-chat-link" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-teams-chat-link" />

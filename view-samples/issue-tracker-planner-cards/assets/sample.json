@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, toLocaleDateString, getYear, startsWith, replace"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, share, delete, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField, customCardProps, directionalHint, hideSelection, additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-white, ms-bgColor-red, ms-borderColor-neutralLight, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralSecondary--hover, ms-fontColor-neutralTertiaryAlt, ms-fontColor-white, ms-fontColor-red, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-neutralBackground10, sp-css-backgroundColor-blueBackground17, sp-css-backgroundColor-blueBackground07, sp-css-backgroundColor-successBackground40, sp-css-backgroundColor-warningBackground50, sp-css-backgroundColor-errorBackground50, sp-css-color-themeDarker, sp-css-color-neutralPrimary, sp-css-color-blue, sp-css-color-redDark, sp-css-color-green"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

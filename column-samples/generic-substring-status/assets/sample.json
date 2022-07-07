@@ -4,10 +4,10 @@
     "reponame": "generic-substring-status",
     "source": "pnp",
     "title": "Substring Status",
-    "shortDescription": "This format demonstrates using a combination of the \u0060substring\u0060 and \u0060indexOf\u0060 operations to \u0022split\u0022 a value and make style decisions based on portions of the value. In this case the status values are separated with a colon (\u0060:\u0060). The first part is a general category such as Not Started, In Progress, or Resolved. The second part is the detailed reason for the status. Since these values are within the same column it becomes necessary to break the value apart.",
+    "shortDescription": "This format demonstrates using a combination of the substring and indexOf operations to 'split' a value and make style decisions based on portions of the value.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-substring-status",
     "longDescription": [
-      "This format demonstrates using a combination of the \u0060substring\u0060 and \u0060indexOf\u0060 operations to \u0022split\u0022 a value and make style decisions based on portions of the value. In this case the status values are separated with a colon (\u0060:\u0060). The first part is a general category such as Not Started, In Progress, or Resolved. The second part is the detailed reason for the status. Since these values are within the same column it becomes necessary to break the value apart."
+      "This format demonstrates using a combination of the substring and indexOf operations to 'split' a value and make style decisions based on portions of the value. In this case the status values are separated with a colon (:). The first part is a general category such as Not Started, In Progress, or Resolved. The second part is the detailed reason for the status. Since these values are within the same column it becomes necessary to break the value apart."
     ],
     "creationDateTime": "2020-02-06T00:00:00.000Z",
     "updateDateTime": "2020-02-06T00:00:00.000Z",
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, substring"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-redDark, ms-fontColor-yellow, ms-fontColor-green"
       }
     ],
     "thumbnails": [

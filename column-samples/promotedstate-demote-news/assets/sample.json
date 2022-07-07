@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-promotedstate-demote-news",
     "reponame": "promotedstate-demote-news",
     "source": "pnp",
-    "title": "Demoting the news",
+    "title": "Demote News to Site Page",
     "shortDescription": "This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/promotedstate-demote-news",
     "longDescription": [
@@ -13,7 +13,7 @@
     "updateDateTime": "2021-12-11T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "List Formatting"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Promoted State"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-borderColor-themePrimary, ms-bgColor-white, ms-bgColor-themeLighter, ms-fontColor-white, ms-bgColor-themeLighter--hover, ms-bgColor-themePrimary"
       }
     ],
     "thumbnails": [

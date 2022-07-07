@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-wordle",
+    "reponame": "wordle",
+    "source": "pnp",
+    "title": "Wordle",
+    "shortDescription": "This sample reproduces the popular word puzzle game Wordle with Microsoft Lists.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/wordle",
+    "longDescription": [
+      "This sample reproduces the popular word puzzle game Wordle with Microsoft Lists."
+    ],
+    "creationDateTime": "2022-01-15T00:00:00.000Z",
+    "updateDateTime": "2022-01-15T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Inline Editing, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, substring, toUpperCase"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "inlineEditField, customCardProps, directionalHint, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralSecondaryAlt, ms-bgColor-white, ms-bgColor-sharedOrangeYellow10, ms-bgColor-sharedGreenCyan10, ms-fontColor-neutralSecondaryAlt, ms-fontColor-neutralTertiaryAlt, ms-fontColor-white, ms-fontColor-sharedOrangeYellow10, ms-fontColor-sharedGreenCyan10"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/wordle/assets/screenshot.gif",
+        "alt": "Microsoft Lists Wordle Game"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

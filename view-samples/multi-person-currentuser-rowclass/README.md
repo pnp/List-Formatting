@@ -5,7 +5,7 @@ Highlights the entire row for any list items where one of the assigned to users 
 
 By using the Office UI Fabric color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![Light and Dark Themes](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format expects a person column with an internal name of `AssignedTo` to be part of the view. This column can be single or multi-select.
@@ -14,8 +14,7 @@ By using the Office UI Fabric color classes for themes, we can ensure our format
 
 Solution|Author(s)
 --------|---------
-multi-person-currentuser-rowclass | [Chris Kent](https://twitter.com/thechriskent)
-
+multi-person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 ## Version history
 
 Version|Date|Comments
@@ -31,4 +30,4 @@ Version|Date|Comments
 
 This sample works for **both** single and multi-select person fields.However, an additional sample is available intended for use with single-select person fields: [person-currentuser-rowclass](../person-currentuser-rowclass). It is a simpler sample intended to show how to use the `@me` operator.
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/multi-person-currentuser-rowclass" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/multi-person-currentuser-rowclass" />

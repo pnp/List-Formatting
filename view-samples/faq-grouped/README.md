@@ -21,7 +21,7 @@ In this case, the Title column has been renamed to Question (though it doesn't m
 
 Solution|Author(s)
 --------|---------
-faq-grouped.json | [Chris Kent](https://twitter.com/theChrisKent)
+faq-grouped.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/faq-grouped" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-grouped" />

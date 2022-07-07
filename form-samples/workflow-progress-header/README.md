@@ -3,9 +3,9 @@
 ## Summary
 This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit.
 
-![screenshot of the sample](./assets/screen_capture.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
-## View requirements
+## Form requirements
 
 |Type          |Internal Name |Required|
 |--------------|--------------|:------:|
@@ -15,9 +15,9 @@ This sample shows a checkmark for each date field that has a value to help conve
 
 ## Sample
 
-Solution                      |Author(s)
-------------------------------|---------------------------
-workflow-progress-header.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+workflow-progress-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/form-samples/workflow-progress-header.json" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/workflow-progress-header" />

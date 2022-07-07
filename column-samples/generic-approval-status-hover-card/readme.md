@@ -17,7 +17,7 @@ In the Add column menu choose to Show/hide columns and add Approval Status and M
 
 Solution|Author(s)
 --------|---------
-approval-status-hover-card.json | [Django Lohn](https://twitter.com/LohnDjango)
+generic-approval-status-hover-card.json | [Django Lohn](https://github.com/m3ngi3) [@LohnDjango](https://twitter.com/LohnDjango)
 
 ## Version history
 
@@ -35,3 +35,5 @@ Version|Date|Comments
 This sample uses icons from Fluent UI
 
 - [Fluent UI Iconography](https://developer.microsoft.com/fluentui#/styles/web/icons)
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-approval-status-hover-card" />

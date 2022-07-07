@@ -20,4 +20,4 @@ No need to clone or download the repo or any files! _(unless you're interested i
     - See [Applying Column Formats](./columnformats.md) for details about where to paste column samples
     - See [Applying View Formats](./viewformats.md) for details about where to paste view samples
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/gettingstarted" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/gettingstarted" />

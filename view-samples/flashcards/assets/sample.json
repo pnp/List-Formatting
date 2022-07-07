@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-flashcards",
+      "reponame": "flashcards",
+      "source": "pnp",
+      "title": "Flashcards",
+      "shortDescription": "This sample creates a set of flashcards from list items. A flashcard is a card bearing information on both sides, which is intended to be used as an aid in memorization. Each flashcard bears a question on one side and an answer on the other. Flashcards are often used to memorize vocabulary, historical dates, formulas or any subject matter that can be learned via a question-and-answer format.",
+      "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/flashcards",
+      "longDescription": [
+        "This sample creates a set of flashcards from list items. A flashcard is a card bearing information on both sides, which is intended to be used as an aid in memorization. Each flashcard bears a question on one side and an answer on the other. Flashcards are often used to memorize vocabulary, historical dates, formulas or any subject matter that can be learned via a question-and-answer format."
+      ],
+      "creationDateTime": "2021-12-06T00:00:00.000Z",
+      "updateDateTime": "2021-12-06T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "View"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Inline Editing, Gallery"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": "@me"
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "indexOf, appendTo, removeFrom"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": "setValue"
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "hideSelection, fillHorizontally"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-bgColor-white, ms-fontColor-neutralPrimary, sp-card-subContainer, sp-card-displayColumnContainer, sp-card-content, sp-card-highlightedContent, sp-row-card, sp-card-borderHighlight"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/flashcards/assets/screenshot.png",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "anandragav",
+          "pictureUrl": "https://github.com/anandragav.png",
+          "name": "Anand Ragav"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use view formatting to customize SharePoint",
+          "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+        }
+      ]
+    }
+  ]

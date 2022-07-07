@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-default-hover-card",
+    "reponame": "default-hover-card",
+    "source": "pnp",
+    "title": "Default Hover Card",
+    "shortDescription": "This sample demonstrates showing a default hover card in a document library. On hover in a formatted view on a file a file card is displayed. On hover in a formatted view on a person column a profile card is displayed.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/default-hover-card",
+    "longDescription": [
+      "This sample demonstrates showing a default hover card in a document library. On hover in a formatted view on a file a file card is displayed. On hover in a formatted view on a person column a profile card is displayed."
+    ],
+    "creationDateTime": "2020-04-08T00:00:00.000Z",
+    "updateDateTime": "2020-04-08T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Power Automate, Hover Cards, Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@thumbnail"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, executeFlow, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontWeight-semibold, ms-fontSize-14"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/default-hover-card/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "NiketJain",
+        "pictureUrl": "https://github.com/NiketJain.png",
+        "name": "Niket Jain"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

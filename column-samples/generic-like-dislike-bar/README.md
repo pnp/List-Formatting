@@ -5,7 +5,7 @@ This sample demonstrates displaying a Like/Dislike bar that visualizes the ratio
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-Using [multi-person-like-or-dislike-unique-reaction](./../multi-person-like-or-dislike-unique-reaction), you can implement Like and Dislike buttons.
+You can combine this sample with the [multi-person-unique-reaction](../multi-person-reaction/) sample, to incorporate Like and Dislike buttons.
 
 ![screenshot of the sample](./assets/screenshot_button.gif)
 
@@ -19,9 +19,9 @@ This format can be applied to any column type but expects the following columns 
 
 ## Sample
 
-Solution                      |Author(s)
-------------------------------|---------------------------
-generic-like-dislike-bar.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-like-dislike-bar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

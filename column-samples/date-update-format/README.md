@@ -1,9 +1,9 @@
-# date update format
+# Date Update Format
 
 ## Summary
-This sample includes format to manage date in view column with follow options, include icon option to add today's date, add or reduce by day or year and icon to clear date.
+This sample demonstrates updating a date value directly from the format. This includes setting the date to the current date/time, incremeting/decrementing the date by day (alternate format included to demonstrate incrementing/decrementing by year), and clearing the date.
 
-![Date update](./assets/ColumnDates.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -11,16 +11,15 @@ This sample includes format to manage date in view column with follow options, i
 Field |Type
 --------|---------
 Title | Single line of text 
-CustomDate | Date and Time - Manage Date by day
-CustomDateYear | Date and Time - Manage Date by year
+CustomDate | Date and Time
 
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-[date-days-format.json](./date-days-format.json) | [André Lage](https://twitter.com/aaclage)
-[date-years-format.json](./date-years-format.json) | [André Lage](https://twitter.com/aaclage)
+date-update-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+date-update-format-years.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 

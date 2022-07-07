@@ -1,0 +1,334 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "box-shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+      "width": "610px",
+      "margin-bottom": "20px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 20px",
+                  "border": "=if([$Position] == 1, '','1px solid #eee')",
+                  "background-color": "=if([$Position] == 1, '','#f5f7fa')",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Position": "1"
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "80px",
+                      "height": "=if(indexOf([$Tab1Icon],'http') > -1,'','80px')"
+                    },
+                    "attributes": {
+                      "iconName": "[$Tab1Icon]"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$TabHead1]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 20px",
+                  "border": "=if([$Position] == 2, '','1px solid #eee')",
+                  "background-color": "=if([$Position] == 2, '','#f5f7fa')",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Position": "2"
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "80px",
+                      "height": "=if(indexOf([$Tab2Icon],'http') > -1,'','80px')"
+                    },
+                    "attributes": {
+                      "iconName": "=if(indexOf([$Tab2Icon],'http') > -1,'',[$Tab2Icon])"
+                    }
+                  },
+                  {
+                    "elmType": "img",
+                    "style": {
+                      "width": "80px"
+                    },
+                    "attributes": {
+                      "src": "=if(indexOf([$Tab2Icon],'http') > -1,[$Tab2Icon],'')"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$TabHead2]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 20px",
+                  "border": "=if([$Position] == 3, '','1px solid #eee')",
+                  "background-color": "=if([$Position] == 3, '','#f5f7fa')",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Position": "3"
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "80px",
+                      "height": "=if(indexOf([$Tab3Icon],'http') > -1,'','80px')"
+                    },
+                    "attributes": {
+                      "iconName": "=if(indexOf([$Tab3Icon],'http') > -1,'',[$Tab3Icon])"
+                    }
+                  },
+                  {
+                    "elmType": "img",
+                    "style": {
+                      "width": "80px"
+                    },
+                    "attributes": {
+                      "src": "=if(indexOf([$Tab3Icon],'http') > -1,[$Tab3Icon],'')"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$TabHead3]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 20px",
+                  "border": "=if([$Position] == 4, '','1px solid #eee')",
+                  "background-color": "=if([$Position] == 4, '','#f5f7fa')",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Position": "4"
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "80px",
+                      "height": "=if(indexOf([$Tab4Icon],'http') > -1,'','80px')"
+                    },
+                    "attributes": {
+                      "iconName": "=if(indexOf([$Tab4Icon],'http') > -1,'',[$Tab4Icon])"
+                    }
+                  },
+                  {
+                    "elmType": "img",
+                    "style": {
+                      "width": "80px"
+                    },
+                    "attributes": {
+                      "src": "=if(indexOf([$Tab4Icon],'http') > -1,[$Tab4Icon],'')"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$TabHead4]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 20px",
+                  "border": "=if([$Position] == 5, '','1px solid #eee')",
+                  "background-color": "=if([$Position] == 5, '','#f5f7fa')",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Position": "5"
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "80px",
+                      "height": "=if(indexOf([$Tab5Icon],'http') > -1,'','80px')"
+                    },
+                    "attributes": {
+                      "iconName": "=if(indexOf([$Tab5Icon],'http') > -1,'',[$Tab5Icon])"
+                    }
+                  },
+                  {
+                    "elmType": "img",
+                    "style": {
+                      "width": "80px"
+                    },
+                    "attributes": {
+                      "src": "=if(indexOf([$Tab5Icon],'http') > -1,[$Tab5Icon],'')"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$TabHead5]"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "20px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "140px"
+                },
+                "attributes": {
+                  "iconName": "=if([$Position] == 1, [$Tab1Icon],if([$Position] == 2, [$Tab2Icon], if([$Position] == 3, [$Tab3Icon],if([$Position] == 4, [$Tab4Icon],[$Tab5Icon] ) )) )"
+                }
+              },
+              {
+                "elmType": "img",
+                "style": {
+                  "width": "140px"
+                },
+                "attributes": {
+                  "src": "=if([$Position] == 1, if(indexOf([$Tab1Icon],'http') > -1,[$Tab1Icon],''),if([$Position] == 2, if(indexOf([$Tab2Icon],'http') > -1,[$Tab2Icon],''), if([$Position] == 3, if(indexOf([$Tab3Icon],'http') > -1,[$Tab3Icon],''),if([$Position] == 4, if(indexOf([$Tab4Icon],'http') > -1,[$Tab4Icon],''),if(indexOf([$Tab5Icon],'http') > -1,[$Tab5Icon],'') ) )) )"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "inline-block",
+                  "padding": "0px 30px",
+                  "max-width": "370px",
+                  "vertical-align": "top"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-bottom": "10px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-24 ms-fontWeight-bold"
+                    },
+                    "txtContent": "=if([$Position] == 1, [$TabHead1],if([$Position] == 2, [$TabHead2], if([$Position] == 3, [$TabHead3],if([$Position] == 4, [$TabHead4],[$TabHead5] ) )) )"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding-bottom": "20px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-18"
+                    },
+                    "txtContent": "=if([$Position] == 1, [$Tab1Desc],if([$Position] == 2, [$Tab2Desc], if([$Position] == 3, [$Tab3Desc],if([$Position] == 4, [$Tab4Desc],[$Tab5Desc] ) )) )"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "background-color": "gray",
+                      "border-radius": "30px",
+                      "box-shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                      "position": "relative",
+                      "width": "90px",
+                      "height": "30px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "a",
+                        "style": {
+                          "margin": "5px 10px",
+                          "text-decoration": "none",
+                          "position": "absolute",
+                          "color": "white"
+                        },
+                        "attributes": {
+                          "target": "_blank",
+                          "href": "=if([$Position] == 1, [$TabUrl1],if([$Position] == 2, [$TabUrl2], if([$Position] == 3, [$TabUrl3],if([$Position] == 4, [$TabUrl4],[$TabUrl5] ) )) )",
+                          "class": "ms-fontWeight-bold"
+                        },
+                        "txtContent": "MORE INFO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

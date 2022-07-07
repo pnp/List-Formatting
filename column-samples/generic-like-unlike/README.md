@@ -1,8 +1,8 @@
-# Like/Unlike list item
+# Like/Unlike List Item
 
 ## Summary
 
-This column formatting sample demonstrates how to like/unlike a list item. This sample uses the setValue of customRowAction to update the number and person or group field.
+This sample demonstrates how to like/unlike a list item. This sample uses the `setValue` `customRowAction` to update the number and person field.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
@@ -13,13 +13,13 @@ This format can be applied to any column type (its value is ignored). In additio
 |Type               |Internal Name|Required|Comments|
 |-------------------|-------------|--------|--------|
 |Number|LikesCount      |No      |Default value = 0|
-|Person or Group|LikedBy      |No      |Allow multiple selections|
+|Person|LikedBy      |No      |Allow multiple selections|
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-generic-like-unlike.json |[Ganesh Sanap](https://twitter.com/GaneshSanap20)
+Solution|Author(s)
+--------|---------
+generic-like-unlike.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
 
 ## Version history
 
@@ -31,4 +31,4 @@ Version |Date          |Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-like-unlike" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-like-unlike" />

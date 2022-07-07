@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-chronological-items",
+    "reponame": "chronological-items",
+    "source": "pnp",
+    "title": "Chronological Items",
+    "shortDescription": "This sample formats your view to look like a chronological timeline.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/chronological-items",
+    "longDescription": [
+      "This sample formats your view to look like a chronological timeline."
+    ],
+    "creationDateTime": "2021-02-23T00:00:00.000Z",
+    "updateDateTime": "2021-02-23T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-neutralQuaternary, ms-borderColor-themeLighterAlt, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontSize-20, ms-fontSize-16, ms-fontSize-14"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/chronological-items/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "fcatinot",
+        "pictureUrl": "https://github.com/fcatinot.png",
+        "name": "Franck Catinot"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

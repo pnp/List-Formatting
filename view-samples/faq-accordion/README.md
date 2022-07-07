@@ -1,10 +1,9 @@
-# FAQ Accordion style
+# FAQ Accordion
 
 ## Summary
-This sample formats your view to appear and work like Accordion style FAQ.
-This view is responsive.
+This sample formats your view to appear and work like an Accordion style FAQ (Frequently Asked Questions). This view is responsive.
 
-![screenshot](./assets/screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -19,9 +18,9 @@ Apply a Group By on the Question column in your view.
 
 ## Sample
 
-Solution                        |Author(s)
---------------------------------|---------------------------
-faq-accordion.json   |[Anand Vadivelan](https://www.linkedin.com/in/anandavadivelan-v-89443012/)
+Solution|Author(s)
+--------|---------
+faq-accordion.json | [Anand Vadivelan](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
 
 ## Version history
 
@@ -33,3 +32,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-accordion" />

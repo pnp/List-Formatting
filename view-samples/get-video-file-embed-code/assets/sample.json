@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-get-video-file-embed-code",
     "reponame": "get-video-file-embed-code",
     "source": "pnp",
-    "title": "View to get the embed code for a video file",
-    "shortDescription": "If you upload video files to a SharePoint document library, there currently isn\u0027t a way for an end user to easily get the iFrame embed code for the video file other than using the [Microsoft Graph Preview item API](https://docs.microsoft.com/en-us/graph/api/driveitem-preview). This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it.",
+    "title": "Video Embed Codes",
+    "shortDescription": "If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/get-video-file-embed-code",
     "longDescription": [
-      "If you upload video files to a SharePoint document library, there currently isn\u0027t a way for an end user to easily get the iFrame embed code for the video file other than using the [Microsoft Graph Preview item API](https://docs.microsoft.com/en-us/graph/api/driveitem-preview). This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it."
+      "If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it."
     ],
     "creationDateTime": "2021-03-22T00:00:00.000Z",
     "updateDateTime": "2021-03-22T00:00:00.000Z",
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb, @thumbnail"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter, ms-borderColor-neutralLight, ms-fontWeight-semibold, ms-fontSize-m, ms-fontSize-s, sp-row-button"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/get-video-file-embed-code/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "MarcMroz",

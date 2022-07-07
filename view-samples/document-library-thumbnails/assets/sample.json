@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-document-library-thumbnails",
     "reponame": "document-library-thumbnails",
     "source": "pnp",
-    "title": "Document Library Items in Tiles Format",
-    "shortDescription": "This sample uses rowFormatter element to overrides the default formatting on the All Documents view.  The view uses thumbnail property to display the items in tiles view with custom size.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/document-library-thumbnails",
+    "title": "Document Library Thumbnails",
+    "shortDescription": "This sample demonstrates showing files in a document libary as preview images.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/document-library-thumbnails",
     "longDescription": [
-      "This sample uses rowFormatter element to overrides the default formatting on the All Documents view.  The view uses thumbnail property to display the items in tiles view with custom size."
+      "This sample demonstrates showing files in a document libary as preview images."
     ],
     "creationDateTime": "2019-02-02T00:00:00.000Z",
     "updateDateTime": "2019-02-02T00:00:00.000Z",
@@ -21,27 +21,43 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "ContentType"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@currentWeb"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Document Library"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary--hover, ms-bgColor-themeLighterAlt, ms-borderColor-neutralLight, ms-fontColor-neutralSecondary, ms-fontColor-white--hover, ms-fontWeight-regular, ms-fontSize-m"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/document-library-thumbnails/assets/document-library-thumbnails.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/document-library-thumbnails/assets/screenshot.png",
         "alt": "document-library-thumbnails"
       }
     ],

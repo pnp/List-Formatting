@@ -1,9 +1,11 @@
 # Expand collapse format
 
 ## Summary
-The following sample provide a format that display content based on expand/collapse effect using support column and option "setValue".
+The following sample provide a format that display content based on expand/collapse effect using support column and option `setValue`.
 
-![Expand collapse format](./assets/ExpandCollapse.gif)
+![screenshot of the sample](./assets/screenshot.gif)
+
+> Note - This relies on updating the underlying list item meaning that the expanded/collapse state applies to ALL users viewing the item
 
 ## View requirements
 - This format can be applied to any column type though the example is based on a single line of text field.
@@ -17,7 +19,7 @@ Expand | Yes/No - default value **"No"**
 
 Solution|Author(s)
 --------|---------
-expand-collapse-format.json | [Andr� Lage](https://twitter.com/aaclage)
+text-expand-collapse-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -33,4 +35,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/expand-collapse-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-expand-collapse-format" />

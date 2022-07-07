@@ -10,11 +10,11 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-Solution                                |Author(s)
-----------------------------------------|------------------------------------------------
-number-doughnut-chart-icon-percent.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-doughnut-chart-percent-only.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-doughnut-chart-icon-only.json    |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+number-doughnut-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-doughnut-chart-percent-only.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-doughnut-chart-icon-only.json    | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -33,4 +33,4 @@ This sample uses icons from the Fluent UI
 
 - [Fluent UI](https://developer.microsoft.com/en-us/fluentui)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/number-doughnut-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-doughnut-chart" />

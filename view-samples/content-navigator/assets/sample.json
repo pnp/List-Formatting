@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery, Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, fillHorizontally, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-themePrimary--hover, ms-fontColor-themeLight, sp-card-borderHighlight, sp-card-container, sp-card-defaultClickButton, sp-card-subContainer, sp-card-lastTextColumnContainer, sp-card-content, sp-card-highlightedContent"
       }
     ],
     "thumbnails": [

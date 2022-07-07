@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Doughnut Chart",
     "shortDescription": "Changes the appearance of the values in number columns (percent) to a donut chart.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-battery",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart",
     "longDescription": [
       "This sample changes the appearance of the values in number columns (percent) to a donut chart. The donut chart is displayed using svg."
     ],
@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "cos, sin"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-neutralQuaternaryAlt"
       }
     ],
     "thumbnails": [

@@ -1,4 +1,4 @@
-# Displays a customizable Bing Map image for a given location in a Multi-Line of Text Field
+# Display a Bing Maps Image for a Location
 
 ## Summary
 This template uses Bing Maps' [staticmap API](https://docs.microsoft.com/en-us/bingmaps) which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation: ([static map](https://docs.microsoft.com/en-us/bingmaps/rest-services/imagery/get-a-static-map)
@@ -8,7 +8,7 @@ In this template we are just using the current field's value as the location, bu
 
 To add additional parameters, just continue to add operands in the + operation!
 
-![screenshot of the sample](./assets/text-bing-map-Screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### API key
 
@@ -31,7 +31,7 @@ If your address is stored in a Multi-Line of Text field, there are a few extra c
 
 Solution|Author(s)
 --------|---------
-txt-bing-map.json | [April Dunnam](https://twitter.com/aprildunnam)
+text-bing-map.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunham](https://twitter.com/aprildunnam))
 
 ## Version history
 
@@ -43,4 +43,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/text-bing-map" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-bing-map" />

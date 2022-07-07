@@ -34,7 +34,7 @@ If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")),
 
 Solution|Author(s)
 --------|---------
-generic-launch-powerapp.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-launch-powerapp.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -52,4 +52,4 @@ Version|Date|Comments
 None
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-launch-powerapp" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-launch-powerapp" />

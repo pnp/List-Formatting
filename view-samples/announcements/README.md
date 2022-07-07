@@ -1,0 +1,37 @@
+# Announcements
+
+## Summary
+
+This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement.
+
+![screenshot of the sample](./assets/screenshot.png)
+
+![screenshot of the sample on a Modern page](./assets/screenshot2.png)
+
+## View requirements
+
+| Column Name         | Type                                   | Internal Column Name |
+| ------------------- | -------------------------------------- | -------------------- |
+| Title               | Single Line Text                       | Title                |
+| Description         | Single Line Text                       | Description          |
+| TypeAnn             | Choice (Error, Success, Info, Warning) | TypeAnn              |
+| RemoveDate         | Date and Time                          | RemoveDate          |
+| (optional) ImgHover | Picture                                | ImgHover             |
+
+## Sample
+
+Solution|Author(s)
+--------|---------
+announcements.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalho](https://twitter.com/davRamalho))
+
+## Version history
+
+| Version | Date             | Comments        |
+| ------- | ---------------- | --------------- |
+| 1.0     | 1 December, 2021 | Initial release |
+
+## Disclaimer
+
+**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/announcements" />

@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-css-backgroundColor-errorBackground50, sp-css-backgroundColor-errorBackground, sp-css-color-redDark, sp-css-backgroundColor-neutralBackground10, sp-css-backgroundColor-successBackground40, sp-css-color-green, sp-css-backgroundColor-warningBackground50, sp-css-color-themeDarker, sp-css-backgroundColor-blueBackground07, sp-css-backgroundColor-blueBackground17, sp-css-color-neutralPrimary, sp-css-color-blue, sp-css-color-red, sp-css-backgroundColor-blue, sp-css-color-themeDark"
       }
     ],
     "thumbnails": [

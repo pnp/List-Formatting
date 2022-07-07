@@ -13,10 +13,7 @@
         "height": "50px",
         "float": "left"
       },
-      "inlineEditField": "[$[$DueDate]]",
-      "attributes": {
-        "class": ""
-      },
+      "inlineEditField": "[$DueDate]",
       "children": [
         {
           "elmType": "div",

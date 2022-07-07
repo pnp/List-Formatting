@@ -23,20 +23,48 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Power Apps, Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDark, ms-fontColor-themeDark--hover, ms-font-xxl"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-launch-powerapp/assets/CopyPALink.png",
-        "alt": "CopyPALink"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-launch-powerapp/assets/screenshot.png",
+        "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-launch-powerapp/assets/screenshot.png",
-        "alt": "screenshot"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-launch-powerapp/assets/CopyPALink.png",
+        "alt": "CopyPALink"
       }
     ],
     "authors": [

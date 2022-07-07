@@ -4,10 +4,10 @@
     "reponame": "planner-inspired-task-card",
     "source": "pnp",
     "title": "Planner Inspired Task Cards",
-    "shortDescription": "Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate \u0022In Progress\u0022, \u0022Completed\u0022 and \u0022Delayed\u0022 Statuses. Automatically strikes out text for \u0022Completed\u0022 items.  ",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/planner-inspired-task-card",
+    "shortDescription": "Formats Task List Items in a Planner Inspired Card View. Uses Fluent UI Icons to designate In Progress, Completed, and Delayed Statuses. Automatically strikes out text for Completed items.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/planner-inspired-task-card",
     "longDescription": [
-      "Formats Task List Items in a Planner Inspired Card View. Uses OfficeUIFabric Icons to designate \u0022In Progress\u0022, \u0022Completed\u0022 and \u0022Delayed\u0022 Statuses. Automatically strikes out text for \u0022Completed\u0022 items.  "
+      "Formats Task List Items in a Planner Inspired Card View. Uses Fluent UI Icons to designate In Progress, Completed, and Delayed Statuses. Automatically strikes out text for Completed items."
     ],
     "creationDateTime": "2019-07-26T00:00:00.000Z",
     "updateDateTime": "2019-07-26T00:00:00.000Z",
@@ -21,24 +21,36 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "Date/Time"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
         "value": "@now"
       },
       {
-        "key": "LIST-ROW-ACTION",
-        "value": "defaultClick"
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, delete"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themePrimary--hover, ms-fontColor-neutralPrimary, ms-fontColor-red--hover"
       }
     ],
     "thumbnails": [

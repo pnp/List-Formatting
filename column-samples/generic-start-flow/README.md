@@ -1,4 +1,4 @@
-# Create a button to launch a Flow for the selected item
+# Launch a Flow for a Selected Item
 
 ## Summary
 You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow.
@@ -23,7 +23,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-start-flow-button.json | Yannick Borghmans
+generic-start-flow.json | [Yannick Borghmans](https://github.com/yborghmans) ([@yborghmans](https://twitter.com/yborghmans))
 
 ## Version history
 
@@ -45,4 +45,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/column-samples/generic-start-flow" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-start-flow" />

@@ -1,9 +1,9 @@
-# Heart shading
+# Heart Shading
 
 ## Summary
 This sample demonstrates how to express percentages in terms of the color shading of a heart displayed in SVG.
 
-- `number-heart-shading-site-theme-color.json` uses the theme color of the site as the color of the heart.
+- `number-heart-shading.json` uses the theme color of the site as the color of the heart.
 - `number-heart-shading-custom-color` uses the HTML color code as the the color of the heart, and in the sample, `#FF0000` is set.
 - `number-heart-shading-rainbow-color.json` uses different colors for each heart, starting from the left heart: purple, blue, green, yellow, and red.
 
@@ -14,11 +14,11 @@ This format can be applied to a Number column. It is expected that the values wi
 
 ## Sample
 
-Solution                                   |Author(s)
--------------------------------------------|---------------------------
-number-heart-shading-site-theme-color.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-heart-shading-custom-color.json     |[Tetsuya Kawahara](https://twitter.com/techan_k)
-number-heart-shading-rainbow-color.json    |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+number-heart-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-heart-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-heart-shading-rainbow-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 

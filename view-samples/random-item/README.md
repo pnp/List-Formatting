@@ -23,7 +23,7 @@ In the above use case, this format has been used to display a random turkey fact
 
 Solution|Author(s)
 --------|---------
-random-item.json | [Chris Kent](https://twitter.com/theChrisKent)
+random-item.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -36,4 +36,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/random-item" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/random-item" />

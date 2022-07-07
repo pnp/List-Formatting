@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-heat-map",
-    "reponame": "heat-map",
+    "name": "pnp-list-formatting-gauge-aggregate-footer",
+    "reponame": "gauge-aggregate-footer",
     "source": "pnp",
-    "title": "Heat Map",
-    "shortDescription": "This sample demonstrates creating a layered dynamic SVG image in a view format.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests",
+    "title": "Gauge Aggregate Footer",
+    "shortDescription": "This sample shows a gauge in the list footer (when aggregates are enabled).",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/gauge-aggregate-footer",
     "longDescription": [
-      "This sample demonstrates creating a layered dynamic SVG image in a view format. States are highlighted when they have list items that correspond to them. They get darker the more times a state is mentioned."
+      "This sample shows a gauge in the list footer (when aggregates are enabled)."
     ],
     "creationDateTime": "2022-04-04T00:00:00.000Z",
     "updateDateTime": "2022-04-04T00:00:00.000Z",
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@columnAggregate.value"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, cos, sin"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "footerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/gauge-aggregate-footer/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

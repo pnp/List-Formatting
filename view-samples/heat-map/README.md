@@ -4,7 +4,7 @@
 
 This sample demonstrates creating a layered dynamic SVG image in a view format. States are highlighted when they have list items that correspond to them. They get darker the more times a state is mentioned.
 
-![Screenshot of Heat Map view](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ### Theming
 
@@ -24,7 +24,7 @@ This format utilizes theme colors and will adjust correctly as themes change (ev
 
 Solution|Author(s)
 --------|---------
-heat-map.json | [Chris Kent](https://twitter.com/theChrisKent)
+heat-map.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/heat-map" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/heat-map" />

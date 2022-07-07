@@ -4,7 +4,7 @@
 This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical.
 
 
-![screenshot of the sample](./assets/datecompressformat.PNG)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any date time `Column`
@@ -13,7 +13,7 @@ This sample provide a different style to provide Date in a compress way such us 
 
 Solution|Author(s)
 --------|---------
-date-compress-format.json | [André Lage](https://twitter.com/aaclage)
+date-compress-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
