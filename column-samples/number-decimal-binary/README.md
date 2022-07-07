@@ -1,9 +1,9 @@
-# Decimal to Binary sample
+# Decimal to Binary Conversion
 
 ## Summary
-This sample provide decimal converter to binary using out of the List formatting math functions.
+This sample provides decimal conversion to binary using standard List formatting math functions.
 
-![Decimal to Binary](./assets/Decimal-Binary.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -17,7 +17,7 @@ DecimalBinary | Number- Define min value of 0 and max value of 255.
 
 Solution|Author(s)
 --------|---------
-[number-decimal-binary-format.json](./number-decimal-binary-format.json) | [André Lage](https://twitter.com/aaclage)
+number-decimal-binary.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -29,4 +29,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-volume" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-decimal-binary" />
