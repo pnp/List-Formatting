@@ -1,0 +1,63 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-update-button",
+    "reponame": "generic-update-button",
+    "source": "pnp",
+    "title": "Field Value Update Button",
+    "shortDescription": "This sample demonstrates displaying a button to update the fields values of an item.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-update-button",
+    "longDescription": [
+      "This sample demonstrates displaying a button to update the fields values of an item."
+    ],
+    "creationDateTime": "2022-04-02T00:00:00.000Z",
+    "updateDateTime": "2022-04-02T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-update-button/assets/screenshot.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-update-button/assets/screenshot_theme-color.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-update-button/assets/screenshot_OK-NG.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

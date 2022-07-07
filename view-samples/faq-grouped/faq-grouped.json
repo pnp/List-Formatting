@@ -5,7 +5,11 @@
   "groupProps": {
     "headerFormatter": {
       "elmType": "div",
-      "txtContent": "@group.fieldData"
+      "txtContent": "@group.fieldData",
+      "attributes": {
+        "class": "sp-row-title ms-fontSize-xl"
+      }
     }
-  }
+  },
+  "additionalRowClass": "ms-font-l ms-fontColor-neutralPrimary ms-bgColor-white--hover"
 }

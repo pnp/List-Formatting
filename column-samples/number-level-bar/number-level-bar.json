@@ -1,0 +1,106 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "attributes": {
+        "iconName": "ChromeBack",
+        "class": "=if(@currentField>0,'ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover', 'ms-fontColor-neutralLight')"
+      },
+      "style": {
+        "cursor": "pointer",
+        "padding-right": "4px"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "ThreatLevel": "=if(@currentField>= .25,@currentField-.25,0)*100"
+        }
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "width": "100%",
+        "height": "40px",
+        "display": "flex",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-greenLight"
+          },
+          "style": {
+            "margin-left": "3px",
+            "width": "25%",
+            "height": "60%"
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-yellow"
+          },
+          "style": {
+            "width": "25%",
+            "height": "60%"
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-orangeLight"
+          },
+          "style": {
+            "width": "25%",
+            "height": "60%"
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-redDark"
+          },
+          "style": {
+            "width": "25%",
+            "height": "60%"
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-black"
+          },
+          "style": {
+            "position": "absolute",
+            "left": "=([$ThreatLevel]*100) + '%'",
+            "width": "6px",
+            "height": "80%",
+            "border-radius": "3px"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "attributes": {
+        "iconName": "ChromeBackMirrored",
+        "class": "=if(@currentField<1,'ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover', 'ms-fontColor-neutralLight')"
+      },
+      "style": {
+        "cursor": "pointer",
+        "padding-left": "7px"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "ThreatLevel": "=if(@currentField < 1,@currentField+.25,1)*100"
+        }
+      }
+    }
+  ]
+}

@@ -10,7 +10,7 @@
       "This sample demonstrates a honeycomb structure of links. The hexagons are displayed using SVG, so that five hexagons are displayed per line. This sample uses the Icons from the Fluent UI. The name of the icon is referenced through an Icon field."
     ],
     "creationDateTime": "2021-07-05T00:00:00.000Z",
-    "updateDateTime": "2021-07-05T00:00:00.000Z",
+    "updateDateTime": "2022-06-11T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"

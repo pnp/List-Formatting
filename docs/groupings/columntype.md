@@ -191,4 +191,4 @@
 - [retail-account](https://github.com/pnp/List-Formatting/tree/master/view-samples/retail-account)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/columntype" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/columntype" />

@@ -1,0 +1,336 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "min-width": "100%",
+        "display": "flex",
+        "align-items": "center",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "100%",
+            "position": "absolute",
+            "display": "flex",
+            "flex-direction": "row",
+            "justify-content": "space-around",
+            "border": "2px solid",
+            "font-size": "15px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "=if([$UTC] > 0 , ((1 - abs([$UTC] % 1)) * 100) + '%' , (abs([$UTC] % 1) * 100) + '%')",
+                "display": "=if([$UTC] % 1 == 0 , 'none' , '')"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 23) % 24) <= 5 || abs((24 + [$UTC] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 23) % 24) <= 8 || abs((24 + [$UTC] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC]) % 24)) == 24 , 0, ceiling(abs((24 + [$UTC]) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC]) % 24) <= 5 || abs((24 + [$UTC]) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC]) % 24) <= 8 || abs((24 + [$UTC]) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 1) % 24)) == 24, 0, ceiling(abs((24 + [$UTC] + 1) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 1) % 24) <= 5 || abs((24 + [$UTC] + 1) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 1) % 24) <= 8 || abs((24 + [$UTC] + 1) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 2) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 2) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 2) % 24) <= 5 || abs((24 + [$UTC] + 2) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 2) % 24) <= 8 || abs((24 + [$UTC] + 2) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 3) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 3) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 3) % 24) <= 5 || abs((24 + [$UTC] + 3) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 3) % 24) <= 8 || abs((24 + [$UTC] + 3) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 4) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 4) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 4) % 24) <= 5 || abs((24 + [$UTC] + 4) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 4) % 24) <= 8 || abs((24 + [$UTC] + 4) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 5) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 5) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 5) % 24) <= 5 || abs((24 + [$UTC] + 5) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 5) % 24) <= 8 || abs((24 + [$UTC] + 5) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 6) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 6) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 6) % 24) <= 5 || abs((24 + [$UTC] + 6) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 6) % 24) <= 8 || abs((24 + [$UTC] + 6) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 7) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 7) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 7) % 24) <= 5 || abs((24 + [$UTC] + 7) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 7) % 24) <= 8 || abs((24 + [$UTC] + 7) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 8) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 8) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 8) % 24) <= 5 || abs((24 + [$UTC] + 8) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 8) % 24) <= 8 || abs((24 + [$UTC] + 8) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 9) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 9) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 9) % 24) <= 5 || abs((24 + [$UTC] + 9) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 9) % 24) <= 8 || abs((24 + [$UTC] + 9) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 10) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 10) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 10) % 24) <= 5 || abs((24 + [$UTC] + 10) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 10) % 24) <= 8 || abs((24 + [$UTC] + 10) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 11) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 11) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 11) % 24) <= 5 || abs((24 + [$UTC] + 11) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 11) % 24) <= 8 || abs((24 + [$UTC] + 11) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 12) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 12) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 12) % 24) <= 5 || abs((24 + [$UTC] + 12) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 12) % 24) <= 8 || abs((24 + [$UTC] + 12) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 13) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 13) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 13) % 24) <= 5 || abs((24 + [$UTC] + 13) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 13) % 24) <= 8 || abs((24 + [$UTC] + 13) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 14) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 14) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 14) % 24) <= 5 || abs((24 + [$UTC] + 14) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 14) % 24) <= 8 || abs((24 + [$UTC] + 14) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 15) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 15) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 15) % 24) <= 5 || abs((24 + [$UTC] + 15) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 15) % 24) <= 8 || abs((24 + [$UTC] + 15) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 16) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 16) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 16) % 24) <= 5 || abs((24 + [$UTC] + 16) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 16) % 24) <= 8 || abs((24 + [$UTC] + 16) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 17) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 17) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 17) % 24) <= 5 || abs((24 + [$UTC] + 17) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 17) % 24) <= 8 || abs((24 + [$UTC] + 17) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 18) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 18) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 18) % 24) <= 5 || abs((24 + [$UTC] + 18) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 18) % 24) <= 8 || abs((24 + [$UTC] + 18) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 19) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 19) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 19) % 24) <= 5 || abs((24 + [$UTC] + 19) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 19) % 24) <= 8 || abs((24 + [$UTC] + 19) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 20) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 20) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 20) % 24) <= 5 || abs((24 + [$UTC] + 20) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 20) % 24) <= 8 || abs((24 + [$UTC] + 20) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 21) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 21) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 21) % 24) <= 5 || abs((24 + [$UTC] + 21) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 21) % 24) <= 8 || abs((24 + [$UTC] + 21) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 22) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 22) % 24)))",
+              "style": {
+                "width": "100%",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 22) % 24) <= 5 || abs((24 + [$UTC] + 22) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 22) % 24) <= 8 || abs((24 + [$UTC] + 22) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "=if(ceiling(abs((24 + [$UTC] + 23) % 24))==24 , 0, ceiling(abs((24 + [$UTC] + 23) % 24)))",
+              "style": {
+                "width": "=if([$UTC] % 1 == 0 , '100%', if([$UTC] > 0 , (abs([$UTC] % 1) * 100) + '%' , ((1 - abs([$UTC] % 1)) * 100) + '%'))",
+                "text-align": "center"
+              },
+              "attributes": {
+                "class": "=if(abs((24 + [$UTC] + 23) % 24) <= 5 || abs((24 + [$UTC] + 23) % 24) >= 22 , 'ms-bgColor-themePrimary ms-fontColor-white' , if(abs((24 + [$UTC] + 23) % 24) <= 8 || abs((24 + [$UTC] + 23) % 24) >= 19 , 'ms-bgColor-themeLight' , ''))"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "width": "7px",
+            "height": "43px",
+            "left": "=((Number(@now) % 86400000) / 3600000) / 24 * 100 + '%'",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-neutralTertiary ms-bgColor-neutralPrimary--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "directionalHint": "rightCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "txtContent": "=padStart(toString(floor(((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000)),2,'0') + ':' + padStart(toString(floor(((((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000) - floor(((Number(@now) + [$UTC] * 3600000) % 86400000) / 3600000)) * 60)),2,'0')",
+              "style": {
+                "padding": "10px 20px",
+                "font-weight": "bold",
+                "font-size": "20px"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

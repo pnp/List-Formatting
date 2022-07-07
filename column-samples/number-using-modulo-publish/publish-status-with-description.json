@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "class": "=if(Number(@currentField) % 1 == 0, 'sp-field-severity--good', if(Number(@currentField) > 1, 'sp-field-severity--warning', 'sp-field-severity--severeWarning')"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "padding": "4px 8px"
+      },
+      "attributes": {
+        "iconName": "=if(Number(@currentField) % 1 == 0, 'Accept', if(Number(@currentField) > 1, 'Warning', 'ErrorBadge'))"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "=if(Number(@currentField) % 1 == 0, 'Published', if(Number(@currentField) > 1, 'Published with Draft', 'Draft with NO published version')) + ' (v.'+ [$_UIVersionString] + ')'"
+    }
+  ]
+}

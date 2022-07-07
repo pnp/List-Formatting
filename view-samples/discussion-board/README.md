@@ -27,11 +27,14 @@ Edit View requirements
 Solution|Author(s)
 --------|---------
 discussion-board.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+discussion-board-format.json | [André Lage](https://twitter.com/aaclage)
+discussion-board-timeline-format.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
+2.0|May 11, 2022| updated with new features
 1.0|January 30, 2022|Initial release
 
 ## Disclaimer

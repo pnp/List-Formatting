@@ -1,0 +1,168 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideListHeader": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "style": {
+            "display": "flex",
+            "float": "left",
+            "margin": "10px",
+            "padding": "5px",
+            "min-width": "320px",
+            "justify-content": "space-evenly"
+        },
+        "attributes": {
+            "class": "ms-bgColor-neutralLighterAlt ms-bgColor-neutralLight--hover ms-fontColor-themePrimary--hover"
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "children": [
+                    {
+                        "elmType": "img",
+                        "style": {
+                            "display": "block",
+                            "height": "auto",
+                            "max-height": "120px",
+                            "border-radius": "50%"
+                        },
+                        "attributes": {
+                            "src": "='/_layouts/15/userphoto.aspx?size=S&username=' + [$Person.email]"
+                        }
+                    }
+                ]
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "text-align": "left",
+                    "padding": "5px",
+                    "margin": "5px"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "font-weight": "400",
+                            "font-size": "1rem"
+                        },
+                        "txtContent": "[$Person.title]"
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "font-weight": "400",
+                            "font-size": "1em",
+                            "overflow": "hidden",
+                            "max-width": "280px",
+                            "white-space": "nowrap"
+                        },
+                        "txtContent": "[$Title]"
+                    },
+                    {
+                        "elmType": "div",
+                        "txtContent": "[$PhoneNumber]"
+                    }
+                ]
+            },
+            {
+                "elmType": "div",
+                "children": [
+                    {
+                        "elmType": "span",
+                        "style": {
+                            "height": "2rem",
+                            "width": "2rem",
+                            "font-size": "1em",
+                            "cursor": "pointer",
+                            "margin": "0px 5px",
+                            "vertical-align": "text-bottom"
+                        }
+                    },
+                    {
+                        "elmType": "span",
+                        "style": {
+                            "height": "2rem",
+                            "width": "2rem",
+                            "font-size": "1.3em",
+                            "cursor": "pointer",
+                            "margin": "0px 5px",
+                            "vertical-align": "text-bottom",
+                            "display": "=if([$TeamsCall]=='','none','')"
+                        },
+                        "children": [
+                            {
+                                "elmType": "a",
+                                "style": {
+                                    "cursor": "pointer"
+                                },
+                                "attributes": {
+                                    "class": "ms-fontColor-black ms-fontColor-gray--hover ms-fontColor-themePrimary--hover",
+                                    "iconName": "Phone",
+                                    "href": "=[$TeamsCall]",
+                                    "target": "_blank",
+                                    "title": "Teams Call"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "elmType": "span",
+                        "style": {
+                            "height": "2rem",
+                            "width": "2rem",
+                            "font-size": "1.3em",
+                            "cursor": "pointer",
+                            "margin": "0px 5px",
+                            "vertical-align": "text-bottom",
+                            "display": "=if([$TeamsChat]=='','none','')"
+                        },
+                        "children": [
+                            {
+                                "elmType": "a",
+                                "style": {
+                                    "cursor": "pointer"
+                                },
+                                "attributes": {
+                                    "class": "ms-fontColor-black ms-fontColor-gray--hover ms-fontColor-themePrimary--hover",
+                                    "iconName": "Message",
+                                    "href": "=[$TeamsChat]",
+                                    "target": "_blank",
+                                    "title": "Teams Chat"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "elmType": "span",
+                        "style": {
+                            "height": "2rem",
+                            "width": "2rem",
+                            "font-size": "1.3em",
+                            "cursor": "pointer",
+                            "margin": "0px 5px",
+                            "vertical-align": "text-bottom",
+                            "display": "=if([$Person]=='','none','')"
+                        },
+                        "children": [
+                            {
+                                "elmType": "a",
+                                "style": {
+                                    "cursor": "pointer"
+                                },
+                                "attributes": {
+                                    "class": "ms-fontColor-black ms-fontColor-gray--hover ms-fontColor-themePrimary--hover",
+                                    "iconName": "OutlookLogo",
+                                    "href": "='mailto:' + [$Person.email]",
+                                    "title": "Email"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

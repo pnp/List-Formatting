@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "=if(length(@currentField),@currentField,if([$ThreatLevel]>=1,if(@lcid==1031,'Ihr werdet mit Füßen getreten werden!','Ye shall be trampled!'),if([$ThreatLevel]>=.75,if(@lcid==1031,'Ich spüre Mord in eurer Zukunft.','I sense murder in your future.'),if([$ThreatLevel]>=.5,if(@lcid==1031,'Unsere Scheuklappen sind ab und wir beobachten euch!','Our blinders are off and we are watching you!'),if([$ThreatLevel]>=.25,if(@lcid==1031,'Schnupftabak schnupfen!','Snuffle snuffle snort!'),if(@lcid==1031,'Hab einen schönen Tag!','Have a great day!')))))",
+  "style": {
+    "font-weight": "=800*([$ThreatLevel]+.25)"
+  },
+  "attributes": {
+    "class": "=if([$ThreatLevel]>=1,'ms-fontColor-redDark',if([$ThreatLevel]>=.75,'ms-fontColor-red',if([$ThreatLevel]>=.5,'ms-fontColor-orange',if([$ThreatLevel]>=.25,'ms-fontColor-orangeLight','')))"
+  }
+}

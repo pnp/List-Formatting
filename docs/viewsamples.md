@@ -5,4 +5,4 @@ This is an alphabetical list of all the **view formatting** samples available. E
 !!! Tip
     Depending on what you are looking for, you may find the sample [groupings](./groupings/columntype.md) more helpful.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/viewsamples" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/viewsamples" />

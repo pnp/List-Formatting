@@ -34,4 +34,4 @@ Samples are listed by their usage of `customRowAction` `action` properties.
 - [generic-rowactions/share](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/action" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/action" />

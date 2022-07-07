@@ -64,4 +64,4 @@ Samples are listed by their usage of advanced operators. This excludes common ar
 - [generic-numeric-average-comparison](https://github.com/pnp/List-Formatting/tree/master/view-samples/generic-numeric-average-comparison)
 - [multi-person-facepile](https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-facepile)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/docs/groupings/operator" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/docs/groupings/operator" />

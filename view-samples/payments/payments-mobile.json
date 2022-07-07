@@ -39,6 +39,122 @@
                 "attributes": {
                   "iconName": "[$Category]",
                   "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-20 '"
+                },
+                "children": []
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$Expand]==true && length([$Location])>0,'flex','none')",
+                  "text-decoration": "none",
+                  "padding": "10px 0 0 10px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "iconName": "POI",
+                  "class": "ms-fontSize-24 ms-fontColor-themePrimary "
+                },
+                "customCardProps": {
+                  "openOnEvent": "click",
+                  "isBeakVisible": true,
+                  "directionalHint": "bottomCenter",
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "display": "inline"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "5px",
+                          "display": "flex"
+                        },
+                        "attributes": {
+                          "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "='City: '+ [$Location.Address.City]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "='State: '+ [$Location.Address.State]"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "padding-left": "20px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "='Country: '+ [$Location.Address.CountryOrRegion]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "='Street: '+ [$Location.Address.Street]"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "a",
+                            "style": {
+                              "text-decoration": "none"
+                            },
+                            "attributes": {
+                              "iconName": "POI",
+                              "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+[$Location.Coordinates.Latitude]+'~'+[$Location.Coordinates.Longitude]+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                              "target": "_blank",
+                              "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "a",
+                "style": {
+                  "display": "=if([$Expand]==true,if(length([$Invoice])>0,'flex','none'),'none')",
+                  "text-decoration": "none",
+                  "padding": "10px",
+                  "font-size": "24px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "href": "[$Invoice]",
+                  "target": "_blank",
+                  "iconName": "Photo2",
+                  "class": "ms-fontColor-themePrimary"
                 }
               }
             ]
@@ -70,7 +186,7 @@
                           "cursor": "pointer"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90",
+                          "class": "ms-fontSize-16 ms-fontColor-black ms-fontWeight-semibold",
                           "title": "[$Title]"
                         },
                         "txtContent": "[$Title]",
@@ -94,7 +210,8 @@
                                       "width": "100%",
                                       "white-space": "nowrap",
                                       "overflow": "hidden",
-                                      "text-overflow": "ellipsis"
+                                      "text-overflow": "ellipsis",
+                                      "display": "flex"
                                     },
                                     "children": [
                                       {
@@ -104,6 +221,71 @@
                                           "title": "[$Title]"
                                         },
                                         "txtContent": "[$Title]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "flex",
+                                          "padding": "5px",
+                                          "width": "100%",
+                                          "text-align": "right"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "width": "100%"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "a",
+                                                "style": {
+                                                  "display": "=if(length([$Invoice])>0,'','none')",
+                                                  "text-decoration": "none",
+                                                  "cursor": "pointer"
+                                                },
+                                                "attributes": {
+                                                  "href": "[$Invoice]",
+                                                  "target": "_blank",
+                                                  "title": "Invoice",
+                                                  "class": "ms-fontSize-24 ms-fontColor-themePrimary",
+                                                  "iconName": "DocumentSearch"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "margin-left": "5px"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "padding": "5px",
+                                                  "text-align": "center",
+                                                  "width": "15px",
+                                                  "height": "15px",
+                                                  "cursor": "pointer",
+                                                  "border-radius": "50%"
+                                                },
+                                                "attributes": {
+                                                  "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "margin-top": "-2px"
+                                                    },
+                                                    "txtContent": "=if(length([$Rate])>0,[$Rate],0)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
                                       }
                                     ]
                                   },
@@ -135,7 +317,7 @@
                                           "text-align": "right"
                                         },
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
                                         },
                                         "inlineEditField": "[$Payment]",
                                         "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -146,13 +328,13 @@
                                     "elmType": "div",
                                     "style": {
                                       "padding": "10px",
+                                      "display": "flex",
                                       "width": "100%"
                                     },
                                     "children": [
                                       {
                                         "elmType": "div",
                                         "style": {
-                                          "display": "inline-block",
                                           "width": "50%",
                                           "white-space": "nowrap",
                                           "overflow": "hidden",
@@ -162,7 +344,7 @@
                                         "inlineEditField": "[$OtherCostDescription]",
                                         "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90",
+                                          "class": "ms-fontSize-16 ms-fontColor-gray90 sp-css-backgroundColor-neutralLighterAlt",
                                           "title": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')"
                                         }
                                       },
@@ -172,11 +354,10 @@
                                           "width": "50%",
                                           "cursor": "pointer",
                                           "font-style": "italic",
-                                          "display": "inline-block",
                                           "text-align": "right"
                                         },
                                         "attributes": {
-                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
                                         },
                                         "inlineEditField": "[$OtherCosts]",
                                         "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -196,6 +377,9 @@
                                           "padding-top": "10px",
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
+                                        },
+                                        "attributes": {
+                                          "class": ""
                                         },
                                         "children": [
                                           {
@@ -221,6 +405,120 @@
                                               "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-16 ms-fontWeight-semibold '"
                                             },
                                             "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "min-height": "30px",
+                                          "padding": "0 10px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding": "10px",
+                                          "display": "=if(length([$Location])>0,'','none')"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "display": "inline"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "padding": "5px",
+                                                  "display": "flex"
+                                                },
+                                                "attributes": {
+                                                  "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "font-size": "12px"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "txtContent": "='City: '+ [$Location.Address.City]"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "txtContent": "='State: '+ [$Location.Address.State]"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "padding-left": "20px",
+                                                      "font-size": "12px"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "txtContent": "='Country: '+ [$Location.Address.CountryOrRegion]"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "txtContent": "='Street: '+ [$Location.Address.Street]"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "elmType": "a",
+                                                    "style": {
+                                                      "text-decoration": "none"
+                                                    },
+                                                    "attributes": {
+                                                      "iconName": "POI",
+                                                      "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+[$Location.Coordinates.Latitude]+'~'+[$Location.Coordinates.Longitude]+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                                                      "target": "_blank",
+                                                      "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
                                           }
                                         ]
                                       }
@@ -287,6 +585,9 @@
                   },
                   {
                     "elmType": "div",
+                    "style": {
+                      "width": "100px"
+                    },
                     "attributes": {
                       "class": "ms-fontSize-14 ms-fontColor-black ms-fontWeight-semibold"
                     },
@@ -322,7 +623,7 @@
                           "text-align": "right"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
                         },
                         "inlineEditField": "[$Payment]",
                         "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -333,13 +634,12 @@
                     "elmType": "div",
                     "style": {
                       "padding-top": "10px",
-                      "display": "=if([$Expand]==false,'none','block')"
+                      "display": "=if([$Expand]==false,'none','flex')"
                     },
                     "children": [
                       {
                         "elmType": "div",
                         "style": {
-                          "display": "inline-block",
                           "width": "50%",
                           "white-space": "nowrap",
                           "overflow": "hidden",
@@ -349,7 +649,7 @@
                         "inlineEditField": "[$OtherCostDescription]",
                         "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90",
+                          "class": "ms-fontSize-16 ms-fontColor-gray90 sp-css-backgroundColor-neutralLighterAlt",
                           "title": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')"
                         }
                       },
@@ -359,11 +659,10 @@
                           "width": "50%",
                           "cursor": "pointer",
                           "font-style": "italic",
-                          "display": "inline-block",
                           "text-align": "right"
                         },
                         "attributes": {
-                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold"
+                          "class": "ms-fontSize-16 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
                         },
                         "inlineEditField": "[$OtherCosts]",
                         "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
@@ -377,6 +676,9 @@
                       "padding-bottom": "10px",
                       "display": "=if([$Expand]==false,'none','block')",
                       "border-top": "1px solid #ccc"
+                    },
+                    "attributes": {
+                      "class": ""
                     },
                     "children": [
                       {
@@ -432,9 +734,11 @@
               "position": "relative",
               "width": "150px"
             },
+            "attributes": {},
             "children": [
               {
                 "elmType": "div",
+                "style": {},
                 "children": [
                   {
                     "elmType": "div",
@@ -553,6 +857,9 @@
                         "attributes": {
                           "iconName": "Chat",
                           "class": "ms-fontSize-20 ms-fontWeight-semibold"
+                        },
+                        "customRowAction": {
+                          "action": "defaultClick"
                         }
                       },
                       {
@@ -562,12 +869,12 @@
                           "display": "inline-block",
                           "cursor": "pointer"
                         },
-                        "txtContent": "[$_CommentCount]"
+                        "txtContent": "[$_CommentCount]",
+                        "customRowAction": {
+                          "action": "defaultClick"
+                        }
                       }
-                    ],
-                    "customRowAction": {
-                      "action": "defaultClick"
-                    }
+                    ]
                   }
                 ]
               }

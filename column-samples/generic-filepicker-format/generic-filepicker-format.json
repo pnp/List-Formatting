@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(length(@currentField)>0,'none','')"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "150px",
+            "height": "30px",
+            "border": "2px solid black",
+            "cursor": "pointer"
+          },
+          "inlineEditField": "@currentField"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if(length(@currentField)>0,'none','flex')"
+          },
+          "children": [
+            {
+              "elmType": "a",
+              "style": {
+                "text-decoration": "none",
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "href": "=@currentWeb+'[replaceUrlPathtoLibrary]'",
+                "target": "blank",
+                "title": "Select image",
+                "iconName": "ImageSearch",
+                "class": "ms-fontSize-20 ms-fontColor-themePrimary "
+              }
+            },
+            {
+              "elmType": "a",
+              "style": {
+                "text-decoration": "none",
+                "padding-left": "5px",
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "href": "=@currentWeb+'[replaceUrlPathtoLibrary]'",
+                "target": "blank",
+                "class": "ms-fontColor-themePrimary"
+              },
+              "txtContent": "Select image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(length(@currentField)>0,'','none')"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "style": {
+            "text-decoration": "none",
+            "padding": "10px",
+            "font-size": "32px",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "iconName": "Photo2",
+            "href": "@currentField",
+            "target": "_blank",
+            "class": "ms-fontColor-themePrimary"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "title": "Delete image",
+            "iconName": "ErrorBadge",
+            "class": "ms-fontColor-themePrimary"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "FilePicker": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

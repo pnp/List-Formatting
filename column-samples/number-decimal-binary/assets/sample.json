@@ -1,0 +1,51 @@
+[
+    {
+      "name": "pnp-list-formatting-number-decimal-binary",
+      "reponame": "number-decimal-binary",
+      "source": "pnp",
+      "title": "Decimal to Binary sample",
+      "shortDescription": "This sample provide decimal converter to binary using out of the List formatting math functions.",
+      "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-decimal-binary",
+      "longDescription": [
+        "This sample provide decimal converter to binary using out of the List formatting math functions."
+      ],
+      "creationDateTime": "2022-03-04T00:00:00.000Z",
+      "updateDateTime": "2022-03-04T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "Column"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-decimal-binary/assets/Calculator-Format.gif",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "aaclage",
+          "pictureUrl": "https://github.com/aaclage.png",
+          "name": "André Lage"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use column formatting to customize SharePoint",
+          "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+        }
+      ]
+    }
+  ]  
