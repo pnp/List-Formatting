@@ -1,0 +1,128 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "20px 5px "
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "justify-content": "space-around",
+        "align-items": "center",
+        "height": "80px",
+        "width": "350px",
+        "border-radius": "10px",
+        "box-shadow": "5px 5px 10px #bebebe,-5px -5px 10px #ffffff"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralLighter"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "text-decoration": "none",
+            "cursor": "pointer",
+            "display": "flex",
+            "justify-content": "space-around",
+            "align-items": "center",
+            "height": "35px",
+            "width": "35px",
+            "border-radius": "10px",
+            "box-shadow": "=if(@currentField == 'Home','4px 4px 6px 0 rgba(255,255,255,.5),-4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3)','-7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001')"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "20px"
+              },
+              "attributes": {
+                "iconName": "home"
+              }
+            }
+          ],
+          "attributes": {
+            "class": "=if(@currentField == 'Home','ms-fontColor-themePrimary ms-bgColor-neutralQuaternaryAlt--hover','ms-bgColor-neutralQuaternaryAlt--hover') "
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Options": "=if(@currentField == 'Home','','Home')"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "text-decoration": "none",
+            "cursor": "pointer",
+            "display": "flex",
+            "justify-content": "space-around",
+            "align-items": "center",
+            "height": "35px",
+            "width": "35px",
+            "border-radius": "10px",
+            "box-shadow": "=if(@currentField == 'SharePoint','4px 4px 6px 0 rgba(255,255,255,.5),-4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3)','-7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001')"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "20px"
+              },
+              "attributes": {
+                "iconName": "SharepointAppIcon16"
+              }
+            }
+          ],
+          "attributes": {
+            "class": "=if(@currentField == 'SharePoint','ms-fontColor-themePrimary ms-bgColor-neutralQuaternaryAlt--hover','ms-bgColor-neutralQuaternaryAlt--hover') "
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Options": "=if(@currentField == 'SharePoint','','SharePoint')"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "text-decoration": "none",
+            "cursor": "pointer",
+            "display": "flex",
+            "justify-content": "space-around",
+            "align-items": "center",
+            "height": "35px",
+            "width": "35px",
+            "border-radius": "10px",
+            "box-shadow": "=if(@currentField == 'Admin','4px 4px 6px 0 rgba(255,255,255,.5),-4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255,255,255,.5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3)','-7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001')"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "font-size": "20px"
+              },
+              "attributes": {
+                "iconName": "AdminALogo32"
+              }
+            }
+          ],
+          "attributes": {
+            "class": "=if(@currentField == 'Admin','ms-fontColor-themePrimary ms-bgColor-neutralQuaternaryAlt--hover','ms-bgColor-neutralQuaternaryAlt--hover') "
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Options": "=if(@currentField == 'Admin','','Admin')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "20px 5px "
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "cursor": "pointer",
+        "margin": "auto",
+        "height": "80px",
+        "width": "80px",
+        "border-radius": "50%",
+        "box-shadow": "-5px -5px 10px #ffffff80, 5px 5px 10px #4646461f"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralQuaternaryAlt"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "Plug": "=if(@currentField == true,0,1)"
+        }
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "color": "=if(@currentField == true,'red','Green')",
+                "display": "=if(@currentField == false,'none','')",
+                "margin": "25px",
+                "height": "60px",
+                "width": "60px",
+                "font-size": "30px"
+              },
+              "attributes": {
+                "iconName": "=if(@currentField == true,'PlugDisconnected','PlugConnected')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "visibility": "=if(@currentField == true,'hidden','')",
+                "margin": "10px",
+                "font-size": "30px",
+                "height": "60px",
+                "width": "60px",
+                "border-radius": "50%",
+                "box-shadow": "5px 5px 10px #4646461f,inset -5px -5px 10px #ffffff80, inset 5px 5px 10px #4646461f"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "color": "=if(@currentField == true,'red','Green')",
+                    "margin": "15px 0 0 15px",
+                    "font-size": "30px"
+                  },
+                  "attributes": {
+                    "iconName": "=if(@currentField == true,'PlugDisconnected','PlugConnected')"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "20px 5px",
+    "width": "300px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "align-self": "center",
+        "border-radius": "25px",
+        "padding": "10px",
+        "height": "40px",
+        "box-shadow": "inset 5px 5px 10px #03787c, inset -5px -5px 15px #ffffff,5px 5px 10px #bebebe,-5px -5px 10px #ffffff"
+      },
+      "attributes": {
+        "class": "sp-css-backgroundColor-themeLight sp-css-fontColor-themeLight"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 5px 5px 0px",
+            "font-size": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover",
+            "iconName": "=if(Number(@currentField) >= 1,'FavoriteStarFill','FavoriteStar')"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Rate": "1"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 5px 5px 0px",
+            "font-size": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover",
+            "iconName": "=if(Number(@currentField) >= 2,'FavoriteStarFill','FavoriteStar')"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Rate": "2"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 5px 5px 0px",
+            "font-size": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover",
+            "iconName": "=if(Number(@currentField) >= 3,'FavoriteStarFill','FavoriteStar')"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Rate": "3"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 5px 5px 0px",
+            "font-size": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover",
+            "iconName": "=if(Number(@currentField) >= 4,'FavoriteStarFill','FavoriteStar')"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Rate": "4"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "padding": "5px 5px 5px 0px",
+            "font-size": "30px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeTertiary--hover",
+            "iconName": "=if(Number(@currentField) >= 5,'FavoriteStarFill','FavoriteStar')"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Rate": "5"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

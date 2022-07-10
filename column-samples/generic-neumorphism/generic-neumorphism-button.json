@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "20px 5px "
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "cursor": "pointer",
+        "margin": "auto",
+        "height": "60px",
+        "width": "60px",
+        "border-radius": "50%",
+        "box-shadow": "=if(@currentField == true, '0px 0px 10px #bebebe,-5px -5px 10px #ffffff, inset -5px -5px 5px #aeaec025, inset 5px 5px 5px #fff', 'inset -5px -5px 5px #ffffff70, inset 5px 5px 5px #aeaec020')"
+      },
+      "attributes": {
+        "class": "ms-bgColor-neutralQuaternaryAlt ms-bgColor-neutralQuaternary--hover"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "ButtomSample": "=if(@currentField == true,0,1)"
+        }
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "18px",
+            "font-size": "25px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-neutralSecondaryAlt",
+            "iconName": "=if(@currentField == true,'cancel','accept')"
+          }
+        }
+      ]
+    }
+  ]
+}
