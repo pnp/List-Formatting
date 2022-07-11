@@ -10,7 +10,7 @@ This sample demostrate how to customize columns using neumorphism design.
 The format expect the following fields:
 |Field                |Type
 |-------------------|-------------
-|Rate| Number - Select star option to rate value from (1-5)        
+|Rate| Number - Select star option to rate value from (1-5). Since shadows cannot be added dynamically it's recommended to manualy update following line `inset 5px 5px 10px #03787c` with color associated to Theme.
 |Options|Choice - Select choice from predefined values (**Home, SharePoint, Admin**)
 |CheckBox|Yes/No - Select Yes/No with checkbox look and fell
 |PowerButton|Yes/No - Select Yes/No with PowerButton look and fell
