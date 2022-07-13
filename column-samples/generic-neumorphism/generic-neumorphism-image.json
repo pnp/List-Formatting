@@ -25,12 +25,55 @@
 				"isBeakVisible": true,
 				"formatter": {
 					"elmType": "div",
+					"style": {
+						"max-width": "500px"
+					},
 					"children": [
+						{
+							"elmType": "div",
+							"style": {
+								"position": "absolute",
+								"bottom": "0",
+								"width": "100%"
+							},
+							"children": [
+								{
+									"elmType": "div",
+									"style": {
+										"font-size": "verdana",
+										"padding-left": "10px",
+										"white-space": "nowrap",
+										"overflow": "hidden",
+										"text-overflow": "ellipsis",
+										"max-width": "490px"
+									},
+									"attributes": {
+										"title": "@currentField.fileName",
+										"class": "ms-fontColor-white ms-fontSize-20 ms-fontWeight-bold"
+									},
+									"txtContent": "@currentField.fileName"
+								},
+								{
+									"elmType": "div",
+									"style": {
+										"padding": "10px",
+										"background-color": "rgba(0, 0, 0, 0.6)",
+										"opacity": "0.5",
+										"max-width": "490px"
+									},
+									"attributes": {
+										"title": "='File version: '+@currentField.thumbnailRenderer.fileVersion",
+										"class": "ms-fontColor-white ms-fontSize-12"
+									},
+									"txtContent": "='File version: '+@currentField.thumbnailRenderer.fileVersion"
+								}
+							]
+						},
 						{
 							"elmType": "img",
 							"style": {
-								"max-width": "600px",
-								"max-height": "600px"
+								"max-width": "500px",
+								"max-height": "500px"
 							},
 							"attributes": {
 								"src": "@currentField.serverRelativeUrl"
