@@ -24,6 +24,8 @@ The format expect the following fields:
 
 ## Sample
 
+Access to Column Settings > Format this column and copy/past format from associated json column type. 
+
 Solution|Author(s)
 --------|---------
 generic-neumorphism-rate.json | [André Lage](https://twitter.com/aaclage)
