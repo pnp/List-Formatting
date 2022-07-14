@@ -28,7 +28,7 @@
                   "style": {
                     "position": "relative",
                     "border-radius": "25px",
-                    "width": "30px",
+                    "width": "35px",
                     "height": "200px",
                     "box-shadow": "inset 5px 2px 10px #bebebe,inset -5px -5px 10px #ffffff"
                   },
@@ -40,9 +40,9 @@
                     {
                       "elmType": "div",
                       "style": {
-                        "width": "30px",
+                        "width": "35px",
                         "height": "=if(@currentField > 100, '200', (@currentField*2) )+'px'",
-                        "border-radius": "30px",
+                        "border-radius": "35px",
                         "vertical-align": "middle",
                         "text-align": "left",
                         "position": "absolute",
@@ -51,7 +51,21 @@
                       },
                       "attributes": {
                         "class": "ms-bgColor-themePrimary"
-                      }
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "padding": "10px 0px",
+                            "text-align": "center",
+                            "width": "100%"
+                          },
+                          "attributes": {
+                            "class": "ms-fontColor-white ms-fontWeight-bold"
+                          },
+                          "txtContent": "=@currentField"
+                        }
+                      ]
                     }
                   ]
                 }

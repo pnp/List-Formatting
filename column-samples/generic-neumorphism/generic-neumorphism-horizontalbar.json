@@ -7,9 +7,7 @@
   "children": [
     {
       "elmType": "div",
-      "style": {
-        "display": "flex"
-      },
+      "style": {},
       "children": [
         {
           "elmType": "div",
@@ -26,20 +24,21 @@
                 {
                   "elmType": "div",
                   "style": {
+                    "background-color": "#eee",
                     "border-radius": "25px",
-                    "width": "200px",
+                    "width": "250px",
                     "box-shadow": "inset 5px 5px 10px #bebebe, inset -5px -5px 15px #ffffff,0px 5px 10px #bebebe,-5px -5px 10px #ffffff"
                   },
                   "attributes": {
-                    "title": "=@currentField+'%'",
-                    "class": "ms-bgColor-neutralLighter"
+                    "title": "=@currentField+'%'"
                   },
                   "children": [
                     {
                       "elmType": "div",
                       "style": {
                         "width": "=@currentField+'%'",
-                        "height": "10px",
+                        "height": "30px",
+                        "padding-left": "5px",
                         "border-radius": "25px",
                         "vertical-align": "middle",
                         "text-align": "left"
@@ -53,6 +52,18 @@
               ]
             }
           ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding-top": "5px",
+            "padding-left": "=(@currentField*2)+'px'",
+            "text-align": "center"
+          },
+          "attributes": {
+            "class": "sp-css-color-themePrimary ms-fontWeight-bold"
+          },
+          "txtContent": "=@currentField+'%'"
         }
       ]
     }
