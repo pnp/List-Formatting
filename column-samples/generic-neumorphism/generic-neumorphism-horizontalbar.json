@@ -37,7 +37,7 @@
                       "elmType": "div",
                       "style": {
                         "width": "=@currentField+'%'",
-                        "height": "30px",
+                        "height": "15px",
                         "padding-left": "5px",
                         "border-radius": "25px",
                         "vertical-align": "middle",
@@ -57,8 +57,7 @@
           "elmType": "div",
           "style": {
             "padding-top": "5px",
-            "padding-left": "=(@currentField*2)+'px'",
-            "text-align": "center"
+            "padding-left": "=(@currentField*2)+'px'"
           },
           "attributes": {
             "class": "sp-css-color-themePrimary ms-fontWeight-bold"
