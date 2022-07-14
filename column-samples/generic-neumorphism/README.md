@@ -19,6 +19,8 @@ The format expect the following fields:
 |Image|Image - Image look and fell
 |ValueCircle|Number - Circle Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart)
 |ValueSquare|Number - Square Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart) 
+|VerticalBar| Number - Display vertical bar. Select value from (1-100).
+|HorizontalBar| Number - Display horizontal bar. Select value from (1-100).
 
 ## Sample
 
@@ -33,6 +35,8 @@ generic-neumorphism-button.json | [André Lage](https://twitter.com/aaclage)
 generic-neumorphism-image.json | [André Lage](https://twitter.com/aaclage)
 generic-neumorphism-circledoughnut.json | [André Lage](https://twitter.com/aaclage)
 generic-neumorphism-squaredoughnut.json | [André Lage](https://twitter.com/aaclage)
+generic-neumorphism-verticalbar.json | [André Lage](https://twitter.com/aaclage)
+generic-neumorphism-horizontalbar.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 

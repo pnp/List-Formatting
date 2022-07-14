@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "20px 5px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "display": "flex",
+            "justify-content": "center",
+            "align-items": "center"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "relative",
+                    "border-radius": "25px",
+                    "width": "30px",
+                    "height": "200px",
+                    "box-shadow": "inset 5px 2px 10px #bebebe,inset -5px -5px 10px #ffffff"
+                  },
+                  "attributes": {
+                    "title": "=@currentField+'%'",
+                    "class": "ms-bgColor-neutralLighter"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "width": "30px",
+                        "height": "=if(@currentField > 100, '200', (@currentField*2) )+'px'",
+                        "border-radius": "30px",
+                        "vertical-align": "middle",
+                        "text-align": "left",
+                        "position": "absolute",
+                        "bottom": "0",
+                        "left": "0"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-themePrimary"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
