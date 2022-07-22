@@ -18,6 +18,7 @@ Tags | Choice - include following options "Triage 🔍,Investigation, Feature, B
 Vote | Person  - Allow multiple selections 
 Emotion | Multiple lines of text - Store icons for users
 EmotionCount | Single line of text  - stores counts of icons
+Expand | Yes/No
 
 Edit View requirements
 - Include in View the following additional fields `Created`, `Created By`, `Modified` and `Modified By`.
