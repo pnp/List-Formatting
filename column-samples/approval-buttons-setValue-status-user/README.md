@@ -15,7 +15,7 @@ Key points:
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
 |Calculated|Approval|Yes| Apply the template to this column
-|Choice|ApprovalStatus|No| Choice values needed: Pending / Approved / Rejected
+|Choice|ItemStatus|No| Choice values needed: (Pending / Approved / Rejected) Default: Pending
 |Person or Group|ApprovalActionBy|No|Single selection
 
 
