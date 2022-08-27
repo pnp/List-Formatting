@@ -10,7 +10,7 @@
       "This sample demonstrates the display of a yearly Gantt chart."
     ],
     "creationDateTime": "2021-04-12T00:00:00.000Z",
-    "updateDateTime": "2021-04-12T00:00:00.000Z",
+    "updateDateTime": "2022-08-27T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-fontWeight-bold, ms-fontSize-l"
+        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-bgColor-sharedRed10, ms-fontWeight-bold, ms-fontSize-l"
       }
     ],
     "thumbnails": [
@@ -66,6 +66,11 @@
         "gitHubAccount": "tecchan1107",
         "pictureUrl": "https://github.com/tecchan1107.png",
         "name": "Tetsuya Kawahara"
+      },
+      {
+        "gitHubAccount": "hakki-max",
+        "pictureUrl": "https://github.com/hakki-max.png",
+        "name": "Alvin Fong"
       }
     ],
     "references": [
