@@ -161,21 +161,21 @@
                   {
                       "__comment__": "DIV APPROVE",
                       "elmType": "div",
-                      "txtContent": "APPROVE",
+                      "txtContent": "=if([$Approved]==false, 'APPROVE', 'APPROVED')",
                       "customRowAction": {
-                          "action": "setValue",
+                          "action": "=if([$Approved]==false, 'setValue', 'defaultCLick')",
                           "actionInput": {
                               "Approved": true
                           }
                       },
                       "attributes": {
-                          "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                          "class": "=if([$Approved]==false, 'ms-bgColor-themePrimary ms-fontColor-white', 'ms-bgColor-white ms-fontColor-themePrimary')"
                       },
                       "style": {
                           "text-align": "center",
                           "font-weight": "700",
                           "padding": "inherit",
-                          "cursor": "pointer"
+                          "cursor": "=if([$Approved]==false, 'pointer', 'arrow')"
                       }
                   }
               ]

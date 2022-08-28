@@ -25,6 +25,8 @@ The approve button will set the value of the Approved column to Yes (true).
 |Number              |EstimatedHotelCost|No      |
 |Yes/No              |Approved          |No      |
 
+The items above are not required, but highly recommended. Furthermore, You could filter the view on the Approved column (Approved? is equal to No) to create an action list. You can then copy that view and adjust the filtering to yest and name the view approved, to only indicate approved items.
+
 ### Bing maps key
 
 The view shows a static map image of the Destination column. You need to enter a Bing Map key to make it work. You can create an account at the [Bing maps Dev Center](https://www.bingmapsportal.com/). Once registered, you can create a key. Copy that key and put it in the json file where indicated.
