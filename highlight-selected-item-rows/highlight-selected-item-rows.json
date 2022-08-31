@@ -1,4 +1,4 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-    "additionalRowClass": "=if(@isSelected, 'ms-bgColor-themePrimary ms-fontColor-white', '')"
+    "additionalRowClass": "=if(@isSelected, 'ms-bgColor-themePrimary', '')"
 }
