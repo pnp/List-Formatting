@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-travel-requests",
+    "reponame": "travel-requests",
+    "source": "pnp",
+    "title": "Travel Requests",
+    "shortDescription": "This sample formats the SharePoint list template Travel requests.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/travel-requests",
+    "longDescription": [
+      "This sample formats the SharePoint list template Travel requests."
+    ],
+    "creationDateTime": "2022-08-20T00:00:00.000Z",
+    "updateDateTime": "2022-08-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getUserImage, toLocaleDateString, Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideColumnHeader, hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeLight, ms-bgColor-white, ms-fontColor-themePrimary, ms-fontColor-white"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/travel-requests/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/travel-requests/assets/listtemplates.png",
+        "alt": "listtemplates"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "miguelverweij",
+        "pictureUrl": "https://github.com/miguelverweij.png",
+        "name": "Miguel Verweij"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

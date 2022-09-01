@@ -11,6 +11,10 @@ The approve button will set the value of the Approved column to Yes (true).
 
 ### SharePoint List
 
+The following fields are all included in the "Travel requests" template. You can find this template in the new List dialog:
+
+![image on the list template](./assets/listtemplates.png)
+
 |Type                |Internal Name     |Required|
 |--------------------|------------------|:------:|
 |Single line of text |Title             |Yes     |
@@ -25,7 +29,7 @@ The approve button will set the value of the Approved column to Yes (true).
 |Number              |EstimatedHotelCost|No      |
 |Yes/No              |Approved          |No      |
 
-The items above are not required, but highly recommended. Furthermore, You could filter the view on the Approved column (Approved? is equal to No) to create an action list. You can then copy that view and adjust the filtering to yest and name the view approved, to only indicate approved items.
+The items above are not required, but highly recommended. Furthermore, You could filter the view on the Approved column (Approved? is equal to No) to create an action list. You can then copy that view and adjust the filtering to yes and name the view approved, to only indicate approved items.
 
 ### Bing maps key
 
@@ -46,4 +50,4 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/butterfly-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/travel-requests" />

@@ -3,183 +3,189 @@
   "hideColumnHeader": true,
   "hideSelection": true,
   "rowFormatter": {
-      "__comment__": "DIV MAIN",
-      "elmType": "div",
-      "attributes": {
-          "class": "ms-bgColor-themePrimary"
-      },
-      "style": {
-          "padding": "10px",
-          "column-gap": "10px",
-          "align-items": "stretch"
-      },
-      "children": [
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-bgColor-themePrimary"
+    },
+    "style": {
+      "padding": "10px",
+      "column-gap": "10px",
+      "align-items": "stretch"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "defaultHoverField": "[$Requester]",
+        "attributes": {
+          "class": "ms-bgColor-themeLight"
+        },
+        "style": {
+          "padding": "inherit",
+          "text-align": "center",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between",
+          "width": "120px"
+        },
+        "children": [
           {
-              "__comment__": "DIV LEFT",
-              "elmType": "div",
-              "defaultHoverField": "[$Requester]",
-              "attributes": {
-                  "class": "ms-bgColor-themeLight"
-              },
-              "style": {
-                  "padding": "inherit",
-                  "text-align": "center",
-                  "display": "flex",
-                  "flex-direction": "column",
-                  "justify-content": "space-between",
-                  "width": "120px"
-              },
-              "children": [
-                  {
-                      "__comment__": "IMG REQUESTER",
-                      "elmType": "img",
-                      "attributes": {
-                          "src": "=getUserImage('[$Requester.email]','medium')"
-                      },
-                      "style": {
-                          "border-radius": "50%",
-                          "margin-bottom": "10px"                        }
-                  },
-                  {
-                      "__comment__": "DIV REQUESTER NAME",
-                      "elmType": "div",
-                      "txtContent": "[$Requester.title]",
-                      "attributes": {
-                          "class": "ms-bgColor-white"
-                      },
-                      "style": {
-                          "text-align": "center",
-                          "font-weight": "500",
-                          "padding": "inherit"
-                      }
-                  }
-              ]
+            "elmType": "img",
+            "attributes": {
+              "src": "=getUserImage('[$Requester.email]','medium')"
+            },
+            "style": {
+              "border-radius": "50%",
+              "margin-bottom": "10px"
+            }
           },
           {
-              "__comment__": "DIV MIDDLE",
-              "elmType": "div",
-              "attributes": {
-                  "class": "ms-bgColor-themeLight"
-              },
-              "style": {
-                  "padding": "inherit",
-                  "align-items": "stretch",
-                  "flex-grow": "1",
-                  "display": "flex",
-                  "flex-direction": "column",
-                  "justify-content": "space-between"
-              },
-              "children": [
-                  {
-                      "__comment__": "DIV TITLE",
-                      "elmType": "div",
-                      "txtContent": "= '🎯 ' + [$Title]",
-                      "attributes": {
-                          "class": "ms-bgColor-white ms-fontColor-themePrimary"
-                      },
-                      "style": {
-                          "text-align": "left",
-                          "font-weight": "700",
-                          "padding": "inherit"
-                      }
-                  },
-                  {
-                      "__comment__": "DIV TRAVEL DATES",
-                      "elmType": "div",
-                      "txtContent": "='📅 ' + toLocaleDateString([$TravelStartDate]) + ' - ' + toLocaleDateString([$TravelEndDate]) + ' (' + [$TravelDuration] + ' days)'",
-                      "attributes": {
-                          "class": "ms-bgColor-white"
-                      },
-                      "style": {
-                          "text-align": "left",
-                          "padding": "inherit"
-                      }
-                  },
-                  {
-                      "__comment__": "DIV FLIGHT",
-                      "elmType": "div",
-                      "txtContent": "='✈️ Flight: €' + '[$EstimatedAirfare]' + ' (' + '[$Airline]' + ')'",
-                      "attributes": {
-                          "class": "ms-bgColor-white"
-                      },
-                      "style": {
-                          "text-align": "left",
-                          "padding": "inherit"
-                      }
-                  },
-                  {
-                      "__comment__": "DIV HOTEL",
-                      "elmType": "div",
-                      "txtContent": "='🏨 Hotel: €' + '[$EstimatedHotelCost]' + ' (' + '[$Hotel.DisplayName]' + ')'",
-                      "attributes": {
-                          "class": "ms-bgColor-white"
-                      },
-                      "style": {
-                          "text-align": "left",
-                          "padding": "inherit"
-                      }
-                  },
-                  {
-                      "__comment__": "DIV TOTAL",
-                      "elmType": "div",
-                      "txtContent": "='💵 Total: €' + Number([$EstimatedAirfare] + [$EstimatedHotelCost])",
-                      "attributes": {
-                          "class": "ms-bgColor-white"
-                      },
-                      "style": {
-                          "text-align": "left",
-                          "font-weight": "500",
-                          "padding": "inherit"
-                      }
-                  }
-              ]
-          },
-          {
-              "__comment__": "DIV RIGHT",
-              "elmType": "div",
-              "attributes": {
-                  "class": "ms-bgColor-themeLight"
-              },
-              "style": {
-                  "padding": "inherit",
-                  "column-gap": "10px",
-                  "display": "flex",
-                  "flex-direction": "column",
-                  "justify-content": "space-between"
-              },
-              "children": [
-                  {
-                      "__comment__": "IMG MAP",
-                      "elmType": "img",
-                      "attributes": {
-                          "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road?mapSize=300,200&pp=' + if([$Destination.Coordinates.Latitude], [$Destination.Coordinates.Latitude], '0') + ',' + if([$Destination.Coordinates.Longitude], [$Destination.Coordinates.Longitude], '0') + '&zoomlevel=12&key=REPLACE_THIS_WITH_YOUR_BING_MAPS_KEY'"
-                      },
-                      "style": {
-                          "margin-bottom": "10px"
-                      }
-                  },
-                  {
-                      "__comment__": "DIV APPROVE",
-                      "elmType": "div",
-                      "txtContent": "=if([$Approved]==false, 'APPROVE', 'APPROVED')",
-                      "customRowAction": {
-                          "action": "=if([$Approved]==false, 'setValue', 'defaultCLick')",
-                          "actionInput": {
-                              "Approved": true
-                          }
-                      },
-                      "attributes": {
-                          "class": "=if([$Approved]==false, 'ms-bgColor-themePrimary ms-fontColor-white', 'ms-bgColor-white ms-fontColor-themePrimary')"
-                      },
-                      "style": {
-                          "text-align": "center",
-                          "font-weight": "700",
-                          "padding": "inherit",
-                          "cursor": "=if([$Approved]==false, 'pointer', 'arrow')"
-                      }
-                  }
-              ]
+            "elmType": "div",
+            "txtContent": "[$Requester.title]",
+            "attributes": {
+              "class": "ms-bgColor-white"
+            },
+            "style": {
+              "text-align": "center",
+              "font-weight": "500",
+              "padding": "inherit"
+            }
           }
-      ]
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLight"
+        },
+        "style": {
+          "padding": "inherit",
+          "align-items": "stretch",
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "= '🎯 ' + [$Title]",
+            "attributes": {
+              "class": "ms-bgColor-white ms-fontColor-themePrimary"
+            },
+            "style": {
+              "text-align": "left",
+              "font-weight": "700",
+              "padding": "inherit"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='📅 ' + toLocaleDateString([$TravelStartDate]) + ' - ' + toLocaleDateString([$TravelEndDate]) + ' (' + [$TravelDuration] + ' days)'",
+            "attributes": {
+              "class": "ms-bgColor-white"
+            },
+            "style": {
+              "text-align": "left",
+              "padding": "inherit"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='✈️ Flight: €' + '[$EstimatedAirfare]' + ' (' + '[$Airline]' + ')'",
+            "attributes": {
+              "class": "ms-bgColor-white"
+            },
+            "style": {
+              "text-align": "left",
+              "padding": "inherit"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='🏨 Hotel: €' + '[$EstimatedHotelCost]' + ' (' + '[$Hotel.DisplayName]' + ')'",
+            "attributes": {
+              "class": "ms-bgColor-white"
+            },
+            "style": {
+              "text-align": "left",
+              "padding": "inherit"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='💵 Total: €' + Number([$EstimatedAirfare] + [$EstimatedHotelCost])",
+            "attributes": {
+              "class": "ms-bgColor-white"
+            },
+            "style": {
+              "text-align": "left",
+              "font-weight": "500",
+              "padding": "inherit"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLight"
+        },
+        "style": {
+          "padding": "inherit",
+          "column-gap": "10px",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "='https://dev.virtualearth.net/REST/v1/Imagery/Map/Road?mapSize=300,200&pp=' + if([$Destination.Coordinates.Latitude], [$Destination.Coordinates.Latitude], '0') + ',' + if([$Destination.Coordinates.Longitude], [$Destination.Coordinates.Longitude], '0') + '&zoomlevel=12&key=REPLACE_THIS_WITH_YOUR_BING_MAPS_KEY'"
+            },
+            "style": {
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "APPROVE",
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Approved": true
+              }
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "text-align": "center",
+              "font-weight": "700",
+              "padding": "inherit",
+              "cursor": "pointer",
+              "display": "=if([$Approved],'none','')"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "APPROVED",
+            "customRowAction": {
+              "action": "defaultClick"
+            },
+            "attributes": {
+              "class": "ms-bgColor-white ms-fontColor-themePrimary"
+            },
+            "style": {
+              "text-align": "center",
+              "font-weight": "700",
+              "padding": "inherit",
+              "cursor": "default",
+              "display": "=if([$Approved],'','none')"
+            }
+          }
+        ]
+      }
+    ]
   }
 }
