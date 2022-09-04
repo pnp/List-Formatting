@@ -21,6 +21,7 @@ The format expect the following fields:
 |ValueSquare|Number - Square Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart) 
 |VerticalBar| Number - Display vertical bar. Select value from (1-100).
 |HorizontalBar| Number - Display horizontal bar. Select value from (1-100).
+|Calendar| Date - Display calendar where user can select date.
 
 ## Sample
 
@@ -39,6 +40,7 @@ generic-neumorphism-circledoughnut.json | [André Lage](https://twitter.com/aacla
 generic-neumorphism-squaredoughnut.json | [André Lage](https://twitter.com/aaclage)
 generic-neumorphism-verticalbar.json | [André Lage](https://twitter.com/aaclage)
 generic-neumorphism-horizontalbar.json | [André Lage](https://twitter.com/aaclage)
+generic-neumorphism-calendar.json | [André Lage](https://twitter.com/aaclage)
 
 ## Version history
 
