@@ -3,7 +3,12 @@
 ## Summary
 This sample demostrate how to customize columns using neumorphism design.
 
+
 ![screenshot of the sample](./assets/generic-neumorphism.gif)
+
+### Calendar Feature
+
+![screenshot of the sample](./assets/generic-neumorphism-calendar.gif)
 
 ## View requirements
 
@@ -21,7 +26,7 @@ The format expect the following fields:
 |ValueSquare|Number - Square Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart) 
 |VerticalBar| Number - Display vertical bar. Select value from (1-100).
 |HorizontalBar| Number - Display horizontal bar. Select value from (1-100).
-|Calendar| Date - Display calendar where user can select date.
+|Calendar| Date - Display calendar where user can select date. Create column with name "CalendarDemo" of type DateTime.
 
 ## Sample
 
