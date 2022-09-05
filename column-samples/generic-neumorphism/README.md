@@ -22,8 +22,8 @@ The format expect the following fields:
 |Plug|Yes/No - Select Yes/No with Plug look and fell
 |ButtomSample|Yes/No - Select Yes/No with button look and fell
 |Image|Image - Image look and fell
-|ValueCircle|Number - Circle Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart)
-|ValueSquare|Number - Square Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart) 
+|ValueCircle| Single line of Text - Circle Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart)
+|ValueSquare| Single line of Text - Square Doughnut look and fell. Values from (0.0 to 1). Using existing sample [Doughnut Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-doughnut-chart) 
 |VerticalBar| Number - Display vertical bar. Select value from (1-100).
 |HorizontalBar| Number - Display horizontal bar. Select value from (1-100).
 |Calendar| Date - Display calendar where user can select date. Create column with name "CalendarDemo" of type DateTime.
