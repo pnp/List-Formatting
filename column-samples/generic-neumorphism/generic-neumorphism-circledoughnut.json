@@ -3,7 +3,9 @@
   "elmType": "div",
   "style": {
     "position": "relative",
-    "padding": "20px 5px "
+    "padding": "20px 5px ",
+    "width": "130px",
+    "height": "130px"
   },
   "children": [
     {
@@ -12,10 +14,10 @@
         "display": "flex",
         "justify-content": "space-around",
         "align-items": "center",
-        "width": "120px",
-        "height": "120px",
-        "border-radius": "10px",
-        "box-shadow": "5px 5px 10px #bebebe,-5px -5px 10px #ffffff"
+        "width": "130px",
+        "height": "130px",
+        "border-radius": "50%",
+        "box-shadow": "inset 0px 0px 10px #bebebe,-5px -5px 10px #ffffff"
       },
       "attributes": {
         "class": "ms-bgColor-neutralLighter"
@@ -24,76 +26,93 @@
         {
           "elmType": "div",
           "style": {
-            "position": "relative",
-            "cursor": "pointer",
-            "margin": "auto",
-            "height": "87px",
-            "width": "87px",
-            "border-radius": "50%"
-          },
-          "attributes": {
-            "class": "ms-bgColor-neutralQuaternaryAlt"
-          },
-          "children": [
-            {
-              "elmType": "svg",
-              "style": {
-                "fill": "currentColor",
-                "position": "absolute",
-                "width": "90px",
-                "height": "90px",
-                "top": "-2px",
-                "right": "-2px",
-                "display": "=if(@currentField < 0 , 'none' , '')"
-              },
-              "attributes": {
-                "viewBox": "0 0 1000 1000",
-                "class": "ms-fontColor-themePrimary"
-              },
-              "children": [
-                {
-                  "elmType": "path",
-                  "attributes": {
-                    "d": "= 'M500,0 A500,500 0 ' + if(@currentField > 0.5 , '1,1 ' , '0,1 ') + (500 + 500 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (500 - 500 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' L' + (500 + 450 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (500 - 450 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' A450,450 0 ' + if(@currentField > 0.5 , '1,0 ' , '0,0 ') + ' 500,50 Z'"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "elmType": "div",
-          "style": {
-            "position": "absolute",
-            "width": "100%",
-            "height": "100%",
             "display": "flex",
-            "flex-direction": "column",
-            "justify-content": "center",
-            "align-items": "center"
+            "justify-content": "space-around",
+            "align-items": "center",
+            "width": "110px",
+            "height": "110px",
+            "border-radius": "50%",
+            "box-shadow": "inset 0px 0px 10px #bebebe"
           },
           "attributes": {
-            "class": "ms-fontColor-themePrimary"
+            "class": "ms-bgColor-neutralLighter"
           },
           "children": [
             {
               "elmType": "div",
               "style": {
-                "width": "70%",
-                "text-align": "center",
-                "font-size": "20px",
-                "font-weight": "600"
+                "position": "relative",
+                "cursor": "pointer",
+                "margin": "auto",
+                "height": "87px",
+                "width": "87px",
+                "border-radius": "50%"
               },
-              "txtContent": "=1000* Number(@currentField)"
+              "attributes": {
+                "class": "ms-bgColor-neutralQuaternaryAlt"
+              },
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "fill": "currentColor",
+                    "position": "absolute",
+                    "width": "90px",
+                    "height": "90px",
+                    "top": "-2px",
+                    "right": "-2px",
+                    "display": "=if(@currentField < 0 , 'none' , '')"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 1000 1000",
+                    "class": "ms-fontColor-themePrimary"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "attributes": {
+                        "d": "= 'M500,0 A500,500 0 ' + if(@currentField > 0.5 , '1,1 ' , '0,1 ') + (500 + 500 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (500 - 500 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' L' + (500 + 450 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (500 - 450 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' A450,450 0 ' + if(@currentField > 0.5 , '1,0 ' , '0,0 ') + ' 500,50 Z'"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "elmType": "div",
               "style": {
-                "width": "70%",
-                "text-align": "center",
-                "font-size": "15px"
+                "position": "absolute",
+                "width": "100%",
+                "height": "100%",
+                "display": "flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "align-items": "center"
               },
-              "txtContent": "Kcal"
+              "attributes": {
+                "class": "ms-fontColor-themePrimary"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "width": "70%",
+                    "text-align": "center",
+                    "font-size": "20px",
+                    "font-weight": "600"
+                  },
+                  "txtContent": "=1000* Number(@currentField)"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "width": "70%",
+                    "text-align": "center",
+                    "font-size": "15px"
+                  },
+                  "txtContent": "Km"
+                }
+              ]
             }
           ]
         }
