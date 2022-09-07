@@ -84,7 +84,7 @@
                 "font-size": "20px",
                 "font-weight": "600"
               },
-              "txtContent": "368"
+              "txtContent": "=1000* Number(@currentField)"
             },
             {
               "elmType": "div",
