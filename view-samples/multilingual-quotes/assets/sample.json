@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-multilingual-quotes",
+    "reponame": "multilingual-quotes",
+    "source": "pnp",
+    "title": "Multilingual Quotes",
+    "shortDescription": "This sample demonstrates the use of the @UIlcid token to change the text displayed based on the site display language.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/multilingual-quotes",
+    "longDescription": [
+      "This sample demonstrates the use of the @UIlcid token to change the text displayed based on the site display language."
+    ],
+    "creationDateTime": "2022-09-19T00:00:00.000Z",
+    "updateDateTime": "2022-09-19T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@UIlcid"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-fontColor-themeDark, ms-fontColor-neutralSecondary"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/multilingual-quotes/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
