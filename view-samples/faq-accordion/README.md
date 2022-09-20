@@ -11,11 +11,11 @@ Column Name   |Type
 --------------|--------------
 Title         | Single Line Text
 Question      | Single Line Text
-Answer     | Multi Line Text
+Answer     | *Multi Line Text
 ShowMore     | Single Line Text
 
 Apply a Group By on the Question column in your view.
-
+*Only Multiple lines of text type Plan text works with the solution (select from list settings for the multiple line of text: Plain Text)
 ## Sample
 
 Solution|Author(s)
