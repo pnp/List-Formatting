@@ -20,6 +20,7 @@ Version |Date             |Comments
 --------|-----------------|--------
 1.0     |October 17, 2020 |Initial release
 1.1     |August  2, 2021  |Fixed to show days of the week.
+1.2     |October 2, 2022  |Fixed incorrect days of the week being displayed.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

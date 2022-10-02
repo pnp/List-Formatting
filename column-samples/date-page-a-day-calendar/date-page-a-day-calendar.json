@@ -20,8 +20,8 @@
     },
     {
       "elmType": "div",
+      "forEach": "weekday in split('0,1,2,3,4,5,6',',')",
       "style": {
-        "margin-bottom": "2px",
         "white-space": "nowrap"
       },
       "attributes": {
@@ -30,58 +30,17 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "Sunday",
+          "txtContent": "=if([$weekday]=='0','Saturday',if([$weekday]=='1','Sunday',if([$weekday]=='2','Monday',if([$weekday]=='3','Tuesday',if([$weekday]=='4','Wednesday',if([$weekday]=='5','Thursday',if([$weekday]=='6','Friday',''))))))",
           "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 0 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 0 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Monday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 1 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 1 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Tuesday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 2 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 2 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Wednesday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 3 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 3 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Thursday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 4 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 4 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Friday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 5 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 5 , '' ,'none'))"
-          }
-        },
-        {
-          "elmType": "div",
-          "txtContent": "Saturday",
-          "style": {
-            "display": "=if((getMonth(@currentField) + 1) > 2 , if( floor((getYear(@currentField) + ( getYear(@currentField) / 4 ) - ( getYear(@currentField) / 100 ) + ( getYear(@currentField) / 400 ) + (((13 * (getMonth(@currentField) + 1) ) + 8) / 5) + getDate(@currentField)) % 7) == 6 , '' , 'none' ) , if(floor(((getYear(@currentField) - 1) + ( (getYear(@currentField) - 1) / 4 ) - ( (getYear(@currentField) - 1) / 100 ) + ( (getYear(@currentField) -1 ) / 400 ) + (((13 * (getMonth(@currentField) + 13) ) + 8) / 5) + getDate(@currentField)) % 7) == 6 , '' ,'none'))"
+            "margin-bottom": "2px",
+            "display": "=if((getMonth(@currentField)+1)>2,if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+1)/10)+Number(substring(toString(getYear(@currentField)),2,4))+floor(Number(substring(toString(getYear(@currentField)),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)),0,2))/4)-2*Number(substring(toString(getYear(@currentField)),0,2)))%7)==Number([$weekday]),'','none'),if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+12+1)/10)+Number(substring(toString(getYear(@currentField)-1),2,4))+floor(Number(substring(toString(getYear(@currentField)-1),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)-1),0,2))/4)-2*Number(substring(toString(getYear(@currentField)-1),0,2)))%7)==Number([$weekday]),'','none')"
           }
         }
       ]
     },
     {
       "elmType": "div",
-      "txtContent": "=if(getMonth(@currentField)==0, 'Jan', if(getMonth(@currentField)==1, 'Feb', if(getMonth(@currentField)==2, 'Mar', if(getMonth(@currentField)==3, 'Apr',  if(getMonth(@currentField)==4, 'May', if(getMonth(@currentField)==5, 'Jun', if(getMonth(@currentField)==6 , 'Jul', if(getMonth(@currentField)==7, 'Aug', if(getMonth(@currentField)==8 , 'Sep', if(getMonth(@currentField)==9, 'Oct', if(getMonth(@currentField)==10, 'Nov', if(getMonth(@currentField)==11, 'Dec', ''))))))))))))",
+      "txtContent": "=if(getMonth(@currentField)==0,'Jan',if(getMonth(@currentField)==1,'Feb',if(getMonth(@currentField)==2,'Mar',if(getMonth(@currentField)==3,'Apr',if(getMonth(@currentField)==4,'May',if(getMonth(@currentField)==5,'Jun',if(getMonth(@currentField)==6,'Jul',if(getMonth(@currentField)==7,'Aug',if(getMonth(@currentField)==8,'Sep',if(getMonth(@currentField)==9,'Oct',if(getMonth(@currentField)==10,'Nov',if(getMonth(@currentField)==11,'Dec',''))))))))))))",
       "style": {
         "display": "flex",
         "justify-content": "center",
