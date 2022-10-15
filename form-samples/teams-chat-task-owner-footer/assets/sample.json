@@ -1,0 +1,76 @@
+[{
+    "name": "pnp-list-formatting-teams-chat-task-owner-footer",
+    "reponame": "teams-chat-task-owner-footer",
+    "source": "pnp",
+    "title": "MS Teams chat with Task owner",
+    "shortDescription": "This sample demonstrates displaying MS Teams chat link to chat with task owner",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/teams-chat-task-owner-footer",
+    "longDescription": [
+        "This sample demonstrates displaying Microsoft Teams chat link to chat with task owner."
+    ],
+    "creationDateTime": "2022-10-15T00:00:00.000Z",
+    "updateDateTime": "2022-10-15T00:00:00.000Z",
+    "products": [
+        "SharePoint",
+        "Microsoft Lists"
+    ],
+    "metadata": [{
+            "key": "LIST-SAMPLE-TYPE",
+            "value": "Form"
+        },
+        {
+            "key": "SHAREPOINT-COMPATIBILITY",
+            "value": "SharePoint Online"
+        },
+        {
+            "key": "SAMPLE-CATEGORIES",
+            "value": ""
+        },
+        {
+            "key": "LIST-COLUMN-TYPE",
+            "value": ""
+        },
+        {
+            "key": "FORMATTING-TOKENS",
+            "value": ""
+        },
+        {
+            "key": "FORMATTING-OPERATORS",
+            "value": ""
+        },
+        {
+            "key": "FORMATTING-ACTIONS",
+            "value": ""
+        },
+        {
+            "key": "FORMATTING-FEATURES",
+            "value": ""
+        },
+        {
+            "key": "CLASSES",
+            "value": "ms-fontColor-themePrimary ms-fontSize-xl"
+        }
+    ],
+    "thumbnails": [{
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/teams-chat-task-owner-footer/assets/screenshot.png",
+        "alt": "screenshot"
+    }],
+    "authors": [{
+        "gitHubAccount": "ganesh-sanap",
+        "pictureUrl": "https://github.com/ganesh-sanap.png",
+        "name": "Ganesh Sanap"
+    }],
+    "references": [{
+            "name": "Configure the list form",
+            "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+            "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+        },
+        {
+            "name": "Show or hide columns in a list or library form",
+            "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn't affect the column or the data in the column, as it would if you delete it.",
+            "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
+        }
+    ]
+}]

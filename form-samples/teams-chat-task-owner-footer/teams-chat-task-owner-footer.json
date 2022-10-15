@@ -1,0 +1,38 @@
+{
+    "elmType": "div",
+    "style": {
+        "width": "100%",
+        "display": "=if([$Title] && [$AssignedTo.email], 'block', 'none')",
+        "padding-top": "10px",
+        "border-color": "gray",
+        "border-style": "solid",
+        "border-top-width": "1px",
+        "border-bottom-width": "0px",
+        "border-left-width": "0px",
+        "border-right-width": "0px"
+    },
+    "children": [{
+        "elmType": "a",
+        "attributes": {
+            "target": "_blank",
+            "href": "='https://teams.microsoft.com/l/chat/0/0?users=' + [$AssignedTo.email] + '&message=This is related to your Task: ' + [$Title]",
+            "class": "ms-fontColor-themePrimary"
+        },
+        "children": [{
+                "elmType": "span",
+                "txtContent": "Chat with Task Owner"
+            },
+            {
+                "elmType": "span",
+                "style": {
+                    "margin-left": "8px",
+                    "vertical-align": "middle"
+                },
+                "attributes": {
+                    "iconName": "TeamsLogo",
+                    "class": "ms-fontColor-themePrimary ms-fontSize-xl"
+                }
+            }
+        ]
+    }]
+}
