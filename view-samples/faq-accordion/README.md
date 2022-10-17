@@ -11,11 +11,10 @@ Column Name   |Type
 --------------|--------------
 Title         | Single Line Text
 Question      | Single Line Text
-Answer     | Multi Line Text
+Answer     | Multi Line Text (Plain text)
 ShowMore     | Single Line Text
 
 Apply a Group By on the Question column in your view.
-
 ## Sample
 
 Solution|Author(s)
