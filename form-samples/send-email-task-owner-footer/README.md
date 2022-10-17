@@ -17,7 +17,7 @@ This sample demonstrates displaying Email link to send an email to owner of the 
 
 Solution|Author(s)
 --------|---------
-send-email-task-owner-footer.json | [Ganesh Sanap](https://ganeshsanapblogs.wordpress.com/about/) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+send-email-task-owner-footer.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
 
 ## Version history
 
