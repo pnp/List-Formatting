@@ -1,4 +1,4 @@
-# MS Teams chat with Task owner
+# Microsoft Teams chat with Task owner
 
 ## Summary
 
@@ -28,5 +28,12 @@ Version |Date             |Comments
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+## Additional notes
+
+Microsoft Teams chat link uses deep link.
+
+- [Navigate to a chat](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-links#navigate-to-a-chat)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/teams-chat-task-owner-footer" />
