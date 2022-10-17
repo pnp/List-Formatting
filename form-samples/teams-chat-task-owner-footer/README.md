@@ -17,7 +17,7 @@ This sample demonstrates displaying Microsoft Teams chat link to chat with owner
 
 Solution|Author(s)
 --------|---------
-teams-chat-task-owner-footer.json | [Ganesh Sanap](https://ganeshsanapblogs.wordpress.com/about/) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+teams-chat-task-owner-footer.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
 
 ## Version history
 
