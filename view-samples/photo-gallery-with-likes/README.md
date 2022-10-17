@@ -3,7 +3,7 @@
 ## Summary
 Short summary on functionality and details to help explain the format.
 
-![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - Details about the types of columns being referenced along with any details about the view (sorting, gallery/list, board, etc.)
