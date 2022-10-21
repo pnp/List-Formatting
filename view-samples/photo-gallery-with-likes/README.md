@@ -6,6 +6,15 @@ SharePoint Online list view sample for photo gallery showing title and likes.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
+<details>
+<summary>No title version</summary>
+Here is a version without the title.  
+
+![screenshot of the sample](./assets/screenshot-no-title.png)
+
+</details>
+<br>
+  
 ## View requirements
 
 The view must be set to gallery.  
@@ -21,8 +30,8 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-photos-gallery-with-likes.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
-photos-gallery-no-title.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
+photo-gallery-with-likes.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
+photo-gallery-no-title.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
 
 ## Version history
 
@@ -35,3 +44,5 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/photo-gallery-with-likes" />
