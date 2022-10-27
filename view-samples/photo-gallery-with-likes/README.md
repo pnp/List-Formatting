@@ -2,19 +2,14 @@
 
 ## Summary
 
-SharePoint Online list view sample for photo gallery showing title and likes.  
+This sample demonstrates formatting a document library gallery view into a photo gallery showing title and likes.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
-<details>
-<summary>No title version</summary>
-Here is a version without the title.  
+There is also a version that shows only likes.
 
 ![screenshot of the sample](./assets/screenshot-no-title.png)
 
-</details>
-<br>
-  
 ## View requirements
 
 The view must be set to gallery.  
@@ -24,8 +19,8 @@ This format expects the following columns to be part of the view:
 |---|---|:---:|
 |Single line of text|Title|No
 |Number|LikesTotal|No
-|Multi-Person|LikedBy|No  
-  
+|Multi-Person|LikedBy|No
+
 ## Sample
 
 Solution|Author(s)
@@ -44,5 +39,13 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+## Additional notes
+
+The file name can also be displayed by setting the `txtContent` property as follows.
+
+```
+"txtContent": "=substring('[$FileLeafRef]',0,lastIndexOf([$FileLeafRef],'.'))"
+```
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/photo-gallery-with-likes" />

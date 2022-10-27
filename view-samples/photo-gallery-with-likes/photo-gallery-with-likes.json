@@ -1,167 +1,179 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
-    "height": 210,
-    "width": 254,
-    "hideSelection": true,
-    "fillHorizontally": true,
-    "formatter": {
-        "elmType": "div",
-        "attributes": {
-            "class": "sp-card-container"
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 210,
+  "width": 254,
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-card-container"
+    },
+    "children": [
+      {
+        "elmType": "button",
+        "style": {
+          "z-index": "9"
         },
-        "children": [{
-                "elmType": "button",
-                "style": {
-                    "z-index": "9"
-                },
-                "attributes": {
-                    "class": "sp-card-defaultClickButton",
-                    "role": "presentation"
-                },
-                "customRowAction": {
-                    "action": "defaultClick"
-                }
+        "attributes": {
+          "class": "sp-card-defaultClickButton",
+          "role": "presentation"
+        },
+        "customRowAction": {
+          "action": "defaultClick"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative"
+        },
+        "attributes": {
+          "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer ms-fontColor-white"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "bottom": "0",
+              "right": "0",
+              "z-index": "10",
+              "overflow": "hidden",
+              "cursor": "pointer",
+              "display": "flex",
+              "align-items": "center",
+              "width": "100%",
+              "background-color": "rgba(0,0,0,0.2)"
             },
-            {
+            "children": [
+              {
                 "elmType": "div",
-                "style": {
-                    "position": "relative"
-                },
                 "attributes": {
-                    "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer ms-fontColor-white"
+                  "class": "ms-bgColor-black--hover"
                 },
-                "children": [{
-                        "elmType": "div",
-                        "style": {
-                            "position": "absolute",
-                            "bottom": "0",
-                            "right": "0",
-                            "z-index": "10",
-                            "overflow": "hidden",
-                            "cursor": "pointer",
-                            "display": "flex",
-                            "align-items": "center",
-                            "width": "100%",
-                            "background-color": "rgba(0,0,0,0.2)"
-                        },
-                        "children": [{
-                            "elmType": "div",
-                            "attributes": {
-                                "class": "ms-bgColor-black--hover"
-                            },
-                            "style": {
-                                "display": "flex",
-                                "width": "100%"
-                            },
-                            "children": [{
-                                    "elmType": "div",
-                                    "txtContent": "[$Title]",
-                                    "style": {
-                                        "width": "100%",
-                                        "padding": "10px"
-                                    }
-                                },
-                                {
-                                    "elmType": "div",
-                                    "attributes": {
-                                        "class": "ms-bgColor-neutralLight--hover ms-fontColor-white ms-fontColor-black--hover"
-                                    },
-                                    "style": {
-                                        "border-radius": "6px",
-                                        "display": "flex"
-                                    },
-                                    "children": [{
-                                            "elmType": "span",
-                                            "style": {
-                                                "display": "=if(indexOf([$LikedBy.email], @me) == -1, 'flex', 'none')",
-                                                "padding": "10px",
-                                                "align-items": "center"
-                                            },
-                                            "attributes": {
-                                                "iconName": "Heart"
-                                            },
-                                            "customRowAction": {
-                                                "action": "setValue",
-                                                "actionInput": {
-                                                    "LikesTotal": "=Number(length(appendTo([$LikedBy], @me)))",
-                                                    "LikedBy": "=appendTo([$LikedBy], @me)"
-                                                }
-                                            },
-                                            "children": [{
-                                                "elmType": "div",
-                                                "txtContent": "[$LikesTotal]",
-                                                "style": {
-                                                    "font-size": "12px",
-                                                    "margin-left": "4px",
-                                                    "font-family": "Segoe UI"
-                                                }
-                                            }]
-                                        },
-                                        {
-                                            "elmType": "span",
-                                            "style": {
-                                                "display": "=if(indexOf([$LikedBy.email], @me) == -1, 'none', 'flex')",
-                                                "padding": "10px",
-                                                "align-items": "center"
-                                            },
-                                            "attributes": {
-                                                "iconName": "HeartFill"
-                                            },
-                                            "customRowAction": {
-                                                "action": "setValue",
-                                                "actionInput": {
-                                                    "LikesTotal": "=Number(length(removeFrom([$LikedBy], @me)))",
-                                                    "LikedBy": "=removeFrom([$LikedBy], @me)"
-                                                }
-                                            },
-                                            "children": [{
-                                                "elmType": "div",
-                                                "txtContent": "[$LikesTotal]",
-                                                "style": {
-                                                    "font-size": "12px",
-                                                    "margin-left": "4px",
-                                                    "font-family": "Segoe UI"
-                                                }
-                                            }]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }]
-                    },
-                    {
-                        "elmType": "div",
-                        "attributes": {
-                            "class": "sp-card-lastTextColumnContainer"
-                        },
-                        "children": [{
-                            "elmType": "div",
-                            "attributes": {
-                                "class": "sp-card-imageContainer"
-                            },
-                            "children": [{
-                                "elmType": "filepreview",
-                                "attributes": {
-                                    "src": "@thumbnail.512x432"
-                                },
-                                "style": {
-                                    "height": "200px"
-                                },
-                                "filePreviewProps": {
-                                    "fileTypeIconClass": "sp-fileTypeIcon-cardDesigner",
-                                    "brandTypeIconClass": "sp-brandTypeIcon-cardDesigner",
-                                    "brandTypeIconStyle": {
-                                        "display": "none"
-                                    },
-                                    "fileTypeIconStyle": {
-                                        "display": "none"
-                                    }
-                                }
-                            }]
-                        }]
+                "style": {
+                  "display": "flex",
+                  "width": "100%"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "width": "100%",
+                      "padding": "10px"
                     }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-bgColor-neutralLight--hover ms-fontColor-white ms-fontColor-black--hover"
+                    },
+                    "style": {
+                      "border-radius": "6px",
+                      "display": "flex"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "display": "=if(indexOf([$LikedBy.email], @me) == -1, 'flex', 'none')",
+                          "padding": "10px",
+                          "align-items": "center"
+                        },
+                        "attributes": {
+                          "iconName": "Heart"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "LikesTotal": "=Number(length(appendTo([$LikedBy], @me)))",
+                            "LikedBy": "=appendTo([$LikedBy], @me)"
+                          }
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$LikesTotal]",
+                            "style": {
+                              "font-size": "12px",
+                              "margin-left": "4px",
+                              "font-family": "Segoe UI"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "display": "=if(indexOf([$LikedBy.email], @me) == -1, 'none', 'flex')",
+                          "padding": "10px",
+                          "align-items": "center"
+                        },
+                        "attributes": {
+                          "iconName": "HeartFill"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "LikesTotal": "=Number(length(removeFrom([$LikedBy], @me)))",
+                            "LikedBy": "=removeFrom([$LikedBy], @me)"
+                          }
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$LikesTotal]",
+                            "style": {
+                              "font-size": "12px",
+                              "margin-left": "4px",
+                              "font-family": "Segoe UI"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
-            }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-lastTextColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "sp-card-imageContainer"
+                },
+                "children": [
+                  {
+                    "elmType": "filepreview",
+                    "attributes": {
+                      "src": "@thumbnail.512x432"
+                    },
+                    "style": {
+                      "height": "200px"
+                    },
+                    "filePreviewProps": {
+                      "brandTypeIconStyle": {
+                        "display": "none"
+                      },
+                      "fileTypeIconStyle": {
+                        "display": "none"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
