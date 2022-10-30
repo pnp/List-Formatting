@@ -10,7 +10,7 @@
       "This sample demonstrates displaying Email link to send an email to owner of the task in SharePoint list."
     ],
     "creationDateTime": "2022-10-15T00:00:00.000Z",
-    "updateDateTime": "2022-10-15T00:00:00.000Z",
+    "updateDateTime": "2022-10-30T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -66,6 +66,11 @@
         "gitHubAccount": "ganesh-sanap",
         "pictureUrl": "https://github.com/ganesh-sanap.png",
         "name": "Ganesh Sanap"
+      },
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
       }
     ],
     "references": [
