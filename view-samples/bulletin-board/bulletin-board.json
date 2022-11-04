@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideListHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "button",
+    "customRowAction": {
+      "action": "defaultClick"
+    },
+    "attributes": {
+      "class": "ms-bgColor-white ms-bgColor-themeLight--hover"
+    },
+    "style": {
+      "width": "100%",
+      "margin": "5px 0",
+      "padding": 0,
+      "border": "none",
+      "cursor": "pointer"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-borderColor-themePrimary ms-bgColor-themePrimary"
+        },
+        "style": {
+          "min-width": "220px",
+          "display": "flex",
+          "border-width": "3px",
+          "border-style": "solid",
+          "box-sizing": "border-box",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "=if([$Category] == 'Books For Sale', 'ReadingMode', if([$Category] == 'Ride Share', 'Car', if([$Category] == 'Electronics For Sale', 'LightningBolt', 'Tag')))",
+              "class": "ms-fontSize-su ms-fontWeight-regular  ms-fontColor-white",
+              "title": "[$Category]"
+            },
+            "style": {
+              "flex": "none",
+              "padding": "12px",
+              "padding-left": "18px",
+              "height": "42px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "text-align": "left",
+              "max-width": "140px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                  "title": "=toLocaleDateString([$Modified])"
+                },
+                "style": {
+                  "margin-right": "12px",
+                  "overflow": "hidden",
+                  "white-space": "nowrap"
+                },
+                "txtContent": "=toLocaleDateString([$Modified])"
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-white",
+                  "title": "[$Category]"
+                },
+                "style": {
+                  "margin-right": "12px",
+                  "overflow": "hidden",
+                  "white-space": "nowrap"
+                },
+                "txtContent": "[$Category]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-l"
+        },
+        "style": {
+          "border-width": "3px",
+          "border-style": "solid",
+          "box-sizing": "border-box",
+          "width": "100%",
+          "text-align": "left",
+          "padding": "21px 12px",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "height": "24px"
+            },
+            "attributes": {
+              "title": "[$Title]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

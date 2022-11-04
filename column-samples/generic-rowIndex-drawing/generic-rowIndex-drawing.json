@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "background-color": "=if(@rowIndex < 4, 'white', if(@rowIndex < 200, 'rgba(' + if(@rowIndex < 215, '40', 255-@rowIndex) + ',' + if(@rowIndex < 90, '140', 229-@rowIndex) + ',' + (255-@rowIndex) + ',1)', 'rgba(0,0,56,1)'))"

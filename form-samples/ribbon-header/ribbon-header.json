@@ -1,0 +1,133 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "justify-content": "center",
+    "width": "100%",
+    "margin-bottom": "10px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "width": "100%",
+        "display": "flex",
+        "justify-content": "center",
+        "margin": "10px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "80%",
+            "height": "85px",
+            "position": "relative",
+            "font-size": "20px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "bottom": "-0.7em",
+                "left": "-2.5em",
+                "border": "1.5em solid",
+                "border-right": "3em solid",
+                "border-left-color": "transparent",
+                "z-index": "1"
+              },
+              "attributes": {
+                "class": "ms-fontColor-themeSecondary"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "bottom": "-0.7em",
+                "right": "-2.5em",
+                "border": "1.5em solid",
+                "border-left": "3em solid",
+                "border-right-color": "transparent",
+                "z-index": "1"
+              },
+              "attributes": {
+                "class": "ms-fontColor-themeSecondary"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "width": "100%",
+                "height": "100%",
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "center",
+                "z-index": "3"
+              },
+              "attributes": {
+                "class": "ms-bgColor-themePrimary ms-fontColor-white"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "width": "100%",
+                    "height": "75%",
+                    "border-top": "3px dashed",
+                    "border-bottom": "3px dashed",
+                    "display": "flex",
+                    "justify-content": "center",
+                    "align-items": "center",
+                    "overflow": "hidden"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "=if([$Title] == '', 'No Title' , [$Title])",
+                      "style": {
+                        "font-size": "22px",
+                        "font-weight": "bold",
+                        "margin": "10px"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "left": "0",
+                "top": "100%",
+                "z-index": "2",
+                "border-bottom": "solid 0.7em transparent",
+                "border-right": "solid 2em"
+              },
+              "attributes": {
+                "class": "ms-fontColor-themeDark"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "absolute",
+                "right": "0",
+                "top": "100%",
+                "z-index": "2",
+                "border-bottom": "solid 0.7em transparent",
+                "border-left": "solid 2em"
+              },
+              "attributes": {
+                "class": "ms-fontColor-themeDark"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

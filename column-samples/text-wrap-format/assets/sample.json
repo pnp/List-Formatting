@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-text-wrap-format",
     "reponame": "text-wrap-format",
     "source": "pnp",
-    "title": "Formatting column with long text to multiple-line with word wrap.",
+    "title": "Multi-line Text with Word Wrap",
     "shortDescription": "With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn\u0027t always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-wrap-format",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-wrap-format",
     "longDescription": [
       "With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn\u0027t always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2020-05-27T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,19 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-wrap-format/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-wrap-format/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if([$FieldName] == 'Value to hide the button' , 'none' , 'flex')",
+        "flex-direction": "row"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "70px",
+            "height": "26px",
+            "border-radius": "3px",
+            "cursor": "pointer",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "space-evenly",
+            "margin": "5px",
+            "border": "1px solid"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themePrimary--hover ms-fontColor-themePrimary ms-fontColor-white--hover ms-fontSize-12 ms-fontWeight-bold"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Status": "OK",
+              "Date": "@now",
+              "User": "@me"
+            }
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "OK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

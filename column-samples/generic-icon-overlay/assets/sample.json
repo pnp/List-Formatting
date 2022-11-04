@@ -13,7 +13,7 @@
     "updateDateTime": "2020-01-09T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,25 +23,53 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-black, ms-fontColor-yellow, ms-fontColor-themePrimary, ms-fontColor-green, ms-fontColor-blue, ms-fontColor-magentaLight, ms-fontColor-redDark, ms-fontColor-red"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotOverlay.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshot.png",
         "alt": "screenshotOverlay"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotOverlayMultiple.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshotOverlayMultiple.png",
         "alt": "screenshotOverlayMultiple"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-icon-overlay/assets/screenshotSimple.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-icon-overlay/assets/screenshotSimple.png",
         "alt": "screenshotSimple"
       }
     ],
@@ -57,6 +85,11 @@
         "name": "Use column formatting to customize SharePoint",
         "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      },
+      {
+        "name": "Live Preview",
+        "description": "View sample live on Microsoft Lists",
+        "url": "https://lists.live.com/:l:/g/personal/9a047f63f4e26abf/FJtVGK9R4VVIvJszNCR4OtgBYrCAzX_f6rra6dACxzKQmQ?e=fYH1aF"
       }
     ]
   }

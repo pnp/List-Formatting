@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-comment-count",
     "reponame": "comment-count",
     "source": "pnp",
-    "title": "comment-count",
-    "shortDescription": "comment-count",
+    "title": "Comment Count",
+    "shortDescription": "This sample adds a visual indicator to a list item, showing the number of comments present on it.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/comment-count",
     "longDescription": [
-      "comment-count"
+      "This sample adds a visual indicator to a list item, showing the number of comments present on it."
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-03-19T00:00:00.000Z",
+    "updateDateTime": "2021-03-19T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-neutralTertiary"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/comment-count/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

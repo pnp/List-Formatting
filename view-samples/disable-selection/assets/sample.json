@@ -13,7 +13,7 @@
     "updateDateTime": "2021-06-04T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/disable-selection/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

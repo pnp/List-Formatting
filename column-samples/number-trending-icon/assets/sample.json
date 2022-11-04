@@ -4,16 +4,16 @@
     "reponame": "number-trending-icon",
     "source": "pnp",
     "title": "Show trending up/trending down icons ",
-    "shortDescription": "These formats rely on two number fields, \u0060Before\u0060 and \u0060After\u0060, for which the values can be compared. They show the appropriate trending icon next to the value of the \u0060After\u0060 field, depending on that field\u0027s value compared to the value in \u0060Before\u0060. The \u0060sp-field-trending--up\u0060 class is used when \u0060After\u0060\u0027s value is higher; the \u0060sp-field-trending--down\u0060 class is used when \u0060After\u0060\u0027s value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment).",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-trending-icon",
+    "shortDescription": "These formats rely on two number fields, Before and After, for which the values can be compared. They show the appropriate trending icon next to the value of the After field, depending on that field's value compared to the value in Before. The sp-field-trending--up class is used when After's value is higher; the sp-field-trending--down class is used when After's value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment).",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-trending-icon",
     "longDescription": [
-      "These formats rely on two number fields, \u0060Before\u0060 and \u0060After\u0060, for which the values can be compared. They show the appropriate trending icon next to the value of the \u0060After\u0060 field, depending on that field\u0027s value compared to the value in \u0060Before\u0060. The \u0060sp-field-trending--up\u0060 class is used when \u0060After\u0060\u0027s value is higher; the \u0060sp-field-trending--down\u0060 class is used when \u0060After\u0060\u0027s value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment)."
+      "These formats rely on two number fields, Before and After, for which the values can be compared. They show the appropriate trending icon next to the value of the After field, depending on that field's value compared to the value in Before. The sp-field-trending--up class is used when After's value is higher; the sp-field-trending--down class is used when After's value is lower. No icon is shown when they are equal (padding is added to keep consistent alignment)."
     ],
     "creationDateTime": "2017-11-02T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,29 +21,49 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-trending--up, sp-field-trending--down"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-trending-icon/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-trending-icon/assets/screenshot.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-trending-icon/assets/screenshotWithDifference.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-trending-icon/assets/screenshotWithDifference.png",
         "alt": "screenshotWithDifference"
       }
     ],
@@ -52,6 +72,11 @@
         "gitHubAccount": "VesaJuvonen",
         "pictureUrl": "https://github.com/VesaJuvonen.png",
         "name": "Vesa Juvonen"
+      },
+      {
+        "gitHubAccount": "PopWarner",
+        "pictureUrl": "https://github.com/PopWarner.png",
+        "name": "David Warner II"
       }
     ],
     "references": [

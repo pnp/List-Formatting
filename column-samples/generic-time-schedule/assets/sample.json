@@ -4,16 +4,16 @@
     "reponame": "generic-time-schedule",
     "source": "pnp",
     "title": "Time Schedule",
-    "shortDescription": "This sample demonstrates a time schedule with a filled background from \u0060Start\u0060 time to \u0060End\u0060 time.",
+    "shortDescription": "This sample demonstrates a time schedule with a filled background from Start time to End time.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-time-schedule",
     "longDescription": [
-      "This sample demonstrates a time schedule with a filled background from \u0060Start\u0060 time to \u0060End\u0060 time."
+      "This sample demonstrates a time schedule with a filled background from Start time to End time."
     ],
     "creationDateTime": "2020-11-03T00:00:00.000Z",
     "updateDateTime": "2020-11-03T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, substring"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontWeight-bold"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-time-schedule/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-time-schedule/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

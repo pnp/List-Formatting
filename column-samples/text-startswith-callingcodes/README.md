@@ -30,7 +30,7 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 Solution|Author(s)
 --------|---------
-text-startswith-callingcodes.json | [Chris Kent](https://twitter.com/thechriskent)
+text-startswith-callingcodes.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -48,4 +48,4 @@ Version|Date|Comments
 
 The `indexOf` function is not available in SharePoint 2019
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-startswith-callingcodes" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-startswith-callingcodes" />

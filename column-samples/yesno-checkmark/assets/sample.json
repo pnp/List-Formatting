@@ -4,16 +4,16 @@
     "reponame": "yesno-checkmark",
     "source": "pnp",
     "title": "Yes/No Column Check Mark",
-    "shortDescription": "This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the \u0060iconName\u0060 attribute to display the \u0060CheckMark\u0060 [Office UI Fabric predefined icon](https://developer.microsoft.com/en-us/fabric#/styles/icons).",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/yesno-checkmark",
+    "shortDescription": "This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the iconName attribute to display the CheckMark Fluent UI icon.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkmark",
     "longDescription": [
-      "This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the \u0060iconName\u0060 attribute to display the \u0060CheckMark\u0060 [Office UI Fabric predefined icon](https://developer.microsoft.com/en-us/fabric#/styles/icons)."
+      "This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the iconName attribute to display the CheckMark Fluent UI icon."
     ],
     "creationDateTime": "2017-11-27T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Yes/No"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/yesno-checkmark/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkmark/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

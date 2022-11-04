@@ -1,0 +1,26 @@
+{
+  "elmType": "div",
+  "style": {
+    "width": "100%"
+  },
+  "children": [
+    {
+      "elmType": "svg",
+      "style": {
+        "fill": "currentColor"
+      },
+      "attributes": {
+        "viewBox": "0 0 10 2",
+        "class": "ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "path",
+          "attributes": {
+            "d": "M0,1 C4,3 7,-1 10,1 L10,3 L0,3 Z"
+          }
+        }
+      ]
+    }
+  ]
+}

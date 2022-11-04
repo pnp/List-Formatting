@@ -12,10 +12,10 @@ This format can be applied to a Managed Metadata column.
 
 ## Sample
 
-Solution                       |Author(s)
--------------------------------|---------------------------
-managed-metadata-tag-icon-single-choice.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
-managed-metadata-tag-icon-multi-choice.json |[Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+managed-metadata-tag-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+managed-metadata-tag-icon-multi-choice.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -27,4 +27,4 @@ Version |Date           |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/managed-metadata-tag-icon" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/managed-metadata-tag-icon" />

@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-color-based-smiley-face",
     "reponame": "color-based-smiley-face",
     "source": "pnp",
-    "title": "Smiley faces for good quiz results",
-    "shortDescription": "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/color-based-smiley-face",
+    "title": "Color Based Emojis",
+    "shortDescription": "This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/color-based-smiley-face",
     "longDescription": [
-      "This sample is to display smiley faces based on color value, As for sample, it is based on color choice column value of"
+      "This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI."
     ],
     "creationDateTime": "2019-06-16T00:00:00.000Z",
     "updateDateTime": "2019-06-16T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Status / Progress"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/color-based-smiley-face/assets/display.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/color-based-smiley-face/assets/screenshot.png",
         "alt": "display"
       }
     ],

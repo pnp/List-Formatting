@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-multi-person-currentuser-rowclass",
     "reponame": "multi-person-currentuser-rowclass",
     "source": "pnp",
-    "title": "Current User\u0027s Rows (Using a Multi-Person Column)",
+    "title": "Current User's Rows (Using a Multi-Person Column)",
     "shortDescription": "Highlights the entire row for any list items where one of the assigned to users is the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different person column by changing the \u0060[$AssignedTo]\u0060 portion of the expression.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/multi-person-currentuser-rowclass",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/multi-person-currentuser-rowclass",
     "longDescription": [
       "Highlights the entire row for any list items where one of the assigned to users is the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different person column by changing the \u0060[$AssignedTo]\u0060 portion of the expression."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2019-01-29T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "View"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Multi-Person"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "indexOf"
-      },
-      {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@me"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, join"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLight, ms-bgColor-themeLighterAlt--hover"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/multi-person-currentuser-rowclass/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/multi-person-currentuser-rowclass/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -13,7 +13,7 @@
     "updateDateTime": "2020-12-29T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, loopIndex, join, length, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, defaultHoverField, customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight, ms-bgColor-yellow, ms-bgColor-orange, ms-bgColor-green, ms-bgColor-sharedRed20, ms-fontColor-themePrimary, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontColor-yellow, ms-fontColor-orange, ms-fontColor-green, ms-fontColor-sharedRed20, ms-fontWeight-regular, ms-fontWeight-semibold, ms-fontSize-32, ms-fontSize-28, ms-fontSize-20, ms-fontSize-16, ms-motion-slideRightIn, sp-row-card, sp-field-severity--blocked, sp-field-severity--good, sp-field-severity--warning"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/project-health-dashboard/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "Riftsan",

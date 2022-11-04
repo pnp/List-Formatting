@@ -1,5 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideListHeader": true,
   "rowFormatter": {
@@ -64,7 +64,7 @@
               "max-width": "280px",
               "white-space": "nowrap"
             },
-            "txtContent": "[$Job_x0020_Title]"
+            "txtContent": "[$JobTitle]"
           }
         ]
       },

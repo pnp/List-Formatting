@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-heat-map",
+    "reponame": "heat-map",
+    "source": "pnp",
+    "title": "Heat Map",
+    "shortDescription": "This sample demonstrates creating a layered dynamic SVG image in a view format.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/heat-map",
+    "longDescription": [
+      "This sample demonstrates creating a layered dynamic SVG image in a view format. States are highlighted when they have list items that correspond to them. They get darker the more times a state is mentioned."
+    ],
+    "creationDateTime": "2022-04-04T00:00:00.000Z",
+    "updateDateTime": "2022-04-04T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-neutralSecondary--hover, ms-fontColor-neutralTertiary"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/heat-map/assets/screenshot.png",
+        "alt": "heat map"
+      },
+      {
+        "type": "image",
+        "order": 105,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/heat-map/assets/screenshotDark.png",
+        "alt": "dark theme heat map"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

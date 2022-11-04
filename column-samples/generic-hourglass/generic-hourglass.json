@@ -1,0 +1,196 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "width": "40px",
+        "height": "70px",
+        "margin": "10px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "100%",
+            "height": "10%"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeDarker"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "60%",
+            "height": "80%",
+            "border-left": "2.5px solid",
+            "border-right": "2.5px solid",
+            "display": "flex",
+            "flex-direction": "column",
+            "font-size": "13.2px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themeDarker"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "position": "relative",
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "end",
+                "width": "100%",
+                "height": "50%"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "width": "0",
+                    "border-top": "2.1em solid",
+                    "border-left": "1em solid transparent",
+                    "border-right": "1em solid transparent"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-neutralQuaternaryAlt"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "width": "0",
+                    "border-top": "= 2.1 * if(@now < [$Start] , 1 ,((Number([$End]) - Number(@now)) / (Number([$End]) - Number([$Start])))) + 'em solid'",
+                    "border-left": "= 1 * if(@now < [$Start] , 1 ,((Number([$End]) - Number(@now)) / (Number([$End]) - Number([$Start])))) + 'em solid transparent'",
+                    "border-right": "= 1 * if(@now < [$Start] , 1 ,((Number([$End]) - Number(@now)) / (Number([$End]) - Number([$Start])))) + 'em solid transparent'",
+                    "display": "=if([$Start] > [$End] || Number([$Start]) == 0 || Number([$End]) == 0 , 'none' , '')",
+                    "cursor": "pointer"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+                  },
+                  "customCardProps": {
+                    "openOnEvent": "hover",
+                    "directionalHint": "rightCenter",
+                    "isBeakVisible": true,
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "padding": "10px 20px 10px 20px",
+                        "font-weight": "bold",
+                        "font-size": "20px"
+                      },
+                      "attributes": {
+                        "class": "ms-fontColor-themePrimary"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "txtContent": "=floor(if(@now < [$Start] , (Number([$End]) - Number([$Start])) , (Number([$End]) - Number(@now))) / 86400000)"
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "=if(floor(if(@now < [$Start] , (Number([$End]) - Number([$Start])) , (Number([$End]) - Number(@now))) / 86400000) == 1 , 'day' , 'days')",
+                          "style": {
+                            "margin-left": "5px"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "position": "relative",
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "end",
+                "width": "100%",
+                "height": "50%"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "width": "0",
+                    "border-bottom": "2.1em solid",
+                    "border-left": "1em solid transparent",
+                    "border-right": "1em solid transparent"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-neutralQuaternaryAlt"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "width": "= 2 * ((Number([$End]) - Number(@now)) / (Number([$End]) - Number([$Start]))) + 'em'",
+                    "border-bottom": "= 2.1 * if(@now > [$End] , 1 , ((Number(@now) - Number([$Start])) / (Number([$End]) - Number([$Start])))) + 'em solid'",
+                    "border-left": "= 1 * if(@now > [$End] , 1 , ((Number(@now) - Number([$Start])) / (Number([$End]) - Number([$Start])))) + 'em solid transparent'",
+                    "border-right": "= 1 * if(@now > [$End] , 1 , ((Number(@now) - Number([$Start])) / (Number([$End]) - Number([$Start])))) + 'em solid transparent'",
+                    "display": "=if([$Start] > [$End] || Number([$Start]) == 0 || Number([$End]) == 0 , 'none' , '')",
+                    "cursor": "pointer"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+                  },
+                  "customCardProps": {
+                    "openOnEvent": "hover",
+                    "directionalHint": "rightCenter",
+                    "isBeakVisible": true,
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "padding": "10px 20px 10px 20px",
+                        "font-weight": "bold",
+                        "font-size": "20px"
+                      },
+                      "attributes": {
+                        "class": "ms-fontColor-themePrimary"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "txtContent": "=floor(if(@now > [$End] , (Number([$End]) - Number([$Start])) , (Number(@now) - Number([$Start]))) / 86400000)"
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "=if(floor(if(@now > [$End] , (Number([$End]) - Number([$Start])) , (Number(@now) - Number([$Start]))) / 86400000) == 1 , 'day' , 'days')",
+                          "style": {
+                            "margin-left": "5px"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "100%",
+            "height": "10%"
+          },
+          "attributes": {
+            "class": "ms-bgColor-themeDarker"
+          }
+        }
+      ]
+    }
+  ]
+}

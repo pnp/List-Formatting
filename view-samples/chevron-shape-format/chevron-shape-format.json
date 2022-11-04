@@ -1,0 +1,205 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": "true",
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "width": "200px",
+      "text-decoration": "none",
+      "float": "left",
+      "min-width": "200px",
+      "height": "120px",
+      "margin": "10px",
+      "cursor": "pointer"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "width": "0",
+          "height": "0",
+          "border-top": "60px solid transparent",
+          "border-bottom": "60px solid transparent",
+          "border-left": "60px solid white"
+        }
+      },
+      {
+        "elmType": "img",
+        "style": {
+          "height": "120px",
+          "width": "200px"
+        },
+        "attributes": {
+          "src": "[$IMG.serverRelativeUrl]"
+        },
+        "customCardProps": {
+          "openOnEvent": "hover",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "max-width": "500px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "absolute",
+                  "bottom": "0"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "verdana",
+                      "padding-left": "10px",
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "max-width": "490px"
+                    },
+                    "attributes": {
+                      "title": "[$Title]",
+                      "class": "ms-fontColor-white ms-fontSize-20 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$Title]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px",
+                      "background-color": "rgba(0, 0, 0, 0.6)",
+                      "opacity": "0.5",
+                      "max-width": "490px"
+                    },
+                    "attributes": {
+                      "title": "[$Description]",
+                      "class": "ms-fontColor-white ms-fontSize-12"
+                    },
+                    "txtContent": "[$Description]"
+                  }
+                ]
+              },
+              {
+                "elmType": "img",
+                "style": {
+                  "max-width": "500px"
+                },
+                "attributes": {
+                  "src": "[$IMG.serverRelativeUrl]"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "width": "0",
+          "left": "140px",
+          "height": "60px",
+          "border-style": "solid",
+          "border-width": "0 0 60px 60px",
+          "border-color": "transparent transparent white transparent"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "left": "40%",
+          "white-space": "nowrap",
+          "overflow": "hidden",
+          "text-overflow": "ellipsis",
+          "width": "100px"
+        },
+        "attributes": {
+          "title": "[$Title]",
+          "class": "ms-fontColor-white ms-fontSize-18"
+        },
+        "txtContent": "[$Title]",
+        "customCardProps": {
+          "openOnEvent": "hover",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "max-width": "500px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "absolute",
+                  "bottom": "0"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "verdana",
+                      "padding-left": "10px",
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "max-width": "490px"
+                    },
+                    "attributes": {
+                      "title": "[$Title]",
+                      "class": "ms-fontColor-white ms-fontSize-20 ms-fontWeight-bold"
+                    },
+                    "txtContent": "[$Title]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "10px",
+                      "background-color": "rgba(0, 0, 0, 0.6)",
+                      "opacity": "0.5",
+                      "max-width": "490px"
+                    },
+                    "attributes": {
+                      "title": "[$Description]",
+                      "class": "ms-fontColor-white ms-fontSize-12"
+                    },
+                    "txtContent": "[$Description]"
+                  }
+                ]
+              },
+              {
+                "elmType": "img",
+                "style": {
+                  "max-width": "500px"
+                },
+                "attributes": {
+                  "src": "[$IMG.serverRelativeUrl]"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "left": "140px",
+          "position": "absolute",
+          "top": "0",
+          "width": "0",
+          "height": "0",
+          "border-style": "solid",
+          "border-width": "0 60px 60px 0",
+          "border-color": "transparent white transparent  transparent"
+        }
+      }
+    ]
+  }
+}

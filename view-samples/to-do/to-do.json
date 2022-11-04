@@ -1,0 +1,472 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "padding": "5px",
+      "min-width": "97%",
+      "border-bottom": "1px solid #e5e5e5"
+    },
+    "attributes": {
+      "class": "ms-bgColor-neutralLight--hover ms-fontColor-neutralSecondary–hover"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "customRowAction": {
+          "action": "setValue",
+          "actionInput": {
+            "Status": "=if([$Status], '0' , '1' )"
+          }
+        },
+        "attributes": {
+          "class": "ms-fontColor-themePrimary",
+          "iconName": "=if([$Status], 'SkypeCircleCheck' , 'CircleRing')"
+        },
+        "style": {
+          "font-size": "1.2rem",
+          "cursor": "pointer",
+          "padding-left": "10px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left",
+          "padding": "5px",
+          "margin-left": "10px",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "400",
+              "font-size": "14px",
+              "text-decoration": "=if([$Status], 'line-through' , '')"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "10px",
+              "margin-right": "5px",
+              "color": "=if([$Status], '', if(toLocaleDateString([$Duedate])==toLocaleDateString(@now),'#465efc',if([$Duedate] < @now, '#db3a29' , '')))",
+              "display": "=if([$Duedate],'','none')"
+            },
+            "attributes": {
+              "iconName": "Event"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-weight": "=if([$Status], '200', if([$Duedate] < @now, '500' , '200'))",
+              "font-size": "12px",
+              "overflow": "hidden",
+              "margin-top": "2px",
+              "white-space": "nowrap",
+              "color": "=if([$Status], '', if(toLocaleDateString([$Duedate])==toLocaleDateString(@now),'#465efc',if([$Duedate] < @now, '#db3a29' , '')))",
+              "display": "=if([$Duedate],'','none')"
+            },
+            "txtContent": {
+              "operator": "+",
+              "operands": [
+                "=if(toLocaleDateString([$Duedate])==toLocaleDateString(@now),'Today ',if([$Duedate] > @now, 'Due, ' , 'Overdue, '))",
+                "=if(toLocaleDateString([$Duedate])!=toLocaleDateString(@now), [$Date], '')"
+              ]
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "12px",
+              "margin": "0 10px",
+              "font-weight": "900",
+              "display": "=if([$Description]=='', 'none', if([$Duedate],'','none'))"
+            },
+            "txtContent": "·"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "10px",
+              "display": "=if([$Description]=='', 'none', '')"
+            },
+            "attributes": {
+              "iconName": "QuickNote"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "12px",
+              "margin": "0 10px",
+              "font-weight": "900",
+              "display": "=if([$Category]=='', 'none', '')"
+            },
+            "txtContent": "·"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "11px",
+              "display": "=if([$Category]=='', 'none', '')"
+            },
+            "attributes": {
+              "iconName": "Tag"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "11px",
+              "font-weight": "200",
+              "margin-left": "5px",
+              "display": "=if([$Category]=='', 'none', '')"
+            },
+            "txtContent": "[$Category]"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "12px",
+              "margin": "0 10px",
+              "font-weight": "900",
+              "display": "=if([$Attachments] == '0', 'none', '')"
+            },
+            "txtContent": "·"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "11px",
+              "display": "=if([$Attachments] == '0', 'none', '')",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "iconName": "Attach"
+            },
+            "customRowAction": {
+              "action": "defaultClick"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "span",
+        "attributes": {
+          "iconName": "=if([$_CommentCount], 'Comment', 'CommentAdd')",
+          "class": "=if([$_CommentCount], 'ms-fontColor-themePrimary', '')"
+        },
+        "style": {
+          "font-size": "14px",
+          "padding-right": "15px",
+          "cursor": "pointer"
+        },
+        "customRowAction": {
+          "action": "defaultClick"
+        }
+      },
+      {
+        "elmType": "span",
+        "attributes": {
+          "iconName": "=if([$Important], 'FavoriteStarFill', 'FavoriteStar')",
+          "class": "=if([$Important], 'ms-fontColor-themePrimary', '')"
+        },
+        "style": {
+          "font-size": "16px",
+          "padding-right": "10px",
+          "cursor": "pointer"
+        },
+        "customRowAction": {
+          "action": "setValue",
+          "actionInput": {
+            "Important": "=if([$Important], '0' , '1' )"
+          }
+        }
+      }
+    ],
+    "customCardProps": {
+      "formatter": {
+        "elmType": "div",
+        "style": {
+          "padding": "20px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "350px",
+                  "font-size": "14px",
+                  "font-weight": "700",
+                  "margin-bottom": "5px"
+                },
+                "txtContent": "[$Title]",
+                "inlineEditField": "[$Title]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "350px",
+                  "font-size": "14px",
+                  "font-weight": "400",
+                  "margin-bottom": "5px",
+                  "font-style": "=if([$Description]=='','Italic','')"
+                },
+                "txtContent": "=if([$Description]=='','Add note','[$Description]')",
+                "inlineEditField": "[$Description]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "350px",
+                  "font-size": "12px",
+                  "font-weight": "200",
+                  "margin-bottom": "5px"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "font-size": "11px"
+                    },
+                    "attributes": {
+                      "iconName": "Event"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "font-size": "12px",
+                      "margin-left": "5px",
+                      "font-weight": "200",
+                      "font-style": "=if('=toLocaleDateString([$Duedate])'=='','Italic','')"
+                    },
+                    "txtContent": "=if('=toLocaleDateString([$Duedate])'=='','Add due date', '=toLocaleDateString([$Duedate])')",
+                    "inlineEditField": "[$Duedate]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "350px",
+                  "font-size": "12px",
+                  "font-weight": "200",
+                  "margin-bottom": "10px",
+                  "padding-bottom": "10px",
+                  "border-bottom": "1px solid #e5e5e5"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "font-size": "11px"
+                    },
+                    "attributes": {
+                      "iconName": "Tag"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "font-size": "12px",
+                      "margin-left": "5px",
+                      "font-weight": "200",
+                      "font-style": "=if([$Category]=='','Italic','')"
+                    },
+                    "txtContent": "=if([$Category]=='','Pick a category',[$Category])",
+                    "inlineEditField": "[$Category]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "12px",
+                      "font-weight": "200"
+                    },
+                    "txtContent": {
+                      "operator": "+",
+                      "operands": [
+                        "Created: ",
+                        "=toLocaleString([$Created])"
+                      ]
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "margin-bottom": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "12px",
+                          "height": "12px",
+                          "border-radius": "50%",
+                          "margin-right": "5px"
+                        },
+                        "attributes": {
+                          "src": "=getUserImage([$Author.email], 'S')",
+                          "title": "[$Author.title]"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$Author.title]",
+                        "style": {
+                          "font-size": "12px",
+                          "font-weight": "200"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "12px",
+                      "font-weight": "200"
+                    },
+                    "txtContent": {
+                      "operator": "+",
+                      "operands": [
+                        "Updated: ",
+                        "=toLocaleString([$Modified])"
+                      ]
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "12px",
+                          "height": "12px",
+                          "border-radius": "50%",
+                          "margin-right": "5px"
+                        },
+                        "attributes": {
+                          "src": "=getUserImage([$Editor.email], 'S')",
+                          "title": "[$Editor.title]"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$Editor.title]",
+                        "style": {
+                          "font-size": "12px",
+                          "font-weight": "200"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "font-size": "14px",
+                      "cursor": "pointer",
+                      "position": "absolute",
+                      "bottom": "20px",
+                      "right": "20px"
+                    },
+                    "attributes": {
+                      "iconName": "Delete"
+                    },
+                    "customRowAction": {
+                      "action": "delete"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "openOnEvent": "hover",
+      "directionalHint": "bottomCenter",
+      "isBeakVisible": true,
+      "beakStyle": {
+        "backgroundColor": "white"
+      }
+    }
+  },
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "flex-direction": "row"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "4px 8px 5px 8px",
+            "border-radius": "6px",
+            "font-weight": "500",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": {
+              "operator": "+",
+              "operands": [
+                "ms-bgColor-themePrimary ",
+                "ms-fontColor-white"
+              ]
+            }
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "inline-flex",
+                "padding-right": "9px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-bold"
+                  },
+                  "txtContent": "=if(@group.fieldData.displayValue == 'Yes', 'Completed', 'To Do')"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-normal"
+                  },
+                  "txtContent": {
+                    "operator": "+",
+                    "operands": [
+                      " - ",
+                      "=@group.count",
+                      "= if(@group.count!= 1,' items',' item')"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

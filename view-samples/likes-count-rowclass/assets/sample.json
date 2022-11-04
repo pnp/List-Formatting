@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-likes-count-rowclass",
+    "reponame": "likes-count-rowclass",
+    "source": "pnp",
+    "title": "Likes Count Row Class",
+    "shortDescription": "This sample demonstrates how to change the background color of a row depending on the number of likes.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/likes-count-rowclass",
+    "longDescription": [
+      "This sample demonstrates how to change the background color of a row depending on the number of likes. In this case, the background color of the row changes when the number of likes is 2 or more."
+    ],
+    "creationDateTime": "2021-10-20T00:00:00.000Z",
+    "updateDateTime": "2021-10-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/likes-count-rowclass/assets/screenshot.png",
+        "alt": "Likes Count Row Class"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

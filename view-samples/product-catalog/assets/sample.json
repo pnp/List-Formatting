@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-product-catalog",
     "reponame": "product-catalog",
     "source": "pnp",
-    "title": "Product Catalog Sample",
+    "title": "Product Catalog",
     "shortDescription": "The product catalog sample demonstrates how to use view formatting to format lists and display views of the lists inside web parts. It also demonstrates how to create links to download documents from the SharePoint Document libraries.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/product-catalog",
     "longDescription": [
@@ -13,7 +13,7 @@
     "updateDateTime": "2020-01-29T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,32 +23,42 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Provisioning"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@window.innerWidth"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/product-catalog/assets/credential-popup.png?raw=true",
-        "alt": "credential-popup"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/product-catalog/assets/Finish.png?raw=true",
-        "alt": "Finish"
-      },
-      {
-        "type": "image",
-        "order": 102,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/product-catalog/assets/page-review.png?raw=true",
-        "alt": "page-review"
-      },
-      {
-        "type": "image",
-        "order": 103,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/view-samples/product-catalog/assets/security-warning.png?raw=true",
-        "alt": "security-warning"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-catalog/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [

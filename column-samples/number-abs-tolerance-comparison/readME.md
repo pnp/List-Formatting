@@ -1,4 +1,4 @@
-# Determine Tolerance Comparison using abs()
+# Tolerance Comparison
 
 ## Summary
 
@@ -6,11 +6,11 @@ Display if a value is within the expected tolerance.
 
 To determine success, the column formatting definition subtracts the "Actual" value from the "Expected" value and applies the "abs()" operator to retrieve the absolute value. The result is compared to the "Tolerance" column value to determine pass or fail.
 
-An Office UI Fabric class and icon is also applied to provide visual indicators of Pass or Fail.
+A Fluent UI icon is also applied to provide visual indicators of Pass or Fail.
 
 
 ### Screenshot
-![screenshot of the sample](./assets/screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## Column Types
@@ -23,7 +23,7 @@ The columns used in this sample were created as "Number" column types.
 
 Solution|Author(s)
 --------|---------
-number-abs-tolerance-comparison.json | [David Warner II](https://twitter.com/davidwarnerii) / [Warner.Digital](http://warner.digital)
+number-abs-tolerance-comparison.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
 
 ## Version history
 
@@ -41,4 +41,4 @@ Version|Date|Comments
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-abs-tolerance-comparison" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-abs-tolerance-comparison" />

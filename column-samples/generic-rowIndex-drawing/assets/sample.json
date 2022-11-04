@@ -4,16 +4,16 @@
     "reponame": "generic-rowIndex-drawing",
     "source": "pnp",
     "title": "Row Index Drawing",
-    "shortDescription": "This is a silly format that draws a picture in your view using the \u0060@rowIndex\u0060 token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up.",
+    "shortDescription": "This is a silly format that draws a picture in your view using the @rowIndex token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowIndex-drawing",
     "longDescription": [
-      "This is a silly format that draws a picture in your view using the \u0060@rowIndex\u0060 token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up."
+      "This is a silly format that draws a picture in your view using the @rowIndex token to adjust the colors and to determine when certain pictures (icons or SVG elements) should show up."
     ],
     "creationDateTime": "2020-02-20T00:00:00.000Z",
     "updateDateTime": "2020-02-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralPrimary, ms-fontColor-yellow"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-rowIndex-drawing/assets/screenshot.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-rowIndex-drawing/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],

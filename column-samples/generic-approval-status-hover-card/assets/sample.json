@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-generic-approval-status-hover-card",
+      "reponame": "generic-approval-status-hover-card",
+      "source": "pnp",
+      "title": "Approval Status Hover Card",
+      "shortDescription": "Adds a hover card with additional details when using Content Approval",
+      "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card",
+      "longDescription": [
+        "This sample provides more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover."
+      ],
+      "creationDateTime": "2021-03-08T00:00:00.000Z",
+      "updateDateTime": "2021-03-08T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "Column"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, Hover Cards"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": "General"
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "toLocaleDateString"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "customCardProps, directionalHint"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontColor-black, ms-fontColor-neutralSecondaryAlt, ms-fontColor-red, ms-fontColor-green, ms-fontColor-orange, ms-borderColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-themeDark, ms-fontColor-themeDarker"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png",
+          "alt": "Status_hover"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "m3ngi3",
+          "pictureUrl": "https://github.com/m3ngi3.png",
+          "name": "Django Lohn"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use column formatting to customize SharePoint",
+          "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+        }
+      ]
+    }
+  ]

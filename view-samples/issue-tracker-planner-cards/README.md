@@ -3,7 +3,7 @@
 ## Summary
 This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel.
 
-![Screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -11,13 +11,19 @@ Adding a new list using the Issue Tracker template will provide all the fields r
 
 |Type|Internal Name|Required|
 |---|---|:---:|
-|Date|Died|Yes|
+|Choice|Status|Yes|
+|Multi-line text|Description|Yes|
+|Single line of text|Title|Yes|
+|Choice|Priority|Yes|
+|Date/Time|DateReported|Yes|
+|Number|DaysOld|Yes|
+|Person|Assignedto|Yes|
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-issue-tracker-planner-cards | [Chris Kent](https://twitter.com/thechriskent)
+issue-tracker-planner-cards.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -30,4 +36,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/issue-tracker-planner-cards" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/issue-tracker-planner-cards" />

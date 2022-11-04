@@ -1,0 +1,229 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "padding": "20px",
+          "border-bottom": "1px solid #eee",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding-right": "10px",
+              "width": "100px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "end",
+                  "border-bottom": "1px dotted"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-14 ms-fontWeight-bold"
+                },
+                "txtContent": "='Car Sales '+[$Year]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontWeight-bold"
+                },
+                "txtContent": "[!Total.DisplayName]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-family": "monospace"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-16 ms-fontColor-themePrimary"
+                },
+                "inlineEditField": "[$Total]",
+                "txtContent": "=[$Total.displayValue]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "=toString(((830*[$Value])/[$Total]))+ 'px'"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralTertiary"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "color": "=if(ceiling(((100*[$Value])/[$Total])) < 25, '#FF5733', if(ceiling(((100*[$Value])/[$Total])) < 75 && ceiling(((100*[$Value])/[$Total])) > 24, '#C19A6B', '#4BB543'))",
+                      "stroke": "none",
+                      "overflow": "hidden"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "20px 5px 10px 10px"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-68",
+                          "iconName": "Car"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "20px 5px 10px 10px",
+                      "color": "#0000",
+                      "width": "=toString(830-((830*[$Value])/[$Total])) + 'px'",
+                      "min-width": "350px",
+                      "height": "88px",
+                      "float": "left",
+                      "position": "absolute",
+                      "top": "0",
+                      "display": "flex",
+                      "left": "=if([$Value]>[$Total],'830',toString(((830*[$Value])/[$Total]))) + 'px'"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-family": "sans-serif",
+                          "padding": "5px"
+                        },
+                        "txtContent": "=toString(ceiling(((100*[$Value])/[$Total])))+'%'",
+                        "attributes": {
+                          "class": "ms-fontSize-68 ms-fontColor-themePrimary"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin": "20px 0"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-32 ms-fontColor-themePrimary"
+                        },
+                        "inlineEditField": "[$Value]",
+                        "txtContent": "='Sold ' +[$Value.displayValue]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

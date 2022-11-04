@@ -1,4 +1,4 @@
-# Create a button to conditionally launch a Flow for the selected item
+# Conditionally Launch Flow for Item
 
 ## Summary
 You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow. This is demonstrated in the [Generic-Start-Flow](../generic-start-flow) sample.
@@ -46,7 +46,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-generic-start-flow-conditionally.json | Chris Kent
+generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -63,4 +63,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-start-flow-conditionally" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-start-flow-conditionally" />

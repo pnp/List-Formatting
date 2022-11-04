@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-text-local-image",
     "reponame": "text-local-image",
     "source": "pnp",
-    "title": "Demonstrates how to reference a local image",
+    "title": "Reference a Local Image",
     "shortDescription": "This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of \u0060@currentWeb\u0060 (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-local-image",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-local-image",
     "longDescription": [
       "This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of \u0060@currentWeb\u0060 (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2018-01-10T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "FORMATTING-TOKENS",
         "value": "@currentWeb"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Dynamic Links"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-local-image/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-local-image/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

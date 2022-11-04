@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-group-header-user-properties",
+      "reponame": "group-header-user-properties",
+      "source": "pnp",
+      "title": "Display User Properties in the Group Header",
+      "shortDescription": "This sample demonstrates showing additional properties for a grouped user field in the group header. The user's picture, email, title, and department are all shown.",
+      "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-user-properties",
+      "longDescription": [
+        "This sample demonstrates showing additional properties for a grouped user field in the group header. The user's picture, email, title, and department are all shown."
+      ],
+      "creationDateTime": "2021-11-28T00:00:00.000Z",
+      "updateDateTime": "2021-11-28T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "View"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, Grouped"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": "@group.count, @group.columnDisplayName"
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "getUserImage"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "groupProps, headerFormatter"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-bgColor-themeLighter, ms-fontWeight-semibold, ms-fontWeight-bold"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-user-properties/assets/screenshot.png",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "michelcarlo",
+          "pictureUrl": "https://github.com/michelcarlo.png",
+          "name": "Michel Mendes"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use view formatting to customize SharePoint",
+          "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+        }
+      ]
+    }
+  ]

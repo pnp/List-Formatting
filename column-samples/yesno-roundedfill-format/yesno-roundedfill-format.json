@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "border-top-left-radius": "30px",
+            "border-bottom-left-radius": "30px",
+            "cursor": "pointer",
+            "padding": "5px 0px",
+            "text-align": "center",
+            "width": "70px",
+            "background-color": "=if([$CheckOption] == true ,'#0078d4','transparent')",
+            "border-left": "2px solid #0078d4",
+            "border-top": "2px solid #0078d4",
+            "border-bottom": "2px solid #0078d4",
+            "color": "=if([$CheckOption] == true ,'white','#0078d4')"
+          },
+          "attributes": {
+            "class": "ms-fontColor-white ms-fontWeight-bold"
+          },
+          "txtContent": "YES",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "CheckOption": "1"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer",
+            "border-top": "2px solid #0078d4",
+            "border-bottom": "2px solid #0078d4"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "height": "30px",
+                "width": "10px",
+                "background-color": "#0078d4",
+                "border-left": "=if([$CheckOption] == true ,'','2px solid #0078d4')",
+                "border-right": "=if([$CheckOption] == true ,'2px solid #0078d4','')",
+                "border-top-left-radius": "=if([$CheckOption] == true ,'','30px')",
+                "border-bottom-left-radius": "=if([$CheckOption] == true ,'','30px')",
+                "border-top-right-radius": "=if([$CheckOption] == true ,'30px','')",
+                "border-bottom-right-radius": "=if([$CheckOption] == true ,'30px','')"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "border-top-right-radius": "30px",
+            "border-bottom-right-radius": "30px",
+            "border-right": "2px solid #0078d4",
+            "cursor": "pointer",
+            "padding": "5px 0px",
+            "width": "70px",
+            "text-align": "center",
+            "background-color": "=if([$CheckOption] == false  || length([$CheckOption])==0,'#0078d4','transparent')",
+            "color": "=if([$CheckOption] == true,'#0078d4','white')",
+            "border-top": "2px solid #0078d4",
+            "border-bottom": "2px solid #0078d4"
+          },
+          "attributes": {
+            "class": "ms-fontWeight-bold"
+          },
+          "txtContent": "NO",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "CheckOption": "0"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

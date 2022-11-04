@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-custom-header",
+    "reponame": "custom-header",
+    "source": "pnp",
+    "title": "Custom Header",
+    "shortDescription": "Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the \u0060display\u0060 style attribute to \u0060none\u0060 (hidden) whenever the \u0060@rowIndex\u0060 is not 0 (first row).",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header",
+    "longDescription": [
+      "Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the \u0060display\u0060 style attribute to \u0060none\u0060 (hidden) whenever the \u0060@rowIndex\u0060 is not 0 (first row)."
+    ],
+    "creationDateTime": "2020-02-20T00:00:00.000Z",
+    "updateDateTime": "2020-02-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-borderColor-neutralQuaternary, ms-fontColor-white, ms-fontColor-redDark"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-header/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-blank-header",
     "reponame": "blank-header",
     "source": "pnp",
-    "title": "blank-header",
-    "shortDescription": "blank-header",
+    "title": "Blank Header",
+    "shortDescription": "By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/blank-header",
     "longDescription": [
-      "blank-header"
+      "By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form."
     ],
-    "creationDateTime": "T00:00:00.000Z",
-    "updateDateTime": "T00:00:00.000Z",
+    "creationDateTime": "2021-01-21T00:00:00.000Z",
+    "updateDateTime": "2021-01-21T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/blank-header/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "thechriskent",

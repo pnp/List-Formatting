@@ -1,4 +1,4 @@
-# Conditional formatting based on the value in a text or choice field
+# Conditional Text Formatting (Severity)
 
 ## Summary
 You can apply conditional formatting to text or choice fields that might contain a fixed set of values. The following example applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value. This example applies a CSS class (`sp-field-severity--low, sp-field-severity--good, sp-field-severity--warning, sp-field-severity--blocked`) to the  `<div />` based on the field's value. This is what determines the element's background color. A class of `ms-fontColor-neutralSecondary` is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a `<span />` element with an `iconName` attribute. This attribute applies another CSS class to that `<span />` that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element. Finally, another `<span />` element is outputted that contains the value inside the field.
@@ -14,7 +14,7 @@ This pattern is useful when you want different values to map to different levels
 
 Solution|Author(s)
 --------|---------
-text-conditional-format.json | SharePoint Team
+text-conditional-format.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
 
 ## Version history
 
@@ -35,4 +35,4 @@ This sample is also covered in the main documentation around the Column Formatti
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-conditional-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-conditional-format" />

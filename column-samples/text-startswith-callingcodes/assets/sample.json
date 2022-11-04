@@ -4,16 +4,16 @@
     "reponame": "text-startswith-callingcodes",
     "source": "pnp",
     "title": "Text StartsWith Calling Codes",
-    "shortDescription": "This sample demonstrates using the \u0060indexOf\u0060 function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country\u0027s flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-startswith-callingcodes",
+    "shortDescription": "This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-startswith-callingcodes",
     "longDescription": [
-      "This sample demonstrates using the \u0060indexOf\u0060 function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country\u0027s flag is shown next to the phone number. The same nested conditionals are also used for the tooltip."
+      "This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip."
     ],
     "creationDateTime": "2019-02-05T00:00:00.000Z",
     "updateDateTime": "2019-02-05T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-OPERATOR",
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
         "value": "indexOf"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Text Conditional"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-startswith-callingcodes/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-startswith-callingcodes/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

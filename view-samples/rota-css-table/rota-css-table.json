@@ -1,150 +1,148 @@
 {
-	"schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-	"debugMode": true,
-	"hideSelection": true,
-	"hideColumnHeader": true,
-	"rowFormatter": {
-		"elmType": "div",
-		"attributes": {
-			"class": "sp-row-card ms-font-m"
-		},
-		"style": {
-			"box-sizing": "border-box",
-			"border-width": "0.5px",
-			"border-radius": "10px",
-			"border-style": "solid",
-			"padding": "0px",
-			"margin": "3px 0px 3px 0px"
-		},
-		"children": [
-			{
-				"elmType": "div",
-				"style": {
-					"display": "table"
-				},
-				"children": [
-					{
-						"elmType": "div",
-						"style": {
-							"display": "table-row"
-						},
-						"children": [
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": "Duty Manager"
-							},
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": "8.00 - 4.30"
-							},
-							{
-								"elmType": "div",
-								"style": {
-									"display": "table-cell",
-									"padding": "10px"
-								},
-								"txtContent": "=join([$Shift1], '\n')"
-							}
-						]
-					},
-					{
-						"elmType": "div",
-						"style": {
-							"display": "table-row"
-						},
-						"children": [
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": ""
-							},
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": "9.30 - 6.00"
-							},
-							{
-								"elmType": "div",
-								"style": {
-									"display": "table-cell",
-									"padding": "10px"
-								},
-								"txtContent": "=join([$Shift2], '\n')"
-							}
-						]
-					},
-					{
-						"elmType": "div",
-						"style": {
-							"display": "table-row"
-						},
-						"children": [
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": "Duty Manager"
-							},
-							{
-								"elmType": "div",
-								"attributes": {
-									"class": "ms-fontColor-white ms-bgColor-themePrimary"
-								},
-								"style": {
-									"display": "table-cell",
-									"padding": "10px",
-									"text-align": "right"
-								},
-								"txtContent": "11.30 - 8.00"
-							},
-							{
-								"elmType": "div",
-								"style": {
-									"display": "table-cell",
-									"padding": "10px"
-								},
-								"txtContent": "=join([$Shift3], '\n')"
-							}
-						]
-					}
-				]
-			}
-		]
-	}
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-card ms-font-m"
+    },
+    "style": {
+      "box-sizing": "border-box",
+      "border-width": "0.5px",
+      "border-radius": "10px",
+      "border-style": "solid",
+      "padding": "0px",
+      "margin": "3px 0px 3px 0px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "table"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "table-row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+                "txtContent": "Duty Manager"
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+                "txtContent": "8.00 - 4.30"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px"
+                },
+                "txtContent": "=join([$Shift1], '\n')"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "table-row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+                "txtContent": "9.30 - 6.00"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px"
+                },
+                "txtContent": "=join([$Shift2], '\n')"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "table-row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+                "txtContent": "Duty Manager"
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-white ms-bgColor-themePrimary"
+                },
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px",
+                  "text-align": "right"
+                },
+                "txtContent": "11.30 - 8.00"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "table-cell",
+                  "padding": "10px"
+                },
+                "txtContent": "=join([$Shift3], '\n')"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

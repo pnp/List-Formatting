@@ -1,24 +1,23 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
+  "style": {
+    "background-color": "=if(@currentField == 'Green', '#2ECC71', if(@currentField == 'Yellow','#F1C40F', '#E74C3C'))",
+    "color": "#fff",
+    "white-space": "nowrap"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "@currentField",
       "style": {
-        "background-color": "=if(@currentField == 'Green', '#2ECC71', if(@currentField == 'Yellow','#F1C40F', '#E74C3C'))",
-       
-        "color": "#fff",
-        "white-space": "nowrap"
+        "font-size": "2em",
+        "display": "inline-block",
+        "padding": "0 8px"
       },
-        "children": [
-          {
-            "elmType": "span",
-            "txtContent": "@currentField",
-            "style": {
-              "font-size": "2em",
-              "display": "inline-block",
-              "padding": "0 8px"
-            },
-              "attributes": {
-                "iconName": "=if(@currentField == 'Green', 'Emoji2', if(@currentField == 'Yellow','EmojiNeutral', 'EmojiDisappointed'))"
-              }
-
-          }
-        ]
-   }
+      "attributes": {
+        "iconName": "=if(@currentField == 'Green', 'Emoji2', if(@currentField == 'Yellow','EmojiNeutral', 'EmojiDisappointed'))"
+      }
+    }
+  ]
+}

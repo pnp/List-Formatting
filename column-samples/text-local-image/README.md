@@ -1,4 +1,4 @@
-# Demonstrates how to reference a local image
+# Reference a Local Image
 
 ## Summary
 This sample provides multiple formats to illustrate the options available to reference local image files. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view.
@@ -30,9 +30,9 @@ This format illustrates providing a relative link that assumes the format knows 
 
 Solution|Author(s)
 --------|---------
-text-hardcoded-image.json | [Chris Kent](https://twitter.com/thechriskent)
-text-relative-image.json | [Chris Kent](https://twitter.com/thechriskent)
-text-local-image.json | [Chris Kent](https://twitter.com/thechriskent)
+text-local-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-hardcoded-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-relative-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -50,4 +50,4 @@ Version|Date|Comments
 
 The image's `src` attribute uses the `@currentWeb` token to ensure that regardless of where the format is rendered, the images will be pulled from the correct folder in the Documents library for the site. However, `@currentWeb` is not available in SharePoint 2019, so alternative approaches are included.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-local-image" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-local-image" />

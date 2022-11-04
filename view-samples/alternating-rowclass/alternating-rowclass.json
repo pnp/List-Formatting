@@ -1,4 +1,0 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "additionalRowClass": "=if(@rowIndex % 2 == 0,'ms-bgColor-themeLighter ms-bgColor-themeLight--hover','')"
-}

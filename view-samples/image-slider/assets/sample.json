@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-image-slider",
+    "reponame": "image-slider",
+    "source": "pnp",
+    "title": "Image Slider",
+    "shortDescription": "This sample includes format to display images in Lists as slider moving to next clicking the icon on top left of image.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/image-slider",
+    "longDescription": [
+      "This sample includes format to display images in Lists as slider moving to next clicking the icon on top left of image."
+    ],
+    "creationDateTime": "2021-12-08T00:00:00.000Z",
+    "updateDateTime": "2021-12-08T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary--hover, ms-fontColor-white, ms-fontSize-24"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/image-slider/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

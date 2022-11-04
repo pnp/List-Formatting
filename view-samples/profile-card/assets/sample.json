@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "User Profile Card",
     "shortDescription": "This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/profile-card",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/profile-card",
     "longDescription": [
       "This is simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2019-03-13T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-PLACEHOLDER-TOKEN",
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
         "value": "@currentWeb"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-neutralLighterAlt, ms-fontColor-themePrimary--hover, ms-fontColor-magentaLight"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/profile-card/assets/profile-card.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/profile-card/assets/screenshot.png",
         "alt": "profile-card"
       }
     ],

@@ -1,4 +1,4 @@
-# Creating Red-Amber-Green (RAG) bars based on date ranges
+# Red-Amber-Green (RAG) Bars Based on Date Ranges
 
 ## Summary
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time.
@@ -30,7 +30,6 @@ In this version of the sample, the days left are displayed within the box:
 
 ![screenshot of the days-left sample](./assets/screenshot-daysleft.png)
 
-This version of the sample demonstrates working around limitations in list formatting in regards to rounding numbers. Multiple conditions are provided to ensure the calculated numbers are shown without unnecessary precision.
 
 ## View requirements
 - This format can be applied to any column type
@@ -41,7 +40,7 @@ This version of the sample demonstrates working around limitations in list forma
 
 Solution|Author(s)
 --------|---------
-date-range-rag.json | [Christopher Parker](https://twitter.com/ChrispyBites)
+date-range-rag.json | [Christopher Parker](https://github.com/ChrispyBites) ([@ChrispyBites](https://twitter.com/ChrispyBites))
 date-range-rag-days-left.json | [Joe Ayre](https://github.com/JoeAyre)
 
 ## Version history
@@ -52,6 +51,7 @@ Version|Date|Comments
 1.1|July 25, 2018|Updated to include amber class
 1.2|August 20, 2018|Updated to use Excel-style expressions, add a theme font class, and to simplify the calculations
 1.3|August 12, 2019|Added days-left sample
+1.4|November 1, 2021|[Zylantha](https://github.com/zylantha) simplified days-left calculation
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -64,4 +64,4 @@ Version|Date|Comments
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/date-range-rag" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-range-rag" />

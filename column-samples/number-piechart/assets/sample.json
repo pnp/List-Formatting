@@ -3,9 +3,9 @@
     "name": "pnp-list-formatting-number-piechart",
     "reponame": "number-piechart",
     "source": "pnp",
-    "title": "Formatting percentage number (%) to pie chart.",
+    "title": "Pie Chart",
     "shortDescription": "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using \u0060\u003Csvg\u003E\u0060 with \u0060\u003Cpath\u003E\u0060 tags. The number% displayed at the bottom of the pie in neutralPrimary.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/number-piechart",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-piechart",
     "longDescription": [
       "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using \u0060\u003Csvg\u003E\u0060 with \u0060\u003Cpath\u003E\u0060 tags. The number% displayed at the bottom of the pie in neutralPrimary."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2018-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Number"
       },
       {
-        "key": "LIST-OPERATOR",
-        "value": "cos"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, sin, cos"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralPrimary, ms-bgColor-neutralLight, ms-fontWeight-light, ms-fontSize-xl"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/number-piechart/assets/number-piechart.PNG?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-piechart/assets/screenshot.png",
         "alt": "number-piechart"
       }
     ],
@@ -50,6 +66,11 @@
         "gitHubAccount": "aaronmi",
         "pictureUrl": "https://github.com/aaronmi.png",
         "name": "Aaron Miao"
+      },
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
       }
     ],
     "references": [

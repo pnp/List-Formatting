@@ -1,11 +1,11 @@
-# Formatting an ISBN (text column) to book cover image. Images are retrieved by calling Open Library Covers API.
+# ISBN to Book Cover Image
 
 ## Summary
 This example retrieves book cover images based on their ISBN numbers by utilizing the [Open Library Covers API](https://openlibrary.org/dev/docs/api/covers). The API works by building a cover image URL with the ISBN.
 
 This sample retrieves the small (S) image, but there are also medium (M) and large (L) sizes available. Simply swap out the `S` in `-S.jpg` portion of the `src` attribute in the `img` element to retrieve one of the other sizes. 
 
-![screenshot of the sample](./assets/text-isbn-image.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > The values are expected to be the ISBN numbers for the books. However, this sample could easily be switched to utilize the OCLC, LCCN, OLID, or ID values for a given book.
 
@@ -16,7 +16,7 @@ This sample retrieves the small (S) image, but there are also medium (M) and lar
 
 Solution|Author(s)
 --------|---------
-text-isbn-image.json | Aaron Miao
+text-isbn-image.json | [Aaron Miao](https://github.com/aaronmi)
 
 ## Version history
 
@@ -36,4 +36,4 @@ This sample can be applied to render, for example, product number to product ico
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/isbn-image-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-isbn-image" />

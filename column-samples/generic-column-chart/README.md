@@ -25,9 +25,9 @@ This sample can easily be adjusted to work with your columns. Each chart column 
 
 ## Sample
 
-Solution                 |Author(s)
--------------------------|---------------------------
-generic-column-chart.json |  [Tetsuya Kawahara](https://twitter.com/techan_k)
+Solution|Author(s)
+--------|---------
+generic-column-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -39,4 +39,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-column-chart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-column-chart" />

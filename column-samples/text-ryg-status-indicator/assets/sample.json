@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Traffic Light (Red-Yellow-Green) Status Indicator",
     "shortDescription": "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of \u0060@currentField\u0060 to \u0060@currentField.lookupValue\u0060).",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-ryg-status-indicator",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-ryg-status-indicator",
     "longDescription": [
       "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of \u0060@currentField\u0060 to \u0060@currentField.lookupValue\u0060)."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2018-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Status / Progress"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Status / Progress"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-yellow, ms-bgColor-red, ms-bgColor-green"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-ryg-status-indicator/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-ryg-status-indicator/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

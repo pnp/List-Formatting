@@ -4,16 +4,16 @@
     "reponame": "yesno-checkbox",
     "source": "pnp",
     "title": "Yes/No Checkbox",
-    "shortDescription": "This sample uses [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/yesno-checkbox",
+    "shortDescription": "This sample uses Fluent UI icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkbox",
     "longDescription": [
-      "This sample uses [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors."
+      "This sample uses Fluent UI icons and theme classes to provide a better visualization for Yes/No fields while respecting theme colors."
     ],
     "creationDateTime": "2018-08-18T00:00:00.000Z",
     "updateDateTime": "2018-08-18T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Yes/No"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Icons"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralPrimary, ms-fontColor-neutralTertiary, ms-font-l"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/yesno-checkbox/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkbox/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
@@ -46,6 +66,11 @@
         "gitHubAccount": "thechriskent",
         "pictureUrl": "https://github.com/thechriskent.png",
         "name": "Chris Kent"
+      },
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
       }
     ],
     "references": [

@@ -1,4 +1,4 @@
-# Smiley faces for good quiz results
+# Quiz Results with Emoji
 
 ## Summary
 This allows teachers to show smiley faces next to quiz results similar to how they do it on paper. The number (based on a 0-100 score) will indicate if its a smiley or frown, which come from the Offie UI Fabric Icon set. If the number is above 90 the student gets a super smiley (`Emoji`), above 75 regular smile (`Emoji2`), above 60 neutral smiley (`EmojiNeutral`), below 60 a frown (`EmojiDisappointed`), and anything else gets an `Unknown`.
@@ -13,7 +13,7 @@ This allows teachers to show smiley faces next to quiz results similar to how th
 
 Solution|Author(s)
 --------|---------
-number-quiz-smiley-face.json | Matt Maher
+number-quiz-smiley-face.json | [Matt Maher](https://github.com/Maher256)
 
 ## Version history
 
@@ -34,4 +34,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-quiz-smiley-face" />

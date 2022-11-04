@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField == '' , 'none' , '')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "ClickCount": "= [$ClickCount] + 1"
+        }
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "style": {
+            "text-decoration": "none",
+            "padding": "5px 10px 5px 10px",
+            "font-weight": "bold",
+            "border-radius": "5px",
+            "font-size": "13px",
+            "white-space": "nowrap"
+          },
+          "txtContent": "@currentField.desc",
+          "attributes": {
+            "href": "@currentField",
+            "target": "_blank",
+            "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter ms-fontColor-white--hover ms-bgColor-themePrimary--hover"
+          }
+        }
+      ]
+    }
+  ]
+}

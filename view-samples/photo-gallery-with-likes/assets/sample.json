@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-photo-gallery-with-likes",
+    "reponame": "photo-gallery-with-likes",
+    "source": "pnp",
+    "title": "photo-gallery-with-likes",
+    "shortDescription": "This sample demonstrates formatting a document library gallery view into a photo gallery showing title and likes.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/photo-gallery-with-likes",
+    "longDescription": [
+      "This sample demonstrates formatting a document library gallery view into a photo gallery showing title and likes."
+    ],
+    "creationDateTime": "2022-10-21T00:00:00.000Z",
+    "updateDateTime": "2022-10-21T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@thumbnail"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, appendTo, removeFrom, Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue, defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, filePreviewProps"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-fontColor-white, ms-bgColor-black--hover, ms-bgColor-neutralLight--hover, ms-fontColor-black--hover, sp-card-container, sp-card-defaultClickButton, sp-css-borderColor-neutralLight, sp-card-borderHighlight, sp-card-subContainer, sp-card-lastTextColumnContainer, sp-card-imageContainer"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/photo-gallery-with-likes/assets/screenshot.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/photo-gallery-with-likes/assets/screenshot-no-title.png",
+        "alt": "screenshot no title"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Lou-i3",
+        "pictureUrl": "https://github.com/Lou-i3.png",
+        "name": "Lou-i3"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

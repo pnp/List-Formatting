@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-product-gallery",
+    "reponame": "product-gallery",
+    "source": "pnp",
+    "title": "Product Gallery",
+    "shortDescription": "This sample uses tileProps element to format the tile layout of the view.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/product-gallery",
+    "longDescription": [
+      "This sample uses tileProps element to format the tile layout of the view."
+    ],
+    "creationDateTime": "2019-09-09T00:00:00.000Z",
+    "updateDateTime": "2019-09-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighterAlt"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/product-gallery/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "rk-menon",
+        "pictureUrl": "https://github.com/rk-menon.png",
+        "name": "Rk Menon"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

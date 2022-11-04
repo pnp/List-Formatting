@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideColumnHeader": "true",
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "height": "=if([$Structure] == 'alt', '100px','50px')"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "border-bottom": "=if([$Structure] == 'alt', '100px solid #'+[$color],'50px solid #'+[$color])",
+          "border-left": "=if([$Structure] == 'alt', '70px solid transparent','25px solid transparent')",
+          "border-right": "=if([$Structure] == 'alt', '80px solid transparent','25px solid transparent')",
+          "height": "=if([$Structure] == 'alt', '0','0')",
+          "width": "=if([$Structure] == 'alt', '0',if([$Structure] == 'wood', '50px','125px'))",
+          "position": "=if([$Structure] == 'alt', 'absolute',if([$Structure] == 'wood','absolute','none'))",
+          "left": "=if([$Structure] == 'alt', '12px', if([$Structure] == 'wood', '35px','0'))"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "font-size": "36px",
+          "position": "absolute",
+          "left": "=if([$Structure] == 'body', if([$GiftSide] == 'Left', '50px','80px'),if([$Structure] == 'alt', '65px','0px'))",
+          "display": "=if([$Gift] == '', 'none', 'block')",
+          "top": "=if([$Structure] == 'alt','-10px','')",
+          "color": "=if([$Structure] == 'alt', '#ffb900', '')"
+        },
+        "attributes": {
+          "iconName": "[$Gift]"
+        },
+        "customCardProps": {
+          "formatter": {
+            "elmType": "div",
+            "txtContent": "=[$Title]",
+            "style": {
+              "font-size": "14px",
+              "padding": "10px",
+              "width": "160px",
+              "color": "black",
+              "background-color": "white"
+            }
+          },
+          "openOnEvent": "click",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "beakStyle": {
+            "backgroundColor": "white"
+          }
+        }
+      }
+    ]
+  }
+}

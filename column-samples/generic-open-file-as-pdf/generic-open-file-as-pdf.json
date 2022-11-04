@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "=@currentWeb + '/_api/v2.0/drives/YOUR_DRIVE_ID/root:/' + [$FileLeafRef] + ':/content?format=pdf'"
+  },
+  "txtContent": "[$FileLeafRef]",
+  "style": {
+    "display": "=if([$File_x0020_Type] == 'docx' || [$File_x0020_Type] == 'xlsx' || [$File_x0020_Type] == 'pptx' ,'inline', 'none')"
+  }
+}

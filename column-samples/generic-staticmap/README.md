@@ -1,4 +1,4 @@
-# Displays a customizable Google map image for a given location
+# Display a Google Maps Image for a Location
 
 ## Summary
 This template takes advantage of Google Maps' [staticmap API](https://developers.google.com/maps/documentation/static-maps/) which generates an image using a parameterized URL. The template only uses the most basic features ([location](https://developers.google.com/maps/documentation/static-maps/intro#Locations) & [image size](https://developers.google.com/maps/documentation/static-maps/intro#Imagesizes), but the API offers deep customization including:
@@ -35,7 +35,7 @@ The values are expected to be addresses such as Indianapolis, IN or Tokyo or 123
 
 Solution|Author(s)
 --------|---------
-generic-staticmap.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-staticmap.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -56,4 +56,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-staticmap" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-staticmap" />

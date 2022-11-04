@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-group-header-status-icon-color",
+    "reponame": "group-header-status-icon-color",
+    "source": "pnp",
+    "title": "Group Header Status Icon and Color",
+    "shortDescription": "This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color",
+    "longDescription": [
+      "This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."
+    ],
+    "creationDateTime": "2021-10-26T00:00:00.000Z",
+    "updateDateTime": "2021-10-26T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.count"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "groupProps, headerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontWeight-bold, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgGold, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgCornflowerBlue, sp-field-borderAllRegular, sp-field-borderAllSolid"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "michelcarlo",
+        "pictureUrl": "https://github.com/michelcarlo.png",
+        "name": "Michel Mendes"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

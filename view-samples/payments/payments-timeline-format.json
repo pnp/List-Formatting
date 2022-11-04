@@ -1,0 +1,1002 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "420px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if((@rowIndex % 2)==0,'none','flex')",
+                      "top": "-20px",
+                      "position": "absolute",
+                      "padding": "20px 10px",
+                      "border-radius": "10px",
+                      "box-shadow": "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px",
+                      "width": "400px"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding-right": "20px",
+                          "text-align": "right",
+                          "width": "100%"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-18 ms-fontWeight-bold ms-bgColor-themePrimary ms-fontColor-white"
+                        },
+                        "txtContent": "=toUpperCase([$Title])"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "ExploreData",
+                          "class": "ms-fontSize-42"
+                        },
+                        "customCardProps": {
+                          "formatter": {
+                            "elmType": "div",
+                            "style": {
+                              "width": "520px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "width": "500px"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex",
+                                      "margin": "10px",
+                                      "width": "100%",
+                                      "white-space": "nowrap",
+                                      "overflow": "hidden",
+                                      "text-overflow": "ellipsis"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold",
+                                          "title": "[$Title]"
+                                        },
+                                        "txtContent": "[$Title]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "flex",
+                                          "padding": "5px",
+                                          "width": "100%",
+                                          "text-align": "right"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "display": "=if(length([$Invoice])>0,'','none')",
+                                              "width": "100%"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "a",
+                                                "style": {
+                                                  "text-decoration": "none",
+                                                  "cursor": "pointer"
+                                                },
+                                                "attributes": {
+                                                  "href": "[$Invoice]",
+                                                  "target": "_blank",
+                                                  "title": "Invoice",
+                                                  "class": "ms-fontSize-24 ms-fontColor-themePrimary",
+                                                  "iconName": "DocumentSearch"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "margin-left": "5px"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "padding": "5px",
+                                                  "text-align": "center",
+                                                  "width": "15px",
+                                                  "height": "15px",
+                                                  "cursor": "pointer",
+                                                  "border-radius": "50%"
+                                                },
+                                                "attributes": {
+                                                  "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "margin-top": "-2px"
+                                                    },
+                                                    "txtContent": "=if(length([$Rate])>0,[$Rate],0)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "inline-block",
+                                          "width": "50%"
+                                        },
+                                        "txtContent": "Amount",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "display": "inline-block",
+                                          "text-align": "right"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Payment]",
+                                        "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex",
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "width": "50%",
+                                          "height": "30px"
+                                        },
+                                        "inlineEditField": "[$OtherCostDescription]",
+                                        "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
+                                        "attributes": {
+                                          "class": "ms-fontSize-20 ms-fontColor-gray90 sp-css-backgroundColor-neutralLighterAlt"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "text-align": "right",
+                                          "height": "30px"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$OtherCosts]",
+                                        "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding-top": "10px",
+                                          "padding-bottom": "10px",
+                                          "border-top": "1px solid #ccc"
+                                        },
+                                        "attributes": {
+                                          "class": ""
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "display": "inline-block",
+                                              "width": "50%"
+                                            },
+                                            "txtContent": "Total",
+                                            "attributes": {
+                                              "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                            }
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "width": "50%",
+                                              "cursor": "pointer",
+                                              "display": "inline-block",
+                                              "text-align": "right"
+                                            },
+                                            "attributes": {
+                                              "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold '"
+                                            },
+                                            "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "min-height": "30px",
+                                          "padding": "0 10px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "=if(length([$Location])>0,'','none')"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "padding": "10px"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "display": "inline"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "padding": "5px",
+                                                      "display": "flex"
+                                                    },
+                                                    "attributes": {
+                                                      "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='City: '+ [$Location.Address.City]"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='State: '+ [$Location.Address.State]"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "div",
+                                                        "style": {
+                                                          "padding-left": "20px"
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='Country: '+ [$Location.Address.CountryOrRegion]"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='Street: '+ [$Location.Address.Street]"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "a",
+                                                        "style": {
+                                                          "text-decoration": "none"
+                                                        },
+                                                        "attributes": {
+                                                          "iconName": "POI",
+                                                          "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+[$Location.Coordinates.Latitude]+'~'+[$Location.Coordinates.Longitude]+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                                                          "target": "_blank",
+                                                          "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "forEach": "personIterator in [$Editor]",
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "txtContent": "= 'Last Modified ' + toLocaleDateString([$Modified]) + ' by ' + [$personIterator.title]",
+                                            "attributes": {
+                                              "class": "ms-fontSize-12 ms-fontColor-gray100"
+                                            },
+                                            "style": {
+                                              "padding": "0px 10px 10px 5px",
+                                              "margin-left": "5px",
+                                              "display": "inline-block"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "openOnEvent": "click",
+                          "directionalHint": "topCenter",
+                          "isBeakVisible": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if((@rowIndex % 2)==1,'none','')",
+                      "padding-top": "20px",
+                      "text-align": "right"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "iconName": "[$Category]",
+                          "class": "ms-fontSize-68 ms-fontColor-themePrimary"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "0px 0 0 45px",
+              "border-radius": "25px",
+              "height": "50px",
+              "width": "2px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "height": "90px",
+              "width": "90px",
+              "border-radius": "50%",
+              "margin-top": "-25px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "20px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "position": "relative",
+                      "width": "50px",
+                      "height": "50px",
+                      "float": "left"
+                    },
+                    "inlineEditField": "[$PaymentDay]",
+                    "attributes": {
+                      "class": ""
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "absolute",
+                          "top": "2px",
+                          "left": "0",
+                          "width": "35px",
+                          "height": "24px"
+                        },
+                        "txtContent": "=if(getMonth([$PaymentDay])==0, 'Jan', if(getMonth([$PaymentDay])==1, 'Feb', if(getMonth([$PaymentDay])==2, 'Mar', if(getMonth([$PaymentDay])==3, 'Apr',  if(getMonth([$PaymentDay])==4, 'May', if(getMonth([$PaymentDay])==5, 'Jun', if(getMonth([$PaymentDay])==6 , 'Jul', if(getMonth([$PaymentDay])==7, 'Aug', if(getMonth([$PaymentDay])==8 , 'Sep', if(getMonth([$PaymentDay])==9, 'Oct', if(getMonth([$PaymentDay])==10, 'Nov', if(getMonth([$PaymentDay])==11, 'Dec', ''))))))))))))",
+                        "attributes": {
+                          "class": "ms-fontWeight-bold ms-fontSize-16 ms-fontColor-themeTertiary--hover ms-bgColor-themePrimary ms-fontColor-white"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "absolute",
+                          "display": "flex",
+                          "justify-content": "center",
+                          "align-items": "center",
+                          "top": "25px",
+                          "left": "0",
+                          "width": "32px",
+                          "height": "25px",
+                          "border": "1px"
+                        },
+                        "txtContent": "=getDate([$PaymentDay])",
+                        "attributes": {
+                          "class": "ms-fontWeight-bold ms-fontSize-20 ms-fontColor-themeTertiary--hover ms-bgColor-themePrimary ms-fontColor-white"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "position": "absolute",
+                          "top": "0",
+                          "left": "35px",
+                          "width": "10px",
+                          "height": "48px",
+                          "border": "1px"
+                        },
+                        "txtContent": "=getYear([$PaymentDay])",
+                        "attributes": {
+                          "class": "ms-fontWeight-bold ms-fontSize-10 ms-fontColor-themeTertiary--hover ms-bgColor-themePrimary ms-fontColor-white"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "400px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if((@rowIndex % 2)==1,'none','flex')",
+                      "top": "-20px",
+                      "position": "absolute",
+                      "padding": "20px 10px",
+                      "border-radius": "10px",
+                      "box-shadow": "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px",
+                      "width": "400px"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "ExploreData",
+                          "class": "ms-fontSize-42"
+                        },
+                        "customCardProps": {
+                          "formatter": {
+                            "elmType": "div",
+                            "style": {
+                              "width": "520px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "width": "500px"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex",
+                                      "margin": "10px",
+                                      "width": "100%",
+                                      "white-space": "nowrap",
+                                      "overflow": "hidden",
+                                      "text-overflow": "ellipsis"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold",
+                                          "title": "[$Title]"
+                                        },
+                                        "txtContent": "[$Title]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "flex",
+                                          "padding": "5px",
+                                          "width": "100%",
+                                          "text-align": "right"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "width": "100%"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "a",
+                                                "style": {
+                                                  "display": "=if(length([$Invoice])>0,'','none')",
+                                                  "text-decoration": "none",
+                                                  "cursor": "pointer"
+                                                },
+                                                "attributes": {
+                                                  "href": "[$Invoice]",
+                                                  "target": "_blank",
+                                                  "title": "Invoice",
+                                                  "class": "ms-fontSize-24 ms-fontColor-themePrimary",
+                                                  "iconName": "DocumentSearch"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "margin-left": "5px"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "padding": "5px",
+                                                  "text-align": "center",
+                                                  "width": "15px",
+                                                  "height": "15px",
+                                                  "cursor": "pointer",
+                                                  "border-radius": "50%"
+                                                },
+                                                "attributes": {
+                                                  "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "margin-top": "-2px"
+                                                    },
+                                                    "txtContent": "=if(length([$Rate])>0,[$Rate],0)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "inline-block",
+                                          "width": "50%"
+                                        },
+                                        "txtContent": "Amount",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "display": "inline-block",
+                                          "text-align": "right"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Payment]",
+                                        "txtContent": "=Number([$Payment])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "display": "flex",
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "width": "50%",
+                                          "height": "30px"
+                                        },
+                                        "inlineEditField": "[$OtherCostDescription]",
+                                        "txtContent": "=if(length([$OtherCostDescription]) >0,[$OtherCostDescription], 'Other expense, type here')",
+                                        "attributes": {
+                                          "class": "ms-fontSize-20 ms-fontColor-gray90 sp-css-backgroundColor-neutralLighterAlt"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "width": "50%",
+                                          "cursor": "pointer",
+                                          "font-style": "italic",
+                                          "text-align": "right",
+                                          "height": "30px"
+                                        },
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$OtherCosts]",
+                                        "txtContent": "=Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "padding": "10px",
+                                      "width": "100%"
+                                    },
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding-top": "10px",
+                                          "padding-bottom": "10px",
+                                          "border-top": "1px solid #ccc"
+                                        },
+                                        "attributes": {
+                                          "class": ""
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "display": "inline-block",
+                                              "width": "50%"
+                                            },
+                                            "txtContent": "Total",
+                                            "attributes": {
+                                              "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                            }
+                                          },
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "width": "50%",
+                                              "cursor": "pointer",
+                                              "display": "inline-block",
+                                              "text-align": "right"
+                                            },
+                                            "attributes": {
+                                              "class": "=if(Number([$Payment])+Number([$OtherCosts])<0,'ms-fontColor-red','ms-fontColor-black')+' ms-fontSize-24 ms-fontWeight-semibold '"
+                                            },
+                                            "txtContent": "=Number([$Payment])+Number([$OtherCosts])+' '+substring([$Currency],0,indexOf([$Currency],'('))"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "txtContent": "Description",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-themePrimary ms-fontWeight-semibold"
+                                        }
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "padding": "0 10px",
+                                          "min-height": "30px"
+                                        },
+                                        "txtContent": "[$Description]",
+                                        "attributes": {
+                                          "class": "ms-fontSize-24 ms-fontColor-gray90 ms-fontWeight-semibold sp-css-backgroundColor-neutralLighterAlt"
+                                        },
+                                        "inlineEditField": "[$Description]"
+                                      },
+                                      {
+                                        "elmType": "div",
+                                        "style": {
+                                          "display": "=if(length([$Location])>0,'','none')"
+                                        },
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "style": {
+                                              "padding": "10px"
+                                            },
+                                            "children": [
+                                              {
+                                                "elmType": "div",
+                                                "style": {
+                                                  "display": "inline"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "elmType": "div",
+                                                    "style": {
+                                                      "padding": "5px",
+                                                      "display": "flex"
+                                                    },
+                                                    "attributes": {
+                                                      "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontWeight-semibold"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "elmType": "div",
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='City: '+ [$Location.Address.City]"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='State: '+ [$Location.Address.State]"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "div",
+                                                        "style": {
+                                                          "padding-left": "20px"
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='Country: '+ [$Location.Address.CountryOrRegion]"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "elmType": "div",
+                                                            "children": [
+                                                              {
+                                                                "elmType": "div",
+                                                                "txtContent": "='Street: '+ [$Location.Address.Street]"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "elmType": "a",
+                                                        "style": {
+                                                          "text-decoration": "none"
+                                                        },
+                                                        "attributes": {
+                                                          "iconName": "POI",
+                                                          "href": "='https://www.bing.com/maps/embed?h=800&w=800&cp='+[$Location.Coordinates.Latitude]+'~'+[$Location.Coordinates.Longitude]+'&lvl=17&typ=d&sty=a&src=SHELL&FORM=MBEDV8'",
+                                                          "target": "_blank",
+                                                          "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontSize-28"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "div",
+                                        "forEach": "personIterator in [$Editor]",
+                                        "children": [
+                                          {
+                                            "elmType": "div",
+                                            "txtContent": "= 'Last Modified ' + toLocaleDateString([$Modified]) + ' by ' + [$personIterator.title]",
+                                            "attributes": {
+                                              "class": "ms-fontSize-12 ms-fontColor-gray100"
+                                            },
+                                            "style": {
+                                              "padding": "0px 10px 10px 5px",
+                                              "margin-left": "5px",
+                                              "display": "inline-block"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "openOnEvent": "click",
+                          "directionalHint": "topCenter",
+                          "isBeakVisible": true
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "padding-left": "20px",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-18 ms-fontWeight-bold ms-bgColor-themePrimary ms-fontColor-white"
+                        },
+                        "txtContent": "=toUpperCase([$Title])"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "=if((@rowIndex % 2)==0,'none','')",
+                          "padding-top": "20px",
+                          "text-align": "left"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "attributes": {
+                              "iconName": "[$Category]",
+                              "class": "ms-fontSize-68 ms-fontColor-themePrimary"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

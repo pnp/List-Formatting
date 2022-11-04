@@ -1,7 +1,7 @@
 # Row Actions
 
 ## Summary
-You can use column and view formatting to create buttons that perform pre-defined actions when clicked. This sample provides a quick format that demonstrates the use of each of the possible actions.
+You can use column and view formatting to create buttons that perform pre-defined actions when clicked. This sample provides several quick formats that demonstrates the use of each of the possible actions.
 
 These samples are all built for column formatting, but these can be easily adapted to work with view formatting.
 
@@ -9,19 +9,19 @@ Custom row actions only work when placed inside of a `button` element. However, 
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-### defaultClick
+### defaultClick (generic-rowactions.json)
 This action will open the info panel for an item.
 
-### editProps
+### editProps (editProps.json)
 This action will open the info panel in edit mode
 
-### share
+### share (share.json)
 This action will launch the share dialog for an item
 
-### delete
+### delete (delete.json)
 This action will prompt the user with a deletion confirmation dialog and delete the item if they choose yes.
 
-### executeFlow
+### executeFlow (executeFlow.json)
 This action will launch a flow for the item as the selected item. This action requires additional configuration through the `actionParams` property. The ID is always required, but you can also optionally include `headerText` and/or `runFlowButtonText` properties as well to customize the Flow panel.
 
 >Note - the `headerText` and `runFlowButtonText` parameters are not available in SharePoint 2019
@@ -42,11 +42,11 @@ This action will launch a flow for the item as the selected item. This action re
 
 Solution|Author(s)
 --------|---------
-defaultClick.json | [Chris Kent](https://twitter.com/thechriskent)
-editProps.json | [Chris Kent](https://twitter.com/thechriskent)
-share.json | [Chris Kent](https://twitter.com/thechriskent)
-delete.json | [Chris Kent](https://twitter.com/thechriskent)
-executeFlow.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-rowactions.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+editProps.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+share.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+delete.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+executeFlow.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -66,4 +66,4 @@ Version|Date|Comments
   - [generic-start-flow-conditionally](../generic-start-flow-conditionally)
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-rowactions" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-rowactions" />

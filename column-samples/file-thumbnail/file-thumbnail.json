@@ -1,12 +1,12 @@
 {
-	"$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-	"elmType": "img",
-	"attributes": {
-		"src": "@thumbnail.medium"
-	},
-	"style": {
-		"display": "block",
-		"margin": "0 auto",
-		"max-height": "42px"
-	}
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "img",
+  "attributes": {
+    "src": "@thumbnail.medium"
+  },
+  "style": {
+    "display": "block",
+    "margin": "0 auto",
+    "max-height": "42px"
+  }
 }

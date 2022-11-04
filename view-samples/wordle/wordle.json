@@ -1,0 +1,792 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "height": 420,
+  "width": 330,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "width": "90%",
+      "height": "90%",
+      "border": "1.5px solid",
+      "flex-direction": "column",
+      "align-items": "center",
+      "justify-content": "center"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralTertiaryAlt"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "space-around",
+          "align-items": "center",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "= '#' + [$Number]",
+            "style": {
+              "font-size": "26px",
+              "font-weight": "bold"
+            },
+            "attributes": {
+              "class": "ms-fontColor-neutralSecondaryAlt"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Answer",
+            "style": {
+              "padding": "5px 8px 5px 8px",
+              "cursor": "pointer",
+              "border-radius": "3px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralSecondaryAlt ms-fontColor-white"
+            },
+            "customCardProps": {
+              "openOnEvent": "click",
+              "directionalHint": "rightCenter",
+              "isBeakVisible": true,
+              "formatter": {
+                "elmType": "div",
+                "txtContent": "=toUpperCase([$Title])",
+                "style": {
+                  "padding": "10px 20px 10px 20px",
+                  "font-size": "30px",
+                  "font-weight": "bold"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "font-size": "28px",
+          "font-weight": "bold",
+          "width": "100%",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText1]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText1] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText1] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText1] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText1] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText1] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText1] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText1] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText1] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText1] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText1] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText1] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText1] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText1] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText1] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText1] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText1] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText1] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText1] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText1] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText1] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText1] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText1] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText1] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText1] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText1] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText2]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText2] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText2] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText2] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText2] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText2] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText2] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText2] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText2] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText2] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText2] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText2] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText2] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText2] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText2] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText2] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText2] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText2] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText2] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText2] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText2] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText2] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText2] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText2] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText2] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText2] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText3]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText3] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText3] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText3] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText3] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText3] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText3] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText3] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText3] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText3] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText3] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText3] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText3] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText3] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText3] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText3] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText3] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText3] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText3] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText3] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText3] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText3] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText3] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText3] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText3] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText3] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText4]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText4] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText4] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText4] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText4] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText4] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText4] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText4] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText4] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText4] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText4] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText4] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText4] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText4] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText4] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText4] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText4] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText4] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText4] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText4] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText4] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText4] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText4] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText4] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText4] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText4] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText5]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText5] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText5] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText5] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText5] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText5] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText5] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText5] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText5] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText5] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText5] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText5] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText5] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText5] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText5] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText5] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText5] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText5] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText5] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText5] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText5] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText5] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText5] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText5] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText5] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText5] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$InputText6]",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-around",
+              "width": "90%",
+              "padding": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText6] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText6] , 0 , 1) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText6] , 0 , 1))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 0 , 1)) == toUpperCase(substring([$InputText6] , 0 , 1)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText6] , 0 , 1))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText6] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText6] , 1 , 2) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText6] , 1 , 2))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 1 , 2)) == toUpperCase(substring([$InputText6] , 1 , 2)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText6] , 1 , 2))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText6] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText6] , 2 , 3) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText6] , 2 , 3))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 2 , 3)) == toUpperCase(substring([$InputText6] , 2 , 3)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText6] , 2 , 3))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText6] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText6] , 3 , 4) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText6] , 3 , 4))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 3 , 4)) == toUpperCase(substring([$InputText6] , 3 , 4)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText6] , 3 , 4))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "center",
+                  "border": "2px solid",
+                  "width": "40px",
+                  "height": "40px"
+                },
+                "attributes": {
+                  "class": "=if([$InputText6] == '' , 'ms-bgColor-white ms-fontColor-neutralTertiaryAlt' , if(substring([$InputText6] , 4 , 5) == '' || indexOf(toUpperCase([$Title]) , toUpperCase(substring([$InputText6] , 4 , 5))) < 0 , 'ms-bgColor-neutralSecondaryAlt ms-fontColor-neutralSecondaryAlt' , if(toUpperCase(substring([$Title] , 4 , 5)) == toUpperCase(substring([$InputText6] , 4 , 5)) , 'ms-bgColor-sharedGreenCyan10 ms-fontColor-sharedGreenCyan10' , 'ms-bgColor-sharedOrangeYellow10 ms-fontColor-sharedOrangeYellow10') ) )"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toUpperCase(substring([$InputText6] , 4 , 5))",
+                    "attributes": {
+                      "class": "ms-fontColor-white"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

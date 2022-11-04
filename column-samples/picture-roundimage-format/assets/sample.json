@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-picture-roundimage-format",
     "reponame": "picture-roundimage-format",
     "source": "pnp",
-    "title": "Display a picture column as a circle",
-    "shortDescription": "This sample applies styles to a parent \u0060div\u0060 element and a child \u0060img\u0060 element to show a picture column in a circle.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/picture-roundimage-format",
+    "title": "Display a Picture Column in a Circle",
+    "shortDescription": "This sample applies styles to a parent div element and a child img element to show a picture column in a circle.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/picture-roundimage-format",
     "longDescription": [
-      "This sample applies styles to a parent \u0060div\u0060 element and a child \u0060img\u0060 element to show a picture column in a circle."
+      "This sample applies styles to a parent div element and a child img element to show a picture column in a circle."
     ],
     "creationDateTime": "2018-03-21T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,19 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Picture"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/picture-roundimage-format/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/picture-roundimage-format/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

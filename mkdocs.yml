@@ -1,4 +1,4 @@
-site_name: SharePoint List Formatting Samples
+site_name: List Formatting Samples
 nav:
   - Home: index.md
   - Getting Started:
@@ -6,53 +6,110 @@ nav:
     - Applying Column Formats: gettingstarted/columnformats.md
     - Applying View Formats: gettingstarted/viewformats.md
   - Column Samples: columnsamples.md
+  - Form Samples: formsamples.md
   - View Samples: viewsamples.md
   - Groupings:
     - By Column Type: groupings/columntype.md
     - By Operator: groupings/operator.md
     - By Placeholder Token: groupings/token.md
-    - By Row Action: groupings/action.md
+    - By Action: groupings/action.md
     - By Category: groupings/category.md
+    - By Class:
+      - Background:
+        - ms-bgColor-*: groupings/classes/ms-bgColor.md
+        - sp-css-backgroundColor-*: groupings/classes/sp-css-backgroundColor.md
+        - sp-List-color*: groupings/classes/sp-List-color.md
+      - Borders:
+        - ms-borderColor-*: groupings/classes/ms-borderColor.md
+        - sp-css-borderColor-*: groupings/classes/sp-css-borderColor.md
+        - sp-css-border Other: groupings/classes/sp-css-border.md
+        - sp-field-border*: groupings/classes/sp-field-border.md
+      - Text:
+        - ms-font-*: groupings/classes/ms-font.md
+        - ms-fontColor-*: groupings/classes/ms-fontColor.md
+        - ms-fontSize-*: groupings/classes/ms-fontSize.md
+        - ms-fontWeight-*: groupings/classes/ms-fontWeight.md
+        - sp-css-color-*: groupings/classes/sp-css-color.md
+        - sp-field-fontSize*: groupings/classes/sp-field-fontSize.md
+      - Other:
+        - ms-*, ms-motion-*: groupings/classes/animation.md
+        - sp-card-*: groupings/classes/sp-card.md
+        - sp-field-*: groupings/classes/sp-field.md
+        - sp-row-*: groupings/classes/sp-row.md
+    - By Feature: groupings/feature.md
     - By Author: groupings/author.md
     - SharePoint 2019: groupings/SP2019.md
   - Contributing:
-    - Contribution Guide: contributing/index.md
+    - Getting Started: contributing/index.md
     - Submitting an Issue or Suggestion: contributing/issues.md
-    - Forking?: contributing/forking.md
-    - Creating a Sample: contributing/sample.md
-    - Submitting a Pull Request: contributing/pullrequest.md
-    - Update the Docs: contributing/docs.md
+    - Making Changes: contributing/changes.md
+    - Updating the Docs: contributing/docs.md
     - Tool Contributions: contributing/tools.md
   - Tools: tools/index.md
 theme:
   name: 'material'
   favicon: img/favicon.png
+  theme:
   palette:
-    primary: 'teal'
-    accent: 'orange'
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: 'teal'
+      accent: 'deep orange'
+      toggle:
+        icon: material/sunglasses
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: 'deep orange'
+      accent: 'teal'
+      toggle:
+        icon: material/glasses
+        name: Switch to light mode
   logo: 'img/pnp-samples-white.svg'
   feature:
     tabs: true
 extra_css:
   - 'css/extra.css'
+extra_javascript:
+  - 'js/extra.js'
+  - 'js/clarity.js'
 markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
   - toc:
       permalink: true
+  - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 plugins:
   - search
   - markdownextradata
 extra:
   version: '1.3.2-0'
+  generator: false
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pnp
+      name: PnP Repositories
     - icon: fontawesome/brands/twitter
-      link: 'https://twitter.com/officedevpnp'
+      link: 'https://twitter.com/m365pnp'
+      name: Follow us on Twitter!
+    - icon: fontawesome/brands/facebook
+      link: 'https://www.facebook.com/M365Dev/'
+      name: Reach out on Facebook!
     - icon: fontawesome/brands/youtube
       link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
-    - icon: material/cloud
+      name: List Formatting playlist on official YouTube channel
+    - icon: fontawesome/solid/horse-head
       link: 'https://aka.ms/m365pnp'
-repo_url: https://github.com/SharePoint/sp-dev-list-formatting
+      name: Microsoft 365 Platform Community
+repo_url: https://github.com/pnp/list-formatting
 edit_uri: tree/master/docs
-site_url: https://sharepoint.github.io/sp-dev-list-formatting/
+site_url: https://pnp.github.io/list-formatting/
+copyright: Sharing is Caring

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-announcements",
+    "reponame": "announcements",
+    "source": "pnp",
+    "title": "Announcements",
+    "shortDescription": "This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/announcements",
+    "longDescription": [
+      "This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement."
+    ],
+    "creationDateTime": "2021-12-01T00:00:00.000Z",
+    "updateDateTime": "2021-12-01T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/announcements/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/announcements/assets/screenshot2.png",
+        "alt": "screenshot2"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "DRamalho92",
+        "pictureUrl": "https://github.com/DRamalho92.png",
+        "name": "David Ramalho"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

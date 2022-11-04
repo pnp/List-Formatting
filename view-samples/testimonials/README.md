@@ -3,7 +3,7 @@
 ## Summary
 This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌
 
-![screenshot of format](./assets/screenshot.gif)  
+![screenshot of the sample](./assets/screenshot.gif)  
 
 ## View requirements
 This format expects the following columns to be part of the view:
@@ -17,7 +17,7 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-testimonials.json | [Andres Ibarra](https://twitter.com/riftsan)
+testimonials.json | [Andres Ibarra](https://github.com/Riftsan) ([@riftsan](https://twitter.com/riftsan))
 
 ## Version history
 
@@ -34,4 +34,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/testimonials" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/testimonials" />

@@ -13,7 +13,7 @@
     "updateDateTime": "2019-07-10T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,19 +23,47 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, cos, sin"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/number-gauge/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-gauge/assets/screenshot.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/number-gauge/assets/screenshotReversed.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-gauge/assets/screenshotReversed.png",
         "alt": "screenshotReversed"
       }
     ],

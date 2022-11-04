@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "18px",
+        "padding": "2px 12px",
+        "cursor": "pointer"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary",
+        "title": "=if(indexOf([$LikedBy.email], @me) > -1 , 'Unlike', 'Like')"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "LikesCount": "=if(indexOf([$LikedBy.email], @me) > -1, [$LikesCount] - 1, [$LikesCount] + 1)",
+          "LikedBy": "=if(indexOf([$LikedBy.email], @me) > -1, removeFrom([$LikedBy.email], @me), appendTo([$LikedBy.email], @me))"
+        }
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "=if(indexOf([$LikedBy.email], @me) > -1 , 'Dislikesolid', 'Likesolid')"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "margin-left": "5px"
+          },
+          "txtContent": "[$LikesCount]"
+        }
+      ]
+    }
+  ]
+}

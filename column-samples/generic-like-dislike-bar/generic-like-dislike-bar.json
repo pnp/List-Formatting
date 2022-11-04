@@ -1,0 +1,132 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "width": "100%",
+    "text-align": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "height": "20px",
+        "width": "90%",
+        "display": "flex",
+        "flex-direction": "row"
+      },
+      "attributes": {
+        "class": "=if((length([$Like]) + length([$Dislike]) == 0 , 'ms-bgColor-sharedGray10' , '')"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "height": "100%",
+            "width": "=((length([$Like])  / (length([$Like]) + length([$Dislike]))) * 100 + '%'",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-tealLight ms-bgColor-teal--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "directionalHint": "topCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "padding": "10px 20px 10px 20px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "25px",
+                    "font-weight": "bold"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-tealLight"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "=floor(((length([$Like])/(length([$Like]) + length([$Dislike])) * 100)"
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "%",
+                      "style": {
+                        "margin-left": "5px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "='(' + length([$Like])  + '/' + (length([$Like]) + length([$Dislike]) + ')'",
+                  "style": {
+                    "margin-left": "5px"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "height": "100%",
+            "width": "=((length([$Dislike])  / (length([$Like]) + length([$Dislike]))) * 100 + '%'",
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "class": "ms-bgColor-red ms-bgColor-redDark--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "directionalHint": "topCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "padding": "10px 20px 10px 20px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "font-size": "25px",
+                    "font-weight": "bold"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-red"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "=floor(((length([$Dislike])/(length([$Like]) + length([$Dislike])) * 100)"
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "%",
+                      "style": {
+                        "margin-left": "5px"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "='(' + length([$Dislike])  + '/' + (length([$Like]) + length([$Dislike]) + ')'",
+                  "style": {
+                    "margin-left": "5px"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

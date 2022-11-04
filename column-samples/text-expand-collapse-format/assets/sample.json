@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-text-expand-collapse-format",
+    "reponame": "text-expand-collapse-format",
+    "source": "pnp",
+    "title": "Expand Collapse Format",
+    "shortDescription": "Demonstrates creating a button to register for a course.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-expand-collapse-format",
+    "longDescription": [
+      "Demonstrates creating a button to register for a course. It checks if the course is already full or if the user has already registered for the course and prevents registration when either is true."
+    ],
+    "creationDateTime": "2022-01-10T00:00:00.000Z",
+    "updateDateTime": "2022-01-10T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontSize-18, ms-fontColor-black, ms-fontWeight-bold"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-expand-collapse-format/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

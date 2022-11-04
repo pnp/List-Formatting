@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "18px",
+        "padding": "2px 7px 2px 7px",
+        "cursor": "pointer",
+        "border-radius": "10px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeTertiary--hover"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "MultiPersonColumnInteranalName": "=if(indexOf(@currentField.email , @me) > -1 , removeFrom(@currentField.email , @me) , appendTo(@currentField.email , @me) )"
+        }
+      },
+      "customCardProps": {
+        "openOnEvent": "hover",
+        "directionalHint": "rightCenter",
+        "isBeakVisible": true,
+        "formatter": {
+          "elmType": "div",
+          "style": {
+            "max-height": "300px",
+            "padding": "5px 20px 5px 20px",
+            "display": "flex",
+            "flex-direction": "column"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "= '💖 ' + length(@currentField)",
+              "style": {
+                "padding": "10px",
+                "font-weight": "bold",
+                "font-size": "20px"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "forEach": "personIterator in @currentField",
+                  "elmType": "div",
+                  "style": {
+                    "margin-bottom": "5px",
+                    "display": "flex",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "width": "32px",
+                        "height": "32px",
+                        "border-radius": "50%",
+                        "margin-right": "5px"
+                      },
+                      "attributes": {
+                        "src": "=getUserImage([$personIterator.email], 'S')",
+                        "title": "[$personIterator.title]"
+                      }
+                    },
+                    {
+                      "elmType": "span",
+                      "txtContent": "[$personIterator.title]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "margin-right": "5px"
+          },
+          "txtContent": "💖"
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "font-weight": "=if(indexOf(@currentField.email , @me) > -1 , 'bold' ,'' )"
+          },
+          "txtContent": "=length(@currentField)"
+        }
+      ]
+    }
+  ]
+}

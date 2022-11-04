@@ -1,7 +1,8 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "attributes": {
-    "title": "@currentField"
+    "title": "@currentField.displayValue"
   },
   "children": [
     {

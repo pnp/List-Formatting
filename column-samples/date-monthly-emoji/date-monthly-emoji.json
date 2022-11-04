@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "=if((getMonth(@currentField) + 1 ) == 1, '🎍', if((getMonth(@currentField) + 1 ) == 2, '🍫', if((getMonth(@currentField) + 1 ) == 3, '🌷', if((getMonth(@currentField) + 1 ) == 4, '🌸',  if((getMonth(@currentField) + 1 ) == 5, '🍓', if((getMonth(@currentField) + 1 ) == 6, '☔', if((getMonth(@currentField) + 1 ) == 7 , '🌻', if((getMonth(@currentField) + 1 ) == 8, '🏄', if((getMonth(@currentField) + 1 ) == 9 , '🌰', if((getMonth(@currentField) + 1 ) == 10, '🎃', if((getMonth(@currentField) + 1 ) == 11, '🍁', if((getMonth(@currentField) + 1 ) == 12, '🎅', ''))))))))))))",
+      "style": {
+        "font-size": "16px",
+        "width": "20px",
+        "text-align": "center",
+        "margin-right": "8px"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "@currentField"
+    }
+  ]
+}

@@ -31,7 +31,7 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 Solution|Author(s)
 --------|---------
-text-contains.json | [Chris Kent](https://twitter.com/thechriskent)
+text-contains.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -49,4 +49,4 @@ Version|Date|Comments
 
 The `indexOf` and `toLowerCase` functions are not available in SharePoint 2019
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-contains" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-contains" />

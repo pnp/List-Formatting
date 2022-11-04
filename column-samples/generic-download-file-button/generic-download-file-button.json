@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "style": {
+    "border-radius": "5px",
+    "margin": "5px 0px",
+    "padding": "0px",
+    "visibility": "=if([$ContentType] == 'Folder', 'hidden', 'visible')"
+  },
+  "attributes": {
+    "class": "ms-bgColor-themePrimary"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "txtContent": "Download",
+      "style": {
+        "text-decoration": "none",
+        "padding": "10px 0px",
+        "width": "100%"
+      },
+      "attributes": {
+        "href": "= @currentWeb + '/_layouts/15/download.aspx?UniqueId=' + [$UniqueId]",
+        "target": "_blank",
+        "class": "ms-fontColor-white"
+      }
+    }
+  ]
+}

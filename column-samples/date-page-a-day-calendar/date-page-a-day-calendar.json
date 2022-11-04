@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
     "flex-direction": "column",
@@ -15,12 +15,32 @@
         "margin": "2px"
       },
       "attributes": {
-        "class": "ms-fontColor-themePrimary ms-fontWeight-bold "
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
       }
     },
     {
       "elmType": "div",
-      "txtContent": "=if(getMonth(@currentField)==0, 'Jan', if(getMonth(@currentField)==1, 'Feb', if(getMonth(@currentField)==2, 'Mar', if(getMonth(@currentField)==3, 'Apr',  if(getMonth(@currentField)==4, 'May', if(getMonth(@currentField)==5, 'Jun', if(getMonth(@currentField)==6 , 'Jul', if(getMonth(@currentField)==7, 'Aug', if(getMonth(@currentField)==8 , 'Sep', if(getMonth(@currentField)==9, 'Oct', if(getMonth(@currentField)==10, 'Nov', if(getMonth(@currentField)==11, 'Dec', ''))))))))))))",
+      "forEach": "weekday in split('0,1,2,3,4,5,6',',')",
+      "style": {
+        "white-space": "nowrap"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=if([$weekday]=='0','Saturday',if([$weekday]=='1','Sunday',if([$weekday]=='2','Monday',if([$weekday]=='3','Tuesday',if([$weekday]=='4','Wednesday',if([$weekday]=='5','Thursday',if([$weekday]=='6','Friday',''))))))",
+          "style": {
+            "margin-bottom": "2px",
+            "display": "=if((getMonth(@currentField)+1)>2,if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+1)/10)+Number(substring(toString(getYear(@currentField)),2,4))+floor(Number(substring(toString(getYear(@currentField)),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)),0,2))/4)-2*Number(substring(toString(getYear(@currentField)),0,2)))%7)==Number([$weekday]),'','none'),if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+12+1)/10)+Number(substring(toString(getYear(@currentField)-1),2,4))+floor(Number(substring(toString(getYear(@currentField)-1),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)-1),0,2))/4)-2*Number(substring(toString(getYear(@currentField)-1),0,2)))%7)==Number([$weekday]),'','none')"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=if(getMonth(@currentField)==0,'Jan',if(getMonth(@currentField)==1,'Feb',if(getMonth(@currentField)==2,'Mar',if(getMonth(@currentField)==3,'Apr',if(getMonth(@currentField)==4,'May',if(getMonth(@currentField)==5,'Jun',if(getMonth(@currentField)==6,'Jul',if(getMonth(@currentField)==7,'Aug',if(getMonth(@currentField)==8,'Sep',if(getMonth(@currentField)==9,'Oct',if(getMonth(@currentField)==10,'Nov',if(getMonth(@currentField)==11,'Dec',''))))))))))))",
       "style": {
         "display": "flex",
         "justify-content": "center",

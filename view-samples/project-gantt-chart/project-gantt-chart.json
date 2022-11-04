@@ -1,5 +1,5 @@
 {
-  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
@@ -70,7 +70,7 @@
                   "width": "100px",
                   "z-index": "100",
                   "display": "=if([$ProjectDue] < @now , 'none', 'block')",
-                  "left": "=floor( (Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 ) + '%' "
+                  "left": "=floor( (Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 ) + '%'"
                 }
               }
             ]
@@ -115,7 +115,8 @@
               "outline": "none",
               "display": "inline-block",
               "overflow": "hidden",
-              "text-overflow": "ellipsis"
+              "text-overflow": "ellipsis",
+              "white-space": "nowrap"
             },
             "attributes": {
               "title": "[$Title]",

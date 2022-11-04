@@ -1,11 +1,11 @@
-# Formatting percentage number (%) to pie chart.
+# Pie Chart
 
 ## Summary
 This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using `<svg>` with `<path>` tags. The number% displayed at the bottom of the pie in neutralPrimary.
 
 The background and text colors are set using theme values by applying classes from the [Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/styles/colors). Unfortunately, there is not a theme class for `fill` and so the pie is set to a specific value that will not update through theme switches and so should be chosen carefully. Both a light and dark theme are shown in the screenshot below.
 
-![screenshot of the sample](./assets/number-piechart.PNG)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Number column
@@ -14,7 +14,7 @@ The background and text colors are set using theme values by applying classes fr
 
 Solution|Author(s)
 --------|---------
-number-piechart.json | Aaron Miao
+number-piechart.json | [Aaron Miao](https://github.com/aaronmi), [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -35,4 +35,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/number-piechart" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-piechart" />

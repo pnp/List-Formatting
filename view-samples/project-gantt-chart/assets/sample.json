@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-project-gantt-chart",
     "reponame": "project-gantt-chart",
     "source": "pnp",
-    "title": "Project Gantt Chart View",
+    "title": "Project Gantt Chart",
     "shortDescription": "This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart",
     "longDescription": [
@@ -13,7 +13,7 @@
     "updateDateTime": "2021-02-10T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now, @rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, toLocaleDateString, floor"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-gray40, ms-bgColor-gray20, ms-bgColor-sharedRed10, ms-bgColor-sharedYellowGreen10, ms-bgColor-sharedCyanBlue10, ms-borderColor-gray100, ms-borderColor-gray40, ms-borderColor-sharedRed20, ms-borderColor-sharedGreen20, ms-borderColor-sharedCyanBlue20, ms-borderColor-sharedGray20, ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontSize-16, ms-fontSize-14, ms-fontColor-sharedGreen20, ms-fontColor-sharedRed20, ms-fontColor-gray100, ms-fontColor-sharedCyanBlue20"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/project-gantt-chart/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "gdk-max",

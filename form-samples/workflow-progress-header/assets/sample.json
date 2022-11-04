@@ -13,7 +13,7 @@
     "updateDateTime": "2021-02-01T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralTertiary, ms-fontColor-success, ms-fontSize-42, ms-fontSize-18"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/form-samples/workflow-progress-header/assets/screen_capture.gif?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/workflow-progress-header/assets/screenshot.gif",
         "alt": "screen_capture"
       }
     ],

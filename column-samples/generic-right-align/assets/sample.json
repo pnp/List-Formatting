@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-right-align",
     "reponame": "generic-right-align",
     "source": "pnp",
-    "title": "Centered Content",
+    "title": "Right-Aligned Content",
     "shortDescription": "This sample shows how to right-align your content, while preserving the number or date format set using the SharePoint / Lists UI.  Numbers and dates should typically be presented as right-aligned, for improved readability.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-right-align",
     "longDescription": [
@@ -13,7 +13,7 @@
     "updateDateTime": "2021-02-13T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-right-align/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-right-align/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

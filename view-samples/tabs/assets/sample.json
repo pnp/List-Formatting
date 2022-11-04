@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-tabs",
+    "reponame": "tabs",
+    "source": "pnp",
+    "title": "Tabs",
+    "shortDescription": "This sample creates tabs with associated content. Users can then navigate between tabs. This sample is intended to display content within a SharePoint page (using the lists webpart) to provide a more interactive and user friendly approach.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/tabs",
+    "longDescription": [
+      "This sample creates tabs with associated content. Users can then navigate between tabs. This sample is intended to display content within a SharePoint page (using the lists webpart) to provide a more interactive and user friendly approach."
+    ],
+    "creationDateTime": "2022-02-17T00:00:00.000Z",
+    "updateDateTime": "2022-02-17T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontWeight-bold, ms-fontSize-24, ms-fontSize-18"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/tabs/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

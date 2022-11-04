@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-elf-progress-board",
+    "reponame": "elf-progress-board",
+    "source": "pnp",
+    "title": "Elf Progress Board",
+    "shortDescription": "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board",
+    "longDescription": [
+      "Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"
+    ],
+    "creationDateTime": "2021-12-09T00:00:00.000Z",
+    "updateDateTime": "2021-12-09T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Inline Editing, Hover Cards, Gallery, Randomization"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now, @rowIndex"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, Number, loopIndex, length, ceiling, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, inlineEditField, defaultHoverField, customCardProps, directionalHint, hideSelection, fillHorizontally"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-bgColor-neutralLight, ms-bgColor-neutralLighter, ms-bgColor-white, ms-borderColor-neutralPrimary, ms-borderColor-neutralLight, ms-borderColor-neutralLighter, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontColor-neutralLight, ms-fontColor-red--hover, ms-fontColor-greenDark--hover, sp-card-borderHighlight, sp-card-personCallout, sp-card-container, sp-card-keyboard-focusable, sp-card-subContainer, sp-card-displayColumnContainer, sp-card-previewColumnContainer, sp-card-imagePreviewBackground, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userCustomCard, sp-card-defaultImage, sp-card-defaultImageOverlay, sp-card-imagePreview, sp-card-imageContainer"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif",
+        "alt": "Progress Board"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -4,16 +4,16 @@
     "reponame": "multi-choice-foreach",
     "source": "pnp",
     "title": "Multi-Choice forEach",
-    "shortDescription": "This sample demonstrates usage of the \u0060forEach\u0060 property to create template elements applied to each choice in a multi-select choice field.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/multi-choice-foreach",
+    "shortDescription": "This sample demonstrates usage of the forEach property to create template elements applied to each choice in a multi-select choice field.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-foreach",
     "longDescription": [
-      "This sample demonstrates usage of the \u0060forEach\u0060 property to create template elements applied to each choice in a multi-select choice field."
+      "This sample demonstrates usage of the forEach property to create template elements applied to each choice in a multi-select choice field."
     ],
     "creationDateTime": "2019-04-04T00:00:00.000Z",
     "updateDateTime": "2019-04-04T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "Multi-Choice"
       },
       {
-        "key": "LIST-OPERATOR",
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
         "value": "forEach"
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-fontColor-white"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/multi-choice-foreach/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-foreach/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

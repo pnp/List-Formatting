@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "height": "50px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "Click to expand"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if([$Expand]==false,'none','inline-block')"
+              },
+              "txtContent": "@currentField"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "height": "50px",
+        "padding-left": "10px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "cursor": "pointer"
+          },
+          "attributes": {
+            "iconName": "=if([$Expand]==true, 'CaretUpSolid8','CaretDownSolid8')",
+            "class": "ms-fontSize-18 ms-fontColor-black ms-fontWeight-bold"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "Expand": "=if([$Expand]==true, 0,1)"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

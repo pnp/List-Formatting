@@ -1,12 +1,16 @@
 # Project Indicator Formats
 
-## Color-coded status (ryg-status.json)
+## Summary
+
+Three related formats for use in project management.
+
+## Color-coded status (generic-project-management.json)
 
 Text or choice column where the value is used to determine the color. This allows for an easy visualization of status. To use a lookup column instead, replace all occurences of `@currentField` with `@currentField.lookupValue`.
 
 This format uses the values Red, Yellow, Green, and Amber but you could easily extend this to fit your own color-coded system by adding or removing nested conditions.
 
-![Color status field](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## Color-coded score ranges (risk-score.json)
 
@@ -56,9 +60,9 @@ Combining more than one of the above formats in a single listview can easily tra
 
 Solution|Author(s)
 --------|---------
-risk-level-change-status.json | S Merchant
-risk-score.json | S Merchant
-ryg-status.json | S Merchant
+generic-project-management.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+risk-level-change-status.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+risk-score.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
 
 ## Version history
 
@@ -77,4 +81,4 @@ Version|Date|Comments
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-project-management" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-project-management" />

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "button",
+    "customRowAction": {
+      "action": "defaultClick"
+    },
+    "attributes": {
+      "class": "='ms-bgColor-white ms-fontColor-white--hover ' + if([$ContentType]=='Apple', if([$AppleType]=='Green','ms-bgColor-greenLight--hover ms-borderColor-green','ms-bgColor-red--hover ms-borderColor-redDark'), 'ms-bgColor-orangeLighter--hover ms-borderColor-orangeLight')"
+    },
+    "style": {
+      "margin": "5px",
+      "padding": "0 5px 0 0",
+      "border-width": "3px",
+      "border-radius": "20px",
+      "border-style": "solid",
+      "cursor": "pointer",
+      "float": "left"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "=@currentWeb + '/Shared Documents/Fruit/' + if([$ContentType]=='Apple',[$AppleType],[$OrangeType]) + '.png'"
+        },
+        "style": {
+          "height": "128px",
+          "width": "128px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "left"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=if([$ContentType]=='Apple',[$AppleType] + ' Apple', [$OrangeType] + ' Orange')",
+            "attributes": {
+              "class": "='ms-fontSize-m ms-fontWeight-regular ' + if([$ContentType]=='Apple',if([$AppleType]=='Green','ms-fontColor-green','ms-fontColor-redDark'),'ms-fontColor-orangeLight')"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "attributes": {
+              "class": "ms-fontSize-xl ms-fontWeight-semibold"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

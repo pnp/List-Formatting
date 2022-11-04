@@ -1,7 +1,7 @@
-# Formatting column with long text to multiple-line with word wrap.
+# Multi-line Text with Word Wrap
 
 ## Summary
-With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rending long text to mutilple lines with word wrap, similar to classic mode.
+With modern document libraries and lists, lengthy multi-line fields no longer show text in full (a fade is provided). This isn't always desired, so this sample demonstrates rendering long text to multiple lines with word wrap, similar to classic mode.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -12,7 +12,7 @@ With modern document libraries and lists, lengthy multi-line fields no longer sh
 
 Solution|Author(s)
 --------|---------
-text-wrap-format.json | Aaron Miao
+text-wrap-format.json | [Aaron Miao](https://github.com/aaronmi)
 
 ## Version history
 
@@ -33,4 +33,4 @@ Multi-line text fields can no longer have formatting applied using the column me
 
 Rich text fields return their values with HTML. List Formatting automatically escapes values meaning that these types of fields will include HTML in their text values and that HTML will not be used as part of the page. It is not recommended to use rich text fields with List Formatting.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/text-wrap-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-wrap-format" />

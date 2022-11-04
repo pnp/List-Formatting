@@ -5,9 +5,11 @@ Display on the homepage of your SharePoint intranet a continually updated feed o
 
 The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar TFL tube status board with correct line colours. Any line not currently in Good service can be clicked and a hovercard will show with further information i.e. delays/suspension/closure etc. 
 
-![Image of SharePoint List view web part on an Intranet](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
+
+## View requirements
 
 ### Technologies Used
 
@@ -25,7 +27,7 @@ The results are retrieved using Power Automate, then written to a SharePoint lis
 * You must have a modern SharePoint site where you can store the data for the app.
 * Download the assets from this folder
 
-## How To Install The Solution
+### How To Install The Solution
 
 I have attempted to simplify/automate the deployment of the solution as much as possible. I have combined this into two flow templates which with a few very minor changes do all the work for you to deploy and configure this solution!
 
@@ -38,20 +40,20 @@ An overview is provided below, but detailed installation instructions can be fou
 
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
-### UPDATE v2.0
+#### UPDATE v2.0
 I have now recreated the TFL Status Power Automate (Flow) to also run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc.
 Further instructions and new blog article [here](https://www.leonarmston.com/2021/01/live-london-underground-line-status-solution-summary-learnings-from-converting-to-azure-logic-apps/)
 
 **Run sections 1 & 2 for the Power Automate option** or **sections 1 & 3 for the Logic Apps option.**
 
-### 1 Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
+#### 1 Deployment flow (Always used to deploy the SP list even if Logic Apps option is chosen)
 
 - In Power Automate, import the [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) template.
 - Once imported, edit the flow to change the Target Site for Lists variable to point to the site where you would like the Tube Status list to be deployed.
 - Run the flow
 - You can now safely remove this flow as it was only needed once to create the list and install the view format
 
-### 2 TFL Tube Status flow (Power Automate Option)
+#### 2 TFL Tube Status flow (Power Automate Option)
 
 - In Power Automate, import the [LondonTubes-TFLTubeStatusAPI.zip](./flows/LondonTubes-TFLTubeStatusAPI.zip) template.
 - **You will receive an error** (_import failed for one or more package resources_)
@@ -61,7 +63,7 @@ Further instructions and new blog article [here](https://www.leonarmston.com/202
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
-### 3 TFL Tube Status flow (Azure Logic Apps Option)
+#### 3 TFL Tube Status flow (Azure Logic Apps Option)
 
 - Create an Azure Logic App in your Azure subscription (can be named anything i.e TFL_API)
 - Select to create a "Blank Logic App" from the list of Logic App templates.
@@ -93,10 +95,7 @@ Head over to your list and you'll see the Tube Statuses being updated using the 
 
 Solution|Author(s)
 --------|---------
-DeploySPList-LondonTubes.zip | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
-LondonTubes-TFLTubeStatusAPI.zip  | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
-LondonTubes-TFLStatusAPI.json  | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
-LondonTubes | [Leon Armston @LeonArmston](https://twitter.com/LeonArmston)
+london-tube-status.json | [Leon Armston](https://github.com/LeonArmston) ([@LeonArmston](https://twitter.com/LeonArmston))
 
 ## Version history
 
@@ -108,5 +107,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/london-tube-status" />
-
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/london-tube-status" />

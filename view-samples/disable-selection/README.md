@@ -3,7 +3,7 @@
 ## Summary
 This is a very basic sample that disables list item selection within your view.
 
-![screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 > The formatted choice column shown above is not part of this sample, it's just part of the list where this sample was applied
 
@@ -15,7 +15,7 @@ None
 
 Solution|Author(s)
 --------|---------
-disable-selection.json | [Chris Kent](https://twitter.com/theChrisKent)
+disable-selection.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -27,4 +27,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/disable-selection" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/disable-selection" />

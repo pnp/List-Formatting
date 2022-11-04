@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-rota-css-table",
     "reponame": "rota-css-table",
     "source": "pnp",
-    "title": "Staff Rota Shifts View Format",
-    "shortDescription": "This is a sample that uses \u0060rowFormatter\u0060 to customise the entire display of a row. The aim is to demonstrate the following concepts:",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/rota-css-table",
+    "title": "Staff Rota Shifts with CSS Table",
+    "shortDescription": "This sample demonstrates creating a Rota Shifts table using CSS Table layout by using rowFormatter to customise the entire display of a row.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/rota-css-table",
     "longDescription": [
-      "This is a sample that uses \u0060rowFormatter\u0060 to customise the entire display of a row. The aim is to demonstrate the following concepts:"
+      "This sample demonstrates creating a Rota Shifts table using CSS Table layout by using rowFormatter to customise the entire display of a row."
     ],
     "creationDateTime": "2019-03-07T00:00:00.000Z",
     "updateDateTime": "2019-03-07T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,27 +21,43 @@
         "value": "View"
       },
       {
-        "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
       {
-        "key": "LIST-OPERATOR",
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
         "value": "join"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Cards"
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint Online"
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-fontColor-white, ms-font-m, sp-row-card"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/view-samples/rota-css-table/assets/screenshot.jpeg?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/rota-css-table/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -1,4 +1,4 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "additionalRowClass": "=if(indexOf(join([$AssignedTo.email],';'), @me) != -1, 'ms-bgColor-themeLight ms-bgColor-themeLighterAlt--hover', '')"
 }

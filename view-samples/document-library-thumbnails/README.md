@@ -1,9 +1,10 @@
-# Document Library Items in Tiles Format
+# Document Library Thumbnails
 
 ## Summary
-This sample uses rowFormatter element to overrides the default formatting on the All Documents view.  The view uses thumbnail property to display the items in tiles view with custom size.
 
+This sample demonstrates showing files in a document libary as preview images.
 
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - "Allow management of content types" is turned on under Library --> Advanced Settings.
@@ -12,11 +13,9 @@ The size of the tiles can be adjusted by changing the width and height values.
 
 ## Sample
 
-![Responsive Screenshot](./assets/document-library-thumbnails.png)
-
 Solution|Author(s)
 --------|---------
-document-library-thumbnails.json | [Ravi Chandra](https://twitter.com/ravi_maniyani)
+document-library-thumbnails.json | [Ravi Chandra](https://github.com/Ravikadri) ([@ravi_maniyani](https://twitter.com/ravi_maniyani))
 
 ## Version history
 
@@ -28,5 +27,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
-
-
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/document-library-thumbnails" />

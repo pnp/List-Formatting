@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-list-formatting-percent-chart-format",
+    "reponame": "percent-chart-format",
+    "source": "pnp",
+    "title": "Percent Chart format",
+    "shortDescription": "This sample display formatted percent chart row based on icon/emoji/svg and associated result number, used is able to manage to total and used items for percent calculation.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/percent-chart-format",
+    "longDescription": [
+      "This sample display formatted percent chart row based on icon/emoji/svg and associated result number, used is able to manage to total and used items for percent calculation."
+    ],
+    "creationDateTime": "2022-04-22T00:00:00.000Z",
+    "updateDateTime": "2022-04-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/percent-chart-format/assets/PercentageChart.gif",
+        "alt": "Percent Chart format"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

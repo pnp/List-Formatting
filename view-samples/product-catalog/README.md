@@ -1,12 +1,15 @@
-# Product Catalog Sample
+# Product Catalog
 
 ## Summary
-The product catalog sample demonstrates how to use view formatting to format lists and display views of the lists inside web parts. It also demonstrates how to create links to download documents from the SharePoint Document libraries.
+The product catalog sample demonstrates how to use view formatting to format lists and display views of the lists inside web parts. It also demonstrates how to create links to download documents from SharePoint Document libraries.
 
-### Desktop and tablet view
-![avatar](assets/page-review.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-## Prerequisites
+## View requirements
+
+This solution is comprised of 2 libraries, a list, and multiple files. This is a complicated setup. Fortunately, you can also have all lists (including sample data) setup for you by using the provisioning instructions below.
+
+### Prerequisites
 
 Install **PnP PowerShell modules** 
 
@@ -14,9 +17,9 @@ Install **PnP PowerShell modules**
    
   ``Install-Module SharePointPnPPowerShellOnline -AllowClobber``
 
-## Deployment 
+### Deployment 
  
-1. Open PowerShell as an administrator and go to the folder where the script is located. Then run the following command: 
+1. Open PowerShell as an administrator and go to the provisioning folder where the script is located. Then run the following command: 
 
    ``.\ProductCatalog.ps1``   
       
@@ -48,7 +51,7 @@ Install **PnP PowerShell modules**
 
 After the script has successfully run you will see the following screen.
 
- ![avatar](assets/Finish.png)   
+ ![avatar](./assets/Finish.png)   
 
 4. Copy the [Product Catalog] URL.
  
@@ -56,15 +59,14 @@ After the script has successfully run you will see the following screen.
  
 6. Verify the page appears like this:
 
- ![avatar](assets/page-review.png)
+ ![avatar](./assets/screenshot.png)
 
-### Authors
+## Sample
 
-- Chad Liu (Canviz)
-- Damian Gibbs (Canviz)
-- Randy Wang (Canviz)
-- Todd Baginski (Microsoft MVP, Canviz) @TBag
-- Chris McNulty (Microsoft)
+Solution|Author(s)
+--------|---------
+product-catalog.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Chad Liu, Damian Gibbs, Randy Wang
+product-catalog-library.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Chad Liu, Damian Gibbs, Randy Wang
 
 ## Version history
 
@@ -77,3 +79,5 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/product-catalog" />

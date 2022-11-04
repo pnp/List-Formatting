@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Strikethrough on Completion",
     "shortDescription": "Classic task lists add a strikethrough style to the task name when the task is marked as completed. This sample shows how to achieve this in a modern list view.",
-    "url": "https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples/text-strikethrough",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-strikethrough",
     "longDescription": [
       "Classic task lists add a strikethrough style to the task name when the task is marked as completed. This sample shows how to achieve this in a modern list view."
     ],
@@ -13,7 +13,7 @@
     "updateDateTime": "2018-08-18T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -21,23 +21,43 @@
         "value": "Column"
       },
       {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint 2019, SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Status / Progress"
+      },
+      {
         "key": "LIST-COLUMN-TYPE",
         "value": "General"
       },
       {
-        "key": "LIST-CATEGORY",
-        "value": "Status / Progress"
+        "key": "FORMATTING-TOKENS",
+        "value": ""
       },
       {
-        "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralPrimary"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-list-formatting/blob/master/column-samples/text-strikethrough/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-strikethrough/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

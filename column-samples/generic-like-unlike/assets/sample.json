@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-generic-like-unlike",
+      "reponame": "generic-like-unlike",
+      "source": "pnp",
+      "title": "Like/Unlike List Item",
+      "shortDescription": "Demonstrates how to like/unlike a list item.",
+      "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-like-unlike",
+      "longDescription": [
+        "This sample demonstrates how to like/unlike a list item. This sample uses the setValue customRowAction to update the number and person field."
+      ],
+      "creationDateTime": "2021-11-27T00:00:00.000Z",
+      "updateDateTime": "2021-11-27T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "Column"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, Inline Editing"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": "General"
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": "@me"
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "indexOf, appendTo, removeFrom"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": "setValue"
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": ""
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-fontColor-themePrimary"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-like-unlike/assets/screenshot.gif",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+            "gitHubAccount": "ganesh-sanap",
+            "pictureUrl": "https://github.com/ganesh-sanap.png",
+            "name": "Ganesh Sanap"
+          }
+      ],
+      "references": [
+        {
+          "name": "Use column formatting to customize SharePoint",
+          "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+        }
+      ]
+    }
+  ]

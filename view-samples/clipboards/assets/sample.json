@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-clipboards",
+      "reponame": "clipboards",
+      "source": "pnp",
+      "title": "Clipboards",
+      "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card.",
+      "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/clipboards",
+      "longDescription": [
+        "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card."
+      ],
+      "creationDateTime": "2021-12-06T00:00:00.000Z",
+      "updateDateTime": "2021-12-06T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "View"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, SVG, Inline Editing, Hover Cards"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "Date, indexOf, substring, getDate, getMonth, getYear, lastIndexOf"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": "delete, defaultClick"
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "inlineEditField, customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-borderColor-themePrimary, ms-fontColor-themePrimary, ms-fontWeight-bold, ms-fontSize-20, ms-fontSize-16, ms-fontSize-10"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/clipboards/assets/screenshot.gif",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "aaclage",
+          "pictureUrl": "https://github.com/aaclage.png",
+          "name": "André Lage"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use view formatting to customize SharePoint",
+          "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+        }
+      ]
+    }
+  ]

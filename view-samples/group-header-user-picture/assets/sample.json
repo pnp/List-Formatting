@@ -3,17 +3,17 @@
     "name": "pnp-list-formatting-group-header-user-picture",
     "reponame": "group-header-user-picture",
     "source": "pnp",
-    "title": "Display user\u0027s picture in group header",
-    "shortDescription": "This is a sample of customizing the group header when grouping by user column. Display the user\u0027s picture as well as the user\u0027s name in the group header.",
+    "title": "Display a User's Photo in Group Header",
+    "shortDescription": "This is a sample of customizing the group header when grouping by user column. Display the user's picture as well as the user's name in the group header.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/group-header-user-picture",
     "longDescription": [
-      "This is a sample of customizing the group header when grouping by user column. Display the user\u0027s picture as well as the user\u0027s name in the group header."
+      "This is a sample of customizing the group header when grouping by user column. Display the user's picture as well as the user's name in the group header."
     ],
     "creationDateTime": "2021-04-03T00:00:00.000Z",
     "updateDateTime": "2021-04-03T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,9 +23,44 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb, @group.count, @group.columnDisplayName"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "groupProps, headerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-fontColor-neutralSecondary, ms-fontWeight-bold"
       }
     ],
-    "thumbnails": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/group-header-user-picture/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
     "authors": [
       {
         "gitHubAccount": "tecchan1107",

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-person-cards",
+    "reponame": "person-cards",
+    "source": "pnp",
+    "title": "Person Cards",
+    "shortDescription": "This sample demonstrates creating a basic person card. You can use this as a quick contact list.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/person-cards",
+    "longDescription": [
+      "This sample demonstrates creating a basic person card. You can use this as a quick contact list."
+    ],
+    "creationDateTime": "2019-11-01T00:00:00.000Z",
+    "updateDateTime": "2019-11-01T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-neutralLighterAlt, ms-fontColor-themePrimary--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/person-cards/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "DRamalho92",
+        "pictureUrl": "https://github.com/DRamalho92.png",
+        "name": "David Ramalho"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+    {
+      "name": "pnp-list-formatting-video-gallery",
+      "reponame": "video-gallery",
+      "source": "pnp",
+      "title": "Video Gallery",
+      "shortDescription": "A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like.",
+      "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery",
+      "longDescription": [
+        "A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like."
+      ],
+      "creationDateTime": "2021-11-23T00:00:00.000Z",
+      "updateDateTime": "2021-11-23T00:00:00.000Z",
+      "products": [
+        "SharePoint",
+        "Microsoft Lists"
+      ],
+      "metadata": [
+        {
+          "key": "LIST-SAMPLE-TYPE",
+          "value": "View"
+        },
+        {
+          "key": "SHAREPOINT-COMPATIBILITY",
+          "value": "SharePoint Online"
+        },
+        {
+          "key": "SAMPLE-CATEGORIES",
+          "value": "Icons, Inline Editing, Hover Cards, Gallery"
+        },
+        {
+          "key": "LIST-COLUMN-TYPE",
+          "value": ""
+        },
+        {
+          "key": "FORMATTING-TOKENS",
+          "value": "@me"
+        },
+        {
+          "key": "FORMATTING-OPERATORS",
+          "value": "toString, loopIndex, indexOf, length, substring, getUserImage, appendTo, removeFrom"
+        },
+        {
+          "key": "FORMATTING-ACTIONS",
+          "value": "defaultClick, setValue, share"
+        },
+        {
+          "key": "FORMATTING-FEATURES",
+          "value": "forEach, defaultHoverField, customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader"
+        },
+        {
+          "key": "CLASSES",
+          "value": "ms-bgColor-themePrimary, ms-bgColor-neutralLight, ms-bgColor-purpleDark--hover, ms-borderColor-neutralLight, ms-borderColor-blue, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontColor-black, ms-fontWeight-semibold, ms-font-xl, ms-fontSize-xl, ms-fontSize-m, ms-fontSize-s, sp-card-personCallout, sp-card-keyboard-focusable, sp-card-previewColumnContainer, sp-card-userEmptyText, sp-card-userContainer, sp-card-userThumbnail, sp-card-userOthers, sp-card-userCustomCard, sp-row-listPadding, sp-row-button"
+        }
+      ],
+      "thumbnails": [
+        {
+          "type": "image",
+          "order": 100,
+          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/video-gallery/assets/screenshot.png",
+          "alt": "screenshot"
+        }
+      ],
+      "authors": [
+        {
+          "gitHubAccount": "anandragav",
+          "pictureUrl": "https://github.com/anandragav.png",
+          "name": "Anand Ragav"
+        }
+      ],
+      "references": [
+        {
+          "name": "Use view formatting to customize SharePoint",
+          "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+        }
+      ]
+    }
+  ]

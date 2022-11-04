@@ -1,0 +1,127 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "flex-start",
+      "width": "600px",
+      "margin": "15px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "center",
+          "width": "15%"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "defaultHoverField": "[$Author]",
+            "attributes": {
+              "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Author.email]",
+              "title": "[$Author.title]"
+            },
+            "style": {
+              "display": "=if([$Author.email] == @me, 'none' , 'block')",
+              "width": "50px",
+              "height": "50px",
+              "border-radius": "50%"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "=if([$Author.email] == @me, 'flex-end' , 'flex-start')",
+          "width": "70%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "80%",
+              "padding": "15px",
+              "border-radius": "10px"
+            },
+            "attributes": {
+              "class": "=if([$Author.email] == @me, 'ms-bgColor-themeLighter' , 'ms-bgColor-neutralLighter')"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding-bottom": "3px"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "padding-right": "10px"
+                    },
+                    "txtContent": "[$Author.title]"
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Created]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "style": {
+                  "display": "=if([$Title] == '' , 'none' , 'block')",
+                  "padding-bottom": "3px"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-18 ms-fontWeight-bold"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Message]",
+                "attributes": {
+                  "class": "ms-fontSize-14"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "center",
+          "width": "15%"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "defaultHoverField": "[$Author]",
+            "attributes": {
+              "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Author.email]",
+              "title": "[$Author.title]"
+            },
+            "style": {
+              "display": "=if([$Author.email] == @me, 'block' , 'none')",
+              "width": "50px",
+              "height": "50px",
+              "border-radius": "50%"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

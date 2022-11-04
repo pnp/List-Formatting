@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-faqs",
+    "reponame": "faqs",
+    "source": "pnp",
+    "title": "FAQs",
+    "shortDescription": "This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions).",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs",
+    "longDescription": [
+      "This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions)."
+    ],
+    "creationDateTime": "2020-03-01T00:00:00.000Z",
+    "updateDateTime": "2020-03-01T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Frequently Asked Questions"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLowerCase, indexOf, length, substring"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-borderColor-themeDark, ms-fontColor-themeSecondary, ms-fontColor-themeTertiary, ms-fontColor-white"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faqs/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faqs/assets/screenshotWithKeywords.png",
+        "alt": "screenshotWithKeywords"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

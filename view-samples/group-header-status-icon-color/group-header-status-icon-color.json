@@ -1,0 +1,78 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "flex-direction": "row"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "=if(@group.fieldData == 'Pending', 'sp-css-backgroundColor-BgCornflowerBlue', if(@group.fieldData == 'Approved', 'sp-css-backgroundColor-BgMintGreen',if(@group.fieldData == 'On Hold', 'sp-css-backgroundColor-BgGold',if(@group.fieldData == 'Rejected', 'sp-css-backgroundColor-BgCoral','sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary'))))"
+          },
+          "style": {
+            "display": "inline-flex",
+            "height": "25px",
+            "border-radius": "15px",
+            "padding-left": "8px",
+            "padding-top": "5px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "=if(@group.fieldData == 'On Hold', 'CirclePauseSolid', if(@group.fieldData == 'Approved', 'SkypeCircleCheck',if(@group.fieldData == 'Pending', 'ClipboardListQuestion',if(@group.fieldData == 'Rejected', 'Blocked','StatusCircleQuestionMark'))))"
+              },
+              "style": {
+                "padding-right": "6px",
+                "padding-top": "2px"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "inline-flex",
+                "padding-right": "9px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-bold"
+                  },
+                  "txtContent": "=@group.count"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-normal"
+                  },
+                  "txtContent": "= if(@group.count!= 1,'Items are','Item is')"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "=@group.fieldData",
+                  "attributes": {
+                    "title": "=@group.fieldData",
+                    "class": "ms-fontWeight-bold"
+                  },
+                  "style": {
+                    "padding-left": "5px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

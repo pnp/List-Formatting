@@ -3,22 +3,29 @@
 ## Summary
 Short summary on functionality and details to help explain the format.
 
-[picture of the format in action]
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- Details about the types of column being referenced
+- Details about the types of columns being referenced along with any details about the view (sorting, gallery/list, board, etc.)
 
 ## Sample
 
+> We use this section to recognize and promote your contributions.
+> We'll only use the info you provided here. Make sure to include your full name, not just your GitHub username.
+> Provide a link to your GitHub profile to help others find more cool things you have done.
+> If you provide a link to your Twitter profile, we'll promote your contribution on social media.
+> 
+> DELETE THE TEXT ABOVE BEFORE SUBMITTING
+
 Solution|Author(s)
 --------|---------
-json-file-name | Author details
+json-file-name.json | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/YOURTWITTERHANDLE))
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0|August 29, 2025|Initial release
+1.0|December 26, 2081|Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -28,8 +35,6 @@ Version|Date|Comments
 ## Additional notes
 Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
-- topic 1
-- topic 2
-- topic 3
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
+> Update telemetry url below to place your sample name at the end then remove this line
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/readme-template" />

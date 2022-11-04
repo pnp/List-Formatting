@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "background-color": "=if(@currentField == '' , '' , if(@currentField < (((90) + (-30)) / 2) , 'rgba(0,' + if(@currentField < (-30) , 0 , (255 * (abs((@currentField) - (-30)) / (((90) - (-30)) / 2)))) + ', 255 , 0.35)' , 'rgba(0,255,' + if(@currentField > (90) , 0 , (255 * (abs((90) - (@currentField)) / (((90) - (-30))/2)))) + ', 0.35)'))"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "@currentField",
+      "style": {
+        "font-size": "20px",
+        "font-weight": "bold",
+        "margin-left": "10px"
+      }
+    }
+  ]
+}

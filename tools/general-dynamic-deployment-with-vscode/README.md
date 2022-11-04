@@ -51,5 +51,5 @@ http://warner.digital/list-formatting-automated-deployment-part1
 URL COMING SOON - When Uploaded by Microsoft
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/tools/general-dynamic-deployment-with-vscode" />
+<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/tools/general-dynamic-deployment-with-vscode" />
 

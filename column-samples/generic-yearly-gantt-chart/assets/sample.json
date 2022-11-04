@@ -10,10 +10,10 @@
       "This sample demonstrates the display of a yearly Gantt chart."
     ],
     "creationDateTime": "2021-04-12T00:00:00.000Z",
-    "updateDateTime": "2021-04-12T00:00:00.000Z",
+    "updateDateTime": "2022-08-27T00:00:00.000Z",
     "products": [
       "SharePoint",
-      "Office"
+      "Microsoft Lists"
     ],
     "metadata": [
       {
@@ -23,13 +23,41 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, Date, getYear"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-bgColor-sharedRed10, ms-fontWeight-bold, ms-fontSize-l"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/List-Formatting/blob/master/column-samples/generic-yearly-gantt-chart/assets/screenshot.png?raw=true",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-yearly-gantt-chart/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
@@ -38,6 +66,11 @@
         "gitHubAccount": "tecchan1107",
         "pictureUrl": "https://github.com/tecchan1107.png",
         "name": "Tetsuya Kawahara"
+      },
+      {
+        "gitHubAccount": "hakki-max",
+        "pictureUrl": "https://github.com/hakki-max.png",
+        "name": "Alvin Fong"
       }
     ],
     "references": [

@@ -1,4 +1,4 @@
-# Turn field values into hyperlinks
+# Dynamic Links ![Live Preview in Microsoft Lists Unavailable](../../assets/mslists-livepreview-disabled.png "Live Preview in Microsoft Lists Unavailable") [![Help](../../assets/info-light.png#gh-light-mode-only)](https://pnp.github.io/List-Formatting/gettingstarted/ "Help")[![Help](../../assets/info-Dark.png#gh-dark-mode-only)](https://pnp.github.io/List-Formatting/gettingstarted/ "Help")
 
 ## Summary
 This example shows how to turn a text field that contains stock ticker symbols into a hyperlink that targets the Yahoo Finance real-time quotes page for that stock ticker. The example uses a `+` operator that appends the current field value to the static hyperlink <a>http://finance.yahoo.com/quote/</a>. You can extend this pattern to any scenario in which you want users to view contextual information related to an item, or you want to start a business process on the current item, as long as the information or process can be accessed via a hyperlink parameterized with values from the list item.
@@ -12,7 +12,7 @@ This example shows how to turn a text field that contains stock ticker symbols i
 
 Solution|Author(s)
 --------|---------
-generic-hyperlink-values.json | SharePoint Team
+generic-hyperlink-values.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
 
 ## Version history
 
@@ -33,4 +33,4 @@ This sample is also covered in the main documentation around Column Formatting
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-hyperlink-values" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-hyperlink-values" />

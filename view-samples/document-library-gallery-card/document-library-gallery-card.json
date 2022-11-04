@@ -1,0 +1,277 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "tileProps": {
+    "hideSelection": true,
+    "height": "385",
+    "width": "300",
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "align-items": "stretch",
+        "margin": "3px 2px",
+        "background-color": "#fbfbfb",
+        "height": "375px",
+        "overflow": "inherit",
+        "border-radius": "2px",
+        "box-shadow": "0px 1.6px 3.6px 0 #00000024, 0px 0.3px 0.9px 0 #00000024"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-wrap": "wrap",
+            "position": "relative",
+            "padding-bottom": "10px",
+            "width": "100%"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "margin-top": "0px",
+                "height": "200px",
+                "display": "block",
+                "align-items": "center",
+                "justify-content": "center",
+                "position": "relative",
+                "border-bottom": "1px solid #EEE",
+                "overflow": "hidden",
+                "border-radius": "2px 2px 0 0"
+              },
+              "children": [
+                {
+                  "elmType": "button",
+                  "style": {
+                    "position": "absolute",
+                    "height": "100%",
+                    "width": "100%",
+                    "opacity": "0",
+                    "cursor": "pointer"
+                  },
+                  "customRowAction": {
+                    "action": "defaultClick"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "width": "=if([$File_x0020_Type] == '', '100px', '100%')",
+                    "height": "=if([$File_x0020_Type] == '', '100px', '100%')",
+                    "text-align": "center",
+                    "overflow": "hidden"
+                  },
+                  "children": [
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "height": "=if([$File_x0020_Type] == '', '100%', '0'"
+                      },
+                      "attributes": {
+                        "src": "=if([$File_x0020_Type] == '', 'https://spoprod-a.akamaihd.net/files/fabric/office-ui-fabric-react-assets/foldericons-fluent/folder-large_frontplate_nopreview.svg', '')"
+                      }
+                    },
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "display": "=if([$File_x0020_Type] == '', 'none', '')"
+                      },
+                      "attributes": {
+                        "src": "@thumbnail.383x383"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "margin": "15px 0 0 0",
+                "position": "absolute",
+                "top": "200px",
+                "width": "100%",
+                "color": "#333333"
+              },
+              "attributes": {
+                "class": "ms-fontSize-14 ms-fontWeight-semibold"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "[$FileLeafRef]",
+                  "style": {
+                    "padding": "0 0 0 16px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "block",
+                "padding-left": "15px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "inline-block",
+                    "line-height": "2",
+                    "background-color": "=if([$Status] == 'Approved', 'rgba(186, 216, 10, 0.5)', if([$Status] == 'Ready for Review', 'rgba(255, 185, 0, 0.3)',if([$Status] == 'Draft', 'rgba(0, 120, 212, 0.17)', if([$Status] == 'Rejected', 'rgba(232, 17, 35, 0.5)', '#f3f2f1')",
+                    "padding": "0 7px",
+                    "border-radius": "2px",
+                    "font-size": "12px",
+                    "margin-bottom": "15px",
+                    "margin-top": "-8px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "color": "#333333",
+                        "display": "inline",
+                        "padding-left": "1px"
+                      },
+                      "txtContent": "Status: "
+                    },
+                    {
+                      "elmType": "span",
+                      "style": {
+                        "display": "inline"
+                      },
+                      "txtContent": "[$Status]"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "color": "#666666",
+                    "display": "block"
+                  },
+                  "children": [
+                    {
+                      "forEach": "personIterator in [$Owner]",
+                      "elmType": "div",
+                      "style": {
+                        "width": "32px",
+                        "height": "32px",
+                        "overflow": "hidden",
+                        "border-radius": "50%",
+                        "display": "inline-block",
+                        "vertical-align": "middle"
+                      },
+                      "children": [
+                        {
+                          "elmType": "img",
+                          "attributes": {
+                            "src": {
+                              "operator": "+",
+                              "operands": [
+                                "/_layouts/15/userphoto.aspx?size=M&accountname=",
+                                "[$personIterator.email]"
+                              ]
+                            },
+                            "title": "[$personIterator.title]"
+                          },
+                          "style": {
+                            "position": "relative",
+                            "top": "50%",
+                            "left": "50%",
+                            "width": "100%",
+                            "margin-left": "-50%",
+                            "margin-top": "-50%"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "display": "inline-block",
+                        "color": "#333333",
+                        "font-size": "14px",
+                        "padding-left": "8px",
+                        "vertical-align": "middle"
+                      },
+                      "txtContent": "[$personIterator.title]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "100%",
+                "height": "32px",
+                "padding": "0 0 0 16px",
+                "position": "absolute",
+                "bottom": "10px",
+                "justify-content": "space-around"
+              },
+              "children": [
+                {
+                  "elmType": "button",
+                  "customRowAction": {
+                    "action": "executeFlow",
+                    "actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
+                  },
+                  "attributes": {
+                    "title": "Approve"
+                  },
+                  "style": {
+                    "padding": "0px 16px",
+                    "height": "32px",
+                    "margin-right": "8px",
+                    "font-size": "14px",
+                    "border-radius": "2px",
+                    "cursor": "=if([$Status] == 'Ready for Review', 'pointer', 'not-allowed')",
+                    "border": "none",
+                    "color": "=if([$Status] == 'Ready for Review', '#FFF', '#A19F9D')",
+                    "font-weight": "600",
+                    "background-color": "=if([$Status] == 'Ready for Review', '#0078d4', '#f3f2f1')"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "Approve"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "button",
+                  "customRowAction": {
+                    "action": "editProps"
+                  },
+                  "attributes": {
+                    "title": "Participating locations"
+                  },
+                  "style": {
+                    "height": "32px",
+                    "padding": "0 16px",
+                    "color": "#333",
+                    "border": "1px solid #8a8886",
+                    "background-color": "white",
+                    "cursor": "pointer",
+                    "font-size": "14px",
+                    "font-weight": "600",
+                    "line-height": "1.4",
+                    "border-radius": "2px"
+                  },
+                  "children": [
+                    {
+                      "elmType": "span",
+                      "txtContent": "Participating locations"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 # SVG icons
 
 ## Summary
-The [UI Fabric icons](https://developer.microsoft.com/en-us/fabric#/styles/icons) are easy to use in column formatting by simply specifying the name in the `iconName` attribute. However, the available selection of icons may not always meet your needs.
+The [Fluent UI icons](https://flicon.io) are easy to use in column formatting by simply specifying the name in the `iconName` attribute. However, the available selection of icons may not always meet your needs.
 
 Fortunately, you can use inline SVG elements with custom paths. This means you can use icons from sources like Font Awesome that provide SVG versions of their icons!
 
@@ -17,8 +17,6 @@ The pattern of using nested conditional operators with equality operators is the
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-> Currently, column formatting does not support the `viewbox` attribute which causes issues with SVGs that rely on it to properly scale (basically all of them). You'll need to adjust the page size to have the path coordinates drawing at a 1:1 scale instead of relying on viewbox translation. One approach is to use a tool like [Inkscape](https://inkscape.org/en/release/) using the approach described here [Use Font Awesome icons in Column Formatting](https://thechriskent.com/2018/03/25/use-font-awesome-icons-in-column-formatting/).
-
 ## View requirements
 - This format can be applied to a text/choice column and uses the values Female, Male, or anything else
 
@@ -26,7 +24,7 @@ The pattern of using nested conditional operators with equality operators is the
 
 Solution|Author(s)
 --------|---------
-generic-svgicon-format.json | [Chris Kent](https://twitter.com/thechriskent)
+generic-svgicon-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
 
@@ -46,6 +44,8 @@ The icons used were adapted from Font Awesome which is available under the [Crea
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
+- [Use Font Awesome icons in Column Formatting](https://thechriskent.com/2018/03/25/use-font-awesome-icons-in-column-formatting/).
+
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-svgicon-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-svgicon-format" />
