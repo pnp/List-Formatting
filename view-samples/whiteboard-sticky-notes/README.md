@@ -4,7 +4,7 @@
 
 This sample creates a whiteboard-styled sticky notes that displays information. The sticky notes have two sides, so when clicked they show another piece of information.
 
-![List screenshot(./assets/Whiteboard sticky notes.gif)
+![screenshot of the sample](./assets/Whiteboardstickynotes.gif)
 
 ## View requirements
 
