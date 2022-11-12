@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "style": {
+    "border-radius": "5px",
+    "margin": "5px 0px",
+    "padding": "0px",
+    "border": "none"
+  },
+  "attributes": {
+    "class": "ms-bgColor-themePrimary"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "style": {
+        "text-decoration": "none",
+        "padding": "12px 0px",
+        "width": "100%"
+      },
+      "attributes": {
+        "href": "= @currentWeb + '/_layouts/15/download.aspx?sourceurl=' + [$Image.serverRelativeUrl]",
+        "target": "_blank",
+        "class": "ms-fontColor-white ms-fontSize-m"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "display": "inline-block",
+            "padding": "0 4px"
+          },
+          "attributes": {
+            "iconName": "Download"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "Download"
+        }
+      ]
+    }
+  ]
+}
