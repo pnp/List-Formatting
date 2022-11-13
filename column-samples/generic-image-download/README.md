@@ -18,7 +18,7 @@ This format can be applied to any column type (its value is ignored). However, i
 
 Solution|Author(s)
 --------|---------
-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
+generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
 
 ## Version history
 
