@@ -8,7 +8,11 @@ This sample demonstrates adding a button within a SharePoint Online/Microsoft Li
 
 ## View requirements
 
-This format can be applied to any column type (its value is ignored).
+This format can be applied to any column type (its value is ignored). However, it is expected that the following one column is part of the view.
+
+|Type  |Internal Name |Required|
+|------|--------------|:------:|
+|Image |Image         |No      |
 
 ## Sample
 
@@ -26,4 +30,4 @@ Version |Date          |Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-download" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-image-download" />

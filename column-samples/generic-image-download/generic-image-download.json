@@ -5,7 +5,8 @@
     "border-radius": "5px",
     "margin": "5px 0px",
     "padding": "0px",
-    "border": "none"
+    "border": "none",
+    "display": "=if([$Image.serverRelativeUrl]=='','none','')"
   },
   "attributes": {
     "class": "ms-bgColor-themePrimary"

@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-image-download",
-    "reponame": "image-download",
+    "name": "pnp-list-formatting-generic-image-download",
+    "reponame": "generic-image-download",
     "source": "pnp",
     "title": "Download Image from SharePoint Image column",
     "shortDescription": "This sample demonstrates adding a button within a SharePoint Online/Microsoft Lists view which downloads the image from image column.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/image-download",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-image-download",
     "longDescription": [
       "This sample demonstrates adding a button within a SharePoint Online/Microsoft Lists view which downloads the image from image column."
     ],
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/image-download/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-image-download/assets/screenshot.png",
         "alt": "image-download"
       }
     ],
