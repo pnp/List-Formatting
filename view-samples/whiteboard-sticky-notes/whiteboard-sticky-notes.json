@@ -1,92 +1,85 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
-    "height": "220",
-    "width": 200,
-    "hideSelection": false,
-    "fillHorizontally": false,
-    "formatter": {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": "220",
+  "width": 200,
+  "hideSelection": false,
+  "fillHorizontally": false,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-card sp-card-borderHighlight"
+    },
+    "style": {
+      "width": "200px",
+      "height": "220px",
+      "border-radius": "5px",
+      "background-color": "[$Color]",
+      "white-space": "normal",
+      "padding": "4px 4px 4px 4px",
+      "font-size": "13px",
+      "flex-direction": "column",
+      "justify-content": "center"
+    },
+    "children": [
+      {
         "elmType": "div",
         "attributes": {
-            "class": "sp-row-card sp-card-borderHighlight"
-        },
-        "style": {
-            "width": "200px",
-            "height": "220px",
-            "border-color": "[$Color]",
-            "border-style": "solid",
-            "border-width": "1.5px",
-            "border-radius": "5px",
-            "background-color": "[$Color]",
-            "white-space": "normal",
-            "padding": "4px 4px 4px 4px",
-            "font-size": "13px",
-            "flex-direction": "column",
-            "justify-content": "center"
+          "class": "sp-css-borderColor-neutralLight sp-card-subContainer"
         },
         "children": [
-            {
+          {
+            "elmType": "div",
+            "style": {
+              "justify-content": "center",
+              "flex-direction": "row"
+            },
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
                 "elmType": "div",
-                "attributes": {
-                    "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-subContainer"
+                "style": {
+                  "white-space": "normal",
+                  "padding": "4px 4px 4px 4px",
+                  "font-size": "=if(@isSelected==true, , '16px', '18px')",
+                  "font-weight": "500",
+                  "color": "black",
+                  "justify-content": "center",
+                  "flex-direction": "column",
+                  "align-items": "center"
                 },
+                "attributes": {
+                  "title": "[$Title]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"
+                },
+                "txtContent": "=if(@isSelected==true, '[$About]', if([$Title]!='Empty', '[$Title]', ''))"
+              },
+              {
+                "elmType": "div",
                 "children": [
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "justify-content": "center",
-                            "flex-direction": "row"
-                        },
-                        "attributes": {
-                            "class": "sp-card-displayColumnContainer"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "background-color": "[$Color]",
-                                    "white-space": "normal",
-                                    "padding": "4px 4px 4px 4px",
-                                    "font-size": "=if(@isSelected==true, , '16px', '18px')",
-                                    "font-weight": "500",
-                                    "color": "black",
-                                    "justify-content": "center",
-                                    "flex-direction": "column",
-                                    "align-items": "center"
-                                },
-                                "attributes": {
-                                    "title": "[$Title]",
-                                    "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"
-                                },
-                                "txtContent": "=if(@isSelected==true, '[$About]', if([$Title]!='Empty', '[$Title]', ''))"
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "background-color": "[$Color]"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "a",
-                                        "attributes": {
-                                            "title": "Learn more",
-                                            "href": "[$Link]",
-                                            "target": "=if ([$Link] == '', '', '_blank')"
-                                        },
-                                        "style": {
-                                            "padding": "4px",
-                                            "color": "#2952FC",
-                                            "pointer-events": "=if ([$Link] == '', 'none', 'auto')",
-                                            "text-decoration": "=if ([$Link] == '', 'none', 'auto')",
-                                            "display": "=if(@isSelected==true && [$Link] != '',  'inline', 'none')"
-                                        },
-                                        "txtContent": "[$Link.desc]"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "title": "Learn more",
+                      "href": "[$Link]",
+                      "target": "=if([$Link] == '', '', '_blank')"
+                    },
+                    "style": {
+                      "padding": "4px",
+                      "color": "#2952FC",
+                      "pointer-events": "=if([$Link] == '', 'none', 'auto')",
+                      "text-decoration": "=if([$Link] == '', 'none', 'auto')",
+                      "display": "=if(@isSelected==true && [$Link] != '',  'inline', 'none')"
+                    },
+                    "txtContent": "[$Link.desc]"
+                  }
                 ]
-            }
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
