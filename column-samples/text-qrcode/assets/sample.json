@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-text-qrcode",
     "reponame": "text-qrcode",
     "source": "pnp",
-    "title": "",
+    "title": "Display QR Code",
     "shortDescription": "This sample demonstrates the use of TEC-IT's service to convert column value text into a QR code and display it.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-qrcode",
     "longDescription": [
