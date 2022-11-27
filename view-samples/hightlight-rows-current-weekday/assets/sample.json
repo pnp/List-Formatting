@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-hightlight-rows-current-weekday",
+    "reponame": "hightlight-rows-current-weekday",
+    "source": "pnp",
+    "title": "Hightlight rows on current day of the week",
+    "shortDescription": "Hightlight rows in a view differently on different days of the week.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/hightlight-rows-current-weekday",
+    "longDescription": [
+      "Hightlight rows in a view differently on different days of the week."
+    ],
+    "creationDateTime": "2022-11-27T00:00:00.000Z",
+    "updateDateTime": "2022-11-27T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "floor, Number, Date"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "additionalRowClass"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeLighter, ms-bgColor-themeLight--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/Sunday.png",
+        "alt": "View on a Sunday"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/Wednesday.png",
+        "alt": "View on a Wednesday"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "365Knoten",
+        "pictureUrl": "https://github.com/365knoten.png",
+        "name": "Sven Sieverding"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
