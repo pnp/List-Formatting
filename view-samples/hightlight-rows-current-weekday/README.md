@@ -1,7 +1,8 @@
 # Hightlight rows on current day of the week
 
 ## Summary
-This sample demonstrates formatting items differently based on the current day of the week. 
+This is a sample that demonstrates how to apply formatting to list columns based on the current day of the week.
+So the same view is formatted differently on a Sunday than on a Wednesday.
 
 As there is no default "WEEKDAY" function in list formatting we are using the datestamp and some math to calculate the day of the week manually.
 
@@ -53,4 +54,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/clipboards" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/hightlight-rows-current-weekday" />
