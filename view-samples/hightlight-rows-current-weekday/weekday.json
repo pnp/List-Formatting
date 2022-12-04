@@ -1,4 +1,4 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-  "additionalRowClass": "=if([$DayOfWeek] == ((floor(Number(Date(@now))/ 86400 / 1000)+4) % 7),'ms-bgColor-themeLighter ms-bgColor-themeLight--hover','')"
+  "additionalRowClass": "=if([$DayOfWeek] == (floor(((Number(Date(@now))+1577836800000-Number(Date('01.01.2020')))/ 86400 / 1000)+4) % 7),'ms-bgColor-themeLighter ms-bgColor-themeLight--hover','')"
 }

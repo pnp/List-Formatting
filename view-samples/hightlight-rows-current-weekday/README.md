@@ -1,17 +1,51 @@
 # Hightlight rows on current day of the week
 
 ## Summary
-This is a sample that demonstrates how to apply formatting to list columns based on the current day of the week.
-So the same view is formatted differently on a Sunday than on a Wednesday.
+This sample demonstrates formatting items differently based on the current day of the week. 
 
-As there is no default "WEEKDAY" function in list formatting we are using the datestamp and some math to calculate the day of the week manually.
+As there is no default "WEEKDAY" function in list formatting, we use the datestamp and some math to calculate the day of the week manually.
 
-> floor(Number(Date(@now))/ 86400 / 1000)+4) % 7
+## The Math
+
+The expression
+>=Number(Date(@now))
+
+gives us the number of milliseconds since Thursday, 01/01/1970 UTC and
+
+>=floor(Number(Date(@now))/ 86400 / 1000)
+
+the number of days since that date.
+
+As "01/01/1970 UTC" was a Thursday, we now need to add 4 to that to select Sunday as the start of the week. Now we can use modulo-7 to get the day of the week in UTC.
+
+>=(floor(Number(Date(@now))/ 86400 / 1000)+4) % 7
+
+But this gives us the current day of the week right now in London.
+
+To adjust that to your local timezone, we need to add the difference in milliseconds between your local time of 00:00 and UTC's time of 00:00. I calculate that by subtracting the time in milliseconds from a local UTC timestamp of "01.01.2020" from 1577836800000 (the UTC time in milliseconds of "01.01.2020")
+
+> =1577836800000-Number(Date('01.01.2020')
+
+Putting it all together we get the following formula to calculate the local day of the week
+
+>=(floor(((Number(Date(@now))+1577836800000-Number(Date('01.01.2020')))/ 86400 / 1000)+4) % 7
+
+This formula is used in the sample.
+
+## by the way
+
+Using the same math you can easily calculate your local offset in hours from UTC.
+
+>=floor((1577836800001-Number(Date('01.01.2020')))/3600 / 1000)
+
+(I added 1 to 1577836800000 and used the floor function to make sure that we don't get a "Division by Zero" error)
 
 
 ### Screenshots
 
+
 ![On a Sunday](./assets/Sunday.png)
+
 
 ![On a Wednesday](./assets/Wednesday.png)
 
@@ -54,4 +88,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/hightlight-rows-current-weekday" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/clipboards" />
