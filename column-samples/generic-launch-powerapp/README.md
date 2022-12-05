@@ -11,24 +11,31 @@ Providing a direct link to an item within Power Apps is easy to do using this sa
 1. Login to [Power Apps](https://make.powerapps.com)
 2. In your list of Apps, using the 3 dot context menu choose Details
 3. Right-click on the Web link and choose Copy 
-![Copy Link in Power Apps](./CopyPALink.png)
+
+![Copy Link in Power Apps](./assets/CopyPALink.png)
+
 4. Replace the first part of the `href` value in the format (up to the `&hidenavbar` portion)
 
 ### Handling the itemId in your Power App
 
-Deep linking in Power Apps is beyond the scope of this sample, but here's an example of how it might be handled in the `OnStart` event of the App:
+Deep linking in Power Apps is beyond the scope of this sample, but here's an example of how you might be handle it in a Canvas App:
 
+**App.OnStart**
 ```
 If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")),
     Set(BattleItem, LookUp(Battles,ID=Value(Param("itemId"))));
-    Navigate(scrSpoilz,ScreenTransition.None)
 )
+```
+
+**App.StartScreen**
+```
+If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")), scrDetail, scrHome)
 ```
 
 ## View requirements
 - This format can be applied to any column type (its value is ignored)
 
-> Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This prevents the fields from being part of your edit/new forms.
+> Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This prevents the fields from storing data. You can also exclude them from your form by using a Conditional expression of `=false`.
 
 ## Sample
 
