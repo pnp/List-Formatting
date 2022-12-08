@@ -57,13 +57,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/Sunday.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/screenshot-sunday.png",
         "alt": "View on a Sunday"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/Wednesday.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/screenshot-wednesday.png",
         "alt": "View on a Wednesday"
       }
     ],
