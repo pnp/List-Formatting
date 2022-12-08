@@ -1,13 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-hightlight-rows-current-weekday",
-    "reponame": "hightlight-rows-current-weekday",
+    "name": "pnp-list-formatting-highlight-rows-current-weekday",
+    "reponame": "highlight-rows-current-weekday",
     "source": "pnp",
-    "title": "Hightlight rows on current day of the week",
-    "shortDescription": "Hightlight rows in a view differently on different days of the week.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/hightlight-rows-current-weekday",
+    "title": "Highlight rows on current day of the week",
+    "shortDescription": "Highlight rows in a view differently on different days of the week.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/highlight-rows-current-weekday",
     "longDescription": [
-      "Hightlight rows in a view differently on different days of the week."
+      "Highlight rows in a view differently on different days of the week."
     ],
     "creationDateTime": "2022-11-27T00:00:00.000Z",
     "updateDateTime": "2022-11-27T00:00:00.000Z",
@@ -57,13 +57,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/screenshot-sunday.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/highlight-rows-current-weekday/assets/screenshot-sunday.png",
         "alt": "View on a Sunday"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/hightlight-rows-current-weekday/assets/screenshot-wednesday.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/highlight-rows-current-weekday/assets/screenshot-wednesday.png",
         "alt": "View on a Wednesday"
       }
     ],

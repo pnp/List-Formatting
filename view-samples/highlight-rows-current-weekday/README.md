@@ -1,9 +1,7 @@
-# Hightlight rows on current day of the week
+# Highlight rows on current day of the week
 
 ## Summary
-This sample demonstrates formatting items differently based on the current day of the week.
-
-As there is no default "WEEKDAY" function in list formatting, we use the datestamp and some math to calculate the day of the week manually.
+This sample demonstrates formatting items differently based on the current day of the week. As there is no default "WEEKDAY" function in list formatting, we use the date stamp and some math to calculate the day of the week manually.
 
 ![screenshot of the sample (on a Sunday)](./assets/screenshot-sunday.png)
 
@@ -26,7 +24,7 @@ As "01/01/1970 UTC" was a Thursday, we now need to add 4 to that to select Sunda
 
 But this gives us the current day of the week right now in London.
 
-To adjust that to your local timezone, we need to add the difference in milliseconds between your local time of 00:00 and UTC's time of 00:00. I calculate that by subtracting the time in milliseconds from a local UTC timestamp of "01.01.2020" from 1577836800000 (the UTC time in milliseconds of "01.01.2020")
+To adjust that to your local time zone, we need to add the difference in milliseconds between your local time of 00:00 and UTC's time of 00:00. I calculate that by subtracting the time in milliseconds from a local UTC timestamp of "01.01.2020" from 1577836800000 (the UTC time in milliseconds of "01.01.2020")
 
 > =1577836800000-Number(Date('01.01.2020')
 
@@ -51,7 +49,7 @@ The format expect the following fields:
 |---|---|
 |Number|DayOfWeek|
 
-Insert the following numbers into the fields to hightlight the row on the current day of the week:
+Insert the following numbers into the fields to highlight the row on the current day of the week:
 
 Day of the week |Number
 --------|---------
@@ -67,7 +65,7 @@ Saturday | 6
 
 Solution|Author(s)
 --------|---------
-hightlight-rows-current-weekday.json | [Sven Sieverding](https://github.com/365knoten)
+highlight-rows-current-weekday.json | [Sven Sieverding](https://github.com/365knoten)
 
 ## Version history
 
@@ -78,4 +76,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/clipboards" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/highlight-rows-current-weekday" />
