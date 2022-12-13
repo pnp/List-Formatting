@@ -4,10 +4,10 @@
     "reponame": "vertical-mega-menu",
     "source": "pnp",
     "title": "Vertical Mega Menu",
-    "shortDescription": "This sample demonstrates the use of the split operator to display a vertical mega menu.",
+    "shortDescription": "This sample demonstrates the use of multi lines of text column value and the split operator to display a vertical mega menu.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/vertical-mega-menu",
     "longDescription": [
-      "This sample demonstrates the use of the split operator to display a vertical mega menu."
+      "This sample demonstrates the use of multi lines of text column value and the split operator to display a vertical mega menu."
     ],
     "creationDateTime": "2022-12-13T00:00:00.000Z",
     "updateDateTime": "2022-12-13T00:00:00.000Z",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "split, indexOf, substring"
+        "value": "split, indexOf, substring, replaceAll"
       },
       {
         "key": "FORMATTING-ACTIONS",
