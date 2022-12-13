@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates the use of the `split` operator to display a vertical mega menu.
+This sample demonstrates the use of multi lines of text column value and the `split` operator to display a vertical mega menu.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -11,11 +11,11 @@ This sample demonstrates the use of the `split` operator to display a vertical m
 |Type                |Internal Name|Required|
 |--------------------|-------------|:------:|
 |Single line of text |Title        |Yes     |
-|Multi lines of text |Menu         |Yes     |
 |Single line of text |Icon         |Yes     |
+|Multi lines of text |Menu         |Yes     |
 
-- Set the name of the [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons) in the `Icon` field.
-- Set the `Menu` field to a value similar to the following.
+- Set the icon name of [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons) in the `Icon` column.
+- Set the `Menu` column to a value like the following.
 ```
 @@@[Header]
 >[Link Text]|[URL]
@@ -29,7 +29,7 @@ This sample demonstrates the use of the `split` operator to display a vertical m
 
 > Note: Do not set `>` and `|`, which are used as delimiters, to [Header] and [Link Text].
 
-- The following is an example of a `Menu` field value.
+- The following is an example of the value of the `Menu` column.
 ```
 @@@Samples
 >Power Platform Samples|https://pnp.github.io/powerplatform-samples/
