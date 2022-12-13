@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-vertical-mega-menu",
+    "reponame": "vertical-mega-menu",
+    "source": "pnp",
+    "title": "Vertical Mega Menu",
+    "shortDescription": "This sample demonstrates the use of multi lines of text column value and the split operator to display a vertical mega menu.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/vertical-mega-menu",
+    "longDescription": [
+      "This sample demonstrates the use of multi lines of text column value and the split operator to display a vertical mega menu."
+    ],
+    "creationDateTime": "2022-12-13T00:00:00.000Z",
+    "updateDateTime": "2022-12-13T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@window.innerWidth"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "split, indexOf, substring, replaceAll"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-neutralPrimaryAlt, ms-fontColor-themePrimary--hover, ms-bgColor-themeLighter--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/vertical-mega-menu/assets/screenshot.png",
+        "alt": "Vertical Mega Menu"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
