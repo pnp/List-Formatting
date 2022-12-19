@@ -1,1 +1,1502 @@
-
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 1200,
+  "height": 1240,
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "background-color": "=if([$BACKGROUND.fileName] != '', 'transparent', '#ebecff')",
+      "display": "flex",
+      "align-items": "flex-start",
+      "justify-content": "center"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "=if([$BACKGROUND.fileName] != '', [$BACKGROUND.serverUrl] + [$BACKGROUND.serverRelativeUrl], '')"
+        },
+        "style": {
+          "height": "100%",
+          "position": "absolute",
+          "object-fit": "cover",
+          "opacity": "0.65"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative",
+          "margin-top": "14px",
+          "width": "1052px",
+          "max-height": "1200px",
+          "background-color": "#9c9c9c",
+          "box-sizing": "border-box",
+          "overflow": "hidden",
+          "border-left": "solid 1px #9c9c9c",
+          "border-right": "solid 1px #9c9c9c",
+          "border-top": "solid 1px #9c9c9c",
+          "border-bottom": "solid 1px #9c9c9c",
+          "box-shadow": "=if([$BACKGROUND.fileName] != '','5px 5px 12px -4px #404040', '5px 5px 12px -4px #979AFF')",
+          "border-radius": "10px",
+          "display": "=if([$ID] !='1', 'block', 'none')"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "z-index": "1",
+              "box-sizing": "border-box",
+              "width": "150px",
+              "height": "150px",
+              "margin-top": "100px",
+              "margin-left": "50px",
+              "background-color": "white",
+              "border-left": "solid 1px #D8D8D8",
+              "border-right": "solid 1px #D8D8D8",
+              "border-top": "solid 1px #D8D8D8",
+              "border-bottom": "solid 1px #D8D8D8",
+              "border-radius": "50%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "='/_layouts/15/userphoto.aspx?size=L&accountname=' +[$Author.email]"
+                },
+                "style": {
+                  "width": "138px",
+                  "border-radius": "50%"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "box-sizing": "border-box",
+              "width": "1052px",
+              "height": "200px",
+              "overflow": "hidden",
+              "background-color": "white",
+              "border-radius": "10px 10px 0px 0px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=if([$COVER.fileName] != '', [$COVER.serverUrl] + [$COVER.serverRelativeUrl], '')"
+                },
+                "style": {
+                  "position": "absolute",
+                  "z-index": "0",
+                  "margin": "auto",
+                  "width": "1052px",
+                  "height": "200px",
+                  "object-fit": "cover",
+                  "border-radius": "10px 10px 0px 0px"
+                }
+              },
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "sp-field-bold ms-fontSize-32 sp-css-color-neutralTertiary"
+                },
+                "style": {
+                  "position": "absolute",
+                  "z-index": "0",
+                  "width": "1052px",
+                  "height": "200px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "cursor": "pointer"
+                },
+                "txtContent": "=if([$COVER.fileName] != '', '', 'Click to add your cover')",
+                "customRowAction": {
+                  "action": "defaultClick"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "box-sizing": "border-box",
+              "display": "block",
+              "width": "1052px",
+              "max-height": "1000px",
+              "background-color": "white",
+              "border-radius": "0px 0px 10px 10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "1052px",
+                  "height": "50px",
+                  "display": "flex",
+                  "align-items": "flex-end",
+                  "justify-content": "left",
+                  "background-color": ""
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "536px",
+                      "height": "50px",
+                      "margin-left": "200px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "flex-wrap": "wrap"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "width": "536px",
+                          "height": "34px",
+                          "display": "block",
+                          "padding-top": "5px",
+                          "white-space": "nowrap",
+                          "text-overflow": "ellipsis",
+                          "overflow": "hidden",
+                          "font-size": "22px",
+                          "color": "#5b5fc7"
+                        },
+                        "attributes": {
+                          "class": "sp-field-bold"
+                        },
+                        "txtContent": "[$Author.title]"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "536px",
+                          "height": "16px",
+                          "box-sizing": "border-box",
+                          "display": "flex",
+                          "padding-bottom": "2px",
+                          "align-items": "center",
+                          "font-size": "16px",
+                          "color": "grey"
+                        },
+                        "txtContent": "[$Author.department]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "margin-right": "16px",
+                      "margin-left": "16px",
+                      "width": "40px",
+                      "height": "40px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "href": "https://www.office.com",
+                      "target": "_blank",
+                      "title": "Open the Microsoft 365 app"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "38px",
+                          "height": "38px"
+                        },
+                        "attributes": {
+                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Office-Icon.svg"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "margin-right": "16px",
+                      "width": "40px",
+                      "height": "40px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "href": "[$YAMMER_PROFILE]",
+                      "target": "_blank",
+                      "title": "Open this Yammer profile"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "40px",
+                          "height": "40px"
+                        },
+                        "attributes": {
+                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Yammer-Icon.svg"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "margin-right": "16px",
+                      "width": "40px",
+                      "height": "40px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "38px",
+                          "height": "38px"
+                        },
+                        "attributes": {
+                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Share-Icon.svg",
+                          "title": "Share this profile"
+                        }
+                      }
+                    ],
+                    "customRowAction": {
+                      "action": "share"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "margin-right": "16px",
+                      "width": "40px",
+                      "height": "40px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "38px",
+                          "height": "38px"
+                        },
+                        "attributes": {
+                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Profile-Icon.svg"
+                        }
+                      }
+                    ],
+                    "defaultHoverField": "[$Author]"
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "title": "Change cover and background"
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "40px",
+                      "height": "40px",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "defaultClick"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "width": "38px",
+                          "height": "38px"
+                        },
+                        "attributes": {
+                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Edit-Icon.svg"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "952px",
+                  "margin-left": "50px",
+                  "height": "50px",
+                  "display": "flex",
+                  "align-items": "flex-end",
+                  "justify-content": "left"
+                },
+                "attributes": {
+                  "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                },
+                "txtContent": "About me"
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$ABOUT_ME]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "border-radius": "6px",
+                  "padding": "2px 6px 6px 6px",
+                  "position": "relative",
+                  "width": "952px",
+                  "margin-left": "50px",
+                  "min-height": "26px",
+                  "max-height": "200px",
+                  "overflow": "hidden",
+                  "--inline-editor-border-color": "transparent transparent transparent transparent",
+                  "cursor": "text"
+                },
+                "attributes": {
+                  "class": "sp-field-fontSize17 sp-css-color-BlackText ms-bgColor-themeLighterAlt--hover",
+                  "title": "[$ABOUT_ME]"
+                },
+                "txtContent": "[$ABOUT_ME]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "952px",
+                  "margin-left": "50px",
+                  "height": "50px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "left"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "Projects"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "margin-right": "20px",
+                      "width": "25px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "visibility": "=if(length([$PROJECTS]) > 0, 'visible', 'hidden')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "NavigateExternalInline",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customCardProps": {
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "max-width": "600px",
+                          "overflow": "hidden",
+                          "display": "block",
+                          "box-sizing": "border-box",
+                          "border-radius": "6px",
+                          "border": "solid 3px #b285d4",
+                          "background-color": "white"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "height": "60px",
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "box-sizing": "border-box",
+                              "margin": "0px",
+                              "padding": "0px",
+                              "color": "#582a73",
+                              "font-size": "22px",
+                              "font-weight": "700"
+                            },
+                            "txtContent": "='[!PROJECTS.DisplayName]' + ' - ' + 'Overview'"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "width": "100%",
+                              "display": "flex",
+                              "flex-wrap": "wrap",
+                              "justify-content": "center",
+                              "margin": "0px 0px 40px 0px",
+                              "padding": "0px 6px 8px 6px"
+                            },
+                            "children": [
+                              {
+                                "forEach": "__INTERNAL__ in [$PROJECTS]",
+                                "elmType": "div",
+                                "style": {
+                                  "box-sizing": "content-box",
+                                  "background-color": "#e6c4ff",
+                                  "word-wrap": "break-word",
+                                  "overflow": "hidden",
+                                  "padding": "5px 10px 5px 10px",
+                                  "border-radius": "16px",
+                                  "max-height": "40px",
+                                  "margin": "8px 4px 0px 4px",
+                                  "box-shadow": "2px 2px 2px #b285d4"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-fontSize15 sp-css-color-black",
+                                  "title": "[$__INTERNAL__]"
+                                },
+                                "txtContent": "[$__INTERNAL__]"
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "flex-end",
+                              "box-sizing": "border-box",
+                              "padding-top": "5px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "width": "100%"
+                                },
+                                "attributes": {
+                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Violet-Clip.svg"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "openOnEvent": "hover",
+                      "directionalHint": "bottomCenter",
+                      "isBeakVisible": true,
+                      "beakStyle": {
+                        "backgroundColor": "#b285d4"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "margin-left": "20px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "Skills and Expertise"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "width": "25px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "visibility": "=if(length([$SKILLS_EXPERTISE]) > 0, 'visible', 'hidden')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "NavigateExternalInline",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customCardProps": {
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "max-width": "600px",
+                          "overflow": "hidden",
+                          "display": "block",
+                          "box-sizing": "border-box",
+                          "border-radius": "6px",
+                          "border": "solid 3px #90b3e8",
+                          "background-color": "white"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "height": "60px",
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "box-sizing": "border-box",
+                              "margin": "0px",
+                              "padding": "0px",
+                              "color": "#294671",
+                              "font-size": "22px",
+                              "font-weight": "700"
+                            },
+                            "txtContent": "='[!SKILLS_EXPERTISE.DisplayName]' + ' - ' + 'Overview'"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "width": "100%",
+                              "display": "flex",
+                              "flex-wrap": "wrap",
+                              "justify-content": "center",
+                              "margin": "0px 0px 40px 0px",
+                              "padding": "0px 6px 8px 6px"
+                            },
+                            "children": [
+                              {
+                                "forEach": "__INTERNAL__ in [$SKILLS_EXPERTISE]",
+                                "elmType": "div",
+                                "style": {
+                                  "box-sizing": "content-box",
+                                  "background-color": "#cce0ff",
+                                  "word-wrap": "break-word",
+                                  "overflow": "hidden",
+                                  "padding": "5px 10px 5px 10px",
+                                  "border-radius": "16px",
+                                  "max-height": "40px",
+                                  "margin": "8px 4px 0px 4px",
+                                  "box-shadow": "2px 2px 2px #90b3e8"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-fontSize15 sp-css-color-black",
+                                  "title": "[$__INTERNAL__]"
+                                },
+                                "txtContent": "[$__INTERNAL__]"
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "flex-end",
+                              "box-sizing": "border-box",
+                              "padding-top": "5px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "width": "100%"
+                                },
+                                "attributes": {
+                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Blue-Clip.svg"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "openOnEvent": "hover",
+                      "directionalHint": "bottomCenter",
+                      "isBeakVisible": true,
+                      "beakStyle": {
+                        "backgroundColor": "#90b3e8"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "border-radius": "6px",
+                  "position": "relative",
+                  "width": "964px",
+                  "margin": "0px 44px 0px 44px",
+                  "max-height": "190px",
+                  "display": "flex",
+                  "align-items": "flex-start",
+                  "justify-content": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "inlineEditField": "[$PROJECTS]",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "60px",
+                      "max-height": "190px",
+                      "margin-right": "12px",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "justify-content": "flex-start",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "attributes": {
+                      "class": "sp-css-backgroundColor-BgLilac30--hover"
+                    },
+                    "children": [
+                      {
+                        "forEach": "__INTERNAL__ in [$PROJECTS]",
+                        "elmType": "div",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "background-color": "#e6c4ff",
+                          "max-width": "386px",
+                          "padding": "2px 10px 0px 10px",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "white-space": "nowrap",
+                          "border-radius": "16px",
+                          "height": "28px",
+                          "margin": "8px 4px 0px 4px",
+                          "box-shadow": "2px 2px 2px #b285d4"
+                        },
+                        "attributes": {
+                          "class": "sp-field-fontSize15 sp-css-color-black",
+                          "title": "[$__INTERNAL__]"
+                        },
+                        "txtContent": "[$__INTERNAL__]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "inlineEditField": "[$SKILLS_EXPERTISE]",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "60px",
+                      "max-height": "190px",
+                      "margin-left": "12px",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "justify-content": "flex-end",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-themeLighterAlt--hover"
+                    },
+                    "children": [
+                      {
+                        "forEach": "__INTERNAL__ in [$SKILLS_EXPERTISE]",
+                        "elmType": "div",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "background-color": "#cce0ff",
+                          "max-width": "386px",
+                          "padding": "2px 10px 0px 10px",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "white-space": "nowrap",
+                          "border-radius": "16px",
+                          "height": "28px",
+                          "margin": "8px 4px 0px 4px",
+                          "box-shadow": "2px 2px 2px #90b3e8"
+                        },
+                        "attributes": {
+                          "class": "sp-field-fontSize15 sp-css-color-black",
+                          "title": "[$__INTERNAL__]"
+                        },
+                        "txtContent": "[$__INTERNAL__]"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "952px",
+                  "margin-top": "10px",
+                  "margin-left": "50px",
+                  "height": "50px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "left"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "Schools and Education"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "margin-right": "20px",
+                      "width": "25px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "visibility": "=if(length([$SCHOOLS_EDUCATION]) > 0, 'visible', 'hidden')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "NavigateExternalInline",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customCardProps": {
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "max-width": "600px",
+                          "overflow": "hidden",
+                          "display": "block",
+                          "box-sizing": "border-box",
+                          "border-radius": "6px",
+                          "border": "solid 3px #69d1b8",
+                          "background-color": "white"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "height": "60px",
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "box-sizing": "border-box",
+                              "margin": "0px",
+                              "padding": "0px",
+                              "color": "#2a7261",
+                              "font-size": "22px",
+                              "font-weight": "700"
+                            },
+                            "txtContent": "='[!SCHOOLS_EDUCATION.DisplayName]' + ' - ' + 'Overview'"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "width": "100%",
+                              "display": "flex",
+                              "flex-wrap": "wrap",
+                              "justify-content": "center",
+                              "margin": "0px 0px 40px 0px",
+                              "padding": "0px 6px 8px 6px"
+                            },
+                            "children": [
+                              {
+                                "forEach": "__INTERNAL__ in [$SCHOOLS_EDUCATION]",
+                                "elmType": "div",
+                                "style": {
+                                  "box-sizing": "content-box",
+                                  "background-color": "#b8fcec",
+                                  "word-wrap": "break-word",
+                                  "overflow": "hidden",
+                                  "padding": "5px 10px 5px 10px",
+                                  "border-radius": "16px",
+                                  "max-height": "40px",
+                                  "margin": "8px 4px 0px 4px",
+                                  "box-shadow": "2px 2px 2px #69d1b8"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-fontSize15 sp-css-color-black",
+                                  "title": "[$__INTERNAL__]"
+                                },
+                                "txtContent": "[$__INTERNAL__]"
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "flex-end",
+                              "box-sizing": "border-box",
+                              "padding-top": "5px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "width": "100%"
+                                },
+                                "attributes": {
+                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Green-Clip.svg"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "openOnEvent": "hover",
+                      "directionalHint": "bottomCenter",
+                      "isBeakVisible": true,
+                      "beakStyle": {
+                        "backgroundColor": "#69d1b8"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "margin-left": "20px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "Badges and Certifications"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "width": "25px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "visibility": "=if(length([$BADGES_CERTIFICATIONS]) > 0, 'visible', 'hidden')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "NavigateExternalInline",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customCardProps": {
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "max-width": "600px",
+                          "overflow": "hidden",
+                          "display": "block",
+                          "box-sizing": "border-box",
+                          "border-radius": "6px",
+                          "border": "solid 3px #dbae60",
+                          "background-color": "white"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "height": "60px",
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "box-sizing": "border-box",
+                              "margin": "0px",
+                              "padding": "0px",
+                              "color": "#715529",
+                              "font-size": "22px",
+                              "font-weight": "700"
+                            },
+                            "txtContent": "='[!BADGES_CERTIFICATIONS.DisplayName]' + ' - ' + 'Overview'"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "width": "100%",
+                              "display": "flex",
+                              "flex-wrap": "wrap",
+                              "justify-content": "center",
+                              "margin": "0px 0px 40px 0px",
+                              "padding": "0px 6px 8px 6px"
+                            },
+                            "children": [
+                              {
+                                "forEach": "__INTERNAL__ in [$BADGES_CERTIFICATIONS]",
+                                "elmType": "div",
+                                "style": {
+                                  "box-sizing": "content-box",
+                                  "background-color": "#ffe4b8",
+                                  "word-wrap": "break-word",
+                                  "overflow": "hidden",
+                                  "padding": "5px 10px 5px 10px",
+                                  "border-radius": "16px",
+                                  "max-height": "40px",
+                                  "margin": "8px 4px 0px 4px",
+                                  "box-shadow": "2px 2px 2px #dbae60"
+                                },
+                                "attributes": {
+                                  "class": "sp-field-fontSize15 sp-css-color-black",
+                                  "title": "[$__INTERNAL__]"
+                                },
+                                "txtContent": "[$__INTERNAL__]"
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "flex-end",
+                              "box-sizing": "border-box",
+                              "padding-top": "5px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "width": "100%"
+                                },
+                                "attributes": {
+                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Yellow-Clip.svg"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "openOnEvent": "hover",
+                      "directionalHint": "bottomCenter",
+                      "isBeakVisible": true,
+                      "beakStyle": {
+                        "backgroundColor": "#dbae60"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "border-radius": "6px",
+                  "position": "relative",
+                  "width": "964px",
+                  "margin": "0px 44px 0px 44px",
+                  "max-height": "190px",
+                  "display": "flex",
+                  "align-items": "flex-start",
+                  "justify-content": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "inlineEditField": "[$SCHOOLS_EDUCATION]",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "60px",
+                      "max-height": "190px",
+                      "margin-right": "12px",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "justify-content": "flex-start",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "attributes": {
+                      "class": "sp-css-backgroundColor-BgSage20--hover"
+                    },
+                    "children": [
+                      {
+                        "forEach": "__INTERNAL__ in [$SCHOOLS_EDUCATION]",
+                        "elmType": "div",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "background-color": "#b8fcec",
+                          "max-width": "386px",
+                          "padding": "2px 10px 0px 10px",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "white-space": "nowrap",
+                          "border-radius": "16px",
+                          "height": "28px",
+                          "margin": "8px 4px 0px 4px",
+                          "box-shadow": "2px 2px 2px #69d1b8"
+                        },
+                        "attributes": {
+                          "class": "sp-field-fontSize15 sp-css-color-black",
+                          "title": "[$__INTERNAL__]"
+                        },
+                        "txtContent": "[$__INTERNAL__]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "inlineEditField": "[$BADGES_CERTIFICATIONS]",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "60px",
+                      "max-height": "190px",
+                      "margin-left": "12px",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "justify-content": "flex-end",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-warning--hover"
+                    },
+                    "children": [
+                      {
+                        "forEach": "__INTERNAL__ in [$BADGES_CERTIFICATIONS]",
+                        "elmType": "div",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "background-color": "#ffe4b8",
+                          "max-width": "386px",
+                          "padding": "2px 10px 0px 10px",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "white-space": "nowrap",
+                          "border-radius": "16px",
+                          "height": "28px",
+                          "margin": "8px 4px 0px 4px",
+                          "box-shadow": "2px 2px 2px #dbae60"
+                        },
+                        "attributes": {
+                          "class": "sp-field-fontSize15 sp-css-color-black",
+                          "title": "[$__INTERNAL__]"
+                        },
+                        "txtContent": "[$__INTERNAL__]"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "width": "952px",
+                  "margin-top": "10px",
+                  "margin-left": "50px",
+                  "height": "50px",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "left"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "My works portfolio"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "margin-top": "4px",
+                      "margin-right": "20px",
+                      "width": "25px",
+                      "height": "46px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "Settings",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customRowAction": {
+                      "action": "defaultClick"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "6px",
+                      "margin-left": "20px",
+                      "width": "451px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "left"
+                    },
+                    "attributes": {
+                      "class": "sp-field-bold sp-field-fontSize17 sp-css-color-BlackText"
+                    },
+                    "txtContent": "I'm collaborating with"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "padding-top": "0px",
+                      "padding-left": "8px",
+                      "width": "25px",
+                      "height": "50px",
+                      "border-bottom": "solid 1px grey",
+                      "display": "flex",
+                      "visibility": "=if(length([$COWORKERS]) > 0, 'visible', 'hidden')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "iconName": "NavigateExternalInline",
+                      "class": "sp-field-fontSize24 sp-css-color-GreyText"
+                    },
+                    "customCardProps": {
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "max-width": "600px",
+                          "overflow": "hidden",
+                          "display": "block",
+                          "box-sizing": "border-box",
+                          "border-radius": "6px",
+                          "border": "solid 3px grey",
+                          "background-color": "white"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "height": "60px",
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "box-sizing": "border-box",
+                              "margin": "0px",
+                              "padding": "0px",
+                              "color": "grey",
+                              "font-size": "22px",
+                              "font-weight": "700"
+                            },
+                            "txtContent": "='[!COWORKERS.DisplayName]' + ' - ' + 'Overview'"
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "width": "100%",
+                              "display": "flex",
+                              "flex-wrap": "wrap",
+                              "flex-direction": "row",
+                              "justify-content": "center",
+                              "margin": "0px 0px 40px 0px",
+                              "padding": "0px 6px 8px 6px",
+                              "white-space": "nowrap"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "forEach": "person in [$COWORKERS]",
+                                "style": {
+                                  "box-sizing": "border-box",
+                                  "height": "36px",
+                                  "margin": "10px 6px 6px 0px",
+                                  "border-radius": "20px",
+                                  "display": "flex",
+                                  "border": "solid 1px grey",
+                                  "box-shadow": "2px 2px 2px #bfbfbd",
+                                  "align-items": "center"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "img",
+                                    "attributes": {
+                                      "src": "='/_layouts/15/userphoto.aspx?size=S&accountname='+ [$person.email]",
+                                      "title": "[$person.title]"
+                                    },
+                                    "style": {
+                                      "width": "36px",
+                                      "height": "36px",
+                                      "border-radius": "50%"
+                                    },
+                                    "defaultHoverField": "[$person]"
+                                  },
+                                  {
+                                    "elmType": "span",
+                                    "txtContent": "[$person.title]",
+                                    "style": {
+                                      "padding": "0 16px 0px 8px",
+                                      "font-size": "15px"
+                                    },
+                                    "defaultHoverField": "[$person]"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "100%",
+                              "display": "flex",
+                              "align-items": "flex-end",
+                              "box-sizing": "border-box",
+                              "padding-top": "5px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "width": "100%"
+                                },
+                                "attributes": {
+                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Nature-Clip.svg"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "openOnEvent": "hover",
+                      "directionalHint": "bottomCenter",
+                      "isBeakVisible": true,
+                      "beakStyle": {
+                        "backgroundColor": "grey"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "border-radius": "6px",
+                  "position": "relative",
+                  "width": "964px",
+                  "margin": "0px 44px 0px 44px",
+                  "min-height": "120px",
+                  "max-height": "240px",
+                  "display": "flex",
+                  "align-items": "flex-start",
+                  "justify-content": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "60px",
+                      "max-height": "190px",
+                      "margin-right": "12px",
+                      "margin-bottom": "50px",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "=if([$MY_WORKS] =='', 'none', 'flex')",
+                      "flex-wrap": "wrap",
+                      "justify-content": "left",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "children": [
+                      {
+                        "forEach": "iteratorName in split([$MY_WORKS],':')",
+                        "elmType": "div",
+                        "style": {
+                          "height": "86px",
+                          "width": "146px",
+                          "margin": "6px 6px 2px 0px",
+                          "border-radius": "6px",
+                          "cursor": "pointer",
+                          "display": "block"
+                        },
+                        "attributes": {
+                          "class": "sp-css-backgroundColor-BgLightBlue20",
+                          "title": "[$iteratorName]"
+                        },
+                        "children": [
+                          {
+                            "elmType": "img",
+                            "style": {
+                              "width": "56px",
+                              "position": "absolute",
+                              "margin-left": "45px",
+                              "margin-right": "45px",
+                              "z-index": "0"
+                            },
+                            "attributes": {
+                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "src": "=if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pdf', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pdf.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.docx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.dotx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.doc', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/docx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pptx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.potx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppt' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppsx', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pptx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xml' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.csv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/xlsx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsdx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsd' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vst' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vss', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vsdx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.jpg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.bmp' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.gif' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.png', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/photo.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.svg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.eps', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vector.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp4' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.avi' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.webm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wmv' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mkv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/video.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp3' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.flac' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wav' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wma' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ogg', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/audio.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.zip' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.7z' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.rar', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/zip.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.txt', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/txt.svg', '')))))))))))"
+                            }
+                          },
+                          {
+                            "elmType": "a",
+                            "txtContent": "[$iteratorName]",
+                            "style": {
+                              "position": "absolute",
+                              "z-index": "1",
+                              "box-sizing": "border-box",
+                              "width": "146px",
+                              "height": "86px",
+                              "display": "block",
+                              "white-space": "nowrap",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "text-align": "center",
+                              "padding": "60px 4px 0px 4px",
+                              "font-size": "14px",
+                              "text-decoration": "none"
+                            },
+                            "attributes": {
+                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "target": "blank",
+                              "class": "sp-css-color-DarkBlueText"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "inlineEditField": "[$COWORKERS]",
+                    "style": {
+                      "width": "482px",
+                      "min-height": "62px",
+                      "max-height": "124px",
+                      "margin-left": "=if([$MY_WORKS] =='', '494px', '12px')",
+                      "background-color": "",
+                      "box-sizing": "border-box",
+                      "border-radius": "6px",
+                      "padding": "2px 6px 6px 6px",
+                      "overflow": "hidden",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "justify-content": "flex-start",
+                      "--inline-editor-border-color": "transparent transparent transparent transparent"
+                    },
+                    "attributes": {
+                      "class": "sp-css-backgroundColor-neutralLighter--hover"
+                    },
+                    "children": [
+                      {
+                        "forEach": "person in [$COWORKERS]",
+                        "elmType": "img",
+                        "attributes": {
+                          "src": "='/_layouts/15/userphoto.aspx?size=S&accountname='+ [$person.email]"
+                        },
+                        "style": {
+                          "box-sizing": "border-box",
+                          "width": "50px",
+                          "height": "50px",
+                          "border-radius": "50%",
+                          "margin": "8px 10px 0px 4px",
+                          "box-shadow": "2px 2px 2px #bfbfbd"
+                        },
+                        "defaultHoverField": "[$person]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
