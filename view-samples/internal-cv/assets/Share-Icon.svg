@@ -1,0 +1,18 @@
+<svg viewBox="128 128 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g transform="matrix(4.236446, 0, 0, 4.236446, 124.216866, 124.216866)">
+    <linearGradient id="linear-gradient" gradientUnits="userSpaceOnUse" x1="18.206" x2="22" y1="22.177" y2="22.177" gradientTransform="matrix(1.359629, -1.186775, 0.657594, 0.753373, -21.403754, 28.713195)">
+      <stop stop-opacity="1" stop-color="#00b8ed" offset="0"/>
+      <stop stop-opacity="1" stop-color="#5a1db3" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="18.206" y1="9.824" y2="9.824" gradientTransform="matrix(1.970998, -1.438518, 0.589528, 0.807747, -28.245045, 32.444548)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="8.5" x2="12.294" y1="16" y2="16" gradientTransform="matrix(1.647331, -1.150812, 0.572687, 0.819774, -14.665315, 14.302839)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1=".893" x2="31.107" y1="16" y2="16" gradientTransform="matrix(0.896135, -0.749639, 0.641629, 0.767015, -11.401292, 17.495737)" xlink:href="#linear-gradient"/>
+    <g id="Layer_2" data-name="Layer 2">
+      <path d="m20.1 24.073a1.9 1.9 0 1 0 -1.9-1.9 1.9 1.9 0 0 0 1.9 1.9z" fill="url(#linear-gradient)" data-original="url(#linear-gradient)"/>
+      <path d="m20.1 11.721a1.9 1.9 0 1 0 -1.9-1.9 1.9 1.9 0 0 0 1.9 1.9z" fill="url(#linear-gradient-2)" data-original="url(#linear-gradient-2)"/>
+      <path d="m10.4 14.1a1.9 1.9 0 1 0 1.9 1.9 1.9 1.9 0 0 0 -1.9-1.9z" fill="url(#linear-gradient-3)" data-original="url(#linear-gradient-3)" class=""/>
+      <path d="m16 .893a15.107 15.107 0 1 0 15.107 15.107 15.107 15.107 0 0 0 -15.107-15.107zm-2.206 15.107a3.359 3.359 0 0 1 -.23 1.2l4.2 2.521a3.471 3.471 0 1 1 -.829 1.253l-4.2-2.522a3.4 3.4 0 1 1 0-4.907l4.2-2.521a3.363 3.363 0 0 1 -.23-1.2 3.417 3.417 0 1 1 1.06 2.454l-4.2 2.52a3.363 3.363 0 0 1 .229 1.202z" fill="url(#linear-gradient-4)" data-original="url(#linear-gradient-4)" class=""/>
+    </g>
+  </g>
+</svg>
