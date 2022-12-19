@@ -57,7 +57,7 @@ Here is a visual description of the user interface:
 
 (INSERT SCREENSHOT)
  
-**7) LIST NAME REPLACEMENT:**  go to line number 1422 of the JSON code and replace the dummy text with your real list name, as shown in the image below:
+**7) LIST NAME REPLACEMENT:**  go to line number **1422** and **1445** of the JSON code and replace the dummy text with your real list name, as shown in the image below:
 
 (INSERT SCREENSHOT)
 
