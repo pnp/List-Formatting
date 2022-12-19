@@ -63,7 +63,7 @@ Here is a visual description of the user interface:
 
 ⚠️ **Warning:** the real list name is the one you can find in your browser address bar! Therefore, if you have created a list named "Internal CV", then you have to copy the coded name in the address bar, that is "Internal%20CV".
 
-**8) POWER AUTOMATE FLOW:** to correctly display the attachments as works portfolio, you should setup a specific Power Automate flow as described [here](https://github.com/Fedes365/Microsoft-Lists-Templates/wiki/Custom-attachments-column#power-automate-flow). The service account used to run this flow should be included as list owner in order to override the permission settings illustrated in point n. 5 above.
+**8) POWER AUTOMATE FLOW:** to correctly display the attachments as works portfolio, you should setup a specific Power Automate flow as described [here](https://github.com/Fedes365/Microsoft-Lists-Templates/wiki/Custom-attachments-column#power-automate-flow). The service account used to run this flow should be included as **list owner** in order to override the permission settings illustrated in point n. 5 above.
 
 
 
