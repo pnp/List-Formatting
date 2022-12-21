@@ -83,7 +83,7 @@
               {
                 "elmType": "img",
                 "attributes": {
-                  "src": "='/_layouts/15/userphoto.aspx?size=L&accountname=' +[$Author.email]"
+                  "src": "=getUserImage('[$Author.email]', 'large')"
                 },
                 "style": {
                   "width": "138px",
@@ -1319,7 +1319,7 @@
                                   {
                                     "elmType": "img",
                                     "attributes": {
-                                      "src": "='/_layouts/15/userphoto.aspx?size=S&accountname='+ [$person.email]",
+                                      "src": "=getUserImage('[$person.email]', 'large')",
                                       "title": "[$person.title]"
                                     },
                                     "style": {
@@ -1492,7 +1492,7 @@
                         "forEach": "person in [$COWORKERS]",
                         "elmType": "img",
                         "attributes": {
-                          "src": "='/_layouts/15/userphoto.aspx?size=S&accountname='+ [$person.email]"
+                          "src": "=getUserImage('[$person.email]', 'large')"
                         },
                         "style": {
                           "box-sizing": "border-box",
