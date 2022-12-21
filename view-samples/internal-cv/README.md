@@ -1,7 +1,7 @@
 # Internal CV
 
 ## Summary
-This tutorial will help you create a basic internal CV through JSON view formatting.
+This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a custom card to be used as a form itself, by taking advantage of the inline editing feature.
 
 <img src="./assets/Internal-CV-preview.png" width="70%">
 
