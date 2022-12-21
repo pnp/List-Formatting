@@ -22,7 +22,22 @@
           "height": "100%",
           "position": "absolute",
           "object-fit": "cover",
-          "opacity": "0.65"
+          "opacity": "0.65",
+          "z-index": "0"
+        }
+      },
+            {
+        "elmType": "div",
+        "style": {
+          "height": "100%",
+          "width": "100%",
+          "position": "absolute",
+          "z-index": "0",
+          "cursor": "pointer",
+          "background-color": ""
+        },
+        "customRowAction": {
+          "action": "defaultClick"
         }
       },
       {
@@ -41,7 +56,7 @@
           "border-bottom": "solid 1px #9c9c9c",
           "box-shadow": "=if([$BACKGROUND.fileName] != '','5px 5px 12px -4px #404040', '5px 5px 12px -4px #979AFF')",
           "border-radius": "10px",
-          "display": "=if([$ID] !='1', 'block', 'none')"
+          "display": "block"
         },
         "children": [
           {
