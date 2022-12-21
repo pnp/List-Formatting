@@ -1,7 +1,7 @@
 # Internal CV
 
 ## Summary
-This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a custom card to be used as a form itself, by taking advantage of the inline editing feature.
+This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a large custom card to be used as a form itself, by taking advantage of the inline editing feature.
 
 <img src="./assets/Internal-CV-preview.png" width="70%">
 
@@ -73,6 +73,8 @@ Here is a visual description of the user interface:
 **HOW IT WORKS**
 
 A Power Automate flow uses a service account (or a personal account not meant for actual use of this solution) to check if one or more attachments are added to an item. This flow is triggered every time a new item is created or modified by other users.
+
+If you are not familiar with Power Automate or your org has whatever limitation about performing operations like this, you can still take advantage of the works portfolio section! Since these attachments wouldn't be updated everyday, you should provide your users with a basic training to make them manually write the attachments names, separated by colon. For example:  **Hello world.docx:Presentation.pptx:Table.xlsx** would retrieve 3 clickable tiles in the works portfolio section.
 
 Here is an overview of the Power Automate flow:
 
