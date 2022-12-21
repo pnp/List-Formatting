@@ -52,7 +52,7 @@ Here is a visual description of the user interface:
 
 **4) GALLERY VIEW FORMATTING:** paste the JSON code into the view formatting box (Advanced formatting mode):
 
-![format gallery view](./assets/Format-Gallery-View.png)
+<img src="./assets/Format-Gallery-View.png" width="70%">
 
 **5) ADVANCED PERMISSION SETTINGS:** an internal CV should only be edited by the user who created it. Therefore, to avoid unexpected and unwanted changes by other users, proper permission settings are highly recommended. Go to the list settings --> advanced settings and select "Create items and edit items that were created by the user".
 
@@ -62,7 +62,7 @@ Here is a visual description of the user interface:
 
 ![view filtering](./assets/Created-by.png)
  
-**7) YOUR LIST NAME REPLACEMENT:**  go to line number **1422** and **1445** of the JSON code and replace the dummy text with your real list name, as shown in the sample image below:
+**7) YOUR LIST NAME REPLACEMENT:**  go to line number **1437** and **1460** of the JSON code and replace the dummy text with your real list name, as shown in the sample image below:
 
 ![list name replacement](./assets/Replace-List-Name.png)
 
