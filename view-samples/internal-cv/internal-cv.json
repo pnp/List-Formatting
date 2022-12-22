@@ -83,7 +83,7 @@
               {
                 "elmType": "img",
                 "attributes": {
-                  "src": "=getUserImage('[$Author.email]', 'large')"
+                  "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=L&accountname=' + [$Author.email]"
                 },
                 "style": {
                   "width": "138px",
@@ -1303,8 +1303,8 @@
                             },
                             "children": [
                               {
+                                "forEach": "personIterator in [$COWORKERS]",
                                 "elmType": "div",
-                                "forEach": "person in [$COWORKERS]",
                                 "style": {
                                   "box-sizing": "border-box",
                                   "height": "36px",
@@ -1319,24 +1319,24 @@
                                   {
                                     "elmType": "img",
                                     "attributes": {
-                                      "src": "=getUserImage('[$person.email]', 'large')",
-                                      "title": "[$person.title]"
+                                      "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$personIterator.email]",
+                                      "title": "[$personIterator.title]"
                                     },
                                     "style": {
                                       "width": "36px",
                                       "height": "36px",
                                       "border-radius": "50%"
                                     },
-                                    "defaultHoverField": "[$person]"
+                                    "defaultHoverField": "[$personIterator]"
                                   },
                                   {
                                     "elmType": "span",
-                                    "txtContent": "[$person.title]",
+                                    "txtContent": "[$personIterator.title]",
                                     "style": {
                                       "padding": "0 16px 0px 8px",
                                       "font-size": "15px"
                                     },
-                                    "defaultHoverField": "[$person]"
+                                    "defaultHoverField": "[$personIterator]"
                                   }
                                 ]
                               }
@@ -1489,10 +1489,10 @@
                     },
                     "children": [
                       {
-                        "forEach": "person in [$COWORKERS]",
+                        "forEach": "personIterator in [$COWORKERS]",
                         "elmType": "img",
                         "attributes": {
-                          "src": "=getUserImage('[$person.email]', 'large')"
+                          "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$personIterator.email]"
                         },
                         "style": {
                           "box-sizing": "border-box",
@@ -1502,7 +1502,7 @@
                           "margin": "8px 10px 0px 4px",
                           "box-shadow": "2px 2px 2px #bfbfbd"
                         },
-                        "defaultHoverField": "[$person]"
+                        "defaultHoverField": "[$personIterator]"
                       }
                     ]
                   }
