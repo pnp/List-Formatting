@@ -1,12 +1,12 @@
 # Internal CV
 
 ## Summary
-This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a large custom card to be used as a form itself, by taking advantage of the inline editing feature.
+This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a large custom card to be used as a form itself, by taking advantage of the [inline editing](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature. Let others know **more about you**, what you're good at, and what you're working on right now. Add projects, skills, and education history to your profile to help others find you when they're looking for people with a **certain expertise**.
 
 <img src="./assets/Internal-CV-preview.png" width="70%">
 
 ## Important notes
-This solution is not intended to encompass an entire management process, but should be considered as an additional tool to support a single task or process phase, where users periodically update their respective internal CV.
+This solution is not intended to encompass an entire management process, but it should be considered as an additional tool to support a single task or process phase, where users periodically update their respective internal CV.
 The final result, including its features, has been tested with the following screen sizes:
 
 **1)** 27" - 2560 X 1440
@@ -15,9 +15,11 @@ The final result, including its features, has been tested with the following scr
 
 **3)** 17" - 1920 x 1080
 
-**4)** 13" - 1280 x 800
+**4)** 17" - 1280 x 1024 (zoom out may be required)
 
-Microsoft Lists mobile app doesn't support the usage of this custom view, whereas an OOTB view would let users to fill out the standard form.
+**5)** 13" - 1280 x 800
+
+⚠️ Microsoft Lists mobile app doesn't support the usage of this custom view, whereas an OOTB view would let users to fill out the standard form.
 
 ## Solution breakdown
 
@@ -32,19 +34,19 @@ Here is a visual description of the user interface:
 
 | **COLUMN NAME** | **COLUMN TYPE** |
 |:-----------------|-----------------|
-| **COVER**       | Image column. This will let users to customize their profile image header             |
-| **BACKGROUND**           | Image column. This will let users to add a custom background                |
-| **Author**     | This is a standard column, required to display a user name in the internal CV                |
-| **YAMMER_PROFILE**            | Multiple lines of text. Rich text **disabled**. This column lets users write their Yammer profile link and make it available through the corresponding command bar icon                |
-| **ABOUT_ME**        | Multiple lines of text. Rich text **disabled**. This column allows a user to provide a short description of their working profile and career.                |
-| **PROJECTS**   | Multichoice column. This column allows a user to list both past and current projects. You can setup it to contain custom choices or not.                |
-| **SKILLS_EXPERTISE**        | Multichoice column. This column allows a user to list skills and expertise considered as relevant. You can setup it to contain custom choices or not.                |
-| **SCHOOLS_EDUCATION**        | Multichoice column. This column allows a user to list info about schools and education path. Custom choices are recommended.                |
-| **BADGES_CERTIFICATIONS**          | Multichoice column. This column allows a user to list all the badges and certification acquired. You can setup it to contain custom choices or not.               |
-| **MY_WORKS**        | Multiple lines of text. Rich text **disabled**. This column depends on the OOTB Attachments column and a speficic Power Automate flow to list and display clickable attachments in the internal CV.                 |
-| **COWORKERS**   | Multi person column. Altough Microsoft 365 already provides info about most frequent coworkers and an org chart, a user could provide updated and consistent info about **actual** coworkers collaborating in one or more projects.                |
+| **COVER**       | Image column. This will allow a user to customize their profile image header.             |
+| **BACKGROUND**           | Image column. This will allow a user to add a custom image background.               |
+| **Created By**     | This is a standard column, required to display a user name in the internal CV. Include this column in your view.             |
+| **YAMMER_PROFILE**            | Multiple lines of text. Rich text **disabled**. This column allows a user to write his/her Yammer profile link in the standard right pane and make it available to others, through the corresponding toolbar icon.                |
+| **ABOUT_ME**        | Multiple lines of text. Rich text **disabled**. This column allows a user to provide a short personal description.                |
+| **PROJECTS**   | MultiChoice column. This column allows a user to list both past and current projects. List owners (HR personnel) can setup this column to contain custom choices or not.                |
+| **SKILLS_EXPERTISE**        | MultiChoice column. This column allows a user to list both skills and expertise. List owners (HR personnel) can setup this column to contain custom choices or not.                |
+| **SCHOOLS_EDUCATION**        | MultiChoice column. This column allows a user to list info about his/her schools and education path. Custom choices are recommended.                |
+| **BADGES_CERTIFICATIONS**          | MultiChoice column. This column allows a user to list badges and certifications earned. List owners (HR personnel) can setup this column to contain custom choices or not.               |
+| **MY_WORKS**        | Multiple lines of text. Rich text **disabled**. This column depends on the OOTB Attachments column and a speficic Power Automate flow to list and display clickable attachments tiles in the internal CV.                 |
+| **COWORKERS**   | Multi person column. Altough Microsoft 365 already provides info about related colleagues, a user could provide updated and consistent info about **actual** coworkers he/she is collaborating with.                |
 
-**NOTE:** the standard and well known Title column isn't used in this sample, therefore you can make it not mandatory through the advanced list settings and exclude it both from the view and the standard form normally available as a right pane.
+**NOTE:** the standard and well known **Title** column isn't used in this sample, therefore you can make it not mandatory through the advanced list settings and exclude it both from the view and the standard right pane form.
 
 **2) GALLERY VIEW CREATION:** create a new Gallery view and provide a custom name.
 
@@ -54,11 +56,11 @@ Here is a visual description of the user interface:
 
 <img src="./assets/Format-Gallery-View.png" width="70%">
 
-**5) ADVANCED PERMISSION SETTINGS:** an internal CV should only be edited by the user who created it. Therefore, to avoid unexpected and unwanted changes by other users, proper permission settings are highly recommended. Go to the list settings --> advanced settings and select "Create items and edit items that were created by the user".
+**5) ADVANCED PERMISSION SETTINGS:** an internal CV should only be edited by the user who created it. Therefore, to avoid unexpected and unwanted changes by other users, proper permission settings are highly recommended. Go to the list settings --> advanced settings --> and select "_Create items and edit items that were created by the user_".
 
 ![advanced permission settings](./assets/Permission.png)
 
-**6) VIEW FILTERING FOR A BETTER USER EXPERIENCE:** even if a user could open this list with all the existing items (internal CVs created by others), setting up an already filtered view could be a better option. This behaviour is recommended to allow a user to open his/her internal CV later, without performing a search. To make this work, go to the list settings, scroll down and click on the gallery view you just created. Then, scroll down again to the Filter section, apply and save the following setup:
+**6) VIEW FILTERING FOR A BETTER USER EXPERIENCE:** even if a user can open this list with all the existing items (internal CVs created by others), setting up an already filtered view could be a better option. This behaviour is recommended to allow a user to open his/her internal CV later, without performing a search. To make this work, go to the list settings, scroll down and click on the gallery view you just created. Then, scroll down again to the **Filter** section, apply and save the following setup:
 
 ![view filtering](./assets/Created-by.png)
  
@@ -68,13 +70,13 @@ Here is a visual description of the user interface:
 
 ⚠️ **Warning:** the real list name is the one you can find in your browser address bar! Therefore, if you have created a list named "Internal CV", then you have to copy the coded name in the address bar, that is "Internal%20CV".
 
-**8) POWER AUTOMATE FLOW:** to correctly display the attachments as works portfolio, you should setup a specific Power Automate flow. This process is **mandatory**, given that it writes into the custom MY_WORKS column previously created and the custom JSON code translates it to clickable tiles. Furthermore, a service account used to run this flow should be included as **list owner** in order to override the permission settings illustrated in point n. 5 above.
+**8) POWER AUTOMATE FLOW:** to correctly display the attachments as works portfolio, you should setup a specific Power Automate flow. Every time attachments are added, a Power Automate flow will update info into the **MY_WORKS** column previously created and the JSON code will "translate" these info to clickable tiles, thanks to the split operator. Furthermore, a service account used to run this flow should be included as **list owner** in order to override the permission settings illustrated in point n. 5 above.
 
 **HOW IT WORKS**
 
 A Power Automate flow uses a service account (or a personal account not meant for actual use of this solution) to check if one or more attachments are added to an item. This flow is triggered every time a new item is created or modified by other users.
 
-If you are not familiar with Power Automate or your org has whatever limitation about performing operations like this, you can still take advantage of the works portfolio section! Since these attachments wouldn't be updated everyday, you should provide your users with a basic training to make them manually write the attachments names, separated by colon. For example:  **Hello world.docx:Presentation.pptx:Table.xlsx** would retrieve 3 clickable tiles in the works portfolio section.
+If you are not familiar with Power Automate or your organization has some limitations about performing such operation, you can still take advantage of the works portfolio section! Since these attachments wouldn't be updated everyday, you could provide your users with a basic training to make them manually write the attachments names, separated by colon. For example:  **Hello world.docx:Presentation.pptx:Table.xlsx** would return 3 clickable tiles in the works portfolio section.
 
 Here is an overview of the Power Automate flow:
 
@@ -92,6 +94,8 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 
 ## More info and details
 The image icons displayed on the upper right corner of the toolbar are hosted in this GitHub repository. You can download them and edit the JSON code (eg. row number 226) to display the icons, so that your corporate repository is used as internal source.
+
+💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://www.linkedin.com/in/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://www.linkedin.com/in/tetsuya-kawahara-730498180).
 
 
 ## Sample
