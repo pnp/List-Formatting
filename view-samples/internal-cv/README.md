@@ -70,7 +70,18 @@ Here is a visual description of the user interface:
 
 ⚠️ **Warning:** the real list name is the one you can find in your browser address bar! Therefore, if you have created a list named "Internal CV", then you have to copy the coded name in the address bar, that is "Internal%20CV".
 
-**8) POWER AUTOMATE FLOW:** to correctly display the attachments as works portfolio, you should setup a specific Power Automate flow. Every time attachments are added, a Power Automate flow will update info into the **MY_WORKS** column previously created and the JSON code will "translate" these info to clickable tiles, thanks to the split operator. Furthermore, a service account used to run this flow should be included as **list owner** in order to override the permission settings illustrated in point n. 5 above.
+## EMPTY CARD AFTER ITEM CREATION
+Since this sample doesn't have any mandatory column, a user can create a new internal CV and save it immediately, without worrying about the standard right pane form. The resulting empty card will be ready to be filled out, thanks to the [inline editing](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature of Microsoft Lists:
+
+![list name replacement](./assets/InlineEditing.gif)
+
+## IT'S CLOUDY THERE! CUSTOM HOVERCARD OVERVIEW
+Each profile section will expand up to a maximum height. If the number of entries (coloured pills) exceeds the visible space, they will be hidden. In this case, a corresponding hovercard will offer a complete overview as shown in the animated picture below:
+
+![view filtering](./assets/Hovercard.gif)
+
+## MY WORKS PORTFOLIO AND POWER AUTOMATE FLOW:
+To correctly display the attachments as works portfolio, you should setup a specific Power Automate flow. Every time attachments are added, a Power Automate flow will update info into the **MY_WORKS** column previously created and the JSON code will "translate" these info to clickable tiles, thanks to the split operator. Furthermore, a service account used to run this flow should be included as **list owner** in order to override the permission settings illustrated in point n. 5 above.
 
 **HOW IT WORKS**
 
@@ -93,7 +104,7 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 ![trigger condition](./assets/Trigger-Condition.png)
 
 ## More info and details
-The image icons displayed on the upper right corner of the toolbar are hosted in this GitHub repository. You can download them and edit the JSON code (eg. row number 226) to display the icons, so that your corporate repository is used as internal source.
+The image icons displayed on the upper right corner of the toolbar and the hovercards' footer images are hosted in this GitHub repository. However, you can download them and edit the JSON lines of code (eg. row number 241) to display them independently through internal link. For example, you may want to use a SharePoint repository as private source.
 
 💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://www.linkedin.com/in/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://www.linkedin.com/in/tetsuya-kawahara-730498180).
 
