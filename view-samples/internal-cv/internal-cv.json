@@ -382,7 +382,7 @@
                 "style": {
                   "box-sizing": "border-box",
                   "border-radius": "6px",
-                  "padding": "2px 6px 6px 6px",
+                  "padding": "4px 6px 0px 6px",
                   "position": "relative",
                   "width": "952px",
                   "margin-left": "50px",
@@ -499,7 +499,7 @@
                                   "overflow": "hidden",
                                   "padding": "5px 10px 5px 10px",
                                   "border-radius": "16px",
-                                  "max-height": "40px",
+                                  "max-height": "60px",
                                   "margin": "8px 4px 0px 4px",
                                   "box-shadow": "2px 2px 2px #b285d4"
                                 },
@@ -631,7 +631,7 @@
                                   "overflow": "hidden",
                                   "padding": "5px 10px 5px 10px",
                                   "border-radius": "16px",
-                                  "max-height": "40px",
+                                  "max-height": "60px",
                                   "margin": "8px 4px 0px 4px",
                                   "box-shadow": "2px 2px 2px #90b3e8"
                                 },
@@ -884,7 +884,7 @@
                                   "overflow": "hidden",
                                   "padding": "5px 10px 5px 10px",
                                   "border-radius": "16px",
-                                  "max-height": "40px",
+                                  "max-height": "60px",
                                   "margin": "8px 4px 0px 4px",
                                   "box-shadow": "2px 2px 2px #69d1b8"
                                 },
@@ -1016,7 +1016,7 @@
                                   "overflow": "hidden",
                                   "padding": "5px 10px 5px 10px",
                                   "border-radius": "16px",
-                                  "max-height": "40px",
+                                  "max-height": "60px",
                                   "margin": "8px 4px 0px 4px",
                                   "box-shadow": "2px 2px 2px #dbae60"
                                 },
