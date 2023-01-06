@@ -104,7 +104,6 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 ![trigger condition](./assets/Trigger-Condition.png)
 
 ## More info and details
-The image icons displayed on the upper right corner of the toolbar and the hovercards' footer images are hosted in this GitHub repository. However, you can download them and edit the JSON lines of code (eg. row number 241) to display them independently through internal link. For example, you may want to use a SharePoint repository as private source.
 
 💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://www.linkedin.com/in/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://www.linkedin.com/in/tetsuya-kawahara-730498180).
 
