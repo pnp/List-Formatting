@@ -26,7 +26,7 @@
           "z-index": "0"
         }
       },
-            {
+      {
         "elmType": "div",
         "style": {
           "height": "100%",
@@ -223,25 +223,19 @@
                       "display": "flex",
                       "align-items": "center",
                       "justify-content": "center",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "background-color": "#185abd",
+                      "border-radius": "50%",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "font-size": "24px"
                     },
                     "attributes": {
                       "href": "https://www.office.com",
                       "target": "_blank",
-                      "title": "Open the Microsoft 365 app"
-                    },
-                    "children": [
-                      {
-                        "elmType": "img",
-                        "style": {
-                          "width": "38px",
-                          "height": "38px"
-                        },
-                        "attributes": {
-                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Office-Icon.svg"
-                        }
-                      }
-                    ]
+                      "title": "Open the Microsoft 365 app",
+                      "iconName": "HomeSolid"
+                    }
                   },
                   {
                     "elmType": "a",
@@ -253,25 +247,19 @@
                       "display": "flex",
                       "align-items": "center",
                       "justify-content": "center",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "background-color": "#185abd",
+                      "border-radius": "50%",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "font-size": "24px"
                     },
                     "attributes": {
                       "href": "[$YAMMER_PROFILE]",
                       "target": "_blank",
-                      "title": "Open this Yammer profile"
-                    },
-                    "children": [
-                      {
-                        "elmType": "img",
-                        "style": {
-                          "width": "40px",
-                          "height": "40px"
-                        },
-                        "attributes": {
-                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Yammer-Icon.svg"
-                        }
-                      }
-                    ]
+                      "title": "Open this Yammer profile",
+                      "iconName": "YammerLogo"
+                    }
                   },
                   {
                     "elmType": "div",
@@ -283,21 +271,17 @@
                       "display": "flex",
                       "align-items": "center",
                       "justify-content": "center",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "background-color": "#185abd",
+                      "border-radius": "50%",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "font-size": "24px"
                     },
-                    "children": [
-                      {
-                        "elmType": "img",
-                        "style": {
-                          "width": "38px",
-                          "height": "38px"
-                        },
-                        "attributes": {
-                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Share-Icon.svg",
-                          "title": "Share this profile"
-                        }
-                      }
-                    ],
+                    "attributes": {
+                      "title": "Share this profile",
+                      "iconName": "Share"
+                    },
                     "customRowAction": {
                       "action": "share"
                     }
@@ -312,27 +296,20 @@
                       "display": "flex",
                       "align-items": "center",
                       "justify-content": "center",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "background-color": "#185abd",
+                      "border-radius": "50%",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "font-size": "24px"
                     },
-                    "children": [
-                      {
-                        "elmType": "img",
-                        "style": {
-                          "width": "38px",
-                          "height": "38px"
-                        },
-                        "attributes": {
-                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Profile-Icon.svg"
-                        }
-                      }
-                    ],
+                    "attributes": {
+                      "iconName": "Contact"
+                    },
                     "defaultHoverField": "[$Author]"
                   },
                   {
                     "elmType": "div",
-                    "attributes": {
-                      "title": "Change cover and background"
-                    },
                     "style": {
                       "box-sizing": "border-box",
                       "width": "40px",
@@ -340,23 +317,20 @@
                       "display": "flex",
                       "align-items": "center",
                       "justify-content": "center",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "background-color": "#185abd",
+                      "border-radius": "50%",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "font-size": "24px"
+                    },
+                    "attributes": {
+                      "title": "Change cover and background",
+                      "iconName": "Photo2"
                     },
                     "customRowAction": {
                       "action": "defaultClick"
-                    },
-                    "children": [
-                      {
-                        "elmType": "img",
-                        "style": {
-                          "width": "38px",
-                          "height": "38px"
-                        },
-                        "attributes": {
-                          "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Edit-Icon.svg"
-                        }
-                      }
-                    ]
+                    }
                   }
                 ]
               },
@@ -386,8 +360,8 @@
                   "position": "relative",
                   "width": "952px",
                   "margin-left": "50px",
-                  "min-height": "26px",
-                  "max-height": "200px",
+                  "min-height": "30px",
+                  "max-height": "98px",
                   "overflow": "hidden",
                   "--inline-editor-border-color": "transparent transparent transparent transparent",
                   "cursor": "text"
@@ -510,27 +484,6 @@
                                 "txtContent": "[$__INTERNAL__]"
                               }
                             ]
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "align-items": "flex-end",
-                              "box-sizing": "border-box",
-                              "padding-top": "5px"
-                            },
-                            "children": [
-                              {
-                                "elmType": "img",
-                                "style": {
-                                  "width": "100%"
-                                },
-                                "attributes": {
-                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Violet-Clip.svg"
-                                }
-                              }
-                            ]
                           }
                         ]
                       },
@@ -640,27 +593,6 @@
                                   "title": "[$__INTERNAL__]"
                                 },
                                 "txtContent": "[$__INTERNAL__]"
-                              }
-                            ]
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "align-items": "flex-end",
-                              "box-sizing": "border-box",
-                              "padding-top": "5px"
-                            },
-                            "children": [
-                              {
-                                "elmType": "img",
-                                "style": {
-                                  "width": "100%"
-                                },
-                                "attributes": {
-                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Blue-Clip.svg"
-                                }
                               }
                             ]
                           }
@@ -895,27 +827,6 @@
                                 "txtContent": "[$__INTERNAL__]"
                               }
                             ]
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "align-items": "flex-end",
-                              "box-sizing": "border-box",
-                              "padding-top": "5px"
-                            },
-                            "children": [
-                              {
-                                "elmType": "img",
-                                "style": {
-                                  "width": "100%"
-                                },
-                                "attributes": {
-                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Green-Clip.svg"
-                                }
-                              }
-                            ]
                           }
                         ]
                       },
@@ -1025,27 +936,6 @@
                                   "title": "[$__INTERNAL__]"
                                 },
                                 "txtContent": "[$__INTERNAL__]"
-                              }
-                            ]
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "align-items": "flex-end",
-                              "box-sizing": "border-box",
-                              "padding-top": "5px"
-                            },
-                            "children": [
-                              {
-                                "elmType": "img",
-                                "style": {
-                                  "width": "100%"
-                                },
-                                "attributes": {
-                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Yellow-Clip.svg"
-                                }
                               }
                             ]
                           }
@@ -1341,27 +1231,6 @@
                                 ]
                               }
                             ]
-                          },
-                          {
-                            "elmType": "div",
-                            "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "align-items": "flex-end",
-                              "box-sizing": "border-box",
-                              "padding-top": "5px"
-                            },
-                            "children": [
-                              {
-                                "elmType": "img",
-                                "style": {
-                                  "width": "100%"
-                                },
-                                "attributes": {
-                                  "src": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Landscape-Nature-Clip.svg"
-                                }
-                              }
-                            ]
                           }
                         ]
                       },
@@ -1434,7 +1303,7 @@
                               "z-index": "0"
                             },
                             "attributes": {
-                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "href": "=@currentWeb + '/Lists/' + 'Curriculum%20Vitae' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
                               "src": "=if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pdf', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pdf.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.docx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.dotx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.doc', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/docx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pptx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.potx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppt' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppsx', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pptx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xml' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.csv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/xlsx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsdx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsd' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vst' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vss', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vsdx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.jpg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.bmp' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.gif' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.png', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/photo.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.svg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.eps', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vector.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp4' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.avi' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.webm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wmv' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mkv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/video.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp3' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.flac' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wav' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wma' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ogg', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/audio.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.zip' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.7z' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.rar', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/zip.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.txt', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/txt.svg', '')))))))))))"
                             }
                           },
@@ -1457,7 +1326,7 @@
                               "text-decoration": "none"
                             },
                             "attributes": {
-                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "href": "=@currentWeb + '/Lists/' + 'Curriculum%20Vitae' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
                               "target": "blank",
                               "class": "sp-css-color-DarkBlueText"
                             }
