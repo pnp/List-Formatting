@@ -33,8 +33,7 @@
           "width": "100%",
           "position": "absolute",
           "z-index": "0",
-          "cursor": "pointer",
-          "background-color": ""
+          "cursor": "pointer"
         },
         "customRowAction": {
           "action": "defaultClick"
@@ -1303,7 +1302,7 @@
                               "z-index": "0"
                             },
                             "attributes": {
-                              "href": "=@currentWeb + '/Lists/' + 'Curriculum%20Vitae' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
                               "src": "=if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pdf', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pdf.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.docx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.dotx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.doc', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/docx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.pptx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.potx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppt' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ppsx', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/pptx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xlsm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.xml' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.csv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/xlsx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsdx' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vsd' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vst' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.vss', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vsdx.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.jpg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.bmp' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.gif' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.png', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/photo.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.svg' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.eps', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/vector.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp4' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.avi' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.webm' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wmv' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mkv', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/video.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.mp3' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.flac' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wav' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.wma' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.ogg', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/audio.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.zip' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.7z' || substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.rar', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/zip.svg', if(substring([$iteratorName], lastIndexOf([$iteratorName], '.'), 700) =='.txt', 'https://res-1.cdn.office.net/files/fabric-cdn-prod_20220825.001/assets/item-types/20/txt.svg', '')))))))))))"
                             }
                           },
@@ -1326,7 +1325,7 @@
                               "text-decoration": "none"
                             },
                             "attributes": {
-                              "href": "=@currentWeb + '/Lists/' + 'Curriculum%20Vitae' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
+                              "href": "=@currentWeb + '/Lists/' + 'YOUR-LIST-NAME' + '/Attachments/' + [$ID] + '/' + [$iteratorName] + '?web=1'",
                               "target": "blank",
                               "class": "sp-css-color-DarkBlueText"
                             }
