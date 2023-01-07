@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-internal-cv",
+    "reponame": "internal-cv",
+    "source": "pnp",
+    "title": "Internal CV",
+    "shortDescription": "This tutorial will help you create a basic internal CV through JSON view formatting.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/internal-cv",
+    "longDescription": [
+      "This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a custom card to be used as a form itself, by taking advantage of the inline editing feature."
+    ],
+    "creationDateTime": "2022-12-21T00:00:00.000Z",
+    "updateDateTime": "2022-12-21T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards, Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "length, substring"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick, share"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "inlineEditField, openOnEvent, customCardProps, beakStyle, directionalHint, hideSelection, fillHorizontally, formatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-field-bold, sp-field-fontSize15, sp-field-fontSize17, sp-css-color-BlackText, ms-fontSize-32, sp-css-color-neutralTertiary, ms-bgColor-themeLighterAlt--hover, sp-field-fontSize24, sp-css-color-GreyText, sp-css-color-black, sp-css-backgroundColor-BgLilac30--hover, sp-css-backgroundColor-BgSage20--hover, ms-bgColor-warning--hover, sp-css-backgroundColor-BgLightBlue20, sp-css-color-DarkBlueText, sp-css-backgroundColor-neutralLighter--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Internal-CV-preview.png",
+        "alt": "Internal CV preview card"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Fedes365",
+        "pictureUrl": "https://github.com/Fedes365.png",
+        "name": "Federico Sapia"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
