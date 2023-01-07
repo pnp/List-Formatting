@@ -5,7 +5,7 @@
     "border-radius": "5px",
     "margin": "5px 0px",
     "padding": "0px",
-    "visibility": "=if([$ContentType] == 'Folder', 'hidden', 'visible')"
+    "visibility": "=if([$File_x0020_Type] == '', 'hidden', 'visible')"
   },
   "attributes": {
     "class": "ms-bgColor-themePrimary"
