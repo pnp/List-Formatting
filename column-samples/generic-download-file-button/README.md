@@ -2,11 +2,9 @@
 
 ## Summary
 
-This sample demonstrates adding a button within a document library view which downloads the file. 
+This sample demonstrates adding a button within a document library view which downloads the file.
 
 ![screenshot of the sample](./assets/screenshot.png)
-
-**Note**: The download functionality does not work for folder content type. So, in order to hide the download button for folders, you may have to show the `Content Type` column in your library view.
 
 ## View requirements
 
@@ -23,6 +21,7 @@ generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-san
 Version |Date          |Comments
 --------|--------------|--------------------------------
 1.0     |January 05, 2022 |Initial release
+1.1     |January 07, 2023 |Changed button hide condition.
 
 ## Disclaimer
 
