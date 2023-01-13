@@ -22,6 +22,7 @@ managed-metadata-tag-icon-multi-choice.json | [Tetsuya Kawahara](https://github.
 Version |Date           |Comments
 --------|---------------|--------
 1.0     |March 29, 2021 |Initial release
+1.0     |January 14, 2023 |Fixed to not display the tag icon if the value is empty.
 
 
 ## Disclaimer
