@@ -59,6 +59,12 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-icon-repeat/assets/screenshot.png",
         "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-icon-repeat/assets/screenshot-icon.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
