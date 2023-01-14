@@ -5,6 +5,10 @@ This sample demonstrates the use of the `padStart` and `split` operators to repe
 
 ![screenshot of the sample](./assets/screenshot.png)
 
+It also uses [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons), and by changing the `iconName` property, the icons to be displayed can be changed.
+
+![screenshot of the icon sample](./assets/screenshot-icon.png)
+
 ## View requirements
 This format can be applied to a Number column.
 
@@ -23,12 +27,5 @@ Version |Date             |Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Additional notes
-This sample uses icons from the Fluent UI.
-
-- [Fluent UI](https://developer.microsoft.com/en-us/fluentui)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-icon-repeat" />
