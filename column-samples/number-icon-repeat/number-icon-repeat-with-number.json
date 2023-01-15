@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "15px",
+        "margin": "5px 0px",
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "@currentField",
+          "style": {
+            "min-width": "30px",
+            "text-align": "center"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "flex-wrap": "wrap",
+            "visibility": "=if(floor(@currentField)<1,'hidden','visible')"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "forEach": "iterator in split(padStart('',floor(@currentField)-1,'^'),'^')",
+              "style": {
+                "margin": "3px"
+              },
+              "attributes": {
+                "iconName": "Contact"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
