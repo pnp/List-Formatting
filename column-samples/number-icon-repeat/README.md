@@ -1,4 +1,4 @@
-# Display of icons by repeating
+# Display icons by repeating
 
 ## Summary
 This sample demonstrates the use of the `padStart` and `split` operators to repeatedly display icons for the number of values in the number column.
