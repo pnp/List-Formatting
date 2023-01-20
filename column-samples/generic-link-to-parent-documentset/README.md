@@ -11,7 +11,7 @@ The purpose of this sample is to enhance the use of documentsets. Assuming you h
 -- Folders: "Show all items without folders"
 -- Filter: Content Type is not equal to NameOfTheDocumentSetContentType
 - A "Single line of text" column, the column doesn't need to be linked to any content type
-- replace the "/sites/Sitecollection/Library name/" to the appropriate address of your library.
+
 
 ## Sample
 
@@ -26,6 +26,7 @@ generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/g
 Version|Date|Comments
 -------|----|--------
 1.0|April 7, 2022|Initial release
+1.1|January 20, 2022|Update link - based on the idea of Chris Kent
 
 ## Additional notes
 none
