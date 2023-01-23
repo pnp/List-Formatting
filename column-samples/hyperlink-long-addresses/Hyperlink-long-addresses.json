@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "justify-content": "space-between"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "href": "=if( indexOf(@currentField , ']') == -1 , @currentField, substring(@currentField, indexOf(@currentField , ']') +1 , lastIndexOf(@currentField + '^', '^')))",
+          "target": "_blank",
+          "class": "ms-fontColor-themePrimary ms-bgColor-themeLight--hover"
+        },
+        "txtContent": "=if( indexOf(@currentField , ']') == -1 ,@currentField ,substring(@currentField, 1 , indexOf(@currentField , ']') ) )",
+        "style": {
+          "cursor": "pointer",
+          "text-decoration": "none",
+          "display": "=if( @currentField =='','none', 'inline-block')",
+          "padding": "2px 15px",
+          "border-radius": "15px"
+        }
+      },
+      {
+        "elmType": "span",
+        "customRowAction": {
+          "action": "editProps"
+        },
+        "attributes": {
+          "iconName": "Edit",
+          "class": "ms-fontSize-s ms-bgColor-themeLight ms-bgColor-neutralTertiary--hover"
+        },
+        "style": {
+          "display": "inline-block",
+          "cursor": "pointer",
+          "margin": "0 5px",
+          "padding": "4px",
+          "border-radius": "15px"
+        }
+      }
+    ]
+  }
