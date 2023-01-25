@@ -14,7 +14,7 @@ Using the following code, you can easily turn a “multiple lines of text” col
 ## Sample
 Solution|Author(s)
 --------|---------
-text-hyperlink-long-address.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+text-hyperlink-long-addresses.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
 
 ## Version history
 Version|Date|Comments
@@ -30,4 +30,4 @@ Version|Date|Comments
 ## Additional notes
 - None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-hyperlink-long-address" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-hyperlink-long-addresses" />
