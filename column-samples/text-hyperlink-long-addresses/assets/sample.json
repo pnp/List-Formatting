@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-generic-link-to-parent-documentset",
-    "reponame": "generic-link-to-parent-documentset",
+    "name": "pnp-list-formatting-text-hyperlink-long-address",
+    "reponame": "text-hyperlink-long-address",
     "source": "pnp",
-    "title": "Link to Parent Documentset",
-    "shortDescription": "The purpose of this sample is to enhance the use of documentsets. Assuming you have a SharePoint Library  with documentsets, it can be useful to create a view that shows all the files without the documentset (folder) structure. By adding a column to this view using this sample, users can open the parent documentset of a file.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-link-to-parent-documentset",
+    "title": "Hyperlink long addresses",
+    "shortDescription": "The URL in a hyperlink column has a 255-character limit, which can get you into trouble. This sample demonstrates the use of a multiple lines of text column to display the link so that this limitation can be avoided.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-hyperlink-long-address",
     "longDescription": [
-      "The purpose of this sample is to enhance the use of documentsets. Assuming you have a SharePoint Library  with documentsets, it can be useful to create a view that shows all the files without the documentset (folder) structure. By adding a column to this view using this sample, users can open the parent documentset of a file."
+      "The URL in a hyperlink column has a 255-character limit, which can get you into trouble. This sample demonstrates the use of a multiple lines of text column to display the link so that this limitation can be avoided."
     ],
-    "creationDateTime": "2022-04-07T00:00:00.000Z",
-    "updateDateTime": "2023-01-20T00:00:00.000Z",
+    "creationDateTime": "2023-01-23T00:00:00.000Z",
+    "updateDateTime": "2023-01-23T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": "Text"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,11 +38,11 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "replace"
+        "value": "indexOf, substring, lastIndexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "editProps"
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -50,14 +50,14 @@
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "ms-fontSize-s, ms-fontColor-themePrimary, ms-bgColor-themeLight, ms-bgColor-themeLight--hover, ms-bgColor-neutralTertiary--hover"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-link-to-parent-documentset/assets/screenshot.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-hyperlink-long-address/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

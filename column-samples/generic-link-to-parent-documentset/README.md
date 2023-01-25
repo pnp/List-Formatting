@@ -17,7 +17,7 @@ The purpose of this sample is to enhance the use of documentsets. Assuming you h
 
 Solution|Author(s)
 --------|---------
-generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter)
+generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
 
 
 ## Version history
@@ -25,7 +25,7 @@ generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/g
 Version|Date|Comments
 -------|----|--------
 1.0|April 7, 2022|Initial release
-2.0|January 20, 2022|Update link - based on the idea of Chris Kent
+2.0|January 20, 2023|Update link - based on the idea of Chris Kent
 
 ## Additional notes
 none
