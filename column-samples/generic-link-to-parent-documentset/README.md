@@ -25,7 +25,7 @@ generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/g
 Version|Date|Comments
 -------|----|--------
 1.0|April 7, 2022|Initial release
-2.0|January 20, 2023|Update link - based on the idea of Chris Kent
+2.0|January 20, 2023|Changed txtContent formula - based on the idea of Chris Kent
 
 ## Additional notes
 none
