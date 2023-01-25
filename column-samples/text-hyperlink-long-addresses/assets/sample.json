@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-text-hyperlink-long-address",
-    "reponame": "text-hyperlink-long-address",
+    "name": "pnp-list-formatting-text-hyperlink-long-addresses",
+    "reponame": "text-hyperlink-long-addresses",
     "source": "pnp",
     "title": "Hyperlink long addresses",
     "shortDescription": "The URL in a hyperlink column has a 255-character limit, which can get you into trouble. This sample demonstrates the use of a multiple lines of text column to display the link so that this limitation can be avoided.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-hyperlink-long-address",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-hyperlink-long-addresses",
     "longDescription": [
       "The URL in a hyperlink column has a 255-character limit, which can get you into trouble. This sample demonstrates the use of a multiple lines of text column to display the link so that this limitation can be avoided."
     ],
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-hyperlink-long-address/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-hyperlink-long-addresses/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
