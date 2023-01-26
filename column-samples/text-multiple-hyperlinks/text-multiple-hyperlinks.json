@@ -1,0 +1,80 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "align-items": "flex-start",
+      "justify-content": "space-between",
+      "padding": "4px 0"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "=if(@currentField=='','none','flex')",
+          "flex-direction": "column",
+          "align-items": "flex-start"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "forEach": "listItem in split(@currentField,'[')",
+            "style": {
+              "margin-bottom": "1px",
+              "display": "=if([$listItem]=='','none','')",
+              "padding": "2px 15px",
+              "border-radius": "15px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter ms-bgColor-themeLight--hover"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=[$listItem]",
+                "style": {
+                  "display": "=if(indexOf([$listItem],']')>-1,'none','')",
+                  "font-weight": "bold",
+                  "font-size": "18px",
+                  "margin-bottom": "5px",
+                  "white-space": "nowrap",
+                  "overflow": "hidden"
+                }
+              },
+              {
+                "elmType": "a",
+                "txtContent": "=substring([$listItem],0,indexOf([$listItem],']'))",
+                "style": {
+                  "display": "=if(indexOf([$listItem],']')>-1,'','none')",
+                  "font-size": "14px",
+                  "text-decoration": "none"
+                },
+                "attributes": {
+                  "href": "=replaceAll(substring([$listItem],indexOf([$listItem],']')+1,indexOf([$listItem]+'^','^')),'\n','')",
+                  "target": "_blank",
+                  "class": "ms-fontColor-neutralPrimaryAlt ms-fontColor-themePrimary--hover"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "span",
+        "customRowAction": {
+          "action": "editProps"
+        },
+        "attributes": {
+          "iconName": "Edit",
+          "class": "ms-fontSize-s ms-bgColor-themeLight ms-bgColor-neutralTertiary--hover"
+        },
+        "style": {
+          "display": "inline-block",
+          "cursor": "pointer",
+          "margin": "0 5px",
+          "padding": "4px",
+          "border-radius": "100px"
+        }
+      }
+    ]
+  }
