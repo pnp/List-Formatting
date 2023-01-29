@@ -10,7 +10,7 @@
       "This sample opens Microsoft Office documents in full screen within a new tab. This is the same view as used in the fileviewer webpart (no toolbars)."
     ],
     "creationDateTime": "2020-08-08T00:00:00.000Z",
-    "updateDateTime": "2020-08-08T00:00:00.000Z",
+    "updateDateTime": "2023-01-26T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
