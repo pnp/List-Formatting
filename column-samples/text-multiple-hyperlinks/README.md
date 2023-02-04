@@ -11,11 +11,9 @@ Using this sample you can have multiple hyperlinks in a single field.
 
 ## Sample
 
-
 Solution|Author(s)
 --------|---------
 text-multiple-hyperlinks.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
-
 
 ## Version history
 
