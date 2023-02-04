@@ -3,7 +3,7 @@
 ## Summary
 Using this sample you can have multiple hyperlinks in a single field.
 
-![screenshot of the sample](./assets/text-multiple-hyperlinks-screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to a Multi lines of text column
@@ -32,4 +32,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-multiple-hyperlinks" />

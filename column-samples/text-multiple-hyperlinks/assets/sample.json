@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-text-multiple-hyperlinks",
+    "reponame": "text-multiple-hyperlinks",
+    "source": "pnp",
+    "title": "Multiple hyperlinks in single field",
+    "shortDescription": "Using this sample you can have multiple hyperlinks in a single field.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-multiple-hyperlinks",
+    "longDescription": [
+      "Using this sample you can have multiple hyperlinks in a single field."
+    ],
+    "creationDateTime": "2023-01-26T00:00:00.000Z",
+    "updateDateTime": "2023-01-26T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "split, indexOf, substring, replaceAll"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontSize-s, ms-fontColor-neutralPrimaryAlt, ms-fontColor-themePrimary--hover, ms-bgColor-themeLight, ms-bgColor-themeLighter, ms-bgColor-themeLight--hover, ms-bgColor-neutralTertiary--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-multiple-hyperlinks/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "gdk-max",
+        "pictureUrl": "https://github.com/gdk-max.png",
+        "name": "Geert de Kooter"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
