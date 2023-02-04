@@ -8,6 +8,12 @@ Using this sample you can have multiple hyperlinks in a single field.
 ## View requirements
 - This format can be applied to a Multi lines of text column
 - The links can to be introduced with an alternative text by preceding them with square brackets, for example, [List Formatting Samples]https://pnp.github.io/List-Formatting/ seperating each link in a new row of the multi-line column using SHIFT+ENTER
+- The following is an example value
+    ```
+    [Microsoft 365 & Power Platform Community]https://pnp.github.io/
+    [Sharing Is Caring]https://pnp.github.io/sharing-is-caring/
+    [M365 Platform & Power Platform Community Recognition Program]https://pnp.github.io/recognitionprogram/
+    ```
 
 ## Sample
 

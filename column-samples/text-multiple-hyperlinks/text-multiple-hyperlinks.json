@@ -17,45 +17,22 @@
       },
       "children": [
         {
-          "elmType": "div",
+          "elmType": "a",
           "forEach": "listItem in split(@currentField,'[')",
+          "txtContent": "=substring([$listItem],0,indexOf([$listItem],']'))",
           "style": {
             "margin-bottom": "1px",
             "display": "=if([$listItem]=='','none','')",
             "padding": "2px 15px",
-            "border-radius": "15px"
+            "border-radius": "15px",
+            "text-decoration": "none",
+            "font-size": "14px"
           },
           "attributes": {
-            "class": "ms-bgColor-themeLighter ms-bgColor-themeLight--hover"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "txtContent": "=[$listItem]",
-              "style": {
-                "display": "=if(indexOf([$listItem],']')>-1,'none','')",
-                "font-weight": "bold",
-                "font-size": "18px",
-                "margin-bottom": "5px",
-                "white-space": "nowrap",
-                "overflow": "hidden"
-              }
-            },
-            {
-              "elmType": "a",
-              "txtContent": "=substring([$listItem],0,indexOf([$listItem],']'))",
-              "style": {
-                "display": "=if(indexOf([$listItem],']')>-1,'','none')",
-                "font-size": "14px",
-                "text-decoration": "none"
-              },
-              "attributes": {
-                "href": "=replaceAll(substring([$listItem],indexOf([$listItem],']')+1,indexOf([$listItem]+'^','^')),'\n','')",
-                "target": "_blank",
-                "class": "ms-fontColor-neutralPrimaryAlt ms-fontColor-themePrimary--hover"
-              }
-            }
-          ]
+            "class": "ms-bgColor-themeLighter ms-bgColor-themeLight--hover ms-fontColor-neutralPrimaryAlt ms-fontColor-themePrimary--hover",
+            "href": "=replaceAll(substring([$listItem],indexOf([$listItem],']')+1,indexOf([$listItem]+'^','^')),'\n','')",
+            "target": "_blank"
+          }
         }
       ]
     },
