@@ -2,12 +2,12 @@
 
 ## Summary
 This sample provides a way to make sure that the notation of a date and time column in SharePoint is forced in a specific notation.
-In Power Apps we can use: 
-'text(ThisItem.DateTimeColumn, 'yyyy-mm-dd')'
+In Power Apps we can use Power Fx: 
+`text(ThisItem.DateTimeColumn, 'yyyy-mm-dd')`
 to force the notation to be 'yyyy-mm-dd'
 
-In Power Automate we can use: 
-'formatDateTime(convertFromUtc(utcNow(), 'W. Europe Standard Time'), 'yyyy-MM-dd')'
+In Power Automate we can use Workflow Definition Language: 
+`formatDateTime(convertFromUtc(utcNow(), 'W. Europe Standard Time'), 'yyyy-MM-dd')`
 to force the notation to be 'yyyy-MM-dd'
 
 In SharePoint Column Formatting I was not able to find a generic expression that can easily do this on a date and time value. Therefor this sample can be useful if different users have different regional settings or if the Time Format setting in the Site Settings is greyed out, but you want to make sure that a date and time value is shown in a specific format / in a specific notation.
