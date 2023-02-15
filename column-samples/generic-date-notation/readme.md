@@ -28,6 +28,8 @@ generic-date-notation.json | [Django Lohn](https://github.com/m3ngi3) [@LohnDjan
 
 Version|Date|Comments
 -------|----|--------
+0.82|February 10, 2023|Added Note to readme.md about Locals
+0.81|February 10, 2023|Added +1 to getMonth() expressions
 0.8|February 8, 2023|Initial release
 
 
@@ -37,5 +39,5 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-Please let me know if you have a scenario that is not accounted for in my generic example when it comes regional settings logic.
-Maybe we can add logic to this script.
+I verified this formatting for Dutch and English Locales (Regional Settings) of the SharePoint Site. 
+Please let me know if you have a scenario that is not accounted for in my generic example when it comes regional settings logic. Maybe we can add more logic to this script together.
