@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-advent-calendar",
-    "reponame": "advent-calendar",
+    "name": "pnp-list-formatting-headercolor",
+    "reponame": "headercolor-itemcount",
     "source": "pnp",
-    "title": "Advent Calendar",
-    "shortDescription": "This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/advent-calendar",
+    "title": "Group by header color depending on item count",
+    "shortDescription": "Group by header colors green when 5 items are grouped",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-color-itemcount",
     "longDescription": [
-      "This sample demonstrates an advent calendar where you can click on the present box of the day to see the presents."
+      "Grouping items or documents will show the header in a red or green color depending on amount of items in the gruouping"
     ],
-    "creationDateTime": "2021-12-19T00:00:00.000Z",
-    "updateDateTime": "2021-12-19T00:00:00.000Z",
+    "creationDateTime": "2023-02-19T00:00:00.000Z",
+    "updateDateTime": "2023-02-19T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "SVG, Inline Editing, Gallery"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,38 +34,38 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@now"
+        "value": "@group.count" 
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, getDate"
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "setValue"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection"
+        "value": ""
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themeLighter"
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/advent-calendar/assets/screenshot.gif",
-        "alt": "Advent Calendar Tile Format"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/group-header-color-itemcount/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "tecchan1107",
-        "pictureUrl": "https://github.com/tecchan1107.png",
-        "name": "Tetsuya Kawahara"
+        "gitHubAccount": "marijnsomers",
+        "pictureUrl": "https://github.com/marijnsomers.png",
+        "name": "Marijn Somers"
       }
     ],
     "references": [
