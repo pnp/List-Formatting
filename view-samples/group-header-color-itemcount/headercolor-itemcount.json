@@ -7,7 +7,7 @@
         "padding": "4px 8px 5px 8px",
         "border-radius": "6px",
         "margin": "1px 4px 4px 1px",
-        "background-color": "=if(@group.count == 1, 'Red',if(@group.count == 2, 'Red',if(@group.count == 3, 'Red',if(@group.count == 4, 'Red','Green'))))"
+        "background-color": "=if(@group.count == 1, 'Red',if(@group.count == 2, '#FF681E',if(@group.count == 3, '#FF980E',if(@group.count == 4, '#ffe40e','Green'))))"
       },
       "children": [
         {
@@ -15,7 +15,7 @@
           "txtContent": "=  @group.count",
           "style": {
             "padding": "5px 5px 5px 5px",
-            "color":"white",
+            "color": "white",
             "font-weight": "500"
           }
         },
@@ -24,7 +24,7 @@
           "txtContent": " of 5 ",
           "style": {
             "padding": " ",
-            "color":"white",
+            "color": "white",
             "font-weight": "500"
           }
         }
