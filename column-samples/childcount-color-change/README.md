@@ -14,14 +14,13 @@ Sample can be extended to different colors or values based on your requirements.
 
 Solution|Author(s)
 --------|---------
-count-amount-of-files.json | [Marijn Somers](https://github.com/marijnsomers) [@marijnsomers](https://twitter.com/marijnsomers)
+childcount-color-change.json | [Marijn Somers](https://github.com/marijnsomers) [@marijnsomers](https://twitter.com/marijnsomers)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|February 20, 2023|Initial release
-
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -30,3 +29,4 @@ Version|Date|Comments
 
 ## Additional notes
 
+- None

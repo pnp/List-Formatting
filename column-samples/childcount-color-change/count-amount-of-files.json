@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "background-color": "=if(@currentField == '5', 'green', 'red')",
+    "padding": "0px 0px 0px 10px",
+    "color": "white"
+  }
+}
