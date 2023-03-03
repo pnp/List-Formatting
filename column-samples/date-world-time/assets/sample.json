@@ -4,10 +4,10 @@
     "reponame": "date-world-time",
     "source": "pnp",
     "title": "World Time",
-    "shortDescription": "",
+    "shortDescription": "This sample demonstrates displaying the times of countries and regions of the world for a date column value that includes the time.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-world-time",
     "longDescription": [
-      ""
+      "This sample demonstrates displaying the times of countries and regions of the world for a date column value that includes the time."
     ],
     "creationDateTime": "2023-03-03T00:00:00.000Z",
     "updateDateTime": "2023-03-03T00:00:00.000Z",

@@ -2,12 +2,12 @@
 
 ## Summary
 
-This sample demonstrates displaying the times of countries and regions of the world for values in a date column that includes the time.
+This sample demonstrates displaying the times of countries and regions of the world for a date column value that includes the time.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-- To increase or decrease the number of countries or regions to display, edit the string for the first argument of the `split` operator on line 45. The following notes apply to setting the string.
-    - The string should be comma-separated as `[time difference from UTC]|[name of country or region]`.
+- The countries and regions to display can be added or removed by editing the string of the first argument of the `split` operator on line 45. The following notes apply to editing that string.
+    - The string must be `[time difference from UTC]|[name of country or region]` separated by commas.
     - If you want to use spaces for the country or region name, use - (half-width hyphen). The - (half-width hyphen) will be replaced with a half-width space and displayed on the screen. Including spaces in the string will prevent the custom card from displaying.
 
 - The following is an example of the settings for line 45.
