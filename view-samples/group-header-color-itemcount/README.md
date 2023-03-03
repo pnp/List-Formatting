@@ -3,7 +3,7 @@
 ## Summary
 This is a sample of customizing the group header by showing a color code that changes depending on the amount of items in the group:
 
-- less then 5 items shows the header as red, yellow, etc
+- Less then 5 items shows the header as red, yellow, etc
 - Exactly 5 items shows the header as green
 
 ![screenshot of the sample](./assets/screenshot.png)
