@@ -3,14 +3,14 @@
     "name": "pnp-list-formatting-generic-world-time",
     "reponame": "generic-world-time",
     "source": "pnp",
-    "title": "World Time",
+    "title": "World Current Time",
     "shortDescription": "This sample demonstrates the side-by-side display and comparison of the current time in different countries around the world.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-world-time",
     "longDescription": [
       "This sample demonstrates the side-by-side display and comparison of the current time in different countries around the world."
     ],
     "creationDateTime": "2022-04-17T00:00:00.000Z",
-    "updateDateTime": "2022-04-17T00:00:00.000Z",
+    "updateDateTime": "2023-03-03T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
