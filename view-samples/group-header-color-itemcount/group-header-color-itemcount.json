@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "padding": "4px 8px 5px 8px",
+        "border-radius": "6px",
+        "margin": "1px 4px 4px 1px",
+        "background-color": "=if(@group.count == 1, 'Red',if(@group.count == 2, '#FF681E',if(@group.count == 3, '#FF980E',if(@group.count == 4, '#ffe40e','Green'))))"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=  @group.count",
+          "style": {
+            "padding": "5px 5px 5px 5px",
+            "color": "white",
+            "font-weight": "500"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": " of 5 ",
+          "style": {
+            "color": "white",
+            "font-weight": "500"
+          }
+        }
+      ]
+    }
+  }
+}
