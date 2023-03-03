@@ -1,7 +1,7 @@
 [
   {
     "name": "pnp-list-formatting-childcount-color-change",
-    "reponame": "cchildcount-color-change",
+    "reponame": "childcount-color-change",
     "source": "pnp",
     "title": "Change color of Item Child Count when enough files have been uploaded",
     "shortDescription": "This sample shows the Item Child Count field as green when exactly 5 files are uploaded",
