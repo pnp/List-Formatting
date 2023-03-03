@@ -10,7 +10,7 @@ This sample demonstrates displaying the times of countries and regions of the wo
     - The string must be `[time difference from UTC]|[name of country or region]` separated by commas.
     - If you want to use spaces for the country or region name, use - (half-width hyphen). The - (half-width hyphen) will be replaced with a half-width space and displayed on the screen. Including spaces in the string will prevent the custom card from displaying.
 
-- The following is an example of the settings for line 45.
+- Here is an example of the settings for line 45:
     ```
     "forEach": "UTC in split('-8|Seattle,-5|New-York,0|Portugal,2|Finland,5.5|India,9|Japan',',')",
     ```
