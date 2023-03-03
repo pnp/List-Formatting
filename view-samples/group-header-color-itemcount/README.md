@@ -3,19 +3,16 @@
 ## Summary
 This is a sample of customizing the group header by showing a color code that changes depending on the amount of items in the group:
 
-- less then 5 items shows the header as red
+- less then 5 items shows the header as red, yellow, etc
 - Exactly 5 items shows the header as green
 
 ![screenshot of the sample](./assets/screenshot.png)
 
 The header will also show "x of 5", with x being the amount of items in the group.
 
-> This format only affects the group header, you can group on the field that you want.
-
 ## View requirements
 
-Group by a column of choice. 
-
+Group by a column of choice.
 
 ## Sample
 
@@ -31,4 +28,9 @@ Version |Date          |Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-##
+
+---
+
+## Additional notes
+
+- None
