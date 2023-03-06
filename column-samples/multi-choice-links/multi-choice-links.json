@@ -17,7 +17,7 @@
         "border-radius": "16px",
         "height": "24px",
         "align-items": "center",
-        "white-space": "no-wrap",
+        "white-space": "nowrap",
         "overflow": "hidden",
         "margin": "4px 4px 4px 4px",
         "text-decoration": "none"
