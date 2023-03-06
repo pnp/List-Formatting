@@ -17,14 +17,14 @@
         "border-radius": "16px",
         "height": "24px",
         "align-items": "center",
-        "white-space": "nowrap",
+        "white-space": "no-wrap",
         "overflow": "hidden",
         "margin": "4px 4px 4px 4px",
         "text-decoration": "none"
       },
       "attributes": {
-        "class": "ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-themeDark ms-bgColor-themeLight ms-bgColor-themeLighter--hover",
-        "href": "=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))",
+        "class" : "=substring([$choiceIterator], indexOf([$choiceIterator], ':') + 1,  lastIndexOf([$choiceIterator], ':'))",
+        "href":   "=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))",
         "target": "_blank"
       }
     }
