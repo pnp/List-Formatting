@@ -77,7 +77,7 @@
                   "display": "table-cell",
                   "padding": "10px",
                   "text-align": "right"
-                },
+                }
               },
               {
                 "elmType": "div",
