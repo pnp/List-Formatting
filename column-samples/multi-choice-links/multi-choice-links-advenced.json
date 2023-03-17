@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-wrap": "wrap",
+    "display": "flex"
+  },
+  "children": [
+    {
+      "forEach": "choiceIterator in @currentField",
+      "elmType": "a",
+      "txtContent": "=substring([$choiceIterator], 0, indexOf([$choiceIterator], '|'))",
+      "style": {
+        "box-sizing": "border-box",
+        "padding": "4px 8px 5px 8px",
+        "display": "flex",
+        "border-radius": "16px",
+        "height": "24px",
+        "align-items": "center",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+        "margin": "4px 4px 4px 4px",
+        "text-decoration": "none"
+      },
+      "attributes": {
+        "class": "=substring([$choiceIterator], indexOf([$choiceIterator], '{') + 1,  lastIndexOf([$choiceIterator], '}'))",
+        "href": "=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))",
+        "target": "_blank"
+      }
+    }
+  ]
+}
