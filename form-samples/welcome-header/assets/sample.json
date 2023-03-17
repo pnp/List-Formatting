@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toLocaleTimeString, indexOf, replaceAll,getUserImage"
+        "value": "toLocaleTimeString, indexOf, replaceAll, getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",

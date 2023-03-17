@@ -10,13 +10,13 @@ This sample demonstrates how to display Welcome message depending on time of day
 Identify what regional settings are being used in site.
 - Normally the default configuration can be accessed on to Top right icon > Site informations > View all site settings > Regional Settings or Time format is managed by **M365 administrator**.
 
-![screenshot of the sample](./assets/sample1.png)
+![screenshot of the time format](./assets/time-format.png)
 
 ## How to implement
 
 Access to list where customization will be apply, edit item, access top right options and select **"Configure layout"** and implement json for **Header**.
 
-![screenshot of the sample](./assets/sample2.png)
+![screenshot of the list form configuration](./assets/list-form-configuration.png)
 
 This information is important to use sample, since `12 hours` uses **12:00:00 AM and 12:00:00 PM** and `24 hours` uses **0:00:00 to 24:00:00**.
 - Based on this information (`12 Hours/24 Hours`) you can use sample json for testing.
@@ -25,8 +25,8 @@ This information is important to use sample, since `12 hours` uses **12:00:00 AM
 
 Solution|Author(s)
 --------|---------
-welcome-12Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-welcome-24Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+welcome-header-12Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+welcome-header-24Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
