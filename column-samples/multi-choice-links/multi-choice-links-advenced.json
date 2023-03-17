@@ -23,7 +23,7 @@
         "text-decoration": "none"
       },
       "attributes": {
-        "class": "ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-themeDark ms-bgColor-themeLight ms-bgColor-themeLighter--hover",
+        "class": "=substring([$choiceIterator], indexOf([$choiceIterator], '{') + 1,  lastIndexOf([$choiceIterator], '}'))",
         "href": "=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))",
         "target": "_blank"
       }

@@ -10,7 +10,7 @@
         "This sample shows how we can display multiple links in a single column using the multi-choice column."
       ],
       "creationDateTime": "2021-04-14T00:00:00.000Z",
-      "updateDateTime": "2021-04-14T00:00:00.000Z",
+      "updateDateTime": "2023-03-13T00:00:00.000Z",
       "products": [
         "SharePoint",
         "Microsoft Lists"
@@ -66,6 +66,11 @@
           "gitHubAccount": "anoopt",
           "pictureUrl": "https://github.com/anoopt.png",
           "name": "Anoop Tatti"
+        },
+        {
+          "gitHubAccount": "TekExpo",
+          "pictureUrl": "https://github.com/TekExpo.png",
+          "name": "Abhijeet Jadhav"
         }
       ],
       "references": [
