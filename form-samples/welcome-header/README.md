@@ -25,8 +25,8 @@ This information is important to use sample, since `12 hours` uses **12:00:00 AM
 
 Solution|Author(s)
 --------|---------
-welcome-header-12Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-welcome-header-24Hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+welcome-header-12hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+welcome-header-24hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
