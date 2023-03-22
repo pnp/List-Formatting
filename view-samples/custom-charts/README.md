@@ -91,3 +91,33 @@ The Line chart allows a maximum of 12 data points and 2 categories. You can appl
 <p align="center">
 <img src="https://github.com/pnp/List-Formatting/blob/master/view-samples/custom-charts/assets/Line-Chart.png" width="80%" height="80%">
 </p>
+
+
+## Sample
+
+Solution|Author(s)
+--------|---------
+Bar-Chart-H.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Bar-Chart-V-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Bar-Chart-V.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Doughnut-Chart-P.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Doughnut-Chart-PV.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Line-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Line-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+
+
+## Version history
+
+Version |Date              |Comments
+--------|------------------|--------------------------------
+1.0     |March 22, 2023  |Initial release
+
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/custom-charts" />
