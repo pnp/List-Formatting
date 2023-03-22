@@ -1,0 +1,1097 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 420,
+  "width": 1180,
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "align-items": "flex-end",
+      "justify-content": "center",
+      "box-sizing": "border-box",
+      "width": "850px",
+      "height": "420px",
+      "margin-left": "330px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "inlineEditField": "[$Title]",
+        "style": {
+          "width": "812px",
+          "box-sizing": "border-box",
+          "margin-right": "36px",
+          "display": "flex",
+          "align-items": "flex-start",
+          "justify-content": "center",
+          "height": "36px",
+          "position": "absolute",
+          "top": "0px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "relative",
+              "height": "36px",
+              "max-width": "750px",
+              "display": "block",
+              "top": "0px",
+              "box-sizing": "border-box",
+              "white-space": "nowrap",
+              "overflow": "hidden",
+              "text-overflow": "ellipsis",
+              "font-size": "22px",
+              "font-weight": "bold",
+              "color": "black",
+              "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+            },
+            "txtContent": "[$Title]"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "customCardProps": {
+          "formatter": {
+            "elmType": "div",
+            "style": {
+              "width": "480px",
+              "overflow": "hidden",
+              "display": "block",
+              "box-sizing": "border-box",
+              "border-radius": "6px",
+              "border": "solid 2px grey",
+              "background-color": "white"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "height": "34px",
+                  "width": "100%",
+                  "display": "flex",
+                  "align-items": "flex-end",
+                  "justify-content": "center",
+                  "box-sizing": "border-box",
+                  "color": "grey",
+                  "font-size": "22px",
+                  "font-weight": "700"
+                },
+                "txtContent": "Add data label"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "100%",
+                  "height": "34px",
+                  "display": "flex",
+                  "align-items": "flex-end",
+                  "justify-content": "center",
+                  "margin": "30px 0px 30px 0px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE1": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE1] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 1"
+                  },
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE2": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE2] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 2"
+                  },
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE3": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE3] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 3"
+                  },
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE4": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE4] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 4"
+                  },
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE5": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE5] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 5"
+                  },
+                  {
+                    "elmType": "div",
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "VALUE6": "1"
+                      }
+                    },
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "80px",
+                      "display": "=if([$VALUE6] != 0, 'none', 'flex')",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "#e8e8e8",
+                      "border-radius": "16px",
+                      "height": "34px",
+                      "margin": "0px 4px 0px 4px",
+                      "font-size": "16px",
+                      "font-weight": "bold",
+                      "color": "Grey",
+                      "cursor": "pointer"
+                    },
+                    "txtContent": "Label 6"
+                  }
+                ]
+              }
+            ]
+          },
+          "openOnEvent": "click",
+          "directionalHint": "leftCenter",
+          "isBeakVisible": true,
+          "beakStyle": {
+            "backgroundColor": "white"
+          }
+        },
+        "style": {
+          "position": "absolute",
+          "left": "1154px",
+          "top": "0",
+          "height": "36px",
+          "width": "26px",
+          "box-sizing": "border-box",
+          "display": "flex",
+          "justify-content": "center",
+          "align-items": "center",
+          "visibility": "=if([$Author.email] == @me, 'visible', 'hidden')",
+          "font-size": "16px",
+          "font-weight": "bold",
+          "cursor": "pointer"
+        },
+        "attributes": {
+          "class": "sp-css-color-GrayText",
+          "iconName": "MoreVertical"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "350px",
+          "height": "364px",
+          "margin-right": "15px",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "relative",
+              "margin-right": "",
+              "width": "350px",
+              "height": "350px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "currentColor",
+                  "top": "0",
+                  "right": "0"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600",
+                  "class": "ms-fontColor-neutralQuaternaryAlt"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "M300,0 A300,300 0 1,1 299.998407846124, 4.2249439502484165e-9 L299.99880588459297,75.00000000316868 A225,225 0 1,0 300,75 Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR1] =='', 'LightGrey', [$COLOR1])",
+                  "display": "=if([$VALUE1]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "6",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , [$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , [$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR2] =='', 'LightGrey', [$COLOR2])",
+                  "display": "=if([$VALUE2]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "5",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if(([$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(([$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(([$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR3] =='', 'LightGrey', [$COLOR3])",
+                  "display": "=if([$VALUE3]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "4",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if(([$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(([$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(([$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR4] =='', 'LightGrey', [$COLOR4])",
+                  "display": "=if([$VALUE4]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "3",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if(([$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(([$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(([$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR5] =='', 'LightGrey', [$COLOR5])",
+                  "display": "=if([$VALUE5]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "2",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if(([$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(([$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(([$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "svg",
+                "style": {
+                  "fill": "=if([$COLOR6] =='', 'LightGrey', [$COLOR6])",
+                  "display": "=if([$VALUE6]=='', 'none', '')",
+                  "position": "absolute",
+                  "z-index": "1",
+                  "top": "0",
+                  "right": "0",
+                  "stroke": "white"
+                },
+                "attributes": {
+                  "viewBox": "0 0 600 600"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "= 'M300,0' + 'A300,300' + ' 0 ' + if(([$VALUE6]+[$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(([$VALUE6]+[$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE6]+[$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(([$VALUE6]+[$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) > 1 , 1 , ([$VALUE6]+[$VALUE5]+[$VALUE4]+[$VALUE3]+[$VALUE2]+[$VALUE1])/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6]) * (3.14159 / 180))) + 'L300,300' + 'Z'"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "max-width": "485px",
+          "height": "364px",
+          "box-sizing": "border-box",
+          "display": "flex",
+          "align-items": "center",
+          "align-content": "center",
+          "flex-direction": "column",
+          "justify-content": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE1.displayValue]=='0' || [$VALUE1.displayValue]=='0,0' || [$VALUE1.displayValue]=='0.0' || [$VALUE1.displayValue]=='0,00' || [$VALUE1.displayValue]=='0.00' || [$VALUE1.displayValue]=='0,000' || [$VALUE1.displayValue]=='0.000' || [$VALUE1.displayValue]=='0.0000' || [$VALUE1.displayValue]=='0,0000' || [$VALUE1.displayValue]=='0,00000' || [$VALUE1.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR1]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR1] =='', 'LightGrey', [$COLOR1])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL1]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL1] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL1] =='', 'Write a label title', [$LABEL1])",
+                "attributes": {
+                  "title": "[$LABEL1]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE1]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE1.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE1]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE1": "0",
+                    "LABEL1": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE2.displayValue]=='0' || [$VALUE2.displayValue]=='0,0' || [$VALUE2.displayValue]=='0.0' || [$VALUE2.displayValue]=='0,00' || [$VALUE2.displayValue]=='0.00' || [$VALUE2.displayValue]=='0,000' || [$VALUE2.displayValue]=='0.000' || [$VALUE2.displayValue]=='0.0000' || [$VALUE2.displayValue]=='0,0000' || [$VALUE2.displayValue]=='0,00000' || [$VALUE2.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR2]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR2] =='', 'LightGrey', [$COLOR2])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL2]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL2] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL2] =='', 'Write a label title', [$LABEL2])",
+                "attributes": {
+                  "title": "[$LABEL2]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE2]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE2.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE2]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE2]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE2]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE2": "0",
+                    "LABEL2": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE3.displayValue]=='0' || [$VALUE3.displayValue]=='0,0' || [$VALUE3.displayValue]=='0.0' || [$VALUE3.displayValue]=='0,00' || [$VALUE3.displayValue]=='0.00' || [$VALUE3.displayValue]=='0,000' || [$VALUE3.displayValue]=='0.000' || [$VALUE3.displayValue]=='0.0000' || [$VALUE3.displayValue]=='0,0000' || [$VALUE3.displayValue]=='0,00000' || [$VALUE3.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR3]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR3] =='', 'LightGrey', [$COLOR3])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL3]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL3] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL3] =='', 'Write a label title', [$LABEL3])",
+                "attributes": {
+                  "title": "[$LABEL3]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE3]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE3.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE3]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE3]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE3]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE3": "0",
+                    "LABEL3": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE4.displayValue]=='0' || [$VALUE4.displayValue]=='0,0' || [$VALUE4.displayValue]=='0.0' || [$VALUE4.displayValue]=='0,00' || [$VALUE4.displayValue]=='0.00' || [$VALUE4.displayValue]=='0,000' || [$VALUE4.displayValue]=='0.000' || [$VALUE4.displayValue]=='0.0000' || [$VALUE4.displayValue]=='0,0000' || [$VALUE4.displayValue]=='0,00000' || [$VALUE4.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR4]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR4] =='', 'LightGrey', [$COLOR4])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL4]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL4] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL4] =='', 'Write a label title', [$LABEL4])",
+                "attributes": {
+                  "title": "[$LABEL4]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE4]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE4.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE4]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE4]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE4]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE4": "0",
+                    "LABEL4": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE5.displayValue]=='0' || [$VALUE5.displayValue]=='0,0' || [$VALUE5.displayValue]=='0.0' || [$VALUE5.displayValue]=='0,00' || [$VALUE5.displayValue]=='0.00' || [$VALUE5.displayValue]=='0,000' || [$VALUE5.displayValue]=='0.000' || [$VALUE5.displayValue]=='0.0000' || [$VALUE5.displayValue]=='0,0000' || [$VALUE5.displayValue]=='0,00000' || [$VALUE5.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR5]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR5] =='', 'LightGrey', [$COLOR5])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL5]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL5] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL5] =='', 'Write a label title', [$LABEL5])",
+                "attributes": {
+                  "title": "[$LABEL5]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE5]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE5.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE5]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE5]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE5]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE5": "0",
+                    "LABEL5": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$VALUE6.displayValue]=='0' || [$VALUE6.displayValue]=='0,0' || [$VALUE6.displayValue]=='0.0' || [$VALUE6.displayValue]=='0,00' || [$VALUE6.displayValue]=='0.00' || [$VALUE6.displayValue]=='0,000' || [$VALUE6.displayValue]=='0.000' || [$VALUE6.displayValue]=='0.0000' || [$VALUE6.displayValue]=='0,0000' || [$VALUE6.displayValue]=='0,00000' || [$VALUE6.displayValue]=='0.00000', 'none', 'flex')",
+              "justify-content": "flex-start",
+              "align-items": "center",
+              "margin-bottom": "4px",
+              "max-width": "485px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "inlineEditField": "[$COLOR6]",
+                "style": {
+                  "box-sizing": "border-box",
+                  "height": "22px",
+                  "width": "22px",
+                  "border-radius": "50%",
+                  "background-color": "=if([$COLOR6] =='', 'LightGrey', [$COLOR6])",
+                  "margin-right": "8px",
+                  "margin-top": "5px",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "title": "=if([$Author.email] == @me, 'Change color - HTML names or HEX allowed', '')"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$LABEL6]",
+                "style": {
+                  "height": "56px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "padding-top": "16px",
+                  "max-width": "=if([$Author.email] == @me,'345px', '365px')",
+                  "margin-right": "8px",
+                  "font-size": "20px",
+                  "font-weight": "700",
+                  "color": "=if([$LABEL6] =='', '#bdbfbe', 'Black')",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')",
+                  "overflow": "hidden",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis"
+                },
+                "txtContent": "=if([$LABEL6] =='', 'Write a label title', [$LABEL6])",
+                "attributes": {
+                  "title": "[$LABEL6]"
+                }
+              },
+              {
+                "elmType": "div",
+                "inlineEditField": "[$VALUE6]",
+                "style": {
+                  "height": "56px",
+                  "min-width": "24px",
+                  "max-width": "70px",
+                  "box-sizing": "border-box",
+                  "display": "block",
+                  "text-align": "right",
+                  "white-space": "nowrap",
+                  "text-overflow": "ellipsis",
+                  "overflow": "hidden",
+                  "margin-right": "8px",
+                  "padding-top": "16px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "Gray",
+                  "cursor": "=if([$Author.email] == @me, 'pointer', '')"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText",
+                  "title": "[$VALUE6.displayValue]"
+                },
+                "txtContent": "=if(substring(toString([$VALUE6]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])), 2, 3) == '0', substring(toString([$VALUE6]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 4) + '%', substring(toString([$VALUE6]/([$VALUE1]+[$VALUE2]+[$VALUE3]+[$VALUE4]+[$VALUE5]+[$VALUE6])*100), 0, 5) + '%'"
+              },
+              {
+                "elmType": "div",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "VALUE6": "0",
+                    "LABEL6": ""
+                  }
+                },
+                "style": {
+                  "height": "40px",
+                  "width": "30px",
+                  "box-sizing": "border-box",
+                  "display": "=if([$Author.email] == @me, 'block', 'none')",
+                  "text-align": "center",
+                  "padding-top": "13px",
+                  "font-size": "15px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "sp-css-color-GrayText ms-bgColor-severeWarning--hover ms-fontColor-black--hover",
+                  "iconName": "Clear",
+                  "title": "Delete data"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
