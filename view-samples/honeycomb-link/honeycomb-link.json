@@ -4,82 +4,95 @@
   "hideColumnHeader": true,
   "rowFormatter": {
     "elmType": "div",
-    "style": {
-      "position": "absolute",
-      "width": "150px",
-      "height": "150px",
-      "left": "=if(floor(@rowIndex/5) % 2 == 0 , @rowIndex % 5 * 150 + 'px' , @rowIndex % 5 * 150 + 75 + 'px' )",
-      "top": "=floor(@rowIndex / 5) * 125 + 'px'"
-    },
     "children": [
       {
-        "elmType": "a",
+        "elmType": "div",
         "style": {
-          "position": "relative",
-          "display": "flex",
-          "justify-content": "center",
-          "align-items": "center",
-          "width": "100%",
-          "height": "100%"
-        },
-        "attributes": {
-          "href": "[$URL]",
-          "target": "_blank",
-          "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+          "height": "150px",
+          "display": "=if(@rowIndex%5==0,'','none')"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "width": "150px",
+          "height": "150px",
+          "left": "=if(floor(@rowIndex/5)%2==0,@rowIndex%5*170+'px',@rowIndex%5*170+85+'px')",
+          "top": "=if(@rowIndex%5==0,'','-150px')"
         },
         "children": [
           {
-            "elmType": "svg",
+            "elmType": "a",
             "style": {
-              "fill": "currentColor",
-              "cursor": "pointer"
-            },
-            "attributes": {
-              "viewBox": "-150 -150 300 300"
-            },
-            "children": [
-              {
-                "elmType": "path",
-                "attributes": {
-                  "d": "M130 75 L0 150 L-130 75 L-130 -75 L-0 -150 L130 -75 z"
-                }
-              }
-            ]
-          },
-          {
-            "elmType": "div",
-            "style": {
-              "position": "absolute",
+              "position": "relative",
               "display": "flex",
-              "flex-direction": "column",
-              "align-items": "center",
               "justify-content": "center",
-              "cursor": "pointer",
+              "align-items": "center",
               "width": "100%",
-              "height": "100%"
+              "height": "100%",
+              "top": "=if(floor(@rowIndex/5)>0,floor(@rowIndex/5)*-10+'px','')"
             },
             "attributes": {
-              "class": "ms-fontColor-white"
+              "href": "[$URL]",
+              "target": "_blank",
+              "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
             },
             "children": [
               {
-                "elmType": "div",
+                "elmType": "svg",
                 "style": {
-                  "font-size": "32px",
-                  "margin-bottom": "5px"
+                  "fill": "currentColor",
+                  "cursor": "pointer"
                 },
                 "attributes": {
-                  "iconName": "[$Icon]"
-                }
+                  "viewBox": "-150 -150 300 300"
+                },
+                "children": [
+                  {
+                    "elmType": "path",
+                    "attributes": {
+                      "d": "M130 75 L0 150 L-130 75 L-130 -75 L-0 -150 L130 -75 z"
+                    }
+                  }
+                ]
               },
               {
                 "elmType": "div",
                 "style": {
-                  "font-size": "14px",
-                  "width": "75%",
-                  "text-align": "center"
+                  "position": "absolute",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "cursor": "pointer",
+                  "width": "100%",
+                  "height": "100%"
                 },
-                "txtContent": "[$Title]"
+                "attributes": {
+                  "class": "ms-fontColor-white"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "32px",
+                      "margin-bottom": "5px"
+                    },
+                    "attributes": {
+                      "iconName": "[$Icon]"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "width": "75%",
+                      "text-align": "center"
+                    },
+                    "txtContent": "[$Title]"
+                  }
+                ]
               }
             ]
           }
