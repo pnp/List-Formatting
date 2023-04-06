@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-welcome-header",
+    "reponame": "Welcome Header",
+    "source": "pnp",
+    "title": "Welcome Header",
+    "shortDescription": "This sample demonstrates how to display Welcome message depending on time of day, display user profile image in Forms Header.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/welcome-header",
+    "longDescription": [
+      "This sample demonstrates how to display Welcome message depending on time of day, display user profile image and display user name if formated in mail address in Forms Header"
+    ],
+    "creationDateTime": "2023-03-14T00:00:00.000Z",
+    "updateDateTime": "2023-03-14T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Form"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleTimeString, indexOf, replaceAll, getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-css-color-themePrimary, sp-css-backgroundColor-themeLight, ms-fontSize-24, ms-fontWeight-semibold"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/welcome-header/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "Andre Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Configure the list form",
+        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+      }
+    ]
+  }
+]

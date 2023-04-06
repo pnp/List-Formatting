@@ -1,0 +1,39 @@
+{
+  "elmType": "div",
+  "style": {
+    "border": "1px solid ",
+    "padding": "10px"
+  },
+  "attributes": {
+    "class": "sp-css-color-themePrimary sp-css-backgroundColor-themeLight"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "=if(if(indexOf(toLocaleTimeString(@now)+';',';')==7,'0'+toLocaleTimeString(@now),toLocaleTimeString(@now))>'05:00:00' && if(indexOf(toLocaleTimeString(@now)+';',';')==7,'0'+toLocaleTimeString(@now),toLocaleTimeString(@now)) <'11:59:59' ,'Good morning, ',if(if(indexOf(toLocaleTimeString(@now)+';',';')==7,'0'+toLocaleTimeString(@now),toLocaleTimeString(@now))>'12:00:00' && if(indexOf(toLocaleTimeString(@now)+';',';')==7,'0'+toLocaleTimeString(@now),toLocaleTimeString(@now))<'20:00:00' ,'Good afternoon, ',if(if(indexOf(toLocaleTimeString(@now)+';',';')==7,'0'+toLocaleTimeString(@now),toLocaleTimeString(@now))>'20:00:00' ,'Good night, ','')))",
+      "attributes": {
+        "class": "ms-fontSize-24 ms-fontWeight-semibold"
+      }
+    },
+    {
+      "elmType": "img",
+      "style": {
+        "border-radius": "50%"
+      },
+      "attributes": {
+        "src": "=getUserImage(@me, 's')"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "border-radius": "50%",
+        "padding": "0 5px"
+      },
+      "txtContent": "=substring(replaceAll(@me,'.',' '),0,indexOf(replaceAll(@me,'.',' '),'@'))",
+      "attributes": {
+        "class": "ms-fontSize-12 ms-fontWeight-semibold"
+      }
+    }
+  ]
+}
