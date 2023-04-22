@@ -1,0 +1,73 @@
+{
+  "elmType": "div",
+  "children": [
+    {
+      "forEach": "personIterator in [$Contacts]",
+      "elmType": "div",
+      "style": {
+        "padding": " 20px 5px",
+        "position": "relative",
+        "left": "=if(loopIndex('personIterator') == 0, '0px',if(loopIndex('personIterator') % 2, '-'+ (28*Number(loopIndex('personIterator'))) +'px','-'+ (28*Number(loopIndex('personIterator'))) +'px'))"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "defaultHoverField": "[$personIterator]",
+          "attributes": {
+            "src": "=getUserImage([$personIterator.email], 'M')",
+            "title": "[$personIterator.title]",
+            "class": "sp-card-userThumbnail"
+          },
+          "style": {
+            "position": "absolute",
+            "border-radius": "50%",
+            "margin": "18px 18px",
+            "box-shadow": "rgba(0, 0, 0, 0.15) 4.95px 4.95px 4.6px",
+            "display": "=if(length([$Approvers]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "border-top-left-radius": "110px",
+            "border-top-right-radius": "110px",
+            "border-bottom": 0,
+            "width": "108px",
+            "height": "54px",
+            "background-color": "=if((loopIndex('personIterator') % 2)==0,'','rgba(0, 0, 0, 0.2)')"
+          },
+          "attributes": {
+            "class": "=if((loopIndex('personIterator') % 2)==0,'ms-bgColor-themePrimary','')"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "border-bottom-left-radius": "110px",
+            "border-bottom-right-radius": "110px",
+            "border-bottom": 0,
+            "width": "108px",
+            "height": "54px",
+            "background-color": "=if((loopIndex('personIterator')  % 2)==1,'','rgba(0, 0, 0, 0.2)')"
+          },
+          "attributes": {
+            "class": "=if((loopIndex('personIterator')  % 2)==1,'ms-bgColor-themePrimary','')"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "position": "relative",
+            "width": "100%",
+            "text-overflow": "ellipsis",
+            "white-space": "nowrap",
+            "overflow": "hidden",
+            "text-align": "center",
+            "top": "=if((loopIndex('personIterator') % 2)==0,'0px','-130px')"
+          },
+          "txtContent": "[$personIterator.title]"
+        }
+      ]
+    }
+  ]
+}

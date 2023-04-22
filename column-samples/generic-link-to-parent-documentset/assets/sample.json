@@ -10,7 +10,7 @@
       "The purpose of this sample is to enhance the use of documentsets. Assuming you have a SharePoint Library  with documentsets, it can be useful to create a view that shows all the files without the documentset (folder) structure. By adding a column to this view using this sample, users can open the parent documentset of a file."
     ],
     "creationDateTime": "2022-04-07T00:00:00.000Z",
-    "updateDateTime": "2022-04-07T00:00:00.000Z",
+    "updateDateTime": "2023-01-20T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "10px",
+        "display": "=if(@currentField=='','none','flex')",
+        "flex-direction": "column",
+        "align-items": "center",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "='https://barcode.tec-it.com/barcode.ashx?code=QRCode&dpi=96&data=' + @currentField"
+          }
+        },
+        {
+          "elmType": "a",
+          "txtContent": "Barcode Software by TEC-IT",
+          "style": {
+            "padding-top": "8px",
+            "font-size": "15px",
+            "font-family": "Source Sans Pro, Arial, sans-serif"
+          },
+          "attributes": {
+            "href": "https://www.tec-it.com",
+            "target": "_blank",
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+          }
+        }
+      ]
+    }
+  ]
+}

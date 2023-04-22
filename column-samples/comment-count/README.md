@@ -12,6 +12,11 @@ Column Name|Type
 --------|---------
 Comment Count  | Single Line of Text.
 
+## Video
+
+The solution was demonstrated and recorded in the General M365 Dev SIG call - 18th of March 2021. You can watch the recording on YouTube.
+[![Accessing comment information in list formatting and advance form adjustments](https://img.youtube.com/vi/0X4AzvDDuIE/hqdefault.jpg)](https://youtu.be/0X4AzvDDuIE)
+
 ## Sample
 
 Solution|Author(s)

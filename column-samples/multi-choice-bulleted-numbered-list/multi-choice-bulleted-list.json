@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "justify-content": "flex-start",
+        "flex-wrap": "wrap",
+        "margin": "5px 0px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "forEach": "choiceIterator in @currentField",
+          "style": {
+            "margin": "3px 0px",
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "margin-right": "5px"
+              },
+              "attributes": {
+                "iconName": "StatusCircleInner"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$choiceIterator]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

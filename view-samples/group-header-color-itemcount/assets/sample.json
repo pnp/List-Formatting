@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-group-header-color-itemcount",
+    "reponame": "group-header-color-itemcount",
+    "source": "pnp",
+    "title": "Group by header color depending on item count",
+    "shortDescription": "Group by header colors green when 5 items are grouped",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-color-itemcount",
+    "longDescription": [
+      "Grouping items or documents will show the header in a red or green color depending on amount of items in the gruouping"
+    ],
+    "creationDateTime": "2023-02-19T00:00:00.000Z",
+    "updateDateTime": "2023-02-19T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.count"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/group-header-color-itemcount/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "marijnsomers",
+        "pictureUrl": "https://github.com/marijnsomers.png",
+        "name": "Marijn Somers"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
