@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-instagram-basic-display",
+    "reponame": "instagram-basic-display",
+    "source": "pnp",
+    "title": "Instagram Basic Display",
+    "shortDescription": "Display on the homepage of your SharePoint site a continually updated media post using the Instagram Basic Display (IndependentPublisher) connector. ",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/instagram-basic-display",
+    "longDescription": [
+      "Display on the homepage of your SharePoint site a continually updated media posts using the Instagram Basic Display (IndependentPublisher) connector. "
+    ],
+    "creationDateTime": "2023-04-30T00:00:00.000Z",
+    "updateDateTime": "2023-04-30T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Image, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter "
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-white, ms-fontColor-white, ms-fontColor-black ms-fontSize-16"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/instagram-basic-display/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/instagram-basic-display/assets/screenshot-animated.gif",
+        "alt": "screenshot-animated"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "reshmee011", 
+        "pictureUrl": "https://github.com/reshmee011.png",
+        "name": "Reshmee Auckloo"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
