@@ -6,7 +6,7 @@ Display on the homepage of your SharePoint site a continually updated feed of In
 
 The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar Instagram. On click of each post, the post opens up in a new tab within Instagram to allow user to view more details as well as engage within Instagram. On hover on each image the caption of the post is shown.
 
-![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the sample](./assets/Screenshot.png)
 
 ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
