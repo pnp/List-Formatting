@@ -5,7 +5,7 @@ This sample demonstrates the use of [TEC-IT's service](https://barcode.tec-it.co
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-# Prerequisites
+## Prerequisites
 
 External image sources are blocked by default in the custom formatter. To allow external images, you must add the domain to **HTML Field Security**.
 
