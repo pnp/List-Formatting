@@ -1,7 +1,8 @@
 # Instagram Basic Display
 
 ## Summary
-Display on the homepage of your SharePoint site a continually updated feed of Instagram media posts using the publicly available **Instagram Basic Display (IndependentPublisher)** connector. 
+
+Display on the homepage of your SharePoint site a continually updated feed of Instagram media posts using the publicly available **Instagram Basic Display (IndependentPublisher)** connector. The sample was inspired by the [chevron-shape-format](https://github.com/reshmee011/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://twitter.com/aaclage).
 
 The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar Instagram. On click of each post, the post opens up in a new tab within Instagram to allow user to view more details as well as engage within Instagram. On hover on each image the caption of the post is shown.
 
@@ -13,7 +14,7 @@ The results are retrieved using Power Automate, then written to a SharePoint lis
 
 ### Technologies Used
 
-* **SharePoint** 
+* **SharePoint**
   * **List** (used to store the latest Instagram data)
     * **View Formatting** (JSON used to style the list into the familiar Instagram)
 * **Power Automate** (used on a scheduled basis, to retrieve the latest Instagram posts)
@@ -40,7 +41,7 @@ The results are retrieved using Power Automate, then written to a SharePoint lis
 | mediaId    | Single line of text    |
 | mediaType    | Single line of text    |
 
-* Import the Power Automate Flow 
+* Import the Power Automate Flow
 
 Please follow instructions from [instagram-feed-to-SharePointList](https://github.com/reshmee011/powerautomate-samples/tree/main/samples/instagram-feed-to-SharePointList) to get the flow working.
 
@@ -63,6 +64,7 @@ Version|Date|Comments
 1.0|April 30, 2023|Initial release
 
 ## Disclaimer
+
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/instagram-basic-display" />
