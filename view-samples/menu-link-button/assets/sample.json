@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-menu-link-button",
+    "reponame": "menu-link-button",
+    "source": "pnp",
+    "title": "Menu Link button",
+    "shortDescription": "TThis sample allows for the creation of quick links through the use of buttons with additional features. These features include the ability to configure the button using size and color.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-button",
+    "longDescription": [
+      "This sample includes a Metro button style menu with additional features such us configuration of button using size and color, option to favorite a tile using setValue, and also includes customCardProps to show a custom hover card with the description of a tile."
+    ],
+    "creationDateTime": "2021-12-03T00:00:00.000Z",
+    "updateDateTime": "2021-12-03T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-sharedGray10--hover, ms-fontColor-white--hover, ms-fontColor-sharedGray10"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot2.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
