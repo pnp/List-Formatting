@@ -4,13 +4,13 @@
     "reponame": "menu-link-button",
     "source": "pnp",
     "title": "Menu Link button",
-    "shortDescription": "TThis sample allows for the creation of quick links through the use of buttons with additional features. These features include the ability to configure the button using size and color.",
+    "shortDescription": "This sample allows for the creation of quick links through the use of buttons with additional features. These features include the ability to configure the button using size and color.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-button",
     "longDescription": [
-      "This sample includes a Metro button style menu with additional features such us configuration of button using size and color, option to favorite a tile using setValue, and also includes customCardProps to show a custom hover card with the description of a tile."
+      "This sample allows for the creation of quick links through the use of buttons with additional features. These features include the ability to configure the button using size and color. It does not include features like audience targeting, ability to change position of the icon and few others."
     ],
-    "creationDateTime": "2021-12-03T00:00:00.000Z",
-    "updateDateTime": "2021-12-03T00:00:00.000Z",
+    "creationDateTime": "2023-05-03T00:00:00.000Z",
+    "updateDateTime": "2023-05-03T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons, Inline Editing, Hover Cards"
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@now"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "setValue"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -59,19 +59,13 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot.gif",
         "alt": "screenshot"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot2.gif",
-        "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "aaclage",
-        "pictureUrl": "https://github.com/aaclage.png",
-        "name": "André Lage"
+        "gitHubAccount": "reshmee011",
+        "pictureUrl": "https://github.com/reshmee011.png",
+        "name": "Reshmee Auckloo"
       }
     ],
     "references": [

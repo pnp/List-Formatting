@@ -1,27 +1,25 @@
-# Menu Link Tiles
+# Menu Link Button
 
 ## Summary
-This sample includes a Metro tiles style menu with additional features such us configuration of tiles using **size** and **color**, option to **favorite** a tile using `setValue`, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
+
+This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles) by [André Lage](https://twitter.com/aaclage). It includes a Button style menu similar to Quick Links Button style with additional features such as using **width** , **height** and **color**, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
-> This format uses the icon `AddFavorite` combined with `"action": "setValue"` to update an item and reorganizes Tiles in the view when ordered by `Modified`. 
-
-![Menu Tile configuration](./assets/screenshot2.gif)
-
 ## View requirements
+
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Description | Multiple line of text 
+Title | Single line of text
+Description | Multiple line of text
 Color | Single line of text - Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, CyanBlue, Gray, MagentaPink, Orange, OrangeYellow**).
 icon | Single line of text
-URL | Hyperlink 
+URL | Hyperlink
 NewTab | Yes/No - This field is used to open the link the same tab or new tab
-Small | Yes/No - Used to define the size of Tile.
-OrderDate | Date & Time - this field will be used to update item to order tile.
+Width | Number - If not set, the default width is set to 100px.
+Height | Number - If not set, the default width is set to 40px.
 
 ### Edit View requirements
 
@@ -31,16 +29,16 @@ OrderDate | Date & Time - this field will be used to update item to order tile.
 
 Solution|Author(s)
 --------|---------
-menu-link-tiles.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+menu-link-button.json | [Reshmee Auckloo](https://github.com/reshmee011) ([@reshmeeauckloo](https://twitter.com/reshmeeauckloo))
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0|December 03, 2021|Initial release
-
+1.0|May 03, 2023|Initial release
 
 ## Disclaimer
+
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/menu-link-tiles" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/menu-link-button" />
