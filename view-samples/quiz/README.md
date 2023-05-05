@@ -9,7 +9,7 @@ This sample creates a quiz with multiple choice questions. The tile view and cus
 ## View requirements
 
 |Type|Internal Name|Required|Notes|
-|---|---|:---:|
+|---|---|:---:|---|
 |Single line of text|Title|Yes|Quiz question|
 |Single line of text|Answer|Yes|Quiz question answer|
 |Multi lines of text|Justification|Yes| |
