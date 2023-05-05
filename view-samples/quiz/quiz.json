@@ -2,7 +2,6 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
   "width": 315,
   "height": 415,
-  "padding": 12,
   "formatter": {
     "elmType": "div",
     "attributes": {
@@ -33,7 +32,6 @@
         "children": [
           {
             "elmType": "div",
-            "style": {},
             "children": [
               {
                 "elmType": "button",
@@ -276,10 +274,10 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "[$Blog]",
+                  "href": "[$MoreInfo]",
                   "target": "_blank"
                 },
-                "txtContent": "[$MoreInfo.desc]",
+                "txtContent": "More Info",
                 "style": {
                   "width": "auto",
                   "font-size": "14px",
