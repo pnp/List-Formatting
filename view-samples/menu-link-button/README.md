@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles) by [André Lage](https://twitter.com/aaclage). It includes a Button style menu similar to Quick Links Button style with additional features such as using **width** , **height** and **color**, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
+This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles) by [André Lage](https://twitter.com/aaclage). It includes a Button style menu similar to Quick Links Button style with additional features such as using **width** , **height**, **color** and **fontColor**, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
@@ -14,12 +14,13 @@ Field |Type
 --------|---------
 Title | Single line of text
 Description | Multiple line of text
-Color | Single line of text - Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, CyanBlue, Gray, MagentaPink, Orange, OrangeYellow**).
+Color | Single line of text - Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, Cyan, CyanBlue, Gray, MagentaPink, BlueMagenta, Orange, OrangeYellow, RedOrange**).
 icon | Single line of text
 URL | Hyperlink
 NewTab | Yes/No - This field is used to open the link the same tab or new tab
 Width | Number - If not set, the default width is set to 100px.
 Height | Number - If not set, the default width is set to 40px.
+FontColor | If not set, set the default to white
 
 ### Edit View requirements
 

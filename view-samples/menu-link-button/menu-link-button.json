@@ -20,7 +20,7 @@
         "style": {
           "text-decoration": "none",
           "background-color": "=if([$Color]!='','r'+[$Color],'')",
-          "border-radius":"5px",
+          "border-radius": "5px",
           "display": "flex",
           "flex-wrap": "wrap",
           "width": "=if([$Width]=='','100px',[$Width]+'px'",
@@ -36,7 +36,7 @@
             "style": {
               "position": "absolute",
               "padding-top": "5px",
-              "color": "white",
+              "color": "[$FontColor]",
               "z-index": "1",
               "font-size": "14px",
               "padding-left": "30px",
@@ -53,7 +53,7 @@
           "color": "white",
           "z-index": "1",
           "font-size": "18px",
-          "padding-left": "=[$Width]- 20 + 'px'",
+          "padding-left": "=[$Width] - 20 + 'px'",
           "display": "=if([$Description] == '', 'none', 'block')",
           "cursor": "pointer"
         },
@@ -83,7 +83,7 @@
         "style": {
           "position": "absolute",
           "padding-top": "15px",
-          "color": "white",
+          "color": "[$FontColor]",
           "z-index": "1",
           "font-size": "18px",
           "padding-left": "5px",
