@@ -4,7 +4,11 @@
 
 This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles) by [André Lage](https://twitter.com/aaclage). It includes a Button style menu similar to Quick Links Button style with additional features such as using **width** , **height**, **color** and **fontColor**, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![screenshot of the sample](./assets/screenshot.png)
+
+> The sample is responsive.  
+
+![Quick Links Button Style ](./assets/screenshot.gif)
 
 ## View requirements
 
