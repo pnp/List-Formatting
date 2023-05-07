@@ -15,7 +15,7 @@
         "attributes": {
           "href": "[$URL]",
           "target": "=if([$NewTab],'_blank','')",
-          "class": "=if([$Color]!='','ms-fontColor-shared'+[$Color]+'10 ms-bgColor-shared'+[$Color]+'20 ms-bgColor-shared'+[$Color]+'10--hover ms-fontColor-white--hover','ms-bgColor-theme ms-fontColor-sharedGray10 ms-bgColor-sharedGray10--hover ms-fontColor-white--hover')"
+          "class": "=if([$Color]!='','10 ms-bgColor-shared'+[$Color]+'20 ms-bgColor-shared'+[$Color]+'10--hover ms-fontColor-white--hover','ms-bgColor-theme ms-fontColor-sharedGray10 ms-bgColor-sharedGray10--hover ms-fontColor-white--hover')"
         },
         "style": {
           "text-decoration": "none",
