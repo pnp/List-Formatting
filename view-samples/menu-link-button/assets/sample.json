@@ -50,13 +50,19 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-sharedGray10--hover, ms-fontColor-white--hover, ms-fontColor-sharedGray10"
+        "value": "ms-bgColor-sharedGray10--hover"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-link-button/assets/screenshot.gif",
         "alt": "screenshot"
       }

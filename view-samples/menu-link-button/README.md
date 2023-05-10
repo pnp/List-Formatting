@@ -6,7 +6,7 @@ This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-F
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-> The sample is responsive.  
+Also, this sample is responsive.
 
 ![Quick Links Button Style ](./assets/screenshot.gif)
 
@@ -14,17 +14,17 @@ This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-F
 
 - The format expect the following fields:
 
-Field |Type
---------|---------
-Title | Single line of text
-Description | Multiple line of text
-Color | Single line of text - Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, Cyan, CyanBlue, Gray, MagentaPink, BlueMagenta, Orange, OrangeYellow, RedOrange**).
-icon | Single line of text
-URL | Hyperlink
-NewTab | Yes/No - This field is used to open the link the same tab or new tab
-Width | Number - If not set, the default width is set to 100px.
-Height | Number - If not set, the default width is set to 40px.
-FontColor | If not set, set the default to white
+|Type|Internal Name|Required|Notes|
+|---|---|:---:|---|
+|Single line of text|Title|Yes| |
+|Multiple line of text|Description|No| |
+|Single line of text|BackgroundColor|No|Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, Cyan, CyanBlue, Gray, MagentaPink, BlueMagenta, Orange, OrangeYellow, RedOrange**). |
+|Single line of text|FontColor|No|Set the HTML color code or color name (e.g. #CD5C5C, pink). If not set, the color is white.|
+|Single line of text|Icon|No|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
+|Hyperlink|URL|Yes| |
+|Yes/No|NewTab|No|This field is used to open the link the same tab or new tab.|
+|Number|Width|No|If not set, the default width is set to 100px.|
+|Number|Height|No|If not set, the default width is set to 40px.|
 
 ### Edit View requirements
 
