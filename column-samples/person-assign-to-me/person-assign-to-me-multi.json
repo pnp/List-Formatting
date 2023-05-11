@@ -21,7 +21,7 @@
               "children": [
                 {
                   "elmType": "div",
-                  "forEach": "personIterator in @currentField",
+                  "forEach": "person in @currentField",
                   "style": {
                     "display": "=if(@currentField,'flex','none')",
                     "flex-direction": "row",
@@ -33,7 +33,7 @@
                   "attributes": {
                     "class": "ms-bgColor-neutralLight"
                   },
-                  "defaultHoverField": "[$personIterator]",
+                  "defaultHoverField": "[$person]",
                   "children": [
                     {
                       "elmType": "img",
@@ -43,14 +43,15 @@
                         "border-radius": "50%"
                       },
                       "attributes": {
-                        "src": "=getUserImage([$personIterator.email], 'small')"
+                        "src": "=getUserImage([$person.email], 'small')"
                       }
                     },
                     {
                       "elmType": "div",
-                      "txtContent": "[$personIterator.title]",
+                      "txtContent": "[$person.title]",
                       "style": {
-                        "padding": "0px 10px"
+                        "padding-left": "6px",
+                        "padding-right": "10px"
                       },
                       "attributes": {
                         "class": "ms-fontColor-neutralPrimary"
@@ -65,7 +66,7 @@
         {
           "elmType": "div",
           "style": {
-            "display": "=if(indexOf(@currentField.email,@me)>-1,'none','flex')",
+            "display": "=if(indexOf(@currentField.email , @me)>-1,'none','flex')",
             "align-items": "center",
             "margin": "3px"
           },
@@ -75,7 +76,7 @@
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
-              "InternalNameOfPersonColumn": "=appendTo(@currentField.email,@me)"
+              "InternalNameOfPersonColumn": "=appendTo(@currentField.email , @me)"
             }
           },
           "children": [
