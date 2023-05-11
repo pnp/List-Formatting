@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "margin": "7px 0px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if(@currentField,'flex','none')",
+            "flex-direction": "row",
+            "align-items": "center",
+            "white-space": "nowrap",
+            "border-radius": "13px"
+          },
+          "attributes": {
+            "class": "ms-bgColor-neutralLight"
+          },
+          "defaultHoverField": "@currentField",
+          "children": [
+            {
+              "elmType": "img",
+              "style": {
+                "width": "28px",
+                "height": "28px",
+                "border-radius": "50%"
+              },
+              "attributes": {
+                "src": "=getUserImage(@currentField.email,'small')"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "@currentField.title",
+              "style": {
+                "padding": "0px 10px"
+              },
+              "attributes": {
+                "class": "ms-fontColor-neutralPrimary"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if(@currentField,'none','flex')",
+            "align-items": "center",
+            "margin": "3px"
+          },
+          "attributes": {
+            "class": "ms-Link ms-fontColor-themePrimary"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "InternalNameOfPersonColumn": "@me"
+            }
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "Add"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "Assign to Me",
+              "style": {
+                "margin-left": "4px"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

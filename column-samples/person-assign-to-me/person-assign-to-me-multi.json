@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-wrap": "wrap"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "forEach": "personIterator in @currentField",
+                  "style": {
+                    "display": "=if(@currentField,'flex','none')",
+                    "flex-direction": "row",
+                    "align-items": "center",
+                    "white-space": "nowrap",
+                    "border-radius": "13px",
+                    "margin": "4px"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-neutralLight"
+                  },
+                  "defaultHoverField": "[$personIterator]",
+                  "children": [
+                    {
+                      "elmType": "img",
+                      "style": {
+                        "width": "28px",
+                        "height": "28px",
+                        "border-radius": "50%"
+                      },
+                      "attributes": {
+                        "src": "=getUserImage([$personIterator.email], 'small')"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$personIterator.title]",
+                      "style": {
+                        "padding": "0px 10px"
+                      },
+                      "attributes": {
+                        "class": "ms-fontColor-neutralPrimary"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if(indexOf(@currentField.email,@me)>-1,'none','flex')",
+            "align-items": "center",
+            "margin": "3px"
+          },
+          "attributes": {
+            "class": "ms-Link ms-fontColor-themePrimary"
+          },
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "InternalNameOfPersonColumn": "=appendTo(@currentField.email,@me)"
+            }
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "Add"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "Assign to Me",
+              "style": {
+                "margin-left": "4px"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
