@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates the use of the `setValue` action of `customRowAction` to set the current user in the Person column.
+This sample demonstrates the use of the `setValue` action of `customRowAction` to set the current logged-in user in the Person column.
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
