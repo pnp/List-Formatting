@@ -6,8 +6,7 @@
       "elmType": "div",
       "style": {
         "display": "flex",
-        "flex-direction": "column",
-        "margin": "7px 0px"
+        "flex-direction": "column"
       },
       "children": [
         {
@@ -32,14 +31,15 @@
                 "border-radius": "50%"
               },
               "attributes": {
-                "src": "=getUserImage(@currentField.email,'small')"
+                "src": "=getUserImage(@currentField.email, 'small')"
               }
             },
             {
               "elmType": "div",
               "txtContent": "@currentField.title",
               "style": {
-                "padding": "0px 10px"
+                "padding-left": "6px",
+                "padding-right": "10px"
               },
               "attributes": {
                 "class": "ms-fontColor-neutralPrimary"
