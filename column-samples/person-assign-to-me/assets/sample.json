@@ -4,10 +4,10 @@
     "reponame": "person-assign-to-me",
     "source": "pnp",
     "title": "Assign to Me",
-    "shortDescription": "",
+    "shortDescription": "This sample demonstrates the use of the setValue action of customRowAction to set the current logged-in user in the Person column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-assign-to-me",
     "longDescription": [
-      ""
+      "This sample demonstrates the use of the setValue action of customRowAction to set the current logged-in user in the Person column."
     ],
     "creationDateTime": "2023-05-11T00:00:00.000Z",
     "updateDateTime": "2023-05-11T00:00:00.000Z",
