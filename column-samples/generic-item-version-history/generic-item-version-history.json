@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "href": "=@currentWeb+'/_layouts/15/Versions.aspx?list={ LIST ID }&ID='+[$ID]",
+    "target": "_blank",
+    "data-interception": "off"
+  },
+  "style": {
+    "text-decoration": "none"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "History"
+      },
+      "style": {
+        "margin-right": "5px"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "Version history"
+    }
+  ]
+}
