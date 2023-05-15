@@ -5,7 +5,7 @@ Since document sets rely on a different style of version history (captured versi
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
-> **Note**
+> **Note**  
 > If you use this sample, you need to set the __LIST ID__. If not set, the link will not work.
 > ![screenshot of how to find List ID](./assets/listid.png)
 
