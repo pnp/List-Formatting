@@ -20,7 +20,6 @@ This sample creates a link in bio card for users. A "Link in bio" is important f
 |Hyperlink|TeamsChat|No|Deep link to chat with a person in Teams, refer MS Docs.
 |Hyperlink|LinkedIn|No|
 |Hyperlink|Twitter|No|
-|Hyperlink|Instagram|No|
 |Hyperlink|Coffee|No|
 |Hyperlink|Bookings|No|
 
