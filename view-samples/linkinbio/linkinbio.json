@@ -1,0 +1,486 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 310,
+  "height": 640,
+  "padding": 12,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-listPadding ms-bgColor-neutralLight"
+    },
+    "style": {
+      "display": "flex",
+      "padding": "10px",
+      "flex-direction": "column",
+      "align-items": "center",
+      "justify-content": "start"
+    },
+    "children": [
+      {
+        "elmType": "img",
+        "attributes": {
+          "src": "=getUserImage([$Person.email], 'medium')"
+        },
+        "style": {
+          "width": "75px",
+          "height": "75px",
+          "border-radius": "50%",
+          "margin": "8px"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Person.title]",
+        "style": {
+          "font-weight": "bold",
+          "width": "auto",
+          "height": "auto",
+          "border-radius": "50%",
+          "margin": "8px"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Bio]",
+        "style": {
+          "margin-top": "8px",
+          "text-align": "center",
+          "font-weight": "normal",
+          "margin-bottom": "10px",
+          "margin-right": "8px",
+          "margin-left": "8px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "space-around",
+          "margin-bottom": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px",
+              "justify-content": "stretch"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$Yammer]",
+                  "title": "Yammer",
+                  "class": "sp-row-button ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$Yammer] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "black",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "YammerLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$TeamsCall]",
+                  "title": "Call me",
+                  "class": "sp-row-button ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$TeamsCall] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "black",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "TeamsLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$TeamsChat]",
+                  "title": "Text me",
+                  "class": "sp-row-button ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$TeamsChat] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "black",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "Chat",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$LinkedIn]",
+                  "title": "Connect with me",
+                  "class": "sp-row-button ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$LinkedIn] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "black",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "LinkedInLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$Twitter]",
+                  "title": "Follow me",
+                  "class": "sp-row-button ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$Twitter] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "black",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "TwitterLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-direction": "column",
+          "align-items": "center",
+          "width": "90%",
+          "padding": "6px",
+          "margin": "6px"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Website]",
+              "target": "_blank",
+              "class": "ms-bgColor-sharedBlueMagenta10 ms-bgColor-sharedMagenta10--hover"
+            },
+            "style": {
+              "flex-direction": "row",
+              "width": "90%",
+              "border": "2px solid #363636",
+              "border-radius": "0px",
+              "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
+              "vertical-align": "middle",
+              "padding": "12.5px",
+              "margin-bottom": "24px",
+              "justify-content": "center",
+              "display": "=if([$Website] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Website",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Globe",
+                  "class": "ms-font-l"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Blog]",
+              "target": "_blank",
+              "class": "ms-bgColor-sharedCyanBlue10 ms-bgColor-sharedCyanBlue20--hover"
+            },
+            "style": {
+              "flex-direction": "row",
+              "width": "90%",
+              "border": "2px solid #363636",
+              "border-radius": "0px",
+              "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
+              "padding": "12.5px",
+              "margin-bottom": "24px",
+              "justify-content": "center",
+              "display": "=if([$Blog] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Blog",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Blog",
+                  "class": "ms-font-l"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Newsletter]",
+              "target": "_blank",
+              "class": "ms-bgColor-magentaLight ms-bgColor-magenta--hover"
+            },
+            "style": {
+              "flex-direction": "row",
+              "width": "90%",
+              "border": "2px solid #363636",
+              "border-radius": "0px",
+              "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
+              "padding": "12.5px",
+              "margin-bottom": "24px",
+              "justify-content": "center",
+              "display": "=if([$Newsletter] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Newsletter",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Articles",
+                  "class": "ms-font-l"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Coffee]",
+              "target": "_blank",
+              "class": "ms-bgColor-orangeLighter ms-bgColor-orange--hover"
+            },
+            "style": {
+              "flex-direction": "row",
+              "width": "90%",
+              "border": "2px solid #363636",
+              "border-radius": "0px",
+              "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
+              "padding": "12.5px",
+              "margin-bottom": "24px",
+              "justify-content": "center",
+              "display": "=if([$Coffee] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Buy me a coffee",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "CoffeeScript",
+                  "class": "ms-font-l"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Bookings]",
+              "target": "_blank",
+              "class": "ms-bgColor-greenLight ms-bgColor-green--hover"
+            },
+            "style": {
+              "flex-direction": "row",
+              "width": "90%",
+              "border": "2px solid #363636",
+              "border-radius": "0px",
+              "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
+              "padding": "12.5px",
+              "margin-bottom": "24px",
+              "justify-content": "center",
+              "display": "=if([$Bookings] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Book a time with me",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "BookingsLogo",
+                  "class": "ms-font-l"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
