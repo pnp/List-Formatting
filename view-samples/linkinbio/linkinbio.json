@@ -19,7 +19,7 @@
       {
         "elmType": "img",
         "attributes": {
-          "src": "='/_layouts/15/userphoto.aspx?size=S&username=' + [$Person.email]"
+          "src": "=getUserImage([$Person.email], 'medium')"
         },
         "style": {
           "width": "75px",
@@ -72,7 +72,7 @@
                 "attributes": {
                   "href": "[$Yammer]",
                   "title": "Yammer",
-                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                  "class": "sp-row-button ms-fontColor-black"
                 },
                 "style": {
                   "position": "relative",
@@ -111,7 +111,7 @@
                 "attributes": {
                   "href": "[$TeamsCall]",
                   "title": "Call me",
-                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                  "class": "sp-row-button ms-fontColor-black"
                 },
                 "style": {
                   "position": "relative",
@@ -150,7 +150,7 @@
                 "attributes": {
                   "href": "[$TeamsChat]",
                   "title": "Text me",
-                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                  "class": "sp-row-button ms-fontColor-black"
                 },
                 "style": {
                   "position": "relative",
@@ -189,7 +189,7 @@
                 "attributes": {
                   "href": "[$LinkedIn]",
                   "title": "Connect with me",
-                  "class": "sp-row-button sp-row-button ms-bgColor-themePrimary--hover ms-fontWeight-semibold ms-fontColor-black"
+                  "class": "sp-row-button ms-fontColor-black"
                 },
                 "style": {
                   "position": "relative",
@@ -219,9 +219,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-fontColor-sharedOrangeYellow10 ms-fontColor-greenDark--hover"
-            },
             "style": {
               "margin": "2px"
             },
@@ -231,7 +228,7 @@
                 "attributes": {
                   "href": "[$Twitter]",
                   "title": "Follow me",
-                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                  "class": "sp-row-button ms-fontColor-black"
                 },
                 "style": {
                   "position": "relative",
@@ -272,9 +269,11 @@
         },
         "children": [
           {
-            "elmType": "div",
+            "elmType": "a",
             "attributes": {
-              "class": "ms-bgColor-sharedBlueMagenta10 ms-bgColor-sharedMagenta10--hover msfontColor-black msfontColor-white--hover"
+              "href": "[$Website]",
+              "target": "_blank",
+              "class": "ms-bgColor-sharedBlueMagenta10 ms-bgColor-sharedMagenta10--hover"
             },
             "style": {
               "flex-direction": "row",
@@ -283,57 +282,41 @@
               "border-radius": "0px",
               "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
               "vertical-align": "middle",
-              "padding": "12px",
+              "padding": "12.5px",
               "margin-bottom": "24px",
               "justify-content": "center",
-              "display": "=if([$Website] == '', 'none', 'flex')"
+              "display": "=if([$Website] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
             },
             "children": [
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "a",
-                    "attributes": {
-                      "href": "[$Website]",
-                      "target": "_blank"
-                    },
-                    "txtContent": "[$Website.desc]",
-                    "style": {
-                      "text-decoration": "none",
-                      "display": "table-cell",
-                      "margin-bottom": "8px",
-                      "text-align": "center",
-                      "padding-right": "6px"
-                    }
-                  }
-                ]
+                "txtContent": "Website",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
               },
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "style": {
-                      "color": "black",
-                      "align-content": "center",
-                      "justify-content": "center",
-                      "padding-left": "6px",
-                      "white-space": "normal"
-                    },
-                    "attributes": {
-                      "iconName": "TwitterLogo",
-                      "class": "ms-font-l"
-                    }
-                  }
-                ]
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Globe",
+                  "class": "ms-font-l"
+                }
               }
             ]
           },
           {
-            "elmType": "div",
+            "elmType": "a",
             "attributes": {
-              "class": "ms-bgColor-sharedCyanBlue10  ms-bgColor-sharedCyanBlue20--hover msfontColor-black msfontColor-white--hover"
+              "href": "[$Blog]",
+              "target": "_blank",
+              "class": "ms-bgColor-sharedCyanBlue10 ms-bgColor-sharedCyanBlue20--hover"
             },
             "style": {
               "flex-direction": "row",
@@ -341,59 +324,41 @@
               "border": "2px solid #363636",
               "border-radius": "0px",
               "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
-              "vertical-align": "middle",
-              "padding": "12px",
+              "padding": "12.5px",
               "margin-bottom": "24px",
               "justify-content": "center",
-              "display": "=if([$Blog] == '', 'none', 'flex')"
+              "display": "=if([$Blog] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
             },
             "children": [
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "a",
-                    "txtContent": "[$Blog.desc]",
-                    "attributes": {
-                      "href": "[$Blog]",
-                      "target": "_blank"
-                    },
-                    "style": {
-                      "text-decoration": "none",
-                      "color": "black",
-                      "display": "table-cell",
-                      "margin-bottom": "8px",
-                      "text-align": "center",
-                      "padding-right": "6px"
-                    }
-                  }
-                ]
+                "txtContent": "Blog",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
               },
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "style": {
-                      "color": "black",
-                      "align-content": "center",
-                      "justify-content": "center",
-                      "padding-left": "6px",
-                      "white-space": "normal"
-                    },
-                    "attributes": {
-                      "iconName": "Blog",
-                      "class": "ms-font-l"
-                    }
-                  }
-                ]
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Blog",
+                  "class": "ms-font-l"
+                }
               }
             ]
           },
           {
-            "elmType": "div",
+            "elmType": "a",
             "attributes": {
-              "class": "ms-bgColor-magentaLight  ms-bgColor-magenta--hover msfontColor-black msfontColor-white--hover"
+              "href": "[$Newsletter]",
+              "target": "_blank",
+              "class": "ms-bgColor-magentaLight ms-bgColor-magenta--hover"
             },
             "style": {
               "flex-direction": "row",
@@ -401,59 +366,41 @@
               "border": "2px solid #363636",
               "border-radius": "0px",
               "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
-              "vertical-align": "middle",
-              "padding": "12px",
+              "padding": "12.5px",
               "margin-bottom": "24px",
               "justify-content": "center",
-              "display": "=if([$Newsletter] == '', 'none', 'flex')"
+              "display": "=if([$Newsletter] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
             },
             "children": [
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "a",
-                    "txtContent": "[$Newsletter.desc]",
-                    "attributes": {
-                      "href": "[$Newsletter]",
-                      "target": "_blank"
-                    },
-                    "style": {
-                      "text-decoration": "none",
-                      "color": "black",
-                      "display": "table-cell",
-                      "margin-bottom": "8px",
-                      "text-align": "center",
-                      "padding-right": "6px"
-                    }
-                  }
-                ]
+                "txtContent": "Newsletter",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
               },
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "style": {
-                      "color": "black",
-                      "align-content": "center",
-                      "justify-content": "center",
-                      "padding-left": "6px",
-                      "white-space": "normal"
-                    },
-                    "attributes": {
-                      "iconName": "Articles",
-                      "class": "ms-font-l"
-                    }
-                  }
-                ]
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "Articles",
+                  "class": "ms-font-l"
+                }
               }
             ]
           },
           {
-            "elmType": "div",
+            "elmType": "a",
             "attributes": {
-              "class": "ms-bgColor-orangeLighter  ms-bgColor-orange--hover msfontColor-black msfontColor-white--hover"
+              "href": "[$Coffee]",
+              "target": "_blank",
+              "class": "ms-bgColor-orangeLighter ms-bgColor-orange--hover"
             },
             "style": {
               "flex-direction": "row",
@@ -461,59 +408,41 @@
               "border": "2px solid #363636",
               "border-radius": "0px",
               "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
-              "vertical-align": "middle",
-              "padding": "12px",
+              "padding": "12.5px",
               "margin-bottom": "24px",
               "justify-content": "center",
-              "display": "=if([$Coffee] == '', 'none', 'flex')"
+              "display": "=if([$Coffee] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
             },
             "children": [
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "a",
-                    "txtContent": "Buy me a coffee",
-                    "attributes": {
-                      "href": "[$Coffee]",
-                      "target": "_blank"
-                    },
-                    "style": {
-                      "text-decoration": "none",
-                      "color": "black",
-                      "display": "table-cell",
-                      "margin-bottom": "8px",
-                      "text-align": "center",
-                      "padding-right": "6px"
-                    }
-                  }
-                ]
+                "txtContent": "Buy me a coffee",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
               },
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "style": {
-                      "color": "black",
-                      "align-content": "center",
-                      "justify-content": "center",
-                      "padding-left": "6px",
-                      "white-space": "normal"
-                    },
-                    "attributes": {
-                      "iconName": "CoffeeScript",
-                      "class": "ms-font-l"
-                    }
-                  }
-                ]
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "CoffeeScript",
+                  "class": "ms-font-l"
+                }
               }
             ]
           },
           {
-            "elmType": "div",
+            "elmType": "a",
             "attributes": {
-              "class": "ms-bgColor-greenLight  ms-bgColor-green--hover msfontColor-black msfontColor-white--hover"
+              "href": "[$Bookings]",
+              "target": "_blank",
+              "class": "ms-bgColor-greenLight ms-bgColor-green--hover"
             },
             "style": {
               "flex-direction": "row",
@@ -521,52 +450,32 @@
               "border": "2px solid #363636",
               "border-radius": "0px",
               "box-shadow": "6px 6px 2px 1px rgba(0, 0, 0, 0.8)",
-              "vertical-align": "middle",
-              "padding": "12px",
+              "padding": "12.5px",
               "margin-bottom": "24px",
               "justify-content": "center",
-              "display": "=if([$Bookings] == '', 'none', 'flex')"
+              "display": "=if([$Bookings] == '', 'none', 'flex')",
+              "text-decoration": "none",
+              "align-items":"center"
             },
             "children": [
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "a",
-                    "txtContent": "Book a time with me",
-                    "attributes": {
-                      "href": "[$Bookings]",
-                      "target": "_blank"
-                    },
-                    "style": {
-                      "text-decoration": "none",
-                      "color": "black",
-                      "display": "table-cell",
-                      "margin-bottom": "8px",
-                      "text-align": "center",
-                      "padding-right": "6px"
-                    }
-                  }
-                ]
+                "txtContent": "Book a time with me",
+                "style": {
+                  "color": "black",
+                  "padding-right": "6px"
+                }
               },
               {
                 "elmType": "div",
-                "children": [
-                  {
-                    "elmType": "span",
-                    "style": {
-                      "color": "black",
-                      "align-content": "center",
-                      "justify-content": "center",
-                      "padding-left": "6px",
-                      "white-space": "normal"
-                    },
-                    "attributes": {
-                      "iconName": "BookingsLogo",
-                      "class": "ms-font-l"
-                    }
-                  }
-                ]
+                "style": {
+                  "color": "black",
+                  "padding-left": "6px"
+                },
+                "attributes": {
+                  "iconName": "BookingsLogo",
+                  "class": "ms-font-l"
+                }
               }
             ]
           }
