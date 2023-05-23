@@ -2,10 +2,10 @@
 
 ## Summary
 
-Displays images in a grid layout with customisable height and width. The sample was inspired by the [chevron-shape-format](https://github.com/reshmee011/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://twitter.com/aaclage).
+Displays images in a grid layout with customisable height and width. The sample was inspired by the [chevron-shape-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://twitter.com/aaclage).
 On click of each post, the link specified by the URL is opened. On hover on each image the description of the image is shown. Optionally an icon is displayed on the top right of the image.
 
-![screenshot of the sample](./assets/Screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
@@ -15,15 +15,13 @@ On click of each post, the link specified by the URL is opened. On hover on each
 
 |Type|Internal Name|Required|Notes|
 |---|---|:---:|---|
-|Single line of text|Title|Yes| |
-|Multiple line of text|Description|No| |
+|Multiple line of text|Description|Yes| |
 |Single line of text|Icon|No|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
 |Hyperlink|URL|Yes| |
 |Yes/No|NewTab|No|This field is used to open the link the same tab or new tab.|
 |Number|Width|No|If not set, the default width is set to 100px.|
-|Number|Height|No|If not set, the default width is set to 100px.|
-|Image|Image|No||
-
+|Number|Height|No|If not set, the default height is set to 100px.|
+|Image|Image|Yes||
 
 ### Technologies Used
 
