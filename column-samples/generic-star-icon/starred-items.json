@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "inlineEditField": "@currentField",
+  "attributes": {
+    "iconName": "=if(@currentField == 'None' || @currentField == '','FavoriteStar','') + if(@currentField == 'Yellow Star','FavoriteStarFill','') + if(@currentField == 'Orange Star','FavoriteStarFill','') + if(@currentField == 'Red Star','FavoriteStarFill','') + if(@currentField == 'Purple Star','FavoriteStarFill','') + if(@currentField == 'Blue Star','FavoriteStarFill','') + if(@currentField == 'Green Star','FavoriteStarFill','') + if(@currentField == 'Alert','AlertSolid','') + if(@currentField == 'Arrow','MSNVideosSolid','') + if(@currentField == 'Checkmark','CompletedSolid','') + if(@currentField == 'Info','InfoSolid','') + if(@currentField == 'Question','UnknownSolid','')",
+    "title": "@currentField"
+  },
+  "style": {
+    "--inline-editor-border-color": "Green",
+    "cursor": "pointer",
+    "font-size": "24px",
+    "color": "=if(@currentField == 'None' || @currentField == '','#DDD','') + if(@currentField == 'Yellow Star','#f6c94b','') + if(@currentField == 'Orange Star','#f7a24b','') + if(@currentField == 'Red Star','#e57b72','') + if(@currentField == 'Purple Star','#b866c7','') + if(@currentField == 'Blue Star','#79a8f6','') + if(@currentField == 'Green Star','#56b989','') + if(@currentField == 'Alert','#e57b72','') + if(@currentField == 'Arrow','#f7a24b','') + if(@currentField == 'Checkmark','#56b989','') + if(@currentField == 'Info','#79a8f6','') + if(@currentField == 'Question','#b866c7','')"
+  }
+}
