@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "width": "[$Width]",
+      "text-decoration": "none",
+      "float": "left",
+      "min-width": "[$Width]",
+      "height": "[$Height]",
+      "margin": "5px",
+      "cursor": "pointer"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "href": "[$URL]",
+          "target": "=if([$NewTab],'_blank','')"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "5px",
+              "right": "5px",
+              "color": "white",
+              "z-index": "1",
+              "font-size": "25px",
+              "display": "block"
+            },
+            "attributes": {
+              "iconName": "[$Icon]"
+            }
+          },
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "=getThumbnailImage([$Image], [$Width], [$Height])"
+            },
+            "style": {
+              "width": "=if([$Width]=='','100px',[$Width]+'px')",
+              "height": "=if([$Height]=='','100px',[$Height]+'px')",
+              "object-fit": "cover"
+            },
+            "customCardProps": {
+              "openOnEvent": "hover",
+              "directionalHint": "rightCenter",
+              "isBeakVisible": true,
+              "formatter": {
+                "elmType": "div",
+                "txtContent": "[$Description]",
+                "style": {
+                  "max-width": "500px",
+                  "padding": "10px",
+                  "background-color": "rgba(0,0,0.9)",
+                  "opacity": "1",
+                  "color": "white"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
