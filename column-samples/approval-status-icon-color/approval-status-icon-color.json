@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "flex-start",
+        "margin": "7px 5px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center",
+            "padding": "3px",
+            "border-radius": "20px",
+            "border": "=if(Number(@currentField)==0,'1px solid','')"
+          },
+          "attributes": {
+            "class": "=if(Number(@currentField)==0,'ms-bgColor-white',if(Number(@currentField)==1,'ms-bgColor-sharedBlueMagenta10',if(Number(@currentField)==2,'ms-bgColor-sharedRed10','ms-bgColor-tealLight')))"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "padding": "4px",
+                "border-radius": "50%",
+                "font-weight": "bold"
+              },
+              "attributes": {
+                "iconName": "=if(Number(@currentField)==0,'CalculatorSubtract',if(Number(@currentField)==1,'Forward',if(Number(@currentField)==2,'Cancel','Accept')))",
+                "class": "='ms-fontSize-10 ms-bgColor-white '+if(Number(@currentField)==0,'',if(Number(@currentField)==1,'ms-fontColor-sharedBlueMagenta10',if(Number(@currentField)==2,'ms-fontColor-sharedRed10','ms-fontColor-teal')))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$_ApprovalStatus]",
+              "style": {
+                "padding": "0px 7px"
+              },
+              "attributes": {
+                "class": "=if(Number(@currentField)==0,'','ms-fontColor-white')"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "align-items": "center",
+            "margin-top": "2px"
+          },
+          "customRowAction": {
+            "action": "openApprovalDialog"
+          },
+          "attributes": {
+            "class": "ms-Link"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "Approval Details"
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "margin-left": "4px"
+              },
+              "attributes": {
+                "iconName": "OpenInNewWindow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
