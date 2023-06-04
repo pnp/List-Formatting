@@ -7,7 +7,7 @@ This sample demonstrates how to change icons and colors based on the value in th
 
 The values displayed in the Approval Status column vary depending on the display language.
 
-![image on the language differences](./assets/language-differences.png)
+![image of the language differences](./assets/language-differences.png)
 
 There are also two samples, each described below.
 
@@ -15,7 +15,7 @@ There are also two samples, each described below.
 
 **approval-status-icon-color-content-approval.json** is a sample that can be applied to the Approval Status column with  the internal column name of `_ModerationStatus` when [content approval](https://support.microsoft.com/office/require-approval-of-items-in-a-list-or-library-cd0761c4-8c3f-4ea2-9435-13c28aa23d08) is set as required.
 
-![image on the content approval](./assets/content-approval.png)
+![image of the content approval](./assets/content-approval.png)
 
 The following table shows the icons and CSS classes for each value in the Approval Status column.
 
@@ -31,7 +31,7 @@ Approval Status  |Icon Name         |Background color related CSS class|
 
 **approval-status-icon-color-with-approvals.json** is a sample that can be applied to the Approval Status column with the internal column name `_ApprovalStatus` in the list templates "Travel Request with Approval" and "Content Scheduler with Approval".
 
-![image on the list template](./assets/list-templates.png)
+![image of the list templates](./assets/list-templates.png)
 
 The following table shows the icons and CSS classes for each value in the Approval Status column.
 
@@ -44,7 +44,7 @@ Approval Status  |Icon Name         |Background color related CSS class|
 
 When you click on "Approval Details," the "Request approval" dialog or the "Approval request details" dialog will appear.
 
-![image on the approval approval dialog](./assets/approval-details.png)
+![image of the approval dialog](./assets/approval-details.png)
 
 ## View requirements
 
