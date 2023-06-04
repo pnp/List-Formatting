@@ -13,7 +13,7 @@ There are also two samples, each described below.
 
 ### approval-status-icon-color-content-approval.json
 
-`approval-status-icon-color-content-approval.json` is a sample that can be applied to the Approval Status column when [content approval](https://support.microsoft.com/office/require-approval-of-items-in-a-list-or-library-cd0761c4-8c3f-4ea2-9435-13c28aa23d08) is set as required.
+**approval-status-icon-color-content-approval.json** is a sample that can be applied to the Approval Status column with  the internal column name of `_ModerationStatus` when [content approval](https://support.microsoft.com/office/require-approval-of-items-in-a-list-or-library-cd0761c4-8c3f-4ea2-9435-13c28aa23d08) is set as required.
 
 ![image on the content approval](./assets/content-approval.png)
 
@@ -29,7 +29,7 @@ Approval Status  |Icon Name         |Background color related CSS class|
 
 ### approval-status-icon-color-with-approvals.json
 
-`approval-status-icon-color-with-approvals.json` is a sample that can be applied to the Approval Status column of the "Travel requests with approvals" or "Content scheduler with approvals" list templates.
+**approval-status-icon-color-with-approvals.json** is a sample that can be applied to the Approval Status column with the internal column name `_ApprovalStatus` in the list templates "Travel Request with Approval" and "Content Scheduler with Approval".
 
 ![image on the list template](./assets/list-templates.png)
 
@@ -48,8 +48,8 @@ When you click on "Approval Details," the "Request approval" dialog or the "Appr
 
 ## View requirements
 
-- `approval-status-icon-color-content-approval.json` can be applied to the Approval Status column when content approval is set as required.
-- `approval-status-icon-color-with-approvals.json` can be applied to the Approval Status column of the "Travel requests with approvals" and "Content scheduler with approvals" in list templates.
+- **approval-status-icon-color-content-approval.json** can be applied to the Approval Status column with  the internal column name of `_ModerationStatus` when content approval is set as required.
+- **approval-status-icon-color-with-approvals.json** can be applied to the Approval Status column with the internal column name `_ApprovalStatus` in the list templates "Travel Request with Approval" and "Content Scheduler with Approval".
 
 ## Sample
 
