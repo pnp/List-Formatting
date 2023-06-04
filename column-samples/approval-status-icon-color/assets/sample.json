@@ -63,12 +63,12 @@
       {
         "type": "image",
         "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/language-differences.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/language-difference.png",
         "alt": "screenshot"
       },
       {
         "type": "image",
-        "order": 100,
+        "order": 102,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/approval-details.png",
         "alt": "screenshot"
       }

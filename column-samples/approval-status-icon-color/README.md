@@ -7,7 +7,7 @@ This sample demonstrates how to change icons and colors based on the value in th
 
 The values displayed in the Approval Status column vary depending on the display language.
 
-![image of the language differences](./assets/language-differences.png)
+![image of the language difference](./assets/language-difference.png)
 
 There are also two samples, each described below.
 
