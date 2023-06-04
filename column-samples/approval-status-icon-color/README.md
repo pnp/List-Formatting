@@ -1,11 +1,39 @@
-# Icons and colors that change depending on the value in the Approval Status column
+# Approval Status Icons and Colors
 
 ## Summary
-This sample demonstrates changing the icons and colors depending on the value in the Approval Status column.
+This sample demonstrates how to change icons and colors based on the value in the Approval Status column.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-The icons and CSS classes for each value in the Approval Status column are shown in the following table.
+The values displayed in the Approval Status column vary depending on the display language.
+
+![image on the language differences](./assets/language-differences.png)
+
+There are also two samples, each described below.
+
+### approval-status-icon-color-content-approval.json
+
+`approval-status-icon-color-content-approval.json` is a sample that can be applied to the Approval Status column when [content approval](https://support.microsoft.com/office/require-approval-of-items-in-a-list-or-library-cd0761c4-8c3f-4ea2-9435-13c28aa23d08) is set as required.
+
+![image on the content approval](./assets/content-approval.png)
+
+The following table shows the icons and CSS classes for each value in the Approval Status column.
+
+Approval Status  |Icon Name         |Background color related CSS class|
+-----------------|------------------|----------------------------------|
+0 (Approved)     |Accept            |ms-bgColor-tealLight              |
+1 (Rejected)     |Cancel            |ms-bgColor-sharedRed10            |
+2 (Pending)      |Forward           |ms-bgColor-sharedBlueMagenta10    |
+3 (Draft)        |CalculatorSubtract|ms-bgColor-white                  |
+4 (Scheduled)    |EventAccepted     |ms-bgColor-blue                   |
+
+### approval-status-icon-color-with-approvals.json
+
+`approval-status-icon-color-with-approvals.json` is a sample that can be applied to the Approval Status column of the "Travel requests with approvals" or "Content scheduler with approvals" list templates.
+
+![image on the list template](./assets/list-templates.png)
+
+The following table shows the icons and CSS classes for each value in the Approval Status column.
 
 Approval Status  |Icon Name         |Background color related CSS class|
 -----------------|------------------|----------------------------------|
@@ -14,25 +42,21 @@ Approval Status  |Icon Name         |Background color related CSS class|
 2 (Rejected)     |Cancel            |ms-bgColor-sharedRed10            |
 3 (Approved)     |Accept            |ms-bgColor-tealLight              |
 
-Status values are displayed differently depending on the display language.
+When you click on "Approval Details," the "Request approval" dialog or the "Approval request details" dialog will appear.
 
-![screenshot of the sample](./assets/language-differences.png)
-
-Also, clicking on "Approval Details" will bring up a dialog box.
-
-![screenshot of the sample](./assets/approval-details.png)
+![image on the approval approval dialog](./assets/approval-details.png)
 
 ## View requirements
 
-- This format can be applied to the Approval Status column of the "Travel requests with approvals" and "Content scheduler with approvals" in list templates.
-
-    ![image on the list template](./assets/listtemplates.png)
+- `approval-status-icon-color-content-approval.json` can be applied to the Approval Status column when content approval is set as required.
+- `approval-status-icon-color-with-approvals.json` can be applied to the Approval Status column of the "Travel requests with approvals" and "Content scheduler with approvals" in list templates.
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-approval-status-icon-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+approval-status-icon-color-content-approval.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+approval-status-icon-color-with-approvals.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -47,6 +71,6 @@ Version |Date        |Comments
 
 ## Additional notes
 
-- As of June 4, 2023, the approval feature is currently being rolled out and may not be available to all tenants. (Roadmap ID [100502](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=100502))
+- As of June 4, 2023, the approval features available in list templates "Travel requests with approvals" and "Content scheduler with approvals" are in the process of being rolled out. Therefore, they may not be available for some tenants. (Roadmap ID [100502](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=100502))
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-status-icon-color" />

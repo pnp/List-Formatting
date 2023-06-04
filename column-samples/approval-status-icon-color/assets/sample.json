@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-approval-status-icon-color",
     "reponame": "approval-status-icon-color",
     "source": "pnp",
-    "title": "Icons and colors that change depending on the value in the Approval Status column",
-    "shortDescription": "This sample demonstrates changing the icons and colors depending on the value in the Approval Status column.",
+    "title": "Approval Status Icons and Colors",
+    "shortDescription": "This sample demonstrates how to change icons and colors based on the value in the Approval Status column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/approval-status-icon-color",
     "longDescription": [
-      "This sample demonstrates changing the icons and colors depending on the value in the Approval Status column."
+      "This sample demonstrates how to change icons and colors based on the value in the Approval Status column."
     ],
     "creationDateTime": "2023-06-04T00:00:00.000Z",
     "updateDateTime": "2023-06-04T00:00:00.000Z",
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": "Approval Status"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "Number"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "ms-bgColor-white, ms-bgColor-sharedBlueMagenta10, ms-bgColor-sharedRed10, ms-bgColor-tealLight, ms-bgColor-blue, ms-fontSize-10, ms-fontColor-sharedBlueMagenta10, ms-fontColor-sharedRed10, ms-fontColor-teal, ms-fontColor-blue"
       }
     ],
     "thumbnails": [
@@ -58,6 +58,18 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/language-differences.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-status-icon-color/assets/approval-details.png",
         "alt": "screenshot"
       }
     ],
