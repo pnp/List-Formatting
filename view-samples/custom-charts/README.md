@@ -20,7 +20,7 @@ This solution has been tested with the following SharePoint pages layouts:
 <img src="https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/assets/Page-Layout.png" width="60%" height="60%">
 
 ### HOW DOES IT WORK?
-Each chart is contained in a **gallery view card**. It's possible to add or modify data using the [**built-in editing**](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) functionality in the same tile, without the need of opening the right pane, as well as renaming **labels** and modifying fill **colors** ([**HEX**](https://g.co/kgs/4Y9ABj) values or [**HTML**](https://www.w3schools.com/colors/colors_names.asp) names) of any graphic elements. All the charts samples take into account the following [**decimal separator**](https://en.wikipedia.org/wiki/Decimal_separator) standards: dot and comma.
+Each chart is contained in a **custom list row**. It's possible to add or modify data using the [**built-in editing**](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) functionality in the same tile, without the need of opening the right pane, as well as renaming **labels** and modifying fill **colors** ([**HEX**](https://g.co/kgs/4Y9ABj) values or [**HTML**](https://www.w3schools.com/colors/colors_names.asp) names) of any graphic elements. All the charts samples take into account the following [**decimal separator**](https://en.wikipedia.org/wiki/Decimal_separator) standards: dot and comma.
 
 Furthermore, to make some charts work properly, it's necessary to define a **scale**, based on the maximum data value expected.
 
@@ -31,22 +31,22 @@ For example, if we wanted to display the number of products sold and the maximum
 <img src="https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/assets/Scale-Sample-1.png" width="50%" height="50%"><img src="https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/assets/Scale-Sample-2.png" width="50%" height="50%">
 
 ### PERMISSIONS AND USER INTERFACE
-If you are planning to share or publish charts created with Microsoft Lists, you may want to make sure other people have only **read permission**, to prevent them from editing data. But, at the same time, charts should be easily modified by taking advantage of the [**inline editing**](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature and that's why the conditional formatting of the JSON code templates comes into help, as shown in the user interface comparison below:
+If you are planning to share or publish charts created with Microsoft Lists, you may want to make sure other people have only **read permission**, to prevent them from accidentally editing your data. But, at the same time, charts can be easily modified by taking advantage of the [**inline editing**](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature and that's why the conditional formatting of the JSON code templates comes into help, as shown in the user interface comparison below:
 
 ![](https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/assets/Author-User.png)
 
 ### LIST SETUP
-The setup requires 3 steps:
+The setup requires 4 steps:
 
 **1.** For each template, download an Excel file containing a table and export it to SharePoint as illustrated [**here**](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab).
 
 **2.** Numbers columns (named VALUE1, VALUE2, VALUE3_1 and so on) must have the following setup: no symbols, automatic number of decimal places, thousands separator enabled and informations required (no empty values allowed).
 
-**3.** Create a new gallery view, **including the OOTB Author column**.
+**3.** Create a new basic list view, **including the OOTB Author column**.
 
 **4.** Copy the JSON code provided for each template, paste it into the view formatting box (Advanced formatting mode) and Save.
 
-### GETTING STARTED
+### GETTING STARTED WITH YOUR CHART
 After applying the formatting with JSON code, you'll have to [**define a scale**](https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/README.md#how-does-it-work) and then add data labels. Click on the icon with three dots in the upper right corner to add new labels. Then, click on the interactive icons and boxes to modify the label names, insert numeric values, and apply a fill color of your choice to the graphic elements ([**HEX**](https://g.co/kgs/4Y9ABj) values or [**HTML**](https://www.w3schools.com/colors/colors_names.asp) names). Here is an example below with a scale set to 10:
 
 ![](https://github.com/Fedes365/List-Formatting/blob/master/view-samples/custom-charts/assets/Getting-Started.gif)
