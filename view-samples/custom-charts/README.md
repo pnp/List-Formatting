@@ -7,7 +7,7 @@ Charts created with Microsoft Lists **DO NOT** replace other tools and apps for 
 
 | <h3>TABLE OF CONTENTS      </h3>|
 |:-----------------|
-|[**● WHAT IS IT?**](#what-is-it)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)|
+|[**● WHAT IS IT?**](#what-is-it)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started-with-your-chart)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)|
 
 ### WHAT IS IT?
 Thanks to JSON formatting, this templates package will allow you to quickly create **6 different types of charts**, which you can organize into collections, share, and publish on SharePoint pages. Microsoft 365 offers many options and ways to share and publish information in the form of charts. In particular, people involved in **internal communications** have now an extra tool available: **Microsoft Lists charts**.
