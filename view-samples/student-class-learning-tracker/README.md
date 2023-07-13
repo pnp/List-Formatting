@@ -74,4 +74,13 @@ A Flow needs to be used in order for the program items to be entered correctly.
 
 The Excel file(s) required, and the Flow sample will be uploaded shortly.
 
+## Acknowledgements
+The SCLT was inspired by multiple other samples found here in the PnP community, and the author greatly acknowledges their contributions.
+- [Giuliano Del Luca's Video Library view](https://github.com/giuleon/ListViewFormattingVideoLibrary)
+- [Andre Lage's Board Tags](https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags)
+- [Tetsuya Kawahara's Assign to Me column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-assign-to-me)
+- [Tetsuya Kawahara's Star Rating column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-star-rating)
+- [Michel Mendes' Group Header Status Icon and Color group formatting](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color)
+
+
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/student-class-learning-tracker" />
