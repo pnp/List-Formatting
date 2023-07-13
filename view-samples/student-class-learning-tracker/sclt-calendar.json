@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "additionalEventClass": "=if(indexOf([$Class],'BUK') != -1,  if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBlue' , 'sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont'), if(indexOf([$Class],'DIN') != -1, if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGreen' , 'sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont'),if(indexOf([$Class],'WAR') != -1, if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBrown' , 'sp-css-backgroundColor-BgGold sp-css-color-GoldFont'), if(indexOf([$Class],'WAY') != -1, if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont'), ''))))"
+}
