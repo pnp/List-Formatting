@@ -54,8 +54,8 @@ The internal names of these fields are in the new format, e.g. they do not conta
 
 Solution| Description | Author
 --------|---------|---------
-SCLTCalendar.json | Calendar view | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
-SCLTOverview.json | Main view | [Hubert Lam](https://twitter.com/z3019494)
+sclt-clendar.json | Calendar view | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
+sclt-overview.json | Main view | [Hubert Lam](https://twitter.com/z3019494)
 
 ## Version history
 
