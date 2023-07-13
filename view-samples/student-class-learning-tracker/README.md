@@ -14,7 +14,7 @@ This sample transforms your list into a learning tracker which enables teachers 
   - **Post Classwork/Homework to Student Team** flow
 - View in calendar mode, so that the actual length of a topic can be reassessed for the upcoming year
 
-![SCLT in action](/StudentClassLearningTracker/SCLT.gif)
+![SCLT in action](./SCLT.gif)
 
 [📺 Recording made in May 2023 (whilst the SCLT was trialled)](https://youtu.be/MJj9jWLtQQU)
 
