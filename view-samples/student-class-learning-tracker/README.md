@@ -49,6 +49,18 @@ Weeks Expected | Number| | | `0` to `50` |
 
 The internal names of these fields are in the new format, e.g. they do not contain any `_x0020_` as spaces.
 
+### Views to make it work
+The following views are needed, with the JSON code applied to the following views:
+
+View name | Type | Sorting | Filtering | Group | Other notes
+--------|---------|--------|---------|---------|---------
+`Year 07`, `Year 08`, ... , `Year 12` etc | List | `Topic Content Sequence`, asc | `Year Group` equal to `Year 7` etc | `Class`, then `Topic Number` | See the progress of every class, down to the program content progress
+`Assigned to me` | List | `Topic Content Sequence`, asc | `Assigned To` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])` and `Completion Date` equal to _(blank)_ | `Class`, then `Topic Number` | As above, but only shows classes assigned to Me.
+`Assigned to me (also show completed)` | List | `Topic Content Sequence`, asc | `Assigned To` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])`  | `Class`, then `Topic Number` | 
+`Cohort overview - Year 07`, `Cohort overview - Year 08` etc | List | `Class` | `Year Group` equal to `Year 7` etc, and `Calendar Year` geq `=YEAR([Today])` and `Topic Content Sequence` equal to `0` and `Completion Date` equal to _blank_ | Gives a cohort overview (shows yellow cards only)
+`Calendar - Year 07`, `Calendar - Year 08` etc | Calendar | | `Year Group` equal to `Year 7` etc | | `Commencement Date` as the calendar start date, `Completion Date` as the calendar completion date. Title auto-set by Power Automate import.
+
+All grouping is initially collapsed.
 
 ## Sample
 
