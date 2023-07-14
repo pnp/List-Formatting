@@ -62,6 +62,20 @@ View name | Type | Sorting | Filtering | Group | Other notes | JSON code to past
 
 All grouping is initially collapsed.
 
+### Ideas for other Power Automate flows to plug into this sample
+There are several buttons which utilises an if-then Excel like formula to determine which Power Automate flow to execute.
+
+You'll need to replace these buttons with your own flows. For simplicity, those flows aren't shared within this sample, but the name of the button should give you an idea of what's possible.
+
+Button name | Flow ID | Intention 
+--------|---------|--------
+Apply Early Intervention | `30b64ec0-4c65-4f9b-a772-35dcf89de082` | Create an early intervention entry, which has further functionality to send parents an email
+Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwork/homework to an existing team that contains students to remind of homework
+Lodge Learning Adjustment | None | Lodge a learning adjustment (disability or gifted) that has been applied for student(s). 
+
+<img width="589" alt="image" src="https://github.com/z3019494/List-Formatting/assets/60587625/a2312b87-78e7-4595-9cf3-c13ae362ead5">
+
+
 ## Sample
 
 Solution| Description | Author
@@ -90,6 +104,8 @@ The Excel file(s) required, and the Flow sample will be uploaded shortly.
 The SCLT was inspired by multiple other samples found here in the PnP community, and the author greatly acknowledges their contributions.
 - [Giuliano Del Luca's Video Library view](https://github.com/giuleon/ListViewFormattingVideoLibrary)
 - [Andre Lage's Board Tags](https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags)
+- [Andre Lage's Reorder and Expand Board Items](https://github.com/pnp/List-Formatting/tree/master/view-samples/reorder-expand-board-items)
+- [Chris Kent's Conditionally Launch Flow for Item](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-start-flow-conditionally)
 - [Tetsuya Kawahara's Assign to Me column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-assign-to-me)
 - [Tetsuya Kawahara's Star Rating column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-star-rating)
 - [Michel Mendes' Group Header Status Icon and Color group formatting](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color)
