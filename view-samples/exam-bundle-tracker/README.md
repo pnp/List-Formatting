@@ -10,7 +10,7 @@ When this occurs, often bundles of papers are divided by class, and each teacher
 
 This sample transforms your list into an Exam Bundle Tracker which answers the two questions above.
 
-![SCLT in action](./SCLT.gif)
+![Exam Bundle Tracker action](./Exam Bundle Tracker.gif)
 
 
 ## View requirements
@@ -63,9 +63,7 @@ Version|Date|Comments
 ---
 
 ## Additional notes
-A Flow needs to be used in order for the program items to be entered correctly.
-
-The Excel file(s) required, and the Flow sample will be uploaded shortly.
+Use the default **All Items** and **Edit in Grid** view to bulk enter new exam bundles.
 
 ## Acknowledgements
 The SCLT was inspired by multiple other samples found here in the PnP community, and the author greatly acknowledges their contributions.
