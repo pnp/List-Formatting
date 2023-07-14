@@ -67,7 +67,7 @@ Version|Date|Comments
 Use the default **All Items** and **Edit in Grid** view to bulk enter new exam bundles.
 
 ## Acknowledgements
-The SCLT was inspired by multiple other samples found here in the PnP community, and the author greatly acknowledges their contributions.
+The Exam Bundle Tracker was inspired by multiple other samples found here in the PnP community, and the author greatly acknowledges their contributions.
 - [Giuliano Del Luca's Video Library view](https://github.com/giuleon/ListViewFormattingVideoLibrary)
 - [Tetsuya Kawahara's Assign to Me column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-assign-to-me)
 - [Michel Mendes' Group Header Status Icon and Color group formatting](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color)
