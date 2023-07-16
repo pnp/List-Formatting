@@ -1,0 +1,115 @@
+[
+  {
+    "name": "pnp-list-formatting-custom-charts",
+    "reponame": "custom-charts",
+    "source": "pnp",
+    "title": "Custom Charts",
+    "shortDescription": "This templates package will allow you to quickly create 6 different types of charts, which you can organize into collections, share, and publish on SharePoint pages.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-charts",
+    "longDescription": [
+      "This templates package will allow you to quickly create 6 different types of charts, which you can organize into collections, share, and publish on SharePoint pages."
+    ],
+    "creationDateTime": "2023-03-22T00:00:00.000Z",
+    "updateDateTime": "2022-03-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "substring, toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, inlineEditField, hideColumnHeader, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-communicationTint40--hover, ms-bgColor-severeWarning--hover, ms-fontColor-black--hover, ms-fontColor-neutralQuaternaryAlt, sp-css-color-BlackText, sp-css-color-GrayText"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Charts-Preview.png",
+        "alt": "screenshot of 6 different charts"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Doughnut-Chart-P.png",
+        "alt": "screenshot of the donut chart sample"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Pie-Chart.png",
+        "alt": "screenshot of the pie chart sample"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Bar-Chart.gif",
+        "alt": "screenshot of the vertical bar chart sample"
+      },
+      {
+        "type": "image",
+        "order": 104,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Horizontal-Bar-Chart.gif",
+        "alt": "screenshot of the horizontal bar chart sample"
+      },
+      {
+        "type": "image",
+        "order": 105,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Stacked-Bars-Chart.png",
+        "alt": "screenshot of the stacked bars sample"
+      },
+      {
+        "type": "image",
+        "order": 106,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Line-Chart.png",
+        "alt": "screenshot of the line chart sample"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Fedes365",
+        "pictureUrl": "https://github.com/Fedes365.png",
+        "name": "Federico Sapia"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
