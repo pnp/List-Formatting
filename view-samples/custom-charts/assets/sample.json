@@ -62,37 +62,37 @@
       },
       {
         "type": "image",
-        "order": 102,
+        "order": 101,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Doughnut-Chart-P.png",
         "alt": "screenshot of the donut chart sample"
       },
       {
         "type": "image",
-        "order": 103,
+        "order": 102,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Pie-Chart.png",
         "alt": "screenshot of the pie chart sample"
       },
       {
         "type": "image",
-        "order": 104,
+        "order": 103,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Bar-Chart.gif",
         "alt": "screenshot of the vertical bar chart sample"
       },
       {
         "type": "image",
-        "order": 105,
+        "order": 104,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Horizontal-Bar-Chart.gif",
         "alt": "screenshot of the horizontal bar chart sample"
       },
       {
         "type": "image",
-        "order": 106,
+        "order": 105,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Stacked-Bars-Chart.png",
         "alt": "screenshot of the stacked bars sample"
       },
       {
         "type": "image",
-        "order": 107,
+        "order": 106,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Line-Chart.png",
         "alt": "screenshot of the line chart sample"
       }
