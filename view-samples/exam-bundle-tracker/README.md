@@ -23,6 +23,7 @@ Title	| Single line of text	 | |
 Year of task | Choice | `2023`, `2024`, `2025` etc | Yes  |  | 
 Course/Year | Choice	| `07`, `08`, ..., `11 - Adv`, `11 - Ext 1`, `12 - Adv`, `12 - Ext 1`, `12 - Ext 2` etc | No |  
 Bundle Number	| Choice | `1`, `2`, ..., `7` | No | 
+Total bundles | Number | | | Min: `0`
 Task Number | Choice	| `1`, `2`, `3`, `4 (Yearly/Trial)` | 
 In possession | Person | | 
 Not Marked | Multi Person	| | 
