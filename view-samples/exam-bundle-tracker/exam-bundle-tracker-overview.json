@@ -148,7 +148,7 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "='Bundle number: ' + [$BundleNumber]",
+                    "txtContent": "='Bundle number: ' + [$BundleNumber] + ' of ' + [$Totalbundles]",
                     "style": {
                       "margin-left": "4px"
                     }
@@ -186,7 +186,7 @@
               },
               {
                 "elmType": "div",
-                "txtContent": "='Bundle ' + [$BundleNumber] + ' | ' + length([$Marked]) + ' of ' + toString( length([$NotMarked]) + length([$Marked]) + ' markers completed' + if([$Incirculation] == false,' (Task now archived)','')",
+                "txtContent": "='Bundle ' + [$BundleNumber] + ' of ' + [$Totalbundles] + ' | ' + length([$Marked]) + ' of ' + toString( length([$NotMarked]) + length([$Marked]) + ' markers completed' + if([$Incirculation] == false,' (Task now archived)','')",
                 "style": {
                   "margin-left": "8px",
                   "vertical-align": "middle",
