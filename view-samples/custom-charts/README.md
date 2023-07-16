@@ -12,7 +12,7 @@ Charts created with Microsoft Lists **DO NOT** replace other tools and apps for 
 ### WHAT IS IT?
 Thanks to JSON formatting, this templates package will allow you to quickly create **6 different types of charts**, which you can organize into collections, share, and publish on SharePoint pages. Microsoft 365 offers many options and ways to share and publish information in the form of charts. In particular, people involved in **internal communications** have now an extra tool available: **Microsoft Lists charts**.
 
-![](./assets/Charts-Preview.png)
+![screenshot of 6 different charts](./assets/Charts-Preview.png)
 
 This solution has been tested with the following SharePoint pages layouts:
 
@@ -23,7 +23,7 @@ Each chart is contained in a [**custom list row**](https://learn.microsoft.com/s
 
 Furthermore, to make some charts work properly, it's necessary to define a **scale**, based on the maximum data value expected.
 
-![](./assets/Scale.gif)
+![screenshot of scale setting](./assets/Scale.gif)
 
 For example, if we wanted to display the number of products sold and the maximum value is 120000, then the scale could be equal to or greater than 120000. Alternatively, it could be 120, if we prefer to express all values in "_thousands of units_". In other words, a scale will provide a **scope** all values and their related visual elements will be displayed within. In the first sample image below the scale is 10000000 (ten millions) whereas in the second image it's 10. The visual result **is the same**, but we are expressing values according to different scales:
 
@@ -32,7 +32,7 @@ For example, if we wanted to display the number of products sold and the maximum
 ### PERMISSIONS AND USER INTERFACE
 If you are planning to share or publish charts created with Microsoft Lists, you may want to make sure other people have only **read permission**, to prevent them from accidentally editing your data. But, at the same time, charts can be easily modified by taking advantage of the [**inline editing**](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature and that's why the conditional formatting of the JSON code templates comes into help, as shown in the user interface comparison below:
 
-![](./assets/Author-User.png)
+![screenshot of the difference between how the Author and the user see the difference](./assets/Author-User.png)
 
 ### LIST SETUP
 The setup requires 4 steps:
@@ -53,13 +53,13 @@ After applying the formatting with JSON code, you'll have to [**define a scale**
 ### DOUGHNUT
 The Doughnut chart comes with two variations: one with percentages and values displayed and the other one without values. Both allow to display a maximum of 6 slices. You can apply a fill color to each arc. Download the [**Excel file**](./assets/Doughnut-Chart.xlsx) and export it to SharePoint. Then, apply the JSON code of the [**percentage+value**](./Doughnut-Chart-PV.json) version or the [**percentage only**](./Doughnut-Chart-P.json).
 
-<img src="./assets/Doughnut-Chart-1.gif" width="50%" height="50%"><img src="./assets/Chart-3.png" width="45%" height="45%">
+<img src="./assets/Doughnut-Chart-PV.gif" width="50%" height="50%"><img src="./assets/Doughnut-Chart-P.png" width="45%" height="45%">
 
 ### PIE
 The Pie chart allows to display a maximum of 6 slices. You can apply a fill color to each slice. Download the [**Excel file**](./assets/Pie-Chart.xlsx) and export it to SharePoint. Then, apply the JSON code of the [**standard version**](./Pie-Chart.json) or the [**larger one**](./Pie-Chart-Large.json).
 
 <p align="center">
-<img src="./assets/Chart-4.png" width="50%" height="50%">
+<img src="./assets/Pie-Chart.png" width="50%" height="50%">
 </p>
 
 ### BAR (Vertical)
