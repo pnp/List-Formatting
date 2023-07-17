@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "flex-wrap": "wrap",
+        "margin": "5px 0px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "forEach": "_colorcircle in @currentField",
+          "style": {
+            "margin": "3px",
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center"
+          },
+          "attributes": {
+            "title": "[$_colorcircle]"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "24px",
+                "height": "24px"
+              },
+              "children": [
+                {
+                  "elmType": "svg",
+                  "style": {
+                    "stroke": "gray",
+                    "min-width": "100%",
+                    "min-height": "100%"
+                  },
+                  "attributes": {
+                    "viewBox": "0 0 200 200"
+                  },
+                  "children": [
+                    {
+                      "elmType": "path",
+                      "forEach": "_color in split([$_colorcircle],'+')",
+                      "style": {
+                        "fill": "currentColor",
+                        "color": "[$_color]"
+                      },
+                      "attributes": {
+                        "d": "=if(length(split([$_colorcircle],'+'))==1,'M200,100 A100,100 0 1,0 0,100 A100,100 0 1,0 200,100','M100,100 L'+(100+100*cos((360*loopIndex('_color')/length(split([$_colorcircle],'+'))-90)*(3.14159265/180)))+','+(100+100*sin((360*loopIndex('_color')/length(split([$_colorcircle],'+'))-90)*(3.14159265/180)))+' A100,100 0 '+if(1/length(split([$_colorcircle],'+'))<=0.5,'0','1')+',1 '+(100+100*cos((360*(loopIndex('_color')+1)/length(split([$_colorcircle],'+'))-90)*(3.14159265/180)))+','+(100+100*sin((360*(loopIndex('_color')+1)/length(split([$_colorcircle],'+'))-90)*(3.14159265/180)))+' Z')"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
