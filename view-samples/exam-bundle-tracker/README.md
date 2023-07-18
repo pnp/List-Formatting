@@ -10,7 +10,7 @@ When this occurs, often bundles of papers are divided by class, and each teacher
 
 This sample transforms your list into an Exam Bundle Tracker which answers the two questions above.
 
-![Exam Bundle Tracker in action](./ExamBundleTracker.gif)
+![Exam Bundle Tracker in action](./ExamBundleTracker-mosaic.gif)
 
 
 
