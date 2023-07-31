@@ -682,7 +682,7 @@
                           }
                         },
                         "attributes": {
-                          "class": "='sp-row-button ' + if([$TaskActive] && length([$LatestQuestionPaper]) != 0 && length([$LatestSolutions]) != 0, if(indexOf([$Course_x002f_Year],'Ext 1') == -1, 'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCyan  sp-css-backgroundColor-BgCyan30--hover'),'ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover')"
+                          "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
                         },
                         "style": {
                           "width": "250px",
