@@ -1,0 +1,841 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "new",
+        "hide": true
+      }
+    ]
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "border-style": "solid",
+      "border-width": "2px",
+      "border-radius": "12px",
+      "max-width": "400px",
+      "overflow": "hidden",
+      "align-items": "center",
+      "align-self": "center"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralPrimary ms-borderColor-neutralTertiary ms-bgColor-neutralTertiary ms-fontSize-l"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "COMMENT": "POLL TITLE",
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "inlineEditField": "[$Title]",
+            "style": {
+              "width": "100%",
+              "text-align": "center",
+              "padding": "4px"
+            },
+            "attributes": {
+              "class": "ms-fontColor-white ms-fontSize-m ms-fontWeight-semibold ms-fontColor-neutralPrimary--hover"
+            }
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "LightningBoltSolid",
+              "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover ms-fontWeight-semibold",
+              "title": "Collect new responses"
+            },
+            "style": {
+              "padding-left": "6px",
+              "cursor": "pointer"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Iteration": "=[$Iteration]+1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white"
+        },
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "width": "100%",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "COMMENT": "QUESTION",
+            "elmType": "div",
+            "txtContent": "[$Question]",
+            "inlineEditField": "[$Question]",
+            "attributes": {
+              "class": "ms-fontWeight-semibold"
+            },
+            "style": {
+              "padding-top": "12px"
+            }
+          },
+          {
+            "COMMENT": "OPTION 1",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Option1]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "382px",
+              "justify-content": "center"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralLight--hover"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "ColorSolid",
+                  "title": "Result color",
+                  "class": "='ms-fontColor-' + [$Color1]"
+                },
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "customCardProps": {
+                  "openOnEvent": "hover",
+                  "isBeakVisible": true,
+                  "beakStyle": {
+                    "background-color": "#f3f2f1"
+                  },
+                  "formatter": {
+                    "COMMENT": "COLOR 1 COLOR PICKER",
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-bgColor-neutralLighter ms-borderColor-neutralLight"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "border-style": "solid",
+                      "border-width": "1px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Theme colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('themeDarker|themeDark|themeDarkAlt|themePrimary|themeSecondary|neutralTertiary|neutralSecondary|neutralPrimaryAlt|neutralPrimary|neutralDark','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "=if([$colorIterator]=='themeDarker','Theme darker',if([$colorIterator]=='themeDark','Theme dark',if([$colorIterator]=='themeDarkAlt','Theme dark alternate',if([$colorIterator]=='themePrimary','Theme primary',if([$colorIterator]=='themeSecondary','Theme secondary',if([$colorIterator]=='neutralTertiary','Neutral tertiary',if([$colorIterator]=='neutralSecondary','Neutral secondary',if([$colorIterator]=='neutralPrimaryAlt','Neutral primary alternate',if([$colorIterator]=='neutralPrimary','Neutral primary','Neutral dark')))))))))",
+                              "class": "=if([$Color1]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color1]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color1": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color1]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "Standard colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('redDark|red|yellow|yellowLight|greenLight|green|blueLight|blue|blueDark|purple','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "='Standard color: ' + if([$colorIterator]=='redDark','Dark red',if([$colorIterator]=='red','Red',if([$colorIterator]=='yellow','Orange',if([$colorIterator]=='yellowLight','Yellow',if([$colorIterator]=='greenLight','Light green',if([$colorIterator]=='green','Green',if([$colorIterator]=='blueLight','Light blue',if([$colorIterator]=='blue','Blue',if([$colorIterator]=='blueDark','Dark blue','Purple')))))))))",
+                              "class": "=if([$Color1]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color1]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color1": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color1]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Option1]",
+                "inlineEditField": "[$Option1]",
+                "style": {
+                  "text-align": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$Option2]=='','none','')",
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "Delete",
+                  "title": "Remove option"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option1": "=if([$Option2]!='',[$Option2],if([$Option3]!='',[$Option3],''))",
+                    "Option2": "[$Option3]",
+                    "Option3": ""
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$Option2]=='','none','')",
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "TriangleSolidDown12",
+                  "title": "Move option down"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option1": "[$Option2]",
+                    "Option2": "[$Option1]"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "COMMENT": "OPTION 2",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Option2]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "382px",
+              "justify-content": "center"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralLight--hover"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "ColorSolid",
+                  "title": "Result color",
+                  "class": "='ms-fontColor-' + [$Color2]"
+                },
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "customCardProps": {
+                  "openOnEvent": "hover",
+                  "isBeakVisible": true,
+                  "beakStyle": {
+                    "background-color": "#f3f2f1"
+                  },
+                  "formatter": {
+                    "COMMENT": "COLOR 2 COLOR PICKER",
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-bgColor-neutralLighter ms-borderColor-neutralLight"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "border-style": "solid",
+                      "border-width": "1px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Theme colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('themeDarker|themeDark|themeDarkAlt|themePrimary|themeSecondary|neutralTertiary|neutralSecondary|neutralPrimaryAlt|neutralPrimary|neutralDark','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "=if([$colorIterator]=='themeDarker','Theme darker',if([$colorIterator]=='themeDark','Theme dark',if([$colorIterator]=='themeDarkAlt','Theme dark alternate',if([$colorIterator]=='themePrimary','Theme primary',if([$colorIterator]=='themeSecondary','Theme secondary',if([$colorIterator]=='neutralTertiary','Neutral tertiary',if([$colorIterator]=='neutralSecondary','Neutral secondary',if([$colorIterator]=='neutralPrimaryAlt','Neutral primary alternate',if([$colorIterator]=='neutralPrimary','Neutral primary','Neutral dark')))))))))",
+                              "class": "=if([$Color2]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color2]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color2": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color2]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "Standard colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('redDark|red|yellow|yellowLight|greenLight|green|blueLight|blue|blueDark|purple','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "='Standard color: ' + if([$colorIterator]=='redDark','Dark red',if([$colorIterator]=='red','Red',if([$colorIterator]=='yellow','Orange',if([$colorIterator]=='yellowLight','Yellow',if([$colorIterator]=='greenLight','Light green',if([$colorIterator]=='green','Green',if([$colorIterator]=='blueLight','Light blue',if([$colorIterator]=='blue','Blue',if([$colorIterator]=='blueDark','Dark blue','Purple')))))))))",
+                              "class": "=if([$Color2]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color2]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color2": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color2]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Option2]",
+                "inlineEditField": "[$Option2]",
+                "style": {
+                  "text-align": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "Delete",
+                  "title": "Remove option"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option2": "[$Option3]",
+                    "Option3": ""
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "TriangleSolidUp12",
+                  "title": "Move option up"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option1": "[$Option2]",
+                    "Option2": "[$Option1]"
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$Option3]=='','none','')",
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "TriangleSolidDown12",
+                  "title": "Move option down"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option2": "[$Option3]",
+                    "Option3": "[$Option2]"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "COMMENT": "OPTION 3",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Option3]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "382px",
+              "justify-content": "center"
+            },
+            "attributes": {
+              "class": "ms-bgColor-neutralLight--hover"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "ColorSolid",
+                  "title": "Result color",
+                  "class": "='ms-fontColor-' + [$Color3]"
+                },
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "customCardProps": {
+                  "openOnEvent": "hover",
+                  "isBeakVisible": true,
+                  "beakStyle": {
+                    "background-color": "#f3f2f1"
+                  },
+                  "formatter": {
+                    "COMMENT": "COLOR 3 COLOR PICKER",
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-bgColor-neutralLighter ms-borderColor-neutralLight"
+                    },
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "border-style": "solid",
+                      "border-width": "1px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Theme colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('themeDarker|themeDark|themeDarkAlt|themePrimary|themeSecondary|neutralTertiary|neutralSecondary|neutralPrimaryAlt|neutralPrimary|neutralDark','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "=if([$colorIterator]=='themeDarker','Theme darker',if([$colorIterator]=='themeDark','Theme dark',if([$colorIterator]=='themeDarkAlt','Theme dark alternate',if([$colorIterator]=='themePrimary','Theme primary',if([$colorIterator]=='themeSecondary','Theme secondary',if([$colorIterator]=='neutralTertiary','Neutral tertiary',if([$colorIterator]=='neutralSecondary','Neutral secondary',if([$colorIterator]=='neutralPrimaryAlt','Neutral primary alternate',if([$colorIterator]=='neutralPrimary','Neutral primary','Neutral dark')))))))))",
+                              "class": "=if([$Color3]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color3]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color3": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color3]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "Standard colors",
+                        "attributes": {
+                          "class": "ms-fontColor-neutralDark"
+                        },
+                        "style": {
+                          "font-size": "14px",
+                          "margin-left": "6px",
+                          "margin-top": "4px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "column-gap": "10px",
+                          "margin": "8px 10px 0 10px",
+                          "width": "140px",
+                          "height": "60px"
+                        },
+                        "children": [
+                          {
+                            "forEach": "colorIterator in split('redDark|red|yellow|yellowLight|greenLight|green|blueLight|blue|blueDark|purple','|')",
+                            "elmType": "div",
+                            "attributes": {
+                              "title": "='Standard color: ' + if([$colorIterator]=='redDark','Dark red',if([$colorIterator]=='red','Red',if([$colorIterator]=='yellow','Orange',if([$colorIterator]=='yellowLight','Yellow',if([$colorIterator]=='greenLight','Light green',if([$colorIterator]=='green','Green',if([$colorIterator]=='blueLight','Light blue',if([$colorIterator]=='blue','Blue',if([$colorIterator]=='blueDark','Dark blue','Purple')))))))))",
+                              "class": "=if([$Color3]==[$colorIterator],'ms-bgColor-neutralLighter ms-borderColor-neutralLighter ms-borderColor-neutralSecondary--hover','ms-bgColor-' + [$colorIterator] + ' ms-bgColor-neutralLighter--hover')"
+                            },
+                            "style": {
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "width": "20px",
+                              "height": "20px",
+                              "cursor": "pointer",
+                              "box-sizing": "border-box",
+                              "border-style": "=if([$Color3]==[$colorIterator], 'solid','none')",
+                              "border-width": "1.5px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Color3": "[$colorIterator]"
+                              }
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "attributes": {
+                                  "class": "='ms-borderColor-white ms-bgColor-' + [$colorIterator]"
+                                },
+                                "style": {
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "border-style": "=if([$Color3]==[$colorIterator], 'solid','none')",
+                                  "border-width": "3px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Option3]",
+                "inlineEditField": "[$Option3]",
+                "style": {
+                  "text-align": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "Delete",
+                  "title": "Remove option"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option3": ""
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "cursor": "pointer",
+                  "margin-top": "4px"
+                },
+                "attributes": {
+                  "iconName": "TriangleSolidUp12",
+                  "title": "Move option up"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Option2": "[$Option3]",
+                    "Option3": "[$Option2]"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "COMMENT": "ADD AN OPTION",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Option1]=='' || [$Option2]=='' || [$Option3]=='', 'flex', 'none')",
+              "column-gap": "4px",
+              "padding-bottom": "12px",
+              "align-items": "center",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "class": "ms-fontSize-m ms-fontColor-neutralSecondary ms-fontColor-themeDark--hover"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Option1": "=if([$Option1]!='',[$Option1],if([$Option2]=='' && [$Option3]=='','Choice 1',if[$Option2]!='',[$Option2],[$Option3]))",
+                "Option2": "=if([$Option1]=='',[$Option3],if([$Option2]!='',[$Option2],if([$Option3]=='','Choice 2',[$Option3])))",
+                "Option3": "=if([$Option1]=='' || [$Option2]=='','',if([$Option3]!='',[$Option3],'Choice 3'))"
+              }
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "iconName": "Add",
+                  "class": "ms-fontSize-s"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "Add an option"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "background-color": "red",
+              "display": ""
+            },
+            "txtContent": "RESET",
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Question": "What is the best weapon?",
+                "Option1": "Lazer Eyes",
+                "Option2": "Bazooka",
+                "Option3": "Dagger",
+                "Color1": "themePrimary",
+                "Color2": "themeDark",
+                "Color3": "themeDarker"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
