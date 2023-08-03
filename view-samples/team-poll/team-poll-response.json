@@ -1,0 +1,189 @@
+{
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "new",
+        "hide": true
+      }
+    ]
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "=if(@rowIndex>0,'none','flex')",
+      "flex-direction": "column",
+      "border-style": "solid",
+      "border-width": "2px",
+      "border-radius": "12px",
+      "width": "350px",
+      "overflow": "hidden",
+      "align-items": "center",
+      "align-self": "center"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralPrimary ms-borderColor-neutralTertiary ms-bgColor-neutralTertiary ms-fontSize-l"
+    },
+    "children": [
+      {
+        "COMMENT": "POLL TITLE",
+        "elmType": "div",
+        "txtContent": "[$Poll.lookupValue]",
+        "style": {
+          "width": "100%",
+          "text-align": "center",
+          "padding": "4px"
+        },
+        "attributes": {
+          "class": "ms-fontColor-white ms-fontSize-m ms-fontWeight-semibold"
+        }
+      },
+      {
+        "COMMENT": "UNCONFIGURED MESSAGE",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white ms-fontSize-m"
+        },
+        "style": {
+          "display": "=if([$User],'none','flex')",
+          "flex-direction": "column",
+          "width": "100%",
+          "align-items": "center",
+          "padding": "6px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "332px"
+            },
+            "txtContent": "This poll is not yet configured for your account. If you were recently added, please give it some time. Otherwise, contact the site owner."
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white"
+        },
+        "style": {
+          "display": "=if([$User],'flex','none')",
+          "flex-direction": "column",
+          "width": "100%",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "COMMENT": "QUESTION",
+            "elmType": "div",
+            "txtContent": "[$Poll_x003a__x0020_Question]",
+            "attributes": {
+              "class": "ms-fontWeight-semibold"
+            },
+            "style": {
+              "padding-top": "12px"
+            }
+          },
+          {
+            "COMMENT": "OPTION 1",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Poll_x003a__x0020_Option_x0020_1]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "332px",
+              "justify-content": "center",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "class": "='ms-bgColor-neutralLight--hover' + if([$Selection]==[$Poll_x003a__x0020_Option_x0020_1] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],' ms-bgColor-themeLighter','')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Selection": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_1],'',[$Poll_x003a__x0020_Option_x0020_1])",
+                "ResponseIteration": "[$Poll_x003a__x0020_Iteration]",
+                "SelectionwithColor": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_1],'',[$Poll_x003a__x0020_Option_x0020_1] + '|+|' + [$Poll_x003a__x0020_Color_x0020_1])"
+              }
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_1] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],'✔ ','') + [$Poll_x003a__x0020_Option_x0020_1]",
+                "style": {
+                  "text-align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "COMMENT": "OPTION 2",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Poll_x003a__x0020_Option_x0020_2]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "332px",
+              "justify-content": "center",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "class": "='ms-bgColor-neutralLight--hover' + if([$Selection]==[$Poll_x003a__x0020_Option_x0020_2] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],' ms-bgColor-themeLighter','')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Selection": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_2],'',[$Poll_x003a__x0020_Option_x0020_2])",
+                "ResponseIteration": "[$Poll_x003a__x0020_Iteration]",
+                "SelectionwithColor": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_2],'',[$Poll_x003a__x0020_Option_x0020_2] + '|+|' + [$Poll_x003a__x0020_Color_x0020_2])"
+              }
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_2] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],'✔ ','') + [$Poll_x003a__x0020_Option_x0020_2]",
+                "style": {
+                  "text-align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "COMMENT": "OPTION 3",
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Poll_x003a__x0020_Option_x0020_3]=='','none','flex')",
+              "padding": "12px",
+              "column-gap": "6px",
+              "width": "332px",
+              "justify-content": "center",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "class": "='ms-bgColor-neutralLight--hover' + if([$Selection]==[$Poll_x003a__x0020_Option_x0020_3] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],' ms-bgColor-themeLighter','')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Selection": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_3],'',[$Poll_x003a__x0020_Option_x0020_3])",
+                "ResponseIteration": "[$Poll_x003a__x0020_Iteration]",
+                "SelectionwithColor": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_3],'',[$Poll_x003a__x0020_Option_x0020_3] + '|+|' + [$Poll_x003a__x0020_Color_x0020_3])"
+              }
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=if([$Selection]==[$Poll_x003a__x0020_Option_x0020_3] && [$ResponseIteration]>=[$Poll_x003a__x0020_Iteration],'✔ ','') + [$Poll_x003a__x0020_Option_x0020_3]",
+                "style": {
+                  "text-align": "center",
+                  "cursor": "pointer"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
