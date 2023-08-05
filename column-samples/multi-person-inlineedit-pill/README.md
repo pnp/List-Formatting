@@ -1,12 +1,11 @@
-
 # Multi-Person inline edit pill
 
 ## Summary
 This sample provides a "pill" style for each person in a multi-select person field, whilst allowing inline edits.
 
-The sample demonstrates the use of the `forEach` property to apply a format for each value of an array (multi-select person fields). 
+The sample demonstrates the use of the `forEach` property to apply a format for each value of an array (multi-select person fields).
 
-![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - This format can be applied to a Multi-Select Person column
@@ -23,7 +22,6 @@ multi-person-inlineedit-pill.json | [Hubert Lam](https://github.com/z3019494) ([
 Version|Date|Comments
 -------|----|--------
 1.0|August 1, 2023|Initial release
-
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
