@@ -26,19 +26,19 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "multiuser"
+        "value": "Multi-Person"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@me"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "removeFrom, appendTo"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "@me removeFrom appendTo"
+        "value": ""
       },
       {
         "key": "CLASSES",
@@ -59,7 +59,7 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-favorite/assets/screenshot.png",
         "alt": "screenshot"
-      },
+      }
     ],
     "authors": [
       {
