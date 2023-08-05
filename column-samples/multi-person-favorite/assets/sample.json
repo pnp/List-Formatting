@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-Link ms-fontColor-themePrimary"
+        "value": "ms-Link, ms-fontColor-themePrimary"
       }
     ],
     "thumbnails": [

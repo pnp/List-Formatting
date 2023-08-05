@@ -23,7 +23,7 @@ multi-person-favorite.json | [Alexander Henkel](https://github.com/numsegarn)
 
 Version |Date         |Comments
 --------|-------------|--------
-1.0     |Juli 07, 2023 |Initial release
+1.0     |July 31, 2023 |Initial release
 
 ## Additional notes
 
