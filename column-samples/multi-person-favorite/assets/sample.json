@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-multi-person-favorite",
+    "reponame": "multi-person-favorite",
+    "source": "pnp",
+    "title": "Multi person favorite",
+    "shortDescription": "Mark a list item as a favorite",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-person-favorite",
+    "longDescription": [
+      "This sample let a user add/remove a list item as a favorite, by adding the user name to a multi-person column."
+    ],
+    "creationDateTime": "2023-07-31T08:02:26.765Z",
+    "updateDateTime": "2023-07-31T08:02:26.765Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Person"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "removeFrom, appendTo"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-Link ms-fontColor-themePrimary"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-favorite/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "numsegarn",
+        "pictureUrl": "https://github.com/numsegarn.png",
+        "name": "Alexander Henkel"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

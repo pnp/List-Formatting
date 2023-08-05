@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(indexOf(@currentField.email , @me)>-1,'none','flex')",
+        "align-items": "center",
+        "margin": "3px"
+      },
+      "attributes": {
+        "class": "ms-Link ms-fontColor-themePrimary"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "INTERNALCOLUMNNAME": "=appendTo(@currentField.email , @me)"
+        }
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "FavoriteStarFill"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "Favorite",
+          "style": {
+            "margin-left": "4px"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(indexOf(@currentField.email, '@me') > -1, 'flex', 'none')",
+        "align-items": "center",
+        "margin": "3px"
+      },
+      "attributes": {
+        "class": "ms-Link ms-fontColor-themePrimary"
+      },
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "INTERNALCOLUMNNAME": "=removeFrom(@currentField.email , @me)"
+        }
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "Unfavorite"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "Remove Favorite",
+          "style": {
+            "margin-left": "4px"
+          }
+        }
+      ]
+    }
+  ]
+}
