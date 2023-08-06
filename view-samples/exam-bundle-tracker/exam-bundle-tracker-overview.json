@@ -16,7 +16,7 @@
       "margin-left": "0px"
     },
     "attributes": {
-      "class": "='sp-row-card ' + if(indexOf([$Course_x002f_Year], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$Course_x002f_Year], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$Course_x002f_Year], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue  sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$Course_x002f_Year], '10') != -1,'sp-css-backgroundColor-BgCyan sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$Course_x002f_Year], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$Course_x002f_Year], '08') != -1,'sp-css-backgroundColor-BgCoral sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))"
+      "class": "='sp-row-card ' + if(indexOf([$CourseYear], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$CourseYear], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$CourseYear], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue  sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$CourseYear], '10') != -1,'sp-css-backgroundColor-BgCyan sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$CourseYear], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$CourseYear], '08') != -1,'sp-css-backgroundColor-BgCoral sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))"
     },
     "children": [
       {
@@ -68,7 +68,7 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "[$Yearoftask]",
+                    "txtContent": "[$YearOfTask]",
                     "style": {
                       "margin-left": "4px"
                     },
@@ -96,7 +96,7 @@
                   "class": "sp-field-fontSizeSmall sp-css-backgroundColor-disabledBackground",
                   "title": "Cohort/Course which this task applies to"
                 },
-                "txtContent": "='Year ' + [$Course_x002f_Year]"
+                "txtContent": "='Year ' + [$CourseYear]"
               },
               {
                 "elmType": "span",
@@ -148,7 +148,7 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "='Bundle number: ' + [$BundleNumber] + ' of ' + [$Totalbundles]",
+                    "txtContent": "='Bundle number: ' + [$BundleNumber] + ' of ' + [$TotalBundles]",
                     "style": {
                       "margin-left": "4px"
                     }
@@ -176,7 +176,7 @@
               {
                 "elmType": "div",
                 "attributes": {
-                  "iconName": "=if([$Incirculation] == false, 'CompletedSolid','IssueTracking' )",
+                  "iconName": "=if([$InCirculation] == false, 'CompletedSolid','IssueTracking' )",
                   "title": "Bundle information"
                 },
                 "style": {
@@ -186,11 +186,11 @@
               },
               {
                 "elmType": "div",
-                "txtContent": "='Bundle ' + [$BundleNumber] + ' of ' + [$Totalbundles] + ' | ' + length([$Marked]) + ' of ' + toString( length([$NotMarked]) + length([$Marked]) + ' markers completed' + if([$Incirculation] == false,' (Task now archived)','')",
+                "txtContent": "='Bundle ' + [$BundleNumber] + ' of ' + [$TotalBundles] + ' | ' + length([$Marked]) + ' of ' + toString( length([$NotMarked]) + length([$Marked]) + ' markers completed' + if([$InCirculation] == false,' (Task now archived)','')",
                 "style": {
                   "margin-left": "8px",
                   "vertical-align": "middle",
-                  "text-decoration": "=if([$Incirculation] == false ,'line-through red 3px','none')"
+                  "text-decoration": "=if([$InCirculation] == false ,'line-through red 3px','none')"
                 },
                 "attributes": {
                   "title": "Bundle information"
@@ -236,7 +236,7 @@
                     "attributes": {
                       "class": "sp-css-borderTop-warningBorder"
                     },
-                    "txtContent": "=if(length([$Inpossession]) != 0, 'In possession','Bundle location')"
+                    "txtContent": "=if(length([$InPossession]) != 0, 'In possession','Bundle location')"
                   },
                   {
                     "elmType": "div",
@@ -248,7 +248,7 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "display": "=if(length([$Inpossession]) != 0, 'none','flex')",
+                          "display": "=if(length([$InPossession]) != 0, 'none','flex')",
                           "margin-left": "10px"
                         },
                         "children": [
@@ -284,9 +284,9 @@
                         "children": [
                           {
                             "elmType": "div",
-                            "forEach": "person in [$Inpossession]",
+                            "forEach": "person in [$InPossession]",
                             "style": {
-                              "display": "=if(length([$Inpossession]) != 0 ,'flex','none')",
+                              "display": "=if(length([$InPossession]) != 0 ,'flex','none')",
                               "flex-direction": "row",
                               "align-items": "center",
                               "white-space": "nowrap",
@@ -338,12 +338,12 @@
                         "customRowAction": {
                           "action": "setValue",
                           "actionInput": {
-                            "Inpossession": "=if(indexOf([$Inpossession.email], @me) == -1, @me, '')",
-                            "Updatelog": "=if([$Inpossession.email],'📥 Bundle has been returned to the cupboard','📤 Bundle is in possession and being marked')"
+                            "InPossession": "=if(indexOf([$InPossession.email], @me) == -1, @me, '')",
+                            "Updatelog": "=if([$InPossession.email],'📥 Bundle has been returned to the cupboard','📤 Bundle is in possession and being marked')"
                           }
                         },
                         "attributes": {
-                          "class": "='sp-row-button ms-fontWeight-semibold ms-fontColor-black ' + if(indexOf([$Inpossession.email] , @me) == -1, if(indexOf([$Course_x002f_Year],'Ext 1') == -1, 'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCyan  sp-css-backgroundColor-BgCyan30--hover'),'ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover')"
+                          "class": "='sp-row-button ms-fontWeight-semibold ms-fontColor-black ' + if(indexOf([$InPossession.email] , @me) == -1, if(indexOf([$CourseYear],'Ext 1') == -1, 'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCyan  sp-css-backgroundColor-BgCyan30--hover'),'ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover')"
                         },
                         "style": {
                           "width": "250px",
@@ -355,8 +355,8 @@
                           {
                             "elmType": "span",
                             "attributes": {
-                              "iconName": "=if(indexOf([$Inpossession.email] , @me) == -1,'PageCheckedout','PageCheckedin')",
-                              "class": "=if(indexOf([$Inpossession.email] , @me) == -1,'','sp-css-color-MintGreenFont')"
+                              "iconName": "=if(indexOf([$InPossession.email] , @me) == -1,'PageCheckedout','PageCheckedin')",
+                              "class": "=if(indexOf([$InPossession.email] , @me) == -1,'','sp-css-color-MintGreenFont')"
                             },
                             "style": {
                               "padding-right": "4px",
@@ -366,12 +366,12 @@
                           },
                           {
                             "elmType": "span",
-                            "txtContent": "=if(indexOf([$Inpossession.email] , @me) == -1,'Take possession','Bundle  in possession')",
+                            "txtContent": "=if(indexOf([$InPossession.email] , @me) == -1,'Take possession','Bundle  in possession')",
                             "style": {
                               "word-break": "keep-all"
                             },
                             "attributes": {
-                              "class": "=if(indexOf([$Inpossession.email] , @me) == -1,'','sp-css-color-MintGreenFont')"
+                              "class": "=if(indexOf([$InPossession.email] , @me) == -1,'','sp-css-color-MintGreenFont')"
                             }
                           }
                         ]
@@ -390,7 +390,7 @@
                   "padding-left": "10px"
                 },
                 "attributes": {
-                  "class": "=if(indexOf([$Course_x002f_Year], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$Course_x002f_Year], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$Course_x002f_Year], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue  sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$Course_x002f_Year], '10') != -1,'sp-css-backgroundColor-BgCyan sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$Course_x002f_Year], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$Course_x002f_Year], '08') != -1,'sp-css-backgroundColor-BgCoral sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))"
+                  "class": "=if(indexOf([$CourseYear], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$CourseYear], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$CourseYear], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue  sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$CourseYear], '10') != -1,'sp-css-backgroundColor-BgCyan sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$CourseYear], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$CourseYear], '08') != -1,'sp-css-backgroundColor-BgCoral sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))"
                 },
                 "children": [
                   {
@@ -486,7 +486,7 @@
                           }
                         },
                         "attributes": {
-                          "class": "='sp-row-button ms-fontWeight-semibold ms-fontColor-black ' + if(indexOf([$NotMarked.email] , @me) != -1, if(indexOf([$Course_x002f_Year],'Ext 1') == -1, 'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCyan  sp-css-backgroundColor-BgCyan30--hover'),'ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover')"
+                          "class": "='sp-row-button ms-fontWeight-semibold ms-fontColor-black ' + if(indexOf([$NotMarked.email] , @me) != -1, if(indexOf([$CourseYear],'Ext 1') == -1, 'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCyan  sp-css-backgroundColor-BgCyan30--hover'),'ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover')"
                         },
                         "style": {
                           "width": "250px",
@@ -678,7 +678,7 @@
                         "customRowAction": {
                           "action": "setValue",
                           "actionInput": {
-                            "Incirculation": "=if([$Incirculation],0, 1)"
+                            "InCirculation": "=if([$InCirculation],0, 1)"
                           }
                         },
                         "attributes": {
@@ -693,8 +693,8 @@
                           {
                             "elmType": "span",
                             "attributes": {
-                              "iconName": "=if([$Incirculation] == true, 'CompletedSolid', 'ArchiveUndo')",
-                              "class": "=if([$Incirculation] == true, 'sp-css-color-MintGreenFont', 'sp-css-color-DustRoseFont')"
+                              "iconName": "=if([$InCirculation] == true, 'CompletedSolid', 'ArchiveUndo')",
+                              "class": "=if([$InCirculation] == true, 'sp-css-color-MintGreenFont', 'sp-css-color-DustRoseFont')"
                             },
                             "style": {
                               "padding-right": "4px",
@@ -704,12 +704,12 @@
                           },
                           {
                             "elmType": "span",
-                            "txtContent": "=if([$Incirculation] == true, 'Click to set bundle as fully marked','Click to set bundle as unmarked')",
+                            "txtContent": "=if([$InCirculation] == true, 'Click to set bundle as fully marked','Click to set bundle as unmarked')",
                             "style": {
                               "word-break": "keep-all"
                             },
                             "attributes": {
-                              "class": "=if([$Incirculation] == true, 'sp-css-color-MintGreenFont','sp-css-color-DustRoseFont')"
+                              "class": "=if([$InCirculation] == true, 'sp-css-color-MintGreenFont','sp-css-color-DustRoseFont')"
                             }
                           }
                         ]
@@ -792,7 +792,7 @@
       }
     ]
   },
-  "additionalRowClass": "=if(indexOf([$Course_x002f_Year], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-css-color-PeachFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$Course_x002f_Year], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$Course_x002f_Year], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$Course_x002f_Year], '10') != -1,'sp-css-backgroundColor-BgCyan sp-css-color-CyanFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$Course_x002f_Year], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$Course_x002f_Year], '08') != -1,'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-css-color-GoldFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))",
+  "additionalRowClass": "=if(indexOf([$CourseYear], 'Adv') != -1,'sp-css-backgroundColor-BgPeach sp-css-color-PeachFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-PeachFont',if(indexOf([$CourseYear], 'Ext 1') != -1,'sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-MintGreenFont',if(indexOf([$CourseYear], 'Ext 2') != -1, 'sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CornflowerBlueFont',if(indexOf([$CourseYear], '10') != -1,'sp-css-backgroundColor-BgCyan sp-css-color-CyanFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CyanFont',if(indexOf([$CourseYear], '09') != -1,'sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-DustRoseFont',if(indexOf([$CourseYear], '08') != -1,'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-CoralFont','sp-css-backgroundColor-BgGold sp-css-color-GoldFont sp-field-borderLeftBold sp-field-borderLeftSolid sp-css-borderLeftColor-GoldFont'))))))",
   "groupProps": {
     "headerFormatter": {
       "elmType": "div",
