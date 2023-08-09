@@ -2,7 +2,7 @@
 
 ## Summary
 
-Often in NSW schools, a system of _corporate marking_ exists where multiple teachers teaching a particular cohort (e.g. Mathematics Extension 1) will mark a section of each student's paper to ensure consistency.
+Often in certain schools, a system of _corporate marking_ exists where multiple teachers teaching a particular cohort (e.g. Mathematics Extension 1) will mark a section of each student's paper to ensure consistency.
 
 When this occurs, often bundles of papers are divided by class, and each teacher takes a bundle out of a cupboard, but it can be hard to track:
 - Who has possession of a particular bundle
