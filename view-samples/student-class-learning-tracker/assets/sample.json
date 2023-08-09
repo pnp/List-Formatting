@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-student-class-learning-tracker",
+    "reponame": "student-class-learning-tracker",
+    "source": "pnp",
+    "title": "Student & Class Learning Tracker",
+    "shortDescription": "This sample transforms your list into a learning tracker.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker",
+    "longDescription": [
+      "This sample transforms your list into a learning tracker."
+    ],
+    "creationDateTime": "2023-07-14T00:00:00.000Z",
+    "updateDateTime": "2023-07-14T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.fieldData"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "length, padStart, indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue, executeFlow, share, editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter, forEach"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-grey, ms-bgColor-neutralQuaternary--hover, ms-bgColor-themeDark--hover, ms-bgColor-themePrimary, ms-fontColor-black, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontColor-white--hover, ms-fontSize-m, ms-fontWeight-semibold, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral30--hover, sp-css-backgroundColor-BgCornflowerBlue, sp-css-backgroundColor-BgCyan, sp-css-backgroundColor-BgDarkPink, sp-css-backgroundColor-BgDustRose, sp-css-backgroundColor-BgGold, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen30--hover, sp-css-backgroundColor-BgSage, sp-css-backgroundColor-BgViolet, sp-css-backgroundColor-blue, sp-css-backgroundColor-disabledBackground, sp-css-backgroundColor-disabledText, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-neutralLighterAlt, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-warningBackground, sp-css-borderTop-successBorder, sp-css-borderTop-successBorder, sp-css-borderTop-warningBorder, sp-css-borderTop-warningBorder, sp-css-color-CoralFont, sp-css-color-CornflowerBlueFont, sp-css-color-CyanFont, sp-css-color-DustRoseFont, sp-css-color-errorFont, sp-css-color-GoldFont, sp-css-color-MintGreenFont, sp-css-color-neutralFont, sp-css-color-SageFont, sp-css-color-VioletFont, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-field-fontSizeSmall, sp-row-button, sp-row-button, sp-row-card, sp-row-listPadding"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "z3019494",
+        "pictureUrl": "https://github.com/z3019494.png",
+        "name": "Hubert Lam"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

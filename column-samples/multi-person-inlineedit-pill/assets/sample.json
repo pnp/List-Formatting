@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-multi-person-inlineedit-pill",
+    "reponame": "multi-person-inlineedit-pill",
+    "source": "pnp",
+    "title": "Multi-Person inline edit pill",
+    "shortDescription": "This sample provides a pill style for each person in a multi-select person field, whilst allowing inline edits.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-inlineedit-pill",
+    "longDescription": [
+      "This sample provides a pill style for each person in a multi-select person field, whilst allowing inline edits."
+    ],
+    "creationDateTime": "2023-08-01T00:00:00.000Z",
+    "updateDateTime": "2023-08-01T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Person"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField, forEach, inlineEditField"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight, ms-fontColor-neutralPrimary"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-inlineedit-pill/assets/screenshot.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "z3019494",
+        "pictureUrl": "https://github.com/z3019494.png",
+        "name": "Hubert Lam"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
