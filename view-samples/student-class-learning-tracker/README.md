@@ -34,7 +34,7 @@ ContentPointType | Choice	| `Syllabus`, `Teaching` | No |
 SeniorCourse | Choice | `Advanced`, `Extension 1`, `Extension 2` | No |  | Add `Standard 1` and `Standard 2` if needed
 HPGE | Choice	| `Enrichment`, `Extension`, `Revision` | No | N/A
 Content	| Single line of text	
-AssignedTo	| Person or Group	
+AssignedTo	| Multi Person	
 ClassNotebookURL | Multiple lines of text	
 MarkedCompleteBy | Person or Group	
 Reflection |	Multiple lines of text	
