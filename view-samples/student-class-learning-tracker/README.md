@@ -68,8 +68,8 @@ You'll need to replace these buttons with your own flows. For simplicity, those 
 Button name | Flow ID | Intention
 --------|---------|--------
 Apply Early Intervention | `30b64ec0-4c65-4f9b-a772-35dcf89de082` | Create an early intervention entry, which has further functionality to send parents an email
-Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwork/homework to an existing team that contains students to remind of homework
 Lodge Learning Adjustment | `f446013b-3291-40fa-89df-fda631b70940` | Lodge a learning adjustment (disability or gifted) that has been applied for student(s).
+Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwork/homework to an existing team that contains students to remind of homework
 
 ![screenshot of the flow buttons](./assets/flow-buttons.png)
 
