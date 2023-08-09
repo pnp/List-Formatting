@@ -52,11 +52,11 @@ The following views are needed, with the JSON code applied to the following view
 
 View name | Type | Sorting | Filtering | Group | Other notes | JSON code to paste
 --------|---------|--------|---------|---------|---------|---------
-`Year 07`, `Year 08`, ... , `Year 12` etc | List | `Topic Content Sequence`, asc | `Year Group` equal to `Year 7` etc | `Class`, then `Topic Number` | See the progress of every class, down to the program content progress | student-class-learning-tracker-overview.json
-`Assigned to me` | List | `Topic Content Sequence`, asc | `Assigned To` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])` and `Completion Date` equal to _(blank)_ | `Class`, then `Topic Number` | As above, but only shows classes assigned to Me | student-class-learning-tracker-overview.json
-`Assigned to me (also show completed)` | List | `Topic Content Sequence`, asc | `Assigned To` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])`  | `Class`, then `Topic Number` | | student-class-learning-tracker-overview.json
-`Cohort overview - Year 07`, `Cohort overview - Year 08` etc | List | `Class` asc | `Year Group` equal to `Year 7` etc, and `Calendar Year` geq `=YEAR([Today])` and `Topic Content Sequence` equal to `0` and `Completion Date` equal to _blank_ | Gives a cohort overview (shows yellow cards only) | | student-class-learning-tracker-overview.json
-`Calendar - Year 07`, `Calendar - Year 08` etc | Calendar | | `Year Group` equal to `Year 7` etc | | `Commencement Date` as the calendar start date, `Completion Date` as the calendar completion date. Title auto-set by Power Automate import | student-class-learning-tracker-calendar.json
+`Year 07`, `Year 08`, ... , `Year 12` etc | List | `TopicContentSequence`, asc | `YearGroup` equal to `Year 7` etc | `Class`, then `TopicNumber` | See the progress of every class, down to the program content progress | student-class-learning-tracker-overview.json
+`Assigned to me` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `CalendarYear` geq `=YEAR([Today])` and `Completion Date` equal to _(blank)_ | `Class`, then `TopicNumber` | As above, but only shows classes assigned to Me | student-class-learning-tracker-overview.json
+`Assigned to me (also show completed)` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])`  | `Class`, then `Topic Number` | | student-class-learning-tracker-overview.json
+`Cohort overview - Year 07`, `Cohort overview - Year 08` etc | List | `Class` asc | `YearGroup` equal to `Year 7` etc, and `Calendar Year` geq `=YEAR([Today])` and `TopicContentSequence` equal to `0` and `Completion Date` equal to _blank_ | Gives a cohort overview (shows yellow cards only) | | student-class-learning-tracker-overview.json
+`Calendar - Year 07`, `Calendar - Year 08` etc | Calendar | | `YearGroup` equal to `Year 7` etc | | `CommencementDate` as the calendar start date, `CompletionDate` as the calendar completion date. Title auto-set by Power Automate import | student-class-learning-tracker-calendar.json
 
 All grouping is initially collapsed.
 
@@ -69,7 +69,7 @@ Button name | Flow ID | Intention
 --------|---------|--------
 Apply Early Intervention | `30b64ec0-4c65-4f9b-a772-35dcf89de082` | Create an early intervention entry, which has further functionality to send parents an email
 Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwork/homework to an existing team that contains students to remind of homework
-Lodge Learning Adjustment | None | Lodge a learning adjustment (disability or gifted) that has been applied for student(s).
+Lodge Learning Adjustment | `f446013b-3291-40fa-89df-fda631b70940` | Lodge a learning adjustment (disability or gifted) that has been applied for student(s).
 
 ![screenshot of the flow buttons](./assets/flow-buttons.png)
 
