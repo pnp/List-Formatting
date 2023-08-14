@@ -1,7 +1,8 @@
 # Multi-lookup fields and projected fields
 
 ## Summary
-Lookup columns that support multiple values can be formatted using the advanced `forEach` property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. This sample provides two formats illustrating the difference in how these columns are formatted.
+Lookup columns that support multiple values can be formatted using the advanced `forEach` property. 
+Since the inclusion of the split operation, projected fields (additional columns associated to your lookup column) can now also be formatted using the same method. This sample provides two formats illustrating the difference in how these columns are formatted.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -19,16 +20,11 @@ We are accessing the value portion of the lookup item by using the `lookupValue`
 
 ### Formatting Multi-Lookup Projected Fields
 
-Unfortunately, multi-lookup projected fields don't come back as nice. Instead of being an array of objects, the values are all joined into a single line of text with multiple values separated by a space and a semi-colon (as seen in the Standard Display above). This means the `forEach` property can't be used. Even sadder, there isn't yet a split operation that would allow us to work with the values as expected.
+Unfortunately, multi-lookup projected fields don't come back as nice. Instead of being an array of objects, the values are all joined into a single line of text with multiple values separated by a space and a semi-colon (as seen in the Standard Display above).
 
-In this case, we have to get creative with a series of conditional elements that are extracting values using a complex combination of `if`, `substring`, and `indexOf` operators. We make them "conditional" by applying a similar expression to the `display` property of each element to "turn them off" when there isn't a value for a given position.
+We can now use the `split` operation to separate the string into an array which can then be used with the `forEach` property, with the `$itemIterator` value for the `txtContent`.
 
-This is the approach used by the `multi-lookup-projected-field.json` format. It works, but it has some drawbacks:
-
-- It's super complex to read/write
-- It can only handle a fixed number of values with each subsequent value having increasingly complex formulas
-
-> The `multi-lookup-projected-field.json` can handle 0-5 values. Anything more than that will require additional elements with even more complex expressions.
+It's ideal to match the formatting properties of the projected fields with the primary lookup column to ensure the values line up correctly.
 
 ## View requirements
 - The `multi-lookup.json` format can be applied to any multi-value lookup column
@@ -38,7 +34,7 @@ This is the approach used by the `multi-lookup-projected-field.json` format. It 
 
 Solution|Author(s)
 --------|---------
-multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent)), [Tim Hunt](https://github.com/timberrr)
 multi-lookup.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
 
 ## Version history
@@ -46,6 +42,7 @@ multi-lookup.json | [Chris Kent](https://github.com/thechriskent) ([@thechrisken
 Version|Date|Comments
 -------|----|--------
 1.0|April 22, 2021|Initial release
+1.1|August 14, 2023|Updated projected field to use split and forEach
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
