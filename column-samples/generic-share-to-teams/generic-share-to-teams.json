@@ -4,8 +4,8 @@
   "attributes": {
     "alt": "Share to Microsoft Teams",
     "iconName": "TeamsLogo",
-    "class":"ms-fontColor-themePrimary",
-    "href": "= 'https://teams.microsoft.com/share?href=' +'https://yourtenant.sharepoint.com'+ [$FileRef]+'&web=1'",
+    "class": "ms-fontColor-themePrimary",
+    "href": "='https://teams.microsoft.com/share?href='+substring(@currentWeb,0,indexOf(@currentWeb,'sharepoint.com'))+'sharepoint.com'+[$FileRef]+'&web=1'",
     "target": "_blank"
   },
   "style": {

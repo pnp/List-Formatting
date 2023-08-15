@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-share-to-teams",
-    "reponame": "share-to-teams",
+    "name": "pnp-list-formatting-generic-share-to-teams",
+    "reponame": "generic-share-to-teams",
     "source": "pnp",
     "title": "Share to teams",
     "shortDescription": "Adds an icon to share the current document in a Teams message",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/share-to-teams",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-share-to-teams",
     "longDescription": [
       "Adds an icon to share the current document in a Teams message"
     ],
-    "creationDateTime": "2024-08-15T00:00:00.000Z",
-    "updateDateTime": "2024-08-15T00:00:00.000Z",
+    "creationDateTime": "2023-08-15T00:00:00.000Z",
+    "updateDateTime": "2023-08-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists",
@@ -27,7 +27,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons, Microsoft Teams"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -35,11 +35,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@currentWeb"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "if, indexOf"
+        "value": "indexOf, substring"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -58,7 +58,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/share-to-teams/assets/screenshot.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-share-to-teams/assets/screenshot.gif",
         "alt": "screenshot"
       }
     ],
