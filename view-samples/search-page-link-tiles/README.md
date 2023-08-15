@@ -14,7 +14,7 @@ In addition, there is a favorite feature using the `setValue` action.
 
 ![screenshot of the favorite feature](./assets/favorite.png)
 
-It is useful to create a view that displays only the items you have added to your favorites.
+In addition to a view that shows all items, it is useful to create a view that displays only the items you have added to your favorites.
 
 ![screenshot of the my favorites view](./assets/my-favorites-view.png)
 
