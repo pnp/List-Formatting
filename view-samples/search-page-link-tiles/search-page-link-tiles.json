@@ -1,0 +1,290 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 300,
+  "height": 120,
+  "hideSelection": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "margin-bottom": "15px",
+        "display": "flex",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "@group.fieldData",
+          "style": {
+            "font-weight": "bold"
+          },
+          "attributes": {
+            "class": "ms-font-l"
+          }
+        }
+      ]
+    }
+  },
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "width": "95%",
+      "height": "95%",
+      "border": "1px solid",
+      "border-radius": "6px",
+      "box-shadow": "0 1px 6px 0 rgba(0,0,0,0.1)",
+      "display": "flex",
+      "flex-direction": "column"
+    },
+    "attributes": {
+      "class": "ms-fontColor-neutralTertiaryAlt"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "align-items": "center",
+          "width": "100%",
+          "height": "65%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "28%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "width": "50px",
+                  "height": "50px",
+                  "border-radius": "6px",
+                  "font-size": "30px"
+                },
+                "attributes": {
+                  "iconName": "=if([$Icon],[$Icon],'Page')",
+                  "class": "ms-bgColor-neutralLighter ms-fontColor-themePrimary"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "50%",
+              "height": "85%",
+              "display": "flex",
+              "align-items": "center",
+              "overflow": "hidden"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "[$Title]",
+                "style": {
+                  "font-size": "15px",
+                  "font-weight": "bold",
+                  "word-wrap": "break-word",
+                  "width": "100%"
+                },
+                "attributes": {
+                  "class": "ms-fontColor-neutralPrimary"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin-left": "10px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "padding": "5px",
+                  "border-radius": "6px"
+                },
+                "attributes": {
+                  "iconName": "Info",
+                  "class": "ms-bgColor-themeLighter--hover ms-fontColor-neutralPrimary ms-font-l"
+                },
+                "customCardProps": {
+                  "openOnEvent": "hover",
+                  "isBeakVisible": true,
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "flex-start",
+                      "padding": "10px 20px",
+                      "max-width": "300px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Query",
+                        "style": {
+                          "font-weight": "bold",
+                          "margin-bottom": "3px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$Query]",
+                        "style": {
+                          "width": "100%",
+                          "word-wrap": "break-word"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "95%",
+          "height": "20%",
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "space-around",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "a",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "text-decoration": "none",
+                  "border-radius": "6px",
+                  "padding": "3px 10px"
+                },
+                "attributes": {
+                  "href": "=substring(@currentWeb,0,indexOf(@currentWeb,'sharepoint.com'))+'sharepoint.com/_layouts/15/sharepoint.aspx?v=search&q='+[$Query]",
+                  "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
+                  "target": "_blank",
+                  "title": "Search Tenant"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Search"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Tenant",
+                    "style": {
+                      "margin-left": "5px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "a",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "text-decoration": "none",
+                  "border-radius": "6px",
+                  "padding": "3px 10px"
+                },
+                "attributes": {
+                  "href": "=@currentWeb+'/_layouts/15/search.aspx/siteall?q='+[$Query]",
+                  "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
+                  "target": "_blank",
+                  "title": "Search This Site"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Search"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "This Site",
+                    "style": {
+                      "margin-left": "5px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "padding": "5px",
+                  "border-radius": "6px",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Favorites": "=if(indexOf([$Favorites.email],@me)>-1,removeFrom([$Favorites.email],@me),appendTo([$Favorites.email],@me))"
+                  }
+                },
+                "attributes": {
+                  "iconName": "=if(indexOf([$Favorites.email],@me)>-1,'FavoriteStarFill','FavoriteStar')",
+                  "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
+                  "title": "=if(indexOf([$Favorites.email],@me)>-1,'Remove to My Favorites','Add to My Favorites')"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "padding": "5px",
+                  "border-radius": "6px",
+                  "cursor": "pointer"
+                },
+                "customRowAction": {
+                  "action": "defaultClick"
+                },
+                "attributes": {
+                  "iconName": "OpenPane",
+                  "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
+                  "title": "Open the List Form"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
