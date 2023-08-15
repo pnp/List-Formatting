@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "attributes": {
+    "alt": "Share to Microsoft Teams",
+    "iconName": "TeamsLogo",
+    "class": "ms-fontColor-themePrimary",
+    "href": "='https://teams.microsoft.com/share?href='+substring(@currentWeb,0,indexOf(@currentWeb,'sharepoint.com'))+'sharepoint.com'+[$FileRef]+'&web=1'",
+    "target": "_blank"
+  },
+  "style": {
+    "font-size": "26px",
+    "text-decoration": "none",
+    "visibility": "=if(((indexOf([$ContentTypeId],'0x0120')) == 0),'hidden', 'visible')"
+  }
+}
