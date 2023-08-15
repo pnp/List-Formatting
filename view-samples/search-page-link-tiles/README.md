@@ -30,13 +30,15 @@ It is useful to create a view that displays only the items you have added to you
 
 - Set the icon name of [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons) in the `Icon` column.
 - You need to use Gallery view grouped by `Category` column
+
+### Sample Data
+
 - You can view [sample data (CSV file)](./assets/sample-data.csv).
-    > [!NOTE]  
-    > - When using the Excel import and CSV import functions, the internal names of the columns are "field_" + "sequential number" like field_1, field_2. And these internal names of columns are not used in the sample JSON. Therefore, please note that the sample JSON cannot be used as it is when using the Excel import and CSV import functions.  
-    > ![screenshot of internal name of column when Excel import and CSV imported](./assets/excel-csv-import.png)
-    > - As of August 15, 2023, the gallery view is not available when [exporting from Excel to SharePoint](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Please note this as well.  
-    > Related Link: [Export an Excel table to SharePoint: gallery view layout not available · Issue #8811 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/issues/8811)
-    > - If you want to import the sample data into a list, I recommend that you create a list, open the CSV file of the sample data in Excel, copy all the data, and paste it using the Edit Grid View.
+- When using the Excel import and CSV import functions, the internal names of the columns are "field_" + "sequential number" like field_1, field_2. And these internal names of columns are not used in the sample JSON. Therefore, please note that the sample JSON cannot be used as it is when using the Excel import and CSV import functions.
+    ![screenshot of internal name of column when Excel import and CSV imported](./assets/excel-csv-import.png)
+- As of August 15, 2023, the gallery view is not available when [exporting from Excel to SharePoint](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Please note this as well.  
+Related Link: [Export an Excel table to SharePoint: gallery view layout not available · Issue #8811 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/issues/8811)
+- If you want to import the sample data into your list, I recommend downloading the CSV file of the sample data, opening it in Excel, copying a range of all the data, and pasting it in using Edit Grid View.
 
 ## Sample
 
