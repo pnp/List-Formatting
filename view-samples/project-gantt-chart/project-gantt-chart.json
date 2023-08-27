@@ -16,7 +16,6 @@
     "children": [
       {
         "elmType": "div",
-        "_comment": "Header area",
         "attributes": {
           "class": "ms-bgColor-themePrimary"
         },
@@ -52,7 +51,6 @@
             "children": [
               {
                 "elmType": "div",
-                "_comment": "ProjectStart label",
                 "txtContent": "=toLocaleDateString([$ProjectStart])",
                 "style": {
                   "position": "absolute",
@@ -67,7 +65,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "ProjectDue label",
                 "txtContent": "=toLocaleDateString([$ProjectDue])",
                 "style": {
                   "position": "absolute",
@@ -83,7 +80,6 @@
               },
               {
                 "elmType": "span",
-                "_comment": "CurrentDate label",
                 "txtContent": "=toLocaleDateString( @now)",
                 "style": {
                   "position": "relative",
@@ -99,7 +95,6 @@
               },
               {
                 "elmType": "span",
-                "_comment": "Vertical line for today",
                 "attributes": {
                   "class": "ms-fontColor-gray40"
                 },
@@ -120,7 +115,6 @@
       },
       {
         "elmType": "div",
-        "_comment": "Rows",
         "style": {
           "width": "100%",
           "display": "flex"
@@ -128,7 +122,6 @@
         "children": [
           {
             "elmType": "div",
-            "_comment": "Row (task) header",
             "style": {
               "width": "220px",
               "display": "flex",
@@ -140,7 +133,6 @@
             "children": [
               {
                 "elmType": "span",
-                "_comment": "Progress circle icon ",
                 "style": {
                   "width": "24px",
                   "padding": "6px 0",
@@ -161,7 +153,6 @@
               },
               {
                 "elmType": "button",
-                "_comment": "tasktitle",
                 "txtContent": "[$Title]",
                 "customRowAction": {
                   "action": "editProps"
@@ -188,7 +179,6 @@
               },
               {
                 "elmType": "span",
-                "_comment": "Task status warning",
                 "style": {
                   "width": "24px",
                   "padding": "1px 0 0 0",
@@ -233,7 +223,6 @@
           },
           {
             "elmType": "div",
-            "_comment": "Ganttchart area",
             "style": {
               "flex-grow": "1",
               "position": "relative",
@@ -246,7 +235,6 @@
             "children": [
               {
                 "elmType": "div",
-                "_comment": "NormalTask Bar",
                 "txtContent": "",
                 "style": {
                   "position": "absolute",
@@ -271,7 +259,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "NormalTask Progress Bar",
                 "style": {
                   "position": "absolute",
                   "box-sizing": "border-box",
@@ -295,7 +282,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "Bar Placeholder for customcard",
                 "txtContent": "",
                 "style": {
                   "position": "absolute",
@@ -370,7 +356,6 @@
                       },
                       {
                         "elmType": "div",
-                        "_comment": "Progress actionbar",
                         "style": {
                           "width": "100%",
                           "display": "flex",
@@ -500,7 +485,6 @@
                       },
                       {
                         "elmType": "div",
-                        "_comment": "Warning ICON for Late tasks",
                         "style": {
                           "width": "24px",
                           "display": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 ) , 'block', 'none')",
@@ -516,7 +500,6 @@
                       },
                       {
                         "elmType": "div",
-                        "_comment": "Warning TEXT for Late tasks",
                         "txtContent": "This task is running late!",
                         "style": {
                           "width": "254px",
@@ -544,7 +527,6 @@
                       },
                       {
                         "elmType": "div",
-                        "_comment": "Task StartdDate in customCard",
                         "txtContent": "=toLocaleDateString([$TaskStart])",
                         "style": {
                           "width": "127px",
@@ -560,7 +542,6 @@
                       },
                       {
                         "elmType": "div",
-                        "_comment": "Task DueDate in customCard",
                         "txtContent": "=toLocaleDateString([$TaskDue])",
                         "style": {
                           "width": "127px",
@@ -611,7 +592,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "flag for milestone",
                 "txtContent": "",
                 "style": {
                   "position": "relative",
@@ -632,7 +612,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "Milestone Date label",
                 "txtContent": "=getDate([$TaskStart]) + '-' +  if(getMonth([$TaskStart])==0,'Jan',if(getMonth([$TaskStart])==1,'Feb',if(getMonth([$TaskStart])==2,'Mar',if(getMonth([$TaskStart])==3,'Apr',if(getMonth([$TaskStart])==4,'May',if(getMonth([$TaskStart])==5,'Jun',if(getMonth([$TaskStart])==6,'Jul',if(getMonth([$TaskStart])==7,'Aug',if(getMonth([$TaskStart])==8,'Sep',if(getMonth([$TaskStart])==9,'Oct',if(getMonth([$TaskStart])==10,'Nov',if(getMonth([$TaskStart])==11,'Dec',''))))))))))))",
                 "style": {
                   "position": "absolute",
@@ -652,7 +631,6 @@
               },
               {
                 "elmType": "div",
-                "_comment": "Progress percentagelabel",
                 "txtContent": "=(Number[$Progress]) * 100 + '%'",
                 "style": {
                   "position": "absolute",

@@ -9,7 +9,7 @@ So this
 
 Turns into this
 
-![screenshot of the sample](./assets/GanttChartv3.png)  
+![screenshot of the sample](./assets/screenshot.png)  
 
 ## View requirements
 This format expects the following columns to be part of the view:
