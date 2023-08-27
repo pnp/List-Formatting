@@ -10,7 +10,7 @@
       "This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."
     ],
     "creationDateTime": "2020-11-01T00:00:00.000Z",
-    "updateDateTime": "2021-02-10T00:00:00.000Z",
+    "updateDateTime": "2023-08-12T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -38,19 +38,19 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number, toLocaleDateString, floor"
+        "value": "Number, toLocaleDateString, floor, getDate, getMonth"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "editProps"
+        "value": "editProps, setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter"
+        "value": "hideSelection, hideColumnHeader, rowFormatter, customCardProps"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-gray40, ms-bgColor-gray20, ms-bgColor-sharedRed10, ms-bgColor-sharedYellowGreen10, ms-bgColor-sharedCyanBlue10, ms-borderColor-gray100, ms-borderColor-gray40, ms-borderColor-sharedRed20, ms-borderColor-sharedGreen20, ms-borderColor-sharedCyanBlue20, ms-borderColor-sharedGray20, ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontSize-16, ms-fontSize-14, ms-fontColor-sharedGreen20, ms-fontColor-sharedRed20, ms-fontColor-gray100, ms-fontColor-sharedCyanBlue20"
+        "value": "ms-bgColor-neutralLight, ms-bgColor-neutralLight, ms-bgColor-neutralLighter--hover, ms-bgColor-themeDarker, ms-bgColor-themeLight, ms-bgColor-themeLight--hover, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-ContextualMenu-list, ms-fontColor-black--hover, ms-fontColor-gray140, ms-fontColor-gray160, ms-fontColor-green, ms-fontColor-neutralSecondaryAlt, ms-fontColor-sharedRed20, ms-fontColor-sharedRed20, ms-fontColor-themeDarker--hover, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontColor-white, ms-fontSize-12, ms-fontSize-14, ms-fontSize-16, ms-fontSize-24, ms-fontWeight-semibold, ms-fontWeight-semibold, sp-field-bold, sp-field-severity--blocked30"
       }
     ],
     "thumbnails": [

@@ -5,22 +5,27 @@
   "rowFormatter": {
     "elmType": "div",
     "style": {
-      "height": "=if(@rowIndex == 0, '7.3em', '4em')",
+      "height": "=if(@rowIndex == 0, '88px', '52px')",
       "display": "block",
-      "width": "100%"
+      "width": "100%",
+      "position": "sticky"
+    },
+    "attributes": {
+      "class": "ms-bgColor-neutralLighter--hover"
     },
     "children": [
       {
         "elmType": "div",
         "attributes": {
-          "class": "ms-bgColor-gray20"
+          "class": "ms-bgColor-themePrimary"
         },
         "style": {
           "width": "100%",
           "display": "=if(@rowIndex == 0, 'flex', 'none')",
-          "height": "3em",
-          "padding": ".2em",
-          "font-weight": "bold"
+          "height": "36px",
+          "padding": "0",
+          "font-weight": "bold",
+          "border-radius": "6px 6px 0 0"
         },
         "children": [
           {
@@ -33,7 +38,7 @@
               "box-sizing": "border-box"
             },
             "attributes": {
-              "class": "ms-fontSize-16"
+              "class": "ms-fontSize-16 ms-fontColor-white"
             }
           },
           {
@@ -43,23 +48,34 @@
               "height": "100%",
               "position": "relative"
             },
-            "attributes": {
-              "class": "ms-fontSize-14"
-            },
             "children": [
               {
-                "elmType": "span",
+                "elmType": "div",
                 "txtContent": "=toLocaleDateString([$ProjectStart])",
                 "style": {
-                  "text-align": "left"
+                  "position": "absolute",
+                  "padding": "14px 4px 0 4px",
+                  "height": "22px",
+                  "border-radius": "6px 6px 0 0"
+                },
+                "attributes": {
+                  "title": "='Project Start: ' + toLocaleDateString([$ProjectStart])",
+                  "class": "ms-bgColor-themeDarker ms-fontSize-14 ms-fontColor-white"
                 }
               },
               {
-                "elmType": "span",
+                "elmType": "div",
                 "txtContent": "=toLocaleDateString([$ProjectDue])",
                 "style": {
                   "position": "absolute",
-                  "right": "0"
+                  "right": "0",
+                  "padding": "14px 4px 0 4px",
+                  "height": "22px",
+                  "border-radius": "6px 6px 0 0"
+                },
+                "attributes": {
+                  "title": "='Project Finish: ' + toLocaleDateString([$ProjectDue])",
+                  "class": "ms-bgColor-themeDarker ms-fontSize-14 ms-fontColor-white"
                 }
               },
               {
@@ -67,10 +83,30 @@
                 "txtContent": "=toLocaleDateString( @now)",
                 "style": {
                   "position": "relative",
-                  "width": "100px",
+                  "width": "90px",
                   "z-index": "100",
                   "display": "=if([$ProjectDue] < @now , 'none', 'block')",
-                  "left": "=floor( (Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 ) + '%'"
+                  "left": "=floor( (Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 ) + '%'",
+                  "background-color": "#e1dfdd",
+                  "text-align": "center",
+                  "padding": "0 3px",
+                  "margin": "0 0 0 3px"
+                }
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "ms-fontColor-gray40"
+                },
+                "style": {
+                  "position": "relative",
+                  "display": "=if( [$ProjectDue] < @now , 'none', 'block')",
+                  "top": "-1.3em",
+                  "z-index": "1",
+                  "border-left": "5px solid",
+                  "height": "800px",
+                  "width": "0.1em",
+                  "left": "=  (Number(@now)-Number([$ProjectStart])) /  (Number([$ProjectDue])-Number([$ProjectStart]))  * 100  + '%' "
                 }
               }
             ]
@@ -81,103 +117,534 @@
         "elmType": "div",
         "style": {
           "width": "100%",
-          "display": "flex",
-          "padding": "0.2em"
+          "display": "flex"
         },
         "children": [
           {
-            "elmType": "span",
+            "elmType": "div",
             "style": {
-              "width": "21px",
-              "padding-top": "0.55em"
+              "width": "220px",
+              "display": "flex",
+              "flex-wrap": "wrap"
             },
             "attributes": {
-              "iconName": "=if([$Progress] >= 1, 'CompletedSolid', if([$TaskDue] > [$ProjectDue], 'WarningSolid', if([$TaskStart] > @now, 'Calendar', if([$TaskDue] < @now, 'AlarmClock', 'CircleRing'))))",
-              "title": "=if([$Progress] >= 1, 'Complete', if([$TaskDue] > [$ProjectDue], 'Due date is past project due date', if([$TaskStart] > @now, 'Upcoming task', if([$TaskDue] < @now, 'Overdue', 'In progress'))))",
-              "class": "='ms-fontSize-16 ms-fontColor-' + if([$Progress] >= 1, 'sharedGreen20', if([$TaskDue] > [$ProjectDue], 'sharedRed20', if([$TaskStart] > @now, 'gray100', if([$TaskDue]< @now, 'sharedRed20', 'sharedCyanBlue20'))))"
-            }
-          },
-          {
-            "elmType": "button",
-            "txtContent": "[$Title]",
-            "customRowAction": {
-              "action": "editProps"
+              "class": ""
             },
-            "style": {
-              "width": "199px",
-              "max-height": "2em",
-              "padding": "0",
-              "border": "none",
-              "background-color": "transparent",
-              "cursor": "pointer",
-              "text-decoration": "none",
-              "text-align": "left",
-              "outline": "none",
-              "display": "inline-block",
-              "overflow": "hidden",
-              "text-overflow": "ellipsis",
-              "white-space": "nowrap"
-            },
-            "attributes": {
-              "title": "[$Title]",
-              "class": "ms-fontSize-16 ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
-            }
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "width": "24px",
+                  "padding": "6px 0",
+                  "text-align": "center",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "iconName": "=if([$Progress] >= 1, 'CompletedSolid', if([$Progress] > 0 , 'CortanaLogoReadyOuter', 'CircleRing'))",
+                  "title": "='Progress: ' + Number([$Progress] * 100) + '%'",
+                  "class": "= 'ms-fontSize-14 ms-fontColor-' + if([$Progress] >= 1, 'green', 'neutralSecondaryAlt')"
+                },
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "Progress": "=if([$Progress] == 0, if([$TaskType] == 'Task' || [$TaskType] == '', 25 , 100)  , if([$Progress] == 0.25 , 50, if([$Progress] == 0.50, 75, if([$Progress] == 0.75, 100, 0))))"
+                  }
+                }
+              },
+              {
+                "elmType": "button",
+                "txtContent": "[$Title]",
+                "customRowAction": {
+                  "action": "editProps"
+                },
+                "style": {
+                  "width": "196px",
+                  "height": "1.6em",
+                  "padding": "0.3em 0 0 0",
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer",
+                  "text-decoration": "none",
+                  "text-align": "left",
+                  "outline": "none",
+                  "display": "inline-block",
+                  "overflow": "hidden",
+                  "text-overflow": "ellipsis",
+                  "white-space": "nowrap"
+                },
+                "attributes": {
+                  "title": "[$Title]",
+                  "class": "ms-fontSize-14 ms-fontWeight-semibold ms-fontColor-gray140 ms-fontColor-black--hover"
+                }
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "width": "24px",
+                  "padding": "1px 0 0 0",
+                  "text-align": "center"
+                },
+                "attributes": {
+                  "iconName": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 )  , 'EventDateMissed12', '')",
+                  "title": "This task is running late!",
+                  "class": "='ms-fontSize-14 ms-fontColor-' + if([$TaskDue]< @now && [$Progress] < 1, 'sharedRed20', 'themePrimary')"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "=toLocaleDateString([$TaskStart])",
+                "style": {
+                  "width": "96px",
+                  "padding": "0.1em 0",
+                  "text-align": " center",
+                  "heigth": "1.4em",
+                  "border-radius": "12px",
+                  "margin": "0 2px 0 0 "
+                },
+                "attributes": {
+                  "class": "ms-fontSize-12 ms-bgColor-neutralLight"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "=toLocaleDateString([$TaskDue])",
+                "style": {
+                  "width": "96px",
+                  "padding": "0.1em 0",
+                  "text-align": " center",
+                  "border-radius": "12px",
+                  "margin": "0 2px 0 0 "
+                },
+                "attributes": {
+                  "class": "ms-fontSize-12 ms-bgColor-neutralLight"
+                }
+              }
+            ]
           },
           {
             "elmType": "div",
             "style": {
               "flex-grow": "1",
               "position": "relative",
-              "height": "3em",
-              "border-style": "dotted",
-              "border-width": "1px 0 1px 0"
+              "height": "3.3em",
+              "padding": "0.3em 0 0 0"
             },
             "attributes": {
-              "class": "ms-borderColor-sharedGray20"
+              "class": ""
             },
             "children": [
               {
                 "elmType": "div",
-                "txtContent": "=toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])",
+                "txtContent": "",
                 "style": {
-                  "position": "relative",
+                  "position": "absolute",
                   "box-sizing": "border-box",
-                  "display": "flex",
-                  "border-radius": "1em",
-                  "z-index": "1",
-                  "top": "0.2em",
-                  "height": "3em",
+                  "display": "=if([$TaskType] == 'Task' || [$TaskType] == '' , 'flex', 'none')",
+                  "border-radius": "6px",
+                  "z-index": "10",
+                  "top": "0.6em",
+                  "height": "2.4em",
                   "overflow": "hidden",
-                  "word-break": "break-word",
-                  "padding": "0.2em 0.4em",
-                  "font-size": "10px",
-                  "line-height": "12px",
-                  "border-width": "1px",
-                  "border-style": "solid",
+                  "text-overflow": "ellipsis",
+                  "border": "1px solid",
+                  "border-color": "#0078db",
+                  "background-color": "#cfe6f7",
                   "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
                   "width": "= if( [$TaskDue] > [$ProjectDue],  (Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100  ,  (Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 ) + '%'"
                 },
                 "attributes": {
-                  "title": "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])",
-                  "class": "=if([$Progress] >= 1, 'ms-borderColor-sharedGreen20 ms-bgColor-sharedYellowGreen10', if([$TaskDue] > [$ProjectDue], 'ms-borderColor-sharedRed20 ms-bgColor-sharedRed10', if([$TaskStart] > @now, 'ms-borderColor-gray100 ms-bgColor-gray40', if([$TaskDue]< @now, 'ms-borderColor-sharedRed20 ms-bgColor-sharedRed10', 'ms-borderColor-sharedCyanBlue20 ms-bgColor-sharedCyanBlue10'))))"
+                  "class": "",
+                  "title": ""
                 }
               },
               {
-                "elmType": "span",
-                "attributes": {
-                  "title": "=toLocaleDateString(@now)",
-                  "class": "ms-borderColor-gray40"
+                "elmType": "div",
+                "style": {
+                  "position": "absolute",
+                  "box-sizing": "border-box",
+                  "display": "=if(( [$TaskType] == 'Task' || [$TaskType] == '' ) && [$Progress] > 0, 'flex', 'none')",
+                  "border-radius": "=if( [$Progress] < 1, '6px 0 0 6px', '6px')",
+                  "z-index": "20",
+                  "top": "0.6em",
+                  "height": "2.4em",
+                  "overflow": "hidden",
+                  "text-overflow": "ellipsis",
+                  "border": "1px solid",
+                  "border-color": "#0078db",
+                  "background-color": "#0078db",
+                  "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
+                  "width": "= if( [$TaskDue] > [$ProjectDue],  ((Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100) * [$Progress] + '%'  ,  ((Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 * [$Progress]) + '%'"
                 },
+                "attributes": {
+                  "class": "sp-field-bold",
+                  "title": "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) + ' - ' + toLocaleDateString([$TaskDue])"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "",
+                "style": {
+                  "position": "absolute",
+                  "box-sizing": "border-box",
+                  "border-radius": "6px",
+                  "z-index": "50",
+                  "top": "0.6em",
+                  "height": "2.4em",
+                  "overflow": "hidden",
+                  "text-overflow": "ellipsis",
+                  "border": "=if([$TaskDue]< @now && [$Progress] < 1 && ([$TaskType] == 'Task' || [$TaskType] == '' ), '2px solid #f8b7bd', 'none')",
+                  "background-color": "",
+                  "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
+                  "width": "=if([$TaskType] == 'Milestone', '28px' ,  if( [$TaskDue] > [$ProjectDue],  (Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100  ,  (Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 ) + '%'",
+                  "margin-left": "=if([$TaskType] == 'Milestone', '-14px' , 0"
+                },
+                "attributes": {
+                  "class": "",
+                  "title": ""
+                },
+                "customCardProps": {
+                  "openOnEvent": "hover",
+                  "directionalHint": "bottomCenter",
+                  "isBeakVisible": true,
+                  "beakStyle": {
+                    "backgroundColor": "white"
+                  },
+                  "formatter": {
+                    "elmType": "div",
+                    "style": {
+                      "max-height": "256px",
+                      "width": "282px",
+                      "display": "flex",
+                      "flex-wrap": "wrap",
+                      "align-items": "flex-start"
+                    },
+                    "attributes": {
+                      "class": "ms-ContextualMenu-list is-open list-436"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$Title]",
+                        "style": {
+                          "width": "250px",
+                          "height": "40px",
+                          "padding": "4px 4px 0 4px",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-14 ms-bgColor-themeLight ms-fontWeight-semibold ms-fontColor-gray160"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "12",
+                          "flex-grow": "1",
+                          "height": "34px",
+                          "padding": "10px 0 0 0 ",
+                          "text-align": "center",
+                          "cursor": "pointer"
+                        },
+                        "attributes": {
+                          "iconName": "Edit",
+                          "class": "ms-fontSize-14 ms-bgColor-themeLight  ms-fontColor-gray160"
+                        },
+                        "customRowAction": {
+                          "action": "editProps"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "100%",
+                          "display": "flex",
+                          "flex-wrap": "wrap",
+                          "align-items": "flex-start",
+                          "margin": "2px 0"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "24px",
+                              "padding": "6px 0",
+                              "text-align": " center",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "iconName": "Timeline"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "0%",
+                            "style": {
+                              "padding": "2px 6px",
+                              "text-align": " center",
+                              "border-radius": "14px",
+                              "margin": "2px 2px 0 0 ",
+                              "cursor": "pointer",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "class": "='ms-fontSize-14  ms-bgColor-themeLight--hover ms-fontColor-themeDarker--hover ms-bgColor-' + if([$Progress] == 0, 'themeTertiary', 'neutralLight')"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Progress": "0"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "25%",
+                            "style": {
+                              "padding": "2px 6px",
+                              "text-align": " center",
+                              "border-radius": "14px",
+                              "margin": "2px 2px 0 0 ",
+                              "cursor": "pointer",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "class": "='ms-fontSize-14  ms-bgColor-themeLight--hover ms-fontColor-themeDarker--hover ms-bgColor-' + if([$Progress] == 0.25, 'themeTertiary', 'neutralLight')"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Progress": "25"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "50%",
+                            "style": {
+                              "padding": "2px 6px",
+                              "text-align": " center",
+                              "border-radius": "14px",
+                              "margin": "2px 2px 0 0 ",
+                              "cursor": "pointer",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "class": "='ms-fontSize-14  ms-bgColor-themeLight--hover ms-fontColor-themeDarker--hover ms-bgColor-' + if([$Progress] == 0.5, 'themeTertiary', 'neutralLight')"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Progress": "50"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "75%",
+                            "style": {
+                              "padding": "2px 6px",
+                              "text-align": " center",
+                              "border-radius": "14px",
+                              "margin": "2px 2px 0 0 ",
+                              "cursor": "pointer",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "class": "='ms-fontSize-14  ms-bgColor-themeLight--hover ms-fontColor-themeDarker--hover ms-bgColor-' + if([$Progress] == 0.75, 'themeTertiary', 'neutralLight')"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Progress": "75"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "100%",
+                            "style": {
+                              "padding": "2px 6px",
+                              "text-align": " center",
+                              "border-radius": "14px",
+                              "margin": "2px 2px 0 0 ",
+                              "cursor": "pointer",
+                              "heigth": "1.4em"
+                            },
+                            "attributes": {
+                              "class": "='ms-fontSize-14  ms-bgColor-themeLight--hover ms-fontColor-themeDarker--hover ms-bgColor-' + if([$Progress] == 1, 'themeTertiary', 'neutralLight')"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "Progress": "100"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "24px",
+                          "display": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 ) , 'block', 'none')",
+                          "padding": "6px 0 7px 0",
+                          "text-align": " center",
+                          "heigth": "1.4em",
+                          "margin": "2px 0"
+                        },
+                        "attributes": {
+                          "iconName": "EventDateMissed12",
+                          "class": "sp-field-severity--blocked30 ms-fontSize-14 ms-fontColor-sharedRed20"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "This task is running late!",
+                        "style": {
+                          "width": "254px",
+                          "display": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 ) , 'block', 'none')",
+                          "padding": "4px 0 4px 4px",
+                          "text-align": " Left",
+                          "heigth": "1.4em",
+                          "margin": "2px 0"
+                        },
+                        "attributes": {
+                          "class": "sp-field-severity--blocked30 ms-fontSize-14 ms-fontColor-sharedRed20"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "24px",
+                          "padding": "6px 0",
+                          "text-align": " center",
+                          "heigth": "1.4em"
+                        },
+                        "attributes": {
+                          "iconName": "Calendar"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "=toLocaleDateString([$TaskStart])",
+                        "style": {
+                          "width": "127px",
+                          "padding": "2px 0",
+                          "text-align": " center",
+                          "border-radius": "14px",
+                          "margin": "2px 2px 0 0 ",
+                          "height": "1.4em"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-14 ms-bgColor-neutralLight"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "=toLocaleDateString([$TaskDue])",
+                        "style": {
+                          "width": "127px",
+                          "padding": "2px 0",
+                          "text-align": " center",
+                          "border-radius": "14px",
+                          "margin": "2px 2px 0 0 ",
+                          "height": "1.4em"
+                        },
+                        "attributes": {
+                          "class": "ms-fontSize-14 ms-bgColor-neutralLight"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "24px",
+                          "padding": "6px 0",
+                          "text-align": " center",
+                          "heigth": "1.4em"
+                        },
+                        "attributes": {
+                          "iconName": "Contact",
+                          "title": "='Assigned to : ' + [$AssignedToUser.title]"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$AssignedToUser.title]",
+                        "style": {
+                          "width": "254px",
+                          "padding": "4px 0 4px 4px"
+                        },
+                        "defaultHoverField": "[$AssignedToUser]"
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$TaskDescription]",
+                        "style": {
+                          "font-style": "italic",
+                          "width": "254px",
+                          "padding": "4px 0 4px 4px"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "",
                 "style": {
                   "position": "relative",
-                  "display": "=if([$ProjectDue] < @now , 'none', 'block')",
-                  "top": "-2.6em",
-                  "z-index": "100",
-                  "border-left-width": "5px",
-                  "border-left-style": "solid",
+                  "box-sizing": "border-box",
+                  "display": "=if([$TaskType] == 'Milestone', 'flex', 'none')",
+                  "z-index": "10",
+                  "top": "0.3em",
                   "height": "3em",
-                  "width": "1em",
-                  "left": "=(Number(@now)-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100 + '%'"
+                  "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
+                  "margin-left": "-14px",
+                  "width": "28px"
+                },
+                "attributes": {
+                  "iconName": "=if([$TaskStart]< @now && [$Progress] < 1, 'EventDateMissed12', 'EventDate'",
+                  "title": "=[$Title] + ' - ' + toLocaleDateString([$TaskStart]) ",
+                  "class": "='ms-fontSize-24 ' + if([$TaskStart]< @now && [$Progress] < 1, 'ms-fontColor-sharedRed20', 'ms-fontColor-themePrimary') "
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "=getDate([$TaskStart]) + '-' +  if(getMonth([$TaskStart])==0,'Jan',if(getMonth([$TaskStart])==1,'Feb',if(getMonth([$TaskStart])==2,'Mar',if(getMonth([$TaskStart])==3,'Apr',if(getMonth([$TaskStart])==4,'May',if(getMonth([$TaskStart])==5,'Jun',if(getMonth([$TaskStart])==6,'Jul',if(getMonth([$TaskStart])==7,'Aug',if(getMonth([$TaskStart])==8,'Sep',if(getMonth([$TaskStart])==9,'Oct',if(getMonth([$TaskStart])==10,'Nov',if(getMonth([$TaskStart])==11,'Dec',''))))))))))))",
+                "style": {
+                  "position": "absolute",
+                  "box-sizing": "border-box",
+                  "display": "=if([$TaskType] == 'Milestone'  , 'flex', 'none')",
+                  "z-index": "3",
+                  "top": "10px",
+                  "height": "24px",
+                  "margin-left": "-60px",
+                  "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
+                  "width": "60px",
+                  "text-align": "right"
+                },
+                "attributes": {
+                  "class": "sp-field-bold ms-fontSize-14"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "=(Number[$Progress]) * 100 + '%'",
+                "style": {
+                  "position": "absolute",
+                  "box-sizing": "border-box",
+                  "display": "=if([$TaskType] == 'Task' || [$TaskType] == '' , 'flex', 'none')",
+                  "z-index": "3",
+                  "top": "10px",
+                  "height": "24px",
+                  "margin-left": "=if((Number([$TaskDue])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) <= 0.9  , '10px' , '-40px')",
+                  "left": "=if((Number([$TaskDue])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) <= 0.9 , (Number([$TaskDue])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%' , (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%' ) ",
+                  "width": "40px"
+                },
+                "attributes": {
+                  "class": "sp-field-bold ms-fontSize-14"
                 }
               }
             ]
