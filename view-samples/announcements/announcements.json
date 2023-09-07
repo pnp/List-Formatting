@@ -17,7 +17,7 @@
           {
             "elmType": "img",
             "attributes": {
-              "src": "[$ImgHover]"
+              "src": "[$ImgHover.serverRelativeUrl]"
             }
           }
         ],
