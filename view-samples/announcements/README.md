@@ -16,7 +16,7 @@ This sample formats your view to look like a Announcements card with a similiar 
 | Description         | Single Line Text                       | Description          |
 | TypeAnn             | Choice (Error, Success, Info, Warning) | TypeAnn              |
 | RemoveDate         | Date and Time                          | RemoveDate          |
-| (optional) ImgHover | Picture                                | ImgHover             |
+| (optional) ImgHover | Image                                | ImgHover             |
 
 ## Sample
 
@@ -29,6 +29,7 @@ announcements.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalh
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
 | 1.0     | 1 December, 2021 | Initial release |
+| 1.1     | 17 September, 2023 | The new Image column can now be created, and the use of the Image column is now common when using images. Therefore, changed the type of ImgHover column from Picture column to Image column. |
 
 ## Disclaimer
 
