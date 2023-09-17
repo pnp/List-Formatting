@@ -11,6 +11,7 @@
       "style": {
         "margin": "5px"
       },
+      "forEach": "tag in @currentField",
       "children": [
         {
           "elmType": "div",
@@ -25,8 +26,7 @@
               "style": {
                 "border-top": "12px solid transparent",
                 "border-bottom": "12px solid transparent",
-                "border-right": "10px solid",
-                "border-top-left-radius": "10px"
+                "border-right": "10px solid"
               },
               "attributes": {
                 "class": "ms-fontColor-themePrimary"
@@ -60,13 +60,13 @@
                 },
                 {
                   "elmType": "div",
-                  "txtContent": "@currentField",
+                  "txtContent": "[$tag]",
                   "style": {
                     "padding-left": "6px",
                     "padding-right": "10px"
                   },
                   "attributes": {
-                    "class": "ms-fontColor-white"
+                    "class": "ms-fontColor-white ms-fontSize-s"
                   }
                 }
               ]
