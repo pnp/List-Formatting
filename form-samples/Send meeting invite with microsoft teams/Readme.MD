@@ -5,7 +5,7 @@
 This sample demonstrates sending a meeting invite via microsoft teams to attendees in SharePoint list.
 The JSON can be used as Footer within Sharepoint List formatting.
 
-![screenshot of the sample](./Send meeting with MS teams.png)
+![screenshot of the sample](/Send meeting with MS teams.png)
 
 ## Form requirements
 
