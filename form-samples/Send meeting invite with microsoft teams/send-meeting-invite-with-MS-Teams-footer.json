@@ -1,0 +1,50 @@
+{
+	"elmType": "div",
+	"style": {
+		"width": "100%",
+		"display": "=if([$Title], 'block', 'none')",
+		"padding-top": "10px",
+		"border-top": "1px solid"
+	},
+	"attributes": {
+		"class": "ms-fontColor-neutralSecondary"
+	},
+	"children": [{
+		"elmType": "a",
+		"attributes": {
+			"target": "_blank",
+			"href": {
+				"operator": "+",
+				"operands": [
+					"https://teams.microsoft.com/l/meeting/new",
+					"?subject=",
+					"Test",
+					"&attendees=",
+					"joe@contoso.com",
+					"&content=",
+					"Hey, calling for a meeting to discuss (",
+					"[$Title]",
+					") coming along?",
+
+				]
+			},
+			"class": "ms-fontColor-themePrimary"
+		},
+		"children": [{
+				"elmType": "span",
+				"txtContent": "Send Meeting invite with Microsoft Teams"
+			},
+			{
+				"elmType": "span",
+				"style": {
+					"margin-left": "8px",
+					"vertical-align": "middle"
+				},
+				"attributes": {
+					"iconName": "TeamsLogo",
+					"class": "ms-fontColor-themePrimary ms-fontSize-xl"
+				}
+			}
+		]
+	}]
+}
