@@ -51,8 +51,8 @@ Version |Date              |Comments
 
 ## Additional notes
 
-- Calculated columns can be added from [See all column types] on the Add Column screen.
+- Calculated columns can be added from [See all column types] on the Create Column screen.
 
-    ![screenshot of the calculated column setting screen](./assets/add-column-screen.png)
+    ![screenshot of the create column screen](./assets/create-column-screen.png)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gantt-chart" />
