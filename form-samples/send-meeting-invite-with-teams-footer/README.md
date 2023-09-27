@@ -1,4 +1,4 @@
-# Send Meeting invite to Author with Microsoft Teams
+# Send Meeting Invite with Microsoft Teams
 
 ## Summary
 

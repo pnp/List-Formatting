@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-send-meeting-invite-with-teams-footer",
     "reponame": "send-meeting-invite-with-teams-footer",
     "source": "pnp",
-    "title": "Send Meeting invite to Author with Microsoft Teams",
+    "title": "Send Meeting Invite with Microsoft Teams",
     "shortDescription": "This sample demonstrates sending a meeting invite via Microsoft Teams to attendees in SharePoint list. The JSON can be used as Footer within SharePoint List formatting.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/send-meeting-invite-with-teams-footer",
     "longDescription": [
