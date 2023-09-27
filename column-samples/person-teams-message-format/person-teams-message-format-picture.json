@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'','none')"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": "=getUserImage(@currentField.email,'s')"
+      },
+      "style": {
+        "width": "32px",
+        "height": "32px",
+        "border-radius": "50%",
+        "margin-right": "5px"
+      },
+      "defaultHoverField": "@currentField"
+    },
+    {
+      "elmType": "a",
+      "attributes": {
+        "href": "='https://teams.microsoft.com/l/chat/0/0?users=' + @currentField.email",
+        "target": "_blank"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "iconName": "TeamsLogo",
+            "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-themePrimary",
+            "title": "Details"
+          },
+          "style": {
+            "font-size": "24px"
+          }
+        }
+      ]
+    }
+  ]
+}
