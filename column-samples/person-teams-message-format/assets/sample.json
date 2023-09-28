@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-person-teams-message-format",
     "reponame": "person-teams-message-format",
     "source": "pnp",
-    "title": "",
-    "shortDescription": "",
+    "title": "Teams Message Format",
+    "shortDescription": "This sample is using Microsoft Teams deep links to create a link that allows a user to send Microsoft Teams messages to the user in the column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-teams-message-format",
     "longDescription": [
-      ""
+      "This sample is using Microsoft Teams deep links to create a link that allows a user to send Microsoft Teams messages to the user in the column."
     ],
     "creationDateTime": "2023-09-20T00:00:00.000Z",
     "updateDateTime": "2023-09-20T00:00:00.000Z",
