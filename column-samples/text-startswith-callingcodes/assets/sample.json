@@ -10,7 +10,7 @@
       "This sample demonstrates using the indexOf function (O365 only) to test if text starts with a given value. Using the international calling code at the start of a phone number, the correct country's flag is shown next to the phone number. The same nested conditionals are also used for the tooltip."
     ],
     "creationDateTime": "2019-02-05T00:00:00.000Z",
-    "updateDateTime": "2019-02-05T00:00:00.000Z",
+    "updateDateTime": "2023-09-29T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
