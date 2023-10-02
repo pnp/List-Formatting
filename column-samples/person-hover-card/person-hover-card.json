@@ -1,19 +1,23 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'','none')"
+  },
   "children": [
     {
       "elmType": "img",
       "style": {
         "width": "32px",
+        "min-width": "32px",
         "height": "32px",
         "overflow": "hidden",
         "border-radius": "50%",
         "margin": "2px"
       },
       "attributes": {
-        "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Editor.email]",
-        "title": "[$Editor.title]"
+        "src": "=getUserImage(@currentField.email,'s')",
+        "title": "@currentField.title"
       }
     },
     {
@@ -22,8 +26,8 @@
         "vertical-align": "middle",
         "margin-left": "2px"
       },
-      "txtContent": "[$Editor.title]"
+      "txtContent": "@currentField.title"
     }
   ],
-  "defaultHoverField": "[$Editor]"
+  "defaultHoverField": "@currentField"
 }

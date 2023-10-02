@@ -1,16 +1,12 @@
 # Person Hover Card
 
 ## Summary
-Demonstrates showing a default hover card for a person field. In this case, a formatted person card is shown for the Modified By column.
+Demonstrates showing a default hover card for a person field.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- This format can be applied to any column type though the example is based on - 
-
-Column Name|Type
---------|---------
-Modified By  | Person
+- This format can be applied to a Person column
 
 ## Sample
 
@@ -23,6 +19,7 @@ person-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 Version|Date|Comments
 -------|----|--------
 1.0|April 08, 2020|Initial release
+1.1|October 02, 2023|Fixed to use @currentField from [$Editor] to make it available in any Person column.
 
 
 ## Disclaimer
@@ -32,5 +29,6 @@ Version|Date|Comments
 
 ## Additional notes
 
+- None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-hover-card" />
