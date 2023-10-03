@@ -22,6 +22,12 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 `=if(indexOf(toLowerCase(@currentField),'a')==0, 'Yes', 'No')`
 
+## Prerequisites
+
+[External image sources are blocked](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#img-src-security) by default in the custom formatter. To allow external images, you must [add the domain to HTML Field Security](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b). The domain that needs to be added in this sample is `flagcdn.com`.
+
+![screenshot of HTML Field Security](./assets/html-field-security.png)
+
 ## View requirements
 - This format can be applied to a Text or Choice column
 - This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
@@ -37,6 +43,7 @@ text-startswith-callingcodes.json | [Chris Kent](https://github.com/thechriskent
 Version|Date|Comments
 -------|----|--------
 1.0|February 5, 2019|Initial release
+1.1|September 29, 2023|Added note about HTML Field Security and [changed domain from flags.fmcdn.net to flagcdn.com](https://flags.fmcdn.net/)
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
