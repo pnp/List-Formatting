@@ -10,7 +10,7 @@
       "The following image shows a list with a default hover added to a formatted column in a list"
     ],
     "creationDateTime": "2020-04-08T00:00:00.000Z",
-    "updateDateTime": "2020-04-08T00:00:00.000Z",
+    "updateDateTime": "2023-10-02T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
