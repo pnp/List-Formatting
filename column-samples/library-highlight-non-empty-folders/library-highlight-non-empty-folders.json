@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "background-color": "#FFFFF"
+  },
+  "attributes": {
+    "class": "=if(Number([$FolderChildCount]) > 0 || Number([$ItemChildCount]) > 0 , 'ms-fontColor-black ms-fontWeight-semibold', 'ms-fontColor-gray120')"
+  }
+}
