@@ -3,9 +3,13 @@
   "elmType": "div",
   "txtContent": "@currentField",
   "style": {
-    "background-color": "#FFFFF"
+    "background-color": "#FFFFF",
+    "cursor": "pointer"
+  },
+  "customRowAction": {
+    "action": "defaultClick"
   },
   "attributes": {
-    "class": "=if(Number([$FolderChildCount]) > 0 || Number([$ItemChildCount]) > 0 , 'ms-fontColor-black ms-fontWeight-semibold', 'ms-fontColor-gray120')"
+    "class": "=if(((indexOf([$ContentTypeId],'0x0120')) == 0), if([$FolderChildCount] > 0 || [$ItemChildCount] > 0 , 'ms-fontColor-black ms-fontWeight-semibold', 'ms-fontColor-gray120'),'ms-fontColor-black')"
   }
 }
