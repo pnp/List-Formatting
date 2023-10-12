@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-filename-highlight-non-empty-folders",
     "reponame": "filename-highlight-non-empty-folders",
     "source": "pnp",
-    "title": "Highlight or gray out folders depending on whether they are empty or not",
+    "title": "Highlight non-empty folder",
     "shortDescription": "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/filename-highlight-non-empty-folders",
     "longDescription": [
