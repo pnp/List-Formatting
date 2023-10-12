@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-filename-highlight-non-empty-folders",
+    "reponame": "filename-highlight-non-empty-folders",
+    "source": "pnp",
+    "title": "Highlight non-empty folder",
+    "shortDescription": "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/filename-highlight-non-empty-folders",
+    "longDescription": [
+      "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not"
+    ],
+    "creationDateTime": "2023-10-06T00:00:00.000Z",
+    "updateDateTime": "2023-10-06T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Document Library"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Filename"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-Link, ms-fontColor-black, ms-fontWeight-semibold, ms-fontColor-gray120, ms-fontColor-black"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/filename-highlight-non-empty-folders/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/filename-highlight-non-empty-folders/assets/screenshot_hidden_columns.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "MoeIcI",
+        "pictureUrl": "https://github.com/MoeIcI",
+        "name": "Moritz Lickert"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
