@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "@currentField",
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "attributes": {
+        "class": "='ms-Link '+if(((indexOf([$ContentTypeId],'0x0120')) == 0), if([$FolderChildCount] > 0 || [$ItemChildCount] > 0 , 'ms-fontColor-black ms-fontWeight-semibold', 'ms-fontColor-gray120'),'ms-fontColor-black')"
+      }
+    }
+  ]
+}
