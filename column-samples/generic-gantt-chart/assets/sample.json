@@ -10,7 +10,7 @@
       "This sample demonstrates the use of the Calculated column to generate a string for displaying a Gantt chart, and then parses the string to display the Gantt chart."
     ],
     "creationDateTime": "2023-09-27T00:00:00.000Z",
-    "updateDateTime": "2023-10-12T00:00:00.000Z",
+    "updateDateTime": "2023-10-13T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"

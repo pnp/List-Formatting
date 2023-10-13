@@ -5,6 +5,16 @@ This sample demonstrates the use of the Calculated column to generate a string f
 
 ![screenshot of the sample](./assets/screenshot.png)
 
+Additionally, you can adjust the date format displayed on the Gantt chart by combining JSON and the corresponding formulas. Refer to the table below for date format options and the associated JSON and formulas:
+
+| Date Format | JSON File                         | Formula for GanttChart Column |
+| ----------- | --------------------------------- | ----------------------------- | 
+| MM/dd/yyyy  | generic-gantt-chart.json          | Formula1 or Formula3          | 
+| yyyy/MM/dd  | generic-gantt-chart.json          | Formula2 or Formula4          | 
+| dd/MM/yyyy  | generic-gantt-chart-ddMMyyyy.json | Formula2 or Formula4          | 
+
+![screenshot of the date format sample](./assets/date-format.png)
+
 ## View requirements
 
 |Type                             |Internal Name|Required|
@@ -62,6 +72,7 @@ Version |Date              |Comments
 --------|------------------|--------------------------------
 1.0     |September 27, 2023|Initial release
 1.1     |October 12, 2023|Added note on delimiter character in Calculated column
+1.2     |October 13, 2023|Added more options for date format displayed on Gantt chart
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
