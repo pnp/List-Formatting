@@ -72,7 +72,7 @@ Version |Date              |Comments
 --------|------------------|--------------------------------
 1.0     |September 27, 2023|Initial release
 1.1     |October 12, 2023|Added note on delimiter character in Calculated column
-1.2     |October 13, 2023|
+1.2     |October 13, 2023|Added more options for date format displayed on Gantt chart
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
