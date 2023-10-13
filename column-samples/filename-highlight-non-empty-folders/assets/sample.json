@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-generic-gantt-chart",
-    "reponame": "generic-gantt-chart",
+    "name": "pnp-list-formatting-filename-highlight-non-empty-folders",
+    "reponame": "filename-highlight-non-empty-folders",
     "source": "pnp",
-    "title": "Gantt Chart",
-    "shortDescription": "This sample demonstrates the use of the Calculated column to generate a string for displaying a Gantt chart, and then parses the string to display the Gantt chart.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-gantt-chart",
+    "title": "Highlight non-empty folder",
+    "shortDescription": "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/filename-highlight-non-empty-folders",
     "longDescription": [
-      "This sample demonstrates the use of the Calculated column to generate a string for displaying a Gantt chart, and then parses the string to display the Gantt chart."
+      "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not"
     ],
-    "creationDateTime": "2023-09-27T00:00:00.000Z",
-    "updateDateTime": "2023-10-13T00:00:00.000Z",
+    "creationDateTime": "2023-10-06T00:00:00.000Z",
+    "updateDateTime": "2023-10-06T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,46 +26,52 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Hover Cards"
+        "value": "Document Library"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": "Filename"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@now"
-      },
-      {
-        "key": "FORMATTING-OPERATORS",
-        "value": "replaceAll, substring, indexOf"
-      },
-      {
-        "key": "FORMATTING-ACTIONS",
         "value": ""
       },
       {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps, inlineEditField"
+        "value": ""
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themeLight, ms-bgColor-themeLighter--hover, ms-bgColor-themePrimary, ms-fontSize-s, ms-fontSize-xs"
+        "value": "ms-Link, ms-fontColor-black, ms-fontWeight-semibold, ms-fontColor-gray120, ms-fontColor-black"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-gantt-chart/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/filename-highlight-non-empty-folders/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/filename-highlight-non-empty-folders/assets/screenshot_hidden_columns.png",
         "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "tecchan1107",
-        "pictureUrl": "https://github.com/tecchan1107.png",
-        "name": "Tetsuya Kawahara"
+        "gitHubAccount": "MoeIcI",
+        "pictureUrl": "https://github.com/MoeIcI.png",
+        "name": "Moritz Lickert"
       }
     ],
     "references": [

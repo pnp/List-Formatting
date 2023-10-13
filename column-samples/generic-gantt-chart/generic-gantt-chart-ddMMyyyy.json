@@ -1,0 +1,231 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "width": "100%",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "column",
+            "width": "100%",
+            "margin-bottom": "3px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "justify-content": "space-between",
+                "width": "100%",
+                "white-space": "nowrap"
+              },
+              "attributes": {
+                "class": "ms-fontSize-xs"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "flex-direction": "row-reverse"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "=if(loopIndex('_startdate')>1,'','/')+[$_startdate]",
+                      "forEach": "_startdate in split(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_')),'-')"
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "flex-direction": "row-reverse"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "=if(loopIndex('_enddate')>1,'','/')+[$_enddate]",
+                      "forEach": "_enddate in split(substring(@currentField,indexOf(@currentField,'_')+1,indexOf(@currentField,')')),'-')"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "100%",
+                "border": "1px solid",
+                "height": "13px",
+                "position": "relative",
+                "overflow": "hidden"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "height": "100%",
+                    "width": "=((Number(Date(substring(@currentField,indexOf(@currentField,'^')+1,indexOf(@currentField,'('))))-Number(Date(substring(@currentField,0,indexOf(@currentField,'^'))))+86400000)/(Number(Date(substring(@currentField,indexOf(@currentField,'_')+1,indexOf(@currentField,')'))))-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_'))))+86400000))*100+'%'",
+                    "left": "=((Number(Date(substring(@currentField,0,indexOf(@currentField,'^'))))-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_')))))/(Number(Date(substring(@currentField,indexOf(@currentField,'_')+1,indexOf(@currentField,')'))))-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_'))))+86400000))*100+'%'"
+                  },
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary",
+                    "title": "=[$Start.displayValue]+' ～ '+[$End.displayValue]"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "height": "100%",
+                    "width": "=(86400000/(Number(Date(substring(@currentField,indexOf(@currentField,'_')+1,indexOf(@currentField,')'))))-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_'))))+86400000))*100+'%'",
+                    "left": "=((Number(@now)-(60*60*1000*12)-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_')))))/(Number(Date(substring(@currentField,indexOf(@currentField,'_')+1,indexOf(@currentField,')'))))-Number(Date(substring(@currentField,indexOf(@currentField,'(')+1,indexOf(@currentField,'_'))))+86400000))*100+'%'",
+                    "display": "flex",
+                    "justify-content": "center",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "width": "100%",
+                        "min-width": "5px",
+                        "height": "100%"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-themeLight",
+                        "title": "Now"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "10px",
+            "margin-left": "5px",
+            "cursor": "pointer",
+            "border-radius": "50%"
+          },
+          "attributes": {
+            "iconName": "Edit",
+            "class": "ms-bgColor-themeLighter--hover"
+          },
+          "customCardProps": {
+            "openOnEvent": "click",
+            "directionalHint": "topCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "padding": "10px 15px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "align-items": "center"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "inlineEditField": "[$Start]",
+                      "style": {
+                        "border": "1px solid",
+                        "padding": "5px 10px",
+                        "border-radius": "3px",
+                        "display": "flex",
+                        "align-items": "center",
+                        "margin": "5px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "txtContent": "[$Start.displayValue]"
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "8px"
+                          },
+                          "attributes": {
+                            "iconName": "Edit"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "～",
+                      "style": {
+                        "margin": "5px"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "inlineEditField": "[$End]",
+                      "style": {
+                        "border": "1px solid",
+                        "padding": "5px 10px",
+                        "border-radius": "3px",
+                        "display": "flex",
+                        "align-items": "center",
+                        "margin": "5px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "txtContent": "[$End.displayValue]"
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "8px"
+                          },
+                          "attributes": {
+                            "iconName": "Edit"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "If you changed the date manually instead of using the calendar, press [Enter] after changing the date.",
+                  "style": {
+                    "max-width": "300px",
+                    "text-align": "center"
+                  },
+                  "attributes": {
+                    "class": "ms-fontSize-s"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
