@@ -18,14 +18,14 @@ This sample demonstrates how to create a clickable rating experience in the view
 
    ![screenshot of how to add the ratings feature](./assets/set-listsettings-rating-1.png)
 
-4. Under **Allow items in this list to be rated?**, click **Yes**.
-5. Under **Which voting/rating experience would you like to enable for this list?**, click **Rating**.
+4. Under **Rating Settings**, click **Yes**.
+5. Under **Which voting/rating experience you would like to enable for this list?**, click **Rating**.
 6. Click **OK**.
 
    ![screenshot of how to add the ratings feature](./assets/set-listsettings-rating-2.png)
 
 ### Adding rating fields to the default view
-The following is an example of how to enable add the rating related fields to the default view using [PnP PowerShell](https://pnp.github.io/powershell).
+The following is an example of how to add the rating related fields to the default view using [PnP PowerShell](https://pnp.github.io/powershell).
 
 ```
 $targetURL = "https://<tenantname>.sharepoint.com/sites/<site name>"
