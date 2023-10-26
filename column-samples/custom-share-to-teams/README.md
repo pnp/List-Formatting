@@ -20,7 +20,7 @@ URL|Multiple lines of text|Link will only parse 1 parameter, any more will be as
 
 Solution|Author(s)
 --------|---------
-custom-share-to-teams.json | [Bianca W](https://github.com/bianca-w)
+custom-share-to-teams.json | [Bianca W](https://github.com/bianca-git)
 
 
 ## Version history
