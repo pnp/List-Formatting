@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "padding-left": "12px",
+        "font-size": "16px",
+        "font-weight": "400",
+        "cursor": "pointer",
+        "outline": "0px",
+        "white-space": "nowrap",
+        "text-overflow": "ellipsis"
+      },
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "padding": "5px 5px 5px 5px"
+              },
+              "txtContent": "@group.fieldData.displayValue"
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-direction": "row",
+                "justify-content": "center"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=' (' + @group.count + ')'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
