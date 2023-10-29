@@ -11,8 +11,6 @@ An additional format (image-lightbox-advanced.json) is provided which demonstrat
 
 ![screenshot of the advanced sample](./assets/screenshotAdvanced.gif)
 
-Additional details about what size options are available can be found here: [Drive Item Thumbnail Size Options](https://docs.microsoft.com/graph/api/driveitem-list-thumbnails?view=graph-rest-1.0&tabs=http#size-options)
-
 ## View requirements
 - This format can be applied to any image column type (Note: this sample does not work with the Picture column type)
 
@@ -30,7 +28,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|February 10, 2020|Initial release
 1.1|July 8, 2021|Added advanced format
-
+1.2|October 26, 2023|Updated samples to use getThumbnailImage
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

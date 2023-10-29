@@ -16,7 +16,7 @@
     {
       "elmType": "img",
       "attributes": {
-        "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c48x48/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken"
+        "src": "=getThumbnailImage(@currentField, 64, 64)"
       },
       "customCardProps": {
         "formatter": {
@@ -29,7 +29,7 @@
             {
               "elmType": "img",
               "attributes": {
-                "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c' + ceiling(@window.innerWidth*.5) + 'x' + ceiling(@window.innerHeight*.5) + '/content?prefer=noredirect&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken",
+                "src": "=getThumbnailImage(@currentField, ceiling(@window.innerWidth*.5), ceiling(@window.innerHeight*.5))",
                 "title": "@currentField.fileName"
               },
               "style": {
@@ -40,7 +40,7 @@
               "elmType": "a",
               "attributes": {
                 "iconName": "OpenInNewWindow",
-                "href": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c3000x2000/content?prefer=noredirect&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken",
+                "href": "=getThumbnailImage(@currentField, 3000, 2000)",
                 "target": "_blank",
                 "class": "ms-bgColor-black ms-fontColor-white ms-fontColor-themeLight--hover",
                 "title": "Open in New Window"
