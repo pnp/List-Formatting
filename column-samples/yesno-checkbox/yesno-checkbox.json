@@ -6,7 +6,7 @@
       "elmType": "div",
       "attributes": {
         "iconName": "=if(@currentField,'CheckboxComposite','Checkbox')",
-        "class": "=if(@currentField,'ms-fontColor-neutralPrimary','ms-fontColor-neutralTertiary')+' ms-font-l'"
+        "class": "=if(@currentField,'ms-fontColor-neutralPrimary','ms-fontColor-neutralTertiary')+' ms-fontSize-l'"
       },
       "style": {
         "cursor": "pointer"
