@@ -2,7 +2,7 @@
 
 ## Summary
 View formatters to buid a glossary page using connected list WebParts. 
-![Filtered Glossary](filteredGlossary.gif)
+![Filtered Glossary](./assets/filteredGlossary.gif)
 
 Two lists are needed on this sample, so two separate JSON files are used:
 
@@ -40,11 +40,11 @@ Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in
 Create a new blank page and add a single column section.
 On this section, add a first List WebPart for the Glossary Filter list and use the following settings for the WebPart (hide the command bar so only the view content is shown):
 
-![Filtered Glossary](gFilterWPSetup.PNG)
+![Filtered Glossary](./assets/gFilterWPSetup.png)
 
 Add another list WebPart below it, but now select the Glossary Terms list, with the following settings (remember to hide the command bar so only the custom view will be shown):
 
-![Filtered Glossary](gTermsWPSetup.PNG)
+![Filtered Glossary](./assets/gTermsWPSetup.png)
 
 Rename the webparts as desired, save and publish your page to get the correct settings applied. 
 
