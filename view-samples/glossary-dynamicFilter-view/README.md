@@ -81,7 +81,7 @@ Glossary content was built using Microsoft Terminology Collection:
 https://www.microsoft.com/en-us/language/Terminology
 
 JSON for Glossary view was adapted from the FAQ Sample from PnP GitHub Samples:
-https://github.com/pnp/sp-dev-list-formatting/tree/master/view-samples/faq-format
+https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
