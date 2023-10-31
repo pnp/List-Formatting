@@ -4,7 +4,7 @@
 
 This sample demonstrates how to create a clickable rating experience in the view Tile mode. It allows users to rate the item/document when in the tile mode. 
 
-![screenshot of the sample](./assets/sample.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 
