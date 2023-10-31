@@ -37,8 +37,8 @@ Disconnect-PnPOnline
 ### Adding rating fields to the default view
 The following is an example of how to add the rating related fields to the default view using [PnP PowerShell](https://pnp.github.io/powershell).
 
-```
-$targetURL = "https://<tenantname>.sharepoint.com/sites/<site name>"
+``` powershell
+$targetURL = "https://<tenant name>.sharepoint.com/sites/<site name>"
 $listName = "<list title>" # Recipe Tracker
 
 Connect-PnPOnline -Url $targetURL -Interactive
