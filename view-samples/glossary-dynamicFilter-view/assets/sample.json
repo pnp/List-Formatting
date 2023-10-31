@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-glossary-dynamicFilter-view",
+    "reponame": "glossary-dynamicFilter-view",
+    "source": "pnp",
+    "title": "Glossary View Formatters",
+    "shortDescription": "View formatters to buid a glossary page using connected list WebParts.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/glossary-dynamicFilter-view",
+    "longDescription": [
+      "View formatters to buid a glossary page using connected list WebParts."
+    ],
+    "creationDateTime": "2021-04-04T00:00:00.000Z",
+    "updateDateTime": "2021-04-04T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "fillHorizontally"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-white, ms-borderColor-themeDark, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontSize-11, ms-fontSize-12, ms-fontSize-16, sp-card-lastTextColumnContainer, sp-css-borderColor-neutralLight"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/filteredGlossary.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "michelcarlo",
+        "pictureUrl": "https://github.com/michelcarlo.png",
+        "name": "Michel Mendes"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
