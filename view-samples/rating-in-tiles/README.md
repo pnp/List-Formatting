@@ -11,6 +11,16 @@ This sample demonstrates how to create a clickable rating experience in the view
 ### Create a list using the template Recipe Tracker
 ![screenshot of create list](./assets/create-list.png)
 
+### Enabling the ratings feature (Only communication site)
+The ratings feature is available by default in the team site, but not in the communication site. If you want to use the ratings feature in the list of communication sites, you need to enable the feature GUID `915c240e-a6cc-49b8-8b2c-0bff8b553ed3`. The following is an example of how to enable it using [PnP PowerShell](https://pnp.github.io/powershell).
+
+``` powershell
+$targetURL = "https://<tenent name>.sharepoint.com/sites/<site name>"
+Connect-PnPOnline -Url $targetURL -Interactive
+Enable-PnPFeature –identity 915c240e-a6cc-49b8-8b2c-0bff8b553ed3 -Scope site
+Disconnect-PnPOnline
+```
+
 ### Add a ratings feature to the list
 1. Click **gear icon**
 2. Click **List Settings**
