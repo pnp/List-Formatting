@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-rating-in-tiles",
+    "reponame": "rating-in-tiles",
+    "source": "pnp",
+    "title": "Rating in Tiles",
+    "shortDescription": "This sample demonstrates how to create a clickable rating experience in the view Tile mode. It allows users to rate the item/document when in the tile mode. ",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/rating-in-tiles",
+    "longDescription": [
+      "This sample demonstrates how to create a clickable rating experience in the view Tile mode. It allows users to rate the item/document when in the tile mode. "
+    ],
+    "creationDateTime": "2023-10-22T00:00:00.000Z",
+    "updateDateTime": "2023-10-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery, SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "appendTo, getThumbnailImage, getUserImage, indexOf, length, loopIndex, Number, replaceAll, split, substring"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach, fillHorizontally, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-communicationPrimary--hover, ms-bgColor-neutralLight, ms-bgColor-themeLighter, ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, sp-card-borderHighlight, sp-card-container, sp-card-content, sp-card-defaultClickButton, sp-card-defaultImage, sp-card-defaultImageOverlay, sp-card-displayColumnContainer, sp-card-emptyFillStar, sp-card-halfFillStar, sp-card-highlightedContent, sp-card-imageContainer, sp-card-imagePreview, sp-card-imagePreviewBackground, sp-card-keyboard-focusable, sp-card-label, sp-card-previewColumnContainer, sp-card-starRating, sp-card-subContainer, sp-card-urlContent, sp-card-userContainer, sp-card-userCustomCard, sp-card-userOthers, sp-card-userTitle, sp-css-borderColor-neutralLight"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/rating-in-tiles/assets/screenshot.gif",
+        "alt": "screenshot of the sample"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "luis-ribeiro",
+        "pictureUrl": "https://github.com/luis-ribeiro.png",
+        "name": "Luís Ribeiro"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
