@@ -1,123 +1,308 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
-  "attributes": {
-    "title": "@currentField"
+  "style":{
+    "display": "flex",
+    "justify-content": "center"
   },
   "children": [
     {
-      "elmType": "svg",
+      "📌COMMENT": "Folder Icon",
+      "elmType": "div",
       "style": {
-        "width": "60px",
-        "height": "30px"
+        "position": "relative",
+        "display": "=if(startsWith([$ContentTypeId],'0x0120'),'','none')"
       },
       "children": [
         {
-          "elmType": "path",
-          "style": {
-            "fill": "#000000"
-          },
+          "elmType": "svg",
           "attributes": {
-            "d": "m 29.994597,26.96385 a 3.0005242,2.9995135 0 0 0 -3.000562,2.99954 h 6.001125 a 3.0005242,2.9995135 0 0 0 -3.000563,-2.99954 z"
+            "viewBox": "0 0 32 32"
+          },
+          "style": {
+            "width": "21px",
+            "height": "21px",
+            "padding-top": "4px"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "M15 8L13.732 6.732C13.2631 6.26319 12.6271 5.99988 11.964 6H3.5C2.67157 6 2 6.67157 2 7.5V24.5C2 25.3284 2.67157 26 3.5 26H28.5C29.3284 26 30 25.3284 30 24.5V9.5C30 8.67157 29.3284 8 28.5 8H15Z"
+              },
+              "style": {
+                "fill": "=if([$_ColorHex]=='1','#D62E1F',if([$_ColorHex]=='2','#E56000',if([$_ColorHex]=='3','#33852C',if([$_ColorHex]=='4','#037D81',if([$_ColorHex]=='5','#036DC9',if([$_ColorHex]=='6','#7E54B8',if([$_ColorHex]=='7','#BC4293',if([$_ColorHex]=='8','#96A3A7',if([$_ColorHex]=='9','#F58076',if([$_ColorHex]=='10','#FF8E3D',if([$_ColorHex]=='11','#5BC26B',if([$_ColorHex]=='12','#5DC6C9',if([$_ColorHex]=='13','#73B3EB',if([$_ColorHex]=='14','#BA90F5',if([$_ColorHex]=='15','#ED87CB','#F5B800')"
+              }
+            },
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "M15 8L13.732 9.268C13.2631 9.73681 12.6271 10.0001 11.964 10H2V24.5C2 25.3284 2.67157 26 3.5 26H28.5C29.3284 26 30 25.3284 30 24.5V9.5C30 8.67157 29.3284 8 28.5 8H15Z"
+              },
+              "style": {
+                "fill": "=if([$_ColorHex]=='1','#e53d28',if([$_ColorHex]=='2','#f27813',if([$_ColorHex]=='3','#3C9D49',if([$_ColorHex]=='4','#2B9993',if([$_ColorHex]=='5','#1D83CF',if([$_ColorHex]=='6','#9E63C9',if([$_ColorHex]=='7','#CD54B8',if([$_ColorHex]=='8','#B1B8BA',if([$_ColorHex]=='9','#FFADA6',if([$_ColorHex]=='10','#FFA96B',if([$_ColorHex]=='11','#89D08D',if([$_ColorHex]=='12','#77CECB',if([$_ColorHex]=='13','#88C9F8',if([$_ColorHex]=='14','#D3AEF6',if([$_ColorHex]=='15','#F8ABE9','#ffce3d')"
+              }
+            },
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "M3.00014 25.5C2.71414 25.5 2.45014 25.416 2.22314 25.277C2.48614 25.709 2.95714 26 3.50014 26H28.5001C29.0431 26 29.5141 25.709 29.7771 25.277C29.5437 25.4216 29.2748 25.4988 29.0001 25.5H3.00014Z"
+              },
+              "style": {
+                "fill": "=if([$_ColorHex]=='1','#590700',if([$_ColorHex]=='2','#6B2500',if([$_ColorHex]=='3','#053B00',if([$_ColorHex]=='4','#003133',if([$_ColorHex]=='5','#032F54',if([$_ColorHex]=='6','#370086',if([$_ColorHex]=='7','#5C003D',if([$_ColorHex]=='8','#575757',if([$_ColorHex]=='9','#BD2113',if([$_ColorHex]=='10','#A14200',if([$_ColorHex]=='11','#0B6E1A',if([$_ColorHex]=='12','#07676B',if([$_ColorHex]=='13','#1F64A1',if([$_ColorHex]=='14','#7A2AD2',if([$_ColorHex]=='15','#B8148C','#B64D07')"
+              }
+            },
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "M14.129 9.621L15.75 8H15L13.732 9.268C13.2631 9.73681 12.6271 10.0001 11.964 10H2V10.5H12.007C12.8029 10.5001 13.5663 10.1839 14.129 9.621Z"
+              },
+              "style": {
+                "fill": "#FFFFFF",
+                "opacity": "0.4"
+              }
+            }
+          ]
+        },
+        {
+          "📌COMMENT": "Click Target for Folder",
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "top": "0",
+            "left": "0",
+            "right": "0",
+            "bottom": "0"
+          },
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "width": "172px",
+                "height": "123px",
+                "position": "relative"
+              },
+              "children": [
+                {
+                  "📌COMMENT": "Hides the edges of the big folder best we can",
+                  "elmType": "div",
+                  "style": {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "top": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "right": "0"
+                  },
+                  "children": [
+                    {
+                      "📌COMMENT": "Big Folder!",
+                      "elmType": "svg",
+                      "attributes": {
+                        "viewBox": "0 0 32 32"
+                      },
+                      "style": {
+                        "width": "196px",
+                        "height": "196px",
+                        "position": "absolute",
+                        "top": "-37px",
+                        "left": "-12px"
+                      },
+                      "children": [
+                        {
+                          "elmType": "path",
+                          "attributes": {
+                            "d": "M15 8L13.732 6.732C13.2631 6.26319 12.6271 5.99988 11.964 6H3.5C2.67157 6 2 6.67157 2 7.5V24.5C2 25.3284 2.67157 26 3.5 26H28.5C29.3284 26 30 25.3284 30 24.5V9.5C30 8.67157 29.3284 8 28.5 8H15Z"
+                          },
+                          "style": {
+                            "fill": "=if([$_ColorHex]=='1','#D62E1F',if([$_ColorHex]=='2','#E56000',if([$_ColorHex]=='3','#33852C',if([$_ColorHex]=='4','#037D81',if([$_ColorHex]=='5','#036DC9',if([$_ColorHex]=='6','#7E54B8',if([$_ColorHex]=='7','#BC4293',if([$_ColorHex]=='8','#96A3A7',if([$_ColorHex]=='9','#F58076',if([$_ColorHex]=='10','#FF8E3D',if([$_ColorHex]=='11','#5BC26B',if([$_ColorHex]=='12','#5DC6C9',if([$_ColorHex]=='13','#73B3EB',if([$_ColorHex]=='14','#BA90F5',if([$_ColorHex]=='15','#ED87CB','#F5B800')"
+                          }
+                        },
+                        {
+                          "elmType": "path",
+                          "attributes": {
+                            "d": "M15 8L13.732 9.268C13.2631 9.73681 12.6271 10.0001 11.964 10H2V24.5C2 25.3284 2.67157 26 3.5 26H28.5C29.3284 26 30 25.3284 30 24.5V9.5C30 8.67157 29.3284 8 28.5 8H15Z"
+                          },
+                          "style": {
+                            "fill": "=if([$_ColorHex]=='1','#e53d28',if([$_ColorHex]=='2','#f27813',if([$_ColorHex]=='3','#3C9D49',if([$_ColorHex]=='4','#2B9993',if([$_ColorHex]=='5','#1D83CF',if([$_ColorHex]=='6','#9E63C9',if([$_ColorHex]=='7','#CD54B8',if([$_ColorHex]=='8','#B1B8BA',if([$_ColorHex]=='9','#FFADA6',if([$_ColorHex]=='10','#FFA96B',if([$_ColorHex]=='11','#89D08D',if([$_ColorHex]=='12','#77CECB',if([$_ColorHex]=='13','#88C9F8',if([$_ColorHex]=='14','#D3AEF6',if([$_ColorHex]=='15','#F8ABE9','#ffce3d')"
+                          }
+                        },
+                        {
+                          "elmType": "path",
+                          "attributes": {
+                            "d": "M3.00014 25.5C2.71414 25.5 2.45014 25.416 2.22314 25.277C2.48614 25.709 2.95714 26 3.50014 26H28.5001C29.0431 26 29.5141 25.709 29.7771 25.277C29.5437 25.4216 29.2748 25.4988 29.0001 25.5H3.00014Z"
+                          },
+                          "style": {
+                            "fill": "=if([$_ColorHex]=='1','#590700',if([$_ColorHex]=='2','#6B2500',if([$_ColorHex]=='3','#053B00',if([$_ColorHex]=='4','#003133',if([$_ColorHex]=='5','#032F54',if([$_ColorHex]=='6','#370086',if([$_ColorHex]=='7','#5C003D',if([$_ColorHex]=='8','#575757',if([$_ColorHex]=='9','#BD2113',if([$_ColorHex]=='10','#A14200',if([$_ColorHex]=='11','#0B6E1A',if([$_ColorHex]=='12','#07676B',if([$_ColorHex]=='13','#1F64A1',if([$_ColorHex]=='14','#7A2AD2',if([$_ColorHex]=='15','#B8148C','#B64D07')"
+                          }
+                        },
+                        {
+                          "elmType": "path",
+                          "attributes": {
+                            "d": "M14.129 9.621L15.75 8H15L13.732 9.268C13.2631 9.73681 12.6271 10.0001 11.964 10H2V10.5H12.007C12.8029 10.5001 13.5663 10.1839 14.129 9.621Z"
+                          },
+                          "style": {
+                            "fill": "#FFFFFF",
+                            "opacity": "0.4"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "📌COMMENT": "Folder Details",
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "top": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "right": "0",
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "color": "white"
+                  },
+                  "children": [
+                    {
+                      "📌COMMENT": "Child Counts",
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "font-size": "10px",
+                        "justify-content": "space-around",
+                        "width": "70px",
+                        "line-height": "22px",
+                        "cursor": "pointer"
+                      },
+                      "customRowAction": {
+                        "action": "defaultClick"
+                      },
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "txtContent": "='📁 ' + [$FolderChildCount]",
+                          "attributes": {
+                            "title": "Total subfolders"
+                          }
+                        },
+                        {
+                          "elmType": "div",
+                          "txtContent": "='📄 ' + [$ItemChildCount]",
+                          "attributes": {
+                            "title": "Total items"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "📌COMMENT": "Folder Name",
+                      "elmType": "div",
+                      "txtContent": "[$FileLeafRef]",
+                      "style": {
+                        "font-size": "20px",
+                        "padding": "4px 4px 0 4px",
+                        "font-weight": "bold"
+                      }
+                    },
+                    {
+                      "📌COMMENT": "Description",
+                      "elmType": "div",
+                      "style": {
+                        "padding": "0 8px"
+                      },
+                      "children": [
+                        {
+                          "📌COMMENT": "No description",
+                          "elmType": "div",
+                          "style": {
+                            "font-weight": "lighter",
+                            "font-size": "10px",
+                            "font-style": "italic",
+                            "display": "=if(@currentField, 'none', 'flex')",
+                            "align-items": "center",
+                            "opacity": "0.8"
+                          },
+                          "children": [
+                            {
+                              "elmType": "div",
+                              "attributes": {
+                                "iconName": "Add"
+                              },
+                              "style": {
+                                "font-size": "8px",
+                                "padding-right": "4px"
+                              }
+                            },
+                            {
+                              "elmType": "div",
+                              "txtContent": "To add a description, edit this folder in grid view"
+                            }
+                          ]
+                        },
+                        {
+                          "elmType": "div",
+                          "txtContent": "@currentField",
+                          "style": {
+                            "display": "=if(@currentField,'','none')",
+                            "font-size": "12px",
+                            "overflow": "auto",
+                            "height": "64px"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "📌COMMENT": "Anything not a folder",
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "display": "=if(startsWith([$ContentTypeId],'0x0120'),'none','')"
+      },
+      "children": [
+        {
+          "elmType": "filepreview",
+          "filePreviewProps": {
+            "fileTypeIconStyle": {
+              "width": "22px",
+              "background-color": "transparent",
+              "top": "1px"
+            },
+            "brandTypeIconStyle": {
+              "display": "none"
+            }
           }
         },
         {
-          "elmType": "path",
+          "📌COMMENT": "Click Target for Document",
+          "elmType": "div",
           "style": {
-            "fill": "#c23800"
+            "position": "absolute",
+            "top": "0",
+            "left": "0",
+            "right": "0",
+            "bottom": "0"
           },
-          "attributes": {
-            "d": "m 26.563585,19.290748 a 11.251965,11.248175 36 0 0 -5.65065,4.084052 l 3.03227,2.203073 a 7.5013097,7.4987832 36 0 1 3.775342,-2.72672 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#ea4300"
-          },
-          "attributes": {
-            "d": "M 20.776908,1.4816213 A 30.005242,29.995135 36 0 0 5.7503318,12.358524 L 20.912935,23.3748 a 11.251965,11.248175 36 0 1 5.650003,-4.085799 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#d89d00"
-          },
-          "attributes": {
-            "d": "m 33.540525,19.323632 a 11.251965,11.248175 72 0 0 -6.972018,-0.0173 l 1.158225,3.564647 a 7.5013097,7.4987832 72 0 1 4.657041,0.01313 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#ffb900"
-          },
-          "attributes": {
-            "d": "M 39.326947,1.514422 A 30.005242,29.995135 72 0 0 20.776908,1.4816213 l 5.791599,17.8247097 a 11.251965,11.248175 72 0 1 6.972521,0.01551 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#99b208"
-          },
-          "attributes": {
-            "d": "m 39.170837,23.435679 a 11.248175,11.251965 18 0 0 -5.630312,-4.112046 l -1.158224,3.564648 a 7.4987832,7.5013097 18 0 1 3.759908,2.747962 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#bad80a"
-          },
-          "attributes": {
-            "d": "M 54.320142,12.428898 A 29.995135,30.005242 18 0 0 39.332125,1.4989228 l -5.7916,17.8247092 a 11.248175,11.251965 18 0 1 5.631772,4.110893 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#0c580c"
-          },
-          "attributes": {
-            "d": "M 41.308854,30.071809 A 11.248175,11.251965 54 0 0 39.170836,23.43568 l -3.03227,2.203073 a 7.4987832,7.5013097 54 0 1 1.426617,4.433167 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#107c10"
-          },
-          "attributes": {
-            "d": "M 60.034523,30.071674 A 29.995135,30.005242 54 0 0 54.333441,12.419403 L 39.170837,23.435679 a 11.248175,11.251965 54 0 1 2.139877,6.636055 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#b3292c"
-          },
-          "attributes": {
-            "d": "m 18.774918,30.01093 a 11.251965,11.248175 36 0 1 2.138018,-6.636129 l 3.03227,2.203073 a 7.5013097,7.4987832 36 0 0 -1.426617,4.433167 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#d13438"
-          },
-          "attributes": {
-            "d": "M 0.049249,30.010795 A 30.005242,29.995135 36 0 1 5.750331,12.358524 L 20.912935,23.3748 a 11.251965,11.248175 36 0 0 -2.139877,6.636055 z"
-          }
-        },
-        {
-          "elmType": "path",
-          "style": {
-            "fill": "#000000"
-          },
-          "attributes": {
-            "d": "='M 28 29 L ' + toString(30+26*cos(3.14159265+3.14159265*if(@currentField=='On Track',.9,if(@currentField=='Some Concerns',.7,if(@currentField=='At Risk',.5,if(@currentField=='Off Track',.3,.1)))))+if(@currentField=='Critical' || @currentField=='Off Track',-1,0)) + ' ' + toString(30+26*sin(3.14159265+3.14159265*if(@currentField=='On Track',.9,if(@currentField=='Some Concerns',.7,if(@currentField=='At Risk',.5,if(@currentField=='Off Track',.3,.1)))))+if(@currentField=='Critical',2,0)) + ' L ' + toString(30+26*cos(3.14159265+3.14159265*if(@currentField=='On Track',.9,if(@currentField=='Some Concerns',.7,if(@currentField=='At Risk',.5,if(@currentField=='Off Track',.3,.1)))))+if(@currentField=='On Track' || @currentField=='Some Concerns',1,0)) + ' ' + toString(30+26*sin(3.14159265+3.14159265*if(@currentField=='On Track',.9,if(@currentField=='Some Concerns',.7,if(@currentField=='At Risk',.5,if(@currentField=='Off Track',.3,.1)))))+if(@currentField=='On Track',2,0)) +' L 32 29 Z'"
+          "customCardProps": {
+            "openOnEvent": "hover",
+            "formatter": {
+              "elmType": "filepreview",
+              "style": {
+                "width": "172px"
+              },
+              "attributes": {
+                "src": "@thumbnail.172"
+              }
+            }
           }
         }
       ]

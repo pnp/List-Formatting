@@ -1,4 +1,4 @@
-# Generic Gauge
+# Generic Super Type
 
 ## Summary
 This sample demonstrates recreating the `Type` column (folder/file icons) and adds meaningful hover panels. Shows you how to take advantage of SharePoint folder colors by referencing the `[$_ColorHex]` field. Additionally, demonstrates 2 different ways of using the `filepreview` element to show a file type icon and also a thumbnail preview of the file.
