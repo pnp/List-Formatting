@@ -13,7 +13,7 @@ This sample contains two JSON files, one in which the group header is clickable 
 List view with Group by applied on any column in the view.
 
 > **Note**
-> If grouping by Person or Lookup column and applying this sample JSON, **[object Object]** will appear in the group header. If you grouped by Person or Lookup columns, refer to the following table to make the necessary changes in the JSON.
+> If grouping by Person or Lookup column and applying this sample JSON, **[object Object]** will appear in the group header. If you group by Person or Lookup columns, please refer to the following table to make the necessary changes in the JSON.
 > 
 > | Type of column to group | Part of the JSON to be changed | After the change |
 > | --- | --- | --- |
