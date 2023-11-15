@@ -8,15 +8,14 @@ A custom card is shown on hover of an item. The hover card shows additional deta
 ## View requirements
 - This format can be applied to any column type though the example is based on - 
 
-Column Name         |Type
---------------------|--------------
-Status              | Choice
-Product ID          | Single Line Text
-PackedDate          | Date and Time 
-ShippedDate         | Date and Time
-InTransitStartDate  | Date and Time 
-DeliveredDate       | Date and Time
-Product Photo       | Picture
+Internal Name       |Type           |Notes
+--------------------|---------------|------------
+Status              | Choice        |
+StatusCode          | Number        |This field is assumed to be set to a value of 0, 1, 2, 3, or 4
+PackedDate          | Date and Time |
+ShippedDate         | Date and Time |
+InTransitStartDate  | Date and Time |
+DeliveredDate       | Date and Time |
 
 ## Sample
 
@@ -29,6 +28,7 @@ custom-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 Version|Date|Comments
 -------|----|--------
 1.0|April 08, 2020|Initial release
+1.1|November 15, 2023|Fixed view requirements in README.md and added `)` that was missing in JSON
 
 
 ## Disclaimer
