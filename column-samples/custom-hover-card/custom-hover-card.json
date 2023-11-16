@@ -65,8 +65,8 @@
                     {
                       "elmType": "span",
                       "style": {
-                        "font-size": "=if([$StatusCode] > 0, '16px', ''",
-                        "font-weight": "=if([$StatusCode] > 0, '600', ''",
+                        "font-size": "=if([$StatusCode] > 0, '16px', '')",
+                        "font-weight": "=if([$StatusCode] > 0, '600', '')",
                         "padding-left": "9px"
                       },
                       "txtContent": "Ready to be packed",
@@ -136,8 +136,8 @@
                     {
                       "elmType": "span",
                       "style": {
-                        "font-size": "=if([$StatusCode] > 0, '16px', ''",
-                        "font-weight": "=if([$StatusCode] > 0, '600', ''",
+                        "font-size": "=if([$StatusCode] > 0, '16px', '')",
+                        "font-weight": "=if([$StatusCode] > 0, '600', '')",
                         "padding-left": "9px"
                       },
                       "txtContent": "Packed",
@@ -210,8 +210,8 @@
                     {
                       "elmType": "span",
                       "style": {
-                        "font-size": "=if([$StatusCode] > 1, '16px', ''",
-                        "font-weight": "=if([$StatusCode] > 1, '600', ''",
+                        "font-size": "=if([$StatusCode] > 1, '16px', '')",
+                        "font-weight": "=if([$StatusCode] > 1, '600', '')",
                         "padding-left": "9px"
                       },
                       "txtContent": "Shipped",
@@ -284,8 +284,8 @@
                     {
                       "elmType": "span",
                       "style": {
-                        "font-size": "=if([$StatusCode] > 2, '16px', ''",
-                        "font-weight": "=if([$StatusCode] > 2, '600', ''",
+                        "font-size": "=if([$StatusCode] > 2, '16px', '')",
+                        "font-weight": "=if([$StatusCode] > 2, '600', '')",
                         "padding-left": "9px"
                       },
                       "txtContent": "In transit",
@@ -358,8 +358,8 @@
                     {
                       "elmType": "span",
                       "style": {
-                        "font-size": "=if([$StatusCode] > 3, '16px', ''",
-                        "font-weight": "=if([$StatusCode] > 3, '600', ''",
+                        "font-size": "=if([$StatusCode] > 3, '16px', '')",
+                        "font-weight": "=if([$StatusCode] > 3, '600', '')",
                         "padding-left": "9px"
                       },
                       "txtContent": "Delivered",
