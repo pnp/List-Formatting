@@ -96,7 +96,7 @@ The Line chart allows a maximum of 12 data points and 2 categories. You can appl
 ### RADAR CHART
 **Note**: this chart is based on a maximum score, which works similarly to a scale, as explained [**above**](#how-does-it-work). Furthermore, **DATAPOINTS** is a number column and should allow values between 3 and 8.
 
-The radar chart allows a minimum of 3 (triangle shape) and a maximum of 8 (octagon shape) data points. You can apply a fill color to each category.
+The radar chart allows a minimum of 3 (triangle shape) and a maximum of 8 (octagon shape) data points. You can apply a fill color to both labels and shape.
 Download the [**Excel file**](./assets/Radar-Chart.xlsx) and export it to SharePoint. Then, apply the JSON code available [**here**](./Radar-Chart.json).
 
 <p align="center">
