@@ -6,7 +6,7 @@ This sample demonstrates the use of the `setValue` action of `customRowAction` t
 
 ![screenshot of the sample](./assets/screenshot.gif)
 
-> **Note**
+> [!NOTE]
 > If you use this sample, you need to set the `actionInput` to the internal name of the Person column to be updated.
 
 ## View requirements
