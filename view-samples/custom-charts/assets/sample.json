@@ -4,13 +4,13 @@
     "reponame": "custom-charts",
     "source": "pnp",
     "title": "Custom Charts",
-    "shortDescription": "This templates package will allow you to quickly create 6 different types of charts, which you can organize into collections, share, and publish on SharePoint pages.",
+    "shortDescription": "This templates package will allow you to quickly create 7 different types of charts, which you can organize into collections, share, and publish on SharePoint pages.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-charts",
     "longDescription": [
-      "This templates package will allow you to quickly create 6 different types of charts, which you can organize into collections, share, and publish on SharePoint pages."
+      "This templates package will allow you to quickly create 7 different types of charts, which you can organize into collections, share, and publish on SharePoint pages."
     ],
     "creationDateTime": "2023-03-22T00:00:00.000Z",
-    "updateDateTime": "2022-03-22T00:00:00.000Z",
+    "updateDateTime": "2023-11-21T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -58,7 +58,7 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Charts-Preview.png",
-        "alt": "screenshot of 6 different charts"
+        "alt": "screenshot of 7 different charts"
       },
       {
         "type": "image",
@@ -95,6 +95,12 @@
         "order": 106,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Line-Chart.png",
         "alt": "screenshot of the line chart sample"
+      },
+      {
+        "type": "image",
+        "order": 107,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Radar-Chart.png",
+        "alt": "screenshot of the radar chart sample"
       }
     ],
     "authors": [

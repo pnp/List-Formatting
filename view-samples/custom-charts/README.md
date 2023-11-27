@@ -125,7 +125,7 @@ Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](htt
 Version |Date              |Comments
 --------|------------------|--------------------------------
 1.0     |March 22, 2023  |Initial release
-2.0     |November 21, 2023  |Update
+2.0     |November 21, 2023  |Added Radar-Chart
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
