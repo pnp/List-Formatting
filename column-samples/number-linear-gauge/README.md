@@ -34,39 +34,47 @@ This sample needs modification for your specific use. Two changes are required.
 2. Adjust the numerical range, background color, and range name for each range according to your use case. Use a comma-separated format.
 
     ```
-    "forEach": "_range in split('RANGE_MIN~RANGE_MAX:HTML_COLOR_CODE_OR_NAME:RANGE_NAME',',')",
+    "forEach": "_range in split('NUMERICAL_RANGE:BACKGROUND_COLOR:RANGE_NAME',',')",
 
     # Example
-    "forEach": "_range in split('0~29.999:#9ED9D2:C,30~79.999:#F7D358:B,80~100:#F4A7B9:A',',')",
+    "forEach": "_range in split('0<=n<30:#9ED9D2:C,30<=n<80:#F7D358:B,80<=n<=100:#F4A7B9:A',',')",
     ```
 
-    ![screenshot of the range setting](./assets/range-setting.png)
+    - **NUMERICAL_RANGE:** Specifies the range of values for each segment of the linear gauge.
+        - Example: `0<=n<30`, `0<n<=30`, `0<=n<=30`, `0<n<30`
+    - **BACKGROUND_COLOR:** Defines the background color for the respective range.
+        - Example: `#9ED9D2`, `Blue`
+    - **RANGE_NAME:** Set the text to be displayed in the range.
+        - Example: `A`, `B`
+
+     ![screenshot of the range setting](./assets/range-setting.png)
 
 #### Range setting examples:
 
 - Using HTML color code:
     ```
-    80~100:#F4A7B9:A
+    80<=n<=100:#F4A7B9:A
     ```
 
 - Using HTML color name:
     ```
-    80~100:Pink:A
+    30<=n<80:Yellow:B
     ```
 
 - Range name not set:
     ```
-    80~100:Pink:
+    50<=n<60:#00FF00:
     ```
 
 - Using an underscore (\_) instead of single-byte spaces in the range name:
     ```
-    80~100:Pink:Range_A
+    90<=n<=100:#FFD700:Range_D
     ```
 
 > [!NOTE]  
 > - Avoid using single-byte spaces in range names to prevent errors. Instead, use an underscore (_), which will be replaced with single-byte spaces when displayed. (Related link: [#642](https://github.com/pnp/List-Formatting/issues/642))
-> - Ensure non-overlapping ranges; use decimal points to fill gaps.
+> - Do not use '<' in range names.
+> - Make sure that the values do not overlap between ranges.
 > - The value range can exceed the linear gauge's min and max.
 
 ## Sample
@@ -95,7 +103,7 @@ Version |Date             |Comments
     |---|---|---|
     |Gmax|Max value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'max:'\)+4,indexOf\(\[$_overallRange\]+'^','^'\)\)\)|
     |Gmin|Min value of linear gage|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'min:'\)+4,indexOf\(\[$_overallRange\],','\)\)\)|
-    |Rmax|Max value of each range|Number\(substring\(\[$_range\],indexOf\(\[$_range\],'~'\)+1,indexOf\(\[$_range\],':'\)\)\)|
-    |Rmin|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'~'\)\)\)|
+    |Rmax|Max value of each range|Number\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
+    |Rmin|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-linear-gauge" />
