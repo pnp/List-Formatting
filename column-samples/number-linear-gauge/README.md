@@ -49,7 +49,7 @@ This sample needs modification for your specific use. Two changes are required.
     "forEach": "_range in split('-99999<=n<0:#c190f0:D,0<=n<100:#9ED9D2:C,100<=n<200:#F7D358:B,200<=n<=99999:#F4A7B9:A',',')",
 
     # Example 3
-    "forEach": "_range in split('0<=n<0.4:#9ED9D2:C,0.4<=n<0.8:#F7D358:B,0.8<=n<=1000:#F4A7B9:A',',')",
+    "forEach": "_range in split('0<=n<0.4:#9ED9D2:C,0.4<=n<0.8:#F7D358:B,0.8<=n<=1:#F4A7B9:A',',')",
     ```
 
     - **RANGE_MIN[<= or <]n[<= or <]RANGE_MAX:** Specifies the range of values for each segment of the linear gauge.
@@ -125,9 +125,9 @@ The style properties of each range are set to the following values:
 |Style|Value|
 |---|---|
 |display|<ul><li>**if (Rmax<=Gmin&#124;&#124;Gmax<=Rmin&#124;&#124;Rmin>Rmax):** none</li><li>**Otherwise:** flex</li></ul>|
-|width|<ul><li>**if (Rmin<Gmin):** $$\frac{R_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
-|max-width|<ul><li>**if (Rmin<Gmin):** $$\frac{G_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{G_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
-|left|<ul><li>**if (Rmin<Gmin):** $$\frac{0}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{min}-G_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>| 
+|width|<ul><li>**if (Rmin<Gmin):** $$\frac{R_{max}-G_{min}}{G_{max}-G_{min}}*100\\%$$</li><li>**Otherwise:** $$\frac{R_{max}-R_{min}}{G_{max}-G_{min}}*100\\%$$</li></ul>|
+|max-width|<ul><li>**if (Rmin<Gmin):** $$\frac{G_{max}-G_{min}}{G_{max}-G_{min}}*100\\%$$</li><li>**Otherwise:** $$\frac{G_{max}-R_{min}}{G_{max}-G_{min}}*100\\%$$</li></ul>|
+|left|<ul><li>**if (Rmin<Gmin):** $$\frac{0}{G_{max}-G_{min}}*100\\%$$</li><li>**Otherwise:** $$\frac{R_{min}-G_{min}}{G_{max}-G_{min}}*100\\%$$</li></ul>| 
 
 The characters used in the above formula and their meanings are as follows:        
 
