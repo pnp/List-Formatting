@@ -4,10 +4,10 @@
     "reponame": "number-linear-gauge",
     "source": "pnp",
     "title": "Linear Gauge",
-    "shortDescription": "This sample demonstrates displaying a linear gauge.",
+    "shortDescription": "This sample demonstrates displaying a linear gauge from a regular string set to the split operator.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-linear-gauge",
     "longDescription": [
-      "This sample demonstrates displaying a linear gauge."
+      "This sample demonstrates displaying a linear gauge from a regular string set to the split operator."
     ],
     "creationDateTime": "2023-12-01T00:00:00.000Z",
     "updateDateTime": "2023-12-01T00:00:00.000Z",
