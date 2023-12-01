@@ -101,8 +101,9 @@ Version |Date             |Comments
 
 - The linear gauge adjusts based on the column width.
 - The style properties of each range are set to the following values:  
+     
     ![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
-
+     
     |Style|Value|
     |---|---|
     |display|<ul><li>**if (Rmax<=Gmin&#124;&#124;Gmax<=Rmin&#124;&#124;Rmin>Rmax):** none</li><li>**Otherwise:** flex</li></ul>|
