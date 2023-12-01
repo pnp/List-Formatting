@@ -51,12 +51,12 @@ This sample needs modification for your specific use. Two changes are required.
 
     ![screenshot of the range setting](./assets/range-setting.png)
 
-    > [!NOTE]  
-    > - Expressions such as `n>=20` or `20<n` are not acceptable for numeric ranges. Please strictly adhere to the specified format `RANGE_MIN[<= or <]n[<= or <]RANGE_MAX`.
-    > - The value range can exceed the linear gauge's min and max.
-    > - Make sure that the values do not overlap between ranges.
-    > - Avoid single-byte spaces in the string to prevent errors. For single-byte spaces in range names, use an underscore (\_) instead. The underscore (\_) will be converted to half-width spaces when displayed. (Related link: [#642](https://github.com/pnp/List-Formatting/issues/642))
-    > - Do not use `<`, `:`, and `=` in range names.
+> [!NOTE]  
+> - Expressions such as `n>=20` or `20<n` are not acceptable for numeric ranges. Please strictly adhere to the specified format `RANGE_MIN[<= or <]n[<= or <]RANGE_MAX`.
+> - The value range can exceed the linear gauge's min and max.
+> - Make sure that the values do not overlap between ranges.
+> - Avoid single-byte spaces in the string to prevent errors. For single-byte spaces in range names, use an underscore (\_) instead. The underscore (\_) will be converted to half-width spaces when displayed. (Related link: [#642](https://github.com/pnp/List-Formatting/issues/642))
+> - Do not use `<`, `:`, and `=` in range names.
 
 #### Range setting examples:
 
@@ -102,7 +102,7 @@ Version |Date             |Comments
 - The linear gauge adjusts based on the column width.
 - The style properties of each range are set to the following values:  
 
-    ![screenshot of the explanatorydiagram](./assets/explanatory-diagram.png)  
+    ![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)  
 
     |Style|Value|
     |---|---|
