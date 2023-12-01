@@ -100,7 +100,7 @@ Version |Date             |Comments
 ## Additional notes
 
 - The linear gauge adjusts based on the column width.
-- The style properties of each range are set to the following values:  
+- The style properties of each range are set to the following values.  
      
     ![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
      
