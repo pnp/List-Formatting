@@ -100,8 +100,9 @@ Version |Date             |Comments
 ## Additional notes
 
 - The linear gauge adjusts based on the column width.
-- The style properties of each range are set to the following values:
-      
+- The style properties of each range are set to the following values:  
+![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
+
     |Style|Value|
     |---|---|
     |display|<ul><li>**if (Rmax<=Gmin&#124;&#124;Gmax<=Rmin&#124;&#124;Rmin>Rmax):** none</li><li>**Otherwise:** flex</li></ul>|
@@ -109,7 +110,7 @@ Version |Date             |Comments
     |max-width|<ul><li>**if (Rmin<Gmin):** $$\frac{G_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{G_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
     |left|<ul><li>**if (Rmin<Gmin):** $$\frac{0}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{min}-G_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>| 
 
-    ![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
+    
 
     The characters used in the above formula and their meanings are as follows:        
 
