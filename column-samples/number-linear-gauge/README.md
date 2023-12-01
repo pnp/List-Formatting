@@ -26,7 +26,7 @@ This sample needs modification for your specific use. Two changes are required.
     "forEach": "_overallRange in split('min:0,max:100','^')",
     ```
 
-    ![screenshot of the geuge setting](./assets/gauge-setting.png)
+    ![screenshot of the gauge setting](./assets/gauge-setting.png)
 
 ### Step 2: Set numerical range, background color, and range name
 
