@@ -22,8 +22,14 @@ This sample needs modification for your specific use. Two changes are required.
     ```
     "forEach": "_overallRange in split('min:MIN_VALUE,max:MAX_VALUE','^')",
 
-    # Example
+    # Example 1
     "forEach": "_overallRange in split('min:0,max:100','^')",
+
+    # Example 2
+    "forEach": "_overallRange in split('min:-150,max:250','^')",
+
+    # Example 3
+    "forEach": "_overallRange in split('min:0,max:1','^')",
     ```
 
     ![screenshot of the gauge setting](./assets/gauge-setting.png)
@@ -36,8 +42,14 @@ This sample needs modification for your specific use. Two changes are required.
     ```
     "forEach": "_range in split('RANGE_MIN[<= or <]n[<= or <]RANGE_MAX:BACKGROUND_COLOR:RANGE_NAME',',')",
 
-    # Example
+    # Example 1
     "forEach": "_range in split('0<=n<30:#9ED9D2:C,30<=n<80:#F7D358:B,80<=n<=100:#F4A7B9:A',',')",
+
+    # Example 2
+    "forEach": "_range in split('-99999<=n<0:#c190f0:D,0<=n<100:#9ED9D2:C,100<=n<200:#F7D358:B,200<=n<=99999:#F4A7B9:A',',')",
+
+    # Example 3
+    "forEach": "_range in split('0<=n<0.4:#9ED9D2:C,0.4<=n<0.8:#F7D358:B,0.8<=n<=1000:#F4A7B9:A',',')",
     ```
 
     - **RANGE_MIN[<= or <]n[<= or <]RANGE_MAX:** Specifies the range of values for each segment of the linear gauge.
@@ -57,6 +69,7 @@ This sample needs modification for your specific use. Two changes are required.
 > - Make sure that the values do not overlap between ranges.
 > - Avoid single-byte spaces in the string to prevent errors. For single-byte spaces in range names, use an underscore (\_) instead. The underscore (\_) will be converted to half-width spaces when displayed. (Related link: [#642](https://github.com/pnp/List-Formatting/issues/642))
 > - Do not use `<`, `:`, and `=` in range names.
+> - When configuring percentage values, ensure that they are set as decimals. For example, if you want to represent 50%, set the value as `0.5` instead of `50`.
 
 #### Range setting examples:
 
