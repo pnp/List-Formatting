@@ -1,0 +1,126 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "center",
+        "width": "100%"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "20%"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "@currentField.displayValue",
+              "style": {
+                "margin-right": "10px"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "forEach": "_overallRange in split('min:0,max:100','^')",
+          "style": {
+            "width": "75%",
+            "position": "relative",
+            "display": "flex",
+            "flex-direction": "column",
+            "margin-top": "6px"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "width": "100%",
+                "height": "16px",
+                "position": "relative"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "forEach": "_range in split('0<=n<30:#9ED9D2:C,30<=n<80:#F7D358:B,80<=n<=100:#F4A7B9:A',',')",
+                  "txtContent": "=substring([$_range],lastIndexOf([$_range],':')+1,lastIndexOf([$_range]+'^','^'))",
+                  "style": {
+                    "width": "=(Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=',''))-if(Number(substring([$_range],0,indexOf([$_range],'<')))<Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),Number(substring([$_range],0,indexOf([$_range],'<')))))/(Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))))*100+'%'",
+                    "max-width": "=(Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))-if(Number(substring([$_range],0,indexOf([$_range],'<')))<Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),Number(substring([$_range],0,indexOf([$_range],'<')))))/(Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))))*100+'%'",
+                    "height": "100%",
+                    "background-color": "=substring([$_range],indexOf([$_range],':')+1,lastIndexOf([$_range],':'))",
+                    "position": "absolute",
+                    "left": "=(if(Number(substring([$_range],0,indexOf([$_range],'<')))<Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),0,Number(substring([$_range],0,indexOf([$_range],'<')))-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],',')))))/(Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))))*100+'%'",
+                    "display": "=if(Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=',''))<=Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],',')))||Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))<=Number(substring([$_range],0,indexOf([$_range],'<')))||Number(substring([$_range],0,indexOf([$_range],'<')))>Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=','')),'none','flex')",
+                    "align-items": "center",
+                    "justify-content": "center",
+                    "overflow": "hidden",
+                    "white-space": "nowrap",
+                    "opacity": "=if(if(indexOf(substring([$_range],0,indexOf([$_range],'n')),'=')>=0,Number(@currentField)>=Number(substring([$_range],0,indexOf([$_range],'<'))),Number(@currentField)>Number(substring([$_range],0,indexOf([$_range],'<'))))&&if(indexOf(substring([$_range],indexOf([$_range],'n'),indexOf([$_range],':')),'=')>=0,Number(@currentField)<=Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=','')),Number(@currentField)<Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=',''))),'100%','25%')",
+                    "font-weight": "=if(if(indexOf(substring([$_range],0,indexOf([$_range],'n')),'=')>=0,Number(@currentField)>=Number(substring([$_range],0,indexOf([$_range],'<'))),Number(@currentField)>Number(substring([$_range],0,indexOf([$_range],'<'))))&&if(indexOf(substring([$_range],indexOf([$_range],'n'),indexOf([$_range],':')),'=')>=0,Number(@currentField)<=Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=','')),Number(@currentField)<Number(replaceAll(substring([$_range],lastIndexOf([$_range],'<')+1,indexOf([$_range],':')),'=',''))),'bold','')"
+                  },
+                  "attributes": {
+                    "class": "ms-fontColor-Primary ms-fontSize-s",
+                    "title": "=replaceAll(substring([$_range],0,indexOf([$_range],':')),'<=','≦')+' '+substring([$_range],lastIndexOf([$_range],':')+1,indexOf([$_range]+'^','^'))"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "position": "absolute",
+                    "height": "100%",
+                    "left": "=if(Number(@currentField)<Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))),'0%',if(Number(@currentField)>Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^'))),'100%',(Number(@currentField)-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))))/(Number(substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^')))-Number(substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))))*100+'%'))"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "position": "relative",
+                        "left": "-50%",
+                        "display": "=if(toString(@currentField)=='','none','flex')",
+                        "flex-direction": "column",
+                        "justify-content": "center",
+                        "bottom": "25%"
+                      },
+                      "attributes": {
+                        "class": "ms-fontSize-sPlus",
+                        "title": "@currentField.displayValue",
+                        "iconName": "TriangleSolidDown12"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "100%",
+                "display": "flex",
+                "justify-content": "space-between"
+              },
+              "attributes": {
+                "class": "ms-fontSize-mi"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=substring([$_overallRange],indexOf([$_overallRange],'min:')+4,indexOf([$_overallRange],','))"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "=substring([$_overallRange],indexOf([$_overallRange],'max:')+4,indexOf([$_overallRange]+'^','^'))"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
