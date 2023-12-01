@@ -99,26 +99,30 @@ Version |Date             |Comments
 
 ## Additional notes
 
-- The linear gauge adjusts based on the column width.
-- The style properties of each range are set to the following values:  
+### About the size of the linear gauge
+
+The linear gauge adjusts based on the column width.
+
+### About formulas in JSON
+
 ![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
 
-    |Style|Value|
-    |---|---|
-    |display|<ul><li>**if (Rmax<=Gmin&#124;&#124;Gmax<=Rmin&#124;&#124;Rmin>Rmax):** none</li><li>**Otherwise:** flex</li></ul>|
-    |width|<ul><li>**if (Rmin<Gmin):** $$\frac{R_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
-    |max-width|<ul><li>**if (Rmin<Gmin):** $$\frac{G_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{G_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
-    |left|<ul><li>**if (Rmin<Gmin):** $$\frac{0}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{min}-G_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>| 
+The style properties of each range are set to the following values:  
 
-    
+|Style|Value|
+|---|---|
+|display|<ul><li>**if (Rmax<=Gmin&#124;&#124;Gmax<=Rmin&#124;&#124;Rmin>Rmax):** none</li><li>**Otherwise:** flex</li></ul>|
+|width|<ul><li>**if (Rmin<Gmin):** $$\frac{R_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
+|max-width|<ul><li>**if (Rmin<Gmin):** $$\frac{G_{max}-G_{min}}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{G_{max}-R_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>|
+|left|<ul><li>**if (Rmin<Gmin):** $$\frac{0}{G_{max}-G_{min}}*100\%$$</li><li>**Otherwise:** $$\frac{R_{min}-G_{min}}{G_{max}-G_{min}}*100\%$$</li></ul>| 
 
-    The characters used in the above formula and their meanings are as follows:        
+The characters used in the above formula and their meanings are as follows:        
 
-    |Character|Meaning|Formula in JSON|
-    |---|---|---|
-    |$$G_{max}$$|Max value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'max:'\)+4,indexOf\(\[$_overallRange\]+'^','^'\)\)\)|
-    |$$G_{min}$$|Min value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'min:'\)+4,indexOf\(\[$_overallRange\],','\)\)\)|
-    |$$R_{max}$$|Max value of each range|Number\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
-    |$$R_{min}$$|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
+|Character|Meaning|Formula in JSON|
+|---|---|---|
+|$$G_{max}$$|Max value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'max:'\)+4,indexOf\(\[$_overallRange\]+'^','^'\)\)\)|
+|$$G_{min}$$|Min value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'min:'\)+4,indexOf\(\[$_overallRange\],','\)\)\)|
+|$$R_{max}$$|Max value of each range|Number\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
+|$$R_{min}$$|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-linear-gauge" />
