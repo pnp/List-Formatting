@@ -68,7 +68,7 @@ This sample needs modification for your specific use. Two changes are required.
 > - The value range can exceed the linear gauge's min and max.
 > - Make sure that the values do not overlap between ranges.
 > - Avoid single-byte spaces in the string to prevent errors. For single-byte spaces in range names, use an underscore (\_) instead. The underscore (\_) will be converted to half-width spaces when displayed. (Related link: [#642](https://github.com/pnp/List-Formatting/issues/642))
-> - Do not use `<`, `:`, and `=` in range names.
+> - Do not use `<`, `:`, `=`, and `,` in range names.
 > - When configuring percentage values, ensure that they are set as decimals. For example, if you want to represent 50%, set the value as `0.5` instead of `50`.
 
 #### Range setting examples:
