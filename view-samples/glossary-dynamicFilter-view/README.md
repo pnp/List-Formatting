@@ -6,10 +6,10 @@ View formatters to buid a glossary page using connected list WebParts.
 
 Two lists are needed on this sample, so two separate JSON files are used:
 
-File Name|Details
----------|--------
-[glossary-filter.json](./glossary-filter.json)|Used to format the filter list. 
-[glossary-view.json](./glossary-view.json)|Used to format the main list.
+File Name|View type for formatting|Details
+---------|---------|--------
+[glossary-filter.json](./glossary-filter.json)|Gallery|Used to format the filter list. 
+[glossary-view.json](./glossary-view.json)|List|Used to format the main list.
 
 ## View requirements
 
