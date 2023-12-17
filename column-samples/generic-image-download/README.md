@@ -6,6 +6,10 @@ This sample demonstrates adding a button within a SharePoint Online/Microsoft Li
 
 ![screenshot of the sample output](./assets/screenshot.png)
 
+## List requirements
+
+Attachments need to be disabled on the list in order for the solution to work.
+
 ## View requirements
 
 This format can be applied to any column type (its value is ignored). However, it is expected that the following one column is part of the view.
