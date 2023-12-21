@@ -14,7 +14,7 @@ Key points:
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
-|Calculated|Approval|Yes| Apply the template to this column
+|Calculated|Approval|Yes| Apply [approval-buttons-setValue-status-user.json](./approval-buttons-setValue-status-user.json) to this column
 |Choice|ItemStatus|No| Choice values needed: (Pending / Approved / Rejected) Default: Pending
 |Person or Group|ApprovalActionBy|No|Single selection
 
