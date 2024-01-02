@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "min-width": "960px",
+    "height": "auto",
+    "flex-wrap": "wrap",
+    "flex-direction": "row",
+    "display": "flex",
+    "align-items": "flex-start",
+    "justify-content": "flex-start",
+    "box-sizing": "border-box"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "max-width": "960px",
+        "flex-wrap": "wrap",
+        "flex-direction": "row",
+        "display": "flex",
+        "align-items": "flex-start",
+        "justify-content": "flex-start",
+        "margin-bottom": "10px",
+        "box-sizing": "border-box",
+        "--inline-editor-border-color": "transparent"
+      },
+      "children": [
+        {
+          "forEach": "choiceIterator in @currentField",
+          "elmType": "div",
+          "style": {
+            "position": "relative",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "border-radius": "4px",
+            "box-sizing": "border-box",
+            "margin": "6px 12px 12px 6px"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "style": {
+                "display": "flex",
+                "align-self": "flex-start",
+                "box-sizing": "border-box",
+                "border-radius": "4px",
+                "max-width": "240px",
+                "max-height": "120px",
+                "border": "solid 2px black",
+                "object-fit": "contain",
+                "box-shadow": "3px 1px 4px #a3a3a2"
+              },
+              "attributes": {
+                "src": "[$choiceIterator]"
+              }
+            },
+            {
+              "elmType": "a",
+              "style": {
+                "box-sizing": "border-box",
+                "padding-bottom": "2px",
+                "position": "absolute",
+                "bottom": "0px",
+                "right": "0px",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "width": "24px",
+                "height": "24px",
+                "border": "solid 2px black",
+                "border-radius": "4px 0px 4px 0px",
+                "background-color": "#974b8b",
+                "text-decoration": "none"
+              },
+              "attributes": {
+                "class": "sp-css-color-WhiteFont",
+                "href": "[$choiceIterator]",
+                "target": "_blank",
+                "title": "[$choiceIterator]",
+                "iconName": "NavigateExternalInline"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
