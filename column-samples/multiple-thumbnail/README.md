@@ -23,7 +23,7 @@ In order to get an optimal user esperience, Microsoft Lists web app or Microsoft
 ***
 
 ### 1) Basic thumbnail: how to
-The basic thumbnail template requires only one **multiple choice column**, with custom values allowed or not. After creating a multiple choice column, apply the JSON code available [**here**](./thumbnail-basic.json).
+The basic thumbnail template requires only one **multiple choice column**, with custom values allowed or not. After creating a multiple choice column, apply the JSON code available [**here**](./Thumbnail-basic.json).
 
 <img src="./assets/Basic-Thumbnail-Desc.png">
 
@@ -43,7 +43,7 @@ The advanced thumbnail template requires users to have **editing permission** (e
 |**LASTURL**|Multiple lines of text|This column keeps track temporarily of an image URL, when a user clicks on a miniature to open a larger window|
 |**VIEWTIME**| Single line of text |This column keeps track of the current date and time to perform an if condition **temporarily true**, so that a larger preview window works properly on click|
 
-After creating the 3 columns reported above, format the **MULTIPLETHUMBNAIL** column with the JSON code available [**here**](./thumbnail-advanced.json).
+After creating the 3 columns reported above, format the **MULTIPLETHUMBNAIL** column with the JSON code available [**here**](./Thumbnail-advanced.json).
 
 Here is an illustration of the large preview window:
 
