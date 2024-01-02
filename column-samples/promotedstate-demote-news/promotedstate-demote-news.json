@@ -9,7 +9,7 @@
   "children": [
     {
       "elmType": "div",
-      "txtContent": "=if(@currentField == 0 ,'0 : Page' , if(@currentField == 1, '1 : News (Unpublished)' , if(@currentField == 2 , '2 : News','') ) )",
+      "txtContent": "=if(@currentField == 0 ,'0:Page' , if(@currentField == 1, '1:News (Unpublished)' , if(@currentField == 2 , '2:News','') ) )",
       "style": {
         "box-sizing": "border-box",
         "padding": "4px 8px 5px 8px",
@@ -28,13 +28,6 @@
     },
     {
       "elmType": "div",
-      "style": {
-        "font-size": "18px",
-        "cursor": "pointer",
-        "padding": "10px",
-        "border-radius": "50%",
-        "display": "=if(@currentField == 0 , 'none' ,'')"
-      },
       "attributes": {
         "iconName": "MoreVertical",
         "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover"
@@ -45,7 +38,7 @@
         "isBeakVisible": true,
         "formatter": {
           "elmType": "div",
-          "txtContent": "Demote (Change to 0:Page)",
+          "txtContent": "=if(@currentField == 0, 'Promote (Change to 2:News)', 'Demote (Change to 0:Page)')",
           "style": {
             "padding": "10px 20px 10px 20px",
             "cursor": "pointer"
@@ -56,10 +49,17 @@
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
-              "PromotedState": "0"
+              "PromotedState": "=if(@currentField == 0, 2, 0)"
             }
           }
-        }
+        },
+        "display": "=if(@currentField == 0 , '','')"
+      },
+      "style": {
+        "border-radius": "50%",
+        "padding": "10px",
+        "cursor": "pointer",
+        "font-size": "18px"
       }
     }
   ]
