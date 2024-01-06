@@ -45,6 +45,7 @@ Version |Date              |Comments
 --------|------------------|--------
 1.0     |December 11, 2021 |Initial release
 1.1     |January 2, 2024   |Added ability to promote back into page
+1.2     |January 6, 2024   |Fixed the more icon not to wrap
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
