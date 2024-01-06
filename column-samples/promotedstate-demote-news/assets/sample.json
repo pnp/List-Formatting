@@ -10,7 +10,7 @@
       "This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page."
     ],
     "creationDateTime": "2021-12-11T00:00:00.000Z",
-    "updateDateTime": "2021-12-11T00:00:00.000Z",
+    "updateDateTime": "2024-01-06T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -66,6 +66,11 @@
         "gitHubAccount": "tecchan1107",
         "pictureUrl": "https://github.com/tecchan1107.png",
         "name": "Tetsuya Kawahara"
+      },
+      {
+        "gitHubAccount": "Schwartzyy55",
+        "pictureUrl": "https://github.com/Schwartzyy55.png",
+        "name": "Cory Schwartz"
       }
     ],
     "references": [
