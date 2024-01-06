@@ -29,10 +29,10 @@
     {
       "elmType": "div",
       "style": {
-        "border-radius": "50%",
-        "padding": "10px",
+        "font-size": "18px",
         "cursor": "pointer",
-        "font-size": "18px"
+        "padding": "10px",
+        "border-radius": "50%"
       },
       "attributes": {
         "iconName": "MoreVertical",
@@ -58,8 +58,7 @@
               "PromotedState": "=if(@currentField == 0, 2, 0)"
             }
           }
-        },
-        "display": "=if(@currentField == 0 , '','')"
+        }
       }
     }
   ]
