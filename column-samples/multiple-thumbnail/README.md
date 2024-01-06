@@ -17,8 +17,6 @@ Examples of images URLs are:
 - ✔️ https://cdn.example.com/media/cms/images/helloworld.webp (external domain)
 - ✔️ https://contoso.sharepoint.com/sites/marketing/Document-Library/Images/helloworld.png (SharePoint)
 
-### User experience
-In order to get an optimal user esperience, Microsoft Lists web app or Microsoft Lists PWA [(Progressive Web App)](https://lists.handsontek.net/install-microsoft-lists-pwa-application/) are recommended.
 
 ***
 
