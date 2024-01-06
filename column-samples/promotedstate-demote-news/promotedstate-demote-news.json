@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
-    "flex-wrap": "wrap",
+    "flex-wrap": "nowrap",
     "display": "flex",
     "flex-direction": "row"
   },
@@ -15,9 +15,7 @@
         "padding": "4px 8px 5px 8px",
         "display": "flex",
         "border-radius": "16px",
-        "height": "27px",
         "align-items": "center",
-        "white-space": "nowrap",
         "overflow": "hidden",
         "margin": "4px 4px 4px 4px",
         "border": "1px solid"
