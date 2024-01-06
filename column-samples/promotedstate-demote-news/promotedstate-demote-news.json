@@ -9,7 +9,7 @@
   "children": [
     {
       "elmType": "div",
-      "txtContent": "=if(@currentField == 0 ,'0:Page' , if(@currentField == 1, '1:News (Unpublished)' , if(@currentField == 2 , '2:News','') ) )",
+      "txtContent": "=if(@currentField == 0 ,'0 : Page' , if(@currentField == 1, '1 : News (Unpublished)' , if(@currentField == 2 , '2 : News','') ) )",
       "style": {
         "box-sizing": "border-box",
         "padding": "4px 8px 5px 8px",
@@ -28,6 +28,12 @@
     },
     {
       "elmType": "div",
+      "style": {
+        "border-radius": "50%",
+        "padding": "10px",
+        "cursor": "pointer",
+        "font-size": "18px"
+      },
       "attributes": {
         "iconName": "MoreVertical",
         "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover"
@@ -54,12 +60,6 @@
           }
         },
         "display": "=if(@currentField == 0 , '','')"
-      },
-      "style": {
-        "border-radius": "50%",
-        "padding": "10px",
-        "cursor": "pointer",
-        "font-size": "18px"
       }
     }
   ]

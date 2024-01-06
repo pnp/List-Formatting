@@ -37,14 +37,14 @@ This format can be applied to a Promoted State column.
 
 Solution|Author(s)
 --------|---------
-promotedstate-demote-news.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)); [Cory Schwartz](https://github.com/Schwartzyy55)
+promotedstate-demote-news.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)) & [Cory Schwartz](https://github.com/Schwartzyy55)
 
 ## Version history
 
 Version |Date              |Comments
 --------|------------------|--------
-1.1     |January 2, 2024   |Added ability to promote back into page
 1.0     |December 11, 2021 |Initial release
+1.1     |January 2, 2024   |Added ability to promote back into page
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
