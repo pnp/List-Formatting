@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/Thumbnail-Form.png" width="80%">
+<img src="./assets/Thumbnail.png" width="80%">
 </p>
 
 ## WHAT IS IT?
