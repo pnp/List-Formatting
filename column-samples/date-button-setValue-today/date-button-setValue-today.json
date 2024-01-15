@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "[$DateTripCompleted.displayValue]",
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+      },
+      "style": {
+        "display": "=if(Number([$DateTripCompleted]) ==0,'none','flex')"
+      }
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "DateTripCompleted": "=getYear(@now)+'-'+padStart(toString(getMonth(@now)+1),2,'0')+'-'+padStart(toString(getDate(@now)),2,'0')"
+        }
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+      },
+      "style": {
+        "border": "none",
+        "background-color": "transparent",
+        "cursor": "pointer",
+        "display": "=if(Number([$DateTripCompleted]) ==0,'flex','none')",
+        "align-items": "center"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "EventAccepted"
+          },
+          "style": {
+            "padding-right": "6px"
+          }
+        },
+        {
+          "elmType": "span",
+          "txtContent": "Mark Trip as Complete"
+        }
+      ]
+    }
+  ]
+}
