@@ -6,9 +6,8 @@ This sample demonstrates adding a button within a SharePoint Online/Microsoft Li
 
 ![screenshot of the sample output](./assets/screenshot.png)
 
-## List requirements
-
-Attachments need to be disabled on the list in order for the solution to work.
+## JSON note
+For this JSON to work in your list, make sure to edit the JSON and replace the **YOUR-LIST-NAME** placeholder with your list's name, as it appears in the URL (including special characters)
 
 ## View requirements
 
