@@ -7,7 +7,7 @@ This sample demonstrates adding a button within a SharePoint Online/Microsoft Li
 ![screenshot of the sample output](./assets/screenshot.png)
 
 ## JSON note
-For this JSON to work in your list, make sure to edit the JSON and replace the **YOUR-LIST-NAME** placeholder with your list's name, as it appears in the URL (including special characters)
+For this JSON to work in your list, make sure to edit the JSON and replace the `**YOUR-LIST-NAME**` placeholder with your list's name, as it appears in the URL (including special characters)
 
 ## View requirements
 
@@ -28,6 +28,7 @@ generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([
 Version |Date          |Comments
 --------|--------------|--------------------------------
 1.0     |November 12, 2022 |Initial release
+1.1     |January 16, 2024 |Fixed an issue where images could not be downloaded due to a change in image storage location
 
 ## Disclaimer
 
