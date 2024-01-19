@@ -17,6 +17,12 @@ Examples of images URLs are:
 - ✔️ https://cdn.example.com/media/cms/images/helloworld.webp (external domain)
 - ✔️ https://contoso.sharepoint.com/sites/marketing/Document-Library/Images/helloworld.png (SharePoint)
 
+### Column width and user interface
+Both samples illustrated below have a column **min-width of 730px**, to allow an optimal user interface both for a list view and the **OOTB** Microsoft Lists form. If your multiple thumbnail appears as partially cut, select the right edge of column header, drag to the right and increase its width. [Save](https://support.microsoft.com/office/create-or-change-the-view-of-a-list-25393905-087c-4b0a-9fb4-5c1e165b99b7) your view to keep current column settings. 
+
+<p align="center">
+<img src="./assets/Expand.gif" width="75%">
+</p>
 
 ***
 
@@ -47,6 +53,9 @@ Here is an illustration of the large preview window:
 
 <img src="./assets/Window-Desc.png">
 
+### Custom hovercards and app limitation
+Images [lightboxes](https://github.com/pnp/List-Formatting/tree/master/column-samples/image-lightbox) are currently not supported by Microsoft Lists, since hovercards are not designed to recognize an _iteratorName_ of each image in an array, based on a [forEach property](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#foreach).
+
 ### Temporary preview window: behind the scenes
 If you are wondering what's happening when a user clicks on a miniature, here is a process illustration about how a temporary window works in Microsoft Lists:
 
@@ -63,7 +72,7 @@ Thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes365) ([Linked
 
 Version |Date              |Comments
 --------|------------------|--------------------------------
-1.0     |January 02, 2024  |Initial release
+1.0     |January 19, 2024  |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
