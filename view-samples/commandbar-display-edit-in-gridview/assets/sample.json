@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-commandbar-display-edit-in-gridview",
     "reponame": "commandbar-display-edit-in-gridview",
     "source": "pnp",
-    "title": "Display Edit in Grid View Button in the CommandBar",
-    "shortDescription": "",
+    "title": "Display Edit in Grid View Button in the Command Bar",
+    "shortDescription": "In the Document Library, the [Edit in grid view] button is hidden under the [...] button. This sample demonstrates displaying the [Edit in grid view] button on the command bar.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/commandbar-display-edit-in-gridview",
     "longDescription": [
-      ""
+      "In the Document Library, the [Edit in grid view] button is hidden under the [...] button. This sample demonstrates displaying the [Edit in grid view] button on the command bar."
     ],
     "creationDateTime": "2024-01-23T00:00:00.000Z",
     "updateDateTime": "2024-01-23T00:00:00.000Z",
