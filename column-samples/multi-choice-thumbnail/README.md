@@ -7,7 +7,7 @@ This tutorial will help you create a multiple thumbnail through images URLs list
 
 **1. Basic thumbnail**: each URL is displayed with its own miniature and a little button to open each image through your default web browser.
 
-**2. Advanced thumbnail**: each URL is displayed with its own miniature and each image can be viewed in a larger version through a temporary UI window. This window contains a command bar to open Microsoft Designer as well as the option to open an image through your default web browser.
+**2. Advanced thumbnail**: each URL is displayed with its own miniature and each image can be viewed in a larger version through a temporary UI window. This window contains a command bar to open an image through your default web browser.
 
 **NOTE**: an image URL should point directly to a picture file format, such as **jpg, png, gif, etc**. Furthermore, each image URL can come from an [allowed external domain](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) or it should be accessible by other users if stored in SharePoint.
 
