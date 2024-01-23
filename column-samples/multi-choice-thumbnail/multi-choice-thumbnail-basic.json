@@ -22,8 +22,7 @@
         "align-items": "flex-start",
         "justify-content": "flex-start",
         "margin-bottom": "10px",
-        "box-sizing": "border-box",
-        "--inline-editor-border-color": "transparent"
+        "box-sizing": "border-box"
       },
       "children": [
         {
