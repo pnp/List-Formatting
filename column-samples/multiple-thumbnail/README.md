@@ -65,8 +65,8 @@ If you are wondering what's happening when a user clicks on a miniature, here is
 
 Solution|Author(s)
 --------|---------
-Thumbnail-basic.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+thumbnail-basic.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 
 ## Version history
 
