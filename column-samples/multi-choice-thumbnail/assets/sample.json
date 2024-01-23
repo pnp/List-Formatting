@@ -1,0 +1,97 @@
+[
+  {
+    "name": "pnp-list-formatting-multi-choice-thumbnail",
+    "reponame": "multi-choice-thumbnail",
+    "source": "pnp",
+    "title": "Multiple thumbnail",
+    "shortDescription": "This tutorial will help you create a multiple thumbnail through images URLs listed in a multiple choice column.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-thumbnail",
+    "longDescription": [
+      "This tutorial will help you create a multiple thumbnail through images URLs listed in a multiple choice column."
+    ],
+    "creationDateTime": "2024-01-19T00:00:00.000Z",
+    "updateDateTime": "2024-01-19T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Choice"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@now"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-white--hover, sp-css-backgroundColor-LightPurpleText, sp-css-backgroundColor-LightPurpleText--hover, sp-css-color-LightPurpleText, sp-css-color-WhiteFont, sp-css-color-WhiteText"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Thumbnail.png",
+        "alt": "screenshot of the sample"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Basic-Thumbnail-Desc.png",
+        "alt": "screenshot of the basic sample"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Advanced-Animation.gif",
+        "alt": "screenshot of the advanced sample"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Window-Desc.png",
+        "alt": "advanced sample structure"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "Fedes365",
+        "pictureUrl": "https://github.com/Fedes365.png",
+        "name": "Federico Sapia"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

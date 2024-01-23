@@ -1,0 +1,172 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "min-width": "730px",
+    "height": "=if(Number(@now) < Number([$VIEWTIME]) && [$LASTURL] != '', '600px', 'auto')",
+    "flex-wrap": "nowrap",
+    "flex-direction": "row",
+    "display": "flex",
+    "align-items": "flex-start",
+    "justify-content": "flex-start",
+    "box-sizing": "border-box"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "position": "relative",
+        "top": "10px",
+        "z-index": "0",
+        "width": "100%",
+        "flex-wrap": "wrap",
+        "flex-direction": "row",
+        "display": "=if(Number(@now) < Number([$VIEWTIME]) && [$LASTURL] != '', 'none', 'flex')",
+        "align-items": "flex-start",
+        "justify-content": "flex-start",
+        "margin-bottom": "10px",
+        "box-sizing": "border-box"
+      },
+      "children": [
+        {
+          "forEach": "choiceIterator in @currentField",
+          "elmType": "div",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "LASTURL": "[$choiceIterator]",
+              "VIEWTIME": "=Number(@now) + 5000"
+            }
+          },
+          "style": {
+            "position": "relative",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "border-radius": "4px",
+            "box-sizing": "border-box",
+            "margin": "6px 12px 12px 6px",
+            "cursor": "pointer"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "style": {
+                "display": "flex",
+                "align-self": "flex-start",
+                "box-sizing": "border-box",
+                "border-radius": "4px",
+                "max-width": "240px",
+                "max-height": "120px",
+                "border": "solid 2px grey",
+                "object-fit": "contain",
+                "box-shadow": "3px 1px 4px #a3a3a2"
+              },
+              "attributes": {
+                "src": "[$choiceIterator]",
+                "title": "[$choiceIterator]"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(Number(@now) < Number([$VIEWTIME]) && [$LASTURL] != '', 'flex', 'none')",
+        "align-items": "center",
+        "justify-content": "center",
+        "flex-wrap": "nowrap",
+        "flex-direction": "column",
+        "position": "relative",
+        "box-sizing": "border-box",
+        "width": "960px",
+        "height": "600px",
+        "border": "solid 2px #974b8b",
+        "border-radius": "5px",
+        "background-color": "white"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "position": "absolute",
+            "display": "flex",
+            "justify-content": "flex-end",
+            "align-items": "center",
+            "top": "0",
+            "width": "956px",
+            "height": "30px",
+            "background-color": "white"
+          },
+          "children": [
+            {
+              "elmType": "a",
+              "style": {
+                "box-sizing": "border-box",
+                "padding-bottom": "4px",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "font-size": "18px",
+                "font-weight": "bold",
+                "width": "30px",
+                "height": "30px",
+                "margin-right": "6px",
+                "text-decoration": "none",
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "class": "sp-css-color-LightPurpleText sp-css-backgroundColor-LightPurpleText--hover ms-fontColor-white--hover",
+                "href": "[$LASTURL]",
+                "target": "_blank",
+                "title": "View in your browser",
+                "iconName": "NavigateExternalInline"
+              }
+            },
+            {
+              "elmType": "div",
+              "customRowAction": {
+                "action": "setValue",
+                "actionInput": {
+                  "LASTURL": ""
+                }
+              },
+              "style": {
+                "box-sizing": "border-box",
+                "padding-bottom": "2px",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "font-size": "16px",
+                "font-weight": "bold",
+                "width": "30px",
+                "height": "30px",
+                "text-decoration": "none",
+                "cursor": "pointer"
+              },
+              "attributes": {
+                "class": "sp-css-color-WhiteText sp-css-backgroundColor-LightPurpleText",
+                "title": "Close window",
+                "iconName": "ChromeClose"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "img",
+          "style": {
+            "max-width": "900px",
+            "max-height": "570px",
+            "object-fit": "contain",
+            "box-shadow": "3px 1px 4px #a3a3a2"
+          },
+          "attributes": {
+            "src": "[$LASTURL]"
+          }
+        }
+      ]
+    }
+  ]
+}
