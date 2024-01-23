@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-number-abs-tolerance-comparison",
-    "reponame": "number-abs-tolerance-comparison",
+    "name": "pnp-list-formatting-multi-choice-thumbnail",
+    "reponame": "multi-choice-thumbnail",
     "source": "pnp",
-    "title": "Tolerance Comparison",
-    "shortDescription": "Display if a value is within the expected tolerance.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-abs-tolerance-comparison",
+    "title": "Multiple thumbnail",
+    "shortDescription": "This tutorial will help you create a multiple thumbnail through images URLs listed in a multiple choice column.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-thumbnail",
     "longDescription": [
-      "Display if a value is within the expected tolerance."
+      "This tutorial will help you create a multiple thumbnail through images URLs listed in a multiple choice column."
     ],
-    "creationDateTime": "2019-03-08T00:00:00.000Z",
-    "updateDateTime": "2019-03-08T00:00:00.000Z",
+    "creationDateTime": "2024-01-19T00:00:00.000Z",
+    "updateDateTime": "2024-01-19T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -57,15 +57,39 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-abs-tolerance-comparison/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Thumbnail.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Basic-Thumbnail-Desc.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Advanced-Animation.gif",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 104,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Window-Desc.png",
         "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "PopWarner",
-        "pictureUrl": "https://github.com/PopWarner.png",
-        "name": "David Warner II"
+        "gitHubAccount": "Fedes365",
+        "pictureUrl": "https://github.com/Fedes365.png",
+        "name": "Federico Sapia"
       }
     ],
     "references": [
