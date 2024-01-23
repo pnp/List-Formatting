@@ -36,6 +36,6 @@ Version |Date             |Comments
 
   ![screenshot of the list form](./assets/list-form.png)
 
-  If you frequently edit file property values in Grid View and want to edit them in Grid View right from the command bar, try using this sample.
+  If you frequently edit file property values in grid view and want to edit them in grid view right from the command bar, try using this sample.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/commandbar-display-edit-in-gridview" />
