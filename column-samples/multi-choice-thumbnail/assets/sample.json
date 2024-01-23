@@ -34,23 +34,23 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@now"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "Number"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "forEach"
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "ms-fontColor-white--hover, sp-css-backgroundColor-LightPurpleText, sp-css-backgroundColor-LightPurpleText--hover, sp-css-color-LightPurpleText, sp-css-color-WhiteFont, sp-css-color-WhiteText"
       }
     ],
     "thumbnails": [
@@ -58,31 +58,25 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Thumbnail.png",
-        "alt": "screenshot"
+        "alt": "screenshot of the sample"
       },
       {
         "type": "image",
         "order": 101,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Basic-Thumbnail-Desc.png",
-        "alt": "screenshot"
+        "alt": "screenshot of the basic sample"
       },
       {
         "type": "image",
         "order": 102,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Advanced-Animation.gif",
-        "alt": "screenshot"
+        "alt": "screenshot of the advanced sample"
       },
       {
         "type": "image",
         "order": 103,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/screenshot.png",
-        "alt": "screenshot"
-      },
-      {
-        "type": "image",
-        "order": 104,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/Window-Desc.png",
-        "alt": "screenshot"
+        "alt": "advanced sample structure"
       }
     ],
     "authors": [
