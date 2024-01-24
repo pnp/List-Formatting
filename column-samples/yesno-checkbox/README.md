@@ -31,6 +31,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|August 18, 2018|Initial release
 1.1|November 21, 2021|Modified to update item using `setValue`
+1.2|October 29, 2023|Changed CSS class so that a checkbox also appears in SharePoint Server 2019
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

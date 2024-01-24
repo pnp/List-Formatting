@@ -20,7 +20,7 @@
         "width": "100%"
       },
       "attributes": {
-        "href": "= @currentWeb + '/_layouts/15/download.aspx?sourceurl=' + [$Image.serverRelativeUrl]",
+        "href": "=@currentWeb+'/_layouts/15/download.aspx?sourceurl='+if([$Image.serverRelativeUrl],[$Image.serverRelativeUrl],@currentWeb+'/Lists/**YOUR-LIST-NAME**/Attachments/'+[$ID]+'/'+[$Image.fileName])",
         "target": "_blank",
         "class": "ms-fontColor-white ms-fontSize-m"
       },

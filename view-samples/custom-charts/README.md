@@ -7,12 +7,12 @@ Charts created with Microsoft Lists **DO NOT** replace other tools and apps for 
 
 | <h3>TABLE OF CONTENTS      </h3>|
 |:-----------------|
-|[**● WHAT IS IT?**](#what-is-it)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started-with-your-chart)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)|
+|[**● WHAT IS IT?**](#what-is-it)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started-with-your-chart)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)<br>[**🞂 RADAR**](#radar-chart)|
 
 ### WHAT IS IT?
-Thanks to JSON formatting, this templates package will allow you to quickly create **6 different types of charts**, which you can organize into collections, share, and publish on SharePoint pages. Microsoft 365 offers many options and ways to share and publish information in the form of charts. In particular, people involved in **internal communications** have now an extra tool available: **Microsoft Lists charts**.
+Thanks to JSON formatting, this templates package will allow you to quickly create **7 different types of charts**, which you can organize into collections, share, and publish on SharePoint pages. Microsoft 365 offers many options and ways to share and publish information in the form of charts. In particular, people involved in **internal communications** have now an extra tool available: **Microsoft Lists charts**.
 
-![screenshot of 6 different charts](./assets/Charts-Preview.png)
+![screenshot of 7 different charts](./assets/Charts-Preview.png)
 
 This solution has been tested with the following SharePoint pages layouts:
 
@@ -37,9 +37,11 @@ If you are planning to share or publish charts created with Microsoft Lists, you
 ### LIST SETUP
 The setup requires 4 steps:
 
-**1.** For each template, download an Excel file containing a table and export it to SharePoint as illustrated [**here**](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab).
+**1.** For each template, download an Excel file containing a table and export it to SharePoint as illustrated [**here**](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Here is a preview of the exporting feature location in Microsoft Excel desktop app:
 
-**2.** Numbers columns (named VALUE1, VALUE2, VALUE3_1 and so on) must have the following setup: no symbols, automatic number of decimal places, thousands separator enabled and informations required (no empty values allowed).
+![screenshot of the exporting feature in Microsoft Excel](./assets/Export-Preview.png)
+
+**2.** Numbers columns (named VALUE1, VALUE2, VALUE3_1, SCALE and so on) must have the following setup: no symbols, automatic number of decimal places, thousands separator enabled and informations required (no empty values allowed). On the other hand, single line of text columns (such as LABEL1, LABEL2, LABEL3, COLOR and so on) don't need any additional setup.
 
 **3.** Create a new basic list view, **including the OOTB Author column**.
 
@@ -91,6 +93,16 @@ The Line chart allows a maximum of 12 data points and 2 categories. You can appl
 <img src="./assets/Line-Chart.png" width="80%" height="80%">
 </p>
 
+### RADAR CHART
+**Note**: this chart is based on a maximum score, which works similarly to a scale, as explained [**above**](#how-does-it-work). Furthermore, **DATAPOINTS** is a number column and should allow values between 3 and 8.
+
+The radar chart allows a minimum of 3 (triangle shape) and a maximum of 8 (octagon shape) data points. You can apply a fill color to both labels and shape.
+Download the [**Excel file**](./assets/Radar-Chart.xlsx) and export it to SharePoint. Then, apply the JSON code available [**here**](./Radar-Chart.json).
+
+<p align="center">
+<img src="./assets/Radar-Chart.png" width="80%" height="80%">
+</p>
+
 ## Sample
 
 Solution|Author(s)
@@ -106,12 +118,14 @@ Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn]
 Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 
 ## Version history
 
 Version |Date              |Comments
 --------|------------------|--------------------------------
 1.0     |March 22, 2023  |Initial release
+2.0     |November 21, 2023  |Added Radar-Chart
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

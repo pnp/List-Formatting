@@ -16,20 +16,20 @@
     {
       "elmType": "img",
       "attributes": {
-        "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c48x48/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken"
+        "src": "=getThumbnailImage(@currentField, 64, 64)"
       },
       "customCardProps": {
         "formatter": {
           "elmType": "div",
           "style": {
             "padding": "8px",
-            "background-color": "black"
+            "background-color": "white"
           },
           "children": [
             {
               "elmType": "img",
               "attributes": {
-                "src": "=@currentField.thumbnailRenderer.spItemUrl + '/thumbnails/0/c3000x2000/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=' + @currentField.thumbnailRenderer.sponsorToken",
+                "src": "=getThumbnailImage(@currentField, 500, 500)",
                 "title": "@currentField.fileName"
               },
               "style": {
@@ -42,7 +42,7 @@
         "directionalHint": "rightCenter",
         "isBeakVisible": true,
         "beakStyle": {
-          "backgroundColor": "black"
+          "backgroundColor": "white"
         }
       }
     }

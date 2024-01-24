@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
-    "flex-wrap": "wrap",
+    "flex-wrap": "nowrap",
     "display": "flex",
     "flex-direction": "row"
   },
@@ -15,9 +15,7 @@
         "padding": "4px 8px 5px 8px",
         "display": "flex",
         "border-radius": "16px",
-        "height": "27px",
         "align-items": "center",
-        "white-space": "nowrap",
         "overflow": "hidden",
         "margin": "4px 4px 4px 4px",
         "border": "1px solid"
@@ -32,8 +30,7 @@
         "font-size": "18px",
         "cursor": "pointer",
         "padding": "10px",
-        "border-radius": "50%",
-        "display": "=if(@currentField == 0 , 'none' ,'')"
+        "border-radius": "50%"
       },
       "attributes": {
         "iconName": "MoreVertical",
@@ -45,7 +42,7 @@
         "isBeakVisible": true,
         "formatter": {
           "elmType": "div",
-          "txtContent": "Demote (Change to 0:Page)",
+          "txtContent": "=if(@currentField == 0, 'Promote (Change to 2:News)', 'Demote (Change to 0:Page)')",
           "style": {
             "padding": "10px 20px 10px 20px",
             "cursor": "pointer"
@@ -56,7 +53,7 @@
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
-              "PromotedState": "0"
+              "PromotedState": "=if(@currentField == 0, 2, 0)"
             }
           }
         }
