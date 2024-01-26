@@ -7,7 +7,10 @@ It uses the 'Folder Child Count' and 'Item Child Count' columns to check if a fo
 ![screenshot of the sample](./assets/screenshot.png)
 
 **Update**
-Added an 2nd version which brings back the buttons and functions a vanilla name column has. It's possible to share the folder and to open the context menu.
+
+Added a second version which brings back the buttons and functions a vanilla name column has. It's possible to share the folder and to open the context menu.
+
+Unfortunately, customRowAction doesn't support creating a shortcut to OneDrive yet. Therefore the 'OneDrive' button is only a placeholder which points out an alternative to create a shortcut. Clicking the button itself has no effect.
 
 ![screenshot of the sample with hidden columns](./assets/screenshot_hidden_columns.png)
 
