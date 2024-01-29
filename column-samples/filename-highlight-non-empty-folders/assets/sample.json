@@ -10,7 +10,7 @@
       "This sample shows how folders can be highlighted or grayed out depending on whether they are empty or not"
     ],
     "creationDateTime": "2023-10-06T00:00:00.000Z",
-    "updateDateTime": "2023-10-06T00:00:00.000Z",
+    "updateDateTime": "2024-01-24T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "defaultClick"
+        "value": "defaultClick, openContextMenu, share"
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-Link, ms-fontColor-black, ms-fontWeight-semibold, ms-fontColor-gray120, ms-fontColor-black"
+        "value": "ms-bgColor-gray60--hover, ms-fontColor-black, ms-fontColor-black, ms-fontColor-black, ms-fontColor-gray120, ms-fontColor-gray120, ms-fontColor-neutralDark--hover, ms-fontColor-white, ms-fontWeight-semibold, ms-fontWeight-semibold, ms-Link"
       }
     ],
     "thumbnails": [

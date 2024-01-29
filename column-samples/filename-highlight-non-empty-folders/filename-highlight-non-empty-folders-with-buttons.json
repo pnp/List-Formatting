@@ -1,0 +1,130 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "attributes": {
+    "class": "ms-fontColor-white ms-fontColor-neutralDark--hover"
+  },
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "space-between"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "@currentField",
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "style": {
+        "display": "flex",
+        "justify-content": "space-between"
+      },
+      "attributes": {
+        "class": "='ms-Link '+if(((indexOf([$ContentTypeId],'0x0120')) == 0), if([$FolderChildCount] > 0 || [$ItemChildCount] > 0 , 'ms-fontColor-black ms-fontWeight-semibold', 'ms-fontColor-gray120'),'ms-fontColor-black')"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "flex-end"
+      },
+      "attributes": {
+        "class": ""
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "iconName": "Share",
+            "class": "ms-bgColor-gray60--hover"
+          },
+          "style": {
+            "padding": "7px",
+            "font-size": "11pt",
+            "cursor": "pointer"
+          },
+          "customRowAction": {
+            "action": "share"
+          },
+          "customCardProps": {
+            "formatter": {
+              "elmType": "div",
+              "txtContent": "Share this item with other people",
+              "style": {
+                "font-size": "12px",
+                "padding": "3px"
+              }
+            },
+            "openOnEvent": "hover",
+            "directionalHint": "bottomCenter",
+            "isBeakVisible": true,
+            "beakStyle": {
+              "backgroundColor": "white"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "iconName": "FabricFolderLink",
+            "class": "ms-bgColor-gray60--hover"
+          },
+          "style": {
+            "padding": "5px",
+            "cursor": "text"
+          },
+          "customCardProps": {
+            "formatter": {
+              "elmType": "div",
+              "txtContent": "To add a shortcut to OneDrive use the button in the command bar",
+              "style": {
+                "font-size": "12px",
+                "padding": "3px"
+              }
+            },
+            "openOnEvent": "hover",
+            "directionalHint": "bottomCenter",
+            "isBeakVisible": true,
+            "beakStyle": {
+              "backgroundColor": "white"
+            }
+          }
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "iconName": "More",
+            "class": "ms-bgColor-gray60--hover"
+          },
+          "style": {
+            "padding": "7px",
+            "font-size": "11pt",
+            "cursor": "pointer"
+          },
+          "customRowAction": {
+            "action": "openContextMenu"
+          },
+          "customCardProps": {
+            "formatter": {
+              "elmType": "div",
+              "txtContent": "Show more actions for this item",
+              "style": {
+                "font-size": "12px",
+                "padding": "3px"
+              }
+            },
+            "openOnEvent": "hover",
+            "directionalHint": "bottomCenter",
+            "isBeakVisible": true,
+            "beakStyle": {
+              "backgroundColor": "white"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
