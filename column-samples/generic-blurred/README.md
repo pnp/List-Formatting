@@ -5,7 +5,7 @@ This format demonstrates how to blur the value of a field.
 
 You can use this formatting when you want to share your screen for a demo and don't want to display real data.
 
-![screenshot of the sample](./assets/screenshot-sharepoint-blurred-field.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - This format can be applied to any type of column
