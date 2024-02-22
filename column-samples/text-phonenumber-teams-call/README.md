@@ -32,4 +32,4 @@ Version|Date|Comments
 - No syntax checking for phone numbers. What every you enter in the field will be used to initiate the Microsoft Teams call.
 - This sample uses [Microsoft Teams deep link](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#configure-deep-link-manually-to-start-audio-video-call-with-users) to display a link to initiate the Microsoft Teams call.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-phonenumber-teams-call/readme" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-phonenumber-teams-call" />
