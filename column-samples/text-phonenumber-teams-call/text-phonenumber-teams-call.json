@@ -1,39 +1,39 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-    "elmType": "div",
-    "children": [
-      {
-        "elmType": "span",
-        "style": {
-          "display": "inline-block",
-          "padding": "0 4px"
-        },
-        "attributes": {
-          "iconName": "=if(@currentField != '','TeamsLogo', '')",
-          "class": "ms-font-l"
-        }
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "display": "inline-block",
+        "padding": "0 4px"
       },
-      {
-        "elmType": "a",
-        "txtContent": "@currentField",
-        "attributes": {
-          "href": {
-            "operator": "?",
-            "operands": [
-              {
-                "operator": "!=",
-                "operands": [
-                  "@currentField",
-                  ""
-                ]
-              },
-              "='https://teams.microsoft.com/l/call/0/0?users=4:' + toString(@currentField)",
-              ""
-            ]
-          },
-          "target": "_blank",
-          "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
-        }
+      "attributes": {
+        "iconName": "=if(@currentField != '','TeamsLogo', '')",
+        "class": "ms-font-l"
       }
-    ]
-  }
+    },
+    {
+      "elmType": "a",
+      "txtContent": "@currentField",
+      "attributes": {
+        "href": {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "!=",
+              "operands": [
+                "@currentField",
+                ""
+              ]
+            },
+            "='https://teams.microsoft.com/l/call/0/0?users=4:' + toString(@currentField)",
+            ""
+          ]
+        },
+        "target": "_blank",
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover"
+      }
+    }
+  ]
+}
