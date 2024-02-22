@@ -6,7 +6,7 @@ This sample demonstrates displaying a phone number stored in a single line of te
 ![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- Apply to *single line of text* columns
+- This format can be applied to a single line of text column
 
 ## Sample
 
