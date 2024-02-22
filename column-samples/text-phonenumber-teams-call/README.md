@@ -1,12 +1,12 @@
 # Call phone number with Teams
 
 ## Summary
-Display a phone number stored in a string column as a link to initiate a Microsoft Teams call.
+This sample demonstrates displaying a phone number stored in a single line of text column as a link to initiate a Microsoft Teams call.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-- Apply to *single line of text* columns (string)
+- Apply to *single line of text* columns
 
 ## Sample
 
