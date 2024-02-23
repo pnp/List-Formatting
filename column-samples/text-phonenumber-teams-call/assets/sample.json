@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-phonenumber-teams-call",
-    "reponame": "phonenumber-teams-call",
+    "name": "pnp-list-formatting-text-phonenumber-teams-call",
+    "reponame": "text-phonenumber-teams-call",
     "source": "pnp",
     "title": "Call phone number with Microsoft Teams",
     "shortDescription": "This sample demonstrates displaying a phone number stored in a single line of text column as a link to initiate a Microsoft Teams call.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/phonenumber-teams-call",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-phonenumber-teams-call",
     "longDescription": [
       "This sample demonstrates displaying a phone number stored in a single line of text column as a link to initiate a Microsoft Teams call."
     ],
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/phonenumber-teams-call/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-phonenumber-teams-call/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
