@@ -15,9 +15,6 @@
         "attributes": {
           "class": "sp-card-defaultClickButton",
           "role": "presentation"
-        },
-        "customRowAction": {
-          "action": "defaultClick"
         }
       },
       {

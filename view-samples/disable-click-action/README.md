@@ -5,8 +5,9 @@ The sample list of items in a tile view where default click action is disabled. 
 
 ![screenshot](./assets/screenshot.gif)
 
-> The list shown above is not part of this sample. It's just a sample list where this format was applied.
-
+> [!NOTE]  
+> - The list shown above is not part of this sample. It's just a sample list where this format was applied.
+> - When you single-click, the item is selected, but when you double-click, the list form opens.
 
 ## View requirements
 
@@ -23,6 +24,7 @@ disable-click-action.json | [Michal Ziemba](https://github.com/Michal-Ziemba)
 Version|Date|Comments
 -------|----|--------
 1.0|April 8, 2022|Initial release
+1.1|February 27, 2024|Fixed so that the list form does not appear after a click.
 
 
 ## Disclaimer

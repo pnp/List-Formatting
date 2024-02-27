@@ -10,7 +10,7 @@
       "The sample list of items in a tile view where default click action is disabled. When item is clicked it is selected only."
     ],
     "creationDateTime": "2022-04-08T00:00:00.000Z",
-    "updateDateTime": "2022-04-08T00:00:00.000Z",
+    "updateDateTime": "2024-02-27T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection"
+        "value": "hideSelection, fillHorizontally"
       },
       {
         "key": "CLASSES",
