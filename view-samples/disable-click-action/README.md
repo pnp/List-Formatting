@@ -16,7 +16,7 @@ None
 
 Solution|Author(s)
 --------|---------
-disable-click-action.json | [Michal Ziemba](https://twitter.com/theChrisKent)
+disable-click-action.json | [Michal Ziemba](https://github.com/Michal-Ziemba)
 
 ## Version history
 
