@@ -31,4 +31,12 @@ Version |Date              |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+---
+
+## Additional notes
+
+- Whether answers are displayed expanded or collapsed by default can be set in the **Group By** section of the Edit View screen.
+
+    ![screenshot of edit view sceen](./assets/edit-view-screen.png)
+
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-accordion" />
