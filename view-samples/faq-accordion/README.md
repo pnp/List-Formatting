@@ -37,6 +37,6 @@ Version |Date              |Comments
 
 - Whether answers are displayed expanded or collapsed by default can be set in the **Group By** section of the Edit View screen.
 
-    ![screenshot of edit view sceen](./assets/edit-view-screen.png)
+    ![screenshot of the edit view sceen](./assets/edit-view-screen.png)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-accordion" />
