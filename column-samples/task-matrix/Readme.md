@@ -1,6 +1,20 @@
 <h1>Task Matrix</h1>
 <h2>Summary</h2>
 <p>The Eisenhower Matrix is a task management tool that helps you organize and prioritize tasks by urgency and importance. Using the tool, you’ll divide your tasks into four boxes based on the tasks you’ll do first, the tasks you’ll schedule for later, the tasks you’ll delegate, and the tasks you’ll delete. In this piece, we’ll explain how to set up an Eisenhower Matrix and provide tips for task prioritization.</p>
+<p>
+Urgent and important may seem like similar words, but when analyzing them in terms of the Eisenhower principle, the difference between the two is crucial. Differentiating between urgent and important within the Eisenhower Matrix can help you identify which tasks you should jump on and which tasks might be better handled by other team members. </p>
+
+<p>Urgent tasks require your immediate attention. When something is urgent, it must be done now, and there are clear consequences if you don’t complete these tasks within a certain timeline. These are tasks you can’t avoid, and the longer you delay these tasks, the more stress you’ll likely experience, which can lead to burnout.</p>
+<ul dir="auto">
+<li>
+Examples of urgent tasks may include:
+
+<li>Finishing a project with a last-minute due date</li>
+
+<li>Handling an urgent client request</li>
+
+Fixing a busted pipe in your apartment</li>
+</ul>
 <p><img src="assets/EisenhowerMatrix.png"></p>
 <h2>View requirements</h2>
 <ul dir="auto">
