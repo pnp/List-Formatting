@@ -1,30 +1,11 @@
 <h1>Task Matrix</h1>
 <h2>Summary</h2>
-<p>The Eisenhower Matrix is a task management tool that helps you organize and prioritize tasks by urgency and importance. Using the tool, you’ll divide your tasks into four boxes based on the tasks you’ll do first, the tasks you’ll schedule for later, the tasks you’ll delegate, and the tasks you’ll delete. In this piece, we’ll explain how to set up an Eisenhower Matrix and provide tips for task prioritization.</p>
-<p>
-Urgent and important may seem like similar words, but when analyzing them in terms of the Eisenhower principle, the difference between the two is crucial. Differentiating between urgent and important within the Eisenhower Matrix can help you identify which tasks you should jump on and which tasks might be better handled by other team members. </p>
+<p>The Eisenhower Matrix is like a map for managing your tasks. It helps you decide what needs to be done first, what can wait, what can be given to someone else, and what can be left aside. Let's break it down into four boxes: things to do now, things to do later, things to pass on to others, and things to forget about. We'll show you how to use this tool and give you some tips for sorting out your tasks.</p>
 
-<p>Urgent tasks require your immediate attention. When something is urgent, it must be done now, and there are clear consequences if you don’t complete these tasks within a certain timeline. These are tasks you can’t avoid, and the longer you delay these tasks, the more stress you’ll likely experience, which can lead to burnout.</p>
+<p>Understanding the difference between urgent and important is key here. Urgent means it needs to be done right away. If you ignore urgent tasks, there can be bad consequences, like missing a deadline or causing a bigger problem. These tasks are like fires you need to put out quickly to avoid getting burned out.</p>
 
-<p>Examples of urgent tasks may include:</p>
+<p>For example, finishing a project with a deadline, handling an urgent request from a client, or fixing something broken in your home are all urgent tasks. Now, important tasks might not be urgent, but they're still crucial for reaching your long-term goals. You need to plan for these tasks carefully so you can use your time and energy wisely. This could include planning a big project, meeting new people to grow your business, or just doing regular chores to keep things running smoothly.</p>
 
-<ul dir="auto">
-<li>Finishing a project with a last-minute due date</li>
-
-<li>Handling an urgent client request</li>
-
-Fixing a busted pipe in your apartment</li>
-</ul>
-<p>Important tasks may not require immediate attention, but these tasks help you achieve your long-term goals. Just because these tasks are less urgent doesn’t mean they don’t matter. You’ll need to thoughtfully plan for these tasks so you can use your resources efficiently.</p>
-<p>Examples of important tasks may include:</p>
-
-<ul dir="auto">
-<li>Planning a long-term project</li>
-
-<li>Professional networking to build a client base</li>
-
-<li>Regular chores and maintenance projects</li>
-</ul>
 <p><img src="assets/EisenhowerMatrix.png"></p>
 <h2>View requirements</h2>
 <ul dir="auto">
