@@ -13,7 +13,7 @@
         "height": "50px",
         "float": "left"
       },
-      "inlineEditField": "[$DueDate]",
+      "inlineEditField": "@currentField",
       "children": [
         {
           "elmType": "div",
@@ -24,7 +24,7 @@
             "width": "32px",
             "height": "24px"
           },
-          "txtContent": "=if(getMonth([$DueDate])==0, 'Jan', if(getMonth([$DueDate])==1, 'Feb', if(getMonth([$DueDate])==2, 'Mar', if(getMonth([$DueDate])==3, 'Apr',  if(getMonth([$DueDate])==4, 'May', if(getMonth([$DueDate])==5, 'Jun', if(getMonth([$DueDate])==6 , 'Jul', if(getMonth([$DueDate])==7, 'Aug', if(getMonth([$DueDate])==8 , 'Sep', if(getMonth([$DueDate])==9, 'Oct', if(getMonth([$DueDate])==10, 'Nov', if(getMonth([$DueDate])==11, 'Dec', ''))))))))))))",
+          "txtContent": "=if(getMonth(@currentField)==0, 'Jan', if(getMonth(@currentField)==1, 'Feb', if(getMonth(@currentField)==2, 'Mar', if(getMonth(@currentField)==3, 'Apr',  if(getMonth(@currentField)==4, 'May', if(getMonth(@currentField)==5, 'Jun', if(getMonth(@currentField)==6 , 'Jul', if(getMonth(@currentField)==7, 'Aug', if(getMonth(@currentField)==8 , 'Sep', if(getMonth(@currentField)==9, 'Oct', if(getMonth(@currentField)==10, 'Nov', if(getMonth(@currentField)==11, 'Dec', ''))))))))))))",
           "attributes": {
             "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-16 ms-fontColor-themeTertiary--hover"
           }
@@ -42,7 +42,7 @@
             "height": "25px",
             "border": "1px"
           },
-          "txtContent": "=getDate([$DueDate])",
+          "txtContent": "=getDate(@currentField)",
           "attributes": {
             "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-20 ms-fontColor-themeTertiary--hover"
           }
@@ -57,7 +57,7 @@
             "height": "48px",
             "border": "1px"
           },
-          "txtContent": "=getYear([$DueDate])",
+          "txtContent": "=getYear(@currentField)",
           "attributes": {
             "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-bold ms-fontSize-10 ms-fontColor-themeTertiary--hover"
           }
