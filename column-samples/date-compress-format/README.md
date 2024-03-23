@@ -20,6 +20,7 @@ date-compress-format.json | [André Lage](https://github.com/aaclage) ([@aaclage
 Version|Date|Comments
 -------|----|--------
 1.0|December 6, 2021|Initial release
+1.1|March 23, 2024|Fixed to use `@currentField` instead of column specific name `[$DueDate]`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
