@@ -1,411 +1,79 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "style": {
-    "font-size": "10pt",
-    "color": "#2c2a29"
-  },
-  "attributes": {
-    "title": "Click to Show Actions"
-  },
-  "children": [
-    {
-      "elmType": "div",
-      "style": {
-        "background-color": "transparent"
-      }
-    },
-    {
-      "elmType": "span",
-      "style": {
-        "_display_": "flex",
-        "_flex-wrap_": "nowrap",
-        "_white-space_": "nowrap",
-        "_overflow_": "hidden",
-        "_text-overflow_": "ellipsis",
-        "_background-color_": "transparent",
-        "width": "95%",
-        "cursor": "pointer",
-        "text-decoration": "none"
+[
+  {
+    "name": "pnp-list-formatting-generic-context-menu",
+    "reponame": "generic-context-menu",
+    "source": "pnp",
+    "title": "Context Menu",
+    "shortDescription": "The sample is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-context-menu",
+    "longDescription": [
+      "The sample is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on."
+    ],
+    "creationDateTime": "2024-03-14T00:00:00.000Z",
+    "updateDateTime": "2024-03-14T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
       },
-      "txtContent": "@currentField"
-    },
-    {
-      "elmType": "span",
-      "style": {
-        "background-color": "transparent",
-        "font-size": "16pt",
-        "_display_": "flex",
-        "_height_": "100%",
-        "_flex-wrap_": "nowrap",
-        "float": "right",
-        "_margin-left_": "auto",
-        "position": "relative",
-        "z-index": "-1"
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
       },
-      "attributes": {
-        "iconName": "MoreVertical",
-        "class": "ms-bgColor-gray50--hover"
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "substring, "
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "executeFlow"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover"
       }
-    }
-  ],
-  "customCardProps": {
-    "formatter": {
-      "elmType": "div",
-      "children": [
-        {
-          "elmType": "div",
-          "style": {
-            "border": "1px solid #002855"
-          },
-          "children": [
-            {
-              "elmType": "div",
-              "children": [
-                {
-                  "elmType": "div",
-                  "children": [
-                    {
-                      "elmType": "div",
-                      "style": {
-                        "font-size": "12pt",
-                        "color": "#ffffff",
-                        "font-weight": "600",
-                        "text-align": "center",
-                        "padding-bottom": "5px",
-                        "margin-bottom": "5px",
-                        "border-bottom": "1px solid #002855",
-                        "background-color": "#002855"
-                      },
-                      "txtContent": "Item Menu"
-                    }
-                  ]
-                },
-                {
-                  "elmType": "div",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29",
-                    "padding": "5px 5px 5px 5px",
-                    "margin": "5px 5px 5px 5px"
-                  },
-                  "children": [
-                    {
-                      "elmType": "button",
-                      "customRowAction": {
-                        "action": "defaultClick"
-                      },
-                      "style": {
-                        "border": "none",
-                        "background-color": "transparent",
-                        "cursor": "pointer"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "1px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "OpenFile",
-                            "title": "='Item ID: ' + [$ID]"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "title": "='Item ID: ' + [$ID]"
-                          },
-                          "txtContent": "Open"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "elmType": "div",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29",
-                    "padding": "5px 5px 5px 5px",
-                    "margin": "5px 5px 5px 5px",
-                    "border-bottom": "1px solid #c0c0c0"
-                  },
-                  "children": [
-                    {
-                      "elmType": "button",
-                      "customRowAction": {
-                        "action": "editProps"
-                      },
-                      "style": {
-                        "border": "none",
-                        "background-color": "transparent",
-                        "cursor": "pointer"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "1px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "Edit",
-                            "title": "='Item ID: ' + [$ID]"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "title": "='Item ID: ' + [$ID]"
-                          },
-                          "txtContent": "Edit"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "elmType": "a",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29"
-                  },
-                  "attributes": {
-                    "target": "_blank",
-                    "data-interception": "off",
-                    "href": "=@currentWeb + '/_layouts/15/versions.aspx?List=' + '%7B' + '64b42b10-e36f-4c14-a769-0258b0095697' + '%7D' + '&ID=' + [$ID]",
-                    "title": "Version history"
-                  },
-                  "children": [
-                    {
-                      "elmType": "div",
-                      "style": {
-                        "padding": "5px 5px 5px 5px",
-                        "margin": "5px 5px 5px 5px",
-                        "border-bottom": "1px solid #c0c0c0"
-                      },
-                      "attributes": {
-                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "5px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "History"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "txtContent": "Version history"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "elmType": "a",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29"
-                  },
-                  "attributes": {
-                    "target": "_blank",
-                    "data-interception": "off",
-                    "href": "=@currentWeb + '/_layouts/15/SubNew.aspx?List=' + '%7B' + '64b42b10-e36f-4c14-a769-0258b0095697' + '%7D' + '&ID=' + [$ID]",
-                    "title": "Alerts"
-                  },
-                  "children": [
-                    {
-                      "elmType": "div",
-                      "style": {
-                        "padding": "5px 5px 5px 5px",
-                        "margin": "5px 5px 5px 5px"
-                      },
-                      "attributes": {
-                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "5px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "AlarmClock"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "txtContent": "Alerts"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                 {
-                  "elmType": "div",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29",
-                    "padding": "5px 5px 5px 5px",
-                    "margin": "5px 5px 5px 5px",
-                    "border-bottom": "1px solid #c0c0c0"
-                  },
-                  "children": [
-                    {
-                      "elmType": "button",
-                      "customRowAction": {
-                        "action": "executeFlow",
-                        "actionParams": "{\"id\": \"aeiouyaa-79cd-4a3e-8c8d-2abbaed65c9b\"}"
-                      },
-                      "style": {
-                        "border": "none",
-                        "background-color": "transparent",
-                        "cursor": "pointer"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "1px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "Flow"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "txtContent": "Flow Name"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "elmType": "a",
-                  "style": {
-                    "border": "none",
-                    "background-color": "transparent",
-                    "cursor": "pointer",
-                    "text-decoration": "none",
-                    "color": "#2c2a29"
-                  },
-                  "attributes": {
-                    "target": "_blank",
-                    "data-interception": "off",
-                    "href": "=substring([$FileRef],0,lastIndexOf([$FileRef],'/'))",
-                    "title": "Default View"
-                  },
-                  "children": [
-                    {
-                      "elmType": "div",
-                      "style": {
-                        "padding": "5px 5px 5px 5px",
-                        "margin": "5px 5px 5px 5px"
-                      },
-                      "attributes": {
-                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
-                      },
-                      "children": [
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "5px",
-                            "color": "#2c2a29"
-                          },
-                          "attributes": {
-                            "iconName": "PageList"
-                          }
-                        },
-                        {
-                          "elmType": "span",
-                          "style": {
-                            "font-weight": "600",
-                            "padding-left": "9px",
-                            "color": "#2c2a29"
-                          },
-                          "txtContent": "View"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "elmType": "div",
-                  "style": {
-                    "font-size": "10px",
-                    "font-weight": "600",
-                    "text-align": "center",
-                    "margin": "4px",
-                    "padding": "5px"
-                  },
-                  "txtContent": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "openOnEvent": "click",
-    "directionalHint": "rightCenter",
-    "isBeakVisible": true,
-    "beakStyle": {
-      "backgroundColor": "#002855"
-    }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-context-menu/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "jaxkookie",
+        "pictureUrl": "https://github.com/jaxkookie.png",
+        "name": "Larry Pfaff"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
   }
-}
+]
