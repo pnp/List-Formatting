@@ -4,7 +4,7 @@
   "style": {
     "display": "=if(@currentField,'inline','none')"
   },
-  "attribute": {
+  "attributes": {
     "title": "@currentField"
   },
   "children": [
@@ -27,7 +27,6 @@
           "txtContent": "Do",
           "style": {
             "display": "flex",
-            "margin": "0",
             "min-height": "45px",
             "height": "100%",
             "max-width": "65px",
@@ -54,7 +53,6 @@
           "txtContent": "Decide",
           "style": {
             "display": "flex",
-            "margin": "0",
             "min-height": "45px",
             "height": "100%",
             "max-width": "65px",
@@ -81,7 +79,6 @@
           "txtContent": "Delegate",
           "style": {
             "display": "flex",
-            "margin": "0",
             "min-height": "45px",
             "height": "100%",
             "max-width": "65px",
@@ -108,7 +105,6 @@
           "txtContent": "Delete",
           "style": {
             "display": "flex",
-            "margin": "0",
             "min-height": "45px",
             "height": "100%",
             "max-width": "65px",
