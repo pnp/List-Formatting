@@ -18,7 +18,10 @@ The format expects the following fields:
 |------|------|------|
 |Choice|Importance|Choices - High, Low
 |Choice|Urgency|Choices - High, Low
-|Calculated field - Single line of text |EMatrix|Formula - `=IF(AND(Importance<>"",Urgency<>""),IF(Importance="High",2,1)&"."&IF(Urgency="High",2,1),"")`
+|Calculated field - Single line of text |EMatrix|Formula - `=IF(AND(Importance<>"",Urgency<>""),IF(Importance="High",2,1)&"."&IF(Urgency="High",2,1),"")` or `=IF(AND(Importance<>"";Urgency<>"");IF(Importance="High";2;1)&"."&IF(Urgency="High";2;1);"")`
+
+> [!NOTE]  
+> The delimiter in the formula for the Calculated field is a comma (,) or semi-colon (;), but the available ones depend on the locale of the site. (Reference: [Calculated Field Formulas](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)#important-notes)) 
 
 ## Sample
 
