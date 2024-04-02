@@ -16,8 +16,8 @@ The format expects the following fields:
 
 |Type|Internal Name|Notes|
 |------|------|------|
-|Choice|Importance|Choices - High, Low
-|Choice|Urgency|Choices - High, Low
+|Choice|Importance|Options - High, Low
+|Choice|Urgency|Options - High, Low
 |Calculated field - Single line of text |EMatrix|Formula - `=IF(AND(Importance<>"",Urgency<>""),IF(Importance="High",2,1)&"."&IF(Urgency="High",2,1),"")` or `=IF(AND(Importance<>"";Urgency<>"");IF(Importance="High";2;1)&"."&IF(Urgency="High";2;1);"")`
 
 > [!NOTE]  
