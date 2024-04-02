@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover"
+        "value": "ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover, ms-Link"
       }
     ],
     "thumbnails": [
