@@ -1,0 +1,342 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "color": "#2c2a29"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "font-size": "10pt",
+        "width": "95%",
+        "cursor": "pointer",
+        "display": "inline-block"
+      },
+      "txtContent": "@currentField",
+      "attributes": {
+        "class": "ms-Link",
+        "title": "@currentField"
+      },
+      "customRowAction": {
+        "action": "defaultClick"
+      }
+    },
+    {
+      "elmType": "span",
+      "style": {
+        "font-size": "16pt",
+        "cursor": "pointer",
+        "padding": "2px"
+      },
+      "attributes": {
+        "iconName": "MoreVertical",
+        "class": "ms-bgColor-gray50--hover",
+        "title": "Click to Show Actions"
+      },
+      "customCardProps": {
+        "openOnEvent": "click",
+        "directionalHint": "rightCenter",
+        "isBeakVisible": true,
+        "beakStyle": {
+          "backgroundColor": "#002855"
+        },
+        "formatter": {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "border": "1px solid #002855"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "style": {
+                            "font-size": "12pt",
+                            "color": "#ffffff",
+                            "font-weight": "600",
+                            "text-align": "center",
+                            "padding-bottom": "5px",
+                            "margin-bottom": "5px",
+                            "border-bottom": "1px solid #002855",
+                            "background-color": "#002855"
+                          },
+                          "txtContent": "Item Menu"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "customRowAction": {
+                        "action": "defaultClick"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "OpenFile",
+                            "title": "='Item ID: ' + [$ID]"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "title": "='Item ID: ' + [$ID]"
+                          },
+                          "txtContent": "Open"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "customRowAction": {
+                        "action": "editProps"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "Edit",
+                            "title": "='Item ID: ' + [$ID]"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "title": "='Item ID: ' + [$ID]"
+                          },
+                          "txtContent": "Edit"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "border-bottom": "1px solid #c0c0c0",
+                        "margin": "0px 5px"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center",
+                        "text-decoration": "none"
+                      },
+                      "attributes": {
+                        "target": "_blank",
+                        "data-interception": "off",
+                        "href": "=@currentWeb + '/_layouts/15/versions.aspx?List=' + '%7B' + '__LIST ID__' + '%7D' + '&ID=' + [$ID]",
+                        "title": "Version history",
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "History"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "txtContent": "Version history"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "border-bottom": "1px solid #c0c0c0",
+                        "margin": "0px 5px"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center",
+                        "text-decoration": "none"
+                      },
+                      "attributes": {
+                        "target": "_blank",
+                        "data-interception": "off",
+                        "href": "=@currentWeb + '/_layouts/15/SubNew.aspx?List=' + '%7B' + '__LIST ID__' + '%7D' + '&ID=' + [$ID]",
+                        "title": "Alerts",
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "AlarmClock"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "txtContent": "Alerts"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center"
+                      },
+                      "attributes": {
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "customRowAction": {
+                        "action": "executeFlow",
+                        "actionParams": "{\"id\": \"__FLOW ID__\"}"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "Flow"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "txtContent": "Flow Name"
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "style": {
+                        "border-bottom": "1px solid #c0c0c0",
+                        "margin": "0px 5px"
+                      }
+                    },
+                    {
+                      "elmType": "a",
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "color": "#2c2a29",
+                        "cursor": "pointer",
+                        "display": "flex",
+                        "align-items": "center",
+                        "text-decoration": "none"
+                      },
+                      "attributes": {
+                        "target": "_blank",
+                        "data-interception": "off",
+                        "href": "=substring([$FileRef],0,lastIndexOf([$FileRef],'/'))",
+                        "title": "Default View",
+                        "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          },
+                          "attributes": {
+                            "iconName": "PageList"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          },
+                          "txtContent": "View"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'inline','none')"
+  },
+  "attributes": {
+    "title": "@currentField"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "max-width": "155px",
+        "min-width": "145px",
+        "width": "100%",
+        "display": "flex",
+        "margin": "1px",
+        "align-items": "center",
+        "justify-content": "center",
+        "flex-wrap": "wrap",
+        "flex-direction": "row"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "Do",
+          "style": {
+            "display": "flex",
+            "min-height": "45px",
+            "height": "100%",
+            "max-width": "65px",
+            "width": "100%",
+            "background-color": "='rgba(132, 189, 0,' + if(@currentField == '2.2', 1, .2) + ')'",
+            "color": "#fff",
+            "border-radius": "5px",
+            "border-width": "2px",
+            "border-style": "solid",
+            "border-color": "rgba(35, 30, 25, 1)",
+            "flex-basis": "40%",
+            "align-items": "center",
+            "justify-content": "center",
+            "flex-direction": "column",
+            "font-size": "1.2em",
+            "font-family": "sans-serif"
+          },
+          "attributes": {
+            "title": "=if(@currentField == '2.2', 'Do: Tasks with deadlines or consequences', if(@currentField == '2.1', 'Decide: Schedule Tasks for later with unclear deadlines that contribute to long-term success', if(@currentField == '1.2', 'Delegate: Tasks that must get done but don\\'t require your specific skill set.', if(@currentField == '1.1', 'Delete: Distractions and unnecessary tasks.',''))))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Decide",
+          "style": {
+            "display": "flex",
+            "min-height": "45px",
+            "height": "100%",
+            "max-width": "65px",
+            "width": "100%",
+            "background-color": "='rgba(241, 180, 52,' + if(@currentField == '2.1', 1, .2) + ')'",
+            "color": "#fff",
+            "border-radius": "5px",
+            "border-width": "2px",
+            "border-style": "solid",
+            "border-color": "rgba(35, 30, 25, 1)",
+            "flex-basis": "40%",
+            "align-items": "center",
+            "justify-content": "center",
+            "flex-direction": "column",
+            "font-size": "1.2em",
+            "font-family": "sans-serif"
+          },
+          "attributes": {
+            "title": "=if(@currentField == '2.2', 'Do: Tasks with deadlines or consequences', if(@currentField == '2.1', 'Decide: Schedule Tasks for later with unclear deadlines that contribute to long-term success', if(@currentField == '1.2', 'Delegate: Tasks that must get done but don\\'t require your specific skill set.', if(@currentField == '1.1', 'Delete: Distractions and unnecessary tasks.',''))))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Delegate",
+          "style": {
+            "display": "flex",
+            "min-height": "45px",
+            "height": "100%",
+            "max-width": "65px",
+            "width": "100%",
+            "background-color": "='rgba(0, 40, 85,' + if(@currentField == '1.2', 1, .2) + ')'",
+            "color": "#fff",
+            "border-radius": "5px",
+            "border-width": "2px",
+            "border-style": "solid",
+            "border-color": "rgba(35, 30, 25, 1)",
+            "flex-basis": "40%",
+            "align-items": "center",
+            "justify-content": "center",
+            "flex-direction": "column",
+            "font-size": "1.2em",
+            "font-family": "sans-serif"
+          },
+          "attributes": {
+            "title": "=if(@currentField == '2.2', 'Do: Tasks with deadlines or consequences', if(@currentField == '2.1', 'Decide: Schedule Tasks for later with unclear deadlines that contribute to long-term success', if(@currentField == '1.2', 'Delegate: Tasks that must get done but don\\'t require your specific skill set.', if(@currentField == '1.1', 'Delete: Distractions and unnecessary tasks.',''))))"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "Delete",
+          "style": {
+            "display": "flex",
+            "min-height": "45px",
+            "height": "100%",
+            "max-width": "65px",
+            "width": "100%",
+            "background-color": "='rgba(164, 39, 45,' + if(@currentField == '1.1', 1, .2) + ')'",
+            "color": "#fff",
+            "border-radius": "5px",
+            "border-width": "2px",
+            "border-style": "solid",
+            "border-color": "rgba(35, 30, 25, 1)",
+            "flex-basis": "40%",
+            "align-items": "center",
+            "justify-content": "center",
+            "flex-direction": "column",
+            "font-size": "1.2em",
+            "font-family": "sans-serif"
+          },
+          "attributes": {
+            "title": "=if(@currentField == '2.2', 'Do: Tasks with deadlines or consequences', if(@currentField == '2.1', 'Decide: Schedule Tasks for later with unclear deadlines that contribute to long-term success', if(@currentField == '1.2', 'Delegate: Tasks that must get done but don\\'t require your specific skill set.', if(@currentField == '1.1', 'Delete: Distractions and unnecessary tasks.',''))))"
+          }
+        }
+      ]
+    }
+  ]
+}
