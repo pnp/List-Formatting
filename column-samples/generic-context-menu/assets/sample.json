@@ -38,11 +38,11 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "substring, "
+        "value": "substring"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "executeFlow"
+        "value": "defaultClick, executeFlow"
       },
       {
         "key": "FORMATTING-FEATURES",
