@@ -32,7 +32,7 @@ generic-context-menu.json | [Larry Pfaff](https://github.com/jaxkookie) ([@jaxko
 
 Version |Date          |Comments
 --------|--------------|--------------------------------
-1.0     |March 14, 2024 |Initial release
+1.0     |April 2, 2024 |Initial release
 
 ## Disclaimer
 
