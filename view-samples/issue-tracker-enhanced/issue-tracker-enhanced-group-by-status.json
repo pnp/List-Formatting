@@ -1,0 +1,155 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "groupProps": {
+      "headerFormatter": {
+        "elmType": "div",
+        "style": {
+          "padding-left": "12px",
+          "font-size": "16px",
+          "font-weight": "600"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=@group.columnDisplayName + ':'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-wrap": "wrap",
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "padding": "4px 8px 5px 8px",
+                  "overflow": "hidden",
+                  "text-overflow": "ellipsis",
+                  "display": "flex",
+                  "border-radius": "16px",
+                  "height": "24px",
+                  "align-items": "center",
+                  "white-space": "nowrap",
+                  "margin": "4px 4px 4px 4px"
+                },
+                "attributes": {
+                  "class": {
+                    "operator": ":",
+                    "operands": [
+                      {
+                        "operator": "==",
+                        "operands": [
+                          "@group.fieldData",
+                          "Blocked"
+                        ]
+                      },
+                      "sp-css-backgroundColor-errorBackground50 sp-css-color-redDark",
+                      {
+                        "operator": ":",
+                        "operands": [
+                          {
+                            "operator": "==",
+                            "operands": [
+                              "@group.fieldData",
+                              "In progress"
+                            ]
+                          },
+                          "sp-css-backgroundColor-neutralBackground10",
+                          {
+                            "operator": ":",
+                            "operands": [
+                              {
+                                "operator": "==",
+                                "operands": [
+                                  "@group.fieldData",
+                                  "Completed"
+                                ]
+                              },
+                              "sp-css-backgroundColor-BgMintGreen sp-css-color-green",
+                              {
+                                "operator": ":",
+                                "operands": [
+                                  {
+                                    "operator": "==",
+                                    "operands": [
+                                      "@group.fieldData",
+                                      "Duplicate"
+                                    ]
+                                  },
+                                  "sp-css-backgroundColor-warningBackground50 sp-css-color-themeDarker",
+                                  {
+                                    "operator": ":",
+                                    "operands": [
+                                      {
+                                        "operator": "==",
+                                        "operands": [
+                                          "@group.fieldData",
+                                          "By design"
+                                        ]
+                                      },
+                                      "sp-css-backgroundColor-blueBackground07 sp-css-color-neutralPrimary",
+                                      {
+                                        "operator": ":",
+                                        "operands": [
+                                          {
+                                            "operator": "==",
+                                            "operands": [
+                                              "@group.fieldData",
+                                              "Won't fix"
+                                            ]
+                                          },
+                                          "sp-css-backgroundColor-errorBackground sp-css-color-redDark",
+                                          {
+                                            "operator": ":",
+                                            "operands": [
+                                              {
+                                                "operator": "==",
+                                                "operands": [
+                                                  "@group.fieldData",
+                                                  "New"
+                                                ]
+                                              },
+                                              "sp-css-backgroundColor-blueBackground17 sp-css-color-blue",
+                                              {
+                                                "operator": ":",
+                                                "operands": [
+                                                  {
+                                                    "operator": "==",
+                                                    "operands": [
+                                                      "@group.fieldData",
+                                                      ""
+                                                    ]
+                                                  },
+                                                  "",
+                                                  ""
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "txtContent": "@group.fieldData"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='(' + @group.count + ')'"
+          }
+        ]
+      }
+    }
+  }

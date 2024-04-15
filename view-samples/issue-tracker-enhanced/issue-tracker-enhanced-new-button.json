@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "new",
+        "text": "Log an issue",
+        "iconName": "Bug"
+      }
+    ]
+  },
+  "additionalRowClass": {
+    "operator": ":",
+    "operands": [
+      {
+        "operator": "==",
+        "operands": [
+          {
+            "operator": "toLowerCase",
+            "operands": [
+              "[$Status]"
+            ]
+          },
+          {
+            "operator": "toLowerCase",
+            "operands": [
+              "Blocked"
+            ]
+          }
+        ]
+      },
+      "sp-css-backgroundColor-errorBackground",
+      ""
+    ]
+  }
+}

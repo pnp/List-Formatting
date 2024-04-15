@@ -1,0 +1,268 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "groupProps": {
+      "headerFormatter": {
+        "elmType": "div",
+        "style": {
+          "padding-left": "12px",
+          "font-size": "16px",
+          "font-weight": "600"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=@group.columnDisplayName + ':'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-wrap": "wrap",
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "box-sizing": "border-box",
+                  "padding": "4px 8px 5px 8px",
+                  "display": "flex",
+                  "border-radius": "16px",
+                  "height": "24px",
+                  "align-items": "center",
+                  "white-space": "nowrap",
+                  "overflow": "hidden",
+                  "margin": "4px 4px 4px 4px"
+                },
+                "attributes": {
+                  "class": {
+                    "operator": ":",
+                    "operands": [
+                      {
+                        "operator": "==",
+                        "operands": [
+                          "@group.fieldData",
+                          "Critical"
+                        ]
+                      },
+                      "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralPrimary",
+                      {
+                        "operator": ":",
+                        "operands": [
+                          {
+                            "operator": "==",
+                            "operands": [
+                              "@group.fieldData",
+                              "High"
+                            ]
+                          },
+                          "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralPrimary",
+                          {
+                            "operator": ":",
+                            "operands": [
+                              {
+                                "operator": "==",
+                                "operands": [
+                                  "@group.fieldData",
+                                  "Normal"
+                                ]
+                              },
+                              "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralPrimary",
+                              {
+                                "operator": ":",
+                                "operands": [
+                                  {
+                                    "operator": "==",
+                                    "operands": [
+                                      "@group.fieldData",
+                                      "Low"
+                                    ]
+                                  },
+                                  "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralPrimary",
+                                  {
+                                    "operator": ":",
+                                    "operands": [
+                                      {
+                                        "operator": "==",
+                                        "operands": [
+                                          "@group.fieldData",
+                                          ""
+                                        ]
+                                      },
+                                      "",
+                                      "sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralPrimary"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "line-height": "16px",
+                      "height": "14px"
+                    },
+                    "attributes": {
+                      "iconName": {
+                        "operator": ":",
+                        "operands": [
+                          {
+                            "operator": "==",
+                            "operands": [
+                              "@group.fieldData",
+                              "Critical"
+                            ]
+                          },
+                          "ErrorBadge",
+                          {
+                            "operator": ":",
+                            "operands": [
+                              {
+                                "operator": "==",
+                                "operands": [
+                                  "@group.fieldData",
+                                  "High"
+                                ]
+                              },
+                              "SortUp",
+                              {
+                                "operator": ":",
+                                "operands": [
+                                  {
+                                    "operator": "==",
+                                    "operands": [
+                                      "@group.fieldData",
+                                      "Normal"
+                                    ]
+                                  },
+                                  "",
+                                  {
+                                    "operator": ":",
+                                    "operands": [
+                                      {
+                                        "operator": "==",
+                                        "operands": [
+                                          "@group.fieldData",
+                                          "Low"
+                                        ]
+                                      },
+                                      "SortDown",
+                                      {
+                                        "operator": ":",
+                                        "operands": [
+                                          {
+                                            "operator": "==",
+                                            "operands": [
+                                              "@group.fieldData",
+                                              ""
+                                            ]
+                                          },
+                                          "",
+                                          ""
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "padding": "0 3px"
+                    },
+                    "txtContent": "@group.fieldData",
+                    "attributes": {
+                      "class": {
+                        "operator": ":",
+                        "operands": [
+                          {
+                            "operator": "==",
+                            "operands": [
+                              "@group.fieldData",
+                              "Critical"
+                            ]
+                          },
+                          "",
+                          {
+                            "operator": ":",
+                            "operands": [
+                              {
+                                "operator": "==",
+                                "operands": [
+                                  "@group.fieldData",
+                                  "High"
+                                ]
+                              },
+                              "",
+                              {
+                                "operator": ":",
+                                "operands": [
+                                  {
+                                    "operator": "==",
+                                    "operands": [
+                                      "@group.fieldData",
+                                      "Normal"
+                                    ]
+                                  },
+                                  "",
+                                  {
+                                    "operator": ":",
+                                    "operands": [
+                                      {
+                                        "operator": "==",
+                                        "operands": [
+                                          "@group.fieldData",
+                                          "Low"
+                                        ]
+                                      },
+                                      "",
+                                      {
+                                        "operator": ":",
+                                        "operands": [
+                                          {
+                                            "operator": "==",
+                                            "operands": [
+                                              "@group.fieldData",
+                                              ""
+                                            ]
+                                          },
+                                          "",
+                                          ""
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='(' + @group.count + ')'"
+          }
+        ]
+      }
+    }
+  }

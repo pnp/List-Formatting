@@ -1,0 +1,29 @@
+{
+    "sections": [
+        {
+            "displayname": "Details",
+            "fields": [
+                "Issue",
+                "Issue description",
+                "Priority"
+            ]
+        },
+        {
+            "displayname": "Additional information",
+            "fields": [
+                "Date reported",
+                "Issue logged by",
+                "Issue source",
+                "Image",
+                "Associated files"
+            ]
+        },
+        {
+            "displayname": "Tracking",
+            "fields": [
+                "Status",
+                "Assigned to"
+            ]
+        }
+    ]
+}

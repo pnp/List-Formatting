@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "span",
+  "txtContent": "@currentField.displayValue",
+  "attributes": {
+    "class": "=if(@currentField < addDays(@now,-7) && ([$Status]=='New' || [$Status]=='In progress' && [$Status]=='Blocked'),'ms-fontColor-red ms-fontWeight-bold','')"
+  }
+}

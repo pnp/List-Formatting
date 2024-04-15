@@ -1,0 +1,249 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/board-formatting.schema.json",
+    "hideSelection": false,
+    "formatter": {
+      "elmType": "div",
+      "attributes": {
+        "class": "sp-card-container sp-card-container-noPadding"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer sp-card-subContainer-borderRadius"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if([$Images] == '', 'none', '')"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "class": "sp-card-imageContainer-shortened"
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "attributes": {
+                        "class": "ms-bgColor-neutralLight sp-card-imagePreviewBackground-shortened"
+                      },
+                      "children": [
+                        {
+                          "elmType": "img",
+                          "attributes": {
+                            "draggable": "false",
+                            "alt": "[$Images.fileName]",
+                            "src": "=getThumbnailImage([$Images], 400, 400)",
+                            "title": "[$Images.fileName]",
+                            "class": "sp-card-imagePreview-stretched"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-previewColumnContainer"
+              }
+            },
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "p",
+                  "attributes": {
+                    "title": "[$Title]",
+                    "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent",
+                    "role": "heading",
+                    "aria-level": "3"
+                  },
+                  "txtContent": "=if ([$Title] == '', '–', [$Title])"
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-displayColumnContainer"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if ([$Description] == '', 'none', '')"
+              },
+              "children": [
+                {
+                  "elmType": "p",
+                  "attributes": {
+                    "title": "[$Description]",
+                    "class": "ms-fontColor-neutralPrimary sp-card-content  sp-card-multiline"
+                  },
+                  "txtContent": "=if ([$Description] == '', '–', [$Description])",
+                  "style": {
+                    "-webkit-line-clamp": "2",
+                    "height": "40px"
+                  }
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-displayColumnContainer"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if ([$Status] == '', 'none', '')"
+              },
+              "inlineEditField": "[$Status]",
+              "children": [
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "class": "sp-card-content sp-card-formatterRef"
+                  },
+                  "children": [
+                    {
+                      "columnFormatterReference": "[$Status]"
+                    }
+                  ]
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-displayColumnContainer"
+              }
+            },
+            {
+              "elmType": "div",
+              "inlineEditField": "[$Assignedto0]",
+              "children": [
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex"
+                  },
+                  "children": [
+                    {
+                      "elmType": "p",
+                      "attributes": {
+                        "class": "sp-card-userEmptyText"
+                      },
+                      "style": {
+                        "font-style": "italic"
+                      },
+                      "txtContent": "=if(length([$Assignedto0]) == 0, 'Unassigned', '')"
+                    },
+                    {
+                      "forEach": "personIterator in [$Assignedto0]",
+                      "elmType": "a",
+                      "attributes": {
+                        "class": "=if(loopIndex('personIterator') >= 5, 'sp-card-userContainer', 'sp-card-userContainer sp-card-keyboard-focusable')"
+                      },
+                      "style": {
+                        "display": "=if(loopIndex('personIterator') >= 5, 'none', '')"
+                      },
+                      "children": [
+                        {
+                          "elmType": "img",
+                          "defaultHoverField": "[$personIterator]",
+                          "attributes": {
+                            "src": "=getUserImage([$personIterator.email], 'S')",
+                            "title": "[$personIterator.title]",
+                            "class": "sp-card-userThumbnail"
+                          },
+                          "style": {
+                            "display": "=if(length([$Assignedto0]) > 5 && loopIndex('personIterator') >= 4, 'none', '')"
+                          }
+                        },
+                        {
+                          "elmType": "div",
+                          "attributes": {
+                            "class": "ms-bgColor-neutralLight ms-fontColor-neutralSecondary sp-card-userOthers"
+                          },
+                          "style": {
+                            "display": "=if(length([$Assignedto0]) > 5 && loopIndex('personIterator') == 4, '', 'none')"
+                          },
+                          "customCardProps": {
+                            "formatter": {
+                              "elmType": "div",
+                              "attributes": {
+                                "class": "sp-card-personCallout"
+                              },
+                              "children": [
+                                {
+                                  "forEach": "personIterator in [$Assignedto0]",
+                                  "elmType": "div",
+                                  "attributes": {
+                                    "class": "sp-card-userContainer sp-card-userCustomCard"
+                                  },
+                                  "style": {
+                                    "display": "=if(loopIndex('personIterator') < 4, 'none', '')"
+                                  },
+                                  "children": [
+                                    {
+                                      "elmType": "img",
+                                      "defaultHoverField": "[$personIterator]",
+                                      "attributes": {
+                                        "src": "=getUserImage([$personIterator.email], 'S')",
+                                        "title": "[$personIterator.title]",
+                                        "class": "sp-card-userThumbnail"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "openOnEvent": "hover"
+                          },
+                          "children": [
+                            {
+                              "elmType": "span",
+                              "txtContent": "='+' + toString(length([$Assignedto0]) - (4))"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "attributes": {
+                        "class": "sp-card-userTitle sp-card-keyboard-focusable"
+                      },
+                      "style": {
+                        "display": "=if(length([$Assignedto0]) == 1, '', 'none')"
+                      },
+                      "defaultHoverField": "[$personIterator]",
+                      "txtContent": "[$Assignedto0.title]"
+                    }
+                  ]
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-previewColumnContainer"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if ([$DateReported.displayValue] == '','none', ''"
+              },
+              "children": [
+                {
+                  "elmType": "p",
+                  "attributes": {
+                    "title": "=if ([$DateReported.displayValue] == '', '–', [$DateReported.displayValue])",
+                    "class": "ms-fontColor-neutralPrimary sp-card-content "
+                  },
+                  "txtContent": "=if ([$DateReported.displayValue] == '', '–', [$DateReported.displayValue])"
+                }
+              ],
+              "attributes": {
+                "class": "sp-card-displayColumnContainer"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }

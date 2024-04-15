@@ -1,0 +1,24 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "groupProps": {
+      "headerFormatter": {
+        "elmType": "div",
+        "style": {
+          "padding-left": "12px",
+          "font-size": "16px",
+          "font-weight": "600"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=@group.columnDisplayName + ':'"
+          },
+          
+          {
+            "elmType": "div",
+            "txtContent": "='(' + @group.count + ')'"
+          }
+        ]
+      }
+    }
+  }
