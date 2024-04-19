@@ -15,7 +15,7 @@ You can use column and view formatting to customize how fields in SharePoint lis
 
 This is a open source repository to share different kind of formatting json files between community. Check [**column-samples**](./column-samples), [**view-samples**](./view-samples) or [**form-samples**](./form-samples) folder for what's currently available. Have you build one which you can share? - **We do welcome contributions**.
 
-![](https://github.com/SharePoint/sp-dev-docs/raw/master/docs/images/sp-columnformatting-all.png)
+![Column formatting sample](https://github.com/SharePoint/sp-dev-docs/raw/main/docs/images/sp-columnformatting-all.png)
 
 You can find more details around the column formatting capability from official SharePoint Dev documentation. 
 
