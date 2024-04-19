@@ -24,6 +24,7 @@ workflow-progress-header.json | [Tetsuya Kawahara](https://github.com/tecchan110
 Version |Date             |Comments
 --------|-----------------|--------
 1.0     |February 1, 2021 |Initial release
+1.1     |April 19, 2024 |Fixed to use `[$ColumnName.displayValue]` instead of `toLocaleDateString` operator to solve the problem that date is not displayed depending on the date format.
 
 
 ## Disclaimer
