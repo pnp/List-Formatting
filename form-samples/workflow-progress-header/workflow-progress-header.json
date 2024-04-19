@@ -40,7 +40,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "=toLocaleDateString([$Date1])"
+          "txtContent": "=[$Date1.displayValue]"
         }
       ]
     },
@@ -73,7 +73,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "=toLocaleDateString([$Date2])"
+          "txtContent": "=[$Date2.displayValue]"
         }
       ]
     },
@@ -106,7 +106,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "=toLocaleDateString([$Date3])"
+          "txtContent": "=[$Date3.displayValue]"
         }
       ]
     }
