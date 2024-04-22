@@ -1,4 +1,4 @@
-# Change color of Item Child Count when enough files have been uploaded
+# Change color based on Item Child Count
 
 ## Summary
 This sample displays the value of the column Item Child Count in green when 5 documents have been uploaded. If less or more then 5 documents are uploaded, the field will be green.
@@ -30,3 +30,5 @@ Version|Date|Comments
 ## Additional notes
 
 - None
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/childcount-color-change" />
