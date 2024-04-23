@@ -3,7 +3,7 @@
 ## Summary
 Sometimes you might need a more specialised "Share to Teams" option - this one allows for sharing a short synopsis & URL!
 
-![picture of the format in action](./assets/screenshot.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - Sample is applied to a calculated column type (formula `=""`)
