@@ -26,15 +26,15 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons, Inline Editing, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Person, Multi-Person"
+        "value": "Person"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@me"
       },
       {
         "key": "FORMATTING-OPERATORS",
