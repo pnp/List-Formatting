@@ -1,7 +1,7 @@
 [
   {
     "name": "pnp-list-formatting-welcome-header",
-    "reponame": "Welcome Header",
+    "reponame": "welcome-header",
     "source": "pnp",
     "title": "Welcome Header",
     "shortDescription": "This sample demonstrates how to display Welcome message depending on time of day, display user profile image in Forms Header.",
@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@me, @now"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toLocaleTimeString, indexOf, replaceAll, getUserImage"
+        "value": "toLocaleTimeString, indexOf, replaceAll, getUserImage, substring"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "sp-css-color-themePrimary, sp-css-backgroundColor-themeLight, ms-fontSize-24, ms-fontWeight-semibold"
+        "value": "sp-css-color-themePrimary, sp-css-backgroundColor-themeLight, ms-fontSize-24, ms-fontWeight-semibold, ms-fontSize-12"
       }
     ],
     "thumbnails": [
