@@ -23,6 +23,34 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Person"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@lcid"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
       }
     ],
     "thumbnails": [
