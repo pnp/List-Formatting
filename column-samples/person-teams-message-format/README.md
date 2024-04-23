@@ -5,7 +5,7 @@ This sample is using [Microsoft Teams deep links](https://learn.microsoft.com/mi
 
 - person-teams-message-format-name-picture.json
 
-    ![screenshot of the sample](./assets/screenshot-name-picture.png)
+    ![screenshot of the sample](./assets/screenshot.png)
 
 - person-teams-message-format-name.json
 
@@ -22,7 +22,7 @@ This sample is using [Microsoft Teams deep links](https://learn.microsoft.com/mi
 
 Solution|Author(s)
 --------|---------
-person-teams-message-format-name-picture.json | [Steve Corey](https://github.com/stevecorey365) ([@stevecorey365](https://twitter.com/stevecorey365))
+person-teams-message-format.json | [Steve Corey](https://github.com/stevecorey365) ([@stevecorey365](https://twitter.com/stevecorey365))
 person-teams-message-format-name.json | [Steve Corey](https://github.com/stevecorey365) ([@stevecorey365](https://twitter.com/stevecorey365))
 person-teams-message-format-picture.json | [Steve Corey](https://github.com/stevecorey365) ([@stevecorey365](https://twitter.com/stevecorey365))
 
