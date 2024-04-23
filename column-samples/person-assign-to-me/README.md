@@ -16,7 +16,7 @@ This sample demonstrates the use of the `setValue` action of `customRowAction` t
 
 Solution|Author(s)
 --------|---------
-person-assign-to-me-single.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+person-assign-to-me.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 person-assign-to-me-multi.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
