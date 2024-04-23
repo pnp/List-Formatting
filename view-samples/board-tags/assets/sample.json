@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toString, Number, Date, loopIndex, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear, lastIndexOf, getUserImage"
+        "value": "toString, Number, loopIndex, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear, lastIndexOf, getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
