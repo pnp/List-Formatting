@@ -3,7 +3,7 @@
 ## Summary
 This sample how to create chevron style shape with background image. When mouse over image popups and display title and description.
 
-![Chevron shape format](./assets/chevron-shape-format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -18,7 +18,7 @@ IMG | Image  - Background image
 
 Solution|Author(s)
 --------|---------
-chevron-shape-format.json | [André Lage](https://twitter.com/aaclage)
+chevron-shape-format.json | [AndrÃ© Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
 
 ## Version history
 
@@ -30,4 +30,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/reorder-expand-items-board-format" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/chevron-shape-format" />
