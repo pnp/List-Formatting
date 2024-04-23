@@ -5,7 +5,7 @@
       "forEach": "personIterator in [$Contacts]",
       "elmType": "div",
       "style": {
-        "padding": " 20px 5px",
+        "padding": "20px 5px",
         "position": "relative",
         "left": "=if(loopIndex('personIterator') == 0, '0px',if(loopIndex('personIterator') % 2, '-'+ (28*Number(loopIndex('personIterator'))) +'px','-'+ (28*Number(loopIndex('personIterator'))) +'px'))"
       },
