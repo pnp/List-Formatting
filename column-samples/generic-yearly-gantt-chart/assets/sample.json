@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@now"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number, Date, getYear"
+        "value": "Number, Date, getYear, floor"
       },
       {
         "key": "FORMATTING-ACTIONS",
