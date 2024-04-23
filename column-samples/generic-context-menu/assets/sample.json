@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,15 +38,15 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "substring"
+        "value": "substring, lastIndexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "defaultClick, executeFlow"
+        "value": "defaultClick, executeFlow, editProps"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps"
+        "value": "customCardProps, beakStyle, directionalHint"
       },
       {
         "key": "CLASSES",
