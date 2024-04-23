@@ -1,9 +1,11 @@
-<p align="center">
-<img src="./assets/Thumbnail.png" width="80%">
-</p>
+# Multi-choice Thumbnail
 
-## WHAT IS IT?
-This tutorial will help you create a multiple thumbnail through images URLs listed in a **multiple choice column**. To achieve this result, you can implement one of the following column formatting options:
+## Summary
+This tutorial will help you create multiple thumbnails through images URLs listed in a **multiple choice column**.
+
+![screenshot of the sample](./assets/screenshot.png)
+
+To achieve this result, you can implement one of the following column formatting options:
 
 **1. Basic thumbnail**: each URL is displayed with its own miniature and a little button to open each image through your default web browser.
 
@@ -16,6 +18,8 @@ Examples of images URLs are:
 - ✔️ https://www.example.com/products/images/helloworld.jpg (external domain)
 - ✔️ https://cdn.example.com/media/cms/images/helloworld.webp (external domain)
 - ✔️ https://contoso.sharepoint.com/sites/marketing/Document-Library/Images/helloworld.png (SharePoint)
+
+## View requirements
 
 ### Column width and user interface
 Both samples illustrated below have a column **min-width of 730px**, to allow an optimal user interface both for a list view and the **OOTB** Microsoft Lists form. If your multiple thumbnail appears as partially cut, select the right edge of column header, drag to the right and increase its width. [Save](https://support.microsoft.com/office/create-or-change-the-view-of-a-list-25393905-087c-4b0a-9fb4-5c1e165b99b7) your view to keep current column settings. 
@@ -65,7 +69,7 @@ If you are wondering what's happening when a user clicks on a miniature, here is
 
 Solution|Author(s)
 --------|---------
-multi-choice-thumbnail-basic.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+multi-choice-thumbnail.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 multi-choice-thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
 
 ## Version history
