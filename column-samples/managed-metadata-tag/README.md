@@ -12,7 +12,7 @@ This format can be applied to a Managed Metadata column. Or it can be applied to
 
 Solution|Author(s)
 --------|---------
-managed-metadata-tag-single-value.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+managed-metadata-tag.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 managed-metadata-tag-multiple-values.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
