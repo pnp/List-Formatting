@@ -19,7 +19,7 @@
             "border-radius": "14px"
           },
           "attributes": {
-            "class": "ms-bgColor-neutralLight ms-fontColor-neutralPrimary"
+            "class": "=if(@currentField.email==@me,'ms-bgColor-themeLighter ms-fontColor-themeDarker','ms-bgColor-neutralLight ms-fontColor-neutralPrimary')"
           },
           "defaultHoverField": "@currentField",
           "children": [
@@ -31,7 +31,7 @@
                 "border-radius": "50%"
               },
               "attributes": {
-                "src": "=getUserImage(@currentField.email,'small')"
+                "src": "=getUserImage(@currentField.email, 'small')"
               }
             },
             {
