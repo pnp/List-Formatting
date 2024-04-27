@@ -71,7 +71,8 @@
           "style": {
             "display": "=if(indexOf(@currentField.email,@me)>-1,'none','flex')",
             "align-items": "center",
-            "margin": "3px"
+            "margin": "3px",
+            "cursor": "pointer"
           },
           "attributes": {
             "class": "ms-Link ms-fontColor-themePrimary"
