@@ -57,7 +57,7 @@
             "cursor": "pointer"
           },
           "attributes": {
-            "class": "ms-Link ms-fontColor-themePrimary"
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
           },
           "customRowAction": {
             "action": "setValue",
