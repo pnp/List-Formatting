@@ -10,7 +10,7 @@
       "This sample demonstrates the use of the setValue action of customRowAction to set the current logged-in user in the Person column."
     ],
     "creationDateTime": "2023-05-11T00:00:00.000Z",
-    "updateDateTime": "2024-04-26T00:00:00.000Z",
+    "updateDateTime": "2024-04-28T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-Link, ms-fontColor-themeDarker, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-bgColor-neutralLight, ms-bgColor-themeLighter, ms-fontSize-s"
+        "value": "ms-fontColor-themeDarker, ms-fontColor-themeDarker--hover, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-bgColor-neutralLight, ms-bgColor-themeLighter, ms-fontSize-s"
       }
     ],
     "thumbnails": [
