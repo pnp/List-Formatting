@@ -29,7 +29,11 @@ Approval Status  |Icon Name         |Background color related CSS class|
 
 ### approval-status-icon-color-with-approvals.json
 
-**approval-status-icon-color-with-approvals.json** is a sample that can be applied to the Approval Status column with the internal column name `_ApprovalStatus` in the list templates "Travel Request with Approval" and "Content Scheduler with Approval".
+**approval-status-icon-color-with-approvals.json** is a sample that can be applied to the Approval status column with the internal column name `_ApprovalStatus` created when the [Approvals in Lists](https://support.microsoft.com/office/approvals-in-lists-2bd0954d-5797-4be3-b78a-846f26338e17) feature is enabled.
+
+![screenshot of the approvals in lists feature](./assets/approvals-in-lists.png)
+
+Since the Approvals in Lists feature is also enabled for the "Travel Request with Approval" and "Content Scheduler with Approval" list templates, this sample is also available for these templates.
 
 ![screenshot of the list templates](./assets/list-templates.png)
 
@@ -49,7 +53,7 @@ When you click on "Approval Details," the "Request approval" dialog or the "Appr
 ## View requirements
 
 - **approval-status-icon-color-content-approval.json** can be applied to the Approval Status column with  the internal column name of `_ModerationStatus` when content approval is set as required.
-- **approval-status-icon-color-with-approvals.json** can be applied to the Approval Status column with the internal column name `_ApprovalStatus` in the list templates "Travel Request with Approval" and "Content Scheduler with Approval".
+- **approval-status-icon-color-with-approvals.json** can be applied to the Approval status column with the internal column name `_ApprovalStatus`, which is created when the Approvals in Lists feature is enabled.
 
 ## Sample
 
@@ -63,6 +67,7 @@ approval-status-icon-color-with-approvals.json | [Tetsuya Kawahara](https://gith
 Version |Date        |Comments
 --------|------------|----------------
 1.0     |June 4, 2023|Initial release
+1.1     |May 22, 2024|Added a note to README.md about the Approvals in Lists feature
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -71,6 +76,6 @@ Version |Date        |Comments
 
 ## Additional notes
 
-- As of June 4, 2023, the approval features available in list templates "Travel requests with approvals" and "Content scheduler with approvals" are in the process of being rolled out. Therefore, they may not be available for some tenants. (Roadmap ID [100502](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=100502))
+- [Approvals in Lists](https://support.microsoft.com/office/approvals-in-lists-2bd0954d-5797-4be3-b78a-846f26338e17) feature has not yet been deployed as of May 22, 2024 and some tenants may not be able to activate the feature.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-status-icon-color" />
