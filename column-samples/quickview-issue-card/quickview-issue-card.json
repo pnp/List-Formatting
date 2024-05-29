@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "font-size": "12px"
+  },
+  "txtContent": "View card",
+  "customCardProps": {
+    "formatter": {
+      "elmType": "div",
+      "attributes": {},
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "height": "200px",
+        "width": "300px",
+        "background-color": "#0078d4",
+        "color": "#ffffff",
+        "border": "1px solid #ccc",
+        "padding": "10px",
+        "box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "font-size": "18px",
+            "font-weight": "bold",
+            "width": "100%",
+            "color": "#ffcc29"
+          },
+          "txtContent": "[$Title]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Description: ' + [$Description]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Priority: ' + [$Priority]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Date Reported: ' + toDateString([$DateReported])"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Status: ' + [$Status]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Assigned To: ' + [$Assignedto0.title]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "margin-bottom": "8px",
+            "width": "100%"
+          },
+          "txtContent": "='Created By: ' + [$Issueloggedby.title]"
+        }
+      ]
+    },
+    "openOnEvent": "hover",
+    "directionalHint": "topCenter",
+    "isBeakVisible": true,
+    "beakStyle": {
+      "backgroundColor": "white"
+    }
+  }
+}
