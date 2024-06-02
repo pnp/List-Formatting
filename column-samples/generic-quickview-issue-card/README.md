@@ -6,7 +6,6 @@ The Issue HoverCard Formatter is a SharePoint list Column JSON formatter compone
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-
 ## View requirements
 
 | Column Name         | Type                                   | Internal Column Name |
@@ -31,7 +30,6 @@ generic-quickview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
 | 1.0     | 29 May, 2024     | Initial release |
-
 
 ## Disclaimer
 
