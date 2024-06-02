@@ -24,7 +24,7 @@ The Issue HoverCard Formatter is a SharePoint list Column JSON formatter compone
 
 Solution|Author(s)
 --------|---------
-quicview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil)
+generic-quickview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil)
 
 ## Version history
 
