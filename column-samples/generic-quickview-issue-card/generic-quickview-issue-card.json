@@ -8,17 +8,15 @@
   "customCardProps": {
     "formatter": {
       "elmType": "div",
-      "attributes": {},
       "style": {
         "display": "flex",
         "flex-direction": "column",
-        "height": "200px",
+        "max-height": "200px",
         "width": "300px",
         "background-color": "#0078d4",
         "color": "#ffffff",
-        "border": "1px solid #ccc",
         "padding": "10px",
-        "box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+        "overflow-y": "auto"
       },
       "children": [
         {
