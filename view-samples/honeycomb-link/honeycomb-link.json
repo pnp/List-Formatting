@@ -19,7 +19,7 @@
           "width": "150px",
           "height": "150px",
           "left": "=if(floor(@rowIndex/5)%2==0,@rowIndex%5*170+'px',@rowIndex%5*170+85+'px')",
-          "top": "=if(@rowIndex%5==0,'','-150px')"
+          "margin-bottom": "=if(@rowIndex%5==0,'','150px')"
         },
         "children": [
           {
@@ -31,7 +31,7 @@
               "align-items": "center",
               "width": "100%",
               "height": "100%",
-              "top": "=if(floor(@rowIndex/5)>0,floor(@rowIndex/5)*-10+'px','')"
+              "top": "=if(floor(@rowIndex/5)>0,floor(@rowIndex/5)+'px','')"
             },
             "attributes": {
               "href": "[$URL]",
