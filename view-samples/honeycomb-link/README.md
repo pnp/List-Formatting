@@ -26,6 +26,7 @@ Version |Date         |Comments
 1.0     |July 5, 2021 |Initial release
 1.1     |June 11, 2022|Fixed where to apply mouse hover effect
 1.2     |March 29, 2023|Fixed links not displaying when using List Web Part
+1.3     |June 11, 2024|Fixed a layout collapse when opened in Microsoft Lists App
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
