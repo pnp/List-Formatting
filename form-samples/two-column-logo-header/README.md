@@ -1,9 +1,9 @@
 # Dashed Line Header
 
 ## Summary
-This sample displays the `Title` and `Logo` values in the heading and an additional 'Description' below the 'Title'. If the `Description` value is empty, it will be hidden.
+This sample displays an `Icon` and `Title` in a two column header with the Icon on the left (centered) and the `Title` on the right.  An additional `Icon` and `Request Status` and added below the `Title`. 
 
-![screenshot of the sample](./assets/screenshot_two_column.png)
+![screenshot of the sample](./assets/screenshot_two_column_Default_Diagram.png)
 
 
 ## Form requirements
@@ -11,7 +11,36 @@ This sample displays the `Title` and `Logo` values in the heading and an additio
 |Type                   |Internal Name|Required|
 |-----------------------|-------------|:------:|
 |Single line of text    |Title        |Yes     |
-|Single of text |Description  |No      |
+|Choice Column |RequestStatus  |Yes      |
+
+### RequestStatus Choices
+|Value           |
+|----------------|
+|Approved|
+|Pending|
+|Rejected|
+|Withdrawn|
+
+Based on the value of RequestStatus value, the color of the column is changed along with the icon.
+
+Default - Request Status not chosen
+![screenshot of the sample](./assets/screenshot_two_column_Default.png)
+
+Request Status Approved
+
+![screenshot of the sample](./assets/screenshot_two_column_Approved.png)
+
+Request Status Pending
+
+![screenshot of the sample](./assets/screenshot_two_column_Pending.png)
+
+Request Status Rejected
+
+![screenshot of the sample](./assets/screenshot_two_column_Rejected.png)
+
+Request Status Withdrawn
+
+![screenshot of the sample](./assets/screenshot_two_column_Withdrawn.png)
 
 ## Logo
 In this example, a Fluent UI Icon was used for the logo:

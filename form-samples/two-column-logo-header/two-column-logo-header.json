@@ -1,114 +1,114 @@
 {
-  "elmType": "div",
-  "attributes": {
-      "class": "ms-bgColor-teal"
-  },
-  "style": {
-      "width": "99%",
-      "border-top-width": "0px",
-      "border-bottom-width": "1px",
-      "border-left-width": "0px",
-      "border-right-width": "0px",
-      "border-style": "solid",
-      "margin-bottom": "16px"
-  },
-  "children": [
-      {
-          "elmType": "div",
-          "style": {
-              "display": "flex",
-              "box-sizing": "border-box",
-              "align-items": "center"
-          },
-          "children": [
-              {
-                  "elmType": "div",
-                  "attributes": {
-                      "iconName": "CRMCustomerInsightsApp",
-                      "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-white",
-                      "title": "Details"
-                  },
-                  "style": {
-                      "flex": "none",
-                      "padding": "0px",
-                      "padding-left": "15px",
-                      "padding-right": "15px",
-                      "height": "36px"
-                  }
-              }
-          ]
-      },
-      {
-          "elmType": "div",
-          "attributes": {
-              "class": "ms-fontColor-white ms-fontWeight-bold ms-fontSize-24"
-          },
-          "style": {
-              "box-sizing": "border-box",
-              "width": "100%",
-              "text-align": "left",
-              "padding": "21px 12px",
-              "overflow": "hidden"
-          },
-          "children": [
-              {
-                  "elmType": "div",
-                  "style": {
-                      "display": "flex",
-                      "flex-direction": "row"
-                  },
-                  "children": [
-                      {
-                          "elmType": "div",
-                          "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "flex-direction": "column",
-                              "align-items": "left",
-                              "margin": "0px"
-                          },
-                          "children": [
-                              {
-                                  "attributes": {
-                                      "class": "ms-fontSize-24",
-                                      "iconName": ""
-                                  },
-                                  "elmType": "div",
-                                  "txtContent": "='A New Improvement Request for ' + [$Title]",
-                                  "style": {
-                                      "margin-top": "5px"
-                                  }
-                              },
-                              {
-                                  "elmType": "div",
-                                  "children": [
-                                      {
-                                          "elmType": "a",
-                                          "class": "sp-field-quickActions",
-                                          "attributes": {
-                                              "class": "ms-fontSize-16 ms-fontColor-white",
-                                              "iconName": "=if([$RequestStatus] == 'Approved', 'SkypeCircleCheck', if([$RequestStatus] == 'Pending BPO Review', 'ProgressRingDots', if([$RequestStatus] == 'Rejected', 'StatusErrorFull', if([$RequestStatus] == 'Pending BE Review', 'ProgressRingDots','ProgressRingDots'))))"
-                                          }
-                                      },
-                                      {
-                                          "elmType": "span",
-                                          "attributes": {
-                                              "class": "ms-fontSize-16",
-                                              "iconName": ""
-                                          },
-                                          "style": {
-                                              "padding-right": "8px",
-                                              "padding-left": "8px"
-                                          },
-                                          "txtContent": "Request Status: Some Status"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              }
-          ]
-      }
-  ]
+    "elmType": "div",
+    "attributes": {
+        "class": "=if([$RequestStatus] == 'Approved', 'ms-bgColor-teal', if([$RequestStatus] == 'Pending', 'ms-bgColor-gray130', if([$RequestStatus] == 'Rejected', 'ms-bgColor-redDark', if([$RequestStatus] == 'Withdrawn', 'ms-bgColor-yellow','ms-bgColor-gray130'))))"
+    },
+    "style": {
+        "width": "99%",
+        "border-top-width": "0px",
+        "border-bottom-width": "1px",
+        "border-left-width": "0px",
+        "border-right-width": "0px",
+        "border-style": "solid",
+        "margin-bottom": "16px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "box-sizing": "border-box",
+                "align-items": "center"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "attributes": {
+                        "iconName": "CRMCustomerInsightsApp",
+                        "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-white",
+                        "title": "Details"
+                    },
+                    "style": {
+                        "flex": "none",
+                        "padding": "0px",
+                        "padding-left": "15px",
+                        "padding-right": "15px",
+                        "height": "36px"
+                    }
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontColor-white ms-fontWeight-bold ms-fontSize-24"
+            },
+            "style": {
+                "box-sizing": "border-box",
+                "width": "100%",
+                "text-align": "left",
+                "padding": "21px 12px",
+                "overflow": "hidden"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "flex",
+                        "flex-direction": "row"
+                    },
+                    "children": [
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "width": "100%",
+                                "display": "flex",
+                                "flex-direction": "column",
+                                "align-items": "left",
+                                "margin": "0px"
+                            },
+                            "children": [
+                                {
+                                    "attributes": {
+                                        "class": "ms-fontSize-24",
+                                        "iconName": ""
+                                    },
+                                    "elmType": "div",
+                                    "txtContent": "='A new Improvement Request for: ' + [$Title]",
+                                    "style": {
+                                        "margin-top": "5px"
+                                    }
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "a",
+                                            "class": "sp-field-quickActions",
+                                            "attributes": {
+                                                "class": "ms-fontSize-16 ms-fontColor-white",
+                                                "iconName": "=if([$RequestStatus] == 'Approved', 'SkypeCircleCheck', if([$RequestStatus] == 'Pending', 'ProgressRingDots', if([$RequestStatus] == 'Rejected', 'StatusErrorFull', if([$RequestStatus] == 'Withdrawn', 'IncidentTriangle','ProgressRingDots'))))"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "attributes": {
+                                                "class": "ms-fontSize-16",
+                                                "iconName": ""
+                                            },
+                                            "style": {
+                                                "padding-right": "8px",
+                                                "padding-left": "8px"
+                                            },
+                                            "txtContent": "='Request Status: ' + [$RequestStatus]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
