@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example transforms list items into cards formatted with flight information layouts. To ensure the view functions correctly, make sure all specified columns are included. You can find the flight icon in the assets folder, referenced in the JSON from the Site Assets library. Update the link if the icon is relocated.
+This example transforms list items into cards formatted with flight information layouts. To ensure the view functions correctly, make sure all specified columns are included. The icons are referenced from Office UI Fabric library (https://uifabricicons.azurewebsites.net/)
 
 ![screenshot of the sample](./assets/screenshot.png)
 
