@@ -74,7 +74,7 @@
                                       "iconName": ""
                                   },
                                   "elmType": "div",
-                                  "txtContent": "='A New Improvement Request for ' + [$Title]",
+                                  "txtContent": "='Sample Title ' + [$Title]",
                                   "style": {
                                       "margin-top": "5px"
                                   }
