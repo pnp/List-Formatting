@@ -52,7 +52,7 @@ This sample logo uses the `CRMCustomerInsightsApp` from [Fluent UI Icons](https:
 
 Solution|Author(s)
 --------|---------
-two-column-logo-header.json | [Andrew Burns ](https://github.com/GeorgiaGit) ([@SharePointRox](https://x.com/SharePointRox))
+two-column-logo-header.json | [Andrew Burns](https://github.com/GeorgiaGit) ([@SharePointRox](https://x.com/SharePointRox))
 
 ## Version history
 
