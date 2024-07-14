@@ -1,114 +1,114 @@
-{
-  "elmType": "div",
-  "attributes": {
-      "class": "ms-bgColor-teal"
-  },
-  "style": {
-      "width": "99%",
-      "border-top-width": "0px",
-      "border-bottom-width": "1px",
-      "border-left-width": "0px",
-      "border-right-width": "0px",
-      "border-style": "solid",
-      "margin-bottom": "16px"
-  },
-  "children": [
+[
+  {
+    "name": "pnp-list-formatting-two-column-logo-header",
+    "reponame": "two-column-logo-header",
+    "source": "pnp",
+    "title": "Two Column Logo Header",
+    "shortDescription": "This sample displays an Icon and Title in a two column header with the Icon on the left and the Title on the right. An additional Icon and RequestStatus and added below the Title.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/two-column-logo-header",
+    "longDescription": [
+      "This sample displays an Icon and Title in a two column header with the Icon on the left and the Title on the right. An additional Icon and RequestStatus and added below the Title."
+    ],
+    "creationDateTime": "2024-07-14T00:00:00.000Z",
+    "updateDateTime": "2024-07-14T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
       {
-          "elmType": "div",
-          "style": {
-              "display": "flex",
-              "box-sizing": "border-box",
-              "align-items": "center"
-          },
-          "children": [
-              {
-                  "elmType": "div",
-                  "attributes": {
-                      "iconName": "CRMCustomerInsightsApp",
-                      "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-white",
-                      "title": "Details"
-                  },
-                  "style": {
-                      "flex": "none",
-                      "padding": "0px",
-                      "padding-left": "15px",
-                      "padding-right": "15px",
-                      "height": "36px"
-                  }
-              }
-          ]
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Form"
       },
       {
-          "elmType": "div",
-          "attributes": {
-              "class": "ms-fontColor-white ms-fontWeight-bold ms-fontSize-24"
-          },
-          "style": {
-              "box-sizing": "border-box",
-              "width": "100%",
-              "text-align": "left",
-              "padding": "21px 12px",
-              "overflow": "hidden"
-          },
-          "children": [
-              {
-                  "elmType": "div",
-                  "style": {
-                      "display": "flex",
-                      "flex-direction": "row"
-                  },
-                  "children": [
-                      {
-                          "elmType": "div",
-                          "style": {
-                              "width": "100%",
-                              "display": "flex",
-                              "flex-direction": "column",
-                              "align-items": "left",
-                              "margin": "0px"
-                          },
-                          "children": [
-                              {
-                                  "attributes": {
-                                      "class": "ms-fontSize-24",
-                                      "iconName": ""
-                                  },
-                                  "elmType": "div",
-                                  "txtContent": "='Sample Title ' + [$Title]",
-                                  "style": {
-                                      "margin-top": "5px"
-                                  }
-                              },
-                              {
-                                  "elmType": "div",
-                                  "children": [
-                                      {
-                                          "elmType": "a",
-                                          "class": "sp-field-quickActions",
-                                          "attributes": {
-                                              "class": "ms-fontSize-16 ms-fontColor-white",
-                                              "iconName": "=if([$RequestStatus] == 'Approved', 'SkypeCircleCheck', if([$RequestStatus] == 'Pending BPO Review', 'ProgressRingDots', if([$RequestStatus] == 'Rejected', 'StatusErrorFull', if([$RequestStatus] == 'Pending BE Review', 'ProgressRingDots','ProgressRingDots'))))"
-                                          }
-                                      },
-                                      {
-                                          "elmType": "span",
-                                          "attributes": {
-                                              "class": "ms-fontSize-16",
-                                              "iconName": ""
-                                          },
-                                          "style": {
-                                              "padding-right": "8px",
-                                              "padding-left": "8px"
-                                          },
-                                          "txtContent": "Request Status: Some Status"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  ]
-              }
-          ]
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-gray130, ms-bgColor-redDark, ms-bgColor-teal, ms-bgColor-yellow, ms-fontColor-white, ms-fontSize-16 ,ms-fontSize-24, ms-fontSize-42, ms-fontWeight-bold, ms-fontWeight-regular"
       }
-  ]
-}
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Default_Diagram.png",
+        "alt": "screenshot of the sample"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Default.png",
+        "alt": "screenshot of the sample when RequestStatus is Default"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Approved.png",
+        "alt": "screenshot of the sample when RequestStatus is Approved"
+      },
+      {
+        "type": "image",
+        "order": 103,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Pending.png",
+        "alt": "screenshot of the sample when RequestStatus is Pending"
+      },
+      {
+        "type": "image",
+        "order": 104,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Rejected.png",
+        "alt": "screenshot of the sample when RequestStatus is Rejected"
+      },
+      {
+        "type": "image",
+        "order": 105,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/two-column-logo-header/assets/screenshot_two_column_Withdrawn.png",
+        "alt": "screenshot of the sample when RequestStatus is Withdrawn"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "GeorgiaGit",
+        "pictureUrl": "https://github.com/GeorgiaGit.png",
+        "name": "Andrew Burns"
+      }
+    ],
+    "references": [
+      {
+        "name": "Configure the list form",
+        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+      },
+      {
+        "name": "Show or hide columns in a list or library form",
+        "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn\u0027t affect the column or the data in the column, as it would if you delete it.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
+      }
+    ]
+  }
+]
