@@ -46,7 +46,7 @@ Based on the value of `RequestStatus` value, the color of the column is changed 
 
 ## Logo
 
-This sample logo uses the `CRMCustomerInsightsApp` from Fluent [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
+This sample logo uses the `CRMCustomerInsightsApp` from [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
 
 ## Sample
 
