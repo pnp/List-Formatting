@@ -1,19 +1,20 @@
-# Dashed Line Header
+# Two Column Logo Header
 
 ## Summary
-This sample displays an `Icon` and `Title` in a two column header with the Icon on the left (centered) and the `Title` on the right.  An additional `Icon` and `Request Status` and added below the `Title`. 
+
+This sample displays an `Icon` and `Title` in a two column header with the Icon on the left and the `Title` on the right. An additional `Icon` and `RequestStatus` and added below the `Title`.
 
 ![screenshot of the sample](./assets/screenshot_two_column_Default_Diagram.png)
-
 
 ## Form requirements
 
 |Type                   |Internal Name|Required|
 |-----------------------|-------------|:------:|
 |Single line of text    |Title        |Yes     |
-|Choice Column |RequestStatus  |Yes      |
+|Choice |RequestStatus  |Yes      |
 
 ### RequestStatus Choices
+
 |Value           |
 |----------------|
 |Approved|
@@ -21,46 +22,43 @@ This sample displays an `Icon` and `Title` in a two column header with the Icon 
 |Rejected|
 |Withdrawn|
 
-Based on the value of RequestStatus value, the color of the column is changed along with the icon.
+Based on the value of `RequestStatus` value, the color of the column is changed along with the icon.
 
-Default - Request Status not chosen
-![screenshot of the sample](./assets/screenshot_two_column_Default.png)
+- RequestStatus: Default (not chosen)
 
-Request Status Approved
+    ![screenshot of the sample when RequestStatus is blank](./assets/screenshot_two_column_Default.png)
 
-![screenshot of the sample](./assets/screenshot_two_column_Approved.png)
+- RequestStatus: Approved
 
-Request Status Pending
+    ![screenshot of the sample when RequestStatus is Approved](./assets/screenshot_two_column_Approved.png)
 
-![screenshot of the sample](./assets/screenshot_two_column_Pending.png)
+- RequestStatus: Pending
 
-Request Status Rejected
+    ![screenshot of the sample when RequestStatus is Pending](./assets/screenshot_two_column_Pending.png)
 
-![screenshot of the sample](./assets/screenshot_two_column_Rejected.png)
+- RequestStatus: Rejected
 
-Request Status Withdrawn
+    ![screenshot of the sample when RequestStatus is Rejected](./assets/screenshot_two_column_Rejected.png)
 
-![screenshot of the sample](./assets/screenshot_two_column_Withdrawn.png)
+- RequestStatus: Withdrawn
+
+    ![screenshot of the sample when RequestStatus is Withdrawn](./assets/screenshot_two_column_Withdrawn.png)
 
 ## Logo
-In this example, a Fluent UI Icon was used for the logo:
 
-CRMCustomerInsightsApp
-
-[Fluen UI Icon Library](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
+This sample logo uses the `CRMCustomerInsightsApp` from Fluent [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-sample.json | [Andrew Burns ](https://github.com/GeorgiaGit) ([@SharePointRox](https://x.com/SharePointRox))
-
+two-column-logo-header.json | [Andrew Burns ](https://github.com/GeorgiaGit) ([@SharePointRox](https://x.com/SharePointRox))
 
 ## Version history
 
 Version |Date              |Comments
 --------|------------------|--------
-1.0     |June 24, 2024  |Initial release
+1.0     |July 14, 2024  |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
