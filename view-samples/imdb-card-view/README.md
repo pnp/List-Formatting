@@ -1,4 +1,4 @@
-# Flashcards
+# IMDBCARD
 
 ## Summary
 
@@ -15,7 +15,7 @@ Column Name                 | Type
 Title                       | Single line of text
 Year                        | Single line of text
 Duration                    | Single line of text
-Rating                      | Choice
+Rating                      | Choice (PG,R,A)
 VoteCount                   | Single line of text
 Metascore                   | Single line of text
 Plot                        | Multiple lines of text

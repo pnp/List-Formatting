@@ -1,4 +1,4 @@
-# Flashcards
+# Flightcard
 
 ## Summary
 
@@ -22,16 +22,16 @@ DestinationTerminal         | Single line of text
 Airline                     | Single line of text
 FlightNo                    | Single line of text
 Carrier                     | Single line of text
-Class                       | Choice
+Class                       | Choice (Economy,Business,Premium Economy)
 Currency                    | Single line of text
 Price                       | Single line of text
 PriceLabel                  | Single line of text
 SourceCode                  | Single line of text
 DestinationCode             | Single line of text
-SourceTimeOnly              | Calculated (`=TEXT([SourceTime],"HH:mm")`)
-DestinationTimeOnly         | Calculated (`=TEXT([DestinationTime],"dd mmm")`)
-FormattedSourceDate         | Calculated (`=TEXT([SourceTime],"HH:mm")`)
-FormattedDestinationDate    | Calculated (`=TEXT([DestinationTime],"dd mmm")`)
+SourceTimeOnly              | Calculated (`=TEXT([SourceTime],"HH:mm")`) (Single line of text)
+DestinationTimeOnly         | Calculated (`=TEXT([DestinationTime],"dd mmm")`) (Single line of text)
+FormattedSourceDate         | Calculated (`=TEXT([SourceTime],"HH:mm")`) (Single line of text)
+FormattedDestinationDate    | Calculated (`=TEXT([DestinationTime],"dd mmm")`) (Single line of text)
 
 
 
