@@ -1,0 +1,274 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "justify-content": "space-between",
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "stretch",
+      "margin": "20px auto",
+      "max-width": "800px",
+      "font-family": "Arial, sans-serif",
+      "background-color": "#f9f9f9",
+      "border-radius": "10px",
+      "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
+      "padding": "20px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "60%",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "border": "1px solid #ddd",
+              "font-weight": "bold",
+              "font-size": "20px ",
+              "padding": "10px",
+              "margin-bottom": "10px",
+              "border-radius": "5px",
+              "background-color": "#fff"
+            },
+            "txtContent": "[$Title]",
+            "attributes": {
+              "title": "Flight Duration"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "gap": "10px",
+              "border-radius": "5px",
+              "background-color": "#fff",
+              "border": "1px solid #ddd"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "flex": "1",
+                  "padding": "10px",
+                  "background-color": "#e8f5e9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "=[$SourceCode]+' '+[$SourceTimeOnly]",
+                    "style": {
+                      "font-weight": "bold",
+                      "font-size": "20px"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$FormattedSourceDate]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "[$From]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$SourceAirport]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$SourceTerminal]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex": "0.5",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "#e8f5e9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "25px",
+                      "color": "#F7B100"
+                    },
+                    "attributes": {
+                      "iconName": "AirplaneSolid"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex": "1",
+                  "padding": "10px",
+                  "background-color": "#e8f5e9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-weight": "bold",
+                      "font-size": "20px"
+                    },
+                    "txtContent": "=[$DestinationCode]+' '+[$DestinationTimeOnly]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$FormattedDestinationDate]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "[$To]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$DestinationAirport]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$DestinationTerminal]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex": "1",
+                  "padding": "10px",
+                  "border-radius": "5px",
+                  "background-color": "#fffde7"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-weight": "bold",
+                      "font-size": "12px"
+                    },
+                    "txtContent": "[$Airline]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Carrier]"
+                  },
+                  {
+                    "elmType": "button",
+                    "style": {
+                      "line-height": "1.5em",
+                      "margin": "10px 0",
+                      "font-size": "small",
+                      "border": "2px solid #0078d4",
+                      "border-radius": "5px",
+                      "background-color": "#0078d4",
+                      "color": "white",
+                      "cursor": "pointer",
+                      "padding": "5px",
+                      "text-align": "center",
+                      "transition": "background-color 0.3s ease, color 0.3s ease"
+                    },
+                    "txtContent": "More details",
+                    "customRowAction": {
+                      "action": "defaultClick"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themePrimary ms-fontColor-themeSecondary--hover"
+                    },
+                    "hoverStyle": {
+                      "background-color": "white",
+                      "color": "#0078d4",
+                      "border-color": "#0078d4"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "35%",
+          "border": "1px solid #FF9800",
+          "padding": "10px",
+          "box-sizing": "border-box",
+          "border-radius": "5px",
+          "background-color": "#fff3e0",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between",
+          "align-items": "center",
+          "text-align": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "border-bottom": "1px solid #FF9800",
+              "padding-bottom": "5px",
+              "margin-bottom": "10px",
+              "font-weight": "bold",
+              "font-size": "20px"
+            },
+            "txtContent": "[$Class]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "margin-bottom": "5px"
+                },
+                "txtContent": "[$Currency]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "margin-bottom": "5px",
+                  "font-size": "20px",
+                  "font-weight": "bold"
+                },
+                "txtContent": "[$Price.displayValue]"
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$PriceLabel]",
+                "attributes": {
+                  "style": {
+                    "font-size": "12px",
+                    "color": "#757575"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
