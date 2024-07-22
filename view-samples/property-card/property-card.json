@@ -1,219 +1,219 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-    "commandBarProps": {
-        "commands": [
-            {
-                "key": "new",
-                "hide": true
-            }
-        ]
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "new",
+        "hide": true
+      }
+    ]
+  },
+  "debugMode": false,
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin": "20px auto",
+      "display": "flow",
+      "flex-direction": "column",
+      "max-width": "800px",
+      "font-family": "Arial, sans-serif",
+      "background-color": "#f9f9f9",
+      "border-radius": "10px",
+      "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
+      "overflow": "hidden"
     },
-    "debugMode": false,
-    "hideSelection": true,
-    "hideColumnHeader": true,
-    "rowFormatter": {
+    "children": [
+      {
         "elmType": "div",
         "style": {
-            "margin": "20px auto",
-            "display": "flow",
-            "flex-direction": "column",
-            "max-width": "800px",
-            "font-family": "Arial, sans-serif",
-            "background-color": "#f9f9f9",
-            "border-radius": "10px",
-            "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
-            "overflow": "hidden"
+          "overflow": "hidden",
+          "border-top-left-radius": "10px",
+          "border-top-right-radius": "10px",
+          "position": "relative"
         },
         "children": [
-            {
-                "elmType": "div",
-                "style": {
-                    "overflow": "hidden",
-                    "border-top-left-radius": "10px",
-                    "border-top-right-radius": "10px",
-                    "position": "relative"
-                },
-                "children": [
-                    {
-                        "elmType": "img",
-                        "attributes": {
-                            "src": "[$PropertyImage]",
-                            "alt": "Property Image"
-                        },
-                        "style": {
-                            "width": "100%",
-                            "height": "auto",
-                            "border-top-left-radius": "10px",
-                            "border-top-right-radius": "10px"
-                        }
-                    },
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "position": "absolute",
-                            "bottom": "0",
-                            "left": "0",
-                            "padding": "10px",
-                            "background-color": "rgba(0, 0, 0, 0.7)",
-                            "color": "white",
-                            "width": "100%",
-                            "box-sizing": "border-box"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "font-size": "20px",
-                                    "font-weight": "bold"
-                                },
-                                "txtContent": "[$Title]"
-                            }
-                        ]
-                    }
-                ]
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$PropertyImage]",
+              "alt": "Property Image"
             },
-            {
+            "style": {
+              "width": "100%",
+              "height": "auto",
+              "border-top-left-radius": "10px",
+              "border-top-right-radius": "10px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "padding": "10px",
+              "background-color": "rgba(0, 0, 0, 0.7)",
+              "color": "white",
+              "width": "100%",
+              "box-sizing": "border-box"
+            },
+            "children": [
+              {
                 "elmType": "div",
                 "style": {
-                    "padding": "20px",
-                    "display": "flex",
-                    "justify-content": "space-between",
-                    "align-items": "center"
+                  "font-size": "20px",
+                  "font-weight": "bold"
+                },
+                "txtContent": "[$Title]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "20px",
+          "display": "flex",
+          "justify-content": "space-between",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1",
+              "font-size": "16px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "color": "#555",
+                  "margin-bottom": "5px"
+                },
+                "txtContent": "='Address:' + ' ' + [$StreetAddress]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px"
+                },
+                "txtContent": "[$Subtitle]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "gap": "10px",
+                  "margin-top": "10px"
                 },
                 "children": [
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "flex": "1",
-                            "font-size": "16px"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "color": "#555",
-                                    "margin-bottom": "5px"
-                                },
-                                "txtContent": "='Address:' + ' ' + [$StreetAddress]"
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "font-size": "14px"
-                                },
-                                "txtContent": "[$Subtitle]"
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "display": "flex",
-                                    "align-items": "center",
-                                    "gap": "10px",
-                                    "margin-top": "10px"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "20px",
-                                            "padding": "5px",
-                                            "border-radius": "50%",
-                                            "background-color": "#f9f9f9",
-                                            "color": "#555"
-                                        },
-                                        "attributes": {
-                                            "iconName": "AddHome",
-                                            "title": "Bedrooms"
-                                        }
-                                    },
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "14px"
-                                        },
-                                        "txtContent": "[$Bedrooms]"
-                                    },
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "20px",
-                                            "padding": "5px",
-                                            "border-radius": "50%",
-                                            "background-color": "#f9f9f9",
-                                            "color": "#555"
-                                        },
-                                        "attributes": {
-                                            "iconName": "Blur",
-                                            "title": "Bathrooms"
-                                        }
-                                    },
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "14px"
-                                        },
-                                        "txtContent": "[$Baths]"
-                                    },
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "20px",
-                                            "padding": "5px",
-                                            "border-radius": "50%",
-                                            "background-color": "#f9f9f9",
-                                            "color": "#555"
-                                        },
-                                        "attributes": {
-                                            "iconName": "Car",
-                                            "title": "Garages"
-                                        }
-                                    },
-                                    {
-                                        "elmType": "div",
-                                        "style": {
-                                            "font-size": "14px"
-                                        },
-                                        "txtContent": "[$Garages]"
-                                    }
-                                ]
-                            }
-                        ]
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "padding": "5px",
+                      "border-radius": "50%",
+                      "background-color": "#f9f9f9",
+                      "color": "#555"
                     },
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "display": "flex",
-                            "flex-direction": "column",
-                            "align-items": "center",
-                            "margin-left": "20px"
-                        },
-                        "children": [
-                            {
-                                "elmType": "img",
-                                "style": {
-                                    "display": "block",
-                                    "height": "auto",
-                                    "max-height": "96px",
-                                    "max-width": "96px",
-                                    "border-radius": "50%"
-                                },
-                                "attributes": {
-                                    "src": "= @currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$Agent.email]"
-                                }
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "font-size": "20px"
-                                },
-                                "attributes": {
-                                    "iconName": "=if([$Favorite],'HeartFill','Heart')"
-                                }
-                            }
-                        ]
+                    "attributes": {
+                      "iconName": "AddHome",
+                      "title": "Bedrooms"
                     }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px"
+                    },
+                    "txtContent": "[$Bedrooms]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "padding": "5px",
+                      "border-radius": "50%",
+                      "background-color": "#f9f9f9",
+                      "color": "#555"
+                    },
+                    "attributes": {
+                      "iconName": "Blur",
+                      "title": "Bathrooms"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px"
+                    },
+                    "txtContent": "[$Baths]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "padding": "5px",
+                      "border-radius": "50%",
+                      "background-color": "#f9f9f9",
+                      "color": "#555"
+                    },
+                    "attributes": {
+                      "iconName": "Car",
+                      "title": "Garages"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px"
+                    },
+                    "txtContent": "[$Garages]"
+                  }
                 ]
-            }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "margin-left": "20px"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "style": {
+                  "display": "block",
+                  "height": "auto",
+                  "max-height": "96px",
+                  "max-width": "96px",
+                  "border-radius": "50%"
+                },
+                "attributes": {
+                  "src": "= @currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$Agent.email]"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "20px"
+                },
+                "attributes": {
+                  "iconName": "=if([$Favorite],'HeartFill','Heart')"
+                }
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
