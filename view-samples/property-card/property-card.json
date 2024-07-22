@@ -1,14 +1,5 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "commandBarProps": {
-    "commands": [
-      {
-        "key": "new",
-        "hide": true
-      }
-    ]
-  },
-  "debugMode": false,
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
@@ -198,7 +189,7 @@
                   "border-radius": "50%"
                 },
                 "attributes": {
-                  "src": "= @currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountname=' + [$Agent.email]"
+                  "src": "=getUserImage([$Agent.email],'m')"
                 }
               },
               {
