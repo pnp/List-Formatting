@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-flight-card",
     "reponame": "flight-card",
     "source": "pnp",
-    "title": "Flight Information",
+    "title": "Flight Card",
     "shortDescription": "This sample transforms list items into cards formatted with flight information layouts. To ensure the view functions correctly, make sure all specified columns are included. The icons are referenced from Fluent UI Icons.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/flight-card",
     "longDescription": [
