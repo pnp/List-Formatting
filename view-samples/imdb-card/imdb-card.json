@@ -1,20 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "commandBarProps": {
-    "commands": [
-      {
-        "key": "new",
-        "hide": true
-      }
-    ]
-  },
-  "debugMode": false,
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
     "elmType": "div",
     "style": {
-      "list-style-type": "none",
       "padding": "15px",
       "width": "600px",
       "border": "1px solid #ddd",
@@ -32,8 +22,7 @@
         "style": {
           "display": "flex",
           "flex-direction": "column",
-          "flex-wrap": "wrap",
-          "gap": "15px"
+          "flex-wrap": "wrap"
         },
         "children": [
           {
@@ -41,7 +30,6 @@
             "style": {
               "display": "flex",
               "flex-direction": "row",
-              "gap": "15px",
               "align-items": "center"
             },
             "children": [
@@ -71,8 +59,7 @@
                 "style": {
                   "flex": "1",
                   "display": "flex",
-                  "flex-direction": "column",
-                  "gap": "10px"
+                  "flex-direction": "column"
                 },
                 "children": [
                   {
@@ -81,7 +68,6 @@
                       "display": "flex",
                       "flex-direction": "column",
                       "flex-wrap": "wrap",
-                      "gap": "10px",
                       "align-items": "center"
                     },
                     "children": [
@@ -102,7 +88,6 @@
                           "display": "flex",
                           "flex-direction": "row",
                           "flex-wrap": "wrap",
-                          "gap": "5px",
                           "margin-top": "10px"
                         },
                         "children": [
@@ -144,7 +129,6 @@
                           "display": "flex",
                           "flex-direction": "row",
                           "flex-wrap": "wrap",
-                          "gap": "5px",
                           "margin-top": "10px"
                         },
                         "children": [
@@ -167,7 +151,7 @@
                               "font-size": "16px",
                               "margin-left": "5px"
                             },
-                            "txtContent": "[$VoteCount]"
+                            "txtContent": "[$VoteCount.displayValue]"
                           },
                           {
                             "elmType": "span",
@@ -178,7 +162,7 @@
                               "padding": "2px 6px",
                               "border-radius": "4px"
                             },
-                            "txtContent": "82"
+                            "txtContent": "[$Metascore.displayValue]"
                           },
                           {
                             "elmType": "span",
@@ -204,8 +188,7 @@
         "elmType": "div",
         "style": {
           "display": "flex",
-          "flex-direction": "row",
-          "gap": "10px"
+          "flex-direction": "row"
         },
         "children": [
           {
@@ -213,7 +196,6 @@
             "style": {
               "display": "flex",
               "flex-wrap": "wrap",
-              "gap": "5px",
               "margin-top": "10px"
             },
             "children": [
@@ -229,7 +211,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "#"
+                  "href": "<<URL of the filtered View>>"
                 },
                 "style": {
                   "font-size": "16px",
@@ -252,7 +234,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "#"
+                  "href": "<<URL of the filtered View>>"
                 },
                 "style": {
                   "font-size": "16px",
@@ -266,7 +248,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "#"
+                  "href": "<<URL of the filtered View>>"
                 },
                 "style": {
                   "font-size": "16px",
@@ -280,7 +262,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "#"
+                  "href": "<<URL of the filtered View>>"
                 },
                 "style": {
                   "font-size": "16px",
