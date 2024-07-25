@@ -14,10 +14,11 @@ Key points:
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
-|Single Line of Text|Approval|Yes| Apply [approval-buttons-setValue-status-user.json](./approval-buttons-setValue-status-user.json) to this column
+|Any (see below)|Approval|Yes| Apply [approval-buttons-setValue-status-user.json](./approval-buttons-setValue-status-user.json) to this column
 |Choice|ItemStatus|No| Choice values needed: (Pending / Approved / Rejected) Default: Pending
 |Person or Group|ApprovalActionBy|No|Single selection
 
+- The format can be applied to any column, although it is recommended to add it to a calculated column with a ="" formula
 
 ## Sample
 
