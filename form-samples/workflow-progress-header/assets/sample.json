@@ -10,7 +10,7 @@
       "This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit."
     ],
     "creationDateTime": "2021-02-01T00:00:00.000Z",
-    "updateDateTime": "2021-02-01T00:00:00.000Z",
+    "updateDateTime": "2024-04-19T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number, toLocaleDateString"
+        "value": "Number"
       },
       {
         "key": "FORMATTING-ACTIONS",

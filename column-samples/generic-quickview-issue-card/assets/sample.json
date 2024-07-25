@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-date-compress-format",
-    "reponame": "date-compress-format",
+    "name": "pnp-list-formatting-generic-quickview-issue-card",
+    "reponame": "generic-quickview-issue-card",
     "source": "pnp",
-    "title": "Compressed Date",
-    "shortDescription": "This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-compress-format",
+    "title": "Quick-View Issue Card",
+    "shortDescription": "The Issue HoverCard Formatter is a SharePoint list Column JSON formatter component tailored to enhance user experience when interacting with issue data. It provides a streamlined approach to view essential information about issues through hover cards, offering quick insights in a card format.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-quickview-issue-card",
     "longDescription": [
-      "This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical."
+      "The Issue HoverCard Formatter is a SharePoint list Column JSON formatter component tailored to enhance user experience when interacting with issue data. It provides a streamlined approach to view essential information about issues through hover cards, offering quick insights in a card format."
     ],
-    "creationDateTime": "2021-12-06T00:00:00.000Z",
-    "updateDateTime": "2024-03-23T00:00:00.000Z",
+    "creationDateTime": "2024-05-29T00:00:00.000Z",
+    "updateDateTime": "2024-05-29T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Inline Editing"
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Date"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, getDate, getMonth, getYear"
+        "value": "toDateString"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,26 +46,26 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "inlineEditField"
+        "value": "customCardProps"
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-fontColor-themeTertiary, ms-fontColor-themeTertiary--hover, ms-borderColor-themePrimary, ms-fontWeight-bold, ms-fontSize-10, ms-fontSize-16, ms-fontSize-20"
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/date-compress-format/assets/screenshot.png",
-        "alt": "screenshot"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-quickview-issue-card/assets/screenshot.png",
+        "alt": "Quick View Issue Card"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "aaclage",
-        "pictureUrl": "https://github.com/aaclage.png",
-        "name": "André Lage"
+        "gitHubAccount": "Jatin-patil",
+        "pictureUrl": "https://github.com/Jatin-patil.png",
+        "name": "Jatin Patil"
       }
     ],
     "references": [

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-property-card",
+    "reponame": "property-card",
+    "source": "pnp",
+    "title": "Property Card",
+    "shortDescription": "This sample transforms list items into cards formatted with property listing layouts. To ensure the view functions correctly, make sure all specified columns are included. The icons are referenced from Fluent UI Icons.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/property-card",
+    "longDescription": [
+      "This sample transforms list items into cards formatted with property listing layouts. To ensure the view functions correctly, make sure all specified columns are included. The icons are referenced from Fluent UI Icons."
+    ],
+    "creationDateTime": "2024-07-22T00:00:00.000Z",
+    "updateDateTime": "2024-07-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/property-card/assets/screenshot.jpg",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sudeepghatak",
+        "pictureUrl": "https://github.com/sudeepghatak.png",
+        "name": "Sudeep Ghatak"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

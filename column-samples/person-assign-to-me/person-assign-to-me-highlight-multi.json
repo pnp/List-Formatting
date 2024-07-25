@@ -33,7 +33,7 @@
                     "margin": "4px"
                   },
                   "attributes": {
-                    "class": "ms-bgColor-neutralLight ms-fontColor-neutralPrimary"
+                    "class": "=if([$_person.email]==@me,'ms-bgColor-themeLighter ms-fontColor-themeDarker','ms-bgColor-neutralLight ms-fontColor-neutralPrimary')"
                   },
                   "defaultHoverField": "[$_person]",
                   "children": [
