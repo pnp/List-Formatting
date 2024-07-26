@@ -18,7 +18,7 @@ Key points:
 |Choice|ItemStatus|No| Choice values needed: (Pending / Approved / Rejected) Default: Pending
 |Person or Group|ApprovalActionBy|No|Single selection
 
-- The format can be applied to any column, although it is recommended to add it to a calculated column with a ="" formula
+- The format can be applied to any column, although it is recommended to add it to a calculated column with a `=""` formula
 
 ## Sample
 
