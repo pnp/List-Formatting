@@ -1,21 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
-  "commandBarProps": {
-    "commands": [
-      {
-        "key": "new",
-        "hide": true
-      }
-    ]
-  },
-  "debugMode": false,
   "hideSelection": true,
   "hideColumnHeader": true,
   "rowFormatter": {
     "elmType": "div",
-    "attributes": {
-      "class": "container"
-    },
     "style": {
       "margin": "20px",
       "display": "flex",
@@ -24,9 +12,6 @@
     "children": [
       {
         "elmType": "div",
-        "attributes": {
-          "class": "column"
-        },
         "style": {
           "display": "flex",
           "flex-direction": "column",
@@ -35,9 +20,6 @@
         "children": [
           {
             "elmType": "div",
-            "attributes": {
-              "class": "row"
-            },
             "style": {
               "display": "flex",
               "flex-direction": "row",
@@ -48,9 +30,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "row"
-            },
             "style": {
               "display": "flex",
               "flex-direction": "row",
@@ -61,18 +40,12 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "col-md-12"
-            },
             "style": {
               "flex": "1"
             },
             "children": [
               {
                 "elmType": "div",
-                "attributes": {
-                  "class": "col"
-                },
                 "style": {
                   "display": "flex",
                   "flex-direction": "column"
@@ -80,18 +53,12 @@
                 "children": [
                   {
                     "elmType": "div",
-                    "attributes": {
-                      "class": "card"
-                    },
                     "style": {
                       "margin-top": "20px"
                     },
                     "children": [
                       {
                         "elmType": "div",
-                        "attributes": {
-                          "class": "card-header bg-light"
-                        },
                         "style": {
                           "background-color": "#f8f9fa",
                           "text-align": "center",
@@ -101,9 +68,6 @@
                         "children": [
                           {
                             "elmType": "div",
-                            "attributes": {
-                              "class": "row"
-                            },
                             "style": {
                               "display": "flex",
                               "flex-direction": "row",
@@ -113,9 +77,6 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "attributes": {
-                                  "class": "country-container"
-                                },
                                 "style": {
                                   "display": "flex",
                                   "flex-direction": "column",
@@ -141,9 +102,6 @@
                                   },
                                   {
                                     "elmType": "div",
-                                    "attributes": {
-                                      "class": "country-1"
-                                    },
                                     "style": {
                                       "margin-top": "5px",
                                       "font-weight": "bold",
@@ -155,9 +113,6 @@
                               },
                               {
                                 "elmType": "div",
-                                "attributes": {
-                                  "class": "score"
-                                },
                                 "style": {
                                   "font-size": "24px",
                                   "font-weight": "bold",
@@ -175,9 +130,6 @@
                               },
                               {
                                 "elmType": "div",
-                                "attributes": {
-                                  "class": "score"
-                                },
                                 "style": {
                                   "font-size": "24px",
                                   "font-weight": "bold",
@@ -188,9 +140,6 @@
                               },
                               {
                                 "elmType": "div",
-                                "attributes": {
-                                  "class": "country-container"
-                                },
                                 "style": {
                                   "display": "flex",
                                   "flex-direction": "column",
@@ -216,9 +165,6 @@
                                   },
                                   {
                                     "elmType": "div",
-                                    "attributes": {
-                                      "class": "country-1"
-                                    },
                                     "style": {
                                       "margin-top": "5px",
                                       "font-weight": "bold",
