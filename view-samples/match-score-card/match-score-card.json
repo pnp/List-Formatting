@@ -1,0 +1,191 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin": "20px",
+      "display": "flex",
+      "flex-direction": "column"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "align-items": "center",
+              "font-size": "24px"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "align-items": "center",
+              "font-size": "16px"
+            },
+            "txtContent": "[$MatchDate]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "1"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "margin-top": "20px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "background-color": "#f8f9fa",
+                          "text-align": "center",
+                          "border-bottom": "2px solid #ccc",
+                          "padding-bottom": "10px"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "flex",
+                              "flex-direction": "row",
+                              "justify-content": "center",
+                              "align-items": "center"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex",
+                                  "flex-direction": "column",
+                                  "align-items": "center",
+                                  "margin": "0 20px"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "img",
+                                        "attributes": {
+                                          "src": "[$Country1FlagUrl]",
+                                          "alt": "[$Country1] Flag"
+                                        },
+                                        "style": {
+                                          "width": "50px",
+                                          "height": "auto"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin-top": "5px",
+                                      "font-weight": "bold",
+                                      "text-align": "center"
+                                    },
+                                    "txtContent": "[$Country1]"
+                                  }
+                                ]
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "font-size": "24px",
+                                  "font-weight": "bold",
+                                  "margin": "0 20px",
+                                  "text-align": "center"
+                                },
+                                "txtContent": "[$Country1Score]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "text-align": "center"
+                                },
+                                "txtContent": "Full time"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "font-size": "24px",
+                                  "font-weight": "bold",
+                                  "margin": "0 20px",
+                                  "text-align": "center"
+                                },
+                                "txtContent": "[$Country2Score]"
+                              },
+                              {
+                                "elmType": "div",
+                                "style": {
+                                  "display": "flex",
+                                  "flex-direction": "column",
+                                  "align-items": "center",
+                                  "margin": "0 20px"
+                                },
+                                "children": [
+                                  {
+                                    "elmType": "div",
+                                    "children": [
+                                      {
+                                        "elmType": "img",
+                                        "attributes": {
+                                          "src": "[$Country2FlagUrl]",
+                                          "alt": "[$Country2] Flag"
+                                        },
+                                        "style": {
+                                          "width": "50px",
+                                          "height": "auto"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "style": {
+                                      "margin-top": "5px",
+                                      "font-weight": "bold",
+                                      "text-align": "center"
+                                    },
+                                    "txtContent": "[$Country2]"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
