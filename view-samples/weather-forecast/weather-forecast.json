@@ -1,0 +1,326 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "font-family": "Arial, sans-serif",
+      "padding": "20px",
+      "background-color": "#f0f0f0",
+      "border-radius": "10px",
+      "box-shadow": "0 2px 5px rgba(0,0,0,0.1)",
+      "max-width": "400px",
+      "margin": "0 auto"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "background-color": "white",
+          "border-radius": "10px",
+          "width": "800px",
+          "padding": "20px",
+          "box-shadow": "0 2px 5px rgba(0,0,0,0.1)",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "margin-bottom": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "margin-bottom": "10px",
+                  "font-size": "18px",
+                  "font-weight": "normal"
+                },
+                "txtContent": "[$Title]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "margin-bottom": "10px",
+                  "font-size": "24px",
+                  "font-weight": "bold"
+                },
+                "txtContent": "[$Location]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "margin-bottom": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "48px",
+                  "font-weight": "bold"
+                },
+                "txtContent": "=[$Temperature] + '°'"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "36px"
+                },
+                "attributes": {
+                  "iconName": "=if([$Weather] == 'Sunny', 'Sunny', if([$Weather] == 'Cloudy', 'PartlyCloudyDay', if([$Weather] == 'Rainy', 'Rain', if([$Weather] == 'Snowy', 'Snowflake', ''))))"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "right",
+                  "font-size": "14px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "margin-bottom": "5px",
+                      "display": "flex",
+                      "flex-direction": "row"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-size": "14px",
+                          "font-weight": "bold"
+                        },
+                        "attributes": {
+                          "iconName": "Rain"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-size": "14px",
+                          "padding-left": "5px"
+                        },
+                        "txtContent": "59%"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "margin-bottom": "5px",
+                      "display": "flex",
+                      "flex-direction": "row"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-size": "14px",
+                          "font-weight": "bold"
+                        },
+                        "attributes": {
+                          "iconName": "ArrowUpRight8"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-size": "14px",
+                          "padding-left": "5px"
+                        },
+                        "txtContent": "[$Wind]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "14px",
+              "margin-bottom": "20px"
+            },
+            "txtContent": "[$Description]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "grid",
+              "grid-template-columns": "1fr 1fr",
+              "gap": "10px",
+              "border-top": "1px solid #e0e0e0",
+              "padding-top": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "margin-right": "10px"
+                    },
+                    "attributes": {
+                      "iconName": "Drop"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "color": "#666",
+                      "flex-grow": "1"
+                    },
+                    "txtContent": "Humidity"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "=[$Humidity] + '%'"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "margin-right": "10px"
+                    },
+                    "attributes": {
+                      "iconName": "Sunny"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "color": "#666",
+                      "flex-grow": "1"
+                    },
+                    "txtContent": "UV Index"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "[$UVIndex]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "margin-right": "10px"
+                    },
+                    "attributes": {
+                      "iconName": "12PointStar"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "color": "#666",
+                      "flex-grow": "1"
+                    },
+                    "txtContent": "Sunrise"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "[$Sunrise]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "20px",
+                      "margin-right": "10px"
+                    },
+                    "attributes": {
+                      "iconName": "ClearNight"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "color": "#666",
+                      "flex-grow": "1"
+                    },
+                    "txtContent": "Sunset"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "14px",
+                      "font-weight": "bold"
+                    },
+                    "txtContent": "[$Sunset]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

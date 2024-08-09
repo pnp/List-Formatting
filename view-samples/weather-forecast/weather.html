@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .weather-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            margin-bottom: 10px;
+        }
+
+        .header h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        .main-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .temperature {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .weather-icon {
+            font-size: 36px;
+        }
+
+        .wind-info {
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .weather-description {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .additional-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 10px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .info-icon {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #4285f4;
+        }
+
+        .info-label {
+            font-size: 14px;
+            color: #666;
+            flex-grow: 1;
+        }
+
+        .info-value {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="weather-container">
+        <div class="header">
+            <h2>Thu 08 | Day</h2>
+        </div>
+        <div class="main-info">
+            <div class="temperature">13°</div>
+            <div class="weather-icon">☁️🌧️</div>
+            <div class="wind-info">
+                <div>59%</div>
+                <div>N43 km/h</div>
+            </div>
+        </div>
+        <div class="weather-description">
+            <p>Windy, with showers. High 13°C. Winds N at 40 to 55 km/h. Chance of rain 60%.</p>
+        </div>
+        <div class="additional-info">
+            <div class="info-item">
+                <span class="info-icon">💧</span>
+                <span class="info-label">Humidity</span>
+                <span class="info-value">78%</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">☀️</span>
+                <span class="info-label">UV Index</span>
+                <span class="info-value">1 of 11</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">🌅</span>
+                <span class="info-label">Sunrise</span>
+                <span class="info-value">07:20</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">🌇</span>
+                <span class="info-label">Sunset</span>
+                <span class="info-value">17:33</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
