@@ -10,7 +10,7 @@
       "This sample demonstrates the use of the setValue action of customRowAction to set the current logged-in user in the Person column."
     ],
     "creationDateTime": "2023-05-11T00:00:00.000Z",
-    "updateDateTime": "2024-04-28T00:00:00.000Z",
+    "updateDateTime": "2024-08-13T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
