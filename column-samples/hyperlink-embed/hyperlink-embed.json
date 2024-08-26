@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(@currentField,'','none')",
+        "margin-left": "8px",
+        "margin-right": "8px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "@currentField.desc",
+          "style": {
+            "cursor": "pointer",
+            "text-decoration": "underline"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themeDarker--hover ms-fontSize-s",
+            "title": "Click to open callout with embedded content."
+          },
+          "customRowAction": {
+            "action": "embed",
+            "actionInput": {
+              "src": "@currentField",
+              "height": "360",
+              "width": "640"
+            }
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "padding-left": "3px"
+          },
+          "attributes": {
+            "iconName": "ActionCenter",
+            "class": "ms-fontSize-mi"
+          }
+        }
+      ]
+    }
+  ]
+}
