@@ -30,7 +30,7 @@ For example, the embedding URL for YouTube can be obtained as follows:
 1. Select the **Embed** button
 1. Copy the URL from the `src` attribute in the embed code
 
-    ![how to get the URL for YouTube embedding](./assets/youtube-embed-url.png)
+    ![instructions on how to get the embedding URL for YouTube videos](./assets/youtube-embed-url.png)
 
 If the URL is not an embedding URL, the following error screen may appear:
 
