@@ -251,7 +251,7 @@
                     "style": {
                       "color": "#d32f2f"
                     },
-                    "txtContent": "='Save $' + [$CalculatedPrice]"
+                    "txtContent": "='Save $' + [$PriceDifference]"
                   }
                 ]
               }
@@ -281,8 +281,7 @@
                 "customRowAction": {
                   "action": "setValue",
                   "actionInput": {
-                    "AddedToCart": "=if([$AddedToCart] == true, false, true)",
-                    "ApprovalActionBy": "@me"
+                    "AddedToCart": "=if([$AddedToCart] == true, false, true)"
                   }
                 },
                 "txtContent": "=if([$AddedToCart] == true, 'Remove from cart', 'Add to cart')",
