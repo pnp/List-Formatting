@@ -5,6 +5,7 @@ This sample shows custom quick links for adding to vertical section in a SharePo
 
 ![screenshot of the sample](./assets/sample.png)
 
+![screenshot of the sample](./assets/all-items.png)
 
 ## View requirements
 *View items with gallery previews
