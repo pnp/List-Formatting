@@ -24,9 +24,6 @@
         "attributes": {
           "class": "ms-bgColor-neutralLight sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer"
         },
-        "style": {
-          "xbackground-color": "#f0f0f0"
-        },
         "children": [
           {
             "elmType": "div",
