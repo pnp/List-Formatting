@@ -24,6 +24,7 @@
         "attributes": {
           "class": "ms-bgColor-neutralLight sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer"
         },
+        "style": {},
         "children": [
           {
             "elmType": "div",
@@ -56,7 +57,7 @@
                         "style": {
                           "max-width": "100%",
                           "max-height": "100%",
-                          "margin": "0px 0px 0px 0px",
+                          "margin": "0",
                           "background-color": "white"
                         }
                       }
@@ -69,11 +70,10 @@
           {
             "elmType": "div",
             "style": {
-              "margin": "0px 0px 0px 0px",
+              "margin": "0",
               "justify-content": "center",
               "display": "flex",
-              "height": "100%",
-              "background-color": "transparent"
+              "height": "100%"
             },
             "children": [
               {
@@ -84,7 +84,6 @@
                   "word-break": "break-word",
                   "line-height": "1.2",
                   "font-size": "10px",
-                  "color": "#003735",
                   "display": "flex",
                   "text-align": "center",
                   "align-items": "center"
