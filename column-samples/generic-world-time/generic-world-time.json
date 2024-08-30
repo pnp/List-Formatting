@@ -15,7 +15,7 @@
         {
           "elmType": "div",
           "style": {
-            "width": "100%",
+            "width": "97%",
             "position": "absolute",
             "display": "flex",
             "flex-direction": "row",
