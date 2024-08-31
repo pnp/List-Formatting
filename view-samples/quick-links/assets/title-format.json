@@ -1,7 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
-  "_comment_": "MAIN",
   "style": {
     "flex-direction": "column",
     "text-align": "left"
@@ -9,7 +8,6 @@
   "children": [
     {
       "elmType": "div",
-      "_comment_": "Div1",
       "txtContent": "@currentField",
       "attributes": {
         "class": "ms-fontColor-themePrimary"
@@ -17,13 +15,11 @@
       "style": {
         "font-weight": "bold",
         "width": "100%",
-        "xcolor": "accent",
         "margin-bottom": "6px"
       }
     },
     {
       "elmType": "div",
-      "_comment_": "Div2",
       "txtContent": "=[$Icon.desc]+'\n'+[$Icon]",
       "style": {
         "width": "100%"
