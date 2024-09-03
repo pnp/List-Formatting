@@ -26,6 +26,7 @@ faq-accordion.json | [Anand Vadivelan](https://github.com/anandragav) ([@anandVr
 Version |Date              |Comments
 --------|------------------|--------------------------------
 1.0     |July 9, 2021  |Initial release
+1.1     |September 3, 2024  |Fixed layout corruption caused by updates to SharePoint and Microsoft Lists
 
 
 ## Disclaimer
