@@ -5,7 +5,7 @@ This sample combines a couple of lists and a few formats to demonstrate creating
 
 An optional Power Automate flow is also presented below to ensure that as Team Members are added to the Office 365 Group a response list item is configured automatically for them.
 
-![screenshot of the sample](./assets/screenshot.png
+![screenshot of the sample](./assets/screenshot.png)
 
 ![screenshot of the poll response](./assets/screenshotPollResponse.png)
 
