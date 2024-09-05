@@ -45,6 +45,9 @@ An optional Power Automate flow is also presented below to ensure that as Team M
 
 > Those ugly names are automatically created when we select the additional columns when configuring the Poll lookup column. Fun!
 
+> [!NOTE]  
+> When using `team-poll-results.json`, it is necessary to group by the `SelectionwithColor` column.
+
 ## Flow Prompt
 
 "When a Horse is added or removed from an Office 365 Group, look up the user's profile, and then create a list item in SharePoint"
