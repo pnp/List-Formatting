@@ -15,8 +15,8 @@
         "attributes": {
           "class": "sp-card-defaultClickButton",
           "target": "_blank",
-          "href": "[$Icon.desc]",
-          "title": "[$Title]"
+          "href": "[$Title]",
+          "title": "[$Icon.desc]"
         }
       },
       {
@@ -77,7 +77,7 @@
             "children": [
               {
                 "elmType": "p",
-                "txtContent": "[$Title]",
+                "txtContent": "[$Icon.desc]",
                 "style": {
                   "overflow-wrap": "break-word",
                   "word-break": "break-word",
