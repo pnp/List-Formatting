@@ -1,7 +1,11 @@
 # Quick Links
 
 ## Summary
-This sample shows custom quick links for adding to vertical section in a SharePoint page.
+This sample shows custom quick links for adding to a vertical section in a SharePoint page.
+
+Images are stored in a central location, so updating an image automatically updates it everywhere it's used. This is especially useful for large companies with many divisions and departments.
+
+Initially, multiple columns were used, but they weren't found to be useful over time.
 
 ![screenshot of the sample](./assets/sample.png)
 
@@ -12,7 +16,7 @@ This sample shows custom quick links for adding to vertical section in a SharePo
 
 Field Name | Required | Type
 ---------- | -------- | ----
-Title | Yes | Single line of text
+URL (Title) | Yes | Single line of text
 Icon | Yes | Hyperlink or Picture (Picture)
 
 
@@ -20,10 +24,10 @@ Icon | Yes | Hyperlink or Picture (Picture)
 
 Solution|Author(s)
 --------|---------
-[comfy.json](./assets/comfy.json) | [Watana](https://github.com/Watana2)
-[compact.json](./assets/compact.json) | [Watana](https://github.com/Watana2)
-[compact2.json](./assets/compact2.json) | [Watana](https://github.com/Watana2)
-[title-format.json](./assets/title-format.json) | [Watana](https://github.com/Watana2)
+[comfy.json (icon view)](./assets/comfy.json) | [Watana](https://github.com/Watana2)
+[compact.json (icon view)](./assets/compact.json) | [Watana](https://github.com/Watana2)
+[compact2.json (icon view)](./assets/compact2.json) | [Watana](https://github.com/Watana2)
+[title-format.json (AllItems view)](./assets/title-format.json) | [Watana](https://github.com/Watana2)
 
 
 ## Version history
