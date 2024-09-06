@@ -27,7 +27,7 @@ Solution|Author(s)
 [comfy.json (icon view)](./assets/comfy.json) | [Watana](https://github.com/Watana2)
 [compact.json (icon view)](./assets/compact.json) | [Watana](https://github.com/Watana2)
 [compact2.json (icon view)](./assets/compact2.json) | [Watana](https://github.com/Watana2)
-[title-format.json (AllItems view)](./assets/title-format.json) | [Watana](https://github.com/Watana2)
+[url-format.json (AllItems view)](./assets/url-format.json) | [Watana](https://github.com/Watana2)
 
 
 ## Version history
