@@ -8,7 +8,7 @@
   "children": [
     {
       "elmType": "div",
-      "txtContent": "@currentField",
+      "txtContent": "[$Icon.desc]",
       "attributes": {
         "class": "ms-fontColor-themePrimary"
       },
@@ -20,7 +20,7 @@
     },
     {
       "elmType": "div",
-      "txtContent": "=[$Icon.desc]+'\n'+[$Icon]",
+      "txtContent": "=[$Icon]+'\n'+@currentField",
       "style": {
         "width": "100%"
       }
