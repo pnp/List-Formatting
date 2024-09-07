@@ -31,6 +31,8 @@ Field Name | Required | Type
 URL (Title) | Yes | Single line of text
 Icon | Yes | Hyperlink or Picture (Picture)
 
+![screenshot of the sample](./assets/icon-column.png)
+
 
 ## Sample
 
