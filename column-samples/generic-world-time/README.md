@@ -24,6 +24,7 @@ Version |Date           |Comments
 --------|---------------|--------
 1.0     |April 17, 2022 |Initial release
 1.1     |March 3, 2023  |Fixed to the method using the split operator.
+1.2     |August 30, 2024 |Fixed that the right border was no longer displayed.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
