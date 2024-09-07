@@ -18,11 +18,11 @@ Price                     | Currency (Number of decimal places=2)
 OldPrice                  | Currency
 ImageUrl                  | Single line of text
 Offer                     | Single line of text
-CalculatedPrice           | Calculated (calculation based on other columns)(Formula = =INT(Price)+(TEXT(MID(Price-INT(Price),2,LEN(TEXT(Price-INT(Price),"0.00"))-1),"0.00")*1)) (Type = 'Single line of text')
-PriceDifference           | Calculated (calculation based on other columns)(Formula =OldPrice-INT(Price)+(TEXT(MID(Price-INT(Price),2,LEN(TEXT(Price-INT(Price),"0.00"))-1),"0.00")*1)-1) (Type = 'Single line of text')
+CalculatedPrice           | Calculated (calculation based on other columns)(Formula = =ROUND(Price,2)) (Type = 'Single line of text')
+PriceDifference           | Calculated (calculation based on other columns)(Formula =OldPrice-Price) (Type = 'Single line of text')
 Rating                    | Number
 DollarValue               | Calculated (calculation based on other columns)(Formula = INT(Price))
-CentsValue                | Calculated (calculation based on other columns)(Formula =TEXT(INT((Price-INT(Price))*100),"00"))(Type = 'Single line of text')
+CentsValue                | Calculated (calculation based on other columns)(Formula =TEXT(ROUND((Price-INT(Price))*100,0),"00"))(Type = 'Single line of text')
 QuantitySold              | Number
 AddedToCart               | Yes/No
 Shipping                  | Currency
