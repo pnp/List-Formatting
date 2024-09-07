@@ -7,12 +7,24 @@ Images are stored in a central location, so updating an image automatically upda
 
 Initially, multiple columns were used, but they weren't found to be useful over time.
 
+
 ![screenshot of the sample](./assets/sample.png)
 
 ![screenshot of the sample](./assets/all-items.png)
 
 ## View requirements
-*View items with gallery previews
+
+Image column type doesn't allow manual path input.
+
+Text column type allows it but requires an additional view to display.
+
+Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images 
+
+*Views
+
+Icon view (gallery) is used for visitors.
+
+AllItem view is used for site owners/admins to maintain the quick links.
 
 Field Name | Required | Type
 ---------- | -------- | ----
