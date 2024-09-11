@@ -37,7 +37,7 @@ shopping-cart.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn
 
 Version|Date|Comments
 -------|----|--------
-1.0|August 20, 2024|Initial release
+1.0|September 11, 2024|Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
