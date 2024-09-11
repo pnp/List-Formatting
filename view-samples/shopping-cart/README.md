@@ -21,7 +21,7 @@ Offer                     | Single line of text
 CalculatedPrice           | Calculated (calculation based on other columns)(Formula = =ROUND(Price,2)) (Type = 'Single line of text')
 PriceDifference           | Calculated (calculation based on other columns)(Formula =OldPrice-Price) (Type = 'Single line of text')
 Rating                    | Number
-DollarValue               | Calculated (calculation based on other columns)(Formula = INT(Price))
+DollarValue               | Calculated (calculation based on other columns)(Formula = INT(Price)) (Type = 'Single line of text')
 CentsValue                | Calculated (calculation based on other columns)(Formula =TEXT(ROUND((Price-INT(Price))*100,0),"00"))(Type = 'Single line of text')
 QuantitySold              | Number
 AddedToCart               | Yes/No
