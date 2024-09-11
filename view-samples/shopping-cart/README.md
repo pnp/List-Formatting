@@ -27,9 +27,6 @@ QuantitySold              | Number
 AddedToCart               | Yes/No
 Shipping                  | Currency
 
-
-
-
 ## Sample
 
 Solution|Author
@@ -50,5 +47,3 @@ Version|Date|Comments
 ## Additional notes
 
 None
-
-
