@@ -21,6 +21,15 @@ Images are stored in a central location, so updating an image automatically upda
 > Image column types doesn't allow manual path input.Text column type allows it but requires an additional view to display. Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images.  
 > ![screenshot of the Picture column settings screen](./assets/picture-column-settings.png)
 
+> [!NOTE]
+> - The hyperlink column format cannot be set to Picture in the modern column create or edit pane.  
+>     ![screenshot of the create column pane](./assets/create-column-pane.png)
+> 
+>     To set the hyperlink column format to Picture, you must do so from the classic create or edit column screen.  
+>     ![steps to open the edit column screen](./assets/edit-column-screen.png)
+> 
+> - When setting an external site's image URL in the `Picture` column, the image may not be displayed. This happens when attempting to retrieve images from a domain that is not allowed. To enable image display, you'll need to configure the HTML Field Security settings. For more details, refer to [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
+
 ## Sample
 
 Solution|Author(s)
