@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
-  "width": 72,
-  "height": 98,
+  "width": 60,
+  "height": 86,
   "hideSelection": true,
   "fillHorizontally": false,
   "formatter": {
     "elmType": "div",
     "attributes": {
-      "class": "sp-card-container"
+      "class": "sp-card-container sp-card-container-noPadding"
     },
     "children": [
       {
@@ -15,8 +15,8 @@
         "attributes": {
           "class": "sp-card-defaultClickButton",
           "target": "_blank",
-          "href": "[$Title]",
-          "title": "[$Icon.desc]"
+          "href": "[$Link]",
+          "title": "[$Link.desc]"
         }
       },
       {
@@ -43,7 +43,7 @@
                       "class": "sp-card-imagePreviewBackground"
                     },
                     "style": {
-                      "max-height": "60px",
+                      "max-height": "58px",
                       "background-color": "white",
                       "align-items": "center"
                     },
@@ -51,12 +51,12 @@
                       {
                         "elmType": "img",
                         "attributes": {
-                          "src": "=[$Icon]"
+                          "src": "[$Picture]",
+                          "alt": "[$Picture.desc]"
                         },
                         "style": {
                           "max-width": "100%",
                           "max-height": "100%",
-                          "margin": "0",
                           "background-color": "white"
                         }
                       }
@@ -68,24 +68,23 @@
           },
           {
             "elmType": "div",
+            "attributes": {
+              "class": "sp-card-subContainer sp-card-subContainer-borderRadius"
+            },
             "style": {
-              "margin": "0",
               "justify-content": "center",
-              "display": "flex",
               "height": "100%"
             },
             "children": [
               {
                 "elmType": "p",
-                "txtContent": "[$Icon.desc]",
+                "txtContent": "[$Link.desc]",
                 "style": {
-                  "overflow-wrap": "break-word",
                   "word-break": "break-word",
+                  "overflow-wrap": "break-word",
                   "line-height": "1.2",
                   "font-size": "10px",
-                  "display": "flex",
-                  "text-align": "center",
-                  "align-items": "center"
+                  "text-align": "center"
                 }
               }
             ]
