@@ -43,7 +43,8 @@ Version|Date|Comments
 
 ## Additional notes
 
+If you create a list view and apply [hyperlink-display-url](/column-samples/hyperlink-display-url/README.md) to format the `Link` or `Picture` columns, you can display the URLs set in the hyperlink column on the view, making it easier to check the link destinations and manage maintenance.
 
-
+![screenshot of the list with hyperlink-display-url applied](./assets/hyperlink-display-url.png)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-quick-links" />
