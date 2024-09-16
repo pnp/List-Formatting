@@ -12,15 +12,14 @@ Images are stored in a central location, so updating an image automatically upda
 - The view must be set to gallery.
 - This format expects the following columns to be part of the view:
 
-    Field Name | Required | Typec
+    Field Name | Required | Type
     ---------- | -------- | ----
     Link | Yes | Hyperlink or Picture (Format URL as: Hyperlink)
     Picture | Yes | Hyperlink or Picture (Format URL as: Picture)
 
-    ![screenshot of the Picture column settings screen](./assets/picture-column-settings.png)
-
 > [!TIP]
-> Image column types doesn't allow manual path input.Text column type allows it but requires an additional view to display. Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images.
+> Image column types doesn't allow manual path input.Text column type allows it but requires an additional view to display. Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images.  
+> ![screenshot of the Picture column settings screen](./assets/picture-column-settings.png)
 
 ## Sample
 
