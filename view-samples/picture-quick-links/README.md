@@ -17,10 +17,10 @@ Images are stored in a central location, so updating an image automatically upda
     Link | Yes | Hyperlink or Picture (Format URL as: Hyperlink)
     Picture | Yes | Hyperlink or Picture (Format URL as: Picture)
 
-    > [!TIP]  
-    > Image column types doesn't allow manual path input.Text column type allows it but requires an additional view to display. Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images.
-
     ![screenshot of the Picture column settings screen](./assets/picture-column-settings.png)
+
+> [!TIP]  
+> Image column types doesn't allow manual path input.Text column type allows it but requires an additional view to display. Hyperlink or Picture column types as the name suggested, it can be used for pictures only or hyperlinks. Picture in this case fitting the purpose of displaying images.
 
 ## Sample
 
