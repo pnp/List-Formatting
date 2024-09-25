@@ -12,6 +12,9 @@
     }
   ],
   "customCardProps": {
+    "openOnEvent": "hover",
+    "directionalHint": "bottomleft",
+    "isBeakVisible": false,
     "formatter": {
       "elmType": "div",
       "style": {
@@ -213,9 +216,6 @@
           ]
         }
       ]
-    },
-    "openOnEvent": "hover",
-    "directionalHint": "bottomleft",
-    "isBeakVisible": false
+    }
   }
 }
