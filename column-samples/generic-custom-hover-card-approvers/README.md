@@ -10,7 +10,6 @@ The approval hover card provides an intuitive, streamlined way for users to quic
 
 | Internal Name            | Type                | Notes                                                       |
 |--------------------------|---------------------|-------------------------------------------------------------|
-| Title                    | Single line of text |                                                             |
 | Approver1Comments        | Single line of text |                                                             |
 | Approver2Comments        | Single line of text |                                                             |
 | Approver1Response        | Choice              | "Approved","Rejected","Pending"                             |
@@ -19,7 +18,6 @@ The approval hover card provides an intuitive, streamlined way for users to quic
 | Approver2                | Person or Group     |                                                             |
 | Approver1RespondedOn     | Date and Time       |                                                             |
 | Approver2RespondedOn     | Date and Time       |                                                             |
-| ApproverComments         | Single line of text |                                                             |
 
 ## Sample
 
