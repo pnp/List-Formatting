@@ -25,7 +25,7 @@ The approval hover card provides an intuitive, streamlined way for users to quic
 
 Solution|Author(s)
 --------|---------
-custom-hover-card-approvers.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
+generic-custom-hover-card-approvers.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 
