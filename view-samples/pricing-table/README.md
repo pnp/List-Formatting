@@ -17,7 +17,7 @@ This sample transforms list items into cards formatted with pricing table layout
 |Single line of text|BackgroundColorCode   |        |
 |Single line of text|ColorCode   |        |
 |Multiple lines of text|Features   |        |
-|Hyperlink or Picture|Link   |        |
+|Hyperlink or Picture|Link   |Yes     |
 
 - Make sure to use the Gallery View and include all the specified fields in the view.
 - For the Features section in the pricing table, populate the Feature column with all the values separated by semicolons.
