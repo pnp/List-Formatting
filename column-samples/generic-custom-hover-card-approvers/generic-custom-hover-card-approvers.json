@@ -1,0 +1,221 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "Approver Commments",
+      "style": {
+        "font-weight": "bold",
+        "margin-bottom": "4px"
+      }
+    }
+  ],
+  "customCardProps": {
+    "openOnEvent": "hover",
+    "directionalHint": "bottomleft",
+    "isBeakVisible": false,
+    "formatter": {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "padding": "10px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "font-size": "14px",
+            "padding": "10px",
+            "border-radius": "5px",
+            "background-color": "#f0f0f0",
+            "margin-bottom": "8px",
+            "text-align": "left",
+            "width": "95%",
+            "border": "1px solid",
+            "border-color": "=if([$Approver1Response] == 'Pending', '#17a2b8', if([$Approver1Response] == 'Approved', '#28a745', '#dc3545'))"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "align-items": "left",
+                "margin-bottom": "8px"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "attributes": {
+                    "src": "=getUserImage([$Approver1.email],'l')"
+                  },
+                  "style": {
+                    "width": "50px",
+                    "height": "50px",
+                    "border-radius": "50%",
+                    "margin-right": "10px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Approver1.title]",
+                      "style": {
+                        "font-weight": "bold",
+                        "font-size": "16px"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Approver1RespondedOn]",
+                      "style": {
+                        "font-size": "12px",
+                        "color": "#666666"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "justify-content": "space-between",
+                "align-items": "left",
+                "margin-bottom": "8px"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "style": {
+                    "background-color": "=if([$Approver1Response] == 'Pending', '#17a2b8', if([$Approver1Response] == 'Approved', '#28a745', '#dc3545'))",
+                    "color": "#fff",
+                    "padding": "2px 8px",
+                    "border-radius": "4px",
+                    "font-size": "12px"
+                  },
+                  "txtContent": "[$Approver1Response]"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "gap": "8px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$Approver1Comments]",
+              "style": {
+                "color": "#666666",
+                "font-size": "14px"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "font-size": "14px",
+            "padding": "10px",
+            "border-radius": "5px",
+            "background-color": "#f0f0f0",
+            "margin-bottom": "8px",
+            "text-align": "left",
+            "width": "95%",
+            "border": "1px solid",
+            "border-color": "=if([$Approver2Response] == 'Pending', '#17a2b8', if([$Approver2Response] == 'Approved', '#28a745', '#dc3545'))"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "align-items": "left",
+                "margin-bottom": "8px"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "attributes": {
+                    "src": "=getUserImage([$Approver2.email],'l')"
+                  },
+                  "style": {
+                    "width": "50px",
+                    "height": "50px",
+                    "border-radius": "50%",
+                    "margin-right": "10px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Approver2.title]",
+                      "style": {
+                        "font-weight": "bold",
+                        "font-size": "16px"
+                      }
+                    },
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Approver2RespondedOn]",
+                      "style": {
+                        "font-size": "12px",
+                        "color": "#666666"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "justify-content": "space-between",
+                "align-items": "left",
+                "margin-bottom": "8px"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "style": {
+                    "background-color": "=if([$Approver2Response] == 'Pending', '#17a2b8', if([$Approver2Response] == 'Approved', '#28a745', '#dc3545'))",
+                    "color": "#fff",
+                    "padding": "2px 8px",
+                    "border-radius": "4px",
+                    "font-size": "12px"
+                  },
+                  "txtContent": "[$Approver2Response]"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "display": "flex",
+                    "gap": "8px"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "txtContent": "[$Approver2Comments]",
+              "style": {
+                "color": "#666666",
+                "font-size": "14px"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
