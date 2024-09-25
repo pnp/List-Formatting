@@ -3,9 +3,9 @@
 ## Summary
 This sample transforms list items into cards formatted with pricing table layouts. To ensure the view functions correctly, make sure all specified columns are included. For the Features section in the pricing table, populate the Feature column with all the values separated by semicolons.
 
-![screenshot of the sample 1](./assets/ListViewFormatter.png)
-<br>
-![screenshot of the sample 2](./assets/Screenshot_PageView.png)
+![screenshot of the sample](./assets/screenshot.png)
+  
+![screenshot of the sample embedded on the page](./assets/screenshot-page-view.png)
 
 ## View requirements
 |Type               |Internal Name|Required|
@@ -37,6 +37,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-
-
-
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/pricing-table" />
