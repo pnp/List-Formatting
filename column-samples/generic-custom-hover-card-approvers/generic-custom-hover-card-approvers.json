@@ -48,7 +48,7 @@
                 {
                   "elmType": "img",
                   "attributes": {
-                    "src": "=@currentWeb +'/_layouts/15/userphoto.aspx?size=L&accountname=' + [$Approver1.email]"
+                    "src": "=getUserImage([$Approver1.email],'l')"
                   },
                   "style": {
                     "width": "50px",
@@ -144,7 +144,7 @@
                 {
                   "elmType": "img",
                   "attributes": {
-                    "src": "=@currentWeb +'/_layouts/15/userphoto.aspx?size=L&accountname=' + [$Approver2.email]"
+                    "src": "=getUserImage([$Approver2.email],'l')"
                   },
                   "style": {
                     "width": "50px",
