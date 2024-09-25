@@ -1,4 +1,4 @@
-# Custom Approver Hover Card (Column)
+# Custom Approver Hover Card
 
 ## Summary
 The approval hover card provides an intuitive, streamlined way for users to quickly access key details about an approval details without navigating away from their current task or screen.
