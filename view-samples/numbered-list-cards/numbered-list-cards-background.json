@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-fontSize-m ms-fontColor-ms-bgColor-neutralPrimary ms-fontWeight-semibold"
+    },
+    "style": {
+      "display": "flex",
+      "position": "relative",
+      "border-radius": "0 0.5rem 0.5rem 0.5rem",
+      "margin": "30px 5px",
+      "box-shadow": "0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05)"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-fontColor-white"
+        },
+        "style": {
+          "position": "absolute",
+          "top": "-1rem",
+          "left": "-0.75rem",
+          "height": "3rem",
+          "width": "3rem",
+          "border-radius": "1rem 1rem 0 1rem",
+          "display": "flex",
+          "align-items": "flex-end",
+          "justify-content": "flex-end"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "PASTE YOUR IMAGE URL HERE"
+            },
+            "style": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "100%",
+              "border-radius": "1rem 1rem 0 1rem",
+              "z-index": "0"
+            }
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "z-index": "1",
+              "color": "white",
+              "padding-right": "10px",
+              "letter-spacing": "-3px"
+            },
+            "attributes": {
+              "class": "ms-fontSize-xlPlus ms-fontWeight-bold"
+            },
+            "txtContent": "=@rowIndex + 1"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-neutralLighter"
+        },
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "start",
+          "justify-content": "center",
+          "min-height": "3rem",
+          "padding": "7px 1rem 7px 3rem",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "class": "ms-fontSize-l"
+            },
+            "style": {
+              "padding-bottom": "5px"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "span",
+            "attributes": {
+              "class": "ms-fontSize-m ms-fontWeight-regular"
+            },
+            "txtContent": "[$Description]"
+          }
+        ]
+      }
+    ]
+  }
+}
