@@ -141,6 +141,8 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 
 A maintainer will review your pull request, this repository is maintained by volunteers in their free time, please be kind. Everyone is doing their best to keep things moving forward.
 
+Once your PR is merged, you can delete your branch - please don't delete it before your changes are merged!
+
 ## What if you need help?
 
 We are here and happy to support you and provide you with resources, guidance and an entire community to help you contributing. Our friends at [Sharing is Caring](https://aka.ms/sharing-is-caring) run sessions on how you get started and will help you along the way. If you have any questions, please reach out to any [Microsoft 365 PnP member](https://aka.ms/m365pnp), they will point you into the right direction.
