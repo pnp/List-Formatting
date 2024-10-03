@@ -1,0 +1,243 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "block",
+      "width": "500px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "height": "60px",
+          "background-color": "#71afe5",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "Employee",
+            "style": {
+              "height": "=(60-4*2) + 'px'",
+              "width": "=(80-4*2) + 'px'",
+              "margin": "4px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "background-color": "yellow"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='Employee: ' + [$Employee.title] + '\nManager: ' + [$Manager.title] ",
+            "style": {
+              "background-color": "#c7e0f4",
+              "height": "=(60-4*2) + 'px'",
+              "flex-grow": "1",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "left",
+              "padding-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Manager",
+            "style": {
+              "background-color": "yellow",
+              "margin": "4px",
+              "height": "=(60-4*2) + 'px'",
+              "width": "=(80-4*2) + 'px'",
+              "box-sizing": "border-box",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "height": "60px",
+          "background-color": "white",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q1e]",
+            "txtContent": "=if([$Q1e],[$Q1e],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Behaviours\nCallaboration\nIntegrity",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q1m]",
+            "txtContent": "=if([$Q1m],[$Q1m],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "height": "60px",
+          "background-color": "#deecf9",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q2e]",
+            "txtContent": "=if([$Q2e],[$Q2e],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "People & Culture\n",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q2m]",
+            "txtContent": "=if([$Q2m],[$Q2m],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "height": "60px",
+          "xbackground-color": "#deecf9",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q3e]",
+            "txtContent": "=if([$Q3e],[$Q3e],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "People & Culture\n",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q3m]",
+            "txtContent": "=if([$Q3m],[$Q3m],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "height": "60px",
+          "background-color": "#deecf9",
+          "display": "flex",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q4e]",
+            "txtContent": "=if([$Q4e],[$Q4e],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Performance\nCustomer\nFinance",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "inlineEditField": "[$Q4m]",
+            "txtContent": "=if([$Q4m],[$Q4m],'')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "@group.fieldData.displayValue"
+    }
+  }
+}
