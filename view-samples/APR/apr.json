@@ -22,8 +22,8 @@
             "elmType": "div",
             "txtContent": "Employee",
             "style": {
-              "height": "=(60-4*2) + 'px'",
-              "width": "=(80-4*2) + 'px'",
+              "height": "52px",
+              "width": "72px",
               "margin": "4px",
               "display": "flex",
               "align-items": "center",
@@ -36,7 +36,7 @@
             "txtContent": "='Employee: ' + [$Employee.title] + '\nManager: ' + [$Manager.title] ",
             "style": {
               "background-color": "#c7e0f4",
-              "height": "=(60-4*2) + 'px'",
+              "height": "52px",
               "flex-grow": "1",
               "display": "flex",
               "align-items": "center",
@@ -50,8 +50,8 @@
             "style": {
               "background-color": "yellow",
               "margin": "4px",
-              "height": "=(60-4*2) + 'px'",
-              "width": "=(80-4*2) + 'px'",
+              "height": "52px",
+              "width": "72px",
               "box-sizing": "border-box",
               "display": "flex",
               "align-items": "center",
