@@ -5,9 +5,12 @@ This sample demonstrates how to change row data to column format for annual perf
 
 ![screenshot of the sample](./assets/sample.png)
 
+This diagram represents the structure of how the list view is displayed. It shows the hierarchical relationship of various elements.
+
+![screenshot of the sample](./assets/diagram.png)
+
 ## View requirements
 
-- The view must be set to gallery.
 - Group by Employee field in the view settings.
 - This format expects the following columns to be part of the view:
 
