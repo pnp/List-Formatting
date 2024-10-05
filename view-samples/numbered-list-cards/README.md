@@ -1,11 +1,11 @@
 # Numbered List Card
 
 ## Summary
-This sample converts list items into numbered list cards. The numbering is done using <code>@rowIndex</code> JSON formatting value. If you prefer custom ordering, create a new column and use it for sorting in the SharePoint view. To ensure the view works properly, ensure all required columns are included.
+This sample converts list items into numbered list cards. The numbering is done using `@rowIndex` JSON formatting value. If you prefer custom ordering, create a new column and use it for sorting in the SharePoint view. To ensure the view works properly, ensure all required columns are included.
 
 The sample includes two different JSON files: one where the numbering background uses a SharePoint theme color, and another that uses a custom image for the background.
 
-![screenshot of the sample 1](./assets/Numbered-List-Demo-Screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 |Type               |Internal Name|Required|
@@ -31,6 +31,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-
-
-
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/numbered-list-cards" />
