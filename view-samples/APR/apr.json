@@ -5,19 +5,105 @@
   "rowFormatter": {
     "elmType": "div",
     "style": {
-      "display": "block",
-      "width": "500px"
+      "width": "500px",
+      "display": "block"
     },
     "children": [
       {
         "elmType": "div",
         "style": {
-          "height": "60px",
-          "background-color": "#71afe5",
+          "background-color": "#98D6D8",
           "display": "flex",
-          "align-items": "center"
+          "align-items": "center",
+          "xheight": "160px"
         },
         "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "padding": "4px 0 0px 10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "='Employee: ' + toString( Number([$Q1e]) + Number([$Q2e]) + Number([$Q3e]) + Number([$Q4e]) ) + ' /12'",
+                    "style": {
+                      "width": "110px",
+                      "display": "flex",
+                      "align-items": "center"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "150px",
+                      "height": "20px",
+                      "background-color": "#e0e0e0",
+                      "border-radius": "5px",
+                      "position": "relative"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "=( Number([$Q1e]) + Number([$Q2e]) + Number([$Q3e]) + Number([$Q4e]) ) / 12 * 100 + '%'",
+                          "height": "100%",
+                          "background-color": "#4caf50",
+                          "border-radius": "5px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "padding": "4px 0 0px 10px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "='Manager: ' + toString( Number([$Q1m]) + Number([$Q2m]) + Number([$Q3m]) + Number([$Q4m]) ) + ' /12'",
+                    "style": {
+                      "width": "110px",
+                      "display": "flex",
+                      "align-items": "center"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "150px",
+                      "height": "20px",
+                      "background-color": "#e0e0e0",
+                      "border-radius": "5px",
+                      "position": "relative"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "=( Number([$Q1m]) + Number([$Q2m]) + Number([$Q3m]) + Number([$Q4m]) ) / 12 * 100 + '%'",
+                          "height": "100%",
+                          "background-color": "#4caf50",
+                          "border-radius": "5px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "elmType": "div",
             "txtContent": "Employee",
@@ -29,19 +115,6 @@
               "align-items": "center",
               "justify-content": "center",
               "background-color": "yellow"
-            }
-          },
-          {
-            "elmType": "div",
-            "txtContent": "='Employee: ' + [$Employee.title] + '\nManager: ' + [$Manager.title] ",
-            "style": {
-              "background-color": "#c7e0f4",
-              "height": "52px",
-              "flex-grow": "1",
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "left",
-              "padding-left": "5px"
             }
           },
           {
@@ -70,9 +143,17 @@
         },
         "children": [
           {
+            "txtContent": "Behaviours\nCallaboration\nIntegrity",
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "txtContent": "=if([$Q1e],[$Q1e],'')",
             "elmType": "div",
             "inlineEditField": "[$Q1e]",
-            "txtContent": "=if([$Q1e],[$Q1e],'')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -82,17 +163,9 @@
             }
           },
           {
-            "elmType": "div",
-            "txtContent": "Behaviours\nCallaboration\nIntegrity",
-            "style": {
-              "flex-grow": "1",
-              "margin-left": "5px"
-            }
-          },
-          {
+            "txtContent": "=if([$Q1m], [$Q1m], '')",
             "elmType": "div",
             "inlineEditField": "[$Q1m]",
-            "txtContent": "=if([$Q1m],[$Q1m],'')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -107,35 +180,35 @@
         "elmType": "div",
         "style": {
           "height": "60px",
-          "background-color": "#deecf9",
+          "background-color": "#FDF7F4",
           "display": "flex",
           "align-items": "center"
         },
         "children": [
           {
-            "elmType": "div",
-            "inlineEditField": "[$Q2e]",
-            "txtContent": "=if([$Q2e],[$Q2e],'')",
-            "style": {
-              "height": "60px",
-              "width": "80px",
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center"
-            }
-          },
-          {
-            "elmType": "div",
             "txtContent": "People & Culture\n",
+            "elmType": "div",
             "style": {
               "flex-grow": "1",
               "margin-left": "5px"
             }
           },
           {
+            "inlineEditField": "[$Q2e]",
             "elmType": "div",
+            "txtContent": "=if([$Q2e], [$Q2e], '')",
+            "style": {
+              "height": "60px",
+              "width": "80px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
             "inlineEditField": "[$Q2m]",
-            "txtContent": "=if([$Q2m],[$Q2m],'')",
+            "elmType": "div",
+            "txtContent": "=if([$Q2m], [$Q2m], '')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -150,15 +223,23 @@
         "elmType": "div",
         "style": {
           "height": "60px",
-          "xbackground-color": "#deecf9",
+          "xbackground-color": "#FDF7F4",
           "display": "flex",
           "align-items": "center"
         },
         "children": [
           {
+            "txtContent": "People & Culture\n",
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "txtContent": "=if([$Q3e], [$Q3e], '')",
             "elmType": "div",
             "inlineEditField": "[$Q3e]",
-            "txtContent": "=if([$Q3e],[$Q3e],'')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -168,17 +249,9 @@
             }
           },
           {
-            "elmType": "div",
-            "txtContent": "People & Culture\n",
-            "style": {
-              "flex-grow": "1",
-              "margin-left": "5px"
-            }
-          },
-          {
+            "txtContent": "=if([$Q3m], [$Q3m], '')",
             "elmType": "div",
             "inlineEditField": "[$Q3m]",
-            "txtContent": "=if([$Q3m],[$Q3m],'')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -193,15 +266,23 @@
         "elmType": "div",
         "style": {
           "height": "60px",
-          "background-color": "#deecf9",
+          "background-color": "#FDF7F4",
           "display": "flex",
           "align-items": "center"
         },
         "children": [
           {
+            "txtContent": "Performance\nCustomer\nFinance",
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "txtContent": "=if([$Q4e], [$Q4e], '')",
             "elmType": "div",
             "inlineEditField": "[$Q4e]",
-            "txtContent": "=if([$Q4e],[$Q4e],'')",
             "style": {
               "height": "60px",
               "width": "80px",
@@ -211,17 +292,9 @@
             }
           },
           {
-            "elmType": "div",
-            "txtContent": "Performance\nCustomer\nFinance",
-            "style": {
-              "flex-grow": "1",
-              "margin-left": "5px"
-            }
-          },
-          {
+            "txtContent": "=if([$Q4m], [$Q4m], '')",
             "elmType": "div",
             "inlineEditField": "[$Q4m]",
-            "txtContent": "=if([$Q4m],[$Q4m],'')",
             "style": {
               "height": "60px",
               "width": "80px",
