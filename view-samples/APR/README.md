@@ -5,7 +5,7 @@ This sample demonstrates how to change row data to column format for annual perf
 
 ![screenshot of the sample](./assets/sample.png)
 
-This diagram represents the structure of how the list view is displayed. It shows the hierarchical relationship of various elements.
+This diagram represents the structure of how the list view is formatted. It shows the hierarchical relationship of various elements.
 
 ![screenshot of the sample](./assets/diagram.png)
 
