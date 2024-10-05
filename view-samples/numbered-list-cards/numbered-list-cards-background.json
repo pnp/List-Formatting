@@ -5,7 +5,7 @@
   "rowFormatter": {
     "elmType": "div",
     "attributes": {
-      "class": "ms-fontSize-m ms-fontColor-ms-bgColor-neutralPrimary ms-fontWeight-semibold"
+      "class": "ms-fontSize-m ms-fontWeight-semibold"
     },
     "style": {
       "display": "flex",
