@@ -2,6 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
   "hideSelection": true,
   "hideListHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "@group.fieldData.displayValue"
+    }
+  },
   "rowFormatter": {
     "elmType": "div",
     "style": {
@@ -306,11 +312,5 @@
         ]
       }
     ]
-  },
-  "groupProps": {
-    "headerFormatter": {
-      "elmType": "div",
-      "txtContent": "@group.fieldData.displayValue"
-    }
   }
 }
