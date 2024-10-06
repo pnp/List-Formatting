@@ -30,15 +30,15 @@ Q4m        | No       | Number
 
 Solution|Author(s)
 --------|---------
-apr.json | [Watana](https://github.com/watana2)
+annual-performance-review.json | [Watana](https://github.com/watana2)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0    |October 10, 2024|Initial release
+1.0    |October 6, 2024|Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/apr" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/annual-performance-review" />
