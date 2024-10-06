@@ -20,8 +20,7 @@
         "style": {
           "background-color": "#98D6D8",
           "display": "flex",
-          "align-items": "center",
-          "xheight": "160px"
+          "align-items": "center"
         },
         "children": [
           {
