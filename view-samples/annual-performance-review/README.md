@@ -17,7 +17,6 @@ This diagram represents the structure of how the list view is formatted. It show
 Field Name | Required | Type
 ---------- | -------- | ----
 Employee   | Yes      | Person or Group
-Manager    | Yes      | Person or Group
 Q1e        | No       | Number
 Q1m        | No       | Number
 Q2e        | No       | Number
