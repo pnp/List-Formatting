@@ -5,7 +5,7 @@
   "groupProps": {
     "headerFormatter": {
       "elmType": "div",
-      "txtContent": "@group.fieldData.displayValue"
+      "txtContent": "@group.fieldData.title"
     }
   },
   "rowFormatter": {
