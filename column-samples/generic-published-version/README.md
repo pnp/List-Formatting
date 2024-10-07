@@ -5,6 +5,7 @@ This sample creates a button for opening the currently published version of a do
 
 ![screenshot of the sample](./assets/screenshot.png)
 
+> [!NOTE]  
 > The behavior of the button varies in different browsers and for different file types. For Office documents in **Microsoft Edge**, the button opens the file directly from SharePoint in the installed app. In other browsers, the button usually downloads the document, optionally opening it after download, based on settings.
 
 ## View requirements
@@ -30,5 +31,6 @@ Version|Date|Comments
 
 ## Additional notes
 
+None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-published-version" />
