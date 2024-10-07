@@ -14,7 +14,7 @@
             "href": "=if([$_UIVersion] % 512 == 0, [$FileRef], @currentWeb + '/_vti_history/' + 512*floor([$_UIVersion]/512) + substring([$FileRef], indexOf(@currentWeb+'^','^')-indexOf(@currentWeb,'.sharepoint.com')-15, indexOf([$FileRef]+'^','^')))",
             "target": "_blank",
             "class": "ms-fontColor-gray200 ms-bgColor-white ms-fontColor-white--hover ms-bgColor-themePrimary--hover ms-borderColor-themeDark ms-borderColor-themeDark--hover",
-            "title": "='Version ' + toString(floor([$_UIVersion]/512)) + '.0'"
+            "title": "='Open Version ' + toString(floor([$_UIVersion]/512)) + '.0'"
           },
           "style": {
             "text-decoration": "none",
@@ -25,7 +25,7 @@
             "border-width": "1px",
             "border-style": "solid"
           },
-          "txtContent": "Download"
+          "txtContent": "='Open Version ' + toString(floor([$_UIVersion]/512)) + '.0'"
         }
       ]
     }
