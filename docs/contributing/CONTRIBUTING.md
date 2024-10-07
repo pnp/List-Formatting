@@ -67,7 +67,7 @@ Now you want to clone the repository so you have it locally available:
 
 You will now want to make sure, that all your contributions point to the original repository, which is why you want to add an upstream to it:
 
-- navigate to the folder where your cloned repository is located with `cd sp-dev-list-formatting`
+- navigate to the folder where your cloned repository is located with `cd List-Formatting`
 - type `git remote add upstream https://github.com/pnp/List-Formatting` (this needs to be the original repository URL)
 - to check if everything works correctly, type `git remote -v`, you should see this output:
 
