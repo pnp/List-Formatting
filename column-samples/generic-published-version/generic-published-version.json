@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "visibility": "=if([$File_x0020_Type] == '' || [$_UIVersion] < 512, 'hidden', 'visible')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "children": [
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": "=if([$_UIVersion] % 512 == 0, [$FileRef], @currentWeb + '/_vti_history/' + 512*floor([$_UIVersion]/512) + substring([$FileRef], indexOf(@currentWeb+'^','^')-indexOf(@currentWeb,'.sharepoint.com')-15, indexOf([$FileRef]+'^','^')))",
+            "target": "_blank",
+            "class": "ms-fontColor-gray200 ms-bgColor-white ms-fontColor-white--hover ms-bgColor-themePrimary--hover ms-borderColor-themeDark ms-borderColor-themeDark--hover",
+            "title": "='Open Version ' + toString(floor([$_UIVersion]/512)) + '.0'"
+          },
+          "style": {
+            "text-decoration": "none",
+            "padding": "5px 30px",
+            "border-radius": "5px",
+            "font-size": "13px",
+            "white-space": "nowrap",
+            "border-width": "1px",
+            "border-style": "solid"
+          },
+          "txtContent": "='Open Version ' + toString(floor([$_UIVersion]/512)) + '.0'"
+        }
+      ]
+    }
+  ]
+}
