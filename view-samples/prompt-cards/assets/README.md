@@ -1,7 +1,7 @@
 # Prompt Cards
 
 ## Summary
-This sample demonstrates how to format a list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts/all) prompt library. It features the following:
+This sample demonstrates how to format a list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts/all){:target="_blank"} prompt library. It features the following:
 - Responsive layout
 - Conditionally showing icons based on a column value
 - Conditionally changing the text which shows based on if the persons birthday is the current date
