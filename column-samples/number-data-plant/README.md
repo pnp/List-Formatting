@@ -28,7 +28,7 @@ If the Progress field is empty or has any other value, no SVG will be displayed.
 
 ## View requirements
 
-- This format can be applied to a Number column
+- This format can be applied to a any column
 
 ## Sample
 
