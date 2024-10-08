@@ -1,4 +1,4 @@
-# Format a number column with multi-path SVGs
+# Format a column with multi-path SVGs
 
 ## Summary
 
