@@ -34,7 +34,7 @@ If the Progress field is empty or has any other value, no SVG will be displayed.
 
 Solution|Author(s)
 --------|---------
-number-data-plant.json | [Luise Freese](https://twitter.com/LuiseFreese)
+generic-data-plant.json | [Luise Freese](https://twitter.com/LuiseFreese)
 
 
 ## Version history
