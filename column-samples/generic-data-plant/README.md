@@ -24,7 +24,7 @@ The sample includes conditional formatting that displays different SVGs based on
 
 If the Progress field is empty or has any other value, no SVG will be displayed.
 
-![screenshot of the data plant](./screenshot-plant.png)
+![screenshot of the data plant](./assets/screenshot-plant.png)
 
 ## View requirements
 
