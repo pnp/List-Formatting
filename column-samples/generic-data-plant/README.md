@@ -41,9 +41,11 @@ generic-data-plant.json | [Luise Freese](https://twitter.com/LuiseFreese)
 
 Version|Date|Comments
 -------|----|--------
-1.0|October 3, 2024|Initial release
+1.0|October 8, 2024|Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-data-plant/" />
