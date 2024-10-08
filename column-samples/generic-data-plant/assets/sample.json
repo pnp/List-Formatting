@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-data-plant",
     "reponame": "generic-data-plant",
     "source": "pnp",
-    "title": "Format a number column with multi-path SVGs",
+    "title": "Format a column with multi-path SVGs",
     "shortDescription": "This formats applies different SVGs with multiple paths to a number field, depending on the value of the field.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-data-plant",
     "longDescription": [
