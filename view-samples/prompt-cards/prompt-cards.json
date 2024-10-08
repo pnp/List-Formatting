@@ -145,20 +145,20 @@
                     "attributes": {
                       "class": "ms-fontColor-neutralSecondary sp-card-label ms-fontWeight-bold"
                     },
-                    "txtContent": "[!Category.DisplayName]"
+                    "txtContent": "[!PromptCategory.DisplayName]"
                   },
                   {
                     "elmType": "span",
                     "attributes": {
                       "class": "ms-fontColor-neutralPrimary sp-card-content",
-                      "title": "=if([$Category]=='','–',[$Category])"
+                      "title": "=if([$PromptCategory]=='','–',[$PromptCategory])"
                     },
                     "style": {
                       "overflow": "hidden",
                       "text-overflow": "ellipsis",
                       "white-space": "nowrap"
                     },
-                    "txtContent": "=if([$Category]=='','–',[$Category])"
+                    "txtContent": "=if([$PromptCategory]=='','–',[$PromptCategory])"
                   }
                 ]
               }
