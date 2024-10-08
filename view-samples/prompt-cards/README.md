@@ -5,11 +5,14 @@ This sample demonstrates how to format list items as prompt cards. The design is
 - **Responsive tile layout:** Items are displayed in a card-based layout that adjusts to different screen sizes.
 - **Conditional Icons:** Icons change dynamically based on the value of the **Prompt Category** column.
 - **Theme Color Classes:** Uses theme color classes to ensure the format displays as intended regardless of the site's theme (light, dark, custom, etc.).
+- **Gallery View:** The formatting is designed to work with the Gallery view style.
 
 ![Screenshot of the prompt cards list view formatting.](./assets/screenshot.png)
 
 
 ## View requirements
+
+**Important:** This formatting depends on the Gallery view style. Make sure to set your view to Gallery before applying the formatting.
 
 |Type|Internal Name|Required|
 |---|---|:---:|
