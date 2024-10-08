@@ -3,10 +3,7 @@
 ## Summary
 This sample demonstrates how to format a list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts/all) prompt library. It features the following:
 - Responsive tile layout
-- Conditionally showing icons based on a column value
-- Conditionally changing the text which shows based on if the persons birthday is the current date
-- Row Actions
-  - Emailing the person with a pre-filled Happy Birthday Subject
+- Conditionally changing the icons based on the Prompt Category column value
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
 ![screenshot of the sample](./assets/screenshot.png)
