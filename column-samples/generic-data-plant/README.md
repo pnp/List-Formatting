@@ -2,7 +2,7 @@
 
 ## Summary
 
-This formats applies different SVGs with multiple paths to a number field, depending on the value of the field. The field may contain the numbers `1`, `2,`, `3`, or `4`.
+This formats applies different SVGs with multiple paths to a number field, depending on the value of the field. The field may contain the numbers `1`, `2`, `3`, or `4`.
 
 This solution provides a visually appealing way to represent progress using custom SVG graphics. The formatting dynamically changes the displayed SVG based on the value in a "Progress" column.
 
