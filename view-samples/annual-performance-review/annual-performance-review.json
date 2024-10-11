@@ -1,5 +1,62 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "versionHistory",
+        "sectionType": "Overflow",
+        "position": 1
+      },
+      {
+        "key": "undo",
+        "sectionType": "Overflow",
+        "position": 2
+      },
+      {
+        "key": "share",
+        "sectionType": "Overflow",
+        "position": 3
+      },
+      {
+        "key": "editInGridView",
+        "sectionType": "Overflow",
+        "position": 4
+      },
+      {
+        "key": "copyLink",
+        "sectionType": "Overflow",
+        "position": 5
+      },
+      {
+        "key": "export",
+        "sectionType": "Overflow",
+        "position": 6
+      },
+      {
+        "key": "comment",
+        "sectionType": "Overflow",
+        "position": 7
+      },
+      {
+        "key": "manageForms",
+        "sectionType": "Overflow",
+        "position": 8
+      },
+      {
+        "key": "delete",
+        "sectionType": "Overflow",
+        "position": 9
+      },
+      {
+        "key": "integrate",
+        "hide": true
+      },
+      {
+        "key": "automate",
+        "hide": true
+      }
+    ]
+  },
   "hideSelection": true,
   "hideColumnHeader": true,
   "groupProps": {
