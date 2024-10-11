@@ -1,7 +1,7 @@
 # Prompt Cards
 
 ## Summary
-This sample demonstrates how to format list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts/all) prompt library. It features the following:
+This sample demonstrates how to format list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/prompts/all) prompt library. It features the following:
 - **Responsive tile layout:** Items are displayed in a card-based layout that adjusts to different screen sizes.
 - **Conditional Icons:** Icons change dynamically based on the value of the **PromptCategory** column.
 - **Theme Color Classes:** Uses theme color classes to ensure the format displays as intended regardless of the site's theme (light, dark, custom, etc.).
