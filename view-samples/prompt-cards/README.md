@@ -77,7 +77,7 @@ prompt-cards.json | [Pat McGown](https://github.com/pmcgown) ([@pmcgown](https:/
 
 Version|Date|Comments
 -------|----|--------
-1.0|October 8, 2024 |Initial release
+1.0|October 11, 2024 |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
