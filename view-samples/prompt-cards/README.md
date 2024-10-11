@@ -7,7 +7,7 @@ This sample demonstrates how to format list items as prompt cards. The design is
 - **Theme Color Classes:** Uses theme color classes to ensure the format displays as intended regardless of the site's theme (light, dark, custom, etc.).
 - **Gallery View:** The formatting is designed to work with the Gallery view style.
 
-![Screenshot of the prompt cards list view formatting.](./assets/screenshot.png)
+![Screenshot of the prompt cards list view formatting](./assets/screenshot.png)
 
 
 ## View requirements
@@ -37,7 +37,7 @@ This sample demonstrates how to format list items as prompt cards. The design is
   - Code
   - Analyze
   - Manage
-- **Works in (Choice - allow multiple selections):** Specify applications or contexts where the prompt is effective. Choices include:
+- **Worksin (Choice - allow multiple selections):** Specify applications or contexts where the prompt is effective. Choices include:
   - Business Chat (work)
   - Copilot chat (web)
   - ChatGPT
@@ -56,7 +56,6 @@ This sample demonstrates how to format list items as prompt cards. The design is
   - Stream
   - Forms
   - Viva Engage
-- **Make it your own (Multiple lines of text):** Additional details or tips on how to customize or adapt the prompt.
 - **Icon (Calculated - Single line of text):** This column calculates the appropriate icon based on the **PromptCategory**.
   You need the **Icon** calculated column to display the icon associated with the **PromptCategory** column. Use the following formula for this calculated column:
 
