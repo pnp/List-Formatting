@@ -132,7 +132,6 @@
                 "style": {
                   "text-align": "right",
                   "font-size": "12px",
-                  "overflow": "",
                   "white-space": "nowrap"
                 },
                 "attributes": {
