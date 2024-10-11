@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates how to format list items as prompt cards. The design is inspired from the [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts/all) prompt library. It features the following:
 - **Responsive tile layout:** Items are displayed in a card-based layout that adjusts to different screen sizes.
-- **Conditional Icons:** Icons change dynamically based on the value of the **Prompt Category** column.
+- **Conditional Icons:** Icons change dynamically based on the value of the **PromptCategory** column.
 - **Theme Color Classes:** Uses theme color classes to ensure the format displays as intended regardless of the site's theme (light, dark, custom, etc.).
 - **Gallery View:** The formatting is designed to work with the Gallery view style.
 
@@ -26,7 +26,7 @@ This sample demonstrates how to format list items as prompt cards. The design is
 
 - **Title (Single line of text):** A concise name for the prompt.
 - **Prompt (Multiple lines of text):** The full text of the prompt.
-- **Prompt Category (Choice):** Categorize prompts for easy filtering. Choices include:
+- **PromptCategory (Choice):** Categorize prompts for easy filtering. Choices include:
   - Understand
   - Create
   - Catch up
@@ -57,10 +57,10 @@ This sample demonstrates how to format list items as prompt cards. The design is
   - Forms
   - Viva Engage
 - **Make it your own (Multiple lines of text):** Additional details or tips on how to customize or adapt the prompt.
-- **Icon (Calculated - Single line of text):** This column calculates the appropriate icon based on the **Prompt Category**.
-You need the **Icon** calculated column to display the icon associated with the **Prompt Category** column. Use the following formula for this calculated column:
+- **Icon (Calculated - Single line of text):** This column calculates the appropriate icon based on the **PromptCategory**.
+You need the **Icon** calculated column to display the icon associated with the **PromptCategory** column. Use the following formula for this calculated column:
 
-`=IF(ISBLANK([Prompt Category]),"PageEdit",IF([Prompt Category]="Understand","Lightbulb",IF([Prompt Category]="Create","TextDocumentEdit",IF([Prompt Category]="Catch up","PageList",IF([Prompt Category]="Ask","Feedback",IF([Prompt Category]="Edit","Edit",IF([Prompt Category]="Learn","LearningTools",IF([Prompt Category]="Design","EditCreate",IF([Prompt Category]="Code","CodeEdit",IF([Prompt Category]="Analyze","ComplianceAudit",IF([Prompt Category]="Manage","DateTime","PageEdit")))))))))))`
+`=IF(ISBLANK([PromptCategory]),"PageEdit",IF([PromptCategory]="Understand","Lightbulb",IF([PromptCategory]="Create","TextDocumentEdit",IF([PromptCategory]="Catch up","PageList",IF([PromptCategory]="Ask","Feedback",IF([PromptCategory]="Edit","Edit",IF([PromptCategory]="Learn","LearningTools",IF([PromptCategory]="Design","EditCreate",IF([PromptCategory]="Code","CodeEdit",IF([PromptCategory]="Analyze","ComplianceAudit",IF([PromptCategory]="Manage","DateTime","PageEdit")))))))))))`
 
 If you'd like to require approval before the prompt is shown in the prompt library list, you can use Microsoft Power Automate to request approval when a SharePoint item is created and use the "Stop sharing an item or a file" action until the item is approved.
 
