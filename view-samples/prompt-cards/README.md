@@ -18,9 +18,8 @@ This sample demonstrates how to format list items as prompt cards. The design is
 |---|---|:---:|
 |Single line of text|Title|Yes|
 |Multiple lines of text|Prompt|Yes|
-|Choice|Prompt Category|Yes|
-|Choice (allow multiple)|Works in|Yes|
-|Multiple lines of text|Make it your own|No|
+|Choice|PromptCategory|Yes|
+|Choice (allow multiple)|Worksin|Yes|
 |Calculated (Single line of text)|Icon|Yes|
 
 ### Column Details
