@@ -98,7 +98,7 @@ Now it's time to make some changes:
   - also, join our [Microsoft 365 PnP](https://aka.ms/m365pnp) community calls, where we regularly feature demos on list formatting
   - a new sample should contain:
     - a folder where the sample lives in
-    - a README.md file, please use [README.md template](https://github.com/LuiseFreese/sp-dev-list-formatting/blob/master/column-samples/README-template.md)
+    - a README.md file, please use [README.md template](/column-samples/README-template.md)
     - a screenshot that shows how the sample look like
     - the sample itself, provided as JSON file and as AST (Abstract Syntax Tree) version
 
