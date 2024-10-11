@@ -63,6 +63,9 @@ This sample demonstrates how to format list items as prompt cards. The design is
   =IF(ISBLANK([PromptCategory]),"PageEdit",IF([PromptCategory]="Understand","Lightbulb",IF([PromptCategory]="Create","TextDocumentEdit",IF([PromptCategory]="Catch up","PageList",IF([PromptCategory]="Ask","Feedback",IF([PromptCategory]="Edit","Edit",IF([PromptCategory]="Learn","LearningTools",IF([PromptCategory]="Design","EditCreate",IF([PromptCategory]="Code","CodeEdit",IF([PromptCategory]="Analyze","ComplianceAudit",IF([PromptCategory]="Manage","DateTime","PageEdit")))))))))))
   `
 
+> [!NOTE]
+> The separator character in the Calculated column is either `,` (comma) or `;` (semicolon), depending on your locale. If your locale uses `;` as a separator, replace `,` with `;` in the formula provided above.
+
 If you'd like to require approval before the prompt is shown in the prompt library list, you can use Microsoft Power Automate to request approval when a SharePoint item is created and use the "Stop sharing an item or a file" action until the item is approved.
 
 ## Sample
@@ -84,6 +87,6 @@ Version|Date|Comments
 
 ## Additional notes
 
-- This sample uses a [Calculated column](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)). Note that the separator for a Calculated column is either a `,` (comma) or a `;` (semi-colon), depending on the locale. If your locale uses `;` as the separator, please replace `,` with `;` in the formulas above.
+- Be sure to check your locale’s separator setting when creating Calculated columns. Refer to the [Calculated column documentation](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)) for more details.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/prompt-cards" />
