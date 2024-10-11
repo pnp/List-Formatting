@@ -60,9 +60,9 @@ This sample demonstrates how to format list items as prompt cards. The design is
 - **Icon (Calculated - Single line of text):** This column calculates the appropriate icon based on the **PromptCategory**.
   You need the **Icon** calculated column to display the icon associated with the **PromptCategory** column. Use the following formula for this calculated column:
 
-  ```
+  `
   =IF(ISBLANK([PromptCategory]),"PageEdit",IF([PromptCategory]="Understand","Lightbulb",IF([PromptCategory]="Create","TextDocumentEdit",IF([PromptCategory]="Catch up","PageList",IF([PromptCategory]="Ask","Feedback",IF([PromptCategory]="Edit","Edit",IF([PromptCategory]="Learn","LearningTools",IF([PromptCategory]="Design","EditCreate",IF([PromptCategory]="Code","CodeEdit",IF([PromptCategory]="Analyze","ComplianceAudit",IF([PromptCategory]="Manage","DateTime","PageEdit")))))))))))
-  ```
+  `
 
   > [!NOTE]  
   > This sample uses a [Calculated column](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)). Note that the separator for a Calculated column is either a `,` (comma) or a `;` (semi-colon), depending on the locale. If your locale uses `;` as the separator, please replace `,` with `;` in the formulas above.
