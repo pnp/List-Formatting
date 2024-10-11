@@ -27,7 +27,6 @@
         "style": {
           "border-radius": "16px",
           "padding": "24px 20px",
-          "border": "1px solid sp-css-borderColor-neutralLight",
           "display": "flex",
           "flex-direction": "column"
         },
