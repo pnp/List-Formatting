@@ -163,12 +163,6 @@
               "text-align": "center",
               "align-items": "center",
               "justify-content": "center"
-            },
-            "customRowAction": {
-              "action": "setValue",
-              "actionInput": {
-                "Display": "0"
-              }
             }
           },
           {
