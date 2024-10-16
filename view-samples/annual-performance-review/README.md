@@ -1,13 +1,17 @@
 # APR (Annual Performance Review)
 
 ## Summary
-This sample demonstrates how to change row data to column format for annual performance review form.
+
+This sample demonstrates how to change row data to column format for annual performance review forms, inspired by list formatting authors of Smart Goal, Elf Progress Board, and Display a User's Photo in Group Header.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
 This diagram represents the structure of how the list view is formatted. It shows the hierarchical relationship of various elements.
 
 ![sample structure diagram](./assets/diagram.png)
+
+> [!NOTE]
+> This sample also includes [command bar customization](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-commandbar-formatting).
 
 ## View requirements
 
@@ -37,6 +41,7 @@ annual-performance-review.json | [Watana](https://github.com/watana2)
 Version|Date|Comments
 -------|----|--------
 1.0    |October 6, 2024|Initial release
+2.0    |October 16, 2024|New layout
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
