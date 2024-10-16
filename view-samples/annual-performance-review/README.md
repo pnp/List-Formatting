@@ -10,8 +10,8 @@ This diagram represents the structure of how the list view is formatted. It show
 
 ![sample structure diagram](./assets/diagram.png)
 
-> [!NOTE]  
-> This sample also includes [command bar customization](https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-commandbar-formatting).
+> [!NOTE]
+> This sample also includes [command bar customization](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-commandbar-formatting).
 
 ## View requirements
 
