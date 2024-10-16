@@ -308,7 +308,8 @@
                     },
                     "style": {
                       "display": "=if([$Q1e] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -336,7 +337,8 @@
                     },
                     "style": {
                       "display": "=if([$Q1e] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -403,7 +405,8 @@
                     },
                     "style": {
                       "display": "=if([$Q1m] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -431,7 +434,8 @@
                     },
                     "style": {
                       "display": "=if([$Q1m] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -525,7 +529,8 @@
                     },
                     "style": {
                       "display": "=if([$Q2e] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -553,7 +558,8 @@
                     },
                     "style": {
                       "display": "=if([$Q2e] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -620,7 +626,8 @@
                     },
                     "style": {
                       "display": "=if([$Q2m] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -648,7 +655,8 @@
                     },
                     "style": {
                       "display": "=if([$Q2m] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -742,7 +750,8 @@
                     },
                     "style": {
                       "display": "=if([$Q3e] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -770,7 +779,8 @@
                     },
                     "style": {
                       "display": "=if([$Q3e] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -837,7 +847,8 @@
                     },
                     "style": {
                       "display": "=if([$Q3m] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -865,7 +876,8 @@
                     },
                     "style": {
                       "display": "=if([$Q3m] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -958,7 +970,8 @@
                     },
                     "style": {
                       "display": "=if([$Q4e] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -986,7 +999,8 @@
                     },
                     "style": {
                       "display": "=if([$Q4e] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -1053,7 +1067,8 @@
                     },
                     "style": {
                       "display": "=if([$Q4m] > 0, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
@@ -1081,7 +1096,8 @@
                     },
                     "style": {
                       "display": "=if([$Q4m] < 3, '', 'none')",
-                      "font-weight": "600"
+                      "font-weight": "600",
+                      "cursor": "pointer"
                     },
                     "customRowAction": {
                       "action": "setValue",
