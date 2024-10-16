@@ -41,7 +41,7 @@ annual-performance-review.json | [Watana](https://github.com/watana2)
 Version|Date|Comments
 -------|----|--------
 1.0    |October 6, 2024|Initial release
-2.0    |October 13, 2024|New layout
+2.0    |October 16, 2024|New layout
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
