@@ -72,7 +72,7 @@
                 "margin-right": "8px"
               },
               "attributes": {
-                "src": "=if([$Assignedto.email], '/_layouts/15/userphoto.aspx?size=S&accountname=' + [$Assignedto.email], '<URL of your fallback image>')",
+                "src": "=if([$Assignedto.email], getUserImage([$Assignedto.email],'s'), '<URL of your fallback image>')",
                 "title": "=[$Assignedto.title]"
               }
             },
