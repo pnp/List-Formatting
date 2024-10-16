@@ -25,7 +25,7 @@ generic-card-with-buttons.json | [Luise Freese](https://github.com/luisefreeset)
 
 Version|Date|Comments
 -------|----|--------
-1.0|October 14, 2024|Initial release
+1.0|October 16, 2024|Initial release
 
 ## Disclaimer
 
