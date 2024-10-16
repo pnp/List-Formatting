@@ -11,8 +11,8 @@ This blog post explains the Power Automate flows in detail: [How to apply modern
 ## View requirements
 
 - This format can be applied to any column type
-- It assumes columns `Title`, `Product`, `Assigned to`, `Comment` - please adjust to your needs
-- It also gives you the option to define a fallback image in case the person in the `Assigned to` column has no profile picture.
+- It assumes columns `Title`, `Product`, `Assignedto`, `Comment` - please adjust to your needs
+- It also gives you the option to define a fallback image in case the person in the `Assignedto` column has no profile picture.
 
 
 ## Sample
