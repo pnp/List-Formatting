@@ -1,4 +1,4 @@
-# APR (Annual Performance Review)
+# Annual Performance Review
 
 ## Summary
 
@@ -18,7 +18,7 @@ This diagram represents the structure of how the list view is formatted. It show
 - Group by Employee field in the view settings.
 - This format expects the following columns to be part of the view:
 
-Field Name | Required | Type
+Column Name | Required | Type
 ---------- | -------- | ----
 Employee   | Yes      | Person or Group
 Q1e        | No       | Number
