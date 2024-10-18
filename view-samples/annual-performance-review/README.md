@@ -42,6 +42,7 @@ Version|Date|Comments
 -------|----|--------
 1.0    |October 6, 2024|Initial release
 2.0    |October 16, 2024|New layout
+2.1    |October 20, 2024|Fixed border thickness and alignments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
