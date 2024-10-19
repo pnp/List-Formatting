@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates how to change row data to column format for annual performance review forms, inspired by list formatting authors of Smart Goal, Elf Progress Board, and Display a User's Photo in Group Header.
+This sample demonstrates how to change row data to column format for annual performance review forms, inspired by list formatting authors of Smart Goal, Elf Progress Board, Display a User's Photo in Group Header, and Rounded fill checkbox.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -19,16 +19,17 @@ This diagram represents the structure of how the list view is formatted. It show
 - This format expects the following columns to be part of the view:
 
 Column Name | Required | Type
----------- | -------- | ----
-Employee   | Yes      | Person or Group
-Q1e        | No       | Number
-Q1m        | No       | Number
-Q2e        | No       | Number
-Q2m        | No       | Number
-Q3e        | No       | Number
-Q3m        | No       | Number
-Q4e        | No       | Number
-Q4m        | No       | Number
+----------- | -------- | ----
+Employee    | Yes      | Person or Group
+EditMode    | No       | Yes/No
+Q1e         | No       | Number
+Q1m         | No       | Number
+Q2e         | No       | Number
+Q2m         | No       | Number
+Q3e         | No       | Number
+Q3m         | No       | Number
+Q4e         | No       | Number
+Q4m         | No       | Number
 
 ## Sample
 
@@ -42,7 +43,7 @@ Version|Date|Comments
 -------|----|--------
 1.0    |October 6, 2024|Initial release
 2.0    |October 16, 2024|New layout
-2.1    |October 20, 2024|Fixed border thickness and alignments
+2.1    |October 20, 2024|Added edit mode switch, fixed border thickness and alignment.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
