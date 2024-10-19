@@ -63,7 +63,7 @@
     "headerFormatter": {
       "elmType": "div",
       "style": {
-        "width": "604px",
+        "width": "=(700+2*2)+'px'",
         "height": "48px",
         "background-color": "#696CB3",
         "color": "white",
@@ -97,7 +97,7 @@
     "style": {
       "display": "block",
       "background-color": "#e9f7f7",
-      "width": "580px",
+      "width": "=(700-10*2)+'px'",
       "padding": "10px",
       "margin": "6px 0 20px 80px",
       "border": "2px solid #e5e5e5",
@@ -139,15 +139,15 @@
                 "children": [
                   {
                     "elmType": "div",
-                    "txtContent": "='Employee: ' + toString( Number([$Q1e]) + Number([$Q2e]) + Number([$Q3e]) + Number([$Q4e]) ) + ' /12'",
+                    "txtContent": "='Employee: '+toString(Number([$Q1e])+Number([$Q2e])+Number([$Q3e])+Number([$Q4e]))+'/12'",
                     "style": {
-                      "width": "170px"
+                      "width": "150px"
                     }
                   },
                   {
                     "elmType": "div",
                     "style": {
-                      "width": "180px",
+                      "width": "160px",
                       "height": "20px",
                       "background-color": "#D6D6D6",
                       "border-radius": "5px"
@@ -156,7 +156,7 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "width": "=(Number([$Q1e]) + Number([$Q2e]) + Number([$Q3e]) + Number([$Q4e])) / 12 * 100 + '%'",
+                          "width": "=(Number([$Q1e])+Number([$Q2e])+Number([$Q3e])+Number([$Q4e]))/12*100+'%'",
                           "max-width": "100%",
                           "height": "100%",
                           "background-color": "#4caf50",
@@ -177,15 +177,15 @@
                 "children": [
                   {
                     "elmType": "div",
-                    "txtContent": "='Manager: ' + toString( Number([$Q1m]) + Number([$Q2m]) + Number([$Q3m]) + Number([$Q4m]) ) + ' /12'",
+                    "txtContent": "='Manager: '+toString(Number([$Q1m])+Number([$Q2m])+Number([$Q3m])+Number([$Q4m]))+'/12'",
                     "style": {
-                      "width": "170px"
+                      "width": "150px"
                     }
                   },
                   {
                     "elmType": "div",
                     "style": {
-                      "width": "180px",
+                      "width": "160px",
                       "height": "20px",
                       "background-color": "#D6D6D6",
                       "border-radius": "5px"
@@ -194,11 +194,98 @@
                       {
                         "elmType": "div",
                         "style": {
-                          "width": "=(Number([$Q1m]) + Number([$Q2m]) + Number([$Q3m]) + Number([$Q4m])) / 12 * 100 + '%'",
+                          "width": "=(Number([$Q1m])+Number([$Q2m])+Number([$Q3m])+Number([$Q4m]))/12*100+'%'",
                           "max-width": "100%",
                           "height": "100%",
                           "background-color": "#4caf50",
                           "border-radius": "5px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#E9E9F7",
+              "min-width": "145px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Edit Mode",
+                "style": {
+                  "display": "flex",
+                  "height": "40%",
+                  "color": "grey",
+                  "font-size": "16px",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "height": "60%",
+                  "justify-content": "center",
+                  "align-items": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "padding": "2px",
+                      "border": "2px solid #ccc",
+                      "border-radius": "30px",
+                      "font-size": "20px",
+                      "height": "55%",
+                      "width":"80%"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Off",
+                        "style": {
+                          "cursor": "pointer",
+                          "width": "50%",
+                          "text-align": "center",
+                          "background-color": "=if([$EditMode],'transparent','#0078d4')",
+                          "color": "=if([$EditMode],'black','white')",
+                          "border-radius": "30px"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "EditMode": "0"
+                          }
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "On",
+                        "style": {
+                          "width": "50%",
+                          "text-align": "center",
+                          "xpadding": "5px 0px",
+                          "cursor": "pointer",
+                          "background-color": "=if([$EditMode],'#0078d4','transparent')",
+                          "color":"=if([$EditMode],'white','black')",
+                          "border-radius": "30px"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "EditMode": "1"
+                          }
                         }
                       }
                     ]
@@ -281,7 +368,7 @@
                 "txtContent": "[$Q1e]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -291,7 +378,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -377,7 +464,7 @@
                 "txtContent": "[$Q1m]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -387,7 +474,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -500,7 +587,7 @@
                 "txtContent": "[$Q2e]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -510,7 +597,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -596,7 +683,7 @@
                 "txtContent": "[$Q2m]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -606,7 +693,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -719,7 +806,7 @@
                 "txtContent": "[$Q3e]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -729,7 +816,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -815,7 +902,7 @@
                 "txtContent": "[$Q3m]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -825,7 +912,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -937,7 +1024,7 @@
                 "txtContent": "[$Q4e]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -947,7 +1034,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
@@ -1033,7 +1120,7 @@
                 "txtContent": "[$Q4m]",
                 "style": {
                   "display": "flex",
-                  "height": "75%",
+                  "height": "=if([$EditMode],'75%','100%')",
                   "font-size": "60px",
                   "font-weight": "700",
                   "justify-content": "center",
@@ -1043,7 +1130,7 @@
               {
                 "elmType": "div",
                 "style": {
-                  "display": "flex",
+                  "display": "=if([$EditMode],'flex','none')",
                   "color": "#696CB3",
                   "width": "100%",
                   "font-size": "20px",
