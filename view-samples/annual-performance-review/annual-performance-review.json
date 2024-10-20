@@ -248,7 +248,7 @@
                       "border-radius": "30px",
                       "font-size": "20px",
                       "height": "55%",
-                      "width":"80%"
+                      "width": "80%"
                     },
                     "children": [
                       {
@@ -258,8 +258,7 @@
                           "cursor": "pointer",
                           "width": "50%",
                           "text-align": "center",
-                          "background-color": "=if([$EditMode],'transparent','#0078d4')",
-                          "color": "=if([$EditMode],'black','white')",
+                          "background-color": "=if([$EditMode],'transparent','lightgrey')",
                           "border-radius": "30px"
                         },
                         "customRowAction": {
@@ -277,8 +276,8 @@
                           "text-align": "center",
                           "xpadding": "5px 0px",
                           "cursor": "pointer",
-                          "background-color": "=if([$EditMode],'#0078d4','transparent')",
-                          "color":"=if([$EditMode],'white','black')",
+                          "background-color": "=if([$EditMode],'#696CB3','transparent')",
+                          "color": "=if([$EditMode],'white','black')",
                           "border-radius": "30px"
                         },
                         "customRowAction": {
