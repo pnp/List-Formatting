@@ -43,7 +43,7 @@ Version|Date|Comments
 -------|----|--------
 1.0    |October 6, 2024|Initial release
 2.0    |October 16, 2024|New layout
-2.1    |October 20, 2024|Added edit mode switch, fixed border thickness and alignment.
+2.1    |October 24, 2024|Added edit mode switch, fixed border thickness and alignment.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
