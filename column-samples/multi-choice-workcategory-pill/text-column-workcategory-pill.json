@@ -41,7 +41,7 @@
                     1
                   ]
                 },
-                "sp-css-backgroundColor-blueBackground07 sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-blueDark",
+                "sp-css-backgroundColor-blueBackground07 sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
                 {
                   "operator": "?",
                   "operands": [
@@ -52,7 +52,7 @@
                         2
                       ]
                     },
-                    "sp-css-backgroundColor-successBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-green",
+                    "sp-css-backgroundColor-successBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
                     {
                       "operator": "?",
                       "operands": [
@@ -64,7 +64,7 @@
                           ]
                         },
                         "sp-css-backgroundColor-warningBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
-                        "sp-css-backgroundColor-errorBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-themeDarkAlt"
+                        "sp-css-backgroundColor-errorBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary"
                       ]
                     }
                   ]
