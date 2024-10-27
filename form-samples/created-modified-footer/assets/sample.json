@@ -4,10 +4,10 @@
     "reponame": "created-modified-footer",
     "source": "pnp",
     "title": "Display Created and Modified Information in the Footer",
-    "shortDescription": "This sample demonstrates displaying the values of Created (internal name: Created), Created By (internal name: Author), Modified (internal name: Modified), and Modified By (internal name: Editor) in the footer of the form.",
+    "shortDescription": "This sample demonstrates displaying the values of Created, Created By, Modified, and Modified By in the footer of the form.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/created-modified-footer",
     "longDescription": [
-      "This sample demonstrates displaying the values of Created (internal name: Created), Created By (internal name: Author), Modified (internal name: Modified), and Modified By (internal name: Editor) in the footer of the form."
+      "This sample demonstrates displaying the values of Created, Created By, Modified, and Modified By in the footer of the form."
     ],
     "creationDateTime": "2024-10-27T00:00:00.000Z",
     "updateDateTime": "2024-10-27T00:00:00.000Z",
