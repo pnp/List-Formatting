@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Format a row as a card with buttons",
     "shortDescription": "This is a sample that enables you to show content of various columns (single line of text, person) in a modern card design. It also shows two buttons that can call Power Automate flows for actions like sending emails or scheduling meetings.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-data-plant",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-card-with-buttons",
     "longDescription": [
       "This is a sample that enables you to show content of various columns (single line of text, person) in a modern card design. It also shows two buttons that can call Power Automate flows for actions like sending emails or scheduling meetings in the context of the list or the list item."
     ],
