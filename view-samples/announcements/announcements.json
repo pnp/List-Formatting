@@ -8,7 +8,8 @@
       "min-width": "15vw",
       "max-width": "19vw",
       "padding-bottom": "20px",
-      "display": "=if([$RemoveDate] <= @now, 'none', '')"
+      "display": "=if([$RemoveDate] <= @now, 'none', '')",
+      "color":"black"
     },
     "customCardProps": {
       "formatter": {
@@ -17,7 +18,7 @@
           {
             "elmType": "img",
             "attributes": {
-              "src": "[$ImgHover.serverRelativeUrl]"
+              "src": "=getThumbnailImage([$ImgHover], 400, 200)"
             }
           }
         ],
