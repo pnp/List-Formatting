@@ -14,23 +14,26 @@
     "customCardProps": {
       "formatter": {
         "elmType": "div",
+        "style": {
+          "display": "=if([$ImgHover], '', 'none')",
+          "height": "200px",
+          "width": "200px",
+          "font-size": "14px",
+          "padding": "14px",
+          "align-items": "stretch"
+        },
         "children": [
           {
             "elmType": "img",
             "attributes": {
               "src": "=getThumbnailImage([$ImgHover], 400, 200)"
+            },
+            "style": {
+              "width": "100%",
+              "height": "auto"
             }
           }
-        ],
-        "style": {
-          "display": "=if([$ImgHover], '', 'none')",
-          "height": "200px",
-          "width": "200px",
-          "cursor": "pointer",
-          "font-size": "14px",
-          "padding": "14px",
-          "align-items": "stretch"
-        }
+        ]
       },
       "openOnEvent": "hover",
       "directionalHint": "leftCenter",
