@@ -15,7 +15,7 @@ This diagram represents the structure of how the list view is formatted. It show
 
 ## View requirements
 
-- Group by Employee field in the view settings.
+- Group by Employee field in the view settings and set default to Expanded to show user's photo in group header.
 - This format expects the following columns to be part of the view:
 
 Column Name | Required | Type
@@ -44,6 +44,7 @@ Version|Date|Comments
 1.0    |October 6, 2024|Initial release
 2.0    |October 16, 2024|New layout
 2.1    |October 24, 2024|Added edit mode switch, fixed border thickness and alignment.
+2.2    |October 30, 2024|Corrected the misalignment issues caused by the recent updates.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
