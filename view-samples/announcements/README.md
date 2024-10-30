@@ -26,10 +26,11 @@ announcements.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalh
 
 ## Version history
 
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.0     | 1 December, 2021 | Initial release |
+| Version | Date               | Comments        |
+| ------- | ------------------ | --------------- |
+| 1.0     | 1 December, 2021   | Initial release |
 | 1.1     | 17 September, 2023 | The new Image column can now be created, and the use of the Image column is now common when using images. Therefore, changed the type of ImgHover column from Picture column to Image column. |
+| 1.2     | 1 November, 2024   | Fixed image path and black text for dark theme. |
 
 ## Disclaimer
 
