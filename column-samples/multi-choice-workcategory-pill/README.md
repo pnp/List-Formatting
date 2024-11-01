@@ -8,7 +8,7 @@ This JSON sample demonstrates how you can format the work progress category choi
 
 ## View requirements
 
-* This format can be applied to any multiple selection choice column, but expects the column values to be one of the following choices:
+* The `multi-choice-workcategory-pill.json` format can be applied to any multiple selection choice column, while the `text-column-workcategory-pill.json` format can be applied to other columns. Both formats expect the column values to be one of the following choices:
   + Planning
   + Design
   + Engineering
