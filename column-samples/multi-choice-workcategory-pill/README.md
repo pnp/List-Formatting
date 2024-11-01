@@ -29,7 +29,7 @@ text-column-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sa
 | Version | Date          | Comments        |
 |---------|---------------|-----------------|
 | 1.0     | August 08, 2020 | Initial release |
-| 1.1     | October 27, 2024 | Added text-column-workcategory-pill.json |
+| 1.1     | November 1, 2024 | Added text-column-workcategory-pill.json |
 
 ## Disclaimer
 
