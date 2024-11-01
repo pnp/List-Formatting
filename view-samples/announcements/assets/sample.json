@@ -10,7 +10,7 @@
       "This sample formats your view to look like a Announcements card with a similiar style to Viva Connection Cards when on a SharePoint Page. In Microsoft Lists it will also show an image that you can connect with the Announcement."
     ],
     "creationDateTime": "2021-12-01T00:00:00.000Z",
-    "updateDateTime": "2023-09-17T00:00:00.000Z",
+    "updateDateTime": "2024-11-01T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
