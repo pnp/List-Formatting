@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates how colors and icons change according to row index, regardless of column value. The formatting cycles styles every 5 rows. It can be used for filtering lists and libraries. Inspired by Ganesh Sanap's Work Progress Category Pill sample.
+This sample demonstrates how colors and icons change based on row index, regardless of column value. The formatting cycles through styles every 5 rows and can be used for filtering lists and libraries. Inspired by Ganesh Sanap's Work Progress Category Pill sample.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
