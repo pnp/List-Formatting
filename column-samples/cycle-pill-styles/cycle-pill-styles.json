@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "height": "24px",
+        "box-sizing": "border-box",
+        "padding": "4px 8px 5px 8px",
+        "border-radius": "16px",
+        "align-items": "center",
+        "white-space": "nowrap",
+        "overflow": "hidden"
+      },
+      "attributes": {
+        "class": "=if(@rowIndex %5==0,'sp-css-backgroundColor-neutralBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary',if(@rowIndex %5==1,'sp-css-backgroundColor-blueBackground07 sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary',if(@rowIndex %5==2,'sp-css-backgroundColor-successBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary',if(@rowIndex %5==3,'sp-css-backgroundColor-warningBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary','sp-css-backgroundColor-errorBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary'))))"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "line-height": "16px",
+            "height": "14px"
+          },
+          "attributes": {
+            "iconName": "=if(@rowIndex %5==0,'Calendar',if(@rowIndex %5==1,'Like',if(@rowIndex %5==2,'Trending12',if(@rowIndex %5==3,'Mail','People'))))"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "overflow": "hidden",
+            "text-overflow": "ellipsis",
+            "padding": "0 3px"
+          },
+          "txtContent": "@currentField"
+        }
+      ]
+    }
+  ]
+}
