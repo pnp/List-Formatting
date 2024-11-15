@@ -20,59 +20,7 @@
         "margin": "1px 4px 4px 0px"
       },
       "attributes": {
-        "class": {
-          "operator": "?",
-          "operands": [
-            {
-              "operator": "==",
-              "operands": [
-                "@rowIndex",
-                0
-              ]
-            },
-            "sp-css-backgroundColor-neutralBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
-            {
-              "operator": "?",
-              "operands": [
-                {
-                  "operator": "==",
-                  "operands": [
-                    "@rowIndex",
-                    1
-                  ]
-                },
-                "sp-css-backgroundColor-blueBackground07 sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
-                {
-                  "operator": "?",
-                  "operands": [
-                    {
-                      "operator": "==",
-                      "operands": [
-                        "@rowIndex",
-                        2
-                      ]
-                    },
-                    "sp-css-backgroundColor-successBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
-                    {
-                      "operator": "?",
-                      "operands": [
-                        {
-                          "operator": "==",
-                          "operands": [
-                            "@rowIndex",
-                            3
-                          ]
-                        },
-                        "sp-css-backgroundColor-warningBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary",
-                        "sp-css-backgroundColor-errorBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+        "class": "=if(@currentField=='Planning','sp-css-backgroundColor-neutralBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary',if(@currentField=='Design','sp-css-backgroundColor-blueBackground07 sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-blueDark',if(@currentField=='Engineering','sp-css-backgroundColor-successBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-green',if(@currentField=='Marketing','sp-css-backgroundColor-warningBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-neutralTertiary',if(@currentField=='Research','sp-css-backgroundColor-errorBackground sp-field-borderBottomRegular sp-field-borderBottomSolid sp-css-borderColor-themeDarkAlt','')))))"
       },
       "children": [
         {
@@ -82,59 +30,7 @@
             "height": "14px"
           },
           "attributes": {
-            "iconName": {
-              "operator": "?",
-              "operands": [
-                {
-                  "operator": "==",
-                  "operands": [
-                    "@rowIndex",
-                    0
-                  ]
-                },
-                "Calendar",
-                {
-                  "operator": "?",
-                  "operands": [
-                    {
-                      "operator": "==",
-                      "operands": [
-                        "@rowIndex",
-                        1
-                      ]
-                    },
-                    "Like",
-                    {
-                      "operator": "?",
-                      "operands": [
-                        {
-                          "operator": "==",
-                          "operands": [
-                            "@rowIndex",
-                            2
-                          ]
-                        },
-                        "Trending12",
-                        {
-                          "operator": "?",
-                          "operands": [
-                            {
-                              "operator": "==",
-                              "operands": [
-                                "@rowIndex",
-                                3
-                              ]
-                            },
-                            "Mail",
-                            "People"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
+            "iconName": "=if(@currentField=='Planning','Calendar',if(@currentField=='Design','Like',if(@currentField=='Engineering','Trending12',if(@currentField=='Marketing','Mail',if(@currentField=='Research','People','')))))"
           }
         },
         {
