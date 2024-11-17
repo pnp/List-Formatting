@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "getThumbnailImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -59,6 +59,11 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/emoji-link-tiles/assets/screenshot.png",
         "alt": "screenshot"
+      },
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
       }
     ],
     "authors": [
