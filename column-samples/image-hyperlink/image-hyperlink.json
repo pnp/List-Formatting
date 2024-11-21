@@ -12,7 +12,7 @@
       "attributes": {
         "href": "[$Link]",
         "target": "_blank",
-        "title": "[$Title]"
+        "title": "[$Link.desc]"
       },
       "children": [
         {
