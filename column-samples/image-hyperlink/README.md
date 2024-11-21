@@ -19,7 +19,7 @@ image-hyperlink.json | [Hagen Deike](https://github.com/samurai-ka) ([@samurai@s
 
 Version|Date|Comments
 -------|----|--------
-1.0|November 20, 2024|Initial release
+1.0|November 21, 2024|Initial release
 
 ## Disclaimer
 
