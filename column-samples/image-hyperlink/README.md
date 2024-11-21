@@ -20,6 +20,7 @@ image-hyperlink.json | [Hagen Deike](https://github.com/samurai-ka) ([@samurai@s
 Version|Date|Comments
 -------|----|--------
 1.0|November 21, 2024|Initial release
+1.1|November 21, 2024|Using columns link description instead of title
 
 ## Disclaimer
 
@@ -32,5 +33,6 @@ Version|Date|Comments
 - Change the Image size on line 21
 - To remove rounded corners, remove the image style on line 24-26
 - Padding between the rows can be tweaked on line 6 & 7
+- Choose how the link opens in the browser on line 14. "_blank" for new window/tab, or "_self" for the same window.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-hyperlink" />
