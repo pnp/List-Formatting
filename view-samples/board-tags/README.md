@@ -15,7 +15,7 @@ This List format also uses **embedded** action to open custom Powerapp with para
 
 - This List fields and formatting try to replicate same behavior/UI  on cards from **"Planner"** for Gallery view.
 
-![Board tag format](./assets/screenshot-card-tasks.png)
+![Board tag format](./assets/screenshot-card-tasks.png) 
 
 # Configuration of Board tasks (board-tags.json)
 
