@@ -57,7 +57,7 @@ Access to PowerApps > Left Menu "Apps" > Selected app and click 3 dots > Details
 
 Access to **board-tags.json** and access to **PowerApps** url reference and replace tokens:
 
-![PowerApps setting](./assets/screenshot-powerapp-json-Param.png)
+![PowerApps settings Params](./assets/screenshot-powerapp-json-param.png)
 
 #### Tokens to replace:
 - ```<EnviromentID>``` - Provide enviroment s Id 
