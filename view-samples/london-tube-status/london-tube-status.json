@@ -1,133 +1,134 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-  "hideSelection": true,
-  "hideColumnHeader": true,
-  "rowFormatter": {
-    "elmType": "div",
-    "style": {
-      "font-size": "16px",
-      "line-height": "16px",
-      "display": "flex",
-      "flex-direction": "row",
-      "align-items": "stretch",
-      "position": "relative",
-      "min-height": "44px",
-      "width": "340px"
-    },
-    "children": [
-      {
-        "elmType": "div",
-        "attributes": {
-          "class": "=if([$LineID] == 'circle' || [$LineID] == 'hammersmith-city' || [$LineID] == 'victoria' || [$LineID] == 'waterloo-city' || [$LineID] == 'dlr' || [$LineID] == 'london-overground', 'ms-fontColor-black','ms-fontColor-white')"
-        },
-        "style": {
-          "display": "flex",
-          "align-items": "center",
-          "text-shadow": "=if([$LineID] == 'circle' || [$LineID] == 'hammersmith-city' || [$LineID] == 'victoria' || [$LineID] == 'waterloo-city' || [$LineID] == 'dlr' || [$LineID] == 'london-overground', '0 1px 0 rgba(255,255,255,0.6)','none')",
-          "background-color": "=if([$LineID]=='bakerloo', '#894E24', if([$LineID]=='central', '#DC241F', if([$LineID]=='circle', '#FCCE00', if([$LineID]=='district', '#007229', if([$LineID]=='hammersmith-city', '#D799AF', if([$LineID]=='jubilee', '#6A7278', if([$LineID]=='metropolitan', '#751056', if([$LineID]=='northern', '#000000', if([$LineID]=='piccadilly', '#0019A8', if([$LineID]=='victoria', '#00A0E2', if([$LineID]=='waterloo-city', '#76D0BD', if([$LineID]=='london-overground', '#E86A1C', if([$LineID]=='dlr', '#00AFAD', if([$LineID]=='tfl-rail', '#0019A8', if([$LineID]=='tram', '#66CC00', '#D29200')))))))))))))))",
-          "width": "150px",
-          "padding": "0 10px",
-          "border-bottom": "1px solid #CCC",
-          "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')"
-        },
-        "children": [
-          {
-            "elmType": "span",
-            "txtContent": "[$Title]"
-          }
-        ]
-      },
-      {
-        "elmType": "div",
-        "style": {
-          "display": "=if([$LineStatus] == 'Good Service', 'flex','none')",
-          "align-items": "center",
-          "width": "150px",
-          "border-bottom": "1px solid #CCC",
-          "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
-          "padding": "10px"
-        },
-        "attributes": {
-          "class": "ms-fontColor-black ms-bgColor-white"
-        },
-        "children": [
-          {
-            "elmType": "span",
-            "txtContent": "[$LineStatus]"
-          }
-        ]
-      },
-      {
-        "elmType": "div",
-        "style": {
-          "display": "=if([$LineStatus] != 'Good Service', 'flex','none')",
-          "background-color": "#FAF5E1",
-          "width": "150px",
-          "padding": "10px",
-          "border-bottom": "1px solid #CCC",
-          "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
-          "align-items": "center",
-          "min-height": "100%"
-        },
-        "children": [
-          {
-            "elmType": "div",
-            "txtContent": "[$LineStatus]",
-            "style": {
-              "flex-grow": "1",
-              "color": "#2070b0"
-            }
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+      "elmType": "div",
+      "style": {
+        "font-size": "16px",
+        "line-height": "16px",
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "stretch",
+        "position": "relative",
+        "min-height": "44px",
+        "width": "340px"
+      }, 
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "=if([$LineID] == 'circle' || [$LineID] == 'hammersmith-city' || [$LineID] == 'victoria' || [$LineID] == 'waterloo-city' || [$LineID] == 'dlr' || [$LineID] == 'london-overground' || [$LineID] == 'suffragette' || [$LineID] == 'lioness' || [$LineID] == 'tram', 'ms-fontColor-black','ms-fontColor-white')"
           },
-          {
-            "elmType": "div",
-            "style": {
-              "color": "#1A5A92",
-              "font-weight": "900",
-              "font-size": "14px"
-            },
-            "attributes": {
-              "iconName": "Add"
+          "style": {
+            "display": "flex",
+            "align-items": "center",
+            "text-shadow": "=if([$LineID] == 'circle' || [$LineID] == 'hammersmith-city' || [$LineID] == 'victoria' || [$LineID] == 'waterloo-city' || [$LineID] == 'dlr' || [$LineID] == 'london-overground' || [$LineID] == 'suffragette' || [$LineID] == 'lioness' || [$LineID] == 'tram', '0 1px 0 rgba(255,255,255,0.6)','none')",
+            "background-color": "=if([$LineID]=='bakerloo', '#894E24', if([$LineID]=='central', '#DC241F', if([$LineID]=='circle', '#FCCE00', if([$LineID]=='district', '#007229', if([$LineID]=='hammersmith-city', '#D799AF', if([$LineID]=='elizabeth', '#6950A1',if([$LineID]=='jubilee', '#6A7278', if([$LineID]=='metropolitan', '#751056', if([$LineID]=='northern', '#000000', if([$LineID]=='piccadilly', '#0019A8', if([$LineID]=='victoria', '#00A0E2', if([$LineID]=='waterloo-city', '#76D0BD', if([$LineID]=='dlr', '#00AFAD', if([$LineID]=='tfl-rail', '#0019A8', if([$LineID]=='tram', '#66CC00', if([$LineID]=='liberty', '#61686B', if([$LineID]=='mildmay', '#006FE6', if([$LineID]=='suffragette', '#18A95D', if([$LineID]=='weaver', '#9B0058',if([$LineID]=='windrush', '#DC241F','#D29200')))))))))))))))))))",
+            "width": "150px",
+            "padding": "0 10px",
+            "border-bottom": "1px solid #CCC",
+            "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "[$Title]"
             }
-          }
-        ]
-      },
-      {
-        "elmType": "div",
-        "style": {
-          "display": "=if([$LineStatus] != 'Good Service', 'inherit','none')",
-          "position": "absolute",
-          "top": "0",
-          "left": "0",
-          "right": "0",
-          "bottom": "0",
-          "outline": "none",
-          "cursor": "pointer"
+          ]
         },
-        "customCardProps": {
-          "openOnEvent": "click",
-          "directionalHint": "bottomCenter",
-          "isBeakVisible": true,
-          "formatter": {
-            "elmType": "div",
-            "style": {
-              "padding": "15px",
-              "font-size": "18px",
-              "font-weight": "550"
-            },
-            "children": [
-              {
-                "elmType": "span",
-                "style": {
-                  "overflow-x": "auto",
-                  "max-width": "400px",
-                  "max-height": "200px"
-                },
-                "txtContent": "=replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace([$Reason],'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n')"
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if([$LineStatus] == 'Good Service', 'flex','none')",
+            "align-items": "center",
+            "width": "150px",
+            "border-bottom": "1px solid #CCC",
+            "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
+            "padding": "10px"
+          },
+          "attributes": {
+            "class": "ms-fontColor-black ms-bgColor-white"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "[$LineStatus]"
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if([$LineStatus] != 'Good Service', 'flex','none')",
+            "background-color": "#FAF5E1",
+            "width": "150px",
+            "padding": "10px",
+            "border-bottom": "1px solid #CCC",
+            "border-top": "=if(@rowIndex==0, '1px solid #CCC', 'none')",
+            "align-items": "center",
+            "min-height": "100%"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "[$LineStatus]",
+              "style": {
+                "flex-grow": "1",
+                "color": "#2070b0"
               }
-            ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "color": "#1A5A92",
+                "font-weight": "900",
+                "font-size": "14px"
+              },
+              "attributes": {
+                "iconName": "add"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "=if([$LineStatus] != 'Good Service', 'inherit','none')",
+            "position": "absolute",
+            "top": "0",
+            "left": "0",
+            "right": "0",
+            "bottom": "0",
+            "outline": "none",
+            "cursor": "pointer"
+          },
+          "customCardProps": {
+            "openOnEvent": "click",
+            "directionalHint": "bottomCenter",
+            "isBeakVisible": true,
+            "formatter": {
+              "elmType": "div",
+              "style": {
+                "padding": "15px",
+                "font-size": "18px",
+                "font-weight": "550"
+              },
+              "children": [
+                {
+                  "elmType": "span",
+                  "style": {
+                    "overflow-x": "auto",
+                    "max-width": "400px",
+                    "max-height": "200px"
+                  },
+                  "txtContent": "=replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace([$Reason],'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'\n','||'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n'),'||','\n\n')"
+                }
+              ]
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   }
-}
