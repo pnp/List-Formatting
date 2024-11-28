@@ -40,6 +40,9 @@ An overview is provided below, but detailed installation instructions can be fou
 
 There are 2 Power Automate flow templates included in the Assets folder in this solution. Download both of the zip files to your machine.
 
+#### UPDATE v3.0
+Updated View formatting JSON and deployment Flow to reflect London Overground lines and the Elizabeth line being included. So had to update colours, text etc.
+
 #### UPDATE v2.0
 I have now recreated the TFL Status Power Automate (Flow) to also run in Azure Logic Apps rather than Power Automate, so you can now choose where to run the scheduled TFL Tube Status update process to your SP list. You may prefer to run the solution in Azure Logic Apps for a whole host of reasons i.e. greater monitoring, Power Automate licensing etc.
 Further instructions and new blog article [here](https://www.leonarmston.com/2021/01/live-london-underground-line-status-solution-summary-learnings-from-converting-to-azure-logic-apps/)
@@ -103,6 +106,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|October 24, 2020|Initial release
 2.0|January 31, 2021|Updated to include Logic App version and improved Flow.
+3.0|November 28, 2024|Updated [london-tube-status.json](./london-tube-status.json) & [DeploySPList-LondonTubes.zip](./flows/london-tube-status.json) to include addition of London Overground & Elizabeth lines.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
