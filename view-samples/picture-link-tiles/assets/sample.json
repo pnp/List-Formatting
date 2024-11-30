@@ -1,0 +1,84 @@
+[
+  {
+    "name": "pnp-list-formatting-picture-link-tiles",
+    "reponame": "picture-link-tiles",
+    "title": "Picture Link Tiles",
+    "shortDescription": "This sample demonstrates a link collection using picture and is a customization of the Gallery layout. Additionally, this sample combines group customization with a tile format.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/picture-link-tiles",
+    "source": "pnp",
+    "longDescription": [
+      "This sample demonstrates a link collection using picture and is a customization of the Gallery layout. Additionally, this sample combines group customization with a tile format."
+    ],
+    "creationDateTime": "2024-12-12T00:00:00.000Z",
+    "updateDateTime": "2024-12-12T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery, Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.count"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getThumbnailImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, groupProps, headerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary, ms-bgColor-themeLighter, ms-bgColor-white, ms-fontColor-themePrimary, ms-fontColor-neutralPrimary, ms-fontColor-neutralTertiaryAlt, ms-fontWeight-bold"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-link-tiles/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      },
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
