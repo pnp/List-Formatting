@@ -1,7 +1,7 @@
 # Picture Link Titles
 
 ## Summary
-This sample displays a link collection with pictures, customized using the Gallery view and group. Originally created by Tetsuya Kawahara, the author of [Link Collection using Emojis](https://github.com/pnp/List-Formatting/tree/master/view-samples/emoji-link-tiles), this is just a picture version.
+This sample displays a link collection with pictures using the Gallery view and group header formatting. Originally created by Tetsuya Kawahara, the author of [Link Collection using Emojis](https://github.com/pnp/List-Formatting/tree/master/view-samples/emoji-link-tiles), this is just a picture version.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
