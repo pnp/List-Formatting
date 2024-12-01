@@ -64,7 +64,7 @@ Access to **board-tags.json** and access to **PowerApps** url reference and repl
 ![PowerApps settings Params](./assets/screenshot-powerapp-json-param.png)
 
 #### Tokens to replace:
-- ```<EnviromentID>``` - Provide enviroment s Id 
+- ```<EnviromentID>``` - Provide enviroment Id
 - ```<AppId>``` - Provide App Id 
 - ```<ListName>``` - Provide List Name of created. (sample **"Demo"**)
 - ```<DestinationUrl>``` - Provide Folder Destination for Report file (sample **"/Shared Documents"**)
