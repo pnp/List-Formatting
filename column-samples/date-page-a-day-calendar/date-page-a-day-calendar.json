@@ -30,10 +30,10 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "=if([$weekday]=='0','Saturday',if([$weekday]=='1','Sunday',if([$weekday]=='2','Monday',if([$weekday]=='3','Tuesday',if([$weekday]=='4','Wednesday',if([$weekday]=='5','Thursday',if([$weekday]=='6','Friday',''))))))",
+          "txtContent": "=if([$weekday]=='0','Saturday',if([$weekday]=='1','Sunday',if([$weekday]=='2','Monday',if([$weekday]=='3','Tuesday',if([$weekday]=='4','Wednesday',if([$weekday]=='5','Thursday',if([$weekday]=='6','Friday','')))))))",
           "style": {
             "margin-bottom": "2px",
-            "display": "=if((getMonth(@currentField)+1)>2,if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+1)/10)+Number(substring(toString(getYear(@currentField)),2,4))+floor(Number(substring(toString(getYear(@currentField)),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)),0,2))/4)-2*Number(substring(toString(getYear(@currentField)),0,2)))%7)==Number([$weekday]),'','none'),if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+12+1)/10)+Number(substring(toString(getYear(@currentField)-1),2,4))+floor(Number(substring(toString(getYear(@currentField)-1),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)-1),0,2))/4)-2*Number(substring(toString(getYear(@currentField)-1),0,2)))%7)==Number([$weekday]),'','none')"
+            "display": "=if((getMonth(@currentField)+1)>2,if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+1)/10)+Number(substring(toString(getYear(@currentField)),2,4))+floor(Number(substring(toString(getYear(@currentField)),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)),0,2))/4)-2*Number(substring(toString(getYear(@currentField)),0,2)))%7)==Number([$weekday]),'','none'),if(((getDate(@currentField)+floor(26*(getMonth(@currentField)+1+12+1)/10)+Number(substring(toString(getYear(@currentField)-1),2,4))+floor(Number(substring(toString(getYear(@currentField)-1),2,4))/4)+floor(Number(substring(toString(getYear(@currentField)-1),0,2))/4)-2*Number(substring(toString(getYear(@currentField)-1),0,2)))%7)==Number([$weekday]),'','none'))"
           }
         }
       ]
