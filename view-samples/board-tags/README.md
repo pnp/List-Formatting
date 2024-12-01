@@ -3,7 +3,7 @@
 ## Summary
 This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flag (focus colors), assigning a user, and minimizing/expanding the card. 
 
-This List format also uses **embedded** action to open custom Powerapp with parameters for digital signature of user and report generator.
+This List format also uses **embedded** action to open custom Power Apps with parameters for digital signature of user and report generator.
 
 ### Board tasks (board-tags.json)
 
@@ -54,7 +54,7 @@ Access to Power Apps > Left Menu "Apps" > Top Menu "Import app" > From Package (
 - Select **/logicapps/PnPSample.Zip**
 - Defined new **Import Setup** for app and flows. 
 
-### Replace PowerApp Url parameters references in board-tags.json
+### Replace Power Apps Url parameters references in board-tags.json
 
 Access to Power Apps > Left Menu "Apps" > Selected app and click 3 dots > Details > Copy Url **EnviromentID** and **AppId**.
 ![Power Apps setting](./assets/screenshot-powerapp-info.png)
