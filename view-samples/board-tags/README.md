@@ -37,7 +37,7 @@ Flag | True/False - include flag and change background color of card (Default va
 Expand | True/False - Minimize or expand Card (Default value **False**).
 Image | Image/Thumbnail - Image of Signature
 ReportUrl | Single line of text - Url to Report
-Color | Single line of text - Hex Color  used to pass to PowerApps and change color
+Color | Single line of text - Hex Color  used to pass to Power Apps and change color
 Attachments | Include default field **"Attachments"** in View to display content 
 Editor | Include field **"Modified By"** in View to display content 
 Modified | Include field  **"Modified"** in View to display content 
@@ -48,20 +48,20 @@ Modified | Include field  **"Modified"** in View to display content
 - Access to View dropdown and select "**Create new view**".
 - Add select option "**Board**", defined **Category** for Buckets grouping and provide name for View.
 
-## Import PowerApps solution "PnPSample.zip" with Flows
+## Import Power Apps solution "PnPSample.zip" with Flows
 
-Access to PowerApps > Left Menu "Apps" > Top Menu "Import app" > From Package (.zip) > Upload 
+Access to Power Apps > Left Menu "Apps" > Top Menu "Import app" > From Package (.zip) > Upload 
 - Select **/logicapps/PnPSample.Zip**
 - Defined new **Import Setup** for app and flows. 
 
 ### Replace PowerApp Url parameters references in board-tags.json
 
-Access to PowerApps > Left Menu "Apps" > Selected app and click 3 dots > Details > Copy Url **EnviromentID** and **AppId**.
-![PowerApps setting](./assets/screenshot-powerapp-info.png)
+Access to Power Apps > Left Menu "Apps" > Selected app and click 3 dots > Details > Copy Url **EnviromentID** and **AppId**.
+![Power Apps setting](./assets/screenshot-powerapp-info.png)
 
-Access to **board-tags.json** and access to **PowerApps** url reference and replace tokens:
+Access to **board-tags.json** and access to **Power Apps** url reference and replace tokens:
 
-![PowerApps settings Params](./assets/screenshot-powerapp-json-param.png)
+![Power Apps settings Params](./assets/screenshot-powerapp-json-param.png)
 
 #### Tokens to replace:
 - ```<EnviromentID>``` - Provide enviroment Id
@@ -102,7 +102,7 @@ PnPSample.zip | [André Lage](https://github.com/aaclage) ([@aaclage](https://tw
 
 Version|Date|Comments
 -------|----|--------
-3.0|November 24, 2024|New features with Powerapps feature with signature and display report sample
+3.0|November 24, 2024|New features with Power Apps feature with signature and display report sample
 2.0|April 14, 2022|New features
 1.0|March 1, 2022|Initial release
 
