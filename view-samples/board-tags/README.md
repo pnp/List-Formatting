@@ -37,6 +37,10 @@ Flag | True/False - include flag and change background color of card (Default va
 Expand | True/False - Minimize or expand Card (Default value **False**).
 Image | Image/Thumbnail - Image of Signature
 ReportUrl | Single line of text - Url to Report
+Color | Single line of text - Hex Color  used to pass to PowerApps and change color
+Attachments | Include default field **"Attachments"** in View to display content 
+Editor | Include field **"Modified By"** in View to display content 
+Modified | Include field  **"Modified"** in View to display content 
 
 
 ## Create Board View for board-tags.json

@@ -4,10 +4,10 @@
     "reponame": "board-tags",
     "source": "pnp",
     "title": "Board Tags",
-    "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card.",
+    "shortDescription": "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card and digital signature with report.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags",
     "longDescription": [
-      "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card."
+      "This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card. This List format also uses **embedded** action to open custom Powerapp with parameters for digital signature of user and report generator."
     ],
     "creationDateTime": "2022-03-05T00:00:00.000Z",
     "updateDateTime": "2022-03-05T00:00:00.000Z",
