@@ -1,11 +1,11 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-  "hideColumnHeader": true,
+﻿{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
   "hideSelection": true,
-  "rowFormatter": {
+  "height": 550,
+  "width": 400,
+  "formatter": {
     "elmType": "div",
     "style": {
-      "float": "left",
       "padding": "10px"
     },
     "children": [
