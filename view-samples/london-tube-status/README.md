@@ -106,7 +106,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|October 24, 2020|Initial release
 2.0|January 31, 2021|Updated to include Logic App version and improved Flow.
-3.0|November 28, 2024|Updated [london-tube-status.json](./london-tube-status.json) & [DeploySPList-LondonTubes.zip](./flows/london-tube-status.json) to include addition of London Overground & Elizabeth lines.
+3.0|November 28, 2024|Updated [london-tube-status.json](./london-tube-status.json) & [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) to include addition of London Overground & Elizabeth lines.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
