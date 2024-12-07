@@ -14,7 +14,7 @@
         {
           "elmType": "img",
           "attributes": {
-            "src": "=getUserImage(@currentField.email,'S')"
+            "src": "=getUserImage(@currentField.email,'s')"
           },
           "style": {
             "position": "relative",
