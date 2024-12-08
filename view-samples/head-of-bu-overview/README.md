@@ -12,12 +12,13 @@ This sample shows how to transform a plain list view into a visually appealing o
 
 Column Name | Required | Type
 ----------- | -------- | ----
-Title       | No       | Yes/No
-HoBU        | Yes      | Person or Group
 BU          | Yes      | Choice
+HoBU        | Yes      | Person or Group
+Title       | No       | Yes/No
 
 > [!NOTE]
 > It is necessary to group by the `BU` column.
+> 
 > Set default grouping to `Expanded` (optional).
 
 
