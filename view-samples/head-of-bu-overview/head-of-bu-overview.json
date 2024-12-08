@@ -1,0 +1,124 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "@group.fieldData",
+      "style": {
+        "width": "=(560-15)+'px'",
+        "padding-left": "15px",
+        "height": "48px",
+        "background-color": "#696CB3",
+        "color": "white",
+        "border-radius": "8px"
+      }
+    }
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "width": "560px",
+      "margin": "2px 0 20px 44px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "height": "90px",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "defaultHoverField": "[$HoBU]",
+            "attributes": {
+              "class": "ms-borderColor-white ms-borderColor-yellow--hover",
+              "src": "=getUserImage([$HoBU.email],'m')"
+            },
+            "style": {
+              "display": "flex",
+              "background-color": "#E9E9F7",
+              "width": "82px",
+              "font-size": "24px",
+              "font-weight": "700",
+              "border-radius": "50%",
+              "noxborder": "2px solid",
+              "border-style": "solid",
+              "border-width": "2px",
+              "margin": "4px 4px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "flex-grow": "1",
+              "color": "black",
+              "background-color": "#E9E9F7",
+              "border-radius": "4px 4px",
+              "font-size": "16px",
+              "font-weight": "700",
+              "justify-content": "center",
+              "margin": "0 0 0 4px",
+              "padding": "0 0 0 16px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "width": "100px",
+                  "flex-direction": "column",
+                  "justify-content": "space-evenly"
+                },
+                "children": [
+                  {
+                    "txtContent": "Name:",
+                    "elmType": "div"
+                  },
+                  {
+                    "txtContent": "Job Title:",
+                    "elmType": "div"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "justify-content": "space-evenly",
+                  "width": "1px",
+                  "padding": "0 1px 0 0"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$HoBU.title]"
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
