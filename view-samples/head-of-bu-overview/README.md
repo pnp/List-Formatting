@@ -12,9 +12,9 @@ This sample shows how to transform a plain list view into a visually appealing o
 
 Column Name | Required | Type
 ----------- | -------- | ----
-BU          | Yes      | Choice
+BU          | Yes      | Choice or Single line of text
 HoBU        | Yes      | Person or Group
-Title       | No       | Yes/No
+Title       | No       | Single line of text
 
 > [!NOTE]
 > It is necessary to group by the `BU` column.
