@@ -1,14 +1,15 @@
 # Glossary View Formatters (connected list WebParts)
 
 ## Summary
-View formatters to buid a glossary page using connected list WebParts. 
+View formatters to buid a glossary page using connected list WebParts.
 ![Filtered Glossary](./assets/filteredGlossary.gif)
 
 Two lists are needed on this sample, so two separate JSON files are used:
 
 File Name|View type for formatting|Details
 ---------|---------|--------
-[glossary-filter.json](./glossary-filter.json)|Gallery|Used to format the filter list. 
+[glossary-filter.json](./glossary-filter.json)|Gallery|Used to format the filter list.
+[glossary-filter-bg.json](./glossary-filter-bg.json)|Gallery|Used to format the filter list with letter on a background.
 [glossary-view.json](./glossary-view.json)|List|Used to format the main list.
 
 ## View requirements
@@ -31,7 +32,7 @@ Type|Internal Name|Required|Details
 -----|----------|--------|--------
 Single line of text|Title|Yes|Used to store the glossary term
 Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled
-Calculated|FirstChar| |Used to show the first character of the term. This is the key to the whole functionality. Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1). This will extract only the first character from the Title field and use it as the value. 
+Calculated|FirstChar| |Used to show the first character of the term. This is the key to the whole functionality. Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1). This will extract only the first character from the Title field and use it as the value.
 
 Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in this list.
 
@@ -46,7 +47,7 @@ Add another list WebPart below it, but now select the Glossary Terms list, with 
 
 ![Filtered Glossary](./assets/gTermsWPSetup.png)
 
-Rename the webparts as desired, save and publish your page to get the correct settings applied. 
+Rename the webparts as desired, save and publish your page to get the correct settings applied.
 
 To be more user friendly, in the example shown above they were renamed from:
 
@@ -61,12 +62,14 @@ Solution|Author(s)
 --------|---------
 glossary-filter.json | Michel Mendes ([@michelcarlo](https://twitter.com/michelcarlo) / [michelcarlo.com](https://michelcarlo.com/))
 glossary-view.json | [Michel Mendes](https://twitter.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://twitter.com/theChrisKent)
+glossary-filter-bg.json | [Watana](https://github.com/watana2)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|April 04, 2021|Initial release
+1.1|December 13, 2024|Added glossary-filter-bg.json
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
