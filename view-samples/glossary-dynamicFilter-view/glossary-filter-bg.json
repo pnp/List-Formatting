@@ -7,8 +7,8 @@
     "elmType": "div",
     "children": [
       {
-        "txtContent": "[$Title]",
         "elmType": "div",
+        "txtContent": "[$Title]",
         "attributes": {
           "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontColor-yellow--hover"
         },
