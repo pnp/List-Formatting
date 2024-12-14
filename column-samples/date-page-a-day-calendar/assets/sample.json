@@ -10,7 +10,7 @@
       "This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (\u0060getDate\u0060, \u0060getMonth\u0060, and \u0060getYear\u0060)."
     ],
     "creationDateTime": "2020-10-17T00:00:00.000Z",
-    "updateDateTime": "2022-10-02T00:00:00.000Z",
+    "updateDateTime": "2024-12-14T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
