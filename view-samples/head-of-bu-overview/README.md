@@ -17,8 +17,7 @@ HoBU        | Yes      | Person or Group
 Title       | No       | Single line of text
 
 > [!NOTE]
-> It is necessary to group by the `BU` column.
-> 
+> It is necessary to group by the `BU` column.  
 > Set default grouping to `Expanded` (optional).
 
 
