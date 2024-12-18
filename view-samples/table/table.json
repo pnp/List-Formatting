@@ -15,9 +15,9 @@
       {
         "elmType": "div",
         "style": {
-          "display": "flex",
           "width": "100%",
           "height": "48px",
+          "display": "flex",
           "padding-bottom": "6px"
         },
         "children": [
@@ -137,9 +137,8 @@
       {
         "elmType": "div",
         "style": {
-          "display": "flex",
           "width": "100%",
-          "background-color": ""
+          "display": "flex"
         },
         "children": [
           {
