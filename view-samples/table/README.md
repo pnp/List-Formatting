@@ -20,7 +20,7 @@ No | Person or Group | Marketing
 No | Person or Group | RnD
 
 > [!NOTE]
-> It is necessary to set `Show field` value to `Name (with picture and details)`.
+> It is necessary to set `Show field` value to `Name (with picture and details)`.  
 > Set `Allow multiple sections` to `Yes`.
 
 
