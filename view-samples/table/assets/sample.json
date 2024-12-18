@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach, defaultHoverField"
+        "value": "forEach, defaultHoverField, hideSelection, hideListHeader, rowFormatter"
       },
       {
         "key": "CLASSES",
