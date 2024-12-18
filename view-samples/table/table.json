@@ -1,0 +1,597 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "width": "=(180*7)+'px'",
+      "border": "2px solid #e5e5e5",
+      "padding": "6px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "height": "48px",
+          "align-items": "center",
+          "padding-bottom": "6px"
+        },
+        "children": [
+          {
+            "txtContent": "EXECUTIVE MANAGEMENT",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center"
+            }
+          },
+          {
+            "txtContent": "FINANCE",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          },
+          {
+            "txtContent": "HR",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          },
+          {
+            "txtContent": "IT",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          },
+          {
+            "txtContent": "LEGAL",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          },
+          {
+            "txtContent": "MARKETING",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          },
+          {
+            "txtContent": "R&D",
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            },
+            "style": {
+              "width": "180px",
+              "height": "100%",
+              "display": "flex",
+              "text-align": "center",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin": "0 0 0 6px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "background-color": ""
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$ExecutiveManagement]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$Finance]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$HR]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$IT]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$Legal]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$Marketing]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes":{
+              "class":"ms-bgColor-themeLighter"
+            },
+            "style": {
+              "width": "180px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "text-align": "center",
+              "padding-bottom": "25px",
+              "margin-left": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "forEach": "item in [$RnD]",
+                    "elmType": "div",
+                    "attributes":{
+                      "class":"ms-fontColor-themeDark"
+                    },
+                    "style": {
+                      "margin-top": "25px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "defaultHoverField": "[$item]",
+                        "attributes": {
+                          "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
+                          "src": "=getUserImage([$item.email],'m')"
+                        },
+                        "style": {
+                          "border-radius": "50%",
+                          "border-style": "solid",
+                          "border-width": "2px"
+                        }
+                      },
+                      {
+                        "txtContent": "[$item.title]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "padding": "0 4px"
+                        }
+                      },
+                      {
+                        "txtContent": "=[$item.jobTitle]",
+                        "elmType": "div",
+                        "style": {
+                          "font-size": "14px",
+                          "padding": "0 4px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
