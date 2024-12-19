@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "hideSelection": true,
   "hideListHeader": true,
   "rowFormatter": {
     "elmType": "div",
     "style": {
+      "width": "1200px",
       "display": "flex",
       "flex-direction": "column",
-      "width": "=(180*7)+'px'",
       "border": "2px solid #e5e5e5",
       "padding": "6px"
     },
@@ -16,120 +16,113 @@
         "elmType": "div",
         "style": {
           "width": "100%",
-          "height": "48px",
           "display": "flex",
-          "padding-bottom": "6px"
+          "height": "48px",
+          "padding": "0 6px 6px"
         },
         "children": [
           {
             "txtContent": "EXECUTIVE MANAGEMENT",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
-              "justify-content": "center"
+              "justify-content": "center",
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "FINANCE",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "HR",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "IT",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "LEGAL",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "MARKETING",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center",
+              "margin-right": "6px"
             }
           },
           {
             "txtContent": "R&D",
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themePrimary ms-fontColor-white"
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             },
             "style": {
-              "width": "180px",
-              "height": "100%",
+              "width": "100%",
               "display": "flex",
-              "text-align": "center",
               "align-items": "center",
               "justify-content": "center",
-              "margin": "0 0 0 6px"
+              "text-align": "center"
             }
           }
         ]
@@ -143,8 +136,8 @@
         "children": [
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -161,8 +154,8 @@
                   {
                     "forEach": "item in [$ExecutiveManagement]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -206,8 +199,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -225,8 +218,8 @@
                   {
                     "forEach": "item in [$Finance]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -270,8 +263,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -289,8 +282,8 @@
                   {
                     "forEach": "item in [$HR]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -334,8 +327,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -353,8 +346,8 @@
                   {
                     "forEach": "item in [$IT]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -398,8 +391,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -417,8 +410,8 @@
                   {
                     "forEach": "item in [$Legal]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -462,8 +455,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -481,8 +474,8 @@
                   {
                     "forEach": "item in [$Marketing]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
@@ -526,8 +519,8 @@
           },
           {
             "elmType": "div",
-            "attributes":{
-              "class":"ms-bgColor-themeLighter"
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
             },
             "style": {
               "width": "180px",
@@ -545,8 +538,8 @@
                   {
                     "forEach": "item in [$RnD]",
                     "elmType": "div",
-                    "attributes":{
-                      "class":"ms-fontColor-themeDark"
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "style": {
                       "margin-top": "25px"
