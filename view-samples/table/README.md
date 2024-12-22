@@ -11,13 +11,13 @@ This sample demonstrate how to turn list items into a custom table.
 ## View requirements
 Required|Type|Internal Name
 --------|----|-
-No | Person or Group | ExecutiveManagement
-No | Person or Group | Finance
-No | Person or Group | HR
-No | Person or Group | IT
-No | Person or Group | Legal
-No | Person or Group | Marketing
-No | Person or Group | RnD
+No | Person or Group | col_1
+No | Person or Group | col_2
+No | Person or Group | col_3
+No | Person or Group | col_4
+No | Person or Group | col_5
+No | Person or Group | col_6
+No | Person or Group | col_7
 
 > [!NOTE]
 > It is necessary to set `Show field` value to `Name (with picture and details)`.  
@@ -37,7 +37,7 @@ table.json |[Watana](https://github.com/watana2)
 ## Version history
 Version|Date|Comments
 -------|----|-
-1.0    |December 20, 2024 |Initial release
+1.0    |December 22, 2024 |Initial release
 
 
 ## Disclaimer
