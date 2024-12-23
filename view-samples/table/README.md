@@ -1,9 +1,8 @@
-# Table
+# Department Members List
 
 ## Summary
 
-This sample demonstrate how to turn list items into a custom table.
-
+This sample demonstrates how to turn list items into a custom table and bring additional information from the Person column.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -20,8 +19,8 @@ No | Person or Group | col_6
 No | Person or Group | col_7
 
 > [!NOTE]
-> It is necessary to set `Show field` value to `Name (with picture and details)`.  
-> Set `Allow multiple sections` to `Yes`.
+> It is necessary to set the `Show field` value to `Name (with picture and details)` to display the jobTitle field from the Person column.  
+> Set `Allow multiple sections` to `Yes`.  
 
 
 ![screenshot of the sample](./assets/column-setting.png)
@@ -31,16 +30,16 @@ No | Person or Group | col_7
 
 Solution|Author(s)
 --------|-
-table.json |[Watana](https://github.com/watana2)
+department-members-list.json | [Watana](https://github.com/watana2)
 
 
 ## Version history
 Version|Date|Comments
 -------|----|-
-1.0    |December 22, 2024 |Initial release
+1.0    | December 22, 2024 | Initial release
 
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/table" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/department-members-list" />
