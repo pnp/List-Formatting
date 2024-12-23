@@ -18,29 +18,28 @@
           "height": "48px",
           "width": "100%",
           "display": "flex",
-          "padding-bottom": "6px"
+          "padding-bottom": "6px",
+          "font-size": "16px",
+          "font-weight": "700"
         },
         "children": [
           {
             "txtContent": "EXECUTIVE MANAGEMENT",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
               "align-items": "center",
               "justify-content": "center",
               "text-align": "center"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "FINANCE",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -48,14 +47,14 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "HR",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -63,14 +62,14 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "IT",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -78,14 +77,14 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "LEGAL",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -93,14 +92,14 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "MARKETING",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -108,14 +107,14 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           },
           {
             "txtContent": "R&D",
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themePrimary ms-fontColor-white"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -123,6 +122,9 @@
               "justify-content": "center",
               "text-align": "center",
               "margin-left": "6px"
+            },
+            "attributes": {
+              "class": "ms-bgColor-themePrimary ms-fontColor-white"
             }
           }
         ]
@@ -136,9 +138,6 @@
         "children": [
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -147,26 +146,29 @@
               "text-align": "center",
               "padding-bottom": "25px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_1]",
+                    "forEach": "obj in [$col_1]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -175,16 +177,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -199,9 +201,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -211,26 +210,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_2]",
+                    "forEach": "obj in [$col_2]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -239,16 +241,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -263,9 +265,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -275,26 +274,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_3]",
+                    "forEach": "obj in [$col_3]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -303,16 +305,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -327,9 +329,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -339,26 +338,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_4]",
+                    "forEach": "obj in [$col_4]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -367,16 +369,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -391,9 +393,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -403,26 +402,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_5]",
+                    "forEach": "obj in [$col_5]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -431,16 +433,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -455,9 +457,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -467,26 +466,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_6]",
+                    "forEach": "obj in [$col_6]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -495,16 +497,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
@@ -519,9 +521,6 @@
           },
           {
             "elmType": "div",
-            "attributes": {
-              "class": "ms-bgColor-themeLighter"
-            },
             "style": {
               "width": "100%",
               "display": "flex",
@@ -531,26 +530,29 @@
               "padding-bottom": "25px",
               "margin-left": "6px"
             },
+            "attributes": {
+              "class": "ms-bgColor-themeLighter"
+            },
             "children": [
               {
                 "elmType": "div",
                 "children": [
                   {
-                    "forEach": "item in [$col_7]",
+                    "forEach": "obj in [$col_7]",
                     "elmType": "div",
-                    "attributes": {
-                      "class": "ms-fontColor-themeDark"
-                    },
                     "style": {
                       "margin-top": "25px"
+                    },
+                    "attributes": {
+                      "class": "ms-fontColor-themeDark"
                     },
                     "children": [
                       {
                         "elmType": "img",
-                        "defaultHoverField": "[$item]",
+                        "defaultHoverField": "[$obj]",
                         "attributes": {
                           "class": "ms-borderColor-white ms-borderColor-themeSecondary--hover",
-                          "src": "=getUserImage([$item.email],'m')"
+                          "src": "=getUserImage([$obj.email],'m')"
                         },
                         "style": {
                           "border-radius": "50%",
@@ -559,16 +561,16 @@
                         }
                       },
                       {
-                        "txtContent": "[$item.title]",
+                        "txtContent": "[$obj.title]",
                         "elmType": "div",
                         "style": {
-                          "font-size": "16px",
                           "font-weight": "700",
+                          "font-size": "16px",
                           "padding": "0 4px"
                         }
                       },
                       {
-                        "txtContent": "[$item.jobTitle]",
+                        "txtContent": "[$obj.jobTitle]",
                         "elmType": "div",
                         "style": {
                           "font-size": "14px",
