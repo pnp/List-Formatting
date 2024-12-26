@@ -12,7 +12,7 @@ Hide everything that can be hidden on the command bar. My use case was to embed 
 
 Solution|Author(s)
 --------|---------
-commandbar-hide-all | [gitjego](https://github.com/gitjego) 
+commandbar-hide-all.json | [gitjego](https://github.com/gitjego) 
 
 ## Version history
 
