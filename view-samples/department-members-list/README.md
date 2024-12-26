@@ -18,8 +18,8 @@ No | Person or Group | col_5
 No | Person or Group | col_6
 No | Person or Group | col_7
 
-> [!NOTE]
-> It is necessary to set the `Show field` value to `Name (with picture and details)` to display the jobTitle field from the Person column.  
+> [!NOTE]  
+> It is necessary to set the `Show field` value to `Name (with picture and details)` to display the jobTitle field from the Person column. (Related issue: [SharePoint/sp-dev-docs#10063](https://github.com/SharePoint/sp-dev-docs/issues/10063))  
 > Set `Allow multiple sections` to `Yes`.  
 
 
