@@ -3,8 +3,7 @@
 ## Summary
 Hide everything that can be hidden on the command bar. My use case was to embed a summary into a SharePoint page using an iFrame and keep things as clean as possible. 
 
-<img width="1081" alt="image" src="https://github.com/user-attachments/assets/52a20d33-24e3-41c7-9847-d6be5ae05d09" />
-
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 - You'll want this to be it's own list view, so the hidden buttons aren't more difficult to access when you actually need them. 
