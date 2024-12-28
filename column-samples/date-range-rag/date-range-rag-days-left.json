@@ -1,49 +1,49 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "style": {
-    "position": "relative",
-    "border": "2px solid",
-    "border-color": "=if([$DueDate] <= @now, '#ff9362', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), '#ffd24c', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9, '#ff9362', '#bdca73'))"
-  },
-  "children": [
-    {
-      "elmType": "div",
-      "style": {
-        "font-size": "12px",
-        "text-align-last": "right",
-        "min-height": "inherit",
-        "width": "=if([$DueDate] <= @now, '100%', if((Number([$DueDate] - @now))/86400000)>=100,'100%', (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate])) * 100 + '%')"
-      },
-	  
-      "attributes": {
-		"class": "=if([$DueDate] <= @now, 'sp-field-severity--severeWarning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), 'sp-field-severity--warning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9, 'sp-field-severity--severeWarning', 'sp-field-severity--good'))"
-      }  
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "border": "2px solid",
+      "border-color": "=if([$DueDate] < @now, 'transparent', if((1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), '#ffd24c', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9, '#ff9362', '#bdca73')))"
     },
-    {
-      "elmType": "span",
-      "txtContent": "@currentField.displayValue",
-      "style": {
-        "position": "absolute",
-        "left": "8px"
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "font-size": "12px",
+          "text-align-last": "right",
+          "min-height": "inherit",
+          "width": "=if([$DueDate] < @now, '0%', if(((Number([$DueDate] - @now))/86400000)>=100,'100%', (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate])) * 100 + '%'))"
+        },
+        "attributes": {
+          "class": "=if([$DueDate] < @now, 'sp-field-severity--low', if((1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), 'sp-field-severity--warning', if((1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 1.03), 'sp-field-severity--severeWarning', 'sp-field-severity--good')))"
+        }
       },
-      "attributes": {
-        "class": "ms-fontColor-neutralSecondary"
-      }
-    },
-    {
-      "elmType": "span",
-      "txtContent": "='(' + if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==0,'Today', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==1,'Tomorrow', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==-1,'Yesterday', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)>=2,floor(Number(Date([$DueDate]) - Date(@now))/86400000) + ' days', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)<=2,floor(Number(Date(@now)-Date([$DueDate]))/86400000) + ' days ago',''))))) + ')'",
-      "style": {
-        "position": "absolute",
-        "right": "2px",
-        "bottom": "2px",
-        "font-size": "9px",
-        "color": "black"
+      {
+        "elmType": "span",
+        "txtContent": "@currentField.displayValue",
+        "style": {
+          "position": "absolute",
+          "left": "8px",
+          "color": "white"
+        },
+        "attributes": {
+          "class": "ms-fontColor-neutralSecondary"
+        }
       },
-      "attributes": {
-        "class": "ms-fontColor-neutralSecondary"
+      {
+        "elmType": "span",
+        "txtContent": "='(' + if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==0,'Tomorrow', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==1,'in 1 day', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)==-1,'Today', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)>=2,floor(Number(Date([$DueDate]) - Date(@now))/86400000)+1 + ' days', if(floor(Number(Date([$DueDate]) - Date(@now))/86400000)<=2,floor(Number(Date(@now)-Date([$DueDate]))/86400000) + ' days ago',''))))) + ')'",
+        "style": {
+          "position": "absolute",
+          "right": "2px",
+          "bottom": "2px",
+          "font-size": "9px",
+          "color": "white"
+        },
+        "attributes": {
+          "class": "ms-fontColor-neutralSecondary"
+        }
       }
-    }
-  ]
-}
+    ]
+  }
