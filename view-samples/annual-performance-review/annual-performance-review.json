@@ -1,0 +1,1204 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "versionHistory",
+        "sectionType": "Overflow",
+        "position": 1
+      },
+      {
+        "key": "undo",
+        "sectionType": "Overflow",
+        "position": 2
+      },
+      {
+        "key": "share",
+        "sectionType": "Overflow",
+        "position": 3
+      },
+      {
+        "key": "editInGridView",
+        "sectionType": "Overflow",
+        "position": 4
+      },
+      {
+        "key": "copyLink",
+        "sectionType": "Overflow",
+        "position": 5
+      },
+      {
+        "key": "export",
+        "sectionType": "Overflow",
+        "position": 6
+      },
+      {
+        "key": "comment",
+        "sectionType": "Overflow",
+        "position": 7
+      },
+      {
+        "key": "manageForms",
+        "sectionType": "Overflow",
+        "position": 8
+      },
+      {
+        "key": "delete",
+        "sectionType": "Overflow",
+        "position": 9
+      },
+      {
+        "key": "integrate",
+        "hide": true
+      },
+      {
+        "key": "automate",
+        "hide": true
+      }
+    ]
+  },
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "width": "=(700+2*2)+'px'",
+        "height": "48px",
+        "background-color": "#696CB3",
+        "color": "white",
+        "border-radius": "8px"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "=getUserImage(@group.fieldData.email,'s')"
+          },
+          "style": {
+            "width": "32px",
+            "height": "32px",
+            "border-radius": "50%",
+            "margin-left": "8px"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "@group.fieldData.title",
+          "style": {
+            "padding-left": "10px"
+          }
+        }
+      ]
+    }
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "block",
+      "background-color": "#E9F7F7",
+      "width": "=(700-10*2)+'px'",
+      "padding": "10px",
+      "margin": "2px 0 14px 44px",
+      "border": "2px solid #e5e5e5",
+      "border-radius": "8px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px",
+          "margin-bottom": "10px",
+          "height": "90px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "display": "flex",
+              "flex-grow": "1",
+              "background-color": "#E9E9F7",
+              "border-radius": "4px 4px",
+              "font-size": "18px",
+              "font-weight": "700",
+              "justify-content": "center",
+              "padding-left": "8px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "padding-bottom": "6px",
+                  "align-items": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "='Employee: '+toString(Number([$Q1e])+Number([$Q2e])+Number([$Q3e])+Number([$Q4e]))+'/12'",
+                    "style": {
+                      "width": "150px"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "160px",
+                      "height": "20px",
+                      "background-color": "#D6D6D6",
+                      "border-radius": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "=(Number([$Q1e])+Number([$Q2e])+Number([$Q3e])+Number([$Q4e]))/12*100+'%'",
+                          "max-width": "100%",
+                          "height": "100%",
+                          "background-color": "#4CAF50",
+                          "border-radius": "5px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "padding-top": "6px",
+                  "align-items": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "='Manager: '+toString(Number([$Q1m])+Number([$Q2m])+Number([$Q3m])+Number([$Q4m]))+'/12'",
+                    "style": {
+                      "width": "150px"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "160px",
+                      "height": "20px",
+                      "background-color": "#D6D6D6",
+                      "border-radius": "5px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "=(Number([$Q1m])+Number([$Q2m])+Number([$Q3m])+Number([$Q4m]))/12*100+'%'",
+                          "max-width": "100%",
+                          "height": "100%",
+                          "background-color": "#4CAF50",
+                          "border-radius": "5px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#E9E9F7",
+              "min-width": "145px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "Edit Mode",
+                "style": {
+                  "display": "flex",
+                  "height": "40%",
+                  "color": "grey",
+                  "font-size": "16px",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "height": "60%",
+                  "justify-content": "center",
+                  "align-items": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "padding": "2px",
+                      "border": "2px solid #ccc",
+                      "border-radius": "30px",
+                      "font-size": "20px",
+                      "height": "55%",
+                      "width": "80%"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "Off",
+                        "style": {
+                          "cursor": "pointer",
+                          "width": "50%",
+                          "text-align": "center",
+                          "background-color": "=if([$EditMode],'transparent','lightgrey')",
+                          "border-radius": "30px"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "EditMode": "0"
+                          }
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "On",
+                        "style": {
+                          "width": "50%",
+                          "text-align": "center",
+                          "cursor": "pointer",
+                          "background-color": "=if([$EditMode],'#696CB3','transparent')",
+                          "color": "=if([$EditMode],'white','black')",
+                          "border-radius": "30px"
+                        },
+                        "customRowAction": {
+                          "action": "setValue",
+                          "actionInput": {
+                            "EditMode": "1"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Emp",
+            "style": {
+              "display": "flex",
+              "background-color": "#E9E9F7",
+              "min-width": "90px",
+              "border-radius": "50%",
+              "font-size": "24px",
+              "font-weight": "700",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin-left": "4px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "Mgr",
+            "style": {
+              "display": "flex",
+              "background-color": "#E9E9F7",
+              "min-width": "90px",
+              "border-radius": "50%",
+              "font-size": "24px",
+              "font-weight": "700",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin-left": "4px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px",
+          "margin-bottom": "10px",
+          "height": "90px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "Behaviours\nCallaboration\nIntegrity",
+            "style": {
+              "display": "flex",
+              "flex-grow": "1",
+              "background-color": "#ACE3FA",
+              "border-radius": "4px 4px",
+              "font-size": "18px",
+              "font-weight": "600",
+              "align-items": "center",
+              "padding": "0 0 4px 8px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#6EC5EB",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q1e]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q1e]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q1e": "=[$Q1e]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q1e]<1,'','none')",
+                      "color": "#5EACCA"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q1e]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q1e": "=[$Q1e]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q1e]>2,'','none')",
+                      "color": "#5EACCA"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#6EC5EB",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q1m]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q1m]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q1m": "=[$Q1m]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q1m]<1,'','none')",
+                      "color": "#5EACCA"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q1m]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q1m": "=[$Q1m]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q1m]>2,'','none')",
+                      "color": "#5EACCA"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px",
+          "margin-bottom": "10px",
+          "height": "90px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "Health and Safety",
+            "style": {
+              "display": "flex",
+              "flex-grow": "1",
+              "background-color": "#DCC9F2",
+              "border-radius": "4px 4px",
+              "font-size": "18px",
+              "font-weight": "600",
+              "align-items": "center",
+              "padding": "0 0 4px 8px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#B988F2",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q2e]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q2e]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q2e": "=[$Q2e]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q2e]<1,'','none')",
+                      "color": "#A67AD9"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q2e]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q2e": "=[$Q2e]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q2e]>2,'','none')",
+                      "color": "#A67AD9"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#B988F2",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q2m]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q2m]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q2m": "=[$Q2m]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q2m]<1,'','none')",
+                      "color": "#A67AD9"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q2m]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q2m": "=[$Q2m]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q2m]>2,'','none')",
+                      "color": "#A67AD9"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px",
+          "margin-bottom": "10px",
+          "height": "90px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "People & Culture",
+            "style": {
+              "display": "flex",
+              "flex-grow": "1",
+              "background-color": "#A7F2C7",
+              "border-radius": "4px 4px",
+              "font-size": "18px",
+              "font-weight": "600",
+              "align-items": "center",
+              "padding": "0 0 4px 8px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#6CD99B",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q3e]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q3e]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q3e": "=[$Q3e]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q3e]<1,'','none')",
+                      "color": "#60BF89"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q3e]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q3e": "=[$Q3e]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q3e]>2,'','none')",
+                      "color": "#60BF89"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#6CD99B",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q3m]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q3m]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q3m": "=[$Q3m]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q3m]<1,'','none')",
+                      "color": "#60BF89"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q3m]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q3m": "=[$Q3m]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q3m]>2,'','none')",
+                      "color": "#60BF89"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "background-color": "#696CB3",
+          "border": "4px solid #696CB3",
+          "border-radius": "6px 6px",
+          "height": "90px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "Performance\nCustomer\nFinance",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "flex-grow": "1",
+              "background-color": "#F7F3A6",
+              "border-radius": "4px 4px",
+              "font-size": "18px",
+              "font-weight": "600",
+              "padding": "0 0 4px 8px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#D9D35C",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q4e]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q4e]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q4e": "=[$Q4e]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q4e]<1,'','none')",
+                      "color": "#C4BF53"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q4e]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q4e": "=[$Q4e]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q4e]>2,'','none')",
+                      "color": "#C4BF53"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "background-color": "#D9D35C",
+              "color": "white",
+              "min-width": "90px",
+              "border-radius": "4px 4px",
+              "margin-left": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Q4m]",
+                "style": {
+                  "display": "flex",
+                  "height": "=if([$EditMode],'75%','100%')",
+                  "font-size": "60px",
+                  "font-weight": "700",
+                  "justify-content": "center",
+                  "align-items": "center"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$EditMode],'flex','none')",
+                  "color": "#696CB3",
+                  "width": "100%",
+                  "font-size": "20px",
+                  "justify-content": "space-around"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12",
+                      "title": "Decrease by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q4m]>0,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q4m": "=[$Q4m]-1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "Blocked12"
+                    },
+                    "style": {
+                      "display": "=if([$Q4m]<1,'','none')",
+                      "color": "#C4BF53"
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo",
+                      "title": "Increase by 1",
+                      "class": "ms-fontColor-red--hover"
+                    },
+                    "style": {
+                      "display": "=if([$Q4m]<3,'','none')",
+                      "font-weight": "600",
+                      "cursor": "pointer"
+                    },
+                    "customRowAction": {
+                      "action": "setValue",
+                      "actionInput": {
+                        "Q4m": "=[$Q4m]+1"
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "iconName": "AddTo"
+                    },
+                    "style": {
+                      "display": "=if([$Q4m]>2,'','none')",
+                      "color": "#C4BF53"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

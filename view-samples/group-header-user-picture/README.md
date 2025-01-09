@@ -22,6 +22,7 @@ group-header-user-picture.json | [Tetsuya Kawahara](https://github.com/tecchan11
 Version |Date          |Comments
 --------|--------------|--------------------------------
 1.0     |April 3, 2021 |Initial release
+1.1     |October 16, 2024 |Changed to use `getUserImage` operator to get user's picture
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

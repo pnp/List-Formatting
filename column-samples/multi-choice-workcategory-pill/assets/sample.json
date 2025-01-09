@@ -10,7 +10,7 @@
       "This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."
     ],
     "creationDateTime": "2020-08-08T00:00:00.000Z",
-    "updateDateTime": "2020-08-08T00:00:00.000Z",
+    "updateDateTime": "2024-11-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -66,6 +66,11 @@
         "gitHubAccount": "ganesh-sanap",
         "pictureUrl": "https://github.com/ganesh-sanap.png",
         "name": "Ganesh Sanap"
+      },
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
       }
     ],
     "references": [

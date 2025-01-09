@@ -9,7 +9,7 @@ In this repository, everything is about list formatting samples, which means tha
 - add a new sample
 - improve an existing sample
 - improve documentation for a sample
-- resolve an issue from the [issue list](https://github.com/pnp/sp-dev-list-formatting/issues)
+- resolve an issue from the [issue list](https://github.com/pnp/List-Formatting/issues)
 - last, but not least, fix typos
 
 If you are unsure if your contribution would fit into this project, raise an issue and we will get things moving with you together.
@@ -43,19 +43,19 @@ This how-to is written for Windows/PowerShell. If you use a different OS or shel
 
 Fork our repository to create a copy in your account:
 
-- open [pnp/sp-dev-list-formatting/](https://github.com/pnp/sp-dev-list-formatting/) (this repository)
+- open [pnp/List-Formatting/](https://github.com/pnp/List-Formatting/) (this repository)
 - select **Fork**
 
 ![fork repository](/docs/img/fork-repository.png)
 
-The URL of your fork is now `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting/`
+The URL of your fork is now `https://github.com/<YOUR GITHUB ACCOUNT>/List-Formatting/`
 
 #### Clone the repository
 
 Now you want to clone the repository so you have it locally available:
 
 (1) Select **Code**
-(2) Copy the URL (it is `https://github.com/<YOUR GITHUB ACCOUNT>/sp-dev-list-formatting.git`)
+(2) Copy the URL (it is `https://github.com/<YOUR GITHUB ACCOUNT>/List-Formatting.git`)
 
 ![clone repository](/docs/img/clone-repository.png)
 
@@ -67,15 +67,15 @@ Now you want to clone the repository so you have it locally available:
 
 You will now want to make sure, that all your contributions point to the original repository, which is why you want to add an upstream to it:
 
-- navigate to the folder where your cloned repository is located with `cd sp-dev-list-formatting`
-- type `git remote add upstream https://github.com/pnp/sp-dev-list-formatting` (this needs to be the original repository URL)
+- navigate to the folder where your cloned repository is located with `cd List-Formatting`
+- type `git remote add upstream https://github.com/pnp/List-Formatting` (this needs to be the original repository URL)
 - to check if everything works correctly, type `git remote -v`, you should see this output:
 
 ```powershell
-origin  https://github.com/<YOUR ACCOUNT HERE>/sp-dev-list-formatting.git (fetch)
-origin  https://github.com/<YOUR ACCOUNT HERE>/sp-dev-list-formatting.git (push)
-upstream https://github.com/pnp/sp-dev-list-formatting (fetch)
-upstream https://github.com/pnp/sp-dev-list-formatting (push)
+origin  https://github.com/<YOUR ACCOUNT HERE>/List-Formatting.git (fetch)
+origin  https://github.com/<YOUR ACCOUNT HERE>/List-Formatting.git (push)
+upstream https://github.com/pnp/List-Formatting (fetch)
+upstream https://github.com/pnp/List-Formatting (push)
 ```
 
 #### Branch out
@@ -98,7 +98,7 @@ Now it's time to make some changes:
   - also, join our [Microsoft 365 PnP](https://aka.ms/m365pnp) community calls, where we regularly feature demos on list formatting
   - a new sample should contain:
     - a folder where the sample lives in
-    - a README.md file, please use [README.md template](https://github.com/LuiseFreese/sp-dev-list-formatting/blob/master/column-samples/README-template.md)
+    - a README.md file, please use [README.md template](/column-samples/README-template.md)
     - a screenshot that shows how the sample look like
     - the sample itself, provided as JSON file and as AST (Abstract Syntax Tree) version
 
@@ -114,7 +114,7 @@ Whenever you want to upload your changes to your remote fork:
 
 You will now want to (kindly) ask the repository maintainer to pull in your changes. You do that by doing a pull request:
 
-- Open [pnp/sp-dev-list-formatting](https://github.com/pnp/sp-dev-list-formatting) (this repository)
+- Open [pnp/List-Formatting](https://github.com/pnp/List-Formatting) (this repository)
 - Select **Pull requests**
 - Select **New pull request**
 
@@ -140,6 +140,8 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 ### working together
 
 A maintainer will review your pull request, this repository is maintained by volunteers in their free time, please be kind. Everyone is doing their best to keep things moving forward.
+
+Once your PR is merged, you can delete your branch - please don't delete it before your changes are merged!
 
 ## What if you need help?
 

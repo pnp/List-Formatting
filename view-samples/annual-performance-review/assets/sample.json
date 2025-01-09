@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-annual-performance-review",
+    "reponame": "annual-performance-review",
+    "source": "pnp",
+    "title": "Annual Performance Review",
+    "shortDescription": "This sample demonstrates how to change row data to column format for annual performance review form.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/annual-performance-review",
+    "longDescription": [
+      "This sample demonstrates how to change row data to column format for annual performance review form."
+    ],
+    "creationDateTime": "2024-10-06T00:00:00.000Z",
+    "updateDateTime": "2024-10-30T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "CommandBar Customization"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.fieldData"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "Number, toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "groupProps, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-red--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/annual-performance-review/assets/screenshot.png",
+        "alt": "screenshot of the sample"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

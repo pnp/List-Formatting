@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "margin": "auto",
+    "padding-top": "10px",
+    "padding-bottom": "10px"
+  },
+  "children": [
+    {
+      "elmType": "a",
+      "attributes": {
+        "href": "[$Link]",
+        "target": "_blank",
+        "title": "[$Link.desc]"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "attributes": {
+            "src": "=getThumbnailImage(@currentField,64,64)",
+            "alt": "@currentField.filename"
+          },
+          "style": {
+            "border-radius": "6px"
+          }
+        }
+      ]
+    }
+  ]
+}

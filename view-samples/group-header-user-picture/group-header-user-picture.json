@@ -36,7 +36,7 @@
             {
               "elmType": "img",
               "attributes": {
-                "src": "=@currentWeb + '/_layouts/15/userphoto.aspx?size=S&accountname=' + @group.fieldData.email",
+                "src": "=getUserImage(@group.fieldData.email,'s')",
                 "title": "@group.fieldData.title"
               },
               "style": {

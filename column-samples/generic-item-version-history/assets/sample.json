@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Item Version History",
     "shortDescription": "This sample demonstrates how to build a button to display the version history of an item in SharePoint Online.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-item-version-history.json",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-item-version-history",
     "longDescription": [
       "This sample demonstrates how to build a button to display the version history of an item in SharePoint Online by creating a link to the classic versions.aspx page."
     ],
