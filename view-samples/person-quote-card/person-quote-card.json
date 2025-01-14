@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin": "0 auto",
+      "padding": "2em 0",
+      "background-color": "#f4f4f4",
+      "font-family": "Arial, sans-serif",
+      "width": "90%"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "background-color": "#ffcc00",
+          "border-radius": "8px",
+          "padding": "20px",
+          "width": "550px",
+          "box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)",
+          "margin-bottom": "15px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getUserImage([$Publisher.email],'l')"
+                },
+                "style": {
+                  "border-radius": "50%",
+                  "width": "50px",
+                  "height": "50px",
+                  "margin-right": "10px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "20px",
+                  "margin": "0",
+                  "color": "#333",
+                  "font-weight": "bold"
+                },
+                "txtContent": "=[$Publisher.title]"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "font-size": "12px",
+                  "background-color": "#333",
+                  "color": "#ffcc00",
+                  "padding": "2px 5px",
+                  "border-radius": "4px",
+                  "margin-left": "auto",
+                  "font-weight": "bold"
+                },
+                "txtContent": "[$Publisher.jobTitle]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "15px 0",
+              "line-height": "1.5",
+              "color": "#333"
+            },
+            "txtContent": "=[$Quote]"
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "='https://twitter.com/' + [$TwitterHandle]"
+            },
+            "style": {
+              "display": "inline-block",
+              "background-color": "#333",
+              "color": "#ffcc00",
+              "padding": "10px",
+              "border-radius": "5px",
+              "text-decoration": "none",
+              "font-weight": "bold",
+              "text-align": "center"
+            },
+            "txtContent": "='@'+[$TwitterHandle]"
+          }
+        ]
+      }
+    ]
+  }
+}
