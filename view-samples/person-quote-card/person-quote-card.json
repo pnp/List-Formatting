@@ -33,7 +33,7 @@
               {
                 "elmType": "img",
                 "attributes": {
-                  "src": "='https://thetaco1nz.sharepoint.com/_layouts/15/userphoto.aspx?size=L&accountname=' + [$Publisher.email]"
+                  "src": "=getUserImage([$Publisher.email],'l')"
                 },
                 "style": {
                   "border-radius": "50%",
