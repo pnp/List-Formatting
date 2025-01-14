@@ -4,7 +4,7 @@
 
 This sample transforms list items into a template that displates quotes from People with a link to their Twitter (X) handle. The columns listed below must be included in the list view.
 
-![screenshot of the sample](./assets/screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 ![sample data](./assets/sample.png)
 
 ## View requirements
