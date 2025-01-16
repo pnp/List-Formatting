@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-person-quote-card",
     "reponame": "person-quote-card",
     "source": "pnp",
-    "title": "person-quote-card",
+    "title": "Person Quote Card",
     "shortDescription": "This sample transforms list items into a template that displates quotes from People with a link to their Twitter (X) handle.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/person-quote-card",
     "longDescription": [
