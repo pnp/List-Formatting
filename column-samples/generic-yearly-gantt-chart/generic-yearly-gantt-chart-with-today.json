@@ -76,7 +76,8 @@
         "display": "flex",
         "width": "100%",
         "border": "2px solid",
-        "height": "20px"
+        "height": "20px",
+        "overflow": "hidden"
       },
       "attributes": {
         "class": "ms-fontColor-themePrimary"
@@ -87,9 +88,8 @@
           "style": {
             "position": "relative",
             "cursor": "pointer",
-            "max-width": "=((Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'",
-            "width": "=((Number(Date([$End])) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'",
-            "left": "=((Number(Date([$Start])) - Number(Date('' + getYear([$Start]) + '/01/01'))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'"
+            "width": "=if(Number(Date(getYear([$Start]) + '/01/01')) < (Number(Date(getYear(@now) + '/01/01'))),(if(Number(Date(getYear([$End]) + '/01/01')) > (Number(Date(getYear(@now) + '/12/31'))),'100%',(Number(Date([$End])) - Number(Date(getYear(@now) + '/01/01'))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01'))) * 100 + '%'),((Number(Date([$End])) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'))",
+            "left": "=if(Number(Date(getYear([$Start]) + '/01/01')) < (Number(Date(getYear(@now) + '/01/01'))),'0%',if(Number(Date(getYear([$Start]) + '/01/01')) > (Number(Date(getYear(@now) + '/12/31'))),'200%',(((Number(Date([$Start])) - Number(Date('' + getYear([$Start]) + '/01/01')))/(Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01'))))) * 100 + '%'))"
           },
           "attributes": {
             "class": "ms-bgColor-themePrimary ms-bgColor-themeTertiary--hover"
@@ -149,7 +149,7 @@
         "height": "8px"
       },
       "attributes": {
-        "class":"ms-fontColor-themePrimary"
+        "class": "ms-fontColor-themePrimary"
       },
       "children": [
         {
@@ -157,7 +157,7 @@
           "style": {
             "position": "relative",
             "width": "= '1' + '%'",
-            "left": "= floor(((Number(@now)-Number(Date('' + getYear([$Start]) + '/1/1')))/(1000*60*60*24))/365 * 100) + '%'"
+            "left": "= floor(((Number(@now)-Number(Date('' + getYear(@now) + '/1/1')))/(1000*60*60*24))/365 * 100) + '%'"
           },
           "attributes": {
             "class": "ms-bgColor-sharedRed10"
