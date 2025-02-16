@@ -17,7 +17,7 @@ This format can be applied to any column type but expects the following columns 
 
 Solution|Author(s)
 --------|---------
-generic-monthly-gantt-chart.json | [AMandour](https://github.com/AMandour)
+generic-monthly-gantt-chart.json | [Ahmed Mandour](https://github.com/AMandour)
 
 ## Version history
 
