@@ -4,7 +4,11 @@
 
 The sample is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on. It can be added to any customizable field, but adding it to the Title field helps eliminate confusion.
 
+`generic-context-menu.json`
 ![screenshot of the sample](./assets/screenshot.png)
+
+`generic-context-menu-minimal.json`
+![screenshot of the sample](./assets/menu-minimal.png)
 
 ## Setting Up for Sample Usage
 
@@ -27,12 +31,14 @@ This format can be applied to any column type.
 Solution|Author(s)
 --------|---------
 generic-context-menu.json | [Larry Pfaff](https://github.com/jaxkookie) ([@jaxkookie](https://twitter.com/jaxkookie))
+generic-context-menu-minimal.json | [Watana](https://github.com/watana2)
 
 ## Version history
 
 Version |Date          |Comments
 --------|--------------|--------------------------------
 1.0     |April 2, 2024 |Initial release
+1.1     |February 22, 2025 |Added generic-context-menu-minimal.json
 
 ## Disclaimer
 
