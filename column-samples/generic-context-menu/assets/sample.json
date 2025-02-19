@@ -10,7 +10,7 @@
       "The sample is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on."
     ],
     "creationDateTime": "2024-04-02T00:00:00.000Z",
-    "updateDateTime": "2024-04-02T00:00:00.000Z",
+    "updateDateTime": "2025-02-17T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover, ms-Link"
+        "value": "ms-borderColor-ThemeLight, ms-fontColor-red--hover ms-font-l, ms-fontColor-black--hover, ms-fontColor-themeLighter, ms-bgColor-themeLighter--hover, ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover, ms-Link"
       }
     ],
     "thumbnails": [
@@ -66,6 +66,11 @@
         "gitHubAccount": "jaxkookie",
         "pictureUrl": "https://github.com/jaxkookie.png",
         "name": "Larry Pfaff"
+      },
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
       }
     ],
     "references": [
