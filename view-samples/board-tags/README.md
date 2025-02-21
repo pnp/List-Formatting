@@ -110,6 +110,12 @@ Version|Date|Comments
 
 - [Declarative Customization for embedded](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction)
 
+## List formatting magic - Discussion board formatting
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KTleK0_66IU/0.jpg)](https://www.youtube.com/watch?v=KTleK0_66IU)
+
+## List formatting - List embedded integrated with Power Apps
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/s40X1dGu390/0.jpg)](https://www.youtube.com/watch?v=s40X1dGu390)
+
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
