@@ -34,7 +34,7 @@ generic-context-menu-minimal.json | [Watana](https://github.com/watana2)
 Version |Date          |Comments
 --------|--------------|--------------------------------
 1.0     |April 2, 2024 |Initial release
-1.1     |February 22, 2025 |Added generic-context-menu-minimal.json
+1.1     |February 17, 2025 |Added generic-context-menu-minimal.json
 
 ## Disclaimer
 
