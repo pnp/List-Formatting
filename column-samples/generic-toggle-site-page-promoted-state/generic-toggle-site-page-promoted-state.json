@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "txtContent": "=if([$PromotedState]== 0, 'Publish as News', 'Unpublish News')",
+  "customRowAction": {
+    "action": "setValue",
+    "actionInput": {
+      "PromotedState": "=if([$PromotedState]== 0, '2', '0')"
+    }
+  }
+}

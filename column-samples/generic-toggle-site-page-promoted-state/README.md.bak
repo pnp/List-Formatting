@@ -1,0 +1,32 @@
+# Toggle Site Page Promoted State
+
+## Summary
+ This sample addresses the problem of unpublishing news when a user inadvertenly uses the Promote as News option on a page that is not intended to be news. It shows how you can add a custom action button to the Site Pages library that allows owners to toggle whether a page is published as news or not.  Pages will still have to be republished following the use of the toggle button.
+
+![screenshot of the sample](./assets/screenshot.png)
+
+
+
+## View requirements
+This format can be applied to any column type but I recommend you create a new Calculated column called Action with a formula of ="" so that you don't impact columns used by SharePoint:
+
+|Type       |Internal Name  |Required| Formula|
+|-----------|---------------|:------:|:------:|
+|Calculated |Action         |No      | = ""   |
+
+## Sample
+
+Solution                                     |Author(s)
+---------------------------------------------|---------
+generic-toggle-site-page-promoted-state.json | [Caleb Miller]
+
+## Version history
+
+Version |Date           |Comments
+--------|---------------|--------
+1.0     |March 5, 2025  |Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-toggle-site-page-promoted-state" />
