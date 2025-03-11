@@ -26,7 +26,7 @@ The key provided in the template (the ugly text after `&key`) should be changed 
 
 ## Map preview fails to appear?
 Most likely you need to enable the HTML Field Security on you site:
-https://support.microsoft.com/en-us/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b
+https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b
 
 ## View requirements
 
