@@ -36,7 +36,9 @@ Here is a preview of what you'll get:
 As previously mentioned above, you can replace the sample text with your own. Open the JSON advanced formatting box and replace with your text into the following lines of code:
 
 **Library welcome title** - Line n. 86
+
 **Background** - Line n. 41 - Most common image file formats supported, such as jpg, png, svg etc.
+
 **Library description** - Line n. 108 - The description section makes use of a JSON specification to avoid complexity due to multiple text boxes. Thanks to **\n** it's possible to render as many lines of text as we want (see JSON specs below):
 
 ![result](./assets/JSON-string.jpg)
