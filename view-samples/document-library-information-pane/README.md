@@ -1,7 +1,7 @@
 # Document Library Information Pane
 
 <p align="center">
-<img src="./assets/DL-Information-Pane.png" width="80%">
+<img src="./assets/DL-Information-Pane-Cover.png" width="80%">
 </p>
 
 ## Summary
