@@ -1,0 +1,166 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "=if(@rowIndex == 0, 'flex', 'none')",
+      "align-items": "center",
+      "box-sizing": "border-box",
+      "justify-content": "center",
+      "box-shadow": "",
+      "background-color": "",
+      "min-height": "=@window.innerHeight *0.8 + 'px'",
+      "overflow": "hidden",
+      "border-radius": "8px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative",
+          "z-index": "1",
+          "box-sizing": "border-box",
+          "margin": "20px 0px 20px 0px",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "space-evenly",
+          "flex-direction": "row",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "style": {
+              "position": "absolute",
+              "z-index": "0",
+              "min-height": "110%"
+            },
+            "attributes": {
+              "src": ""
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "relative",
+              "z-index": "1",
+              "box-sizing": "border-box",
+              "border-radius": "8px",
+              "box-shadow": "2px 2px 2px #999793",
+              "display": "flex",
+              "justify-content": "center",
+              "flex-direction": "column",
+              "width": "70%"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "100%",
+                  "height": "50px",
+                  "box-sizing": "border-box",
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  "border-radius": "8px 8px 0px 0px",
+                  "border-top": "solid 1px DarkGray",
+                  "border-right": "solid 1px DarkGray",
+                  "border-left": "solid 1px DarkGray",
+                  "background-color": "#e8ebfa"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "padding": "0px 26px 0px 26px",
+                      "align": "center",
+                      "font-size": "20px",
+                      "font-weight": "700",
+                      "color": "#666666"
+                    },
+                    "txtContent": "Welcome to this library dedicated to Generative AI"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "100%",
+                  "box-sizing": "border-box",
+                  "padding": "20px 26px 20px 26px",
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-items": "flex-start",
+                  "font-size": "16px",
+                  "font-weight": "400",
+                  "color": "DimGray",
+                  "border-top": "solid 1px LightGray",
+                  "border-right": "solid 1px DarkGray",
+                  "border-left": "solid 1px DarkGray",
+                  "background-color": "white",
+                  "overflow": "hidden"
+                },
+                "txtContent": "🤖 Explore the World of 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲! 🤖 \n\n Here’s a collection of resources to help you discover and deepen your understanding of generative AI. Inside, you’ll find: \n\n 📁 𝗞𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 – Educational and informational resources on AI-related topics  \n 📁 𝗚𝘂𝗶𝗱𝗲𝘀 & 𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹𝘀 – Step-by-step instructions to learn how to use AI tools \n 📁 𝗢𝗻-𝗗𝗲𝗺𝗮𝗻𝗱 𝗖𝗼𝘂𝗿𝘀𝗲𝘀 – Training programs to develop advanced skills \n 📁 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 – Solutions to automate tasks and processes \n 📁 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀 & 𝗖𝗹𝗼𝘂𝗱 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺𝘀 – Tools to leverage AI in your daily work \n 📁 𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝗶𝗲𝘀 – Insights and real-world use cases \n 📁 𝗟𝗮𝗯𝘀 & 𝗗𝗲𝗺𝗼𝘀 – Hands-on experiments to test AI technology in action \n\n Browse the folders and explore what interests you the most. Whether you want to learn, experiment, or innovate, this library is 𝗵𝗲𝗿𝗲 𝗳𝗼𝗿 𝘆𝗼𝘂! 🚀"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "100%",
+                  "height": "80px",
+                  "box-sizing": "border-box",
+                  "display": "flex",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  "border-radius": "0px 0px 8px 8px",
+                  "font-size": "20px",
+                  "font-weight": "600",
+                  "color": "DimGray",
+                  "border-bottom": "solid 1px DarkGray",
+                  "border-right": "solid 1px DarkGray",
+                  "border-left": "solid 1px DarkGray",
+                  "background-color": "white"
+                },
+                "children": [
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "max-width": "40%",
+                      "min-width": "15%",
+                      "height": "54%",
+                      "box-sizing": "border-box",
+                      "box-shadow": "2px 2px 2px #999793",
+                      "padding": "0px 14px 0px 14px",
+                      "margin-left": "auto",
+                      "margin-right": "auto",
+                      "display": "flex",
+                      "justify-content": "center",
+                      "align-items": "center",
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "border-radius": "4px",
+                      "font-size": "18px",
+                      "font-weight": "500",
+                      "color": "White",
+                      "text-decoration": "none",
+                      "background-color": "#5b5fc7"
+                    },
+                    "attributes": {
+                      "href": "",
+                      "target": "_self"
+                    },
+                    "txtContent": "OPEN"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
