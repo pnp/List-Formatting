@@ -29,7 +29,7 @@ Here is a visual description of the user interface:
 
 Here is a preview of what you'll get:
 
-![result](./assets/DL-Information-Pane.png)
+![result](./assets/DL-Information-Pane-Result.png)
 
 ## Sample customization
 
@@ -41,7 +41,7 @@ As previously mentioned above, you can replace the sample text with your own. Op
 
 ![result](./assets/JSON-string.jpg)
 
-**Library OPEN button** - Line n. 156
+**Library OPEN button link** - Line n. 153 - Replace the sample link with a target view of your document library. For example the "All Documents" one.
 
 ## Sample
 
