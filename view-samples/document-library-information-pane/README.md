@@ -41,7 +41,9 @@ As previously mentioned above, you can replace the sample text with your own. Op
 
 **💠 Library description** - Line n. 108 - To avoid complexity, instead of using multiple text boxes, the description section makes use of a JSON [specification](https://www.json.org/json-en.html). Thanks to **\n** it's possible to render as many lines of text as we want (see JSON specs below):
 
+
 ![result](./assets/JSON-string.jpg)
+
 
 **💠 Library OPEN button link** - Line n. 153 - Replace the sample link with a target view of your document library. For example the *out-of-the-box* "All Documents" one.
 
