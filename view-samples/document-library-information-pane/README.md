@@ -35,15 +35,15 @@ Here is a preview of what you'll get:
 
 As previously mentioned above, you can replace the sample text with your own. Open the JSON advanced formatting box and replace with your text into the following lines of code:
 
-**Library welcome title** - Line n. 86
+**💠 Library welcome title** - Line n. 86
 
-**Background** - Line n. 41 - Paste your image direct URL. Most common image file formats supported, such as jpg, png, svg etc. If your image is stored in SharePoint, please make sure your users have **read permission** for the source image file.
+**💠 Background** - Line n. 41 - Paste your image direct URL. Most common image file formats supported, such as jpg, png, svg etc. If your image is stored in SharePoint, please make sure your users have **read permission** for the source image file.
 
-**Library description** - Line n. 108 - To avoid complexity, instead of using multiple text boxes, the description section makes use of a JSON [specification](https://www.json.org/json-en.html). Thanks to **\n** it's possible to render as many lines of text as we want (see JSON specs below):
+**💠 Library description** - Line n. 108 - To avoid complexity, instead of using multiple text boxes, the description section makes use of a JSON [specification](https://www.json.org/json-en.html). Thanks to **\n** it's possible to render as many lines of text as we want (see JSON specs below):
 
 ![result](./assets/JSON-string.jpg)
 
-**Library OPEN button link** - Line n. 153 - Replace the sample link with a target view of your document library. For example the "All Documents" one.
+**💠 Library OPEN button link** - Line n. 153 - Replace the sample link with a target view of your document library. For example the *out-of-the-box* "All Documents" one.
 
 ## ⚠️ Important notes
 
