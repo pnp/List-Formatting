@@ -15,6 +15,7 @@ Solution|Author(s)
 number-doughnut-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 number-doughnut-chart-percent-only.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 number-doughnut-chart-icon-only.json    | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-doughnut-chart-compact.json    | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
 
 ## Version history
 
@@ -22,6 +23,7 @@ Version |Date            |Comments
 --------|----------------|----------------
 1.0     |August 20, 2021 |Initial release
 1.1     |October 3, 2021 |Fixed the display when the value is less than 0% and greater than 100%.
+1.2     |April 12, 2025 |Added `number-doughnut-chart-compact.json`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
