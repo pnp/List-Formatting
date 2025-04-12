@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField=='','none','flex')",
+    "justify-content": "space-between",
+    "padding": "0px 10px",
+    "max-width": "100px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "min-width": "25px",
+        "min-height": "25px",
+        "position": "relative",
+        "margin-right": "10px"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "fill": "currentColor",
+            "position": "absolute",
+            "top": "0",
+            "right": "0"
+          },
+          "attributes": {
+            "viewBox": "0 0 600 600",
+            "class": "ms-fontColor-neutralQuaternaryAlt"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "M300,0 A300,300 0 1,1 299.9990166,0.0000016 L299.9995083,150.000001 A150,150 0 1,0 300,150 Z"
+              }
+            }
+          ]
+        },
+        {
+          "elmType": "svg",
+          "style": {
+            "fill": "currentColor",
+            "position": "absolute",
+            "top": "0",
+            "right": "0",
+            "display": "=if(@currentField < 0 , 'none' , '')"
+          },
+          "attributes": {
+            "viewBox": "0 0 600 600",
+            "class": "ms-fontColor-themePrimary"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M300,0 A300,300 0 ' + if(@currentField > 0.5 , '1,1 ' , '0,1 ') + (300 + 300 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (300 - 300 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' L' + (300 + 150 * sin(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ',' + (300 - 150 * cos(360 * if(@currentField > 1 , 1 , @currentField) * (3.14159 / 180))) + ' A150,150 0 ' + if(@currentField > 0.5 , '1,0 ' , '0,0 ') + ' 300,150 Z'"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "txtContent": "@currentField.displayValue",
+      "style": {
+        "text-overflow": "ellipsis",
+        "overflow": "hidden"
+      }
+    }
+  ]
+}
