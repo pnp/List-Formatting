@@ -1,0 +1,220 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/board-formatting.schema.json",
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-card-container sp-card-container-noPadding"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer sp-card-subContainer-borderRadius"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Image]=='','none','flex')",
+              "justify-content": "center",
+              "max-height": "200px",
+              "position": "relative"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "style": {
+                  "object-fit": "cover"
+                },
+                "attributes": {
+                  "alt": "[$Image.fileName]",
+                  "src": "=getThumbnailImage([$Image], 400, 400)",
+                  "title": "[$Image.fileName]"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "absolute",
+                  "bottom": "10px",
+                  "width": "90%",
+                  "display": "flex",
+                  "justify-content": "space-between"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-s"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "8px",
+                      "border-radius": "100%",
+                      "visibility": "=if([$PeopleInImage],'visible','hidden')"
+                    },
+                    "attributes": {
+                      "iconName": "Contact",
+                      "class": "ms-bgColor-themePrimary ms-fontColor-white ms-bgColor-themeDark--hover"
+                    },
+                    "customCardProps": {
+                      "openOnEvent": "hover",
+                      "directionalHint": "leftCenter",
+                      "isBeakVisible": true,
+                      "formatter": {
+                        "elmType": "div",
+                        "style": {
+                          "padding": "10px"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "flex",
+                              "flex-direction": "column",
+                              "max-height": "150px"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "forEach": "_person in [$PeopleInImage]",
+                                "txtContent": "[$_person]",
+                                "style": {
+                                  "padding": "2px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "8px",
+                      "border-radius": "100%"
+                    },
+                    "attributes": {
+                      "iconName": "MiniExpand",
+                      "class": "ms-bgColor-themePrimary ms-fontColor-white ms-bgColor-themeDark--hover"
+                    },
+                    "customCardProps": {
+                      "openOnEvent": "hover",
+                      "isBeakVisible": true,
+                      "directionalHint": "rightCenter",
+                      "beakStyle": {
+                        "background-color": "black"
+                      },
+                      "formatter": {
+                        "elmType": "div",
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "children": [
+                              {
+                                "elmType": "img",
+                                "style": {
+                                  "border": "10px solid black",
+                                  "max-height": "=@window.innerHeight*0.4+'px'",
+                                  "max-width": "=@window.innerWidth*0.4+'px'"
+                                },
+                                "attributes": {
+                                  "alt": "[$Image.fileName]",
+                                  "src": "=getThumbnailImage([$Image],500,500)",
+                                  "title": "[$Image.fileName]"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "margin-bottom": "10px",
+                  "word-break": "keep-all"
+                },
+                "txtContent": "[$Title]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "=if([$Map],'flex','none')",
+                  "align-items": "center",
+                  "margin-bottom": "5px"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-s"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "margin-right": "5px"
+                    },
+                    "attributes": {
+                      "iconName": "POI"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "txtContent": "[$Map.desc]",
+                    "style": {
+                      "white-space": "nowrap",
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis"
+                    },
+                    "attributes": {
+                      "href": "[$Map]",
+                      "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+                      "title": "[$Map.desc]",
+                      "target": "_blank"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-s"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "margin-right": "5px"
+                    },
+                    "attributes": {
+                      "iconName": "DateTime"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$DateTime.displayValue]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
