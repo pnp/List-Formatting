@@ -31,7 +31,7 @@ A PowerShell Script (Create List.ps1) has been provided in the assets folder to 
 
 Solution|Author
 --------|---------
-emp-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+employee-recognition.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
 
 ## Version history
 
