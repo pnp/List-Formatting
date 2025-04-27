@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates using the Board view to display travel tweets in a timeline format. Each tweet supports one photo and one map link.
+This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one imgae and one map link.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
@@ -36,6 +36,6 @@ Version |Date           |Comments
 
 ## Additional notes
 
-- This sample is intended for use in a [Microsoft Lists MSA](https://www.microsoft.com/microsoft-365/microsoft-lists-preview).
+- I created this sample to organize personal travel experiences and records using [Microsoft Lists - MSA](https://www.microsoft.com/microsoft-365/microsoft-lists-preview).
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/travel-tweets-board" />

@@ -4,10 +4,10 @@
     "reponame": "travel-tweets-board",
     "source": "pnp",
     "title": "Travel Tweets Board",
-    "shortDescription": "This sample demonstrates using the Board view to display travel tweets in a timeline format. Each tweet supports one photo and one map link.",
+    "shortDescription": "This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one imgae and one map link.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/travel-tweets-board",
     "longDescription": [
-      "This sample demonstrates using the Board view to display travel tweets in a timeline format. Each tweet supports one photo and one map link."
+      "This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one imgae and one map link."
     ],
     "creationDateTime": "2025-04-27T00:00:00.000Z",
     "updateDateTime": "2025-04-27T00:00:00.000Z",
