@@ -26,12 +26,13 @@ This sample acts as a digital shout-out board for your team, built right into Sh
 
 A PowerShell Script (Create List.ps1) has been provided in the assets folder to provision the list for you.
 
+**Note:** This script uses [PnP PowerShell](https://pnp.github.io/powershell/).
 
 ## Sample
 
 Solution|Author
 --------|---------
-employee-recognition.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+employee-recognition-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
 
 ## Version history
 
