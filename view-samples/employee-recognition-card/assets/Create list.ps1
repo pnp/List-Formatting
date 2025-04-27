@@ -1,5 +1,5 @@
 ﻿# Connect to your SharePoint site
-Connect-PnPOnline -Url "https://sudeepghatakdemos.sharepoint.com/sites/ashishghatak" -UseWebLogin
+Connect-PnPOnline -Url "<SiteUrl>" -UseWebLogin
 
 # Create the custom list
 $listTitle = "Employee Recognition"
@@ -18,7 +18,3 @@ Add-PnPField -List $listTitle -DisplayName "Reactions_Medal" -InternalName "Reac
 Add-PnPField -List $listTitle -DisplayName "Reactions_Heart" -InternalName "Reactions_Heart" -Type "Number"
 Add-PnPField -List $listTitle -DisplayName "Reactions_Clap" -InternalName "Reactions_Clap" -Type "Number"
 Add-PnPField -List $listTitle -DisplayName "DateRecognized" -InternalName "DateRecognized" -Type "DateTime"
-
-
-
-
