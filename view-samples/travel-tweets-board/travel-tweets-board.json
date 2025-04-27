@@ -146,7 +146,8 @@
                 "style": {
                   "display": "=if([$Title],'','none')",
                   "margin-bottom": "10px",
-                  "word-break": "keep-all"
+                  "word-break": "break-word",
+                  "word-wrap": "break-word"
                 },
                 "txtContent": "[$Title]"
               },
