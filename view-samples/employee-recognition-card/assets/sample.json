@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-employee-recognition-card",
+    "reponame": "employee-recognition-card",
+    "source": "pnp",
+    "title": "IMDb Card",
+    "shortDescription": "This sample acts as a digital shout-out board for your team, built right into SharePoint. It gives employees an easy way to recognize and appreciate each other's hard work. Colleagues can show their support by clicking on emojis to cast their votes.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/employee-recognition-card",
+    "longDescription": [
+      "This sample acts as a digital shout-out board for your team, built right into SharePoint. It gives employees an easy way to recognize and appreciate each other's hard work. Colleagues can show their support by clicking on emojis to cast their votes."
+    ],
+    "creationDateTime": "2025-04-21T00:00:00.000Z",
+    "updateDateTime": "2025-04-21T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-recognition-card/assets/recognition.gif",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sudeepghatak",
+        "pictureUrl": "https://github.com/sudeepghatak.png",
+        "name": "Sudeep Ghatak"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
