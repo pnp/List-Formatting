@@ -29,7 +29,7 @@
                 },
                 "attributes": {
                   "alt": "[$Image.fileName]",
-                  "src": "=getThumbnailImage([$Image], 400, 400)",
+                  "src": "=getThumbnailImage([$Image],400,400)",
                   "title": "[$Image.fileName]"
                 }
               },
