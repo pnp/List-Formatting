@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-employee-recognition-card",
     "reponame": "employee-recognition-card",
     "source": "pnp",
-    "title": "IMDb Card",
+    "title": "Employee Recognition Card",
     "shortDescription": "This sample acts as a digital shout-out board for your team, built right into SharePoint. It gives employees an easy way to recognize and appreciate each other's hard work. Colleagues can show their support by clicking on emojis to cast their votes.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/employee-recognition-card",
     "longDescription": [

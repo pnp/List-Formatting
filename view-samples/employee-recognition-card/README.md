@@ -1,4 +1,4 @@
-# Employee recognition Card
+# Employee Recognition Card
 
 ## Summary
 
