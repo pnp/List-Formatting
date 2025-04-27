@@ -18,7 +18,7 @@
             "style": {
               "display": "=if([$Image]=='','none','flex')",
               "justify-content": "center",
-              "max-height": "200px",
+              "max-height": "150px",
               "position": "relative"
             },
             "children": [
@@ -144,6 +144,7 @@
               {
                 "elmType": "div",
                 "style": {
+                  "display": "=if([$Title],'','none')",
                   "margin-bottom": "10px",
                   "word-break": "keep-all"
                 },

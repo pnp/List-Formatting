@@ -10,7 +10,7 @@ This sample demonstrates using the Board view to display travel tweets in a time
 
 |Type                          |Internal Name|Required|
 |------------------------------|-------------|:------:|
-|Single line of text           |Title        |Yes     |
+|Single line of text           |Title        |        |
 |Date and Time (Including Time)|DateTime     |Yes     |
 |Hyperlink                     |Map          |        |
 |Image                         |Image        |        |
