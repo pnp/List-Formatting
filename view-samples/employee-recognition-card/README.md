@@ -26,7 +26,7 @@ This sample acts as a digital shout-out board for your team, built right into Sh
 
 A PowerShell Script (Create List.ps1) has been provided in the assets folder to provision the list for you.
 
-**Note:** This script uses [PnP PowerShell](https://pnp.github.io/powershell/).
+**Note:** This script uses [PnP PowerShell](https://pnp.github.io/powershell/) and requires an environment ready for PnP PowerShell.
 
 ## Sample
 
