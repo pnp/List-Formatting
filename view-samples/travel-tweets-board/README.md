@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one imgae and one map link.
+This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one image and one map link.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
