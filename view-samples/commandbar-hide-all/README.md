@@ -17,8 +17,7 @@ SharePoint Document Library
 
 Solution|Author(s)
 --------|---------
-commandbar-hide-all.json | [gitjego](https://github.com/gitjego)
-commandbar-hide-all.json | [Watana](https://github.com/watana2)
+commandbar-hide-all.json | [gitjego](https://github.com/gitjego) & [Watana](https://github.com/watana2)
 
 ## Version history
 
