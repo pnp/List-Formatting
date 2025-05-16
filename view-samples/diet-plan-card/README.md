@@ -42,3 +42,14 @@ diet-plan-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedI
 Version|Date|Comments
 -------|----|--------
 1.0|May 03, 2024|Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+
+## Additional notes
+
+- This sample also includes command bar customization, and the "New" button will be hidden.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/diet-plan-card" />
