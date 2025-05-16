@@ -7,7 +7,7 @@ SharePoint Lists
 ![SharePoint Lists](./assets/lists.png)
 
 SharePoint Document Library
-![SharePoint Document Library](./assets/doc-lib.png)
+![SharePoint Document Library](./assets/document-library.png)
 
 
 ## View requirements
