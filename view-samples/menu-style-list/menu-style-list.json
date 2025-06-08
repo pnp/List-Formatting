@@ -6,7 +6,7 @@
     "headerFormatter": {
       "elmType": "div",
       "attributes": {
-        "class": "ms-bgColor-communicationTint20 ms-bgColor-communicationTint20--hover"
+        "class": "ms-bgColor-communicationTint20"
       },
       "style": {
         "position": "absolute",
