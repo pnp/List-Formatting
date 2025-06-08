@@ -21,9 +21,9 @@ This sample transforms SharePoint list items into a styled menu layout using lis
 |Single line of text|Title        |Yes     |
 |Number             |Price       |Yes     |
 |Choice |MainCategory   |Yes        |
-|Number|OrderNumber   |        |
 
 - Make sure to use the List View and include all the specified fields in the view.
+- To customize the menu order, add a sorting column (e.g., `OrderNumber`) and use it as the sort field in the view.
 
 ## Sample
 
