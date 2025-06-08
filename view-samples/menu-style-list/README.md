@@ -3,9 +3,9 @@
 ## Summary  
 This sample transforms SharePoint list items into a styled menu layout using list view formatting. Each row is automatically formatted to visually separate the item name and price, mimicking a clean, restaurant-style pricing table - perfect for food menus, service lists, or product offerings.
 
-![screenshot of the sample 1](./assets/FormattedMenuList.png)  
+![screenshot of the sample](./assets/FormattedMenuList.png)  
 
-![screenshot of the sample 2](./assets/FormattedMenuList_Page.png)
+![screenshot of the sample displayed on the page](./assets/FormattedMenuList_Page.png)
 
 **Note:** To customise group icons (e.g. for `MainCategory`), edit the `iconName` attribute in the JSON (around line 42).  
 
