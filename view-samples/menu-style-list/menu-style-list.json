@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-bgColor-communicationTint20"
+      },
+      "style": {
+        "position": "absolute",
+        "left": "-36px",
+        "right": "0px",
+        "top": "0px",
+        "bottom": "0px",
+        "font-size": "16px",
+        "font-weight": "400",
+        "outline": "0px",
+        "white-space": "nowrap",
+        "text-overflow": "ellipsis",
+        "width": "100%",
+        "padding-right": "30px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "padding": "10px",
+            "display": "flex",
+            "align-items": "center",
+            "justify-items": "center"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "font-size": "20px",
+                "padding-left": "5px",
+                "padding-right": "15px"
+              },
+              "attributes": {
+                "iconName": "=if(@group.fieldData.displayValue == 'Appetizers', 'EatDrink', if(@group.fieldData.displayValue == 'Drinks', 'CoffeeScript', if(@group.fieldData.displayValue == 'Desserts', 'Cake', if(@group.fieldData.displayValue == 'Main Courses', 'Chopsticks', ''))))"
+              }
+            },
+            {
+              "elmType": "span",
+              "style": {
+                "font-size": "18px",
+                "font-weight": "600"
+              },
+              "txtContent": "@group.fieldData.displayValue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "width": "100%",
+      "display": "flex",
+      "margin": "5px 0px 5px 0px",
+      "padding": "5px 20px 5px 20px",
+      "box-shadow": "none",
+      "align-items": "center",
+      "justify-content": "space-between"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "txtContent": "[$Title]",
+        "style": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": "#333",
+          "text-align": "left",
+          "white-space": "nowrap",
+          "display": "inline-block"
+        }
+      },
+      {
+        "elmType": "span",
+        "attributes": {
+          "class": "ms-bgColor-white"
+        },
+        "style": {
+          "flex": "1",
+          "border-bottom": "2px dotted #333",
+          "margin-left": "10px",
+          "margin-right": "10px",
+          "margin-top": "10px",
+          "display": "inline-block",
+          "height": "1px"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "='$' + [$Price]",
+        "style": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-align": "right",
+          "white-space": "nowrap",
+          "display": "inline-block"
+        }
+      }
+    ]
+  }
+}
