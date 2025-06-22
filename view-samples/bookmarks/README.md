@@ -21,7 +21,7 @@ Category   | Yes    | Choice
 Link       | Yes    | Hyperlink
 
 
-> [NOTE]
+> [!NOTE]
 > It is necessary to group the view by the `Category` column.
 
 
