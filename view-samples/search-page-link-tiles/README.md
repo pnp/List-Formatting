@@ -64,6 +64,6 @@ Version |Date            |Comments
   - [Manage the search schema in SharePoint | Microsoft Learn](https://learn.microsoft.com/sharepoint/manage-search-schema)
   - [Keyword Query Language (KQL) syntax reference | Microsoft Learn](https://learn.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 - [SharePoint Search Query Tool](https://github.com/pnp/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool) allows you to see what values are set for which managed properties, which is very helpful when building a query.
-- Using [PnP Modern Serach](https://microsoft-search.github.io/pnp-modern-search/), you can place search-related web parts on the page.
+- Using [PnP Modern Search](https://microsoft-search.github.io/pnp-modern-search/), you can place search-related web parts on the page.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/search-page-link-tiles" />
