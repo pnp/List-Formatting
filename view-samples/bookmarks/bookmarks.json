@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "style": {
+        "width": "100%",
+        "margin-right": "25px",
+        "background-color": "=if(@group.fieldData == 'OneDrive', '#0078D4',if(@group.fieldData == 'SharePoint', '#0b8466',if(@group.count == 3, '#FF980E',if(@group.fieldData == 'Teams', '#6264A7','Gray'))))",
+        "color": "white",
+        "padding": "4px 8px 5px",
+        "border-radius": "8px",
+        "cursor": "pointer"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=@group.fieldData+' ('+@group.count+')'",
+                  "style": {
+                    "padding-left": "5px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rowFormatter": {
+    "elmType": "a",
+    "txtContent": "[$Title]",
+    "attributes": {
+      "class": "ms-bgColor-neutralLight--hover ms-fontColor-neutralSecondary-hover",
+      "href": "[$Link]",
+      "target": "=if(indexOf([$Link],'/sites/')>-1,'','_blank')"
+    },
+    "style": {
+      "font-size": "14px",
+      "font-weight": "400",
+      "text-decoration": "none",
+      "color": "#323130",
+      "padding": "3px 6px 6px 6px",
+      "margin-left": "40px"
+    }
+  }
+}
