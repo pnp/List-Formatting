@@ -25,6 +25,7 @@ Version|Date|Comments
 -------|----|--------
 1.0|December 24, 2024|Initial release
 1.1|May 3, 2025|Added/updated command bar props/images
+1.2|June 28, 2025|Added `PublishCommand`, `properties`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

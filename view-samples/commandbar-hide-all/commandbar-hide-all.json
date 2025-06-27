@@ -78,7 +78,9 @@
       { "key": "stasherContextMenuCommand", "hide": true },
       { "key": "syntexTranslateCommand", "hide": true },
       { "key": "requestApprovalCommand", "hide": true },
-      { "key": "GoToChannelInTeams", "hide": true }
+      { "key": "GoToChannelInTeams", "hide": true },
+      { "key": "PublishCommand", "hide": true},
+      { "key": "properties", "hide": true}
     ]
   }
 }
