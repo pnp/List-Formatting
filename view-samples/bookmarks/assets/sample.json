@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-bookmarks",
+    "reponame": "bookmarks",
+    "source": "pnp",
+    "title": "Bookmarks",
+    "shortDescription": "Creating custom bookmarks for SharePoint page.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/bookmarks",
+    "longDescription": [
+      "Creating custom bookmarks for SharePoint page."
+    ],
+    "creationDateTime": "2025-06-22T00:00:00.000Z",
+    "updateDateTime"  : "2025-06-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.fieldData, @group.count"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideListHeader"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-fontColor-neutralSecondary-hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bookmarks/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
