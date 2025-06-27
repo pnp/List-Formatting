@@ -1,15 +1,20 @@
 [
   {
+    "name": "pnp-list-formatting-bookmarks",
+    "reponame": "bookmarks",
     "source": "pnp",
     "title": "Bookmarks",
-    "reponame": "bookmarks",
-    "name": "pnp-list-formatting-bookmarks",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/bookmarks",
     "shortDescription": "Creating custom bookmarks for SharePoint page.",
-    "longDescription": ["Creating custom bookmarks for SharePoint page."],
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/bookmarks",
+    "longDescription": [
+      "Creating custom bookmarks for SharePoint page."
+    ],
     "creationDateTime": "2025-06-22T00:00:00.000Z",
     "updateDateTime"  : "2025-06-22T00:00:00.000Z",
-    "products": ["SharePoint","Microsoft Lists"],
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
     "metadata": [
       {
         "key": "LIST-SAMPLE-TYPE",
