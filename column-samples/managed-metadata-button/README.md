@@ -1,4 +1,4 @@
-# Display Tags
+#  Managed Metadata Values to Buttons
 
 ## Summary
 This sample demonstrates changing managed metadata (multiple) values to buttons that open (external) sites, documents or items on other links. Myself used this for redirecting users to information, like clients, projects or group related documents.
@@ -39,7 +39,7 @@ For example:
 
 Solution|Author(s)
 --------|---------
-managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessenburg) ([Lets'connect](https://www.linkedin.com/in/danielgiessenburg/))
+managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessenburg) ([LinkedIn](https://www.linkedin.com/in/danielgiessenburg/))
 
 ## Version history
 
