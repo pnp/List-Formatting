@@ -1,6 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
+  "style": {
+    "display":"flex",
+    "flex-wrap":"wrap"
+  },
   "children": [
     {
       "forEach": "choiceIterator in @currentField",
@@ -10,16 +14,13 @@
         "title": "=[$choiceIterator]"
       },
       "style": {
-        "width": "auto",
-        "height": "auto",
         "text-align": "center",
-        "margin-top": "-5px",
-        "margin-left": "2px",
-        "margin-right": "2px",
+        "margin": "2px",
         "text-decoration": "none",
         "box-sizing": "border-box",
         "padding": "4px 8px 5px 8px",
-        "border-radius": "20px"
+        "border-radius": "20px",
+        "white-space":"nowrap"
       },
       "children": [
         {
