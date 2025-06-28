@@ -27,7 +27,7 @@ For example:
     - Button action; open new (browser)window with site: https://[tenant].sharepoint.com/sites/Client-Chadailha
 
 ## How to use
-1. Add a [Managed Metadata column](https://support.microsoft.com/en-us/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f) to the list/library
+1. Add a [Managed Metadata column](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f) to the list/library
 2. Copy JSON to code editor
 3. Replace placeholder [URL], with desired hyperlink
 4. Copy JSON from code editor
@@ -48,11 +48,11 @@ Version |Date               |Comments
 1.0     |June 26, 2025      |Initial release
 
 ## Additional Notes
-- [Introduction to managed metadata](https://learn.microsoft.com/en-us/sharepoint/managed-metadata)
+- [Introduction to managed metadata](https://learn.microsoft.com/sharepoint/managed-metadata)
 
-- [Create a Managed Metadata column](https://support.microsoft.com/en-us/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)
+- [Create a Managed Metadata column](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Use column formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
  
 
 ## Disclaimer
