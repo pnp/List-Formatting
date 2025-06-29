@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if([$File_x0020_Type]==''||[$File_x0020_Type]=='agent'||[$File_x0020_Type]=='clipchamp'||[$File_x0020_Type]=='url','none','')"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "border-radius": "5px",
+        "cursor": "pointer",
+        "padding": "5px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeLighter ms-bgColor-themePrimary--hover ms-fontColor-neutralPrimary ms-fontColor-white--hover ms-fontSize-m",
+        "iconName": "Preview"
+      },
+      "customCardProps": {
+        "openOnEvent": "hover",
+        "directionalHint": "topCenter",
+        "isBeakVisible": true,
+        "beakStyle": {
+          "background-color": "black"
+        },
+        "formatter": {
+          "elmType": "div",
+          "txtContent": "File Preview Callout",
+          "style": {
+            "padding": "5px 10px",
+            "background-color": "black",
+            "color": "white"
+          },
+          "attributes": {
+            "class": "ms-fontSize-s"
+          }
+        }
+      },
+      "customRowAction": {
+        "action": "embed",
+        "actionInput": {
+          "src": "=if([$File_x0020_Type]=='docx'||[$File_x0020_Type]=='doc'||[$File_x0020_Type]=='dotx'||[$File_x0020_Type]=='dot'||[$File_x0020_Type]=='dotm'||[$File_x0020_Type]=='docm'||[$File_x0020_Type]=='docb'||[$File_x0020_Type]=='pptx'||[$File_x0020_Type]=='ppt'||[$File_x0020_Type]=='pptm'||[$File_x0020_Type]=='potx'||[$File_x0020_Type]=='pot'||[$File_x0020_Type]=='potm'||[$File_x0020_Type]=='ppam'||[$File_x0020_Type]=='ppsx'||[$File_x0020_Type]=='pps'||[$File_x0020_Type]=='ppsm'||[$File_x0020_Type]=='sldx'||[$File_x0020_Type]=='sldm'||[$File_x0020_Type]=='vsdx'||[$File_x0020_Type]=='vsd'||[$File_x0020_Type]=='xlsx'||[$File_x0020_Type]=='xls'||[$File_x0020_Type]=='xlsm'||[$File_x0020_Type]=='xlsb'||[$File_x0020_Type]=='xltx'||[$File_x0020_Type]=='xltm'||[$File_x0020_Type]=='csv',@currentWeb+'/_layouts/15/Doc.aspx?sourcedoc='+[$FileRef]+'&action=embedview',@currentWeb+'/_layouts/15/embed.aspx?UniqueId='+[$UniqueId])",
+          "height": "=@window.innerHeight*0.7",
+          "width": "=@window.innerWidth*0.5"
+        }
+      }
+    }
+  ]
+}
