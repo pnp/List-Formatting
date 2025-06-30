@@ -2,7 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
-    "display": "=if([$File_x0020_Type]==''||[$File_x0020_Type]=='agent'||[$File_x0020_Type]=='clipchamp'||[$File_x0020_Type]=='url','none','')"
+    "display": "=if([$File_x0020_Type]==''||[$File_x0020_Type]=='agent'||[$File_x0020_Type]=='clipchamp'||[$File_x0020_Type]=='url','none','')",
+    "margin": "0px 8px"
   },
   "children": [
     {
