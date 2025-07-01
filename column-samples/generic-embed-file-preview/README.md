@@ -7,7 +7,7 @@ This sample demonstrates how to display a file preview from a document library i
 ![screenshot of the sample](./assets/screenshot.png)
 
 > [!WARNING]
-> As of June 30, 2025, the `embed` action is not supported on site pages, so this sample cannot be used there.
+> As of June 30, 2025, the `embed` action is not supported on site pages, so this sample cannot be used there. It also does not work in the Files tab of Microsoft Teams.
 
 ## Prerequisites
 
