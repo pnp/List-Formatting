@@ -1,0 +1,90 @@
+[
+    {
+        "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+        "name": "generic-action-buttons",
+        "version": "1.0.0.0",
+        "source": "pnp",
+        "title": "Incident Action Buttons",
+        "url": "https://github.com/pnp/List-Formatting/tree/main/column-samples/generic-action-buttons",
+        "creationDateTime": "2025-07-16T12:00:00.000Z",
+        "updateDateTime": "2025-07-16T12:00:00.000Z",
+        "shortDescription": "Adds Escalate and Resolve buttons to incident lists using column formatting and executeFlow.",
+        "longDescription": [
+            "This sample demonstrates how to embed action buttons into a SharePoint list column using column formatting.",
+            "The Escalate button is enabled only when Priority = high; the Resolve button is enabled when Status is not 'new'.",
+            "Each button is linked to a Power Automate flow via executeFlow."
+        ],
+        "products": [
+            "Microsoft Teams",
+            "SharePoint",
+            "Office"
+        ],
+        "categories": [
+            "Status / Progress",
+            "Flow"
+        ],
+        "metadata": [
+            {
+                "key": "LIST-SAMPLE-TYPE",
+                "value": "Column"
+            },
+            {
+                "key": "LIST-COLUMN-TYPE",
+                "value": ""
+            },
+            {
+                "key": "LIST-ROW-ACTION",
+                "value": ""
+            },
+            {
+                "key": "LIST-PLACEHOLDER-TOKEN",
+                "value": ""
+            },
+            {
+                "key": "SHAREPOINT-COMPATIBILITY",
+                "value": ""
+            },
+            {
+                "key": "LIST-CATEGORY",
+                "value": ""
+            }
+        ],
+        "thumbnails": [
+            {
+                "type": "image",
+                "order": 100,
+                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/main/column-samples/generic-action-buttons/assets/screenshot.png",
+                "alt": "Escalate and Resolve buttons in a SharePoint list"
+            }
+        ],
+        "authors": [
+            {
+                "gitHubAccount": "LuiseFreese",
+                "company": "",
+                "pictureUrl": "https://github.com/LuiseFreese.png"
+            }
+        ],
+        "references": [
+            {
+                "name": "Use column formatting to customize SharePoint",
+                "description": "Customize how fields in SharePoint lists and libraries are displayed using JSON.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+            },
+            {
+                "name": "Use view formatting to customize SharePoint",
+                "description": "Customize how entire views are rendered in SharePoint lists using JSON.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+            },
+            {
+                "name": "Configure the list form",
+                "description": "Configure list forms with custom headers, footers, and body sections.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
+            },
+            {
+                "name": "Show or hide columns in a list or library form",
+                "description": "Conditionally show or hide fields in SharePoint forms.",
+                "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
+            }
+        ]
+    }
+]
