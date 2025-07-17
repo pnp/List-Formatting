@@ -1,0 +1,55 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "gap": "10px",
+        "justify-content": "center"
+    },
+    "children": [
+        {
+            "elmType": "button",
+            "txtContent": "Escalate",
+            "style": {
+                "background-color": "=if([$Priority] == 'high', '#287b7d', '#e0e0e0')",
+                "color": "=if([$Priority] == 'high', 'white', '#888888')",
+                "border": "2px solid transparent",
+                "padding": "6px 12px",
+                "border-radius": "4px",
+                "cursor": "=if([$Priority] == 'high', 'pointer', 'not-allowed')",
+                "font-weight": "600",
+                "margin": "2px",
+                "box-sizing": "border-box"
+            },
+            "attributes": {
+                "disabled": "=if([$Priority] != 'high', true, false)"
+            },
+            "customRowAction": {
+                "action": "executeFlow",
+                "actionParams": "{\"id\": \"<FLOWID_ESCALATE>\"}"
+            }
+        },
+        {
+            "elmType": "button",
+            "txtContent": "Resolve",
+            "style": {
+                "background-color": "=if([$Status] == 'new', '#f0f0f0', 'transparent')",
+                "color": "=if([$Status] == 'new', '#aaaaaa', '#287b7d')",
+                "border": "2px solid #287b7d",
+                "padding": "6px 12px",
+                "border-radius": "4px",
+                "cursor": "=if([$Status] == 'new', 'not-allowed', 'pointer')",
+                "font-weight": "500",
+                "margin": "2px",
+                "box-sizing": "border-box"
+            },
+            "attributes": {
+                "disabled": "=if([$Status] == 'new', true, false)"
+            },
+            "customRowAction": {
+                "action": "executeFlow",
+                "actionParams": "{\"id\": \"<FLOWID_RESOLVE>\"}"
+            }
+        }
+    ]
+}
