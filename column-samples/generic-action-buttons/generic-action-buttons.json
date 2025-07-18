@@ -21,12 +21,9 @@
         "margin": "2px",
         "box-sizing": "border-box"
       },
-      "attributes": {
-        "disabled": "=if([$Priority] != 'high', true, false)"
-      },
       "customRowAction": {
         "action": "executeFlow",
-        "actionParams": "{\"id\": \"<FLOWID_ESCALATE>\"}"
+        "actionParams": "=if([$Priority] == 'high', '{\"id\": \"<FLOWID_ESCALATE>\"}', '')"
       }
     },
     {
@@ -43,12 +40,9 @@
         "margin": "2px",
         "box-sizing": "border-box"
       },
-      "attributes": {
-        "disabled": "=if([$Status] == 'new', true, false)"
-      },
       "customRowAction": {
         "action": "executeFlow",
-        "actionParams": "{\"id\": \"<FLOWID_RESOLVE>\"}"
+        "actionParams": "=if([$Status] != 'new', '{\"id\": \"<FLOWID_RESOLVE>\"}', '')"
       }
     }
   ]
