@@ -33,11 +33,9 @@ generic-action-buttons.json | [Luise Freese](https://github.com/LuiseFreese)
 
 Version |Date          |Comments
 --------|--------------|--------
-1.0     |2025-07-16    |Initial release
+1.0     |July 16, 2025 |Initial release
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
-##
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/incident-action-buttons" />
