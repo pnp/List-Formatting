@@ -19,7 +19,7 @@ Key points:
 |---|---|:---:|---|
 |Choice|Priority|Yes|Values: `low`, `medium`, `high` (all lowercase)|
 |Choice|Status|Yes|Values: `new`, `in progress`, `resolved` (all lowercase)|
-|Single line of text|Actions|Yes|Apply [generic-action-buttons.json](./generic-action-buttons.json) to this column|
+|Single line of text|Actions| |Apply [generic-action-buttons.json](./generic-action-buttons.json) to this column|
 
 - The format is best applied to a dedicated Actions column (type: Single line of text) that exists solely for button rendering.
 
