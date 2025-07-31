@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "button",
   "customRowAction": {
-    "action": "executeFlow",
-    "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\", \"headerText\":\"It's Flow Time!\",\"runFlowButtonText\":\"Do it\"}"
+    "action": "moveFile",
+    "actionParams": "='{\"destinationUrl\":\"' + @currentWeb + '/Shared Documents\"}'"
   },
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-    "title": "Execute a flow"
+    "title": "Move to Documents"
   },
   "style": {
     "border": "none",
@@ -18,7 +18,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "iconName": "PowerAutomateLogo",
+        "iconName": "FabricMoveToFolder",
         "class": "ms-font-xxl"
       }
     }

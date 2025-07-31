@@ -10,7 +10,7 @@
       "You can use column and view formatting to create buttons that perform pre-defined actions when clicked. This sample provides a quick format that demonstrates the use of each of the possible actions."
     ],
     "creationDateTime": "2019-04-18T00:00:00.000Z",
-    "updateDateTime": "2019-04-18T00:00:00.000Z",
+    "updateDateTime": "2025-07-31T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "delete, editProps, executeFlow, defaultClick, share"
+        "value": "delete, editProps, executeFlow, defaultClick, share, comment, copyFile, moveFile, embed, previewFileAction, openContextMenu, openApprovalDialog, setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -59,6 +59,12 @@
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-rowactions/assets/screenshot.png",
         "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-rowactions/assets/screenshot2.png",
+        "alt": "screenshot2"
       }
     ],
     "authors": [
