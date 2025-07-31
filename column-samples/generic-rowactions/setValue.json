@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "Value": "=[$Value]+1"
+        }
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+        "title": "Increase value"
+      },
+      "style": {
+        "border": "none",
+        "background-color": "transparent",
+        "cursor": "pointer"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "CirclePlus",
+            "class": "ms-font-xl"
+          }
+        }
+      ]
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "setValue",
+        "actionInput": {
+          "Value": "=[$Value]-1"
+        }
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+        "title": "Decrease value"
+      },
+      "style": {
+        "border": "none",
+        "background-color": "transparent",
+        "cursor": "pointer"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "Blocked2",
+            "class": "ms-font-xl"
+          }
+        }
+      ]
+    }
+  ]
+}
