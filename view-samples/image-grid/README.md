@@ -24,7 +24,7 @@ This sample includes two formatting options:
 
 This sample provides two different formatting approaches:
 
-### Option 1: Row Formatter (image-grid.json) - Deprecated
+### Option 1: Row Formatter (image-grid.json)
 Use this format with standard list views. Note: Due to recent changes in Microsoft Lists, this format may not display images horizontally as expected in some scenarios.
 
 - Apply the formatting using **Format current view** option
