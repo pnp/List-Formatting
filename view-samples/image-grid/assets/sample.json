@@ -20,7 +20,7 @@
     "metadata": [
       {
         "key": "LIST-SAMPLE-TYPE",
-        "value": "View, Tile"
+        "value": "View"
       },
       {
         "key": "SHAREPOINT-COMPATIBILITY",
@@ -28,7 +28,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Image, Hover Cards"
+        "value": "Image, Hover Cards, Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
