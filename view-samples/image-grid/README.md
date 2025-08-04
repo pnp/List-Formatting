@@ -9,16 +9,16 @@ This sample includes two formatting options:
 
 1. **image-grid.json** - Original row formatter for displaying images in a grid layout
 
-    ![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-    ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
+![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
-    > [!CAUTION]  
-    > This sample (image-grid.json) uses the `float` style, which is now [deprecated](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#style). As a result, it may not work as expected.
+> [!CAUTION]
+> This sample (image-grid.json) uses the `float` style, which is now [deprecated](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#style). As a result, it may not work as expected.
 
 2. **Image-grid-horizontally.json** - Tile formatter designed for Gallery view type to display images horizontally
 
-    ![screenshot of the sample](./assets/screenshotHorisontal.png)
+![screenshot of the sample](./assets/screenshotHorisontal.png)
 
 ## View requirements
 
