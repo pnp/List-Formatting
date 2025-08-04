@@ -9,19 +9,22 @@ This sample includes two formatting options:
 
 1. **image-grid.json** - Original row formatter for displaying images in a grid layout
 
-![screenshot of the sample](./assets/screenshot.png)
+    ![screenshot of the sample](./assets/screenshot.png)
 
-![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
+    ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
+
+    > [!CAUTION]  
+    > This sample (image-grid.json) uses the `float` style, which is now [deprecated](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#style). As a result, it may not work as expected.
 
 2. **Image-grid-horizontally.json** - Tile formatter designed for Gallery view type to display images horizontally
 
-![screenshot of the sample](./assets/screenshotHorisontal.png)
+    ![screenshot of the sample](./assets/screenshotHorisontal.png)
 
 ## View requirements
 
 This sample provides two different formatting approaches:
 
-### Option 1: Row Formatter (image-grid.json)
+### Option 1: Row Formatter (image-grid.json) - Deprecated
 Use this format with standard list views. Note: Due to recent changes in Microsoft Lists, this format may not display images horizontally as expected in some scenarios.
 
 - Apply the formatting using **Format current view** option
@@ -83,5 +86,14 @@ Version|Date|Comments
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+
+## Additional notes
+
+The following issues and pull request are related to the deprecation of the `float` style:
+- [Deprecating float style prop in custom formatter by tpodugu-ms · Pull Request #10169 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/pull/10169)
+- [List View Formatting - Flex behavior on rowFormatter not functioning row to row · Issue #10008 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/issues/10008)
+- [Image-grid is not displaying horizontally · Issue #885 · pnp/List-Formatting](https://github.com/pnp/List-Formatting/issues/885)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-grid" />
