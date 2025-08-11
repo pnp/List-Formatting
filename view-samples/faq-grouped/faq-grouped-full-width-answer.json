@@ -11,5 +11,17 @@
       }
     }
   },
-  "additionalRowClass": "ms-font-l ms-fontColor-neutralPrimary ms-bgColor-white--hover"
+  "additionalRowClass": "ms-font-l ms-fontColor-neutralPrimary ms-bgColor-white--hover",
+  "rowFormatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "margin": "10px 30px"
+        },
+        "txtContent": "[$Answer]"
+      }
+    ]
+  }
 }
