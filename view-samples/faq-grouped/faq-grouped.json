@@ -11,22 +11,5 @@
       }
     }
   },
-  "additionalRowClass": "ms-font-l ms-fontColor-neutralPrimary ms-bgColor-white--hover",
-  "rowFormatter": {
-    "elmType": "div",
-    "style": {
-      "display": "flex",
-      "flexDirection": "column",
-      "width": "100%"
-    },
-    "children": [
-      {
-        "elmType": "div",
-        "style": {
-          "width": "100%"
-        },
-        "txtContent": "[$Answer]"
-      }
-    ]
-  }
+  "additionalRowClass": "ms-font-l ms-fontColor-neutralPrimary ms-bgColor-white--hover"
 }
