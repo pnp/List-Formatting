@@ -10,9 +10,12 @@ This sample displays images in a visually appealing tile layout with modern styl
 ## View requirements
 - Create a view based on `Gallery` layout
 - Apply this formatter to the tile view
-- A URL column (referenced as `[$URL]` in the formatter) that contains the target link
-- An image URL column (referenced as `[$ImageURL]` in the formatter) containing the image URLs
-- A Title column (referenced as `[$Title]` in the formatter) for accessibility alt text
+
+|Type|Internal Name|Required|Purpose|
+|----|-------------|--------|-------|
+|Single line of text|Title|Yes|Accessibility alt text|
+|Hyperlink or Picture|ImageURL|Yes|Image URL|
+|Hyperlink or Picture|URL|No|Contains the target link|
 
 ## Sample
 
