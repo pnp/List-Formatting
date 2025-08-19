@@ -1,0 +1,136 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "align-items": "center",
+      "padding": "12px 16px",
+      "border-bottom": "1px solid #f3f2f1",
+      "background-color": "#ffffff"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "min-width": "100px",
+          "margin-right": "20px",
+          "font-weight": "600",
+          "font-size": "14px",
+          "color": "#323130"
+        },
+        "txtContent": "[$Title]"
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "gap": "8px",
+          "align-items": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Monday]) <= 0, '#ebedf0', if(Number([$Monday]) <= 3, '#9be9a8', if(Number([$Monday]) <= 6, '#40c463', if(Number([$Monday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Monday: ' + [$Monday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Tuesday]) <= 0, '#ebedf0', if(Number([$Tuesday]) <= 3, '#9be9a8', if(Number([$Tuesday]) <= 6, '#40c463', if(Number([$Tuesday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Tuesday: ' + [$Tuesday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Wednesday]) <= 0, '#ebedf0', if(Number([$Wednesday]) <= 3, '#9be9a8', if(Number([$Wednesday]) <= 6, '#40c463', if(Number([$Wednesday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Wednesday: ' + [$Wednesday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Thursday]) <= 0, '#ebedf0', if(Number([$Thursday]) <= 3, '#9be9a8', if(Number([$Thursday]) <= 6, '#40c463', if(Number([$Thursday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Thursday: ' + [$Thursday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Friday]) <= 0, '#ebedf0', if(Number([$Friday]) <= 3, '#9be9a8', if(Number([$Friday]) <= 6, '#40c463', if(Number([$Friday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Friday: ' + [$Friday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Saturday]) <= 0, '#ebedf0', if(Number([$Saturday]) <= 3, '#9be9a8', if(Number([$Saturday]) <= 6, '#40c463', if(Number([$Saturday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Saturday: ' + [$Saturday] + ' contributions'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "16px",
+              "height": "16px",
+              "background-color": "=if(Number([$Sunday]) <= 0, '#ebedf0', if(Number([$Sunday]) <= 3, '#9be9a8', if(Number([$Sunday]) <= 6, '#40c463', if(Number([$Sunday]) <= 11, '#30a14e', '#216e39'))))",
+              "border-radius": "3px",
+              "cursor": "pointer",
+              "border": "1px solid rgba(27,31,35,0.06)"
+            },
+            "attributes": {
+              "title": "='Sunday: ' + [$Sunday] + ' contributions'"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
