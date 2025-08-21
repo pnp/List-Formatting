@@ -17,6 +17,9 @@ This sample displays images in a visually appealing tile layout with modern styl
 |Hyperlink or Picture|ImageURL|Yes|Image URL|
 |Hyperlink or Picture|URL|No|Contains the target link|
 
+> [!NOTE]  
+> If images from external sites are specified for `ImageURL`, HTML field security must be set. For more information see: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
+
 ## Sample
 
 Solution|Author(s)
