@@ -3,11 +3,13 @@
 This sample uses **SharePoint List Formatting** to display weekly data as a **heatmap calendar view**.  
 Each row represents a week, and daily values are visualized with conditional background colors, making it easy to spot trends and high/low activity days.
 
-## List Requirements
+![screenshot of the sample](assets/screenshot.png)
+
+## View Requirements
 
 Create a list with the following columns:
 
-| Column Name     | Type               |
+| Internal Name   | Type               |
 |-----------------|--------------------|
 | **Title**       | Single line of text|
 | **WeekStartDate** | Date and Time (Date only) |
@@ -32,32 +34,15 @@ Create a list with the following columns:
 
 - Each day (Monday–Sunday) is displayed in a horizontal weekly row.
 - Cell background colors are based on the **numeric values** (higher values = darker shade).
+- Values 0 or less are shown in gray, while values greater than 11 are displayed with the darkest green.
 - The `WeekStartDate` column ensures proper ordering of weekly records.
 - The `Team` column can be used to filter heatmaps by department.
-
-## Screenshot
-
-> 📌 Replace with a real screenshot from your list once formatting is applied.
-
-![screenshot](assets/screenshot.png)
-
-## JSON Code
-
-See the full JSON here: [weekly-heatmap.json](weekly-heatmap.json)
-
-## Additional Notes
-
-- You can adjust the **color scale thresholds** in the JSON to match your data distribution.
-- Supports both **light** and **dark** SharePoint themes.
-- Works best in **List view** with `WeekStartDate` sorted ascending.
-
----
 
 ## Sample
 
 Solution|Author
 --------|---------
-Weekly HeatMap.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+weekly-heatmap.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version history
 
@@ -69,3 +54,11 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+## Additional Notes
+
+- You can adjust the **color scale thresholds** in the JSON to match your data distribution.
+- Supports both **light** and **dark** SharePoint themes.
+- Works best in **List view** with `WeekStartDate` sorted ascending.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/weekly-heatmap" />
