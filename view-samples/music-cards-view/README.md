@@ -3,10 +3,10 @@
 This view formatting transforms your SharePoint list into a vibrant music discovery board. Employees can recommend songs via YouTube, listen to each other's picks, and vote on their favorites. It's a fun and engaging way to share musical tastes across the organization.
 
 Overview of Music Cards
-![screenshot of the sample](./assets/music_cards_view.png)
+![screenshot of the sample](./assets/music-cards-view.png)
 
 Playing video
-![screenshot of the sample](./assets/music_cards_view2.png)
+![screenshot of the sample](./assets/music-cards-view2.png)
 
 ## ✨ Features
 
@@ -24,7 +24,7 @@ Playing video
 In the Music Cards View only stars are shown. You can adjust the icon to any icon you want in the code.
 
 Playing video
-![screenshot of the settings](./assets/music_cards_view_settings.png)
+![screenshot of the settings](./assets/music-cards-view-settings.png)
 
 ## 📋 Required Columns
 
@@ -54,7 +54,7 @@ The following columns are necessary inside your view. If you do not add them, th
 | `Ratings`         | Ratings          |
 | `RatedBy`         | Rated By         |
 
-![screenshot of the settings](./assets/music_cards_view_settings2.png)
+![screenshot of the settings](./assets/music-cards-view-settings2.png)
 
 ## 🧩 Column Formatting: YouTubeCode
 
@@ -117,6 +117,7 @@ Version|Date|Comments
 
 
 ---
+
 
 
 
