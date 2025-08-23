@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-weekly-heatmap",
     "reponame": "weekly-heatmap",
     "source": "pnp",
-    "title": "Weather forecast",
+    "title": "Weekly Heatmap",
     "shortDescription": "This sample uses SharePoint List Formatting to display weekly data as a heatmap calendar view.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/weekly-heatmap",
     "longDescription": [
