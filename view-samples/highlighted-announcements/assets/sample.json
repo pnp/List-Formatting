@@ -4,10 +4,10 @@
     "reponame": "highlighted-announcements",
     "source": "pnp",
     "title": "Highlighted Announcements",
-    "shortDescription": "A list formatting style that visually emphasizes important announcements",
+    "shortDescription": "A list formatting style that visually emphasizes important announcements.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/highlighted-announcements",
     "longDescription": [
-      "A SharePoint list formatting style that visually emphasizes important announcements using custom icons, background colors, descriptions, and links."
+      "A SharePoint list formatting sample that visually emphasizes important announcements to draw attention using custom icons, background colors, titles, descriptions, and links."
     ],
     "creationDateTime": "2025-08-24T00:00:00.000Z",
     "updateDateTime"  : "2025-08-24T00:00:00.000Z",
