@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "gap": "8px",
+    "padding": "4px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": { "display": "flex" },
+          "children": [
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
+            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "txtContent": "=[$Title]",
+      "style": {
+        "font-family": "Segoe UI, system-ui, sans-serif",
+        "font-size": "14px",
+        "font-weight": "500",
+        "color": "#333",
+        "margin-left": "8px"
+      }
+    }
+  ]
+}
