@@ -79,3 +79,5 @@ generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn]
 
 - Adjust colors or square size by editing the `generic-identicon.json`.
 - Works best in modern SharePoint lists sorted by Title or other relevant columns.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-identicon" />
