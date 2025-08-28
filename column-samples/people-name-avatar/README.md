@@ -47,23 +47,6 @@ This formatting works for lists with the following fields:
 
 ---
 
-## Gallery View
-
-The People cards can be displayed in a **gallery view** for a clean, visual layout:
-
-- Tiles are arranged in a grid with consistent spacing.
-- Each tile contains:
-  - Circular avatar at the top.
-  - User’s display name and email below the avatar.
-  - Action buttons (Email, Teams) at the bottom.
-- Hovering on a tile reveals a **detailed card** with additional information.
-- The gallery layout ensures cards are **evenly spaced** and visually appealing, even for multiple users in the list.
-
-[people-name-avatar-gallery.json](./people-name-avatar-gallery.json)
-![Screenshot3 of Gallery View of People Card](./assets/screenshot3.png)
-
----
-
 ## Usage Instructions
 1. Navigate to your **SharePoint list**.
 2. Click the column header → **Column settings** → **Format this column**.
@@ -86,7 +69,6 @@ The column will now display **custom avatars** with **hover cards** and **action
 | Solution | Author |
 |----------|--------|
 | people-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
-| people-name-avatar-gallery.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
 
 ## Version history
 
