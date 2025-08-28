@@ -4,10 +4,10 @@
     "reponame": "generic-identicon",
     "source": "pnp",
     "title": "Identicon Column Formatting",
-    "shortDescription": "",
+    "shortDescription": "This sample demonstrates how to use SharePoint Column Formatting to generate Identicons for list items.  ",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-identicon",
     "longDescription": [
-      ""
+      "This sample demonstrates how to use SharePoint Column Formatting to generate Identicons for list items.  "
     ],
     "creationDateTime": "2025-08-25T00:00:00.000Z",
     "updateDateTime": "2025-08-25T00:00:00.000Z",
