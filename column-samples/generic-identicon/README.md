@@ -12,7 +12,7 @@ Each identicon is a small visual grid that represents the `Title` of the item, m
 - Works in **modern SharePoint list views**.
 - Displayed alongside the **Title** column for quick identification.
 
-## List Requirements
+## View Requirements
 
 Create a SharePoint list with the following columns:
 
