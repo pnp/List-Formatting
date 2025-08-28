@@ -4,7 +4,7 @@
 ## Summary
 A SharePoint list formatting sample that visually emphasizes important announcements to draw attention using custom icons, background colors, titles, descriptions, and links, inspired by the [announcements](https://github.com/pnp/List-Formatting/tree/master/view-samples/announcements) sample.
 
-![screenshot of the sample](./assets/screenshot2.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements
@@ -21,6 +21,7 @@ Display | Yes/No | Show or hide announcements
 > [!NOTE]
 > It is necessary to include the columns in the view or it won't work as excpected.
 
+![field mapping](./assets/field-mapping.png)
 
 ## Sample
 
@@ -38,4 +39,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bookmarks"/>
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/highlighted-announcements"/>
