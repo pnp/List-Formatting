@@ -58,7 +58,7 @@ The identicon pattern automatically updates based on `TitleLength`.
 
 Solution|Author
 --------|---------
-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ---
 
