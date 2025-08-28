@@ -55,6 +55,7 @@ Version|Date|Comments
 
 ## Additional Notes
 
+- Change the Logo in the json code because SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *. 
 - Works best in **List view** with `EmployeeName` sorted ascending.
 - You can adjust **logo, gradients, colors, and shadows** in the JSON to match your corporate branding.
 - Compatible with **SharePoint Online Modern Lists**.  
