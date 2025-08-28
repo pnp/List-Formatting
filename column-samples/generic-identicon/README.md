@@ -3,7 +3,7 @@
 This sample demonstrates how to use **SharePoint Column Formatting** to generate **Identicons** for list items.  
 Each identicon is a small visual grid that represents the `Title` of the item, making it easier to identify items at a glance.
 
-![Identicon sample screenshot](assets/screenshot.png)
+![Identicon sample screenshot](./assets/screenshot.png)
 
 ---
 
@@ -77,5 +77,5 @@ generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn]
 
 ## Additional Notes
 
-- Adjust colors or square size by editing the `identicon-column.json`.
+- Adjust colors or square size by editing the `generic-identicon.json`.
 - Works best in modern SharePoint lists sorted by Title or other relevant columns.
