@@ -13,9 +13,7 @@
       "border-radius": "8px",
       "text-align": "center",
       "font-family": "Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif",
-      "background": "linear-gradient(145deg, #ffffff 0%, #f8fcff 50%, #f0f8ff 100%)",
       "margin-bottom": "15px",
-      "box-shadow": "0 8px 24px rgba(0, 120, 212, 0.15), 0 2px 8px rgba(0, 120, 212, 0.08)",
       "position": "relative",
       "min-height": "400px",
       "overflow": "hidden"
@@ -29,7 +27,7 @@
           "left": "0",
           "right": "0",
           "height": "8px",
-          "background": "linear-gradient(90deg, #0078d4, #00bcf2, #40e0d0, #7b68ee)",
+          "background": "#0078d4",
           "border-radius": "10px 10px 0 0"
         }
       },
@@ -41,7 +39,7 @@
           "left": "20px",
           "right": "20px",
           "bottom": "20px",
-          "border": "1px solid rgba(0, 120, 212, 0.1)",
+          "border": "1px solid #e0f0ff",
           "border-radius": "6px",
           "pointer-events": "none"
         }
@@ -52,12 +50,11 @@
           "width": "80px",
           "height": "80px",
           "border-radius": "50%",
-          "background": "linear-gradient(135deg, #0078d4, #106ebe, #005a9e)",
+          "background": "#0078d4",
           "display": "flex",
           "align-items": "center",
           "justify-content": "center",
           "margin-bottom": "20px",
-          "box-shadow": "0 6px 16px rgba(0, 120, 212, 0.25), 0 2px 6px rgba(0, 120, 212, 0.15)",
           "border": "3px solid #ffffff",
           "z-index": "10",
           "position": "relative"
@@ -66,18 +63,13 @@
           {
             "elmType": "img",
             "attributes": {
-<<<<<<< HEAD
-              "src": "https://cslpromise.sharepoint.com/:i:/r/sites/saitesting2/SiteAssets/microsoft-logo-png_seeklogo-168319.png",
-=======
-              "src": "https://tenant.sharepoint.com/:i:/r/sites/saitename/SiteAssets/image.png", //Change the logo SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *. 
->>>>>>> 780f9ed3e5a46949c78c12eb5e42fddf31d3fa72
+              "src": "https://tenant.sharepoint.com/:i:/r/sites/saitename/SiteAssets/image.png", //Change the logo SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *.
               "alt": "Certificate Logo"
             },
             "style": {
               "width": "50px",
               "height": "50px",
-              "object-fit": "contain",
-              "filter": "brightness(0) invert(1) drop-shadow(0 1px 2px rgba(0,0,0,0.2))"
+              "object-fit": "contain"
             }
           }
         ]
@@ -91,8 +83,7 @@
           "font-size": "14px",
           "color": "#0078d4",
           "text-transform": "uppercase",
-          "letter-spacing": "2px",
-          "text-shadow": "0 1px 2px rgba(0, 120, 212, 0.1)"
+          "letter-spacing": "2px"
         }
       },
       {
@@ -103,8 +94,7 @@
           "margin-bottom": "22px",
           "font-size": "22px",
           "color": "#323130",
-          "letter-spacing": "1px",
-          "text-shadow": "0 1px 2px rgba(0, 0, 0, 0.1)"
+          "letter-spacing": "1px"
         }
       },
       {
@@ -128,11 +118,6 @@
           "margin-bottom": "18px",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
-          "text-shadow": "0 2px 4px rgba(0, 120, 212, 0.25)",
-          "background": "linear-gradient(135deg, #0078d4, #00bcf2)",
-          "background-clip": "text",
-          "-webkit-background-clip": "text",
-          "-webkit-text-fill-color": "transparent",
           "position": "relative"
         }
       },
@@ -155,10 +140,9 @@
           "color": "#323130",
           "margin-bottom": "20px",
           "padding": "15px 20px",
-          "background": "linear-gradient(135deg, rgba(0, 120, 212, 0.08), rgba(64, 224, 208, 0.08))",
+          "background": "#f0f8ff",
           "border-radius": "8px",
-          "border": "1px solid rgba(0, 120, 212, 0.2)",
-          "box-shadow": "0 3px 10px rgba(0, 120, 212, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.8)"
+          "border": "1px solid #e0f0ff"
         }
       },
       {
@@ -167,9 +151,8 @@
           "display": "flex",
           "justify-content": "space-between",
           "width": "100%",
-          
           "padding-top": "20px",
-          "border-top": "2px solid rgba(0, 120, 212, 0.2)"
+          "border-top": "2px solid #e0f0ff"
         },
         "children": [
           {
@@ -278,42 +261,14 @@
         "style": {
           "position": "absolute",
           "bottom": "15px",
-          "left": "15px",
-          "width": "60px",
-          "height": "60px",
-          "opacity": "0.08",
-          "z-index": "1"
-        },
-        "children": [
-          {
-            "elmType": "img",
-            "attributes": {
-              "src": "=if([$Image], [$Image], 'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg')",
-              "alt": "Watermark"
-            },
-            "style": {
-              "width": "100%",
-              "height": "100%",
-              "object-fit": "contain",
-              "filter": "grayscale(100%)"
-            }
-          }
-        ]
-      },
-      {
-        "elmType": "div",
-        "style": {
-          "position": "absolute",
-          "bottom": "15px",
           "right": "15px",
           "width": "40px",
           "height": "40px",
           "border-radius": "50%",
-          "background": "linear-gradient(135deg, #0078d4, #00bcf2, #40e0d0)",
+          "background": "#0078d4",
           "display": "flex",
           "align-items": "center",
           "justify-content": "center",
-          "box-shadow": "0 3px 8px rgba(0, 120, 212, 0.3)",
           "z-index": "10"
         },
         "children": [
@@ -323,24 +278,10 @@
             "style": {
               "font-size": "20px",
               "font-weight": "900",
-              "color": "#008000",
-              "text-shadow": "0 1px 1px rgba(0, 0, 0, 0.3)"
+              "color": "#008000"
             }
           }
         ]
-      },
-      {
-        "elmType": "div",
-        "style": {
-          "position": "absolute",
-          "top": "0",
-          "left": "0",
-          "width": "100%",
-          "height": "100%",
-          "background": "radial-gradient(circle at 20% 20%, rgba(0, 120, 212, 0.02) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(64, 224, 208, 0.02) 0%, transparent 50%)",
-          "pointer-events": "none",
-          "z-index": "1"
-        }
       }
     ]
   }
