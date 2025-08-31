@@ -1,0 +1,52 @@
+# Book Template Card Formatter
+
+## Summary
+
+This SharePoint JSON view formatting sample transforms your list items into visually rich book cards. Each card displays a book cover, title, author, price, category, release date, best seller badge, and more. It is ideal for book catalogues, libraries, or online bookstore lists.
+
+![screenshot of the sample](assets/screenshot.png)
+
+## View requirements
+
+### SharePoint List Columns
+
+| Column Name      | Type                   | Description                                 |
+|------------------|------------------------|---------------------------------------------|
+| Title            | Single line of text    | Book title                                  |
+| Number           | Number                 | Book number or ID                           |
+| BookAuthor       | Single line of text    | Author of the book                          |
+| BookAbstract     | Multiple lines of text | Short extract or summary of the book        |
+| Category         | Single line of text    | Book category (e.g., Fantasy, Classic)      |
+| Price            | Single line of text    | Price of the book                           |
+| BookCoverUrl     | Single line of text    | URL to the book cover image                 |
+| IsBestSeller     | Yes/No                 | Indicates if the book is a best seller      |
+| ReleaseDate      | Date and Time          | Book release date                           |
+| FindInStoreUrl   | Single line of text    | Link to find the book in a store (e.g., map)|
+| AddtoCart        | Yes/No                 | Add to cart flag                            |
+
+A ![PowerShell Script](assets/Create%20List.ps1) is provided in the assets folder to provision the list and add sample data.
+
+**Note:** This script uses [PnP PowerShell](https://pnp.github.io/powershell/) and requires an environment ready for PnP PowerShell.
+
+## Sample
+
+Solution|Author
+--------|---------
+book-template.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|Aug 31, 2025|Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+---
+
+## Additional notes
+
+- This sample includes a visually rich card layout for books, with best seller highlighting and store location links.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/book-template" />

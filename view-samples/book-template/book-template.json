@@ -1,0 +1,191 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "flex-start",
+      "background-color": "#fff",
+      "border": "1px solid #ddd",
+      "border-radius": "8px",
+      "overflow": "hidden",
+      "font-family": "Arial, sans-serif",
+      "margin-bottom": "15px",
+      "box-shadow": "0 2px 6px rgba(0,0,0,0.1)"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "200px",
+          "background-color": "#f9f9f9",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "padding": "10px",
+          "position": "relative"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$BookCoverUrl]"
+            },
+            "style": {
+              "width": "180px",
+              "height": "auto",
+              "object-fit": "contain",
+              "border-radius": "4px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "5px",
+              "left": "5px",
+              "background-color": "orange",
+              "color": "white",
+              "padding": "4px 8px",
+              "border-radius": "4px",
+              "font-size": "0.85rem",
+              "font-weight": "bold",
+              "box-shadow": "0 2px 4px rgba(0,0,0,0.2)",
+              "display": "=if([$IsBestSeller] == true, 'block', 'none')"
+            },
+            "txtContent": "Best Seller"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "padding": "15px",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "1.5rem",
+              "font-weight": "bold",
+              "color": "#222",
+              "margin-bottom": "8px"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "1rem",
+              "color": "#0078d4",
+              "margin-bottom": "10px"
+            },
+            "txtContent": "= 'By ' + [$BookAuthor]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "1.3rem",
+              "font-weight": "bold",
+              "color": "#000",
+              "margin-bottom": "12px"
+            },
+            "txtContent": "= '$' + [$Price]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "color": "orange",
+              "width": "200px",
+              "border": "none",
+              "border-radius": "5px",
+              "font-size": "3rem",
+              "font-weight": "bold",
+              "cursor": "pointer",
+              "margin-bottom": "12px",
+              "text-transform": "uppercase"
+            },
+            "txtContent": "[$Category]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "0.85rem",
+              "color": "#555",
+              "margin-bottom": "10px"
+            },
+            "txtContent": "= 'Released On ' + [$ReleaseDate]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "0.9rem",
+              "color": "#107c10",
+              "font-weight": "bold",
+              "margin-bottom": "10px"
+            },
+            "txtContent": "=if([$Price] > 19.99, 'FREE FREIGHT Available. (Conditions Apply)', 'Shipping: $10')"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "gap": "15px",
+              "margin-bottom": "15px"
+            },
+            "children": [
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "AddToCart": "=if([$AddToCart] == true, false, true)"
+                  }
+                },
+                "txtContent": "=if([$AddToCart] == true, 'Remove from cart', 'Add to cart')",
+                "style": {
+                  "background-color": "#0078d4",
+                  "color": "#ffffff",
+                  "border": "none",
+                  "border-radius": "4px",
+                  "padding": "8px 16px",
+                  "font-size": "16px",
+                  "cursor": "pointer"
+                }
+              },
+              {
+                "elmType": "button",
+                "attributes": {
+                  "href": "[$FindInStoreUrl]"
+                },
+                "style": {
+                  "font-size": "0.9rem",
+                  "color": "#000",
+                  "text-decoration": "none",
+                  "font-weight": "bold",
+                  "cursor": "pointer"
+                },
+                "txtContent": "📍 Find in Store"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "0.9rem",
+              "color": "#333",
+              "line-height": "1.4"
+            },
+            "txtContent": "[$BookDescription]"
+          }
+        ]
+      }
+    ]
+  }
+}
