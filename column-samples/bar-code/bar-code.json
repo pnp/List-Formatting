@@ -22,11 +22,11 @@
       {
         "elmType": "img",
         "attributes": {
-          "src": "='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + [$Title]",
-          "alt": "='QR Code for ' + [$Title]"
+          "src": "='https://barcodeapi.org/api/' + [$Title]",
+          "alt": "='Bar Code for ' + [$Title]"
         },
         "style": {
-          "width": "100px",
+          "width": "300px",
           "height": "100px",
           "border": "1px solid #ddd",
           "padding": "4px",
