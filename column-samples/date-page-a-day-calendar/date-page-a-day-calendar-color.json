@@ -15,10 +15,9 @@
         "height": "49px",
         "border-radius": "8px",
         "border": "3px solid",
-        "justify-content": "flex-start",
         "background-color": "white",
         "border-color": "=if(@currentField>@now, '#107c10', if(toDateString(@currentField)==toDateString(@now), '#c43b33', 'gray'))",
-        "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 4px 6px rgba(0,0,0,0.08)"
+        "box-shadow": "0 1px 3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1)"
       },
       "children": [
         {
@@ -26,8 +25,7 @@
           "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC', getMonth(@currentField)*3, getMonth(@currentField)*3+3)",
           "style": {
             "display": "flex",
-            "flex": "0 0 40%",
-            "align-items": "center",
+            "padding-bottom": "3px",
             "justify-content": "center",
             "letter-spacing": "1px",
             "font-weight": "bold",
@@ -40,12 +38,11 @@
           "txtContent": "=getDate(@currentField)",
           "style": {
             "display": "flex",
-            "flex": "1",
-            "align-items": "center",
-            "justify-content": "space-around",
-            "line-height": "1",
+            "justify-content": "center",
             "font-size": "22px",
-            "font-weight": "bold"
+            "font-weight": "bold",
+            "position": "relative",
+            "top": "-1px"
           }
         }
       ]
