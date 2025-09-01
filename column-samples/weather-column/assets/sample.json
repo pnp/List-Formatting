@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-weather-column",
+    "reponame": "weather-column",
+    "source": "pnp",
+    "title": "Live Weather Column Formatter",
+    "shortDescription": "Displays live weather images for each list item based on City, State, and Country columns using SharePoint column formatting JSON.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/weather-column",
+    "longDescription": [
+      "This sample demonstrates how to display live weather images directly in a SharePoint list column. By using City, State, and Country columns, the JSON dynamically generates a working WeatherForYou.net image URL for each row, showing current weather conditions without the need for Power Automate or additional workflows."
+    ],
+    "creationDateTime": "2025-09-01T00:00:00.000Z",
+    "updateDateTime": "2025-09-01T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online, SharePoint 2019"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Weather, Visualization"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "[$City], [$State], [$Country]"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "replace, toLowerCase, +"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "img display"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "Dynamic image generation, conditional formatting"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/weather-column/assets/screenshot.png",
+        "alt": "Weather Column Screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "Column formatting allows customizing how fields in SharePoint lists and libraries are displayed. This sample shows how to display live weather images dynamically based on column values.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
