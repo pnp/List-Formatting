@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-word-cloud",
+    "reponame": "word-cloud",
+    "source": "pnp",
+    "title": "Word Cloud Column Formatting",
+    "shortDescription": "This sample demonstrates how to use SharePoint Column Formatting to generate a dynamic word cloud for list items.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/word-cloud",
+    "longDescription": [
+      "This sample demonstrates how to create a dynamic word cloud using SharePoint Column Formatting JSON. It displays words from multiple label columns with varying font sizes, colors, and bold styling based on word length and specific highlights."
+    ],
+    "creationDateTime": "2025-09-02T00:00:00.000Z",
+    "updateDateTime": "2025-09-02T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Visualization, Word Cloud"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Single line of text"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "txtContent, style"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "if, indexOf, +, ||"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "Dynamic font size, color coding, bold highlighting"
+      },
+      {
+        "key": "CLASSES",
+        "value": "flex, flex-wrap"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/wordcloud/assets/screenshot.png",
+        "alt": "Word Cloud Screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. This sample shows a word cloud implementation using JSON formatting for multiple label columns with dynamic styles.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

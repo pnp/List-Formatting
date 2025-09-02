@@ -1,0 +1,212 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "gap": "6px",
+    "padding": "6px"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL1]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL1]+'@','@')>15,'36px',if(indexOf([$LABEL1]+'@','@')>12,'30px',if(indexOf([$LABEL1]+'@','@')>9,'24px',if(indexOf([$LABEL1]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL1]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL1]+'@','@')>12,'#1976d2',if(indexOf([$LABEL1]+'@','@')>9,'#388e3c',if(indexOf([$LABEL1]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL1]=='Sharing is Caring' || [$LABEL1]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL2]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL2]+'@','@')>15,'36px',if(indexOf([$LABEL2]+'@','@')>12,'30px',if(indexOf([$LABEL2]+'@','@')>9,'24px',if(indexOf([$LABEL2]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL2]+'@','@')>15,'#c62828',if(indexOf([$LABEL2]+'@','@')>12,'#1565c0',if(indexOf([$LABEL2]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL2]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL2]=='Sharing is Caring' || [$LABEL2]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL3]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL3]+'@','@')>15,'36px',if(indexOf([$LABEL3]+'@','@')>12,'30px',if(indexOf([$LABEL3]+'@','@')>9,'24px',if(indexOf([$LABEL3]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL3]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL3]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL3]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL3]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL3]=='Sharing is Caring' || [$LABEL3]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL4]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL4]+'@','@')>15,'36px',if(indexOf([$LABEL4]+'@','@')>12,'30px',if(indexOf([$LABEL4]+'@','@')>9,'24px',if(indexOf([$LABEL4]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL4]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL4]+'@','@')>12,'#1976d2',if(indexOf([$LABEL4]+'@','@')>9,'#388e3c',if(indexOf([$LABEL4]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL4]=='Sharing is Caring' || [$LABEL4]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL5]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL5]+'@','@')>15,'36px',if(indexOf([$LABEL5]+'@','@')>12,'30px',if(indexOf([$LABEL5]+'@','@')>9,'24px',if(indexOf([$LABEL5]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL5]+'@','@')>15,'#c62828',if(indexOf([$LABEL5]+'@','@')>12,'#1565c0',if(indexOf([$LABEL5]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL5]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL5]=='Sharing is Caring' || [$LABEL5]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL6]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL6]+'@','@')>15,'36px',if(indexOf([$LABEL6]+'@','@')>12,'30px',if(indexOf([$LABEL6]+'@','@')>9,'24px',if(indexOf([$LABEL6]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL6]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL6]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL6]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL6]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL6]=='Sharing is Caring' || [$LABEL6]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL7]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL7]+'@','@')>15,'36px',if(indexOf([$LABEL7]+'@','@')>12,'30px',if(indexOf([$LABEL7]+'@','@')>9,'24px',if(indexOf([$LABEL7]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL7]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL7]+'@','@')>12,'#1976d2',if(indexOf([$LABEL7]+'@','@')>9,'#388e3c',if(indexOf([$LABEL7]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL7]=='Sharing is Caring' || [$LABEL7]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL8]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL8]+'@','@')>15,'36px',if(indexOf([$LABEL8]+'@','@')>12,'30px',if(indexOf([$LABEL8]+'@','@')>9,'24px',if(indexOf([$LABEL8]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL8]+'@','@')>15,'#c62828',if(indexOf([$LABEL8]+'@','@')>12,'#1565c0',if(indexOf([$LABEL8]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL8]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL8]=='Sharing is Caring' || [$LABEL8]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL9]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL9]+'@','@')>15,'36px',if(indexOf([$LABEL9]+'@','@')>12,'30px',if(indexOf([$LABEL9]+'@','@')>9,'24px',if(indexOf([$LABEL9]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL9]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL9]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL9]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL9]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL9]=='Sharing is Caring' || [$LABEL9]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL10]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL10]+'@','@')>15,'36px',if(indexOf([$LABEL10]+'@','@')>12,'30px',if(indexOf([$LABEL10]+'@','@')>9,'24px',if(indexOf([$LABEL10]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL10]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL10]+'@','@')>12,'#1976d2',if(indexOf([$LABEL10]+'@','@')>9,'#388e3c',if(indexOf([$LABEL10]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL10]=='Sharing is Caring' || [$LABEL10]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL11]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL11]+'@','@')>15,'36px',if(indexOf([$LABEL11]+'@','@')>12,'30px',if(indexOf([$LABEL11]+'@','@')>9,'24px',if(indexOf([$LABEL11]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL11]+'@','@')>15,'#c62828',if(indexOf([$LABEL11]+'@','@')>12,'#1565c0',if(indexOf([$LABEL11]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL11]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL11]=='Sharing is Caring' || [$LABEL11]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL12]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL12]+'@','@')>15,'36px',if(indexOf([$LABEL12]+'@','@')>12,'30px',if(indexOf([$LABEL12]+'@','@')>9,'24px',if(indexOf([$LABEL12]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL12]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL12]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL12]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL12]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL12]=='Sharing is Caring' || [$LABEL12]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL13]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL13]+'@','@')>15,'36px',if(indexOf([$LABEL13]+'@','@')>12,'30px',if(indexOf([$LABEL13]+'@','@')>9,'24px',if(indexOf([$LABEL13]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL13]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL13]+'@','@')>12,'#1976d2',if(indexOf([$LABEL13]+'@','@')>9,'#388e3c',if(indexOf([$LABEL13]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL13]=='Sharing is Caring' || [$LABEL13]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL14]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL14]+'@','@')>15,'36px',if(indexOf([$LABEL14]+'@','@')>12,'30px',if(indexOf([$LABEL14]+'@','@')>9,'24px',if(indexOf([$LABEL14]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL14]+'@','@')>15,'#c62828',if(indexOf([$LABEL14]+'@','@')>12,'#1565c0',if(indexOf([$LABEL14]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL14]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL14]=='Sharing is Caring' || [$LABEL14]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL15]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL15]+'@','@')>15,'36px',if(indexOf([$LABEL15]+'@','@')>12,'30px',if(indexOf([$LABEL15]+'@','@')>9,'24px',if(indexOf([$LABEL15]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL15]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL15]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL15]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL15]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL15]=='Sharing is Caring' || [$LABEL15]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL16]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL16]+'@','@')>15,'36px',if(indexOf([$LABEL16]+'@','@')>12,'30px',if(indexOf([$LABEL16]+'@','@')>9,'24px',if(indexOf([$LABEL16]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL16]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL16]+'@','@')>12,'#1976d2',if(indexOf([$LABEL16]+'@','@')>9,'#388e3c',if(indexOf([$LABEL16]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL16]=='Sharing is Caring' || [$LABEL16]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL17]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL17]+'@','@')>15,'36px',if(indexOf([$LABEL17]+'@','@')>12,'30px',if(indexOf([$LABEL17]+'@','@')>9,'24px',if(indexOf([$LABEL17]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL17]+'@','@')>15,'#c62828',if(indexOf([$LABEL17]+'@','@')>12,'#1565c0',if(indexOf([$LABEL17]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL17]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL17]=='Sharing is Caring' || [$LABEL17]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL18]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL18]+'@','@')>15,'36px',if(indexOf([$LABEL18]+'@','@')>12,'30px',if(indexOf([$LABEL18]+'@','@')>9,'24px',if(indexOf([$LABEL18]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL18]+'@','@')>15,'#b71c1c',if(indexOf([$LABEL18]+'@','@')>12,'#0d47a1',if(indexOf([$LABEL18]+'@','@')>9,'#1b5e20',if(indexOf([$LABEL18]+'@','@')>7,'#e65100','#4a148c'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL18]=='Sharing is Caring' || [$LABEL18]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL19]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL19]+'@','@')>15,'36px',if(indexOf([$LABEL19]+'@','@')>12,'30px',if(indexOf([$LABEL19]+'@','@')>9,'24px',if(indexOf([$LABEL19]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL19]+'@','@')>15,'#d32f2f',if(indexOf([$LABEL19]+'@','@')>12,'#1976d2',if(indexOf([$LABEL19]+'@','@')>9,'#388e3c',if(indexOf([$LABEL19]+'@','@')>7,'#f57c00','#7b1fa2'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL19]=='Sharing is Caring' || [$LABEL19]=='Mango','bold','normal')"
+      }
+    },
+    {
+      "elmType": "span",
+      "txtContent": "[$LABEL20]",
+      "style": {
+        "font-size": "=if(indexOf([$LABEL20]+'@','@')>15,'36px',if(indexOf([$LABEL20]+'@','@')>12,'30px',if(indexOf([$LABEL20]+'@','@')>9,'24px',if(indexOf([$LABEL20]+'@','@')>7,'20px','16px'))))",
+        "color": "=if(indexOf([$LABEL20]+'@','@')>15,'#c62828',if(indexOf([$LABEL20]+'@','@')>12,'#1565c0',if(indexOf([$LABEL20]+'@','@')>9,'#2e7d32',if(indexOf([$LABEL20]+'@','@')>7,'#ef6c00','#6a1b9a'))))",
+        "margin": "2px",
+        "font-weight": "=if([$LABEL20]=='Sharing is Caring' || [$LABEL20]=='Mango','bold','normal')"
+      }
+    }
+  ]
+}
