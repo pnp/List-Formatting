@@ -107,18 +107,18 @@ Download the [**Excel file**](./assets/Radar-Chart.xlsx) and export it to ShareP
 
 Solution|Author(s)
 --------|---------
-Bar-Chart-H.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Bar-Chart-V-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Bar-Chart-V.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Doughnut-Chart-P.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Doughnut-Chart-PV.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Line-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Line-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Bar-Chart-H.json | [Federico Sapia](https://github.com/Fedes365)
+Bar-Chart-V-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Bar-Chart-V.json | [Federico Sapia](https://github.com/Fedes365)
+Doughnut-Chart-P.json | [Federico Sapia](https://github.com/Fedes365)
+Doughnut-Chart-PV.json | [Federico Sapia](https://github.com/Fedes365)
+Line-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Line-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365)
 
 ## Version history
 

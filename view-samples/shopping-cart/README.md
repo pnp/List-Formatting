@@ -31,7 +31,7 @@ Shipping                  | Currency
 
 Solution|Author
 --------|---------
-shopping-cart.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+shopping-cart.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

@@ -21,7 +21,7 @@ Publisher                   | Person or Group
 
 Solution|Author
 --------|---------
-person-quote-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+person-quote-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

@@ -32,7 +32,7 @@ A PowerShell Script (Create List.ps1) has been provided in the assets folder to 
 
 Solution|Author
 --------|---------
-employee-recognition-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+employee-recognition-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

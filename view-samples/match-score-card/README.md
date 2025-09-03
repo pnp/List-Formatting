@@ -26,7 +26,7 @@ Country2FlagUrl             | Single line of text
 
 Solution|Author
 --------|---------
-match-score-card.json | [Sudeep Ghatak](https://www.linkedin.com/in/sudeepghatak/) 
+match-score-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

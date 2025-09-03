@@ -104,13 +104,13 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 
 ## More info and details
 
-💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://www.linkedin.com/in/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://www.linkedin.com/in/tetsuya-kawahara-730498180).
+💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://github.com/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://github.com/tecchan1107).
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-internal-cv.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+internal-cv.json | [Federico Sapia](https://github.com/Fedes365)
 
 ## Version history
 

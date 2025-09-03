@@ -42,7 +42,7 @@ MovieImage                  | Hyperlink or Picture
 
 Solution|Author
 --------|---------
-imdb-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+imdb-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 
