@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "moveFile",
+    "actionParams": "='{\"destinationUrl\":\"' + @currentWeb + '/Shared Documents\"}'"
+  },
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Move to Documents"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "FabricMoveToFolder",
+        "class": "ms-font-xxl"
+      }
+    }
+  ]
+}

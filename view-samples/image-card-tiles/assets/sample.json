@@ -1,0 +1,84 @@
+[
+  {
+    "name": "pnp-list-formatting-image-card-tiles",
+    "reponame": "image-card-tiles",
+    "source": "pnp",
+    "title": "Image Card Tiles",
+    "shortDescription": "This sample shows images in a tile layout using SharePoint's Gallery view. Each image tile is clickable and opens a link from another column.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/image-card-tiles",
+    "longDescription": [
+      "This sample demonstrates how to create a visually appealing tile layout for images in SharePoint lists using the Gallery view. Each tile contains an image that is clickable, linking to a URL specified in another column. The design includes a clean, modern look with rounded corners and a shadow effect, making it suitable for showcasing images in a gallery or catalog format. This is a view formatter (tile formatter) that applies to the entire Gallery view."
+    ],
+    "creationDateTime": "2025-08-11T00:00:00.000Z",
+    "updateDateTime": "2025-08-11T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/image-card-tiles/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "nanddeepn",
+        "pictureUrl": "https://github.com/nanddeepn.png",
+        "name": "Nanddeep Nachan"
+      },
+      {
+        "gitHubAccount": "smitanachan",
+        "pictureUrl": "https://github.com/smitanachan.png",
+        "name": "Smita Nachan"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how list views in SharePoint lists and libraries are displayed. View formatting allows you to customize the entire rendering of a view by constructing a JSON object that describes the elements that are displayed and the styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

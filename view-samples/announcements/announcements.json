@@ -8,28 +8,31 @@
       "min-width": "15vw",
       "max-width": "19vw",
       "padding-bottom": "20px",
-      "display": "=if([$RemoveDate] <= @now, 'none', '')"
+      "display": "=if([$RemoveDate] <= @now, 'none', '')",
+      "color":"black"
     },
     "customCardProps": {
       "formatter": {
         "elmType": "div",
-        "children": [
-          {
-            "elmType": "img",
-            "attributes": {
-              "src": "[$ImgHover.serverRelativeUrl]"
-            }
-          }
-        ],
         "style": {
           "display": "=if([$ImgHover], '', 'none')",
           "height": "200px",
           "width": "200px",
-          "cursor": "pointer",
           "font-size": "14px",
           "padding": "14px",
           "align-items": "stretch"
-        }
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "=getThumbnailImage([$ImgHover], 200, 200)"
+            },
+            "style": {
+              "max-width": "100%"
+            }
+          }
+        ]
       },
       "openOnEvent": "hover",
       "directionalHint": "leftCenter",

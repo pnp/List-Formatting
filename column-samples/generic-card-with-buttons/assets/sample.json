@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-card-with-buttons",
+    "reponame": "generic-card-with-buttons",
+    "source": "pnp",
+    "title": "Format a row as a card with buttons",
+    "shortDescription": "This is a sample that enables you to show content of various columns (single line of text, person) in a modern card design. It also shows two buttons that can call Power Automate flows for actions like sending emails or scheduling meetings.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-card-with-buttons",
+    "longDescription": [
+      "This is a sample that enables you to show content of various columns (single line of text, person) in a modern card design. It also shows two buttons that can call Power Automate flows for actions like sending emails or scheduling meetings in the context of the list or the list item."
+    ],
+    "creationDateTime": "2024-10-16T00:00:00.000Z",
+    "updateDateTime": "2024-10-16T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Power Automate"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "executeFlow"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontWeight-semibold"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-card-with-buttons/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "LuiseFreese",
+        "pictureUrl": "https://github.com/LuiseFreese.png",
+        "name": "Luise Freese"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how its displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

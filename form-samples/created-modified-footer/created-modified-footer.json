@@ -1,0 +1,136 @@
+{
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if([$ID],'flex','none')",
+        "flex-direction": "column",
+        "margin-top": "10px",
+        "margin-bottom": "10px"
+      },
+      "attributes": {
+        "class": "ms-fontSize-s"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center",
+            "white-space": "nowrap",
+            "column-gap": "3px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "Created at"
+            },
+            {
+              "elmType": "span",
+              "txtContent": "[$Created]"
+            },
+            {
+              "elmType": "span",
+              "txtContent": "by"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center",
+                "white-space": "nowrap",
+                "border-radius": "14px"
+              },
+              "attributes": {
+                "class": "ms-bgColor-neutralLight ms-fontColor-neutralPrimary"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "style": {
+                    "width": "24px",
+                    "height": "24px",
+                    "border-radius": "50%"
+                  },
+                  "attributes": {
+                    "src": "=getUserImage([$Author.email],'small')"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "[$Author.title]",
+                  "style": {
+                    "padding-left": "6px",
+                    "padding-right": "10px"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center",
+            "white-space": "nowrap",
+            "margin-top": "10px",
+            "column-gap": "3px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "txtContent": "Last modified at"
+            },
+            {
+              "elmType": "span",
+              "txtContent": "[$Modified]"
+            },
+            {
+              "elmType": "span",
+              "txtContent": "by"
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center",
+                "white-space": "nowrap",
+                "border-radius": "14px"
+              },
+              "attributes": {
+                "class": "ms-bgColor-neutralLight ms-fontColor-neutralPrimary"
+              },
+              "children": [
+                {
+                  "elmType": "img",
+                  "style": {
+                    "width": "24px",
+                    "height": "24px",
+                    "border-radius": "50%"
+                  },
+                  "attributes": {
+                    "src": "=getUserImage([$Editor.email],'small')"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "[$Editor.title]",
+                  "style": {
+                    "padding-left": "6px",
+                    "padding-right": "10px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿IconName,IconBackground,Title,Description,DescriptionBackground,Link,Display
+clock,#ff9800,Ignite 2025,Kickoff the year with energy and focus.,#fff4e5,https://ignite.microsoft.com,TRUE
+clock,#ff9800,Ignite 2024,Key Highlights from Ignite 2024,#fff4e5,https://ignite.microsoft.com,FALSE
+Completed,#1e8e3e,Beyond the Desk,Connect outside the usual workspace.,#edf7ed,https://example.com,TRUE
+Warning,#d93025,Level Up!,Grow skills and boost performance.,#fdeded,https://example.com,TRUE
+Completed,#1e8e3e,2026 1st Day Back,Let's make it count!,#edf7ed,https://example.com,FALSE

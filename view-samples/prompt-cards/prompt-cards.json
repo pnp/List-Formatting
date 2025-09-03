@@ -1,0 +1,169 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 242,
+  "width": 300,
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-card-container"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "sp-card-defaultClickButton"
+        },
+        "customRowAction": {
+          "action": "defaultClick"
+        }
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer"
+        },
+        "style": {
+          "border-radius": "16px",
+          "padding": "24px 20px",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "8px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "[$Icon]",
+                  "class": "ms-fontColor-themePrimary"
+                },
+                "style": {
+                  "font-size": "20px",
+                  "margin-right": "8px"
+                }
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "class": "ms-fontColor-neutralPrimary ms-fontWeight-semibold ms-fontSize-l"
+                },
+                "style": {
+                  "word-break": "normal",
+                  "overflow-wrap": "normal"
+                },
+                "txtContent": "=if([$Title]=='','–',[$Title])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "attributes": {
+                  "title": "[$Prompt]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-multiline"
+                },
+                "txtContent": "=if ([$Prompt] == '', '–', [$Prompt])",
+                "style": {
+                  "-webkit-line-clamp": "2",
+                  "height": "40px",
+                  "word-break": "normal",
+                  "overflow-wrap": "normal"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "margin-top": "auto"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "12px",
+                  "overflow": "hidden",
+                  "text-overflow": "ellipsis",
+                  "white-space": "nowrap"
+                },
+                "attributes": {
+                  "class": "sp-card-displayColumnContainer"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralSecondary sp-card-label ms-fontWeight-bold"
+                    },
+                    "txtContent": "[!Worksin.DisplayName]"
+                  },
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary sp-card-content",
+                      "title": "=if([$Worksin]=='','–',[$Worksin])"
+                    },
+                    "style": {
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "white-space": "nowrap"
+                    },
+                    "txtContent": "=if([$Worksin]=='','–',[$Worksin])"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "text-align": "right",
+                  "font-size": "12px",
+                  "white-space": "nowrap"
+                },
+                "attributes": {
+                  "class": "sp-card-displayColumnContainer"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralSecondary sp-card-label ms-fontWeight-bold"
+                    },
+                    "txtContent": "[!PromptCategory.DisplayName]"
+                  },
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary sp-card-content",
+                      "title": "=if([$PromptCategory]=='','–',[$PromptCategory])"
+                    },
+                    "style": {
+                      "overflow": "hidden",
+                      "text-overflow": "ellipsis",
+                      "white-space": "nowrap"
+                    },
+                    "txtContent": "=if([$PromptCategory]=='','–',[$PromptCategory])"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

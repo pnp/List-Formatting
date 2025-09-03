@@ -21,7 +21,8 @@
         "align-items": "center",
         "flex-wrap": "nowrap",
         "overflow": "auto",
-        "margin": "1px 4px 4px 1px"
+        "margin": "1px 4px 4px 1px",
+        "min-width": "max-content"
       },
       "children": [
         {

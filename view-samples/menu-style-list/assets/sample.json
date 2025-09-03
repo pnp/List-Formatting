@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-menu-style-list",
+    "reponame": "menu-style-list",
+    "source": "pnp",
+    "title": "Menu Style List",
+    "shortDescription": "This sample transforms SharePoint list items into a styled menu layout using list view formatting.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-style-list",
+    "longDescription": [
+      "This sample transforms SharePoint list items into a styled menu layout using list view formatting."
+    ],
+    "creationDateTime": "2025-06-03T00:00:00.000Z",
+    "updateDateTime": "2025-06-03T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "@group.fieldData"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "groupProps, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-communicationTint20"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-style-list/assets/FormattedMenuList.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/menu-style-list/assets/FormattedMenuList_Page.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tvahk",
+        "pictureUrl": "https://github.com/tvahk.png",
+        "name": "Tanel Vahk"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

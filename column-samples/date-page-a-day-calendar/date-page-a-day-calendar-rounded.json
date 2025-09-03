@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'flex','none')",
+    "flex-direction": "column",
+    "justify-content": "center",
+    "width": "42px",
+    "height": "49px",
+    "margin": "5px 0 5px 0"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "width": "100%",
+        "height": "100%"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=if(getMonth(@currentField)==0,'JAN',if(getMonth(@currentField)==1,'FEB',if(getMonth(@currentField)==2,'MAR',if(getMonth(@currentField)==3,'APR',if(getMonth(@currentField)==4,'MAY',if(getMonth(@currentField)==5,'JUN',if(getMonth(@currentField)==6,'JUL',if(getMonth(@currentField)==7,'AUG',if(getMonth(@currentField)==8,'SEP',if(getMonth(@currentField)==9,'OCT',if(getMonth(@currentField)==10,'NOV',if(getMonth(@currentField)==11,'DEC',''))))))))))))",
+          "attributes": {
+            "class": "ms-fontWeight-bold ms-fontColor-white ms-bgColor-themePrimary"
+          },
+          "style": {
+            "display": "flex",
+            "flex": "0 0 40%",
+            "border-radius": "6px 6px 0 0",
+            "justify-content": "center",
+            "align-items": "center"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=getDate(@currentField)",
+          "attributes": {
+            "class": "ms-fontWeight-bold ms-fontColor-themePrimary ms-fontSize-18"
+          },
+          "style": {
+            "display": "flex",
+            "flex": "1",
+            "justify-content": "center",
+            "align-items": "center",
+            "border-radius": "0 0 6px 6px",
+            "border": "1px solid",
+            "border-top-width": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

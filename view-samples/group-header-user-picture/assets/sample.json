@@ -10,7 +10,7 @@
       "This is a sample of customizing the group header when grouping by user column. Display the user's picture as well as the user's name in the group header."
     ],
     "creationDateTime": "2021-04-03T00:00:00.000Z",
-    "updateDateTime": "2021-04-03T00:00:00.000Z",
+    "updateDateTime": "2024-10-16T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",

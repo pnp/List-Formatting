@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display":"flex",
+    "flex-wrap":"wrap"
+  },
+  "children": [
+    {
+      "forEach": "choiceIterator in @currentField",
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-bgColor-gray30",
+        "title": "=[$choiceIterator]"
+      },
+      "style": {
+        "text-align": "center",
+        "margin": "2px",
+        "text-decoration": "none",
+        "box-sizing": "border-box",
+        "padding": "4px 8px 5px 8px",
+        "border-radius": "20px",
+        "white-space":"nowrap"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "txtContent": "[$choiceIterator]",
+          "attributes": {
+            "class": "ms-fontColor-sharedGray30 ms-fontColor-black--hover",
+            "href": "='[URL]' + [$choiceIterator]",
+            "target": "_blank"
+          },
+          "style": {
+            "text-decoration": "none"
+          }
+        }
+      ]
+    }
+  ]
+}

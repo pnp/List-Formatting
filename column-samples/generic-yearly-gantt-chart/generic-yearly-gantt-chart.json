@@ -4,7 +4,8 @@
   "style": {
     "display": "flex",
     "flex-direction": "column",
-    "margin": "5px"
+    "margin": "5px",
+    "box-sizing": "border-box"
   },
   "children": [
     {
@@ -17,7 +18,7 @@
         "margin-bottom": "3px"
       },
       "attributes": {
-        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
+        "class": "=if([$Start] <= @now && [$End] >= @now, 'ms-fontColor-themePrimary', if([$Start] && [$End], 'ms-fontColor-neutralSecondary', 'ms-fontColor-neutralTertiary')) + ' ms-fontWeight-bold'"
       },
       "children": [
         {
@@ -76,10 +77,13 @@
         "display": "flex",
         "width": "100%",
         "border": "2px solid",
-        "height": "20px"
+        "height": "24px",
+        "overflow": "hidden",
+        "position": "relative",
+        "box-sizing": "border-box"
       },
       "attributes": {
-        "class": "ms-fontColor-themePrimary"
+        "class": "=if([$Start] <= @now && [$End] >= @now, 'ms-fontColor-themePrimary', if([$Start] > @now, 'ms-fontColor-themeTertiary', 'ms-fontColor-neutralTertiary'))"
       },
       "children": [
         {
@@ -87,12 +91,11 @@
           "style": {
             "position": "relative",
             "cursor": "pointer",
-            "max-width": "=((Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'",
-            "width": "=((Number(Date([$End])) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'",
-            "left": "=((Number(Date([$Start])) - Number(Date('' + getYear([$Start]) + '/01/01'))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%'"
+            "width": "=if(Number(Date(getYear([$Start]) + '/01/01')) < (Number(Date(getYear([$End]) + '/01/01'))) && getYear([$Start]) < getYear(@now),(Number(Date([$End])) - Number(Date(getYear([$End]) + '/01/01'))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01'))) * 100 + '%',((Number(Date([$End])) - Number(Date([$Start]))) / (Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01')))) * 100 + '%')",
+            "left": "=if(Number(Date(getYear([$Start]) + '/01/01')) < (Number(Date(getYear([$End]) + '/01/01'))) && getYear([$Start]) < getYear(@now),'0%',if(Number(Date(getYear([$Start]) + '/01/01')) > (Number(Date(getYear([$End]) + '/12/31'))),'200%',(((Number(Date([$Start])) - Number(Date('' + getYear([$Start]) + '/01/01')))/(Number(Date('' + getYear([$Start]) + '/12/31')) - Number(Date('' + getYear([$Start]) + '/01/01'))))) * 100 + '%'))"
           },
           "attributes": {
-            "class": "ms-bgColor-themePrimary ms-bgColor-themeTertiary--hover"
+            "class": "=if([$Start] <= @now && [$End] >= @now,'ms-bgColor-themePrimary ms-bgColor-themeTertiary--hover',if([$Start] > @now, 'ms-bgColor-themeTertiary ms-bgColor-themeLight--hover','ms-bgColor-neutralTertiary ms-bgColor-neutralSecondary--hover'))"
           },
           "customCardProps": {
             "directionalHint": "topCenter",
@@ -104,7 +107,7 @@
                 "display": "flex",
                 "align-items": "center",
                 "justify-content": "center",
-                "width": "250px",
+                "width": "210px",
                 "height": "30px",
                 "margin": "10px",
                 "font-weight": "bold"
@@ -136,6 +139,19 @@
                 }
               ]
             }
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=if([$Start] && [$End], if(Number(Date(getYear([$Start]) + '/01/01')) < (Number(Date(getYear([$End]) + '/01/01'))) && getYear([$Start]) < getYear(@now), getYear([$End]), getYear([$Start])), '----')",
+          "attributes": {
+            "class": "=if([$Start] && [$End], 'ms-fontColor-neutralPrimary', 'ms-fontColor-neutralSecondary') + ' ms-fontSize-mi ms-fontWeight-bold'"
+          },
+          "style": {
+            "position": "absolute",
+            "top": "2px",
+            "left": "4px",
+            "opacity": "0.4"
           }
         }
       ]

@@ -7,7 +7,7 @@
   },
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-    "title": "Launch Flow"
+    "title": "Execute a flow"
   },
   "style": {
     "border": "none",
@@ -18,7 +18,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "iconName": "Flow",
+        "iconName": "PowerAutomateLogo",
         "class": "ms-font-xxl"
       }
     }

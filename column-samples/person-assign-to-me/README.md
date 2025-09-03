@@ -30,6 +30,8 @@ Version |Date         |Comments
 --------|-------------|--------
 1.0     |May 11, 2023 |Initial release
 1.1     |April 26, 2024 |Added `person-assign-to-me-highlight-single.json` and `person-assign-to-me-highlight-multi.json`
+1.2     |April 28, 2024 |Added hover effect
+1.3     |August 13, 2024 |Fixed the size of the user's image
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

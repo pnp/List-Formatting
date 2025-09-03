@@ -10,7 +10,7 @@
       "This sample demonstrates the display of a yearly Gantt chart."
     ],
     "creationDateTime": "2021-04-12T00:00:00.000Z",
-    "updateDateTime": "2022-08-27T00:00:00.000Z",
+    "updateDateTime": "2025-08-09T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -71,6 +71,16 @@
         "gitHubAccount": "hakki-max",
         "pictureUrl": "https://github.com/hakki-max.png",
         "name": "Alvin Fong"
+      },
+      {
+        "gitHubAccount": "DRVRogo",
+        "pictureUrl": "https://github.com/DRVRogo.png",
+        "name": "DRVRogo"
+      },
+      {
+        "gitHubAccount": "thechriskent",
+        "pictureUrl": "https://github.com/thechriskent.png",
+        "name": "Chris Kent"
       }
     ],
     "references": [

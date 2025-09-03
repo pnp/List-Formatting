@@ -25,5 +25,7 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
 }

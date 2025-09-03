@@ -10,7 +10,7 @@
       "This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (\u0060getDate\u0060, \u0060getMonth\u0060, and \u0060getYear\u0060)."
     ],
     "creationDateTime": "2020-10-17T00:00:00.000Z",
-    "updateDateTime": "2022-10-02T00:00:00.000Z",
+    "updateDateTime": "2024-12-14T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-fontWeight-bold, ms-bgColor-themePrimary, ms-fontColor-white, ms-borderColor-themePrimary, ms-fontSize-20"
+        "value": "ms-fontColor-themePrimary, ms-fontWeight-bold, ms-bgColor-themePrimary, ms-fontColor-white, ms-borderColor-themePrimary, ms-fontSize-20,  ms-fontSize-18"
       }
     ],
     "thumbnails": [
@@ -66,6 +66,11 @@
         "gitHubAccount": "tecchan1107",
         "pictureUrl": "https://github.com/tecchan1107.png",
         "name": "Tetsuya Kawahara"
+      },
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
       }
     ],
     "references": [

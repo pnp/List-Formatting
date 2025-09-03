@@ -5,6 +5,9 @@ This sample uses standard group rendering to provide a list of expandable questi
 
 ![screenshot of the sample](./assets/screenshot.png)
 
+This sample includes two variations: the original `faq-grouped.json` and `faq-grouped-full-width-answer.json`.
+- **faq-grouped.json** – Applies formatting only to the group header. The width of the answer depends on the column width.
+- **faq-grouped-full-width-answer.json** – Also includes a `rowFormatter` to style the entire row, allowing the answer to span the full width of the page. However, only the `Answer` column is shown; other columns are not displayed.
 
 ## View requirements
 
@@ -22,12 +25,14 @@ In this case, the Title column has been renamed to Question (though it doesn't m
 Solution|Author(s)
 --------|---------
 faq-grouped.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+faq-grouped-full-width-answer.json | [Steve Corey](https://github.com/stevecorey365)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|April 15, 2022|Initial release
+1.1|August 11, 2025|Added `faq-grouped-full-width-answer.json`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-published-version",
+    "reponame": "generic-published-version",
+    "source": "pnp",
+    "title": "Published Version",
+    "shortDescription": "This sample creates a button for opening the currently published version of a document.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-published-version",
+    "longDescription": [
+      "This sample creates a button for opening the currently published version of a document. The sample is supposed to be used in a SharePoint Online document library with minor versions enabled. Button is displayed for every document with a published version, i.e., at version at least 1.0. It is linked to the latest published version of the document - for example, if the latest draft of the document is at version 2.8, the button opens version 2.0."
+    ],
+    "creationDateTime": "2024-10-07T00:00:00.000Z",
+    "updateDateTime": "2024-10-07T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Document Library"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentWeb"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, substring, floor, toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary--hover, ms-bgColor-white, ms-borderColor-themeDark, ms-borderColor-themeDark--hover, ms-fontColor-gray200, ms-fontColor-white--hover"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-published-version/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mkacena",
+        "pictureUrl": "https://github.com/mkacena.png",
+        "name": "Miroslav Kačena"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

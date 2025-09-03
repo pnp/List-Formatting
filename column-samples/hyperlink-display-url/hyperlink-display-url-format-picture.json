@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(@currentField,'flex','none')",
+        "flex-direction": "column",
+        "margin": "6px"
+      },
+      "children": [
+        {
+          "elmType": "img",
+          "style": {
+            "max-width": "100px",
+            "max-height": "100px"
+          },
+          "attributes": {
+            "src": "@currentField",
+            "alt": "@currentField.desc"
+          }
+        },
+        {
+          "elmType": "a",
+          "txtContent": "=if(@currentField.desc,@currentField.desc,'No alternative text')",
+          "attributes": {
+            "href": "@currentField",
+            "target": "_blank",
+            "class": "ms-fontSize-s"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "@currentField",
+          "style": {
+            "word-break": "break-all"
+          },
+          "attributes": {
+            "class": "ms-fontSize-xs"
+          }
+        }
+      ]
+    }
+  ]
+}

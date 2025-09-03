@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-travel-tweets-board",
+    "reponame": "travel-tweets-board",
+    "source": "pnp",
+    "title": "Travel Tweets Board",
+    "shortDescription": "This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one image and one map link.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/travel-tweets-board",
+    "longDescription": [
+      "This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one image and one map link."
+    ],
+    "creationDateTime": "2025-04-27T00:00:00.000Z",
+    "updateDateTime": "2025-04-27T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Board"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@window.innerHeight, @window.innerWidth"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getThumbnailImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, forEach, hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themeDark--hover, ms-bgColor-themePrimary, ms-bgColor-white, ms-fontColor-themeDark--hover, ms-fontColor-themePrimary, ms-fontColor-white, sp-card-borderHighlight, sp-card-container, sp-card-container-noPadding, sp-card-subContainer, sp-card-subContainer-borderRadius, sp-css-borderColor-neutralLight"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/travel-tweets-board/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tecchan1107",
+        "pictureUrl": "https://github.com/tecchan1107.png",
+        "name": "Tetsuya Kawahara"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

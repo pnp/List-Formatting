@@ -1,0 +1,79 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "=if([$Display] == true, 'flex','none')",
+      "flex-direction": "row",
+      "align-items": "stretch",
+      "margin": "0 6px 16px 4px",
+      "border-radius": "8px",
+      "box-shadow": "0px 1.6px 3.6px 0px rgba(0,0,0,0.13), 0px 0.3px 0.9px 0px rgba(0,0,0,0.11)",
+      "overflow": "hidden"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "href": "[$Link]",
+          "target": "=if([$Link] == '', '', '_blank')"
+        },
+        "style": {
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "width": "60px",
+          "flex-shrink": "0",
+          "text-decoration": "none",
+          "background-color": "=if([$IconBackground] == '', 'gray', [$IconBackground])"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "[$IconName]"
+            },
+            "style": {
+              "color": "white",
+              "font-size": "24px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "10px 5px 10px 14px",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "center",
+          "flex-grow": "1",
+          "background-color": "[$DescriptionBackground]"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "font-weight": "600",
+              "font-size": "16px",
+              "color": "black",
+              "margin-bottom": "4px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Description]",
+            "style": {
+              "font-size": "14px",
+              "color": "#545559",
+              "margin-bottom": "6px"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

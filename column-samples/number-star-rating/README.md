@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates changing the value of a number column to a star rating.
 
-- `number-star-rating-theme-color.json` uses the theme color of the site as the color of the star.
+- `number-star-rating.json` uses the theme color of the site as the color of the star.
 - `number-star-rating-custom-color.json` uses the HTML color code as the the color of the star, and in the sample, `#FFB951` is set.
 
 ![screenshot of the sample](./assets/screenshot.png)

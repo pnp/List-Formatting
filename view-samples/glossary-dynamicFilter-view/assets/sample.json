@@ -10,7 +10,7 @@
       "View formatters to buid a glossary page using connected list WebParts."
     ],
     "creationDateTime": "2021-04-04T00:00:00.000Z",
-    "updateDateTime": "2021-04-04T00:00:00.000Z",
+    "updateDateTime": "2024-12-13T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themePrimary, ms-bgColor-white, ms-borderColor-themeDark, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontSize-11, ms-fontSize-12, ms-fontSize-16, sp-card-lastTextColumnContainer, sp-css-borderColor-neutralLight"
+        "value": "ms-bgColor-themePrimary, ms-bgColor-white, ms-borderColor-themeDark, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontSize-11, ms-fontSize-12, ms-fontSize-16, sp-card-lastTextColumnContainer, sp-css-borderColor-neutralLight ms-fontColor-yellow--hover"
       }
     ],
     "thumbnails": [
@@ -66,6 +66,11 @@
         "gitHubAccount": "michelcarlo",
         "pictureUrl": "https://github.com/michelcarlo.png",
         "name": "Michel Mendes"
+      },
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
       }
     ],
     "references": [

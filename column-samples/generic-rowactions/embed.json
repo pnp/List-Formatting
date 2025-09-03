@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "embed",
+    "actionInput": {
+      "src": "='https://www.youtube.com/embed/b3_lVSrPB6w?si=oSpNeflAgmqwRf8-' + ",
+      "width": "560",
+      "height": "315"
+    }
+  },
+  "attributes": {
+    "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+    "title": "Change my life forever"
+  },
+  "style": {
+    "border": "none",
+    "background-color": "transparent",
+    "cursor": "pointer"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "MSNVideos",
+        "class": "ms-font-xxl"
+      }
+    }
+  ]
+}

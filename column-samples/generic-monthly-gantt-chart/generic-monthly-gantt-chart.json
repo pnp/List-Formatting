@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if([$StartDate],'flex','none')",
+    "flex-direction": "column",
+    "width": "200px",
+    "height": "75px",
+    "margin": "5px"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "width": "100%",
+        "text-align": "center",
+        "font-weight": "bolder"
+      },
+      "txtContent": "=if(getMonth([$StartDate])=='','', [$StartDate.displayValue]+' - '+ [$EndDate.displayValue])",
+      "attributes": {
+        "class": "ms-fontColor-themePrimary"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "width": "100%",
+        "padding-bottom": "5px",
+        "margin-left": "-5px"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontWeight-bold"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "1"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "5"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "10"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "15"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "20"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "25"
+        },
+        {
+          "elmType": "span",
+          "txtContent": "30"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "width": "100%",
+        "border": "2px solid",
+        "height": "30px",
+        "fill": "currentColor"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary"
+      },
+      "children": [
+        {
+          "elmType": "svg",
+          "style": {
+            "width": "100%",
+            "height": "100%",
+            "display": "=if([$EndDate]>=[$StartDate],'','none')"
+          },
+          "children": [
+            {
+              "elmType": "path",
+              "attributes": {
+                "d": "= 'M ' + ((Number(Date([$StartDate]))/1000/60/60/24)-(Number(Date(''+ (getMonth([$StartDate]) + 1) + '/1/' + getYear([$StartDate]) ))/1000/60/60/24))*6.452 + ',0  ' + ((Number(Date([$EndDate]))/1000/60/60/24)-(Number(Date(''+ (getMonth([$StartDate]) + 1) + '/1/' + getYear([$StartDate]) ))/1000/60/60/24)+1)*6.452 + ',0 ' + ((Number(Date([$EndDate]))/1000/60/60/24)-(Number(Date(''+ (getMonth([$StartDate]) + 1) + '/1/' + getYear([$StartDate]) ))/1000/60/60/24)+1)*6.452 + ',40 ' + ((Number(Date([$StartDate]))/1000/60/60/24)-(Number(Date(''+ (getMonth([$StartDate]) + 1) + '/1/' + getYear([$StartDate]) ))/1000/60/60/24))*6.452 + ', 40 Z'"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

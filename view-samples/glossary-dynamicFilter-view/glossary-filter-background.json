@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 50,
+  "height": 80,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "children": [
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "attributes": {
+          "class": "ms-bgColor-themePrimary ms-fontColor-white ms-fontColor-yellow--hover"
+        },
+        "style": {
+          "width": "20px",
+          "height": "20px",
+          "text-align": "center"
+        }
+      }
+    ]
+  }
+}

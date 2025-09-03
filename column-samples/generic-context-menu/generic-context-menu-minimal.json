@@ -1,0 +1,181 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "justify-content": "space-between"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "txtContent": "@currentField",
+      "style": {
+        "font-size": "11pt",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "elmType": "div",
+      "attributes": {
+        "iconName": "moreVertical",
+        "class": "ms-fontColor-red--hover ms-font-l"
+      },
+      "style": {
+        "cursor": "pointer",
+        "padding": "2px"
+      },
+      "customCardProps": {
+        "directionalHint": "rightCenter",
+        "openOnEvent": "click",
+        "isBeakVisible": true,
+        "beakStyle": {
+          "backgroundColor": "lightGray"
+        },
+        "formatter": {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "attributes": {
+                "class": "ms-borderColor-ThemeLight"
+              },
+              "style": {
+                "border": "1px solid darkblue"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "children": [
+                        {
+                          "elmType": "div",
+                          "txtContent": "='ID '+[$ID]",
+                          "attributes": {
+                            "class": "ms-bgColor-themePrimary ms-fontColor-themeLighter"
+                          },
+                          "style": {
+                            "font-weight": "600",
+                            "text-align": "center",
+                            "padding-bottom": "3px",
+                            "margin-bottom": "5px",
+                            "border-bottom": "1px solid darkblue"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "attributes": {
+                        "class": "ms-bgColor-themeLighter--hover ms-fontColor-black--hover"
+                      },
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "cursor": "pointer"
+                      },
+                      "customRowAction": {
+                        "action": "defaultClick"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "attributes": {
+                            "iconName": "OpenInNewWindow"
+                          },
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "Open",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "attributes": {
+                        "class": "ms-bgColor-themeLighter--hover ms-fontColor-black--hover"
+                      },
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "cursor": "pointer"
+                      },
+                      "customRowAction": {
+                        "action": "editProps"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "attributes": {
+                            "iconName": "Edit"
+                          },
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "Edit",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "elmType": "div",
+                      "attributes": {
+                        "class": "ms-bgColor-themeLighter--hover ms-fontColor-black--hover"
+                      },
+                      "style": {
+                        "margin": "5px",
+                        "padding": "5px",
+                        "cursor": "pointer"
+                      },
+                      "customRowAction": {
+                        "action": "delete"
+                      },
+                      "children": [
+                        {
+                          "elmType": "span",
+                          "attributes": {
+                            "iconName": "Delete"
+                          },
+                          "style": {
+                            "margin-left": "5px",
+                            "font-weight": "600"
+                          }
+                        },
+                        {
+                          "elmType": "span",
+                          "txtContent": "Delete",
+                          "style": {
+                            "margin-left": "9px",
+                            "font-weight": "600"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -26,8 +26,8 @@
             {
               "elmType": "img",
               "style": {
-                "width": "28px",
-                "height": "28px",
+                "width": "24px",
+                "height": "24px",
                 "border-radius": "50%"
               },
               "attributes": {
@@ -57,7 +57,7 @@
             "cursor": "pointer"
           },
           "attributes": {
-            "class": "ms-Link ms-fontColor-themePrimary"
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
           },
           "customRowAction": {
             "action": "setValue",
