@@ -26,9 +26,9 @@ If you attempt to embed content from a domain that is not allowed, the following
 
 ## Sample
 
-Solution                            |Author(s)
-------------------------------------|---------------------------
-generic-embed-file-preview.json     |[Tetsuya Kawahara](https://github.com/tecchan1107)
+Solution|Author(s)
+--------|---------
+generic-embed-file-preview.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 
