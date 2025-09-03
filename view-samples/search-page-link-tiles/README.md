@@ -44,7 +44,7 @@ Related Link: [Export an Excel table to SharePoint: gallery view layout not avai
 
 Solution|Author(s)
 --------|---------
-search-page-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+search-page-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

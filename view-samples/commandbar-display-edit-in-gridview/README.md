@@ -14,7 +14,7 @@ This can be applied to any view.
 
 Solution|Author(s)
 --------|---------
-commandbar-display-edit-in-gridview.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+commandbar-display-edit-in-gridview.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

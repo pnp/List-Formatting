@@ -47,7 +47,7 @@ Access to View edit option and access to "**Filter**" area, check "**Show items 
 
 Solution|Author(s)
 --------|---------
-tabs.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+tabs.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

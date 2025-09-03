@@ -23,8 +23,7 @@ The size of the tile can be adjusted by changing the width and height values.
 
 Solution|Author(s)
 --------|---------
-icon-link-tiles.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
-
+icon-link-tiles.json | [S Merchant](https://github.com/sohailmerchant)
 ## Version history
 
 Version|Date|Comments

@@ -22,7 +22,7 @@ This format can be applied to any column type within a document library.
 
 Solution|Author(s)
 --------|---------
-generic-open-file-as-pdf.json | [Russell Gove](https://github.com/russgove) ([@russgove](https://twitter.com/rossgove))
+generic-open-file-as-pdf.json | [Russell Gove](https://github.com/russgove)
 
 ## Version history
 

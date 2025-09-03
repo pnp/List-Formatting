@@ -15,7 +15,7 @@ Demonstrates applying a class to rows where a value equals the current year. Can
 
 Solution|Author(s)
 --------|---------
-current-year-rowclass.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+current-year-rowclass.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

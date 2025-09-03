@@ -24,7 +24,7 @@ The pattern of using nested conditional operators with equality operators is the
 
 Solution|Author(s)
 --------|---------
-generic-svgicon-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-svgicon-format.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

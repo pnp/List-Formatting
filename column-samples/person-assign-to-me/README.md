@@ -19,10 +19,10 @@ When using `person-assign-to-me-highlight-single.json` and `person-assign-to-me-
 
 Solution|Author(s)
 --------|---------
-person-assign-to-me.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-person-assign-to-me-multi.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-person-assign-to-me-highlight-single.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-person-assign-to-me-highlight-multi.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+person-assign-to-me.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+person-assign-to-me-multi.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+person-assign-to-me-highlight-single.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+person-assign-to-me-highlight-multi.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

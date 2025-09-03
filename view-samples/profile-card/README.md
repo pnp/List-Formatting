@@ -19,7 +19,7 @@ This is a simple user profile card built to provide a tile view with contact but
 
 Solution|Author(s)
 --------|---------
-profile-card.json | [Ejaz Hussain](https://github.com/ejazhussain) ([@EjazHussain_](https://twitter.com/ejazhussain_))
+profile-card.json | [Ejaz Hussain](https://github.com/ejazhussain)
 
 ## Version history
 

@@ -60,8 +60,8 @@ To be more user friendly, in the example shown above they were renamed from:
 
 Solution|Author(s)
 --------|---------
-glossary-filter.json | Michel Mendes ([@michelcarlo](https://twitter.com/michelcarlo) / [michelcarlo.com](https://michelcarlo.com/))
-glossary-view.json | [Michel Mendes](https://twitter.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://twitter.com/theChrisKent)
+glossary-filter.json | [Michel Mendes](https://github.com/michelcarlo)
+glossary-view.json | [Michel Mendes](https://github.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://github.com/theChrisKent)
 glossary-filter-background.json | [Watana](https://github.com/watana2)
 
 ## Version history

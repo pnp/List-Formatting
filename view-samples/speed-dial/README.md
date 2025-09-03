@@ -19,7 +19,7 @@ This sample creates a speed dial list for your team members/contacts, that you c
 
 Solution|Author(s)
 --------|---------
-speed-dial.json | Anand Ragav https://twitter.com/anandVragav 
+speed-dial.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 

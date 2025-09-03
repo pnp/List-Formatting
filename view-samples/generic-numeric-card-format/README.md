@@ -19,7 +19,7 @@ Color | Single line of text - Color name or hex number.
 
 Solution|Author(s)
 --------|---------
-numeric-card-format.json | [André Lage](https://twitter.com/aaclage)
+numeric-card-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

@@ -16,7 +16,7 @@ By using the Fluent UI color classes for themes, we can ensure our format looks 
 
 Solution|Author(s)
 --------|---------
-person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

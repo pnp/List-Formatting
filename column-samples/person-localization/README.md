@@ -13,7 +13,7 @@ This format can be applied to any peson column. Shown above on the default Creat
 
 Solution|Author(s)
 --------|---------
-person-localization.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+person-localization.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

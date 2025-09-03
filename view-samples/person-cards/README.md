@@ -20,7 +20,7 @@ This sample demonstrates creating a basic person card. You can use this as a qui
 
 Solution|Author(s)
 --------|---------
-person-cards.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalho](https://twitter.com/davRamalho))
+person-cards.json | [David Ramalho](https://github.com/DRamalho92)
 
 ## Version history
 

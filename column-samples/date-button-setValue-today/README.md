@@ -19,7 +19,7 @@ This button uses the 'setValue' action to set a Date field value to Today's date
 
 Solution|Author(s)
 --------|---------
-date-button-setValue-today.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+date-button-setValue-today.json | [Michel Mendes](https://github.com/michelcarlo)
 
 ## Version history
 

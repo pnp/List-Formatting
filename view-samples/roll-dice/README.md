@@ -23,7 +23,7 @@ Character2 | Single line of text - Include emoji of runner "🏃"
 
 Solution|Author(s)
 --------|---------
-roll-dice.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+roll-dice.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

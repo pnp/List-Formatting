@@ -12,7 +12,7 @@ This sample demonstrates how to use a Location column to display details and a M
 
 Solution|Author(s)
 --------|---------
-location-bing-maps.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+location-bing-maps.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

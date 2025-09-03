@@ -27,7 +27,7 @@ This format relies on `Doc.aspx` which supports the viewing of Microsoft Office 
 
 Solution|Author(s)
 --------|---------
-generic-file-preview.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+generic-file-preview.json | [Geert de Kooter](https://github.com/gdk-max)
 
 ## Version history
 

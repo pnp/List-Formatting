@@ -32,7 +32,7 @@ Expand | Yes/No - default value **"No"**
 
 Solution|Author(s)
 --------|---------
-reorder-expand-board-items.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+reorder-expand-board-items.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

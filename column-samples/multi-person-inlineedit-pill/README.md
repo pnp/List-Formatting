@@ -15,7 +15,7 @@ The sample demonstrates the use of the `forEach` property to apply a format for 
 
 Solution|Author(s)
 --------|---------
-multi-person-inlineedit-pill.json | [Hubert Lam](https://github.com/z3019494) ([@z3019494](https://twitter.com/hubertlam))
+multi-person-inlineedit-pill.json | [Hubert Lam](https://github.com/z3019494)
 
 ## Version history
 

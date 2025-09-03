@@ -58,7 +58,7 @@ After this the default view should look like:
 
 Solution|Author(s)
 --------|---------
-rating-in-tiles.json | [Luís Ribeiro](https://github.com/luis-ribeiro) ([@Luis_Ribeiro_PT](https://twitter.com/Luis_Ribeiro_PT))
+rating-in-tiles.json | [Luís Ribeiro](https://github.com/luis-ribeiro)
 
 ## Version history
 

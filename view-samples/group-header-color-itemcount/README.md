@@ -18,7 +18,7 @@ Group by a column of choice.
 
 Solution|Author(s)
 --------|---------
-group-header-color-itemcount.json | [Marijnsomers](https://github.com/marijnsomers) [(@marijnsomers)](https://twitter.com/marijnsomers)
+group-header-color-itemcount.json | [Marijnsomers](https://github.com/marijnsomers)
 
 ## Version history
 

@@ -14,7 +14,7 @@ Sample can be extended to different colors or values based on your requirements.
 
 Solution|Author(s)
 --------|---------
-childcount-color-change.json | [Marijn Somers](https://github.com/marijnsomers) [@marijnsomers](https://twitter.com/marijnsomers)
+childcount-color-change.json | [Marijn Somers](https://github.com/marijnsomers)
 
 ## Version history
 

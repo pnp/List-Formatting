@@ -14,7 +14,7 @@ By using the Office UI Fabric color classes for themes, we can ensure our format
 
 Solution|Author(s)
 --------|---------
-multi-person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent)
 ## Version history
 
 Version|Date|Comments

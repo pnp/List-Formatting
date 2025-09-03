@@ -40,13 +40,13 @@ Invoice | Single line of text - Save copy link from file
 
 Solution|Author(s)
 --------|---------
-payments.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-payments-mobile.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-payments-grouped.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-payments-format.json | [André Lage](https://twitter.com/aaclage)
-payments-mobile-format.json | [André Lage](https://twitter.com/aaclage)
-payments-timeline-format.json | [André Lage](https://twitter.com/aaclage)
-payments-groupby-format.json | [André Lage](https://twitter.com/aaclage)
+payments.json | [André Lage](https://github.com/aaclage)
+payments-mobile.json | [André Lage](https://github.com/aaclage)
+payments-grouped.json | [André Lage](https://github.com/aaclage)
+payments-format.json | [André Lage](https://github.com/aaclage)
+payments-mobile-format.json | [André Lage](https://github.com/aaclage)
+payments-timeline-format.json | [André Lage](https://github.com/aaclage)
+payments-groupby-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

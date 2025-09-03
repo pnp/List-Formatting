@@ -77,8 +77,8 @@ Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwo
 
 Solution| Author
 --------|---------
-student-class-learning-tracker-overview.json | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
-student-class-learning-tracker-calendar.json | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
+student-class-learning-tracker-overview.json | [Hubert Lam](https://github.com/z3019494)
+student-class-learning-tracker-calendar.json | [Hubert Lam](https://github.com/z3019494)
 
 ## Version history
 

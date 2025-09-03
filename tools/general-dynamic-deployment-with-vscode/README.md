@@ -30,7 +30,7 @@ Video tutorial and a PnP Demo link is provided below.
 
 Solution|Author(s)
 --------|---------
-general-dynamic-deployment-with-vscode | David Warner II ([@DavidWarnerII](https://twitter.com/davidwarnerii) / [Warner Digital](http://warner.digital))
+general-dynamic-deployment-with-vscode | [David Warner II](https://github.com/PopWarner)
 
 ## Version history
 

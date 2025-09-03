@@ -37,7 +37,7 @@ The field values are case insensitve and should be just the user's twitter handl
 
 Solution|Author(s)
 --------|---------
-generic-twitterpic.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-twitterpic.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

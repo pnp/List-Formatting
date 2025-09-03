@@ -16,7 +16,7 @@ Simply set the desired formatting using the SharePoint / Lists UI, and this samp
 
 Solution|Author(s)
 --------|---------
-generic-right-align.json | [Mike Honey](https://github.com/Mike-Honey) ([@Mike_Honey_](https://twitter.com/Mike_Honey_))
+generic-right-align.json | [Mike Honey](https://github.com/Mike-Honey)
 
 ## Version history
 

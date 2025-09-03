@@ -23,7 +23,7 @@ The columns used in this sample were created as "Number" column types.
 
 Solution|Author(s)
 --------|---------
-number-abs-tolerance-comparison.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
+number-abs-tolerance-comparison.json | [David Warner II](https://github.com/PopWarner)
 
 ## Version history
 

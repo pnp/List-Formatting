@@ -19,7 +19,7 @@ Apply a Group By on the Question column in your view.
 
 Solution|Author(s)
 --------|---------
-faq-accordion.json | [Anand Vadivelan](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+faq-accordion.json | [Anand Vadivelan](https://github.com/anandragav)
 
 ## Version history
 

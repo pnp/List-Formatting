@@ -30,8 +30,8 @@ A Choice column called Status is required with possible values 'Thinking about i
 
 Solution|Author(s)
 --------|---------
-status-footer.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-status-header.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+status-footer.json | [Chris Kent](https://github.com/thechriskent)
+status-header.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -16,8 +16,8 @@ This format can be applied to a Multi-Select Choice column.
 
 Solution|Author(s)
 --------|---------
-multi-choice-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-multi-choice-numbered-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+multi-choice-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+multi-choice-numbered-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

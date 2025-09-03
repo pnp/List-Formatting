@@ -33,8 +33,8 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 
 Solution|Author(s)
 --------|---------
-faqs.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-faqs-with-keywords.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+faqs.json | [Chris Kent](https://github.com/thechriskent)
+faqs-with-keywords.json | [Chris Kent](https://github.com/thechriskent)
 
 
 ## Version history

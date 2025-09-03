@@ -33,9 +33,9 @@ Color | Single line of text - Color for svg.
 
 Solution|Author(s)
 --------|---------
-carsales-format.json | [André Lage](https://twitter.com/aaclage)
-waves-format.json | [André Lage](https://twitter.com/aaclage)
-fishmeat-format.json | [André Lage](https://twitter.com/aaclage)
+carsales-format.json | [AndrÃ© Lage](https://github.com/aaclage)
+waves-format.json | [AndrÃ© Lage](https://github.com/aaclage)
+fishmeat-format.json | [AndrÃ© Lage](https://github.com/aaclage)
 
 ## Version history
 

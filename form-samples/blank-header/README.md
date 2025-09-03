@@ -12,7 +12,7 @@ None
 
 Solution|Author(s)
 --------|---------
-blank-header.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+blank-header.json | [Chris Kent](https://github.com/thechriskent)
 
 
 ## Version history

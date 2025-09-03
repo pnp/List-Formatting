@@ -26,8 +26,8 @@ basics from: https://github.com/pnp/List-Formatting/tree/master/column-samples/p
 
 Solution|Author(s)
 --------|---------
-generic-hyperlink-thumbnail.json | [Josef Lahmer](https://github.com/josy1024) ([@josy1024](https://twitter.com/josy1024))
-generic-image-thumbnail.json | [Josef Lahmer](https://github.com/josy1024) ([@josy1024](https://twitter.com/josy1024))
+generic-hyperlink-thumbnail.json | [Josef Lahmer](https://github.com/josy1024)
+generic-image-thumbnail.json | [Josef Lahmer](https://github.com/josy1024)
 
 ## Version history
 

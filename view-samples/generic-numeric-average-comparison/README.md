@@ -26,7 +26,7 @@ In addition to the numeric average calculation displayed within each quarter, th
 
 Solution|Author(s)
 --------|---------
-generic-numeric-average-comparison.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
+generic-numeric-average-comparison.json | [David Warner II](https://github.com/PopWarner)
 
 
 ## Version history

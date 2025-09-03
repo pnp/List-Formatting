@@ -29,7 +29,7 @@ This sample creates a link in bio card for users. A "Link in bio" is important f
 
 Solution|Author(s)
 --------|---------
-linkinbio.json | [Anand Ragav](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+linkinbio.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 

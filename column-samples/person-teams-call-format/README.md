@@ -17,7 +17,7 @@ Person | Person - Person field with multiple selections
 
 Solution|Author(s)
 --------|---------
-person-teams-call-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+person-teams-call-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

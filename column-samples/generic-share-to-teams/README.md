@@ -14,7 +14,7 @@ The format can be applied to any column, although it is recommended to add it to
 
 Solution|Author(s)
 --------|---------
-generic-share-to-teams.json | [Sven Sieverding](https://github.com/365knoten) ([@365Knoten](https://twitter.com/365Knoten))
+generic-share-to-teams.json | [Sven Sieverding](https://github.com/365knoten)
 
 ## Version history
 

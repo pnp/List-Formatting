@@ -15,7 +15,7 @@ This example colors the current field red when the value inside an item's DueDat
 
 Solution|Author(s)
 --------|---------
-date-range-format.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
+date-range-format.json | [SharePoint Team](https://github.com/SharePoint)
 
 ## Version history
 

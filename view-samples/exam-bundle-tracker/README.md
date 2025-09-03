@@ -43,7 +43,7 @@ All grouping is initially expanded.
 
 Solution| Author
 --------|---------
-exam-bundle-tracker-overview.json | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
+exam-bundle-tracker-overview.json | [Hubert Lam](https://github.com/z3019494)
 
 ## Version history
 

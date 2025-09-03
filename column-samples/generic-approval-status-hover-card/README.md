@@ -17,7 +17,7 @@ In the Add column menu choose to Show/hide columns and add Approval Status and M
 
 Solution|Author(s)
 --------|---------
-generic-approval-status-hover-card.json | [Django Lohn](https://github.com/m3ngi3) [@LohnDjango](https://twitter.com/LohnDjango)
+generic-approval-status-hover-card.json | [Django Lohn](https://github.com/m3ngi3)
 
 ## Version history
 

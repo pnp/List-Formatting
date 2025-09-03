@@ -17,7 +17,7 @@ Since document sets rely on a different style of version history (captured versi
 
 Solution|Author(s)
 --------|---------
-generic-item-version-history.json | [Dan Toft](https://github.com/Tanddant) ([@tanddant](https://twitter.com/tanddant)) |
+generic-item-version-history.json | [Dan Toft](https://github.com/Tanddant)
 
 ## Version history
 

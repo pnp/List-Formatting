@@ -22,7 +22,7 @@ Add list of countries in the choice column settings like:
 
 Solution|Author(s)
 --------|---------
-choice-country-flag.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+choice-country-flag.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

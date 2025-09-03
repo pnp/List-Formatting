@@ -19,7 +19,7 @@ This blog post explains the Power Automate flows in detail: [How to apply modern
 
 Solution|Author(s)
 --------|---------
-generic-card-with-buttons.json | [Luise Freese](https://github.com/luisefreeset) ([@LuiseFreese](https://twitter.com/LuiseFReese))
+generic-card-with-buttons.json | [Luise Freese](https://github.com/luisefreeset)
 
 ## Version history
 

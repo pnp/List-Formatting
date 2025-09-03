@@ -40,7 +40,7 @@ In this version of the sample, the days left are displayed within the box:
 
 Solution|Author(s)
 --------|---------
-date-range-rag.json | [Christopher Parker](https://github.com/ChrispyBites) ([@ChrispyBites](https://twitter.com/ChrispyBites))
+date-range-rag.json | [Christopher Parker](https://github.com/ChrispyBites)
 date-range-rag-days-left.json | [Joe Ayre](https://github.com/JoeAyre)
 
 ## Version history

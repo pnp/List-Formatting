@@ -13,7 +13,7 @@ This sample shows how the percentage value in a column can be displayed as the a
 
 Solution|Author(s)
 --------|---------
-number-circle-in-circle.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+number-circle-in-circle.json | [Geert de Kooter](https://github.com/gdk-max)
 
 ## Version history
 

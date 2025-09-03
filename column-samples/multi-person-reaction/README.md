@@ -12,7 +12,7 @@ This format can be applied to a Multi-Select Person column.
 
 Solution|Author(s)
 --------|---------
-multi-person-reaction.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+multi-person-reaction.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

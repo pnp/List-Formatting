@@ -14,7 +14,7 @@ You can use this formatting when you want to share your screen for a demo and do
 
 Solution|Author(s)
 --------|---------
-generic-blurred.json | [Julien Aubert](https://github.com/JulienVLC) ([@JulienAubertVLC](https://twitter.com/JulienAubertVLC))
+generic-blurred.json | [Julien Aubert](https://github.com/JulienVLC)
 
 ## Version history
 

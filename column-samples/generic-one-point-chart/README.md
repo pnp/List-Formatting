@@ -18,7 +18,7 @@ The format expect the following fields:
 
 Solution|Author(s)
 --------|---------
-generic-one-point-chart.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+generic-one-point-chart.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

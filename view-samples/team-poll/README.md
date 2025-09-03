@@ -56,9 +56,9 @@ An optional Power Automate flow is also presented below to ensure that as Team M
 
 Solution|Author(s)
 --------|---------
-team-poll-configuration.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-team-poll-response.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-team-poll-results.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+team-poll-configuration.json | [Chris Kent](https://github.com/thechriskent)
+team-poll-response.json | [Chris Kent](https://github.com/thechriskent)
+team-poll-results.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

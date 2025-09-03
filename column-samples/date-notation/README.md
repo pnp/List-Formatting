@@ -22,7 +22,7 @@ This format can be applied to a date column with time enabled.
 
 Solution|Author(s)
 --------|---------
-date-notation.json | [Django Lohn](https://github.com/m3ngi3) [@LohnDjango](https://twitter.com/LohnDjango)
+date-notation.json | [Django Lohn](https://github.com/m3ngi3)
 
 ## Version history
 

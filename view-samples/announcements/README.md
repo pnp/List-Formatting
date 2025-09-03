@@ -22,7 +22,7 @@ This sample formats your view to look like a Announcements card with a similiar 
 
 Solution|Author(s)
 --------|---------
-announcements.json | [David Ramalho](https://github.com/DRamalho92) ([@davRamalho](https://twitter.com/davRamalho))
+announcements.json | [David Ramalho](https://github.com/DRamalho92)
 
 ## Version history
 

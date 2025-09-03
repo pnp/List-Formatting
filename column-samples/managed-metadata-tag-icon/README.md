@@ -14,8 +14,8 @@ This format can be applied to a Managed Metadata column.
 
 Solution|Author(s)
 --------|---------
-managed-metadata-tag-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-managed-metadata-tag-icon-multi-choice.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+managed-metadata-tag-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+managed-metadata-tag-icon-multi-choice.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

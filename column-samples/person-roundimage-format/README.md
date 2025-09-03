@@ -32,7 +32,7 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 Solution|Author(s)
 --------|---------
-person-roundimage-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+person-roundimage-format.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

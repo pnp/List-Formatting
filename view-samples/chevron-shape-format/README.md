@@ -18,7 +18,7 @@ IMG | Image  - Background image
 
 Solution|Author(s)
 --------|---------
-chevron-shape-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+chevron-shape-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

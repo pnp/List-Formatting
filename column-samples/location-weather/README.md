@@ -15,7 +15,7 @@ This sample utilizes sub properties of a Location column to build an image `src`
 
 Solution|Author(s)
 --------|---------
-location-weather.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+location-weather.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

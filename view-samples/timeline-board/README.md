@@ -19,7 +19,7 @@ This sample demonstrates displaying timelines in Board View.
 
 Solution|Author(s)
 --------|---------
-timeline-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+timeline-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 
