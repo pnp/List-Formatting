@@ -37,4 +37,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-centered-content" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-card-with-buttons" />
