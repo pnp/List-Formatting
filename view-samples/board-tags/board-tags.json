@@ -1165,9 +1165,6 @@
                               "float": "left"
                             },
                             "inlineEditField": "[$EndDate]",
-                            "attributes": {
-                              "class": ""
-                            },
                             "children": [
                               {
                                 "elmType": "div",
