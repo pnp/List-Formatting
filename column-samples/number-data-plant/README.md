@@ -18,23 +18,23 @@ The sample includes conditional formatting that displays different SVGs based on
 | Value| Stage |
 |----------|----------|
 |Progress value 1   | Displays the first stage SVG |
-| Progress value 2   |  Displays the second stage SVG  |
-| Progress value 3  |  Displays the third stage SVG  |
+|Progress value 2   |  Displays the second stage SVG  |
+|Progress value 3  |  Displays the third stage SVG  |
 |Progress value 4  | VDisplays the fourth stage SVG  |
 
 If the Progress field is empty or has any other value, no SVG will be displayed.
 
-![screenshot of the data plant](./assets/screenshot-plant.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
-- This format can be applied to a any column
+- This format can be applied to a number column with values 1-4
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-generic-data-plant.json | [Luise Freese](https://github.com/LuiseFreese)
+number-data-plant.json | [Luise Freese](https://github.com/LuiseFreese)
 
 
 ## Version history
@@ -46,4 +46,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/column-samples/generic-data-plant/" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-data-plant" />

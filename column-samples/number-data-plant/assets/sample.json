@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-generic-data-plant",
-    "reponame": "generic-data-plant",
+    "name": "pnp-list-formatting-number-data-plant",
+    "reponame": "number-data-plant",
     "source": "pnp",
     "title": "Format a column with multi-path SVGs",
     "shortDescription": "This formats applies different SVGs with multiple paths to a number field, depending on the value of the field.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-data-plant",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-data-plant",
     "longDescription": [
       "This formats applies different SVGs with multiple paths to a number field, depending on the value of the field. "
     ],
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "General"
+        "value": "Number"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-data-plant/assets/screenshot-plant.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-data-plant/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
