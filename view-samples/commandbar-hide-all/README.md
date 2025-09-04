@@ -4,7 +4,7 @@
 Hide everything that can be hidden on the command bar. My use case was to embed a summary into a SharePoint page using an iFrame and keep things as clean as possible.
 
 SharePoint Lists
-![SharePoint Lists](./assets/lists.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 SharePoint Document Library
 ![SharePoint Document Library](./assets/document-library.png)
