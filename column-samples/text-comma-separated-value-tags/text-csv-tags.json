@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "flex-wrap": "wrap"
+  },
+  "children": [
+    {
+      "forEach": "choiceIterator in split(@currentField,',')",
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-bgColor-neutralLight ms-fontColor-black"
+      },
+      "style": {
+        "text-align": "left",
+        "margin": "2px",
+        "padding": "4px",
+        "border-radius": "4px",
+        "vertical-align": "middle",
+        "white-space": "nowrap",
+        "width": "auto"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "position": "relative",
+            "top": "2px"
+          },
+          "attributes": {
+            "iconName": "Tag"
+          }
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "padding-left": "5px"
+          },
+          "txtContent": "[$choiceIterator]"
+        }
+      ]
+    }
+  ]
+}
