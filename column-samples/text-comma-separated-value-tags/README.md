@@ -4,9 +4,11 @@
 
 This sample demonstrates using the `split` function (O365 only) to display a comma separated text as tags. The sample also uses the `forEach` attribute to demostrate the forEach loop capability. In this sample, the comma separated text values are displayed as a tags for the record. JAZZ up your SharePoint list display with this awesome column formatting.
 
-![Before](before.png)
+- Plain SharePoint list with comma separated text.
+  ![Before](./assets/before.png)
 
-![After](after.png)
+- Your new SharePoint list with values displayed as tags.
+  ![After](./assets/after.png)
 
 ## View requirements
 
