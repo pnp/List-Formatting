@@ -1,0 +1,80 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 175,
+  "width": 350,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "padding": "10px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "=[$ImageUrl]",
+              "alt": "Image"
+            },
+            "style": {
+              "width": "100%",
+              "border-radius": "6px",
+              "display": "block"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "center",
+              "gap": "8px",
+              "margin-top": "-45px",
+              "margin-bottom": "10px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Button1Url]",
+                  "target": "_blank"
+                },
+                "style": {
+                  "padding": "8px 16px",
+                  "background-color": "rgba(0, 120, 212, 0.9)",
+                  "color": "white",
+                  "border-radius": "4px",
+                  "text-decoration": "none",
+                  "font-size": "12px",
+                  "font-weight": "500"
+                },
+                "txtContent": "[$Button1Label]"
+              },
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Button2Url]",
+                  "target": "_blank"
+                },
+                "style": {
+                  "padding": "8px 16px",
+                  "background-color": "rgba(0, 120, 212, 0.9)",
+                  "color": "white",
+                  "border-radius": "4px",
+                  "text-decoration": "none",
+                  "font-size": "12px",
+                  "font-weight": "500"
+                },
+                "txtContent": "[$Button2Label]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
