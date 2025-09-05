@@ -19,7 +19,7 @@ This sample demonstrates using the `split` function (O365 only) to display a com
 
 | Solution           | Author(s)                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------- |
-| text-csv-tags.json | [Sudhir Kesharwani](https://github.com/sudhirke) ([@sudhirke](https://sudhirke.in)) |
+| text-comma-separated-value-tags.json | [Sudhir Kesharwani](https://github.com/sudhirke) ([@sudhirke](https://sudhirke.in)) |
 
 ## Version history
 
