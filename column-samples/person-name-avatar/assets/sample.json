@@ -4,13 +4,13 @@
     "reponame": "person-name-avatar",
     "source": "pnp",
     "title": "People Name Avatar Card",
-    "shortDescription": "This sample uses SharePoint List Formatting to display People Name Avatar data as a Card view.",
+    "shortDescription": "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/person-name-avatar",
     "longDescription": [
-      "This sample uses SharePoint List Formatting to display People Name Avatar as a Card view."
+      "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting."
     ],
-    "creationDateTime": "2025-08-19T00:00:00.000Z",
-    "updateDateTime": "2025-08-19T00:00:00.000Z",
+    "creationDateTime": "2025-08-25T00:00:00.000Z",
+    "updateDateTime": "2025-08-25T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -18,7 +18,7 @@
     "metadata": [
       {
         "key": "LIST-SAMPLE-TYPE",
-        "value": "View"
+        "value": "Column"
       },
       {
         "key": "SHAREPOINT-COMPATIBILITY",
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": ""
+        "value": "Person"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,15 +38,15 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number"
+        "value": "substring, length"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "defaultClick"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter"
+        "value": "customCardProps"
       },
       {
         "key": "CLASSES",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/person-name-avatar/assets/screenshot2.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-name-avatar/assets/screenshot2.png",
         "alt": "screenshot"
       }
     ],
@@ -70,9 +70,9 @@
     ],
     "references": [
       {
-        "name": "Use view formatting to customize SharePoint",
-        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       }
     ]
   }

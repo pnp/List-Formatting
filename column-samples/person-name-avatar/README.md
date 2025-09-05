@@ -11,11 +11,7 @@ This SharePoint column formatting sample provides a modern, interactive **People
 
 ## View Requirements
 
-This formatting works for lists with the following fields:
-
-| Field | Type | Description |
-|-------|------|-------------|
-| Email | Person or Group column | User’s email (must be of Person/Group type) |
+- This format expects to be applied to a Person column
 
 ---
 
@@ -68,7 +64,7 @@ The column will now display **custom avatars** with **hover cards** and **action
 
 | Solution | Author |
 |----------|--------|
-| people-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+| person-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
 
 ## Version history
 
@@ -80,4 +76,4 @@ The column will now display **custom avatars** with **hover cards** and **action
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
----
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-name-avatar" />

@@ -270,7 +270,6 @@
                         "border": "1px solid #e9ecef",
                         "text-decoration": "none",
                         "color": "#0078d4",
-                        "transition": "all 0.2s ease",
                         "cursor": "pointer"
                       },
                       "children": [
@@ -309,7 +308,6 @@
                         "border": "1px solid #e9ecef",
                         "text-decoration": "none",
                         "color": "#6264a7",
-                        "transition": "all 0.2s ease",
                         "cursor": "pointer"
                       },
                       "children": [
