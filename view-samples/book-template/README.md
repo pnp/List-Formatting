@@ -13,7 +13,6 @@ This SharePoint JSON view formatting sample transforms your list items into visu
 | Column Name      | Type                   | Description                                 |
 |------------------|------------------------|---------------------------------------------|
 | Title            | Single line of text    | Book title                                  |
-| Number           | Number                 | Book number or ID                           |
 | BookAuthor       | Single line of text    | Author of the book                          |
 | BookAbstract     | Multiple lines of text | Short extract or summary of the book        |
 | Category         | Single line of text    | Book category (e.g., Fantasy, Classic)      |
