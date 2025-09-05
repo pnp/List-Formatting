@@ -9,8 +9,8 @@
     "longDescription": [
       "This sample uses SharePoint List Formatting to display Contact Custom Avatar as a Card view."
     ],
-    "creationDateTime": "2025-08-19T00:00:00.000Z",
-    "updateDateTime": "2025-08-19T00:00:00.000Z",
+    "creationDateTime": "2025-08-25T00:00:00.000Z",
+    "updateDateTime": "2025-08-25T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number"
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter"
+        "value": ""
       },
       {
         "key": "CLASSES",

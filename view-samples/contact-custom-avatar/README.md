@@ -1,12 +1,10 @@
-# SharePoint Column Formatting – Contact Custom Avatar Card
+# SharePoint View Formatting – Contact Custom Avatar Card
 
 ## Summary
 
-This SharePoint column formatting sample provides a modern, interactive **Contact custom avatar card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
+This SharePoint view formatting sample provides a modern, interactive **Contact custom avatar card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
 
 ![Screenshot of Contact Custom Avatar Card](./assets/screenshot.png)
-
----
 
 ## View Requirements
 
@@ -15,8 +13,6 @@ This formatting works for lists with the following fields:
 | Field | Type | Description |
 |-------|------|-------------|
 | Email | Person or Group column | User’s email (must be of Person/Group type) |
-
----
 
 ## Key Features
 
@@ -34,8 +30,6 @@ This formatting works for lists with the following fields:
 - **Email icons** opens the default mail client with the user's email.
 - **Teams icons** opens Microsoft Teams for direct conversation.
 
----
-
 ## Usage Instructions
 1. Navigate to your **SharePoint list**.
 2. Click All items → **Add view**.
@@ -46,20 +40,16 @@ This formatting works for lists with the following fields:
 
 Your list will now display in a **Gallery (card-style) layout** with custom avatars and action buttons.
 
----
-
 ## Requirements
 - **SharePoint Online (Modern Experience)**
 - **Person or Group column type** for Email
 - Modern browser for full functionality
 
----
-
 ## Sample
 
 | Solution | Author |
 |----------|--------|
-| people-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+| contact-custom-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
 
 ## Version history
 
@@ -71,4 +61,4 @@ Your list will now display in a **Gallery (card-style) layout** with custom avat
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
----
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/contact-custom-avatar" />
