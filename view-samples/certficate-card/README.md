@@ -1,7 +1,7 @@
 # Certificate Card Formatting
 
 This sample uses **SharePoint List View Formatting** to display a **certificate-style card** for each employee.  
-Each row in the list is transformed into a visually rich certificate layout, including logos, gradients, employee details, certification information, and program authority.
+Each row in the list is transformed into a visually rich certificate layout, including logos, employee details, certification information, and program authority.
 
 ![screenshot of the sample](assets/screenshot.png)
 
@@ -28,7 +28,7 @@ Create a list with the following columns:
 
 ## How it Works
 
-- Each row is displayed as a **certificate card** with a gradient border, logo, employee name, certification name, and details.
+- Each row is displayed as a **certificate card** with a logo, employee name, certification name, and details.
 - **Employee Name** is highlighted with gradient text and uppercase letters.
 - **Credential Information** (Certificate ID, Issue Date, Expiry Date) is shown on the bottom left.
 - **Program Authority** (HR Manager) is shown on the bottom right with a signature line.
@@ -57,5 +57,7 @@ Version|Date|Comments
 
 - Change the Logo in the json code because SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *. 
 - Works best in **List view** with `EmployeeName` sorted ascending.
-- You can adjust **logo, gradients, colors, and shadows** in the JSON to match your corporate branding.
+- You can adjust **logo, colors, and shadows** in the JSON to match your corporate branding.
 - Compatible with **SharePoint Online Modern Lists**.  
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/certficate-card" />
