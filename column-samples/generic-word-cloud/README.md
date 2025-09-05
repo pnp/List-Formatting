@@ -121,7 +121,7 @@ The resulting word cloud will:
 
 Solution|Author
 --------|---------
-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version history
 
