@@ -4,7 +4,7 @@
 
 This SharePoint JSON view formatting sample transforms your list items into visually rich book cards. Each card displays a book cover, title, author, price, category, release date, best seller badge, and more. It is ideal for book catalogues, libraries, or online bookstore lists.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -22,9 +22,9 @@ This SharePoint JSON view formatting sample transforms your list items into visu
 | IsBestSeller     | Yes/No                 | Indicates if the book is a best seller      |
 | ReleaseDate      | Date and Time          | Book release date                           |
 | FindInStoreUrl   | Single line of text    | Link to find the book in a store (e.g., map)|
-| AddtoCart        | Yes/No                 | Add to cart flag                            |
+| AddToCart        | Yes/No                 | Add to cart flag                            |
 
-A ![PowerShell Script](assets/Create%20List.ps1) is provided in the assets folder to provision the list and add sample data.
+A [PowerShell Script](./assets/Create%20List.ps1) is provided in the assets folder to provision the list and add sample data.
 
 **Note:** This script uses [PnP PowerShell](https://pnp.github.io/powershell/) and requires an environment ready for PnP PowerShell.
 
