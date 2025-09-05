@@ -7,13 +7,9 @@ This SharePoint column formatting sample provides a modern, interactive **People
 ![Screenshot1 of People Card](./assets/screenshot1.png)
 ![Screenshot2 of People Card](./assets/screenshot2.png)
 
----
-
 ## View Requirements
 
 - This format expects to be applied to a Person column
-
----
 
 ## Key Features
 
@@ -41,8 +37,6 @@ This SharePoint column formatting sample provides a modern, interactive **People
 - Adapts to column widths and is mobile-friendly.
 - Flexible spacing ensures clean alignment of avatar, name, and actions.
 
----
-
 ## Usage Instructions
 1. Navigate to your **SharePoint list**.
 2. Click the column header → **Column settings** → **Format this column**.
@@ -51,14 +45,10 @@ This SharePoint column formatting sample provides a modern, interactive **People
 
 The column will now display **custom avatars** with **hover cards** and **action buttons**.
 
----
-
 ## Requirements
 - **SharePoint Online (Modern Experience)**
 - **Person or Group column type** for Email
 - Modern browser for full functionality
-
----
 
 ## Sample
 
@@ -71,7 +61,6 @@ The column will now display **custom avatars** with **hover cards** and **action
 | Version | Date | Comments |
 |---------|------|---------|
 | 1.0 | August 25, 2025 | Initial release |
-
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
