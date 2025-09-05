@@ -120,7 +120,7 @@
               "color": "#555",
               "margin-bottom": "10px"
             },
-            "txtContent": "= 'Released On ' + [$ReleaseDate]"
+            "txtContent": "= 'Released On ' + [$ReleaseDate.displayValue]"
           },
           {
             "elmType": "div",
