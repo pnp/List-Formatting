@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-people-name-avatar",
-    "reponame": "people-name-avatar",
+    "name": "pnp-list-formatting-person-name-avatar",
+    "reponame": "person-name-avatar",
     "source": "pnp",
     "title": "People Name Avatar Card",
     "shortDescription": "This sample uses SharePoint List Formatting to display People Name Avatar data as a Card view.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/people-name-avatar",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/person-name-avatar",
     "longDescription": [
       "This sample uses SharePoint List Formatting to display People Name Avatar as a Card view."
     ],
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/people-name-avatar/assets/screenshot2.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/person-name-avatar/assets/screenshot2.png",
         "alt": "screenshot"
       }
     ],
