@@ -70,7 +70,7 @@ The bubble chart is created using a single JSON file that applies to a column in
 
 | Solution | Author |
 | --- | --- |
-| `bubble-chart.json` | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+| generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
 
 -----
 
