@@ -1,4 +1,4 @@
-# Text Contains
+# Display Comma-Separated Text as Tags
 
 ## Summary
 
@@ -35,6 +35,8 @@ This sample demonstrates using the `split` function (O365 only) to display a com
 
 ## Additional notes
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Use column formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 
 - This sample was built and tested on SharePoint Online. This may not work on the ON-PREM SharePoint editions.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-comma-separated-value-tags" />
