@@ -1,4 +1,4 @@
-# BAR Code Row Formatter
+# Bar Code Row Formatter
 
 This sample uses **SharePoint List Formatting** to automatically generate Bar code for each list item based on the Title field.  
 Each row displays the item title alongside a dynamically generated Bar code, making it easy to create scannable links or references for physical handouts, inventory tracking, or event management.
@@ -90,3 +90,5 @@ Replace `[$Title]` with any other text field:
 
 ## License
 This formatting solution is provided as-is for educational and professional use. The barcodeapi.org API has its own terms of service.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bar-code" />

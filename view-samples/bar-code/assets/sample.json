@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-bar-code",
     "reponame": "bar-code",
     "source": "pnp",
-    "title": "",
-    "shortDescription": "",
+    "title": "Bar Code Row Formatter",
+    "shortDescription": "This sample uses SharePoint List Formatting to automatically generate Bar code for each list item based on the Title field.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/bar-code",
     "longDescription": [
-      ""
+      "This sample uses SharePoint List Formatting to automatically generate Bar code for each list item based on the Title field."
     ],
     "creationDateTime": "2025-08-29T00:00:00.000Z",
     "updateDateTime": "2025-08-29T00:00:00.000Z",
