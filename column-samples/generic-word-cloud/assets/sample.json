@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-word-cloud",
-    "reponame": "word-cloud",
+    "name": "pnp-list-formatting-generic-word-cloud",
+    "reponame": "generic-word-cloud",
     "source": "pnp",
     "title": "Word Cloud Column Formatting",
     "shortDescription": "This sample demonstrates how to use SharePoint Column Formatting to generate a dynamic word cloud for list items.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/word-cloud",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-word-cloud",
     "longDescription": [
       "This sample demonstrates how to create a dynamic word cloud using SharePoint Column Formatting JSON. It displays words from multiple label columns with varying font sizes, colors, and bold styling based on word length and specific highlights."
     ],
@@ -26,19 +26,19 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Visualization, Word Cloud"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Single line of text"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "txtContent, style"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "if, indexOf, +, ||"
+        "value": "indexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,18 +46,18 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "Dynamic font size, color coding, bold highlighting"
+        "value": ""
       },
       {
         "key": "CLASSES",
-        "value": "flex, flex-wrap"
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/word-cloud/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-word-cloud/assets/screenshot.png",
         "alt": "Word Cloud Screenshot"
       }
     ],
