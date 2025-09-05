@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-bar-graph",
-    "reponame": "bar-graph",
+    "name": "pnp-list-formatting-bar-code",
+    "reponame": "bar-code",
     "source": "pnp",
-    "title": "Bar Graph",
-    "shortDescription": "This sample shows how to format a list to show the data as a bar graph.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/bar-graph",
+    "title": "",
+    "shortDescription": "",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/bar-code",
     "longDescription": [
-      "This sample shows how to format a list to show the data as a bar graph."
+      ""
     ],
-    "creationDateTime": "2019-09-02T00:00:00.000Z",
-    "updateDateTime": "2019-09-02T00:00:00.000Z",
+    "creationDateTime": "2025-08-29T00:00:00.000Z",
+    "updateDateTime": "2025-08-29T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons, Charts"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@rowIndex"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -46,32 +46,26 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter"
+        "value": "rowFormatter"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themePrimary--hover, ms-bgColor-themeLighterAlt, ms-bgColor-themeDarker, ms-fontColor-themeDark, ms-fontColor-white, ms-fontColor-white--hover, ms-font-m"
+        "value": ""
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bar-graph/assets/screenshot.png",
-        "alt": "bargraph"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bar-graph/assets/bargraph.gif",
-        "alt": "bargraph animated"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bar-code/assets/screenshot.png",
+        "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "anoopt",
-        "pictureUrl": "https://github.com/anoopt.png",
-        "name": "Anoop Tatti"
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
       }
     ],
     "references": [
