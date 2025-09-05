@@ -99,3 +99,5 @@ Replace `[$Title]` with any other text field:
 
 ## License
 This formatting solution is provided as-is for educational and professional use. The QRServer.com API has its own terms of service.
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/qr-code" />
