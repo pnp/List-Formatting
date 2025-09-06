@@ -35,9 +35,9 @@ Your SharePoint list must have the following columns:
 2. **Click the view dropdown** (next to "All Items")
 3. **Select "Create new view"**
 4. **Choose "Tiles"** layout
-5. **Name your view** "Funnel Chart View"
+5. **Name your view** "Image View"
 6. **Click "Create"**
-7. **Click the Funnel Chart View dropdown**
+7. **Click the Image View dropdown**
 8. **Click "Format current view"**
 9. **Click "Advanced mode"**
 10. **Copy the entire JSON code** from the `image-overlay-buttons.json` file
