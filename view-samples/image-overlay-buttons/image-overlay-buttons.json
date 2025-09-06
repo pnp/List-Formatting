@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
-  "height": 175,
+  "height": 200,
   "width": 350,
   "hideSelection": true,
   "formatter": {
@@ -12,7 +12,10 @@
       {
         "elmType": "div",
         "style": {
-          "width": "100%"
+          "width": "100%",
+          "border-radius": "8px",
+          "overflow": "hidden",
+          "box-shadow": "0 2px 8px rgba(0,0,0,0.1)"
         },
         "children": [
           {
@@ -23,53 +26,66 @@
             },
             "style": {
               "width": "100%",
-              "border-radius": "6px",
-              "display": "block"
+              "height": "160px",
+              "border-radius": "8px 8px 0 0"
             }
           },
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
-              "justify-content": "center",
-              "gap": "8px",
-              "margin-top": "-45px",
-              "margin-bottom": "10px"
+              "background": "linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6))",
+              "padding": "15px",
+              "margin-top": "-80px",
+              "border-radius": "0 0 8px 8px"
             },
             "children": [
               {
-                "elmType": "a",
-                "attributes": {
-                  "href": "=[$Button1Url]",
-                  "target": "_blank"
-                },
+                "elmType": "div",
                 "style": {
-                  "padding": "8px 16px",
-                  "background-color": "rgba(0, 120, 212, 0.9)",
-                  "color": "white",
-                  "border-radius": "4px",
-                  "text-decoration": "none",
-                  "font-size": "12px",
-                  "font-weight": "500"
+                  "display": "flex",
+                  "justify-content": "center",
+                  "gap": "10px"
                 },
-                "txtContent": "[$Button1Label]"
-              },
-              {
-                "elmType": "a",
-                "attributes": {
-                  "href": "=[$Button2Url]",
-                  "target": "_blank"
-                },
-                "style": {
-                  "padding": "8px 16px",
-                  "background-color": "rgba(0, 120, 212, 0.9)",
-                  "color": "white",
-                  "border-radius": "4px",
-                  "text-decoration": "none",
-                  "font-size": "12px",
-                  "font-weight": "500"
-                },
-                "txtContent": "[$Button2Label]"
+                "children": [
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "=[$Button1Url]",
+                      "target": "_blank"
+                    },
+                    "style": {
+                      "padding": "8px 16px",
+                      "background-color": "rgba(0, 120, 212, 0.9)",
+                      "color": "white",
+                      "border-radius": "20px",
+                      "text-decoration": "none",
+                      "font-size": "12px",
+                      "font-weight": "600",
+                      "text-align": "center",
+                      "min-width": "60px"
+                    },
+                    "txtContent": "=if([$Button1Label] == '', 'Action', [$Button1Label])"
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "=[$Button2Url]",
+                      "target": "_blank"
+                    },
+                    "style": {
+                      "padding": "8px 16px",
+                      "background-color": "rgba(0, 120, 212, 0.9)",
+                      "color": "white",
+                      "border-radius": "20px",
+                      "text-decoration": "none",
+                      "font-size": "12px",
+                      "font-weight": "600",
+                      "text-align": "center",
+                      "min-width": "60px"
+                    },
+                    "txtContent": "=if([$Button2Label] == '', 'View', [$Button2Label])"
+                  }
+                ]
               }
             ]
           }
@@ -77,4 +93,4 @@
       }
     ]
   }
-}
+} 

@@ -1,21 +1,21 @@
 # SharePoint List Formatting - Image with Overlay Buttons
 
-A custom SharePoint list formatting JSON that displays images with overlay buttons in a modern card layout.
+A custom SharePoint list formatting JSON that displays images with overlay buttons in a modern card layout, designed to work consistently across all image aspect ratios.
 
 ## Overview
 
-This formatting creates an attractive card-style view for SharePoint lists containing images with action buttons overlaid on the image. Perfect for galleries, product catalogs, or any list where you need quick actions on visual content.
+This improved formatting creates an attractive card-style view for SharePoint lists containing images with action buttons overlaid on the image. The solution uses absolute positioning and a consistent container height to ensure buttons appear reliably regardless of image orientation or aspect ratio.
 
 ![screenshot of the sample](assets/screenshot.png)
 
 ## Features
 
-- **Image Display**: Full-width responsive images with rounded corners
-- **Overlay Buttons**: Two action buttons positioned over the bottom of the image
-- **Semi-transparent Design**: Buttons have a glass effect with transparency
-- **Responsive Layout**: Adapts to different screen sizes
-- **Modern Styling**: Clean, professional appearance with proper spacing
-- **External Links**: Buttons can link to any external URL
+- **Responsive Image Display**: Images fill container while maintaining aspect ratio
+- **Consistent Overlay Buttons**: Always positioned at bottom with gradient background
+- **Modern Glassmorphism Design**: Semi-transparent buttons with backdrop blur
+- **Universal Compatibility**: Works with portrait, landscape, and square images
+- **Professional Styling**: Clean appearance with shadows and rounded corners
+- **Secure External Links**: Opens in new tab with proper security attributes
 
 ## Prerequisites
 
@@ -31,32 +31,21 @@ Your SharePoint list must have the following columns:
 
 ## Installation
 
-1. Navigate to your SharePoint list
-2. Click on **Format current view** (or the view dropdown → **Format current view**)
-3. Select **Tiles** layout if not already selected
-4. Click **Format tiles**
-5. Copy and paste the JSON code from the formatting file
-6. Click **Preview** to see the result
-7. Click **Save** to apply the formatting
+1. Navigate to **SharePoint list**
+2. **Click the view dropdown** (next to "All Items")
+3. **Select "Create new view"**
+4. **Choose "Tiles"** layout
+5. **Name your view** "Funnel Chart View"
+6. **Click "Create"**
+7. **Click the Funnel Chart View dropdown**
+8. **Click "Format current view"**
+9. **Click "Advanced mode"**
+10. **Copy the entire JSON code** from the `image-overlay-buttons.json` file
+11. **Paste it** into the formatting panel
+12. **Click "Preview"** to see your funnel chart
+13. **Click "Save"** to apply the formatting
 
 ## Customization Options
-
-### Button Position
-Adjust the `margin-top` value in the buttons container to change vertical position:
-```json
-"margin-top": "-45px"  // Bottom of image (default)
-"margin-top": "-120px" // Middle of image
-"margin-top": "-200px" // Top of image
-```
-
-### Button Colors
-Modify the `background-color` property:
-```json
-"background-color": "rgba(0, 120, 212, 0.9)" // Blue (default)
-"background-color": "rgba(76, 175, 80, 0.9)"  // Green
-"background-color": "rgba(244, 67, 54, 0.9)"  // Red
-```
-
 ### Card Size
 Adjust the dimensions in the root configuration:
 ```json
@@ -79,6 +68,73 @@ Adjust the dimensions in the root configuration:
 - Ensure `Button1Url` and `Button2Url` columns contain valid URLs
 - Check if external links are allowed in your SharePoint environment
 
+## Technical Details
+
+### Container Specifications
+- **Height**: 200px total (160px image + 40px padding)
+- **Width**: 350px (responsive within container)
+- **Image Container**: Fixed 160px height.
+
+## Customization Guide
+
+### Adjust Container Height
+Change the image container height in the style:
+```json
+"height": "160px"  // Standard (default)
+"height": "200px"  // Taller
+"height": "120px"  // Shorter
+```
+
+### Modify Button Colors
+Update button background colors:
+```json
+// Button 1 (Light)
+"background-color": "rgba(255, 255, 255, 0.95)"
+
+// Button 2 (Primary) - Examples:
+"background-color": "rgba(0, 120, 212, 0.95)"  // Blue (default)
+"background-color": "rgba(16, 124, 16, 0.95)"  // Green
+"background-color": "rgba(196, 49, 75, 0.95)"  // Red
+```
+
+### Adjust Button Spacing
+Modify the gap between buttons:
+```json
+"gap": "10px"  // Standard (default)
+"gap": "15px"  // Wider spacing
+"gap": "5px"   // Closer spacing
+```
+
+### Change Border Radius
+Adjust corner rounding:
+```json
+"border-radius": "8px"   // Standard (default)
+"border-radius": "12px"  // More rounded
+"border-radius": "4px"   // Less rounded
+"border-radius": "0"     // Square corners
+```
+
+## Troubleshooting
+
+### Common Issues and Solutions
+
+**Buttons not visible on certain images**
+- The improved version uses absolute positioning - this should be resolved
+- Verify the gradient overlay is not being overridden by custom CSS
+
+**Buttons not clickable**
+- Ensure URL columns contain valid URLs with proper protocol (https://)
+- Check SharePoint external link policies
+
+**Performance issues with many images**
+- Consider using optimized/resized images
+- Implement pagination if displaying many items
+
+### Image Requirements
+- **Recommended size**: 350px width or larger for best quality
+- **Aspect ratio**: Any (formatting handles all ratios)
+- **File size**: Keep under 5MB for optimal performance
+
 ## Example Data
 
 Here's sample data for testing:
@@ -86,6 +142,13 @@ Here's sample data for testing:
 | ImageUrl| Button1Label | Button1Url | Button2Label | Button2Url |
 |----------|--------------|------------|--------------|------------|
 | `https://tenant.sharepoint.com/sites/sitename/Documents/image1.jpg`| Button1 | `https://example.com/button1` | Button2 | `https://example.com/button2` |
+
+### Test Images
+For testing different aspect ratios:
+- **Landscape**: 16:9, 4:3 ratios
+- **Portrait**: 3:4, 9:16 ratios  
+- **Square**: 1:1 ratio
+
 
 ### Sample
 
