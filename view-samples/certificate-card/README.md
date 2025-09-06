@@ -60,4 +60,4 @@ Version|Date|Comments
 - You can adjust **logo, colors, and shadows** in the JSON to match your corporate branding.
 - Compatible with **SharePoint Online Modern Lists**.  
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/certficate-card" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/certificate-card" />
