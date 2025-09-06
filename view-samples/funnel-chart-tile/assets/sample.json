@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-funnel-chart-tile",
     "reponame": "funnel-chart-tile",
     "source": "pnp",
-    "title": "Funnel Chart Tile Card",
+    "title": "Funnel Chart",
     "shortDescription": "This sample displays funnel chart stages in a modern dashboard-style tile card with proportional widths and customizable colors.",
     "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/funnel-chart-tile",
     "longDescription": [

@@ -34,13 +34,19 @@ Create a **Custom List** with the following columns:
 
 ## Installation
 
-1. Navigate to your SharePoint list
-2. Click on **Format current view** (or the view dropdown → **Format current view**)
-3. Select **Tiles** layout if not already selected
-4. Click **Format tiles**
-5. Copy and paste the JSON code from the formatting file
-6. Click **Preview** to see the result
-7. Click **Save** to apply the formatting
+### Create and Format the View:
+1. **Click the view dropdown** (next to "All Items")
+2. **Select "Create new view"**
+3. **Choose "Tiles"** layout
+4. **Name your view** "Funnel Chart View"
+5. **Click "Create"**
+6. **Click the Funnel Chart View dropdown**
+7. **Click "Format current view"**
+8. **Click "Advanced mode"**
+9. **Copy the entire JSON code** from the `funnel-chart-tile.json` file
+10. **Paste it** into the formatting panel
+11. **Click "Preview"** to see your funnel chart
+12. **Click "Save"** to apply the formatting
 
 
 ### Sample
