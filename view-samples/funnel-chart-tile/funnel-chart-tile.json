@@ -1,0 +1,103 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 500,
+  "height": 300,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "padding": "12px",
+      "border": "1px solid #ddd",
+      "border-radius": "8px",  
+      "background-color": "white"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "font-size": "16px",
+          "font-weight": "600",
+          "margin-bottom": "12px"
+        },
+        "txtContent": "[$Title]"
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "gap": "6px",
+          "width": "100%"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "height": "40px",
+              "width": "=([$Stage1]*4) + 'px'",
+              "background-color": "[$Stage1Color]",
+              "margin": "auto",
+              "border-radius": "4px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "color": "white",
+              "font-weight": "600"
+            },
+            "txtContent": "=[$Stage1Label] + ' (' + [$Stage1] + ')'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "height": "40px",
+              "width": "=([$Stage2]*4) + 'px'",
+              "background-color": "[$Stage2Color]",
+              "margin": "auto",
+              "border-radius": "4px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "color": "white",
+              "font-weight": "600"
+            },
+            "txtContent": "=[$Stage2Label] + ' (' + [$Stage2] + ')'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "height": "40px",
+              "width": "=([$Stage3]*4) + 'px'",
+              "background-color": "[$Stage3Color]",
+              "margin": "auto",
+              "border-radius": "4px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "color": "white",
+              "font-weight": "600"
+            },
+            "txtContent": "=[$Stage3Label] + ' (' + [$Stage3] + ')'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "height": "40px",
+              "width": "=([$Stage4]*4) + 'px'",
+              "background-color": "[$Stage4Color]",
+              "margin": "auto",
+              "border-radius": "4px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "color": "white",
+              "font-weight": "600"
+            },
+            "txtContent": "=[$Stage4Label] + ' (' + [$Stage4] + ')'"
+          }
+        ]
+      }
+    ]
+  }
+}
