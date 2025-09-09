@@ -3,7 +3,7 @@
 ## Summary  
 Shows how many days are left until a date or how many days have passed since a date, right inside a SharePoint list column. Color-coded for quick scanning.\
 \
-![screenshot of the sample 1](./assets/asset1.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 This format can be applied to any column type but expects the following columns to be part of the view:
