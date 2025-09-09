@@ -11,7 +11,7 @@ This improved formatting creates an attractive card-style view for SharePoint li
 ## Features
 
 - **Responsive Image Display**: Images fill container while maintaining aspect ratio
-- **Consistent Overlay Buttons**: Always positioned at bottom with gradient background
+- **Consistent Overlay Buttons**: Always positioned at bottom
 - **Modern Glassmorphism Design**: Semi-transparent buttons with backdrop blur
 - **Universal Compatibility**: Works with portrait, landscape, and square images
 - **Professional Styling**: Clean appearance with shadows and rounded corners
@@ -34,7 +34,7 @@ Your SharePoint list must have the following columns:
 1. Navigate to **SharePoint list**
 2. **Click the view dropdown** (next to "All Items")
 3. **Select "Create new view"**
-4. **Choose "Tiles"** layout
+4. **Choose "Gallery"** layout
 5. **Name your view** "Image View"
 6. **Click "Create"**
 7. **Click the Image View dropdown**
@@ -120,7 +120,6 @@ Adjust corner rounding:
 
 **Buttons not visible on certain images**
 - The improved version uses absolute positioning - this should be resolved
-- Verify the gradient overlay is not being overridden by custom CSS
 
 **Buttons not clickable**
 - Ensure URL columns contain valid URLs with proper protocol (https://)
@@ -154,7 +153,7 @@ For testing different aspect ratios:
 
 Solution|Author
 --------|---------
-image-overlay.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version history
 
@@ -164,3 +163,5 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-overlay-buttons" />
