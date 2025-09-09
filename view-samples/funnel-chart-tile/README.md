@@ -4,9 +4,7 @@ This sample demonstrates how to render a **Funnel Chart** inside a **Tile card s
 
 The funnel chart is useful for visualizing pipeline stages such as **Leads → Qualified → Proposal → Closed**, with stage widths proportional to numeric values.
 
----
-
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## What You'll Need
 
@@ -66,7 +64,7 @@ You need to add these columns to your newly created list:
 ### Create and Format the View:
 1. **Click the view dropdown** (next to "All Items")
 2. **Select "Create new view"**
-3. **Choose "Tiles"** layout
+3. **Choose "Gallery"** layout
 4. **Name your view** "Funnel Chart View"
 5. **Click "Create"**
 6. **Click the Funnel Chart View dropdown**
@@ -93,8 +91,6 @@ You need to add these columns to your newly created list:
 - Use proper hex color format: #000000
 - Avoid color names like "red" or "blue"
 
----
-
 ## Sample
 
 | File | Author |
@@ -109,3 +105,5 @@ You need to add these columns to your newly created list:
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/funnel-chart-tile" />

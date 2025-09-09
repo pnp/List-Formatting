@@ -18,7 +18,7 @@
     "metadata": [
       {
         "key": "LIST-SAMPLE-TYPE",
-        "value": "Tile"
+        "value": "View"
       },
       {
         "key": "SHAREPOINT-COMPATIBILITY",
@@ -26,19 +26,19 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Dashboard, Charts, Visual"
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Number"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "[$Title], [$Stage1], [$Stage1Label], [$Stage1Color], [$Stage2], [$Stage2Label], [$Stage2Color], [$Stage3], [$Stage3Label], [$Stage3Color], [$Stage4], [$Stage4Label], [$Stage4Color]"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "=, +"
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "tileFormatter, proportionalWidths, customColors, responsiveDesign"
+        "value": "hideSelection"
       },
       {
         "key": "CLASSES",
@@ -73,11 +73,6 @@
         "name": "Use view formatting to customize SharePoint",
         "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
-      },
-      {
-        "name": "SharePoint List Formatting Tiles",
-        "description": "Learn how to create custom tile layouts for SharePoint lists and libraries using JSON formatting.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting#creating-custom-tiles"
       }
     ]
   }
