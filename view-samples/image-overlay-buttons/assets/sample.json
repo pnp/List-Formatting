@@ -1,4 +1,3 @@
-
 [
   {
     "name": "pnp-list-formatting-image-overlay-buttons",
@@ -27,15 +26,15 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Gallery, Media, Visual"
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Hyperlink"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "[$ImageUrl], [$Button1Label], [$Button1Url], [$Button2Label], [$Button2Url]"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -43,11 +42,11 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "External Links"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, tileFormatter, overlayButtons, glassMorphism, responsiveDesign"
+        "value": "hideSelection"
       },
       {
         "key": "CLASSES",
@@ -74,11 +73,6 @@
         "name": "Use view formatting to customize SharePoint",
         "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
-      },
-      {
-        "name": "SharePoint List Formatting Tiles",
-        "description": "Learn how to create custom tile layouts for SharePoint lists and libraries using JSON formatting.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting#creating-custom-tiles"
       }
     ]
   }
