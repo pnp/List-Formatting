@@ -15,7 +15,7 @@ This format can be applied to any column type but expects the following columns 
 ## Sample
 Solution|Author(s)
 --------|---------
-day-counter.json | [Tanel Vahk](https://github.com/tvahk)
+date-day-counter.json | [Tanel Vahk](https://github.com/tvahk)
 
 ## Version history
 Version |Date             |Comments
