@@ -1,16 +1,12 @@
 # Days Counter
 
 ## Summary  
-Shows how many days are left until a date or how many days have passed since a date, right inside a SharePoint list column. Color-coded for quick scanning.\
-\
+This sample shows how many days are left until a date or how many days have passed since a date, right inside a SharePoint list column. Color-coded for quick scanning.
+
 ![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
-This format can be applied to any column type but expects the following columns to be part of the view:
-
-|Type   |Internal Name |Required|
-|-------|--------------|:------:|
-|DateTime |Any           |Yes     |
+This format can be applied to a Date column.
 
 ## Sample
 Solution|Author(s)
@@ -24,3 +20,5 @@ Version |Date             |Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-day-counter" />
