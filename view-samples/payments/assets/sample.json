@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group.count, @group.columnDisplayName"
+        "value": "@group.count, @group.columnDisplayName, @rowIndex"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number, Date, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear"
+        "value": "Number, Date, toLocaleDateString, indexOf, length, substring, getDate, getMonth, getYear, toUpperCase"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-themePrimary, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-purple, ms-bgColor-blue, ms-bgColor-green, ms-bgColor-gray10--hover, ms-bgColor-sharedYellow10, ms-fontColor-white, ms-fontColor-black, ms-fontColor-red, ms-fontColor-gray100, ms-fontColor-gray90, ms-fontWeight-semibold, ms-fontWeight-bold, ms-fontSize-32, ms-fontSize-24, ms-fontSize-20, ms-fontSize-18, ms-fontSize-16, ms-fontSize-14, ms-fontSize-12, ms-bgColor-info--hover"
+        "value": "ms-bgColor-themePrimary, ms-bgColor-orangeLighter, ms-bgColor-red, ms-bgColor-purple, ms-bgColor-blue, ms-bgColor-green, ms-bgColor-gray10--hover, ms-bgColor-sharedYellow10, ms-fontColor-white, ms-fontColor-black, ms-fontColor-red, ms-fontColor-gray100, ms-fontColor-gray90, ms-fontWeight-semibold, ms-fontWeight-bold, ms-fontSize-32, ms-fontSize-24, ms-fontSize-20, ms-fontSize-18, ms-fontSize-16, ms-fontSize-14, ms-fontSize-12, ms-bgColor-info--hover, ms-fontColor-themePrimary, ms-fontSize-28, sp-css-backgroundColor-neutralLighterAlt, ms-fontColor-themeTertiary--hover, ms-fontSize-68, ms-fontSize-42, ms-fontSize-10, sp-css-backgroundColor-neutralLighterAlt, ms-bgColor-severeWarning, ms-fontColor-neutralQuaternary"
       }
     ],
     "thumbnails": [
