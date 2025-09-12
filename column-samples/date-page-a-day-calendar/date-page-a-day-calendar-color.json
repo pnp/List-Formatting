@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'flex','none')",
+    "margin": "5px 0 5px 0"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "width": "39px",
+        "height": "49px",
+        "border-radius": "8px",
+        "border": "3px solid",
+        "background-color": "white",
+        "border-color": "=if(@currentField>@now, '#107c10', if(toDateString(@currentField)==toDateString(@now), '#c43b33', 'gray'))",
+        "box-shadow": "0 1px 3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1)"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC', getMonth(@currentField)*3, getMonth(@currentField)*3+3)",
+          "style": {
+            "display": "flex",
+            "padding-bottom": "3px",
+            "justify-content": "center",
+            "letter-spacing": "1px",
+            "font-weight": "bold",
+            "background-color": "=if(@currentField>@now, '#107c10', if(toDateString(@currentField)==toDateString(@now), '#c43b33', 'gray'))",
+            "color": "white"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=getDate(@currentField)",
+          "style": {
+            "display": "flex",
+            "justify-content": "center",
+            "font-size": "22px",
+            "font-weight": "bold",
+            "position": "relative",
+            "top": "-1px"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "center",
+      "border": "2px solid #0078d4",
+      "padding": "30px",
+      "border-radius": "8px",
+      "text-align": "center",
+      "font-family": "Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif",
+      "margin-bottom": "15px",
+      "position": "relative",
+      "min-height": "400px",
+      "overflow": "hidden"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "0",
+          "left": "0",
+          "right": "0",
+          "height": "8px",
+          "background": "#0078d4",
+          "border-radius": "10px 10px 0 0"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "20px",
+          "left": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "border": "1px solid #e0f0ff",
+          "border-radius": "6px",
+          "pointer-events": "none"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "80px",
+          "height": "80px",
+          "border-radius": "50%",
+          "background": "#0078d4",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "margin-bottom": "20px",
+          "border": "3px solid #ffffff",
+          "z-index": "10",
+          "position": "relative"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "https://tenant.sharepoint.com/:i:/r/sites/saitename/SiteAssets/image.png", //Change the logo SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *.
+              "alt": "Certificate Logo"
+            },
+            "style": {
+              "width": "50px",
+              "height": "50px",
+              "object-fit": "contain"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "Microsoft Learn",
+        "style": {
+          "font-weight": "500",
+          "margin-bottom": "6px",
+          "font-size": "14px",
+          "color": "#0078d4",
+          "text-transform": "uppercase",
+          "letter-spacing": "2px"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "CERTIFICATE OF COMPLETION",
+        "style": {
+          "font-weight": "800",
+          "margin-bottom": "22px",
+          "font-size": "22px",
+          "color": "#323130",
+          "letter-spacing": "1px"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "This is to certify that",
+        "style": {
+          "margin-bottom": "8px",
+          "font-size": "16px",
+          "color": "#605e5c",
+          "font-style": "italic",
+          "font-weight": "400"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$EmployeeName]",
+        "style": {
+          "font-size": "28px",
+          "font-weight": "800",
+          "color": "#0078d4",
+          "margin-bottom": "18px",
+          "text-transform": "uppercase",
+          "letter-spacing": "2px",
+          "position": "relative"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "has successfully completed the learning path",
+        "style": {
+          "margin-bottom": "15px",
+          "font-size": "16px",
+          "color": "#605e5c",
+          "font-weight": "400"
+        }
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$CertificationName]",
+        "style": {
+          "font-size": "20px",
+          "font-weight": "700",
+          "color": "#323130",
+          "margin-bottom": "20px",
+          "padding": "15px 20px",
+          "background": "#f0f8ff",
+          "border-radius": "8px",
+          "border": "1px solid #e0f0ff"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "space-between",
+          "width": "100%",
+          "padding-top": "20px",
+          "border-top": "2px solid #e0f0ff"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "text-align": "left",
+              "flex": "1"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "CREDENTIAL INFORMATION",
+                "style": {
+                  "font-weight": "800",
+                  "margin-bottom": "8px",
+                  "font-size": "11px",
+                  "color": "#0078d4",
+                  "letter-spacing": "1px",
+                  "text-transform": "uppercase"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "='Certificate ID: ' + [$CertificateID]",
+                "style": {
+                  "margin-bottom": "6px",
+                  "font-size": "8px",
+                  "color": "#323130",
+                  "font-weight": "600"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "='Issued: ' + toLocaleDateString([$IssueDate])",
+                "style": {
+                  "margin-bottom": "6px",
+                  "font-size": "8px",
+                  "color": "#323130",
+                  "font-weight": "600"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "='Expires: ' + toLocaleDateString([$ExpiryDate])",
+                "style": {
+                  "font-size": "8px",
+                  "color": "#323130",
+                  "font-weight": "600"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "text-align": "right",
+              "flex": "1"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "PROGRAM AUTHORITY",
+                "style": {
+                  "font-weight": "800",
+                  "margin-bottom": "8px",
+                  "font-size": "11px",
+                  "color": "#0078d4",
+                  "letter-spacing": "1px",
+                  "text-transform": "uppercase"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "border-bottom": "2px solid #0078d4",
+                  "width": "140px",
+                  "margin-left": "auto",
+                  "margin-bottom": "8px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$HRManager]",
+                "style": {
+                  "font-size": "16px",
+                  "font-weight": "700",
+                  "margin-bottom": "4px",
+                  "color": "#323130"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "Learning Director",
+                "style": {
+                  "font-size": "8px",
+                  "color": "#605e5c",
+                  "font-weight": "600"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "bottom": "15px",
+          "right": "15px",
+          "width": "40px",
+          "height": "40px",
+          "border-radius": "50%",
+          "background": "#0078d4",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "z-index": "10"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "✓",
+            "style": {
+              "font-size": "20px",
+              "font-weight": "900",
+              "color": "#008000"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

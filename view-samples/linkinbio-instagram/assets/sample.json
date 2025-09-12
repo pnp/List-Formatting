@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-linkinbio-instagram",
+    "reponame": "linkinbio-instagram",
+    "source": "pnp",
+    "title": "Linkinbio_Instagram",
+    "shortDescription": "An instagram-inspired bio page for users.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/linkinbio-instagram",
+    "longDescription": [
+      "This sample creates a instagram-inspired bio page for users.A Link in bio page is important for people to have because it provides a centralized location where they can direct their followers or potential customers to access more information about them, their products, or their services"
+    ],
+    "creationDateTime": "2023-04-22T00:00:00.000Z",
+    "updateDateTime": "2023-04-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, SVG, Gallery, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@isSelected"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getUserImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "defaultHoverField"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-themePrimary--hover, ms-bgColor-purpleDark--hover, ms-fontColor-black, ms-fontWeight-semibold, ms-font-xl, sp-row-listPadding, sp-row-button, ms-bgColor-blue, ms-bgColor-blueLight"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/linkinbio-instagram/assets/screenshot.png",
+        "alt": "screenshot of the sample"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "anandragav",
+        "pictureUrl": "https://github.com/anandragav.png",
+        "name": "Anand Ragav"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
