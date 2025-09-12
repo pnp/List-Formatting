@@ -34,7 +34,7 @@
           {
             "elmType": "img",
             "attributes": {
-              "src": "='/_layouts/15/userphoto.aspx?size=S&username=' + [$Person.email]",
+              "src": "=getUserImage([$Person.email],'L')",
               "title": "[$Person.title]",
               "alt": "[$erson.title]"
             },
@@ -44,7 +44,8 @@
               "border-radius": "50%",
               "object-fit": "cover",
               "margin-right": "12px"
-            }
+            },
+            "defaultHoverField": "[$Person]"
           },
           {
             "elmType": "div",
@@ -83,7 +84,8 @@
         "style": {
           "display": "flex",
           "flex-direction": "row",
-          "justify-content": "space-between",
+          "justify-content": "flex-start",
+          "flex-wrap": "wrap",
           "margin-bottom": "10px"
         },
         "children": [
@@ -100,7 +102,8 @@
               "background-color": "#363636",
               "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.4)",
               "margin": "4px",
-              "display": "=if([$Website] == '', 'none', 'block')"
+              "display": "=if([$Website], 'flex', 'none')",
+              "align-items": "center"
             },
             "children": [
               {
@@ -124,17 +127,18 @@
           {
             "elmType": "div",
             "attributes": {
-              "iconName": "Blog"
+              "iconName": "Blog",
+              "class": "ms-bgColor-blue"
             },
             "style": {
               "color": "white",
               "padding": "8px",
               "border": "0.5px solid #363636",
               "border-radius": "8px",
-              "background-color": "#363636",
               "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.4)",
               "margin": "4px",
-              "display": "=if([$Blog] == '', 'none', 'block')"
+              "display": "=if([$Blog], 'flex', 'none')",
+              "align-items": "center"
             },
             "children": [
               {
@@ -158,17 +162,18 @@
           {
             "elmType": "div",
             "attributes": {
-              "iconName": "Articles"
+              "iconName": "Articles",
+              "class": "ms-bgColor-blueLight"
             },
             "style": {
               "color": "white",
               "padding": "8px",
               "border": "0.5px solid #363636",
               "border-radius": "8px",
-              "background-color": "#363636",
               "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
               "margin": "4px",
-              "display": "=if([$Newsletter] == '', 'none', 'block')"
+              "display": "=if([$Newsletter], 'flex', 'none')",
+              "align-items": "center"
             },
             "children": [
               {
@@ -210,8 +215,8 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "[$Yammer]",
-                  "title": "Yammer",
+                  "href": "[$VivaEngage]",
+                  "title": "Viva Engage",
                   "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
                 },
                 "style": {
@@ -258,7 +263,7 @@
                   "margin-bottom": "12px",
                   "background-color": "transparent",
                   "border-radius": "4px",
-                  "display": "=if([$TeamsCall] == '', 'none', 'span')"
+                  "display": "=if([$TeamsCall], 'span', 'none')"
                 },
                 "children": [
                   {
@@ -297,7 +302,7 @@
                   "margin-bottom": "12px",
                   "background-color": "transparent",
                   "border-radius": "4px",
-                  "display": "=if([$TeamsChat] == '', 'none', 'span')"
+                  "display": "=if([$TeamsChat], 'span', 'none')"
                 },
                 "children": [
                   {
@@ -336,7 +341,7 @@
                   "margin-bottom": "12px",
                   "background-color": "transparent",
                   "border-radius": "4px",
-                  "display": "=if([$LinkeIn] == '', 'none', 'span')"
+                  "display": "=if([$LinkedIn], 'span', 'none')"
                 },
                 "children": [
                   {
@@ -366,7 +371,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "[$Twitter]",
+                  "href": "[$X]",
                   "title": "Follow me",
                   "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
                 },
@@ -375,7 +380,7 @@
                   "margin-bottom": "12px",
                   "background-color": "transparent",
                   "border-radius": "4px",
-                  "display": "=if([$Twitter] == '', 'none', 'span')"
+                  "display": "=if([$X], 'span', 'none')"
                 },
                 "children": [
                   {
@@ -400,7 +405,7 @@
             "elmType": "a",
             "style": {
               "margin-top": "3px",
-              "display": "=if([$Instagram] == '', 'none', 'span')"
+              "display": "=if([$Instagram], 'span', 'none')"
             },
             "attributes": {
               "href": "[$Instagram]"
@@ -447,7 +452,7 @@
             "children": [
               {
                 "elmType": "span",
-                "txtContent": " Portfolio",
+                "txtContent": "Portfolio",
                 "style": {
                   "font-size": "14px",
                   "color": "#fafafa",
@@ -466,19 +471,22 @@
         },
         "style": {
           "flex-wrap": "wrap",
-          "justify-content": "center",
+          "justify-content": "flex-start",
+          "align-items": "center",
+          "align-content": "flex-start",
           "margin-top": "16px",
-          "display": "=if([$Portfolio] == 'Yes','flex', 'none')"
+          "display": "=if([$Portfolio] == 'Yes', 'flex', 'none')"
         },
         "children": [
           {
             "elmType": "div",
             "style": {
               "flex-direction": "column",
-              "align-items": "center",
+              "align-items": "flex-start",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo1], 'flex', 'none')"
             },
             "children": [
               {
@@ -505,12 +513,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo2], 'flex', 'none')"
             },
             "children": [
               {
@@ -537,12 +545,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo3], 'flex', 'none')"
             },
             "children": [
               {
@@ -569,12 +577,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo4], 'flex', 'none')"
             },
             "children": [
               {
@@ -601,12 +609,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo5], 'flex', 'none')"
             },
             "children": [
               {
@@ -633,12 +641,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo6], 'flex', 'none')"
             },
             "children": [
               {
@@ -666,12 +674,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo7], 'flex', 'none')"
             },
             "children": [
               {
@@ -684,7 +692,7 @@
                   {
                     "elmType": "img",
                     "attributes": {
-                      "src": "=[$Photo7.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo7.thumbnailRenderer.sponsorToken]"
+                      "src": "=getThumbnailImage([$Photo7], 400, 400)"
                     },
                     "style": {
                       "width": "100%",
@@ -700,12 +708,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo8], 'flex', 'none')"
             },
             "children": [
               {
@@ -732,12 +740,12 @@
           {
             "elmType": "div",
             "style": {
-              "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
               "justify-content": "center",
               "width": "30%",
-              "padding": "4px"
+              "padding": "4px",
+              "display": "=if([$Photo9], 'flex', 'none')"
             },
             "children": [
               {
