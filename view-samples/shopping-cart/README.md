@@ -29,7 +29,7 @@ Shipping                  | Currency
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
 shopping-cart.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
@@ -47,3 +47,5 @@ Version|Date|Comments
 ## Additional notes
 
 None
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/shopping-cart" />
