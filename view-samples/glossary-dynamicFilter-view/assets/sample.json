@@ -1,7 +1,7 @@
 [
   {
-    "name": "pnp-list-formatting-glossary-dynamicFilter-view",
-    "reponame": "glossary-dynamicFilter-view",
+    "name": "pnp-list-formatting-glossary-dynamicfilter-view",
+    "reponame": "glossary-dynamicfilter-view",
     "source": "pnp",
     "title": "Glossary View Formatters",
     "shortDescription": "View formatters to buid a glossary page using connected list WebParts.",
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "fillHorizontally"
+        "value": "fillHorizontally, hideSelection, rowFormatter"
       },
       {
         "key": "CLASSES",
@@ -57,8 +57,20 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/filteredGlossary.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/screenshot.gif",
         "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/gFilterWPSetup.gif",
+        "alt": "screenshot 2"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/gTermsWPSetup.gif",
+        "alt": "screenshot 3"
       }
     ],
     "authors": [
