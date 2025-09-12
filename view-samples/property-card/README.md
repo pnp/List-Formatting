@@ -4,7 +4,7 @@
 
 This sample transforms list items into cards formatted with property listing layouts. To ensure the view functions correctly, make sure all specified columns are included. The icons are referenced from [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
 
-![screenshot of the sample](./assets/screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -23,7 +23,7 @@ Favorite                    | Yes/No
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
 property-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
