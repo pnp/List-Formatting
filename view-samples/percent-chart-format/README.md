@@ -10,7 +10,7 @@ This sample display formatted percent chart row based on icon/emoji/svg and asso
 ![Percent chart format](./assets/PercentageChart1.gif)
 
 ### SVG format
-![Percent chart format](./assets/PercentageChart2.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -33,8 +33,8 @@ Color | Single line of text - Color for svg.
 
 Solution|Author(s)
 --------|---------
+percent-chart-format.json | [André Lage](https://github.com/aaclage)
 carsales-format.json | [André Lage](https://github.com/aaclage)
-waves-format.json | [André Lage](https://github.com/aaclage)
 fishmeat-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
