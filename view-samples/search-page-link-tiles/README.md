@@ -59,7 +59,7 @@ Version |Date            |Comments
 
 ## Additional notes
 
-- This sample was inspired by [Ai Hirano's post](https://twitter.com/ai_yamasaki/status/1545353487533232130).
+- This sample was inspired by [Ai Hirano's post](https://x.com/ai_yamasaki/status/1545353487533232130).
 - The following documents describe the managed property and the search query.
   - [Manage the search schema in SharePoint | Microsoft Learn](https://learn.microsoft.com/sharepoint/manage-search-schema)
   - [Keyword Query Language (KQL) syntax reference | Microsoft Learn](https://learn.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
