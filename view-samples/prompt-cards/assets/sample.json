@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "defaultClick"
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-themePrimary, ms-fontSize-l, ms-fontWeight-bold, ms-fontWeight-semibold, sp-card-borderHighlight, sp-card-content, sp-card-defaultClickButton, sp-card-displayColumnContainer, sp-card-label, sp-card-multiline, sp-card-subContainer, sp-css-borderColor-neutralLight"
+        "value": "ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-themePrimary, ms-fontSize-l, ms-fontWeight-bold, ms-fontWeight-semibold, sp-card-borderHighlight, sp-card-content, sp-card-defaultClickButton, sp-card-displayColumnContainer, sp-card-label, sp-card-multiline, sp-card-subContainer, sp-css-borderColor-neutralLight, sp-card-container"
       }
     ],
     "thumbnails": [
