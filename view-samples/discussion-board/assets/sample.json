@@ -34,23 +34,23 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@me"
+        "value": "@me, @rowIndex"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toString, Number, toLocaleDateString, indexOf, length, substring, lastIndexOf, replace, getUserImage, appendTo, removeFrom"
+        "value": "toString, Number, toLocaleDateString, indexOf, length, substring, lastIndexOf, replace, getUserImage, appendTo, removeFrom, toUpperCase, getDate, getMonth, getYear"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "defaultClick, setValue, delete"
+        "value": "defaultClick, setValue, delete, share"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach, inlineEditField, defaultHoverField, customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+        "value": "forEach, inlineEditField, defaultHoverField, customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter, columnFormatterReference"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-communicationTint20--hover, ms-bgColor-communicationTint40, ms-bgColor-gray30, ms-bgColor-gray30--hover, ms-fontColor-white, ms-fontColor-blueDark, ms-fontColor-gray100, ms-fontWeight-semibold, ms-fontSize-24, ms-fontSize-20, ms-fontSize-18, ms-fontSize-16, ms-fontSize-14, ms-fontSize-12"
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-communicationTint20--hover, ms-bgColor-communicationTint40, ms-bgColor-gray30, ms-bgColor-gray30--hover, ms-fontColor-white, ms-fontColor-blueDark, ms-fontColor-gray100, ms-fontWeight-semibold, ms-fontSize-24, ms-fontSize-20, ms-fontSize-18, ms-fontSize-16, ms-fontSize-14, ms-fontSize-12, ms-bgColor-themePrimary, ms-fontColor-themePrimary, ms-fontWeight-bold, sp-field-italic, ms-bgColor-info--hover, ms-bgColor-gray60--hover, ms-fontColor-info, ms-fontSize-28, sp-css-backgroundColor-neutralLighterAlt"
       }
     ],
     "thumbnails": [
