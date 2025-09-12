@@ -161,8 +161,7 @@
                   "height": "50px",
                   "display": "flex",
                   "align-items": "flex-end",
-                  "justify-content": "left",
-                  "background-color": ""
+                  "justify-content": "left"
                 },
                 "children": [
                   {
@@ -1342,7 +1341,6 @@
                       "min-height": "62px",
                       "max-height": "124px",
                       "margin-left": "=if([$MY_WORKS] =='', '494px', '12px')",
-                      "background-color": "",
                       "box-sizing": "border-box",
                       "border-radius": "6px",
                       "padding": "2px 6px 6px 6px",

@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons, Inline Editing, Hover Cards, Grouped"
+        "value": "Icons, Inline Editing, Hover Cards, Grouped, Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "length, substring"
+        "value": "length, substring, lastIndexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "inlineEditField, openOnEvent, customCardProps, beakStyle, directionalHint, hideSelection, fillHorizontally, formatter"
+        "value": "inlineEditField, openOnEvent, customCardProps, beakStyle, directionalHint, hideSelection, fillHorizontally, forEach, defaultHoverField"
       },
       {
         "key": "CLASSES",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/Internal-CV-preview.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/screenshot.png",
         "alt": "Internal CV preview card"
       }
     ],
