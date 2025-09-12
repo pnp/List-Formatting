@@ -4,7 +4,7 @@
 
 This sample acts as a digital shout-out board for your team, built right into SharePoint. It gives employees an easy way to recognize and appreciate each other's hard work. Colleagues can show their support by clicking on emojis to cast their votes.
 
-![screenshot of the sample](./assets/recognition.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 
@@ -30,7 +30,7 @@ A PowerShell Script (Create List.ps1) has been provided in the assets folder to 
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
 employee-recognition-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
@@ -49,4 +49,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/employee-recog" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/employee-recognition-card" />
