@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, groupProps, headerFormatter"
+        "value": "hideSelection, hideColumnHeader, groupProps, headerFormatter, additionalRowClass, rowFormatter"
       },
       {
         "key": "CLASSES",
