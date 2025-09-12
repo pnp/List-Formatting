@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@now"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, floor, getDate, getMonth, getYear, split, Number, substring, toDateString"
+        "value": "floor, getDate, getMonth, getYear, split, Number, substring, toDateString, toString"
       },
       {
         "key": "FORMATTING-ACTIONS",
