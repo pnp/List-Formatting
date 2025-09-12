@@ -5,7 +5,7 @@
 This SharePoint JSON view formatting sample transforms your list items into rich, visually appealing diet plan cards. Each card highlights a meal or plan with a banner image, author details, key nutritional values, and a prominent call-to-action button.
 This layout is ideal for health & wellness portals, employee fitness programs, or meal planning lists.
 
-![screenshot of the sample](./assets/sample1.png)
+![screenshot of the sample](./assets/screenshot.png)
 ![screenshot of the sample](./assets/sample2.png)
 
 ## View requirements
@@ -33,7 +33,7 @@ A PowerShell Script (Create List.ps1) has been provided in the assets folder to 
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
 diet-plan-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
