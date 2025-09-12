@@ -40,7 +40,7 @@ MovieImage                  | Hyperlink or Picture
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
 imdb-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
