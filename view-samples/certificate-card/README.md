@@ -3,7 +3,7 @@
 This sample uses **SharePoint List View Formatting** to display a **certificate-style card** for each employee.  
 Each row in the list is transformed into a visually rich certificate layout, including logos, employee details, certification information, and program authority.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -26,7 +26,7 @@ Create a list with the following columns:
 |---------|--------------|-----------------------------|---------------|-------------------|-------------------|-------------|-------|
 | Cert 1  | Sai Bandaru     | Microsoft Learn Fundamentals | CERT7884w6     | 2025-08-01T04:00:00Z | 2026-08-01T04:00:00Z | Budvik B  |
 
-## How it Works
+## Summary
 
 - Each row is displayed as a **certificate card** with a logo, employee name, certification name, and details.
 - **Employee Name** is highlighted with gradient text and uppercase letters.
@@ -37,9 +37,9 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-certificate-card.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+certificate-card.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
