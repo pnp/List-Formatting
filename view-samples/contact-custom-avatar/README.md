@@ -4,7 +4,7 @@
 
 This SharePoint view formatting sample provides a modern, interactive **Contact custom avatar card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
 
-![Screenshot of Contact Custom Avatar Card](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -47,9 +47,9 @@ Your list will now display in a **Gallery (card-style) layout** with custom avat
 
 ## Sample
 
-| Solution | Author |
-|----------|--------|
-| contact-custom-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+Solution|Author(s)
+--------|---------
+contact-custom-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
