@@ -3,8 +3,8 @@
 This sample uses **SharePoint List Formatting** to automatically generate QR codes for each list item based on the Title field.  
 Each row displays the item title alongside a dynamically generated QR code, making it easy to create scannable links or references for physical handouts, inventory tracking, or event management.
 
-![screenshot of the sample](assets/screenshot.png)
-![Gif of the qr code scan](assets/qr.gif)
+![screenshot of the sample](./assets/screenshot.png)
+![Gif of the qr code scan](./assets/qr.gif)
 
 ## View Requirements
 
@@ -24,7 +24,7 @@ Create a list with the following columns:
 | Sai Bandaru              |
 | Budvik                   |
 
-## How it Works
+## Summary
 
 - The formatter displays each list item's **Title** with a corresponding **QR code**
 - QR codes are generated dynamically using the [QRServer.com API](https://goqr.me/api/)
@@ -46,9 +46,9 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-qr-code.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+qr-code.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

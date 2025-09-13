@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter"
+        "value": "hideColumnHeader, rowFormatter"
       },
       {
         "key": "CLASSES",
