@@ -51,12 +51,11 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=substring('SUNMONTUEWEDTHUFRISAT',((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField))%7)*3,((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField))%7)*3+3",
+              "txtContent": "=substring('SUNMONTUEWEDTHUFRISAT',((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField))%7)*3,((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField))%7)*3+3)",
               "style": {
                 "display": "flex",
                 "justify-content": "center",
                 "font-size": "10px",
-                "letter-spacing": "1px",
                 "padding-bottom": "2px"
               }
             }
