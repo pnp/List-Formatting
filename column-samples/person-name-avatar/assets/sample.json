@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "People Name Avatar Card",
     "shortDescription": "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/person-name-avatar",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-name-avatar",
     "longDescription": [
       "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting."
     ],
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@me"
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -46,18 +46,18 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps"
+        "value": "customCardProps, directionalHint"
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "sp-css-backgroundColor-themeLighterAlt, sp-css-backgroundColor-neutralLighterAlt"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-name-avatar/assets/screenshot2.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-name-avatar/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

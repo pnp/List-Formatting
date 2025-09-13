@@ -4,7 +4,7 @@
 
 This SharePoint column formatting sample provides a modern, interactive **People card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
 
-![Screenshot1 of People Card](./assets/screenshot1.png)
+![screenshot of the sample](./assets/screenshot.png)
 ![Screenshot2 of People Card](./assets/screenshot2.png)
 
 ## View Requirements
@@ -52,9 +52,9 @@ The column will now display **custom avatars** with **hover cards** and **action
 
 ## Sample
 
-| Solution | Author |
-|----------|--------|
-| person-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+Solution|Author(s)
+--------|---------
+person-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
