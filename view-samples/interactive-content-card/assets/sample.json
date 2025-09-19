@@ -1,15 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-interactive-content-card-explore-button",
-    "reponame": "generic-content-card",
+    "name": "pnp-list-formatting-interactive-content-card",
+    "reponame": "interactive-content-card",
     "source": "pnp",
     "title": "Interactive Content Card with Button",
     "shortDescription": "This sample uses SharePoint List Formatting to display list items as modern card tiles with image header, icon overlay, and call-to-action button.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/generic-content-card",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/interactive-content-card",
     "longDescription": [
-      "This sample uses SharePoint List Formatting to display list items as modern card tiles with a prominent image header, icon overlay, and call-to-action button.",
-      "Each card features a fixed 365x400px layout with an image background, branded icon badge, title/description content area, and an 'Explore Section' button that opens external links.",
-      "The formatter creates a professional card design with conditional styling, external link navigation, and responsive layout suitable for showcasing products, services, or featured content."
+      "This sample uses SharePoint List Formatting to display list items as modern card tiles with a prominent image header, icon overlay, and call-to-action button."
     ],
     "creationDateTime": "2025-09-16T00:00:00.000Z",
     "updateDateTime": "2025-09-16T00:00:00.000Z",
@@ -28,15 +26,15 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Card Layout, Interactive"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Image, Hyperlink"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "[$Title], [$Description], [$Image.displayValue], [$IconUrl.displayValue], [$Url]"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -44,11 +42,11 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "External Link Navigation"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, Fixed Dimensions, Card Layout, Image Display, Icon Overlay, Button Actions"
+        "value": "hideSelection"
       },
       {
         "key": "CLASSES",
@@ -59,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/generic-content-card/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/interactive-content-card/assets/screenshot.png",
         "alt": "Interactive Content Card with Image Header and Explore Button"
       }
     ],
@@ -75,11 +73,6 @@
         "name": "Use view formatting to customize SharePoint",
         "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
-      },
-      {
-        "name": "SharePoint List Formatting Syntax Reference",
-        "description": "Comprehensive reference for SharePoint list formatting including supported HTML elements, CSS properties, and formatting tokens.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference"
       }
     ]
   }

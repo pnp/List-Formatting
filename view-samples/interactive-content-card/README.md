@@ -3,7 +3,7 @@
 This sample uses **SharePoint List Formatting** to display list items as **modern card tiles** with a prominent image header, icon overlay, and call-to-action button.  
 Each card features a fixed 365x400px layout with an image background, branded icon badge, title/description content area, and an "Explore Section" button that opens external links.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -69,3 +69,5 @@ You can easily customize this formatter by modifying:
 - **Dimensions**: Adjust card width/height and image header size
 - **Border Radius**: Modify the 8px border-radius for different corner styles
 - **Spacing**: Adjust padding and margins for tighter or looser layouts
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/interactive-content-card" />
