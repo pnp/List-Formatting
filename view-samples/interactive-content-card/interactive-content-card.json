@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 400,
+  "width": 365,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "border-radius": "8px",
+      "overflow": "hidden",
+      "font-family": "Segoe UI, Arial, sans-serif",
+      "display": "flex",
+      "flex-direction": "column",
+      "margin-right": "20px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$Image.displayValue]"
+            },
+            "style": {
+              "width": "100%",
+              "height": "220px",
+              "object-fit": "cover"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "16px",
+              "left": "16px",
+              "background-color": "#ffffff",
+              "border-radius": "25%",
+              "width": "30px",
+              "height": "30px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "[$IconUrl.displayValue]"
+                },
+                "style": {
+                  "width": "24px",
+                  "height": "24px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "padding": "16px 24px 24px 24px",
+          "background-color": "#ffffff",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "20px",
+              "font-weight": "700",
+              "color": "#dc3545",
+              "margin": "12px 0 6px 0",
+              "text-decoration": "none"
+            },
+            "txtContent": "[$Title]"
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "font-size": "14px",
+              "color": "#666",
+              "margin": "0 0 20px 0",
+              "text-decoration": "none"
+            },
+            "txtContent": "[$Description]"
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "[$Url]",
+              "target": "_blank"
+            },
+            "style": {
+              "padding": "12px 24px",
+              "border": "1px solid #dc3545",
+              "border-radius": "4px",
+              "text-decoration": "none",
+              "font-weight": "600",
+              "font-size": "14px",
+              "display": "inline-block",
+              "background-color": "transparent",
+              "color": "#000"
+            },
+            "txtContent": "Explore Section"
+          }
+        ]
+      }
+    ]
+  }
+}
