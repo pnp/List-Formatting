@@ -39,7 +39,7 @@ Create a list with the following columns:
 
 Solution|Author
 --------|---------
-weekly-heatmap.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+interactive-content-card.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version history
 
