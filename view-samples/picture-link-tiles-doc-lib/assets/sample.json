@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@thumbnail"
+        "value": "@thumbnail, @group"
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "ms-fontColor-themeDark, ms-fontColor-neutralPrimary, ms-fontWeight-bold, ms-bgColor-themeLighter, ms-bgColor-themeLighterAlt"
       }
     ],
     "thumbnails": [
