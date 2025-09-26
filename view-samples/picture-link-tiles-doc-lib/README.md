@@ -33,7 +33,7 @@ PublishedDate       | Date and Time          | Date only
 Source              | Choice                 | Allow multiple selections = Yes
 Category            | Choice                 | Sample, News, Blog,...
 Topic               | Choice                 |
-Rank                | Number                 | Default value = 0, Number of decimal places = 0
+Rank                | Number                 | Number of decimal places = 0
 HideTitle           | Yes/No                 | Default value = No
 
 ![field mapping screenshot](./assets/field-mapping.png)
