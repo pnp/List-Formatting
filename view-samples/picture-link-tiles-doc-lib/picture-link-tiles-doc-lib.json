@@ -73,7 +73,7 @@
               "border-radius": "12px",
               "font-size": "11px",
               "font-weight": "600",
-              "display": "=if([$Rank]=='' || [$Rank]==0,'none','block')",
+              "display": "=if([$Rank]>0,'block','none')",
               "background-color": "=if([$Rank] >89,'darkRed',if([$Rank] >79,'darkBlue',if([$Rank] >49,'darkGreen','gray'))"
             },
             "txtContent": "[$Rank]",
@@ -166,4 +166,5 @@
       }
     ]
   }
+
 }
