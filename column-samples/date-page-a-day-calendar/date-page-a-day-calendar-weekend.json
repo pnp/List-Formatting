@@ -3,7 +3,7 @@
   "elmType": "div",
   "style": {
     "display": "=if(@currentField,'flex','none')",
-    "margin": "5px 0 5px 0"
+    "margin": "5px 0"
   },
   "children": [
     {
@@ -11,16 +11,16 @@
       "style": {
         "display": "flex",
         "flex-direction": "column",
-        "font-weight": "bold",
         "width": "44px",
         "border-radius": "8px",
         "box-shadow": "0 1px 3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1)",
-        "background-color": "=if(((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField)+6)%7)>4,'#c43b33','#4c4c4c')"
+        "background-color": "=if(((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/4)-floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/100)+floor((getYear(@currentField)-if((getMonth(@currentField)+1)<3,1,0))/400)+1*substring('032503514624',getMonth(@currentField),getMonth(@currentField)+1)+getDate(@currentField)+6)%7)>4,'#c43b33','#4c4c4c')",
+        "font-weight": "bold"
       },
       "children": [
         {
           "elmType": "div",
-          "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC', getMonth(@currentField)*3, getMonth(@currentField)*3+3)",
+          "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC',getMonth(@currentField)*3,getMonth(@currentField)*3+3)",
           "style": {
             "display": "flex",
             "justify-content": "center",
