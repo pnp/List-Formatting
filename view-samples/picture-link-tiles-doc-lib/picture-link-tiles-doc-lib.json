@@ -1,0 +1,169 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "width": 260,
+  "height": 200,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "width": "239px",
+      "height": "183px",
+      "border": "1px solid #ccc",
+      "border-radius": "10px",
+      "margin": "10px",
+      "box-shadow": "0 3px 10px rgba(0,0,0,.2)"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative",
+          "height": "90%",
+          "width": "100%",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "=if([$URL],[$URL],[$FileRef])",
+              "target": "_blank"
+            },
+            "children": [
+              {
+                "elmType": "filepreview",
+                "attributes": {
+                  "src": "@thumbnail.512x432"
+                },
+                "style": {
+                  "height": "100%",
+                  "width": "100%",
+                  "object-fit": "cover"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "8px",
+              "left": "8px",
+              "background-color": "#696cb3",
+              "color": "white",
+              "padding": "3px 8px",
+              "border-radius": "12px",
+              "font-size": "11px",
+              "font-weight": "500",
+              "display": "=if([$Category] || [$Topic],'block','none')"
+            },
+            "txtContent": "=if(([$Category]!='' && [$Topic]!=''),[$Category]+' | '+[$Topic],if([$Category],[$Category],[$Topic]))",
+            "inlineEditField": "[$Category]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "8px",
+              "right": "8px",
+              "color": "white",
+              "padding": "3px 8px",
+              "border-radius": "12px",
+              "font-size": "11px",
+              "font-weight": "600",
+              "display": "=if([$Rank]>0,'block','none')",
+              "background-color": "=if([$Rank] >89,'darkRed',if([$Rank] >79,'darkBlue',if([$Rank] >49,'darkGreen','gray'))"
+            },
+            "txtContent": "[$Rank]",
+            "inlineEditField": "[$Rank]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$HideTitle] || [$Title]=='','none','-webkit-box')",
+              "position": "absolute",
+              "bottom": "8px",
+              "left": "8px",
+              "right": "8px",
+              "color": "white",
+              "background-color": "rgba(0,0,0,0.6)",
+              "padding": "4px 8px",
+              "border-radius": "4px",
+              "font-weight": "600",
+              "overflow": "hidden",
+              "word-break": "normal"
+            },
+            "txtContent": "[$Title]",
+            "inlineEditField": "[$Title]"
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "width": "100%",
+          "height": "30px",
+          "justify-content": "space-between",
+          "align-items": "center",
+          "font-size": "12px",
+          "color": "white",
+          "background-color": "=if([$Category]=='News','#d93025',if([$Category]=='Blog','#ff9800',if([$Category]=='Sample','#696cb3',,'#182534')"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "gap": "6px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "padding-left": "10px",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "iconName": "Delete",
+                  "title": "Delete this file"
+                },
+                "customRowAction": {
+                  "action": "delete"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if(indexOf([$Source]+'|','|') >25,substring(join([$Source],'; '),0,24)+'...',join([$Source],'; '))"
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=substring(toString(getYear([$PublishedDate])),2,4)+'-'+(getMonth([$PublishedDate])+1)",
+                "style": {
+                  "display": "=if([$PublishedDate],'block','none')"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "span",
+            "style": {
+              "padding-right": "10px",
+              "cursor": "pointer"
+            },
+            "attributes": {
+              "iconName": "Edit",
+              "title": "Edit properties"
+            },
+            "customRowAction": {
+              "action": "editProps"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

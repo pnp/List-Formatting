@@ -1,0 +1,91 @@
+[
+  {
+    "name": "pnp-list-formatting-picture-link-tiles-doc-lib",
+    "reponame": "picture-link-tiles-doc-lib",
+    "source": "pnp",
+    "title": "Picture Link Tiles Doc Lib",
+    "shortDescription": "Creates a card-style tile view in a SharePoint Document Library with file previews, badges, titles, and a footer with actions.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/picture-link-tiles-doc-lib",
+    "longDescription": [
+      "Creates a card-style tile view in a SharePoint Document Library with file previews, badges, titles, and a footer with actions."
+    ],
+    "creationDateTime": "2025-09-24T00:00:00.000Z",
+    "updateDateTime"  : "2025-09-24T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@thumbnail, @group"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, join, substring, toString, getYear, getMonth"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "editProps"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, inlineEditField"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themeDark, ms-fontColor-neutralPrimary, ms-fontWeight-bold, ms-bgColor-themeLighter, ms-bgColor-themeLighterAlt"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-link-tiles-doc-lib/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-link-tiles-doc-lib/assets/field-mapping.png",
+        "alt": "field mapping screenshot"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-link-tiles-doc-lib/assets/minimal.png",
+        "alt": "minimal screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
