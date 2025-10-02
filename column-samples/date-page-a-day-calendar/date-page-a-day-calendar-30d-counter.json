@@ -1,0 +1,117 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'flex','none')",
+    "margin": "5px 0",
+    "justify-content": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-bgColor-themePrimary"
+      },
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "width": "54px",
+        "border-radius": "8px",
+        "box-shadow": "0 1px 3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1)",
+        "background-color": "=if(toDateString(@currentField)==toDateString(@now),'#c43b33','')"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC',getMonth(@currentField)*3,getMonth(@currentField)*3+3)",
+          "style": {
+            "display": "flex",
+            "justify-content": "center",
+            "letter-spacing": "1px",
+            "padding": "2px 0 2px 0",
+            "color": "white",
+            "font-weight": "bold"
+          }
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "background-color": "white",
+            "border-radius": "0 0 7px 7px",
+            "padding": "0px 2px 4px 2px",
+            "font-size": "10px",
+            "justify-content": "=if(toDateString(@currentField)==toDateString(@now),'center','space-between')"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if(Date(toDateString(@currentField))<Date(toDateString(@now)),'flex','none')",
+                "flex-direction": "column",
+                "align-items": "center",
+                "color": "red"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=if(floor((@now-Date(toDateString(@currentField)))/86400000)>30,'30+',floor((@now-Date(toDateString(@currentField)))/86400000))"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "←",
+                  "style": {
+                    "line-height": "0.5"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "flex",
+                "flex-direction": "column",
+                "flex-grow": "1"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=getDate(@currentField)",
+                  "style": {
+                    "display": "flex",
+                    "justify-content": "center",
+                    "font-size": "22px",
+                    "font-weight": "bold"
+                  }
+                }
+              ]
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "=if(Date(toDateString(@currentField))>@now,'flex','none')",
+                "flex-direction": "column",
+                "align-items": "center",
+                "color": "green",
+                "font-size": "10px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=if(ceiling((Date(toDateString(@currentField))-@now)/86400000)>30,'30+',ceiling((Date(toDateString(@currentField))-@now)/86400000))"
+                },
+                {
+                  "elmType": "div",
+                  "txtContent": "→",
+                  "style": {
+                    "line-height": "0.5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
