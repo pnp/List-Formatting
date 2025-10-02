@@ -11,7 +11,7 @@
     {
       "elmType": "img",
       "attributes": {
-        "src": "=if(Number([$Score]) <= 30, 'YourSharepointSiteUrl/SiteAssets/Rookie.png', if(Number([$Score]) <= 149, 'YourSharepointSiteUrl/SiteAssets/Ace.png', if(Number([$Score]) >= 150, 'YourSharepointSiteUrl/SiteAssets/Champion.png', 'YourSharepointSiteUrl/SiteAssets/Rookie.png')))",
+        "src": "=if(Number([$Score]) <= 30, @currentWeb+'/SiteAssets/Rookie.png', if(Number([$Score]) <= 149, @currentWeb+'/SiteAssets/Ace.png', if(Number([$Score]) >= 150, @currentWeb+'/SiteAssets/Champion.png', @currentWeb+'/SiteAssets/Rookie.png')))",
         "title": "=if(Number([$Score]) <= 30, 'Rookie Contributor - Score: ' + [$Score], if(Number([$Score]) <= 149, 'Ace Contributor - Score: ' + [$Score], if(Number([$Score]) >= 150, 'Champion - Score: ' + [$Score], 'Contributor - Score: ' + [$Score])))"
       },
       "style": {
