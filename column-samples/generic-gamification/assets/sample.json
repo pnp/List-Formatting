@@ -1,15 +1,13 @@
 [
   {
-    "name": "pnp-list-formatting-Gamification-badges",
-    "reponame": "Gamification-badges",
+    "name": "pnp-list-formatting-generic-gamification",
+    "reponame": "generic-gamification",
     "source": "pnp",
     "title": "Gamification Badges",
     "shortDescription": "This sample demonstrates how to create dynamic Gamification badges in SharePoint columns based on score values with visual indicators and tooltips.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-gamification",
     "longDescription": [
-      "This sample demonstrates how to create dynamic Gamification badges within a SharePoint list using column formatting JSON.",
-      "The badges display different contributor levels (Rookie, Ace, Champion) based on score ranges with color-coded borders, interactive tooltips, and medal badge indicators.",
-      "Features include conditional image loading, dynamic styling, hover tooltips showing Gamification level and score, and small circular badge overlays with Gamification emojis."
+      "This sample demonstrates how to create dynamic Gamification badges within a SharePoint list using column formatting JSON."
     ],
     "creationDateTime": "2025-09-26T00:00:00.000Z",
     "updateDateTime": "2025-09-26T00:00:00.000Z",
@@ -28,27 +26,27 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Visual Indicators, Gamification"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Number"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@currentField, [$Score]"
+        "value": "@currentWeb"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "if, Number, and"
+        "value": "Number"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "Conditional Display"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "Image Display, Tooltips, Dynamic Styling"
+        "value": ""
       },
       {
         "key": "CLASSES",
@@ -75,11 +73,6 @@
         "name": "Use column formatting to customize SharePoint",
         "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it's displayed to users who browse the list.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
-      },
-      {
-        "name": "SharePoint List Formatting Examples",
-        "description": "A collection of SharePoint list formatting examples and templates for customizing list views and columns.",
-        "url": "https://pnp.github.io/List-Formatting/"
       }
     ]
   }

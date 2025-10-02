@@ -98,7 +98,7 @@ The JSON formatting includes several advanced features:
 
 Solution|Author
 --------|---------
-generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-gamification.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version History
 
@@ -115,4 +115,4 @@ Version|Date|
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 - [SharePoint List Formatting Examples](https://pnp.github.io/List-Formatting/)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/achievement-badges" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gamification" />
