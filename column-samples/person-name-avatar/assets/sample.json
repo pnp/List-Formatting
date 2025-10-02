@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "People Name Avatar Card",
     "shortDescription": "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/person-name-avatar",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-name-avatar",
     "longDescription": [
       "This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting."
     ],
