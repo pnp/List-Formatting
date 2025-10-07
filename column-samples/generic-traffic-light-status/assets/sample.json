@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-traffic-light-status",
+    "reponame": "generic-traffic-light-status",
+    "source": "pnp",
+    "title": "Traffic Light Style Column Formatting",
+    "shortDescription": "This sample demonstrates how to use SharePoint Column Formatting to display a realistic traffic light visual indicator based on status values.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-traffic-light-status",
+    "longDescription": [
+      "This sample demonstrates how to create a realistic traffic light visual using SharePoint Column Formatting JSON. It displays a complete traffic light with housing, pole, and base that illuminates Red, Yellow, or Green lights based on the Status choice column value. Features include glowing effects for active lights, 3D styling with shadows, decorative side brackets, and proper visual depth with layered elements."
+    ],
+    "creationDateTime": "2025-10-07T00:00:00.000Z",
+    "updateDateTime": "2025-10-07T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Status Indicators"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Choice"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@currentField"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "if, =="
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "Conditional Formatting"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-traffic-light-status/assets/screenshot.png",
+        "alt": "Traffic Light Status Screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. This sample shows a traffic light status indicator implementation using JSON formatting with conditional styling based on choice column values.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
