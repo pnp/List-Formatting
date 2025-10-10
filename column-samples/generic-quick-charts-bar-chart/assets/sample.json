@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Charts, Visualization"
+        "value": "Charts"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Number"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "+"
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "columnFormatter,Image"
+        "value": ""
       },
       {
         "key": "CLASSES",
