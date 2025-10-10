@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "img",
+  "attributes": {
+    "src": "='https://quickchart.io/chart?c=%7Btype:%22bar%22,data:%7Blabels:%5B%22To%20Do%22,%22In%20Progress%22,%22Done%22%5D,datasets:%5B%7Blabel:%22Tasks%22,data:%5B' + [$ToDoCount] + ',' + [$InProgressCount] + ',' + [$DoneCount] + '%5D,backgroundColor:%5B%22%23FF6384%22,%22%23FFCE56%22,%22%2336A2EB%22%5D%7D%5D%7D%7D'",
+    "alt": "Chart"
+  },
+  "style": {
+    "width": "400px",
+    "height": "250px",
+    "border-radius": "8px"
+  }
+}
