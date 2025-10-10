@@ -26,19 +26,19 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Status Indicators"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Choice"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@currentField"
+        "value": ""
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "if, =="
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "Conditional Formatting"
+        "value": ""
       },
       {
         "key": "CLASSES",
