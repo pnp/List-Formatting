@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "floor, getDate, getMonth, getYear, split, Number, substring, toDateString, toString"
+        "value": "floor, getDate, getMonth, getYear, split, Number, substring, toDateString, toString, ceiling, Date"
       },
       {
         "key": "FORMATTING-ACTIONS",
