@@ -10,7 +10,7 @@
       "This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (\u0060getDate\u0060, \u0060getMonth\u0060, and \u0060getYear\u0060)."
     ],
     "creationDateTime": "2020-10-17T00:00:00.000Z",
-    "updateDateTime": "2025-09-01T00:00:00.000Z",
+    "updateDateTime": "2025-10-01T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -81,8 +81,13 @@
       },
       {
         "name": "Zeller's congruence",
-        "description": "Details on how to calculate the day of the week",
+        "description": "Details on how to calculate the day of the week.",
         "url": "https://en.wikipedia.org/wiki/Zeller%27s_congruence"
+      },
+      {
+        "name": "Tomohiko Sakamoto's methods",
+        "description": "A precomputed lookup table of month offsets used to calculate the day of the week.",
+        "url": "https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week"
       }
     ]
   }

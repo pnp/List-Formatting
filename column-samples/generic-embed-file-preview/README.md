@@ -2,12 +2,16 @@
 
 ## Summary
 
-This sample demonstrates how to display a file preview from a document library inside a callout using the [embed](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction) action. This allows users to view file contents without leaving the current page.
+This sample demonstrates how to display a file preview from a document library or Site Pages inside a callout using the [embed](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction) action. This allows users to view file contents without leaving the current page.
 
-![screenshot of the sample](./assets/screenshot.png)
+![screenshot of a document library file preview in a callout](./assets/screenshot-document-library.png)
+
+Pages can also be previewed in a callout.
+
+![screenshot of a Site Pages page preview in a callout](./assets/screenshot-site-pages.png)
 
 > [!WARNING]
-> As of June 30, 2025, the `embed` action is not supported on site pages, so this sample cannot be used there. It also does not work in the Files tab of Microsoft Teams.
+> Support for the `embed` action in Site Pages may not yet be available in some tenants as of October 2, 2025, so page previews might not work in those environments.
 
 ## Prerequisites
 
@@ -21,7 +25,7 @@ If you attempt to embed content from a domain that is not allowed, the following
 
 ## View requirements
 
-- This format is intended for document libraries.
+- This format is designed for use with document libraries and Site Pages.
 - This format can be applied to any column type.
 
 ## Sample
@@ -35,6 +39,7 @@ generic-embed-file-preview.json | [Tetsuya Kawahara](https://github.com/tecchan1
 Version |Date         |Comments
 --------|-------------|--------
 1.0     |June 30, 2025|Initial release
+1.1     |October 2, 2025|Extended to support page (aspx) previews
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -45,5 +50,6 @@ Version |Date         |Comments
 
 - This sample was created with reference to the [generic-file-preview](../generic-file-preview/).
 - Not all file extensions have been tested for preview, so some file types may not be supported for display.
+- The embedded view uses query strings such as `?env=WebView`. For more details, see [Query String URL Tricks for SharePoint and Microsoft 365](https://learn.microsoft.com/microsoft-365/community/query-string-url-tricks-sharepoint-m365).
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-embed-file-preview" />

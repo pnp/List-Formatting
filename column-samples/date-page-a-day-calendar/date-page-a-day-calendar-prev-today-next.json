@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "=if(@currentField,'flex','none')",
+    "margin": "5px 0"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "width": "44px",
+        "border-radius": "8px",
+        "box-shadow": "0 1px 3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1)",
+        "background-color": "=if(toDateString(@currentField)==toDateString(@now),'#c43b33',if(Date(toDateString(@currentField))>@now,'#107c10','gray'))",
+        "font-weight": "bold"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=substring('JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC',getMonth(@currentField)*3,getMonth(@currentField)*3+3)",
+          "style": {
+            "display": "flex",
+            "justify-content": "center",
+            "letter-spacing": "1px",
+            "padding": "2px 0 2px 0",
+            "color": "white"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "=getDate(@currentField)",
+          "style": {
+            "display": "flex",
+            "background-color": "white",
+            "margin": "0 3px 3px 3px",
+            "border-radius": "0 0 5px 5px",
+            "justify-content": "center",
+            "font-size": "22px",
+            "padding-bottom": "3px"
+          }
+        }
+      ]
+    }
+  ]
+}
