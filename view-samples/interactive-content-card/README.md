@@ -1,5 +1,7 @@
 # Interactive Content Card with Explore Button
 
+## Summary
+
 This sample uses **SharePoint List Formatting** to display list items as **modern card tiles** with a prominent image header, icon overlay, and call-to-action button.  
 Each card features a fixed 365x400px layout with an image background, branded icon badge, title/description content area, and an "Explore Section" button that opens external links.
 
@@ -37,9 +39,9 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-interactive-content-card.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+interactive-content-card.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
