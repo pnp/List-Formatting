@@ -2,7 +2,7 @@
 
 This collection provides **three different chart visualizations** for task status data in SharePoint lists using column formatting. Each formatter automatically generates dynamic charts showing the distribution of tasks across "To Do", "In Progress", and "Done" states.
 
-![screenshot of the B](./assets/doughnut.png)
+![screenshot of the sample](./assets/doughnut.png)
 ![screenshot of the sample](./assets/outlabeledpie.png)
 ![screenshot of the sample](./assets/polar.png)
 
