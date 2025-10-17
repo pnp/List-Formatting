@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Tile View, QR Code"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Single line of text"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "+"
+        "value": ""
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "tileFormatter, tileProps"
+        "value": "hideSelection"
       },
       {
         "key": "CLASSES",
@@ -73,11 +73,6 @@
         "name": "Use view formatting to customize SharePoint",
         "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
-      },
-      {
-        "name": "Formatting tile view",
-        "description": "You can use tile formatting to define how tiles are displayed for items in SharePoint lists and libraries.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting#formatting-tile-view"
       }
     ]
   }
