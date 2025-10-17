@@ -42,7 +42,7 @@ Your SharePoint list must have the following columns:
 3. Click the **column dropdown** menu
 4. Select **Column settings** > **Format this column**
 5. Click **Advanced mode**
-6. **Copy the entire JSON code** from `image-overlay-buttons.json`
+6. **Copy the entire JSON code** from `generic-image-overlay-buttons.json`
 7. **Paste it** into the formatting panel
 8. Click **Preview** to test the formatting
 9. Click **Save** to apply the changes
@@ -234,7 +234,7 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 
 Solution|Author(s)
 --------|---------
-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
 ## Version history
 
@@ -266,4 +266,4 @@ This column formatting is ideal for:
 - Verify screen reader compatibility
 - Consider adding descriptive alt text for images
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-overlay-buttons" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-image-overlay-buttons" />

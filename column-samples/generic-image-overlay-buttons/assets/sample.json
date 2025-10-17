@@ -1,11 +1,11 @@
 [
   {
-    "name": "pnp-list-formatting-image-overlay-buttons",
-    "reponame": "image-overlay-buttons",
+    "name": "pnp-list-formatting-generic-image-overlay-buttons",
+    "reponame": "generic-image-overlay-buttons",
     "source": "pnp",
     "title": "Image with Overlay Buttons",
     "shortDescription": "This column formatting sample displays images with action buttons overlaid at the bottom, with dynamic sizing based on image orientation.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/image-overlay-buttons",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-image-overlay-buttons",
     "longDescription": [
       "This column formatting sample displays images with action buttons overlaid at the bottom. The formatting dynamically adjusts image dimensions and button positioning based on the image orientation (Landscape, Portrait, or Square), ensuring optimal display across different aspect ratios. Each item shows an image with two customizable action buttons that can link to external URLs."
     ],
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/image-overlay-buttons/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-image-overlay-buttons/assets/screenshot.png",
         "alt": "Images displayed with overlay action buttons at the bottom"
       }
     ],
