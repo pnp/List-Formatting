@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-choice-country-flag",
-    "reponame": "choice-country-flag",
+    "name": "pnp-list-formatting-text-country-flag",
+    "reponame": "text-country-flag",
     "source": "pnp",
     "title": "Country Flag",
     "shortDescription": "This sample demonstrates displaying the flag of the country selected in the single selection SharePoint choice column.",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/choice-country-flag",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/text-country-flag",
     "longDescription": [
       "This sample demonstrates displaying the flag of the country selected in the single selection SharePoint choice column."
     ],
     "creationDateTime": "2023-08-28T00:00:00.000Z",
-    "updateDateTime": "2023-08-28T00:00:00.000Z",
+    "updateDateTime": "2025-10-18T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Choice"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/choice-country-flag/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-country-flag/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -16,21 +16,22 @@ Add list of countries in the choice column settings like:
 
 ## View requirements
 
-- This format can be applied to a single selection choice column
+- This format can be applied to any text based column but a single selection choice column is the intent
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-choice-country-flag.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
+text-country-flag.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 
 Version |Date          |Comments
 --------|--------------|--------
 1.0     |August 28, 2023 |Initial release
+1.1     |October 19, 2025 |Renamed from `choice-country-flag` to `text-country-flag`
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/choice-country-flag" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-country-flag" />
