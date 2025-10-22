@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "inlineEditField, openOnEvent, customCardProps, beakStyle, directionalHint, hideSelection, fillHorizontally, forEach, defaultHoverField"
+        "value": "inlineEditField, customCardProps, beakStyle, directionalHint, hideSelection, fillHorizontally, forEach, defaultHoverField"
       },
       {
         "key": "CLASSES",
