@@ -48,7 +48,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter, tileFormatter"
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
       },
       {
         "key": "CLASSES",
