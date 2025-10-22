@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group.fieldData, getUserImage"
+        "value": "@group.fieldData"
       },
       {
         "key": "FORMATTING-OPERATORS",
