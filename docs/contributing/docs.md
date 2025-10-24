@@ -50,7 +50,7 @@ Here's the list of auto-generated pages:
 
 ##### HTML-Formatter-Generator
 
-Items in the tools/html-formatter-generator are part of the tool build and should not be edited directly. If you are interested in contributing to the HTML to Formatter Generator tool, please consult the [./tools.md](Tool contribution guide) for details.
+Items in the tools/html-formatter-generator are part of the tool build and should not be edited directly. If you are interested in contributing to the HTML to Formatter Generator tool, please consult the [Tool contribution guide](./tools.md) for details.
 
 #### Creating new docs
 

@@ -31,7 +31,7 @@ Choose **Bug** when there's something wrong with a _sample_.
 !!! Important "Samples Only"
     Problems with List Formatting, Lists, or anything else not a sample should be submitted as a support ticket with Microsoft or on the [main issues list](https://aka.ms/sp-dev-issues).
 
-Keep in mind, we accept [pull requests](./github.md) which means if you know what's causing the bug, we'd be happy to have you fix it! But that is not required at all and we're still grateful just to be made aware of an issue.
+Keep in mind, we accept [pull requests](./changes.md#pull-requests) which means if you know what's causing the bug, we'd be happy to have you fix it! But that is not required at all and we're still grateful just to be made aware of an issue.
 
 ### Sample Requests
 
@@ -51,7 +51,7 @@ Think a sample (or anything else in this repository) could be better? Let us kno
 
 Suggestions could be minor tweaks or they could be major changes (or even alternate versions of a sample). These are typically things that apply to an existing sample. If you've got an idea for a whole new sample, then please use the Sample Request option.
 
-Keep in mind, we accept [pull requests](./github.md) which means if you know how to implement your suggestion, we'd be happy to have you do it! But that is not required at all and we're still grateful just to hear your suggestion.
+Keep in mind, we accept [pull requests](./changes.md#pull-requests) which means if you know how to implement your suggestion, we'd be happy to have you do it! But that is not required at all and we're still grateful just to hear your suggestion.
 
 If you have an idea for improving a sample and are willing to do it, for anything than a minor tweak it's still a good idea to submit it as a suggestion. This allows us to discuss if it makes sense before you spend the time on it. This isn't required either (just a good idea).
 
@@ -65,7 +65,7 @@ Questions should be about one of the included _samples_ - not list formatting in
 
 You can submit an issue by clicking on the [Issues tab](https://github.com/pnp/List-Formatting/issues) for the repository and choosing New issue.
 
-This will require you to have a [GitHub account](./github.md). These are free and only require an email address.
+This will require you to have a [GitHub account](https://github.com). These are free and only require an email address.
 
 If you are uncomfortable with GitHub, there are several other tech communities out there including Stack Exchange, Reddit, Facebook, and more where many of our members are also answering questions.
 

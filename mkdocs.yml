@@ -43,6 +43,7 @@ nav:
     - Getting Started: contributing/index.md
     - Submitting an Issue or Suggestion: contributing/issues.md
     - Making Changes: contributing/changes.md
+    - Creating a Sample: contributing/sample.md
     - Updating the Docs: contributing/docs.md
     - Tool Contributions: contributing/tools.md
   - Tools: tools/index.md
