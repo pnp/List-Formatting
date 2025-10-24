@@ -1,8 +1,10 @@
 # Task Status Chart Column Formatters
 
+## Summary
+
 This collection provides **three different chart visualizations** for task status data in SharePoint lists using column formatting. Each formatter automatically generates dynamic charts showing the distribution of tasks across "To Do", "In Progress", and "Done" states.
 
-![screenshot of the sample](./assets/doughnut.png)
+![screenshot of the sample](./assets/screenshot.png)
 ![screenshot of the sample](./assets/outlabeledpie.png)
 ![screenshot of the sample](./assets/polar.png)
 
@@ -10,7 +12,7 @@ This collection provides **three different chart visualizations** for task statu
 
 This sample includes three chart variations:
 
-1. **doughnut Chart** (`generic-quick-charts-doughnut.json`) - Classic doughnut with automatic colors
+1. **doughnut Chart** (`generic-quick-charts-io.json`) - Classic doughnut with automatic colors
 2. **Outlabeled Pie Chart** (`generic-quick-charts-outlabeledPie.json`) - Enhanced pie chart with labels outside segments
 3. **Polar Area Chart** (`generic-quick-charts-polararea.json`) - Polar area chart with legend and title
 
@@ -83,11 +85,11 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-quick-charts-doughnut.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
-generic-quick-charts-outlabeledPie.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
-generic-quick-charts-polararea.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-quick-charts-io.json | [Sai Bandaru](https://github.com/saiiiiiii)
+generic-quick-charts-outlabeledPie.json | [Sai Bandaru](https://github.com/saiiiiiii)
+generic-quick-charts-polararea.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

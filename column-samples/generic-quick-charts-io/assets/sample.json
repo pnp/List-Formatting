@@ -57,20 +57,20 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-quick-charts-io/assets/doughnut.png",
-        "alt": "screenshot"
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-quick-charts-io/assets/screenshot.png",
+        "alt": "Doughnut Chart"
       },
       {
         "type": "image",
         "order": 101,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-quick-charts-io/assets/outlabeledpie.png",
-        "alt": "screenshot"
+        "alt": "Outlabeled Pie Chart"
       },
       {
         "type": "image",
         "order": 102,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-quick-charts-io/assets/polar.png",
-        "alt": "screenshot"
+        "alt": "Polar Chart"
       }
     ],
     "authors": [
