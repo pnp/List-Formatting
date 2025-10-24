@@ -1,8 +1,8 @@
-# Automated List Formatting Deployment Strategy using Visual Studio Code & PowerShell or Office365 CLI
+# Automated List Formatting Deployment Strategy using Visual Studio Code & PowerShell or M365 CLI
 
 ## Summary
 A collection of tools that allow you to dynamically deploy SharePoint List Formatting definitions directly from within VS Code.<BR>
-Description of files for each solution is provided below. (PowerShell & Office365 CLI)<BR>
+Description of files for each solution is provided below. (PowerShell & M365 CLI)<BR>
 Video tutorial and a PnP Demo link is provided below.
 
 ## PowerShell Solution Folders & Files
@@ -46,9 +46,6 @@ Version|Date|Comments
 ## Additional Information:
 - Video demonstration setting up, configuring VS Code and deploying List Formatting definitions:<BR>
 http://warner.digital/list-formatting-automated-deployment-part1 
-
-- PnP Community Call Demo:<BR>
-URL COMING SOON - When Uploaded by Microsoft
 
 
 <img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/tools/general-dynamic-deployment-with-vscode" />
