@@ -1,5 +1,7 @@
 # QR Code Tile Formatter
 
+## Summary
+
 This sample uses **SharePoint List Formatting** to automatically generate QR codes for each list item in a tile view based on the Title field.  
 Each tile displays the item title above a dynamically generated QR code in a clean, centered card layout, making it ideal for visual dashboards, inventory displays, or quick-scan directories.
 
@@ -47,9 +49,9 @@ Configure the view as **Tiles** layout for the best experience.
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-qr-code-tile.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+qr-code-tile.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
