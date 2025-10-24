@@ -1,7 +1,7 @@
 [
   {
     "name": "pnp-list-formatting-certificate-card",
-    "reponame": "certificate",
+    "reponame": "certificate-card",
     "source": "pnp",
     "title": "Certificate Card",
     "shortDescription": "This sample uses SharePoint List Formatting to display certificate data as a card list view.",

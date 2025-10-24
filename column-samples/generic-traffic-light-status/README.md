@@ -1,8 +1,10 @@
 # Traffic Light Column Formatting
 
+## Summary
+
 This column formatting demonstrates how to create a **dynamic traffic light visual** within a SharePoint list using **column formatting JSON**. The traffic light displays different signal states (Red, Yellow, Green) with realistic styling including glowing effects, metal pole structure, and decorative side triangles.
 
-![Traffic Light Example](./assets/screenshot.png)
+![Screenshot of the sample](./assets/screenshot.png)
 
 ## Features
 
@@ -26,7 +28,7 @@ The traffic light system displays three possible states based on the column valu
 
 > **Note:** Only one light is active at a time. Inactive lights appear dark gray (#555) with inset shadows.
 
-## Required SharePoint Column
+## View requirements
 
 This formatting requires the following **column in your SharePoint list**:
 
@@ -129,9 +131,9 @@ Replace `@currentField == 'Red'` with your custom values:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-traffic-light-status.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-traffic-light-status.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 
@@ -148,4 +150,4 @@ Version|Date|Comments
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-traffic-light-status /">
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-traffic-light-status" />

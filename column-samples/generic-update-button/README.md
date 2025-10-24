@@ -36,14 +36,14 @@ This format can be applied to any column type but expects the following columns 
 
 Solution|Author(s)
 --------|---------
-generic-update-button.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-theme-color-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-theme-color-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-theme-color-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-OK-NG-border-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-OK-NG-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-OK-NG-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-update-button-OK-NG-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-update-button.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-theme-color-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-theme-color-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-theme-color-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-OK-NG-border-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-OK-NG-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-OK-NG-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-update-button-OK-NG-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

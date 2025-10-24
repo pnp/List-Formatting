@@ -12,7 +12,7 @@ This format can be applied to a Date column.
 
 Solution|Author(s)
 --------|---------
-date-page-a-day-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+date-page-a-day-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 date-page-a-day-calendar-minimal.json         | [Watana](https://github.com/watana2)
 date-page-a-day-calendar-prev-today-next.json | [Watana](https://github.com/watana2)
 date-page-a-day-calendar-weekend.json         | [Watana](https://github.com/watana2)

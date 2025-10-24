@@ -12,7 +12,7 @@ This format can be applied to any column type.
 
 Solution|Author(s)
 --------|---------
-generic-timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

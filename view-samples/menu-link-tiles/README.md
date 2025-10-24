@@ -31,7 +31,7 @@ OrderDate | Date & Time - this field will be used to update item to order tile.
 
 Solution|Author(s)
 --------|---------
-menu-link-tiles.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+menu-link-tiles.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

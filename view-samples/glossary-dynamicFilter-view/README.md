@@ -2,7 +2,7 @@
 
 ## Summary
 View formatters to buid a glossary page using connected list WebParts.
-![Filtered Glossary](./assets/filteredGlossary.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 Two lists are needed on this sample, so two separate JSON files are used:
 
@@ -10,7 +10,7 @@ File Name|View type for formatting|Details
 ---------|---------|--------
 [glossary-filter.json](./glossary-filter.json)|Gallery|Used to format the filter list.
 [glossary-filter-background.json](./glossary-filter-background.json)|Gallery|Used to format the filter list with letter on a background.
-[glossary-view.json](./glossary-view.json)|List|Used to format the main list.
+[glossary-dynamicfilter-view.json](./glossary-dynamicfilter-view.json)|List|Used to format the main list.
 
 ## View requirements
 
@@ -34,7 +34,7 @@ Single line of text|Title|Yes|Used to store the glossary term
 Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled
 Calculated|FirstChar| |Used to show the first character of the term. This is the key to the whole functionality. Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1). This will extract only the first character from the Title field and use it as the value.
 
-Apply the [glossary-view.json](./glossary-view.json) view formatter in a view in this list.
+Apply the [glossary-view.json](./glossary-dynamicfilter-view.json) view formatter in a view in this list.
 
 ## Setting up the glossary page
 
@@ -60,8 +60,8 @@ To be more user friendly, in the example shown above they were renamed from:
 
 Solution|Author(s)
 --------|---------
-glossary-filter.json | Michel Mendes ([@michelcarlo](https://twitter.com/michelcarlo) / [michelcarlo.com](https://michelcarlo.com/))
-glossary-view.json | [Michel Mendes](https://twitter.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://twitter.com/theChrisKent)
+glossary-dynamicfilter-view.json | [Michel Mendes](https://github.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://github.com/theChrisKent)
+glossary-filter.json | [Michel Mendes](https://github.com/michelcarlo)
 glossary-filter-background.json | [Watana](https://github.com/watana2)
 
 ## Version history
@@ -87,4 +87,4 @@ JSON for Glossary view was adapted from the FAQ Sample from PnP GitHub Samples:
 https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs
 
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-list-formatting/view-samples/readme-template" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/glossary-dynamicfilter-view" />

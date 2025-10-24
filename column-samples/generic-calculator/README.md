@@ -17,7 +17,7 @@ Calc | Single line of text - Calculator format
 
 Solution|Author(s)
 --------|---------
-generic-calculator.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+generic-calculator.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

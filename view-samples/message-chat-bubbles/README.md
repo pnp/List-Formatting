@@ -21,7 +21,7 @@ This sample formats your SharePoint list view to look like message chat bubbles!
 
 Solution|Author(s)
 --------|---------
-message-chat-bubbles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+message-chat-bubbles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -13,7 +13,7 @@ This format can be applied to any number column. It expects the values to be per
 
 Solution|Author(s)
 --------|---------
-number-level-bar.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-level-bar.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

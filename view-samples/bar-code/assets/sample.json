@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "rowFormatter"
+        "value": "rowFormatter, hideColumnHeader"
       },
       {
         "key": "CLASSES",

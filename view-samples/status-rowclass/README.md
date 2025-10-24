@@ -12,7 +12,7 @@ This sample applies a class to the entire row based on the value of a choice fie
 
 Solution|Author(s)
 --------|---------
-status-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
+status-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris)
 
 ## Version history
 

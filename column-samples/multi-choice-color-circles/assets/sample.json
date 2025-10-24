@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "length, split"
+        "value": "length, split, cos, sin, loopIndex"
       },
       {
         "key": "FORMATTING-ACTIONS",

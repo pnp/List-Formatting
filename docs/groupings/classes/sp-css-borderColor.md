@@ -741,12 +741,19 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralDark}
 ## sp-css-borderColor-neutralDark
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">7 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralLight}
 ## sp-css-borderColor-neutralLight
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Disable default click action on a tile list view](https://github.com/pnp/List-Formatting/tree/master/view-samples/disable-click-action){target=_blank title="disable-click-action (View): The sample list of items in a tile view where default click action is disabled. When item is clicked it is selected only." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/disable-click-action/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [photo-gallery-with-likes](https://github.com/pnp/List-Formatting/tree/master/view-samples/photo-gallery-with-likes){target=_blank title="photo-gallery-with-likes (View): This sample demonstrates formatting a document library gallery view into a photo gallery showing title and likes." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/photo-gallery-with-likes/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Picture Quick Links](https://github.com/pnp/list-formatting/tree/master/view-samples/picture-quick-links){target=_blank title="picture-quick-links (View): This sample shows custom quick links for adding to a vertical section in a SharePoint page." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-quick-links/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Prompt Cards](https://github.com/pnp/list-formatting/tree/master/view-samples/prompt-cards){target=_blank title="prompt-cards (View): This sample demonstrates how to format list items as prompt cards" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/prompt-cards/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Rating in Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/rating-in-tiles){target=_blank title="rating-in-tiles (View): This sample demonstrates how to create a clickable rating experience in the view Tile mode. It allows users to rate the item/document when in the tile mode. " data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/rating-in-tiles/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Travel Tweets Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/travel-tweets-board){target=_blank title="travel-tweets-board (View): This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one image and one map link." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/travel-tweets-board/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Whiteboard sticky notes](https://github.com/pnp/List-Formatting/tree/master/view-samples/whiteboard-sticky-notes){target=_blank title="whiteboard-sticky-notes (View): This sample creates a whiteboard-styled sticky notes that displays information. The sticky notes have two sides, so when clicked they show another piece of information." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/whiteboard-sticky-notes/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1035,24 +1042,27 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-BrownText}
 ## sp-css-borderLeftColor-BrownText
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-CoralFont}
 ## sp-css-borderLeftColor-CoralFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-CornflowerBlueFont}
 ## sp-css-borderLeftColor-CornflowerBlueFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-CyanFont}
 ## sp-css-borderLeftColor-CyanFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1095,12 +1105,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-disabledText}
 ## sp-css-borderLeftColor-disabledText
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-DustRoseFont}
 ## sp-css-borderLeftColor-DustRoseFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1113,12 +1124,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-errorText}
 ## sp-css-borderLeftColor-errorText
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-GoldFont}
 ## sp-css-borderLeftColor-GoldFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1203,12 +1215,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-MauveFont}
 ## sp-css-borderLeftColor-MauveFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-MintGreenFont}
 ## sp-css-borderLeftColor-MintGreenFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1281,12 +1294,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-OrangeText}
 ## sp-css-borderLeftColor-OrangeText
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-PeachFont}
 ## sp-css-borderLeftColor-PeachFont
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>

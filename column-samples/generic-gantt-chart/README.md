@@ -64,8 +64,8 @@ Set one of the following formulas for the `GanttChart` column.
 
 Solution|Author(s)
 --------|---------
-generic-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-gantt-chart-ddMMyyyy.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-gantt-chart-ddMMyyyy.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

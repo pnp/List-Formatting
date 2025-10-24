@@ -16,7 +16,7 @@ This sample demonstrates making a mailto link (opens email with prepopulated val
 
 Solution|Author(s)
 --------|---------
-generic-mailto-button.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-mailto-button.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

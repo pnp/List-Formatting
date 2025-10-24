@@ -14,7 +14,7 @@ Key features:
 > [!NOTE]
 > All columns must be included in the gallery view.
 
-![sample screenshot](./assets/screenshot.png)
+![Screenshot of the sample](./assets/screenshot.png)
 
 ## picture-link-tiles-doc-lib-minimal.json
 This sample displays card-style tiles grouped by category, with a basic click-to-open feature.
@@ -41,8 +41,8 @@ HideTitle           | Yes/No                 | Default value = No
 
 ## Sample
 Solution|Author(s)
---------|-
-picture-link-tiles-doc-lib.json         | [Watana](https://github.com/watana2)
+--------|---------
+picture-link-tiles-doc-lib.json | [Watana](https://github.com/watana2)
 picture-link-tiles-doc-lib-minimal.json | [Watana](https://github.com/watana2)
 
 
@@ -55,4 +55,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-doc-lib"/>
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-doc-lib" />

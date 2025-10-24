@@ -37,7 +37,7 @@ Disconnect-PnPOnline
 
 Solution|Author(s)
 --------|---------
-average-rating-rowclass.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+average-rating-rowclass.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

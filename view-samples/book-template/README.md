@@ -30,9 +30,9 @@ This SharePoint JSON view formatting sample transforms your list items into visu
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-book-template.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+book-template.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

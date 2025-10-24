@@ -4,7 +4,7 @@
 
 This column formatting sample displays images with action buttons overlaid at the bottom. The formatting dynamically adjusts image dimensions and button positioning based on the image orientation (Landscape, Portrait, or Square).
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -234,7 +234,7 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 
 Solution|Author(s)
 --------|---------
-generic-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

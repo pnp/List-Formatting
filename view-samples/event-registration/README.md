@@ -32,7 +32,7 @@ Edit View requirements
 
 Solution|Author(s)
 --------|---------
-event-registration.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+event-registration.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

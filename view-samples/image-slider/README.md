@@ -25,7 +25,7 @@ UpdateState | Single line of text - this field will be used order the images
 
 Solution|Author(s)
 --------|---------
-image-slider.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+image-slider.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

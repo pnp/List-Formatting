@@ -28,8 +28,8 @@ This specific format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-event-tiles.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-event-tiles-only.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+event-tiles.json | [Chris Kent](https://github.com/thechriskent)
+event-tiles-only.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

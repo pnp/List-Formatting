@@ -23,7 +23,7 @@ This sample demonstrates using the board view to display travel tweets in a time
 
 Solution|Author(s)
 --------|---------
-travel-tweets-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+travel-tweets-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

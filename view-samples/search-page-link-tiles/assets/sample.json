@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Gallery, Grouped, Icons"
+        "value": "Gallery, Grouped, Icons, Inline Editing, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@currentWeb, @group.fieldData"
+        "value": "@currentWeb, @group.fieldData, @me"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "substring, indexOf"
+        "value": "substring, indexOf, appendTo, removeFrom"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, customCardProps"
+        "value": "hideSelection, customCardProps, groupProps, headerFormatter"
       },
       {
         "key": "CLASSES",

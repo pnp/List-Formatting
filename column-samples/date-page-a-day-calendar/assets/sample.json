@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "ceiling, floor, getDate, getMonth, getYear, split, Number, substring, toDateString"
+        "value": "floor, getDate, getMonth, getYear, split, Number, substring, toDateString, toString, ceiling, Date"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "forEach"
       },
       {
         "key": "CLASSES",

@@ -17,7 +17,7 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-testimonials.json | [Andres Ibarra](https://github.com/Riftsan) ([@riftsan](https://twitter.com/riftsan))
+testimonials.json | [Andres Ibarra](https://github.com/Riftsan)
 
 ## Version history
 

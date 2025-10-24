@@ -18,7 +18,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-black}
 ## ms-borderColor-black
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/event-tiles/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -27,12 +27,19 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## ms-borderColor-black--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-blue}
 ## ms-borderColor-blue
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery){target=_blank title="video-gallery (View): A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Quiz](https://github.com/pnp/List-Formatting/tree/master/view-samples/quiz){target=_blank title="quiz (View): This sample creates a quiz with multiple choice questions. The tile view and custom card props provide visual feedback to users when making answer choices." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/quiz/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery){target=_blank title="video-gallery (View): A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/video-gallery/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-blue}
+## ms-borderColor-blue--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -45,18 +52,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-blueDark}
 ## ms-borderColor-blueDark--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-blue}
-## ms-borderColor-blue--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-blueLight}
 ## ms-borderColor-blueLight
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -226,24 +227,23 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-gray10}
 ## ms-borderColor-gray10
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-gray100}
-## ms-borderColor-gray100
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-gray100}
-## ms-borderColor-gray100--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-gray10}
 ## ms-borderColor-gray10--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-gray100}
+## ms-borderColor-gray100
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-gray100}
+## ms-borderColor-gray100--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -362,6 +362,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
+:fontawesome-solid-border-all:{.classDisplay .cd-gray20}
+## ms-borderColor-gray20--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
 :fontawesome-solid-border-all:{.classDisplay .cd-gray200}
 ## ms-borderColor-gray200
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
@@ -370,12 +376,6 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-gray200}
 ## ms-borderColor-gray200--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-gray20}
-## ms-borderColor-gray20--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -413,13 +413,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-gray30}
 ## ms-borderColor-gray30--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-gray40}
 ## ms-borderColor-gray40
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -491,10 +490,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-green}
 ## ms-borderColor-green
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Approval Status Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card){target=_blank title="generic-approval-status-hover-card (Column): Adds a hover card with additional details when using Content Approval"}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Hover Card (View)](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card){target=_blank title="custom-hover-card (View): A custom card is shown on hover of an item. The hover card shows additional details about an item's status."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Approval Status Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card){target=_blank title="generic-approval-status-hover-card (Column): Adds a hover card with additional details when using Content Approval" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contenttype-variations/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Hover Card (View)](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card){target=_blank title="custom-hover-card (View): A custom card is shown on hover of an item. The hover card shows additional details about an item's status." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-hover-card/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-green}
+## ms-borderColor-green--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -507,18 +512,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-greenDark}
 ## ms-borderColor-greenDark--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-green}
-## ms-borderColor-green--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-greenLight}
 ## ms-borderColor-greenLight
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -535,6 +534,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
+:fontawesome-solid-border-all:{.classDisplay .cd-magenta}
+## ms-borderColor-magenta--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
 :fontawesome-solid-border-all:{.classDisplay .cd-magentaDark}
 ## ms-borderColor-magentaDark
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
@@ -543,12 +548,6 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-magentaDark}
 ## ms-borderColor-magentaDark--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-magenta}
-## ms-borderColor-magenta--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -575,31 +574,45 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## ms-borderColor-neutralDark--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">11 samples</span>
+    <span class="sampleCount">12 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralLight}
 ## ms-borderColor-neutralLight
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Document Library Thumbnails](https://github.com/pnp/list-formatting/tree/master/view-samples/document-library-thumbnails){target=_blank title="document-library-thumbnails (View): This sample demonstrates showing files in a document libary as preview images."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Resource Catalog Sample](https://github.com/pnp/list-formatting/tree/master/view-samples/resource-catalog){target=_blank title="resource-catalog (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps."}
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Twitter Timeline](https://github.com/pnp/list-formatting/tree/master/view-samples/twitter-timeline){target=_blank title="twitter-timeline (View): This sample formats your SharePoint list view to look like Twitter. If you are using the Microsoft Flow Templates to track tweets in a SharePoint list, this is a great way to format your list so that it looks more like Twitter."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Embed Codes](https://github.com/pnp/List-Formatting/tree/master/view-samples/get-video-file-embed-code){target=_blank title="get-video-file-embed-code (View): If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery){target=_blank title="video-gallery (View): A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Document Library Thumbnails](https://github.com/pnp/list-formatting/tree/master/view-samples/document-library-thumbnails){target=_blank title="document-library-thumbnails (View): This sample demonstrates showing files in a document libary as preview images." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/document-library-thumbnails/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/event-tiles/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/request-sign-off/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Resource Catalog Sample](https://github.com/pnp/list-formatting/tree/master/view-samples/resource-catalog){target=_blank title="resource-catalog (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to implement a marketing resources catalog. This sample defines a custom view to bring focus to the status of items in the resource catalog. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and profile pictures." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/resource-catalog/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/retail-accounts/assets/screenshot.png"}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Team Poll](https://github.com/pnp/List-Formatting/tree/master/view-samples/team-poll){target=_blank title="team-poll (View): This sample combines a couple of lists and a few formats to demonstrate creating an application using view formatting. The end result is a configurable poll that end users can submit their choices too and view grouped results." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/team-poll/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Twitter Timeline](https://github.com/pnp/list-formatting/tree/master/view-samples/twitter-timeline){target=_blank title="twitter-timeline (View): This sample formats your SharePoint list view to look like Twitter. If you are using the Microsoft Flow Templates to track tweets in a SharePoint list, this is a great way to format your list so that it looks more like Twitter." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/twitter-timeline/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Embed Codes](https://github.com/pnp/List-Formatting/tree/master/view-samples/get-video-file-embed-code){target=_blank title="get-video-file-embed-code (View): If you upload video files to a SharePoint document library, there currently isn't a way for an end user to easily get the iFrame embed code for the video file other than using the Microsoft Graph Preview item API. This document library view formatting example composes the iFrame embed code automatically for any video files in the library so users could easily copy and paste it." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/get-video-file-embed-code/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Video Gallery](https://github.com/pnp/List-Formatting/tree/master/view-samples/video-gallery){target=_blank title="video-gallery (View): A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/video-gallery/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralLight}
+## ms-borderColor-neutralLight--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">3 samples</span>
+    <span class="sampleCount">4 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralLighter}
 ## ms-borderColor-neutralLighter
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Bing Maps Image for a Location](https://github.com/pnp/list-formatting/tree/master/column-samples/text-bing-map){target=_blank title="text-bing-map (Column): This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation"}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Display a Bing Maps Image for a Location](https://github.com/pnp/list-formatting/tree/master/column-samples/text-bing-map){target=_blank title="text-bing-map (Column): This template uses Bing Maps staticmap API which generates an image using a parameterized URL. The template only uses the most basic features of map location and image size. To see all of the available option see the static map documentation" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-bing-map/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Retail Accounts](https://github.com/pnp/list-formatting/tree/master/view-samples/retail-accounts){target=_blank title="retail-accounts (View): SharePoint lists are excellent places to store information. This example demonstrates how to use a custom SharePoint list to manage retail stores. This sample defines a custom view to bring focus to the status of store locations. It also provides a better visual experience by displaying all the data in an easy to read format by using icons, colors, and Bing maps." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/retail-accounts/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Team Poll](https://github.com/pnp/List-Formatting/tree/master/view-samples/team-poll){target=_blank title="team-poll (View): This sample combines a couple of lists and a few formats to demonstrate creating an application using view formatting. The end result is a configurable poll that end users can submit their choices too and view grouped results." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/team-poll/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralLighter}
+## ms-borderColor-neutralLighter--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -612,25 +625,19 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralLighterAlt}
 ## ms-borderColor-neutralLighterAlt--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralLighter}
-## ms-borderColor-neutralLighter--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralLight}
-## ms-borderColor-neutralLight--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## ms-borderColor-neutralPrimary
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Elf Progress Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/elf-progress-board){target=_blank title="elf-progress-board (View): Demonstrates multi-level progress bars, randomization, handling image fields, setValue actions, and inlineEditField" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/elf-progress-board/assets/screenshot.gif"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
+## ms-borderColor-neutralPrimary--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -643,19 +650,19 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimaryAlt}
 ## ms-borderColor-neutralPrimaryAlt--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
-## ms-borderColor-neutralPrimary--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralQuaternary}
 ## ms-borderColor-neutralQuaternary
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Header](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header){target=_blank title="custom-header (View): Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the display style attribute to none (hidden) whenever the @rowIndex is not 0 (first row)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Header](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-header){target=_blank title="custom-header (View): Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the display style attribute to none (hidden) whenever the @rowIndex is not 0 (first row)." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-header/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralQuaternary}
+## ms-borderColor-neutralQuaternary--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -668,27 +675,28 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralQuaternaryAlt}
 ## ms-borderColor-neutralQuaternaryAlt--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralQuaternary}
-## ms-borderColor-neutralQuaternary--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralSecondary}
 ## ms-borderColor-neutralSecondary
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Timeline](https://github.com/pnp/List-Formatting/tree/master/view-samples/timeline){target=_blank title="timeline (View): This sample formats your SharePoint list view to look like a timeline."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Timeline](https://github.com/pnp/List-Formatting/tree/master/view-samples/timeline){target=_blank title="timeline (View): This sample formats your SharePoint list view to look like a timeline." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/timeline/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralSecondary}
+## ms-borderColor-neutralSecondary--hover
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Team Poll](https://github.com/pnp/List-Formatting/tree/master/view-samples/team-poll){target=_blank title="team-poll (View): This sample combines a couple of lists and a few formats to demonstrate creating an application using view formatting. The end result is a configurable poll that end users can submit their choices too and view grouped results." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/team-poll/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralSecondaryAlt}
 ## ms-borderColor-neutralSecondaryAlt
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Approval Status Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card){target=_blank title="generic-approval-status-hover-card (Column): Adds a hover card with additional details when using Content Approval"}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Custom Hover Card (Column)](https://github.com/pnp/list-formatting/tree/master/column-samples/custom-hover-card){target=_blank title="custom-hover-card (Column): A custom card is shown on hover of an item. The hover card shows additional details about an item's status."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Hover Card (View)](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card){target=_blank title="custom-hover-card (View): A custom card is shown on hover of an item. The hover card shows additional details about an item's status."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Approval Status Hover Card](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card){target=_blank title="generic-approval-status-hover-card (Column): Adds a hover card with additional details when using Content Approval" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Custom Hover Card (Column)](https://github.com/pnp/list-formatting/tree/master/column-samples/custom-hover-card){target=_blank title="custom-hover-card (Column): A custom card is shown on hover of an item. The hover card shows additional details about an item's status." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/custom-hover-card/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Custom Hover Card (View)](https://github.com/pnp/List-Formatting/tree/master/view-samples/custom-hover-card){target=_blank title="custom-hover-card (View): A custom card is shown on hover of an item. The hover card shows additional details about an item's status." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-hover-card/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -696,18 +704,20 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralSecondaryAlt}
 ## ms-borderColor-neutralSecondaryAlt--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralSecondary}
-## ms-borderColor-neutralSecondary--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralTertiary}
 ## ms-borderColor-neutralTertiary
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Team Poll](https://github.com/pnp/List-Formatting/tree/master/view-samples/team-poll){target=_blank title="team-poll (View): This sample combines a couple of lists and a few formats to demonstrate creating an application using view formatting. The end result is a configurable poll that end users can submit their choices too and view grouped results." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/team-poll/assets/screenshot.png"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-neutralTertiary}
+## ms-borderColor-neutralTertiary--hover
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/event-tiles/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -720,13 +730,6 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralTertiaryAlt}
 ## ms-borderColor-neutralTertiaryAlt--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-neutralTertiary}
-## ms-borderColor-neutralTertiary--hover
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Modern Event Tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/event-tiles){target=_blank title="event-tiles (View): This sample demonstrates applying view formatting to an Events list to imitate the modern events webpart."}
-
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -744,9 +747,15 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-orangeLight}
 ## ms-borderColor-orangeLight
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used."}
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contenttype-variations/assets/screenshot.png"}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png"}
 
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-orangeLight}
+## ms-borderColor-orangeLight--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -762,14 +771,14 @@ Samples are grouped by classes used. Expand to see the related samples.
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
-:fontawesome-solid-border-all:{.classDisplay .cd-orangeLight}
-## ms-borderColor-orangeLight--hover
+:fontawesome-solid-border-all:{.classDisplay .cd-purple}
+## ms-borderColor-purple
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-purple}
-## ms-borderColor-purple
+## ms-borderColor-purple--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -782,12 +791,6 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-purpleDark}
 ## ms-borderColor-purpleDark--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-purple}
-## ms-borderColor-purple--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -807,25 +810,25 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-red}
 ## ms-borderColor-red
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-red}
+## ms-borderColor-red--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-redDark}
 ## ms-borderColor-redDark
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [ContentType Variations](https://github.com/pnp/list-formatting/tree/master/view-samples/contenttype-variations){target=_blank title="contenttype-variations (View): Provides an example of customizing your format based on the item's content type. When an item's ContentType is Apple and the apple type is Green then green is used in the format. If it's Apple with a different type, red is used. Otherwise, orange is used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/contenttype-variations/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Request Sign-off](https://github.com/pnp/list-formatting/tree/master/view-samples/request-sign-off){target=_blank title="request-sign-off (View): This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/request-sign-off/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-redDark}
 ## ms-borderColor-redDark--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-red}
-## ms-borderColor-red--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -947,13 +950,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedCyanBlue10}
 ## ms-borderColor-sharedCyanBlue10--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedCyanBlue20}
 ## ms-borderColor-sharedCyanBlue20
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -972,13 +974,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedGray10}
 ## ms-borderColor-sharedGray10--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedGray20}
 ## ms-borderColor-sharedGray20
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1021,13 +1022,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedGreen10}
 ## ms-borderColor-sharedGreen10--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedGreen20}
 ## ms-borderColor-sharedGreen20
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1178,13 +1178,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedRed10}
 ## ms-borderColor-sharedRed10--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-sharedRed20}
 ## ms-borderColor-sharedRed20
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-gantt-chart){target=_blank title="project-gantt-chart (View): This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views."}
-
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1248,6 +1247,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
+:fontawesome-solid-border-all:{.classDisplay .cd-teal}
+## ms-borderColor-teal--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
 :fontawesome-solid-border-all:{.classDisplay .cd-tealDark}
 ## ms-borderColor-tealDark
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
@@ -1256,12 +1261,6 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-tealDark}
 ## ms-borderColor-tealDark--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-teal}
-## ms-borderColor-teal--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -1276,11 +1275,20 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## ms-borderColor-tealLight--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-themeDark}
 ## ms-borderColor-themeDark
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [FAQs](https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs){target=_blank title="faqs (View): This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [FAQs](https://github.com/pnp/List-Formatting/tree/master/view-samples/faqs){target=_blank title="faqs (View): This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions)." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/faqs/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Glossary View Formatters](https://github.com/pnp/list-formatting/tree/master/view-samples/glossary-dynamicFilter-view){target=_blank title="glossary-dynamicfilter-view (View): View formatters to buid a glossary page using connected list WebParts." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Published Version](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-published-version){target=_blank title="generic-published-version (Column): This sample creates a button for opening the currently published version of a document." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-published-version/assets/screenshot.png"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-themeDark}
+## ms-borderColor-themeDark--hover
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Published Version](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-published-version){target=_blank title="generic-published-version (Column): This sample creates a button for opening the currently published version of a document." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-published-version/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -1309,39 +1317,8 @@ Samples are grouped by classes used. Expand to see the related samples.
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
-:fontawesome-solid-border-all:{.classDisplay .cd-themeDark}
-## ms-borderColor-themeDark--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
 :fontawesome-solid-border-all:{.classDisplay .cd-themeLight}
 ## ms-borderColor-themeLight
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-themeLighter}
-## ms-borderColor-themeLighter
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-themeLighterAlt}
-## ms-borderColor-themeLighterAlt
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Chronological Items](https://github.com/pnp/List-Formatting/tree/master/view-samples/chronological-items){target=_blank title="chronological-items (View): This sample formats your view to look like a chronological timeline."}
-
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-themeLighterAlt}
-## ms-borderColor-themeLighterAlt--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-border-all:{.classDisplay .cd-themeLighter}
-## ms-borderColor-themeLighter--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -1349,25 +1326,50 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-themeLight}
 ## ms-borderColor-themeLight--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-themeLighter}
+## ms-borderColor-themeLighter
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-themeLighter}
+## ms-borderColor-themeLighter--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-themeLighterAlt}
+## ms-borderColor-themeLighterAlt
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Chronological Items](https://github.com/pnp/List-Formatting/tree/master/view-samples/chronological-items){target=_blank title="chronological-items (View): This sample formats your view to look like a chronological timeline." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/chronological-items/assets/screenshot.png"}
+
+<div class="expansiongroup empty">
+    <span class="sampleCount">0 samples</span>
+</div>
+:fontawesome-solid-border-all:{.classDisplay .cd-themeLighterAlt}
+## ms-borderColor-themeLighterAlt--hover
+[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">7 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-themePrimary}
 ## ms-borderColor-themePrimary
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Bulletin Board](https://github.com/pnp/list-formatting/tree/master/view-samples/bulletin-board){target=_blank title="bulletin-board (View): Provides an example of creating a simple bulletin board listing. The rowFormatter property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details. The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Clipboards](https://github.com/pnp/list-formatting/tree/master/view-samples/clipboards){target=_blank title="clipboards (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Compressed Date](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-compress-format){target=_blank title="date-compress-format (Column): This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Demote News to Site Page](https://github.com/pnp/List-Formatting/tree/master/column-samples/promotedstate-demote-news){target=_blank title="promotedstate-demote-news (Column): This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page."}
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Event Itinerary Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/event-itinerary-header){target=_blank title="event-itinerary-header (Form): This sample shows a customized header for the item form used in the "Event itinerary" list template."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Page-a-day Calendar](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-page-a-day-calendar){target=_blank title="date-page-a-day-calendar (Column): This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (getDate, getMonth, and getYear)."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Testimonials](https://github.com/pnp/List-Formatting/tree/master/view-samples/testimonials){target=_blank title="testimonials (View): This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Bulletin Board](https://github.com/pnp/list-formatting/tree/master/view-samples/bulletin-board){target=_blank title="bulletin-board (View): Provides an example of creating a simple bulletin board listing. The rowFormatter property is used to fully customize the display of rows to create a nice view of list items while easily allowing users to click on the item for additional details. The large size and use of icons makes this much more attractive than a simple table view and keeps the functionality simple for users." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/bulletin-board/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Clipboards](https://github.com/pnp/list-formatting/tree/master/view-samples/clipboards){target=_blank title="clipboards (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expaning the card." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/clipboards/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Compressed Date](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-compress-format){target=_blank title="date-compress-format (Column): This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/column-samples/date-compress-format/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Demote News to Site Page](https://github.com/pnp/List-Formatting/tree/master/column-samples/promotedstate-demote-news){target=_blank title="promotedstate-demote-news (Column): This sample demonstrates how to use the setValue action to update the value of the Promoted State column to 0 and demote the news to a page." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/promotedstate-demote-news/assets/screenshot.gif"}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Event Itinerary Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/event-itinerary-header){target=_blank title="event-itinerary-header (Form): This sample shows a customized header for the item form used in the "Event itinerary" list template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/event-itinerary-header/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Page-a-day Calendar](https://github.com/pnp/List-Formatting/tree/master/column-samples/date-page-a-day-calendar){target=_blank title="date-page-a-day-calendar (Column): This sample customizes a date column to look like a page-a-day calendar. It does this by using the date part functions (getDate, getMonth, and getYear)." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/date-page-a-day-calendar/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Testimonials](https://github.com/pnp/List-Formatting/tree/master/view-samples/testimonials){target=_blank title="testimonials (View): This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/testimonials/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-themePrimary}
 ## ms-borderColor-themePrimary--hover
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Horse Crests](https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests){target=_blank title="horse-crests (View): This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Horse Crests](https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests){target=_blank title="horse-crests (View): This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/horse-crests/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -1375,12 +1377,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-themeSecondary}
 ## ms-borderColor-themeSecondary
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-themeSecondary}
 ## ms-borderColor-themeSecondary--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Department Members List](https://github.com/pnp/List-Formatting/tree/master/view-samples/department-members-list){target=_blank title="department-members-list (View): Turn list items into a custom table" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/department-members-list/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -1394,11 +1397,14 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## ms-borderColor-themeTertiary--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">4 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-white}
 ## ms-borderColor-white
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Horse Crests](https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests){target=_blank title="horse-crests (View): This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Department Members List](https://github.com/pnp/List-Formatting/tree/master/view-samples/department-members-list){target=_blank title="department-members-list (View): Turn list items into a custom table" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/department-members-list/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Head of Business Unit Overview](https://github.com/pnp/List-Formatting/tree/master/view-samples/head-of-bu-overview){target=_blank title="head-of-bu-overview (View): A visually appealing overview of business unit leaders to display key information at a glance." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/head-of-bu-overview/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Horse Crests](https://github.com/pnp/List-Formatting/tree/master/view-samples/horse-crests){target=_blank title="horse-crests (View): This sample illustrates some advanced techniques for applying theme colors to SVG elements, box-shadows, and borders. It also demonstrates using custom hover cards on complex elements (elements with children)." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/horse-crests/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Team Poll](https://github.com/pnp/List-Formatting/tree/master/view-samples/team-poll){target=_blank title="team-poll (View): This sample combines a couple of lists and a few formats to demonstrate creating an application using view formatting. The end result is a configurable poll that end users can submit their choices too and view grouped results." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/team-poll/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -1411,14 +1417,15 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-yellow}
 ## ms-borderColor-yellow
-- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used."}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Status Header and Footer](https://github.com/pnp/List-Formatting/tree/master/form-samples/status-header-footer){target=_blank title="status-header-footer (Form): This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/status-header-footer/assets/screenshot.png"}
 
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-yellow}
 ## ms-borderColor-yellow--hover
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Head of Business Unit Overview](https://github.com/pnp/List-Formatting/tree/master/view-samples/head-of-bu-overview){target=_blank title="head-of-bu-overview (View): A visually appealing overview of business unit leaders to display key information at a glance." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/head-of-bu-overview/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>

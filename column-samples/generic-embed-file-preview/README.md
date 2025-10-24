@@ -4,7 +4,7 @@
 
 This sample demonstrates how to display a file preview from a document library or Site Pages inside a callout using the [embed](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction) action. This allows users to view file contents without leaving the current page.
 
-![screenshot of a document library file preview in a callout](./assets/screenshot-document-library.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 Pages can also be previewed in a callout.
 
@@ -30,9 +30,9 @@ If you attempt to embed content from a domain that is not allowed, the following
 
 ## Sample
 
-Solution                            |Author(s)
-------------------------------------|---------------------------
-generic-embed-file-preview.json     |[Tetsuya Kawahara](https://github.com/tecchan1107)
+Solution|Author(s)
+--------|---------
+generic-embed-file-preview.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -24,9 +24,9 @@ dashed-line-header-align-right.json
 
 Solution|Author(s)
 --------|---------
-dashed-line-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-dashed-line-header-align-center.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-dashed-line-header-align-right.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+dashed-line-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+dashed-line-header-align-center.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+dashed-line-header-align-right.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

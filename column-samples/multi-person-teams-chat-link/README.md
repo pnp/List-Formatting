@@ -33,7 +33,7 @@ There are a few key differences when it comes to creating formats to be used wit
 
 Solution|Author(s)
 --------|---------
-multi-person-teams-chat-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-person-teams-chat-link.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

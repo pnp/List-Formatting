@@ -38,7 +38,7 @@
         },
         {
           "key": "FORMATTING-OPERATORS",
-          "value": "Date, indexOf, substring, getDate, getMonth, getYear, lastIndexOf"
+          "value": "substring, getDate, getMonth, getYear, lastIndexOf"
         },
         {
           "key": "FORMATTING-ACTIONS",

@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, toLocaleTimeString, getDate, getMonth, toString, loopIndex, join, length"
+        "value": "toLocaleTimeString, getDate, getMonth, toString, loopIndex, join, length"
       },
       {
         "key": "FORMATTING-ACTIONS",

@@ -3,7 +3,7 @@
 This sample uses **SharePoint List Formatting** to automatically generate Bar code for each list item based on the Title field.  
 Each row displays the item title alongside a dynamically generated Bar code, making it easy to create scannable links or references for physical handouts, inventory tracking, or event management.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -23,7 +23,7 @@ Create a list with the following columns:
 | Sai Bandaru              |
 | Budvik                   |
 
-## How it Works
+## Summary
 
 - The formatter displays each list item's **Title** with a corresponding **Bar code**
 - Bar codes are generated dynamically using the [barcodeapi.org API](https://barcodeapi.org/api/)
@@ -45,9 +45,9 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-bar-code.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+bar-code.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

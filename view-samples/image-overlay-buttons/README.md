@@ -1,12 +1,12 @@
-# SharePoint List Formatting - Image with Overlay Buttons
+# Image with Overlay Buttons
 
 A custom SharePoint list formatting JSON that displays images with overlay buttons in a modern card layout, designed to work consistently across all image aspect ratios.
 
-## Overview
+## Summary
 
 This improved formatting creates an attractive card-style view for SharePoint lists containing images with action buttons overlaid on the image. The solution uses absolute positioning and a consistent container height to ensure buttons appear reliably regardless of image orientation or aspect ratio.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## Features
 
@@ -17,7 +17,7 @@ This improved formatting creates an attractive card-style view for SharePoint li
 - **Professional Styling**: Clean appearance with shadows and rounded corners
 - **Secure External Links**: Opens in new tab with proper security attributes
 
-## Prerequisites
+## View requirements
 
 Your SharePoint list must have the following columns:
 
@@ -151,9 +151,9 @@ For testing different aspect ratios:
 
 ### Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

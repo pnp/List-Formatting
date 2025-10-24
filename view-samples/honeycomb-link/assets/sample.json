@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-fontColor-themeLight--hover, ms-fontColor-white"
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeLight--hover, ms-fontColor-white, ms-fontColor-themeDark--hover"
       }
     ],
     "thumbnails": [

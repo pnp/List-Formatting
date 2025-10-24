@@ -1,0 +1,1227 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin-left": "=if([$TopicContentSequence] == 0 && length([$Content]) != 0, '60px', if([$TopicContentSequence] == 0, '0px' , if(length([$CompletionDate])==0,'60px','60px')))"
+    },
+    "attributes": {
+      "class": "='sp-row-card ' + if([$TopicContentSequence] == 0 && length([$Content]) != 0, 'sp-css-backgroundColor-errorBackground', if([$TopicContentSequence] == 0, 'sp-css-backgroundColor-warningBackground' , if(length([$CompletionDate])==0,'sp-css-backgroundColor-disabledBackground','sp-css-backgroundColor-successBackground')))"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "column",
+          "width": "100%",
+          "border-left": "2px solid rgba(200,200,200,0.6)"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "space-between",
+              "margin-bottom": "5px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "min-width": "500px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "text-align": "left",
+                      "padding-left": "2px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "flex-wrap": "wrap",
+                          "display": "flex",
+                          "margin-left": "5px"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "flex",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$YearGroup] == 'Year 11','sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont','sp-css-backgroundColor-BgCyan sp-css-color-CyanFont')))))",
+                              "title": "Class code"
+                            },
+                            "txtContent": "[$Class]"
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "flex",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$SeniorCourse] == 'Advanced','sp-css-backgroundColor-BgCoral sp-css-color-BgCoralFont',if([$SeniorCourse] == 'Extension 1','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$SeniorCourse] == 'Extension 2','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont','')))))))",
+                              "title": "Topic number"
+                            },
+                            "txtContent": "='Topic ' + [$TopicNumber]"
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "=if([$YearGroup] == 'Year 11' || [$YearGroup] == 'Year 12', 'flex','none')",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$SeniorCourse] == 'Advanced','sp-css-backgroundColor-BgCoral sp-css-color-BgCoralFont',if([$SeniorCourse] == 'Extension 1','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$SeniorCourse] == 'Extension 2','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont','')))))))",
+                              "title": "Topic number"
+                            },
+                            "txtContent": "[$SeniorCourse]"
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "=if([$TopicContentSequence] == 0,'none','flex')",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "sp-css-backgroundColor-BgViolet sp-field-fontSizeSmall sp-css-color-VioletFont",
+                              "title": "Topic name"
+                            },
+                            "txtContent": "[$TopicName]"
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "=if([$TopicContentSequence] == 0,'none','flex')",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "='sp-field-fontSizeSmall ' + if([$ContentPointType] == 'Syllabus', 'sp-css-backgroundColor-errorBackground sp-css-color-errorFont' , 'sp-css-backgroundColor-neutralBackground sp-css-color-neutralFont')"
+                            },
+                            "children": [
+                              {
+                                "elmType": "span",
+                                "attributes": {
+                                  "iconName": "=if([$ContentPointType] == 'Syllabus', 'Dictionary' , 'PublishCourse')",
+                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Syllabus wording', 'School developed teaching point')"
+                                },
+                                "style": {
+                                  "font-size": "medium"
+                                }
+                              },
+                              {
+                                "elmType": "span",
+                                "txtContent": "[$ContentPointType]",
+                                "style": {
+                                  "margin-left": "4px"
+                                },
+                                "attributes": {
+                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Syllabus wording', 'School developed teaching point')"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "=if(length([$HPGE]) == 0, 'none', 'flex')",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "='sp-field-fontSizeSmall ' + if([$HPGE] == 'Enrichment' || [$HPGE] == 'Extension', 'sp-css-backgroundColor-BgSage sp-css-color-SageFont', 'sp-css-backgroundColor-BgDarkPink sp-css-color-WhiteText')",
+                              "title": "='HPGE Strategy: ' + [$HPGE]"
+                            },
+                            "children": [
+                              {
+                                "elmType": "span",
+                                "attributes": {
+                                  "iconName": "=if([$HPGE] == 'Enrichment', 'AutoEnhanceOn' , if([$HPGE] == 'Extension', 'FastForward', 'Refresh'))"
+                                },
+                                "style": {
+                                  "font-size": "medium"
+                                }
+                              },
+                              {
+                                "elmType": "span",
+                                "txtContent": "[$HPGE]",
+                                "style": {
+                                  "margin-left": "4px"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "=if([$TopicContentSequence] == 0,'flex','none')",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "sp-css-backgroundColor-blue sp-css-color-WhiteText",
+                              "title": "Expected length of topic in weeks"
+                            },
+                            "children": [
+                              {
+                                "elmType": "span",
+                                "attributes": {
+                                  "iconName": "DateTime12"
+                                },
+                                "style": {
+                                  "font-size": "medium"
+                                }
+                              },
+                              {
+                                "elmType": "span",
+                                "txtContent": "='Expected weeks: ' + [$WeeksExpected]",
+                                "style": {
+                                  "margin-left": "4px"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "elmType": "span",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "padding": "4px 8px 5px 8px",
+                              "overflow": "hidden",
+                              "text-overflow": "ellipsis",
+                              "display": "flex",
+                              "border-radius": "5px",
+                              "height": "24px",
+                              "align-items": "center",
+                              "white-space": "nowrap",
+                              "margin": "4px 4px 4px 4px"
+                            },
+                            "attributes": {
+                              "class": "sp-css-backgroundColor-disabledText sp-css-color-WhiteText",
+                              "title": "Click the icon to view the Teaching Program (opens in a new tab)"
+                            },
+                            "children": [
+                              {
+                                "elmType": "a",
+                                "attributes": {
+                                  "iconName": "PDF",
+                                  "href": "URL of PDF",
+                                  "target": "_new"
+                                },
+                                "style": {
+                                  "font-size": "medium",
+                                  "text-decoration": "none",
+                                  "color": "white"
+                                }
+                              },
+                              {
+                                "elmType": "span",
+                                "txtContent": "See Teaching Program",
+                                "style": {
+                                  "margin-left": "4px"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "attributes": {
+                          "class": "sp-row-title",
+                          "title": "=if([$TopicContentSequence] == 0, 'This tile is a topic heading where you can provide overall topic feedback and action various topic related matters.', 'This tile is a content tile, where you can provide Teaching Program Documentation feedback, content reflection and registration')"
+                        },
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "x-large",
+                          "margin-left": "10px",
+                          "display": "block",
+                          "text-decoration": "=if(length([$CompletionDate]) != 0,'line-through red 3px','none')"
+                        },
+                        "txtContent": "=if([$TopicContentSequence] == 0 && length([$Content]) != 0, 'Error', if([$TopicContentSequence] == 0, [$TopicName] , [$TopicNumber] + '.' + [$TopicContentSequence] + ' ' +[$Content]))"
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "0px",
+                          "margin-left": "10px"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "=if(length([$AssignedTo]) > 1, 'Classroom Teachers','Classroom Teacher')"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "display": "flex",
+                              "flex-wrap": "wrap"
+                            },
+                            "children": [
+                              {
+                                "elmType": "div",
+                                "forEach": "person in [$AssignedTo]",
+                                "style": {
+                                  "display": "=if([$AssignedTo],'flex','none')",
+                                  "flex-direction": "row",
+                                  "align-items": "center",
+                                  "white-space": "nowrap",
+                                  "border-radius": "13px",
+                                  "margin": "4px",
+                                  "margin-left": "10px"
+                                },
+                                "attributes": {
+                                  "class": "ms-bgColor-neutralLight"
+                                },
+                                "defaultHoverField": "[$person]",
+                                "children": [
+                                  {
+                                    "elmType": "img",
+                                    "style": {
+                                      "width": "28px",
+                                      "height": "28px",
+                                      "border-radius": "50%"
+                                    },
+                                    "attributes": {
+                                      "src": "=getUserImage([$person.email], 'small')"
+                                    }
+                                  },
+                                  {
+                                    "elmType": "div",
+                                    "txtContent": "[$person.title]",
+                                    "style": {
+                                      "padding-left": "6px",
+                                      "padding-right": "10px"
+                                    },
+                                    "attributes": {
+                                      "class": "ms-fontColor-neutralPrimary"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "margin-top": "10px",
+                          "margin-left": "10px",
+                          "border-top-width": "0px",
+                          "border-top-style": "solid",
+                          "padding-top": "10px",
+                          "display": "=if([$TopicContentSequence] == 0,'block','none')"
+                        },
+                        "attributes": {
+                          "class": "='sp-row-listPadding ' + if([$TopicContentSequence] == 0 , 'sp-css-borderTop-warningBorder' 'sp-css-borderTop-successBorder')"
+                        },
+                        "txtContent": "=if([$TopicContentSequence] == 0,'OneNote Class Notebook Section URL','')"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin-left": "10px",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "a",
+                            "style": {
+                              "display": "=if(length([$ClassNotebookURL]) == 0, 'none', 'flex')",
+                              "font-size": "large"
+                            },
+                            "attributes": {
+                              "iconName": "OneNoteLogo",
+                              "href": "[$ClassNotebookURL]",
+                              "target": "_new"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "inlineEditField": "[$ClassNotebookURL]",
+                            "attributes": {
+                              "class": "sp-row-listPadding"
+                            },
+                            "style": {
+                              "margin-left": "=if(length([$ClassNotebookURL]) == 0, '0px','10px')",
+                              "font-size": "larger",
+                              "min-height": "20px",
+                              "width": "100%",
+                              "display": "=if([$TopicContentSequence] == 0,'flex','none')"
+                            },
+                            "txtContent": "=if(length([$ClassNotebookURL]) == 0,'Click to paste the Class Notebook URL','Click the OneNote icon to view the Class Notebook section')"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "span",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "0px",
+                          "margin-left": "10px",
+                          "border-top-width": "0px",
+                          "border-top-style": "solid",
+                          "padding-top": "10px"
+                        },
+                        "attributes": {
+                          "class": "='sp-row-listPadding ' + if([$TopicContentSequence] == 0 , 'sp-css-borderTop-warningBorder' 'sp-css-borderTop-successBorder')"
+                        },
+                        "txtContent": "=if([$TopicContentSequence] == 0,'Teaching Experience Reflection','Teaching Program Annotations, and Program Documentation/Content Reflection')"
+                      },
+                      {
+                        "elmType": "div",
+                        "inlineEditField": "[$Reflection]",
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "style": {
+                          "margin-left": "10px",
+                          "font-size": "larger",
+                          "min-height": "50px",
+                          "width": "100%"
+                        },
+                        "txtContent": "=if(length([$Reflection]) == 0, if([$TopicContentSequence] == 0,'Click to enter Teaching Experience Reflection here','Where appropriate - click to enter Program Documentation reflection here'),[$Reflection])"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "row"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "=if([$TopicContentSequence] == 0,'block','none')",
+                      "margin": "0px 15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "Content Rating"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "white-space": "nowrap",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$ContentRating] == 0 || [$ContentRating] == '','none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorSubtract"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "ContentRating": "= [$ContentRating] - 1"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , [$ContentRating] , '⭐')",
+                            "style": {
+                              "font-size": "25px",
+                              "margin-right": "=if([$ContentRating] == 5,'20px','0px')",
+                              "margin-left": "=if([$ContentRating] == 0 || [$ContentRating] == '','20px','0px')"
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , (5 - [$ContentRating]), '⭐')",
+                            "style": {
+                              "color": "transparent",
+                              "text-shadow": "0px 0px 0 white, -1px 0 #c0c0c0, 0 -1px #c0c0c0 , 1px 0 #c0c0c0, 0 1px #c0c0c0",
+                              "font-size": "25px"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$ContentRating] == 5,'none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorAddition"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "ContentRating": "= [$ContentRating] + 1"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "10px"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "Time Allowed"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "white-space": "nowrap",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$TimeAllowedRating] == 0 || [$TimeAllowedRating] == '','none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorSubtract"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "TimeAllowedRating": "= [$TimeAllowedRating] - 1"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , [$TimeAllowedRating] , '⭐')",
+                            "style": {
+                              "font-size": "25px",
+                              "margin-right": "=if([$TimeAllowedRating] == 5,'20px','0px')",
+                              "margin-left": "=if([$TimeAllowedRating] == 0 || [$TimeAllowedRating] == '','20px','0px')"
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , (5 - [$TimeAllowedRating]), '⭐')",
+                            "style": {
+                              "color": "transparent",
+                              "text-shadow": "0px 0px 0 white, -1px 0 #c0c0c0, 0 -1px #c0c0c0 , 1px 0 #c0c0c0, 0 1px #c0c0c0",
+                              "font-size": "25px"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$TimeAllowedRating] == 5,'none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorAddition"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "TimeAllowedRating": "= [$TimeAllowedRating] + 1"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "10px"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "Resources"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "white-space": "nowrap",
+                          "display": "flex"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$ResourcesRating] == 0 || [$ResourcesRating] == '','none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorSubtract"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "ResourcesRating": "= [$ResourcesRating] - 1"
+                              }
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , [$ResourcesRating] , '⭐')",
+                            "style": {
+                              "font-size": "25px",
+                              "margin-right": "=if([$ResourcesRating] == 5,'20px','0px')",
+                              "margin-left": "=if([$ResourcesRating] == 0 || [$ResourcesRating] == '','20px','0px')"
+                            }
+                          },
+                          {
+                            "elmType": "span",
+                            "txtContent": "=padStart('' , (5 - [$ResourcesRating]), '⭐')",
+                            "style": {
+                              "color": "transparent",
+                              "text-shadow": "0px 0px 0 white, -1px 0 #c0c0c0, 0 -1px #c0c0c0 , 1px 0 #c0c0c0, 0 1px #c0c0c0",
+                              "font-size": "25px"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20px",
+                              "height": "20px",
+                              "display": "=if([$ResourcesRating] == 5,'none','flex')",
+                              "align-items": "center",
+                              "justify-content": "center",
+                              "cursor": "pointer",
+                              "margin-top": "8px"
+                            },
+                            "attributes": {
+                              "class": "ms-bgColor-themePrimary ms-bgColor-themeDark--hover ms-fontColor-white",
+                              "iconName": "CalculatorAddition"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "ResourcesRating": "= [$ResourcesRating] + 1"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "block",
+                      "margin": "0px 15px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "=if([$TopicContentSequence] == 0 ,'block','none')",
+                          "width": "100%"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "Topic commenced"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin": "5px 5px 5px 0",
+                          "padding": "5px",
+                          "width": "200px",
+                          "display": "=if([$TopicContentSequence] == 0 ,'flex','none')"
+                        },
+                        "inlineEditField": "[$CommencementDate]",
+                        "attributes": {
+                          "class": "sp-css-backgroundColor-neutralLighterAlt ms-fontSize-m"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20%",
+                              "padding-top": "3px",
+                              "text-align": "left"
+                            },
+                            "attributes": {
+                              "iconName": "calendar"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "=toLocaleDateString([$CommencementDate])"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "=if([$TopicContentSequence] == 0,'10px','0px')"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "=if([$TopicContentSequence] == 0 ,'Topic completed','Date Completed')"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin": "5px 5px 5px 0",
+                          "padding": "5px",
+                          "width": "200px",
+                          "display": "flex"
+                        },
+                        "inlineEditField": "[$CompletionDate]",
+                        "attributes": {
+                          "class": "sp-css-backgroundColor-neutralLighterAlt ms-fontSize-m"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20%",
+                              "padding-top": "3px",
+                              "text-align": "left"
+                            },
+                            "attributes": {
+                              "iconName": "calendar"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "=toLocaleDateString([$CompletionDate])"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "=if([$TopicContentSequence] == 0,'10px','0px')"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding",
+                          "title": "Optionally, enter the approximate number of lessons required. This may be useful when the topic spans across a school vacation."
+                        },
+                        "txtContent": "Lessons taken (optional)"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "margin": "5px 5px 5px 0",
+                          "padding": "5px",
+                          "width": "120px",
+                          "display": "flex"
+                        },
+                        "inlineEditField": "[$ApproxLessons]",
+                        "attributes": {
+                          "class": "sp-css-backgroundColor-neutralLighterAlt ms-fontSize-m"
+                        },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "width": "20%",
+                              "padding-top": "3px",
+                              "text-align": "left"
+                            },
+                            "attributes": {
+                              "iconName": "NumberField"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "=[$ApproxLessons]"
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "font-weight": "bold",
+                          "font-size": "medium",
+                          "display": "block",
+                          "margin-top": "10px"
+                        },
+                        "attributes": {
+                          "class": "sp-row-listPadding"
+                        },
+                        "txtContent": "Marked complete by"
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "display": "flex",
+                          "width": "100%",
+                          "margin-top": "3px",
+                          "align-items": "center",
+                          "padding": "0px"
+                        },
+                        "defaultHoverField": "[$MarkedCompleteBy]",
+                        "children": [
+                          {
+                            "elmType": "img",
+                            "style": {
+                              "border-radius": "50%",
+                              "height": "32px",
+                              "opacity": "=if([$MarkedCompleteBy], 1, 0.6)"
+                            },
+                            "attributes": {
+                              "src": "='/_layouts/15/userphoto.aspx?size=S&accountname=' + [$MarkedCompleteBy.email]"
+                            }
+                          },
+                          {
+                            "elmType": "div",
+                            "style": {
+                              "font-size": "14px",
+                              "padding-left": "8px",
+                              "font-style": "=if([$MarkedCompleteBy],'inherit','italic')"
+                            },
+                            "attributes": {
+                              "class": "=if([$MarkedCompleteBy],'','ms-fontColor-neutralTertiaryAlt')"
+                            },
+                            "txtContent": "=if([$MarkedCompleteBy],[$MarkedCompleteBy.title],'Not marked complete')"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "setValue",
+                  "actionInput": {
+                    "ContentCompletedUpdateLog": "=if(length([$CompletionDate]) != 0, '❌ ' + @me + ' has marked ' + [$Class] + ' having <b>not completed</b> this content on ' + toLocaleString(@now), '✅ ' + @me + ' has marked ' + [$Class] + ' having <b>completed</b> this content on ' + toLocaleString(@now)) + '<br />' + [$ContentCompletedUpdateLog]",
+                    "CompletionDate": "=if(length([$CompletionDate]) == 0, getMonth(@now)+1 + '/' + getDate(@now) + '/' + getYear(@now),'')",
+                    "MarkedCompleteBy": "=if(length([$CompletionDate]) == 0, @me,'')"
+                  }
+                },
+                "attributes": {
+                  "class": "='sp-row-button ms-fontWeight-semibold ms-fontColor-black ' + if(length([$CompletionDate]) == 0,'sp-css-backgroundColor-BgMintGreen  sp-css-backgroundColor-BgMintGreen30--hover', 'sp-css-backgroundColor-BgCoral sp-css-backgroundColor-BgCoral30--hover')"
+                },
+                "style": {
+                  "width": "250px",
+                  "margin-left": "10px",
+                  "display": "span"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "=if(length([$CompletionDate]) != 0,'ErrorBadge' ,'SkypeCircleCheck')"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "=if(length([$CompletionDate]) != 0,'Unmark as complete for ' + [$Class] ,'Mark as complete for ' + [$Class])",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "executeFlow",
+                  "actionParams": "{\"id\":\"30b64ec0-4c65-4f9b-a772-35dcf89de082\", \"headerText\":\"Apply Early Intervention!\",\"runFlowButtonText\":\"Apply\"}"
+                },
+                "attributes": {
+                  "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
+                },
+                "style": {
+                  "width": "250px",
+                  "margin-left": "10px",
+                  "display": "=if([$TopicContentSequence] == 0, 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "WarningSolid"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Apply Early Intervention",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "executeFlow",
+                  "actionParams": "{\"id\":\"f446013b-3291-40fa-89df-fda631b70940\", \"headerText\":\"Lodge Learning Adjustment\",\"runFlowButtonText\":\"Lodge\"}"
+                },
+                "attributes": {
+                  "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
+                },
+                "style": {
+                  "width": "250px",
+                  "margin-left": "10px",
+                  "display": "=if([$TopicContentSequence] == 0, 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "DeveloperTools"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Lodge Learning Adjustment(s)",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "executeFlow",
+                  "actionParams": "{\"id\":\"4f0c45b4-ed48-45e7-9a63-8ac3d981f823\", \"headerText\":\"Post Classwork/Homework!\",\"runFlowButtonText\":\"Apply\"}"
+                },
+                "attributes": {
+                  "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
+                },
+                "style": {
+                  "width": "250px",
+                  "margin-left": "10px",
+                  "display": "=if([$TopicContentSequence] == 0, 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "TeamsLogo"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Post Classwork/Homework",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "share"
+                },
+                "style": {
+                  "width": "150px",
+                  "margin-left": "10px",
+                  "display": "span"
+                },
+                "attributes": {
+                  "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Share"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Share/Copy link",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "editProps"
+                },
+                "style": {
+                  "width": "150px",
+                  "margin-left": "10px",
+                  "display": "span"
+                },
+                "attributes": {
+                  "class": "sp-row-button ms-bgColor-grey ms-bgColor-neutralQuaternary--hover ms-fontColor-white--hover"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Edit"
+                    },
+                    "style": {
+                      "padding-right": "4px",
+                      "font-size": "large",
+                      "vertical-align": "text-bottom"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "Edit details",
+                    "style": {
+                      "word-break": "keep-all"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "flex-direction": "row"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "=if(indexOf(@group.fieldData,'7MAT') != -1, 'sp-css-backgroundColor-BgCornflowerBlue sp-css-borderColor-CornflowerBlueFont sp-css-color-CornflowerBlueFont', if(indexOf(@group.fieldData,'8MAT') != -1, 'sp-css-backgroundColor-BgMintGreen sp-css-borderColor-MintGreenFont sp-css-color-MintGreenFont',if(indexOf(@group.fieldData,'9MAT') != -1, 'sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont sp-css-color-GoldFont',if(indexOf(@group.fieldData,'10MAT') != -1 || indexOf(@group.fieldData,'10SS') != -1, 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if(indexOf(@group.fieldData,'11MA') != -1, 'sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont',if(indexOf(@group.fieldData,'12MA') != -1 || indexOf(@group.fieldData,'MX') != -1,'sp-css-backgroundColor-BgCyan sp-css-color-CyanFont' , 'sp-css-backgroundColor-warningBackground sp-css-color-warningFont'))))))"
+          },
+          "style": {
+            "display": "inline-flex",
+            "height": "25px",
+            "border-radius": "15px",
+            "padding-left": "8px",
+            "padding-top": "5px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "=if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1, 'Group', 'GroupedList')"
+              },
+              "style": {
+                "padding-right": "6px",
+                "padding-top": "2px",
+                "font-size": "medium"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "display": "inline-flex",
+                "padding-right": "9px"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "txtContent": "=if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1, 'Class: ' + @group.fieldData, 'Topic ' + @group.fieldData + ' | ')",
+                  "attributes": {
+                    "title": "=@group.fieldData",
+                    "class": "ms-fontWeight-bold"
+                  },
+                  "style": {
+                    "padding-left": "5px"
+                  }
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px",
+                    "display": "=if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1,'none','')"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-bold"
+                  },
+                  "txtContent": "@group.count"
+                },
+                {
+                  "elmType": "div",
+                  "style": {
+                    "padding-left": "5px"
+                  },
+                  "attributes": {
+                    "class": "ms-fontWeight-normal"
+                  },
+                  "txtContent": "= if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1 ,'',if(@group.count!= 1,'items','item')"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

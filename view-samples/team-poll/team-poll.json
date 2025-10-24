@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-borderColor-neutralLight"
+      },
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "flex-start",
+        "width": "300px",
+        "border-style": "solid",
+        "border-width": "3px",
+        "border-radius": "8px",
+        "overflow": "hidden",
+        "padding": "4px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=substring(@group.fieldData,0,indexOf(@group.fieldData,'|+|'))"
+        },
+        {
+          "elmType": "div",
+          "attributes": {
+            "class": "='ms-fontColor-white ms-bgColor-' + substring(@group.fieldData,indexOf(@group.fieldData,'|+|')+3,1000)"
+          },
+          "style": {
+            "width": "=1/10 * 100 + '%'",
+            "height": "20px",
+            "border-radius": "2px"
+          },
+          "txtContent": "=@group.count"
+        }
+      ]
+    }
+  }
+}

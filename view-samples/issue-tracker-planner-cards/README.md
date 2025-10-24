@@ -23,7 +23,7 @@ Adding a new list using the Issue Tracker template will provide all the fields r
 
 Solution|Author(s)
 --------|---------
-issue-tracker-planner-cards.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+issue-tracker-planner-cards.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

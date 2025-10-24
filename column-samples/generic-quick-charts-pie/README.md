@@ -1,5 +1,7 @@
 # Pie Chart Column Formatter
 
+## Summary
+
 This sample uses **SharePoint List Formatting** to automatically generate a pie chart visualization for task status counts in each list item.  
 Each row displays a dynamically generated pie chart showing the distribution of tasks across three states: "To Do", "In Progress", and "Done", making it easy to visualize project or task progress at a glance.
 
@@ -52,9 +54,9 @@ Create a list with the following columns:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-quick-charts-pie.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-quick-charts-pie.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

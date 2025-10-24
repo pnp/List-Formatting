@@ -23,7 +23,7 @@ This format can be applied to a Date column.
 
 Solution|Author(s)
 --------|---------
-date-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+date-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

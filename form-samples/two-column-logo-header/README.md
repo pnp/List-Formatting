@@ -4,7 +4,7 @@
 
 This sample displays an `Icon` and `Title` in a two column header with the Icon on the left and the `Title` on the right. An additional `Icon` and `RequestStatus` and added below the `Title`.
 
-![screenshot of the sample](./assets/screenshot_two_column_Default_Diagram.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## Form requirements
 
@@ -52,7 +52,7 @@ This sample logo uses the `CRMCustomerInsightsApp` from [Fluent UI Icons](https:
 
 Solution|Author(s)
 --------|---------
-two-column-logo-header.json | [Andrew Burns](https://github.com/GeorgiaGit) ([@SharePointRox](https://x.com/SharePointRox))
+two-column-logo-header.json | [Andrew Burns](https://github.com/GeorgiaGit)
 
 ## Version history
 

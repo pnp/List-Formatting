@@ -21,7 +21,7 @@ The solution was demonstrated and recorded in the General M365 Dev SIG call - 18
 
 Solution|Author(s)
 --------|---------
-comment-count.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+comment-count.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -24,7 +24,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -44,7 +44,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach, defaultHoverField, hideSelection, hideListHeader, rowFormatter"
+        "value": "forEach, defaultHoverField, hideSelection, hideColumnHeader, rowFormatter"
       },
       {
         "key": "CLASSES",

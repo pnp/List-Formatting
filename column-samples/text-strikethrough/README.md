@@ -15,7 +15,7 @@ Classic task lists add a strikethrough style to the task name when the task is m
 
 Solution|Author(s)
 --------|---------
-text-strikethrough.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-strikethrough.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

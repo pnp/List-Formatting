@@ -14,7 +14,7 @@ The background and text colors are set using theme values by applying classes fr
 
 Solution|Author(s)
 --------|---------
-number-piechart.json | [Aaron Miao](https://github.com/aaronmi), [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-piechart.json | [Aaron Miao](https://github.com/aaronmi), [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

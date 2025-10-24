@@ -29,8 +29,8 @@ Set up the view so that the note names are displayed in order starting with C:
 
 Solution|Author(s)
 --------|---------
-piano.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-piano-rainbow.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+piano.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+piano-rainbow.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

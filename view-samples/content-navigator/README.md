@@ -18,8 +18,8 @@ The sample utilizes the `@rowIndex` magic string to generate the anchor links. T
 
 Solution|Author(s)
 --------|---------
-content-navigator.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-content-navigator-links.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+content-navigator.json | [Chris Kent](https://github.com/thechriskent)
+content-navigator-links.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

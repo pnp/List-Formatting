@@ -24,7 +24,7 @@ In this case, the Title column has been renamed to Question (though it doesn't m
 
 Solution|Author(s)
 --------|---------
-faq-grouped.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+faq-grouped.json | [Chris Kent](https://github.com/thechriskent)
 faq-grouped-full-width-answer.json | [Steve Corey](https://github.com/stevecorey365)
 
 ## Version history

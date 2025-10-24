@@ -18,7 +18,7 @@ Group by a column of choice.
 
 Solution|Author(s)
 --------|---------
-group-header-color-itemcount.json | [Marijnsomers](https://github.com/marijnsomers) [(@marijnsomers)](https://twitter.com/marijnsomers)
+group-header-color-itemcount.json | [Marijnsomers](https://github.com/marijnsomers)
 
 ## Version history
 
@@ -34,3 +34,5 @@ Version |Date          |Comments
 ## Additional notes
 
 - None
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/group-header-color-itemcount" />

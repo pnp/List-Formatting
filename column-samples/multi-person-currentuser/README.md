@@ -17,7 +17,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 Solution|Author(s)
 --------|---------
-multi-person-currentuser.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-person-currentuser.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -15,7 +15,7 @@ This sample demonstrates how to display multiple selected persons from existing 
 
 Solution|Author(s)
 --------|---------
-person-circle-header.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+person-circle-header.json | [Andre Lage](https://github.com/aaclage)
 
 ## Version history
 

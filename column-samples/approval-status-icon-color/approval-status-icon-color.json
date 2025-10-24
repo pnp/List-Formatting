@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "flex-start",
+        "margin": "7px 0px",
+        "white-space": "nowrap"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center",
+            "padding": "3px",
+            "border-radius": "20px",
+            "border": "=if(Number(@currentField)==3,'1px solid','')"
+          },
+          "attributes": {
+            "class": "=if(Number(@currentField)==0,'ms-bgColor-tealLight',if(Number(@currentField)==1,'ms-bgColor-sharedRed10',if(Number(@currentField)==2,'ms-bgColor-sharedBlueMagenta10',if(Number(@currentField)==3,'ms-bgColor-white','ms-bgColor-blue'))))"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "style": {
+                "padding": "4px",
+                "border-radius": "50%",
+                "font-weight": "bold"
+              },
+              "attributes": {
+                "iconName": "=if(Number(@currentField)==0,'Accept',if(Number(@currentField)==1,'Cancel',if(Number(@currentField)==2,'Forward',if(Number(@currentField)==3,'CalculatorSubtract','EventAccepted'))))",
+                "class": "='ms-fontSize-10 ms-bgColor-white '+if(Number(@currentField)==0,'ms-fontColor-teal',if(Number(@currentField)==1,'ms-fontColor-sharedRed10',if(Number(@currentField)==2,'ms-fontColor-sharedBlueMagenta10',if(Number(@currentField)==3,'','ms-fontColor-blue')))"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "@currentField",
+              "style": {
+                "margin": "0px 7px"
+              },
+              "attributes": {
+                "class": "=if(Number(@currentField)==3,'','ms-fontColor-white')"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

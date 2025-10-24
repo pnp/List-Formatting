@@ -16,7 +16,7 @@ This sample demonstrates counting the number of clicks on a link. By keeping tra
 
 Solution|Author(s)
 --------|---------
-hyperlink-click-count.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+hyperlink-click-count.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

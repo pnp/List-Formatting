@@ -1,0 +1,85 @@
+[
+  {
+    "name": "pnp-list-formatting-speed-dial",
+    "reponame": "speed-dial",
+    "source": "pnp",
+    "title": "Speed Dial",
+    "shortDescription": "This sample creates a speed dial list for your team members/contacts, that you can list as a tab in your teams channel and/or display on your Team SharePoint site, to get quick access to your contacts through Teams call, chat and email.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/speed-dial",
+    "longDescription": [
+      "This sample creates a speed dial list for your team members/contacts, that you can list as a tab in your teams channel and/or display on your Team SharePoint site, to get quick access to your contacts through Teams call, chat and email."
+    ],
+    "creationDateTime": "2024-09-11T00:00:00.000Z",
+    "updateDateTime": "2024-09-11T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-neutralLighterAlt, ms-fontColor-themePrimary--hover, ms-fontColor-black"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/speed-dial/assets/screenshot.png",
+        "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/speed-dial/assets/Speed dial 2.png",
+        "alt": "screenshot 2"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "anandragav",
+        "pictureUrl": "https://github.com/anandragav.png",
+        "name": "Anand Ragav"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

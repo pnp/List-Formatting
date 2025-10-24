@@ -23,8 +23,8 @@ Unfortunately, customRowAction doesn't support creating a shortcut to OneDrive y
 
 Solution|Author(s)
 --------|---------
-filename-highlight-non-empty-folders | [Moritz Lickert](https://github.com/MoeIcI)
-filename-highlight-non-empty-folders-with-buttons | [Moritz Lickert](https://github.com/MoeIcI)
+filename-highlight-non-empty-folders.json | [Moritz Lickert](https://github.com/MoeIcI)
+filename-highlight-non-empty-folders-with-buttons.json | [Moritz Lickert](https://github.com/MoeIcI)
 
 
 ## Version history

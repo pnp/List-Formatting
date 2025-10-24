@@ -27,9 +27,9 @@ Edit View requirements
 
 Solution|Author(s)
 --------|---------
-discussion-board.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-discussion-board-format.json | [André Lage](https://twitter.com/aaclage)
-discussion-board-timeline-format.json | [André Lage](https://twitter.com/aaclage)
+discussion-board.json | [André Lage](https://github.com/aaclage)
+discussion-board-format.json | [André Lage](https://github.com/aaclage)
+discussion-board-timeline-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

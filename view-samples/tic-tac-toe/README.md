@@ -26,8 +26,8 @@ Red | Choice - check allow multiple selections and check "Allow 'Fill-in' choice
 
 Solution|Author(s)
 --------|---------
-tic-tac-toe.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-tic-tac-toe-arrows.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+tic-tac-toe.json | [André Lage](https://github.com/aaclage)
+tic-tac-toe-arrows.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

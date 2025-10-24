@@ -1,8 +1,10 @@
 # Gamification Badge Column Formatting
 
+## Summary
+
 This project demonstrates how to create **dynamic Gamification badges** within a SharePoint list using **column formatting JSON**. The badges display different contributor levels based on score values, with **visual indicators, tooltips, and color-coded borders**.
 
-![Gamification Badge Example](./assets/screenshot.png)
+![Screenshot of the sample](./assets/screenshot.png)
 
 ## Features
 
@@ -23,7 +25,7 @@ The badge system categorizes contributors into the following tiers based on thei
 | 31-149 | Ace Contributor | Blue (#007acc) | 🥈 Silver | Ace.png |
 | > 150 | Champion | Gold (#ffc107) | 🥇 Gold | Champion.png |
 
-## Required SharePoint Columns
+## View requirements
 
 This formatting requires the following **columns in your SharePoint list**:
 
@@ -96,9 +98,9 @@ The JSON formatting includes several advanced features:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-gamification.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-gamification.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 

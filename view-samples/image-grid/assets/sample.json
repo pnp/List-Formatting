@@ -28,7 +28,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Image, Hover Cards, Gallery"
+        "value": "Image, Hover Cards, Gallery, Icons"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -40,7 +40,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "getThumbnailImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -48,7 +48,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter, tileFormatter, height, width"
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
       },
       {
         "key": "CLASSES",

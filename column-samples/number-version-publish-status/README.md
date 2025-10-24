@@ -17,7 +17,7 @@ Sample contains an example of using the modulo math expression for highlighting 
 
 Solution|Author(s)
 --------|---------
-number-version-publish-status.json | [Paul Bullock](https://github.com/pkbullock) ([@pkbullock](https://twitter.com/pkbullock))
+number-version-publish-status.json | [Paul Bullock](https://github.com/pkbullock)
 
 ## Version history
 

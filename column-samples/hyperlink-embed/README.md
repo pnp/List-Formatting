@@ -44,7 +44,7 @@ This format can be applied to a Hyperlink column.
 
 Solution|Author(s)
 --------|---------
-hyperlink-embed.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+hyperlink-embed.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

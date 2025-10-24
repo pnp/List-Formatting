@@ -22,7 +22,7 @@ By using the [Office UI Fabric color classes](https://developer.microsoft.com/fa
 
 Solution|Author(s)
 --------|---------
-alternating-rows.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+alternating-rows.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

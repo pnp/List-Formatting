@@ -39,7 +39,7 @@ The view shows a static map image of the Destination column. You need to enter a
 
 Solution|Author(s)
 --------|---------
-travel-request.json | [Miguel Verweij](https://github.com/miguelverweij) ([@MiguelVerweij](https://twitter.com/MiguelVerweij))
+travel-requests.json | [Miguel Verweij](https://github.com/miguelverweij)
 
 ## Version history
 

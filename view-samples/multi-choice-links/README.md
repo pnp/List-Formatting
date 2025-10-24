@@ -45,7 +45,7 @@ We then extract `<the actual link>` using this formula:
 
 Solution|Author(s)
 --------|---------
-multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
+multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt)
 
 ## Version history
 

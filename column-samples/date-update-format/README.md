@@ -18,8 +18,8 @@ CustomDate | Date and Time
 
 Solution|Author(s)
 --------|---------
-date-update-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-date-update-format-years.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+date-update-format.json | [André Lage](https://github.com/aaclage)
+date-update-format-years.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

@@ -39,8 +39,7 @@
                 "attributes": {
                   "iconName": "[$Category]",
                   "class": "=if([$Categorize] == 'Red', 'ms-bgColor-red ms-fontColor-white', if([$Categorize] == 'Blue','ms-bgColor-blue ms-fontColor-white',if([$Categorize] == 'Green','ms-bgColor-green ms-fontColor-white',if([$Categorize] == 'Orange','ms-bgColor-orangeLighter ms-fontColor-white',if([$Categorize] == 'Purple','ms-bgColor-purple ms-fontColor-white',if([$Categorize] == 'Yellow','ms-bgColor-sharedYellow10 ms-fontColor-white', 'ms-bgColor-themePrimary ms-fontColor-white'))))))+' ms-fontSize-20 '"
-                },
-                "children": []
+                }
               },
               {
                 "elmType": "div",
@@ -378,9 +377,6 @@
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
                                         },
-                                        "attributes": {
-                                          "class": ""
-                                        },
                                         "children": [
                                           {
                                             "elmType": "div",
@@ -677,9 +673,6 @@
                       "display": "=if([$Expand]==false,'none','block')",
                       "border-top": "1px solid #ccc"
                     },
-                    "attributes": {
-                      "class": ""
-                    },
                     "children": [
                       {
                         "elmType": "div",
@@ -734,11 +727,9 @@
               "position": "relative",
               "width": "150px"
             },
-            "attributes": {},
             "children": [
               {
                 "elmType": "div",
-                "style": {},
                 "children": [
                   {
                     "elmType": "div",

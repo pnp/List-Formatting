@@ -32,9 +32,9 @@ This format illustrates providing a relative link that assumes the format knows 
 
 Solution|Author(s)
 --------|---------
-text-local-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-text-hardcoded-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-text-relative-link.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-local-link.json | [Chris Kent](https://github.com/thechriskent)
+text-hardcoded-link.json | [Chris Kent](https://github.com/thechriskent)
+text-relative-link.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

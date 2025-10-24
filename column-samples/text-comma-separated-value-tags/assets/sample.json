@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-comma-separated-value-tags/assets/after.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/text-comma-separated-value-tags/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number, Date, getYear"
+        "value": "Number, Date, getYear, floor, toLocaleDateString"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-bgColor-sharedRed10, ms-fontWeight-bold, ms-fontSize-l"
+        "value": "ms-fontColor-themePrimary, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-bgColor-themeTertiary--hover, ms-bgColor-sharedRed10, ms-fontWeight-bold, ms-fontSize-l, ms-bgColor-themeLight--hover, ms-bgColor-neutralSecondary--hover, ms-bgColor-neutralTertiary, ms-bgColor-orangeLight--hover, ms-fontColor-themeTertiary, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, ms-fontColor-neutralTertiary, ms-fontSize-mi"
       }
     ],
     "thumbnails": [

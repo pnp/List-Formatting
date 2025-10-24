@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "getUserImage"
+        "value": "getUserImage, getThumbnailImage"
       },
       {
         "key": "FORMATTING-ACTIONS",

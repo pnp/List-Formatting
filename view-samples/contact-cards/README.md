@@ -49,7 +49,7 @@ All fields below should be part of the view, but only those marked with Required
 
 Solution|Author(s)
 --------|---------
-contact-cards.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+contact-cards.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

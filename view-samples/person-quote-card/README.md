@@ -19,9 +19,9 @@ Publisher                   | Person or Group
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-person-quote-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+person-quote-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

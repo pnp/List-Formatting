@@ -34,8 +34,8 @@ It's ideal to match the formatting properties of the projected fields with the p
 
 Solution|Author(s)
 --------|---------
-multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent)), [Tim Hunt](https://github.com/timberrr)
-multi-lookup.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent), [Tim Hunt](https://github.com/timberrr)
+multi-lookup.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

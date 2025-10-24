@@ -8,7 +8,7 @@ This sample demonstrates using the `split` function (O365 only) to display a com
   ![Before](./assets/before.png)
 
 - Your new SharePoint list with values displayed as tags.
-  ![After](./assets/after.png)
+  ![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -17,9 +17,9 @@ This sample demonstrates using the `split` function (O365 only) to display a com
 
 ## Sample
 
-| Solution           | Author(s)                                                                           |
-| ------------------ | ----------------------------------------------------------------------------------- |
-| text-comma-separated-value-tags.json | [Sudhir Kesharwani](https://github.com/sudhirke) ([@sudhirke](https://sudhirke.in)) |
+Solution|Author(s)
+--------|---------
+text-comma-separated-value-tags.json | [Sudhir Kesharwani](https://github.com/sudhirke)
 
 ## Version history
 

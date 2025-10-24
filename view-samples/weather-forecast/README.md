@@ -24,9 +24,9 @@ Rain                      | Number
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-weather-forecast.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+weather-forecast.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 
