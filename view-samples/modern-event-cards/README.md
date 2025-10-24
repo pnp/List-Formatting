@@ -5,7 +5,7 @@ This sample turns list items into modern event cards with calendar-style date ba
 
 The date badge floats on top of each card with a shadow effect, making it easy to see important dates at a glance. The formatter automatically formats dates from your EventDate field.
 
-![screenshot of the sample](./assets/Modern-Calendar-Card-Sample.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 |Type               |Internal Name|Required|
