@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-modern-event-cards",
+    "reponame": "modern-event-cards",
+    "source": "pnp",
+    "title": "Modern Event Cards",
+    "shortDescription": "This sample turns list items into modern event cards with calendar-style date badges. Each card shows the event date with the month and day number in a nice visual format. The cards also display the event title, description, and an optional link button.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/modern-event-cards",
+    "longDescription": [
+      "This sample turns list items into modern event cards with calendar-style date badges. Each card shows the event date with the month and day number in a nice visual format. The cards also display the event title, description, and an optional link button."
+    ],
+    "creationDateTime": "2025-10-20T00:00:00.000Z",
+    "updateDateTime": "2025-10-20T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getMonth, getDate"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "defaultClick"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLight--hover, ms-bgColor-themePrimary, ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontWeight-bold, ms-fontWeight-semibold"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/modern-event-cards/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "tvahk",
+        "pictureUrl": "https://github.com/tvahk.png",
+        "name": "Tanel Vahk"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
