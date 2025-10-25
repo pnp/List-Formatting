@@ -11,8 +11,8 @@
         "class": "ms-fontColor-themeDark ms-bgColor-themeLighter"
       },
       "style": {
-        "border-left": "10px solid",
         "display": "flex",
+        "border-left": "10px solid",
         "flex-direction": "row",
         "width": "98%",
         "height": "50px",
@@ -44,7 +44,7 @@
         "attributes": {
           "class": "ms-fontColor-themeDark",
           "href": "=if([$URL],[$URL],[$FileRef])",
-          "target": "_blank"
+          "target": "=if([$FSObjType]=='1','','_blank')"
         },
         "style": {
           "height": "65%",
@@ -62,13 +62,28 @@
             "style": {
               "height": "100%",
               "width": "100%"
+              ,"object-fit": "cover"
+            }
+          },
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "Folder"
+            },
+            "style": {
+              "display": "=if([$FSObjType]=='1','block','none')",
+              "position": "absolute",
+              "top": "=10+(180*0.65)/2-30+1+'px'",
+              "left": "=10+(226/2)-30+'px'",
+              "font-size": "60px",
+              "color": "#f7d154"
             }
           }
         ]
       },
       {
         "elmType": "div",
-        "txtContent": "[$Title]",
+        "txtContent": "=if([$FSObjType]=='1' && [$Title]=='',[$FileLeafRef],[$Title])",
         "attributes": {
           "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
         },
