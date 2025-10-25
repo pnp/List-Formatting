@@ -2,17 +2,17 @@
 <img src="./assets/MSLists-Chart-Wall.png" width="80%">
 </p>
 
-### DISCLAIMER
+#### DISCLAIMER
 Charts created with Microsoft Lists **DO NOT** replace other tools and apps for data analysis and visualization, such as [**Power BI**](https://powerbi.microsoft.com), QlikView, or Tableau. Instead, they should be seen as an additional support for publishing business information on **SharePoint pages**, thanks to the collection and sharing capabilities offered by Microsoft Lists.
 
-| <h3>TABLE OF CONTENTS      </h3>|
+| <h4>TABLE OF CONTENTS      </h4>|
 |:-----------------|
-|[**● WHAT IS IT?**](#what-is-it)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started-with-your-chart)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)<br>[**🞂 RADAR**](#radar-chart)|
+|[**● SUMMARY**](#summary)<br>[**● FEATURES OVERVIEW**](#how-does-it-work)<br>[**● PERMISSIONS AND USER INTERFACE**](#permissions-and-user-interface)<br>[**● LIST SETUP**](#list-setup)<br>[**● GETTING STARTED**](#getting-started-with-your-chart)<br>_________________<br>[**🞂 DOUGHNUT**](#doughnut)<br>[**🞂 PIE**](#pie)<br>[**🞂 BAR (VERTICAL)**](#bar-vertical)<br>[**🞂 BAR (HORIZONTAL)**](#bar-horizontal)<br>[**🞂 STACKED BARS**](#stacked-bars)<br>[**🞂 LINE**](#line-chart)<br>[**🞂 RADAR**](#radar-chart)|
 
-### WHAT IS IT?
+## Summary
 Thanks to JSON formatting, this templates package will allow you to quickly create **7 different types of charts**, which you can organize into collections, share, and publish on SharePoint pages. Microsoft 365 offers many options and ways to share and publish information in the form of charts. In particular, people involved in **internal communications** have now an extra tool available: **Microsoft Lists charts**.
 
-![screenshot of 7 different charts](./assets/Charts-Preview.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 This solution has been tested with the following SharePoint pages layouts:
 
@@ -34,7 +34,7 @@ If you are planning to share or publish charts created with Microsoft Lists, you
 
 ![screenshot of the difference between how the Author and the user see the difference](./assets/Author-User.png)
 
-### LIST SETUP
+## View Requirements
 The setup requires 4 steps:
 
 **1.** For each template, download an Excel file containing a table and export it to SharePoint as illustrated [**here**](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Here is a preview of the exporting feature location in Microsoft Excel desktop app:
@@ -47,7 +47,7 @@ The setup requires 4 steps:
 
 **4.** Copy the JSON code provided for each template, paste it into the view formatting box (Advanced formatting mode) and Save.
 
-### GETTING STARTED WITH YOUR CHART
+## GETTING STARTED WITH YOUR CHART
 After applying the formatting with JSON code, you'll have to [**define a scale**](#how-does-it-work) and then add data labels. Click on the icon with three dots in the upper right corner to add new labels. Then, click on the interactive icons and boxes to modify the label names, insert numeric values, and apply a fill color of your choice to the graphic elements ([**HEX**](https://g.co/kgs/4Y9ABj) values or [**HTML**](https://www.w3schools.com/colors/colors_names.asp) names). Here is an example below with a scale set to 10:
 
 ![](./assets/Getting-Started.gif)
@@ -107,18 +107,18 @@ Download the [**Excel file**](./assets/Radar-Chart.xlsx) and export it to ShareP
 
 Solution|Author(s)
 --------|---------
-Bar-Chart-H.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Bar-Chart-V-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Bar-Chart-V.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Doughnut-Chart-P.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Doughnut-Chart-PV.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Line-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Line-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
-Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+Bar-Chart-H.json | [Federico Sapia](https://github.com/Fedes365)
+Bar-Chart-V-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Bar-Chart-V.json | [Federico Sapia](https://github.com/Fedes365)
+Doughnut-Chart-P.json | [Federico Sapia](https://github.com/Fedes365)
+Doughnut-Chart-PV.json | [Federico Sapia](https://github.com/Fedes365)
+Line-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Line-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Pie-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Pie-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Stacked-Bars-Chart-Large.json | [Federico Sapia](https://github.com/Fedes365)
+Stacked-Bars-Chart.json | [Federico Sapia](https://github.com/Fedes365)
+Radar-Chart.json | [Federico Sapia](https://github.com/Fedes365)
 
 ## Version history
 

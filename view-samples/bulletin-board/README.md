@@ -27,8 +27,8 @@ An additional format, bulletin-board-format-with-buttons.json is provided that d
 
 Solution|Author(s)
 --------|---------
-bulletin-board.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-bulletin-board-with-buttons.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+bulletin-board.json | [Chris Kent](https://github.com/thechriskent)
+bulletin-board-with-buttons.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

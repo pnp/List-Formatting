@@ -16,7 +16,7 @@ PersonChat | Person - check to yes, Allow multiple selections
 
 Solution|Author(s)
 --------|---------
-multi-person-displays.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+multi-person-displays.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

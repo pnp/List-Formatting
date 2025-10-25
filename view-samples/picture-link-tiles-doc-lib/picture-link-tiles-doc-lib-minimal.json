@@ -1,0 +1,84 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "width": 250,
+  "height": 200,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "=@group.fieldData.displayValue+' ('+@group.count+')'",
+      "attributes": {
+        "class": "ms-fontColor-themeDark ms-bgColor-themeLighter"
+      },
+      "style": {
+        "border-left": "10px solid",
+        "display": "flex",
+        "flex-direction": "row",
+        "width": "98%",
+        "height": "50px",
+        "margin-top": "10px",
+        "margin-bottom": "10px",
+        "padding-left": "20px",
+        "font-size": "20px"
+      }
+    }
+  },
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "ms-bgColor-themeLighterAlt"
+    },
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "width": "226px",
+      "height": "180px",
+      "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+      "border": "1px solid #ccc",
+      "border-radius": "10px",
+      "margin": "10px"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "class": "ms-fontColor-themeDark",
+          "href": "=if([$URL],[$URL],[$FileRef])",
+          "target": "_blank"
+        },
+        "style": {
+          "height": "65%",
+          "width": "100%",
+          "cursor": "pointer",
+          "border-bottom": "2px solid",
+          "background-color": "white"
+        },
+        "children": [
+          {
+            "elmType": "filepreview",
+            "attributes": {
+              "src": "@thumbnail.512x432"
+            },
+            "style": {
+              "height": "100%",
+              "width": "100%"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "attributes": {
+          "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+        },
+        "style": {
+          "display": "flex",
+          "width": "85%",
+          "height": "35%",
+          "align-items": "center"
+        }
+      }
+    ]
+  }
+}

@@ -15,7 +15,7 @@ Location columns provide several properties that can be accessed to provide more
 
 Solution|Author(s)
 --------|---------
-location-address.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+location-address.json | [Chris Kent](https://github.com/thechriskent)
 ## Version history
 
 Version|Date|Comments

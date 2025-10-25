@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-childcount-color-change",
     "reponame": "childcount-color-change",
     "source": "pnp",
-    "title": "Change color of Item Child Count when enough files have been uploaded",
+    "title": "Change color based on Item Child Count",
     "shortDescription": "This sample shows the Item Child Count field as green when exactly 5 files are uploaded",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/childcount-color-change",
     "longDescription": [
@@ -22,7 +22,7 @@
       },
       {
         "key": "SHAREPOINT-COMPATIBILITY",
-        "value": "SharePoint 2019, SharePoint Online"
+        "value": "SharePoint Online"
       },
       {
         "key": "SAMPLE-CATEGORIES",
@@ -30,7 +30,7 @@
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Item Child Count"
+        "value": "Number"
       },
       {
         "key": "FORMATTING-TOKENS",

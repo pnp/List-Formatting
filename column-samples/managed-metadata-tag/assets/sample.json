@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-bgColor-white, ms-fontColor-white"
+        "value": "ms-fontColor-themePrimary, ms-bgColor-white, ms-fontColor-white, ms-bgColor-themePrimary, ms-fontSize-s"
       }
     ],
     "thumbnails": [

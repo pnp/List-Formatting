@@ -25,8 +25,8 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-photo-gallery-with-likes.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
-photo-gallery-no-title.json | [Lou-i3](https://github.com/Lou-i3) ([@Lou_i3](https://twitter.com/Lou_i3))
+photo-gallery-with-likes.json | [Lou-i3](https://github.com/Lou-i3)
+photo-gallery-no-title.json | [Lou-i3](https://github.com/Lou-i3)
 
 ## Version history
 

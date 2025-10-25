@@ -41,7 +41,7 @@ You need the `TweetFormattedDate` Calculated Column so that it only shows the cu
 
 Solution|Author(s)
 --------|---------
-twitter-timeline.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunnam](https://twitter.com/aprildunnam))
+twitter-timeline.json | [April Dunnam](https://github.com/aprildunnam)
 
 ## Version history
 

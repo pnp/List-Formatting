@@ -23,7 +23,7 @@ The format assumes a value between 0 and 10 (and is converting to a percentage).
 
 Solution|Author(s)
 --------|---------
-gauge-aggregate-footer.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+gauge-aggregate-footer.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

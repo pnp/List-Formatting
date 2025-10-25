@@ -17,7 +17,7 @@ If any property is empty, its respective icon and label are not displayed.
 
 Solution|Author(s)
 --------|---------
-group-header-user-properties.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+group-header-user-properties.json | [Michel Mendes](https://github.com/michelcarlo)
 
 ## Version history
 

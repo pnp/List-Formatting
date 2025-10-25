@@ -40,8 +40,8 @@ These requirements are the same as above except that icons and images are not ne
 
 Solution|Author(s)
 --------|---------
-stat-comparison-chart.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
-stat-comparison-chart-without-images.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
+stat-comparison-chart.json | [Anoop Tatti](https://github.com/anoopt)
+stat-comparison-chart-without-images.json | [Anoop Tatti](https://github.com/anoopt)
 
 ## Version history
 

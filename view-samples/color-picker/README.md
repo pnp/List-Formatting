@@ -27,9 +27,9 @@ ColorF | Single lines of text
 
 Solution|Author(s)
 --------|---------
-color-picker.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-color-picker-12Sections-palette.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-color-picker-basic-palette.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+color-picker.json | [André Lage](https://github.com/aaclage)
+color-picker-12Sections-palette.json | [André Lage](https://github.com/aaclage)
+color-picker-basic-palette.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

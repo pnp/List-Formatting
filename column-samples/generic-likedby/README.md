@@ -42,7 +42,7 @@ Disconnect-PnPOnline
 
 Solution|Author(s)
 --------|---------
-generic-likedby.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-likedby.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

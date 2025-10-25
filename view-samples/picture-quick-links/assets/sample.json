@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-neutralLight, sp-card-borderHighlight, sp-card-container, sp-card-container-noPadding, sp-card-defaultClickButton, sp-card-imageContainer, sp-card-imagePreviewBackground, sp-card-previewColumnContainer, sp-card-subContainer, sp-css-borderColor-neutralLight"
+        "value": "ms-bgColor-neutralLight, sp-card-borderHighlight, sp-card-container, sp-card-container-noPadding, sp-card-defaultClickButton, sp-card-imageContainer, sp-card-imagePreviewBackground, sp-card-previewColumnContainer, sp-card-subContainer, sp-css-borderColor-neutralLight, sp-card-subContainer-borderRadius"
       }
     ],
     "thumbnails": [

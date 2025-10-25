@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "inline-flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "position": "relative"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": "=if(Number([$Score]) <= 30, @currentWeb+'/SiteAssets/Rookie.png', if(Number([$Score]) <= 149, @currentWeb+'/SiteAssets/Ace.png', if(Number([$Score]) >= 150, @currentWeb+'/SiteAssets/Champion.png', @currentWeb+'/SiteAssets/Rookie.png')))",
+        "title": "=if(Number([$Score]) <= 30, 'Rookie Contributor - Score: ' + [$Score], if(Number([$Score]) <= 149, 'Ace Contributor - Score: ' + [$Score], if(Number([$Score]) >= 150, 'Champion - Score: ' + [$Score], 'Contributor - Score: ' + [$Score])))"
+      },
+      "style": {
+        "width": "100px",
+        "height": "100px",
+        "border": "=if(Number([$Score]) <= 30, '3px solid #6c757d', if(Number([$Score]) <= 149, '3px solid #007acc', if(Number([$Score]) >= 150, '3px solid #ffc107', '3px solid #28a745')))",
+        "cursor": "pointer"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "position": "absolute",
+        "bottom": "-2px",
+        "right": "-2px",
+        "width": "18px",
+        "height": "18px",
+        "border-radius": "50%",
+        "background-color": "=if(Number([$Score]) <= 30, '#6c757d', if(Number([$Score]) <= 149, '#007acc', if(Number([$Score]) >=150, '#ffc107', '#28a745')))",
+        "border": "2px solid white",
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "font-size": "10px",
+        "color": "white",
+        "font-weight": "bold"
+      },
+      "txtContent": "=if(Number([$Score]) <= 30, '🥉', if(Number([$Score]) <= 149, '🥈', if(Number([$Score]) >= 150, '🥇', '⭐')))"
+    }
+  ]
+}

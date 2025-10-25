@@ -22,7 +22,7 @@ The text content and classes applied are determined based on following condition
 
 Solution|Author(s)
 --------|---------
-date-check-blank-format.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+date-check-blank-format.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

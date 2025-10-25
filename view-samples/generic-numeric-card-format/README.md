@@ -3,7 +3,7 @@
 ## Summary
 This sample display formatted number column as playing card. 
 
-![Numeric card format](./assets/numeric-cards-format.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 ## View requirements
 - The format expect the following fields:
@@ -19,7 +19,7 @@ Color | Single line of text - Color name or hex number.
 
 Solution|Author(s)
 --------|---------
-numeric-card-format.json | [André Lage](https://twitter.com/aaclage)
+generic-numeric-card-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

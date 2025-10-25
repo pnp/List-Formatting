@@ -97,7 +97,7 @@ This sample needs modification for your specific use. Two changes are required.
 
 Solution|Author(s)
 --------|---------
-number-linear-gauge.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-linear-gauge.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

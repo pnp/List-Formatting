@@ -19,7 +19,7 @@ Status | Single line of text / Choice
 
 Solution|Author(s)
 --------|---------
-ryg-status-rowclass.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+ryg-status-rowclass.json | [S Merchant](https://github.com/sohailmerchant)
 
 ## Version history
 

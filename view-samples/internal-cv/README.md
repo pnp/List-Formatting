@@ -3,7 +3,7 @@
 ## Summary
 This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a large custom card to be used as a form itself, by taking advantage of the [inline editing](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature. Let others know **more about you**, what you're good at, and what you're working on right now. Add projects, skills, and education history to your profile to help others find you when they're looking for people with a **certain expertise**.
 
-<img src="./assets/Internal-CV-preview.png" width="70%">
+![screenshot of the sample](./assets/screenshot.png)
 
 ## Important notes
 This solution is not intended to encompass an entire management process, but it should be considered as an additional tool to support a single task or process phase, where users periodically update their respective internal CV.
@@ -27,7 +27,7 @@ Here is a visual description of the user interface:
 
 ![breakdown](./assets/Breakdown.png)
 
-## How to:
+## View requirements:
 
 **1) LIST CREATION:** create a new list from scratch with the following columns, including their **exact names with capital letters**:
 
@@ -104,13 +104,13 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 
 ## More info and details
 
-💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://www.linkedin.com/in/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://www.linkedin.com/in/tetsuya-kawahara-730498180).
+💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://github.com/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://github.com/tecchan1107).
 
 ## Sample
 
 Solution|Author(s)
 --------|---------
-internal-cv.json | [Federico Sapia](https://github.com/Fedes365) ([LinkedIn](https://www.linkedin.com/in/federicosapia/))
+internal-cv.json | [Federico Sapia](https://github.com/Fedes365)
 
 ## Version history
 

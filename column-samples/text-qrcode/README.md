@@ -33,8 +33,8 @@ The following are the steps to add it.
 
 Solution|Author(s)
 --------|---------
-text-qrcode.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-text-qrcode-card.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+text-qrcode.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+text-qrcode-card.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

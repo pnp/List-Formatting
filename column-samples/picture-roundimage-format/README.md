@@ -18,7 +18,7 @@ For best results, images should be square.
 
 Solution|Author(s)
 --------|---------
-picture-roundimage-format.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+picture-roundimage-format.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

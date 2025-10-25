@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Icons, Inline Editing"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@currentWeb"
       },
       {
         "key": "FORMATTING-OPERATORS",
@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "delete, editProps, executeFlow, defaultClick, share, comment, copyFile, moveFile, embed, previewFileAction, openContextMenu, openApprovalDialog, setValue"
+        "value": "delete, editProps, executeFlow, defaultClick, share, comment, copyFile, moveFile, embed, previewFileAction, openContextMenu, openApprovalDialog, setValue, copyLink"
       },
       {
         "key": "FORMATTING-FEATURES",
@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDark, ms-fontColor-themeDark--hover, ms-font-xxl"
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDark, ms-fontColor-themeDark--hover, ms-font-xxl, ms-font-xl"
       }
     ],
     "thumbnails": [

@@ -374,8 +374,7 @@
               "align-items": "center",
               "justify-content": "center",
               "font-size": "16px",
-              "line-height": "14px",
-              "margin-right": ""
+              "line-height": "14px"
             },
             "txtContent": "=[$SCALE]*0.5"
           },
@@ -645,7 +644,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE2.displayValue]=='0' || [$VALUE2.displayValue]=='0,0' || [$VALUE2.displayValue]=='0.0' || [$VALUE2.displayValue]=='0,00' || [$VALUE2.displayValue]=='0.00' || [$VALUE2.displayValue]=='0,000' || [$VALUE2.displayValue]=='0.000' || [$VALUE2.displayValue]=='0.0000' || [$VALUE2.displayValue]=='0,0000' || [$VALUE2.displayValue]=='0,00000' || [$VALUE2.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",
@@ -804,7 +802,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE3.displayValue]=='0' || [$VALUE3.displayValue]=='0,0' || [$VALUE3.displayValue]=='0.0' || [$VALUE3.displayValue]=='0,00' || [$VALUE3.displayValue]=='0.00' || [$VALUE3.displayValue]=='0,000' || [$VALUE3.displayValue]=='0.000' || [$VALUE3.displayValue]=='0.0000' || [$VALUE3.displayValue]=='0,0000' || [$VALUE3.displayValue]=='0,00000' || [$VALUE3.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",
@@ -963,7 +960,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE4.displayValue]=='0' || [$VALUE4.displayValue]=='0,0' || [$VALUE4.displayValue]=='0.0' || [$VALUE4.displayValue]=='0,00' || [$VALUE4.displayValue]=='0.00' || [$VALUE4.displayValue]=='0,000' || [$VALUE4.displayValue]=='0.000' || [$VALUE4.displayValue]=='0.0000' || [$VALUE4.displayValue]=='0,0000' || [$VALUE4.displayValue]=='0,00000' || [$VALUE4.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",
@@ -1122,7 +1118,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE5.displayValue]=='0' || [$VALUE5.displayValue]=='0,0' || [$VALUE5.displayValue]=='0.0' || [$VALUE5.displayValue]=='0,00' || [$VALUE5.displayValue]=='0.00' || [$VALUE5.displayValue]=='0,000' || [$VALUE5.displayValue]=='0.000' || [$VALUE5.displayValue]=='0.0000' || [$VALUE5.displayValue]=='0,0000' || [$VALUE5.displayValue]=='0,00000' || [$VALUE5.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",
@@ -1281,7 +1276,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE6.displayValue]=='0' || [$VALUE6.displayValue]=='0,0' || [$VALUE6.displayValue]=='0.0' || [$VALUE6.displayValue]=='0,00' || [$VALUE6.displayValue]=='0.00' || [$VALUE6.displayValue]=='0,000' || [$VALUE6.displayValue]=='0.000' || [$VALUE6.displayValue]=='0.0000' || [$VALUE6.displayValue]=='0,0000' || [$VALUE6.displayValue]=='0,00000' || [$VALUE6.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",
@@ -1440,7 +1434,6 @@
           {
             "elmType": "div",
             "style": {
-              "position": "",
               "display": "=if([$VALUE7.displayValue]=='0' || [$VALUE7.displayValue]=='0,0' || [$VALUE7.displayValue]=='0.0' || [$VALUE7.displayValue]=='0,00' || [$VALUE7.displayValue]=='0.00' || [$VALUE7.displayValue]=='0,000' || [$VALUE7.displayValue]=='0.000' || [$VALUE7.displayValue]=='0.0000' || [$VALUE7.displayValue]=='0,0000' || [$VALUE7.displayValue]=='0,00000' || [$VALUE7.displayValue]=='0.00000', 'none', 'flex')",
               "justify-content": "flex-start",
               "align-items": "flex-start",

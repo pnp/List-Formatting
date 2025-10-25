@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-image-overlay-buttons",
+    "reponame": "generic-image-overlay-buttons",
+    "source": "pnp",
+    "title": "Image with Overlay Buttons",
+    "shortDescription": "This column formatting sample displays images with action buttons overlaid at the bottom, with dynamic sizing based on image orientation.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-image-overlay-buttons",
+    "longDescription": [
+      "This column formatting sample displays images with action buttons overlaid at the bottom. The formatting dynamically adjusts image dimensions and button positioning based on the image orientation (Landscape, Portrait, or Square), ensuring optimal display across different aspect ratios. Each item shows an image with two customizable action buttons that can link to external URLs."
+    ],
+    "creationDateTime": "2025-10-16T00:00:00.000Z",
+    "updateDateTime": "2025-10-16T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-image-overlay-buttons/assets/screenshot.png",
+        "alt": "Images displayed with overlay action buttons at the bottom"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a column and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

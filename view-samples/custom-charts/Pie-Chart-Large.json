@@ -287,7 +287,6 @@
             "elmType": "div",
             "style": {
               "position": "relative",
-              "margin-right": "",
               "width": "350px",
               "height": "350px",
               "display": "flex",

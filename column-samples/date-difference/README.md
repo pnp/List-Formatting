@@ -18,7 +18,7 @@ This format can be applied to any column, however it expects the following field
 
 Solution|Author(s)
 --------|---------
-date-difference.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+date-difference.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

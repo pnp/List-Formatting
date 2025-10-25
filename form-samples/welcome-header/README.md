@@ -5,6 +5,8 @@ This sample demonstrates how to display Welcome message depending on time of day
 
 ![screenshot of the sample](./assets/screenshot.png)
 
+## Form requirements
+
 ### Time format (12 Hours or 24 Hours)
 
 Identify what regional settings are being used in site.
@@ -12,7 +14,7 @@ Identify what regional settings are being used in site.
 
 ![screenshot of the time format](./assets/time-format.png)
 
-## How to implement
+### How to implement
 
 Access to list where customization will be apply, edit item, access top right options and select **"Configure layout"** and implement json for **Header**.
 
@@ -25,8 +27,8 @@ This information is important to use sample, since `12 hours` uses **12:00:00 AM
 
 Solution|Author(s)
 --------|---------
-welcome-header-12hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-welcome-header-24hours.json | [Andre Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+welcome-header.json | [Andre Lage](https://github.com/aaclage)
+welcome-header-24hours.json | [Andre Lage](https://github.com/aaclage)
 
 ## Version history
 

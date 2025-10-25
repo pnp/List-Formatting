@@ -20,7 +20,7 @@ Set up grouping in `Category` column
 
 Solution|Author(s)
 --------|---------
-emoji-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+emoji-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

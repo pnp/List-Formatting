@@ -2,9 +2,9 @@
 
 This sample demonstrates how to use **SharePoint Column Formatting** to create a dynamic **bubble chart** in a list view. The size and color of each bubble are automatically determined by the length of the text in its corresponding column, providing a quick visual representation of your data.
 
-![Bubble Chart sample screenshot](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-### Sample Overview
+### Summary
 
   * The bubble size and color are dynamically generated.
   * A wider range of sizes and colors is supported for a more vibrant appearance.
@@ -57,11 +57,11 @@ The bubble chart is created using a single JSON file that applies to a column in
   * **Conditional Coloring:** The `background-color` property is also controlled by the text length, with a different color assigned to each size range.
   * **Multi-line Layout:** The bubbles are grouped into separate `div` elements to force them to wrap onto multiple lines, creating a clean, organized layout.
 
-### Solution
+### Sample
 
-| Solution | Author |
-| --- | --- |
-| generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+Solution|Author(s)
+--------|---------
+generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ### Version History
 

@@ -28,7 +28,7 @@ Link       | Yes    | Hyperlink
 ## Sample
 
 Solution|Author(s)
---------|-
+--------|---------
 bookmarks.json | [Watana](https://github.com/watana2)
 
 

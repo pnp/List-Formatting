@@ -15,7 +15,7 @@ Group by user column and display that user column in the view.
 
 Solution|Author(s)
 --------|---------
-group-header-user-picture.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+group-header-user-picture.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

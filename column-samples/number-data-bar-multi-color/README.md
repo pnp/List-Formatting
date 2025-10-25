@@ -22,7 +22,7 @@ This format can be applied to a Number column. It is expected that the values wi
 
 Solution|Author(s)
 --------|---------
-number-data-bar-multi-color.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+number-data-bar-multi-color.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

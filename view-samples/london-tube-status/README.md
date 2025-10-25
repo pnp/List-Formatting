@@ -98,7 +98,7 @@ Head over to your list and you'll see the Tube Statuses being updated using the 
 
 Solution|Author(s)
 --------|---------
-london-tube-status.json | [Leon Armston](https://github.com/LeonArmston) ([@LeonArmston](https://twitter.com/LeonArmston))
+london-tube-status.json | [Leon Armston](https://github.com/LeonArmston)
 
 ## Version history
 

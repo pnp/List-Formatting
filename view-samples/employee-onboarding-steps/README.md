@@ -17,7 +17,7 @@ Adding a new list using the Employee Onboarding template will provide all the fi
 
 Solution|Author(s)
 --------|---------
-employee-onboarding-steps.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+employee-onboarding-steps.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

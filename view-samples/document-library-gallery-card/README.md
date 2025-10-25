@@ -22,7 +22,7 @@ The size of the tile can be adjusted by changing the width and height values.
 
 Solution|Author(s)
 --------|---------
-document-library-gallery-card.json | [Niket Jain](https://github.com/NiketJain) ([@niketjain2002](https://twitter.com/niketjain2002))
+document-library-gallery-card.json | [Niket Jain](https://github.com/NiketJain)
 
 ## Version history
 

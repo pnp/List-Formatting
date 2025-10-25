@@ -2,9 +2,9 @@
 
 This project demonstrates how to create a **dynamic and visually appealing word cloud** within a SharePoint list using **column formatting JSON**. The word cloud visualizes data from multiple label columns, applying **dynamic font sizes, colors, and bold styling** based on word characteristics.
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-## Features
+## Summary
 
 - **Flexible Word Cloud Layout:** Uses `flex` and `flex-wrap` to automatically arrange words in multiple rows.
 - **Dynamic Font Sizes:** Word size is calculated based on character length:
@@ -18,7 +18,7 @@ This project demonstrates how to create a **dynamic and visually appealing word 
 - **Responsive Design:** Layout adapts to different screen sizes and wraps words automatically.
 - **Multi-column Support:** Displays words from **20 label columns** per item, making it ideal for survey data, tags, or keyword visualization.
 
-## Supported Columns
+## View requirements
 
 This word cloud supports the following **columns in your SharePoint list**:
 
@@ -101,9 +101,9 @@ The resulting word cloud will:
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 

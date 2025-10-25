@@ -4,7 +4,7 @@
 
 This sample transforms list items into a match summary. The flag icons are referenced from the following [Github project](https://github.com/lipis/flag-icons). The columns listed below must be included in the list view.
 
-![screenshot of the sample](./assets/screenshot.jpg)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -24,9 +24,9 @@ Country2FlagUrl             | Single line of text
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-match-score-card.json | [Sudeep Ghatak](https://www.linkedin.com/in/sudeepghatak/) 
+match-score-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

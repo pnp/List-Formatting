@@ -12,7 +12,7 @@ This example shows how to turn a text field that contains stock ticker symbols i
 
 Solution|Author(s)
 --------|---------
-generic-hyperlink-values.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
+generic-hyperlink-values.json | [SharePoint Team](https://github.com/SharePoint)
 
 ## Version history
 

@@ -13,7 +13,7 @@ This sample applies a class to any row where the `DueDate` column is overdue (ea
 
 Solution|Author(s)
 --------|---------
-overdue-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
+overdue-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris)
 
 ## Version history
 

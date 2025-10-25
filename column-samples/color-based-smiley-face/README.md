@@ -14,7 +14,7 @@ Sample can be extended to different colors based on your requirements.
 
 Solution|Author(s)
 --------|---------
-color-based-smiley-face.json | [Siddharth Vaghasia](https://github.com/siddharth-vaghasia) [@siddh_me](https://twitter.com/siddh_me)
+color-based-smiley-face.json | [Siddharth Vaghasia](https://github.com/siddharth-vaghasia)
 
 ## Version history
 

@@ -17,7 +17,7 @@ This sample shows a checkmark for each date field that has a value to help conve
 
 Solution|Author(s)
 --------|---------
-workflow-progress-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+workflow-progress-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

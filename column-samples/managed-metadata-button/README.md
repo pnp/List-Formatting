@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates changing managed metadata (multiple) values to buttons that open (external) sites, documents or items on other links. Myself used this for redirecting users to information, like clients, projects or group related documents.
 
-![screenshot of the clients example](./assets/screenshot_clients.png)
+![screenshot of the sample](./assets/screenshot.png)
 *Example of Related client(s) references on a document item within a SharePoint Document library*
 
 ![screenshot of the projects example](./assets/screenshot_projects.png)
@@ -39,7 +39,7 @@ For example:
 
 Solution|Author(s)
 --------|---------
-managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessenburg) ([LinkedIn](https://www.linkedin.com/in/danielgiessenburg/))
+managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessenburg)
 
 ## Version history
 
@@ -57,3 +57,5 @@ Version |Date               |Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/managed-metadata-button" />

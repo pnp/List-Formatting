@@ -13,7 +13,7 @@ This sample demonstrates how to prompt users to copy a file link from a specific
 
 Solution|Author(s)
 --------|---------
-generic-filepicker.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+generic-filepicker.json | [André Lage](https://github.com/aaclage)
 
 - Replace `[replaceUrlPathtoLibrary]` with path to SharePoint Library, sample: '/SiteAssets/'
 

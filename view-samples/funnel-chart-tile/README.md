@@ -1,12 +1,14 @@
 # Funnel Chart – SharePoint List Tile JSON Formatter
 
+## Summary
+
 This sample demonstrates how to render a **Funnel Chart** inside a **Tile card style view** in SharePoint.
 
 The funnel chart is useful for visualizing pipeline stages such as **Leads → Qualified → Proposal → Closed**, with stage widths proportional to numeric values.
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-## What You'll Need
+## View requirements
 
 Before starting, ensure you have:
 - **SharePoint Online** access with list creation permissions
@@ -93,9 +95,9 @@ You need to add these columns to your newly created list:
 
 ## Sample
 
-| File | Author |
-|------|---------|
-| funnel-chart-tile.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) |
+Solution|Author(s)
+--------|---------
+funnel-chart-tile.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 

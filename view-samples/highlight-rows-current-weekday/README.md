@@ -3,7 +3,7 @@
 ## Summary
 This sample demonstrates formatting items differently based on the current day of the week. As there is no default "WEEKDAY" function in list formatting, we use the date stamp and some math to calculate the day of the week manually.
 
-![screenshot of the sample (on a Sunday)](./assets/screenshot-sunday.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ![screenshot of the sample (on a Wednesday)](./assets/screenshot-wednesday.png)
 

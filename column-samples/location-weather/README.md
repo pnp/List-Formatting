@@ -15,6 +15,9 @@ This repository contains two versions of the weather display formatter:
 
 - **Version 1.0**: Original location-based weather display (by Chris Kent)
 - **Version 2.0**: Enhanced city/state/country-based weather display with improved international support (by Sai Bandaru)
+Solution|Author(s)
+--------|---------
+location-weather.json | [Chris Kent](https://github.com/thechriskent)
 
 ---
 

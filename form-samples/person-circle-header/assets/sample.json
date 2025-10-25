@@ -1,7 +1,7 @@
 [
   {
     "name": "pnp-list-formatting-person-circle-header",
-    "reponame": "Person circle Header",
+    "reponame": "person-circle-header",
     "source": "pnp",
     "title": "Person circle Header",
     "shortDescription": "This sample demonstrates how to display multiple selected persons from existing field in the header.",
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "loopIndex, Number, length"
+        "value": "loopIndex, Number, length, getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach"
+        "value": "forEach, defaultHoverField"
       },
       {
         "key": "CLASSES",
@@ -65,7 +65,7 @@
       {
         "gitHubAccount": "aaclage",
         "pictureUrl": "https://github.com/aaclage.png",
-        "name": "Andre Lage"
+        "name": "André Lage"
       }
     ],
     "references": [

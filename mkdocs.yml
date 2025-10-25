@@ -43,6 +43,7 @@ nav:
     - Getting Started: contributing/index.md
     - Submitting an Issue or Suggestion: contributing/issues.md
     - Making Changes: contributing/changes.md
+    - Creating a Sample: contributing/sample.md
     - Updating the Docs: contributing/docs.md
     - Tool Contributions: contributing/tools.md
   - Tools: tools/index.md
@@ -97,8 +98,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/pnp
       name: PnP Repositories
-    - icon: fontawesome/brands/twitter
-      link: 'https://twitter.com/m365pnp'
+    - icon: fontawesome/solid/x
+      link: 'https://x.com/m365pnp'
       name: Follow us on Twitter!
     - icon: fontawesome/brands/facebook
       link: 'https://www.facebook.com/M365Dev/'

@@ -19,8 +19,8 @@ AzureOption | Yes/No - field with Azure look style
 
 Solution|Author(s)
 --------|---------
-yesno-roundedfill-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-yesno-azure-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+yesno-roundedfill-format.json | [André Lage](https://github.com/aaclage)
+yesno-azure-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

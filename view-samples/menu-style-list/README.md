@@ -3,7 +3,7 @@
 ## Summary  
 This sample transforms SharePoint list items into a styled menu layout using list view formatting. Each row is automatically formatted to visually separate the item name and price, mimicking a clean, restaurant-style pricing table - perfect for food menus, service lists, or product offerings.
 
-![screenshot of the sample](./assets/FormattedMenuList.png)  
+![screenshot of the sample](./assets/screenshot.png)  
 
 ![screenshot of the sample displayed on the page](./assets/FormattedMenuList_Page.png)
 
@@ -40,3 +40,4 @@ Version |Date             |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/menu-style-list" />

@@ -24,7 +24,7 @@ This format can be applied to any column type but expects the following columns 
 
 Solution|Author(s)
 --------|---------
-generic-yearly-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)), [Chris Kent](https://github.com/thechriskent)
+generic-yearly-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107), [Chris Kent](https://github.com/thechriskent)
 generic-yearly-gantt-chart-with-today.json | [Alvin Fong](https://github.com/hakki-max), [DRVRogo](https://github.com/DRVRogo), [Chris Kent](https://github.com/thechriskent)
 
 ## Version history

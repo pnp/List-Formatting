@@ -15,7 +15,7 @@ This sample demonstrates displaying progress bar with conditional color based on
 
 Solution|Author(s)
 --------|---------
-number-conditional-progress-color.json | [Ari Gunawan](https://github.com/AriGunawan) ([@arigunawan3023](https://twitter.com/arigunawan3023))
+number-conditional-progress-color.json | [Ari Gunawan](https://github.com/AriGunawan)
 
 ## Version history
 

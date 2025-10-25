@@ -27,7 +27,7 @@ Included in the sample is a site script that will create the list as needed. How
 
 Solution|Author(s)
 --------|---------
-rota-css-table.json | [Ariel Kropp](https://github.com/arielkropp) ([@arielkropp](https://twitter.com/arielkropp))
+rota-css-table.json | [Ariel Kropp](https://github.com/arielkropp)
 
 ## Version history
 
