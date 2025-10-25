@@ -1,0 +1,84 @@
+[
+  {
+    "name": "pnp-list-formatting-feedback-sentiment-board",
+    "reponame": "feedback-sentiment-board",
+    "source": "pnp",
+    "title": "Feedback Sentiment Board",
+    "shortDescription": "This sample uses SharePoint List Formatting to visualize feedback sentiment with keyword-based detection in a color-coded and emoji-enhanced card view.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/feedback-sentiment-board",
+    "longDescription": [
+      "This sample uses SharePoint List Formatting to visualize feedback sentiment (Positive, Neutral, Negative) with keyword-based detection in a color-coded and emoji-enhanced card view. Each feedback item is automatically analyzed for sentiment keywords and displayed as a beautiful card showing the sentiment icon, feedback text, author details, and submission date. Perfect for HR feedback forms, customer surveys, and employee pulse checks."
+    ],
+    "creationDateTime": "2025-10-25T00:00:00.000Z",
+    "updateDateTime": "2025-10-25T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Feedback, Sentiment Analysis"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Text, Person, DateTime"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, toLowerCase, substring, toLocaleDateString, if"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/feedback-sentiment-board/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      },
+      {
+        "name": "Formatting syntax reference",
+        "description": "Comprehensive reference guide for SharePoint JSON formatting syntax including operators, functions, and supported CSS properties.",
+        "url": "https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference"
+      }
+    ]
+  }
+]
