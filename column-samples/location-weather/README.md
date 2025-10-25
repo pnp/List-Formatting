@@ -5,6 +5,7 @@
 This SharePoint list formatting solution provides dynamic weather display capabilities using [WeatherForYou.com](https://www.weatherforyou.com/). The solution has evolved through multiple versions to support both location columns and individual city/state/country columns with enhanced flexibility and global coverage.
 
 ![screenshot of the sample](./assets/screenshot.png)
+![screenshot of the Global Support](./assets/screenshot-global.png)
 
 > **Note**: The WeatherForYou weather snapshots do NOT require an API key and is completely free to use. However, optimal results are achieved with locations within the United States, though international locations are supported with some limitations.
 
@@ -24,31 +25,7 @@ This repository contains two versions of the weather display formatter:
 - US-based locations for optimal results
 
 ### Implementation
-Apply this format to a location column. To reference a location column, you can switch from `@currentField` to column reference format (e.g., `@currentField.Address.City` to `[$INTERNALNAME.Address.City]`).
-
-```json
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "style": {
-    "display": "=if(@currentField && (@currentField.Address.CountryOrRegion == 'US' || @currentField.Address.CountryOrRegion == 'United States'), 'flex', 'none')",
-    "align-items": "flex-start",
-    "width": "175px",
-    "height": "74px",
-    "overflow": "hidden",
-    "margin-bottom": "8px"
-  },
-  "children": [
-    {
-      "elmType": "img",
-      "attributes": {
-        "src": "='https://www.weatherforyou.net/fcgi-bin/hw3/hw3.cgi?config=png&forecast=hourly&alt=hwihourly&place=' + @currentField.Address.City + '&state=' + @currentField.Address.State + '&country=us' + '&hwvbg=transparent&hwvtc=black&hwvdisplay=' + @currentField.DisplayName"
-      }
-    }
-  ]
-}
-```
-
+Apply this format to a location column. To reference a location column, you can switch from `@currentField` to column reference format (e.g., `@currentField.Address.City` to `[$INTERNALNAME.Address.City]`)
 ---
 
 ## Version 2.0 - Enhanced City/State/Country Weather Display
@@ -141,7 +118,7 @@ Create a SharePoint list with the following columns:
 | Solution | Author(s) | Version |
 |----------|-----------|---------|
 | location-weather.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent)) | 1.0 |
-| weather-column-enhanced.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) | 2.0 |
+| location-global-weather.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/)) | 2.0 |
 
 ---
 

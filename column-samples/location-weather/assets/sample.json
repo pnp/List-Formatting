@@ -10,7 +10,7 @@
       "This sample utilizes sub properties of a Location column to build an image that pulls weather from WeatherForYou.com"
     ],
     "creationDateTime": "2021-09-16T00:00:00.000Z",
-    "updateDateTime": "2025-09-14T00:00:00.000Z",
+    "updateDateTime": "2025-10-25T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
