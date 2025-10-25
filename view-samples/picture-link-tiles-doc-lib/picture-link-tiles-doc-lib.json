@@ -29,7 +29,7 @@
             "elmType": "a",
             "attributes": {
               "href": "=if([$URL],[$URL],[$FileRef])",
-              "target": "_blank"
+              "target": "=if([$FSObjType]=='1','','_blank')"
             },
             "children": [
               {
@@ -41,6 +41,21 @@
                   "height": "100%",
                   "width": "100%",
                   "object-fit": "cover"
+                }
+              },
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "Folder"
+                },
+                "style": {
+                  "display": "=if([$FSObjType]=='1','block','none')",
+                  "position": "absolute",
+                  "top": "50%",
+                  "left": "50%",
+                  "transform": "translate(-50%, -50%)",
+                  "font-size": "84px",
+                  "color": "#f7d154"
                 }
               }
             ]
@@ -74,7 +89,7 @@
               "font-size": "11px",
               "font-weight": "600",
               "display": "=if([$Rank]>0,'block','none')",
-              "background-color": "=if([$Rank] >89,'darkRed',if([$Rank] >79,'darkBlue',if([$Rank] >49,'darkGreen','gray'))"
+              "background-color": "=if([$Rank] >89,'darkRed',if([$Rank] >79,'darkBlue',if([$Rank] >49,'darkGreen','gray')))"
             },
             "txtContent": "[$Rank]",
             "inlineEditField": "[$Rank]"
@@ -82,20 +97,20 @@
           {
             "elmType": "div",
             "style": {
-              "display": "=if([$HideTitle] || [$Title]=='','none','-webkit-box')",
               "position": "absolute",
               "bottom": "8px",
               "left": "8px",
               "right": "8px",
-              "color": "white",
-              "background-color": "rgba(0,0,0,0.6)",
               "padding": "4px 8px",
               "border-radius": "4px",
               "font-weight": "600",
               "overflow": "hidden",
-              "word-break": "normal"
+              "word-break": "normal",
+              "color": "white",
+              "background-color": "rgba(0,0,0,0.6)",
+              "display": "=if([$FSObjType]=='1' || [$HideTitle]!=true,'','none')"
             },
-            "txtContent": "[$Title]",
+            "txtContent": "=if([$FSObjType]=='1' && [$Title]=='',[$FileLeafRef],[$Title])",
             "inlineEditField": "[$Title]"
           }
         ]
@@ -110,7 +125,7 @@
           "align-items": "center",
           "font-size": "12px",
           "color": "white",
-          "background-color": "=if([$Category]=='News','#d93025',if([$Category]=='Blog','#ff9800',if([$Category]=='Sample','#696cb3',,'#182534')"
+          "background-color": "=if([$Category]=='News','#d93025',if([$Category]=='Blog','#ff9800',if([$Category]=='Sample','#696cb3','#182534')))"
         },
         "children": [
           {
