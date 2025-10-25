@@ -108,7 +108,7 @@
               "word-break": "normal",
               "color": "white",
               "background-color": "rgba(0,0,0,0.6)",
-              "display": "=if([$FSObjType]=='1' || [$HideTitle]!=true,'','none')"
+              "display": "=if([$HideTitle],'none',if([$FSObjType]=='1' || length([$Title])>0,'','none'))"
             },
             "txtContent": "=if([$FSObjType]=='1' && [$Title]=='',[$FileLeafRef],[$Title])",
             "inlineEditField": "[$Title]"
@@ -183,3 +183,4 @@
   }
 
 }
+
