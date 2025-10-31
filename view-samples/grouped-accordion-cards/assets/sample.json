@@ -28,31 +28,31 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Cards, Grouped Views, Accordion"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Lookup, Choice"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group.name, @group.count, @group.isExpanded"
+        "value": "@group.count, @group.fieldData"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "if, substring, indexOf, +"
+        "value": "substring, indexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "Hover Card (customCardProps)"
+        "value": ""
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "groupProps.headerFormatter, rowFormatter, hideSelection, hideColumnHeader"
+        "value": "customCardProps, groupProps, hideColumnHeader, hideSelection, hideFooter, rowFormatter"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-neutralLighter--hover"
+        "value": "ms-bgColor-neutralLighter--hover, sp-row-card"
       }
     ],
     "thumbnails": [
