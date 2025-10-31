@@ -12,7 +12,7 @@ Key features:
 * Includes a footer with a delete button, source, published date, and an edit button.
 * Changes the footer’s background color based on the category: Sample purple, News red, Blog orange, else dark blue.
 > [!NOTE]
-> All columns must be included in the gallery view.
+> All columns must be included in the gallery view and an additional internal column name `Type` for checking folder.
 
 ![Screenshot of the sample](./assets/screenshot.png)
 
@@ -20,7 +20,7 @@ Key features:
 This sample displays card-style tiles grouped by category, with a basic click-to-open feature.
 
 > [!NOTE]
-> `Title` and `URL` columns must be included in the gallery view.
+> `Title` and `URL` columns must be included in the gallery view and an additional internal column name `Type`.
 
 ![sample screenshot](./assets/minimal.png)
 
@@ -49,10 +49,10 @@ picture-link-tiles-doc-lib-minimal.json | [Watana](https://github.com/watana2)
 ## Version history
 Version|Date|Comments
 -------|----|-
-1.0    | September 24, 2025 | Initial release
-
+1.0    | September 24, 2025 | Initial release.
+1.1    |   October 25, 2025 | Added folder handling functionality.
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-doc-lib" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-doc-lib"/>
