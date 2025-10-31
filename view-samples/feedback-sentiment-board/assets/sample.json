@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Feedback, Sentiment Analysis"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Text, Person, DateTime"
+        "value": ""
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "indexOf, toLowerCase, substring, toLocaleDateString, if"
+        "value": "indexOf, toLowerCase, substring, toLocaleDateString"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -73,11 +73,6 @@
         "name": "Use view formatting to customize SharePoint",
         "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
-      },
-      {
-        "name": "Formatting syntax reference",
-        "description": "Comprehensive reference guide for SharePoint JSON formatting syntax including operators, functions, and supported CSS properties.",
-        "url": "https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference"
       }
     ]
   }
