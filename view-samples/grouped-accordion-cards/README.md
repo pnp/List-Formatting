@@ -6,7 +6,7 @@ This sample uses **SharePoint List Formatting** to display list items grouped by
 - Interactive hover cards showing detailed information
 - Smooth modern styling
 
-![screenshot of the sample](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -28,10 +28,10 @@ Create a separate **TaskTitle** list with the following columns:
 | Internal Name | Type                |
 |---------------|---------------------|
 | **Title**     | Single line of text |
-| **Image**     | Single line of text |
+| **ImageUrl**     | Single line of text |
 | **TaskTitle**     | Calculated (calculation based on other columns) |
 
-**Important:** The TitleImage lookup column must be configured to show additional fields. The lookup value should be formatted as:
+**Important:** The TaskTitle lookup column must be configured to show additional fields. The lookup value should be formatted as:
 ```
 =CONCATENATE(Title,"&+&",ImageUrl,"&++&")
 ```
@@ -135,7 +135,7 @@ Version|Date|Comments
 ## Troubleshooting
 
 **Issue:** TaskTitle images not displaying
-- **Solution:** Verify the lookup column is configured to show the Image field and that the format matches `Title&+&ImageURL&++&`
+- **Solution:** Verify the lookup column is configured to show the Image field and that the format matches `Title&+&ImageUrl&++&`
 
 **Issue:** Cards appear misaligned
 - **Solution:** Adjust the `left` and `width` properties in the rowFormatter section
