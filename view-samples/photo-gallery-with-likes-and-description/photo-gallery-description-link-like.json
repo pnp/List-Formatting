@@ -58,20 +58,20 @@
               "color": "#ffffff"
             },
             "attributes": {
-              "title": "=if(indexOf([$LikedBy0.email], @me) > -1 , 'Unlike', 'Like')"
+              "title": "=if(indexOf([$LikedBy.email], @me) > -1 , 'Unlike', 'Like')"
             },
             "customRowAction": {
               "action": "setValue",
               "actionInput": {
-                "LikesCount": "=if(indexOf([$LikedBy0.email], @me) > -1, [$LikesCount] - 1, [$LikesCount] + 1)",
-                "LikedBy0": "=if(indexOf([$LikedBy0.email], @me) > -1, removeFrom([$LikedBy0.email], @me), appendTo([$LikedBy0.email], @me))"
+                "LikesCount": "=if(indexOf([$LikedBy.email], @me) > -1, [$LikesCount] - 1, [$LikesCount] + 1)",
+                "LikedBy": "=if(indexOf([$LikedBy.email], @me) > -1, removeFrom([$LikedBy.email], @me), appendTo([$LikedBy.email], @me))"
               }
             },
             "children": [
               {
                 "elmType": "span",
                 "attributes": {
-                  "iconName": "=if(indexOf([$LikedBy0.email], @me) > -1 , 'HeartFill', 'Heart')"
+                  "iconName": "=if(indexOf([$LikedBy.email], @me) > -1 , 'HeartFill', 'Heart')"
                 }
               },
               {
