@@ -6,7 +6,7 @@ This sample demonstrates formatting a document library gallery view into a photo
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-Credit to original author [Lou-i3](https://github.com/Lou-i3), I have copied and modified photo-gallery-with-likes.json to give another variant option.
+Credit to original author [Lou-i3](https://github.com/Lou-i3), I have copied and modified [photo-gallery-with-likes.json](https://github.com/pnp/List-Formatting/tree/master/view-samples/photo-gallery-with-likes) to give another variant option.
 
 ## View requirements
 
@@ -27,7 +27,7 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-photo-gallery-description--link-like.json | [AngelaTS](https://github.com/AngelaTS)
+photo-gallery-description-link-like.json | [AngelaTS](https://github.com/AngelaTS)
 
 ## Version history
 
@@ -38,3 +38,5 @@ Version|Date|Comments
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/photo-gallery-with-likes-and-description" />
