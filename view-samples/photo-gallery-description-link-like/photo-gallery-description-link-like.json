@@ -2,7 +2,6 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
   "hideSelection": true,
   "fillHorizontally": true,
-  "overflow": "hidden",
   "width": 300,
   "height": 420,
   "formatter": {
