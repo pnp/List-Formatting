@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-photo-gallery-description-link-like",
+    "reponame": "photo-gallery-description-link-like",
+    "source": "pnp",
+    "title": "Photo Gallery with Description, Link and Likes",
+    "shortDescription": "This sample demonstrates formatting a document library gallery view into a photo gallery showing title, description, hyperlink and likes.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/photo-gallery-description-link-like",
+    "longDescription": [
+      "This sample demonstrates formatting a document library gallery view into a photo gallery showing title, description, hyperlink and likes."
+    ],
+    "creationDateTime": "2025-11-04T00:00:00.000Z",
+    "updateDateTime": "2025-11-04T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@me"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "indexOf, appendTo, removeFrom"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, fillHorizontally"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-card-container, sp-card-imageContainer"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/photo-gallery-description-link-like/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "AngelaTS",
+        "pictureUrl": "https://github.com/AngelaTS.png",
+        "name": "AngelaTS"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
