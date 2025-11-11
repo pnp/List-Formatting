@@ -23,6 +23,9 @@ This format expects the following columns to be part of the view:
 |Number|LikesTotal|No
 |Multi-Person|LikedBy|No
 
+> [!NOTE]
+> When using an external image URL in the `Image` column, the image might not appear if it's retrieved from a domain that isn't allowed. Please make sure to configure the HTML Field Security settings when using external images. For more information, see [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
+
 ## Sample
 
 Solution|Author(s)
