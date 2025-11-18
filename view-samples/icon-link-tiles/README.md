@@ -5,8 +5,6 @@ This sample creates a collection of links featuring icons (similar to the origin
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-> This format takes advantage of the `tileProps` property to create tiles in the Tiles layout for the view. To see the tiles, switch your layout to the Tiles layout.
-
 ## View requirements
 - The format expects the following fields:
 
@@ -17,7 +15,8 @@ Icon | Single line of text
 URL | Hyperlink 
 NewTab | Yes/No - This field is used to open the link the same tab or new tab
 
-The size of the tile can be adjusted by changing the width and height values.
+- You need to use the Gallery layout.
+- The size of the tile can be adjusted by changing the width and height values.
 
 ## Sample
 
