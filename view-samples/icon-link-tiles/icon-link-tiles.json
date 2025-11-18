@@ -7,7 +7,7 @@
   "formatter": {
     "elmType": "div",
     "attributes": {
-      "class": "ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover ms-fontColor-white--hover"
+      "class": "ms-bgColor-themeLighterAlt ms-bgColor-themePrimary--hover"
     },
     "style": {
       "display": "flex",
@@ -23,10 +23,12 @@
         "elmType": "a",
         "attributes": {
           "href": "[$URL]",
-          "target": "=if([$NewTab] == true, '_blank', '')"
+          "target": "=if([$NewTab] == true, '_blank', '')",
+          "class": " ms-fontColor-themePrimary ms-fontColor-white--hover"
         },
         "style": {
-          "width": "100%"
+          "width": "100%",
+          "text-decoration": "none"
         },
         "children": [
           {
