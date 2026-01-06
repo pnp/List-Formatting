@@ -4,10 +4,10 @@
     "reponame": "picture-link-tiles-collapsible",
     "source": "pnp",
     "title": "Picture Link Tiles - Collapsible",
-    "shortDescription": "CCreates a card-style tile view in a SharePoint list with expand and collapse functionality.",
+    "shortDescription": "Creates a card-style tile view in a SharePoint list with expand and collapse functionality.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/picture-link-tiles-collapsible",
     "longDescription": [
-      "Currently, Gallery view allows formatting of group headers, but no built-in or JSON-supported expand and collapse behavior like Grouped view. This sample demonstrates how to render list items as cards, where you can choose which field values are displayed within each card."
+      "Currently, Gallery view allows formatting of group headers, but it does not support built-in or JSON-based expand and collapse behavior like List view. This sample demonstrates how to render list items as cards, where you can choose which field values are displayed within each card and define target links."
     ],
     "creationDateTime": "2026-01-07T00:00:00.000Z",
     "updateDateTime"  : "2026-01-07T00:00:00.000Z",
