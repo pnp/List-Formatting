@@ -1,0 +1,330 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "txtContent": "@group.fieldData.displayValue",
+      "attributes": {
+        "class": "ms-fontColor-themeDark ms-bgColor-themeLighter"
+      },
+      "style": {
+        "border-left": "10px solid",
+        "display": "flex",
+        "flex-direction": "row",
+        "width": "98%",
+        "height": "50px",
+        "margin-top": "10px",
+        "margin-bottom": "10px",
+        "padding-left": "20px",
+        "font-size": "20px"
+      }
+    }
+  },
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "margin": "22px 0 12px 44px",
+      "gap": "24px",
+      "flex-wrap": "wrap"
+    },
+    "children": [
+      {
+        "comm": "1",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt"
+        },
+        "style": {
+          "display": "=if([$Title1],'flex','none')",
+          "flex-direction": "column",
+          "width": "226px",
+          "height": "180px",
+          "border": "1px solid #ccc",
+          "border-radius": "10px",
+          "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "class": "ms-fontColor-themeDark ms-bgColor-themeDark",
+              "href": "[$Link1]",
+              "target": "_blank"
+            },
+            "style": {
+              "height": "65%",
+              "cursor": "=if([$Link1],'pointer','default')"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getThumbnailImage([$Image1], 300, 300)"
+                },
+                "style": {
+                  "display": "=if([$Image1],'','none')",
+                  "object-fit": "cover",
+                  "height": "100%",
+                  "width": "100%"
+                }
+              }
+            ]
+          },
+          {
+            "txtContent": "[$Title1]",
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+            },
+            "style": {
+              "border-top": "2px solid",
+              "display": "flex",
+              "height": "35%",
+              "padding": "0 10px 4px 15px",
+              "align-items": "center"
+            }
+          }
+        ]
+      },
+      {
+        "comm": "2",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt"
+        },
+        "style": {
+          "display": "=if([$Title2],'flex','none')",
+          "flex-direction": "column",
+          "width": "226px",
+          "height": "180px",
+          "border": "1px solid #ccc",
+          "border-radius": "10px",
+          "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "class": "ms-fontColor-themeDark ms-bgColor-themeDark",
+              "href": "[$Link2]",
+              "target": "_blank"
+            },
+            "style": {
+              "height": "65%",
+              "cursor": "=if([$Link2],'pointer','default')"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getThumbnailImage([$Image2], 300, 300)"
+                },
+                "style": {
+                  "display": "=if([$Image2],'','none')",
+                  "object-fit": "cover",
+                  "height": "100%",
+                  "width": "100%"
+                }
+              }
+            ]
+          },
+          {
+            "txtContent": "[$Title2]",
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+            },
+            "style": {
+              "border-top": "2px solid",
+              "display": "flex",
+              "height": "35%",
+              "padding": "0 10px 4px 15px",
+              "align-items": "center"
+            }
+          }
+        ]
+      },
+      {
+        "comm": "3",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt"
+        },
+        "style": {
+          "display": "=if([$Title3],'flex','none')",
+          "flex-direction": "column",
+          "width": "226px",
+          "height": "180px",
+          "border": "1px solid #ccc",
+          "border-radius": "10px",
+          "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "class": "ms-fontColor-themeDark ms-bgColor-themeDark",
+              "href": "[$Link3]",
+              "target": "_blank"
+            },
+            "style": {
+              "height": "65%",
+              "cursor": "=if([$Link3],'pointer','default')"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getThumbnailImage([$Image3], 300, 300)"
+                },
+                "style": {
+                  "display": "=if([$Image3],'','none')",
+                  "object-fit": "cover",
+                  "height": "100%",
+                  "width": "100%"
+                }
+              }
+            ]
+          },
+          {
+            "txtContent": "[$Title3]",
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+            },
+            "style": {
+              "border-top": "2px solid",
+              "display": "flex",
+              "height": "35%",
+              "padding": "0 10px 4px 15px",
+              "align-items": "center"
+            }
+          }
+        ]
+      },
+      {
+        "comm": "4",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt"
+        },
+        "style": {
+          "display": "=if([$Title4],'flex','none')",
+          "flex-direction": "column",
+          "width": "226px",
+          "height": "180px",
+          "border": "1px solid #ccc",
+          "border-radius": "10px",
+          "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "class": "ms-fontColor-themeDark ms-bgColor-themeDark",
+              "href": "[$Link4]",
+              "target": "_blank"
+            },
+            "style": {
+              "height": "65%",
+              "cursor": "=if([$Link4],'pointer','default')"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getThumbnailImage([$Image4], 300, 300)"
+                },
+                "style": {
+                  "display": "=if([$Image4],'','none')",
+                  "object-fit": "cover",
+                  "height": "100%",
+                  "width": "100%"
+                }
+              }
+            ]
+          },
+          {
+            "txtContent": "[$Title4]",
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+            },
+            "style": {
+              "border-top": "2px solid",
+              "display": "flex",
+              "height": "35%",
+              "padding": "0 10px 4px 15px",
+              "align-items": "center"
+            }
+          }
+        ]
+      },
+      {
+        "comm": "5",
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-themeLighterAlt"
+        },
+        "style": {
+          "display": "=if([$Title5],'flex','none')",
+          "flex-direction": "column",
+          "width": "226px",
+          "height": "180px",
+          "border": "1px solid #ccc",
+          "border-radius": "10px",
+          "box-shadow": "0 3px 10px rgba(0,0,0,.2)",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "a",
+            "attributes": {
+              "class": "ms-fontColor-themeDark ms-bgColor-themeDark",
+              "href": "[$Link5]",
+              "target": "_blank"
+            },
+            "style": {
+              "height": "65%",
+              "cursor": "=if([$Link5],'pointer','default')"
+            },
+            "children": [
+              {
+                "elmType": "img",
+                "attributes": {
+                  "src": "=getThumbnailImage([$Image5], 300, 300)"
+                },
+                "style": {
+                  "display": "=if([$Image5],'','none')",
+                  "object-fit": "cover",
+                  "height": "100%",
+                  "width": "100%"
+                }
+              }
+            ]
+          },
+          {
+            "txtContent": "[$Title5]",
+            "elmType": "div",
+            "attributes": {
+              "class": "ms-fontWeight-bold ms-fontColor-neutralPrimary"
+            },
+            "style": {
+              "border-top": "2px solid",
+              "display": "flex",
+              "height": "35%",
+              "padding": "0 10px 4px 15px",
+              "align-items": "center"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
