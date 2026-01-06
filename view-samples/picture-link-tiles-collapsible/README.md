@@ -31,7 +31,7 @@ Image5              | Image
 
 
 > [!NOTE]
-> All columns must be included in the gallery view for checking folder.
+> All columns must be included in the gallery view.
 
 
 ## Sample
@@ -50,3 +50,4 @@ Version|Date|Comments
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-collapsible"/>
+
