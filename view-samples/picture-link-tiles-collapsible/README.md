@@ -1,7 +1,8 @@
 ﻿# Picture Link Tiles - Collapsible
 
 ## Summary
-Currently, Gallery view allows formatting of group headers, but no built-in or JSON-supported expand and collapse behavior like Grouped view. This sample demonstrates how to render list items as cards, where you can choose which field values are displayed within each card.
+
+Currently, Gallery view allows formatting of group headers, but it does not support built-in or JSON-based expand and collapse behavior like List view. This sample demonstrates how to render list items as cards, where you can choose which field values are displayed within each card and define target links.
 
 ![Sample screenshot](./assets/screenshot.png)
 
@@ -46,5 +47,6 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-collapsible"/>
