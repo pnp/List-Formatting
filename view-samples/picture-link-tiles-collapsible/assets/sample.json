@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group"
+        "value": "@group.fieldData"
       },
       {
         "key": "FORMATTING-OPERATORS",

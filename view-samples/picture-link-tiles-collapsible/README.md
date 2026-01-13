@@ -31,7 +31,7 @@ Image5              | Image
 
 
 > [!NOTE]
-> All columns must be included in the gallery view and grouped by the `Title` column.
+> All columns must be included in the view and grouped by the `Title` column.
 
 
 ## Sample
@@ -50,5 +50,4 @@ Version|Date|Comments
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles-collapsible"/>
-
 
