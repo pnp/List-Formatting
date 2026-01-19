@@ -6,7 +6,9 @@ This sample utilizes sub properties of a Location column to build an image `src`
 
 ![screenshot of the sample](./assets/screenshot.png)
 
-> Note: The WeatherForYou weather snapshots do NOT require an API key and is completely free to use. However, it is limited to locations within the United States only. Locations outside of the US will not show the format.
+> [!NOTE] 
+> - The WeatherForYou weather snapshots do NOT require an API key and is completely free to use. However, it is limited to locations within the United States only. Locations outside of the US will not show the format.
+> - If the image is not displayed, it may be affected by **HTML Field Security** settings that restrict external content. For more information, see: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 
 ## View requirements
 - This format can be applied to a location column (to reference a location column instead you can switch the calls from `@currentField` to the column reference format. For example, `@currentField.Address.City` to `[$INTERNALNAME.Address.City]`)
