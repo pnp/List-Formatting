@@ -13,7 +13,7 @@ This sample utilizes sub properties of a Location column to build an image `src`
 
 This sample uses external images. These images are displayed only if their domains are explicitly allowed.
 
-If your site allows only specific domains, please add `www.weatherforyou.net` to the list of allowed domains in the **HTML Field Security** settings.
+If your site allows only specific domains, add `www.weatherforyou.net` to the list of allowed domains in the **HTML Field Security** settings.
 
 For more information, see: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 
