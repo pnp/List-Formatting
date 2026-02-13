@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Glossary View Formatters",
     "shortDescription": "View formatters to buid a glossary page using connected list WebParts.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/glossary-dynamicFilter-view",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/glossary-dynamicfilter-view",
     "longDescription": [
       "View formatters to buid a glossary page using connected list WebParts."
     ],
@@ -57,19 +57,19 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/screenshot.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/screenshot.gif",
         "alt": "screenshot"
       },
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/gFilterWPSetup.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gFilterWPSetup.gif",
         "alt": "screenshot 2"
       },
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicFilter-view/assets/gTermsWPSetup.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gTermsWPSetup.gif",
         "alt": "screenshot 3"
       }
     ],

@@ -80,7 +80,8 @@
       { "key": "requestApprovalCommand", "hide": true },
       { "key": "GoToChannelInTeams", "hide": true },
       { "key": "PublishCommand", "hide": true},
-      { "key": "properties", "hide": true}
+      { "key": "properties", "hide": true},
+      { "key": "syntexAutofillColumnsCommandPublicKey", "hide": true}
     ]
   }
 }

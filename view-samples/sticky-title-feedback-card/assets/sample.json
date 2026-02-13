@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-commandbar-hide-all",
-    "reponame": "commandbar-hide-all",
+    "name": "pnp-list-formatting-sticky-title-feedback-card",
+    "reponame": "sticky-title-feedback-card",
     "source": "pnp",
-    "title": "Hide All Buttons on Command Bar",
-    "shortDescription": "This sample demonstrates hiding all buttons on the command bar.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/commandbar-hide-all",
+    "title": "Sticky Title Feedback Card",
+    "shortDescription": "This sample uses SharePoint List Formatting to display feedback items as card-style layouts with a prominent title header and scrollable feedback content.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/sticky-title-feedback-card",
     "longDescription": [
-      "This sample demonstrates hiding all buttons on the command bar."
+      "This sample uses SharePoint List Formatting to display feedback items as card-style layouts with a prominent title header and scrollable feedback content. Each row is rendered as a visually appealing card with a yellow header for the title and a scrollable area for longer feedback text."
     ],
-    "creationDateTime": "2024-12-24T00:00:00.000Z",
-    "updateDateTime": "2026-01-13T00:00:00.000Z",
+    "creationDateTime": "2025-10-26T00:00:00.000Z",
+    "updateDateTime": "2025-10-26T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "CommandBar Customization"
+        "value": ""
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "rowFormatter"
       },
       {
         "key": "CLASSES",
@@ -57,26 +57,15 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/commandbar-hide-all/assets/screenshot.png",
-        "alt": "screenshot"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/commandbar-hide-all/assets/document-library.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/sticky-title-feedback-card/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "gitjego",
-        "pictureUrl": "https://github.com/gitjego.png",
-        "name": "gitjego"
-      },
-      {
-        "gitHubAccount": "watana2",
-        "pictureUrl": "https://github.com/watana2.png",
-        "name": "Watana"
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
       }
     ],
     "references": [

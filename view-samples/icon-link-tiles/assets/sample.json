@@ -10,7 +10,7 @@
       "This sample uses tileProps element to create tile layout on the view.  This layout allow users to see the list as the promoted links app (including the power the security trimming on the items).  This sample uses the Icons from the Microsoft UI Fabric. The name of the icon is referenced through an Icon field."
     ],
     "creationDateTime": "2019-09-05T00:00:00.000Z",
-    "updateDateTime": "2019-09-09T00:00:00.000Z",
+    "updateDateTime": "2025-11-18T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -72,6 +72,11 @@
         "gitHubAccount": "sohailmerchant",
         "pictureUrl": "https://github.com/sohailmerchant.png",
         "name": "S Merchant"
+      },
+      {
+        "gitHubAccount": "taylora3",
+        "pictureUrl": "https://github.com/taylora3.png",
+        "name": "Andrew Taylor"
       }
     ],
     "references": [

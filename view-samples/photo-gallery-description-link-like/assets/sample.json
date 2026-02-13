@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-commandbar-hide-all",
-    "reponame": "commandbar-hide-all",
+    "name": "pnp-list-formatting-photo-gallery-description-link-like",
+    "reponame": "photo-gallery-description-link-like",
     "source": "pnp",
-    "title": "Hide All Buttons on Command Bar",
-    "shortDescription": "This sample demonstrates hiding all buttons on the command bar.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/commandbar-hide-all",
+    "title": "Photo Gallery with Description, Link and Likes",
+    "shortDescription": "This sample demonstrates formatting a document library gallery view into a photo gallery showing title, description, hyperlink and likes.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/photo-gallery-description-link-like",
     "longDescription": [
-      "This sample demonstrates hiding all buttons on the command bar."
+      "This sample demonstrates formatting a document library gallery view into a photo gallery showing title, description, hyperlink and likes."
     ],
-    "creationDateTime": "2024-12-24T00:00:00.000Z",
-    "updateDateTime": "2026-01-13T00:00:00.000Z",
+    "creationDateTime": "2025-11-04T00:00:00.000Z",
+    "updateDateTime": "2025-11-04T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "CommandBar Customization"
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,49 +34,38 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": ""
+        "value": "@me"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "indexOf, appendTo, removeFrom"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "hideSelection, fillHorizontally"
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "sp-card-container, sp-card-imageContainer"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/commandbar-hide-all/assets/screenshot.png",
-        "alt": "screenshot"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/commandbar-hide-all/assets/document-library.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/photo-gallery-description-link-like/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "gitjego",
-        "pictureUrl": "https://github.com/gitjego.png",
-        "name": "gitjego"
-      },
-      {
-        "gitHubAccount": "watana2",
-        "pictureUrl": "https://github.com/watana2.png",
-        "name": "Watana"
+        "gitHubAccount": "AngelaTS",
+        "pictureUrl": "https://github.com/AngelaTS.png",
+        "name": "AngelaTS"
       }
     ],
     "references": [

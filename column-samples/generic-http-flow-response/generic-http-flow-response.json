@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "embed",
+    "actionInput": {
+      "src": "='YOUR_FLOW_HTTP_URL_HERE' + '&ID=' + [$ID] + '&User=' + @me",
+      "height": "100",
+      "width": "250"
+    }
+  },
+  "style": {
+    "border": "none",
+    "background-color": "#0078d4",
+    "color": "white",
+    "cursor": "pointer",
+    "padding": "6px 12px",
+    "border-radius": "4px",
+    "font-weight": "600"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "Trigger Action"
+    }
+  ]
+}

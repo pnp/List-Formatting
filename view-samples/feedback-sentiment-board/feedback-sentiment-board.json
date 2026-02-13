@@ -1,0 +1,173 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "border-radius": "12px",
+      "padding": "20px",
+      "margin-bottom": "16px",
+      "border-left": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'fantastic')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'wonderful')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'outstanding')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'perfect')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'impressed')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'exceptional')>-1,'5px solid #28a745',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'worst')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'hate')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'awful')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'horrible')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'frustrated')>-1,'5px solid #dc3545',if(indexOf(toLowerCase([$Feedback]),'disappointing')>-1,'5px solid #dc3545','5px solid #ffc107')))))))))))))))))))",
+      "box-shadow": "0 3px 10px rgba(0,0,0,0.12)",
+      "background": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,if(indexOf(toLowerCase([$Feedback]),'great')>-1,if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,if(indexOf(toLowerCase([$Feedback]),'love')>-1,if(indexOf(toLowerCase([$Feedback]),'fantastic')>-1,if(indexOf(toLowerCase([$Feedback]),'wonderful')>-1,if(indexOf(toLowerCase([$Feedback]),'outstanding')>-1,if(indexOf(toLowerCase([$Feedback]),'perfect')>-1,if(indexOf(toLowerCase([$Feedback]),'impressed')>-1,if(indexOf(toLowerCase([$Feedback]),'exceptional')>-1,if(indexOf(toLowerCase([$Feedback]),'poor')>-1,if(indexOf(toLowerCase([$Feedback]),'bad')>-1,if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,if(indexOf(toLowerCase([$Feedback]),'worst')>-1,if(indexOf(toLowerCase([$Feedback]),'hate')>-1,if(indexOf(toLowerCase([$Feedback]),'awful')>-1,if(indexOf(toLowerCase([$Feedback]),'horrible')>-1,if(indexOf(toLowerCase([$Feedback]),'frustrated')>-1,if(indexOf(toLowerCase([$Feedback]),'disappointing')>-1))))))))))))))))))",
+      "border": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'1px solid #c3e6cb',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'1px solid #c3e6cb',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'1px solid #c3e6cb',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'1px solid #c3e6cb',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'1px solid #f5c6cb',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'1px solid #f5c6cb',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'1px solid #f5c6cb','1px solid #ffeaa7')))))))"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "flex-start",
+          "justify-content": "space-between",
+          "margin-bottom": "14px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "flex": "1"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "50px",
+                  "height": "50px",
+                  "border-radius": "50%",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "margin-right": "14px",
+                  "font-size": "28px",
+                  "background": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'rgba(40, 167, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'rgba(40, 167, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'rgba(40, 167, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'rgba(40, 167, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'rgba(220, 53, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'rgba(220, 53, 69, 0.15)',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'rgba(220, 53, 69, 0.15)','rgba(255, 193, 7, 0.15)')))))))",
+                  "box-shadow": "0 2px 8px rgba(0,0,0,0.1)"
+                },
+                "txtContent": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'fantastic')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'wonderful')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'outstanding')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'perfect')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'impressed')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'exceptional')>-1,'😊',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'worst')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'hate')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'awful')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'horrible')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'frustrated')>-1,'😞',if(indexOf(toLowerCase([$Feedback]),'disappointing')>-1,'😞','😐')))))))))))))))))))"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Title]",
+                    "style": {
+                      "font-weight": "700",
+                      "font-size": "18px",
+                      "color": "#1a1a1a",
+                      "margin-bottom": "4px"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'fantastic')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'wonderful')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'outstanding')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'perfect')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'impressed')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'exceptional')>-1,'✓ Positive Feedback',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'worst')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'hate')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'awful')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'horrible')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'frustrated')>-1,'✗ Negative Feedback',if(indexOf(toLowerCase([$Feedback]),'disappointing')>-1,'✗ Negative Feedback','— Neutral Feedback')))))))))))))))))))",
+                    "style": {
+                      "font-size": "12px",
+                      "font-weight": "600",
+                      "color": "=if(indexOf(toLowerCase([$Feedback]),'excellent')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'great')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'amazing')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'love')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'fantastic')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'wonderful')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'outstanding')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'perfect')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'impressed')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'exceptional')>-1,'#155724',if(indexOf(toLowerCase([$Feedback]),'poor')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'bad')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'terrible')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'worst')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'hate')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'awful')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'horrible')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'frustrated')>-1,'#721c24',if(indexOf(toLowerCase([$Feedback]),'disappointing')>-1,'#721c24','#856404')))))))))))))))))))",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.5px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "background": "rgba(255,255,255,0.6)",
+          "padding": "14px",
+          "border-radius": "8px",
+          "margin-bottom": "14px",
+          "border": "1px solid rgba(0,0,0,0.05)"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Feedback]",
+            "style": {
+              "color": "#2c2c2c",
+              "font-size": "15px",
+              "line-height": "1.7",
+              "font-weight": "400"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "space-between",
+          "align-items": "center",
+          "padding-top": "12px",
+          "border-top": "2px solid rgba(0,0,0,0.08)"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "gap": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "32px",
+                  "height": "32px",
+                  "border-radius": "50%",
+                  "background-color": "red",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "color": "white",
+                  "font-weight": "700",
+                  "font-size": "13px"
+                },
+                "txtContent": "=substring([$Author0.title], 0, 1)"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Author0.title]",
+                    "style": {
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "color": "#333"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "='Submitted on ' + toLocaleDateString([$Created])",
+                    "style": {
+                      "font-size": "11px",
+                      "color": "#888"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

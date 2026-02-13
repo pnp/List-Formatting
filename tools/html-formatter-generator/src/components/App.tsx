@@ -55,6 +55,7 @@ export const App: React.FC<any> = (props: any) => {
       textArea.select();
       document.execCommand("copy");
       textArea.remove();
+      alert("JSON copied successfully!");
     }
   };
 
