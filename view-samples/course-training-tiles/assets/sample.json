@@ -1,0 +1,59 @@
+[
+  {
+    "name": "pnp-list-formatting-course-training-tiles",
+    "reponame": "course-training-tiles",
+    "source": "pnp",
+    "title": "Course Training Tile Cards",
+    "shortDescription": "Modern tile card layout for displaying training courses with images, badges, and hover previews in SharePoint Gallery view.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/course-training-tiles",
+    "longDescription": [
+      "Modern tile card layout for displaying training courses with images, badges, and hover previews in SharePoint Gallery view. Features 280×350px tile cards with course thumbnails, hover popup showing title and description, duration badge that auto-converts to hours/minutes, flag badge for highlighting courses, responsive images with fallback to default, and direct links to course content."
+    ],
+    "creationDateTime": "2026-02-13T00:00:00.000Z",
+    "updateDateTime": "2026-02-13T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Cards, Training, Gallery"
+      },
+      {
+        "key": "CLASSES",
+        "value": "sp-card-container, sp-card-defaultClickButton, sp-card-subContainer"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/course-training-tiles/assets/screenshot.png",
+        "alt": "Course training tiles view"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
