@@ -6,8 +6,6 @@ This SharePoint JSON formatting script customizes the display of a list view row
 
 ![Sample output screenshot](./assets/bar-chart-diagram.png)
 
-
-
 ## View requirements
 Column Name         | Type                   | Setting
 --------------------|------------------------|--------
@@ -17,6 +15,7 @@ Value02             | Number                 | without decimals
 Value03             | Number                 | without decimals
 Value04             | Number                 | without decimals
 Total               | Number                 | without decimals
+
 The Title column is used to display a title within the bar chart. Additioanl information, like a legend for each bar, is not rendered. You can provide these information directly on the page in a text web part.
 You can alter the count of value columns (Value01 ...). The current JSON-Format print out 4 values. For more you must alter the script. Just duplicate the output for a bar chart.
 
