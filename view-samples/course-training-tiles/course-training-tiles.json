@@ -1,0 +1,264 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 350,
+  "width": 280,
+  "hideSelection": true,
+  "fillHorizontally": false,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-card-container"
+    },
+    "children": [
+      {
+        "elmType": "a",
+        "attributes": {
+          "class": "sp-card-defaultClickButton",
+          "role": "link",
+          "aria-label": "=[$Title]",
+          "href": "[$URL]",
+          "target": "=if ([$URL] == '', '', '_blank')"
+        },
+        "customCardProps": {
+          "openOnEvent": "hover",
+          "directionalHint": "rightCenter",
+          "isBeakVisible": true,
+          "formatter": {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-row-listPadding"
+            },
+            "style": {
+              "display": "block",
+              "max-width": "300px",
+              "padding": "20px",
+              "background-color": "#ffffff",
+              "box-shadow": "0 2px 8px rgba(0,0,0,0.1)"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "1.3em",
+                  "font-weight": "600",
+                  "color": "#000000",
+                  "padding-bottom": "10px",
+                  "word-wrap": "break-word"
+                },
+                "txtContent": "[$Title]"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "1em",
+                  "font-weight": "400",
+                  "color": "#333333",
+                  "line-height": "1.5"
+                },
+                "txtContent": "[$Description]"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer"
+        },
+        "style": {
+          "background-color": "#ffffff",
+          "border-radius": "4px",
+          "overflow": "hidden",
+          "box-shadow": "0 1px 3px rgba(0,0,0,0.12)"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-previewColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "sp-card-imageContainer"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "height": "160px",
+                      "border-bottom": "1px solid #cccccc",
+                      "position": "relative",
+                      "overflow": "hidden"
+                    },
+                    "attributes": {
+                      "class": "ms-bgColor-neutralLight sp-card-imagePreviewBackground"
+                    },
+                    "children": [
+                      {
+                        "elmType": "img",
+                        "style": {
+                          "height": "160px",
+                          "width": "100%",
+                          "object-fit": "cover"
+                        },
+                        "attributes": {
+                          "src": "=if([$Image] == '', @currentWeb + '/SiteAssets/Images/tile-default.png', getThumbnailImage([$Image], 400, 400))",
+                          "alt": "=[$Title]",
+                          "class": "sp-card-imagePreview"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "attributes": {
+                  "title": "[$Visual]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content"
+                },
+                "style": {
+                  "font-size": "0.85em",
+                  "font-weight": "600",
+                  "color": "#666666",
+                  "text-transform": "uppercase",
+                  "padding-top": "10px",
+                  "letter-spacing": "0.5px"
+                },
+                "txtContent": "=if ([$Visual] == '', '–', [$Visual])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "attributes": {
+                  "class": "sp-card-multiline",
+                  "title": "[$Title]"
+                },
+                "style": {
+                  "font-size": "1.3em",
+                  "font-weight": "600",
+                  "color": "#000000",
+                  "min-height": "80px",
+                  "max-height": "80px",
+                  "word-break": "break-word",
+                  "overflow": "hidden",
+                  "display": "-webkit-box",
+                  "-webkit-line-clamp": "3",
+                  "-webkit-box-orient": "vertical",
+                  "line-height": "1.4"
+                },
+                "txtContent": "=if ([$Title] == '', '–', [$Title])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "p",
+                "attributes": {
+                  "title": "[$Sponsor]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content"
+                },
+                "style": {
+                  "font-size": "0.95em",
+                  "font-weight": "600",
+                  "color": "#666666"
+                },
+                "txtContent": {
+                  "operator": "+",
+                  "operands": [
+                    "Sponsored: ",
+                    "=if ([$Sponsor] == '', '–', [$Sponsor])"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-neutralSecondary sp-card-label"
+                },
+                "style": {
+                  "font-size": "0.9em",
+                  "font-weight": "600",
+                  "color": "#ffffff",
+                  "background-color": "#fc1921cc",
+                  "padding": "3px 10px",
+                  "display": "=if ([$Flag] == '', 'none', 'inline-block')",
+                  "position": "absolute",
+                  "top": "6px",
+                  "right": "5px",
+                  "border-radius": "5px 0 10px 0"
+                },
+                "txtContent": "=if ([$Flag] == '', '-', [$Flag])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-lastTextColumnContainer"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-neutralSecondary sp-card-label"
+                },
+                "style": {
+                  "font-size": "0.9em",
+                  "font-weight": "600",
+                  "color": "#ffffff",
+                  "background-color": "#00000077",
+                  "padding": "3px 10px",
+                  "display": "=if ([$Hours], 'inline-block', 'none')",
+                  "position": "absolute",
+                  "top": "140px",
+                  "right": "6px",
+                  "border-radius": "10px 0 0 0"
+                },
+                "txtContent": {
+                  "operator": "+",
+                  "operands": [
+                    "=if ([$Hours] >= 1, floor([$Hours]), floor([$Hours] * 60))",
+                    " ",
+                    "=if ([$Hours] >= 1, 'Hours', 'Min')"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
