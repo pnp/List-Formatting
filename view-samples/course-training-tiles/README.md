@@ -10,13 +10,17 @@ Modern tile card layout for displaying training courses with images, badges, and
 | Column | Type | Required |
 |--------|------|----------|
 | Title | Single line of text | Yes |
-| Image | Thumbnail | No |
+| Image | Image | No |
 | Visual | Choice | No |
 | Sponsor | Single line of text | No |
 | Description | Multiple lines of text | No |
 | Hours | Number | No |
 | Flag | Choice | No |
 | URL | Hyperlink or Picture | Yes |
+
+> [!NOTE]
+> If no image is provided in the `Image` column, this sample displays the image located in the “SiteAssets” library > “Images” folder > “tile-default.png” within the site (line 108).
+> Update the image file or path as needed.
 
 ## Features
 

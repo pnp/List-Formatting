@@ -5,7 +5,7 @@
     "source": "pnp",
     "title": "Course Training Tile Cards",
     "shortDescription": "Modern tile card layout for displaying training courses with images, badges, and hover previews in SharePoint Gallery view.",
-    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/course-training-tiles",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/course-training-tiles",
     "longDescription": [
       "Modern tile card layout for displaying training courses with images, badges, and hover previews in SharePoint Gallery view. Features 280×350px tile cards with course thumbnails, hover popup showing title and description, duration badge that auto-converts to hours/minutes, flag badge for highlighting courses, responsive images with fallback to default, and direct links to course content."
     ],
@@ -26,11 +26,31 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Cards, Training, Gallery"
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getThumbnailImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
       },
       {
         "key": "CLASSES",
-        "value": "sp-card-container, sp-card-defaultClickButton, sp-card-subContainer"
+        "value": "ms-bgColor-neutralLight, ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, sp-card-borderHighlight, sp-card-container, sp-card-content, sp-card-defaultClickButton, sp-card-displayColumnContainer, sp-card-imageContainer, sp-card-imagePreview, sp-card-imagePreviewBackground, sp-card-label, sp-card-lastTextColumnContainer, sp-card-multiline, sp-card-previewColumnContainer, sp-card-subContainer, sp-css-borderColor-neutralLight"
       }
     ],
     "thumbnails": [
@@ -51,7 +71,7 @@
     "references": [
       {
         "name": "Use view formatting to customize SharePoint",
-        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed.",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
       }
     ]
