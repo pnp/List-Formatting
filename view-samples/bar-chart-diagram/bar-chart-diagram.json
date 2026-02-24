@@ -1,152 +1,152 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
-    "hideColumnHeader": true,
-    "hideselection": true,
-    "rowFormatter": {
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideselection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "relative",
+      "height": "100px",
+      "display": "block",
+      "padding-top": "5px",
+      "margin": "5px",
+      "border-left": "2px solid black",
+      "border-bottom": "2px solid black"
+    },
+    "children": [
+      {
         "elmType": "div",
         "style": {
-            "position": "relative",
-            "height": "100px",
-            "display": "block",
-            "padding-top": "5px",
-            "margin": "5px",
-            "border-left": "2px solid black",
-            "border-bottom": "2px solid black"
+          "position": "absolute",
+          "left": "-2px",
+          "top": "-2px",
+          "background-color": "gray",
+          "padding": "4px"
+        },
+        "txtContent": {
+          "operator": "+",
+          "operands": [
+            "[$Total]",
+            " (",
+            "[$Title]",
+            ")"
+          ]
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "block",
+          "margin-left": "25px"
         },
         "children": [
-            {
-                "elmType": "div",
-                "style": {
-                    "position": "absolute",
-                    "left": "-2px",
-                    "top": "-2px",
-                    "background-color": "gray",
-                    "padding": "4px"
-                },
-                "txtContent": {
-                    "operator": "+",
-                    "operands": [
-                        "[$Total]",
-                        " (",
-                        "[$Title]",
-                        ")"
-                    ]
-                }
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "position": "relative"
             },
-            {
+            "children": [
+              {
                 "elmType": "div",
                 "style": {
-                    "display": "block",
-                    "margin-left": "25px"
+                  "position": "relative",
+                  "display": "=if([$Value01]>0, 'block', 'none')",
+                  "height": "=(([$Value01]/[$Total])*100)+'px'",
+                  "width": "50px",
+                  "margin-left": "25px",
+                  "margin-top": "=100-(([$Value01]/[$Total])*100)+'px'",
+                  "background-color": "=if([$Total]>0, 'green', 'white')"
                 },
                 "children": [
-                    {
-                        "elmType": "div",
-                        "style": {
-                            "display": "flex",
-                            "position": "relative"
-                        },
-                        "children": [
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "position": "relative",
-                                    "display": "=if([$Value01]>0, 'block', 'none')",
-                                    "height": "=(([$Value01]/[$Total])*100)+'px'",
-                                    "width": "50px",
-                                    "margin-left": "25px",
-                                    "margin-top": "=100-(([$Value01]/[$Total])*100)+'px'",
-                                    "background-color": "=if([$Total]>0, 'green', 'white')"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "=[$Value01]",
-                                        "style": {
-                                            "width": "50px",
-                                            "position": "absolute",
-                                            "top": "-15px",
-                                            "text-align": "center"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "position": "relative",
-                                    "display": "=if([$Value02]>0, 'block', 'none')",
-                                    "height": "=(([$Value02]/[$Total])*100)+'px'",
-                                    "width": "50px",
-                                    "margin-left": "25px",
-                                    "margin-top": "=100-(([$Value02]/[$Total])*100)+'px'",
-                                    "background-color": "yellow"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "=[$Value02]",
-                                        "style": {
-                                            "width": "50px",
-                                            "position": "absolute",
-                                            "top": "-15px",
-                                            "text-align": "center"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "position": "relative",
-                                    "display": "=if([$Value03]>0, 'block', 'none')",
-                                    "height": "=(([$Value03]/[$Total])*100)+'px'",
-                                    "width": "50px",
-                                    "margin-left": "25px",
-                                    "margin-top": "=100-(([$Value03]/[$Total])*100)+'px'",
-                                    "background-color": "gray"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "=[$Value03]",
-                                        "style": {
-                                            "width": "50px",
-                                            "position": "absolute",
-                                            "top": "-15px",
-                                            "text-align": "center"
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "elmType": "div",
-                                "style": {
-                                    "position": "relative",
-                                    "display": "=if([$Value04]>0, 'block', 'none')",
-                                    "height": "=(([$Value04]/[$Total])*100)+'px'",
-                                    "width": "50px",
-                                    "margin-left": "25px",
-                                    "margin-top": "=100-(([$Value04]/[$Total])*100)+'px'",
-                                    "background-color": "blue"
-                                },
-                                "children": [
-                                    {
-                                        "elmType": "span",
-                                        "txtContent": "=[$Value04]",
-                                        "style": {
-                                            "width": "50px",
-                                            "position": "absolute",
-                                            "top": "-15px",
-                                            "text-align": "center"
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
+                  {
+                    "elmType": "span",
+                    "txtContent": "=[$Value01]",
+                    "style": {
+                      "width": "50px",
+                      "position": "absolute",
+                      "top": "-15px",
+                      "text-align": "center"
                     }
+                  }
                 ]
-            }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "display": "=if([$Value02]>0, 'block', 'none')",
+                  "height": "=(([$Value02]/[$Total])*100)+'px'",
+                  "width": "50px",
+                  "margin-left": "25px",
+                  "margin-top": "=100-(([$Value02]/[$Total])*100)+'px'",
+                  "background-color": "yellow"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=[$Value02]",
+                    "style": {
+                      "width": "50px",
+                      "position": "absolute",
+                      "top": "-15px",
+                      "text-align": "center"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "display": "=if([$Value03]>0, 'block', 'none')",
+                  "height": "=(([$Value03]/[$Total])*100)+'px'",
+                  "width": "50px",
+                  "margin-left": "25px",
+                  "margin-top": "=100-(([$Value03]/[$Total])*100)+'px'",
+                  "background-color": "gray"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=[$Value03]",
+                    "style": {
+                      "width": "50px",
+                      "position": "absolute",
+                      "top": "-15px",
+                      "text-align": "center"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "position": "relative",
+                  "display": "=if([$Value04]>0, 'block', 'none')",
+                  "height": "=(([$Value04]/[$Total])*100)+'px'",
+                  "width": "50px",
+                  "margin-left": "25px",
+                  "margin-top": "=100-(([$Value04]/[$Total])*100)+'px'",
+                  "background-color": "blue"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "=[$Value04]",
+                    "style": {
+                      "width": "50px",
+                      "position": "absolute",
+                      "top": "-15px",
+                      "text-align": "center"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
