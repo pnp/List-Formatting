@@ -1,0 +1,402 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "row",
+      "background-color": "#f5f0eb",
+      "border": "1px solid #ccc",
+      "border-radius": "10px",
+      "box-shadow": "0 4px 16px rgba(0,0,0,0.25)",
+      "margin": "16px auto",
+      "max-width": "820px",
+      "overflow": "hidden",
+      "color": "#111",
+      "font-family": "Arial, sans-serif"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "3",
+          "padding": "14px 16px",
+          "border-right": "2px dashed #aaa",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "border-bottom": "2px solid #111",
+              "padding-bottom": "6px",
+              "margin-bottom": "6px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": { "display": "flex", "align-items": "center" },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Airline]",
+                    "style": {
+                      "font-size": "10px",
+                      "font-weight": "bold",
+                      "margin-right": "8px"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$TravelClass]",
+                    "style": {
+                      "font-size": "15px",
+                      "font-weight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": { "font-size": "22px", "color": "#003366" },
+                "attributes": { "iconName": "AirplaneSolid" }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "font-size": "20px",
+              "font-weight": "bold",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "stretch",
+              "margin-bottom": "8px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": { "flex-grow": "1", "display": "flex", "flex-direction": "column" },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": { "text-align": "right", "font-size": "11px", "font-weight": "bold", "margin-bottom": "4px" },
+                    "txtContent": "=if([$IssuedFrom]!='','EX '+[$IssuedFrom],'')"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "display": "flex",
+                      "align-items": "center",
+                      "border-top": "1px solid #111",
+                      "border-bottom": "1px solid #111",
+                      "padding-top": "4px",
+                      "padding-bottom": "4px",
+                      "font-size": "11px",
+                      "margin-bottom": "8px"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "txtContent": "Flight",
+                        "style": { "color": "#555", "margin-right": "4px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$FlightNumber]",
+                        "style": { "font-weight": "bold", "margin-right": "12px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "From",
+                        "style": { "color": "#555", "margin-right": "4px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$DepartureCode]",
+                        "style": { "font-weight": "bold", "margin-right": "12px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "To",
+                        "style": { "color": "#555", "margin-right": "4px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$ArrivalCode]",
+                        "style": { "font-weight": "bold", "margin-right": "12px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "Date",
+                        "style": { "color": "#555", "margin-right": "4px" }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$FlightDate]",
+                        "style": { "font-weight": "bold" }
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "div",
+                    "style": { "display": "flex", "align-items": "flex-end" },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "style": { "margin-right": "14px" },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "Terminal",
+                            "style": { "font-size": "9px", "color": "#555" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$Terminal]",
+                            "style": { "font-size": "26px", "font-weight": "bold", "line-height": "26px" }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": { "margin-right": "14px" },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "Gate",
+                            "style": { "font-size": "9px", "color": "#555" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$Gate]",
+                            "style": { "font-size": "26px", "font-weight": "bold", "line-height": "26px" }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": { "flex-grow": "1", "text-align": "center", "margin-right": "14px" },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "Boarding time",
+                            "style": { "font-size": "9px", "color": "#555" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$BoardingTime]",
+                            "style": { "font-size": "15px", "font-weight": "bold" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$FlightDate]",
+                            "style": { "font-size": "10px", "color": "#444" }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": { "text-align": "center", "margin-right": "14px" },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "Seat",
+                            "style": { "font-size": "9px", "color": "#555" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$Seat]",
+                            "style": { "font-size": "30px", "font-weight": "bold", "line-height": "30px" }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "div",
+                        "style": { "text-align": "center" },
+                        "children": [
+                          {
+                            "elmType": "div",
+                            "txtContent": "Boarding Group",
+                            "style": { "font-size": "9px", "color": "#555" }
+                          },
+                          {
+                            "elmType": "div",
+                            "txtContent": "[$BoardingGroup]",
+                            "style": { "font-size": "30px", "font-weight": "bold", "line-height": "30px" }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "font-size": "9px",
+              "border-top": "1px solid #bbb",
+              "padding-top": "6px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "GATE CLOSES 15 MINS BEFORE DEPARTURE"
+              },
+              {
+                "elmType": "span",
+                "txtContent": "[$BookingRef]",
+                "style": { "font-weight": "bold" }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "min-width": "160px",
+          "padding": "14px 12px",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "border-bottom": "2px solid #111",
+              "padding-bottom": "4px",
+              "margin-bottom": "8px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "[$TravelClass]",
+                "style": { "font-size": "12px", "font-weight": "bold" }
+              },
+              {
+                "elmType": "div",
+                "style": { "font-size": "16px", "color": "#003366" },
+                "attributes": { "iconName": "AirplaneSolid" }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": { "font-weight": "bold", "font-size": "12px", "margin-bottom": "8px" }
+          },
+          {
+            "elmType": "div",
+            "style": { "display": "flex", "margin-bottom": "2px" },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "From",
+                "style": { "color": "#555", "font-size": "10px", "min-width": "30px", "margin-right": "4px" }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "[$DepartureCity]",
+                "style": { "font-weight": "bold", "font-size": "11px" }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": { "display": "flex", "margin-bottom": "10px" },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "To",
+                "style": { "color": "#555", "font-size": "10px", "min-width": "30px", "margin-right": "4px" }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "[$ArrivalCity]",
+                "style": { "font-weight": "bold", "font-size": "11px" }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": { "display": "flex", "justify-content": "space-between", "align-items": "flex-end", "margin-bottom": "8px" },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "Flight",
+                    "style": { "font-size": "9px", "color": "#555" }
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$FlightNumber]",
+                    "style": { "font-weight": "bold", "font-size": "12px" }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": { "text-align": "right" },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "Seat",
+                    "style": { "font-size": "9px", "color": "#555" }
+                  },
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Seat]",
+                    "style": { "font-size": "24px", "font-weight": "bold", "line-height": "24px" }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$FlightDate]",
+            "style": { "font-weight": "bold", "font-size": "13px", "margin-bottom": "8px" }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$BookingRef]",
+            "style": { "font-size": "10px", "font-weight": "bold", "margin-bottom": "6px" }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "9px",
+              "color": "#555",
+              "border-top": "1px solid #bbb",
+              "padding-top": "4px"
+            },
+            "txtContent": "A STAR ALLIANCE MEMBER"
+          }
+        ]
+      }
+    ]
+  }
+}
