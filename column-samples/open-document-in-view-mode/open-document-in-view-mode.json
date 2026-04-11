@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "a",
+  "txtContent": "@currentField",
+  "style": {
+    "text-decoration": "none",
+    "color": "inherit"
+  },
+  "attributes": {
+    "class": "ms-fontSize-m",
+    "target": "_blank",
+    "href": "=if([$File_x0020_Type] == '', [$FileRef], if(indexOf('pptx,pptm,ppt', [$File_x0020_Type]) != -1, @currentWeb + '/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=embedview', if(indexOf('docx,docm,doc,xlsx,xlsm,xls', [$File_x0020_Type]) != -1, @currentWeb + '/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=View', [$FileRef])))"
+  }
+}
