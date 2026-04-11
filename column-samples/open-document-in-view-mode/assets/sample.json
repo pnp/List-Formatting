@@ -5,9 +5,9 @@
     "source": "pnp",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/open-document-in-view-mode",
     "title": "Open Office Documents in View Mode",
-    "shortDescription": "SharePoint opens Office documents in Edit mode by default, but opening them in View mode is often more suitable for readers.",
+    "shortDescription": "By default, office documents in a SharePoint document library open in Edit mode, switching the default open behaviour from Edit to View prevents common day-to-day issues.",
     "longDescription": [
-      "By default, office documents in a SharePoint document library open in Edit mode. That behaviour is convenient for authors, but not always ideal for readers."
+      "By default, office documents in a SharePoint document library open in Edit mode, switching the default open behaviour from Edit to View prevents common day-to-day issues."
     ],
     "creationDateTime": "2026-04-12T00:00:00.000Z",
     "updateDateTime":   "2026-04-12T00:00:00.000Z",
