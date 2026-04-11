@@ -1,11 +1,13 @@
 ﻿# Open Office Documents in View Mode
 
 ## Summary
-By default, office documents in a SharePoint document library open in Edit mode. That behaviour is convenient for authors, but not always ideal for readers.
+By default, office documents in a SharePoint document library open in Edit mode, switching the default open behaviour from Edit to View prevents common day-to-day issues.
+
 Why defaulting documents to Read-Only in SharePoint Online makes sense:
--Prevent accidental changes
--Better data integrity and cleaner version history
--Improved reader experience
+- Prevent accidental changes
+- Better data integrity and cleaner version history
+- Improved user experience
+
 You can achieve this by using column formatting on the Name column.
 
 ![screenshot of the sample](./assets/screenshot.png)
@@ -15,13 +17,13 @@ You can achieve this by using column formatting on the Name column.
 This format can be applied to the Name column (file name) within a SharePoint document library.
 
 > [!NOTE]
-
-Type        |Action    |Extensions
-------------|----------|-
-Word        |View      |docx, docm, doc
-Excel       |View      |xlsx, xlsm, xls
-PowerPoint  |embedview |pptx, pptm, ppt
-Other types |FileRef   |all other file types
+> 
+> Type        | Action    | Extensions
+> ------------|-----------|-----------
+> Word        | View      | docx, docm, doc
+> Excel       | View      | xlsx, xlsm, xls
+> PowerPoint  | embedview | pptx, pptm, ppt
+> Other types | FileRef   | all other file types
 
 
 ## Sample
