@@ -4,11 +4,12 @@
   "txtContent": "@currentField",
   "style": {
     "text-decoration": "none",
-    "color": "inherit"
+    "color": "inherit",
+    "padding-left": "8px"
   },
   "attributes": {
     "class": "ms-fontSize-m",
-    "target": "_blank",
-    "href": "=if([$File_x0020_Type] == '', [$FileRef], if(indexOf('docx,docm,doc,xlsx,xlsm,xls,pptx,pptm,ppt', [$File_x0020_Type]) != -1, @currentWeb + '/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=' + if(indexOf('pptx,pptm,ppt', [$File_x0020_Type]) != -1, 'embedview', 'view'), [$FileRef]))"
+    "target": "=if([$FSObjType]=='1', '_self', '_blank')",
+    "href": "=if([$FSObjType]=='1', [$FileRef], if(indexOf('docx,docm,doc,xlsx,xlsm,xls,pptx,pptm,ppt', [$File_x0020_Type]) != -1, @currentWeb + '/_layouts/15/Doc.aspx?sourcedoc=' + [$UniqueId] + '&action=' + if(indexOf('pptx,pptm,ppt', [$File_x0020_Type]) != -1, 'embedview', 'view'), [$FileRef]))"
   }
 }
