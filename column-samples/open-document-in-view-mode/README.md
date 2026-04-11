@@ -18,12 +18,12 @@ This format can be applied to the Name column (file name) within a SharePoint do
 
 > [!NOTE]
 > 
-> Type        | Action    | Extensions
-> ------------|-----------|-----------
-> Word        | View      | docx, docm, doc
-> Excel       | View      | xlsx, xlsm, xls
-> PowerPoint  | embedview | pptx, pptm, ppt
-> Other types | FileRef   | all other file types
+> File Type   | Extensions      | Parameters
+> ------------|-----------------|-
+> Word        | docx, docm, doc | embedview, interactivepreview, View, ServerRedirectedEmbedUrl
+> Excel       | xlsx, xlsm, xls | embedview, interactivepreview, View
+> PowerPoint  | pptx, pptm, ppt | embedview, interactivepreview, ServerRedirectedEmbedUrl
+> Other types | e.g., pdf       | FileRef
 
 
 ## Sample
