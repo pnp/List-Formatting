@@ -1,9 +1,9 @@
 ﻿[
   {
-    "name": "pnp-list-formatting-open-document-in-view-mode",
-    "reponame": "open-document-in-view-mode",
+    "name": "pnp-list-formatting-filename-open-document-in-view-mode",
+    "reponame": "filename-open-document-in-view-mode",
     "source": "pnp",
-    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/open-document-in-view-mode",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/filename-open-document-in-view-mode",
     "title": "Open Office Documents in View Mode",
     "shortDescription": "By default, office documents in a SharePoint document library open in Edit mode, switching the default open behaviour from Edit to View prevents common day-to-day issues.",
     "longDescription": [
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/open-document-in-view-mode/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/filename-open-document-in-view-mode/assets/screenshot.png",
         "alt": "screenshot"
       }
     ],

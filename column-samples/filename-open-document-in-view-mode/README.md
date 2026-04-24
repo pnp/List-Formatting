@@ -30,7 +30,7 @@ This format can be applied to the Name column (file name) within a SharePoint do
 
 Solution|Author(s)
 --------|-
-open-document-in-view-mode.json | [Watana](https://github.com/watana2)
+filename-open-document-in-view-mode.json | [Watana](https://github.com/watana2)
 
 
 ## Version history
@@ -43,4 +43,4 @@ Version |Date            |Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/open-document-in-view-mode" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/filename-open-document-in-view-mode" />
