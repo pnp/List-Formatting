@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Document Library"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": ""
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "floor, getDate, getMonth, getYear, split, Number, substring, toDateString"
+        "value": "indexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
