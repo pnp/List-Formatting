@@ -90,4 +90,4 @@ The column will now appear. To apply the format:
 - `pointer-events: none` disables the click entirely on published items without needing a conditional `display` (which is not reliably supported in column formatting)
 - The "Submit for Approval" label collapses to an empty string with zero padding on published items so no space is wasted
 
-[![](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-version-approval-flow)](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-version-approval-flow)
+[![](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)
