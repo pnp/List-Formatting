@@ -7,6 +7,8 @@ Sample contains an example of using the modulo math expression for highlighting 
 ![screenshot of the sample before formatting](./assets/screenshotBefore.png)
 **After**
 ![screenshot of the sample](./assets/screenshot.png)
+**After Version Number is added back in**
+![Version w Numbers and Status](./assets/VersionwNumbersandStatus.png)
 
 
 ## View requirements
@@ -25,6 +27,7 @@ Version|Date|Comments
 -------|----|--------
 1.0| May 20, 2019|Initial release
 1.1| June 15, 2022|Version number added
+1.2|April 27, 2026|Version number added (again?)
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

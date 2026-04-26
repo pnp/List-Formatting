@@ -1,5 +1,4 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "attributes": {
     "class": "=if(Number(@currentField) % 1 == 0, 'sp-field-severity--good', if(Number(@currentField) > 1, 'sp-field-severity--warning', 'sp-field-severity--severeWarning')"
@@ -17,7 +16,7 @@
     },
     {
       "elmType": "span",
-      "txtContent": "=if(Number(@currentField) % 1 == 0, 'Published', if(Number(@currentField) > 1, 'Published with Draft', 'Draft with NO published version'))"
+      "txtContent": "='v' + @currentField + ' - ' + if(Number(@currentField) % 1 == 0, 'Published', if(Number(@currentField) > 1, 'Published with Draft', 'Draft with NO published version'))"
     }
   ]
 }
