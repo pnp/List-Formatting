@@ -5,18 +5,30 @@
 .collapsibleContainer .collapsibleHeader {
   display: flex;
   align-items: center;
-  font-family: "Segoe UI";
-  font-size: 16px;
-  border: 1px solid black;
-  background-color: #f3f2f1;
+  gap: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #475569;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  user-select: none;
+}
+
+.collapsibleContainer .collapsibleHeader:hover {
+  background-color: #f1f5f9;
 }
 
 .collapsibleContainer .collapsibleHeader .chevronIcon {
-  transition: transform 0.1s linear;
+  transition: transform 0.2s ease;
   transform: rotate(90deg);
-  height: 16px;
-  width: 16px;
-  padding: 4px;
+  height: 14px;
+  width: 14px;
+  opacity: 0.5;
 }
 
 .collapsibleContainer .collapsibleHeader .chevronIcon.collapsed {
@@ -24,7 +36,7 @@
 }
 
 .collapsibleContent {
-  padding: 4px;
+  padding: 8px 12px;
 }
 
 .collapsibleContent.hideContent {

@@ -34,7 +34,7 @@ export default class HTMLToFormatterConverter {
       matchedNodes.forEach((node: Element) => {
         const existing = node.getAttribute("inline-css") || "";
         const inlineAttribute = parsedDocument.createAttribute("inline-css");
-        inlineAttribute.value = existing + ";" + rule.selector;
+        inlineAttribute.value = existing ? existing + ";" + rule.selector : rule.selector;
         node.attributes.setNamedItem(inlineAttribute);
       });
     });
@@ -42,10 +42,23 @@ export default class HTMLToFormatterConverter {
     this.setStyleAttributeRecursively(parsedDocument.body, styleObjectMap);
 
     // generate json from the processed html
-    const generated = this.elementToJSON(parsedDocument.body.children[0] as HTMLElement);
+    let rootElement: HTMLElement;
+    if (parsedDocument.body.children.length === 0) {
+      return { json: undefined, html: undefined };
+    } else if (parsedDocument.body.children.length > 1) {
+      // wrap multiple root elements in a div
+      const wrapper = parsedDocument.createElement("div");
+      while (parsedDocument.body.children.length > 0) {
+        wrapper.appendChild(parsedDocument.body.children[0]);
+      }
+      rootElement = wrapper;
+    } else {
+      rootElement = parsedDocument.body.children[0] as HTMLElement;
+    }
+    const generated = this.elementToJSON(rootElement);
     return {
       json: generated,
-      html: parsedDocument.body.children[0]
+      html: rootElement
     };
   }
 
@@ -98,14 +111,14 @@ export default class HTMLToFormatterConverter {
     }
     //create formatter
     const jsonVal: any = {
-      ...(level === 0 ? { $schema: accepted.SCHEMA_URI, debugMode: true } : {}),
+      ...(level === 0 ? { $schema: accepted.SCHEMA_URI } : {}),
       elmType: tagName
     };
     // parse each attribute and set on the json
     for (let index = 0; index < elm.attributes.length; index++) {
       const element = elm.attributes[index];
 
-      if (!accepted.OK_ATTRS[element.nodeName]) {
+      if (!accepted.isAllowedAttr(element.nodeName)) {
         continue;
       }
 
@@ -114,10 +127,14 @@ export default class HTMLToFormatterConverter {
         jsonVal.attributes[element.nodeName] = element.textContent;
       } else if (element.textContent) {
         let styleObj: any = {};
-        element.textContent.split(";").forEach((element) => {
-          let keyValuePair = element.split(":");
-          if (keyValuePair.length === 2) {
-            styleObj[keyValuePair[0]] = keyValuePair[1];
+        element.textContent.split(";").forEach((stylePair) => {
+          const colonIndex = stylePair.indexOf(":");
+          if (colonIndex > 0) {
+            const key = stylePair.substring(0, colonIndex).trim();
+            const value = stylePair.substring(colonIndex + 1).trim();
+            if (key) {
+              styleObj[key] = value;
+            }
           }
         });
         jsonVal.style = styleObj;
