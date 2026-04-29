@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "button",
+  "customRowAction": {
+    "action": "executeFlow",
+    "actionParams": "{\"id\": \"YOUR-FLOW-GUID-HERE\"}"
+  },
+  "style": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "border-radius": "0.25em",
+    "overflow": "hidden",
+    "border": "=if(Number(@currentField) == floor(Number(@currentField)), '1.5px solid #c8c6c4', '1.5px solid #0078d4')",
+    "font-size": "1em",
+    "font-weight": "600",
+    "width": "100%",
+    "box-sizing": "border-box",
+    "background-color": "white",
+    "cursor": "=if(Number(@currentField) == floor(Number(@currentField)), 'default', 'pointer')",
+    "pointer-events": "=if(Number(@currentField) == floor(Number(@currentField)), 'none', 'auto')"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "padding": "0.375em 0.875em",
+        "line-height": "1.5",
+        "color": "=if(Number(@currentField) == floor(Number(@currentField)), '#a19f9d', '#0078d4')"
+      },
+      "txtContent": "='v' + @currentField + ' — ' + if(Number(@currentField) == floor(Number(@currentField)), 'Published', if(Number(@currentField) > 1, 'Has Draft', 'Unpublished'))"
+    },
+    {
+      "elmType": "span",
+      "style": {
+        "padding": "=if(Number(@currentField) == floor(Number(@currentField)), '0', '0.25em 0.875em')",
+        "font-size": "0.8em",
+        "line-height": "1.5",
+        "color": "#0078d4"
+      },
+      "txtContent": "=if(Number(@currentField) == floor(Number(@currentField)), '', 'Submit for Approval')"
+    }
+  ]
+}
