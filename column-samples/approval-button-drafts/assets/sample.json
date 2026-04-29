@@ -1,0 +1,48 @@
+[
+  {
+    "name": "approval-button-drafts",
+    "reponame": "list-formatting",
+    "source": "pnp",
+    "title": "Version Status and Approval Flow Button",
+    "shortDescription": "Formats the SharePoint Version column as a combined status badge and approval flow trigger. Major versions (published) display a greyed-out non-clickable card. Minor versions display version status and a Submit for Approval button that triggers a Power Automate flow.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/approval-button-drafts",
+    "downloadUrl": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/approval-button-drafts/approval-button-drafts.json",
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "screenshot.webp",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "bianca-git",
+        "pictureUrl": "https://github.com/bianca-git.png",
+        "name": "bianca-git"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it's displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      },
+      {
+        "name": "Use a button to launch a flow",
+        "description": "You can use column formatting to trigger Power Automate flows from a list view button using the executeFlow customRowAction.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting#launch-a-flow-for-a-row"
+      }
+    ],
+    "tags": [
+      "version",
+      "approval",
+      "flow",
+      "button",
+      "power automate",
+      "number",
+      "status",
+      "executeFlow"
+    ]
+  }
+]
