@@ -1,44 +1,82 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "button",
-  "customRowAction": {
-    "action": "executeFlow",
-    "actionParams": "{\"id\": \"YOUR-FLOW-GUID-HERE\"}"
-  },
+  "elmType": "div",
   "style": {
-    "display": "flex",
-    "flex-direction": "column",
-    "align-items": "center",
-    "border-radius": "0.25em",
-    "overflow": "hidden",
-    "border": "=if(Number(@currentField) == floor(Number(@currentField)), '1.5px solid #c8c6c4', '1.5px solid #0078d4')",
-    "font-size": "1em",
-    "font-weight": "600",
     "width": "100%",
-    "box-sizing": "border-box",
-    "background-color": "white",
-    "cursor": "=if(Number(@currentField) == floor(Number(@currentField)), 'default', 'pointer')",
-    "pointer-events": "=if(Number(@currentField) == floor(Number(@currentField)), 'none', 'auto')"
+    "box-sizing": "border-box"
   },
   "children": [
     {
-      "elmType": "span",
+      "elmType": "div",
       "style": {
-        "padding": "0.375em 0.875em",
-        "line-height": "1.5",
-        "color": "=if(Number(@currentField) == floor(Number(@currentField)), '#a19f9d', '#0078d4')"
+        "display": "=if(Number(@currentField) == floor(Number(@currentField)), 'flex', 'none')",
+        "flex-direction": "column",
+        "align-items": "center",
+        "border-radius": "0.25em",
+        "overflow": "hidden",
+        "font-size": "1em",
+        "font-weight": "600",
+        "width": "100%",
+        "cursor": "default"
       },
-      "txtContent": "='v' + @currentField + ' — ' + if(Number(@currentField) == floor(Number(@currentField)), 'Published', if(Number(@currentField) > 1, 'Has Draft', 'Unpublished'))"
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.375em 0.875em",
+            "color": "#a19f9d"
+          },
+          "txtContent": "='v' + @currentField + ' — Published'"
+        }
+      ]
     },
     {
-      "elmType": "span",
-      "style": {
-        "padding": "=if(Number(@currentField) == floor(Number(@currentField)), '0', '0.25em 0.875em')",
-        "font-size": "0.8em",
-        "line-height": "1.5",
-        "color": "#0078d4"
+      "elmType": "button",
+      "customRowAction": {
+        "action": "executeFlow",
+        "actionParams": "{\"id\": \"YOUR-FLOW-GUID-HERE\"}"
       },
-      "txtContent": "=if(Number(@currentField) == floor(Number(@currentField)), '', 'Submit for Approval')"
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+      },
+      "style": {
+        "display": "=if(Number(@currentField) == floor(Number(@currentField)), 'none', 'flex')",
+        "flex-direction": "column",
+        "align-items": "center",
+        "border-radius": "0.25em",
+        "overflow": "hidden",
+        "border": "1px solid",
+        "font-size": "1em",
+        "font-weight": "600",
+        "width": "100%",
+        "box-sizing": "border-box",
+        "background-color": "inherit",
+        "cursor": "pointer"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.375em 0.875em",
+            "line-height": "1.5",
+            "width": "100%",
+            "box-sizing": "border-box",
+            "text-align": "center"
+          },
+          "txtContent": "='v' + @currentField + ' — ' + if(Number(@currentField) > 1, 'Has Draft', 'Unpublished')"
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.25em 0.875em",
+            "font-size": "0.8em",
+            "line-height": "1.5",
+            "width": "100%",
+            "box-sizing": "border-box",
+            "text-align": "center"
+          },
+          "txtContent": "Submit for Approval"
+        }
+      ]
     }
   ]
 }
