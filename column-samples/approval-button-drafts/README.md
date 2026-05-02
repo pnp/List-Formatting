@@ -9,7 +9,7 @@ Status is derived entirely from the version number:
 - **Minor version > 1** (e.g. `1.2`) → Has Draft — card is blue, flow button shown
 - **Minor version ≤ 1** (e.g. `0.1`) → Unpublished — card is blue, flow button shown
 
-[![screenshot of the sample](./assets/screenshot.webp)](./assets/screenshot.webp)
+[![screenshot of the sample](./assets/screenshot.png)](./assets/screenshot.png)
 
 ## View requirements
 
