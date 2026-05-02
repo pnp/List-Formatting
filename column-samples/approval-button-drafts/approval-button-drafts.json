@@ -1,0 +1,82 @@
+{
+  "elmType": "div",
+  "style": {
+    "width": "100%",
+    "box-sizing": "border-box"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(Number(@currentField) == floor(Number(@currentField)), 'flex', 'none')",
+        "flex-direction": "column",
+        "align-items": "center",
+        "border-radius": "0.25em",
+        "overflow": "hidden",
+        "font-size": "1em",
+        "font-weight": "600",
+        "width": "100%",
+        "cursor": "default"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.375em 0.875em",
+            "color": "#a19f9d"
+          },
+          "txtContent": "='v' + @currentField + ' — Published'"
+        }
+      ]
+    },
+    {
+      "elmType": "button",
+      "customRowAction": {
+        "action": "executeFlow",
+        "actionParams": "{\"id\": \"YOUR-FLOW-GUID-HERE\"}"
+      },
+      "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+      },
+      "style": {
+        "display": "=if(Number(@currentField) == floor(Number(@currentField)), 'none', 'flex')",
+        "flex-direction": "column",
+        "align-items": "center",
+        "border-radius": "0.25em",
+        "overflow": "hidden",
+        "border": "1px solid",
+        "font-size": "1em",
+        "font-weight": "600",
+        "width": "100%",
+        "box-sizing": "border-box",
+        "background-color": "inherit",
+        "cursor": "pointer"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.375em 0.875em",
+            "line-height": "1.5",
+            "width": "100%",
+            "box-sizing": "border-box",
+            "text-align": "center"
+          },
+          "txtContent": "='v' + @currentField + ' — ' + if(Number(@currentField) > 1, 'Has Draft', 'Unpublished')"
+        },
+        {
+          "elmType": "span",
+          "style": {
+            "padding": "0.25em 0.875em",
+            "font-size": "0.8em",
+            "line-height": "1.5",
+            "width": "100%",
+            "box-sizing": "border-box",
+            "text-align": "center"
+          },
+          "txtContent": "Submit for Approval"
+        }
+      ]
+    }
+  ]
+}
