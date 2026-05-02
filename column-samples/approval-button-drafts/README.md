@@ -51,25 +51,26 @@ Alternatively, from the SharePoint library:
 2. Open the flow and copy the GUID from the browser URL
 
 ### 4. Show the Version column in your view
-
-The built-in Version column is hidden from views by default.
-
-1. Open the library view where you want to apply the format
-2. Click the **+** icon at the right edge of the column headers → **Show/hide columns**
-3. Tick **Version** and click **Apply**
+ 
+The built-in Version column is not available in the modern **Show/hide columns** panel — it must be added through the classic view editor.
+ 
+1. Go to your library → **Settings** (gear icon) → **Library settings**
+2. Under **Views**, click the view you want to edit (e.g. **All Documents**)
+3. In the **Columns** list, tick the checkbox next to **Version**
+4. Click **OK** at the bottom of the page
 
 The column will now appear. To apply the format:
 
 1. Click the **Version** column header → **Column settings** → **Format this column**
 2. Click **Advanced mode**
-3. Paste the contents of `number-version-approval-flow.json` (with your Flow GUID substituted) into the editor
+3. Paste the contents of `approval-button-drafts.json` (with your Flow GUID substituted) into the editor
 4. Click **Save**
 
 ## Sample
 
 | Solution | Author(s) |
 | --- | --- |
-| number-version-approval-flow.json | [bianca-git](https://github.com/bianca-git) |
+| approval-button-drafts.json | [bianca-git](https://github.com/bianca-git) |
 
 ## Version history
 
@@ -80,14 +81,5 @@ The column will now appear. To apply the format:
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Additional notes
-
-- The `floor()` function is used instead of `% 1 == 0` to reliably detect whole numbers, avoiding floating point edge cases with version numbers
-- The entire outer element is a `button` with `customRowAction` at the root — nested buttons do not reliably fire flows in SharePoint column formatting
-- `pointer-events: none` disables the click entirely on published items without needing a conditional `display` (which is not reliably supported in column formatting)
-- The "Submit for Approval" label collapses to an empty string with zero padding on published items so no space is wasted
 
 [![](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)
