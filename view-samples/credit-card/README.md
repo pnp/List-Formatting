@@ -2,7 +2,7 @@
 
 ## Summary
 
-This SharePoint JSON view formatting sample transforms list items into realistic credit / loyalty cards. Each item renders as a plastic card (ID-1 proportions) with a brand name, tier pill, EMV chip, contactless symbol, embossed-style card number, cardholder name, expiry date, and a network logo. The card colour automatically adapts to the Tier value (Standard, Gold, Platinum, Black, Premium).
+This SharePoint JSON view formatting sample transforms list items into realistic credit / loyalty cards. Each item renders as a plastic card with a brand name, tier pill, EMV chip, contactless symbol, embossed-style card number, cardholder name, expiry date, and a network logo. The card colour automatically adapts to the Tier value (Standard, Gold, Platinum, Black, Premium).
 
 It's designed for member directories, partner programs, gym/hotel/airline loyalty rosters, and corporate-card registers.
 
