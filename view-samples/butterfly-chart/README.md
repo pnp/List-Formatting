@@ -19,7 +19,7 @@ This example shows values from 0 to 500. You can adjust this scale by changing t
 
 Solution|Author(s)
 --------|---------
-butterfly-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+butterfly-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

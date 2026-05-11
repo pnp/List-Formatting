@@ -1,23 +1,23 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#83532e",
-        "activityBar.activeBorder": "#3aa569",
-        "activityBar.background": "#83532e",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#3aa569",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "statusBar.background": "#5d3b21",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#83532e",
-        "titleBar.activeBackground": "#5d3b21",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#5d3b2199",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "sash.hoverBorder": "#83532e",
-        "statusBarItem.remoteBackground": "#5d3b21",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799"
+      "activityBar.activeBackground": "#83532e",
+      "activityBar.activeBorder": "#3aa569",
+      "activityBar.background": "#83532e",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#3aa569",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "statusBar.background": "#5d3b21",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#83532e",
+      "titleBar.activeBackground": "#5d3b21",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#5d3b2199",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "sash.hoverBorder": "#83532e",
+      "statusBarItem.remoteBackground": "#5d3b21",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "commandCenter.border": "#e7e7e799"
     },
     "peacock.color": "#5D3B21",
     "markdownlint.config": {
@@ -27,5 +27,9 @@
         }
     },
     "editor.tabSize": 2,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "vscode-pets.petColor": "warrior",
+    "vscode-pets.petSize": "small",
+    "vscode-pets.petType": "horse",
+    "vscode-pets.throwBallWithMouse": true
 }

@@ -244,9 +244,6 @@
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
                                         },
-                                        "attributes": {
-                                          "class": ""
-                                        },
                                         "children": [
                                           {
                                             "elmType": "div",
@@ -491,9 +488,6 @@
                       "float": "left"
                     },
                     "inlineEditField": "[$PaymentDay]",
-                    "attributes": {
-                      "class": ""
-                    },
                     "children": [
                       {
                         "elmType": "div",
@@ -775,9 +769,6 @@
                                           "padding-top": "10px",
                                           "padding-bottom": "10px",
                                           "border-top": "1px solid #ccc"
-                                        },
-                                        "attributes": {
-                                          "class": ""
                                         },
                                         "children": [
                                           {

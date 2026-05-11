@@ -37,7 +37,7 @@ A resumed version of the articles is also available in video format
 
 Solution|Author(s)
 --------|---------
-to-do.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/joao12ferreira))
+to-do.json | [João Ferreira](https://github.com/joaoferreira)
 
 
 

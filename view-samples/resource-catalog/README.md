@@ -36,7 +36,7 @@ See the [SharePoint site design and site script overview article](https://docs.m
 
 Solution|Author(s)
 --------|---------
-resource-catalog.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Tyler Lui, Justin So
+resource-catalog.json | [Todd Baginski](https://github.com/TBag), [Lincoln DeMaris](https://github.com/ldemaris), Chris McNulty, Tyler Lui, Justin So
 
 ## Version history
 

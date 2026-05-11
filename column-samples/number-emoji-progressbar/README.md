@@ -19,8 +19,8 @@ This format can be applied to a Number column (the format expects values from 0-
 
 Solution|Author(s)
 --------|---------
-number-emoji-progressbar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-number-emoji-progressbar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-emoji-progressbar.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+number-emoji-progressbar.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

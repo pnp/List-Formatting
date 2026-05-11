@@ -25,7 +25,7 @@ The `Status` column expects the following choice values:
 
 Solution|Author(s)
 --------|---------
-planner-inspired-task-card.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunnam](https://twitter.com/aprildunnam))
+planner-inspired-task-card.json | [April Dunnam](https://github.com/aprildunnam)
 
 ## Version history
 

@@ -19,7 +19,7 @@ This sample demonstrates basic row display with conditional logic to adjust the 
 
 Solution|Author(s)
 --------|---------
-status-blocks.json | [Eric Skaggs](https://github.com/skaggej) ([@skaggej](https://twitter.com/skaggej))
+status-blocks.json | [Eric Skaggs](https://github.com/skaggej)
 
 ## Version history
 

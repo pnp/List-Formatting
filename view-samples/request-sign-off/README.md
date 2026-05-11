@@ -75,7 +75,7 @@ The View Formatter JSON ([request-signoff.json](request-signoff.json)) defines a
 
 Solution|Author(s)
 --------|---------
-request-sign-off.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists)), [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Justin So, Tyler Lui
+request-sign-off.json | [Lincoln DeMaris](https://github.com/ldemaris), [Todd Baginski](https://github.com/TBag), Justin So, Tyler Lui
 
 ## Version history
 

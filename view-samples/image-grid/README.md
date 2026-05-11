@@ -2,7 +2,7 @@
 
 ## Summary
 
-Displays images in a grid layout with customisable height and width. The sample was inspired by the [chevron-shape-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://twitter.com/aaclage).
+Displays images in a grid layout with customisable height and width. The sample was inspired by the [chevron-shape-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://github.com/aaclage).
 On click of each post, the link specified by the URL is opened. On hover on each image the description of the image is shown. Optionally an icon is displayed on the top right of the image.
 
 This sample includes two formatting options:
@@ -73,8 +73,8 @@ Use this format with **Gallery** view type for optimal horizontal image display.
 
 Solution|Author(s)
 --------|---------
-image-grid.json | [Reshmee Auckloo](https://github.com/Reshmee011) ([@reshmeeauckloo](https://twitter.com/reshmeeauckloo))
-Image-grid-horizontally.json | [Valeras Narbutas](https://github.com/ValerasNarbutas) ([@ValerasNarbutas](https://twitter.com/ValerasNarbutas))
+image-grid.json | [Reshmee Auckloo](https://github.com/Reshmee011)
+Image-grid-horizontally.json | [Valeras Narbutas](https://github.com/ValerasNarbutas)
 
 ## Version history
 

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "width": 300,
+  "height": 420,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "flex-grow": "1",
+      "justify-content": "space-between",
+      "box-sizing": "border-box",
+      "background-color": "#ffffff",
+      "margin-right": "10px",
+      "border-radius": "4px"
+    },
+    "attributes": {
+      "class": "sp-card-container"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "justify-content": "space-between",
+          "align-items": "center",
+          "padding": "5px 5px 5px 5px",
+          "background-color": "#162b3c",
+          "color": "#ffffff",
+          "font-weight": "bold",
+          "width": "100%",
+          "height": "60px",
+          "border-radius": "4px 4px 0px 0px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "word-break": "break-word",
+              "flex": "1",
+              "margin-right": "4px",
+              "margin-left": "5px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-size": "14px",
+              "cursor": "pointer",
+              "display": "flex",
+              "align-items": "center",
+              "width": "12%",
+              "color": "#ffffff"
+            },
+            "attributes": {
+              "title": "=if(indexOf([$LikedBy.email], @me) > -1 , 'Unlike', 'Like')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "LikesCount": "=if(indexOf([$LikedBy.email], @me) > -1, [$LikesCount] - 1, [$LikesCount] + 1)",
+                "LikedBy": "=if(indexOf([$LikedBy.email], @me) > -1, removeFrom([$LikedBy.email], @me), appendTo([$LikedBy.email], @me))"
+              }
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if(indexOf([$LikedBy.email], @me) > -1 , 'HeartFill', 'Heart')"
+                }
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "margin-left": "5px"
+                },
+                "txtContent": "[$LikesCount]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "sp-card-imageContainer"
+        },
+        "style": {
+          "width": "110%",
+          "overflow": "hidden",
+          "border-radius": "0px"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$Image]",
+              "alt": "Image from Image column"
+            },
+            "style": {
+              "width": "100%",
+              "height": "200px",
+              "object-fit": "cover",
+              "border-radius": "0px",
+              "padding": "5px 5px 25px 5px"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "[$Description]",
+        "style": {
+          "height": "200px",
+          "padding": "10px",
+          "width": "100%",
+          "background-color": "#162b3c",
+          "color": "#ffffff",
+          "font-weight": "normal",
+          "border-radius": "0px 0px 4px 4px",
+          "font-size": "13px",
+          "line-height": "1.5",
+          "word-break": "break-word",
+          "overflow": "auto"
+        }
+      },
+      {
+        "elmType": "a",
+        "txtContent": "Click here to view",
+        "attributes": {
+          "href": "[$Link]",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        "style": {
+          "background-color": "#162b3c",
+          "color": "#ffffff",
+          "padding": "10px",
+          "text-align": "center",
+          "width": "55%",
+          "height": "30px",
+          "cursor": "pointer",
+          "border-radius": "60px",
+          "font-size": "14px",
+          "font-weight": "bold",
+          "margin-top": "5px"
+        }
+      }
+    ]
+  }
+}

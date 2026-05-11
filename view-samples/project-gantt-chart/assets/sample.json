@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Icons, Inline Editing, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -46,11 +46,11 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter, customCardProps"
+        "value": "hideSelection, hideColumnHeader, rowFormatter, customCardProps, defaultHoverField, beakStyle, directionalHint"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-neutralLight, ms-bgColor-neutralLight, ms-bgColor-neutralLighter--hover, ms-bgColor-themeDarker, ms-bgColor-themeLight, ms-bgColor-themeLight--hover, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-ContextualMenu-list, ms-fontColor-black--hover, ms-fontColor-gray140, ms-fontColor-gray160, ms-fontColor-green, ms-fontColor-neutralSecondaryAlt, ms-fontColor-sharedRed20, ms-fontColor-sharedRed20, ms-fontColor-themeDarker--hover, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontColor-white, ms-fontSize-12, ms-fontSize-14, ms-fontSize-16, ms-fontSize-24, ms-fontWeight-semibold, ms-fontWeight-semibold, sp-field-bold, sp-field-severity--blocked30"
+        "value": "ms-bgColor-neutralLight, ms-bgColor-neutralLight, ms-bgColor-neutralLighter--hover, ms-bgColor-themeDarker, ms-bgColor-themeLight, ms-bgColor-themeLight--hover, ms-bgColor-themePrimary, ms-bgColor-themeTertiary, ms-ContextualMenu-list, ms-fontColor-black--hover, ms-fontColor-gray140, ms-fontColor-gray160, ms-fontColor-green, ms-fontColor-neutralSecondaryAlt, ms-fontColor-sharedRed20, ms-fontColor-sharedRed20, ms-fontColor-themeDarker--hover, ms-fontColor-themePrimary, ms-fontColor-white, ms-fontColor-white, ms-fontSize-12, ms-fontSize-14, ms-fontSize-16, ms-fontSize-24, ms-fontWeight-semibold, ms-fontWeight-semibold, sp-field-bold, sp-field-severity--blocked30, ms-fontColor-gray40"
       }
     ],
     "thumbnails": [

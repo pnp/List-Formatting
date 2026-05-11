@@ -12,7 +12,7 @@ This example uses the conditional operator `?` to apply a class (`sp-field-sever
 
 Solution|Author(s)
 --------|---------
-number-conditional-format.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
+number-conditional-format.json | [SharePoint Team](https://github.com/SharePoint)
 
 ## Version history
 

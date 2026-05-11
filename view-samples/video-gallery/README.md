@@ -26,7 +26,7 @@ Tool          | Choice
 
 Solution|Author(s)
 --------|---------
-video-gallery.json | [Anand Ragav](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+video-gallery.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 

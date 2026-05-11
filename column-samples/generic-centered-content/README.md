@@ -12,7 +12,7 @@ This is a basic sample that demonstrates making your content be both vertically 
 
 Solution|Author(s)
 --------|---------
-generic-centered-content.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-centered-content.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

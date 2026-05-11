@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Gallery"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -46,11 +46,11 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "hideSelection, fillHorizontally"
       },
       {
         "key": "CLASSES",
-        "value": "ms-fontColor-neutralPrimary, sp-card-content, sp-card-highlightedContent, sp-css-borderColor-neutralLight, sp-card-subContainer, sp-card-displayColumnContainer"
+        "value": "ms-fontColor-neutralPrimary, sp-card-content, sp-card-highlightedContent, sp-css-borderColor-neutralLight, sp-card-subContainer, sp-card-displayColumnContainer, sp-card-borderHighlight, sp-row-card"
       }
     ],
     "thumbnails": [

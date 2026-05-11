@@ -13,7 +13,7 @@ This sample provides a thumbnail of a YouTube video that links to the video and 
 
 Solution|Author(s)
 --------|---------
-generic-youtube-thumbnail.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/Joao12Ferreira))
+generic-youtube-thumbnail.json | [João Ferreira](https://github.com/joaoferreira)
 
 ## Version history
 

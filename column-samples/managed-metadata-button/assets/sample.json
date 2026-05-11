@@ -57,8 +57,20 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/managed-metadata-button/assets/screenshot_clients.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/managed-metadata-button/assets/screenshot.png",
         "alt": "screenshot"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/managed-metadata-button/assets/screenshot_normreference.png",
+        "alt": "screenshot 2"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/managed-metadata-button/assets/screenshot_projects.png",
+        "alt": "screenshot 3"
       }
     ],
     "authors": [

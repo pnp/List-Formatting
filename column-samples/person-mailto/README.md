@@ -15,7 +15,7 @@ You can use column formatting to render quick action links next to fields. This 
 
 Solution|Author(s)
 --------|---------
-person-mailto.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
+person-mailto.json | [SharePoint Team](https://github.com/SharePoint)
 
 ## Version history
 

@@ -18,8 +18,8 @@ This can be added on any column in a document library, overwriting its contents.
 
 Solution|Author(s)
 --------|---------
-file-thumbnail.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+file-thumbnail.json | [Chris Kent](https://github.com/thechriskent)
+file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

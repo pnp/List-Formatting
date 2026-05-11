@@ -19,8 +19,8 @@ This JSON sample demonstrates how you can format the work progress category choi
 
 Solution|Author(s)
 --------|---------
-multi-choice-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
-text-column-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20)) & [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+multi-choice-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
+text-column-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap) & [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 
 

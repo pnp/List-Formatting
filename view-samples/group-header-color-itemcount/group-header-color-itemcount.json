@@ -12,7 +12,7 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "=  @group.count",
+          "txtContent": "=@group.count",
           "style": {
             "padding": "5px 5px 5px 5px",
             "color": "white",

@@ -15,7 +15,7 @@ This example uses the `rowFormatter` element, which totally overrides the render
 
 Solution|Author(s)
 --------|---------
-multi-line-view.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
+multi-line-view.json | [Lincoln DeMaris](https://github.com/ldemaris)
 
 ## Version history
 

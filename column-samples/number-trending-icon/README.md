@@ -37,8 +37,8 @@ The difference values are in a `<span>`, separate from the `After` `<span>`, all
 
 Solution|Author(s)
 --------|---------
-number-trending-icon.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
-number-trending-icon-with-difference.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
+number-trending-icon.json | [SharePoint Team](https://github.com/SharePoint)
+number-trending-icon-with-difference.json | [David Warner II](https://github.com/PopWarner)
 
 ## Version history
 

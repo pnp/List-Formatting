@@ -16,7 +16,7 @@ The value of the choices must be set to the HTML color code or HTML color name. 
 
 Solution|Author(s)
 --------|---------
-multi-choice-color-circles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+multi-choice-color-circles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

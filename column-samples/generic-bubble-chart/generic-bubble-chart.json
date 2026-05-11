@@ -1,0 +1,363 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "gap": "8px",
+    "padding": "6px",
+    "flex-direction": "column"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "8px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL1]+'@','@')>25,'120px',if(indexOf([$LABEL1]+'@','@')>20,'100px',if(indexOf([$LABEL1]+'@','@')>17,'90px',if(indexOf([$LABEL1]+'@','@')>15,'80px',if(indexOf([$LABEL1]+'@','@')>11,'70px',if(indexOf([$LABEL1]+'@','@')>9,'60px',if(indexOf([$LABEL1]+'@','@')>6,'50px',if(indexOf([$LABEL1]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL1]+'@','@')>25,'120px',if(indexOf([$LABEL1]+'@','@')>20,'100px',if(indexOf([$LABEL1]+'@','@')>17,'90px',if(indexOf([$LABEL1]+'@','@')>15,'80px',if(indexOf([$LABEL1]+'@','@')>11,'70px',if(indexOf([$LABEL1]+'@','@')>9,'60px',if(indexOf([$LABEL1]+'@','@')>6,'50px',if(indexOf([$LABEL1]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL1]+'@','@')>25,'#448aff',if(indexOf([$LABEL1]+'@','@')>20,'#e91e63',if(indexOf([$LABEL1]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL1]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL1]+'@','@')>11,'#2196f3',if(indexOf([$LABEL1]+'@','@')>9,'#009688',if(indexOf([$LABEL1]+'@','@')>6,'#4caf50',if(indexOf([$LABEL1]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL1]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL2]+'@','@')>25,'120px',if(indexOf([$LABEL2]+'@','@')>20,'100px',if(indexOf([$LABEL2]+'@','@')>17,'90px',if(indexOf([$LABEL2]+'@','@')>15,'80px',if(indexOf([$LABEL2]+'@','@')>11,'70px',if(indexOf([$LABEL2]+'@','@')>9,'60px',if(indexOf([$LABEL2]+'@','@')>6,'50px',if(indexOf([$LABEL2]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL2]+'@','@')>25,'120px',if(indexOf([$LABEL2]+'@','@')>20,'100px',if(indexOf([$LABEL2]+'@','@')>17,'90px',if(indexOf([$LABEL2]+'@','@')>15,'80px',if(indexOf([$LABEL2]+'@','@')>11,'70px',if(indexOf([$LABEL2]+'@','@')>9,'60px',if(indexOf([$LABEL2]+'@','@')>6,'50px',if(indexOf([$LABEL2]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL2]+'@','@')>25,'#448aff',if(indexOf([$LABEL2]+'@','@')>20,'#e91e63',if(indexOf([$LABEL2]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL2]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL2]+'@','@')>11,'#2196f3',if(indexOf([$LABEL2]+'@','@')>9,'#009688',if(indexOf([$LABEL2]+'@','@')>6,'#4caf50',if(indexOf([$LABEL2]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL2]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL3]+'@','@')>25,'120px',if(indexOf([$LABEL3]+'@','@')>20,'100px',if(indexOf([$LABEL3]+'@','@')>17,'90px',if(indexOf([$LABEL3]+'@','@')>15,'80px',if(indexOf([$LABEL3]+'@','@')>11,'70px',if(indexOf([$LABEL3]+'@','@')>9,'60px',if(indexOf([$LABEL3]+'@','@')>6,'50px',if(indexOf([$LABEL3]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL3]+'@','@')>25,'120px',if(indexOf([$LABEL3]+'@','@')>20,'100px',if(indexOf([$LABEL3]+'@','@')>17,'90px',if(indexOf([$LABEL3]+'@','@')>15,'80px',if(indexOf([$LABEL3]+'@','@')>11,'70px',if(indexOf([$LABEL3]+'@','@')>9,'60px',if(indexOf([$LABEL3]+'@','@')>6,'50px',if(indexOf([$LABEL3]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL3]+'@','@')>25,'#448aff',if(indexOf([$LABEL3]+'@','@')>20,'#e91e63',if(indexOf([$LABEL3]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL3]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL3]+'@','@')>11,'#2196f3',if(indexOf([$LABEL3]+'@','@')>9,'#009688',if(indexOf([$LABEL3]+'@','@')>6,'#4caf50',if(indexOf([$LABEL3]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL3]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL4]+'@','@')>25,'120px',if(indexOf([$LABEL4]+'@','@')>20,'100px',if(indexOf([$LABEL4]+'@','@')>17,'90px',if(indexOf([$LABEL4]+'@','@')>15,'80px',if(indexOf([$LABEL4]+'@','@')>11,'70px',if(indexOf([$LABEL4]+'@','@')>9,'60px',if(indexOf([$LABEL4]+'@','@')>6,'50px',if(indexOf([$LABEL4]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL4]+'@','@')>25,'120px',if(indexOf([$LABEL4]+'@','@')>20,'100px',if(indexOf([$LABEL4]+'@','@')>17,'90px',if(indexOf([$LABEL4]+'@','@')>15,'80px',if(indexOf([$LABEL4]+'@','@')>11,'70px',if(indexOf([$LABEL4]+'@','@')>9,'60px',if(indexOf([$LABEL4]+'@','@')>6,'50px',if(indexOf([$LABEL4]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL4]+'@','@')>25,'#448aff',if(indexOf([$LABEL4]+'@','@')>20,'#e91e63',if(indexOf([$LABEL4]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL4]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL4]+'@','@')>11,'#2196f3',if(indexOf([$LABEL4]+'@','@')>9,'#009688',if(indexOf([$LABEL4]+'@','@')>6,'#4caf50',if(indexOf([$LABEL4]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL4]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL5]+'@','@')>25,'120px',if(indexOf([$LABEL5]+'@','@')>20,'100px',if(indexOf([$LABEL5]+'@','@')>17,'90px',if(indexOf([$LABEL5]+'@','@')>15,'80px',if(indexOf([$LABEL5]+'@','@')>11,'70px',if(indexOf([$LABEL5]+'@','@')>9,'60px',if(indexOf([$LABEL5]+'@','@')>6,'50px',if(indexOf([$LABEL5]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL5]+'@','@')>25,'120px',if(indexOf([$LABEL5]+'@','@')>20,'100px',if(indexOf([$LABEL5]+'@','@')>17,'90px',if(indexOf([$LABEL5]+'@','@')>15,'80px',if(indexOf([$LABEL5]+'@','@')>11,'70px',if(indexOf([$LABEL5]+'@','@')>9,'60px',if(indexOf([$LABEL5]+'@','@')>6,'50px',if(indexOf([$LABEL5]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL5]+'@','@')>25,'#448aff',if(indexOf([$LABEL5]+'@','@')>20,'#e91e63',if(indexOf([$LABEL5]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL5]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL5]+'@','@')>11,'#2196f3',if(indexOf([$LABEL5]+'@','@')>9,'#009688',if(indexOf([$LABEL5]+'@','@')>6,'#4caf50',if(indexOf([$LABEL5]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL5]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL6]+'@','@')>25,'120px',if(indexOf([$LABEL6]+'@','@')>20,'100px',if(indexOf([$LABEL6]+'@','@')>17,'90px',if(indexOf([$LABEL6]+'@','@')>15,'80px',if(indexOf([$LABEL6]+'@','@')>11,'70px',if(indexOf([$LABEL6]+'@','@')>9,'60px',if(indexOf([$LABEL6]+'@','@')>6,'50px',if(indexOf([$LABEL6]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL6]+'@','@')>25,'120px',if(indexOf([$LABEL6]+'@','@')>20,'100px',if(indexOf([$LABEL6]+'@','@')>17,'90px',if(indexOf([$LABEL6]+'@','@')>15,'80px',if(indexOf([$LABEL6]+'@','@')>11,'70px',if(indexOf([$LABEL6]+'@','@')>9,'60px',if(indexOf([$LABEL6]+'@','@')>6,'50px',if(indexOf([$LABEL6]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL6]+'@','@')>25,'#448aff',if(indexOf([$LABEL6]+'@','@')>20,'#e91e63',if(indexOf([$LABEL6]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL6]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL6]+'@','@')>11,'#2196f3',if(indexOf([$LABEL6]+'@','@')>9,'#009688',if(indexOf([$LABEL6]+'@','@')>6,'#4caf50',if(indexOf([$LABEL6]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL6]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL7]+'@','@')>25,'120px',if(indexOf([$LABEL7]+'@','@')>20,'100px',if(indexOf([$LABEL7]+'@','@')>17,'90px',if(indexOf([$LABEL7]+'@','@')>15,'80px',if(indexOf([$LABEL7]+'@','@')>11,'70px',if(indexOf([$LABEL7]+'@','@')>9,'60px',if(indexOf([$LABEL7]+'@','@')>6,'50px',if(indexOf([$LABEL7]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL7]+'@','@')>25,'120px',if(indexOf([$LABEL7]+'@','@')>20,'100px',if(indexOf([$LABEL7]+'@','@')>17,'90px',if(indexOf([$LABEL7]+'@','@')>15,'80px',if(indexOf([$LABEL7]+'@','@')>11,'70px',if(indexOf([$LABEL7]+'@','@')>9,'60px',if(indexOf([$LABEL7]+'@','@')>6,'50px',if(indexOf([$LABEL7]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL7]+'@','@')>25,'#448aff',if(indexOf([$LABEL7]+'@','@')>20,'#e91e63',if(indexOf([$LABEL7]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL7]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL7]+'@','@')>11,'#2196f3',if(indexOf([$LABEL7]+'@','@')>9,'#009688',if(indexOf([$LABEL7]+'@','@')>6,'#4caf50',if(indexOf([$LABEL7]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL7]"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "8px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL8]+'@','@')>25,'120px',if(indexOf([$LABEL8]+'@','@')>20,'100px',if(indexOf([$LABEL8]+'@','@')>17,'90px',if(indexOf([$LABEL8]+'@','@')>15,'80px',if(indexOf([$LABEL8]+'@','@')>11,'70px',if(indexOf([$LABEL8]+'@','@')>9,'60px',if(indexOf([$LABEL8]+'@','@')>6,'50px',if(indexOf([$LABEL8]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL8]+'@','@')>25,'120px',if(indexOf([$LABEL8]+'@','@')>20,'100px',if(indexOf([$LABEL8]+'@','@')>17,'90px',if(indexOf([$LABEL8]+'@','@')>15,'80px',if(indexOf([$LABEL8]+'@','@')>11,'70px',if(indexOf([$LABEL8]+'@','@')>9,'60px',if(indexOf([$LABEL8]+'@','@')>6,'50px',if(indexOf([$LABEL8]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL8]+'@','@')>25,'#448aff',if(indexOf([$LABEL8]+'@','@')>20,'#e91e63',if(indexOf([$LABEL8]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL8]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL8]+'@','@')>11,'#2196f3',if(indexOf([$LABEL8]+'@','@')>9,'#009688',if(indexOf([$LABEL8]+'@','@')>6,'#4caf50',if(indexOf([$LABEL8]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL8]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL9]+'@','@')>25,'120px',if(indexOf([$LABEL9]+'@','@')>20,'100px',if(indexOf([$LABEL9]+'@','@')>17,'90px',if(indexOf([$LABEL9]+'@','@')>15,'80px',if(indexOf([$LABEL9]+'@','@')>11,'70px',if(indexOf([$LABEL9]+'@','@')>9,'60px',if(indexOf([$LABEL9]+'@','@')>6,'50px',if(indexOf([$LABEL9]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL9]+'@','@')>25,'120px',if(indexOf([$LABEL9]+'@','@')>20,'100px',if(indexOf([$LABEL9]+'@','@')>17,'90px',if(indexOf([$LABEL9]+'@','@')>15,'80px',if(indexOf([$LABEL9]+'@','@')>11,'70px',if(indexOf([$LABEL9]+'@','@')>9,'60px',if(indexOf([$LABEL9]+'@','@')>6,'50px',if(indexOf([$LABEL9]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL9]+'@','@')>25,'#448aff',if(indexOf([$LABEL9]+'@','@')>20,'#e91e63',if(indexOf([$LABEL9]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL9]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL9]+'@','@')>11,'#2196f3',if(indexOf([$LABEL9]+'@','@')>9,'#009688',if(indexOf([$LABEL9]+'@','@')>6,'#4caf50',if(indexOf([$LABEL9]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL9]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL10]+'@','@')>25,'120px',if(indexOf([$LABEL10]+'@','@')>20,'100px',if(indexOf([$LABEL10]+'@','@')>17,'90px',if(indexOf([$LABEL10]+'@','@')>15,'80px',if(indexOf([$LABEL10]+'@','@')>11,'70px',if(indexOf([$LABEL10]+'@','@')>9,'60px',if(indexOf([$LABEL10]+'@','@')>6,'50px',if(indexOf([$LABEL10]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL10]+'@','@')>25,'120px',if(indexOf([$LABEL10]+'@','@')>20,'100px',if(indexOf([$LABEL10]+'@','@')>17,'90px',if(indexOf([$LABEL10]+'@','@')>15,'80px',if(indexOf([$LABEL10]+'@','@')>11,'70px',if(indexOf([$LABEL10]+'@','@')>9,'60px',if(indexOf([$LABEL10]+'@','@')>6,'50px',if(indexOf([$LABEL10]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL10]+'@','@')>25,'#448aff',if(indexOf([$LABEL10]+'@','@')>20,'#e91e63',if(indexOf([$LABEL10]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL10]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL10]+'@','@')>11,'#2196f3',if(indexOf([$LABEL10]+'@','@')>9,'#009688',if(indexOf([$LABEL10]+'@','@')>6,'#4caf50',if(indexOf([$LABEL10]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL10]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL11]+'@','@')>25,'120px',if(indexOf([$LABEL11]+'@','@')>20,'100px',if(indexOf([$LABEL11]+'@','@')>17,'90px',if(indexOf([$LABEL11]+'@','@')>15,'80px',if(indexOf([$LABEL11]+'@','@')>11,'70px',if(indexOf([$LABEL11]+'@','@')>9,'60px',if(indexOf([$LABEL11]+'@','@')>6,'50px',if(indexOf([$LABEL11]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL11]+'@','@')>25,'120px',if(indexOf([$LABEL11]+'@','@')>20,'100px',if(indexOf([$LABEL11]+'@','@')>17,'90px',if(indexOf([$LABEL11]+'@','@')>15,'80px',if(indexOf([$LABEL11]+'@','@')>11,'70px',if(indexOf([$LABEL11]+'@','@')>9,'60px',if(indexOf([$LABEL11]+'@','@')>6,'50px',if(indexOf([$LABEL11]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL11]+'@','@')>25,'#448aff',if(indexOf([$LABEL11]+'@','@')>20,'#e91e63',if(indexOf([$LABEL11]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL11]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL11]+'@','@')>11,'#2196f3',if(indexOf([$LABEL11]+'@','@')>9,'#009688',if(indexOf([$LABEL11]+'@','@')>6,'#4caf50',if(indexOf([$LABEL11]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL11]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL12]+'@','@')>25,'120px',if(indexOf([$LABEL12]+'@','@')>20,'100px',if(indexOf([$LABEL12]+'@','@')>17,'90px',if(indexOf([$LABEL12]+'@','@')>15,'80px',if(indexOf([$LABEL12]+'@','@')>11,'70px',if(indexOf([$LABEL12]+'@','@')>9,'60px',if(indexOf([$LABEL12]+'@','@')>6,'50px',if(indexOf([$LABEL12]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL12]+'@','@')>25,'120px',if(indexOf([$LABEL12]+'@','@')>20,'100px',if(indexOf([$LABEL12]+'@','@')>17,'90px',if(indexOf([$LABEL12]+'@','@')>15,'80px',if(indexOf([$LABEL12]+'@','@')>11,'70px',if(indexOf([$LABEL12]+'@','@')>9,'60px',if(indexOf([$LABEL12]+'@','@')>6,'50px',if(indexOf([$LABEL12]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL12]+'@','@')>25,'#448aff',if(indexOf([$LABEL12]+'@','@')>20,'#e91e63',if(indexOf([$LABEL12]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL12]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL12]+'@','@')>11,'#2196f3',if(indexOf([$LABEL12]+'@','@')>9,'#009688',if(indexOf([$LABEL12]+'@','@')>6,'#4caf50',if(indexOf([$LABEL12]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL12]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL13]+'@','@')>25,'120px',if(indexOf([$LABEL13]+'@','@')>20,'100px',if(indexOf([$LABEL13]+'@','@')>17,'90px',if(indexOf([$LABEL13]+'@','@')>15,'80px',if(indexOf([$LABEL13]+'@','@')>11,'70px',if(indexOf([$LABEL13]+'@','@')>9,'60px',if(indexOf([$LABEL13]+'@','@')>6,'50px',if(indexOf([$LABEL13]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL13]+'@','@')>25,'120px',if(indexOf([$LABEL13]+'@','@')>20,'100px',if(indexOf([$LABEL13]+'@','@')>17,'90px',if(indexOf([$LABEL13]+'@','@')>15,'80px',if(indexOf([$LABEL13]+'@','@')>11,'70px',if(indexOf([$LABEL13]+'@','@')>9,'60px',if(indexOf([$LABEL13]+'@','@')>6,'50px',if(indexOf([$LABEL13]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL13]+'@','@')>25,'#448aff',if(indexOf([$LABEL13]+'@','@')>20,'#e91e63',if(indexOf([$LABEL13]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL13]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL13]+'@','@')>11,'#2196f3',if(indexOf([$LABEL13]+'@','@')>9,'#009688',if(indexOf([$LABEL13]+'@','@')>6,'#4caf50',if(indexOf([$LABEL13]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL13]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL14]+'@','@')>25,'120px',if(indexOf([$LABEL14]+'@','@')>20,'100px',if(indexOf([$LABEL14]+'@','@')>17,'90px',if(indexOf([$LABEL14]+'@','@')>15,'80px',if(indexOf([$LABEL14]+'@','@')>11,'70px',if(indexOf([$LABEL14]+'@','@')>9,'60px',if(indexOf([$LABEL14]+'@','@')>6,'50px',if(indexOf([$LABEL14]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL14]+'@','@')>25,'120px',if(indexOf([$LABEL14]+'@','@')>20,'100px',if(indexOf([$LABEL14]+'@','@')>17,'90px',if(indexOf([$LABEL14]+'@','@')>15,'80px',if(indexOf([$LABEL14]+'@','@')>11,'70px',if(indexOf([$LABEL14]+'@','@')>9,'60px',if(indexOf([$LABEL14]+'@','@')>6,'50px',if(indexOf([$LABEL14]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL14]+'@','@')>25,'#448aff',if(indexOf([$LABEL14]+'@','@')>20,'#e91e63',if(indexOf([$LABEL14]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL14]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL14]+'@','@')>11,'#2196f3',if(indexOf([$LABEL14]+'@','@')>9,'#009688',if(indexOf([$LABEL14]+'@','@')>6,'#4caf50',if(indexOf([$LABEL14]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL14]"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "8px"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL15]+'@','@')>25,'120px',if(indexOf([$LABEL15]+'@','@')>20,'100px',if(indexOf([$LABEL15]+'@','@')>17,'90px',if(indexOf([$LABEL15]+'@','@')>15,'80px',if(indexOf([$LABEL15]+'@','@')>11,'70px',if(indexOf([$LABEL15]+'@','@')>9,'60px',if(indexOf([$LABEL15]+'@','@')>6,'50px',if(indexOf([$LABEL15]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL15]+'@','@')>25,'120px',if(indexOf([$LABEL15]+'@','@')>20,'100px',if(indexOf([$LABEL15]+'@','@')>17,'90px',if(indexOf([$LABEL15]+'@','@')>15,'80px',if(indexOf([$LABEL15]+'@','@')>11,'70px',if(indexOf([$LABEL15]+'@','@')>9,'60px',if(indexOf([$LABEL15]+'@','@')>6,'50px',if(indexOf([$LABEL15]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL15]+'@','@')>25,'#448aff',if(indexOf([$LABEL15]+'@','@')>20,'#e91e63',if(indexOf([$LABEL15]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL15]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL15]+'@','@')>11,'#2196f3',if(indexOf([$LABEL15]+'@','@')>9,'#009688',if(indexOf([$LABEL15]+'@','@')>6,'#4caf50',if(indexOf([$LABEL15]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL15]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL16]+'@','@')>25,'120px',if(indexOf([$LABEL16]+'@','@')>20,'100px',if(indexOf([$LABEL16]+'@','@')>17,'90px',if(indexOf([$LABEL16]+'@','@')>15,'80px',if(indexOf([$LABEL16]+'@','@')>11,'70px',if(indexOf([$LABEL16]+'@','@')>9,'60px',if(indexOf([$LABEL16]+'@','@')>6,'50px',if(indexOf([$LABEL16]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL16]+'@','@')>25,'120px',if(indexOf([$LABEL16]+'@','@')>20,'100px',if(indexOf([$LABEL16]+'@','@')>17,'90px',if(indexOf([$LABEL16]+'@','@')>15,'80px',if(indexOf([$LABEL16]+'@','@')>11,'70px',if(indexOf([$LABEL16]+'@','@')>9,'60px',if(indexOf([$LABEL16]+'@','@')>6,'50px',if(indexOf([$LABEL16]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL16]+'@','@')>25,'#448aff',if(indexOf([$LABEL16]+'@','@')>20,'#e91e63',if(indexOf([$LABEL16]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL16]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL16]+'@','@')>11,'#2196f3',if(indexOf([$LABEL16]+'@','@')>9,'#009688',if(indexOf([$LABEL16]+'@','@')>6,'#4caf50',if(indexOf([$LABEL16]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL16]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL17]+'@','@')>25,'120px',if(indexOf([$LABEL17]+'@','@')>20,'100px',if(indexOf([$LABEL17]+'@','@')>17,'90px',if(indexOf([$LABEL17]+'@','@')>15,'80px',if(indexOf([$LABEL17]+'@','@')>11,'70px',if(indexOf([$LABEL17]+'@','@')>9,'60px',if(indexOf([$LABEL17]+'@','@')>6,'50px',if(indexOf([$LABEL17]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL17]+'@','@')>25,'120px',if(indexOf([$LABEL17]+'@','@')>20,'100px',if(indexOf([$LABEL17]+'@','@')>17,'90px',if(indexOf([$LABEL17]+'@','@')>15,'80px',if(indexOf([$LABEL17]+'@','@')>11,'70px',if(indexOf([$LABEL17]+'@','@')>9,'60px',if(indexOf([$LABEL17]+'@','@')>6,'50px',if(indexOf([$LABEL17]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL17]+'@','@')>25,'#448aff',if(indexOf([$LABEL17]+'@','@')>20,'#e91e63',if(indexOf([$LABEL17]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL17]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL17]+'@','@')>11,'#2196f3',if(indexOf([$LABEL17]+'@','@')>9,'#009688',if(indexOf([$LABEL17]+'@','@')>6,'#4caf50',if(indexOf([$LABEL17]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL17]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL18]+'@','@')>25,'120px',if(indexOf([$LABEL18]+'@','@')>20,'100px',if(indexOf([$LABEL18]+'@','@')>17,'90px',if(indexOf([$LABEL18]+'@','@')>15,'80px',if(indexOf([$LABEL18]+'@','@')>11,'70px',if(indexOf([$LABEL18]+'@','@')>9,'60px',if(indexOf([$LABEL18]+'@','@')>6,'50px',if(indexOf([$LABEL18]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL18]+'@','@')>25,'120px',if(indexOf([$LABEL18]+'@','@')>20,'100px',if(indexOf([$LABEL18]+'@','@')>17,'90px',if(indexOf([$LABEL18]+'@','@')>15,'80px',if(indexOf([$LABEL18]+'@','@')>11,'70px',if(indexOf([$LABEL18]+'@','@')>9,'60px',if(indexOf([$LABEL18]+'@','@')>6,'50px',if(indexOf([$LABEL18]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL18]+'@','@')>25,'#448aff',if(indexOf([$LABEL18]+'@','@')>20,'#e91e63',if(indexOf([$LABEL18]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL18]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL18]+'@','@')>11,'#2196f3',if(indexOf([$LABEL18]+'@','@')>9,'#009688',if(indexOf([$LABEL18]+'@','@')>6,'#4caf50',if(indexOf([$LABEL18]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL18]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL19]+'@','@')>25,'120px',if(indexOf([$LABEL19]+'@','@')>20,'100px',if(indexOf([$LABEL19]+'@','@')>17,'90px',if(indexOf([$LABEL19]+'@','@')>15,'80px',if(indexOf([$LABEL19]+'@','@')>11,'70px',if(indexOf([$LABEL19]+'@','@')>9,'60px',if(indexOf([$LABEL19]+'@','@')>6,'50px',if(indexOf([$LABEL19]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL19]+'@','@')>25,'120px',if(indexOf([$LABEL19]+'@','@')>20,'100px',if(indexOf([$LABEL19]+'@','@')>17,'90px',if(indexOf([$LABEL19]+'@','@')>15,'80px',if(indexOf([$LABEL19]+'@','@')>11,'70px',if(indexOf([$LABEL19]+'@','@')>9,'60px',if(indexOf([$LABEL19]+'@','@')>6,'50px',if(indexOf([$LABEL19]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL19]+'@','@')>25,'#448aff',if(indexOf([$LABEL19]+'@','@')>20,'#e91e63',if(indexOf([$LABEL19]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL19]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL19]+'@','@')>11,'#2196f3',if(indexOf([$LABEL19]+'@','@')>9,'#009688',if(indexOf([$LABEL19]+'@','@')>6,'#4caf50',if(indexOf([$LABEL19]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL19]"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "width": "=if(indexOf([$LABEL20]+'@','@')>25,'120px',if(indexOf([$LABEL20]+'@','@')>20,'100px',if(indexOf([$LABEL20]+'@','@')>17,'90px',if(indexOf([$LABEL20]+'@','@')>15,'80px',if(indexOf([$LABEL20]+'@','@')>11,'70px',if(indexOf([$LABEL20]+'@','@')>9,'60px',if(indexOf([$LABEL20]+'@','@')>6,'50px',if(indexOf([$LABEL20]+'@','@')>3,'40px','30px'))))))))",
+            "height": "=if(indexOf([$LABEL20]+'@','@')>25,'120px',if(indexOf([$LABEL20]+'@','@')>20,'100px',if(indexOf([$LABEL20]+'@','@')>17,'90px',if(indexOf([$LABEL20]+'@','@')>15,'80px',if(indexOf([$LABEL20]+'@','@')>11,'70px',if(indexOf([$LABEL20]+'@','@')>9,'60px',if(indexOf([$LABEL20]+'@','@')>6,'50px',if(indexOf([$LABEL20]+'@','@')>3,'40px','30px'))))))))",
+            "border-radius": "50%",
+            "background-color": "=if(indexOf([$LABEL20]+'@','@')>25,'#448aff',if(indexOf([$LABEL20]+'@','@')>20,'#e91e63',if(indexOf([$LABEL20]+'@','@')>17,'#9c27b0',if(indexOf([$LABEL20]+'@','@')>15,'#3f51b5',if(indexOf([$LABEL20]+'@','@')>11,'#2196f3',if(indexOf([$LABEL20]+'@','@')>9,'#009688',if(indexOf([$LABEL20]+'@','@')>6,'#4caf50',if(indexOf([$LABEL20]+'@','@')>3,'#ff9800','#795548'))))))))",
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center",
+            "color": "#fff",
+            "font-weight": "bold",
+            "text-align": "center"
+          },
+          "txtContent": "[$LABEL20]"
+        }
+      ]
+    }
+  ]
+}

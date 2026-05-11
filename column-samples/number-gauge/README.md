@@ -16,8 +16,8 @@ An alternate version (number-gauge-reversed) has been provided for scenarios whe
 
 Solution|Author(s)
 --------|---------
-number-gauge.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-number-gauge-reversed.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-gauge.json | [Chris Kent](https://github.com/thechriskent)
+number-gauge-reversed.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

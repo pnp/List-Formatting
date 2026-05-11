@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": "400",
+  "height": "240",
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "font-size": "52px",
+      "display": "flex",
+      "flex-direction": "column"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "style": {
+          "font-size": "0.5em",
+          "font-weight": "bold"
+        }
+      },
+      {
+        "columnFormatterReference": "[$HorsesPerPeople]"
+      }
+    ]
+  }
+}

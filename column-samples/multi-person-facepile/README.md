@@ -29,7 +29,7 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 Solution|Author(s)
 --------|---------
-multi-person-facepile.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-person-facepile.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

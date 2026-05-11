@@ -7,7 +7,7 @@ This sample demonstrates how to format list items as prompt cards. The design is
 - **Theme Color Classes:** Uses theme color classes to ensure the format displays as intended regardless of the site's theme (light, dark, custom, etc.).
 - **Gallery View:** The formatting is designed to work with the Gallery view style.
 
-![Screenshot of the prompt cards list view formatting](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 
 ## View requirements

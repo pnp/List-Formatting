@@ -18,7 +18,7 @@ The view itself is sorted by `Created` in descending order (Newest to Oldest) an
 
 Solution|Author(s)
 --------|---------
-recent-comments.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+recent-comments.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

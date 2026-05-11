@@ -28,7 +28,7 @@ This sample relies on having a View set up which filters to only show items wher
 
 Solution|Author(s)
 --------|---------
-out-of-office.json | [Tom Resing](https://github.com/tomresing) ([@resing](https://twitter.com/resing))
+out-of-office.json | [Tom Resing](https://github.com/tomresing)
 
 ## Version history
 

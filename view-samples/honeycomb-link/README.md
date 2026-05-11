@@ -17,7 +17,7 @@ This sample demonstrates a honeycomb structure of links. The hexagons are displa
 
 Solution|Author(s)
 --------|---------
-honeycomb-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+honeycomb-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -13,7 +13,7 @@ This format can be applied to any column. It expects a number column called `Thr
 
 Solution|Author(s)
 --------|---------
-number-localization.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-localization.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

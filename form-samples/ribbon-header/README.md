@@ -15,7 +15,7 @@ This sample demonstrates displaying a ribbon in the header. The values of the `T
 
 Solution|Author(s)
 --------|---------
-ribbon-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+ribbon-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

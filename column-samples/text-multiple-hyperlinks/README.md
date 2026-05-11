@@ -19,7 +19,7 @@ Using this sample you can have multiple hyperlinks in a single field.
 
 Solution|Author(s)
 --------|---------
-text-multiple-hyperlinks.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+text-multiple-hyperlinks.json | [Geert de Kooter](https://github.com/gdk-max)
 
 ## Version history
 

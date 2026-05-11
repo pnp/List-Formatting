@@ -19,8 +19,8 @@ An additional format (image-lightbox-advanced.json) is provided which demonstrat
 
 Solution|Author(s)
 --------|---------
-image-lightbox.json | [João Ferreira](https://github.com/joaoferreira) ([@joao12ferreira](https://twitter.com/Joao12Ferreira))
-image-lightbox-advanced.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+image-lightbox.json | [João Ferreira](https://github.com/joaoferreira)
+image-lightbox-advanced.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

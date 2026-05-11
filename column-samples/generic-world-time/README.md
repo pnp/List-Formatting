@@ -16,7 +16,7 @@ This format can be applied to any column type but expects the following columns 
 
 Solution|Author(s)
 --------|---------
-generic-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+generic-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

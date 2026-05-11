@@ -22,8 +22,8 @@ A similar technique could be used for adding any text to existing data or empty 
 
 Solution|Author(s)
 --------|---------
-currency-symbol-concatenation.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
-addsymbolonly.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+currency-symbol-concatenation.json | [S Merchant](https://github.com/sohailmerchant)
+addsymbolonly.json | [S Merchant](https://github.com/sohailmerchant)
 
 ## Version history
 

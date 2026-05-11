@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-white, ms-bgColor-sharedBlueMagenta10, ms-bgColor-sharedRed10, ms-bgColor-tealLight, ms-bgColor-blue, ms-fontSize-10, ms-fontColor-sharedBlueMagenta10, ms-fontColor-sharedRed10, ms-fontColor-teal, ms-fontColor-blue"
+        "value": "ms-bgColor-white, ms-bgColor-sharedBlueMagenta10, ms-bgColor-sharedRed10, ms-bgColor-tealLight, ms-bgColor-blue, ms-fontSize-10, ms-fontColor-sharedBlueMagenta10, ms-fontColor-sharedRed10, ms-fontColor-teal, ms-fontColor-blue, ms-fontColor-white"
       }
     ],
     "thumbnails": [

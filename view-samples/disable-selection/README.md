@@ -15,7 +15,7 @@ None
 
 Solution|Author(s)
 --------|---------
-disable-selection.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+disable-selection.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

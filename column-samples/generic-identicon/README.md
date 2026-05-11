@@ -1,11 +1,12 @@
 # Identicon Column Formatting
 
+## Summary
 This sample demonstrates how to use **SharePoint Column Formatting** to generate **Identicons** for list items.  
 Each identicon is a small visual grid that represents the `Title` of the item, making it easier to identify items at a glance.
 
-![Identicon sample screenshot](./assets/Screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
-## Sample Overview
+### Sample Overview
 
 - Identicons are **6x7 grids of colored squares**.
 - Colors are generated based on a calculated **TitleLength** column.
@@ -46,9 +47,9 @@ The identicon pattern automatically updates based on `TitleLength`.
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
+generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 

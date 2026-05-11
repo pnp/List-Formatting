@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Charts"
+        "value": "Charts, Icons, Inline Editing, Hover Cards, CommandBar Customization, Grouped"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,23 +34,23 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@rowIndex"
+        "value": "@rowIndex, @group.count"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "indexOf, substring"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "forEach, inlineEditField, customCardProps, beakStyle, hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter"
       },
       {
         "key": "CLASSES",
-        "value": ""
+        "value": "ms-bgColor-neutralTertiary, ms-bgColor-neutralLight--hover, ms-bgColor-neutralLighter, ms-bgColor-neutralLighter--hover, ms-bgColor-white, ms-borderColor-neutralSecondary--hover, ms-borderColor-neutralTertiary, ms-borderColor-neutralLight, ms-borderColor-neutralLighter, ms-borderColor-white, ms-fontColor-themePrimary, ms-fontColor-themeDark--hover, ms-fontColor-neutralDark, ms-fontColor-neutralPrimary, ms-fontColor-neutralPrimary--hover, ms-fontColor-neutralSecondary, ms-fontColor-white, ms-fontWeight-semibold, ms-fontSize-l, ms-fontSize-m, ms-fontSize-s, ms-bgColor-themeLighter"
       }
     ],
     "thumbnails": [

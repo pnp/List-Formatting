@@ -19,7 +19,7 @@ This sample demonstrates how to display sticky notes in Board View. The color of
 
 Solution|Author(s)
 --------|---------
-sticky-notes-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+sticky-notes-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

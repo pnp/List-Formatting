@@ -21,7 +21,7 @@ DueDate | Date & Time - this field will be used to order the clipboards
 
 Solution|Author(s)
 --------|---------
-clipboards.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+clipboards.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

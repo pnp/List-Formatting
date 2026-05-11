@@ -37,7 +37,7 @@ In the sample, the height of the parent div is set to 800px and the child div ca
 
 Solution|Author(s)
 --------|---------
-column-graph.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
+column-graph.json | [Anoop Tatti](https://github.com/anoopt)
 
 ## Version history
 

@@ -12,7 +12,7 @@ None
 
 Solution|Author(s)
 --------|---------
-wrapped-body.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+wrapped-body.json | [Chris Kent](https://github.com/thechriskent)
 
 
 ## Version history

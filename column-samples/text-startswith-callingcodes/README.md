@@ -36,7 +36,7 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 Solution|Author(s)
 --------|---------
-text-startswith-callingcodes.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-startswith-callingcodes.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

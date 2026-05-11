@@ -19,7 +19,7 @@ This format can be applied to any column type (its value is ignored). In additio
 
 Solution|Author(s)
 --------|---------
-generic-like-unlike.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
+generic-like-unlike.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

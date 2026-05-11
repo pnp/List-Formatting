@@ -60,9 +60,9 @@ Combining more than one of the above formats in a single listview can easily tra
 
 Solution|Author(s)
 --------|---------
-generic-project-management.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
-risk-level-change-status.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
-risk-score.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+generic-project-management.json | [S Merchant](https://github.com/sohailmerchant)
+risk-level-change-status.json | [S Merchant](https://github.com/sohailmerchant)
+risk-score.json | [S Merchant](https://github.com/sohailmerchant)
 
 ## Version history
 

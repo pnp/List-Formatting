@@ -35,7 +35,7 @@ The values are expected to be addresses such as Indianapolis, IN or Tokyo or 123
 
 Solution|Author(s)
 --------|---------
-generic-staticmap.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-staticmap.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

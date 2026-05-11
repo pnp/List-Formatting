@@ -19,7 +19,7 @@ CustomTags | Choice ("Allow multiple selections" to yes and check "Can add value
 
 Solution|Author(s)
 --------|---------
-search-within-tags.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+search-within-tags.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

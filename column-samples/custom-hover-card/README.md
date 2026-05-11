@@ -41,6 +41,5 @@ This sample uses icons from the Office UI Fabric
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/custom-hover-card" />

@@ -16,7 +16,7 @@ This format expects to be applied to a multiple selection person column.
 
 Solution|Author(s)
 --------|---------
-multi-person-mailto.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@ganeshsanap20](https://twitter.com/ganeshsanap20))
+multi-person-mailto.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

@@ -17,7 +17,7 @@ This sample illustrates some advanced techniques for applying theme colors to SV
 
 Solution|Author(s)
 --------|---------
-horse-crests.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+horse-crests.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

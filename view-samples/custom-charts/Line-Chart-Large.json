@@ -594,7 +594,6 @@
                   "font-size": "16px",
                   "font-weight": "500",
                   "cursor": "=if([$Author.email] == @me, 'pointer', '')",
-                  "line-height": "",
                   "overflow": "hidden",
                   "white-space": "nowrap",
                   "text-overflow": "ellipsis"
@@ -759,7 +758,6 @@
                   "font-size": "16px",
                   "font-weight": "500",
                   "cursor": "=if([$Author.email] == @me, 'pointer', '')",
-                  "line-height": "",
                   "overflow": "hidden",
                   "white-space": "nowrap",
                   "text-overflow": "ellipsis"
@@ -1574,7 +1572,6 @@
                   "display": "block",
                   "text-align": "center",
                   "padding-top": "0px",
-                  "align-items": "",
                   "width": "94px",
                   "border-right": "solid 1px lightgrey",
                   "margin-right": "0px",
@@ -1903,7 +1900,6 @@
                   "display": "block",
                   "text-align": "center",
                   "padding-top": "0px",
-                  "align-items": "",
                   "width": "94px",
                   "border-right": "solid 1px lightgrey",
                   "margin-right": "0px",

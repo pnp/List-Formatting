@@ -45,7 +45,7 @@ The [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-
 
 Solution|Author(s)
 --------|---------
-bar-graph.json | [Anoop Tatti](https://github.com/anoopt) ([@anooptells](https://twitter.com/anooptells))
+bar-graph.json | [Anoop Tatti](https://github.com/anoopt)
 
 ## Version history
 

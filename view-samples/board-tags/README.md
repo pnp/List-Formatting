@@ -94,9 +94,9 @@ Access to **board-tags.json** and access to **Power Apps** url reference and rep
 
 Solution|Author(s)
 --------|---------
-board-tags.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-board-tags-cards.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-PnPSample.zip | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+board-tags.json | [André Lage](https://github.com/aaclage)
+board-tags-cards.json | [André Lage](https://github.com/aaclage)
+PnPSample.zip | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

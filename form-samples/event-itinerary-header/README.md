@@ -31,7 +31,7 @@ The following fields are all included in the "Event itinerary" template. You can
 
 Solution|Author(s)
 --------|---------
-event-itinerary-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+event-itinerary-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

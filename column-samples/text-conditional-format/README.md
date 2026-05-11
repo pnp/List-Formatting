@@ -14,7 +14,7 @@ This pattern is useful when you want different values to map to different levels
 
 Solution|Author(s)
 --------|---------
-text-conditional-format.json | [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists))
+text-conditional-format.json | [Lincoln DeMaris](https://github.com/ldemaris)
 
 ## Version history
 

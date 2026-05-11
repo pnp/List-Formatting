@@ -23,7 +23,7 @@ This sample demonstrates an advent calendar where you can click on the present b
 
 Solution|Author(s)
 --------|---------
-advent-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+advent-calendar.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -27,7 +27,7 @@ The format expects the following fields:
 
 Solution|Author(s)
 --------|---------
-generic-eisenhower-matrix.json | [Larry Pfaff](https://github.com/jaxkookie) ([@jaxkookie](https://twitter.com/jaxkookie))
+generic-eisenhower-matrix.json | [Larry Pfaff](https://github.com/jaxkookie)
 
 ## Version history
 

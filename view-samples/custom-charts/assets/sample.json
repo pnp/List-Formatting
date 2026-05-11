@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons, Inline Editing, Hover Cards, SVG, Charts"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "substring, toString"
+        "value": "substring, toString, cos, sin"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,18 +46,18 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps, inlineEditField, hideColumnHeader, hideSelection"
+        "value": "customCardProps, inlineEditField, hideColumnHeader, hideSelection, beakStyle, directionalHint, rowFormatter"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-communicationTint40--hover, ms-bgColor-severeWarning--hover, ms-fontColor-black--hover, ms-fontColor-neutralQuaternaryAlt, sp-css-color-BlackText, sp-css-color-GrayText"
+        "value": "sp-field-bold, ms-bgColor-communicationTint40--hover, ms-bgColor-severeWarning--hover, ms-fontColor-black--hover, ms-fontColor-neutralQuaternaryAlt, sp-css-color-BlackText, sp-css-color-GrayText"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/Charts-Preview.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/custom-charts/assets/screenshot.png",
         "alt": "screenshot of 7 different charts"
       },
       {

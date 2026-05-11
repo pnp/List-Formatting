@@ -34,7 +34,7 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@currentWeb, @group.count, @group.columnDisplayName"
+        "value": "@group.count, @group.columnDisplayName"
       },
       {
         "key": "FORMATTING-OPERATORS",

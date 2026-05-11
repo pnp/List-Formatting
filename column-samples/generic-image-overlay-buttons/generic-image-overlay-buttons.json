@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "inline-block"
+  },
+  "children": [
+    {
+      "elmType": "img",
+      "attributes": {
+        "src": "=[$ImageUrl]",
+        "alt": "Image"
+      },
+      "style": {
+        "width": "=if(indexOf([$ImageOrientation],'Landscape')>-1, '250px', if(indexOf([$ImageOrientation],'Portrait')>-1, '180px', '220px'))",
+        "height": "=if(indexOf([$ImageOrientation],'Landscape')>-1, '200px', if(indexOf([$ImageOrientation],'Portrait')>-1, '260px', '230px'))",
+        "object-fit": "cover"
+      }
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "margin-top": "=if(indexOf([$ImageOrientation],'Landscape')>-1, '-15%', if(indexOf([$ImageOrientation],'Portrait')>-1, '-20%', '-17%'))",
+        "padding-bottom": "=if(indexOf([$ImageOrientation],'Landscape')>-1, '10px', if(indexOf([$ImageOrientation],'Portrait')>-1, '5px', '10px'))",
+        "margin-left": "=if(indexOf([$ImageOrientation],'Landscape')>-1, '15%', if(indexOf([$ImageOrientation],'Portrait')>-1, '5%', '10%'))",
+        "display": "flex",
+        "gap": "8px"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": "=[$Button1Url]",
+            "target": "_blank"
+          },
+          "style": {
+            "padding": "4px 12px",
+            "background-color": "#0078d4",
+            "color": "white",
+            "border-radius": "4px",
+            "text-decoration": "none",
+            "font-size": "13px"
+          },
+          "txtContent": "=[$Button1Label]"
+        },
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": "=[$Button2Url]",
+            "target": "_blank"
+          },
+          "style": {
+            "padding": "4px 12px",
+            "background-color": "#0078d4",
+            "color": "white",
+            "border-radius": "4px",
+            "text-decoration": "none",
+            "font-size": "13px"
+          },
+          "txtContent": "=[$Button2Label]"
+        }
+      ]
+    }
+  ]
+}

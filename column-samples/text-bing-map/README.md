@@ -31,7 +31,7 @@ If your address is stored in a Multi-Line of Text field, there are a few extra c
 
 Solution|Author(s)
 --------|---------
-text-bing-map.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunham](https://twitter.com/aprildunnam))
+text-bing-map.json | [April Dunnam](https://github.com/aprildunnam)
 
 ## Version history
 

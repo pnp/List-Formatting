@@ -21,7 +21,7 @@ None, this can be applied to any view. This can also be combined with other view
 
 Solution|Author(s)
 --------|---------
-commandbar-hide-automate.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+commandbar-hide-automate.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -17,7 +17,7 @@ The purpose of this sample is to enhance the use of documentsets. Assuming you h
 
 Solution|Author(s)
 --------|---------
-generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/gdk-max)
 
 
 ## Version history

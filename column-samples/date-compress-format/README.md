@@ -13,7 +13,7 @@ This sample provide a different style to provide Date in a compress way such us 
 
 Solution|Author(s)
 --------|---------
-date-compress-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+date-compress-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

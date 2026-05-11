@@ -26,11 +26,11 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Document Library"
+        "value": "Document Library, Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
-        "value": "Filename"
+        "value": "General"
       },
       {
         "key": "FORMATTING-TOKENS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "customCardProps, beakStyle, directionalHint"
       },
       {
         "key": "CLASSES",

@@ -20,7 +20,7 @@ Short summary on functionality and details to help explain the format.
 
 Solution|Author(s)
 --------|---------
-json-file-name.json | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/YOURTWITTERHANDLE)), Company
+json-file-name.json | [Author Name](https://github.com/YOURGITHUBUSERNAME)
 
 
 ## Version history

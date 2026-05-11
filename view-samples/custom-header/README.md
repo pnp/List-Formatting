@@ -22,8 +22,8 @@ The concept can be adjusted for any view, but this specific format expects the f
 
 Solution|Author(s)
 --------|---------
-custom-header.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-custom-header-repeating.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+custom-header.json | [Chris Kent](https://github.com/thechriskent)
+custom-header-repeating.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

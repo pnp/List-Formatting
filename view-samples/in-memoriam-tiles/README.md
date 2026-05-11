@@ -19,7 +19,7 @@ This is a silly sample that shows tombstones for items. It demonstrates custom d
 
 Solution|Author(s)
 --------|---------
-in-memoriam-tiles.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+in-memoriam-tiles.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

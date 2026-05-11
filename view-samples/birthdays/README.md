@@ -38,7 +38,7 @@ To make this a truly automated process, you can use Microsoft Flow to pull Birth
 
 Solution|Author(s)
 --------|---------
-birthdays.json | [April Dunnam](https://github.com/aprildunnam) ([@aprildunham](https://twitter.com/aprildunnam))
+birthdays.json | [April Dunnam](https://github.com/aprildunnam)
 
 ## Version history
 

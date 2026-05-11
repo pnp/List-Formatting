@@ -126,7 +126,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-arrow-right:
 ## ms-motion-slideRightIn
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Health Dashboard](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-health-dashboard){target=_blank title="project-health-dashboard (View): This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Project Health Dashboard](https://github.com/pnp/List-Formatting/tree/master/view-samples/project-health-dashboard){target=_blank title="project-health-dashboard (View): This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/project-health-dashboard/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>

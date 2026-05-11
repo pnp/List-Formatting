@@ -20,7 +20,7 @@ PersonChat | Person - check to yes, Allow multiple selections
 
 Solution|Author(s)
 --------|---------
-teams-group-chat-links.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+teams-group-chat-links.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

@@ -17,7 +17,7 @@ Volume | Number - Volume options from 0 to 5
 
 Solution|Author(s)
 --------|---------
-number-volume.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+number-volume.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

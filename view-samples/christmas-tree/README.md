@@ -29,7 +29,7 @@ GiftSide | Single line of text - options "**Left**" or "**Right**"
 
 Solution|Author(s)
 --------|---------
-christmas-tree.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+christmas-tree.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

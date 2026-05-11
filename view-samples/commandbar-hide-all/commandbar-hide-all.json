@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
   "commandBarProps": {
     "commands": [
       { "key": "new", "hide": true },
@@ -80,7 +80,8 @@
       { "key": "requestApprovalCommand", "hide": true },
       { "key": "GoToChannelInTeams", "hide": true },
       { "key": "PublishCommand", "hide": true},
-      { "key": "properties", "hide": true}
+      { "key": "properties", "hide": true},
+      { "key": "syntexAutofillColumnsCommandPublicKey", "hide": true}
     ]
   }
 }

@@ -127,9 +127,6 @@
               "display": "flex",
               "flex-wrap": "wrap"
             },
-            "attributes": {
-              "class": ""
-            },
             "children": [
               {
                 "elmType": "span",
@@ -196,7 +193,7 @@
                 "style": {
                   "width": "96px",
                   "padding": "0.1em 0",
-                  "text-align": " center",
+                  "text-align": "center",
                   "heigth": "1.4em",
                   "border-radius": "12px",
                   "margin": "0 2px 0 0 "
@@ -211,7 +208,7 @@
                 "style": {
                   "width": "96px",
                   "padding": "0.1em 0",
-                  "text-align": " center",
+                  "text-align": "center",
                   "border-radius": "12px",
                   "margin": "0 2px 0 0 "
                 },
@@ -229,13 +226,9 @@
               "height": "3.3em",
               "padding": "0.3em 0 0 0"
             },
-            "attributes": {
-              "class": ""
-            },
             "children": [
               {
                 "elmType": "div",
-                "txtContent": "",
                 "style": {
                   "position": "absolute",
                   "box-sizing": "border-box",
@@ -251,10 +244,6 @@
                   "background-color": "#cfe6f7",
                   "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
                   "width": "= if( [$TaskDue] > [$ProjectDue],  (Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100  ,  (Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 ) + '%'"
-                },
-                "attributes": {
-                  "class": "",
-                  "title": ""
                 }
               },
               {
@@ -282,7 +271,6 @@
               },
               {
                 "elmType": "div",
-                "txtContent": "",
                 "style": {
                   "position": "absolute",
                   "box-sizing": "border-box",
@@ -293,14 +281,9 @@
                   "overflow": "hidden",
                   "text-overflow": "ellipsis",
                   "border": "=if([$TaskDue]< @now && [$Progress] < 1 && ([$TaskType] == 'Task' || [$TaskType] == '' ), '2px solid #f8b7bd', 'none')",
-                  "background-color": "",
                   "left": "=  (Number([$TaskStart])-Number([$ProjectStart])) / (Number([$ProjectDue])-Number([$ProjectStart])) * 100  + '%'",
                   "width": "=if([$TaskType] == 'Milestone', '28px' ,  if( [$TaskDue] > [$ProjectDue],  (Number([$ProjectDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100  ,  (Number([$TaskDue])-Number([$TaskStart])+ 86400000) / (Number([$ProjectDue])-Number([$ProjectStart])+ 86400000) * 100 ) + '%'",
                   "margin-left": "=if([$TaskType] == 'Milestone', '-14px' , 0"
-                },
-                "attributes": {
-                  "class": "",
-                  "title": ""
                 },
                 "customCardProps": {
                   "openOnEvent": "hover",
@@ -369,7 +352,7 @@
                             "style": {
                               "width": "24px",
                               "padding": "6px 0",
-                              "text-align": " center",
+                              "text-align": "center",
                               "heigth": "1.4em"
                             },
                             "attributes": {
@@ -381,7 +364,7 @@
                             "txtContent": "0%",
                             "style": {
                               "padding": "2px 6px",
-                              "text-align": " center",
+                              "text-align": "center",
                               "border-radius": "14px",
                               "margin": "2px 2px 0 0 ",
                               "cursor": "pointer",
@@ -402,7 +385,7 @@
                             "txtContent": "25%",
                             "style": {
                               "padding": "2px 6px",
-                              "text-align": " center",
+                              "text-align": "center",
                               "border-radius": "14px",
                               "margin": "2px 2px 0 0 ",
                               "cursor": "pointer",
@@ -423,7 +406,7 @@
                             "txtContent": "50%",
                             "style": {
                               "padding": "2px 6px",
-                              "text-align": " center",
+                              "text-align": "center",
                               "border-radius": "14px",
                               "margin": "2px 2px 0 0 ",
                               "cursor": "pointer",
@@ -444,7 +427,7 @@
                             "txtContent": "75%",
                             "style": {
                               "padding": "2px 6px",
-                              "text-align": " center",
+                              "text-align": "center",
                               "border-radius": "14px",
                               "margin": "2px 2px 0 0 ",
                               "cursor": "pointer",
@@ -465,7 +448,7 @@
                             "txtContent": "100%",
                             "style": {
                               "padding": "2px 6px",
-                              "text-align": " center",
+                              "text-align": "center",
                               "border-radius": "14px",
                               "margin": "2px 2px 0 0 ",
                               "cursor": "pointer",
@@ -489,7 +472,7 @@
                           "width": "24px",
                           "display": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 ) , 'block', 'none')",
                           "padding": "6px 0 7px 0",
-                          "text-align": " center",
+                          "text-align": "center",
                           "heigth": "1.4em",
                           "margin": "2px 0"
                         },
@@ -505,7 +488,7 @@
                           "width": "254px",
                           "display": "=if( ( ([$TaskType] == 'Task' || [$TaskType] == '') && [$TaskDue]< @now && [$Progress] < 1 ) || ([$TaskType] == 'Milestone' && [$TaskStart]< @now && [$Progress] < 1 ) , 'block', 'none')",
                           "padding": "4px 0 4px 4px",
-                          "text-align": " Left",
+                          "text-align": "left",
                           "heigth": "1.4em",
                           "margin": "2px 0"
                         },
@@ -518,7 +501,7 @@
                         "style": {
                           "width": "24px",
                           "padding": "6px 0",
-                          "text-align": " center",
+                          "text-align": "center",
                           "heigth": "1.4em"
                         },
                         "attributes": {
@@ -531,7 +514,7 @@
                         "style": {
                           "width": "127px",
                           "padding": "2px 0",
-                          "text-align": " center",
+                          "text-align": "center",
                           "border-radius": "14px",
                           "margin": "2px 2px 0 0 ",
                           "height": "1.4em"
@@ -546,7 +529,7 @@
                         "style": {
                           "width": "127px",
                           "padding": "2px 0",
-                          "text-align": " center",
+                          "text-align": "center",
                           "border-radius": "14px",
                           "margin": "2px 2px 0 0 ",
                           "height": "1.4em"
@@ -560,7 +543,7 @@
                         "style": {
                           "width": "24px",
                           "padding": "6px 0",
-                          "text-align": " center",
+                          "text-align": "center",
                           "heigth": "1.4em"
                         },
                         "attributes": {
@@ -592,7 +575,6 @@
               },
               {
                 "elmType": "div",
-                "txtContent": "",
                 "style": {
                   "position": "relative",
                   "box-sizing": "border-box",

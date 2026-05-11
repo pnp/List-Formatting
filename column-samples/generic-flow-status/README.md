@@ -45,7 +45,7 @@ The Status column is using these values (but you use different values, just upda
 
 Solution|Author(s)
 --------|---------
-generic-flow-status.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-flow-status.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

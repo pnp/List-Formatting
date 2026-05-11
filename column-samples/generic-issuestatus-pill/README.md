@@ -21,7 +21,7 @@ You can use this formatting to implement your own version of the *choices as pil
 
 Solution|Author(s)
 --------|---------
-generic-issuestatus-pill.json | [Hugo Bernier](https://github.com/hugoabernier) ([@bernierh](https://twitter.com/bernierh))
+generic-issuestatus-pill.json | [Hugo Bernier](https://github.com/hugoabernier)
 
 ## Version history
 

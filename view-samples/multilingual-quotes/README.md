@@ -19,7 +19,7 @@ This sample demonstrates the use of the `@UIlcid` token to change the text displ
 
 Solution|Author(s)
 --------|---------
-multilingual-quotes.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+multilingual-quotes.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

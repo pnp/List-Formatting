@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toString, Number, Date, toLocaleTimeString, indexOf, substring, getDate, getMonth, getYear, padStart"
+        "value": "toString, Number, toLocaleTimeString, indexOf, substring, getDate, getMonth, getYear, padStart"
       },
       {
         "key": "FORMATTING-ACTIONS",

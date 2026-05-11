@@ -1,0 +1,81 @@
+[
+  {
+    "name": "pnp-list-formatting-grouped-accordion-cards",
+    "reponame": "grouped-accordion-cards",
+    "source": "pnp",
+    "title": "Grouped Accordion Cards with Hover Details",
+    "shortDescription": "Displays grouped items as modern cards with expandable accordion headers and hoverable detail panels.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/grouped-accordion-cards",
+    "longDescription": [
+      "This sample uses SharePoint List View Formatting to render grouped items as visually rich cards with header images, colored accents, and hoverable detail panels.",
+      "It leverages SharePoint's built-in group-by behavior and @group tokens to simulate an accordion-style expand and collapse experience.",
+      "Each group header includes an image, group title, and item count, while rows show task details, color indicators, and a dynamic hover card for quick context."
+    ],
+    "creationDateTime": "2025-10-24T00:00:00.000Z",
+    "updateDateTime": "2025-10-24T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.count, @group.fieldData"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "substring, indexOf"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, groupProps, hideColumnHeader, hideSelection, hideFooter, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-bgColor-neutralLighter--hover, sp-row-card"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/grouped-accordion-cards/assets/screenshot.png",
+        "alt": "Grouped Accordion Cards screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Siva Ram Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "Learn how to use SharePoint List View Formatting to create modern card views, grouped layouts, and interactive hover experiences using JSON.",
+        "url": "https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

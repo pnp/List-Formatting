@@ -26,7 +26,7 @@ This format expects the following columns to be part of the view:
 
 Solution|Author(s)
 --------|---------
-project-health-dashboard.json | [Andres Ibarra](https://github.com/Riftsan) ([@riftsan](https://twitter.com/riftsan))
+project-health-dashboard.json | [Andres Ibarra](https://github.com/Riftsan)
 
 ## Version history
 

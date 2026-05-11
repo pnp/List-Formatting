@@ -25,7 +25,7 @@ This sample creates a quiz with multiple choice questions. The tile view and cus
 
 Solution|Author(s)
 --------|---------
-quiz.json | [Anand Ragav](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+quiz.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 

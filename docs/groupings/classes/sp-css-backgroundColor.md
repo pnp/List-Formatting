@@ -7,31 +7,36 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-angles-down:{.expand-all title="Expand All"}
 :fontawesome-solid-angles-up:{.collapse-all title="Collapse All"}
 
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-fill-drip:{.classDisplay .cd-BgBlue title="Sets background-color"}
-## sp-css-backgroundColor-BgBlue
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
-</div>
-:fontawesome-solid-fill-drip:{.classDisplay .cd-BgBrown title="Sets background-color"}
-## sp-css-backgroundColor-BgBrown
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
+:fontawesome-solid-fill-drip:{.classDisplay .cd-BgBlue title="Sets background-color"}
+## sp-css-backgroundColor-BgBlue
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
+</div>
+:fontawesome-solid-fill-drip:{.classDisplay .cd-BgBrown title="Sets background-color"}
+## sp-css-backgroundColor-BgBrown
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">4 samples</span>
+</div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgCoral title="Sets background-color"}
 ## sp-css-backgroundColor-BgCoral
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgCoral30 title="Sets background-color"}
 ## sp-css-backgroundColor-BgCoral30
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/sticky-notes-board/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -40,18 +45,23 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-BgCornflower40
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgCornflowerBlue title="Sets background-color"}
 ## sp-css-backgroundColor-BgCornflowerBlue
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgCyan title="Sets background-color"}
 ## sp-css-backgroundColor-BgCyan
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -70,30 +80,35 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgDarkGreen title="Sets background-color"}
 ## sp-css-backgroundColor-BgDarkGreen
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgDarkPink title="Sets background-color"}
 ## sp-css-backgroundColor-BgDarkPink
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgDarkPurple title="Sets background-color"}
 ## sp-css-backgroundColor-BgDarkPurple
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgDarkRed title="Sets background-color"}
 ## sp-css-backgroundColor-BgDarkRed
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgDustRose title="Sets background-color"}
 ## sp-css-backgroundColor-BgDustRose
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -101,18 +116,20 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-BgDustRose30
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgGold title="Sets background-color"}
 ## sp-css-backgroundColor-BgGold
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgGold60 title="Sets background-color"}
 ## sp-css-backgroundColor-BgGold60
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/sticky-notes-board/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -120,12 +137,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgGray title="Sets background-color"}
 ## sp-css-backgroundColor-BgGray
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgGreen title="Sets background-color"}
 ## sp-css-backgroundColor-BgGreen
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -138,12 +156,14 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgLightBlue title="Sets background-color"}
 ## sp-css-backgroundColor-BgLightBlue
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgLightBlue20 title="Sets background-color"}
 ## sp-css-backgroundColor-BgLightBlue20
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Internal CV](https://github.com/pnp/List-Formatting/tree/master/view-samples/internal-cv){target=_blank title="internal-cv (View): This tutorial will help you create a basic internal CV through JSON view formatting." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/internal-cv/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -167,7 +187,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgLightPurple30 title="Sets background-color"}
 ## sp-css-backgroundColor-BgLightPurple30
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/sticky-notes-board/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -194,18 +214,22 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-BgMauve50
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">5 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgMintGreen title="Sets background-color"}
 ## sp-css-backgroundColor-BgMintGreen
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgMintGreen30 title="Sets background-color"}
 ## sp-css-backgroundColor-BgMintGreen30
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Sticky Notes Board](https://github.com/pnp/List-Formatting/tree/master/view-samples/sticky-notes-board){target=_blank title="sticky-notes-board (View): This sample demonstrates how to display sticky notes in a Board View." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/sticky-notes-board/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -237,12 +261,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgRed title="Sets background-color"}
 ## sp-css-backgroundColor-BgRed
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgSage title="Sets background-color"}
 ## sp-css-backgroundColor-BgSage
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -255,12 +280,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgTeal title="Sets background-color"}
 ## sp-css-backgroundColor-BgTeal
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-BgViolet title="Sets background-color"}
 ## sp-css-backgroundColor-BgViolet
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -290,7 +316,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blockingBackground title="Sets background-color"}
 ## sp-css-backgroundColor-blockingBackground
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -311,43 +337,44 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-blockingBackground50
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">2 samples</span>
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blue title="Sets background-color"}
 ## sp-css-backgroundColor-blue
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blueBackground07 title="Sets background-color"}
 ## sp-css-backgroundColor-blueBackground07
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blueBackground17 title="Sets background-color"}
 ## sp-css-backgroundColor-blueBackground17
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blueBackground27 title="Sets background-color"}
 ## sp-css-backgroundColor-blueBackground27
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-blueBackground37 title="Sets background-color"}
 ## sp-css-backgroundColor-blueBackground37
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -439,24 +466,27 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-DarkRedText title="Sets background-color"}
 ## sp-css-backgroundColor-DarkRedText
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-disabledBackground title="Sets background-color"}
 ## sp-css-backgroundColor-disabledBackground
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-disabledSubtext title="Sets background-color"}
 ## sp-css-backgroundColor-disabledSubtext
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-disabledText title="Sets background-color"}
 ## sp-css-backgroundColor-disabledText
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -464,14 +494,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-DustRoseFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">4 samples</span>
+    <span class="sampleCount">6 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-errorBackground title="Sets background-color"}
 ## sp-css-backgroundColor-errorBackground
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -484,15 +516,15 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-errorBackground40 title="Sets background-color"}
 ## sp-css-backgroundColor-errorBackground40
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-conditional-progress-color/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-errorBackground50 title="Sets background-color"}
 ## sp-css-backgroundColor-errorBackground50
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -554,12 +586,13 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-LightPurpleFont title="Sets background-color"}
 ## sp-css-backgroundColor-LightPurpleFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-LightPurpleText title="Sets background-color"}
 ## sp-css-backgroundColor-LightPurpleText
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Multiple thumbnail](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-thumbnail){target=_blank title="multi-choice-thumbnail (Column): This tutorial will help you create a multiple thumbnail through images URLs listed in a multiple choice column." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-thumbnail/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -597,20 +630,22 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-MintGreenFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">2 samples</span>
+    <span class="sampleCount">4 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-neutralBackground title="Sets background-color"}
 ## sp-css-backgroundColor-neutralBackground
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-neutralBackground10 title="Sets background-color"}
 ## sp-css-backgroundColor-neutralBackground10
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -643,11 +678,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-neutralLighter
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">6 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-neutralLighterAlt title="Sets background-color"}
 ## sp-css-backgroundColor-neutralLighterAlt
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Board Tags](https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags){target=_blank title="board-tags (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flaging (focus colors), assigning a user, and minimizing/expanding the card."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Board Tags](https://github.com/pnp/list-formatting/tree/master/view-samples/board-tags){target=_blank title="board-tags (View): This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flag (focus colors), assigning a user, and minimizing/expanding the card. This List format also uses embedded action to open custom Power Apps with parameters for digital signature of user and report generator." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/board-tags/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Discussion Board](https://github.com/pnp/list-formatting/tree/master/view-samples/discussion-board){target=_blank title="discussion-board (View): This sample transforms your list into a discussion board with title, desription, tags, and votes are available. Additionally, users can react, comment, and perform inline edits!" data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/discussion-board/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Payments](https://github.com/pnp/List-Formatting/tree/master/view-samples/payments){target=_blank title="payments (View): This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/payments/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Payments](https://github.com/pnp/List-Formatting/tree/master/view-samples/payments){target=_blank title="payments (View): This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/payments/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [People Name Avatar Card](https://github.com/pnp/list-formatting/tree/master/column-samples/person-name-avatar){target=_blank title="person-name-avatar (Column): This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-name-avatar/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -696,7 +736,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-noFill title="Sets background-color"}
 ## sp-css-backgroundColor-noFill
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -727,7 +767,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-red title="Sets background-color"}
 ## sp-css-backgroundColor-red
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Roll Dice](https://github.com/pnp/List-Formatting/tree/master/view-samples/roll-dice){target=_blank title="roll-dice (View): This sample format provides a simulation of a game where a random number (between 1 and 6) is generated and displayed as a die. The value makes the progress bar advance with the associated emoji until the value 0 is reached and the winner emoji appears."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Roll Dice](https://github.com/pnp/List-Formatting/tree/master/view-samples/roll-dice){target=_blank title="roll-dice (View): This sample format provides a simulation of a game where a random number (between 1 and 6) is generated and displayed as a die. The value makes the progress bar advance with the associated emoji until the value 0 is reached and the winner emoji appears." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/roll-dice/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -748,11 +788,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-SageFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-successBackground title="Sets background-color"}
 ## sp-css-backgroundColor-successBackground
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -765,16 +806,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-successBackground40 title="Sets background-color"}
 ## sp-css-backgroundColor-successBackground40
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-conditional-progress-color/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
 
 <div class="expansiongroup">
     <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-successBackground50 title="Sets background-color"}
 ## sp-css-backgroundColor-successBackground50
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -800,24 +841,26 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-themeDarker title="Sets background-color"}
 ## sp-css-backgroundColor-themeDarker
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-themeLight title="Sets background-color"}
 ## sp-css-backgroundColor-themeLight
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-file-lines:{.formIcon title="Form Format"} [Welcome Header](https://github.com/pnp/List-Formatting/tree/master/form-samples/welcome-header){target=_blank title="welcome-header (Form): This sample demonstrates how to display Welcome message depending on time of day, display user profile image in Forms Header." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/form-samples/welcome-header/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-themeLighter title="Sets background-color"}
 ## sp-css-backgroundColor-themeLighter
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">1 sample&nbsp;</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-themeLighterAlt title="Sets background-color"}
 ## sp-css-backgroundColor-themeLighterAlt
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [People Name Avatar Card](https://github.com/pnp/list-formatting/tree/master/column-samples/person-name-avatar){target=_blank title="person-name-avatar (Column): This SharePoint column formatting sample provides a modern, interactive People card for list items using JSON formatting." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-name-avatar/assets/screenshot.png"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -843,11 +886,12 @@ Samples are grouped by classes used. Expand to see the related samples.
 ## sp-css-backgroundColor-VioletFont
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
 <div class="expansiongroup">
-    <span class="sampleCount">1 sample&nbsp;</span>
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-warningBackground title="Sets background-color"}
 ## sp-css-backgroundColor-warningBackground
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -860,16 +904,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-warningBackground40 title="Sets background-color"}
 ## sp-css-backgroundColor-warningBackground40
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Conditional Progress Color](https://github.com/pnp/list-formatting/tree/master/column-samples/number-conditional-progress-color){target=_blank title="number-conditional-progress-color (Column): This sample demonstrates displaying progress bar with conditional color based on the value." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-conditional-progress-color/assets/screenshot.png"}
 
 <div class="expansiongroup">
     <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-fill-drip:{.classDisplay .cd-warningBackground50 title="Sets background-color"}
 ## sp-css-backgroundColor-warningBackground50
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach."}
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Employee Onboarding: Steps](https://github.com/pnp/List-Formatting/tree/master/view-samples/employee-onboarding-steps){target=_blank title="employee-onboarding-steps (View): This sample is intended to be used in combination with the Employee Onboarding list template. The format restores the intended alternating rows but also adds a Tiles view that provides a more step based approach." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/employee-onboarding-steps/assets/screenshot.png"}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Issue Status Pill ](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-issuestatus-pill){target=_blank title="generic-issuestatus-pill (Column): This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template.." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-issuestatus-pill/assets/screenshot.png"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Issue Tracker: Planner Cards](https://github.com/pnp/List-Formatting/tree/master/view-samples/issue-tracker-planner-cards){target=_blank title="issue-tracker-planner-cards (View): This sample is intended to be used in combination with the Issue Tracker list template. The format keeps the row highlighting for blocked issues but also adds a Tiles view that provides a Microsoft Planner look and feel." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/issue-tracker-planner-cards/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>

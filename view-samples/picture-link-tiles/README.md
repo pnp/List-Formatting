@@ -20,7 +20,7 @@ Group the view by `Category` column.
 
 Solution|Author(s)
 --------|---------
-picture-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)) & [Watana](https://github.com/watana2)
+picture-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) & [Watana](https://github.com/watana2)
 
 ## Version history
 

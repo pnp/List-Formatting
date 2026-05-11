@@ -34,7 +34,7 @@ This format can be applied to any column in your Document Library.
 
 Solution|Author(s)
 --------|---------
-generic-supertype.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-supertype.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

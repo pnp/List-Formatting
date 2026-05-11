@@ -19,7 +19,7 @@ Demonstrates creating a button to register for a course. It checks if the course
 
 Solution|Author(s)
 --------|---------
-text-course-registration.json | [Dennis](https://github.com/expiscornovus) ([@expiscornovus](https://twitter.com/expiscornovus)), [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-course-registration.json | [Dennis](https://github.com/expiscornovus), [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

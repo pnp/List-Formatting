@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-funnel-chart-tile",
+    "reponame": "funnel-chart-tile",
+    "source": "pnp",
+    "title": "Funnel Chart",
+    "shortDescription": "This sample displays funnel chart stages in a modern dashboard-style tile card with proportional widths and customizable colors.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/funnel-chart-tile",
+    "longDescription": [
+      "This sample demonstrates how to render a funnel chart inside a tile card using SharePoint JSON formatting. Each stage is represented as a colored bar, with the width proportional to its numeric value. The sample is ideal for visualizing pipelines such as Leads → Qualified → Proposal → Closed."
+    ],
+    "creationDateTime": "2025-09-04T00:00:00.000Z",
+    "updateDateTime": "2025-09-04T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/funnel-chart-tile/assets/screenshot.png",
+        "alt": "Tile card showing a funnel chart with four proportional colored bars"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "saiiiiiii",
+        "pictureUrl": "https://github.com/saiiiiiii.png",
+        "name": "Sai Bandaru"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Icons, Inline Editing, Hover Cards, Grouped"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group.fieldData"
+        "value": "@group.fieldData, @me, @now, @group.count"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "length, padStart, indexOf"
+        "value": "length, padStart, indexOf, toLocaleString, toLocaleDateString, getDate, getMonth, getYear, getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,11 +46,11 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter, forEach"
+        "value": "hideSelection, hideColumnHeader, rowFormatter, groupProps, headerFormatter, forEach, inlineEditField, defaultHoverField"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-grey, ms-bgColor-neutralQuaternary--hover, ms-bgColor-themeDark--hover, ms-bgColor-themePrimary, ms-fontColor-black, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontColor-white--hover, ms-fontSize-m, ms-fontWeight-semibold, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral30--hover, sp-css-backgroundColor-BgCornflowerBlue, sp-css-backgroundColor-BgCyan, sp-css-backgroundColor-BgDarkPink, sp-css-backgroundColor-BgDustRose, sp-css-backgroundColor-BgGold, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen30--hover, sp-css-backgroundColor-BgSage, sp-css-backgroundColor-BgViolet, sp-css-backgroundColor-blue, sp-css-backgroundColor-disabledBackground, sp-css-backgroundColor-disabledText, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-neutralLighterAlt, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-warningBackground, sp-css-borderTop-successBorder, sp-css-borderTop-successBorder, sp-css-borderTop-warningBorder, sp-css-borderTop-warningBorder, sp-css-color-CoralFont, sp-css-color-CornflowerBlueFont, sp-css-color-CyanFont, sp-css-color-DustRoseFont, sp-css-color-errorFont, sp-css-color-GoldFont, sp-css-color-MintGreenFont, sp-css-color-neutralFont, sp-css-color-SageFont, sp-css-color-VioletFont, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-field-fontSizeSmall, sp-row-button, sp-row-button, sp-row-card, sp-row-listPadding"
+        "value": "ms-bgColor-grey, ms-bgColor-neutralQuaternary--hover, ms-bgColor-themeDark--hover, ms-bgColor-themePrimary, ms-fontColor-black, ms-fontColor-neutralPrimary, ms-fontColor-white, ms-fontColor-white--hover, ms-fontSize-m, ms-fontWeight-semibold, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral, sp-css-backgroundColor-BgCoral30--hover, sp-css-backgroundColor-BgCornflowerBlue, sp-css-backgroundColor-BgCyan, sp-css-backgroundColor-BgDarkPink, sp-css-backgroundColor-BgDustRose, sp-css-backgroundColor-BgGold, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen, sp-css-backgroundColor-BgMintGreen30--hover, sp-css-backgroundColor-BgSage, sp-css-backgroundColor-BgViolet, sp-css-backgroundColor-blue, sp-css-backgroundColor-disabledBackground, sp-css-backgroundColor-disabledText, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-errorBackground, sp-css-backgroundColor-neutralBackground, sp-css-backgroundColor-neutralLighterAlt, sp-css-backgroundColor-successBackground, sp-css-backgroundColor-warningBackground, sp-css-borderTop-successBorder, sp-css-borderTop-successBorder, sp-css-borderTop-warningBorder, sp-css-borderTop-warningBorder, sp-css-color-CoralFont, sp-css-color-CornflowerBlueFont, sp-css-color-CyanFont, sp-css-color-DustRoseFont, sp-css-color-errorFont, sp-css-color-GoldFont, sp-css-color-MintGreenFont, sp-css-color-neutralFont, sp-css-color-SageFont, sp-css-color-VioletFont, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-css-color-WhiteText, sp-field-fontSizeSmall, sp-row-button, sp-row-button, sp-row-card, sp-row-listPadding, sp-css-backgroundColor-BgDarkRed, sp-css-backgroundColor-BgBrown, sp-css-backgroundColor-BgGreen, sp-css-backgroundColor-BgBlue, sp-css-color-WhiteFont, ms-bgColor-neutralLight, ms-fontColor-neutralTertiaryAlt, ms-fontWeight-bold, sp-row-title"
       }
     ],
     "thumbnails": [

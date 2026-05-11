@@ -13,8 +13,8 @@ None
 
 Solution|Author(s)
 --------|---------
-wave-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-wave-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+wave-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+wave-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

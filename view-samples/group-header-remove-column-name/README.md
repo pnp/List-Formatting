@@ -24,8 +24,8 @@ List view with Group by applied on any column in the view.
 
 Solution|Author(s)
 --------|---------
-group-header-remove-column-name.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
-group-header-remove-column-name-clickable.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20)) & [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+group-header-remove-column-name.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
+group-header-remove-column-name-clickable.json | [Ganesh Sanap](https://github.com/ganesh-sanap) & [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 
