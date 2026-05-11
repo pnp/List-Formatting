@@ -1,0 +1,33 @@
+[project]
+name = "sharepoint-formatting-mcp"
+version = "0.1.0"
+description = "MCP server that grounds AI agents in the SharePoint List Formatting docs and samples"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "PnP Community" }
+]
+keywords = ["mcp", "sharepoint", "list-formatting", "claude", "agent"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "mcp[cli]>=1.2.0",
+  "rank-bm25>=0.2.2",
+]
+
+[project.scripts]
+sharepoint-formatting-mcp = "sharepoint_formatting_mcp.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sharepoint_formatting_mcp"]
