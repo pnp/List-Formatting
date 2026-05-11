@@ -158,22 +158,68 @@ SharePoint formatters can't define `@media` rules, but you have two mechanisms:
 
 `columns`, `column-count`, `column-fill`, `column-gap`, `column-rule`, `column-rule-color`, `column-rule-style`, `column-rule-width`, `column-span`, `column-width`.
 
-This is **CSS multi-column** (newspaper-style flowing text), not Grid. Useful for long `description` or `notes` fields:
+This is **CSS multi-column** (newspaper-style flowing text), not Grid. The renderer takes the **height** of the container and **flows** the children top-to-bottom, then wraps to the next column. It's the right tool when you have a single blob of content (a long description, a bullet list, a notes field) that should fill horizontal space — and the wrong tool when you have discrete "cards" you don't want sliced in half.
+
+| Property | What it does | Typical value |
+| --- | --- | --- |
+| `columns` | Shorthand for `<column-width> <column-count>` | `"240px 3"` |
+| `column-count` | Force *exactly* N columns regardless of width | `"2"` |
+| `column-width` | "*At least* this wide" — engine fits as many as possible | `"240px"` |
+| `column-gap` | Space between columns (the only `gap`-like prop the formatter honours) | `"16px"` |
+| `column-rule` | Vertical divider between columns. Shorthand for `<width> <style> <color>` | `"1px solid #eee"` |
+| `column-rule-color` / `-style` / `-width` | Long-hand pieces of the same divider | `"#ddd"` / `"dashed"` / `"2px"` |
+| `column-fill` | `balance` (default — equal-height columns) or `auto` (fill first column to container height before overflowing) | `"balance"` |
+| `column-span` | `"all"` lets one element break out and span every column (perfect for section headers) | `"all"` |
+
+### Recipe: responsive newspaper layout for a Notes field
 
 ```json
 {
   "elmType": "div",
   "style": {
-    "column-count": "=if(@window.innerWidth < 800, '1', '2')",
-    "column-gap": "16px",
-    "column-rule": "1px solid #eee"
+    "column-width": "240px",
+    "column-gap": "24px",
+    "column-rule": "1px solid #e1dfdd",
+    "column-fill": "balance",
+    "padding": "12px",
+    "line-height": "1.5"
   },
-  "txtContent": "[$LongDescription]"
+  "txtContent": "[$Notes]"
 }
 ```
 
-!!! tip
-    `column-width` instead of `column-count` is the responsive-friendly variant: `"column-width": "240px"` flows into as many columns as fit. No `@window.innerWidth` required.
+### Recipe: spanning section header inside a multi-column block
+
+```json
+{
+  "elmType": "div",
+  "style": { "column-count": "2", "column-gap": "20px" },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "column-span": "all",
+        "font-weight": "600",
+        "font-size": "18px",
+        "padding-bottom": "8px",
+        "border-bottom": "2px solid #0078d4",
+        "margin-bottom": "8px"
+      },
+      "txtContent": "[$Title]"
+    },
+    { "elmType": "div", "txtContent": "[$Description]" }
+  ]
+}
+```
+
+!!! tip "Pro tips for multi-column"
+    - **`column-width` beats `column-count` for responsive layouts.** With `column-width: 240px` the engine produces 1 column on a phone, 2-3 on a tablet, and 4+ on a desktop — *without a single media query or `@window.innerWidth` branch*. This is the single most underused responsive trick in SharePoint formatting.
+    - **`column-gap` is the only "gap" property the renderer actually honours** — but only inside a multi-column context. You can't borrow it for flex layouts.
+    - **`column-fill: auto` for sidebars.** When you want a short list to stay in one column instead of being awkwardly balanced into two short stubby columns, set `column-fill: auto` and a fixed `height` on the container.
+    - **`column-span: all` is unreliable inside very tall containers** on older Edge builds — test in the browsers your tenant supports. When it works it's magic for a "headline + body" two-up.
+    - **Avoid multi-column for card grids.** If each child has its own border/shadow, the renderer can slice one across a column break and look broken. `flex-wrap: wrap` is the right answer for cards.
+    - **`column-rule` doesn't take layout space** (it's painted *in* the `column-gap`), so changing rule width never reflows your content. Great for hover-reveal dividers driven by an expression.
+    - **Pair with `-webkit-line-clamp`** to keep each "column-card" to a fixed line count: prevents the column-break-mid-card issue above.
 
 ---
 
@@ -299,15 +345,184 @@ When an element uses `inlineEditField`, four custom properties are available to 
 
 ---
 
-## Tables
+## Tables (and why you should care even when you don't think you need one)
 
-`border-collapse`, `border-spacing`, `caption-side`, `empty-cells`, `table-layout`. Useful when you set `display: table`/`table-cell` on children to fake a grid.
+Five properties: `border-collapse`, `border-spacing`, `caption-side`, `empty-cells`, `table-layout`. They look unglamorous next to flexbox until you realize **`display: table` + `display: table-cell` is the cleanest workaround for almost every layout limitation in the SharePoint allow-list.** No `align-self`? Table cells. No `grid-template-columns`? Tables. No `gap`? `border-spacing`. Need bullet-proof vertical centering? Table-cell with `vertical-align: middle`.
+
+| Property | What it does | Typical value |
+| --- | --- | --- |
+| `table-layout` | `fixed` = column widths set by the first row, **fast and predictable**. `auto` = browser measures every cell, slow and unpredictable. | `"fixed"` |
+| `border-collapse` | `collapse` (one shared border per edge) vs `separate` (every cell has its own border, with `border-spacing` between them) | `"collapse"` |
+| `border-spacing` | Distance between cells. **Only takes effect when `border-collapse: separate`.** Can be `<h>` or `<h> <v>`. This is the **only way** to add inter-element spacing in a table context without margins. | `"8px 12px"` |
+| `caption-side` | `top` or `bottom` — position of a `<caption>` element relative to the table. | `"top"` |
+| `empty-cells` | `show` or `hide` — whether cells with no content render their background/border. | `"hide"` |
+
+### The four `display` values that unlock all this
+
+These work on **any** element (`div`, `span`, etc.), not just `<table>`:
+
+| `display` value | Behaves like an HTML element |
+| --- | --- |
+| `table` | `<table>` (the container) |
+| `table-row` | `<tr>` |
+| `table-cell` | `<td>` — this is the magic one |
+| `inline-block` | not table-y, but the partner-in-crime for "shrink-to-fit width" cells |
+
+### Recipe: rock-solid 3-column equal-height row (no flexbox)
+
+Useful when you need *guaranteed equal height* without depending on `align-items: stretch` quirks:
 
 ```json
 {
-  "style": { "display": "table", "table-layout": "fixed", "width": "100%", "border-collapse": "collapse" }
+  "elmType": "div",
+  "style": {
+    "display": "table",
+    "width": "100%",
+    "table-layout": "fixed",
+    "border-collapse": "separate",
+    "border-spacing": "12px 0"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": { "display": "table-cell", "vertical-align": "middle", "padding": "12px", "background-color": "#faf9f8", "border-radius": "6px" },
+      "txtContent": "[$Title]"
+    },
+    {
+      "elmType": "div",
+      "style": { "display": "table-cell", "vertical-align": "middle", "padding": "12px", "background-color": "#faf9f8", "border-radius": "6px" },
+      "txtContent": "[$Status]"
+    },
+    {
+      "elmType": "div",
+      "style": { "display": "table-cell", "vertical-align": "middle", "padding": "12px", "background-color": "#faf9f8", "border-radius": "6px" },
+      "txtContent": "[$AssignedTo.title]"
+    }
+  ]
 }
 ```
+
+Three benefits over the flex equivalent:
+
+1. The three cells are **mathematically equal width** without any `flex-basis` math.
+2. They're **automatically equal height** without `align-items: stretch`.
+3. `border-spacing: 12px 0` gives you a horizontal `gap` that flex can't.
+
+### Recipe: vertical-centering anything
+
+Probably the most useful one. Flex centering wraps you in a flex container with all its baggage. Table-cell centering is local and works inside any context:
+
+```json
+{
+  "elmType": "div",
+  "style": {
+    "display": "table-cell",
+    "vertical-align": "middle",
+    "text-align": "center",
+    "height": "44px"
+  },
+  "txtContent": "[$Status]"
+}
+```
+
+`vertical-align: middle` only does the intuitive thing inside `table-cell` (or on inline elements). Knowing this saves you hours of flex debugging.
+
+### Recipe: a true data table inside a row formatter
+
+For Gallery cards that present mini-spec sheets (key/value pairs):
+
+```json
+{
+  "elmType": "div",
+  "style": {
+    "display": "table",
+    "width": "100%",
+    "table-layout": "fixed",
+    "border-collapse": "collapse"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": { "display": "table-row" },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "table-cell",
+            "padding": "6px 8px",
+            "width": "40%",
+            "color": "#605e5c",
+            "border-bottom": "1px solid #edebe9",
+            "font-weight": "600",
+            "vertical-align": "top"
+          },
+          "txtContent": "Owner"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "table-cell",
+            "padding": "6px 8px",
+            "border-bottom": "1px solid #edebe9",
+            "vertical-align": "top"
+          },
+          "txtContent": "[$Owner.title]"
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": { "display": "table-row" },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "display": "table-cell",
+            "padding": "6px 8px",
+            "color": "#605e5c",
+            "border-bottom": "1px solid #edebe9",
+            "font-weight": "600",
+            "vertical-align": "top"
+          },
+          "txtContent": "Due"
+        },
+        {
+          "elmType": "div",
+          "style": {
+            "display": "table-cell",
+            "padding": "6px 8px",
+            "border-bottom": "1px solid #edebe9",
+            "vertical-align": "top"
+          },
+          "txtContent": "=toLocaleDateString([$DueDate])"
+        }
+      ]
+    }
+  ]
+}
+```
+
+!!! tip "Pro tips for tables"
+    - **`table-layout: fixed` is non-negotiable.** Without it the renderer does an `auto` pass that measures every cell — slow on long lists and the column widths jitter as data changes. With `fixed`, the **first row's `width` values define every subsequent row** and the engine just paints.
+    - **`border-spacing` is your `gap`.** The trick is `border-collapse: separate` (the *default*, but always set it explicitly so a future reader isn't confused) plus `border-spacing: <h> <v>`. Negative values aren't allowed, so if you need to *remove* spacing you set it to `0`.
+    - **`empty-cells: hide` cleans up sparse data.** If a row has nulls for half its columns and you've given each cell a background, `empty-cells: hide` makes the empty ones invisible (no border, no bg) without you writing `=if(...)` everywhere.
+    - **Mixing `display: table` with flex parents works fine** — the table behaves like a single flex item from the outside. Wrap a table-display block inside a `display: flex` row to combine the strengths of both.
+    - **No `colspan` / `rowspan`.** Those are HTML attributes, not CSS, and `attributes.colspan` is not in the allow-list. To fake a colspan: use a single `table-cell` with no siblings in its `table-row`, and give it `width: 100%`.
+    - **Tables are the only way to get true equal-width children without flexbox math.** `display: table` + `table-layout: fixed` divides the available width exactly evenly among siblings with `display: table-cell` (or honors explicit `width: X%` values across the row).
+    - **`caption-side` is rarely useful** in formatter output (you'd need a `<caption>` element, and `caption` isn't a valid `elmType`). Skip it.
+    - **Performance note:** for views with thousands of rows, a deeply nested `display: table` row formatter renders faster than a `display: flex` one with lots of conditional logic, because the engine doesn't re-measure on each render.
+
+### When to pick table vs. flex vs. multi-column
+
+| Need | Best choice |
+| --- | --- |
+| Card row that wraps to next line | **flex** (`flex-wrap: wrap` + `flex: 1 1 240px`) |
+| 2-3 fixed columns with equal heights | **table** (`display: table` + `table-cell`) |
+| Vertical centering one element inside another | **table-cell** + `vertical-align: middle` |
+| Long flowing text into N columns | **multi-column** (`column-width: 240px`) |
+| Spec-sheet style key/value pairs | **table** (cleaner than flex per row) |
+| Sidebar + main content | **flex** (`flex: 0 0 240px` + `flex: 1 1 0`) |
+| Inter-item spacing without margin math | **table** (`border-spacing`) or **multi-column** (`column-gap`) |
 
 ---
 
