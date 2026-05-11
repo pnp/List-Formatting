@@ -1,0 +1,53 @@
+[
+  {
+    "name": "pnp-list-formatting-credit-card",
+    "reponame": "credit-card",
+    "source": "pnp",
+    "title": "Credit / Loyalty Card",
+    "shortDescription": "This SharePoint JSON view formatting sample transforms list items into realistic credit / loyalty cards with a chip, embossed card number, cardholder, expiry and tier-driven colour.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/credit-card",
+    "longDescription": [
+      "This SharePoint JSON view formatting sample transforms list items into realistic credit / loyalty cards.",
+      "Each item renders as a plastic-card with a brand name, tier pill, EMV chip, contactless symbol, card number, cardholder name, expiry and network logo. The card colour is driven by the Tier value."
+    ],
+    "creationDateTime": "2026-05-11T00:00:00.000Z",
+    "updateDateTime": "2026-05-11T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      { "key": "LIST-SAMPLE-TYPE", "value": "View" },
+      { "key": "SHAREPOINT-COMPATIBILITY", "value": "SharePoint Online" },
+      { "key": "SAMPLE-CATEGORIES", "value": "" },
+      { "key": "LIST-COLUMN-TYPE", "value": "" },
+      { "key": "FORMATTING-TOKENS", "value": "" },
+      { "key": "FORMATTING-OPERATORS", "value": "if, ==" },
+      { "key": "FORMATTING-ACTIONS", "value": "" },
+      { "key": "FORMATTING-FEATURES", "value": "hideSelection, hideColumnHeader, rowFormatter" },
+      { "key": "CLASSES", "value": "" }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/credit-card/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sudeepghatak",
+        "pictureUrl": "https://github.com/sudeepghatak.png",
+        "name": "Sudeep Ghatak"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]
