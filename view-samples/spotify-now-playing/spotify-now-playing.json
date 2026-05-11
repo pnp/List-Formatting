@@ -1,0 +1,203 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "align-items": "center",
+      "max-width": "720px",
+      "margin": "16px auto",
+      "padding": "16px 22px 16px 16px",
+      "border-radius": "12px",
+      "background-color": "[$BackgroundColor]",
+      "color": "#ffffff",
+      "font-family": "Arial, sans-serif",
+      "box-shadow": "0 10px 24px rgba(0,0,0,0.4)"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "84px",
+          "height": "84px",
+          "flex-shrink": "0",
+          "background-color": "[$AccentColor]",
+          "border-radius": "8px",
+          "margin-right": "18px",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "box-shadow": "0 4px 12px rgba(0,0,0,0.4)"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "Headphones"
+            },
+            "style": {
+              "font-size": "34px",
+              "color": "#ffffff"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "min-width": "0",
+          "padding-right": "14px",
+          "display": "flex",
+          "flex-direction": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "font-size": "10px",
+              "letter-spacing": "2px",
+              "text-transform": "uppercase",
+              "color": "rgba(255,255,255,0.75)",
+              "margin-bottom": "4px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "8px",
+                  "height": "8px",
+                  "border-radius": "4px",
+                  "background-color": "[$AccentColor]",
+                  "margin-right": "6px"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "[$Status]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Title]",
+            "style": {
+              "font-size": "20px",
+              "font-weight": "bold",
+              "line-height": "22px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Artist]",
+            "style": {
+              "font-size": "13px",
+              "color": "rgba(255,255,255,0.85)",
+              "margin-top": "2px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "[$Album]",
+            "style": {
+              "font-size": "11px",
+              "color": "rgba(255,255,255,0.6)",
+              "margin-top": "2px"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-top": "10px",
+              "font-size": "10px",
+              "color": "rgba(255,255,255,0.75)"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "[$ElapsedTime]",
+                "style": {
+                  "margin-right": "8px",
+                  "font-family": "Consolas, monospace"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1",
+                  "height": "4px",
+                  "border-radius": "2px",
+                  "background-color": "rgba(255,255,255,0.18)",
+                  "margin-right": "8px",
+                  "overflow": "hidden"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "height": "4px",
+                      "background-color": "[$AccentColor]",
+                      "width": "=toString([$ProgressPercent]) + '%'"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "span",
+                "txtContent": "[$DurationTime]",
+                "style": {
+                  "font-family": "Consolas, monospace"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "align-items": "center",
+          "flex-shrink": "0"
+        },
+        "children": [
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "[$PlayIcon]"
+            },
+            "style": {
+              "font-size": "18px",
+              "width": "40px",
+              "height": "40px",
+              "border-radius": "20px",
+              "background-color": "#ffffff",
+              "color": "#1a1a1a",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin-right": "10px",
+              "box-shadow": "0 4px 10px rgba(0,0,0,0.35)"
+            }
+          },
+          {
+            "elmType": "span",
+            "attributes": {
+              "iconName": "[$LikeIcon]"
+            },
+            "style": {
+              "font-size": "20px",
+              "color": "[$AccentColor]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
