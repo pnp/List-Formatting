@@ -5,6 +5,7 @@ nav:
     - Using the Samples: gettingstarted/index.md
     - Applying Column Formats: gettingstarted/columnformats.md
     - Applying View Formats: gettingstarted/viewformats.md
+    - Style Properties Reference: gettingstarted/styleproperties.md
   - Column Samples: columnsamples.md
   - Form Samples: formsamples.md
   - View Samples: viewsamples.md
