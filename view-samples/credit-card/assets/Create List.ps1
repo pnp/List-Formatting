@@ -13,6 +13,7 @@ Add-PnPField -List $listName -DisplayName "Network" -InternalName "Network" -Typ
   -Choices @("Visa", "Mastercard", "Amex", "Bonvoy", "Les Mills", "Allpress", "Air NZ", "Membership")
 Add-PnPField -List $listName -DisplayName "Tier" -InternalName "Tier" -Type Choice -AddToDefaultView `
   -Choices @("Standard", "Gold", "Platinum", "Black", "Premium")
+Add-PnPField -List $listName -DisplayName "Tier Color" -InternalName "TierColor" -Type Text -AddToDefaultView
 Add-PnPField -List $listName -DisplayName "Card Number" -InternalName "CardNumber" -Type Text -AddToDefaultView
 Add-PnPField -List $listName -DisplayName "Card Holder" -InternalName "CardHolder" -Type Text -AddToDefaultView
 Add-PnPField -List $listName -DisplayName "Valid Thru" -InternalName "ValidThru" -Type Text -AddToDefaultView
@@ -22,6 +23,16 @@ Write-Host "List '$listName' created successfully with all columns!" -Foreground
 # Seed the list with sample cards
 # Re-declared so this block can be run on its own (e.g. selection-run in VS Code).
 $listName = "MembershipCards"
+
+# Tier -> background colour map (hex). The formatter reads [$TierColor] directly so
+# you can override per-card simply by editing the list item.
+$tierColors = @{
+  "Black"    = "#1a1a1a"
+  "Platinum" = "#2a3f6e"
+  "Gold"     = "#b88a2c"
+  "Premium"  = "#4a168b"
+  "Standard" = "#1a4480"
+}
 
 $sampleCards = @(
   @{
@@ -91,6 +102,7 @@ $sampleCards = @(
 )
 
 foreach ($c in $sampleCards) {
+  $c.TierColor = $tierColors[$c.Tier]
   Add-PnPListItem -List $listName -Values $c | Out-Null
   Write-Host "  Added: $($c.Title) - $($c.Tier) ($($c.Network))" -ForegroundColor Cyan
 }

@@ -16,7 +16,7 @@
       "flex-direction": "column",
       "justify-content": "space-between",
       "box-shadow": "0 10px 24px rgba(0,0,0,0.45)",
-      "background-color": "=if([$Tier] == 'Black', '#1a1a1a', if([$Tier] == 'Platinum', '#2a3f6e', if([$Tier] == 'Gold', '#b88a2c', if([$Tier] == 'Premium', '#4a168b', '#1a4480'))))",
+      "background-color": "[$TierColor]",
       "border": "1px solid rgba(255,255,255,0.12)"
     },
     "children": [
@@ -111,11 +111,12 @@
           },
           {
             "elmType": "span",
-            "txtContent": "((( ",
             "style": {
-              "font-size": "18px",
-              "color": "rgba(255,255,255,0.85)",
-              "font-weight": "bold"
+              "font-size": "16px",
+              "color": "rgba(255,255,255,0.85)"
+            },
+            "attributes": {
+              "iconName": "Wifi"
             }
           }
         ]
@@ -124,7 +125,7 @@
         "elmType": "div",
         "txtContent": "[$CardNumber]",
         "style": {
-          "font-family": "Consolas, 'Courier New', monospace",
+          "font-family": "Consolas, monospace",
           "font-size": "22px",
           "letter-spacing": "3px",
           "font-weight": "bold"
@@ -163,7 +164,7 @@
                     "elmType": "div",
                     "txtContent": "[$CardHolder]",
                     "style": {
-                      "font-family": "Consolas, 'Courier New', monospace",
+                      "font-family": "Consolas, monospace",
                       "font-size": "13px",
                       "letter-spacing": "2px",
                       "text-transform": "uppercase",
@@ -189,7 +190,7 @@
                     "elmType": "div",
                     "txtContent": "[$ValidThru]",
                     "style": {
-                      "font-family": "Consolas, 'Courier New', monospace",
+                      "font-family": "Consolas, monospace",
                       "font-size": "13px",
                       "letter-spacing": "2px",
                       "font-weight": "bold",
