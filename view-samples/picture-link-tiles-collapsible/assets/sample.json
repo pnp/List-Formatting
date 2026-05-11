@@ -1,0 +1,79 @@
+﻿[
+  {
+    "name": "pnp-list-formatting-picture-link-tiles-collapsible",
+    "reponame": "picture-link-tiles-collapsible",
+    "source": "pnp",
+    "title": "Picture Link Tiles - Collapsible",
+    "shortDescription": "Creates a card-style tile view in a SharePoint list with expand and collapse functionality.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/view-samples/picture-link-tiles-collapsible",
+    "longDescription": [
+      "Currently, Gallery view allows formatting of group headers, but it does not support built-in or JSON-based expand and collapse behavior like List view. This sample demonstrates how to render list items as cards, where you can choose which field values are displayed within each card and define target links."
+    ],
+    "creationDateTime": "2026-01-07T00:00:00.000Z",
+    "updateDateTime"  : "2026-01-07T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Gallery, Grouped"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": "@group.fieldData"
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "getThumbnailImage"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, groupProps, headerFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontWeight-bold, ms-fontColor-neutralPrimary, ms-fontColor-themeDark, ms-bgColor-themeLighter, ms-bgColor-themeLighterAlt"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/picture-link-tiles-collapsible/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "watana2",
+        "pictureUrl": "https://github.com/watana2.png",
+        "name": "Watana"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

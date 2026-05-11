@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Microsoft Teams"
+        "value": "Microsoft Teams, Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -57,7 +57,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-teams-message-format/assets/screenshot-name-picture.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-teams-message-format/assets/screenshot.png",
         "alt": "screenshot of the sample"
       },
       {

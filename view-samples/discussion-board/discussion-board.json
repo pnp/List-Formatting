@@ -74,7 +74,6 @@
                         "children": [
                           {
                             "elmType": "div",
-                            "style": {},
                             "children": [
                               {
                                 "elmType": "div",
@@ -375,7 +374,6 @@
               },
               {
                 "elmType": "div",
-                "style": {},
                 "children": [
                   {
                     "elmType": "div",
@@ -1167,7 +1165,7 @@
                             "children": [
                               {
                                 "elmType": "div",
-                                "txtContent": "= [$ID] +' Last Modified ' + if(getMonth([$Modified])==0, 'Jan', if(getMonth([$Modified])==1, 'Feb', if(getMonth([$Modified])==2, 'Mar', if(getMonth([$Modified])==3, 'Apr',  if(getMonth([$Modified])==4, 'May', if(getMonth([$Modified])==5, 'Jun', if(getMonth([$Modified])==6 , 'Jul', if(getMonth([$Modified])==7, 'Aug', if(getMonth([$Modified])==8 , 'Sep', if(getMonth([$Modified])==9, 'Oct', if(getMonth([$Modified])==10, 'Nov', if(getMonth([$Modified])==11, 'Dec', ''))))))))))))+ ' ' +getDate([$Modified])+ ', '+ getYear([$Modified]) + ' by ' + [$personIterator.title] +' v'+[$owshiddenversion]",
+                                "txtContent": "=[$ID] +' Last Modified ' + if(getMonth([$Modified])==0, 'Jan', if(getMonth([$Modified])==1, 'Feb', if(getMonth([$Modified])==2, 'Mar', if(getMonth([$Modified])==3, 'Apr',  if(getMonth([$Modified])==4, 'May', if(getMonth([$Modified])==5, 'Jun', if(getMonth([$Modified])==6 , 'Jul', if(getMonth([$Modified])==7, 'Aug', if(getMonth([$Modified])==8 , 'Sep', if(getMonth([$Modified])==9, 'Oct', if(getMonth([$Modified])==10, 'Nov', if(getMonth([$Modified])==11, 'Dec', ''))))))))))))+ ' ' +getDate([$Modified])+ ', '+ getYear([$Modified]) + ' by ' + [$personIterator.title] +' v'+[$owshiddenversion]",
                                 "attributes": {
                                   "class": "ms-fontSize-12 ms-fontColor-gray100"
                                 },

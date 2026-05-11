@@ -19,8 +19,8 @@ Description   | Multi Line Text
 
 Solution|Author(s)
 --------|---------
-timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-timeline-horizontal.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+timeline-horizontal.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Hover Cards, Grouped"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -34,11 +34,11 @@
       },
       {
         "key": "FORMATTING-TOKENS",
-        "value": "@group.fieldData, getUserImage"
+        "value": "@group.fieldData"
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": ""
+        "value": "getUserImage"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "groupProps, hideSelection, hideColumnHeader, rowFormatter, defaultHoverField"
+        "value": "groupProps, hideSelection, hideColumnHeader, rowFormatter, defaultHoverField, headerFormatter"
       },
       {
         "key": "CLASSES",

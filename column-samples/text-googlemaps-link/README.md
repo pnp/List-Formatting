@@ -12,7 +12,7 @@ This sample demonstrates displaying a link to Google Maps. The URL for that link
 
 Solution|Author(s)
 --------|---------
-text-googlemaps-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+text-googlemaps-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

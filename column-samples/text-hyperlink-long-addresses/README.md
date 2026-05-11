@@ -14,7 +14,7 @@ Using the following code, you can easily turn a “multiple lines of text” col
 ## Sample
 Solution|Author(s)
 --------|---------
-text-hyperlink-long-addresses.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+text-hyperlink-long-addresses.json | [Geert de Kooter](https://github.com/gdk-max)
 
 ## Version history
 Version|Date|Comments

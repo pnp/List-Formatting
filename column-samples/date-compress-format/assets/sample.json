@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Date, getDate, getMonth, getYear"
+        "value": "getDate, getMonth, getYear"
       },
       {
         "key": "FORMATTING-ACTIONS",

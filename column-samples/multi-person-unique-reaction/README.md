@@ -18,8 +18,8 @@ A user can only either like or dislike an item, if an item is liked by the curre
 
 Solution|Author(s)
 --------|---------
-multi-person-unique-reaction.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
-multi-person-unique-reaction-dislike.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+multi-person-unique-reaction.json | [Michel Mendes](https://github.com/michelcarlo)
+multi-person-unique-reaction-dislike.json | [Michel Mendes](https://github.com/michelcarlo)
 
 ## Version history
 

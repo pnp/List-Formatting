@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "border": "1px solid #e0e0e0",
+      "border-radius": "8px",
+      "box-shadow": "0 2px 5px rgba(0,0,0,0.1)",
+      "overflow": "hidden",
+      "background-color": "#fff",
+      "display": "flex",
+      "flex-direction": "column"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "txtContent": "[$Title]",
+        "style": {
+          "background-color": "#fff78a",
+          "font-size": "18px",
+          "font-weight": "600",
+          "padding": "12px",
+          "text-align": "center",
+          "border-bottom": "2px solid #f2d600",
+          "width": "100%"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "max-height": "180px",
+          "overflow-y": "auto",
+          "font-size": "14px",
+          "line-height": "20px",
+          "color": "#333",
+          "width": "100%"
+        },
+        "txtContent": "[$Feedback]"
+      }
+    ]
+  }
+}

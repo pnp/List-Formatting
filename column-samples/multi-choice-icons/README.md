@@ -46,7 +46,7 @@ We can use the `join` or `toString` functions on the value first and then nest t
 
 Solution|Author(s)
 --------|---------
-multi-choice-icons.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-choice-icons.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

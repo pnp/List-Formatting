@@ -24,7 +24,7 @@ Key points:
 
 Solution|Author(s)
 --------|---------
-approval-buttons-setValue-status-user.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+approval-buttons-setValue-status-user.json | [Michel Mendes](https://github.com/michelcarlo)
 
 ## Version history
 

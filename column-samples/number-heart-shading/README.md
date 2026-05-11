@@ -16,9 +16,9 @@ This format can be applied to a Number column. It is expected that the values wi
 
 Solution|Author(s)
 --------|---------
-number-heart-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-number-heart-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-number-heart-shading-rainbow-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-heart-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+number-heart-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+number-heart-shading-rainbow-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

@@ -29,7 +29,7 @@ The value before the colon is used to set an icon and font-color as well as bein
 
 Solution|Author(s)
 --------|---------
-generic-substring-status.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-substring-status.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -1234,7 +1234,6 @@
                   "font-size": "16px",
                   "font-weight": "500",
                   "cursor": "=if([$Author.email] == @me, 'pointer', '')",
-                  "line-height": "",
                   "overflow": "hidden",
                   "white-space": "nowrap",
                   "text-overflow": "ellipsis"

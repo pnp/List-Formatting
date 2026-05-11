@@ -26,7 +26,7 @@ Display | Yes/No | Show or hide announcements
 ## Sample
 
 Solution|Author(s)
---------|-
+--------|---------
 highlighted-announcements.json | [Watana](https://github.com/watana2)
 
 
@@ -39,4 +39,4 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/highlighted-announcements"/>
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/highlighted-announcements" />

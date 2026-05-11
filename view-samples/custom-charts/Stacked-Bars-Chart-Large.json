@@ -2150,7 +2150,6 @@
             "style": {
               "display": "flex"
             },
-            "txtContent": "",
             "children": [
               {
                 "elmType": "div",

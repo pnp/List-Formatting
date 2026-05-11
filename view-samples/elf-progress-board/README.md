@@ -28,7 +28,7 @@ This sample demonstrates:
 
 Solution|Author(s)
 --------|---------
-elf-progress-board.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+elf-progress-board.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

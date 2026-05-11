@@ -26,7 +26,7 @@ This format can be applied to any column type.
 
 Solution|Author(s)
 --------|---------
-generic-context-menu.json | [Larry Pfaff](https://github.com/jaxkookie) ([@jaxkookie](https://twitter.com/jaxkookie))
+generic-context-menu.json | [Larry Pfaff](https://github.com/jaxkookie)
 generic-context-menu-minimal.json | [Watana](https://github.com/watana2)
 
 ## Version history

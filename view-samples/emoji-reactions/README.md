@@ -31,8 +31,8 @@ Here's how the storage looks behind the scenes:
 
 Solution|Author(s)
 --------|---------
-emoji-reactions.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
-emoji-reactions-count.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+emoji-reactions.json | [André Lage](https://github.com/aaclage)
+emoji-reactions-count.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

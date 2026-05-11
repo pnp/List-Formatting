@@ -34,8 +34,8 @@ These formulas have been put into the separate format because they are difficult
 
 Solution|Author(s)
 --------|---------
-generic-scheduling-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-generic-scheduling-link-advanced.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k)) & [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-scheduling-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+generic-scheduling-link-advanced.json | [Tetsuya Kawahara](https://github.com/tecchan1107) & [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

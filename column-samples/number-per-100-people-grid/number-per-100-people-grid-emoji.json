@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "font-size": "24px",
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "0.25em",
+        "display": "flex",
+        "flex-direction": "column",
+        "gap": "0.125em",
+        "padding": "0.75em"
+      },
+      "children": [
+        {
+          "forEach": "rowIterator in split('rrrrrrrrrr','')",
+          "elmType": "div",
+          "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "gap": "0.125em"
+          },
+          "children": [
+            {
+              "forEach": "columnIterator in split('cccccccccc','')",
+              "elmType": "div",
+              "txtContent": "=if(loopIndex('rowIterator') * 10 + loopIndex('columnIterator') + 1 <= ceiling(@currentField), '🐴', '👤')",
+              "style": {
+                "font-size": "1em"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "font-size": "1.25em",
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "padding": "0.125em"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "txtContent": "=ceiling(@currentField)",
+          "attributes": {
+            "class": "ms-fontColor-themePrimary"
+          }
+        },
+        {
+          "elmType": "div",
+          "txtContent": "per 100 people",
+          "attributes": {
+            "class": "ms-fontColor-neutralSecondary"
+          },
+          "style": {
+            "font-size": "0.375em",
+            "white-space": "nowrap"
+          }
+        }
+      ]
+    }
+  ]
+}

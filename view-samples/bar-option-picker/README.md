@@ -19,7 +19,7 @@ Value | Number - Default value 0
 
 Solution|Author(s)
 --------|---------
-bar-option-picker.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+bar-option-picker.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

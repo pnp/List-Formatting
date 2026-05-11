@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Gallery, SVG"
+        "value": "Gallery, SVG, Icons, Inline Editing, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,19 +38,19 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "appendTo, getThumbnailImage, getUserImage, indexOf, length, loopIndex, Number, replaceAll, split, substring"
+        "value": "appendTo, getThumbnailImage, getUserImage, indexOf, length, loopIndex, Number, replaceAll, split, substring, toString"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "defaultClick"
+        "value": "defaultClick, setValue"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "forEach, fillHorizontally, hideSelection"
+        "value": "forEach, fillHorizontally, hideSelection, defaultHoverField, customCardProps"
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-communicationPrimary--hover, ms-bgColor-neutralLight, ms-bgColor-themeLighter, ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, sp-card-borderHighlight, sp-card-container, sp-card-content, sp-card-defaultClickButton, sp-card-defaultImage, sp-card-defaultImageOverlay, sp-card-displayColumnContainer, sp-card-emptyFillStar, sp-card-halfFillStar, sp-card-highlightedContent, sp-card-imageContainer, sp-card-imagePreview, sp-card-imagePreviewBackground, sp-card-keyboard-focusable, sp-card-label, sp-card-previewColumnContainer, sp-card-starRating, sp-card-subContainer, sp-card-urlContent, sp-card-userContainer, sp-card-userCustomCard, sp-card-userOthers, sp-card-userTitle, sp-css-borderColor-neutralLight"
+        "value": "ms-bgColor-communicationPrimary--hover, ms-bgColor-neutralLight, ms-bgColor-themeLighter, ms-bgColor-white, ms-fontColor-neutralPrimary, ms-fontColor-neutralSecondary, sp-card-borderHighlight, sp-card-container, sp-card-content, sp-card-defaultClickButton, sp-card-defaultImage, sp-card-defaultImageOverlay, sp-card-displayColumnContainer, sp-card-emptyFillStar, sp-card-halfFillStar, sp-card-highlightedContent, sp-card-imageContainer, sp-card-imagePreview, sp-card-imagePreviewBackground, sp-card-keyboard-focusable, sp-card-label, sp-card-previewColumnContainer, sp-card-starRating, sp-card-subContainer, sp-card-urlContent, sp-card-userContainer, sp-card-userCustomCard, sp-card-userOthers, sp-card-userTitle, sp-css-borderColor-neutralLight, sp-card-personCallout, sp-card-userEmptyText, sp-card-userThumbnail, sp-card-ratingCount"
       }
     ],
     "thumbnails": [

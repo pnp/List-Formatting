@@ -23,7 +23,7 @@ Also, this sample uses the `setValue` of `customRowAction` to update the field. 
 
 Solution|Author(s)
 --------|---------
-yesno-checkbox.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent)), [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+yesno-checkbox.json | [Chris Kent](https://github.com/thechriskent), [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

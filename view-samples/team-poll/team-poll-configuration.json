@@ -817,8 +817,7 @@
           {
             "elmType": "div",
             "style": {
-              "background-color": "red",
-              "display": ""
+              "background-color": "red"
             },
             "txtContent": "RESET",
             "customRowAction": {

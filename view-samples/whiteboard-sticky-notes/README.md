@@ -22,7 +22,7 @@ This sample creates a whiteboard-styled sticky notes that displays information. 
 
 Solution|Author(s)
 --------|---------
-whiteboard-sticky-notes.json | [Anand Ragav](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+whiteboard-sticky-notes.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 

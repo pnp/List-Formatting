@@ -27,7 +27,7 @@ Choice values managed for the status choice column in this sample:
 
 Solution|Author(s)
 --------|---------
-group-header-status-icon-color.json | [Michel Mendes](https://github.com/michelcarlo) [(@michelcarlo)](https://twitter.com/michelcarlo)
+group-header-status-icon-color.json | [Michel Mendes](https://github.com/michelcarlo)
 
 ## Version history
 

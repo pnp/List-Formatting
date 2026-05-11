@@ -20,8 +20,8 @@ An additional format is included to illustrate how to apply the same visualizati
 
 Solution|Author(s)
 --------|---------
-number-data-bar.json | [SharePoint Team](https://github.com/SharePoint) ([@m365dev](https://twitter.com/m365dev))
-percent-data-bar.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+number-data-bar.json | [SharePoint Team](https://github.com/SharePoint)
+percent-data-bar.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

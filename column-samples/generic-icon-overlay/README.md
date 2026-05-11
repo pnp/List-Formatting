@@ -45,9 +45,9 @@ This is a very basic sample that simply displays a Cat icon and is helpful for d
 
 Solution|Author(s)
 --------|---------
-generic-icon-overlay.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-simple-icon.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-generic-icon-overlay-multiple.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-icon-overlay.json | [Chris Kent](https://github.com/thechriskent)
+simple-icon.json | [Chris Kent](https://github.com/thechriskent)
+generic-icon-overlay-multiple.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

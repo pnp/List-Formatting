@@ -3,7 +3,7 @@
 ## Summary
 The sample list of items in a tile view where default click action is disabled. When item is clicked it is selected only.
 
-![screenshot](./assets/screenshot.gif)
+![screenshot of the sample](./assets/screenshot.gif)
 
 > [!NOTE]  
 > - The list shown above is not part of this sample. It's just a sample list where this format was applied.
@@ -38,4 +38,4 @@ Any potential additional notes to get included in the readme around the sample w
 - Adjust the  "height", "width" paramters to your individual needs or remove them to get a standard size of a tile.
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/view-samples/disable-click-action" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/disable-click-action" />

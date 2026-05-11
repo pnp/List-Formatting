@@ -42,7 +42,7 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "executeFlow"
       },
       {
         "key": "FORMATTING-FEATURES",

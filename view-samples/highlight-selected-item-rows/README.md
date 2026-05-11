@@ -16,7 +16,7 @@ View with **List** or **Compact List** layout.
 
 Solution|Author(s)
 --------|---------
-highlight-selected-item-rows.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
+highlight-selected-item-rows.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

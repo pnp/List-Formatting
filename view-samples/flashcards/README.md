@@ -21,7 +21,7 @@ Users         | Person or Group (multiple selection allowed)
 
 Solution|Author(s)
 --------|---------
-flashcards.json | [Anand Vadivelan](https://github.com/anandragav) ([@anandVragav](https://twitter.com/anandVragav))
+flashcards.json | [Anand Vadivelan](https://github.com/anandragav)
 
 ## Version history
 

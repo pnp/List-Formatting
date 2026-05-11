@@ -46,7 +46,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

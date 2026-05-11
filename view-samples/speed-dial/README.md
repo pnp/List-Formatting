@@ -3,7 +3,7 @@
 ## Summary
 This sample creates a speed dial list for your team members/contacts, that you can list as a tab in your teams channel and/or display on your Team SharePoint site, to get quick access to your contacts through Teams call, chat and email.
 
-![List scrneenshot(./assets/Speed dial 1.png)
+![screenshot of the sample](./assets/screenshot.png)
 ![Speed dial screenshot](./assets/Speed dial 2.png)
 
 ## View requirements
@@ -19,7 +19,7 @@ This sample creates a speed dial list for your team members/contacts, that you c
 
 Solution|Author(s)
 --------|---------
-speed-dial.json | Anand Ragav https://twitter.com/anandVragav 
+speed-dial.json | [Anand Ragav](https://github.com/anandragav)
 
 ## Version history
 
@@ -35,3 +35,4 @@ Version|Date|Comments
 ## Additional notes
 The hyperlinks in the teamscall and teamschat columns are deep links to Teams chat and teams calls respectively with a single user. Refer deep links documentation for Microsoft Teams. 
 
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/speed-dial" />

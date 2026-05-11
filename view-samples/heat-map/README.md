@@ -24,7 +24,7 @@ This format utilizes theme colors and will adjust correctly as themes change (ev
 
 Solution|Author(s)
 --------|---------
-heat-map.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+heat-map.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -14,7 +14,7 @@ None
 
 Solution|Author(s)
 --------|---------
-created-modified-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+created-modified-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

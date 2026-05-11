@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Grouped"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "groupProps, headerFormatter"
       },
       {
         "key": "CLASSES",

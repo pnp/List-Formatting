@@ -38,9 +38,9 @@ FormattedDestinationDate    | Calculated (`=TEXT([DestinationTime],"dd mmm")`) (
 
 ## Sample
 
-Solution|Author
+Solution|Author(s)
 --------|---------
-flight-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](https://www.linkedin.com/in/sudeepghatak/))
+flight-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Version history
 

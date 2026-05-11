@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "width": "100%"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "2px auto"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "vertical-align": "middle",
+            "white-space": "nowrap",
+            "width": "auto",
+            "padding": "5px",
+            "color": "=if( ((((ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) * 0.299) + (ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10) * 0.587) + ((255 - ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) * 0.114)) ) > 145, '#000000', '#ffffff')",
+            "background-color": "='rgba(' + (ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) + ', ' + (ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)  + ', ' + (255 - ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) + ', 1)'",
+			"border-width": "2px",
+            "border-style": "solid",
+            "border-color": "='rgba(' + (255 - ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) + ', ' + (255 - ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)  + ', ' + (ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) + ', 1)'",
+            "border-radius": "25px"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "padding": "8px"
+              },
+              "txtContent": "@currentField.lookupValue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

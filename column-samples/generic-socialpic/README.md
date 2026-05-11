@@ -25,7 +25,7 @@ This format expects to be applied to a text based column containing the username
 
 Solution|Author(s)
 --------|---------
-generic-socialpic.json | [David Warner II](https://github.com/PopWarner) ([@DavidWarnerII](https://twitter.com/davidwarnerii))
+generic-socialpic.json | [David Warner II](https://github.com/PopWarner)
 
 ## Version history
 

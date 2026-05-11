@@ -27,7 +27,7 @@ Score | Number
 
 Solution|Author(s)
 --------|---------
-risk-score-rowclass.json | [S Merchant](https://github.com/sohailmerchant) ([@sohailmerchant](https://twitter.com/sohailmerchant))
+risk-score-rowclass.json | [S Merchant](https://github.com/sohailmerchant)
 
 ## Version history
 

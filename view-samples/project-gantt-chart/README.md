@@ -32,7 +32,7 @@ The view should be sorted by `TaskStart`, ascending
 
 Solution|Author(s)
 --------|---------
-project-gantt-chart.json | [Geert de Kooter](https://github.com/gdk-max) ([@gdekooter](https://twitter.com/gdekooter))
+project-gantt-chart.json | [Geert de Kooter](https://github.com/gdk-max)
 
 ## Version history
 

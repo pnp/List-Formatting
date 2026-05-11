@@ -23,7 +23,7 @@ This sample demonstrates how to display Praise Cards. By creating a Praise Card,
 
 Solution|Author(s)
 --------|---------
-praise-cards.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+praise-cards.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

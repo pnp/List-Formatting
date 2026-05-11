@@ -26,7 +26,7 @@ No | Person or Group | col_7
 ## Sample
 
 Solution|Author(s)
---------|-
+--------|---------
 department-members-list.json | [Watana](https://github.com/watana2)
 
 

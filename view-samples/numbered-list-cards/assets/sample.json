@@ -50,7 +50,7 @@
       },
       {
         "key": "CLASSES",
-        "value": "ms-bgColor-neutralLighter, ms-bgColor-themePrimary, ms-fontColor-white, ms-fontSize-m, ms-fontSize-xlPlus, ms-fontWeight-bold, ms-fontWeight-regular, ms-fontWeight-semibold"
+        "value": "ms-bgColor-neutralLighter, ms-bgColor-themePrimary, ms-fontColor-white, ms-fontSize-m, ms-fontSize-xlPlus, ms-fontWeight-bold, ms-fontWeight-regular, ms-fontWeight-semibold, ms-fontSize-l"
       }
     ],
     "thumbnails": [

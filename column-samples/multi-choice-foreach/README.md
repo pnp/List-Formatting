@@ -14,7 +14,7 @@ This sample demonstrates usage of the `forEach` property to create template elem
 
 Solution|Author(s)
 --------|---------
-multi-choice-foreach.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+multi-choice-foreach.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

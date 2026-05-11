@@ -19,7 +19,7 @@ Expand | Yes/No - default value **"No"**
 
 Solution|Author(s)
 --------|---------
-text-expand-collapse-format.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+text-expand-collapse-format.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

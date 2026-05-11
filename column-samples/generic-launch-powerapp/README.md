@@ -41,7 +41,7 @@ If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")), scrDetail, scrHome)
 
 Solution|Author(s)
 --------|---------
-generic-launch-powerapp.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-launch-powerapp.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

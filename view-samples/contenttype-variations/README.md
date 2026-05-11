@@ -62,7 +62,7 @@ Invoke-PnPSiteTemplate -Path FruitTemplate.xml
 
 Solution|Author(s)
 --------|---------
-contenttype-variations.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+contenttype-variations.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

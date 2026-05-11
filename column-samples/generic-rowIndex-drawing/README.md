@@ -14,7 +14,7 @@ Also included is the AquaticAssetsGenerator.ps1 PowerShell script that demonstra
 
 Solution|Author(s)
 --------|---------
-generic-rowIndex-drawing.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-rowIndex-drawing.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -65,8 +65,8 @@ After the script has successfully run you will see the following screen.
 
 Solution|Author(s)
 --------|---------
-product-catalog.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Chad Liu, Damian Gibbs, Randy Wang
-product-catalog-library.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Chad Liu, Damian Gibbs, Randy Wang
+product-catalog.json | [Todd Baginski](https://github.com/TBag), Chris McNulty, Chad Liu, Damian Gibbs, Randy Wang
+product-catalog-library.json | [Todd Baginski](https://github.com/TBag), Chris McNulty, Chad Liu, Damian Gibbs, Randy Wang
 
 ## Version history
 

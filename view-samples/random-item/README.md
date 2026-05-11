@@ -23,7 +23,7 @@ In the above use case, this format has been used to display a random turkey fact
 
 Solution|Author(s)
 --------|---------
-random-item.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+random-item.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

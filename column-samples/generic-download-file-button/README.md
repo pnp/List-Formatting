@@ -14,7 +14,7 @@ This format can be applied to any column type (its value is ignored).
 
 Solution|Author(s)
 --------|---------
-generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
+generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

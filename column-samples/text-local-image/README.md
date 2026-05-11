@@ -30,9 +30,9 @@ This format illustrates providing a relative link that assumes the format knows 
 
 Solution|Author(s)
 --------|---------
-text-local-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-text-hardcoded-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
-text-relative-image.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+text-local-image.json | [Chris Kent](https://github.com/thechriskent)
+text-hardcoded-image.json | [Chris Kent](https://github.com/thechriskent)
+text-relative-image.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

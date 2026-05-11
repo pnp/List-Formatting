@@ -19,7 +19,7 @@ This view will only output iFrame embed codes for video files with common known 
 
 Solution|Author(s)
 --------|---------
-get-video-file-embed-code.json | [Marc Mroz](https://github.com/MarcMroz) ([@marcmroz](https://twitter.com/marcmroz))
+get-video-file-embed-code.json | [Marc Mroz](https://github.com/MarcMroz)
 
 ## Version history
 

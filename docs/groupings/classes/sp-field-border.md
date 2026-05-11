@@ -30,7 +30,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderAllRegular
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -43,8 +43,8 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderAllSolid
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Decimal to Binary Conversion](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-decimal-binary){target=_blank title="number-decimal-binary (Column): This sample provides decimal conversion to binary using standard List formatting math functions."}
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Decimal to Binary Conversion](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-decimal-binary){target=_blank title="number-decimal-binary (Column): This sample provides decimal conversion to binary using standard List formatting math functions." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-decimal-binary/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Group Header Status Icon and Color](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color){target=_blank title="group-header-status-icon-color (View): This is a sample of customizing the group header when grouping by a Status column. This format displays a different color and icon according to the Status." data-screenshot="https://raw.githubusercontent.com/pnp/list-formatting/master/view-samples/group-header-status-icon-color/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -57,7 +57,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderBottomDashed
-- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Search Within Tags](https://github.com/pnp/List-Formatting/tree/master/view-samples/search-within-tags){target=_blank title="search-within-tags (View): This sample demonstrates using inlineEditField to enable searching for a word against tags (choice column) within a list item."}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Search Within Tags](https://github.com/pnp/List-Formatting/tree/master/view-samples/search-within-tags){target=_blank title="search-within-tags (View): This sample demonstrates using inlineEditField to enable searching for a word against tags (choice column) within a list item." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/search-within-tags/assets/screenshot.gif"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -70,7 +70,7 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderBottomRegular
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
@@ -83,14 +83,16 @@ Samples are grouped by classes used. Expand to see the related samples.
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderBottomSolid
-- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template."}
+- :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Work Progress Category Pill ](https://github.com/pnp/list-formatting/tree/master/column-samples/multi-choice-workcategory-pill){target=_blank title="multi-choice-workcategory-pill (Column): This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-choice-workcategory-pill/assets/screenshot.png"}
 
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">2 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderLeftBold
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>
@@ -151,12 +153,15 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderLeftSemibold
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<div class="expansiongroup empty">
-    <span class="sampleCount">0 samples</span>
+<div class="expansiongroup">
+    <span class="sampleCount">3 samples</span>
 </div>
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderLeftSolid
-[:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+- :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Exam Bundle Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/exam-bundle-tracker){target=_blank title="exam-bundle-tracker (View): This sample transforms your list into an Exam Bundle Tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/exam-bundle-tracker/assets/screenshot.gif"}
+
 <div class="expansiongroup empty">
     <span class="sampleCount">0 samples</span>
 </div>

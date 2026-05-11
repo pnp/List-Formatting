@@ -32,7 +32,7 @@ The Gobble column above is where the YouTube shortcode goes. Both the Title and 
 
 Solution|Author(s)
 --------|---------
-video-navigator.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+video-navigator.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

@@ -30,7 +30,7 @@ This sample has the following points to note.
 
 Solution|Author(s)
 --------|---------
-wordle.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+wordle.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

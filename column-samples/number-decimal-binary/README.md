@@ -17,7 +17,7 @@ DecimalBinary | Number- Define min value of 0 and max value of 255.
 
 Solution|Author(s)
 --------|---------
-number-decimal-binary.json | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage))
+number-decimal-binary.json | [André Lage](https://github.com/aaclage)
 
 ## Version history
 

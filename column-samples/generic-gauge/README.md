@@ -22,7 +22,7 @@ To use custom values, simply to a find and replace with your equivalent values.
 
 Solution|Author(s)
 --------|---------
-generic-gauge.json | [Chris Kent](https://github.com/thechriskent) ([@thechriskent](https://twitter.com/thechriskent))
+generic-gauge.json | [Chris Kent](https://github.com/thechriskent)
 
 ## Version history
 

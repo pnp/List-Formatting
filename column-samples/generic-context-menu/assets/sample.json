@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": ""
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,19 +38,19 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "substring"
+        "value": "substring, lastIndexOf"
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": "defaultClick, executeFlow"
+        "value": "defaultClick, executeFlow, editProps, delete"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps"
+        "value": "customCardProps, beakStyle, directionalHint"
       },
       {
         "key": "CLASSES",
-        "value": "ms-borderColor-ThemeLight, ms-fontColor-red--hover ms-font-l, ms-fontColor-black--hover, ms-fontColor-themeLighter, ms-bgColor-themeLighter--hover, ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover, ms-Link"
+        "value": "ms-borderColor-ThemeLight, ms-fontColor-red--hover ms-font-l, ms-fontColor-black--hover, ms-fontColor-themeLighter, ms-bgColor-themeLighter--hover, ms-bgColor-gray50--hover, ms-bgColor-success--hover, ms-fontColor-black--hover, ms-Link, ms-bgColor-themePrimary"
       }
     ],
     "thumbnails": [

@@ -12,9 +12,9 @@ This format can be applied to a Yes/No column.
 
 Solution|Author(s)
 --------|---------
-yesno-toggle-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-yesno-toggle-icon-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-yesno-toggle-emoji-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+yesno-toggle-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+yesno-toggle-icon-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+yesno-toggle-emoji-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

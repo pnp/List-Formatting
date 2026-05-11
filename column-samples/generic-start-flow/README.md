@@ -23,7 +23,7 @@ To obtain a Flow's ID:
 
 Solution|Author(s)
 --------|---------
-generic-start-flow.json | [Yannick Borghmans](https://github.com/yborghmans) ([@yborghmans](https://twitter.com/yborghmans))
+generic-start-flow.json | [Yannick Borghmans](https://github.com/yborghmans)
 
 ## Version history
 

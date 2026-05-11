@@ -41,9 +41,9 @@ All grouping is initially expanded.
 
 ## Sample
 
-Solution| Author
+Solution|Author(s)
 --------|---------
-exam-bundle-tracker-overview.json | [Hubert Lam](https://github.com/z3019494) ([Hubert Lam](https://twitter.com/z3019494))
+exam-bundle-tracker.json | [Hubert Lam](https://github.com/z3019494)
 
 ## Version history
 

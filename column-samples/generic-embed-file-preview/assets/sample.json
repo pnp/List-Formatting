@@ -4,13 +4,13 @@
     "reponame": "generic-embed-file-preview",
     "source": "pnp",
     "title": "File Preview Callout with the embed Action",
-    "shortDescription": "This sample demonstrates how to display a file preview from a document library inside a callout using the embed action. This allows users to view file contents without leaving the current page.",
+    "shortDescription": "This sample demonstrates how to display a file preview from a document library or Site Pages inside a callout using the embed action. This allows users to view file contents without leaving the current page.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-embed-file-preview",
     "longDescription": [
-      "This sample demonstrates how to display a file preview from a document library inside a callout using the embed action. This allows users to view file contents without leaving the current page."
+      "This sample demonstrates how to display a file preview from a document library or Site Pages inside a callout using the embed action. This allows users to view file contents without leaving the current page."
     ],
     "creationDateTime": "2025-06-30T00:00:00.000Z",
-    "updateDateTime": "2025-06-30T00:00:00.000Z",
+    "updateDateTime": "2025-10-02T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Icons, Hover Cards"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -42,11 +42,11 @@
       },
       {
         "key": "FORMATTING-ACTIONS",
-        "value": ""
+        "value": "embed"
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": ""
+        "value": "customCardProps, beakStyle, directionalHint"
       },
       {
         "key": "CLASSES",
@@ -58,7 +58,13 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-embed-file-preview/assets/screenshot.png",
-        "alt": "screenshot"
+        "alt": "screenshot of a document library file preview in a callout"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-embed-file-preview/assets/screenshot-site-pages.png",
+        "alt": "screenshot of a Site Pages page preview in a callout"
       }
     ],
     "authors": [

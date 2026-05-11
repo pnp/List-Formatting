@@ -52,7 +52,7 @@ The View Formatter JSON ([card-format.json](card-format.json)) uses the Bing Map
 
 Solution|Author(s)
 --------|---------
-retail-accounts.json | [Todd Baginski](https://github.com/TBag) ([@TBag](https://twitter.com/tbag)), [Lincoln DeMaris](https://github.com/ldemaris) ([@LincedLists](https://twitter.com/LincedLists)), Chris McNulty ([@cmcnulty2000](https://twitter.com/cmcnulty2000)), Tyler Lui, Justin So
+retail-accounts.json | [Todd Baginski](https://github.com/TBag), [Lincoln DeMaris](https://github.com/ldemaris), Chris McNulty, Tyler Lui, Justin So
 
 ## Version history
 

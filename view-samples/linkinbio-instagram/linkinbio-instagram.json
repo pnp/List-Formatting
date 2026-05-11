@@ -1,0 +1,776 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "width": 315,
+  "height": 620,
+  "padding": 12,
+  "formatter": {
+    "elmType": "div",
+    "attributes": {
+      "class": "sp-row-listPadding"
+    },
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "width": "100%",
+      "border": "1px solid #eee",
+      "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
+      "padding": "26px",
+      "border-radius": "12px",
+      "background-color": "#242424",
+      "height": "=if([$Portfolio] == 'Yes', '620px', '350px')"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "align-items": "flex-start",
+          "margin-bottom": "10px",
+          "margin-top": "16px"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "=getUserImage([$Person.email],'L')",
+              "title": "[$Person.title]",
+              "alt": "[$erson.title]"
+            },
+            "style": {
+              "width": "75px",
+              "height": "75px",
+              "border-radius": "50%",
+              "object-fit": "cover",
+              "margin-right": "12px"
+            },
+            "defaultHoverField": "[$Person]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "flex-start"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Person.title]",
+                "style": {
+                  "color": "white",
+                  "font-weight": "bold",
+                  "font-size": "18px",
+                  "margin-bottom": "8px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Bio]",
+                "style": {
+                  "color": "white",
+                  "font-size": "14px",
+                  "margin-bottom": "16px",
+                  "text-align": "start"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "flex-start",
+          "flex-wrap": "wrap",
+          "margin-bottom": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Website"
+            },
+            "style": {
+              "color": "white",
+              "padding": "8px",
+              "border": "0.5px solid #363636",
+              "border-radius": "8px",
+              "background-color": "#363636",
+              "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.4)",
+              "margin": "4px",
+              "display": "=if([$Website], 'flex', 'none')",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$Website]",
+                  "target": "_blank"
+                },
+                "txtContent": "[$Website.desc]",
+                "style": {
+                  "width": "auto",
+                  "font-size": "14px",
+                  "color": "white",
+                  "text-decoration": "none",
+                  "text-align": "start",
+                  "padding-left": "8px"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Blog",
+              "class": "ms-bgColor-blue"
+            },
+            "style": {
+              "color": "white",
+              "padding": "8px",
+              "border": "0.5px solid #363636",
+              "border-radius": "8px",
+              "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.4)",
+              "margin": "4px",
+              "display": "=if([$Blog], 'flex', 'none')",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$Blog]",
+                  "target": "_blank"
+                },
+                "txtContent": "[$Blog.desc]",
+                "style": {
+                  "width": "auto",
+                  "font-size": "14px",
+                  "color": "white",
+                  "text-decoration": "none",
+                  "text-align": "start",
+                  "padding-left": "8px"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "iconName": "Articles",
+              "class": "ms-bgColor-blueLight"
+            },
+            "style": {
+              "color": "white",
+              "padding": "8px",
+              "border": "0.5px solid #363636",
+              "border-radius": "8px",
+              "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
+              "margin": "4px",
+              "display": "=if([$Newsletter], 'flex', 'none')",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$Newsletter]",
+                  "target": "_blank"
+                },
+                "txtContent": "[$Newsletter.desc]",
+                "style": {
+                  "width": "auto",
+                  "font-size": "14px",
+                  "color": "white",
+                  "text-decoration": "none",
+                  "text-align": "start",
+                  "padding-left": "8px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "space-around",
+          "margin-bottom": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px",
+              "justify-content": "stretch"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$VivaEngage]",
+                  "title": "Viva Engage",
+                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$Yammer] == '', 'none', 'span')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "#228BDE",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "YammerLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$TeamsCall]",
+                  "title": "Call me",
+                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$TeamsCall], 'span', 'none')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "#7B83EB",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "TeamsLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$TeamsChat]",
+                  "title": "Text me",
+                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$TeamsChat], 'span', 'none')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "#7B83EB",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "Chat",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$LinkedIn]",
+                  "title": "Connect with me",
+                  "class": "sp-row-button sp-row-button ms-bgColor-themePrimary--hover ms-fontWeight-semibold ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$LinkedIn], 'span', 'none')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "#0D65C2",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "LinkedInLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "margin": "2px"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$X]",
+                  "title": "Follow me",
+                  "class": "sp-row-button sp-row-button ms-bgColor-purpleDark--hover ms-fontWeight-semibold ms-fontColor-black"
+                },
+                "style": {
+                  "position": "relative",
+                  "margin-bottom": "12px",
+                  "background-color": "transparent",
+                  "border-radius": "4px",
+                  "display": "=if([$X], 'span', 'none')"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "color": "#1D9BEF",
+                      "align-content": "left",
+                      "justify-content": "left",
+                      "padding": "4px",
+                      "white-space": "normal"
+                    },
+                    "attributes": {
+                      "iconName": "TwitterLogo",
+                      "class": "ms-font-xl"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "a",
+            "style": {
+              "margin-top": "3px",
+              "display": "=if([$Instagram], 'span', 'none')"
+            },
+            "attributes": {
+              "href": "[$Instagram]"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "children": [
+                  {
+                    "elmType": "svg",
+                    "style": {
+                      "height": "35px",
+                      "width": "35px",
+                      "padding-right": "2px",
+                      "fill": "white"
+                    },
+                    "children": [
+                      {
+                        "elmType": "path",
+                        "attributes": {
+                          "viewBox": "0 0 28.87 28.87",
+                          "d": "M10 5h9c.2.1.5.1.7.2a4.78 4.78 0 0 1 3.8 3.3 8 8 0 0 1 .3 1.5v8.8a6.94 6.94 0 0 1-1.2 3.1 5.51 5.51 0 0 1-4.5 1.9h-7.5a5.49 5.49 0 0 1-3.7-1.2A5.51 5.51 0 0 1 5 18.14v-7a7.57 7.57 0 0 1 .1-1.5 4.9 4.9 0 0 1 3.8-4.3zm-3.1 9.5v3.9a3.42 3.42 0 0 0 3.7 3.7q3.9.15 7.8 0c2.3 0 3.6-1.4 3.7-3.7q.15-3.9 0-7.8a3.52 3.52 0 0 0-3.7-3.7q-3.9-.15-7.8 0a3.42 3.42 0 0 0-3.7 3.7z M9.64 14.54a4.91 4.91 0 0 1 4.9-4.9 5 5 0 0 1 4.9 4.9 4.91 4.91 0 0 1-4.9 4.9 5 5 0 0 1-4.9-4.9zm4.9-3.1a3.05 3.05 0 1 0 3 3 3 3 0 0 0-3-3z M18.34 9.44a1.16 1.16 0 0 1 1.2-1.2 1.29 1.29 0 0 1 1.2 1.2 1.2 1.2 0 0 1-2.4 0z"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "justify-content": "space-between",
+          "width": "100%",
+          "margin-top": "4px",
+          "display": "=if([$Portfolio] == 'Yes', 'block', 'none')"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "Portfolio",
+                "style": {
+                  "font-size": "14px",
+                  "color": "#fafafa",
+                  "margin-left": "4px",
+                  "margin-top": "4px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "sp-row-listPadding"
+        },
+        "style": {
+          "flex-wrap": "wrap",
+          "justify-content": "flex-start",
+          "align-items": "center",
+          "align-content": "flex-start",
+          "margin-top": "16px",
+          "display": "=if([$Portfolio] == 'Yes', 'flex', 'none')"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "flex-start",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo1], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo1.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo1.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo1], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo2], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo2.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo2.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo2], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo3], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo3.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo3.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo3], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo4], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo4.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo4.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo4], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo5], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo5.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo5.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo5], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo6], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo6.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo6.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo6], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto",
+                      "object-fit": "cover"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo7], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo7.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo7.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo7], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "100%",
+                      "object-fit": "cover",
+                      "object-position": "center"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo8], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo8.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo8.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo8], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "30%",
+              "padding": "4px",
+              "display": "=if([$Photo9], 'flex', 'none')"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Photo9.thumbnailRenderer.spItemUrl] + '/thumbnails/0/c1024x1024/content?prefer=noredirect%2Cclosestavailablesize&cb=1&l=' + [$Photo9.thumbnailRenderer.sponsorToken]",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=getThumbnailImage([$Photo9], 400, 400)"
+                    },
+                    "style": {
+                      "width": "100%",
+                      "height": "auto"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

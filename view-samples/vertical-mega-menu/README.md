@@ -53,7 +53,7 @@ This sample demonstrates the use of multi lines of text column value and the `sp
 
 Solution|Author(s)
 --------|---------
-vertical-mega-menu.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+vertical-mega-menu.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

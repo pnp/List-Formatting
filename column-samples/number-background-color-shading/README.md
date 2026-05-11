@@ -16,8 +16,8 @@ This format can be applied to a Number column.
 
 Solution|Author(s)
 --------|---------
-number-background-color-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
-number-background-color-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107) ([@techan_k](https://twitter.com/techan_k))
+number-background-color-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
+number-background-color-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 ## Version history
 

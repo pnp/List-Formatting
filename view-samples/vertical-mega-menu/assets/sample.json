@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "split, indexOf, substring, replaceAll"
+        "value": "split, indexOf, substring, replaceAll, floor"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "FORMATTING-FEATURES",
-        "value": "customCardProps, beakStyle, directionalHint, hideSelection, hideColumnHeader, rowFormatter"
+        "value": "customCardProps, directionalHint, hideSelection, hideColumnHeader, rowFormatter, forEach"
       },
       {
         "key": "CLASSES",

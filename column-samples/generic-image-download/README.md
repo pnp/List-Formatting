@@ -4,7 +4,7 @@
 
 This sample demonstrates adding a button within a SharePoint Online/Microsoft Lists view which downloads the image from image column.
 
-![screenshot of the sample output](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## JSON note
 For this JSON to work in your list, make sure to edit the JSON and replace the `**YOUR-LIST-NAME**` placeholder with your list's name, as it appears in the URL (including special characters)
@@ -21,7 +21,7 @@ This format can be applied to any column type (its value is ignored). However, i
 
 Solution|Author(s)
 --------|---------
-generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap) ([@GaneshSanap20](https://twitter.com/GaneshSanap20))
+generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 ## Version history
 

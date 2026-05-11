@@ -23,13 +23,53 @@
       {
         "key": "SHAREPOINT-COMPATIBILITY",
         "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Inline Editing, SVG"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString, ceiling"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "inlineEditField, hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-neutralTertiary, ms-fontWeight-bold, ms-fontSize-68, ms-fontSize-32, ms-fontSize-16, ms-fontSize-14, ms-fontSize-42"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/percent-chart-format/assets/screenshot.gif",
+        "alt": "Percent Chart format"
+      },
+      {
+        "type": "image",
+        "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/percent-chart-format/assets/PercentageChart.gif",
+        "alt": "Percent Chart format"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/percent-chart-format/assets/PercentageChart1.gif",
         "alt": "Percent Chart format"
       }
     ],
