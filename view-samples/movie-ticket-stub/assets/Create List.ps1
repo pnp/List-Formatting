@@ -1,5 +1,5 @@
 # Connect to SharePoint
-Connect-PnPOnline -Url "https://sudeepghatakdemos.sharepoint.com/sites/ashishghatak" -ClientId "8ea8bc4f-15fa-477f-8d17-27821e8be665" -Tenant "sudeepghatakdemos.onmicrosoft.com" -DeviceLogin
+Connect-PnPOnline -Url "Your site" -ClientId "Client Id in App registration" -Tenant "Tenant name" -DeviceLogin
 
 # Create the List
 $listName = "MovieTickets"
