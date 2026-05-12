@@ -168,9 +168,12 @@
         },
         "children": [
           {
-            "elmType": "span",
+            "elmType": "a",
             "attributes": {
-              "iconName": "[$PlayIcon]"
+              "iconName": "[$PlayIcon]",
+              "href": "[$TrackUrl]",
+              "target": "_blank",
+              "rel": "noopener"
             },
             "style": {
               "font-size": "18px",
@@ -183,7 +186,8 @@
               "align-items": "center",
               "justify-content": "center",
               "margin-right": "10px",
-              "box-shadow": "0 4px 10px rgba(0,0,0,0.35)"
+              "box-shadow": "0 4px 10px rgba(0,0,0,0.35)",
+              "text-decoration": "none"
             }
           },
           {

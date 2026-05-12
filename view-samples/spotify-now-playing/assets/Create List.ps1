@@ -20,6 +20,7 @@ Add-PnPField -List $listName -DisplayName "Duration Time" -InternalName "Duratio
 Add-PnPField -List $listName -DisplayName "Progress Percent" -InternalName "ProgressPercent" -Type Number -AddToDefaultView
 Add-PnPField -List $listName -DisplayName "Play Icon" -InternalName "PlayIcon" -Type Text -AddToDefaultView
 Add-PnPField -List $listName -DisplayName "Like Icon" -InternalName "LikeIcon" -Type Text -AddToDefaultView
+Add-PnPField -List $listName -DisplayName "Track URL" -InternalName "TrackUrl" -Type Text -AddToDefaultView
 
 Write-Host "List '$listName' created successfully with all columns!" -ForegroundColor Green
 
@@ -40,6 +41,7 @@ $sampleTracks = @(
     ProgressPercent = 42
     PlayIcon        = "Pause"
     LikeIcon        = "Heart"
+    TrackUrl        = "https://open.spotify.com/search/Blue%20in%20Green%20Miles%20Davis"
   },
   @{
     Title           = "Bohemian Rhapsody"
@@ -53,6 +55,7 @@ $sampleTracks = @(
     ProgressPercent = 64
     PlayIcon        = "Play"
     LikeIcon        = "Heart"
+    TrackUrl        = "https://open.spotify.com/search/Bohemian%20Rhapsody%20Queen"
   },
   @{
     Title           = "Blinding Lights"
@@ -66,6 +69,7 @@ $sampleTracks = @(
     ProgressPercent = 27
     PlayIcon        = "Pause"
     LikeIcon        = "HeartFill"
+    TrackUrl        = "https://open.spotify.com/search/Blinding%20Lights%20The%20Weeknd"
   },
   @{
     Title           = "The future of Power Platform"
@@ -79,6 +83,7 @@ $sampleTracks = @(
     ProgressPercent = 44
     PlayIcon        = "Pause"
     LikeIcon        = "Heart"
+    TrackUrl        = "https://open.spotify.com/search/Microsoft%20Mechanics%20Power%20Platform"
   },
   @{
     Title           = "Stairway to Heaven"
@@ -92,6 +97,7 @@ $sampleTracks = @(
     ProgressPercent = 100
     PlayIcon        = "Play"
     LikeIcon        = "Heart"
+    TrackUrl        = "https://open.spotify.com/search/Stairway%20to%20Heaven%20Led%20Zeppelin"
   },
   @{
     Title           = "Eye of the Tiger"
@@ -105,6 +111,7 @@ $sampleTracks = @(
     ProgressPercent = 30
     PlayIcon        = "Pause"
     LikeIcon        = "HeartFill"
+    TrackUrl        = "https://open.spotify.com/search/Eye%20of%20the%20Tiger%20Survivor"
   }
 )
 

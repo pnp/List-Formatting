@@ -25,6 +25,7 @@ It's designed for music libraries, podcast catalogues, listening logs, or any "n
 | Progress Percent  | ProgressPercent   | Number              | Track progress 0 - 100 (drives the bar fill width)                                |
 | Play Icon         | PlayIcon          | Single line of text | Fluent UI icon name for the play button: `Play` or `Pause`                        |
 | Like Icon         | LikeIcon          | Single line of text | Fluent UI icon name for the heart: `Heart` (not liked) or `HeartFill` (liked)     |
+| Track URL         | TrackUrl          | Single line of text | Streaming URL opened when the play button is clicked (e.g. `https://open.spotify.com/search/...`) |
 
 A PowerShell script has been provided in the [assets](./assets/Create%20List.ps1) folder to provision the list for you. The script also seeds 6 sample tracks covering every Status value.
 
@@ -53,6 +54,7 @@ Version|Date|Comments
 - **Colours are column-driven, not conditional.** Both `BackgroundColor` and `AccentColor` are read directly from the list item via `[$BackgroundColor]` / `[$AccentColor]`. The provisioning script seeds sensible defaults per Status, but you can override per item without touching the formatter.
 - **Icons are column-driven too.** The play button and the heart icon both use `iconName: "[$PlayIcon]"` and `iconName: "[$LikeIcon]"`. Pick from the Fluent UI v1 icon set — common values are `Play`, `Pause`, `Heart`, `HeartFill`.
 - **Progress bar width** is computed with `=toString([$ProgressPercent]) + '%'`. Store a plain integer 0 - 100 in the `ProgressPercent` column and the bar fills proportionally.
+- **Clicking the play button opens the track URL in a new tab** - the play element is rendered as an `<a>` with `href: "[$TrackUrl]"` and `target: "_blank"`. SharePoint view formatters cannot embed an audio player, so this is the practical way to "play" a track. The seeded sample tracks use `https://open.spotify.com/search/...` URLs which always resolve, but you can store any streaming URL (Spotify track, Apple Music, YouTube, internal podcast feed, etc).
 - The album-art block is a solid coloured square overlaid with a Fluent `Headphones` icon - no images required.
 - Time strings (`ElapsedTime`, `DurationTime`) are stored as plain text in `M:SS` format to keep the formatter simple. If you would rather store seconds, swap them for a calculated text column using the seconds-to-time conversion of your choice.
 
