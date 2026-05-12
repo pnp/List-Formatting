@@ -10,7 +10,7 @@
       "Sample contains an example of using the modulo math expression for highlighting \u0027published\u0027, \u0027published with draft\u0027 and \u0027draft with no published versions\u0027 of pages"
     ],
     "creationDateTime": "2019-05-20T00:00:00.000Z",
-    "updateDateTime": "2019-05-20T00:00:00.000Z",
+    "updateDateTime": "2026-04-27T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -72,6 +72,11 @@
         "gitHubAccount": "pkbullock",
         "pictureUrl": "https://github.com/pkbullock.png",
         "name": "Paul Bullock"
+      },
+      {
+        "gitHubAccount": "bianca-git",
+        "pictureUrl": "https://github.com/bianca-git.png",
+        "name": "bianca-git"
       }
     ],
     "references": [
