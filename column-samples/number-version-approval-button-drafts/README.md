@@ -9,7 +9,7 @@ Status is derived entirely from the version number:
 - **Minor version > 1** (e.g. `1.2`) → Has Draft — card is blue, flow button shown
 - **Minor version ≤ 1** (e.g. `0.1`) → Unpublished — card is blue, flow button shown
 
-[![screenshot of the sample](./assets/screenshot.png)](./assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
@@ -63,23 +63,23 @@ The column will now appear. To apply the format:
 
 1. Click the **Version** column header → **Column settings** → **Format this column**
 2. Click **Advanced mode**
-3. Paste the contents of `approval-button-drafts.json` (with your Flow GUID substituted) into the editor
+3. Paste the contents of `number-version-approval-button-drafts.json` (with your Flow GUID substituted) into the editor
 4. Click **Save**
 
 ## Sample
 
 | Solution | Author(s) |
 | --- | --- |
-| approval-button-drafts.json | [bianca-git](https://github.com/bianca-git) |
+| number-version-approval-button-drafts.json | [bianca-git](https://github.com/bianca-git) |
 
 ## Version history
 
 | Version | Date | Comments |
 | --- | --- | --- |
-| 1.0 | April 2026 | Initial release |
+| 1.0 | April 29, 2026 | Initial release |
 
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-[![](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)](https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-button-drafts)
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-version-approval-button-drafts" />
