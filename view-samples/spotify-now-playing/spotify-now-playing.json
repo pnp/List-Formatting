@@ -193,11 +193,20 @@
           {
             "elmType": "span",
             "attributes": {
-              "iconName": "[$LikeIcon]"
+              "iconName": "[$LikeIcon]",
+              "title": "Like / unlike this track"
             },
             "style": {
               "font-size": "20px",
-              "color": "[$AccentColor]"
+              "color": "[$AccentColor]",
+              "cursor": "pointer",
+              "padding": "6px"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "LikeIcon": "=if([$LikeIcon] == 'Heart', 'HeartFill', 'Heart')"
+              }
             }
           }
         ]
