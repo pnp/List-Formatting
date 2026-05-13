@@ -20,7 +20,7 @@ The schema is enforced by SharePoint's renderer: any property name **not** in th
 | **Outline** | `outline`, `outline-color`, `outline-style`, `outline-width` |
 | **Backgrounds & fills** | `background-color`, `background-image`, `fill`, `fill-opacity`, `stroke` |
 | **Layout & position** | `display`, `position`, `top`, `right`, `bottom`, `left`, `z-index`, `clear`, `clip`, `visibility`, `overflow`, `overflow-x`, `overflow-y`, `overflow-style`, `float` *(deprecated)* |
-| **Flexbox** | `flex`, `flex-grow`, `flex-shrink`, `flex-flow`, `flex-direction`, `flex-wrap`, `justify-content`, `align-items` |
+| **Flexbox** | `flex`, `flex-grow`, `flex-shrink`, `flex-flow`, `flex-direction`, `flex-wrap`, `justify-content`, `align-items`, `gap`, `align-self` |
 | **Legacy box (2009 spec)** | `box-align`, `box-direction`, `box-flex`, `box-flex-group`, `box-lines`, `box-ordinal-group`, `box-orient`, `box-pack` |
 | **Multi-column** | `columns`, `column-count`, `column-fill`, `column-gap`, `column-span`, `column-width`, `column-rule`, `column-rule-color`, `column-rule-style`, `column-rule-width` |
 | **Grid (legacy only)** | `grid-columns`, `grid-rows` |
@@ -31,7 +31,9 @@ The schema is enforced by SharePoint's renderer: any property name **not** in th
 | **Inline editor CSS variables** | `--inline-editor-border-width`, `--inline-editor-border-style`, `--inline-editor-border-radius`, `--inline-editor-border-color` |
 
 !!! warning "Things you might *expect* to work but don't"
-    These look like CSS but the SharePoint formatter strips them: `gap`, `row-gap`, `align-self`, `align-content`, `justify-items`, `justify-self`, `place-items`, `place-content`, `place-self`, `order`, `aspect-ratio`, `inset`, `grid-template-columns`, `grid-template-rows`, `grid-template-areas`, `grid-area`, `grid-column`, `grid-row`, `gap`, `transition`, `animation`, `filter`, `backdrop-filter`, `mix-blend-mode`, `clip-path`, `mask`, `will-change`, `pointer-events`, custom CSS variables (other than the four `--inline-editor-*` ones above), full `transform` (only `translate(...)` is honored), `float` (deprecated and quietly ignored).
+    These look like CSS but the SharePoint formatter strips them: `row-gap`, `column-gap` *(in flex context — works in multi-column)*, `align-content`, `justify-items`, `justify-self`, `place-items`, `place-content`, `place-self`, `order`, `aspect-ratio`, `inset`, `grid-template-columns`, `grid-template-rows`, `grid-template-areas`, `grid-area`, `grid-column`, `grid-row`, `transition`, `animation`, `filter`, `backdrop-filter`, `mix-blend-mode`, `clip-path`, `mask`, `will-change`, `pointer-events`, custom CSS variables (other than the four `--inline-editor-*` ones above), full `transform` (only `translate(...)` is honored), `float` (deprecated and quietly ignored).
+
+    **Updated 2026-05:** `gap` (shorthand) and `align-self` were previously listed here but **empirical testing confirms both work** in deployed formatters. `getComputedStyle` returns the set values. Only the longhands `row-gap` and `column-gap` remain stripped in flex context.
 
     **Pro tip:** when you need any of these, fall back to one of the [Fluent / sp-css utility classes](../groupings/classes/ms-bgColor.md) via the `className` attribute - those are CSS rules that ship with SharePoint and survive the schema filter.
 
@@ -77,9 +79,14 @@ The supported subset:
 | `flex-shrink` | unitless number, e.g. `0` |
 | `justify-content` | `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly` |
 | `align-items` | `stretch`, `flex-start`, `flex-end`, `center`, `baseline` |
+| `align-self` | `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch` |
+| `gap` | shorthand, e.g. `"40px"` or `"20px 10px"` (row column). **Works as of 2026.** |
 
 !!! danger "Not supported (despite being valid CSS)"
-    `align-self`, `align-content`, `justify-items`, `justify-self`, `place-*`, `order`, `gap`, `row-gap`, `column-gap` (yes, `column-gap` exists in the allow-list but it only applies to **multi-column layout**, not flex). Plan around them.
+    `align-content`, `justify-items`, `justify-self`, `place-*`, `order`, `row-gap`, `column-gap` (yes, `column-gap` exists in the allow-list but it only applies to **multi-column layout**, not flex). Plan around them.
+
+!!! success "Updated 2026-05 — `gap` and `align-self` now work"
+    Empirical testing on a live SPO tenant (May 2026) confirmed that the `gap` shorthand and `align-self` render correctly in deployed formatters. `getComputedStyle()` returns the set values. The `row-gap` and `column-gap` longhands remain stripped in flex context. Microsoft likely added these to the allow-list without updating the docs.
 
 ### The canonical responsive card row
 
@@ -114,9 +121,9 @@ The supported subset:
 ```
 
 !!! tip "Pro tips for flex"
-    - **Faking `gap`:** Use `margin: 4px` on every child plus `margin: -4px` on the container, or simpler - `padding` on each child and rely on its own background. SharePoint's renderer ignores real `gap`.
+    - **`gap` works!** As of 2026, `gap: "8px"` on a flex container renders correctly. No more margin hacks needed. Note: only the shorthand `gap` is supported — the longhands `row-gap` and `column-gap` are still stripped in flex context.
     - **`flex: 1 1 240px` is the responsive magic line.** Children grow to fill, shrink as needed, and wrap once each card would dip below 240px. This single declaration gives you a fully fluid card grid without media queries.
-    - **No `align-self`?** Wrap the misbehaving child in *another* flex container with its own `align-items`. A 1-deep extra `<div>` is cheap.
+    - **`align-self` works!** As of 2026, you can use `align-self: center` (or `stretch`, `flex-start`, `flex-end`, `baseline`) directly on flex children. No more wrapper-div workarounds.
     - **No `order`?** Render the children in the order you want using `forEach` over an expression that returns a sorted array, or branch with two `children` arrays inside an `=if(...)` style trick. In practice, just author them in the right order.
     - **Vertical centering** = `display: flex` + `align-items: center` + `justify-content: center` on the parent. Works on any element, including a `span`.
     - **Stretching children to equal height** is `align-items: stretch` (default) - just don't set `height` on children.
@@ -165,7 +172,7 @@ This is **CSS multi-column** (newspaper-style flowing text), not Grid. The rende
 | `columns` | Shorthand for `<column-width> <column-count>` | `"240px 3"` |
 | `column-count` | Force *exactly* N columns regardless of width | `"2"` |
 | `column-width` | "*At least* this wide" — engine fits as many as possible | `"240px"` |
-| `column-gap` | Space between columns (the only `gap`-like prop the formatter honours) | `"16px"` |
+| `column-gap` | Space between columns. In multi-column context this works; in flex context use the `gap` shorthand instead. | `"16px"` |
 | `column-rule` | Vertical divider between columns. Shorthand for `<width> <style> <color>` | `"1px solid #eee"` |
 | `column-rule-color` / `-style` / `-width` | Long-hand pieces of the same divider | `"#ddd"` / `"dashed"` / `"2px"` |
 | `column-fill` | `balance` (default — equal-height columns) or `auto` (fill first column to container height before overflowing) | `"balance"` |
@@ -214,7 +221,7 @@ This is **CSS multi-column** (newspaper-style flowing text), not Grid. The rende
 
 !!! tip "Pro tips for multi-column"
     - **`column-width` beats `column-count` for responsive layouts.** With `column-width: 240px` the engine produces 1 column on a phone, 2-3 on a tablet, and 4+ on a desktop — *without a single media query or `@window.innerWidth` branch*. This is the single most underused responsive trick in SharePoint formatting.
-    - **`column-gap` is the only "gap" property the renderer actually honours** — but only inside a multi-column context. You can't borrow it for flex layouts.
+    - **`column-gap` works in multi-column context.** For flex layouts, use the `gap` shorthand instead (confirmed working as of 2026).
     - **`column-fill: auto` for sidebars.** When you want a short list to stay in one column instead of being awkwardly balanced into two short stubby columns, set `column-fill: auto` and a fixed `height` on the container.
     - **`column-span: all` is unreliable inside very tall containers** on older Edge builds — test in the browsers your tenant supports. When it works it's magic for a "headline + body" two-up.
     - **Avoid multi-column for card grids.** If each child has its own border/shadow, the renderer can slice one across a column break and look broken. `flex-wrap: wrap` is the right answer for cards.
@@ -225,7 +232,7 @@ This is **CSS multi-column** (newspaper-style flowing text), not Grid. The rende
 
 ## Grid (mostly unavailable)
 
-Only `grid-columns` and `grid-rows` are accepted, and they're the **old IE10 `-ms-grid` placeholders**. Modern `display: grid` plus `grid-template-columns`, `grid-template-rows`, `grid-template-areas`, `grid-area`, `gap`, etc. **are not in the allow-list and are stripped**.
+Only `grid-columns` and `grid-rows` are accepted, and they're the **old IE10 `-ms-grid` placeholders**. Modern `display: grid` plus `grid-template-columns`, `grid-template-rows`, `grid-template-areas`, `grid-area`, etc. **are not in the allow-list and are stripped**. (Note: the `gap` shorthand works in flex context but not grid context since `display: grid` itself is stripped.)
 
 **Do this instead:** use Flexbox + `flex-wrap` for grid-like layouts. It covers 90% of grid use cases inside a list view.
 
@@ -347,7 +354,7 @@ When an element uses `inlineEditField`, four custom properties are available to 
 
 ## Tables (and why you should care even when you don't think you need one)
 
-Five properties: `border-collapse`, `border-spacing`, `caption-side`, `empty-cells`, `table-layout`. They look unglamorous next to flexbox until you realize **`display: table` + `display: table-cell` is the cleanest workaround for almost every layout limitation in the SharePoint allow-list.** No `align-self`? Table cells. No `grid-template-columns`? Tables. No `gap`? `border-spacing`. Need bullet-proof vertical centering? Table-cell with `vertical-align: middle`.
+Five properties: `border-collapse`, `border-spacing`, `caption-side`, `empty-cells`, `table-layout`. They look unglamorous next to flexbox until you realize **`display: table` + `display: table-cell` is the cleanest workaround for almost every layout limitation in the SharePoint allow-list.** No `grid-template-columns`? Tables. Need inter-cell spacing? `border-spacing`. Need bullet-proof vertical centering? Table-cell with `vertical-align: middle`. (Note: `gap` and `align-self` now work in flex — see Flexbox section — but tables remain the best choice for true equal-width columns.)
 
 | Property | What it does | Typical value |
 | --- | --- | --- |
@@ -406,7 +413,7 @@ Three benefits over the flex equivalent:
 
 1. The three cells are **mathematically equal width** without any `flex-basis` math.
 2. They're **automatically equal height** without `align-items: stretch`.
-3. `border-spacing: 12px 0` gives you a horizontal `gap` that flex can't.
+3. `border-spacing: 12px 0` gives you a horizontal gap — though as of 2026, flex `gap` also works.
 
 ### Recipe: vertical-centering anything
 
@@ -522,7 +529,7 @@ For Gallery cards that present mini-spec sheets (key/value pairs):
 | Long flowing text into N columns | **multi-column** (`column-width: 240px`) |
 | Spec-sheet style key/value pairs | **table** (cleaner than flex per row) |
 | Sidebar + main content | **flex** (`flex: 0 0 240px` + `flex: 1 1 0`) |
-| Inter-item spacing without margin math | **table** (`border-spacing`) or **multi-column** (`column-gap`) |
+| Inter-item spacing without margin math | **flex** (`gap`) or **table** (`border-spacing`) or **multi-column** (`column-gap`) |
 
 ---
 
@@ -587,8 +594,7 @@ This card:
 
 ## When the allow-list isn't enough
 
-If a property you need (`gap`, `transition`, `grid-template-columns`, full `transform`, etc.) is stripped:
+If a property you need (`transition`, `grid-template-columns`, full `transform`, etc.) is stripped:
 
 1. **Use a SharePoint utility class** via the `attributes.class` property. The site already documents [every available class](../groupings/classes/ms-bgColor.md) - those rules ship in SharePoint's stylesheet and bypass the schema filter entirely.
-2. **Approximate with what is allowed.** Most missing properties have a one-line workaround documented above (margin instead of gap, flex-wrap instead of grid, etc.).
-3. **Promote to a SPFx Field Customizer** when the visual genuinely cannot be expressed declaratively. That's the official escape hatch.
+2. **Approximate with what is allowed.** Most missing properties have a one-line workaround documented above (flex-wrap instead of grid, etc.).
