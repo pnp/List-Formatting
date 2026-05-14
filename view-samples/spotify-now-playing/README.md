@@ -4,7 +4,7 @@
 
 This SharePoint JSON view formatting sample transforms list items into Spotify-style "now playing" cards. Each item shows an album-art block, a status row with a coloured dot, the track title, artist, and album, a horizontal progress bar with elapsed and total time, and a play / like control row.
 
-It's designed for music libraries, podcast catalogues, listening logs, or any "now playing" queue style list.
+
 
 ![screenshot of the sample](./assets/screenshot.png)
 
