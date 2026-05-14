@@ -62,3 +62,10 @@ site/
 
 # Mac files
 .DS_Store
+
+# Local-only preview mockups (HTML previews of unbuilt template proposals)
+proposed/
+
+# Local-only generated gallery + builder (not part of the pnp upstream contribution)
+gallery.html
+tools/build-gallery.js
