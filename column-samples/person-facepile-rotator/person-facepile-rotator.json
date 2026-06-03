@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "inline-flex",
+    "align-items": "center"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "txtContent": "(none)",
+      "style": {
+        "display": "=if(length(@currentField) == 0, 'inline', 'none')",
+        "opacity": "0.55"
+      }
+    },
+    {
+      "forEach": "_cp in @currentField",
+      "elmType": "img",
+      "attributes": {
+        "src": "=getUserImage('[$_cp.email]', 'S')",
+        "title": "[$_cp.title]"
+      },
+      "style": {
+        "display": "=if(loopIndex('_cp') == (if(length(@currentField) > 2, floor(Number(@now) / 60000) % (length(@currentField) - 2), 0)) || loopIndex('_cp') == (if(length(@currentField) > 2, floor(Number(@now) / 60000) % (length(@currentField) - 2), 0)) + 1 || loopIndex('_cp') == (if(length(@currentField) > 2, floor(Number(@now) / 60000) % (length(@currentField) - 2), 0)) + 2, 'inline-block', 'none')",
+        "width": "24px",
+        "height": "24px",
+        "border-radius": "50%",
+        "object-fit": "cover",
+        "border": "1.5px solid #ccc",
+        "margin-left": "=if(loopIndex('_cp') == (if(length(@currentField) > 2, floor(Number(@now) / 60000) % (length(@currentField) - 2), 0)), '0', '-4px')",
+        "flex-shrink": "0"
+      }
+    },
+    {
+      "elmType": "div",
+      "txtContent": "='+' + toString(length(@currentField) - 3)",
+      "style": {
+        "display": "=if(length(@currentField) > 3, 'inline-flex', 'none')",
+        "align-items": "center",
+        "justify-content": "center",
+        "width": "24px",
+        "height": "24px",
+        "border-radius": "50%",
+        "font-size": "10px",
+        "font-weight": "700",
+        "background-color": "#ccc",
+        "color": "#333",
+        "margin-left": "-4px",
+        "flex-shrink": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+    "name": "pnp-list-formatting-person-facepile-rotator",
+    "version": "1.0.0.0",
+    "source": "pnp",
+    "title": "Person Facepile Rotator",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-facepile-rotator",
+    "creationDateTime": "2026-06-03T00:00:00.000Z",
+    "updateDateTime": "2026-06-03T00:00:00.000Z",
+    "shortDescription": "A column formatter for multi-person columns that rotates which faces are shown every minute using a time-based modulus offset.",
+    "longDescription": [
+      "This sample renders a facepile representing multi-person selection columns.",
+      "To prevent visual bias towards the first three contributors, the formatter calculates a seed using the current minute from @now.",
+      "The seed offsets which consecutive group of three users are displayed on page load or refresh."
+    ],
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "categories": [
+      "People"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Person"
+      },
+      {
+        "key": "LIST-OPERATOR",
+        "value": "floor, Number, Modulus %, length, loopIndex"
+      },
+      {
+        "key": "LIST-PLACEHOLDER-TOKEN",
+        "value": "@currentField, @now"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/person-facepile-rotator/assets/screenshot.png",
+        "alt": "Person Facepile Rotator screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "FW97",
+        "pictureUrl": "https://github.com/FW97.png"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "Information on formatting columns.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]
