@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "toString, if"
+        "value": "toString"
       },
       {
         "key": "FORMATTING-ACTIONS",
