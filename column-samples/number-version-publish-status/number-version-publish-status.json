@@ -17,7 +17,7 @@
     },
     {
       "elmType": "span",
-      "txtContent": "=if(Number(@currentField) % 1 == 0, 'Published', if(Number(@currentField) > 1, 'Published with Draft', 'Draft with NO published version'))"
+      "txtContent": "='v' + @currentField + ' - ' + if(Number(@currentField) % 1 == 0, 'Published', if(Number(@currentField) > 1, 'Published with Draft', 'Draft with NO published version'))"
     }
   ]
 }
