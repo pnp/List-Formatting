@@ -1,0 +1,321 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "stretch",
+      "background-color": "#1f1f27",
+      "border": "1px solid #2a2a35",
+      "border-radius": "8px",
+      "box-shadow": "0 6px 18px rgba(0,0,0,0.4)",
+      "margin": "16px auto",
+      "max-width": "820px",
+      "padding": "20px 24px",
+      "color": "#f0f0f3",
+      "font-family": "Arial, sans-serif"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "200px",
+          "height": "200px",
+          "flex-shrink": "0",
+          "background-color": "#0e3a73",
+          "border-radius": "3px",
+          "padding": "14px",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between",
+          "box-shadow": "0 4px 10px rgba(0,0,0,0.5)"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "[$Label]",
+            "style": {
+              "font-size": "9px",
+              "letter-spacing": "2px",
+              "text-transform": "uppercase",
+              "color": "rgba(255,255,255,0.85)"
+            }
+          },
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "style": {
+                  "font-size": "22px",
+                  "font-weight": "bold",
+                  "line-height": "22px",
+                  "color": "#ffffff",
+                  "margin-bottom": "4px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Artist]",
+                "style": {
+                  "font-size": "13px",
+                  "font-weight": "bold",
+                  "color": "rgba(255,255,255,0.92)"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "font-size": "9px",
+              "letter-spacing": "1px",
+              "text-transform": "uppercase",
+              "color": "rgba(255,255,255,0.85)"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "=toString([$Year])"
+              },
+              {
+                "elmType": "span",
+                "txtContent": "33 RPM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "width": "200px",
+          "height": "200px",
+          "flex-shrink": "0",
+          "margin-left": "-50px",
+          "background-color": "#0a0a0a",
+          "border-radius": "100px",
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center",
+          "box-shadow": "0 6px 14px rgba(0,0,0,0.6)",
+          "border": "1px solid #1a1a1a"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "150px",
+              "height": "150px",
+              "border-radius": "75px",
+              "background-color": "#0a0a0a",
+              "border": "1px solid #181818",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "110px",
+                  "height": "110px",
+                  "border-radius": "55px",
+                  "background-color": "#0a0a0a",
+                  "border": "1px solid #1a1a1a",
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "center"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "width": "80px",
+                      "height": "80px",
+                      "border-radius": "40px",
+                      "background-color": "#c0392b",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "color": "#ffffff",
+                      "text-align": "center",
+                      "border": "1px solid rgba(255,255,255,0.2)"
+                    },
+                    "children": [
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$Label]",
+                        "style": {
+                          "font-size": "8px",
+                          "letter-spacing": "1px",
+                          "text-transform": "uppercase",
+                          "font-weight": "bold"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "txtContent": "[$Side]",
+                        "style": {
+                          "font-size": "11px",
+                          "font-weight": "bold",
+                          "margin": "3px 0 2px"
+                        }
+                      },
+                      {
+                        "elmType": "div",
+                        "style": {
+                          "width": "6px",
+                          "height": "6px",
+                          "border-radius": "3px",
+                          "background-color": "#0a0a0a",
+                          "margin-top": "2px"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "padding-left": "20px",
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between",
+          "min-width": "180px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "children": [
+              {
+                "elmType": "div",
+                "txtContent": "=toString([$Year]) + ' - ' + [$Genre]",
+                "style": {
+                  "font-size": "10px",
+                  "letter-spacing": "2px",
+                  "text-transform": "uppercase",
+                  "color": "#9aa0a6",
+                  "margin-bottom": "6px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Title]",
+                "style": {
+                  "font-size": "22px",
+                  "font-weight": "bold",
+                  "line-height": "24px",
+                  "color": "#f0f0f3"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Artist]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "bold",
+                  "color": "#c8c8d0",
+                  "margin": "4px 0 12px"
+                }
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-wrap": "wrap",
+                  "margin-bottom": "10px"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Genre]",
+                    "style": {
+                      "font-size": "10px",
+                      "padding": "3px 9px",
+                      "border-radius": "10px",
+                      "border": "1px solid rgba(255,255,255,0.18)",
+                      "background-color": "rgba(255,255,255,0.04)",
+                      "color": "#c8c8d0",
+                      "margin-right": "6px",
+                      "margin-bottom": "4px"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Label]",
+                    "style": {
+                      "font-size": "10px",
+                      "padding": "3px 9px",
+                      "border-radius": "10px",
+                      "border": "1px solid rgba(255,255,255,0.18)",
+                      "background-color": "rgba(255,255,255,0.04)",
+                      "color": "#c8c8d0",
+                      "margin-right": "6px",
+                      "margin-bottom": "4px"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "=toString([$Tracks]) + ' tracks'",
+                    "style": {
+                      "font-size": "10px",
+                      "padding": "3px 9px",
+                      "border-radius": "10px",
+                      "border": "1px solid rgba(255,255,255,0.18)",
+                      "background-color": "rgba(255,255,255,0.04)",
+                      "color": "#c8c8d0",
+                      "margin-right": "6px",
+                      "margin-bottom": "4px"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "flex-end",
+              "padding-top": "10px",
+              "border-top": "1px solid rgba(255,255,255,0.12)",
+              "font-size": "10px",
+              "color": "#80808a",
+              "letter-spacing": "1px"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "[$Rating]",
+                "style": {
+                  "color": "#f0c040",
+                  "font-size": "13px",
+                  "letter-spacing": "1px"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=toString([$DurationMinutes]) + ' min'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
