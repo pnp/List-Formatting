@@ -51,7 +51,8 @@ export function parseCss(cssText: string) {
     const selectorValueList = Object.keys(selectorLookup).map(
       (selector) => selectorLookup[selector]
     );
-    // sort based on specificity
+    // sort ascending by specificity so that higher-specificity selectors
+    // are applied later and their styles override lower-specificity ones
     selectorValueList.sort(
       (a, b) => compareSpecifity(a.specificity, b.specificity) || a.order - b.order
     );
