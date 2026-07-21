@@ -4,7 +4,7 @@
 
 Beautiful horizontal timeline view for budget key dates/milestones. Shows status badges, milestone titles with hover cards containing descriptions and "Learn more" links.
 
-![screenshot](assets/screenshot.png)
+![screenshot of the sample](./assets/screenshot.png)
 
 ## View requirements
 
