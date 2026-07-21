@@ -132,7 +132,7 @@
                   {
                     "elmType": "div",
                     "style": {
-                      "display": "flex",
+                      "display": "=if([$Link]=='','none', 'flex')",
                       "flex-direction": "row",
                       "gap": "6px",
                       "padding-top": "12px"
@@ -143,15 +143,14 @@
                         "attributes": {
                           "class": "sp-card-urlContent ms-border-purpleDark ms-bgColor-purpleDark",
                           "href": "[$Link]",
-                          "target": "=if([$Link]=='','', '_blank')"
+                          "target": "_blank"
                         },
                         "style": {
                           "background-color": "#03274a",
                           "padding": "5px 10px",
                           "border-radius": "5px",
                           "color": "white",
-                          "text-decoration": "none",
-                          "pointer-events": "=if([$Link]=='','none','auto')"
+                          "text-decoration": "none"
                         },
                         "txtContent": "Learn more"
                       }
