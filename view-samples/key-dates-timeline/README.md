@@ -10,17 +10,19 @@ Beautiful horizontal timeline view for budget key dates/milestones. Shows status
 
 This sample works with any list that has the following columns:
 
-- **Title** (Single line of text) – Date label (e.g. "Sep 25")
-- **Status** (Choice) – Values: `Completed`, `In progress`
-- **Milestone** (Single line of text or Multi-line) – Milestone title
-- **Description** (Multi-line text) – Details shown in hover card
-- **Link** (Hyperlink) – Optional link for "Learn more"
+| Type | Internal Name | Required | Notes |
+|------|--------------|----------|-------|
+| Single line of text | Title | Yes | Date label (e.g. "Sep 25") |
+| Choice | Status | Yes | Values: `Completed`, `In progress` |
+| Single line of text / Multiple lines of text | Milestone | Yes | Milestone title |
+| Multiple lines of text | Description | Yes | Details shown in hover card |
+| Hyperlink | Link | No | Optional link for "Learn more" |
 
 ## Sample
 
 | Solution                        | Author(s)          |
 |---------------------------------|--------------------|
-| key-dates-timeline.json  | [Anand](https://github.com/anandragav) |
+| key-dates-timeline.json  | [Anand Ragav](https://github.com/anandragav) |
 
 ## Version history
 
@@ -33,3 +35,5 @@ This sample works with any list that has the following columns:
 **THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/key-dates-timeline" />
