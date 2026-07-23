@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-spotify-now-playing",
+    "reponame": "spotify-now-playing",
+    "source": "pnp",
+    "title": "Spotify Now Playing",
+    "shortDescription": "Transforms list items into Spotify-style 'now playing' cards with album-art block, status row, track / artist / album, a horizontal progress bar with elapsed and total time, and play / like controls.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/view-samples/spotify-now-playing",
+    "longDescription": [
+      "This SharePoint JSON view formatting sample transforms list items into Spotify-style 'now playing' cards. Each item shows an album-art block, a status row with a coloured dot, the track title, artist, and album, a horizontal progress bar with elapsed and total time, and a play / like control row. Colours and icons are column-driven so each item can be styled independently. The play button opens the configured track URL in a new tab, and the heart icon toggles like / unlike directly on the list item via a setValue customRowAction."
+    ],
+    "creationDateTime": "2026-05-12T00:00:00.000Z",
+    "updateDateTime": "2026-05-12T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "View"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": "setValue"
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "hideSelection, hideColumnHeader, rowFormatter"
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/spotify-now-playing/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "sudeepghatak",
+        "pictureUrl": "https://github.com/sudeepghatak.png",
+        "name": "Sudeep Ghatak"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use view formatting to customize SharePoint",
+        "description": "You can use view formatting to customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a view and any styles to be applied to those elements.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/view-formatting"
+      }
+    ]
+  }
+]

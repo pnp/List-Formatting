@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(length(@currentField) == 0, 'flex', 'none')",
+        "align-items": "center",
+        "gap": "10px",
+        "padding": "12px",
+        "border-left": "4px solid #ffb900",
+        "background-color": "#fff4ce",
+        "border-radius": "6px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "attributes": {
+            "iconName": "Warning"
+          },
+          "style": {
+            "font-size": "20px",
+            "color": "#8a6d00"
+          }
+        },
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "div",
+              "txtContent": "Missing information",
+              "style": {
+                "font-weight": "600"
+              }
+            },
+            {
+              "elmType": "div",
+              "txtContent": "This field has not been completed.",
+              "style": {
+                "font-size": "12px",
+                "color": "#605e5c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if(length(@currentField) == 0, 'none', 'block')"
+      },
+      "txtContent": "@currentField"
+    }
+  ]
+}

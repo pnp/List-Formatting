@@ -1,16 +1,16 @@
 [
   {
-    "name": "pnp-list-formatting-number-version-publish-status",
-    "reponame": "number-version-publish-status",
+    "name": "pnp-list-formatting-number-version-approval-button-drafts",
+    "reponame": "number-version-approval-button-drafts",
     "source": "pnp",
-    "title": "Publishing Status",
-    "shortDescription": "Sample contains an example of using the modulo math expression for highlighting \u0027published\u0027, \u0027published with draft\u0027 and \u0027draft with no published versions\u0027 of pages",
-    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-version-publish-status",
+    "title": "Version Status and Approval Flow Button",
+    "shortDescription": "Formats the SharePoint Version column as a combined status badge and approval flow trigger. Major versions (published) display a greyed-out non-clickable card. Minor versions display version status and a Submit for Approval button that triggers a Power Automate flow.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-version-approval-button-drafts",
     "longDescription": [
-      "Sample contains an example of using the modulo math expression for highlighting \u0027published\u0027, \u0027published with draft\u0027 and \u0027draft with no published versions\u0027 of pages"
+      "Formats the SharePoint Version column as a combined status badge and approval flow trigger. Major versions (published) display a greyed-out non-clickable card. Minor versions display version status and a Submit for Approval button that triggers a Power Automate flow."
     ],
-    "creationDateTime": "2019-05-20T00:00:00.000Z",
-    "updateDateTime": "2026-04-27T00:00:00.000Z",
+    "creationDateTime": "2026-04-29T00:00:00.000Z",
+    "updateDateTime": "2026-04-29T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"
@@ -26,7 +26,7 @@
       },
       {
         "key": "SAMPLE-CATEGORIES",
-        "value": "Icons"
+        "value": "Power Automate"
       },
       {
         "key": "LIST-COLUMN-TYPE",
@@ -38,7 +38,7 @@
       },
       {
         "key": "FORMATTING-OPERATORS",
-        "value": "Number"
+        "value": "floor, Number"
       },
       {
         "key": "FORMATTING-ACTIONS",
@@ -50,29 +50,18 @@
       },
       {
         "key": "CLASSES",
-        "value": "sp-field-severity--good, sp-field-severity--warning, sp-field-severity--severeWarning"
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-version-publish-status/assets/screenshot.png",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-version-approval-button-drafts/assets/screenshot.png",
         "alt": "screenshot"
-      },
-      {
-        "type": "image",
-        "order": 101,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-version-publish-status/assets/screenshotBefore.png",
-        "alt": "example-before"
       }
     ],
     "authors": [
-      {
-        "gitHubAccount": "pkbullock",
-        "pictureUrl": "https://github.com/pkbullock.png",
-        "name": "Paul Bullock"
-      },
       {
         "gitHubAccount": "bianca-git",
         "pictureUrl": "https://github.com/bianca-git.png",

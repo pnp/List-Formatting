@@ -36,7 +36,7 @@ credit-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](
 
 Version|Date|Comments
 -------|----|--------
-1.0|May 11, 2026|Initial release
+1.0|June 13, 2026|Initial release
 
 ## Disclaimer
 
