@@ -1,0 +1,594 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideColumnHeader": true,
+  "hideSelection": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "position": "absolute",
+      "left": "= @rowIndex * 230 + 'px'",
+      "width": "200px",
+      "height": "540px",
+      "font-family": "Segoe UI",
+      "top": "20px",
+      "display": "block",
+      "min-height": "500px",
+      "margin-bottom": "40px",
+      "padding": "0 8px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "txtContent": "[$Month]",
+        "style": {
+          "padding": "4px 0",
+          "position": "absolute",
+          "top": "0px",
+          "left": "28px",
+          "font-size": "15px",
+          "font-weight": "700",
+          "color": "#03274A",
+          "letter-spacing": "0.2px"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "32px",
+          "left": "42px",
+          "width": "10px",
+          "height": "10px",
+          "border-radius": "50%",
+          "background-color": "#03274a",
+          "z-index": "2",
+          "border": "2px solid #ffffff",
+          "box-shadow": "0 0 0 1px #03274a"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "42px",
+          "left": "46px",
+          "width": "2px",
+          "height": "68px",
+          "background-color": "#03274a"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "110px",
+          "left": "-100px",
+          "width": "230px",
+          "height": "1px",
+          "background-color": "#c8c6c4"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "72px",
+          "left": "20px",
+          "right": "16px",
+          "height": "8px",
+          "background-color": "#EDEBE9",
+          "border-radius": "999px",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "width": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) / 5 * 100 + '%'",
+              "height": "100%",
+              "background-color": "#107C10",
+              "border-radius": "999px",
+              "transition": "width 0.35s ease"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "txtContent": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) + '/5 completed'",
+        "style": {
+          "position": "absolute",
+          "top": "84px",
+          "left": "20px",
+          "font-size": "11px",
+          "color": "#605E5C",
+          "font-weight": "600"
+        }
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "position": "absolute",
+          "top": "118px",
+          "left": "12px",
+          "right": "8px",
+          "display": "flex",
+          "flex-direction": "column",
+          "gap": "6px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Process1] == '', 'none', 'flex')",
+              "flex-direction": "row",
+              "align-items": "flex-start",
+              "gap": "10px",
+              "padding": "8px 6px",
+              "border-radius": "6px",
+              "cursor": "pointer",
+              "background-color": "=if([$Process1Status]=='Completed', '#F3F9F1', 'transparent')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Process1Status": "=if([$Process1Status]=='Completed', 'Not started', 'Completed')"
+              }
+            },
+            "customCardProps": {
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "12px",
+                  "width": "300px",
+                  "padding": "16px",
+                  "background-color": "#ffffff",
+                  "box-shadow": "0 8px 24px rgba(0,0,0,0.12)",
+                  "border-radius": "8px",
+                  "border": "1px solid #edebe9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Process1Details]",
+                    "style": {
+                      "font-size": "13px",
+                      "color": "#323130",
+                      "white-space": "pre-wrap",
+                      "line-height": "1.45"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "[$Process1Link]",
+                      "target": "=if([$Process1Link]=='','', '_blank')"
+                    },
+                    "style": {
+                      "background-color": "#03274a",
+                      "padding": "6px 14px",
+                      "border-radius": "4px",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "align-self": "flex-start",
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "pointer-events": "=if([$Process1Link]=='','none','auto')"
+                    },
+                    "txtContent": "Learn more"
+                  }
+                ]
+              },
+              "openOnEvent": "hover",
+              "isBeakVisible": true,
+              "directionalHint": "bottomCenter"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Process1Status]=='Completed', 'CheckboxComposite', 'Checkbox')"
+                },
+                "style": {
+                  "color": "=if([$Process1Status]=='Completed', '#107C10', '#8A8886')",
+                  "font-size": "18px",
+                  "margin-top": "1px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Process1]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "500",
+                  "line-height": "1.35",
+                  "text-decoration": "=if([$Process1Status]=='Completed', 'line-through', '')",
+                  "color": "=if([$Process1Status]=='Completed', '#107C10', '#323130')",
+                  "flex-grow": "1"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Process2] == '', 'none', 'flex')",
+              "flex-direction": "row",
+              "align-items": "flex-start",
+              "gap": "10px",
+              "padding": "8px 6px",
+              "border-radius": "6px",
+              "cursor": "pointer",
+              "background-color": "=if([$Process2Status]=='Completed', '#F3F9F1', 'transparent')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Process2Status": "=if([$Process2Status]=='Completed', 'Not started', 'Completed')"
+              }
+            },
+            "customCardProps": {
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "12px",
+                  "width": "300px",
+                  "padding": "16px",
+                  "background-color": "#ffffff",
+                  "box-shadow": "0 8px 24px rgba(0,0,0,0.12)",
+                  "border-radius": "8px",
+                  "border": "1px solid #edebe9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Process2Details]",
+                    "style": {
+                      "font-size": "13px",
+                      "color": "#323130",
+                      "white-space": "pre-wrap",
+                      "line-height": "1.45"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "[$Process2Link]",
+                      "target": "=if([$Process2Link]=='','', '_blank')"
+                    },
+                    "style": {
+                      "background-color": "#03274a",
+                      "padding": "6px 14px",
+                      "border-radius": "4px",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "align-self": "flex-start",
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "pointer-events": "=if([$Process2Link]=='','none','auto')"
+                    },
+                    "txtContent": "Learn more"
+                  }
+                ]
+              },
+              "openOnEvent": "hover",
+              "isBeakVisible": true,
+              "directionalHint": "bottomCenter"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Process2Status]=='Completed', 'CheckboxComposite', 'Checkbox')"
+                },
+                "style": {
+                  "color": "=if([$Process2Status]=='Completed', '#107C10', '#8A8886')",
+                  "font-size": "18px",
+                  "margin-top": "1px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Process2]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "500",
+                  "line-height": "1.35",
+                  "text-decoration": "=if([$Process2Status]=='Completed', 'line-through', '')",
+                  "color": "=if([$Process2Status]=='Completed', '#107C10', '#323130')",
+                  "flex-grow": "1"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Process3] == '', 'none', 'flex')",
+              "flex-direction": "row",
+              "align-items": "flex-start",
+              "gap": "10px",
+              "padding": "8px 6px",
+              "border-radius": "6px",
+              "cursor": "pointer",
+              "background-color": "=if([$Process3Status]=='Completed', '#F3F9F1', 'transparent')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Process3Status": "=if([$Process3Status]=='Completed', 'Not started', 'Completed')"
+              }
+            },
+            "customCardProps": {
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "12px",
+                  "width": "300px",
+                  "padding": "16px",
+                  "background-color": "#ffffff",
+                  "box-shadow": "0 8px 24px rgba(0,0,0,0.12)",
+                  "border-radius": "8px",
+                  "border": "1px solid #edebe9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Process3Details]",
+                    "style": {
+                      "font-size": "13px",
+                      "color": "#323130",
+                      "white-space": "pre-wrap",
+                      "line-height": "1.45"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "[$Process3Link]",
+                      "target": "=if([$Process3Link]=='','', '_blank')"
+                    },
+                    "style": {
+                      "background-color": "#03274a",
+                      "padding": "6px 14px",
+                      "border-radius": "4px",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "align-self": "flex-start",
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "pointer-events": "=if([$Process3Link]=='','none','auto')"
+                    },
+                    "txtContent": "Learn more"
+                  }
+                ]
+              },
+              "openOnEvent": "hover",
+              "isBeakVisible": true,
+              "directionalHint": "bottomCenter"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Process3Status]=='Completed', 'CheckboxComposite', 'Checkbox')"
+                },
+                "style": {
+                  "color": "=if([$Process3Status]=='Completed', '#107C10', '#8A8886')",
+                  "font-size": "18px",
+                  "margin-top": "1px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Process3]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "500",
+                  "line-height": "1.35",
+                  "text-decoration": "=if([$Process3Status]=='Completed', 'line-through', '')",
+                  "color": "=if([$Process3Status]=='Completed', '#107C10', '#323130')",
+                  "flex-grow": "1"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Process4] == '', 'none', 'flex')",
+              "flex-direction": "row",
+              "align-items": "flex-start",
+              "gap": "10px",
+              "padding": "8px 6px",
+              "border-radius": "6px",
+              "cursor": "pointer",
+              "background-color": "=if([$Process4Status]=='Completed', '#F3F9F1', 'transparent')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Process4Status": "=if([$Process4Status]=='Completed', 'Not started', 'Completed')"
+              }
+            },
+            "customCardProps": {
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "12px",
+                  "width": "300px",
+                  "padding": "16px",
+                  "background-color": "#ffffff",
+                  "box-shadow": "0 8px 24px rgba(0,0,0,0.12)",
+                  "border-radius": "8px",
+                  "border": "1px solid #edebe9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Process4Details]",
+                    "style": {
+                      "font-size": "13px",
+                      "color": "#323130",
+                      "white-space": "pre-wrap",
+                      "line-height": "1.45"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "[$Process4Link]",
+                      "target": "=if([$Process4Link]=='','', '_blank')"
+                    },
+                    "style": {
+                      "background-color": "#03274a",
+                      "padding": "6px 14px",
+                      "border-radius": "4px",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "align-self": "flex-start",
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "pointer-events": "=if([$Process4Link]=='','none','auto')"
+                    },
+                    "txtContent": "Learn more"
+                  }
+                ]
+              },
+              "openOnEvent": "hover",
+              "isBeakVisible": true,
+              "directionalHint": "bottomCenter"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Process4Status]=='Completed', 'CheckboxComposite', 'Checkbox')"
+                },
+                "style": {
+                  "color": "=if([$Process4Status]=='Completed', '#107C10', '#8A8886')",
+                  "font-size": "18px",
+                  "margin-top": "1px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Process4]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "500",
+                  "line-height": "1.35",
+                  "text-decoration": "=if([$Process4Status]=='Completed', 'line-through', '')",
+                  "color": "=if([$Process4Status]=='Completed', '#107C10', '#323130')",
+                  "flex-grow": "1"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "=if([$Process5] == '', 'none', 'flex')",
+              "flex-direction": "row",
+              "align-items": "flex-start",
+              "gap": "10px",
+              "padding": "8px 6px",
+              "border-radius": "6px",
+              "cursor": "pointer",
+              "background-color": "=if([$Process5Status]=='Completed', '#F3F9F1', 'transparent')"
+            },
+            "customRowAction": {
+              "action": "setValue",
+              "actionInput": {
+                "Process5Status": "=if([$Process5Status]=='Completed', 'Not started', 'Completed')"
+              }
+            },
+            "customCardProps": {
+              "formatter": {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "12px",
+                  "width": "300px",
+                  "padding": "16px",
+                  "background-color": "#ffffff",
+                  "box-shadow": "0 8px 24px rgba(0,0,0,0.12)",
+                  "border-radius": "8px",
+                  "border": "1px solid #edebe9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "txtContent": "[$Process5Details]",
+                    "style": {
+                      "font-size": "13px",
+                      "color": "#323130",
+                      "white-space": "pre-wrap",
+                      "line-height": "1.45"
+                    }
+                  },
+                  {
+                    "elmType": "a",
+                    "attributes": {
+                      "href": "[$Process5Link]",
+                      "target": "=if([$Process5Link]=='','', '_blank')"
+                    },
+                    "style": {
+                      "background-color": "#03274a",
+                      "padding": "6px 14px",
+                      "border-radius": "4px",
+                      "color": "white",
+                      "text-decoration": "none",
+                      "align-self": "flex-start",
+                      "font-size": "13px",
+                      "font-weight": "600",
+                      "pointer-events": "=if([$Process5Link]=='','none','auto')"
+                    },
+                    "txtContent": "Learn more"
+                  }
+                ]
+              },
+              "openOnEvent": "hover",
+              "isBeakVisible": true,
+              "directionalHint": "bottomCenter"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "=if([$Process5Status]=='Completed', 'CheckboxComposite', 'Checkbox')"
+                },
+                "style": {
+                  "color": "=if([$Process5Status]=='Completed', '#107C10', '#8A8886')",
+                  "font-size": "18px",
+                  "margin-top": "1px"
+                }
+              },
+              {
+                "elmType": "div",
+                "txtContent": "[$Process5]",
+                "style": {
+                  "font-size": "14px",
+                  "font-weight": "500",
+                  "line-height": "1.35",
+                  "text-decoration": "=if([$Process5Status]=='Completed', 'line-through', '')",
+                  "color": "=if([$Process5Status]=='Completed', '#107C10', '#323130')",
+                  "flex-grow": "1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
