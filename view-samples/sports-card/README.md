@@ -45,8 +45,7 @@ sports-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak) ([LinkedIn](
 
 Version|Date|Comments
 -------|----|--------
-1.0|May 13, 2026|Initial release (portrait layout)
-1.1|July 13, 2026|Redesigned as landscape card to fit standard List view rows.
+1.0|July 23, 2026|Initial release
 
 ## Disclaimer
 
