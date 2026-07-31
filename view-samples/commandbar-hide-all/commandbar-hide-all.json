@@ -82,6 +82,8 @@
       { "key": "PublishCommand", "hide": true},
       { "key": "properties", "hide": true},
       { "key": "syntexAutofillColumnsCommandPublicKey", "hide": true}
+      { "key": "Copilot", "hide": true},
+      { "key": "workflowsCommand", "hide": true},
     ]
   }
 }
