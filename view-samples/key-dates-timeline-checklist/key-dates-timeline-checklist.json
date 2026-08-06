@@ -84,7 +84,7 @@
           {
             "elmType": "div",
             "style": {
-              "width": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) / 5 * 100 + '%'",
+              "width": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) / (if([$Process1], 1, 0) + if([$Process2], 1, 0) + if([$Process3], 1, 0) + if([$Process4], 1, 0) + if([$Process5], 1, 0)) * 100 + '%'",
               "height": "100%",
               "background-color": "#107C10",
               "border-radius": "999px",
@@ -95,7 +95,7 @@
       },
       {
         "elmType": "div",
-        "txtContent": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) + '/5 completed'",
+        "txtContent": "= (if([$Process1Status]=='Completed',1,0) + if([$Process2Status]=='Completed',1,0) + if([$Process3Status]=='Completed',1,0) + if([$Process4Status]=='Completed',1,0) + if([$Process5Status]=='Completed',1,0)) + '/' + (if([$Process1], 1, 0) + if([$Process2], 1, 0) + if([$Process3], 1, 0) + if([$Process4], 1, 0) + if([$Process5], 1, 0)) + ' completed'",
         "style": {
           "position": "absolute",
           "top": "84px",
