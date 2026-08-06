@@ -5,7 +5,7 @@ A modern horizontal timeline view that displays key dates or milestones as month
 
 Perfect for onboarding journeys, project milestones, compliance tracking, or any process that spans multiple months.
 
-![Key Dates Timeline Checklist](./screenshot.png)
+![Key Dates Timeline Checklist](./assets/screenshot.png)
 
 ## View requirements
 
@@ -58,7 +58,7 @@ Perfect for onboarding journeys, project milestones, compliance tracking, or any
 
 | Solution | Author(s) |
 |----------|-----------|
-| key-dates-timeline-checklist.json | Anand Vijayaragavan |
+| key-dates-timeline-checklist.json | [Anand Ragav](https://github.com/anandragav) |
 
 ## Version history
 
@@ -71,7 +71,4 @@ Perfect for onboarding journeys, project milestones, compliance tracking, or any
 - Best viewed on desktop
 - Works with both SharePoint lists and Microsoft Lists
 
-## Contributors
-- [Anand Vijayaragavan](https://github.com/anandVragav)
-
-![](https://pnptelemetry.azurewebsites.net/List-Formatting/view-samples/key-dates-timeline-checklist)
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/key-dates-timeline-checklist" />
