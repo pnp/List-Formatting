@@ -3,6 +3,7 @@ import * as React from "react";
 export interface IDragResizeEdgeProps {
   onDrag?: (pixelsTowardNextElementDragged: number) => void;
   onDragEnd?: (pixelsTowardNextElementDragged: number) => void;
+  orientation?: "horizontal" | "vertical";
 }
 
 /**
@@ -10,60 +11,66 @@ export interface IDragResizeEdgeProps {
  */
 export function DragResizeEdge(props: IDragResizeEdgeProps) {
   const _start = React.useRef(0);
-  const { onDrag, onDragEnd } = props;
+  const { onDrag, onDragEnd, orientation = "horizontal" } = props;
+  const isVertical = orientation === "vertical";
 
   const _onMouseDown = (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
-    _start.current = event.clientX;
-    // only register the MouseUp and MouseMove event if the drag target is MouseDown-ed
+    _start.current = isVertical ? event.clientY : event.clientX;
     window.addEventListener("mousemove", _onMouseMove, true);
     window.addEventListener("mouseup", _onMouseUp, true);
   };
 
   const _onMouseUp = (event: MouseEvent) => {
-    // remove MOVE and UP listeners when mouse UP to stop
     window.removeEventListener("mousemove", _onMouseMove, true);
     window.removeEventListener("mouseup", _onMouseUp, true);
-    _reportNewWidth(_start.current, event.clientX, onDragEnd);
+    const endPos = isVertical ? event.clientY : event.clientX;
+    _reportDelta(_start.current, endPos, onDragEnd);
   };
 
   const _onMouseMove = (event: MouseEvent) => {
     event.stopPropagation();
     event.preventDefault();
-
-    _reportNewWidth(_start.current, event.clientX, onDrag);
+    const endPos = isVertical ? event.clientY : event.clientX;
+    _reportDelta(_start.current, endPos, onDrag);
   };
 
-  const _reportNewWidth = (
+  const _reportDelta = (
     start: number,
     end: number,
-    reportFunc?: (width: number) => void
+    reportFunc?: (delta: number) => void
   ) => {
-    const pixelsTowardNextElementDragged = end - start;
-    if (pixelsTowardNextElementDragged && reportFunc) {
-      reportFunc(pixelsTowardNextElementDragged);
+    const delta = end - start;
+    if (delta && reportFunc) {
+      reportFunc(delta);
     }
   };
 
+  const style: React.CSSProperties = isVertical
+    ? {
+        height: "4px",
+        width: "100%",
+        cursor: "ns-resize",
+        background: "#cbd5e1",
+        borderRadius: "2px",
+        transition: "background 0.15s ease",
+        flexShrink: 0,
+      }
+    : {
+        width: "4px",
+        cursor: "ew-resize",
+        background: "#cbd5e1",
+        borderRadius: "2px",
+        transition: "background 0.15s ease",
+        flexShrink: 0,
+      };
+
   return (
     <div
-      style={{
-        border: "0.5px solid black",
-        width: "2px",
-        margin: "10px 0",
-        cursor: "ew-resize",
-      }}
+      style={style}
       onMouseDown={_onMouseDown}
-    >
-      <div
-        style={{
-          zIndex: 286,
-          position: "relative",
-          width: "2px",
-          cursor: "ew-resize",
-          height: "100%",
-        }}
-      ></div>
-    </div>
+      onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.background = "#94a3b8"; }}
+      onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.background = "#cbd5e1"; }}
+    />
   );
 }
 

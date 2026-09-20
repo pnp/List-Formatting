@@ -6,7 +6,9 @@ export const OK_ELMS: { [x: string]: boolean } = {
   'img': true,
   'svg': true,
   'button': true,
-  'path': true
+  'path': true,
+  'p': true,
+  'filepreview': true
 };
 
 export const OK_ATTRS: { [x: string]: boolean } = {
@@ -19,7 +21,17 @@ export const OK_ATTRS: { [x: string]: boolean } = {
   'title': true,
   'role': true, // for accessibility
   'd': true, // for SVG path element
-  'alt': true // for accessibility for img element
+  'alt': true, // for accessibility for img element
+  'iconname': true, // Fluent UI icon name (lowercased by HTML parser)
+  'data-interception': true, // link navigation behavior
+  'viewBox': true, // SVG viewBox
+  'preserveAspectRatio': true, // SVG aspect ratio
+  'draggable': true
+};
+
+// aria-* attributes are allowed dynamically (matched by prefix)
+export function isAllowedAttr(attrName: string): boolean {
+  return !!OK_ATTRS[attrName] || /^aria-[a-z]+$/.test(attrName);
 }
 
 export const SCHEMA_URI = "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json";

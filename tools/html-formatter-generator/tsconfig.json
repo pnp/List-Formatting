@@ -6,6 +6,7 @@
     "jsx": "react",
     "moduleResolution": "node",
     "typeRoots": ["./node_modules/@types", "./typings"],
+    "types": ["jest", "node"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "rootDir": "src",
     "baseUrl": ".",
