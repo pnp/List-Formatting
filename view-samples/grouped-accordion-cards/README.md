@@ -143,4 +143,4 @@ Version|Date|Comments
 **Issue:** Colors not showing
 - **Solution:** Ensure ColorCode values are valid hex colors (e.g., #FF5733)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/grouped-accordion-cards" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/grouped-accordion-cards" />

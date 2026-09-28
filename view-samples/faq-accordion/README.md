@@ -40,4 +40,4 @@ Version |Date              |Comments
 
     ![screenshot of the edit view sceen](./assets/edit-view-screen.png)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-accordion" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/faq-accordion" />

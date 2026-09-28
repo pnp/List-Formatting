@@ -191,4 +191,4 @@ Version|Date|Comments
   - [generic-start-flow-conditionally](../generic-start-flow-conditionally)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-rowactions" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-rowactions" />

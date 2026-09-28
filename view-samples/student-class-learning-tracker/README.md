@@ -107,4 +107,4 @@ The Student & Class Learning Tracker was inspired by multiple other samples foun
 - [Tetsuya Kawahara's Star Rating column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-star-rating)
 - [Michel Mendes' Group Header Status Icon and Color group formatting](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/student-class-learning-tracker" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/student-class-learning-tracker" />

@@ -38,4 +38,4 @@ Version|Date|Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-open-file-as-pdf" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-open-file-as-pdf" />

@@ -149,4 +149,4 @@ This formatting solution is provided as-is for educational and professional use.
 - [Chart.js Documentation](https://www.chartjs.org/docs/)
 - [JSON Schema for SharePoint](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-quick-charts-io" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-quick-charts-io" />

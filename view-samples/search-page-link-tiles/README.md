@@ -66,4 +66,4 @@ Version |Date            |Comments
 - [SharePoint Search Query Tool](https://github.com/pnp/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool) allows you to see what values are set for which managed properties, which is very helpful when building a query.
 - Using [PnP Modern Search](https://microsoft-search.github.io/pnp-modern-search/), you can place search-related web parts on the page.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/search-page-link-tiles" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/search-page-link-tiles" />

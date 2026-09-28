@@ -35,4 +35,4 @@ This sample uses icons from the Office UI Fabric
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/color-based-smiley-face" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/color-based-smiley-face" />

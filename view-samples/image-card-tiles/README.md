@@ -78,4 +78,4 @@ This formatter uses modern CSS properties including flexbox, object-fit, and box
 - `[$ImageURL]`: References the image URL from the image column
 - `[$Title]`: References the title column for accessibility alt text
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-card-tiles" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/image-card-tiles" />

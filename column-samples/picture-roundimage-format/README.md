@@ -37,4 +37,4 @@ This template is included in the [Column Formatter](https://github.com/SharePoin
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/picture-roundimage-format" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/picture-roundimage-format" />

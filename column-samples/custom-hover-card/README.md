@@ -42,4 +42,4 @@ This sample uses icons from the Office UI Fabric
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/custom-hover-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/custom-hover-card" />

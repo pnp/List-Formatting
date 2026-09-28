@@ -39,4 +39,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 A similar sample is available for use with multi-select person fields: [multi-person-currentuser](../multi-person-currentuser)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-currentuser" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/person-currentuser" />

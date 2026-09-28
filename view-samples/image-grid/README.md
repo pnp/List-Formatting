@@ -96,4 +96,4 @@ The following issues and pull request are related to the deprecation of the `flo
 - [List View Formatting - Flex behavior on rowFormatter not functioning row to row · Issue #10008 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/issues/10008)
 - [Image-grid is not displaying horizontally · Issue #885 · pnp/List-Formatting](https://github.com/pnp/List-Formatting/issues/885)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-grid" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/image-grid" />

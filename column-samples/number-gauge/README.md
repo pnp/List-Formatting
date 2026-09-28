@@ -34,4 +34,4 @@ Version|Date|Comments
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-gauge" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-gauge" />

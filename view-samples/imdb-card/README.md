@@ -61,4 +61,4 @@ Version|Date|Comments
 
     [Query String URL Tricks for SharePoint and Microsoft 365 - Filtering and sorting modern SharePoint and Microsoft Lists views](https://learn.microsoft.com/microsoft-365/community/query-string-url-tricks-sharepoint-m365#filtering-and-sorting-modern-sharepoint-and-microsoft-lists-views)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/imdb-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/imdb-card" />

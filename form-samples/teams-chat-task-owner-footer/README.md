@@ -36,4 +36,4 @@ Microsoft Teams chat link uses deep link.
 
 - [Navigate to a chat](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-links#navigate-to-a-chat)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/teams-chat-task-owner-footer" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/form-samples/teams-chat-task-owner-footer" />

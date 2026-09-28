@@ -61,4 +61,4 @@ Version|Date|Comments
 - **Rating** is stored as plain text so you can paste any star sequence (`★★★★★`, `★★★★☆`, etc.).
 - **Card orientation is landscape** (740 px max-width, 170 px min-height) so the whole card fits in a single standard List view row. If you'd rather have the portrait FIFA-style look from the original inspiration image, switch the list to a Gallery / Tiles view and use the portrait variant of the JSON.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/sports-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/sports-card" />

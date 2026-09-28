@@ -49,4 +49,4 @@ Version |Date              |Comments
 - [Formatting syntax reference - img src security](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#img-src-security)
 - [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-qrcode" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/text-qrcode" />

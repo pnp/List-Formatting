@@ -44,4 +44,4 @@ Column Format samples shown above:
 
 A similar sample is available for use with multi-select person fields: [multi-person-currentuser-rowclass](../multi-person-currentuser-rowclass)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/person-currentuser-rowclass" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/person-currentuser-rowclass" />

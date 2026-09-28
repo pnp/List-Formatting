@@ -36,5 +36,5 @@ Version|Date|Comments
 Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
 
-> Update telemetry url below to place your sample name at the end then remove this line
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/readme-template" />
+> Required: Keep the tracking image as the final line of the README. Replace `readme-template` so the suffix after `/list-formatting/` exactly matches the sample folder's repository-relative path (for example, `view-samples/alternating-rows`), then remove this instruction.
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/readme-template" />

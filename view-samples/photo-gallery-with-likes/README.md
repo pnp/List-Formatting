@@ -48,4 +48,4 @@ The file name can also be displayed by setting the `txtContent` property as foll
 "txtContent": "=substring('[$FileLeafRef]',0,lastIndexOf([$FileLeafRef],'.'))"
 ```
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/photo-gallery-with-likes" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/photo-gallery-with-likes" />

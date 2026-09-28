@@ -53,4 +53,4 @@ Version|Date|Comments
 - [Create Folders with Colors using Power Automate](https://www.expiscornovus.com/2023/10/11/create-coloured-folder/) by [Expicornovus](https://pnp.github.io/List-Formatting/groupings/author/#dennis)
 - [Create Folders with Colors using PnP.PowerShell](https://pnp.github.io/script-samples/spo-create-colored-folder/README.html?tabs=pnpps) by [Tetsuya Kawahara](https://pnp.github.io/List-Formatting/groupings/author/#tetsuya-kawahara) and [Ganesh Sanap](https://pnp.github.io/List-Formatting/groupings/author/#ganesh-sanap)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-supertype" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-supertype" />

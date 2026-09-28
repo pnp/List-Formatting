@@ -34,4 +34,4 @@ Version |Date              |Comments
 
 - This sample uses SVG to display the Gantt chart. The [generic-time-schedule](../generic-time-schedule/) displays a time-based schedule using the same approach.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-monthly-gantt-chart" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-monthly-gantt-chart" />

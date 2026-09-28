@@ -52,4 +52,4 @@ Version|Date|Comments
 - **Rating** is stored as plain text so users can paste ★ / ☆ glyphs directly (e.g. `★★★★☆`).
 - Year and other numeric fields are wrapped in `toString()` inside expressions to avoid the SharePoint view formatter's strict number+string concatenation rule.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/vinyl-record" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/vinyl-record" />

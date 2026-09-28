@@ -69,4 +69,4 @@ This will require you to have a [GitHub account](https://github.com). These are 
 
 If you are uncomfortable with GitHub, there are several other tech communities out there including Stack Exchange, Reddit, Facebook, and more where many of our members are also answering questions.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/contributing/issues" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/contributing/issues" />

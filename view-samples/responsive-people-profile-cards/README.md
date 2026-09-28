@@ -83,4 +83,4 @@ This allows the web part to expand based on the number of displayed profile card
 
 - [Use view formatting to customize SharePoint](https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-formatting)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/responsive-people-profile-cards" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/responsive-people-profile-cards" />

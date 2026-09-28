@@ -143,4 +143,4 @@ For more advanced chart customization (colors, legends, etc.), you can modify th
 ## License
 This formatting solution is provided as-is for educational and professional use. The QuickChart.io API has its own terms of service.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-quick-charts-bar-chart" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-quick-charts-bar-chart" />

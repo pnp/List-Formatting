@@ -41,4 +41,4 @@ Version|Date|Comments
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/currency-symbol-concatenation" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/currency-symbol-concatenation" />

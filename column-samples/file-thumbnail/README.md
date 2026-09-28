@@ -37,4 +37,4 @@ Version|Date|Comments
 
 - SharePoint Online only
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/file-thumbnail" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/file-thumbnail" />

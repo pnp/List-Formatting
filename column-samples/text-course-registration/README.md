@@ -36,4 +36,4 @@ Version |Date          |Comments
 
 ## Additional notes
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-course-registration" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/text-course-registration" />

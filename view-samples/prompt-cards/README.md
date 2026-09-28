@@ -89,4 +89,4 @@ Version|Date|Comments
 
 - Be sure to check your locale’s separator setting when creating Calculated columns. Refer to the [Calculated column documentation](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)) for more details.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/prompt-cards" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/prompt-cards" />

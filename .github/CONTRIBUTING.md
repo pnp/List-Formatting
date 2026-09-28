@@ -32,10 +32,10 @@ Here's a high level process for submitting new samples or updates to existing on
 
 1. Sign the Contributor License Agreement (see below)
 2. Fork the main repository to your GitHub account
-3. Create a new branch for your fork for the contribution based on dev branch
+3. Create a new branch in your fork for the contribution based on the `master` branch
 4. Include your changes to your branch
 5. Commit your changes using descriptive commit message - These are used to track changes on the repositories for monthly communications, see [October 2017](https://dev.office.com/blogs/PnP-October-2017-Release) as an example
-6. Create a pull request in your own fork and target 'master' branch
+6. Create a pull request from your fork's contribution branch to the `master` branch of `pnp/List-Formatting`
 7. Fill up the provided PR template with the requested details
 
 > note. Delete the feature specific branch only AFTER your pull request has been processed.
@@ -44,10 +44,13 @@ Here's a high level process for submitting new samples or updates to existing on
 
 When you are submitting a new sample, it has to follow up below guidelines
 
-- You will need to have a README file for your sample, which is based on [provided template](../samples/README-template.md) under the Samples folder. Please copy this template and update accordingly. README has to be named as README.md with capital letters.
-    - You will need to have a picture of the sampe in practice in the README file ("pics or it didn't happen"). Preview image must be located in the sample folder and should be named as screenshot.png.
-- README template contains specific tracking image as a final entry in the page with img tag by default to https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/samples/readme-template. This is transparent image, which is used to track popularity of individual samples in GitHub.
-    - Updated the image src element according with repository name and folder information. If your sample is for example in samples folder and named as date-range-format, src element should be updated as https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/samples/date-range-format
+- Place the sample folder under `column-samples`, `form-samples`, or `view-samples`, as appropriate.
+- Include a `README.md` based on the template for its sample type: [column](../column-samples/README-template.md), [form](../form-samples/README-template.md), or [view](../view-samples/README-template.md).
+    - Include a picture of the sample in practice in the README file ("pics or it didn't happen"). The preview image must be located in the sample's `assets` folder and named `screenshot.png`.
+    - Include `assets/sample.json` with the sample metadata used by the documentation site and sample browser.
+- Name the sample's primary JSON file the same as its containing folder.
+- Every sample README must end with the tracking image `<img src="https://m365-visitor-stats.azurewebsites.net/{repository}/{sample-path}" />`. This transparent image is used to track the popularity of individual samples in GitHub.
+    - In this repository, use `list-formatting` for `{repository}` and the sample folder's repository-relative path for `{sample-path}`. The suffix must exactly match the sample path. For example, `column-samples/date-range-format` must end with `<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/date-range-format" />`.
 - When you are submitting new sample solution, please name the sample solution folder accordingly
     - Folder name should start by identifying type of the field or data which sample is for - like "number-", "text-", "date-", "image"
     - If sample can be used on any field type, please use "generic-" as the prefix for your sample folder
@@ -56,9 +59,7 @@ When you are submitting a new sample, it has to follow up below guidelines
 
 ## Step-by-step on submitting a pull request to this repository
 
-Please see following wiki post from the GitHub repository wiki for exact steps on submitting new pull requests.
-
-* How to submit a PR to SharePoint repository? - *Work in progress*
+See [Making Changes](../docs/contributing/changes.md) for detailed steps on submitting a pull request.
         
 ## Signing the CLA
 

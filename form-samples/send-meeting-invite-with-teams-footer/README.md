@@ -35,4 +35,4 @@ Version |Date             |Comments
 - This sample uses [deep link](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-open-a-meeting-scheduling-dialog
 ) to open a meeting scheduling dialog.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/send-meeting-invite-with-teams-footer" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/form-samples/send-meeting-invite-with-teams-footer" />

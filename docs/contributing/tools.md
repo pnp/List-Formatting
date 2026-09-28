@@ -6,4 +6,4 @@ See [Tools](../tools/index.md) for more details about these options.
 
 If there are additional tools you'd like to see listed, please open an issue and we'll get them added!
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/contributing/tools" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/contributing/tools" />

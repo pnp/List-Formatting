@@ -64,4 +64,4 @@ Version|Date|Comments
 
 The `indexOf` and `join` functions are not available in SharePoint 2019
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-icons" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/multi-choice-icons" />

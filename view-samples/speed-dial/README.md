@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Additional notes
 The hyperlinks in the teamscall and teamschat columns are deep links to Teams chat and teams calls respectively with a single user. Refer deep links documentation for Microsoft Teams. 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/speed-dial" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/speed-dial" />

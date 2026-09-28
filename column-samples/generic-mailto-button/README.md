@@ -34,4 +34,4 @@ Version|Date|Comments
 - The [person-mailto](../person-mailto/) demonstrates a similar technique but is applied directly to a person field
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-mailto-button" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-mailto-button" />

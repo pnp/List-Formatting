@@ -67,4 +67,4 @@ Version|Date|Comments
 - **No gradients** are used — gradient `background` values silently fail to render in SharePoint form formatters.
 - The formatter has no footer counterpart — it is a header-only sample.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/countdown-timer-header" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/form-samples/countdown-timer-header" />

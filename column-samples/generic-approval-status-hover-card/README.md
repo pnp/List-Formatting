@@ -36,4 +36,4 @@ This sample uses icons from Fluent UI
 
 - [Fluent UI Iconography](https://developer.microsoft.com/fluentui#/styles/web/icons)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-approval-status-hover-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-approval-status-hover-card" />

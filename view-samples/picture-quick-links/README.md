@@ -52,4 +52,4 @@ If you create a list view and apply [hyperlink-display-url](/column-samples/hype
 
 ![screenshot of the list with hyperlink-display-url applied](./assets/hyperlink-display-url.png)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-quick-links" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/picture-quick-links" />

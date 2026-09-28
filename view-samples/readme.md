@@ -11,4 +11,4 @@ There is a dedicated listing of view samples in our documentation site along wit
     <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker loves you!">
 </p>
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/readme" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/readme" />

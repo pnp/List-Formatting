@@ -46,4 +46,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/generic-numeric-average-comparison" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/generic-numeric-average-comparison" />
