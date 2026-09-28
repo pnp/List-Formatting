@@ -39,4 +39,4 @@ This is the perfect place to get involved in the SharePoint Community and become
 
 > Sharing is caring!
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/index" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/index" />

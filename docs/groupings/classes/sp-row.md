@@ -69,4 +69,4 @@ Samples are grouped by classes used. Expand to see the related samples.
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Status Blocks](https://github.com/pnp/list-formatting/tree/master/view-samples/status-blocks){target=_blank title="status-blocks (View): This sample demonstrates basic row display with conditional logic to adjust the background-color based on a Status field." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/status-blocks/assets/screenshot.png"}
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Student & Class Learning Tracker](https://github.com/pnp/list-formatting/tree/master/view-samples/student-class-learning-tracker){target=_blank title="student-class-learning-tracker (View): This sample transforms your list into a learning tracker." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/student-class-learning-tracker/assets/screenshot.gif"}
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/sp-row" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/sp-row" />

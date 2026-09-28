@@ -742,4 +742,4 @@ Samples are grouped by their usage of advanced operators. This excludes common a
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Payments](https://github.com/pnp/List-Formatting/tree/master/view-samples/payments){target=_blank title="payments (View): This sample provides a payment list format to register daily expenses, currency, status, rate option, comments and categorization of payment. Solution has 3 formats Desktop, Mobile and Group by Category." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/payments/assets/screenshot.gif"}
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Wordle](https://github.com/pnp/List-Formatting/tree/master/view-samples/wordle){target=_blank title="wordle (View): This sample reproduces the popular word puzzle game Wordle with Microsoft Lists." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/wordle/assets/screenshot.gif"}
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/operator" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/operator" />

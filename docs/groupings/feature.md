@@ -775,4 +775,4 @@ Samples are grouped by their usage of key features. Expand to see the related sa
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Weather forecast](https://github.com/pnp/list-formatting/tree/master/view-samples/weather-forecast){target=_blank title="weather-forecast (View): This sample transforms list items into cards formatted with weather forecast layouts." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/weather-forecast/assets/screenshot.png"}
 - :fontawesome-solid-table-list:{.viewIcon title="View Format"} [Weekly Heatmap](https://github.com/pnp/list-formatting/tree/master/view-samples/weekly-heatmap){target=_blank title="weekly-heatmap (View): This sample uses SharePoint List Formatting to display weekly data as a heatmap calendar view." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/weekly-heatmap/assets/screenshot.png"}
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/feature" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/feature" />

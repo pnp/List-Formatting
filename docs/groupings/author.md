@@ -885,4 +885,4 @@ Samples are grouped by their creator. Samples with multiple authors will be list
 ## Yannick Borghmans
 - :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Launch a Flow for a Selected Item](https://github.com/pnp/list-formatting/tree/master/column-samples/generic-start-flow){target=_blank title="generic-start-flow (Column): You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-start-flow/assets/screenshot.png"}
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/author" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/author" />

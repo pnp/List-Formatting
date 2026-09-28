@@ -129,4 +129,4 @@ Samples are grouped by classes used and listed from lightest to boldest. Expand 
 - :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Volume option](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-volume){target=_blank title="number-volume (Column): This sample includes visual selection of volume from 0 to 5." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/number-volume/assets/screenshot.gif"}
 - :fontawesome-solid-table-columns:{.columnIcon title="Column Format"} [Yearly Gantt Chart](https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-yearly-gantt-chart){target=_blank title="generic-yearly-gantt-chart (Column): This sample demonstrates the display of a yearly Gantt chart." data-screenshot="https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-yearly-gantt-chart/assets/screenshot.png"}
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/ms-fontWeight" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/ms-fontWeight" />
