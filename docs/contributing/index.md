@@ -16,6 +16,10 @@ If you are unsure if your contribution would fit into this project, raise an iss
 
 **Every contribution counts and everyone's voice matters!**
 
+## Community calls and demos
+
+Everyone is welcome to join the [weekly community calls](https://aka.ms/community/calls) for Copilot, Microsoft 365, and Power Platform updates. You can also [sign up to present a demo](https://aka.ms/community/request/demo) to share your learnings and provide input.
+
 ## Contributor License Agreement
 
 Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
@@ -28,4 +32,4 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 > Sharing is caring!
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/contributing" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/contributing" />

@@ -39,5 +39,5 @@ Version|Date|Comments
 Any potential additional notes to get included in the readme around the sample with additional pictures etc.
 
 
-> Update telemetry url below to replace "readme-template" with the internal name of your sample (same as the containing folder)
+> Required: Keep the tracking image as the final line of the README. Replace `readme-template` so the suffix after `/list-formatting/` exactly matches the sample folder's repository-relative path (for example, `form-samples/countdown-timer-header`), then remove this instruction.
 <img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/form-samples/readme-template" />

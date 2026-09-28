@@ -120,4 +120,4 @@ More details can be found in the [official docs](https://www.mkdocs.org/user-gui
 
 The HTML-Formatter is a legacy tool hosted in this site. We are no longer accepting feature updates (though bug and documentation fixes are always welcome).
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/contributing/docs" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/contributing/docs" />

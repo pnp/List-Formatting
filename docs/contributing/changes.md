@@ -37,7 +37,7 @@ Forking a repository means creating a copy for you to edit. You can do whatever 
 
 ![fork repository](../img/fork-repository.png)
 
-The URL of your fork is now `https://github.com/<YOURGITHUBACCOUNT>/sp-dev-list-formatting/`
+The URL of your fork is now `https://github.com/<YOURGITHUBACCOUNT>/List-Formatting/`.
 
 ### Clone your Fork
 
@@ -58,7 +58,7 @@ Be sure to commit your changes with descriptive messages. You can then push your
 
 You will now want to (kindly) ask the repository maintainer to pull in your changes. You do that by doing a pull request:
 
-- Open [pnp/sp-dev-list-formatting](https://github.com/pnp/sp-dev-list-formatting) (this repository)
+- Open [pnp/List-Formatting](https://github.com/pnp/List-Formatting) (this repository)
 - Select **Pull requests**
 - Select **New pull request**
 
@@ -66,6 +66,7 @@ You will now want to (kindly) ask the repository maintainer to pull in your chan
 
 - Select **compare across forks**
 - Select your fork from the **head repository**
+- Confirm the base repository is `pnp/List-Formatting` and the base branch is `master`
 
 ![compare changes](../img/create-pr.png)
 
@@ -91,4 +92,4 @@ We are here and happy to support you and provide you with resources, guidance an
 
 _Sharing is Caring!_
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/contributing/changes" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/contributing/changes" />
