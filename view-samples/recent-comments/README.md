@@ -35,4 +35,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/recent-comments" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/recent-comments" />

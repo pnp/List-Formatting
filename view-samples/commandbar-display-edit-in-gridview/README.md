@@ -38,4 +38,4 @@ Version |Date             |Comments
 
   If you frequently edit file property values in grid view and want to edit them in grid view right from the command bar, try using this sample.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/commandbar-display-edit-in-gridview" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/commandbar-display-edit-in-gridview" />

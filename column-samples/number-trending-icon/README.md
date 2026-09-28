@@ -63,4 +63,4 @@ A similar template is also included in the [Column Formatter](https://github.com
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-trending-icon" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-trending-icon" />

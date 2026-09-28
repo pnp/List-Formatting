@@ -86,4 +86,4 @@ Version |Date              |Comments
 
     ![screenshot of the create column screen](./assets/create-column-screen.png)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gantt-chart" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-gantt-chart" />

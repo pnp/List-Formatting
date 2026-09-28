@@ -70,4 +70,4 @@ Version|Date|Comments
 - You can easily add more keywords by extending the `indexOf()` conditions in the JSON
 - The sentiment is determined by the **first matching keyword** found in the feedback text
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/feedback-sentiment-board" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/feedback-sentiment-board" />

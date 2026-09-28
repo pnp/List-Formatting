@@ -38,4 +38,4 @@ Version|Date|Comments
 ---
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/location-weather" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/location-weather" />

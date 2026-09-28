@@ -52,4 +52,4 @@ Version |Date         |Comments
 - Not all file extensions have been tested for preview, so some file types may not be supported for display.
 - The embedded view uses query strings such as `?env=WebView`. For more details, see [Query String URL Tricks for SharePoint and Microsoft 365](https://learn.microsoft.com/microsoft-365/community/query-string-url-tricks-sharepoint-m365).
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-embed-file-preview" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-embed-file-preview" />

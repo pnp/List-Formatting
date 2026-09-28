@@ -84,4 +84,4 @@ generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 - [SharePoint Column Formatting Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-bubble-chart" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-bubble-chart" />

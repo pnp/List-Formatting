@@ -61,4 +61,4 @@ Version|Date|Comments
 - Supports both **light** and **dark** SharePoint themes.
 - Works best in **List view** with `WeekStartDate` sorted ascending.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/weekly-heatmap" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/weekly-heatmap" />

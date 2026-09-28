@@ -35,4 +35,4 @@ generic-quickview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil
 
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-quickview-issue-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-quickview-issue-card" />

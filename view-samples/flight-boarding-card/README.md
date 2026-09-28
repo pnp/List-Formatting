@@ -59,4 +59,4 @@ Version|Date|Comments
 - The **IssuedFrom** field renders as `EX <city code>` on the card (e.g. `EX DEL`). Leave blank if not applicable.
 - The "GATE CLOSES 15 MINS BEFORE DEPARTURE" message is static and always displayed.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/flight-boarding-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/flight-boarding-card" />

@@ -78,4 +78,4 @@ Version |Date        |Comments
 
 - [Approvals in Lists](https://support.microsoft.com/office/approvals-in-lists-2bd0954d-5797-4be3-b78a-846f26338e17) feature has not yet been deployed as of May 22, 2024 and some tenants may not be able to activate the feature.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/approval-status-icon-color" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/approval-status-icon-color" />

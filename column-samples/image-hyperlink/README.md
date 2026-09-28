@@ -35,4 +35,4 @@ Version|Date|Comments
 - Padding between the rows can be tweaked on line 6 & 7
 - Choose how the link opens in the browser on line 14. "_blank" for new window/tab, or "_self" for the same window.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-hyperlink" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/image-hyperlink" />

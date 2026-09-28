@@ -56,4 +56,4 @@ Version|Date|Comments
 - The price renders only when greater than zero. Leave **Price** blank or zero to hide it.
 - The "NO REFUNDS OR EXCHANGES" footer message is static and always displayed.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/movie-ticket-stub" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/movie-ticket-stub" />

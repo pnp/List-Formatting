@@ -49,4 +49,4 @@ Version|Date|Comments
 
 - This sample includes a visually rich card layout for books, with best seller highlighting and store location links.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/book-template" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/book-template" />

@@ -44,4 +44,4 @@ This format takes advantage of `CustomRowActions` to enable the `defaultClick` a
 
 ![Custom Actions in Action](./assets/screenshot.gif)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/planner-inspired-task-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/planner-inspired-task-card" />

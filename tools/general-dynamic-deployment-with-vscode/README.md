@@ -48,5 +48,5 @@ Version|Date|Comments
 http://warner.digital/list-formatting-automated-deployment-part1 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/sp-dev-list-formatting/tools/general-dynamic-deployment-with-vscode" />
+<img src="https://m365-visitor-stats.azurewebsites.net/sp-dev-list-formatting/tools/general-dynamic-deployment-with-vscode" />
 

@@ -40,4 +40,4 @@ Any potential additional notes to get included in the readme around the sample w
 
 
 > Update telemetry url below to place your sample name at the end then remove this line
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/readme-template" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/readme-template" />

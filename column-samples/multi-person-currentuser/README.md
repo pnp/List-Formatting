@@ -37,4 +37,4 @@ Version|Date|Comments
 This sample works for **both** single and multi-select person fields.However, an additional sample is available intended for use with single-select person fields: [person-currentuser-rowclass](../person-currentuser). It is a simpler sample intended to show how to use the `@me` operator.
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-currentuser" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/multi-person-currentuser" />

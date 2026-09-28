@@ -38,4 +38,4 @@ Version|Date|Comments
 
 This sample works well with the [generic-flow-status](../../column-samples/generic-flow-status/) column format.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/commandbar-hide-automate" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/commandbar-hide-automate" />

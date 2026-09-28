@@ -38,4 +38,4 @@ Version|Date|Comments
 The buttons to be hidden must be explicitly named, and it is likely that there will be new buttons that need to be hidden in new releases from Microsoft. This code currently hides everything listed in Microsoft's [Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-commandbar-formatting). Refer to this if you are seeing commands not be hidden, and add a line as needed.
 If you can find a way to hide the viewSelector, please pull request.  :)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/commandbar-hide-all" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/commandbar-hide-all" />

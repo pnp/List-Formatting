@@ -40,4 +40,4 @@ Version|Date|Comments
 - This format allows the date and time to be displayed in the local PC time zone, instead of the site's time zone.
 - Please let me know if you have a scenario that is not accounted for in my generic example when it comes regional settings logic. Maybe we can add more logic to this script together.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-notation" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/date-notation" />

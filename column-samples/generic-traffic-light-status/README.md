@@ -150,4 +150,4 @@ Version|Date|Comments
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-traffic-light-status" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-traffic-light-status" />

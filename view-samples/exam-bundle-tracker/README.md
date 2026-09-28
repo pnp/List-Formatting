@@ -66,4 +66,4 @@ The Exam Bundle Tracker was inspired by multiple other samples found here in the
 - [Tetsuya Kawahara's Assign to Me column formatting](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-assign-to-me)
 - [Michel Mendes' Group Header Status Icon and Color group formatting](https://github.com/pnp/list-formatting/tree/master/view-samples/group-header-status-icon-color)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/exam-bundle-tracker" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/exam-bundle-tracker" />

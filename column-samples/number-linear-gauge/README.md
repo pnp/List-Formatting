@@ -138,4 +138,4 @@ The characters used in the above formula and their meanings are as follows:
 |$$R_{max}$$|Max value of each range|Number\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
 |$$R_{min}$$|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-linear-gauge" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-linear-gauge" />

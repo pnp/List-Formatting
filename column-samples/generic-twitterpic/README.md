@@ -59,4 +59,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-twitterpic" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-twitterpic" />

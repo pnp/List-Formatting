@@ -48,4 +48,4 @@ Using the `customRowAction` with an `action` of `defaultClick` creates a great w
 
 ![Master Detail View](./assets/BulletinBoardDetails.gif)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bulletin-board" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/bulletin-board" />

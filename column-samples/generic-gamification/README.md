@@ -117,4 +117,4 @@ Version|Date|
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)
 - [SharePoint List Formatting Examples](https://pnp.github.io/List-Formatting/)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gamification" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-gamification" />

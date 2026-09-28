@@ -46,4 +46,4 @@ Version |Date          |Comments
 - [Group customization syntax reference](https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-group-formatting)
 - [Formatting syntax reference - Special string values](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#special-string-values)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/group-header-remove-column-name" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/group-header-remove-column-name" />

@@ -38,4 +38,4 @@ Version |Date           |Comments
 
 - I created this sample to organize personal travel experiences and records using [Microsoft Lists - MSA](https://www.microsoft.com/microsoft-365/microsoft-lists-preview).
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/travel-tweets-board" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/travel-tweets-board" />

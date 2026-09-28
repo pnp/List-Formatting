@@ -46,4 +46,4 @@ Version|Date|Comments
 - You can adjust the `max-height` value in the JSON to show more or less content before scrolling.
 - Works in both **light** and **dark** SharePoint themes.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/sticky-title-feedback-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/sticky-title-feedback-card" />

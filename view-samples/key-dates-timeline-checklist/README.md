@@ -71,4 +71,4 @@ Perfect for onboarding journeys, project milestones, compliance tracking, or any
 - Best viewed on desktop
 - Works with both SharePoint lists and Microsoft Lists
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/key-dates-timeline-checklist" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/key-dates-timeline-checklist" />

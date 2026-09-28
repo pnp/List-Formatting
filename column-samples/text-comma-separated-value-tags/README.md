@@ -39,4 +39,4 @@ text-comma-separated-value-tags.json | [Sudhir Kesharwani](https://github.com/su
 
 - This sample was built and tested on SharePoint Online. This may not work on the ON-PREM SharePoint editions.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-comma-separated-value-tags" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/text-comma-separated-value-tags" />

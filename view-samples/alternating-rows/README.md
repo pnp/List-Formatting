@@ -48,4 +48,4 @@ Column Format samples shown above:
 - [multi-person-currentuser](../../column-samples/multi-person-currentuser)
 - [date-range-format](../../column-samples/date-range-format)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/alternating-rows" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/alternating-rows" />

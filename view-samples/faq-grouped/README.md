@@ -39,4 +39,4 @@ Version|Date|Comments
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-grouped" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/faq-grouped" />

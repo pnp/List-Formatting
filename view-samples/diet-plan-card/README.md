@@ -52,4 +52,4 @@ Version|Date|Comments
 
 - This sample also includes command bar customization, and the "Add new item" button will be hidden.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/diet-plan-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/diet-plan-card" />

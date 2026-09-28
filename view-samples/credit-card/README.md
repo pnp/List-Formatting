@@ -59,4 +59,4 @@ Version|Date|Comments
 - **Network** is rendered large in the bottom-right corner as the recognisable label (VISA / Mastercard / Amex / Bonvoy / etc).
 - This sample does **not** display real card data — it is a visual template only. Never store real card numbers in SharePoint.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/credit-card" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/credit-card" />

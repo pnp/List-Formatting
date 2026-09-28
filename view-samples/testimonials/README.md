@@ -34,4 +34,4 @@ Version|Date|Comments
 
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/testimonials" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/testimonials" />

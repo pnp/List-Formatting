@@ -46,4 +46,4 @@ A similar wizard is also included in the [Column Formatter](https://github.com/S
 
 > Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-data-bar" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-data-bar" />

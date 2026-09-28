@@ -59,4 +59,4 @@ Version|Date|Comments
 - The album-art block is a solid coloured square overlaid with a Fluent `Headphones` icon - no images required.
 - Time strings (`ElapsedTime`, `DurationTime`) are stored as plain text in `M:SS` format to keep the formatter simple. If you would rather store seconds, swap them for a calculated text column using the seconds-to-time conversion of your choice.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/spotify-now-playing" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/spotify-now-playing" />

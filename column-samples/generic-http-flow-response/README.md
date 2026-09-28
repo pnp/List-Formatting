@@ -54,4 +54,4 @@ To fix this:
 2. Add the domain of your Flow URL to the list (e.g., `logic.azure.com` or `prod-18.westus.logic.azure.com`).
 3. Click **OK**.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-http-flow-response" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-http-flow-response" />

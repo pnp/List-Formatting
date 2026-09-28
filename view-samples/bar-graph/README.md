@@ -61,4 +61,4 @@ Need to check if a gradient css can also be added to the bars, with an applicati
 
 ---
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bar-graph" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/bar-graph" />

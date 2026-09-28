@@ -35,4 +35,4 @@ The SVG heart in this sample is based on a sample from the following site.
 
 - [d - SVG: Scalable Vector Graphics | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-heart-in-heart" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-heart-in-heart" />

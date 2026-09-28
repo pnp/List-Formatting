@@ -39,4 +39,4 @@ Version |Date              |Comments
 - [Zeller's congruence](https://en.wikipedia.org/wiki/Zeller%27s_congruence)
 - [Tomohiko Sakamoto's methods](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-page-a-day-calendar" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/date-page-a-day-calendar" />

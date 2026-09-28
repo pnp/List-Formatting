@@ -40,4 +40,4 @@ Any potential additional notes to get included in the readme around the sample w
 
 
 > Update telemetry url below to replace "readme-template" with the internal name of your sample (same as the containing folder)
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/readme-template" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/form-samples/readme-template" />

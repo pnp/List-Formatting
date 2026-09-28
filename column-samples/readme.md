@@ -13,4 +13,4 @@ Folders are organized by column type (generic applies to any column type whose v
     <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker loves you!">
 </p>
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/readme" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/readme" />

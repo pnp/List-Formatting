@@ -38,4 +38,4 @@ Any potential additional notes to get included in the readme around the sample w
 - Adjust the  "height", "width" paramters to your individual needs or remove them to get a standard size of a tile.
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/disable-click-action" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/disable-click-action" />

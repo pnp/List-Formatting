@@ -29,4 +29,4 @@ Version|Date|Comments
 ## Additional notes
 None
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-circle-in-circle" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/number-circle-in-circle" />

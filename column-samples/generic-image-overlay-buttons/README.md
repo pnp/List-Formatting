@@ -266,4 +266,4 @@ This column formatting is ideal for:
 - Verify screen reader compatibility
 - Consider adding descriptive alt text for images
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-image-overlay-buttons" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-image-overlay-buttons" />

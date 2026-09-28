@@ -69,4 +69,4 @@ This format takes advantage of CSS Flexbox to help make it responsive:
 ![Responsive Screenshot](./assets/screenshotResponsive.png)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/contact-cards" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/contact-cards" />

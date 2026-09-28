@@ -34,4 +34,4 @@ Version |Date         |Comments
 ## Additional notes
 - [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/honeycomb-link" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/view-samples/honeycomb-link" />
