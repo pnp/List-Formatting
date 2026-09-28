@@ -270,4 +270,4 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-border-all:{.classDisplay .cd-neutralPrimary}
 ## sp-field-borderTopSolid
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/sp-field-border" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/sp-field-border" />

@@ -1831,4 +1831,4 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-font:{.classDisplay .cd-themePrimary title="Sets text color"}
 ## themePrimary--hover
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/ms-fontColor" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/ms-fontColor" />

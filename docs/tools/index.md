@@ -69,4 +69,4 @@ This tool doesnot recognize `expressions` , but you can write `expression string
 !!! Note "HTML To Formatter Deprecated"
     This tool is no longer supported and is provided only for legacy projects. Additional updates to this tool will not be made. You can find similar functionality in Jsonify listed above.
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/tools/html-formatter-generator" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/tools/html-formatter-generator" />

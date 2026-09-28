@@ -22,4 +22,4 @@ You can also apply formats directly in the field settings screen for both list f
 
 ![field settings](../img/FieldSetting.png)
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/gettingstarted/columnformats" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/gettingstarted/columnformats" />

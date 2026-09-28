@@ -945,4 +945,4 @@ Samples are grouped by classes used. Expand to see the related samples.
 :fontawesome-solid-fill-drip:{.classDisplay .cd-yellowLight title="Sets background-color"}
 ## sp-css-backgroundColor-yellowLight
 [:fontawesome-solid-lightbulb:](../../contributing/index.md){.ideaLink title="Contribution Opportunity!"}
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/docs/groupings/sp-css-backgroundColor" />
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/docs/groupings/sp-css-backgroundColor" />
