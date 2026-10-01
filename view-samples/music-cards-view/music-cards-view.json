@@ -1,0 +1,278 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 300,
+  "width": 250,
+  "hideSelection": true,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "border-radius": "12px",
+      "overflow": "hidden",
+      "xxbox-shadow": "0 8px 6px -6px black",
+      "background-color": "#1c1c1c",
+      "margin": "4px",
+      "border": "4px solid #fff"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "position": "relative",
+          "width": "100%",
+          "height": "140px",
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "='https://img.youtube.com/vi/' + [$YouTubeCode] + '/mqdefault.jpg'",
+              "alt": "Album cover"
+            },
+            "style": {
+              "width": "100%",
+              "height": "100%",
+              "object-fit": "cover"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "background-color": "#00000066",
+              "cursor": "pointer"
+            },
+            "customRowAction": {
+              "action": "embed",
+              "actionInput": {
+                "src": "='https://www.youtube.com/embed/' + [$YouTubeCode]",
+                "width": "640",
+                "height": "360"
+              }
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "font-size": "32px",
+                  "color": "#ffffff"
+                },
+                "attributes": {
+                  "iconName": "Play"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "margin-top": "0px",
+          "display": "inline-block",
+          "clear": "both"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "0px",
+              "margin-top": "20px",
+              "display": "inline-block",
+              "clear": "both"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "18px",
+                  "float": "left",
+                  "width": "25px",
+                  "color": "white",
+                  "padding-left": "10px",
+                  "padding-right": "8px"
+                },
+                "attributes": {
+                  "iconName": "MusicInCollectionFill"
+                }
+              },
+              {
+                "elmType": "p",
+                "style": {
+                  "font-size": "18px",
+                  "float": "left",
+                  "color": "white",
+                  "text-transform": "Uppercase",
+                  "margin": "0px",
+                  "margin-top": "-6px"
+                },
+                "attributes": {
+                  "title": "[$Title]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content "
+                },
+                "txtContent": "=if ([$Title] == '', '–', [$Title])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding-left": "14px",
+              "margin-top": "4px",
+              "float": "left",
+              "display": "flex"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px",
+                  "float": "left",
+                  "width": "25px",
+                  "color": "white",
+                  "padding-right": "4px"
+                },
+                "attributes": {
+                  "iconName": "Microphone"
+                }
+              },
+              {
+                "elmType": "p",
+                "style": {
+                  "font-size": "14px",
+                  "float": "left",
+                  "color": "white",
+                  "text-transform": "Uppercase",
+                  "margin": "0px",
+                  "margin-top": "-4px"
+                },
+                "attributes": {
+                  "title": "[$Artist]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent",
+                  "role": "heading",
+                  "aria-level": "3"
+                },
+                "txtContent": "=if ([$Artist] == '', '–', [$Artist])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding-left": "14px",
+              "margin-top": "10px",
+              "float": "left",
+              "display": "flex",
+              "clear": "both"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px",
+                  "float": "left",
+                  "width": "25px",
+                  "color": "#ccc",
+                  "padding-right": "4px"
+                },
+                "attributes": {
+                  "iconName": "D365TalentInsight"
+                }
+              },
+              {
+                "elmType": "p",
+                "style": {
+                  "font-size": "14px",
+                  "float": "left",
+                  "color": "#ccc",
+                  "margin": "0px",
+                  "margin-top": "-4px"
+                },
+                "attributes": {
+                  "title": "[$Author.title]",
+                  "class": "ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent",
+                  "role": "heading",
+                  "aria-level": "3"
+                },
+                "txtContent": "=if ([$Author.title] == '', '–', [$Author.title])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "attributes": {
+              "class": "sp-card-displayColumnContainer"
+            },
+            "style": {
+              "display": "block",
+              "clear": "both",
+              "padding-top": "24px",
+              "width": "100%",
+              "text-align": "center",
+              "font-size": "18px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "attributes": {
+                  "class": "ms-fontColor-neutralPrimary sp-card-content "
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary sp-card-content "
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "forEach": "rating in split('1,2,3,4,5',',')",
+                        "children": [
+                          {
+                            "elmType": "span",
+                            "attributes": {
+                              "class": "=if([$AverageRating] >= [$rating] , 'sp-card-starRating ms-fontColor-yellow', if([$AverageRating] > [$rating] -1 && [$AverageRating]  < [$rating], 'sp-card-starRating sp-card-halfFillStar ms-fontColor-yellow  ms-fontColor-yellow--hover', 'sp-card-starRating sp-card-emptyFillStar ms-fontColor-yellow--hover'))",
+                              "iconName": "FavoriteStarFill"
+                            },
+                            "style": {
+                              "padding-right": "4px"
+                            },
+                            "customRowAction": {
+                              "action": "setValue",
+                              "actionInput": {
+                                "RatingCount": "=if(indexOf([$RatedBy.email], @me) == -1, Number([$RatingCount]) + 1, Number([$RatingCount]))",
+                                "Ratings": "=if(indexOf([$RatedBy.email], @me) == -1, ([$Ratings] + [$rating] + ','), substring([$Ratings], 0,indexOf(split(replaceAll([$RatedBy.email],' ',''), ';'), @me)*2) + [$rating] + substring([$Ratings],   indexOf(split(replaceAll([$RatedBy.email],' ',''), ';'), @me)*2+1, indexOf([$Ratings] + '^', '^')))",
+                                "RatedBy": "=if(indexOf([$RatedBy.email], @me) == -1, appendTo([$RatedBy.email], @me),[$RatedBy])",
+                                "AverageRating": "=if(indexOf([$RatedBy.email], @me) == -1, ((Number([$AverageRating])*Number([$RatingCount])) + Number([$rating]))/(Number([$RatingCount]) + 1),((Number([$AverageRating])*Number([$RatingCount]) + Number([$rating]) - Number(substring([$Ratings],indexOf(split(replaceAll([$RatedBy.email],' ',''), ';'), @me)*2,indexOf(split(replaceAll([$RatedBy.email],' ',''), ';'), @me)*2+1)))/Number([$RatingCount])))"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "class": "sp-card-ratingCount ms-fontColor-yellow"
+                        },
+                        "txtContent": "= ' (' + length([$RatedBy]) + ')'"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
