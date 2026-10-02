@@ -2,7 +2,7 @@
 
 This sample uses SharePoint column formatting to display status values as simple, color-coded badges. It provides a quick visual indicator that makes list items easier to scan.
 
-![Status Column Badges](./assets/status-column-badges.png)
+![Status Column Badges](./assets/screenshot.png)
 
 ## Features
 
