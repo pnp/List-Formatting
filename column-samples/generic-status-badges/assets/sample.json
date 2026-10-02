@@ -1,0 +1,79 @@
+[
+  {
+    "name": "pnp-list-formatting-generic-status-badges",
+    "reponame": "generic-status-badges",
+    "source": "pnp",
+    "title": "Status Column Badges",
+    "shortDescription": "This sample uses SharePoint column formatting to display status values as simple, color-coded badges. It provides a quick visual indicator that makes list items easier to scan.",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-status-badges",
+    "longDescription": [
+      "This sample uses SharePoint column formatting to display status values as simple, color-coded badges. It provides a quick visual indicator that makes list items easier to scan."
+    ],
+    "creationDateTime": "2026-09-22T00:00:00.000Z",
+    "updateDateTime": "2026-09-22T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": ""
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": ""
+      },
+      {
+        "key": "CLASSES",
+        "value": ""
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-status-badges/assets/screenshot.png",
+        "alt": "screenshot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "LeulMesfin",
+        "pictureUrl": "https://github.com/LeulMesfin.png",
+        "name": "Leul Mesfin"
+      }
+    ],
+    "references": [
+      {
+        "name": "Use column formatting to customize SharePoint",
+        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "padding": "8px",
+    "border-radius": "4px",
+    "text-align": "center",
+    "color": "white",
+    "font-weight": "bold",
+    "background-color": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "==",
+          "operands": [
+            "@currentField",
+            "Sending Card"
+          ]
+        },
+        "#FFB900",
+        {
+          "operator": "?",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "@currentField",
+                "Confirmed"
+              ]
+            },
+            "#28A745",
+            {
+              "operator": "?",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "@currentField",
+                    "Issue Reported"
+                  ]
+                },
+                "#DC3545",
+                "#808080"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "txtContent": "@currentField"
+}
