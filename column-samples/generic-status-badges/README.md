@@ -32,7 +32,7 @@ The choice values must match exactly for the corresponding colors to appear.
 4. Open the Status column menu.
 5. Select **Column settings** and then **Format this column**.
 6. Select **Advanced mode**.
-7. Copy the contents of [`status-column-badges.json`](./status-column-badges.json).
+7. Copy the contents of [`generic-status-badges.json`](./generic-status-badges.json).
 8. Paste the JSON into the formatting editor.
 9. Select **Save**.
 
@@ -47,6 +47,23 @@ The choice values must match exactly for the corresponding colors to appear.
 
 ## Customization
 
-You can customize the formatting by changing the status text or hexadecimal color values inside `status-column-badges.json`.
+You can customize the formatting by changing the status text or hexadecimal color values inside `generic-status-badges.json`.
 
 If you change a status name, make sure the value in the JSON exactly matches the corresponding SharePoint Choice value.
+
+## Sample
+
+Solution|Author(s)
+--------|---------
+generic-status-badges.json | [Leul Mesfin](https://github.com/LeulMesfin)
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|September 22, 2026|Initial release
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/generic-status-badges" />
