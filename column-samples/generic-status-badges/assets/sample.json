@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-generic-status-badges",
     "reponame": "generic-status-badges",
     "source": "pnp",
-    "title": "",
-    "shortDescription": "",
+    "title": "Status Column Badges",
+    "shortDescription": "This sample uses SharePoint column formatting to display status values as simple, color-coded badges. It provides a quick visual indicator that makes list items easier to scan.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-status-badges",
     "longDescription": [
-      ""
+      "This sample uses SharePoint column formatting to display status values as simple, color-coded badges. It provides a quick visual indicator that makes list items easier to scan."
     ],
     "creationDateTime": "2026-09-22T00:00:00.000Z",
     "updateDateTime": "2026-09-22T00:00:00.000Z",
