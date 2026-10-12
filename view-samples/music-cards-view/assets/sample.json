@@ -1,0 +1,44 @@
+[
+  {
+    "Title": "Bohemian Rhapsody",
+    "Artist": "Queen",
+    "Author": {
+      "title": "Ron Ackermans"
+    },
+    "YouTubeCode": "fJ9rUzIMcZQ",
+    "AverageRating": 4.8,
+    "RatingCount": 120,
+    "Ratings": "5,5,4,5,5",
+    "RatedBy": {
+      "email": "user1@example.com;user2@example.com;user3@example.com"
+    }
+  },
+  {
+    "Title": "Imagine",
+    "Artist": "John Lennon",
+    "Author": {
+      "title": "Ron Ackermans"
+    },
+    "YouTubeCode": "YkgkThdzX-8",
+    "AverageRating": 4.5,
+    "RatingCount": 85,
+    "Ratings": "5,4,4,5,4",
+    "RatedBy": {
+      "email": "user4@example.com;user5@example.com"
+    }
+  },
+  {
+    "Title": "Billie Jean",
+    "Artist": "Michael Jackson",
+    "Author": {
+      "title": "Ron Ackermans"
+    },
+    "YouTubeCode": "Zi_XLOBDo_Y",
+    "AverageRating": 4.9,
+    "RatingCount": 200,
+    "Ratings": "5,5,5,5,5",
+    "RatedBy": {
+      "email": "user6@example.com;user7@example.com"
+    }
+  }
+]
