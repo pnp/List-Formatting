@@ -1,10 +1,11 @@
 # List Formatting gallery modernization plan
 
-Status: first implementation available for local review; not deployed.
+Status: first implementation committed to the fork review branch;
+[PR #1](https://github.com/VesaJuvonen/List-Formatting/pull/1) is open. Not merged or deployed.
 
 Last reconciled: October 29, 2026, after contributor avatars, documentation
 build cleanup, separation of user-facing and gallery-development guidance,
-and final pre-commit validation for the fork review branch.
+final pre-commit validation, and the cross-platform quality-fingerprint repair.
 
 Research baseline: October 29, 2026. The first implementation is in this
 repository only. The existing public site and sibling repositories are unchanged.
@@ -34,10 +35,13 @@ repository only. The existing public site and sibling repositories are unchanged
   unnecessarily reordering existing entries.
 - [x] Add offline schema snapshots, strict JSON/relative-link validation,
   read-only PR checks, and a manual-only protected Pages deployment.
-- [x] Pass Astro checks, 11 unit tests, production build/internal-link checks,
+- [x] Pass Astro checks, 12 unit tests, production build/internal-link checks,
   and the final full browser suite: 15 passed, one explicitly skipped for the
   deprecated converter's desktop-only UI. This includes contributor avatars and
   representative-page accessibility in both themes on desktop/mobile.
+- [x] Fix the first Linux CI failure by normalizing baseline fingerprints for
+  checkout newlines/BOMs. Verify every one of the same 490 accepted findings
+  against committed Git content, without broadening the exception set.
 - [x] Default to no visitor-image or session-replay requests. Tracking is
   opt-in; no database, paid search, accounts, or new Azure resources are needed.
 - [x] Optimize gallery previews and recognition assets; show small, lazy-loaded
@@ -72,7 +76,7 @@ repository only. The existing public site and sibling repositories are unchanged
 | --- | --- |
 | `npm run check` | Passed; zero Astro errors, warnings, or hints |
 | `npm run validate:samples` | Final pre-commit check passed for 382 samples and 551 definitions; 490 known review findings remain recorded |
-| `npm test` | Final pre-commit run: 11 passed |
+| `npm test` | Latest cross-platform repair: 12 passed |
 | `npm run build` | Passed; 431 generated pages |
 | `npm run validate:links` | Passed; 1,377 internal targets across 432 HTML pages, including the preserved tool |
 | `npm run test:e2e` | Final full suite: 15 passed, one documented mobile legacy-tool skip |
@@ -81,6 +85,7 @@ repository only. The existing public site and sibling repositories are unchanged
 | Historical reference-heading audit | Passed for existing grouping-page H2 anchors; a complete audit of every guide/fragment is still open |
 | Documentation cleanup/reference search | Passed; no remaining project-source references or matching files for the retired generator/publishing helpers |
 | README and related documentation links/assets | Passed; local links, real gallery preview, and correct contributor badge exist |
+| Cross-platform quality fingerprints | All 490 match committed Git content after newline/BOM normalization; no findings added or removed |
 
 The detailed phases below are reconciled with this evidence. Production and
 manual SharePoint release gates remain open.
@@ -540,8 +545,9 @@ Validator/model work begins in Phase 1; full site gates depend on Phases 2-5.
   require source fixes or an explicit source-hash-bound baseline review.
 - [ ] Remediate or individually confirm the historical schema findings and
   agree final stricter authoring expectations before launch.
-- [x] Add 11 unit tests for identity/definition destinations, schemas, strict
-  JSON, sanitization, link resolution, trackers, exact casing, and all downloads.
+- [x] Add 12 unit tests for identity/definition destinations, schemas, strict
+  JSON, sanitization, link resolution, trackers, exact casing, all downloads,
+  and cross-platform baseline fingerprints that still detect meaningful edits.
 - [x] Add browser coverage for core navigation, family/search filtering, URL
   restoration, form variants, column/form copy/download, clipboard failure,
   What's new listing, contributors/avatars, themes, and the actual legacy tool.

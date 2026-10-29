@@ -58,6 +58,10 @@ possible. Updating the baseline is an explicit maintainer operation:
 npm run quality:baseline
 ```
 
+Source fingerprints normalize checkout line endings and a leading UTF-8 BOM,
+so the same content matches on Windows and Linux. Other source changes still
+invalidate the recorded exception.
+
 Review the changed baseline before accepting it. Schema validation is not proof
 that a sample works in a SharePoint tenant. Test changed formats in their intended
 list/form context, including long/empty values and required actions/permissions.

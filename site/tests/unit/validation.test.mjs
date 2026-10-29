@@ -1,6 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseStrictJson, formattingIssues } from '../../scripts/validation.mjs';
+import { parseStrictJson, formattingIssues, sourceFingerprint } from '../../scripts/validation.mjs';
+
+test('baseline fingerprints ignore checkout newlines and BOMs but still detect source edits', () => {
+  const source = '{\n  "value": 1\n}\n';
+  const windows = Buffer.from(`\uFEFF${source.replaceAll('\n', '\r\n')}`);
+  assert.equal(sourceFingerprint(windows), sourceFingerprint(source));
+  assert.notEqual(sourceFingerprint(source.replace('1', '2')), sourceFingerprint(source));
+  assert.notEqual(sourceFingerprint(`${source} `), sourceFingerprint(source));
+});
 
 test('rejects duplicate JSON keys, comments and trailing commas with a source location', () => {
   assert.throws(() => parseStrictJson('{"elmType":"div","elmType":"span"}', 'sample.json'), /sample.json:1: duplicate/);

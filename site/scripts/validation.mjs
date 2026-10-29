@@ -1,9 +1,15 @@
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import Ajv from 'ajv';
 import AjvDraft4 from 'ajv-draft-04';
 import addFormats from 'ajv-formats';
 import { parseTree, printParseErrorCode } from 'jsonc-parser';
 import { assert } from './model.mjs';
+
+export function sourceFingerprint(source) {
+  const text = source.toString('utf8').replace(/^\uFEFF/, '').replace(/\r\n/g, '\n');
+  return createHash('sha256').update(text).digest('hex');
+}
 
 export function parseStrictJson(input, source) {
   const text = input.replace(/^\uFEFF/, '');

@@ -2,1662 +2,1662 @@
   {
     "path": "column-samples/approval-buttons-setValue-status-user/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cd5b800500373cb3b2233343a91c9443171b222fe0deb43c7798fa67668db015"
+    "sourceSha256": "c4d35c122c132c806b2ea33bab6204b9690be014a01498702476278e22e2d998"
   },
   {
     "path": "column-samples/approval-status-icon-color/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "becfa652d1cb62aaa5435559e30a6ca13befcb3311007cf3a9200a2d311760e7"
+    "sourceSha256": "ad03b06abedb580cafdfe0d6bb06f82164880c74841ade64d7b8a5e130b2463c"
   },
   {
     "path": "column-samples/approval-status-icon-color/approval-status-icon-color-with-approvals.json",
     "message": "Formatting schema: /children/0/children/1/customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "e3b8e2b7f77cd5ea5a19f075d346563aaa747e48d7d7f85a7463b8dd4d4c048a"
+    "sourceSha256": "8c4f29e998cc8c08ca688e7dfb3e880a8c02662d8e47c39765d650ef7b322007"
   },
   {
     "path": "column-samples/approval-status-icon-color/approval-status-icon-color-with-approvals.json",
     "message": "Formatting schema: /children/0/children/1/customRowAction must match a schema in anyOf",
-    "sourceSha256": "e3b8e2b7f77cd5ea5a19f075d346563aaa747e48d7d7f85a7463b8dd4d4c048a"
+    "sourceSha256": "8c4f29e998cc8c08ca688e7dfb3e880a8c02662d8e47c39765d650ef7b322007"
   },
   {
     "path": "column-samples/childcount-color-change/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ee1c744a14222b8adefff860758a4eb83ffcc7c4500234eb9c0def8a47b033a0"
+    "sourceSha256": "b61b35d09c14122a8d1cbf05456ad8014a236f565b4942dcb54bba0968d3b076"
   },
   {
     "path": "column-samples/color-based-smiley-face/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cbed2791ee3cd09f4523e8786532b1275cae4d7ffa235d90b99a99f31f785831"
+    "sourceSha256": "042ea326ad89e155318b5c7e98c9e188d7c529dffbb2e7c36e718f9457d2763f"
   },
   {
     "path": "column-samples/comment-count/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "afc2eafe21afa3836726ab7e07cf414fcf9f897e51893ff18b8e5baa272525a8"
+    "sourceSha256": "e361e7ac80256cea75a081d0a7637127a47c53bba82252631e6676e0257d9b88"
   },
   {
     "path": "column-samples/currency-symbol-concatenation/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b68f207c28c673fb8ceceacf32ded2f9702e02c8e619598676b6a68a43711b68"
+    "sourceSha256": "d4fe5a3169483202e81260a58e712864b98f4534ed1af6cb4d49a9d208a8673d"
   },
   {
     "path": "column-samples/custom-hover-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9c6e396a9d0f37c27ed03333509b72f68dfb6b6ed95950aa6ff5bfbad2191bf1"
+    "sourceSha256": "5d3268459ff5fba85b7608ce52cb7adf27920220fe9b38c5c90a74ddcb3b2350"
   },
   {
     "path": "column-samples/date-button-setValue-today/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0c8aaabc3e5385a012c4dac9bc7441a2574a72520fef57935f9772f0b592bff7"
+    "sourceSha256": "189c23e38747cf4d54d592506871b1ac41a4c33b572710da3fd48fc3451cf69b"
   },
   {
     "path": "column-samples/date-check-blank-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d0da288bd5634129fd976d0a3d3ef21f023cbfd10d68a886bd8c5608a957f41f"
+    "sourceSha256": "3455a8410c1f0b862cb1aacacc666a07657fa50d8edb7a3f2bb445c7d01e2421"
   },
   {
     "path": "column-samples/date-compress-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "017b3c171681a54444b3d5ce5bc5280bdea89f20e8bd3fd4447f43a3e7b350f5"
+    "sourceSha256": "ddfcf85df2dca737f1e8d3feab2920239a00e5ef244dc41093f672efbe70986a"
   },
   {
     "path": "column-samples/date-day-counter/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bfadce3f529827e6beaeff7b9bf30b9514f25c6dcf18380644f070c2d4c8d4b8"
+    "sourceSha256": "446a82f650a3b8b448bd0f16e46bf138b4cbc281d039354602976e43978cd800"
   },
   {
     "path": "column-samples/date-difference/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cfa824ef591d85966ce3a01fe00f074df06606a0e9938f15455696c7152ff2be"
+    "sourceSha256": "b06064a8b4b920e90dcf8e90e68e1d48d6305838c4407a7af7e22c299a3ec73b"
   },
   {
     "path": "column-samples/date-monthly-emoji/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6bff0961eb0a62bf423a56f864cdecac4e276cee64c99621e49d6ce647242fbc"
+    "sourceSha256": "fb17158e43341f63c9f0f6141f5059a367eeab653cac102e13bf8268a408e3ca"
   },
   {
     "path": "column-samples/date-notation/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "87cc08e22bf2047e8c7c2f6f56313c2f58d112c0cc179d3e96b5178931fc798d"
+    "sourceSha256": "d8d738d1a4df077af461c468aa0b2240071576d2e8943f238ffef9f80f3bcb98"
   },
   {
     "path": "column-samples/date-page-a-day-calendar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d3f193bfce965bf1046bf52297add950f2363a310ecfce4d3eb7e0f5330452e9"
+    "sourceSha256": "bb2701e745e62e3f8f2cd6ba3d64aaf0411800437f3d065c8a596f7fc2304a61"
   },
   {
     "path": "column-samples/date-page-a-day-calendar/date-page-a-day-calendar.json",
     "message": "Formatting schema: /children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "fdef081f115320d2d536b06432f0c897eeeaf95d24123bb171ff7e73cdaf8426"
+    "sourceSha256": "6c82cf5ebfa031ded828e4fa73ceaab75bc368a520feeba63065c03bf8608977"
   },
   {
     "path": "column-samples/date-range-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a8c63b8f016553dc4582f98d24dce0996d54589c58419199a6441d95a55e2c5d"
+    "sourceSha256": "10038cf9dfce2e9e4d76d492156d958d9e8480f3413f0f6599bc36966b441cdf"
   },
   {
     "path": "column-samples/date-range-rag/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2b20e62132bb7a80a656893fd174a0e36c8b0ed8d5fcbad6542154d66b87a183"
+    "sourceSha256": "4ab6630e71be9205491eccb23345066ecf48bab025e83e2bfb31931aaa32f65c"
   },
   {
     "path": "column-samples/date-update-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2285003af28fe4df18d2d16d4bdc4ab2057f9e6f816c097ccdafc335f7ae5645"
+    "sourceSha256": "b138d7b86dce16fe46e14d41630e2d1ce256b662de334d00739d08642ba8af80"
   },
   {
     "path": "column-samples/date-world-time/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1c513c80a4bef07af6628536aa537e04261af6b81e78825a367e241755bcdb9b"
+    "sourceSha256": "14325ee50f557cb9f2d2c4a70148b452ef652266c6e4bfd257fbd210b17091ee"
   },
   {
     "path": "column-samples/date-world-time/date-world-time.json",
     "message": "Formatting schema: /children/1/customCardProps/formatter/children/0/children/0/children/2/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "7191ebd1765cb17be1806c03b6d2a2fb9028a8dd893945e14e674ddee98402b4"
+    "sourceSha256": "a131af262e60467ad087a796fcc168ea7449e874397e951e2e74b0027804bc60"
   },
   {
     "path": "column-samples/file-thumbnail/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "353b630c4ee1fa4681f8e614393de0a25175193be4283fc0079a3eb318603b4f"
+    "sourceSha256": "03f0205ce31ecfeca394f90cca8c728f48360cc4782fd0644d53da638fb8b897"
   },
   {
     "path": "column-samples/filename-highlight-non-empty-folders/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3dbd103d78175223addf601f652c447c96ba289b3d0520bc7ed72f370d279b1f"
+    "sourceSha256": "1fe6cd25d86e0844d9997724ebfff54e32ae2e644a23f1faf9b844daf6242de3"
   },
   {
     "path": "column-samples/filename-open-document-in-view-mode/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "36ba0edee4563ed669afc59875394ab26afd0c40db28d35f2ca86fc9a06b2b23"
+    "sourceSha256": "af64155a393abbe2c68cd0b00f6dfee799d34d6b897a2b913bab7cf78fda5c91"
   },
   {
     "path": "column-samples/generic-action-buttons/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "84720f9432781285c00230bfbf33df8f0c106ae632bb15740f1e1c31a64a50fc"
+    "sourceSha256": "f51c4afc1dda3b0993ef5b0adb756eb7fbdb7444b2f07c177f1d4e91b1f5cee6"
   },
   {
     "path": "column-samples/generic-approval-status-hover-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9b7d67eab73a8d35ede7cd9e35a1f3797891a40aa47304734d52ef537b551fb9"
+    "sourceSha256": "4221eef5d538d71901e8ef971e66b11923dd11551abcd5b5c8755cea967136f4"
   },
   {
     "path": "column-samples/generic-blurred/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b5cc544aeded9320b2a0c9b354e69652320a8761059a5cb402dcfe21cd3cbe8b"
+    "sourceSha256": "c7799eff2b4383f0f00f142f576ec84857cce42dec604ce601dcfd304ead402a"
   },
   {
     "path": "column-samples/generic-bubble-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6798ce7ca9661b5bdc64874f4e2aa6ee2e166a7b5e8e34054f535af2fbf6c290"
+    "sourceSha256": "9a9ec45f177900fcc1151c1ffcd903c9c339e69d7a1eaba4cefeb5beba18f05b"
   },
   {
     "path": "column-samples/generic-calculator/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7491a1f6d602cb73986426be3dd0ca2982906b331282c40697551a80cfb60dd3"
+    "sourceSha256": "92c5922d8f683a3a530d30411176d64b7b69415cc416b2165e93816422fd2c39"
   },
   {
     "path": "column-samples/generic-card-with-buttons/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6824599043322e8c1e09fdd49b52969623d24bba17d66e9f0a2c198e0a350e05"
+    "sourceSha256": "8e644606fa5139e0ab6e089e59f8bf6418222fcf007bc1b534bc88e704e1943c"
   },
   {
     "path": "column-samples/generic-centered-content/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ecdebb4a1ce1248731c7e3d88207475bcfdd2531a9a2cd2b03e0c9de0cb34ec6"
+    "sourceSha256": "2b6362cb6807ccfa3af2df273663b21d8bcb0a0d26ac80bd46f5af927c28874b"
   },
   {
     "path": "column-samples/generic-column-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8bb4d6cc8ea2ac877a550bc1af26edf5a38c1317f2300abac0f6ad05c47d61b4"
+    "sourceSha256": "b09d6298dbd39dec1835329cdabda5e75f4aada2e496e5dd6223fb953e70e49d"
   },
   {
     "path": "column-samples/generic-comment-count/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9ab0748b9587297b8d9a2ed2e0e2937558ee32f8f10ddcd3abe705d890e788f2"
+    "sourceSha256": "0c555300d4cfec187c7e6967d1a030522a1b628ccad6aea257ca9cae4ed53b26"
   },
   {
     "path": "column-samples/generic-context-menu/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d3a8cd00a8691cc126d7ffde26ac5810b9fbe910f9ec7bb4eb8c21a86ef2c1bd"
+    "sourceSha256": "a877f096ce907ab2978344f4f26b1dcd8db1a4f75927c6e6c808a1eacdee5804"
   },
   {
     "path": "column-samples/generic-custom-hover-card-approvers/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3e3b6a7eb58ca12688698d90bbcf620521ff623e86c78f4728b8e2beb90475f6"
+    "sourceSha256": "c907653c718cb0edb0b7a15e18d56bbf90142321a41646be5dd6d60c9cae740e"
   },
   {
     "path": "column-samples/generic-custom-hover-card-approvers/generic-custom-hover-card-approvers.json",
     "message": "Formatting schema: /customCardProps/directionalHint must be equal to one of the allowed values",
-    "sourceSha256": "e598049b5e87258f41e7486b0a24b91759d343700a770d417f8f4e4ba3c8eebe"
+    "sourceSha256": "64eaf18a80049792f67483c93df4f354e006d7403b5bb4df9ca11c78fe87b273"
   },
   {
     "path": "column-samples/generic-download-file-button/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c7de322571bdbbc75d548b9daa225db6fc79111748a25da43ae075ada4371bda"
+    "sourceSha256": "37c019feca979b3165bb51610a8438e4f12003f345766900a130a47c941c0793"
   },
   {
     "path": "column-samples/generic-dynamic-colored-pills/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b5386e0dbd431c4f797da35f8150f7a14cab61d597151db2f8b4a79a7d3f9f0d"
+    "sourceSha256": "61f694698ab5068199151cd08a38ffcf04be69c4157cdcfbec06241974a268e2"
   },
   {
     "path": "column-samples/generic-eisenhower-matrix/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f1623287aa1e87c2e17faab3ed80d77c038062bd27475ce76a6a7304ca9b21e8"
+    "sourceSha256": "90a5f0e26f8ff11da77e7dcad914d5420961fe215ed5fff14e6c672bbc94d663"
   },
   {
     "path": "column-samples/generic-embed-file-preview/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7685825a23064a686648cef85cec5ee948462e15233578afe2eb7f2badb8afaf"
+    "sourceSha256": "b2daa96d637bf5b7a5c012520e6b95f38a0b100ee6d2a2d8b46b85f1410ea2eb"
   },
   {
     "path": "column-samples/generic-embed-file-preview/generic-embed-file-preview.json",
     "message": "Formatting schema: /children/0/customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "f2314f4aba35c30a48e0a92f38587a6c1c7040fb229ae1507696f554e2c5b6bc"
+    "sourceSha256": "dee49cf3bb5367f79e5b3e2890d821597bc6127fa6ee3be9f47a2740b251caaf"
   },
   {
     "path": "column-samples/generic-embed-file-preview/generic-embed-file-preview.json",
     "message": "Formatting schema: /children/0/customRowAction must match a schema in anyOf",
-    "sourceSha256": "f2314f4aba35c30a48e0a92f38587a6c1c7040fb229ae1507696f554e2c5b6bc"
+    "sourceSha256": "dee49cf3bb5367f79e5b3e2890d821597bc6127fa6ee3be9f47a2740b251caaf"
   },
   {
     "path": "column-samples/generic-file-preview/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8a9bbe21c9db0dd2b913d8d09d93487b43991edfcca9bacac125b265d0370fb1"
+    "sourceSha256": "54470d3ac813692f996a47f4aaab41bae6775a23ec24431d805b13391bf9ff93"
   },
   {
     "path": "column-samples/generic-filepicker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1f3a243c4460c38a6f36aab5f5a1f7c072e39dbb7218bae76986cd10f5bb2625"
+    "sourceSha256": "e3ebf8fa3162c217d45b8eccb5d6f5386bdd9a728620f950cd71c99a64bdd7f0"
   },
   {
     "path": "column-samples/generic-flow-status/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "02bc19a8fe7474ce6c573cf06495d1730f6e3a2258ac156d5c32ed79b1ddcab5"
+    "sourceSha256": "3e088085bd984ccbc3514ad28802286c97a5b613bc5a3e4b59a24dd27f265ac2"
   },
   {
     "path": "column-samples/generic-gamification/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7b7d4f2b491336db762cd0dc61d3c205e325eed353a07c32d5bf83b2bc77783a"
+    "sourceSha256": "a73b96671f6b98462384858080ed22473316ea06574a0a1f8baf6ea02840da0c"
   },
   {
     "path": "column-samples/generic-gantt-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8b71cff4d2874ac3a35b3b7ddf0a499654075570a27fcea756d144f27c7c04cd"
+    "sourceSha256": "ffbb792c1be3ded7d2e6af869d60970ad33de2060c36fced026710b2220fc186"
   },
   {
     "path": "column-samples/generic-gantt-chart/generic-gantt-chart-ddMMyyyy.json",
     "message": "Formatting schema: /children/0/children/0/children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "2ba00f3a290ddc163fc6bcf8069eb1a6e9fb02bbfcebc19989f98c2d66e76bbe"
+    "sourceSha256": "aa1dcec27e716ef600e03238bb77e1b41f64a753564374b91ee2f8903ca19632"
   },
   {
     "path": "column-samples/generic-gauge/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "45bd8149eb46b8073af446cca0dabae4c3f7cd5b688cb2524959bdf00d368f79"
+    "sourceSha256": "9c546dc369a235992478b9fcdb84428903652a015a0119b4ce0cb71af96da1f0"
   },
   {
     "path": "column-samples/generic-hourglass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "08b3c749dfa5386859f873dddcd2b23ed436f57e1bca537714309b03a53a33cb"
+    "sourceSha256": "3e1ba462fb8e0ab9dd4f7ef8493924ecfa0edba268ce5096d523794b95ad10ed"
   },
   {
     "path": "column-samples/generic-http-flow-response/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3c4878aa4a177524808d73f14be573ec2e9b995c70052070b9f31b67ac1123ae"
+    "sourceSha256": "71acf4d3736bbc0beeed67a53c939489d4f45d579c3ff55b3ceb8d6268f9c369"
   },
   {
     "path": "column-samples/generic-http-flow-response/generic-http-flow-response.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "b08dc14f7364f28eff7663f0c3f550bf252e5ba62cb3c6a5fba0084a0299ec3d"
+    "sourceSha256": "a6e1a5df012aa032804b39cded5e07a3c0ec998b494c7c2ee55da41386506fb5"
   },
   {
     "path": "column-samples/generic-http-flow-response/generic-http-flow-response.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "b08dc14f7364f28eff7663f0c3f550bf252e5ba62cb3c6a5fba0084a0299ec3d"
+    "sourceSha256": "a6e1a5df012aa032804b39cded5e07a3c0ec998b494c7c2ee55da41386506fb5"
   },
   {
     "path": "column-samples/generic-hyperlink-thumbnail/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c9a9c3191287dffcf155f08550811bcb1a819b45067aa164f82b6a069424da8c"
+    "sourceSha256": "37082a4663cd902de37c86ba41c7de2219f148597448de7c2234c1b76c6bc823"
   },
   {
     "path": "column-samples/generic-hyperlink-values/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6da8de80c14d3a49010c697cff853fc98c9fe81f926798290fd57c3b12b8ff7e"
+    "sourceSha256": "6c3c09d451862092881caa7f0c4a68995cf602b7a60acb3004e9a0829bb93767"
   },
   {
     "path": "column-samples/generic-icon-overlay/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "279cd7477abe8f5df171a7ad22d6ee6c82030801f0b39be5fe2835ae8423ce89"
+    "sourceSha256": "909e158e56cd8470cc5d24b52ed4d18ab06f96efea71c2da4ff1a2a69f66e159"
   },
   {
     "path": "column-samples/generic-identicon/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "97ad85cac73e7533810cd227e58b02b4a4e8206ddb157465ad808c852aee0bae"
+    "sourceSha256": "3301cf28a4047e71c039ba7816ba65c00df11047de4377c543ddb5c10837a670"
   },
   {
     "path": "column-samples/generic-image-download/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c579aef3c061ca8a58d378199910850c61fc5313267441877f1c6b3c3819095a"
+    "sourceSha256": "c0c1546d805cda836db6e8e13bdf9ecf7ee9bff0eab7cd44f6c77c086b044517"
   },
   {
     "path": "column-samples/generic-image-overlay-buttons/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7a8057b567e21177cce74d7fc12b91a1ed0deebeb31e5077f9142f795d96e67d"
+    "sourceSha256": "9aee86d0e48e8563b8bfac35fbecaca3081a2a9e4c3165dee140923b34976675"
   },
   {
     "path": "column-samples/generic-issuestatus-pill/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d59feb0a07ecba957ef21bdfd97f196f7096bf78c19522761645faf46e70695e"
+    "sourceSha256": "e7a878d2a18d770be52bfcd702167ef27a65a2b06b473562444781b1a4af4a72"
   },
   {
     "path": "column-samples/generic-item-version-history/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "711569fc21e5e55a8ce438b4c660fbf2db63bf6477ad7b1b8145634125fced36"
+    "sourceSha256": "f975b7500262a1cdb9d2e5c100a46a4d4736971fd51ce15d27c1265543b8f75a"
   },
   {
     "path": "column-samples/generic-launch-powerapp/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b6aaa73565d329472c1388da8c565a27fd7ba1379da5688c626ff71daf8a7b6b"
+    "sourceSha256": "d9640b112c9f0adbef4c219e44b83b88d1b6d56356526a7bc28e0b453f66a631"
   },
   {
     "path": "column-samples/generic-like-dislike-bar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "91d5463f12b49a1d606ca0dbfa003a770e1e3bab94923568ca26ba38c0a7ebf6"
+    "sourceSha256": "80d15158799fa1c1fbebecc424e4dd46024fc7c2ae47ce1b717aac76f055cc62"
   },
   {
     "path": "column-samples/generic-like-unlike/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5daf6cfa2f1a2362214dd090386dc59a7315e3d57915b6ca047513d18ea6e0e5"
+    "sourceSha256": "5878c9c825806c0893d460c871544c6f6e2077b15f512a35dc294677aa6cd4c2"
   },
   {
     "path": "column-samples/generic-likedby/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0b5119f1f776b65a2d9740974429b4e397023634c00a8feac23cb82211fb853b"
+    "sourceSha256": "a2d89831fd44a7182e12324368c295e096ce97b96a1b76a2ad827124c9a802d8"
   },
   {
     "path": "column-samples/generic-link-to-parent-documentset/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "23c95fdde09706e3443be8e6264820ae589bd8a5a43605f228c60e249627fd67"
+    "sourceSha256": "70a226a5eda1471f9facf2550827c8c2dcebf50e808cb4511e709aa6e44db3cf"
   },
   {
     "path": "column-samples/generic-mailto-button/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d9fc2755d4f60be86fd56e8adaea7b166aeb259ab5ae8c09e486949b543dd3a4"
+    "sourceSha256": "9a31683f89cd2865cbc07fb7050a02ba64adfdb356bef679cde78099944150e6"
   },
   {
     "path": "column-samples/generic-missing-information-callout/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7d711a73859bf9a7adad56d26c9be8231848b81de4da3dbccb5c54105b81fa43"
+    "sourceSha256": "55830b9260f85991f7d325217c08bb314ffdc05156e46de6543041396c2e542f"
   },
   {
     "path": "column-samples/generic-monthly-gantt-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "793122a36cdc96fd664a27c6c60bc1dbcf3f020bb6224d8340ebe7c70f415515"
+    "sourceSha256": "ddfe0fcdcb76f919122aa9fe9106dc87b65c409bf4691f17f428c000a027c541"
   },
   {
     "path": "column-samples/generic-one-point-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d56120dde15f04067f4980f8e7fc6f74988d00c3994aa03c4e3fa12cec8786c3"
+    "sourceSha256": "fd3afd9445f7a3cc601d8f2ff038ca624b2254ebe8662380f18cf527d5d9530b"
   },
   {
     "path": "column-samples/generic-open-file-as-pdf/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ee0ad141693a2ed7d0054f9dbb23da6c9fdd0a4bef24c4f6bdb9e329bc884d2f"
+    "sourceSha256": "a14719d098b346cb448310c23af0ca346373a62d8333f9719ce3868308c44ebb"
   },
   {
     "path": "column-samples/generic-project-management/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c7857ebdbbc14d0df13fd973c615dd4409537b68848bde8488e7150daeddcf17"
+    "sourceSha256": "3d6ba51c2cc30aeeff746609216f89bac4a391df0da08fab6f7b35251d1674b5"
   },
   {
     "path": "column-samples/generic-published-version/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9f51a7b2eb0698f2d967ad3cfa34d9664b286c3c2ba203dd5aad0d294e0f32f2"
+    "sourceSha256": "48a89209e733e37c078bd0c719a401e2b72e6eda6829a45b373e142909e9b3f6"
   },
   {
     "path": "column-samples/generic-quick-charts-bar-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b16cadc0e14591d59153b939a5944f99b096f4c0f91125d4f6a62a3d02c664ed"
+    "sourceSha256": "9327deb0c90007b75271d2498046e61c8e1dd200ec529fd9bcb8d0564d9fc0ba"
   },
   {
     "path": "column-samples/generic-quick-charts-io/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a1c1beb4a7154b224bccde421f8e57f7e9e7753ed66612599447e157df0e40ec"
+    "sourceSha256": "6110de09af7bd96dd667c91c79811b2649e724d26cc7637013a200812c36ede8"
   },
   {
     "path": "column-samples/generic-quick-charts-pie/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "34963f07281c704df1ff16879e813d10b137179d21948fc6aeff41365871bedb"
+    "sourceSha256": "e880439f3a8efc05e8d7aa6255358eb707a9ecb2c29728a03f7980c65c68d083"
   },
   {
     "path": "column-samples/generic-quickview-issue-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6c4b93f119c7de03814d3539dee044b3c566aa6fcccd7b81ec30cee1d70d6220"
+    "sourceSha256": "ec97f407a065e2ca70f48c60a1f28b7d002da87a7ade5861514709971a7a6495"
   },
   {
     "path": "column-samples/generic-right-align/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "14e4ea07efa8d556a16affd844f7a85868616b3e356564c5f0ed2c5f3f98d298"
+    "sourceSha256": "5cc859358bfb017e5b85b695052cf696f29899575e67ad36b973bfd0e6d614f3"
   },
   {
     "path": "column-samples/generic-rowactions/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "063d0d9244f58556196bcdf81a7383ed5591a112b81b1ba2a90e0d3d595eaae8"
+    "sourceSha256": "75ad618daf82d7e654456a7b5582622b699334d146dbf38ad7821feca1050639"
   },
   {
     "path": "column-samples/generic-rowactions/comment.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "99f70ae6054706d4eb1a48a258027b2f13f6d1002386112da1cf9f58d5dd124b"
+    "sourceSha256": "eeb33fbe3ffd176b6167748b66ce7a0cc2216eb29b21b1f59844d2966509b394"
   },
   {
     "path": "column-samples/generic-rowactions/comment.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "99f70ae6054706d4eb1a48a258027b2f13f6d1002386112da1cf9f58d5dd124b"
+    "sourceSha256": "eeb33fbe3ffd176b6167748b66ce7a0cc2216eb29b21b1f59844d2966509b394"
   },
   {
     "path": "column-samples/generic-rowactions/copyFile.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "9d79551b52f74ec993d89eb67ccc3dc0e3ffba9c7961c5b41e65caa7955ef744"
+    "sourceSha256": "37a899e57899eeb3c111289e2cc14ac455df38a91b540ef8e1355cee215fab86"
   },
   {
     "path": "column-samples/generic-rowactions/copyFile.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "9d79551b52f74ec993d89eb67ccc3dc0e3ffba9c7961c5b41e65caa7955ef744"
+    "sourceSha256": "37a899e57899eeb3c111289e2cc14ac455df38a91b540ef8e1355cee215fab86"
   },
   {
     "path": "column-samples/generic-rowactions/copyLink.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "7fcce73058778ac3d1b73199a0adf6c0eb299f0750a037822162e59c2e1e024a"
+    "sourceSha256": "7093fb8d995a0ca32827d780ec1c9d33ced218c54d2d9dc78776bb0cbfd5e2ae"
   },
   {
     "path": "column-samples/generic-rowactions/copyLink.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "7fcce73058778ac3d1b73199a0adf6c0eb299f0750a037822162e59c2e1e024a"
+    "sourceSha256": "7093fb8d995a0ca32827d780ec1c9d33ced218c54d2d9dc78776bb0cbfd5e2ae"
   },
   {
     "path": "column-samples/generic-rowactions/embed.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "af80290cf184d0c6334643453ed8e10ed53071123ddbee9aa9869ddcf04f7ae2"
+    "sourceSha256": "1a8b61a3935ece677ec1c3f640f2565e9c1ef6f6548be63439aca6d5061363e9"
   },
   {
     "path": "column-samples/generic-rowactions/embed.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "af80290cf184d0c6334643453ed8e10ed53071123ddbee9aa9869ddcf04f7ae2"
+    "sourceSha256": "1a8b61a3935ece677ec1c3f640f2565e9c1ef6f6548be63439aca6d5061363e9"
   },
   {
     "path": "column-samples/generic-rowactions/moveFile.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "f932642c4ece993b51451502b95307b036c38f60b92e3bef29e491600ecdbd50"
+    "sourceSha256": "b051b1a58164b8773a630cd66436142d8db74bee201417226a2d456a2de46297"
   },
   {
     "path": "column-samples/generic-rowactions/moveFile.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "f932642c4ece993b51451502b95307b036c38f60b92e3bef29e491600ecdbd50"
+    "sourceSha256": "b051b1a58164b8773a630cd66436142d8db74bee201417226a2d456a2de46297"
   },
   {
     "path": "column-samples/generic-rowactions/openApprovalDialog.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "dc059cc2bab18cba0c3ca24473c4fbad2d547cd4654ee2e13851399b91776803"
+    "sourceSha256": "dfcd4f1d14ce0d44ba8d5b0ebebb5c79ac0d3456a16f59565a7670bb1873cd2b"
   },
   {
     "path": "column-samples/generic-rowactions/openApprovalDialog.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "dc059cc2bab18cba0c3ca24473c4fbad2d547cd4654ee2e13851399b91776803"
+    "sourceSha256": "dfcd4f1d14ce0d44ba8d5b0ebebb5c79ac0d3456a16f59565a7670bb1873cd2b"
   },
   {
     "path": "column-samples/generic-rowactions/previewFileAction.json",
     "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "8794716e88306d5c923324692a10a177d768346a68a929ba7fc969871c6cedfa"
+    "sourceSha256": "32b8de1a6ff7618f20b863cd7a95b1e7e30bbf6bf31b487735c3a5c07e911150"
   },
   {
     "path": "column-samples/generic-rowactions/previewFileAction.json",
     "message": "Formatting schema: /customRowAction must match a schema in anyOf",
-    "sourceSha256": "8794716e88306d5c923324692a10a177d768346a68a929ba7fc969871c6cedfa"
+    "sourceSha256": "32b8de1a6ff7618f20b863cd7a95b1e7e30bbf6bf31b487735c3a5c07e911150"
   },
   {
     "path": "column-samples/generic-rowIndex-drawing/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3f73a4fca21b5f6d3a2d47551deec8821c78aa5e96cdaa1185d0d2ca6c95d331"
+    "sourceSha256": "1d082a6073d31879b6d06e9044a5b2109214a6b399b6e73c46117cedf036c900"
   },
   {
     "path": "column-samples/generic-scheduling-link/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ddd34a1a8a29979c65259a7c2a375adb0120ff9340b45c1147041f458b3cc25e"
+    "sourceSha256": "89922b9df99c438b18ef22f1b6f3867c92212ae34b5bc20144d0846eb7a0911f"
   },
   {
     "path": "column-samples/generic-share-to-teams/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fb88df841d9247fd94ea401c37956394f6c3f4fc9498ea1f09e0ffbc261f09f0"
+    "sourceSha256": "096ca589539c272884151458cb862e392a6c2d190a7b4489c3672d55505b2948"
   },
   {
     "path": "column-samples/generic-share-to-teams-with-message/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1625c19c5187710af1205019f4c5fd97f700c331250014e8af1d698641f04451"
+    "sourceSha256": "0fe3a058096ec08ba0d8620795c5fbabdf494f9b054b60a300a8995cdf67cad2"
   },
   {
     "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must be object",
-    "sourceSha256": "e6f11b991aa75421e7473aa3ae457744e196ba2f87ad6e3a96e3616fd7629370"
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
   },
   {
     "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
-    "sourceSha256": "e6f11b991aa75421e7473aa3ae457744e196ba2f87ad6e3a96e3616fd7629370"
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
   },
   {
     "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must match a schema in anyOf",
-    "sourceSha256": "e6f11b991aa75421e7473aa3ae457744e196ba2f87ad6e3a96e3616fd7629370"
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
   },
   {
     "path": "column-samples/generic-socialpic/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3e5eb3c762ba0fab242dc86aab33a1aa953b925589d27ddfbb6505c7e7a0cb1b"
+    "sourceSha256": "02b4610e1c63b56164d0b51d4a2c79f5f8b2a641073120a630ab41b0cfb6d565"
   },
   {
     "path": "column-samples/generic-star-icon/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "185ab5fecc0ce1588e336569513c3a63bc2633e6e7ab874a8137d7c0b2abe83a"
+    "sourceSha256": "01a719b7a1adf893925c1fa68c9169aa3d10a1ab5549a9a730b05a9fa63041d5"
   },
   {
     "path": "column-samples/generic-start-flow/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8f4b8209289812793a0ea20a1bcf8841ac00d11699bee5f688f0188b05776e7e"
+    "sourceSha256": "b65d92bb24af2d785f63b5d07f414dbc08a27653c067a165610349761d035f75"
   },
   {
     "path": "column-samples/generic-start-flow-conditionally/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a158c2623f3f19fb0ae9b56d81bd1a57b2bd2f1832e8df45f7477eb364c4d183"
+    "sourceSha256": "3419ccf123372d1b3ab268e4b3f648bf6cf135e29df58f685a1efedb2e3d3765"
   },
   {
     "path": "column-samples/generic-staticmap/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a5fa41646c763c7b2c0e10421ed3f52804936a829eda57cb841eb7e85bca3419"
+    "sourceSha256": "e1d7c67c5c1fb502acd6916e9c389179efc58110cd83430388dd249fcae6955b"
   },
   {
     "path": "column-samples/generic-status-badges/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fd7626849b57cca6b01f6668303ec90e920036c038ed88337b9999ac5239f09a"
+    "sourceSha256": "909e7be8095fcbeb4612c777c48548cdc2810f0066e11897df78dbfa69b7968f"
   },
   {
     "path": "column-samples/generic-status-badges/README.md",
     "message": "Review prerequisites: no standard requirements heading detected.",
-    "sourceSha256": "dbbbb599936b17f192c82197150b4bcc47746f4aee1bec19981bad68f77b070a"
+    "sourceSha256": "3f68a79f5f1c9c6073021fb894aa72a6703c50fe74da56099faef4253d0cf369"
   },
   {
     "path": "column-samples/generic-substring-status/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d8374dafc9cac89d27633c29fc03d057af721536054be5df9f7059311371c885"
+    "sourceSha256": "fa5fc4df514bffdbb0acdd5d9171989d4ca1833635a2b890d29f707eb07eb789"
   },
   {
     "path": "column-samples/generic-supertype/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9335f4f3ad49a597538bb20f85cd4c58796fb358ee7fdf4a38e3ae95a35a0398"
+    "sourceSha256": "956162ce00f3fce220ebe5af7d61eafa5ca5476c326b5c28482e73a698b40aba"
   },
   {
     "path": "column-samples/generic-supertype/generic-supertype.json",
     "message": "Formatting schema: /children/0 must NOT have additional properties",
-    "sourceSha256": "53fd54a96488cd196cc289b8acbed6df31d7a257582308d5c8a55ba3a90073b9"
+    "sourceSha256": "5ddc79f91b568229773296d56aca944e20b11cdb26e8ebd0dd2a99c04026b5e1"
   },
   {
     "path": "column-samples/generic-svgicon-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "35f1d881cbc29b34dfc6c777bad09ab6d878c023dc5a51824c7c99f839d3143c"
+    "sourceSha256": "316fb114278ccca8704b33eabb674d5a0c5e504c95e3bbc5d34f886c856600d1"
   },
   {
     "path": "column-samples/generic-time-schedule/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "725ec1c44bc791b6514622c33871e0c07983c832110bd90092d78b91cd8cd427"
+    "sourceSha256": "da60cbbd10e5efd4e86e1239b1f51f6a6e36246509c09670f5067806423a876b"
   },
   {
     "path": "column-samples/generic-timeline/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f262ffdecae1e2392d5304e6616e81c4af72f3dd3ae26320337498778bec9fc2"
+    "sourceSha256": "d269b4a0a561258a9f2712662f86e3733081b6b1b19165f0dacf7d4ba8f5617e"
   },
   {
     "path": "column-samples/generic-traffic-light-status/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b505589544fd6a500301ce6207ce676da5e11ae7bb61a7207eec37d6b55b96bf"
+    "sourceSha256": "2e13663c17b2d775a3f9544e0589fdeca81595b236300f052b3c3d52f05b4689"
   },
   {
     "path": "column-samples/generic-twitterpic/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6398827cfe9994bb5cf49aa7a9a04f4ad1962dd1bb2b9dbe7b21a6eeafcf6401"
+    "sourceSha256": "ecf74a4df95ee5afe4abb033207a4a91522a417062f4715f2f8bbbff52ba0ecc"
   },
   {
     "path": "column-samples/generic-update-button/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ff07de73b2574a2286823b1e6e5da2eccc4761d82071fb1d99c7c81bd8ba0156"
+    "sourceSha256": "134adda0aa7edf460ac1da0c3b4d31b67b80153dca8ca61611d78b26e50f43ef"
   },
   {
     "path": "column-samples/generic-word-cloud/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dd66cbdd7bcc3ab93cb70780c603b62f521a89519002ef40e59918331b2825e8"
+    "sourceSha256": "8f071bd1da51fa1068d68a8d6209342cf4d2f46143008d169fa3f0161f61fdd6"
   },
   {
     "path": "column-samples/generic-world-time/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4696cc9aa508d2d41b2fb3d287a475bddd6f2c3bfc8a71dcdee74fb2fd2bb082"
+    "sourceSha256": "3aa1a36e8317eceea19d6f14e556eecc465b74307196b897968b4265de9363bb"
   },
   {
     "path": "column-samples/generic-world-time/generic-world-time.json",
     "message": "Formatting schema: /children/0/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "be3e3996d5b319643eb52fcd64c4941badf2216769c58989ce2aa550e6c6be96"
+    "sourceSha256": "9bf3ed104182b77a0c20bdbe79bc987ab95baf49fafa88d52c1a7ec79f219c8a"
   },
   {
     "path": "column-samples/generic-yearly-gantt-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dd64494abe9e21fd18a1c78d1802cb463bf849525f739cbfd6343488200587d3"
+    "sourceSha256": "ea3dc4e6cf664f95e951a41f7a19677e738572ff06ce1630f1831f4304ad3a7a"
   },
   {
     "path": "column-samples/generic-youtube-thumbnail/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "617165038159b7636df74e94ca750c6d8b5f38484b5f936833311ecd036725df"
+    "sourceSha256": "ce2c3be9e96962bb5aab2ebc43c18f06c858bdf660a87227c1913b83aa68da58"
   },
   {
     "path": "column-samples/hyperlink-click-count/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "df2e3e14ca415d690893599706fffe66dd8bb3f1d26985f6082fc2859497da43"
+    "sourceSha256": "ab90687fc861d052ad6cc8aca904ed19834d952eb8c888ff5638e3fc9774e3fb"
   },
   {
     "path": "column-samples/hyperlink-display-url/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5cd820b053c5556b899239d1f5b49454ed3f63f9a48f54edaad444bca02ab652"
+    "sourceSha256": "2688e2b1f4f2320e6c87a1307ad7fa549f8d303f106961b450554130103ed19b"
   },
   {
     "path": "column-samples/hyperlink-embed/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9e7e2cb1bf4dbae4facf41387231223871c0b3a5bb1fa3a6745fd07f4a7ddbf1"
+    "sourceSha256": "c2dc73c6411c3d4f3a6226e71d66ea47dd2425b8549d25929c40c06e642cf436"
   },
   {
     "path": "column-samples/hyperlink-embed/hyperlink-embed.json",
     "message": "Formatting schema: /children/0/children/0/customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "a4a0fe4665c722243a2c8c79304f40512b2147af085e5a340896820aaca1f609"
+    "sourceSha256": "5c9305fd3f7985958a0da98485ab37bf212bc35def4b3fda9cdf2c0146ecff00"
   },
   {
     "path": "column-samples/hyperlink-embed/hyperlink-embed.json",
     "message": "Formatting schema: /children/0/children/0/customRowAction must match a schema in anyOf",
-    "sourceSha256": "a4a0fe4665c722243a2c8c79304f40512b2147af085e5a340896820aaca1f609"
+    "sourceSha256": "5c9305fd3f7985958a0da98485ab37bf212bc35def4b3fda9cdf2c0146ecff00"
   },
   {
     "path": "column-samples/image-hyperlink/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "49d672df304ccb16105948605eaa30b266719790a5a3afbbc6fe3f4e88314d56"
+    "sourceSha256": "92840b161c44d21f898175ec2dbd3d441262715f5a45ea8b42422fdddb8c7a67"
   },
   {
     "path": "column-samples/image-lightbox/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f1093464af929a9fc7b17989c4a4c7619551335a48f7772b380aa1ac9ecb8591"
+    "sourceSha256": "a80797d03b4b3469b810f0412ee3536721b5404881e92ec8046e8979fdbc824d"
   },
   {
     "path": "column-samples/location-address/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8a09f5461dd8d844382a41e9ae5ae143943b1745da7f1e652fa58880542ef2dd"
+    "sourceSha256": "5788a8f57bc9fd5ff58aeff0589034edb5759350601762db949c080eea6f7a22"
   },
   {
     "path": "column-samples/location-bing-maps/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "660d3d1d85857bf4f2e20fd64d1b963f4d91a7c33a8cc86b554b2339f8cc501d"
+    "sourceSha256": "4dda8a1f82cb2901dfad8112fed8832b3cea47fea172e9be8d5c1a5373ead4b4"
   },
   {
     "path": "column-samples/location-weather/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f94bc0313013bcab67f213d4eabaa15786f22171c1b42496b7e7ac76e8ce9305"
+    "sourceSha256": "40d6acb7b4d93091fc147775985b62a063f9c9f6ec55afb859f0feb9d9bab79c"
   },
   {
     "path": "column-samples/managed-metadata-button/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "210e52cce32db211e4d100693e5fc8730b71fc5188a0b997c93ccc04528ec677"
+    "sourceSha256": "80954a9e8738003681ab0d5be0887a68bd4e469c76a6c27d2e6119147a5fcdfb"
   },
   {
     "path": "column-samples/managed-metadata-tag/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "baebd62001a5a4fdfb17d59f5fc25147495d92ee71eba7098f7c0a6289f3387c"
+    "sourceSha256": "44a3f406d3e3dc73a169c86fe680304537e90b59acbc951d0f1f2046467950e5"
   },
   {
     "path": "column-samples/managed-metadata-tag-icon/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d65414eef8c7466fb29e4dc37841d39448850552d71554ff5698720dd0b1ac20"
+    "sourceSha256": "696b96797becfb31b913a6b31e756688e1b99a13f456f5905f0336366077c725"
   },
   {
     "path": "column-samples/multi-choice-color-circles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e8664799ab6fde12b2c01980bdf84de7d6bdb4567d783ef35f794eede40f60e9"
+    "sourceSha256": "5bf8e4cfba6333e1f67e9440d6e62f7859dd722aa42ccaae3b222d1e07e85a94"
   },
   {
     "path": "column-samples/multi-choice-color-circles/multi-choice-color-circles.json",
     "message": "Formatting schema: /children/0/children/0/children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "8e20752e8a96a9a9b83b3af760fd58eebe9693c81cfa946a031930dfadce0b80"
+    "sourceSha256": "06739933fc70f781d5400d97f0efe25a679f12a40ac9b2f2413d24f7ef1b3b2c"
   },
   {
     "path": "column-samples/multi-choice-country-flags/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "39be8e1e63aa6723c0bc14713a611c716eb4fee575bb57fd72d9c4a88aa32ecb"
+    "sourceSha256": "bd312882d1411f8b36712f4f9643633b3c3f49bd3d3e13872bfb546efe7a4168"
   },
   {
     "path": "column-samples/multi-choice-foreach/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "23c14e66e3aa3b47e09974297c405f747d3a960f6f8b29eadb56ddaa1b16df47"
+    "sourceSha256": "34cd5e0617e4ce042e07e0f861367880e6b46aea553d948453ce2220dd057b62"
   },
   {
     "path": "column-samples/multi-choice-icons/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6d5bffb2b3fb7f7a1a4942b9b2c32a06abb3923c109f8cc11e7eecb16bd56d53"
+    "sourceSha256": "01accbc0605e025dab8456119b6247985c29b85a53e27520cb8ebbeb83e8b135"
   },
   {
     "path": "column-samples/multi-choice-links/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "97b6925ce3f2bc36f31685cf142bf7fda3a3942b8fe6e8cff922a338bb220a87"
+    "sourceSha256": "d1e28a8f8b207fbbb5629f7a7fc35c18eb47f563a0a05abd0b0fbec210f08951"
   },
   {
     "path": "column-samples/multi-choice-list/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9cacaf6fc7c33338dc4ee92b3ce8e1e21db8fb46ed30a88ed7b492a0b8cc5e6e"
+    "sourceSha256": "a0eec142b97bb24a354c948888a1b7e5cc2f04814d415525f9c2857aa915c300"
   },
   {
     "path": "column-samples/multi-choice-thumbnail/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6d143d390e2bb5c67472f0a8d38e75ec166b1146c0d6a50d0c9b0d876e3ac34e"
+    "sourceSha256": "5d679740748309dc8441baefc96d397fcd397dff43f87bda5f47eddff3724f00"
   },
   {
     "path": "column-samples/multi-choice-workcategory-pill/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8b28345408ffc8d1665cd923ad6e2da22df4b39b59e8a79152739f5f1f4ee7aa"
+    "sourceSha256": "cb1131dcd5af9113af736767d4c6294e5d77d7dc23d669ff194c385917cfd388"
   },
   {
     "path": "column-samples/multi-lookup-projected-field/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "103adf2df57f44f33feccbffb5398bc09a54bb4711534f33f2c0c2fa53c51e76"
+    "sourceSha256": "a44b0fd4733b73996bbe6012874ce06665f0a570da10e001b539a74ac5678758"
   },
   {
     "path": "column-samples/multi-lookup-projected-field/multi-lookup-projected-field.json",
     "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "d07790a0bb6b5e298d414a68e82e4d17cc12513c27fa7a4fc9aa3bfc3f435bf0"
+    "sourceSha256": "239d85a0dcc136d5853700754b1ae7edf47aef5abe2f8c2eb2115ae882cdf294"
   },
   {
     "path": "column-samples/multi-person-currentuser/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3815ca13afed8e3726de16b0ddfaae4a324e0985a5ee72ee266f40139b4ed7e9"
+    "sourceSha256": "a3a4ea238ca40d1a2b2376d0ecb94865ae3c5522d7c9e5787655dc84d80d010e"
   },
   {
     "path": "column-samples/multi-person-facepile/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "32459e4abe746f2e77d7e7d0e8287d34a200fd6f675b27f58e87dfbe02f606e0"
+    "sourceSha256": "cd638e55f60aee254576ec0860a49254c9cb9912bb225c01602609b4153e98fd"
   },
   {
     "path": "column-samples/multi-person-favorite/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8e917d45f690f22dcd884adaa355856fe1d99ad00dd0c557233d5dc6fef098fe"
+    "sourceSha256": "6bf938f6f4c93d7c7d415e7b4621bdb9f741396bd1905ab91154f965d56f7674"
   },
   {
     "path": "column-samples/multi-person-inlineedit-pill/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0fc48ae5294d59c0f4745326db445578f21504f9bc851106cb40168c6b1a5a91"
+    "sourceSha256": "5ec44308cc8b70117fb4f1e01b43203f67aa6328689611fe0f2956f0919b32db"
   },
   {
     "path": "column-samples/multi-person-mailto/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fb4558098be166e3f65819641ee50ddda31d40cfbca416823865f0cb73711ee1"
+    "sourceSha256": "bf00a42662cb96ad890c41003a7a92f97ad26c65738f8fe98adeb983a837e7bb"
   },
   {
     "path": "column-samples/multi-person-reaction/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5f539b7ebdfd2860ff8a2ff2c98b02cc2bbaeb3a0103b8a09d482c4138be1da5"
+    "sourceSha256": "abec4ad67cd05a08d8f25b90eb2f6bca0bf3b77d79d36de9e2bf32d09a0ddbf5"
   },
   {
     "path": "column-samples/multi-person-teams-chat-link/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c4f622c35d49cd570c3696e95c2e0488f0b8d6b3b5d8ddc771f46aff307e82ab"
+    "sourceSha256": "4cb1f85e51252a9424d36551b42c3999a5d806d40528668e14de6ee680b5b516"
   },
   {
     "path": "column-samples/multi-person-unique-reaction/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "036871b58e175297c4289ffac9bbf519b90e8331a8e5240da63905afad89bc77"
+    "sourceSha256": "a754c04a6c1cb9d33f39e5bb87a688aad77caee5e74130d40e70ca1b28299cb5"
   },
   {
     "path": "column-samples/number-abs-tolerance-comparison/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d324b565680c7f9139c72ffe403b8232d4e8caa9492840a28ea4e2cae4b549c4"
+    "sourceSha256": "9283469ff53ca61f2ed4e8f2d31f00a5d3323f53933f19fea40ce9fcc67008d2"
   },
   {
     "path": "column-samples/number-background-color-shading/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "80b232c5703270a95b9bb4b9ffad724fdf3326f2268d614cf8776953244bd496"
+    "sourceSha256": "a45ea9a79058890d1a100e6856ad7dafacecf31b73799c9ebca8150d140cd3a0"
   },
   {
     "path": "column-samples/number-battery/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d8259b1aac9ac9ea8ae299b463829f6fc664d71d2e9c92b88c97f2bc771168c1"
+    "sourceSha256": "154ff430ec0897bd1f09733fb6e89d9a1cd5de513730ece9ca259392f8d5511e"
   },
   {
     "path": "column-samples/number-circle-in-circle/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "42d8008ba9559601db4e47b4e76139471a799b7e4c1e511402ae93795dc2ce04"
+    "sourceSha256": "8ace83d38a605aa8f1dd1b1a4a77849085fe912694a8442492229ead564a7ef2"
   },
   {
     "path": "column-samples/number-conditional-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7e30b5ffe7954da4c7b8dfcbdffcb010015cadec331dff4096b9644156207371"
+    "sourceSha256": "0b8a652d26e4909887be1dbfea1bfa4def836395bd912f4b70c88bbc81656a0a"
   },
   {
     "path": "column-samples/number-conditional-progress-color/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "66029affb641c0fb5b64da59af615add707b3f85deb4fceb1d0d755546cc25ad"
+    "sourceSha256": "085bf9d75ad826fbe177c753d8fc96fe9dc943640d12b4f20727483b1e201c2a"
   },
   {
     "path": "column-samples/number-countup-countdown/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f77b4b2150a550f65ad917f6f8166d08e0c5d0b515cbedc5d45174436352b1c7"
+    "sourceSha256": "02235f4b3b2204d14a94bd584937918c09405848f665272f1137ae565b3b0452"
   },
   {
     "path": "column-samples/number-data-bar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ad7ded2100847e91e6b47197c16ee9df8c86449f88b0ba9c707e7210cd7eb764"
+    "sourceSha256": "2f29f1480f453d36ee45c899e653c89ab41b7fdd26d31508f6c5172896fdd61e"
   },
   {
     "path": "column-samples/number-data-bar-multi-color/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1851045a5ae50454a027d95675445fad8a6eab2d75504bc2ee94d9a3dc748ffc"
+    "sourceSha256": "0d01b0a4cb69ab5544e8d08db8a7397a0708b5e6b9924584fdf52cacfb36d0ee"
   },
   {
     "path": "column-samples/number-data-plant/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "194b6f413f6223bb3ad27cb26750ea8662544888f76cdef40c2dff52767f814f"
+    "sourceSha256": "5c5a8edc74c01673d3640ce6abcd60e3f8749adde314fc067f2045daef595c71"
   },
   {
     "path": "column-samples/number-data-plant/number-data-plant.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must be object",
-    "sourceSha256": "a6d57ee0eab6d7c430d4d2cb0843d4d94889bd5b814cb2d4c34a75ed64c52a5d"
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
   },
   {
     "path": "column-samples/number-data-plant/number-data-plant.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
-    "sourceSha256": "a6d57ee0eab6d7c430d4d2cb0843d4d94889bd5b814cb2d4c34a75ed64c52a5d"
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
   },
   {
     "path": "column-samples/number-data-plant/number-data-plant.json",
     "message": "Formatting schema: /children/0/attributes/viewBox must match a schema in anyOf",
-    "sourceSha256": "a6d57ee0eab6d7c430d4d2cb0843d4d94889bd5b814cb2d4c34a75ed64c52a5d"
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
   },
   {
     "path": "column-samples/number-decimal-binary/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ccceea8878ea5d385bef9a78ffaf0ae49424355e103e11c3fa7721825e657fc3"
+    "sourceSha256": "e9b7bc12082389605554d331618ca27ec5b4741aab8593391fe8a00a75c5f7b1"
   },
   {
     "path": "column-samples/number-doughnut-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "01abe518306399258ce02e8884f235156c7b6b48a8a03f8a161c21fd7e928c56"
+    "sourceSha256": "b9b2c29998b71ba593c8e0a8b75cb3bcb3464dc514692407b8f93cb6271257bb"
   },
   {
     "path": "column-samples/number-emoji-progressbar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b8f771426882ec8b17b8f8db81734c2d45af3c7e820926ff75b770d3cc9347ed"
+    "sourceSha256": "6985562107f9d5c86bd4c739241bde13798bc65512bafbcbd86a2ce3d53e871b"
   },
   {
     "path": "column-samples/number-gauge/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "35649041b32d0118ff1b681dcc85d3843a271bec9d0d4ba20f0b1d537068d5f9"
+    "sourceSha256": "5bc4e981db7e6a546fb09467d76bc4ac54d9c66f337c90fd27e67e7cfb3ef99a"
   },
   {
     "path": "column-samples/number-gradation/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5fcc7d8ccf2215a68d06662f52d2111c6a12321a099c7575b481395e7f69c8af"
+    "sourceSha256": "ba3b2b342dab705009062dcbb6b4149b802f24d6ff34259ed391d598b1a75613"
   },
   {
     "path": "column-samples/number-heart-in-heart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2536f77126cec580aac7916615d2a12bba9da27a59c07d6f8f88b4eae29ccf2f"
+    "sourceSha256": "1bb778247e4dc4d152988e3676ae9a39d677dac619c15212897b05497e01b527"
   },
   {
     "path": "column-samples/number-heart-shading/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d7dc5d6fcc492b7aaa66aaa6a76911cf4d6ca06c9527557f783528af82b44a35"
+    "sourceSha256": "26febe1aca4faf8e11992c84215c9411ccea15538a0c681901240e8a1b37a5de"
   },
   {
     "path": "column-samples/number-icon-progressbar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c2e06d8c45e782ae1af5dc29d3639301b4f6f70a1c8bc29e04040b74ad7a1520"
+    "sourceSha256": "057da1f09b970095547cf1ee775c9b30e570c80b2d1cc58e29f9e940bf3238a8"
   },
   {
     "path": "column-samples/number-icon-repeat/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c29509305c549a1066f862af0d7374213e4e84680ecac5fd84e628ce94dd63c7"
+    "sourceSha256": "df115f30423c37f9aa204cfa1572de0e4ce54f58fd91ab1b288d2a33753c8137"
   },
   {
     "path": "column-samples/number-icon-repeat/number-icon-repeat-with-number.json",
     "message": "Formatting schema: /children/0/children/1/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "0621090e4c694a1815bfe29199590d39c83d597bb9ad707159fb2e947ba775c5"
+    "sourceSha256": "f5282c2a418f80fdfc6b5104edeb8284e703aa129cdef5ffcb29d42f9cc77f68"
   },
   {
     "path": "column-samples/number-icon-repeat/number-icon-repeat.json",
     "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "6e10738bce29927348340df5e2add70b5b50c7fbacdbe9beb50b7578fae636bd"
+    "sourceSha256": "78a695d3de8032b941e0a4f090c8e3b57afc84f010f7750b4c9c5715a3f83a0f"
   },
   {
     "path": "column-samples/number-level-bar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f22381e5652122633f22c96071b140e9461d66951cd5eb4dec4bc23a4caa09c8"
+    "sourceSha256": "0a6d72e8f157d506d6197f0b2ec1cae24c31769f4cd3cf7cfa7454c05bea82af"
   },
   {
     "path": "column-samples/number-linear-gauge/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3399f9dc52600ad6136301ed6fc780b19e57b0b081740c244cd6af8257f81aba"
+    "sourceSha256": "5f04a606204f580dfbd00b44d4bd4aa0d2d29828309b624af134bbe6b40f8d00"
   },
   {
     "path": "column-samples/number-linear-gauge/number-linear-gauge.json",
     "message": "Formatting schema: /children/0/children/1/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "986e43f18f087ad837233387a33adcbc573a8fa0f0fcbfb7b0de77cd36255cb3"
+    "sourceSha256": "b322daf9ff614f9cfe970e1854f45f490347cfd2f294152a98d662a84616a523"
   },
   {
     "path": "column-samples/number-localization/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c71739d0b9b3edab1ccf2190362be525127093270bca3d56d2b28891e7a9f4b1"
+    "sourceSha256": "d8471596961751f9eb8fe70979caa07a1e0d0a9b2977c9a7ccf470085d8f3659"
   },
   {
     "path": "column-samples/number-per-100-people-grid/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4a282fd21600f115745b283d2935ae5a3b61faa9939d34dfa9f47bbbca0e0e61"
+    "sourceSha256": "4f18ab57c7468357bbb719fab39fe9bc1737e51f76c940c37f7545e098759145"
   },
   {
     "path": "column-samples/number-per-100-people-grid/number-per-100-people-grid-emoji.json",
     "message": "Formatting schema: /children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "2830319c50666440e1022478f3ed16555ca9609730e472b76590c0e90d9d5c15"
+    "sourceSha256": "36072a631dde49107dedd5548cc903e08820fbf1240da8a9cdef1a9e540ceec3"
   },
   {
     "path": "column-samples/number-per-100-people-grid/number-per-100-people-grid.json",
     "message": "Formatting schema: /children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "8bc60d35368083ee3b5c22345fd1b1c4bbff84f9be4e2282ae899ff7ba6d2b44"
+    "sourceSha256": "2d3baac9758c5d37aa0813c201ab1cd5add4ebee9aea4aefd4501e1fcc3c6de8"
   },
   {
     "path": "column-samples/number-piechart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2a0a24dcf57054ad8c990077f798971012ce59d8394b6cd75721118e7a1229d5"
+    "sourceSha256": "279172c0fc3db754728e90748959952b773a26dfa1b80041c3541a5c2986aba5"
   },
   {
     "path": "column-samples/number-quiz-smiley-face/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "63590f37961d5f09b96243a5a496a8a20ce7a4db9c0d0833e590e23e75e3d856"
+    "sourceSha256": "fb1f1aed44ba42dc5aa2bc88004feee4dde24695f43b337ead50850dbb77ead8"
   },
   {
     "path": "column-samples/number-star-rating/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "489ac6f78bca357d225ae9f718a1bc9d8704e6893ef3d2699c0c301e1d2d30bc"
+    "sourceSha256": "f9c75251c1f2b43eb3bfa29a3e176b7ad6bba74301e377c3e36981dcc75efba4"
   },
   {
     "path": "column-samples/number-trending-icon/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "eadc882565088f9a481cf3d0ded17c64db549589e85409167c7f9e9463efa880"
+    "sourceSha256": "a2a0bdc85c4cc56133435c39e8c97de1c4c88078bc79d8fd70792841d6bd5e66"
   },
   {
     "path": "column-samples/number-version-approval-button-drafts/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "15a868643077198c3d655f96ff49aecee7780af2f0c9bf7c0d21e5e00040cbcc"
+    "sourceSha256": "eca91ff1ebecfb485eb0c7d73bb292a7f04637311654e3c6949d9f4a1fce96dc"
   },
   {
     "path": "column-samples/number-version-publish-status/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1e653e2f63ab48d83debf4d854cb3e727598eb1f451fd4a5c8b4ad89ca7235ad"
+    "sourceSha256": "e666f3712fc1ac707c86456a4dabfec8b83aa181dd7f52311406e089897f292e"
   },
   {
     "path": "column-samples/number-volume/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5fb118bbc86f9f7e0bba79ed4b03e2c8eca2f1097f81458fd3c50fe5a1adeb41"
+    "sourceSha256": "1cba70270bacc88944acbc3b785e942f188690dcac4d15783bc6ab97fa5e925d"
   },
   {
     "path": "column-samples/number-volume/number-volume.json",
     "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must be object",
-    "sourceSha256": "5932ab3b85c4e678e485f699490c76306c0107585b79f37a9babdae308c587ed"
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
   },
   {
     "path": "column-samples/number-volume/number-volume.json",
     "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must be string",
-    "sourceSha256": "5932ab3b85c4e678e485f699490c76306c0107585b79f37a9babdae308c587ed"
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
   },
   {
     "path": "column-samples/number-volume/number-volume.json",
     "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must match a schema in anyOf",
-    "sourceSha256": "5932ab3b85c4e678e485f699490c76306c0107585b79f37a9babdae308c587ed"
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
   },
   {
     "path": "column-samples/number-zero-to-ten-rating/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ff55bdf10f69485e266a250bcfa1be257266695e99d908f1a380276ffe3102ec"
+    "sourceSha256": "66af59fa6da63d8e1b355d4919b0c409e895dee063d2b0a9ad0043ef232bba84"
   },
   {
     "path": "column-samples/number-zero-to-ten-rating/number-zero-to-ten-rating.json",
     "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "a0ace8b9d229a60f8139025e09562d7c9b2244b5c5ea0aadd73a00df5dd8b485"
+    "sourceSha256": "401c3b5d9652db213a88ba8f83d39b5d0f7c2d7e0f8c1135d76c4130038bd350"
   },
   {
     "path": "column-samples/person-assign-to-me/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8c916fa94764b8195936604acb68fe23930d41ec0c5aa0379b2cce99ee797ff0"
+    "sourceSha256": "e03f2158deb202d6f0ee59e297fe3d438e02e924412bb6d26a1591a820620640"
   },
   {
     "path": "column-samples/person-currentuser/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "886f178fe9f74944ef151a0e16b517cb8a44076f31024d1848c0dde029e8e027"
+    "sourceSha256": "9658ea68845ff88666652dda4b7fdd08a0228cc15472c1c839158ea0de119da3"
   },
   {
     "path": "column-samples/person-hover-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0a824dc467ca58a21d49895aaa8d91222f871656f15fe5d6d667cedd369d6a0f"
+    "sourceSha256": "1d341d10e82f20f5b1483e77be0932dfacf11c7bf5373a8f65777a472278910b"
   },
   {
     "path": "column-samples/person-localization/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "54fd196ca32afacdc5510a29cdd8544029506582da22421639f0ce7d463311db"
+    "sourceSha256": "99ceeda28cd8a961f3e13bfc684e3937130ac5fd3edbf177b447da9d32566ed6"
   },
   {
     "path": "column-samples/person-mailto/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4e215882d5adc7c9a43cb87152ac866f73a0b907eaddb4105cb1cd71d05e58da"
+    "sourceSha256": "333c33c8aba0595aa91932b605e23c604acb1a5443e0487746f72dca1ef70b49"
   },
   {
     "path": "column-samples/person-name-avatar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "69983a644175a17c74d69a1590b975f870cb37f20b8ee9bc4028d98999b73422"
+    "sourceSha256": "7323dc8cb6158e081997b54099782fdf48f3e0ea880ef169ab4b9e81d2b14187"
   },
   {
     "path": "column-samples/person-roundimage-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cdda9cf6286895e634f87da62cf4313304d30aea6b68a9a655fbd4f8d430f9e5"
+    "sourceSha256": "2ad99bd9a3c988ee5ab3a8848b210b85828f6c2341551ced593742a3b11afb10"
   },
   {
     "path": "column-samples/person-teams-call-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0cd666e6042bf74ee89404fc06afcf74b7cc4898f5d60f8356ba97e55b33ebde"
+    "sourceSha256": "25b0abd30f0cd046af6b74f8024ce7a722a2714e2978787178a48e5556c02337"
   },
   {
     "path": "column-samples/person-teams-message-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bf524797d9fbf078f9a3162ecd02fcecfd12a730573874be9437c75ad636a8b2"
+    "sourceSha256": "42cbec1ab90ef0f993080546cc03c1f4ef7d3211d1e653be68a575c8cc6a27de"
   },
   {
     "path": "column-samples/picture-roundimage-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "edd5fb7f02cda31c1b46905f3ed65f069cc141723d8c81a2d6f66d00cca778aa"
+    "sourceSha256": "f1be3bf7a8abebd675de1b59ac882302150aea19e6aff9c7fbef6aecf140f9f6"
   },
   {
     "path": "column-samples/promotedstate-demote-news/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "711b75649e8db51c2d8f9a117389862544fd1e8285afcb1fd969e5096f1f3584"
+    "sourceSha256": "fa365663dbd373fc52ff5f8b1e7e161b601ad5840f8efc1ed51b1214b247aac9"
   },
   {
     "path": "column-samples/text-bing-map/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8d8cbb225bc69554f13cfb27a44b801fc248e4831e75bf0e95eb78067c65db7a"
+    "sourceSha256": "514a8cdf512c5af0206c21599fb3e7ce03fbccdff0a308608cafc7c786c80e3b"
   },
   {
     "path": "column-samples/text-comma-separated-value-tags/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cd23c05357c566d69307208c58223c3836b3c5192439baf653fd953b31db2b86"
+    "sourceSha256": "63eb1d1d4ad8b66322e6178d682582a613fa7fc11993eb784d167bf0d29c0f57"
   },
   {
     "path": "column-samples/text-comma-separated-value-tags/text-comma-separated-value-tags.json",
     "message": "Formatting schema: /children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "edce39d3ba9061e8bb7e13927d06f0b5a41119795f82e80122f3441c7bde1882"
+    "sourceSha256": "911b48f5cc253a156fa34d135682cf22efc853c1883f84ee286edf0dff8f8474"
   },
   {
     "path": "column-samples/text-conditional-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "87dc792821a36023c87014d53f0e6f9efa3d51afdcc3a7934d57f17bbe61c933"
+    "sourceSha256": "54bad75b95fe8cd47c9483e4b8f2dada97ee4d4f965cacbda8783ee94923c1fd"
   },
   {
     "path": "column-samples/text-contains/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3c73315b2092c04fff613250267165fc773dd5a7bf62b60be1bced14c086d6a5"
+    "sourceSha256": "ac16cfe22975696c9b51de63741c707ae48f7dff8548470b58799a293587d732"
   },
   {
     "path": "column-samples/text-country-flag/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9a5846c66d1f2e2697582087df479e74b30fe7bb6038672336e945bc77393577"
+    "sourceSha256": "eba31c529d2f1849926b2d789620d046da9506504f89de47ab74fa4bd583194c"
   },
   {
     "path": "column-samples/text-course-registration/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0bdc4fc6c3dc26dac44b8f5aad9f39a1dccb3e1b4b813a5b772ce5aa513f2ab2"
+    "sourceSha256": "bdd8e1a045f1c21acbb1885be3bf165911cd67c84f3880961e3cea78534e11f6"
   },
   {
     "path": "column-samples/text-expand-collapse-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4d1e2d2d79057329e73aff3d5157dd7a4b2833b2d7a9ee7d6ad6f3a6b01e7507"
+    "sourceSha256": "57ef689b23be5747e9c3267cc80cc4526fa6cdc21a4fda1eee46bf3cca76e454"
   },
   {
     "path": "column-samples/text-googlemaps-link/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9be2abef5f4969887d0e6dcb2a39b080709ef93e55cf6a38f933fb4ccedc0da9"
+    "sourceSha256": "d86aa1d40e023ee325443e92105dd9d7d7dd38ca6795e07899d4d728e21596c9"
   },
   {
     "path": "column-samples/text-hyperlink-long-addresses/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "469c5ac9f4ef57577008a85749999c83d87b4b07a57e71a4977af410b1f25c27"
+    "sourceSha256": "856898cae72208c627d0b0efece59a53fe746bc57bc5c58fd071d052a6e6336b"
   },
   {
     "path": "column-samples/text-isbn-image/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "23034310b7dbb803163b889c8f40f3600fbb697bb2c3b2e5475db8ccab53f389"
+    "sourceSha256": "d5f052f5f0de73073839d90d25ebb0c2e923a7181e312e949a5ffe7ad036a873"
   },
   {
     "path": "column-samples/text-local-image/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "097f1444d2a7aacdd290e79d42a5839eb25a6efc117b9ebe14e7721a0612fd85"
+    "sourceSha256": "42a9bbc7369fa2bba0c80303e1536862a4b88626eacda911c2a869b7ff5bc6ab"
   },
   {
     "path": "column-samples/text-local-link/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "604d6392e02403dc56466eb28f0c768d420314aa90631c77f3354c8861ac86f4"
+    "sourceSha256": "8daeb43c42c7e205b9ef319d039a4f0b1cebc8531857ba34de7b0944411f85c0"
   },
   {
     "path": "column-samples/text-multiple-hyperlinks/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3cea2b6eae500ac71cce7d32b8dc0b07b3207e1fb0727e0235e0d961ea0c7c3e"
+    "sourceSha256": "a430fc03146f769f827af7f401d0a7bf5e1798d365042fd8f67d9a46261982a2"
   },
   {
     "path": "column-samples/text-multiple-hyperlinks/text-multiple-hyperlinks.json",
     "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "3a046241b025a3704a8d93dcc070f3c4edd96afce48c886faf9ebbbf03fc8747"
+    "sourceSha256": "d18536bac5f06ccc1297b12d865d345c74e492e6b60606a6c5eea35d43a5ceb1"
   },
   {
     "path": "column-samples/text-phonenumber-teams-call/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a0acf1daba7a0f0d1f48032ce958a929b1d0f0eab8aaeb7c1c66e898591a6015"
+    "sourceSha256": "5fda01eb38f0395c3660bac4c02dfca4a32750b692e28777abb320751ae1628b"
   },
   {
     "path": "column-samples/text-qrcode/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f0e0c29abea87a692ea8ece434d5138603545a878265598d904295a398cea2fb"
+    "sourceSha256": "88344333f2b5f2c4171374a9775c368eabb402b1739d688b60b9a82a9d5a0d38"
   },
   {
     "path": "column-samples/text-ryg-status-indicator/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "16277a950388f6c8ee18922ee13d9cb18783db879496b64cb92729928d7fa139"
+    "sourceSha256": "43f5ade0339b268027f00de0dbc36834be1d2260c69de79bbee51116e9181ca5"
   },
   {
     "path": "column-samples/text-startswith-callingcodes/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a323d35ca810bd58e4565b6c1a9e09ae05c9b1cceca78f9a901cfdbb5222eca5"
+    "sourceSha256": "a1544240f262f4ffe0c1565aa36c2a69c33e4986f612582366c8865c18939cd1"
   },
   {
     "path": "column-samples/text-strikethrough/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e09f89a4e3378e0762d3b5841cea1ea541d6b3817d099dc5a88f89c58ba915c9"
+    "sourceSha256": "c7150556cd3d6acee141354dc119bee456e42e429711997b425e8d6c61ee2807"
   },
   {
     "path": "column-samples/text-wrap-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e0b203c1630891b5867f0c3d0feb67703856adb9f5e06a763c47d0cfbc54b6ba"
+    "sourceSha256": "d6ce83c38e016c3f16fabce920a1d29dc82d26e0ad316745e6213b7a8c6f14a5"
   },
   {
     "path": "column-samples/yesno-checkbox/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7bd396ca916f40e316b364a898bc79024aae65a1d19680db6f04e40e3f76f7ad"
+    "sourceSha256": "9caa9ab3263df54ac236ca942bc7b38815085aa208ed1cc5c835060271040b2e"
   },
   {
     "path": "column-samples/yesno-checkmark/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a8f88b91bf6d3d204e06cf47232312593bf904482230068286972e4e8887bbcf"
+    "sourceSha256": "7f2caa6a60f7692a157b7db73a8f9c2a753af09bddfe860b940b9976505e8f7d"
   },
   {
     "path": "column-samples/yesno-checkmark-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1c6b94c0b990b679b58d0782054a4f305a0e9059f4650125b69d25204e9c67bc"
+    "sourceSha256": "e3faa521ba2ff8066227942914299fc75f6db08810cf4c0bd3ff162db86791c0"
   },
   {
     "path": "column-samples/yesno-icon-color/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a4c6f2b8246618418e112b61389b69c4c5eb73df52e7192d1e9ba7699c6060d3"
+    "sourceSha256": "92c9e4e53d8b950e2770fd37e7fa099364c3af82a74f9285fb41c4086a4b9d39"
   },
   {
     "path": "column-samples/yesno-roundedfill-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "64cdb0448b6e2af03a9564fd5d5ed3b0867d9a6b3637778342cb7d0b8d45613b"
+    "sourceSha256": "7c80f560adca303522a17b04fc11e871a0dd3248097bababc26f0d3e17dc0917"
   },
   {
     "path": "column-samples/yesno-toggle-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2e41a0161be1518c41bc8d45638840a445a0e8cbcf28314b32688252b5db1844"
+    "sourceSha256": "a920ca17600c17064d8de59e5e064ef13e539929d790cf565830915404e074ba"
   },
   {
     "path": "view-samples/advent-calendar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4805c9a33e47fa7c4faaf60f1cecf3e99b9fb7bc762ef492c615017c746ec83d"
+    "sourceSha256": "69033a1ee43d5fa29d892429728697ac5f22d07ffe6cc0ff8f7f91828d98c023"
   },
   {
     "path": "view-samples/alternating-rows/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e47cb83df32b220e5fa5564544b6a56b593a0a06119a9c40f6633775b85b9a0c"
+    "sourceSha256": "0610b38e3f3d1f98f5959c6e9c8aa17ee827da08c5c5c14324e7e45f539e9abf"
   },
   {
     "path": "view-samples/alternating-rows/alternating-rows.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "0ab30c756911aaf9d1306f84f25070484c99c514866dec1344029a7c7669da5a"
+    "sourceSha256": "060bacf2b9a2dc2110e9e916fb1b4b5f8a48df5476d9c19518a6ea9f44e72be8"
   },
   {
     "path": "view-samples/announcements/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "96a4c208bf9e031219a7159645c4fe90c5dacf9fbf96270678416235b61bfb8d"
+    "sourceSha256": "d481e4850d7a34b25119f8886787824450bfe519f8f334379574c6e254d023fc"
   },
   {
     "path": "view-samples/annual-performance-review/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "93cc4108f1efaf48dd01b08def685ead9f6b17763bea52e927afa3b70d52082d"
+    "sourceSha256": "9e0cc96adaca9f588bc1bff4900c8ae1edd42be52bed2913d2bcd3a294e98f65"
   },
   {
     "path": "view-samples/annual-performance-review/annual-performance-review.json",
     "message": "Formatting schema: /commandBarProps/commands/1/key must be equal to one of the allowed values",
-    "sourceSha256": "45db5e37f7ca746503e5d8c2e4fe563ca7eaaee1019e23ebe6d740f8e2d5f9b6"
+    "sourceSha256": "79e25fdb79fa61f7e8c3eb8066e0edc252c97e167cf5398ea4c8d0ce37df3183"
   },
   {
     "path": "view-samples/average-rating-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a50412ce4bdf3781cbf1c52609b5ae15c139a4fc6d7215fb0541d9402458010b"
+    "sourceSha256": "77d4196c9a506c72a8f89c8772ddcef2bb7aab225195aa2044babe07f12a29ca"
   },
   {
     "path": "view-samples/average-rating-rowclass/average-rating-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "941a9e39013b16e081774af6344d96da28961ccbf9ad4e84b60088b15dcc2a8c"
+    "sourceSha256": "ae328c11fe9e1695f24b6a5cc853eb83a6c6817b2763febe5227917fe6ac314f"
   },
   {
     "path": "view-samples/bar-chart-diagram/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a9ad1980fa2a845801555d307cb62c70c3c2128bdd8b13027d64797bd8a31cfc"
+    "sourceSha256": "83c35adfd9fec8713c5891f47f57787e4f1fc4f508159c01d43288d91b44ae94"
   },
   {
     "path": "view-samples/bar-code/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6e23566387cf78e66a040a9402041c5f303a06b566f281d8f1613e2fffa0a7d9"
+    "sourceSha256": "145ce56a5bed34cc6dedd2988cf179b0ba9c8bc0571714587e7bd71889277466"
   },
   {
     "path": "view-samples/bar-graph/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c4833c2178d9beefd82f8ab7eb3d230eb0da3f0bd6a28f9d69799c8e58805b01"
+    "sourceSha256": "ea88ab409fee598ea96302f4848c6abe5d27c4cfa6d0e7b31351661f753a518e"
   },
   {
     "path": "view-samples/bar-graph/bar-graph.json",
     "message": "Formatting schema: /hideSelection must be boolean",
-    "sourceSha256": "1deb8a74afadba6c63ee6477cfc4ce3cbcc17be46866379a2a89e7e3a0f11dc0"
+    "sourceSha256": "d0edfc1117d55fd2cb1811eb7d043d39f818296cb34c87b207a52ee6f07ac190"
   },
   {
     "path": "view-samples/bar-option-picker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "717ce1c552e24ccb426c990c3258940f69c24f35bd3817c8f5238216e3e5b587"
+    "sourceSha256": "36433e1f4ae9ef47c1f4383763f6275bb63d75153ea472be52c649c0342f6a71"
   },
   {
     "path": "view-samples/birthdays/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1d5e7b7d1e581479a1e825fc24c3fc55e304fc9c131d3d9f5f915b9f77232337"
+    "sourceSha256": "7a1b78ec86bc19058d63e7756b2acfa09a096d3fa14fb5b1a63e573dd147dff9"
   },
   {
     "path": "view-samples/board-tags/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "548402adbca42f7c3e8fe965edde3623d4f14bb2986e7ec4ba452004a31f9e4c"
+    "sourceSha256": "0a3070cc2e293641ebf8b9f6c1c67ababbbf8a9fb6cec9ec00909da880b9f67e"
   },
   {
     "path": "view-samples/board-tags/board-tags.json",
     "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/4/children/1/customRowAction/action must be equal to one of the allowed values",
-    "sourceSha256": "1e0eabe779af38d8dcecc315af10f4b465f442a32ae842b9aae4706adb64aa8d"
+    "sourceSha256": "8b1876fefa2f465e85c800f1b483d31cf7307e590f242a1d73c7e2c4568d086e"
   },
   {
     "path": "view-samples/board-tags/board-tags.json",
     "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/4/children/1/customRowAction must match a schema in anyOf",
-    "sourceSha256": "1e0eabe779af38d8dcecc315af10f4b465f442a32ae842b9aae4706adb64aa8d"
+    "sourceSha256": "8b1876fefa2f465e85c800f1b483d31cf7307e590f242a1d73c7e2c4568d086e"
   },
   {
     "path": "view-samples/book-template/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2e035d57fa47e9d099fa5bfbd22bf72b886b040121c132a412a0759b8dd6994d"
+    "sourceSha256": "6241e042bde36044ed1d727b545dee3a663df32632c9c01844a4cfddc8e808ba"
   },
   {
     "path": "view-samples/bookmarks/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e1842f1ecdb324b9e75f375a469ae19f3199b60f3333cf796b5a823502992196"
+    "sourceSha256": "bbd8d2e72bdb1daf46e5dd3e78374274c475a1d5b9dce979b3985f574803aec6"
   },
   {
     "path": "view-samples/budget-tracker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "299540b73f0fe586b3f91630f0725eb2585c5202737aae15bf5b205146fbf9f9"
+    "sourceSha256": "f884534cf257df1e5de80cb91cb346ae8c83ff74d1e17dbfe14911b0dff99939"
   },
   {
     "path": "view-samples/bulletin-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "978a2ace42b84d0b6dc63700de3cea2ede4c8a5721dcf52c3f844a6555d9f830"
+    "sourceSha256": "3bc5979cdf6762284e4275fa68c072634507d9bcf563e03f3a2aef4426df7366"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
     "message": "Formatting schema: /rowFormatter/children/0/style/padding must be object",
-    "sourceSha256": "1913b102eadc0d7c5a624b835a7cd96f0ef8ce9e737b62f8fe175417435a0211"
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
     "message": "Formatting schema: /rowFormatter/children/0/style/padding must be string",
-    "sourceSha256": "1913b102eadc0d7c5a624b835a7cd96f0ef8ce9e737b62f8fe175417435a0211"
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
     "message": "Formatting schema: /rowFormatter/children/0/style/padding must match a schema in anyOf",
-    "sourceSha256": "1913b102eadc0d7c5a624b835a7cd96f0ef8ce9e737b62f8fe175417435a0211"
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board.json",
     "message": "Formatting schema: /rowFormatter/style/padding must be object",
-    "sourceSha256": "0a2bb0ad9069ba7ffe2e18d59d53ae0af9e1b030e294be923c2a7e877e0ef4e4"
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board.json",
     "message": "Formatting schema: /rowFormatter/style/padding must be string",
-    "sourceSha256": "0a2bb0ad9069ba7ffe2e18d59d53ae0af9e1b030e294be923c2a7e877e0ef4e4"
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
   },
   {
     "path": "view-samples/bulletin-board/bulletin-board.json",
     "message": "Formatting schema: /rowFormatter/style/padding must match a schema in anyOf",
-    "sourceSha256": "0a2bb0ad9069ba7ffe2e18d59d53ae0af9e1b030e294be923c2a7e877e0ef4e4"
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
   },
   {
     "path": "view-samples/butterfly-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ee803dd3665a91e4e35c3268c05b6207a9ee1c6c0e422675e4ee180a387587ea"
+    "sourceSha256": "bee8ab624352e6e5bf8b64a8ecd2240806a4552e1fb8f5696706e967f9b9690f"
   },
   {
     "path": "view-samples/certificate-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ceb0d5c88b8d4877f79f48b284425c1a4f443aae89aaef1bf33a83bc4fec9f84"
+    "sourceSha256": "c1c876cd413329355e889fc6374370f77a6bc8a96480eb87e66bcb03a2515c78"
   },
   {
     "path": "view-samples/chevron-shape-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "71e66f407ee5e8327c24d9d2a6c2f0b2ac51ac4d0c18ad8c0a20f836f1d8bdda"
+    "sourceSha256": "e0f9cdd5e1730c7aef80230341e0e10b20da15499af40c67083248131b1cf353"
   },
   {
     "path": "view-samples/chevron-shape-format/chevron-shape-format.json",
     "message": "Formatting schema: /hideColumnHeader must be boolean",
-    "sourceSha256": "f567826946339011d7d7433af81b9762be14ee8ae8659c3d34f7d08636680c3b"
+    "sourceSha256": "51125b5470982f12df7927867960707505e360d7a9a175a6507a1bf039d3cf02"
   },
   {
     "path": "view-samples/christmas-tree/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0b4667efc3266acc12ef34884427a23437d695160a3dcd6bb09bf8af96d656ef"
+    "sourceSha256": "9ff2ab315005b3cefb4b8e7bcfddd7f8da4ef5d6d509c78a93e7095e5055be82"
   },
   {
     "path": "view-samples/christmas-tree/christmas-tree.json",
     "message": "Formatting schema: /hideColumnHeader must be boolean",
-    "sourceSha256": "6b9c13fc5652440090ad0e02d585b61866ba891c30e02047aa81de21e57fc112"
+    "sourceSha256": "0ceef43417381e45a74223becac3259db8085868c46d80451d876f55f5e125d5"
   },
   {
     "path": "view-samples/chronological-items/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3c6f0fd91e253e33aad1ae71f9e76d4c334d408e00106314520bb13b7d97527f"
+    "sourceSha256": "1a9b7c3615978e0c6e72702e7754e625ff6035286af6d7d0c215c026210df07b"
   },
   {
     "path": "view-samples/clipboards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c18707c3bd49a721854b688eccff15e69ba7672244d18db08ba7c9251d69127e"
+    "sourceSha256": "f7eee9555f00f5490f4dfddaa1b42e59f343d6ad203e5516f8000ca69e39dca0"
   },
   {
     "path": "view-samples/clipboards/clipboards.json",
     "message": "Formatting schema: /hideColumnHeader must be boolean",
-    "sourceSha256": "7e007af1c8ba05ef41b0d7a47efc6128d28fcf97608a656e2607cbd442fbee85"
+    "sourceSha256": "5fccebb62523f5f9cc9503a8e3a91bd9fabcc070f5a4154c4a3d53d542decde8"
   },
   {
     "path": "view-samples/color-picker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0dc068f5cba7d50da92537a251cfaa55d0ef9cc64ee579555abe8ed521a656b3"
+    "sourceSha256": "7b6014bd1f8a9c607d15696b596377dd02ec82e5ddcaec81ebaa2f6d13cc8494"
   },
   {
     "path": "view-samples/column-graph/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0473e45bc99dfc76a7d31b6c927f8b290d928df497a67aaf161057b463e3007f"
+    "sourceSha256": "e781c502acde4915d90f738f08d0cae02055e38a6bedb3a70fab58b005af9fa1"
   },
   {
     "path": "view-samples/column-graph/column-graph.json",
     "message": "Formatting schema: /hideSelection must be boolean",
-    "sourceSha256": "4c5e4899117b1c848b5777af61836c09453c476db09de412587bb580eb2ae947"
+    "sourceSha256": "495ad8429519b82d57bea6a43faff01b4c1ddde5f15155178bfccae3fe6122cd"
   },
   {
     "path": "view-samples/commandbar-display-edit-in-gridview/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f159d63e6c681d528e8a3296415e5ce9e79a3688d3807a3c943491383dfb296a"
+    "sourceSha256": "7b1b933d490d8bea065148b612d5c4b832639bbff04dfce24ecff8c37b885f0d"
   },
   {
     "path": "view-samples/commandbar-hide-all/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "90316b468a49645c0c5f7d425eb8ecc01584a7e54eeae80c8ba8e2b77398d89c"
+    "sourceSha256": "9478ada7660eab06416f3bf0c6913a131d941a8d8b6088ae435e3e9a0f37fd45"
   },
   {
     "path": "view-samples/commandbar-hide-all/commandbar-hide-all.json",
     "message": "Formatting schema: /commandBarProps/commands/9/key must be equal to one of the allowed values",
-    "sourceSha256": "9074b72b9ed13ce70174ad75c412708b0a9825f24bc75a302191d17f467b60d6"
+    "sourceSha256": "5fc4c63a00bf334b6b9ffc91ba024b56f35d2f1360ff62d5d2877bb7e8d8020f"
   },
   {
     "path": "view-samples/commandbar-hide-automate/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f6c12382ff4487ecaeae12c50277ded42f7e6bc07bcf31587b48ce141e505c98"
+    "sourceSha256": "63a7ebcb7fee49525ca0be37153c5581abf77752903c22dac04efc03f900ac59"
   },
   {
     "path": "view-samples/contact-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5d0784859a8209a6f15c6923155c3a5a4bff7388d08b4b53c0f0efb07ccefaa4"
+    "sourceSha256": "043bca45fe5a197b4e5c03d98297298ee3185e787a6180584c45d7e928d01b1e"
   },
   {
     "path": "view-samples/contact-custom-avatar/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9234ff6247c8c200ac09c06deff88936fde3a77c3a9c3eaee7220c04e42052d5"
+    "sourceSha256": "25983b24c27da3c6deefa06376ee8724a1d9a27a91accc0a6a1dabff65c56677"
   },
   {
     "path": "view-samples/content-navigator/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "44cdb56dd92be16add714e6e014cc8463073472a6e29baa5be26f8f09b8187a5"
+    "sourceSha256": "117bdd3174713c511d57cd3e0a62306aa16398f2f8d5b3824129553d39e48c24"
   },
   {
     "path": "view-samples/content-navigator/content-navigator.json",
     "message": "Formatting schema: /rowFormatter/attributes must NOT have additional properties",
-    "sourceSha256": "b2e739726350076d2ee008e8b27df3194664bef70fe9e713e4cb6aca7b761722"
+    "sourceSha256": "b303b3f006ead3e09f3318f43e8b1410dc9ee88818eefb03a2874cd5faf1ebb4"
   },
   {
     "path": "view-samples/contenttype-variations/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "db041e274eeda5a59536986e6c5e673856dc1ccb773592d8665426ae2e1c9da3"
+    "sourceSha256": "b54a6c16e9bac4595b4fb5e7459d691c8b7539fba08b8e2ec4bb97781ed6aa49"
   },
   {
     "path": "view-samples/course-training-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d9976aec80ec408759890f4ae3957b131d7236bf8b1e6dc35702959d9a55104a"
+    "sourceSha256": "5ccc0a7b2bb16199cd3f28e7f28e362e633b150f5542b81865a8f82a8f9d899e"
   },
   {
     "path": "view-samples/course-training-tiles/README.md",
     "message": "Review prerequisites: no standard requirements heading detected.",
-    "sourceSha256": "9a37e6f0839d0a022d6da1d433f87709ede406fd593db5d6c5760eaddba42180"
+    "sourceSha256": "5d59af32191a878b79c0dd103a13d246ed383e1e77e9de113e3eb1aef23cf82e"
   },
   {
     "path": "view-samples/credit-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "050ed27cff2c5aa0f4def4629f0ebd1f52503bdd7cc76c131794c83dec5059d8"
+    "sourceSha256": "cbed30d73b9caa942201bc0e936f931b67938e0642269f66fbf47e0302dd852f"
   },
   {
     "path": "view-samples/current-year-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "358cccc934f96856ab90d7ebed560e67af2475579b538ff58e550d9f9e607baa"
+    "sourceSha256": "077693bfad9d011d695bac68b59f88006993b3f857d5bf5f0d27fe8e43336544"
   },
   {
     "path": "view-samples/current-year-rowclass/current-year-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "472b44a2be7096ef59a2a6f9f8efd623b50e9687cfa2d3d896d2f8ff59d35923"
+    "sourceSha256": "3d5e837237141dd9b80da1564b4bfe713083515d6083ef407296757cb642bda8"
   },
   {
     "path": "view-samples/currentuser-liked-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6b66d4c756eee33d76dc8d61366252538dfcc48a1563c73e4043dc29203a64d9"
+    "sourceSha256": "ee11cb3e8d5a44b26d87f168de5532bdf395a39e2d43479e7428d60bc7a1214e"
   },
   {
     "path": "view-samples/currentuser-liked-rowclass/currentuser-liked-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "bc7d7f2e74456962c0d9933d57c831b06dc4efbd868710b582622524071d96f7"
+    "sourceSha256": "db67d0185844d6f6d4f8a9116786d09d1fe48d24c1b2efd3760923e8b7d1b4f3"
   },
   {
     "path": "view-samples/custom-charts/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "122784075ee0061643b408df2eec7e6f815bba23c79a760396b5e5a4edcafafe"
+    "sourceSha256": "2dfa59af365d0e6a8610283b8fcc78bdeaf3147f84f0860a9b9e811b82d33c96"
   },
   {
     "path": "view-samples/custom-charts/Line-Chart-Large.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/2/children/0/attributes must NOT have additional properties",
-    "sourceSha256": "95f1b9e00445b65eb691e528a678ee8f949c528b3c76986e052730cbc921a713"
+    "sourceSha256": "87e6e4a0df7ce5bc95e2911908b966c90e1e80486de49cc6003afb924bb57371"
   },
   {
     "path": "view-samples/custom-charts/Line-Chart.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/2/children/0/attributes must NOT have additional properties",
-    "sourceSha256": "db2311d36d8d006fb246a6e28901764ad77174cdf7b58640f2c0eaa2bb130456"
+    "sourceSha256": "b96ff42f11016b624638fca0c3b61d9f03c75a67bd6ac6fdb1feddb9fce4f673"
   },
   {
     "path": "view-samples/custom-charts/Radar-Chart.json",
     "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
-    "sourceSha256": "8b702e3ac773d984846a500e0bc989f04b6a84f4b0fad652919fb950ea7d4fa7"
+    "sourceSha256": "d882ca207872e03d4532175cac4d79e7d442cdfd781857c3a34c2b549fd1c71b"
   },
   {
     "path": "view-samples/custom-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d74ec2b27de2b12387d06664289b1e1764f27c73a097c3dd541b4addf55ee466"
+    "sourceSha256": "3b01cb9d3708b7d63be8a962b071c1ba96d07cb0b2278648bb92bf6593516b05"
   },
   {
     "path": "view-samples/custom-hover-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0dd825a4f934126ed362258149941dd36079cb92e1146ed578483afed37c5b26"
+    "sourceSha256": "37f1f10d0bc3b11b1cf61f9bf0e4d117cff83dcc539acc92a81d67f91df3fa2a"
   },
   {
     "path": "view-samples/default-hover-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "15b1dced8677433ae3aecc94ff93f0ce2e42d58fd3e522f22bf94892e73885ba"
+    "sourceSha256": "ac79543a470096548a725781e5f5efc7298cf2d9792a15bc5b563884cb446984"
   },
   {
     "path": "view-samples/department-members-list/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fa4282286842e14c1456f2aaf7b55cc8d2b1120b4a3382c540b4840238586c1e"
+    "sourceSha256": "bdaae9f37f9d86226f5598171e4502a5185aaf7369c7b0e0955edb8b36017380"
   },
   {
     "path": "view-samples/diet-plan-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9e0b220272a3453f5fd7ef4634007cd04a739cf0be41c6ef525c445a383a120f"
+    "sourceSha256": "8169cc483602343a93a8e14a1fdbcf78b71195e5ba6503a295401bb552312c86"
   },
   {
     "path": "view-samples/diet-plan-card/diet-plan-card.json",
     "message": "Formatting schema: /rowFormatter/children/3/children/0 must NOT have additional properties",
-    "sourceSha256": "d1f26feb974631b8828d681f790db5d62552a68ab91e40f3c8739f97804a0378"
+    "sourceSha256": "053b2b58c4c48c4001607fe8b4e32dbcf40f56fd0452618e4710016c9ed0af02"
   },
   {
     "path": "view-samples/disable-click-action/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "02f60156b7f4095efa3e5c281c64a00bdd6c2a3462ed2f93cb88b3ac6df692de"
+    "sourceSha256": "ea42854847b7536b2b1c91cad7368c7bd91a420799b41e32f25470a53cee4854"
   },
   {
     "path": "view-samples/disable-selection/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2a26a05c09b8a8a00dcb5148a835ce570f906baa6ad2f1b5d4598f8bb38f578d"
+    "sourceSha256": "c01e14087b875b4382ad5f9570df73076823844dd16dc2e07bc31e9e27125a61"
   },
   {
     "path": "view-samples/discussion-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e50ed30a113c36043e1547f46810165966f9487ab4685d1792bb37b944b1e74d"
+    "sourceSha256": "0ba39c7ff9fb4fbc46780a5fb3c4b01b3bd2409138766a0e658e5822ef80d3e0"
   },
   {
     "path": "view-samples/document-library-gallery-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7e790ffe188aa07d2ce44f9c523c34dc79ccf142e68c74cfc78645c7963a8a58"
+    "sourceSha256": "86c8763398fe27ef0d376bcb14d65063ee5cb5ef753e38abb243b21cc55cc4f0"
   },
   {
     "path": "view-samples/document-library-thumbnails/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "91150049fe2ff9716ffeae58950540fe59254b1451ee9c6e7c7753c6076bb90b"
+    "sourceSha256": "6e1f1b52cf6f10f209e6a67288c01254a7b5ff66224ac2b7e84ee5f021e15791"
   },
   {
     "path": "view-samples/elf-progress-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c1e58225f46454ec136f0223b5d59a92d74a149261184bc5d50999ce5c4235db"
+    "sourceSha256": "53d6e3620e776d85a967b143c81a2677e46cf716604ea485734acd7da1ea17cf"
   },
   {
     "path": "view-samples/elf-progress-board/elf-progress-board.json",
     "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/0/children/1/children/0/attributes must NOT have additional properties",
-    "sourceSha256": "5d4fa17118cd914f34cffb1d13e8ab4a78fb85ac7a1dbfbf35d09352545feb18"
+    "sourceSha256": "9af331e7f0a4c1af82cba858590ab4d51c28b05be71738db80153b679d934603"
   },
   {
     "path": "view-samples/emoji-link-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "43fb0c6897b67fb61f61de2f967d82ca598a84d6c3b60422754e6dfb629a7c6f"
+    "sourceSha256": "49332282df3621b35cc9ad109fb3dc2abc1d67aadda08e16e097387a23ee888c"
   },
   {
     "path": "view-samples/emoji-reactions/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "985010eb02ff968b01384dd42916e68fe6e40ffb680252b1ef9bd2e7f9339e39"
+    "sourceSha256": "112e226418e70229f5d8418f3a4bc80164a3ed61981e74e02b71d1e27d22d4bc"
   },
   {
     "path": "view-samples/employee-onboarding-steps/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "eb9a953e18c21d1dfa24c32e2ffe3b8b09d0cfbbf94a43b2534b83a5a43273f2"
+    "sourceSha256": "a409057bd0a7f3ccddf1f701bf0ea11e592babdb477701e43a3d7f041da3a6f8"
   },
   {
     "path": "view-samples/employee-onboarding-steps/employee-onboarding-steps.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "1474c337ca570332b7ce48cd00eb93de51ec615d4df5c27293b60607861972c3"
+    "sourceSha256": "d97def1070649378aa439767fd6c1f24b92669b7cca530f702671a4ec98868c1"
   },
   {
     "path": "view-samples/employee-recognition-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a6736ea4ad37289d6e69e153090d2fc0105052f8ce8b41e03de1aa18a4ab5f62"
+    "sourceSha256": "36d385bf848550845d0f53e85b8caacf507d9241210cef1f707e5e98d0bd7d16"
   },
   {
     "path": "view-samples/event-registration/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "698ea47fbe4e3a37b77d8546807ee6079141e2fe209632c65e5b75ccd0683f6e"
+    "sourceSha256": "c1c31b7e9083d6baf6b56c99a219e4ec0a9731a36530370e65249522c78b86b1"
   },
   {
     "path": "view-samples/event-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "03e710b6025a2f3758f126ac1b6c076be2b1a246be7848252217bf33cf3d2c1f"
+    "sourceSha256": "d4c01f67452ecdd654b0ff8b712a89ca4dd3008fad2a4426d018c35ad5bea309"
   },
   {
     "path": "view-samples/exam-bundle-tracker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7384088bb0b02258205a5f04ae45c07de66bcfd7a0b62609108e3fa17a442b31"
+    "sourceSha256": "e410e4cc6a7b11dbe88e3692febd0c1df9c6f9434635c0160778ac21cfaaf402"
   },
   {
     "path": "view-samples/exam-bundle-tracker/exam-bundle-tracker.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "ed3926ff3618e2b84cdfa48c3e40f97d436d8f8abce6c73f9c014b96f9726cb0"
+    "sourceSha256": "c117f0433f0de0794a96959557590bf5919794f83607bbd519ff91e9b438a970"
   },
   {
     "path": "view-samples/faq-accordion/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "24debaee80bc2c2e40dcb5219f926b183a8678c8abbb230431f7db3f691f88c4"
+    "sourceSha256": "a1f9aaaaaebcefcd356039b5299adfa15fb1e4878f38a8d97e1ffdb6ed7edd47"
   },
   {
     "path": "view-samples/faq-grouped/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e88e72b344fdac5e275208bb13a97cd533bb8391635eb5f92f4f9f71e36cf64d"
+    "sourceSha256": "80c794c9dc36e090e44c4db907c16403fda69d69d8b174f90d678da3ea8623f0"
   },
   {
     "path": "view-samples/faq-grouped/faq-grouped-full-width-answer.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "43085fca5eadbd092122ca81008405f06396b055e1a5282257a4b2f08b2c0b9e"
+    "sourceSha256": "c7a1b0c5be79ade4113be938ad63b7b791a925674d3bca98b954e1874d88ec59"
   },
   {
     "path": "view-samples/faq-grouped/faq-grouped.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "58992c0d5edb2ef8196442b6db4c3a3a9791bc1dae048a89166024b9848b6880"
+    "sourceSha256": "aeb9d5f0d261df5b311110a3e506754709761d5244fe60eecbeb9a078bfe5e72"
   },
   {
     "path": "view-samples/faqs/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "72768f83a628803aefeba16fe603261766f3cf13f37462093e2c97e134c9330d"
+    "sourceSha256": "70101c291364ae3bf3dfb4e2e42e77040b179aa473a6096738623b836351b6dc"
   },
   {
     "path": "view-samples/feedback-sentiment-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c6f70e17674fe00d9587c80760fc3619e645df4ba32dd99cf4da2138b129718a"
+    "sourceSha256": "8ab028543d0e1a15498d9becf47178681a593e6b50f4f1059f927e6651f6d2e7"
   },
   {
     "path": "view-samples/flashcards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bdade5aa623ef7d4f2961b4bd282ee0e9c6225511151e81e012aec48ee6295fa"
+    "sourceSha256": "3e29b6a70926f6779d009fe0fb5aeabff4fd694a1fc044d66afe9c57e12316e5"
   },
   {
     "path": "view-samples/flight-boarding-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "07325fd906f25e47b3721ca2feadad16ee977633b722a5cf55d7e139f486e8ad"
+    "sourceSha256": "b61a830ff805fcd6cd404225175edcedd7e6c1186b0f0128b4097fa7835f3ee4"
   },
   {
     "path": "view-samples/flight-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9c72badad5a660c0c50abd9c960219c07f4235060e24285621766a0053b6a899"
+    "sourceSha256": "283d42cd4fffc1377a6b9fea9be81bbbb553657c7be05ea40595e10ac02ca719"
   },
   {
     "path": "view-samples/flight-card/flight-card.json",
     "message": "Formatting schema: /rowFormatter/children/0/children/1/children/3/children/2 must NOT have additional properties",
-    "sourceSha256": "6dd7d6eb2b51cc844099f48c151bde018a8a790c852e4b9a3955f79c9dd70e9c"
+    "sourceSha256": "e3fc03d13b9d8a7fa60bf04c1e6752440fdf0b263ffd758b095fdad07ff0cdd6"
   },
   {
     "path": "view-samples/funnel-chart-tile/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "514bd6179ac1baba1d6d9a2c0a8bc16e6ba2a733b3c6f7b6eeaa0c4e46eae8fc"
+    "sourceSha256": "fff1f12950887f76e10b4b54cc8f09d576ffd972c4420dbfa5cd9c2632eb0ba1"
   },
   {
     "path": "view-samples/gauge-aggregate-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "84c91addc532fece2d3e2cbc563018348d5db293e61388bd70c142947bd63cd2"
+    "sourceSha256": "2bc2bcb09990c92802fdee4617d644e2744ef02ee37593b12180b2bd7d0edbc9"
   },
   {
     "path": "view-samples/generic-numeric-average-comparison/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c4c0d3cf8750f8dea6c5f0468c63af9b7c5b3708dd2e515e65211b421b9b6928"
+    "sourceSha256": "44ed66ff8df9b5d098a734703cc33fe6b7357b95d8bdb92ea3f523801520829d"
   },
   {
     "path": "view-samples/generic-numeric-card-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b0ba49165f7836295eb7ae680ee2f013cbb39b5d22024f87705dd9e372e435ec"
+    "sourceSha256": "94ec32e6e971d917d79cb295d8144e4f66bb5d8d236f0146a35401138a8eec70"
   },
   {
     "path": "view-samples/get-video-file-embed-code/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "04305d111fae6ecc4338c2a0fbc49638332a7e8b46f6f0e75ed775ab6a7fb5d8"
+    "sourceSha256": "baa60242b084acf06fc83042b8c39a9a80305be30b3f0e619af031dd4ef4c409"
   },
   {
     "path": "view-samples/glossary-dynamicfilter-view/assets/sample.json",
@@ -1667,786 +1667,786 @@
   {
     "path": "view-samples/group-header-color-itemcount/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "70e2d28e82c3c8310f1475d19a4e1feb7d4b21116783c2355e49ffcf0f60d3a5"
+    "sourceSha256": "9cba5160498828d612f38fa97b7813636c2bdbb7a3e9e014d9c8c118f8d517bc"
   },
   {
     "path": "view-samples/group-header-remove-column-name/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "51993349ad49414077004ac1247a82f3034d2d6be4a5ec8dd96bcf68ce3e5573"
+    "sourceSha256": "7fa07ec59c3d263cebf2b505064e99d5bee453ccdf3bd324c0478cd1acf17bbd"
   },
   {
     "path": "view-samples/group-header-status-icon-color/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4cb7aa5b5c88feaaed948cd235b31b7892bbe5ddaaf014f35072a7e76acc0606"
+    "sourceSha256": "27805ab0ffa316874d03a5bc7a98e7696d32c9c0be2258115bf1087b40daeed9"
   },
   {
     "path": "view-samples/group-header-user-picture/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9ddae7444a3cc604a5c07eae189fcb52965fe27995d8fefe79c927699872323d"
+    "sourceSha256": "7bfefff313a2844caac042ae1a687fc3a68cd80fdbb2bbfc30c1b22a6e99d1be"
   },
   {
     "path": "view-samples/group-header-user-properties/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9b4c260766e69ff166953a400e06aa98f09ab595a9c0ab167fa8dd8ffa2af894"
+    "sourceSha256": "dd7648d6f438a0ba99979253c5dc83234ab0e1823f66249393495739d48c46a6"
   },
   {
     "path": "view-samples/grouped-accordion-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "283a6f33e620ab3a12c34c7bb9d91721016d7b6b82a2000746e1502cb31b653d"
+    "sourceSha256": "874e736b94342f08a9b279bf11e7e322c587aea99b6a02568cb721356cd88e4e"
   },
   {
     "path": "view-samples/head-of-bu-overview/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "44601a921e82978e8a51d8277bdbede272eb4c15700dfad74eeb14ba47391d4b"
+    "sourceSha256": "ee48637f01e747781e49e870d7448d7038ad9c2bfdee0eeb5fe4d1bfe6f7d9fc"
   },
   {
     "path": "view-samples/heat-map/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d39988965fdf38858ed63f2e74672c665136857dc2ec2d08aea894f0fa0edabe"
+    "sourceSha256": "7bcf17f329dd3e0adae7c5d1468bf1a308f4b0a664809d70a1d3ed0b9707176b"
   },
   {
     "path": "view-samples/highlight-rows-current-weekday/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bd02f8080c494ef0dcc86acc8b19ef46fdf01cfff73eba77b330c4bd17b94adf"
+    "sourceSha256": "1ff3fc2480aac2d9a6bd651b647c9a834db17ea160d61007c634ffb7f9348660"
   },
   {
     "path": "view-samples/highlight-rows-current-weekday/highlight-rows-current-weekday.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "2d508ce3db99992817b8837874640151dc890a3715e392408e98ffeb36b57b3c"
+    "sourceSha256": "206128659216c4c91c3a5acd1ee62442aeb144ebc3a0b25e1896e024312f977a"
   },
   {
     "path": "view-samples/highlight-selected-item-rows/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9ba0b8d1ff40eb07e1f2ef7b30285a5fc0880645806a6afbc84392fa360ff1bb"
+    "sourceSha256": "2366aff3971dfaa197398ab251b8c4e4b5247c12d3abf3922852eaaac2dd5c16"
   },
   {
     "path": "view-samples/highlight-selected-item-rows/highlight-selected-item-rows.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "2a562860107cf49b0c478646cdb78059cdfb413a5a31f7f18235ad2d75573acb"
+    "sourceSha256": "c2128d26e7899b43748e7c766c1a8800165e2e7bad59c8af2a8ef1bf8a95fc99"
   },
   {
     "path": "view-samples/highlighted-announcements/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bd6cf09c8187b53aab1045971aeaaa1e24df75905ab39bd61cc08c75f97d087e"
+    "sourceSha256": "3891e937447624a518f8bf1cd1def12623fc418c316ba940baea48f8910972b0"
   },
   {
     "path": "view-samples/honeycomb-link/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7563a14515affe25e3987aebf6737e5c71cdcb95af1f256acf0575de0e7a5b92"
+    "sourceSha256": "3f6f04d869f8915212a0da387d09abb70dae2f70436bd0f14cc38ce880685b28"
   },
   {
     "path": "view-samples/horse-crests/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ec07f25dd3e28985f403f71bfadce9022ddee07881f5eb0f92f4a8d7989cbb2a"
+    "sourceSha256": "40c921753997c655593dd14c4c1ca759cccd777a82ef8d88ea9746e71936d655"
   },
   {
     "path": "view-samples/icon-link-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "6c12379acc69e83375a1207f4232a7fe72e52de94df621d3b5614450026a3605"
+    "sourceSha256": "068b315d4f98dfd1646eda28d55bcb72c0142388acf81268cf3db50cc31fc503"
   },
   {
     "path": "view-samples/image-card-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "85ce2a9d9b81a4c23a67eaa8500559ab5454fc0eb17210232297eff381c554ed"
+    "sourceSha256": "5b1f7b3e2d0ff2d2351be95f463c9182cea0b707c810199680d4d713a19cc1d8"
   },
   {
     "path": "view-samples/image-card-tiles/image-card-tiles.json",
     "message": "Formatting schema: /height must match pattern \"^[0-9]+$\"",
-    "sourceSha256": "3c80bd6ef6ec95098132ed2817452d39405722d41135af59febd94020bc4a5fd"
+    "sourceSha256": "c5303693016ab142794bd380895dcd457e63bcb67e1457ad70019df9539fae1c"
   },
   {
     "path": "view-samples/image-grid/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "72c0a7aaae8e2c40bcb22e259e14bbc43c3bfad54cb770a386323deb34ea5619"
+    "sourceSha256": "2d2b4b0f795c98b121747fc82a7da31a1ba8824ea3f394c1c939f3882cb0e61a"
   },
   {
     "path": "view-samples/image-overlay-buttons/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a3b105180ca8255ec66df401f6161ddd68ee82a06d6e5cc5a877d5a7a8006258"
+    "sourceSha256": "c7faf3ec26a12a916c5a0f95fd636e830ad3aa987be8188f9c373a453afb2913"
   },
   {
     "path": "view-samples/image-slider/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c924736d56cc7f89bcb175b6096b33c5aa5282ee9126dc211f8e7f224349a53f"
+    "sourceSha256": "856c2ae745527ec31e6957edae65551edf5bf11c49afa84a65a28f2cc3de98c0"
   },
   {
     "path": "view-samples/imdb-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b4e16f6096589d07f00ccaa094f2a44cee144bcec63e122572655710207b91db"
+    "sourceSha256": "413ef20dc3e46a66ad873b1e5dd2961956e4f9c21498c23f386f76a3d87ea37f"
   },
   {
     "path": "view-samples/in-memoriam-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5f621ab1a33410e11e98fcb1c3c5e7ca82048a2e7bdd5fa5f4b2e2c486507d01"
+    "sourceSha256": "1d0b27fed296ca7ef723eaa7c2452b7e54cdd2b8433f3bcb006b238c5998cae2"
   },
   {
     "path": "view-samples/interactive-content-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "40f0e564dab6d1fbfd1d2ece0026e2e9f08a82378f9164604f61af715e952b0b"
+    "sourceSha256": "aceab53649a7ce013ac695a8f5784c7205862f63420554c8a7afa40768f2b252"
   },
   {
     "path": "view-samples/internal-cv/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ef373c493fe750f3e40c2561d1934fcd3378ded63c506e78cbcc9743944383ab"
+    "sourceSha256": "0f9e275ccaf90344e5c007c2eec423cbd73a9ec0b6151e7fb878bc9f4c137ecc"
   },
   {
     "path": "view-samples/internal-cv/internal-cv.json",
     "message": "Formatting schema: /formatter/children/2/children/2/children/8/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "fa31bda3b0c6a5a61c257af680fcc01fab7b7f984301f2344a6acdefcaeb564a"
+    "sourceSha256": "6258167a84f3da6f41ec8bbee5498d9ea8a09aa004fe57cbd6b6ff00bf6242a3"
   },
   {
     "path": "view-samples/issue-tracker-planner-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c6d04927698ece6cf33ef71e11f6316c9d50391c7a9e787660c8bdf823bfeefd"
+    "sourceSha256": "d96a771f938a48cd95c0fe5fc21a92174e098ead82c66f11424e6278d93e2f97"
   },
   {
     "path": "view-samples/issue-tracker-planner-cards/issue-tracker-planner-cards.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "e9101c03ca66f7d97efb21f615d8bfa4e0232431ad971b15ca4e99f651e683af"
+    "sourceSha256": "ab115129621d604bf782e246f576a211f90d75c13ececa2c54757c61fa729407"
   },
   {
     "path": "view-samples/key-dates-timeline/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4bf5b9f1db08e2853ac93138065c11d23e0ac442cd30e197b86739781836401e"
+    "sourceSha256": "dde5fb7403e0e3ff62593e9d215b0902cfeccebbc5c72c4b6d99b18c4b4a7634"
   },
   {
     "path": "view-samples/key-dates-timeline-checklist/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b3efcb265ab1ac33fb955f6d773318ee6d0571ab85633af7be4e48717a00c9d1"
+    "sourceSha256": "f7c1623307338dfb138f9a1877227e204dd1e08a95f19e40c83e6b2ea09957bf"
   },
   {
     "path": "view-samples/likes-count-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7a738dea9fd6cba9e52b26e9a86a4bc51794c6fd8e63f08b54b7bb18f22533a5"
+    "sourceSha256": "54f47f2b0dc8d04ea081fa9ee933e6fa5c80c5d8497608171bcde5ce58e3cc85"
   },
   {
     "path": "view-samples/likes-count-rowclass/likes-count-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "df920456cbf51b6b4c42f9fd53fd2705288a497583d957ccf0e3ab456cc9ddbd"
+    "sourceSha256": "fd62b190c821e68f309c2557352b8724b9ee0f9b0bb1c50b78535186a97a74f3"
   },
   {
     "path": "view-samples/linkinbio/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ea70a8e27e8bf75ce3d04fb6a860deeca2018ffcd5640f410e8e64d88bca8318"
+    "sourceSha256": "742cbc17398c93929459a222a0ff11f475289d50b229c59b26a6f71bba90e4ec"
   },
   {
     "path": "view-samples/linkinbio-instagram/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "54e0b8cc5a2d0e90663dbcd5462902b5f99a76085d40ae3e12d421c858a6023b"
+    "sourceSha256": "d817b8168c071231c02bcd18a8d33c7c7060be2c712d5a68cc08ba039f4fece0"
   },
   {
     "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
     "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must be object",
-    "sourceSha256": "56a58fe9aa71b2923aca65ccba0fc43d078388c69a147a0f0999694f15b77646"
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
   },
   {
     "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
     "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
-    "sourceSha256": "56a58fe9aa71b2923aca65ccba0fc43d078388c69a147a0f0999694f15b77646"
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
   },
   {
     "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
     "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must match a schema in anyOf",
-    "sourceSha256": "56a58fe9aa71b2923aca65ccba0fc43d078388c69a147a0f0999694f15b77646"
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
   },
   {
     "path": "view-samples/london-tube-status/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c96e150eff07bc2f7485255e31866c7a1a7e7a54714539dd6ffce9aec7400d27"
+    "sourceSha256": "05f8482da10da0ec5b57fcbce95e2c5a9fc66a58cc2ab9974ec1f3579fc2c8f4"
   },
   {
     "path": "view-samples/match-score-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e640748c90655e2276d145b7f23d7dc88456f956dccf4a59b4b3b8ac2c698de9"
+    "sourceSha256": "406cf3992e7577e6ba2f8aa68c97ed46b8e62a99c043e04fc6878edb705fc682"
   },
   {
     "path": "view-samples/menu-link-button/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f620bf03693b76080d7f7b75066fc9adfa14ce2ccbaba239d741bd7c327fcd2f"
+    "sourceSha256": "ebe7439aa17e40b255756a01e22b089c3171283a84aa5eeb40ecc80483709cfd"
   },
   {
     "path": "view-samples/menu-link-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "063570f17d395d30ecd548766fb38f8956d7bc6c550a31785d9b7133cf56bf64"
+    "sourceSha256": "e3b6c9655eadaebbfa2a55bdf66aed525520c13b7d29aafba0a2c0faf3c53186"
   },
   {
     "path": "view-samples/menu-style-list/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b9e6759d510752bbf17366cfa09f693a825878e5a62a61032011709b936183b1"
+    "sourceSha256": "d7f4f8d7cd227e12ba7977ff90b4bcb224d13bd94f8255220522ef49ab1f3ab0"
   },
   {
     "path": "view-samples/message-chat-bubbles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3856a6cc82aa0ee4492ef2b9bf4db61fdb9f7d4b1c3e261cc601ed0c1c9fd74f"
+    "sourceSha256": "35311bc5583f82408fb77ad7d250b637a79e264b4290c7db5f297eafc60c01c3"
   },
   {
     "path": "view-samples/modern-event-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "53bb6f1c1f1ad3a8ebc912e3fd676e8be209e939215533d078a57a6e7413007b"
+    "sourceSha256": "b00b1b136d70002beab179505f82d42883c8d300b022ae059bc78108264de3d1"
   },
   {
     "path": "view-samples/movie-ticket-stub/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4d6fb2f156deb2b67a4d381264857d3e1335564dad38efed99dcbfdec789b35f"
+    "sourceSha256": "6726891ed50fabfda7810ae66e12e5bc6a24f16265e39d1f4d74b15d19797f95"
   },
   {
     "path": "view-samples/multi-choice-links/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b784c1c81a586d51ae8de6c8bc5a7903c1bd472fa89e37ebda7c65883f88f39f"
+    "sourceSha256": "d3ee92ef62b7f3d8bfb715be426d0168c08f46c0fb5bed149cea097d02ee8af2"
   },
   {
     "path": "view-samples/multi-line-view/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d6919aa6cad3205ba8681784037176d2504eb119be34bef143ac44591cd7729d"
+    "sourceSha256": "9b9e16230bf518459545ca1b57521b368458753f995971b014e1fb248d170317"
   },
   {
     "path": "view-samples/multi-person-currentuser-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "bca45da455499e4d33014916087a0621c966443a4bcf642c020610b9fa0fbd93"
+    "sourceSha256": "86f82c0d9b115d3e5a8b95a6ae8cab0454ed581c50cda46edbe38d258ed19ac6"
   },
   {
     "path": "view-samples/multi-person-currentuser-rowclass/multi-person-currentuser-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "5f946220e713b30cbf11350782386f2f441bc94985b708009670b058b6ac706e"
+    "sourceSha256": "8e3e8fdb67029f7a28083d2da3a37ce868cb31474a1b756cbf7d87595e1d46ce"
   },
   {
     "path": "view-samples/multi-person-displays/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3cb946b30c954ee4f8d3f114586af20f4cd0bcd71fe469ab725427114e71c17c"
+    "sourceSha256": "26f6ef87ac180449a6201e4f035689adee22c71d5e2f86127ee4bd30d96e15b6"
   },
   {
     "path": "view-samples/multilingual-quotes/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "60f4223b9ec84a6450bc50e2a7bc2f08b48eb59828a1b1d3f1dc45be630264b1"
+    "sourceSha256": "4d75776369b35c99f3f4fdcf2764e504f11d46585250e93fcbe5cfd091dba1a6"
   },
   {
     "path": "view-samples/numbered-list-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7c1df1d551901856d736a1729832e7bf4fc08b5f264ce330ed6bf3e194724f3c"
+    "sourceSha256": "5680a5eb9259b06d4b0d1638000df2d855b3b27f48b2d8751efc632aeefe15d4"
   },
   {
     "path": "view-samples/out-of-office/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d75546a3820e1556a01f9179617d5d9d41666dca9f4dcda1c6d5826bdf39b405"
+    "sourceSha256": "977a4015a844259dfa52f565ba361caf607db0228963333e95c1610bddeaedb4"
   },
   {
     "path": "view-samples/overdue-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "907b43c151fdcc3f44e441750138873506f15000880863a0dfe14265e8f2053b"
+    "sourceSha256": "f55faac3f79ae3ce519dfcb89ac8bb5ccfbdb3ee8103e9a974f6306c9820f750"
   },
   {
     "path": "view-samples/overdue-rowclass/overdue-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "0f5fb5089ccfa39f9acde292adf6d602f41b2fc985f6a368936019adcb680b26"
+    "sourceSha256": "784810f4aebe73624e5a24545d77a5049dc3ed5622cbe34dd4573e500ec90df2"
   },
   {
     "path": "view-samples/payments/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dbdab65faafe376a839a269dbd8f683297497d3bd7e7320e417ef61b42d657be"
+    "sourceSha256": "70e36a496bdd6767f67dd3abd94f4eaecc87746232e2fcd8ed30bef64b1016f9"
   },
   {
     "path": "view-samples/percent-chart-format/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "49aa52a29c83775934c37e4efecdfe642d7efa35ccf8dfc7869e5faddc104a73"
+    "sourceSha256": "7cd087ceab35c1722f21b5714e2d3c3f512801550dbcee5b6eb5759936a0cf05"
   },
   {
     "path": "view-samples/person-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "339af1fbfa06770142449dc79cd1e4ea1f7469f84280878164888999ca36cd05"
+    "sourceSha256": "1b99ad082468c83d0e9ec51593cf3d3df5a4b6ef4f63f5aca45e2acc4c9abf3c"
   },
   {
     "path": "view-samples/person-currentuser-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "05c049a303d215993ad12a6783af992722d2c7964a89c0a66ed9c9ec1a582b7f"
+    "sourceSha256": "db1f385e1a1ff3aeb4ec319b52e27a5bdb26de07d7a7b1bce6b30fa2f314610d"
   },
   {
     "path": "view-samples/person-currentuser-rowclass/person-currentuser-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "a7a416a25de2855168dcb48afeebc0e1bd843365321a8c057ad8e4ad7c8d9e9c"
+    "sourceSha256": "ef3f340741dfd280bab25a764d3a6b9c641faaa8dd86a366721c49333577afb3"
   },
   {
     "path": "view-samples/person-quote-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c1aa92f8708a5a1fe21929663c4a56f6eb235dc67944641abad54118d8cb86ed"
+    "sourceSha256": "655c61f00bd7e8334cb9d77cd65fda8f5b696108f47ae313947213ba3d1a3338"
   },
   {
     "path": "view-samples/photo-gallery-description-link-like/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e5794f6f02b36efc13e20fb811d6356b6e0755ec6f95670951f1a48b2713e05d"
+    "sourceSha256": "03489418419c0dc8d8e2bf69c1b0e38cc5b62e56c9bb025904e6af81addb5d50"
   },
   {
     "path": "view-samples/photo-gallery-with-likes/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0f39d376c124e771ba37d6859fc35ec3f9a9e8f7dc7e1ea2ed61f3ff113a5724"
+    "sourceSha256": "a3c4abbad3fe660f61bb5a6027b5bf1286f8b062a67d2f8ea6e57ee419ce9f19"
   },
   {
     "path": "view-samples/piano/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "62cef23457ee51d5ccbd13bfd8b5acef6cfe737051f62cf4b648f4831e331e84"
+    "sourceSha256": "704b20302b9f73564883bc77c6215a6733633db9b36ec8d1393aca867d6d4dcd"
   },
   {
     "path": "view-samples/picture-link-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "cb58803738b2a02e9f5031a9cc6ed1c3540b272496168c0715139c0c7b254334"
+    "sourceSha256": "c5ea11c28f9ecebc7ac9acaed3f626807583d19b2e59e69ca0efda0fd0c23c28"
   },
   {
     "path": "view-samples/picture-link-tiles-collapsible/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e1bb7de97c6a5bf4dea2af2012f154662744855bf82584d2eeb3a7755c9103ea"
+    "sourceSha256": "34371a3f4cce4c2a1689648934bd6970b6bf6be28a5462204bb148e741fe5d61"
   },
   {
     "path": "view-samples/picture-link-tiles-collapsible/picture-link-tiles-collapsible.json",
     "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
-    "sourceSha256": "f65556aeef72e7a853ed07d8543f1ddb93ab4c5d117f0b88f32ad3db9a16b77e"
+    "sourceSha256": "58586c8174cabf07f21c5c3d652bc4b79e87e3dc7cf9d72bf925889360410393"
   },
   {
     "path": "view-samples/picture-link-tiles-doc-lib/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b564ffdf428b6523c0d87f24df952bf893bb34d6773cfa69ca611fd5cffab030"
+    "sourceSha256": "03f6e11cf8491da5facf8ea3eef8d1b11b26176e83e4b8af4691c605dd33a6e7"
   },
   {
     "path": "view-samples/picture-quick-links/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dce2e2faf5c4138f13c14fe94c5b551ffd2b83b99b9c62d9465369b0edf76c73"
+    "sourceSha256": "98259b6d9a94a717dbbb60c4e2254ebd6c10f90e24768b4c5c88693760c4c49e"
   },
   {
     "path": "view-samples/planner-inspired-task-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2d09cec9161732cdff8ab3dbca52ebc4a895849c2a22b3f556e5dbd791dace3d"
+    "sourceSha256": "98180625ad9e7293937ec34154665f62db9778d3ea7bc91053c84f77479f2e6e"
   },
   {
     "path": "view-samples/praise-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "857ef0d5bd02e3996dc65641f6ed5893001bff567ebb63db86484d6b6711212b"
+    "sourceSha256": "ac401d224a30763ab899681d6d202367cf9307c54b9459953b316d3540d3933e"
   },
   {
     "path": "view-samples/pricing-table/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "06e8c90f80d91ef38a77d75d7fd940a1c2cf70b30453c69d4c50caa1027522e6"
+    "sourceSha256": "7a02b3cecc3b8c496409795469586ed6144e6b5e763e092b2217a5c7210afbc2"
   },
   {
     "path": "view-samples/pricing-table/pricing-table.json",
     "message": "Formatting schema: /formatter/children/0/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "4af218bde2365bfe78dc520d9ffbd93ac6221a49528894ffa7521c8c8b916934"
+    "sourceSha256": "ba8bbde436837468e14bba916a06f0c496c9740c5882d215ed6eb3ca6f83f34d"
   },
   {
     "path": "view-samples/product-catalog/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "17ac4c45898fa286b6fa5b7a2bc2db9b7a2fbdbef8b4f446f4c59f8ae8e07d3e"
+    "sourceSha256": "8a315e7e4239756013aff80cd1bb859c7e01b82d218af83eb516ae0c41ab25e4"
   },
   {
     "path": "view-samples/product-gallery/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ee2684edbd2ed3067e02178cb5a7a37c07e034ba0fd1431324ff3d5a1c572778"
+    "sourceSha256": "b944068091f344c58f1d05eebdcf7f096a2e8507a78df08480df38a0c9e04c47"
   },
   {
     "path": "view-samples/profile-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5c1db11047935006c46fcfb40797d4807486b9ac3e14eedb1453381987236597"
+    "sourceSha256": "a54213b4740ea62f58c023ae397cf9334ddebbbfe25431d0f20e991d5715430d"
   },
   {
     "path": "view-samples/project-gantt-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4990a2ccfb64869ba64ce6a5f9dd05e74d1310be55e8ec796aea9186a8ca74f8"
+    "sourceSha256": "11b952969e13c9e4c2f7778011cb1dc927ffa82ea4e993382d744f52197f72c6"
   },
   {
     "path": "view-samples/project-health-dashboard/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d541f7705aeeb8696c73274c07a418c61ba9a39bd4f3e32a6f0bf401852e5302"
+    "sourceSha256": "d561f8fbae798f39ef076b91407f600fdcf18d67edf0d95e71bced732df2d5c5"
   },
   {
     "path": "view-samples/prompt-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "42be7e6a1a60d3ee1d24ab08616acd4f5a3515a4629af84cf912d7607342a6ce"
+    "sourceSha256": "a3e7343d0bce9bf8250b1d009aa72cce516dc690a2a365735b193fa4b2afe1f9"
   },
   {
     "path": "view-samples/property-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "43ce65650df1f4d8b0826a3c091cd15c1f5cde4eb54f29a6333137f6503ad5b5"
+    "sourceSha256": "e95798089d82773cc2ad9e8eba53597def56939e855338917322906a347d3073"
   },
   {
     "path": "view-samples/qr-code/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2ebb91d527c9a061a79816d78ddd802d8cd4a26caa1ac561d9bad8e407df436b"
+    "sourceSha256": "d621c67f4d08b4a3da24bfa39a9db431a7d5fa69f6ea59df3c693c1736838edb"
   },
   {
     "path": "view-samples/qr-code-tile/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d2b521fe6ac5055afaa2acf92d59bd23ae981691eae97a28832f0d7bc66b881b"
+    "sourceSha256": "a25b6d2f3cb3659f139ae5dbcf19b09176601e4d85823c03a900fbbd1cddd743"
   },
   {
     "path": "view-samples/quiz/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "14d3d0ef491dd7d5a45b391b38be4cab6ef16dadfcc39eba10b502fdee868a13"
+    "sourceSha256": "9452545723936e50c40c9d8d99632c49fdf0aeb6787d42d7535df5b270727f93"
   },
   {
     "path": "view-samples/random-item/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d4c60b8f6ed7799ffdb082d02ead487070312f2c0b14fdeb4bcc61190bf1f009"
+    "sourceSha256": "4c6d9ad8385402a226a7f0df24bbf9ed83a01b7cf8943aaa32cbe7b91df5d91b"
   },
   {
     "path": "view-samples/rating-in-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2aee2f611b7ee3ae3bef44a9592f45d7d228028eaa240a8e90b9bb8f125c7808"
+    "sourceSha256": "684d68bff4184f2447abefd6449f9b28d0f71170233840108faf22efe723a90b"
   },
   {
     "path": "view-samples/rating-in-tiles/rating-in-tiles.json",
     "message": "Formatting schema: /formatter/children/1/children/0/children/0/children/0/children/1/children/0/attributes must NOT have additional properties",
-    "sourceSha256": "939cc729daf035cc23ea3fc52108ad020dc1fe1de5bcc337d8cbdfdb75593b45"
+    "sourceSha256": "96b16b6aab9bd7e3044f6df3225348dc4443472c9dae2496cdd5748f3889fe33"
   },
   {
     "path": "view-samples/recent-comments/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "265eb6c6405f62f06f12d3293d29dc25ca930f9d121d146f501e3a08c4cc1085"
+    "sourceSha256": "8cfee70e129ae539819c5ee4300230732e6493191e7902176a4454c130361405"
   },
   {
     "path": "view-samples/reorder-expand-board-items/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0e8146cccd28ab151dc43e66c3bdf73cf40a60b8d6266cae3ec628d63ea48d47"
+    "sourceSha256": "6b75cca48e5a1db94850ccec3e3cb698f11839a8bc79326581e6471643e9d6c7"
   },
   {
     "path": "view-samples/request-sign-off/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "700361af2d0a7e898141f37de0b5d9518f6224cb9773fe492f5188427e67aa94"
+    "sourceSha256": "b1566937d354d652490e63d6354e785ce949967db1a4459417b2ebeb813da83b"
   },
   {
     "path": "view-samples/resource-catalog/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "d827ab6017c30f2de24108e4852d90740bc0cd76cb9bb72fb40385f09f72f385"
+    "sourceSha256": "042fa005fb7741bde44b90486352a1d30b375368aef310ecb8dc72a53d1fc8b0"
   },
   {
     "path": "view-samples/responsive-people-profile-cards/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c8987d96290c0676fdb0b658a8b69d64fec469f7b1ede500eb0290734d9de126"
+    "sourceSha256": "463fdf79764da887c88b4f9ce8331c1eeabf56d1bd5f458d52c1d20a327fd3d4"
   },
   {
     "path": "view-samples/retail-accounts/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "34f949c3bc183c43e4ae5b321c0e537f504a6a01fa986c3fb4d572ec09fbe333"
+    "sourceSha256": "cb60a73762e64eaf41f8bb23fa5669a3aa14a4204a662cdc3df6158bbe53de9c"
   },
   {
     "path": "view-samples/risk-score-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2efa7f3a6080b3ef818322c1b8e5169f048a4c0c5a0b9d53ee45020281dc9053"
+    "sourceSha256": "347b7bbef0e68570471fe61af7f5de2859aa5f7baf3ba6762ebc9c385e566eb7"
   },
   {
     "path": "view-samples/risk-score-rowclass/risk-score-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "f4316a11e2b3013054c5e154c98ba88714da75eb862c00a492e159a21529810c"
+    "sourceSha256": "59c5284a5ada55782bb4ac3895e7699f36188b6784761095a2136391392e2fdd"
   },
   {
     "path": "view-samples/roll-dice/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "46abe75e983e2bf860b4fa0872aa10bb30185347492629684c955f2811e2192e"
+    "sourceSha256": "22f9d9405cf9ab6cf327d66c5118cc1698c65ea14a74910a5de44243dd4d5bdd"
   },
   {
     "path": "view-samples/rota-css-table/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f7e2cfe44a7166b753d9b198b82ce667077b71cece014559012276283148dd23"
+    "sourceSha256": "f23afd1f578263aedbced405beaf5cd651231c349348e8a866c5d178ca6666cd"
   },
   {
     "path": "view-samples/ryg-status-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "24c1080c2783074e699cbf8edcba3f315de2b8a2c52f3d5e25db9e05515dd4b9"
+    "sourceSha256": "6b5006e0d471774205a9f3a0376637642a432bd92177718c9ff7ef325e68a4e3"
   },
   {
     "path": "view-samples/ryg-status-rowclass/ryg-status-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "806b6a4b5a80fcf082f00d599fb3270ac9310bac655b78ed14811a6881cf4ba5"
+    "sourceSha256": "0ef4de68dff24f31c646d64b9b19bb08e7480b51ec18cec89ab14b5a4a2c0685"
   },
   {
     "path": "view-samples/search-page-link-tiles/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "68d84cb21ab97a3eee321e24937689c877ba5b1bde3cbac817784f5d889287da"
+    "sourceSha256": "1e0075edf02cccbfde668773fd150222adcecc0e7f6c3c7e64231f40a3828009"
   },
   {
     "path": "view-samples/search-within-tags/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "71feb0c843f35acf7ed249592e234f982dea9937896770f9274e082a6fd5d1e3"
+    "sourceSha256": "af291bb4beb2a48a84c41a7f6c989cdc96095e2c2dcccc57df12210885c6c78c"
   },
   {
     "path": "view-samples/shopping-cart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "3645f3fbd76a8dcce812d3c8583c968b6aa7371a19d051fd2499c1bdfbd059db"
+    "sourceSha256": "777808ae7f23bdfc1dc26579ec7df3344194af9beae308a10957bc63c0260691"
   },
   {
     "path": "view-samples/speed-dial/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "357d0bdec4d6dad933f3dae7d7997d129c37efdb6d291ba1dd763a80fda6f0dd"
+    "sourceSha256": "3c801516a86b9b57a49c51c826bcd6808a405876dfd4875382e33d1e4cc6a5df"
   },
   {
     "path": "view-samples/sports-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2f3e49806a7a17a01469f1d1d8ca055af2dfcb5cdb9825ca93c14c1323a1605a"
+    "sourceSha256": "520750e0b18e6e5476755e026a901136f768cbb6c3562df92aefe68b30e1b721"
   },
   {
     "path": "view-samples/spotify-now-playing/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8210bf7c58d42af0a93b9ee87ccf3c3cc1d5c46cc7074895c92994cfd0840bde"
+    "sourceSha256": "ab3ba89bca80706a1bc032193f1963daefc5798b52e0d6dd9cb8d88972babf38"
   },
   {
     "path": "view-samples/spotify-now-playing/spotify-now-playing.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/0/attributes must NOT have additional properties",
-    "sourceSha256": "a65e523629cf4b150665e443727ca64d5f076511db98beb5f6abd66f52df7948"
+    "sourceSha256": "bc572be5c9ba0581515c8758eca7f73162e7758a1277a2032c7a8948ef97d98c"
   },
   {
     "path": "view-samples/stat-comparison-chart/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b5d656a193c87a09f45918a4e00a60b924bd99849b8110066c132b11539247b8"
+    "sourceSha256": "8f8fdaf4e2a81ebad0c747b01fd0a80be01d3c975fafd79e7449ff3a1c26eca9"
   },
   {
     "path": "view-samples/status-blocks/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1538599b3f5ea3693630a6fb86d87c3e593cd3fbcd7abab3c552412ed793f329"
+    "sourceSha256": "ec9bca371ef66a4f92b11a5f28e2dd82cf3df1465fe831f81e59d9efab8acab0"
   },
   {
     "path": "view-samples/status-rowclass/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5a7e783ac4cc68dad95f748961c8aa44adbe8bae1cbc1204d4db11efb752b3a1"
+    "sourceSha256": "32ed8accb5fc0612ec17c246e734abb68b7344900507b817ed80d28540426c34"
   },
   {
     "path": "view-samples/status-rowclass/status-rowclass.json",
     "message": "Formatting schema: /additionalRowClass must be object",
-    "sourceSha256": "094223da6fc04ab1497fe2eaf28632df5769161ff1de7e00197277bd9710bff8"
+    "sourceSha256": "6cbe48c9e01c78f44afb21fbde5cbad151838a4674bc7ef7323ac545a31a0037"
   },
   {
     "path": "view-samples/sticky-notes-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "0ab69a8eeb4716eb681c7de905161fe4d0f4612d4ee43709bebb7090aeb90a0e"
+    "sourceSha256": "2c4ff4749b3b47d78b9972533103e5a4a5739f5e67ca0807028ae221caf2ef4f"
   },
   {
     "path": "view-samples/sticky-title-feedback-card/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "4b33bab0d35d9e2771ff6a71e9d7d0f42bd0a078d3880b16e1a0c52b5ab71fee"
+    "sourceSha256": "8a6e3a6d97a3aed7676118126086f062831d84b94527fee1b1be906090994b89"
   },
   {
     "path": "view-samples/student-class-learning-tracker/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "ce7ab0687f187e12bf95c876a633565feeaf7a9815bf32303d781f62ec8875d5"
+    "sourceSha256": "86c320a71c51eaeaa4d97e87cc61ce1c4352a16b95101ce3c51785bb2133307e"
   },
   {
     "path": "view-samples/tabs/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "36db77886bace306db2858c5857b683938f00a70f6dfff2ea73fec98a4f5de19"
+    "sourceSha256": "5dfce255c03cc7160de75ac9e9cc75878b0cad39490d3c5d2d23aed3e0054065"
   },
   {
     "path": "view-samples/team-poll/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "24015f7246a92bc4f8ccf3a8d77e2a534579ca1ef1741fd82bbbf15e06224e0a"
+    "sourceSha256": "fb022a889e362eb8b54aa5e7760fef20dcf64f81eb804d6284e35865d2f96a17"
   },
   {
     "path": "view-samples/team-poll/team-poll-configuration.json",
     "message": "Formatting schema: /rowFormatter/children/0/children/0 must NOT have additional properties",
-    "sourceSha256": "d7a0f375a950f21bb02c7548d7586df5f89cd76c7bb5daaaed104903f398945d"
+    "sourceSha256": "2e02efc323359d102fc95f7de2e2d4d0dbc9b631967524bc2f34dd44884e8e54"
   },
   {
     "path": "view-samples/team-poll/team-poll-response.json",
     "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
-    "sourceSha256": "e5fc60eabd866eea450fe5bb67f302e69e6a5922b2b661e5a21cc2a17ce51558"
+    "sourceSha256": "bba76593d430b186e9bbc9d51d530a3b311b73be49cc0974ab18bb8f8d7a0356"
   },
   {
     "path": "view-samples/teams-group-chat-links/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "27a29b47b16130cdc0e7c9ff0ecd343eb7c6492b30274faddda42cb1be8b1e4f"
+    "sourceSha256": "263c445517be40acb9048e325e4027d0da67ae1e6a08218bd5da989bc4503ebc"
   },
   {
     "path": "view-samples/testimonials/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e79617cfd013e9823a62d9f4d2e0d12300631fa9a055bd51d439dba5a33a07e5"
+    "sourceSha256": "329479d9addf8b3c91517e06f0fe1691e7626b8d017d54f69efb975cc4034948"
   },
   {
     "path": "view-samples/tic-tac-toe/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "1bbbd31bdb2641783144bc5b0370fa0dd619a470cc3f0272dd8731b4b427b5a5"
+    "sourceSha256": "c8de9d446f299e54adbcd0ad2747f708296dc9c2f72efe580e01924529418e8e"
   },
   {
     "path": "view-samples/timeline/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "30c6de3773a440353a080b2996134560c633407c78f91252558b758d51f8e363"
+    "sourceSha256": "298499ddd77ea3e15b6cc2610bd42602d49a87a693d02e7df90050ad57f46d4a"
   },
   {
     "path": "view-samples/timeline-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fd1492b6518bfd3a981d61d4196781c964c0a537c51a8b5f91a3fba335d40d4a"
+    "sourceSha256": "ef01b57e80499cef11dbf77dbf80871a0f3213a65a5d9cfa493978ba93d537a9"
   },
   {
     "path": "view-samples/to-do/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9243216658476151ba4a83105610c7887ffec7b524381af1abca8b4788468f2c"
+    "sourceSha256": "8515a2d70e5acd9a606ee6407674b993adab02aa340da7cf19db9dac9057c682"
   },
   {
     "path": "view-samples/travel-requests/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "7c6a7c3acd37de8abac86b031c9f241b9eb8fdbd23c7b500145a07dcb3c706ef"
+    "sourceSha256": "7430afa9fe590135ff0dc1b8ef8a12c345e4373010b4a4684f4f49b397731857"
   },
   {
     "path": "view-samples/travel-requests/travel-requests.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must be object",
-    "sourceSha256": "9f60cfd8c812a8c57786d3010743e3e18446786249388f7b34de2dd0c8ce492b"
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
   },
   {
     "path": "view-samples/travel-requests/travel-requests.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must be string",
-    "sourceSha256": "9f60cfd8c812a8c57786d3010743e3e18446786249388f7b34de2dd0c8ce492b"
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
   },
   {
     "path": "view-samples/travel-requests/travel-requests.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must match a schema in anyOf",
-    "sourceSha256": "9f60cfd8c812a8c57786d3010743e3e18446786249388f7b34de2dd0c8ce492b"
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
   },
   {
     "path": "view-samples/travel-requests/travel-requests.json",
     "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction must match a schema in anyOf",
-    "sourceSha256": "9f60cfd8c812a8c57786d3010743e3e18446786249388f7b34de2dd0c8ce492b"
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
   },
   {
     "path": "view-samples/travel-tweets-board/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "f397a74464e1264bb7907e5aa5fab15ee38b09d086f5d5d746b94ceba513347f"
+    "sourceSha256": "aee77652f088ee3d8b58f1645d4503a71dfded95e7b4f77684d808ba8efe625a"
   },
   {
     "path": "view-samples/twitter-timeline/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fa81e2fa1e79d7f2f24969c05cc488618b4f3dec636bdbb8b64daa1ff923b5b1"
+    "sourceSha256": "b31dd028e3ecd62fff9d6ec398a99c9ef6d7ac09bc58e75e56ae9db701bcab21"
   },
   {
     "path": "view-samples/vertical-mega-menu/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "c51ea64de1cb40767b4c3d8dbba90910ae3e49720673607dc8ef67efa4497665"
+    "sourceSha256": "7806b4bb4b220c857fdac5dee92979c64465547bf5a9336b51480ac1ddd0d589"
   },
   {
     "path": "view-samples/vertical-mega-menu/vertical-mega-menu.json",
     "message": "Formatting schema: /rowFormatter/customCardProps/formatter/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
-    "sourceSha256": "1cdfff99173817fea4fbb50e727664505b755953ea6238735c61268137873eb5"
+    "sourceSha256": "910d945fb4da29adc7f32751a2aaa2520db172af993e18a7c4d2dae0ea925762"
   },
   {
     "path": "view-samples/video-gallery/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b476186452bf56f0386cf0a9f6aeec9f143d71140f03d9e124a9cb0bdbbb381d"
+    "sourceSha256": "d82a5695710c709bc89f49fc4ccb4599c66e5c178003d5a4e49169d5a63958cf"
   },
   {
     "path": "view-samples/video-navigator/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "070dcaa4b6937c23681c2aaa81608c29d248d45f2275d4aebf553291cdd9540e"
+    "sourceSha256": "17df223968f7183987ee6ea4a5d933babff88f2bd75efdf79cda18d01a6601eb"
   },
   {
     "path": "view-samples/vinyl-record/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "349b515f23fad61d5d06a556e1a6396ca7f0a06dcda2554a623d245b70459e09"
+    "sourceSha256": "d03c9eec2c30a25ceffc0776d50221a7a33074b248e6c787b686b7c8e7121033"
   },
   {
     "path": "view-samples/weather-forecast/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "32c03e1ba14ff8fc484b74bc2f6e5f10fce438cadb9a745107453792b9ac9fa7"
+    "sourceSha256": "4927105c2253cb4b727c4200a92b089fb2463ec98ea26b7aa1f32f494b369f00"
   },
   {
     "path": "view-samples/weekly-heatmap/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9ed168f0a0d5f39fea694e64dfde0f2d20063c9e81ac49cbd5ad43aa811695c4"
+    "sourceSha256": "46c99c8e346ff47986c1ca0a95b86a68e39ae50914225c93ce550c183e7a2eda"
   },
   {
     "path": "view-samples/whiteboard-sticky-notes/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "109b797e5d7c1a285e6bd888197799e9033f3e0eda7e2a2bbe7795b3c81359d2"
+    "sourceSha256": "6de56c6d202741cde8533cd249f4fae617b0e90cada76ade1c028b6746ec407f"
   },
   {
     "path": "view-samples/wordle/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "61fa8489327079e1e31ac4d9c5c1223aab8450fbc97998873e508174cd4880c2"
+    "sourceSha256": "4ba93d112483d0d36a36da0133022b7d56b541230d8fc69c940e486416467d9e"
   },
   {
     "path": "form-samples/blank-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a737de8a1175aa79e901227bab5b001f4bbbf9069af67127ddfce6f553fe1eb0"
+    "sourceSha256": "c1c78c11eb75da48a121d635a150c08ebb2c9b564ab9c7ccaa1901f4713676db"
   },
   {
     "path": "form-samples/countdown-timer-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "5bf33817b24cd04384fc4aab988faf025acc4349c288aedde5568d1ad8fed684"
+    "sourceSha256": "2c7ed9513d8291054ed566d372bc6056f9bdfcda81f80fe8f29ba6a2883a7a5c"
   },
   {
     "path": "form-samples/created-modified-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e6c32b07e60499a973c88298a2343d36c577450e28b4c746fe4a715688a112ab"
+    "sourceSha256": "c3cd70f73ea491467f9e0e7d3cc625c3b0c8d3b446ea159be8d020631fd88dde"
   },
   {
     "path": "form-samples/dashed-line-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "90e0091d961b7d5163c67fb0951dec399907609ed1826cb0c53d93bc4244c34f"
+    "sourceSha256": "bd47926a06cb5471ab441f84fba2124ebe47ee5405f932cade718849ebe7e9fa"
   },
   {
     "path": "form-samples/event-itinerary-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "a5b27f7d1f5e147441f7135b610e75926d87302db3018ab77da3644bd8cbb28a"
+    "sourceSha256": "36b7a42cbadb003df3d05ece4b7f3fda8e301def0cf2e62572193ff789a62599"
   },
   {
     "path": "form-samples/person-circle-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "85fabfdde03a2ea06d0be37651bb329c962b45f927e04bd298302fae1bae75d7"
+    "sourceSha256": "5db70a023fa770af647b46596a516166f956dbabd68ad6a5baf236810438e8d0"
   },
   {
     "path": "form-samples/person-circle-header/person-circle-header.json",
     "message": "Formatting schema: /children/0/children/1/style/border-bottom must be object",
-    "sourceSha256": "1801b6eb9f7dc708fc5c71177ec92ee0b6db1905602e379c4edd4ac6078c720d"
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
   },
   {
     "path": "form-samples/person-circle-header/person-circle-header.json",
     "message": "Formatting schema: /children/0/children/1/style/border-bottom must be string",
-    "sourceSha256": "1801b6eb9f7dc708fc5c71177ec92ee0b6db1905602e379c4edd4ac6078c720d"
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
   },
   {
     "path": "form-samples/person-circle-header/person-circle-header.json",
     "message": "Formatting schema: /children/0/children/1/style/border-bottom must match a schema in anyOf",
-    "sourceSha256": "1801b6eb9f7dc708fc5c71177ec92ee0b6db1905602e379c4edd4ac6078c720d"
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
   },
   {
     "path": "form-samples/ribbon-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dcb432c83325ccc053188470367112806a9b9b0af40ee66ff35167cfbc5743d6"
+    "sourceSha256": "dd23b5ac92d0d0b18d029fb0faca117321cce114f4f1f4cd83619243f6ec307f"
   },
   {
     "path": "form-samples/send-email-task-owner-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "b421f8a2fd89dcbae76c93db6c87a1f29805a4dd6078cd5fc81a9a809606fe57"
+    "sourceSha256": "851752e6f17f5dfd8024a458826884c132281574541721b779c793008bdd10ff"
   },
   {
     "path": "form-samples/send-meeting-invite-with-teams-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "70f358232e9e221e79c7a1bfeb96d6d2d8b44c0e2118b9af8fe47254641be8a0"
+    "sourceSha256": "696560c6dc9c5027e5e37831d691c80f2565861e50aca166d201abb2b34efbc7"
   },
   {
     "path": "form-samples/status-header-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "aa62959e888b52461df81f7a15dcaffd78e527b40cb67433aa913bc7e69c8dbe"
+    "sourceSha256": "118c2677c912c9a6a5c91a831c722ce5c99ab8977ca2719d1111e2f55fba1146"
   },
   {
     "path": "form-samples/teams-chat-task-owner-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "9f14e4c3b3ce4c56fe9217dd30e5c89c70ec9dcafe4967594439235852732ac1"
+    "sourceSha256": "a981240313a1bb6a1b164c6fda24696f25fd5b0dcefe6621987b30dd71e0dc78"
   },
   {
     "path": "form-samples/two-column-logo-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "8235f2a4376e4fc228aec509333eb3ec116c8e89b3e08c854aa00ab5c28d7ebc"
+    "sourceSha256": "291a7021998b5c54e4545eb5f43992f86e65d86f2e3d626acf1a59960ed3bd84"
   },
   {
     "path": "form-samples/wave-header-footer/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "fe7d91620c558a067d2c6b43724a84c8a6a0d203a3fe4c86d19b645b9236169c"
+    "sourceSha256": "89db921d460d8fa922e9a5f613aec8bbbf10925b48582fb9decaf917625e35c4"
   },
   {
     "path": "form-samples/welcome-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "2cb74dfa723ff8b5845a67f52d3d231b67f915a7ed0ea3f4f4fde2f700463dad"
+    "sourceSha256": "2aa740097bdaf3e8cf032b0e4687ae7de1d1626c457f4f7eeddbae2fd694b00a"
   },
   {
     "path": "form-samples/workflow-progress-header/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "dfc313514f7612bbd2a03d62c9b67fcdc0bacbe397806dad056e2e491cb34895"
+    "sourceSha256": "4b22ffcdc685b038536e6463ef941dd584df37e3ca1077f989a98963207b0601"
   },
   {
     "path": "form-samples/wrapped-body/assets/sample.json",
     "message": "PnP schema: /0 must have required property 'version'",
-    "sourceSha256": "e1f7f3862b4ade5a6044dd8dea961ad0bcc192fbb0fa9e5c465e56f039db95ee"
+    "sourceSha256": "9783892f9bdee1bed0edd2ce1cd1fb43083e24c108cc43c1271b3baa734bd847"
   }
 ]

@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { isDeepStrictEqual } from 'node:util';
 import sharp from 'sharp';
-import { parseStrictJson, metadataIssues, formattingIssues } from './validation.mjs';
+import { parseStrictJson, metadataIssues, formattingIssues, sourceFingerprint } from './validation.mjs';
 import {
   assert, families, metadataKeys, validateMetadata, validateTracker, validateReadmeTargets, exactFile,
   thumbnailPath, definitionTarget, renderMarkdown, repository, rawRepository, encodePath,
@@ -125,7 +125,7 @@ const report = { samples: samples.length, definitions: samples.reduce((sum, item
 await fs.writeFile(path.join(cache, 'quality.json'), `${JSON.stringify(report, null, 2)}\n`);
 const baselinePath = path.join(siteRoot, 'quality-baseline.json');
 const findings = await Promise.all(advisories.map(async (finding) => ({
-  ...finding, sourceSha256: createHash('sha256').update(await fs.readFile(path.join(root, ...finding.path.split('/')))).digest('hex'),
+  ...finding, sourceSha256: sourceFingerprint(await fs.readFile(path.join(root, ...finding.path.split('/')))),
 })));
 if (updateBaseline) await fs.writeFile(baselinePath, `${JSON.stringify(findings, null, 2)}\n`);
 const baseline = JSON.parse(await fs.readFile(baselinePath, 'utf8'));
