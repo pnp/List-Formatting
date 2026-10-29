@@ -1,14 +1,20 @@
 # List Formatting gallery modernization plan
 
-Status: first implementation committed to the fork review branch;
-[PR #1](https://github.com/VesaJuvonen/List-Formatting/pull/1) is open. Not merged or deployed.
+Status: implementation and automated validation are complete; upstream merge
+and first public release are authorized. The
+[fork validation PR](https://github.com/VesaJuvonen/List-Formatting/pull/1) has
+been merged. Current release execution is tracked in the
+[upstream pull requests](https://github.com/pnp/List-Formatting/pulls) and
+[deployment runs](https://github.com/pnp/List-Formatting/actions/workflows/deploy-gallery.yml).
 
 Last reconciled: October 29, 2026, after contributor avatars, documentation
 build cleanup, separation of user-facing and gallery-development guidance,
-final pre-commit validation, and the cross-platform quality-fingerprint repair.
+final pre-commit validation, the cross-platform quality-fingerprint repair,
+and authorization to merge/publish upstream.
 
-Research baseline: October 29, 2026. The first implementation is in this
-repository only. The existing public site and sibling repositories are unchanged.
+Research baseline: October 29, 2026. The sibling repositories are unchanged.
+This document tracks implementation and follow-up work; GitHub records and the
+published deployment manifest identify the live release.
 
 ### Tracking rules
 
@@ -49,7 +55,7 @@ repository only. The existing public site and sibling repositories are unchanged
   without a recorded GitHub account. The first 18 preview files total about 267 KiB.
 - [x] Remove the retired documentation configuration, root publishing helpers,
   obsolete ignore entry, and references to the previous generator. Astro is the
-  only supported source build/publishing path; public production is unchanged.
+  only supported source build/publishing path; publication is a separate manual workflow.
 - [x] Expand the repository README with a real optimized gallery preview,
   adoption instructions, sample types, contribution/badge guidance, community
   resources, support boundaries, and sample-specific cost caveats.
@@ -57,7 +63,8 @@ repository only. The existing public site and sibling repositories are unchanged
   validation, hosting, deployment, and rollback guidance into the dedicated
   [gallery development guide](./GALLERY-DEVELOPMENT.md), linked from contributor
   documentation without duplicating instructions.
-- [ ] Review the live local version's design and adoption flow before deployment.
+- [x] Obtain authorization for the first upstream merge and public release
+  following local review.
 - [ ] Triage recorded historical quality findings: 382 PnP metadata-schema
   findings (the first missing required field is `version`), 106 formatting-schema
   findings, and two README requirements-review items. These are review findings,
@@ -65,8 +72,10 @@ repository only. The existing public site and sibling repositories are unchanged
   exceptions cannot silently cover later modifications.
 - [ ] Functionally test changed/representative formats in real SharePoint
   lists and forms; static gallery validation is not tenant compatibility proof.
-- [ ] Approve production cutover, GitHub Pages settings, branch protection,
-  and any further performance/accessibility release budgets.
+- [x] Approve the Pages cutover from `gh-pages` branch publishing to Actions
+  and capture the previous published revision for rollback.
+- [ ] Agree branch-protection changes and further performance/accessibility
+  budgets separately from the authorized first release.
 - [ ] Follow up on the three sibling sites' Community navigation and community
   destination consistency in separate changes.
 
@@ -152,8 +161,8 @@ Important adaptations, rather than blind copying:
   GitHub accounts and one named contributor without a GitHub account.
 - Sample assets total approximately 241 MiB. A gallery must not eagerly
   download every original image or animated GIF.
-- Public production remains the earlier documentation site. Astro is now the
-  only supported source build/publisher and generates catalog/grouping content
+- The previous public documentation site is retained in the `gh-pages` branch
+  for rollback. Astro is the supported source build/publisher and generates catalog/grouping content
   directly from sample metadata; Farrier-compatible source metadata is retained.
   See the [developer guide](./GALLERY-DEVELOPMENT.md).
 - The [aggregate catalog](./samples.json) originally contained 360 entries and
@@ -282,14 +291,14 @@ open gates, not prerequisites that prevent acknowledging completed code.
 | 4 - Guides/reference/tools | Migrated; content polish and template review open |
 | 5 - Community/activity/tracking | Core implemented; supplemental links and opt-in tracking tests open |
 | 6 - Quality gates | Local automation passes; historical debt, manual checks, and GitHub enforcement open |
-| 7 - Deployment/cutover | Workflow implemented and locally verified; not deployed |
+| 7 - Deployment/cutover | Workflow validated; upstream merge/publication authorized and tracked in GitHub |
 | 8 - Sibling sites | Not started; separate follow-up scope |
 
 ### Phase 0 - Review and lock the migration contract
 
 - [x] Implement the agreed first-review scope using recommended branding,
   navigation, route map, and light-by-default theme assumptions.
-- [ ] Obtain final design and production-launch approval after review.
+- [x] Obtain approval for the first upstream merge and production launch after review.
 - [x] Confirm canonical upstream deployment versus fork previews, keeping
   production source links on `pnp/List-Formatting` and branch `master`.
 - [x] Inventory and preserve the source documentation routes, static tool
@@ -608,7 +617,8 @@ Depends on Phases 3-6 and the legacy migration acceptance checks.
   document Astro and the validated Pages workflow as the only publishing path.
 - [x] Document rollback using reviewed source changes and retained validated
   Pages artifacts, not a second local documentation publisher.
-- [ ] Record the actual previous working production deployment before cutover.
+- [x] Record the previous published `gh-pages` revision:
+  `10584fe34be8285184acb448af3a0f0347be7dfe`. Retain the branch for rollback.
 - [x] Update the [repository README](./README.md) with the new gallery,
   contributor invitation, community resources, and sample-adoption guidance.
 - [x] Separate website-maintainer instructions into
@@ -617,8 +627,9 @@ Depends on Phases 3-6 and the legacy migration acceptance checks.
   explain eligibility and contribution steps, and retain CLA, Code of Conduct,
   support, licensing, and sample-specific cost caveats.
 
-Not complete: production is unchanged. Deployment implementation and local
-verification must not be confused with a published, production-verified release.
+Publication and live verification are separate from implementation. Their
+authoritative outcomes are recorded in the upstream PR and deployment workflow;
+local validation alone does not establish a successful public release.
 
 ### Phase 8 - Follow through across the reference repositories
 

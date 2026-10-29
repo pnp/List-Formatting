@@ -22,10 +22,6 @@ You do not need to clone the repository to use a sample.
 
 [![List Formatting gallery preview showing SharePoint branding, sample-type filters, and community sample cards](./assets/list-formatting-gallery.webp)](https://pnp.github.io/List-Formatting/)
 
-> [!NOTE]
-> The preview shows the updated gallery design currently under review.
-> The public gallery will be updated after that review is complete.
-
 > [!IMPORTANT]
 > This is a community effort maintained with the
 > [Microsoft 365 & Power Platform Community](https://aka.ms/community/home).

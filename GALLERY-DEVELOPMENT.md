@@ -82,8 +82,8 @@ Validation rejects catalog drift and tells contributors to regenerate it.
   Private forks and changed GitHub plans can have different billing rules.
 - Pull-request validation cancels superseded runs and uses bounded concurrency.
   Browser diagnostics are retained only briefly. There are no scheduled crawlers.
-- Publishing is manual for the initial review version. No deployment occurs
-  merely by running development or build commands.
+- Publishing requires an explicit manual workflow dispatch. Merging a pull
+  request or running local development/build commands does not deploy the site.
 - Client search works offline after the static page and assets load. Original
   README images are lazy-loaded from GitHub; gallery previews are optimized local
   stills. The site does not ship a second 241 MiB copy of original sample assets.
@@ -104,7 +104,7 @@ a recorded GitHub account retain an initial fallback.
 
 ## Production and rollback
 
-Configure GitHub Pages to use GitHub Actions only after the review is approved.
+The approved publishing path uses GitHub Actions as the GitHub Pages source.
 Manually run **Deploy gallery** on upstream `master`. It validates the site,
 uploads a Pages artifact, deploys it, and checks the published commit identity,
 catalog hash, sample pages, previews, and definition downloads.
@@ -118,6 +118,14 @@ of the site changes. Keep the last known-good Pages deployment available in
 GitHub's deployment history and retain a deployable artifact before the first
 cutover. Record that production baseline before replacing it. Never publish an
 unreviewed local branch.
+
+### First-cutover rollback baseline
+
+Before the Astro cutover, the public site published from the `gh-pages` branch
+at commit `10584fe34be8285184acb448af3a0f0347be7dfe`, with source path `/`.
+That branch is retained. If the first release must be rolled back, confirm its
+revision and restore branch-based Pages publishing from that retained artifact;
+do not overwrite or delete the branch during cutover.
 
 ## Assets and provenance
 
