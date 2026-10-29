@@ -1,0 +1,80 @@
+---
+import { ArrowRight, Search, SlidersHorizontal, X, Columns3, LayoutGrid, PanelsTopLeft } from '@lucide/astro';
+import Layout from '../layouts/Layout.astro';
+import SampleCard from '../components/SampleCard.astro';
+import Community from '../components/Community.astro';
+import { samples, values, contributors, sitePath } from '../lib/catalog';
+const quickTypes = [
+  { key: 'column', label: 'Column formats', icon: Columns3, copy: 'Make every field clearer' },
+  { key: 'view', label: 'View formats', icon: LayoutGrid, copy: 'Bring the whole list to life' },
+  { key: 'form', label: 'Form formats', icon: PanelsTopLeft, copy: 'Give forms a finishing touch' },
+];
+const filters = [
+  { name: 'category', label: 'Category', all: 'All categories', key: 'SAMPLE-CATEGORIES' },
+  { name: 'column', label: 'Column type', all: 'All column types', key: 'LIST-COLUMN-TYPE' },
+  { name: 'compatibility', label: 'Compatibility', all: 'All platforms', key: 'SHAREPOINT-COMPATIBILITY' },
+];
+const advanced = [
+  { name: 'operator', label: 'Operator', key: 'FORMATTING-OPERATORS' },
+  { name: 'token', label: 'Placeholder token', key: 'FORMATTING-TOKENS' },
+  { name: 'action', label: 'Action', key: 'FORMATTING-ACTIONS' },
+  { name: 'feature', label: 'Feature', key: 'FORMATTING-FEATURES' },
+  { name: 'class', label: 'CSS class', key: 'CLASSES' },
+];
+---
+<Layout>
+  <section class="hero container">
+    <div class="hero-copy"><p class="eyebrow">Microsoft 365 &amp; Power Platform Community</p>
+      <h1>From JSON to<br /><span>better lists.</span></h1>
+      <p class="hero-description">Make SharePoint and Microsoft Lists work beautifully.<br class="desktop-break" /> Discover a format, copy the JSON, and make it yours.</p>
+      <div class="action-row"><a class="button" href="#gallery">Explore the gallery <ArrowRight size={18} aria-hidden="true" /></a><a class="text-link" href={sitePath('getting-started/')}>New to formatting? Start here</a></div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="list-demo">
+        <div class="list-demo-title"><img src={sitePath('images/sharepoint.png')} alt="" width="34" height="34" /><strong>Your next great list</strong><span>···</span></div>
+        <div class="list-demo-head"><span>Project</span><span>Status</span><span>Progress</span></div>
+        <div class="list-demo-row"><span><i class="demo-icon teal"></i>Website refresh</span><span class="demo-status done">Ready</span><span class="demo-bar"><i style="width:92%"></i></span></div>
+        <div class="list-demo-row"><span><i class="demo-icon purple"></i>Team onboarding</span><span class="demo-status active">In progress</span><span class="demo-bar purple"><i style="width:65%"></i></span></div>
+        <div class="list-demo-row"><span><i class="demo-icon orange"></i>Launch checklist</span><span class="demo-status review">In review</span><span class="demo-bar orange"><i style="width:78%"></i></span></div>
+        <div class="demo-code"><span>{'{'} "$schema":</span> "a little JSON, a lot of possibility" <span>{'}'}</span></div>
+      </div>
+      <div class="art-caption">Same data. More possibility.</div>
+    </div>
+  </section>
+  <Community />
+  <div class="page-backdrop">
+    <section class="container gallery-section" id="gallery" aria-labelledby="gallery-heading">
+      <div class="section-heading"><div><p class="eyebrow">Ready to make it yours</p><h2 id="gallery-heading">Find your next format</h2></div><p class="catalog-total"><strong>{samples.length}</strong> community samples <span>·</span> Free &amp; open source</p></div>
+      <div class="type-tiles">
+        <button class="type-tile is-active" data-type="" type="button" aria-pressed="true"><span class="tile-icon all-icon"><LayoutGrid size={23} /></span><span><strong>All formats</strong><small>Explore every possibility</small></span><b>{samples.length}</b></button>
+        {quickTypes.map(({ key, label, icon: Icon, copy }) => <button class={`type-tile type-${key}`} data-type={key} type="button" aria-pressed="false"><span class="tile-icon"><Icon size={23} /></span><span><strong>{label}</strong><small>{copy}</small></span><b>{samples.filter((sample) => sample.family === key).length}</b></button>)}
+      </div>
+      <div class="gallery-layout">
+        <details class="filter-panel" open>
+          <summary><SlidersHorizontal size={18} aria-hidden="true" /> Filters</summary>
+          <form id="filters">
+            <label for="search">Search formats</label><div class="search-control"><Search size={17} aria-hidden="true" /><input id="search" name="q" type="search" placeholder="Status, cards, progress…" autocomplete="off" /></div>
+            <label for="family">Format type</label><select id="family" name="type"><option value="">All formats</option><option value="column">Column</option><option value="view">View</option><option value="form">Form</option></select>
+            {filters.map((filter) => <><label for={filter.name}>{filter.label}</label><select id={filter.name} name={filter.name} data-key={filter.key}><option value="">{filter.all}</option>{values(filter.key).map((value) => <option value={value}>{value}</option>)}</select></>)}
+            <details class="advanced-filters"><summary>More ways to explore</summary>
+              <label for="author">Contributor</label><select id="author" name="author"><option value="">All contributors</option>{contributors.map((author) => <option value={author.key}>{author.name}</option>)}</select>
+              {advanced.map((filter) => <><label for={filter.name}>{filter.label}</label><select id={filter.name} name={filter.name} data-key={filter.key}><option value="">All</option>{values(filter.key).map((value) => <option value={value}>{value}</option>)}</select></>)}
+              <a class="small" href={sitePath('reference/')}>Explore the formatting reference</a>
+            </details>
+            <button type="reset" class="reset-button"><X size={15} aria-hidden="true" /> Clear all filters</button>
+          </form>
+        </details>
+        <div class="gallery-results">
+          <div class="results-toolbar"><p id="result-count" aria-live="polite">Showing 18 of {samples.length} samples</p><label for="sort">Sort</label><select id="sort" aria-label="Sort samples"><option value="updated">Recently updated</option><option value="created">Newest first</option><option value="title">Title A–Z</option></select></div>
+          <div id="active-filters" class="active-filters" aria-label="Active filters"></div>
+          <div class="sample-grid" id="sample-grid">{samples.map((sample, index) => <SampleCard sample={sample} index={index} />)}</div>
+          <div class="empty-state" id="empty" hidden><Search size={30} aria-hidden="true" /><h3>No matching formats</h3><p>Try a broader search or clear a filter.</p><button class="button" id="empty-reset">Clear filters</button></div>
+          <button class="button button-secondary load-more" id="load-more">Show more formats</button>
+          <noscript><style>[data-sample-card][hidden] { display: flex !important; } .filter-panel, .type-tiles, #load-more, .results-toolbar { display: none; }</style><p>All samples are shown. Use your browser's Find command to search, or follow a reference category.</p></noscript>
+        </div>
+      </div>
+    </section>
+    <section class="container bottom-cta"><div><p class="eyebrow">Built something useful?</p><h2>Your format could help someone else.</h2><p>A small idea shared can make a big difference. First-time contributors are welcome.</p></div><a class="button" href={sitePath('contributing/')}>Share your format <ArrowRight size={18} aria-hidden="true" /></a></section>
+  </div>
+</Layout>
+<script src="../scripts/gallery.ts"></script>

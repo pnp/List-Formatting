@@ -1,0 +1,2452 @@
+[
+  {
+    "path": "column-samples/approval-buttons-setValue-status-user/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c4d35c122c132c806b2ea33bab6204b9690be014a01498702476278e22e2d998"
+  },
+  {
+    "path": "column-samples/approval-status-icon-color/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ad03b06abedb580cafdfe0d6bb06f82164880c74841ade64d7b8a5e130b2463c"
+  },
+  {
+    "path": "column-samples/approval-status-icon-color/approval-status-icon-color-with-approvals.json",
+    "message": "Formatting schema: /children/0/children/1/customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "8c4f29e998cc8c08ca688e7dfb3e880a8c02662d8e47c39765d650ef7b322007"
+  },
+  {
+    "path": "column-samples/approval-status-icon-color/approval-status-icon-color-with-approvals.json",
+    "message": "Formatting schema: /children/0/children/1/customRowAction must match a schema in anyOf",
+    "sourceSha256": "8c4f29e998cc8c08ca688e7dfb3e880a8c02662d8e47c39765d650ef7b322007"
+  },
+  {
+    "path": "column-samples/childcount-color-change/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b61b35d09c14122a8d1cbf05456ad8014a236f565b4942dcb54bba0968d3b076"
+  },
+  {
+    "path": "column-samples/color-based-smiley-face/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "042ea326ad89e155318b5c7e98c9e188d7c529dffbb2e7c36e718f9457d2763f"
+  },
+  {
+    "path": "column-samples/comment-count/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e361e7ac80256cea75a081d0a7637127a47c53bba82252631e6676e0257d9b88"
+  },
+  {
+    "path": "column-samples/currency-symbol-concatenation/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d4fe5a3169483202e81260a58e712864b98f4534ed1af6cb4d49a9d208a8673d"
+  },
+  {
+    "path": "column-samples/custom-hover-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5d3268459ff5fba85b7608ce52cb7adf27920220fe9b38c5c90a74ddcb3b2350"
+  },
+  {
+    "path": "column-samples/date-button-setValue-today/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "189c23e38747cf4d54d592506871b1ac41a4c33b572710da3fd48fc3451cf69b"
+  },
+  {
+    "path": "column-samples/date-check-blank-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3455a8410c1f0b862cb1aacacc666a07657fa50d8edb7a3f2bb445c7d01e2421"
+  },
+  {
+    "path": "column-samples/date-compress-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ddfcf85df2dca737f1e8d3feab2920239a00e5ef244dc41093f672efbe70986a"
+  },
+  {
+    "path": "column-samples/date-day-counter/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "446a82f650a3b8b448bd0f16e46bf138b4cbc281d039354602976e43978cd800"
+  },
+  {
+    "path": "column-samples/date-difference/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b06064a8b4b920e90dcf8e90e68e1d48d6305838c4407a7af7e22c299a3ec73b"
+  },
+  {
+    "path": "column-samples/date-monthly-emoji/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fb17158e43341f63c9f0f6141f5059a367eeab653cac102e13bf8268a408e3ca"
+  },
+  {
+    "path": "column-samples/date-notation/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d8d738d1a4df077af461c468aa0b2240071576d2e8943f238ffef9f80f3bcb98"
+  },
+  {
+    "path": "column-samples/date-page-a-day-calendar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bb2701e745e62e3f8f2cd6ba3d64aaf0411800437f3d065c8a596f7fc2304a61"
+  },
+  {
+    "path": "column-samples/date-page-a-day-calendar/date-page-a-day-calendar.json",
+    "message": "Formatting schema: /children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "6c82cf5ebfa031ded828e4fa73ceaab75bc368a520feeba63065c03bf8608977"
+  },
+  {
+    "path": "column-samples/date-range-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "10038cf9dfce2e9e4d76d492156d958d9e8480f3413f0f6599bc36966b441cdf"
+  },
+  {
+    "path": "column-samples/date-range-rag/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4ab6630e71be9205491eccb23345066ecf48bab025e83e2bfb31931aaa32f65c"
+  },
+  {
+    "path": "column-samples/date-update-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b138d7b86dce16fe46e14d41630e2d1ce256b662de334d00739d08642ba8af80"
+  },
+  {
+    "path": "column-samples/date-world-time/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "14325ee50f557cb9f2d2c4a70148b452ef652266c6e4bfd257fbd210b17091ee"
+  },
+  {
+    "path": "column-samples/date-world-time/date-world-time.json",
+    "message": "Formatting schema: /children/1/customCardProps/formatter/children/0/children/0/children/2/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "a131af262e60467ad087a796fcc168ea7449e874397e951e2e74b0027804bc60"
+  },
+  {
+    "path": "column-samples/file-thumbnail/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "03f0205ce31ecfeca394f90cca8c728f48360cc4782fd0644d53da638fb8b897"
+  },
+  {
+    "path": "column-samples/filename-highlight-non-empty-folders/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1fe6cd25d86e0844d9997724ebfff54e32ae2e644a23f1faf9b844daf6242de3"
+  },
+  {
+    "path": "column-samples/filename-open-document-in-view-mode/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "af64155a393abbe2c68cd0b00f6dfee799d34d6b897a2b913bab7cf78fda5c91"
+  },
+  {
+    "path": "column-samples/generic-action-buttons/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f51c4afc1dda3b0993ef5b0adb756eb7fbdb7444b2f07c177f1d4e91b1f5cee6"
+  },
+  {
+    "path": "column-samples/generic-approval-status-hover-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4221eef5d538d71901e8ef971e66b11923dd11551abcd5b5c8755cea967136f4"
+  },
+  {
+    "path": "column-samples/generic-blurred/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c7799eff2b4383f0f00f142f576ec84857cce42dec604ce601dcfd304ead402a"
+  },
+  {
+    "path": "column-samples/generic-bubble-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9a9ec45f177900fcc1151c1ffcd903c9c339e69d7a1eaba4cefeb5beba18f05b"
+  },
+  {
+    "path": "column-samples/generic-calculator/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "92c5922d8f683a3a530d30411176d64b7b69415cc416b2165e93816422fd2c39"
+  },
+  {
+    "path": "column-samples/generic-card-with-buttons/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8e644606fa5139e0ab6e089e59f8bf6418222fcf007bc1b534bc88e704e1943c"
+  },
+  {
+    "path": "column-samples/generic-centered-content/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2b6362cb6807ccfa3af2df273663b21d8bcb0a0d26ac80bd46f5af927c28874b"
+  },
+  {
+    "path": "column-samples/generic-column-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b09d6298dbd39dec1835329cdabda5e75f4aada2e496e5dd6223fb953e70e49d"
+  },
+  {
+    "path": "column-samples/generic-comment-count/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0c555300d4cfec187c7e6967d1a030522a1b628ccad6aea257ca9cae4ed53b26"
+  },
+  {
+    "path": "column-samples/generic-context-menu/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a877f096ce907ab2978344f4f26b1dcd8db1a4f75927c6e6c808a1eacdee5804"
+  },
+  {
+    "path": "column-samples/generic-custom-hover-card-approvers/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c907653c718cb0edb0b7a15e18d56bbf90142321a41646be5dd6d60c9cae740e"
+  },
+  {
+    "path": "column-samples/generic-custom-hover-card-approvers/generic-custom-hover-card-approvers.json",
+    "message": "Formatting schema: /customCardProps/directionalHint must be equal to one of the allowed values",
+    "sourceSha256": "64eaf18a80049792f67483c93df4f354e006d7403b5bb4df9ca11c78fe87b273"
+  },
+  {
+    "path": "column-samples/generic-download-file-button/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "37c019feca979b3165bb51610a8438e4f12003f345766900a130a47c941c0793"
+  },
+  {
+    "path": "column-samples/generic-dynamic-colored-pills/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "61f694698ab5068199151cd08a38ffcf04be69c4157cdcfbec06241974a268e2"
+  },
+  {
+    "path": "column-samples/generic-eisenhower-matrix/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "90a5f0e26f8ff11da77e7dcad914d5420961fe215ed5fff14e6c672bbc94d663"
+  },
+  {
+    "path": "column-samples/generic-embed-file-preview/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b2daa96d637bf5b7a5c012520e6b95f38a0b100ee6d2a2d8b46b85f1410ea2eb"
+  },
+  {
+    "path": "column-samples/generic-embed-file-preview/generic-embed-file-preview.json",
+    "message": "Formatting schema: /children/0/customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "dee49cf3bb5367f79e5b3e2890d821597bc6127fa6ee3be9f47a2740b251caaf"
+  },
+  {
+    "path": "column-samples/generic-embed-file-preview/generic-embed-file-preview.json",
+    "message": "Formatting schema: /children/0/customRowAction must match a schema in anyOf",
+    "sourceSha256": "dee49cf3bb5367f79e5b3e2890d821597bc6127fa6ee3be9f47a2740b251caaf"
+  },
+  {
+    "path": "column-samples/generic-file-preview/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "54470d3ac813692f996a47f4aaab41bae6775a23ec24431d805b13391bf9ff93"
+  },
+  {
+    "path": "column-samples/generic-filepicker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e3ebf8fa3162c217d45b8eccb5d6f5386bdd9a728620f950cd71c99a64bdd7f0"
+  },
+  {
+    "path": "column-samples/generic-flow-status/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3e088085bd984ccbc3514ad28802286c97a5b613bc5a3e4b59a24dd27f265ac2"
+  },
+  {
+    "path": "column-samples/generic-gamification/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a73b96671f6b98462384858080ed22473316ea06574a0a1f8baf6ea02840da0c"
+  },
+  {
+    "path": "column-samples/generic-gantt-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ffbb792c1be3ded7d2e6af869d60970ad33de2060c36fced026710b2220fc186"
+  },
+  {
+    "path": "column-samples/generic-gantt-chart/generic-gantt-chart-ddMMyyyy.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "aa1dcec27e716ef600e03238bb77e1b41f64a753564374b91ee2f8903ca19632"
+  },
+  {
+    "path": "column-samples/generic-gauge/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9c546dc369a235992478b9fcdb84428903652a015a0119b4ce0cb71af96da1f0"
+  },
+  {
+    "path": "column-samples/generic-hourglass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3e1ba462fb8e0ab9dd4f7ef8493924ecfa0edba268ce5096d523794b95ad10ed"
+  },
+  {
+    "path": "column-samples/generic-http-flow-response/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "71acf4d3736bbc0beeed67a53c939489d4f45d579c3ff55b3ceb8d6268f9c369"
+  },
+  {
+    "path": "column-samples/generic-http-flow-response/generic-http-flow-response.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "a6e1a5df012aa032804b39cded5e07a3c0ec998b494c7c2ee55da41386506fb5"
+  },
+  {
+    "path": "column-samples/generic-http-flow-response/generic-http-flow-response.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "a6e1a5df012aa032804b39cded5e07a3c0ec998b494c7c2ee55da41386506fb5"
+  },
+  {
+    "path": "column-samples/generic-hyperlink-thumbnail/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "37082a4663cd902de37c86ba41c7de2219f148597448de7c2234c1b76c6bc823"
+  },
+  {
+    "path": "column-samples/generic-hyperlink-values/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6c3c09d451862092881caa7f0c4a68995cf602b7a60acb3004e9a0829bb93767"
+  },
+  {
+    "path": "column-samples/generic-icon-overlay/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "909e158e56cd8470cc5d24b52ed4d18ab06f96efea71c2da4ff1a2a69f66e159"
+  },
+  {
+    "path": "column-samples/generic-identicon/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3301cf28a4047e71c039ba7816ba65c00df11047de4377c543ddb5c10837a670"
+  },
+  {
+    "path": "column-samples/generic-image-download/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c0c1546d805cda836db6e8e13bdf9ecf7ee9bff0eab7cd44f6c77c086b044517"
+  },
+  {
+    "path": "column-samples/generic-image-overlay-buttons/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9aee86d0e48e8563b8bfac35fbecaca3081a2a9e4c3165dee140923b34976675"
+  },
+  {
+    "path": "column-samples/generic-issuestatus-pill/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e7a878d2a18d770be52bfcd702167ef27a65a2b06b473562444781b1a4af4a72"
+  },
+  {
+    "path": "column-samples/generic-item-version-history/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f975b7500262a1cdb9d2e5c100a46a4d4736971fd51ce15d27c1265543b8f75a"
+  },
+  {
+    "path": "column-samples/generic-launch-powerapp/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d9640b112c9f0adbef4c219e44b83b88d1b6d56356526a7bc28e0b453f66a631"
+  },
+  {
+    "path": "column-samples/generic-like-dislike-bar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "80d15158799fa1c1fbebecc424e4dd46024fc7c2ae47ce1b717aac76f055cc62"
+  },
+  {
+    "path": "column-samples/generic-like-unlike/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5878c9c825806c0893d460c871544c6f6e2077b15f512a35dc294677aa6cd4c2"
+  },
+  {
+    "path": "column-samples/generic-likedby/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a2d89831fd44a7182e12324368c295e096ce97b96a1b76a2ad827124c9a802d8"
+  },
+  {
+    "path": "column-samples/generic-link-to-parent-documentset/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "70a226a5eda1471f9facf2550827c8c2dcebf50e808cb4511e709aa6e44db3cf"
+  },
+  {
+    "path": "column-samples/generic-mailto-button/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9a31683f89cd2865cbc07fb7050a02ba64adfdb356bef679cde78099944150e6"
+  },
+  {
+    "path": "column-samples/generic-missing-information-callout/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "55830b9260f85991f7d325217c08bb314ffdc05156e46de6543041396c2e542f"
+  },
+  {
+    "path": "column-samples/generic-monthly-gantt-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ddfe0fcdcb76f919122aa9fe9106dc87b65c409bf4691f17f428c000a027c541"
+  },
+  {
+    "path": "column-samples/generic-one-point-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fd3afd9445f7a3cc601d8f2ff038ca624b2254ebe8662380f18cf527d5d9530b"
+  },
+  {
+    "path": "column-samples/generic-open-file-as-pdf/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a14719d098b346cb448310c23af0ca346373a62d8333f9719ce3868308c44ebb"
+  },
+  {
+    "path": "column-samples/generic-project-management/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3d6ba51c2cc30aeeff746609216f89bac4a391df0da08fab6f7b35251d1674b5"
+  },
+  {
+    "path": "column-samples/generic-published-version/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "48a89209e733e37c078bd0c719a401e2b72e6eda6829a45b373e142909e9b3f6"
+  },
+  {
+    "path": "column-samples/generic-quick-charts-bar-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9327deb0c90007b75271d2498046e61c8e1dd200ec529fd9bcb8d0564d9fc0ba"
+  },
+  {
+    "path": "column-samples/generic-quick-charts-io/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6110de09af7bd96dd667c91c79811b2649e724d26cc7637013a200812c36ede8"
+  },
+  {
+    "path": "column-samples/generic-quick-charts-pie/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e880439f3a8efc05e8d7aa6255358eb707a9ecb2c29728a03f7980c65c68d083"
+  },
+  {
+    "path": "column-samples/generic-quickview-issue-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ec97f407a065e2ca70f48c60a1f28b7d002da87a7ade5861514709971a7a6495"
+  },
+  {
+    "path": "column-samples/generic-right-align/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5cc859358bfb017e5b85b695052cf696f29899575e67ad36b973bfd0e6d614f3"
+  },
+  {
+    "path": "column-samples/generic-rowactions/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "75ad618daf82d7e654456a7b5582622b699334d146dbf38ad7821feca1050639"
+  },
+  {
+    "path": "column-samples/generic-rowactions/comment.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "eeb33fbe3ffd176b6167748b66ce7a0cc2216eb29b21b1f59844d2966509b394"
+  },
+  {
+    "path": "column-samples/generic-rowactions/comment.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "eeb33fbe3ffd176b6167748b66ce7a0cc2216eb29b21b1f59844d2966509b394"
+  },
+  {
+    "path": "column-samples/generic-rowactions/copyFile.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "37a899e57899eeb3c111289e2cc14ac455df38a91b540ef8e1355cee215fab86"
+  },
+  {
+    "path": "column-samples/generic-rowactions/copyFile.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "37a899e57899eeb3c111289e2cc14ac455df38a91b540ef8e1355cee215fab86"
+  },
+  {
+    "path": "column-samples/generic-rowactions/copyLink.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "7093fb8d995a0ca32827d780ec1c9d33ced218c54d2d9dc78776bb0cbfd5e2ae"
+  },
+  {
+    "path": "column-samples/generic-rowactions/copyLink.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "7093fb8d995a0ca32827d780ec1c9d33ced218c54d2d9dc78776bb0cbfd5e2ae"
+  },
+  {
+    "path": "column-samples/generic-rowactions/embed.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "1a8b61a3935ece677ec1c3f640f2565e9c1ef6f6548be63439aca6d5061363e9"
+  },
+  {
+    "path": "column-samples/generic-rowactions/embed.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "1a8b61a3935ece677ec1c3f640f2565e9c1ef6f6548be63439aca6d5061363e9"
+  },
+  {
+    "path": "column-samples/generic-rowactions/moveFile.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "b051b1a58164b8773a630cd66436142d8db74bee201417226a2d456a2de46297"
+  },
+  {
+    "path": "column-samples/generic-rowactions/moveFile.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "b051b1a58164b8773a630cd66436142d8db74bee201417226a2d456a2de46297"
+  },
+  {
+    "path": "column-samples/generic-rowactions/openApprovalDialog.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "dfcd4f1d14ce0d44ba8d5b0ebebb5c79ac0d3456a16f59565a7670bb1873cd2b"
+  },
+  {
+    "path": "column-samples/generic-rowactions/openApprovalDialog.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "dfcd4f1d14ce0d44ba8d5b0ebebb5c79ac0d3456a16f59565a7670bb1873cd2b"
+  },
+  {
+    "path": "column-samples/generic-rowactions/previewFileAction.json",
+    "message": "Formatting schema: /customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "32b8de1a6ff7618f20b863cd7a95b1e7e30bbf6bf31b487735c3a5c07e911150"
+  },
+  {
+    "path": "column-samples/generic-rowactions/previewFileAction.json",
+    "message": "Formatting schema: /customRowAction must match a schema in anyOf",
+    "sourceSha256": "32b8de1a6ff7618f20b863cd7a95b1e7e30bbf6bf31b487735c3a5c07e911150"
+  },
+  {
+    "path": "column-samples/generic-rowIndex-drawing/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1d082a6073d31879b6d06e9044a5b2109214a6b399b6e73c46117cedf036c900"
+  },
+  {
+    "path": "column-samples/generic-scheduling-link/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "89922b9df99c438b18ef22f1b6f3867c92212ae34b5bc20144d0846eb7a0911f"
+  },
+  {
+    "path": "column-samples/generic-share-to-teams/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "096ca589539c272884151458cb862e392a6c2d190a7b4489c3672d55505b2948"
+  },
+  {
+    "path": "column-samples/generic-share-to-teams-with-message/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0fe3a058096ec08ba0d8620795c5fbabdf494f9b054b60a300a8995cdf67cad2"
+  },
+  {
+    "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must be object",
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
+  },
+  {
+    "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
+  },
+  {
+    "path": "column-samples/generic-share-to-teams-with-message/generic-share-to-teams-with-message.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must match a schema in anyOf",
+    "sourceSha256": "0408c2426d6cc5fa4427460c081552bebf6c202ee6d5d219f6494c317e3e7ce3"
+  },
+  {
+    "path": "column-samples/generic-socialpic/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "02b4610e1c63b56164d0b51d4a2c79f5f8b2a641073120a630ab41b0cfb6d565"
+  },
+  {
+    "path": "column-samples/generic-star-icon/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "01a719b7a1adf893925c1fa68c9169aa3d10a1ab5549a9a730b05a9fa63041d5"
+  },
+  {
+    "path": "column-samples/generic-start-flow/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b65d92bb24af2d785f63b5d07f414dbc08a27653c067a165610349761d035f75"
+  },
+  {
+    "path": "column-samples/generic-start-flow-conditionally/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3419ccf123372d1b3ab268e4b3f648bf6cf135e29df58f685a1efedb2e3d3765"
+  },
+  {
+    "path": "column-samples/generic-staticmap/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e1d7c67c5c1fb502acd6916e9c389179efc58110cd83430388dd249fcae6955b"
+  },
+  {
+    "path": "column-samples/generic-status-badges/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "909e7be8095fcbeb4612c777c48548cdc2810f0066e11897df78dbfa69b7968f"
+  },
+  {
+    "path": "column-samples/generic-status-badges/README.md",
+    "message": "Review prerequisites: no standard requirements heading detected.",
+    "sourceSha256": "3f68a79f5f1c9c6073021fb894aa72a6703c50fe74da56099faef4253d0cf369"
+  },
+  {
+    "path": "column-samples/generic-substring-status/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fa5fc4df514bffdbb0acdd5d9171989d4ca1833635a2b890d29f707eb07eb789"
+  },
+  {
+    "path": "column-samples/generic-supertype/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "956162ce00f3fce220ebe5af7d61eafa5ca5476c326b5c28482e73a698b40aba"
+  },
+  {
+    "path": "column-samples/generic-supertype/generic-supertype.json",
+    "message": "Formatting schema: /children/0 must NOT have additional properties",
+    "sourceSha256": "5ddc79f91b568229773296d56aca944e20b11cdb26e8ebd0dd2a99c04026b5e1"
+  },
+  {
+    "path": "column-samples/generic-svgicon-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "316fb114278ccca8704b33eabb674d5a0c5e504c95e3bbc5d34f886c856600d1"
+  },
+  {
+    "path": "column-samples/generic-time-schedule/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "da60cbbd10e5efd4e86e1239b1f51f6a6e36246509c09670f5067806423a876b"
+  },
+  {
+    "path": "column-samples/generic-timeline/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d269b4a0a561258a9f2712662f86e3733081b6b1b19165f0dacf7d4ba8f5617e"
+  },
+  {
+    "path": "column-samples/generic-traffic-light-status/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2e13663c17b2d775a3f9544e0589fdeca81595b236300f052b3c3d52f05b4689"
+  },
+  {
+    "path": "column-samples/generic-twitterpic/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ecf74a4df95ee5afe4abb033207a4a91522a417062f4715f2f8bbbff52ba0ecc"
+  },
+  {
+    "path": "column-samples/generic-update-button/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "134adda0aa7edf460ac1da0c3b4d31b67b80153dca8ca61611d78b26e50f43ef"
+  },
+  {
+    "path": "column-samples/generic-word-cloud/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8f071bd1da51fa1068d68a8d6209342cf4d2f46143008d169fa3f0161f61fdd6"
+  },
+  {
+    "path": "column-samples/generic-world-time/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3aa1a36e8317eceea19d6f14e556eecc465b74307196b897968b4265de9363bb"
+  },
+  {
+    "path": "column-samples/generic-world-time/generic-world-time.json",
+    "message": "Formatting schema: /children/0/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "9bf3ed104182b77a0c20bdbe79bc987ab95baf49fafa88d52c1a7ec79f219c8a"
+  },
+  {
+    "path": "column-samples/generic-yearly-gantt-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ea3dc4e6cf664f95e951a41f7a19677e738572ff06ce1630f1831f4304ad3a7a"
+  },
+  {
+    "path": "column-samples/generic-youtube-thumbnail/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ce2c3be9e96962bb5aab2ebc43c18f06c858bdf660a87227c1913b83aa68da58"
+  },
+  {
+    "path": "column-samples/hyperlink-click-count/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ab90687fc861d052ad6cc8aca904ed19834d952eb8c888ff5638e3fc9774e3fb"
+  },
+  {
+    "path": "column-samples/hyperlink-display-url/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2688e2b1f4f2320e6c87a1307ad7fa549f8d303f106961b450554130103ed19b"
+  },
+  {
+    "path": "column-samples/hyperlink-embed/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c2dc73c6411c3d4f3a6226e71d66ea47dd2425b8549d25929c40c06e642cf436"
+  },
+  {
+    "path": "column-samples/hyperlink-embed/hyperlink-embed.json",
+    "message": "Formatting schema: /children/0/children/0/customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "5c9305fd3f7985958a0da98485ab37bf212bc35def4b3fda9cdf2c0146ecff00"
+  },
+  {
+    "path": "column-samples/hyperlink-embed/hyperlink-embed.json",
+    "message": "Formatting schema: /children/0/children/0/customRowAction must match a schema in anyOf",
+    "sourceSha256": "5c9305fd3f7985958a0da98485ab37bf212bc35def4b3fda9cdf2c0146ecff00"
+  },
+  {
+    "path": "column-samples/image-hyperlink/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "92840b161c44d21f898175ec2dbd3d441262715f5a45ea8b42422fdddb8c7a67"
+  },
+  {
+    "path": "column-samples/image-lightbox/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a80797d03b4b3469b810f0412ee3536721b5404881e92ec8046e8979fdbc824d"
+  },
+  {
+    "path": "column-samples/location-address/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5788a8f57bc9fd5ff58aeff0589034edb5759350601762db949c080eea6f7a22"
+  },
+  {
+    "path": "column-samples/location-bing-maps/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4dda8a1f82cb2901dfad8112fed8832b3cea47fea172e9be8d5c1a5373ead4b4"
+  },
+  {
+    "path": "column-samples/location-weather/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "40d6acb7b4d93091fc147775985b62a063f9c9f6ec55afb859f0feb9d9bab79c"
+  },
+  {
+    "path": "column-samples/managed-metadata-button/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "80954a9e8738003681ab0d5be0887a68bd4e469c76a6c27d2e6119147a5fcdfb"
+  },
+  {
+    "path": "column-samples/managed-metadata-tag/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "44a3f406d3e3dc73a169c86fe680304537e90b59acbc951d0f1f2046467950e5"
+  },
+  {
+    "path": "column-samples/managed-metadata-tag-icon/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "696b96797becfb31b913a6b31e756688e1b99a13f456f5905f0336366077c725"
+  },
+  {
+    "path": "column-samples/multi-choice-color-circles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5bf8e4cfba6333e1f67e9440d6e62f7859dd722aa42ccaae3b222d1e07e85a94"
+  },
+  {
+    "path": "column-samples/multi-choice-color-circles/multi-choice-color-circles.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "06739933fc70f781d5400d97f0efe25a679f12a40ac9b2f2413d24f7ef1b3b2c"
+  },
+  {
+    "path": "column-samples/multi-choice-country-flags/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bd312882d1411f8b36712f4f9643633b3c3f49bd3d3e13872bfb546efe7a4168"
+  },
+  {
+    "path": "column-samples/multi-choice-foreach/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "34cd5e0617e4ce042e07e0f861367880e6b46aea553d948453ce2220dd057b62"
+  },
+  {
+    "path": "column-samples/multi-choice-icons/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "01accbc0605e025dab8456119b6247985c29b85a53e27520cb8ebbeb83e8b135"
+  },
+  {
+    "path": "column-samples/multi-choice-links/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d1e28a8f8b207fbbb5629f7a7fc35c18eb47f563a0a05abd0b0fbec210f08951"
+  },
+  {
+    "path": "column-samples/multi-choice-list/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a0eec142b97bb24a354c948888a1b7e5cc2f04814d415525f9c2857aa915c300"
+  },
+  {
+    "path": "column-samples/multi-choice-thumbnail/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5d679740748309dc8441baefc96d397fcd397dff43f87bda5f47eddff3724f00"
+  },
+  {
+    "path": "column-samples/multi-choice-workcategory-pill/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "cb1131dcd5af9113af736767d4c6294e5d77d7dc23d669ff194c385917cfd388"
+  },
+  {
+    "path": "column-samples/multi-lookup-projected-field/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a44b0fd4733b73996bbe6012874ce06665f0a570da10e001b539a74ac5678758"
+  },
+  {
+    "path": "column-samples/multi-lookup-projected-field/multi-lookup-projected-field.json",
+    "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "239d85a0dcc136d5853700754b1ae7edf47aef5abe2f8c2eb2115ae882cdf294"
+  },
+  {
+    "path": "column-samples/multi-person-currentuser/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a3a4ea238ca40d1a2b2376d0ecb94865ae3c5522d7c9e5787655dc84d80d010e"
+  },
+  {
+    "path": "column-samples/multi-person-facepile/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "cd638e55f60aee254576ec0860a49254c9cb9912bb225c01602609b4153e98fd"
+  },
+  {
+    "path": "column-samples/multi-person-favorite/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6bf938f6f4c93d7c7d415e7b4621bdb9f741396bd1905ab91154f965d56f7674"
+  },
+  {
+    "path": "column-samples/multi-person-inlineedit-pill/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5ec44308cc8b70117fb4f1e01b43203f67aa6328689611fe0f2956f0919b32db"
+  },
+  {
+    "path": "column-samples/multi-person-mailto/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bf00a42662cb96ad890c41003a7a92f97ad26c65738f8fe98adeb983a837e7bb"
+  },
+  {
+    "path": "column-samples/multi-person-reaction/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "abec4ad67cd05a08d8f25b90eb2f6bca0bf3b77d79d36de9e2bf32d09a0ddbf5"
+  },
+  {
+    "path": "column-samples/multi-person-teams-chat-link/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4cb1f85e51252a9424d36551b42c3999a5d806d40528668e14de6ee680b5b516"
+  },
+  {
+    "path": "column-samples/multi-person-unique-reaction/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a754c04a6c1cb9d33f39e5bb87a688aad77caee5e74130d40e70ca1b28299cb5"
+  },
+  {
+    "path": "column-samples/number-abs-tolerance-comparison/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9283469ff53ca61f2ed4e8f2d31f00a5d3323f53933f19fea40ce9fcc67008d2"
+  },
+  {
+    "path": "column-samples/number-background-color-shading/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a45ea9a79058890d1a100e6856ad7dafacecf31b73799c9ebca8150d140cd3a0"
+  },
+  {
+    "path": "column-samples/number-battery/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "154ff430ec0897bd1f09733fb6e89d9a1cd5de513730ece9ca259392f8d5511e"
+  },
+  {
+    "path": "column-samples/number-circle-in-circle/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8ace83d38a605aa8f1dd1b1a4a77849085fe912694a8442492229ead564a7ef2"
+  },
+  {
+    "path": "column-samples/number-conditional-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0b8a652d26e4909887be1dbfea1bfa4def836395bd912f4b70c88bbc81656a0a"
+  },
+  {
+    "path": "column-samples/number-conditional-progress-color/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "085bf9d75ad826fbe177c753d8fc96fe9dc943640d12b4f20727483b1e201c2a"
+  },
+  {
+    "path": "column-samples/number-countup-countdown/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "02235f4b3b2204d14a94bd584937918c09405848f665272f1137ae565b3b0452"
+  },
+  {
+    "path": "column-samples/number-data-bar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2f29f1480f453d36ee45c899e653c89ab41b7fdd26d31508f6c5172896fdd61e"
+  },
+  {
+    "path": "column-samples/number-data-bar-multi-color/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0d01b0a4cb69ab5544e8d08db8a7397a0708b5e6b9924584fdf52cacfb36d0ee"
+  },
+  {
+    "path": "column-samples/number-data-plant/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5c5a8edc74c01673d3640ce6abcd60e3f8749adde314fc067f2045daef595c71"
+  },
+  {
+    "path": "column-samples/number-data-plant/number-data-plant.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must be object",
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
+  },
+  {
+    "path": "column-samples/number-data-plant/number-data-plant.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
+  },
+  {
+    "path": "column-samples/number-data-plant/number-data-plant.json",
+    "message": "Formatting schema: /children/0/attributes/viewBox must match a schema in anyOf",
+    "sourceSha256": "ba65cfcf1b0d562ed04158601e6a67af608407ffad6d59af22b72759568c2566"
+  },
+  {
+    "path": "column-samples/number-decimal-binary/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e9b7bc12082389605554d331618ca27ec5b4741aab8593391fe8a00a75c5f7b1"
+  },
+  {
+    "path": "column-samples/number-doughnut-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b9b2c29998b71ba593c8e0a8b75cb3bcb3464dc514692407b8f93cb6271257bb"
+  },
+  {
+    "path": "column-samples/number-emoji-progressbar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6985562107f9d5c86bd4c739241bde13798bc65512bafbcbd86a2ce3d53e871b"
+  },
+  {
+    "path": "column-samples/number-gauge/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5bc4e981db7e6a546fb09467d76bc4ac54d9c66f337c90fd27e67e7cfb3ef99a"
+  },
+  {
+    "path": "column-samples/number-gradation/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ba3b2b342dab705009062dcbb6b4149b802f24d6ff34259ed391d598b1a75613"
+  },
+  {
+    "path": "column-samples/number-heart-in-heart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1bb778247e4dc4d152988e3676ae9a39d677dac619c15212897b05497e01b527"
+  },
+  {
+    "path": "column-samples/number-heart-shading/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "26febe1aca4faf8e11992c84215c9411ccea15538a0c681901240e8a1b37a5de"
+  },
+  {
+    "path": "column-samples/number-icon-progressbar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "057da1f09b970095547cf1ee775c9b30e570c80b2d1cc58e29f9e940bf3238a8"
+  },
+  {
+    "path": "column-samples/number-icon-repeat/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "df115f30423c37f9aa204cfa1572de0e4ce54f58fd91ab1b288d2a33753c8137"
+  },
+  {
+    "path": "column-samples/number-icon-repeat/number-icon-repeat-with-number.json",
+    "message": "Formatting schema: /children/0/children/1/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "f5282c2a418f80fdfc6b5104edeb8284e703aa129cdef5ffcb29d42f9cc77f68"
+  },
+  {
+    "path": "column-samples/number-icon-repeat/number-icon-repeat.json",
+    "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "78a695d3de8032b941e0a4f090c8e3b57afc84f010f7750b4c9c5715a3f83a0f"
+  },
+  {
+    "path": "column-samples/number-level-bar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0a6d72e8f157d506d6197f0b2ec1cae24c31769f4cd3cf7cfa7454c05bea82af"
+  },
+  {
+    "path": "column-samples/number-linear-gauge/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5f04a606204f580dfbd00b44d4bd4aa0d2d29828309b624af134bbe6b40f8d00"
+  },
+  {
+    "path": "column-samples/number-linear-gauge/number-linear-gauge.json",
+    "message": "Formatting schema: /children/0/children/1/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "b322daf9ff614f9cfe970e1854f45f490347cfd2f294152a98d662a84616a523"
+  },
+  {
+    "path": "column-samples/number-localization/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d8471596961751f9eb8fe70979caa07a1e0d0a9b2977c9a7ccf470085d8f3659"
+  },
+  {
+    "path": "column-samples/number-per-100-people-grid/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4f18ab57c7468357bbb719fab39fe9bc1737e51f76c940c37f7545e098759145"
+  },
+  {
+    "path": "column-samples/number-per-100-people-grid/number-per-100-people-grid-emoji.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "36072a631dde49107dedd5548cc903e08820fbf1240da8a9cdef1a9e540ceec3"
+  },
+  {
+    "path": "column-samples/number-per-100-people-grid/number-per-100-people-grid.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "2d3baac9758c5d37aa0813c201ab1cd5add4ebee9aea4aefd4501e1fcc3c6de8"
+  },
+  {
+    "path": "column-samples/number-piechart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "279172c0fc3db754728e90748959952b773a26dfa1b80041c3541a5c2986aba5"
+  },
+  {
+    "path": "column-samples/number-quiz-smiley-face/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fb1f1aed44ba42dc5aa2bc88004feee4dde24695f43b337ead50850dbb77ead8"
+  },
+  {
+    "path": "column-samples/number-star-rating/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f9c75251c1f2b43eb3bfa29a3e176b7ad6bba74301e377c3e36981dcc75efba4"
+  },
+  {
+    "path": "column-samples/number-trending-icon/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a2a0bdc85c4cc56133435c39e8c97de1c4c88078bc79d8fd70792841d6bd5e66"
+  },
+  {
+    "path": "column-samples/number-version-approval-button-drafts/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "eca91ff1ebecfb485eb0c7d73bb292a7f04637311654e3c6949d9f4a1fce96dc"
+  },
+  {
+    "path": "column-samples/number-version-publish-status/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e666f3712fc1ac707c86456a4dabfec8b83aa181dd7f52311406e089897f292e"
+  },
+  {
+    "path": "column-samples/number-volume/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1cba70270bacc88944acbc3b785e942f188690dcac4d15783bc6ab97fa5e925d"
+  },
+  {
+    "path": "column-samples/number-volume/number-volume.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must be object",
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
+  },
+  {
+    "path": "column-samples/number-volume/number-volume.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must be string",
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
+  },
+  {
+    "path": "column-samples/number-volume/number-volume.json",
+    "message": "Formatting schema: /children/0/children/0/children/0/style/bottom must match a schema in anyOf",
+    "sourceSha256": "d9e3bedf790513749df5e0b544548c9007612fb49c9953d6bc2476187c176865"
+  },
+  {
+    "path": "column-samples/number-zero-to-ten-rating/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "66af59fa6da63d8e1b355d4919b0c409e895dee063d2b0a9ad0043ef232bba84"
+  },
+  {
+    "path": "column-samples/number-zero-to-ten-rating/number-zero-to-ten-rating.json",
+    "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "401c3b5d9652db213a88ba8f83d39b5d0f7c2d7e0f8c1135d76c4130038bd350"
+  },
+  {
+    "path": "column-samples/person-assign-to-me/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e03f2158deb202d6f0ee59e297fe3d438e02e924412bb6d26a1591a820620640"
+  },
+  {
+    "path": "column-samples/person-currentuser/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9658ea68845ff88666652dda4b7fdd08a0228cc15472c1c839158ea0de119da3"
+  },
+  {
+    "path": "column-samples/person-hover-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1d341d10e82f20f5b1483e77be0932dfacf11c7bf5373a8f65777a472278910b"
+  },
+  {
+    "path": "column-samples/person-localization/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "99ceeda28cd8a961f3e13bfc684e3937130ac5fd3edbf177b447da9d32566ed6"
+  },
+  {
+    "path": "column-samples/person-mailto/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "333c33c8aba0595aa91932b605e23c604acb1a5443e0487746f72dca1ef70b49"
+  },
+  {
+    "path": "column-samples/person-name-avatar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7323dc8cb6158e081997b54099782fdf48f3e0ea880ef169ab4b9e81d2b14187"
+  },
+  {
+    "path": "column-samples/person-roundimage-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2ad99bd9a3c988ee5ab3a8848b210b85828f6c2341551ced593742a3b11afb10"
+  },
+  {
+    "path": "column-samples/person-teams-call-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "25b0abd30f0cd046af6b74f8024ce7a722a2714e2978787178a48e5556c02337"
+  },
+  {
+    "path": "column-samples/person-teams-message-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "42cbec1ab90ef0f993080546cc03c1f4ef7d3211d1e653be68a575c8cc6a27de"
+  },
+  {
+    "path": "column-samples/picture-roundimage-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f1be3bf7a8abebd675de1b59ac882302150aea19e6aff9c7fbef6aecf140f9f6"
+  },
+  {
+    "path": "column-samples/promotedstate-demote-news/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fa365663dbd373fc52ff5f8b1e7e161b601ad5840f8efc1ed51b1214b247aac9"
+  },
+  {
+    "path": "column-samples/text-bing-map/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "514a8cdf512c5af0206c21599fb3e7ce03fbccdff0a308608cafc7c786c80e3b"
+  },
+  {
+    "path": "column-samples/text-comma-separated-value-tags/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "63eb1d1d4ad8b66322e6178d682582a613fa7fc11993eb784d167bf0d29c0f57"
+  },
+  {
+    "path": "column-samples/text-comma-separated-value-tags/text-comma-separated-value-tags.json",
+    "message": "Formatting schema: /children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "911b48f5cc253a156fa34d135682cf22efc853c1883f84ee286edf0dff8f8474"
+  },
+  {
+    "path": "column-samples/text-conditional-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "54bad75b95fe8cd47c9483e4b8f2dada97ee4d4f965cacbda8783ee94923c1fd"
+  },
+  {
+    "path": "column-samples/text-contains/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ac16cfe22975696c9b51de63741c707ae48f7dff8548470b58799a293587d732"
+  },
+  {
+    "path": "column-samples/text-country-flag/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "eba31c529d2f1849926b2d789620d046da9506504f89de47ab74fa4bd583194c"
+  },
+  {
+    "path": "column-samples/text-course-registration/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bdd8e1a045f1c21acbb1885be3bf165911cd67c84f3880961e3cea78534e11f6"
+  },
+  {
+    "path": "column-samples/text-expand-collapse-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "57ef689b23be5747e9c3267cc80cc4526fa6cdc21a4fda1eee46bf3cca76e454"
+  },
+  {
+    "path": "column-samples/text-googlemaps-link/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d86aa1d40e023ee325443e92105dd9d7d7dd38ca6795e07899d4d728e21596c9"
+  },
+  {
+    "path": "column-samples/text-hyperlink-long-addresses/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "856898cae72208c627d0b0efece59a53fe746bc57bc5c58fd071d052a6e6336b"
+  },
+  {
+    "path": "column-samples/text-isbn-image/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d5f052f5f0de73073839d90d25ebb0c2e923a7181e312e949a5ffe7ad036a873"
+  },
+  {
+    "path": "column-samples/text-local-image/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "42a9bbc7369fa2bba0c80303e1536862a4b88626eacda911c2a869b7ff5bc6ab"
+  },
+  {
+    "path": "column-samples/text-local-link/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8daeb43c42c7e205b9ef319d039a4f0b1cebc8531857ba34de7b0944411f85c0"
+  },
+  {
+    "path": "column-samples/text-multiple-hyperlinks/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a430fc03146f769f827af7f401d0a7bf5e1798d365042fd8f67d9a46261982a2"
+  },
+  {
+    "path": "column-samples/text-multiple-hyperlinks/text-multiple-hyperlinks.json",
+    "message": "Formatting schema: /children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "d18536bac5f06ccc1297b12d865d345c74e492e6b60606a6c5eea35d43a5ceb1"
+  },
+  {
+    "path": "column-samples/text-phonenumber-teams-call/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5fda01eb38f0395c3660bac4c02dfca4a32750b692e28777abb320751ae1628b"
+  },
+  {
+    "path": "column-samples/text-qrcode/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "88344333f2b5f2c4171374a9775c368eabb402b1739d688b60b9a82a9d5a0d38"
+  },
+  {
+    "path": "column-samples/text-ryg-status-indicator/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "43f5ade0339b268027f00de0dbc36834be1d2260c69de79bbee51116e9181ca5"
+  },
+  {
+    "path": "column-samples/text-startswith-callingcodes/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a1544240f262f4ffe0c1565aa36c2a69c33e4986f612582366c8865c18939cd1"
+  },
+  {
+    "path": "column-samples/text-strikethrough/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c7150556cd3d6acee141354dc119bee456e42e429711997b425e8d6c61ee2807"
+  },
+  {
+    "path": "column-samples/text-wrap-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d6ce83c38e016c3f16fabce920a1d29dc82d26e0ad316745e6213b7a8c6f14a5"
+  },
+  {
+    "path": "column-samples/yesno-checkbox/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9caa9ab3263df54ac236ca942bc7b38815085aa208ed1cc5c835060271040b2e"
+  },
+  {
+    "path": "column-samples/yesno-checkmark/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7f2caa6a60f7692a157b7db73a8f9c2a753af09bddfe860b940b9976505e8f7d"
+  },
+  {
+    "path": "column-samples/yesno-checkmark-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e3faa521ba2ff8066227942914299fc75f6db08810cf4c0bd3ff162db86791c0"
+  },
+  {
+    "path": "column-samples/yesno-icon-color/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "92c9e4e53d8b950e2770fd37e7fa099364c3af82a74f9285fb41c4086a4b9d39"
+  },
+  {
+    "path": "column-samples/yesno-roundedfill-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7c80f560adca303522a17b04fc11e871a0dd3248097bababc26f0d3e17dc0917"
+  },
+  {
+    "path": "column-samples/yesno-toggle-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a920ca17600c17064d8de59e5e064ef13e539929d790cf565830915404e074ba"
+  },
+  {
+    "path": "view-samples/advent-calendar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "69033a1ee43d5fa29d892429728697ac5f22d07ffe6cc0ff8f7f91828d98c023"
+  },
+  {
+    "path": "view-samples/alternating-rows/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0610b38e3f3d1f98f5959c6e9c8aa17ee827da08c5c5c14324e7e45f539e9abf"
+  },
+  {
+    "path": "view-samples/alternating-rows/alternating-rows.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "060bacf2b9a2dc2110e9e916fb1b4b5f8a48df5476d9c19518a6ea9f44e72be8"
+  },
+  {
+    "path": "view-samples/announcements/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d481e4850d7a34b25119f8886787824450bfe519f8f334379574c6e254d023fc"
+  },
+  {
+    "path": "view-samples/annual-performance-review/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9e0cc96adaca9f588bc1bff4900c8ae1edd42be52bed2913d2bcd3a294e98f65"
+  },
+  {
+    "path": "view-samples/annual-performance-review/annual-performance-review.json",
+    "message": "Formatting schema: /commandBarProps/commands/1/key must be equal to one of the allowed values",
+    "sourceSha256": "79e25fdb79fa61f7e8c3eb8066e0edc252c97e167cf5398ea4c8d0ce37df3183"
+  },
+  {
+    "path": "view-samples/average-rating-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "77d4196c9a506c72a8f89c8772ddcef2bb7aab225195aa2044babe07f12a29ca"
+  },
+  {
+    "path": "view-samples/average-rating-rowclass/average-rating-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "ae328c11fe9e1695f24b6a5cc853eb83a6c6817b2763febe5227917fe6ac314f"
+  },
+  {
+    "path": "view-samples/bar-chart-diagram/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "83c35adfd9fec8713c5891f47f57787e4f1fc4f508159c01d43288d91b44ae94"
+  },
+  {
+    "path": "view-samples/bar-code/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "145ce56a5bed34cc6dedd2988cf179b0ba9c8bc0571714587e7bd71889277466"
+  },
+  {
+    "path": "view-samples/bar-graph/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ea88ab409fee598ea96302f4848c6abe5d27c4cfa6d0e7b31351661f753a518e"
+  },
+  {
+    "path": "view-samples/bar-graph/bar-graph.json",
+    "message": "Formatting schema: /hideSelection must be boolean",
+    "sourceSha256": "d0edfc1117d55fd2cb1811eb7d043d39f818296cb34c87b207a52ee6f07ac190"
+  },
+  {
+    "path": "view-samples/bar-option-picker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "36433e1f4ae9ef47c1f4383763f6275bb63d75153ea472be52c649c0342f6a71"
+  },
+  {
+    "path": "view-samples/birthdays/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7a1b78ec86bc19058d63e7756b2acfa09a096d3fa14fb5b1a63e573dd147dff9"
+  },
+  {
+    "path": "view-samples/board-tags/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0a3070cc2e293641ebf8b9f6c1c67ababbbf8a9fb6cec9ec00909da880b9f67e"
+  },
+  {
+    "path": "view-samples/board-tags/board-tags.json",
+    "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/4/children/1/customRowAction/action must be equal to one of the allowed values",
+    "sourceSha256": "8b1876fefa2f465e85c800f1b483d31cf7307e590f242a1d73c7e2c4568d086e"
+  },
+  {
+    "path": "view-samples/board-tags/board-tags.json",
+    "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/4/children/1/customRowAction must match a schema in anyOf",
+    "sourceSha256": "8b1876fefa2f465e85c800f1b483d31cf7307e590f242a1d73c7e2c4568d086e"
+  },
+  {
+    "path": "view-samples/book-template/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6241e042bde36044ed1d727b545dee3a663df32632c9c01844a4cfddc8e808ba"
+  },
+  {
+    "path": "view-samples/bookmarks/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bbd8d2e72bdb1daf46e5dd3e78374274c475a1d5b9dce979b3985f574803aec6"
+  },
+  {
+    "path": "view-samples/budget-tracker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f884534cf257df1e5de80cb91cb346ae8c83ff74d1e17dbfe14911b0dff99939"
+  },
+  {
+    "path": "view-samples/bulletin-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3bc5979cdf6762284e4275fa68c072634507d9bcf563e03f3a2aef4426df7366"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
+    "message": "Formatting schema: /rowFormatter/children/0/style/padding must be object",
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
+    "message": "Formatting schema: /rowFormatter/children/0/style/padding must be string",
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board-with-buttons.json",
+    "message": "Formatting schema: /rowFormatter/children/0/style/padding must match a schema in anyOf",
+    "sourceSha256": "1b78cd4255768fc25b81bdd611e629c3719cdad62bc5f2951d757a0f27b25882"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board.json",
+    "message": "Formatting schema: /rowFormatter/style/padding must be object",
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board.json",
+    "message": "Formatting schema: /rowFormatter/style/padding must be string",
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
+  },
+  {
+    "path": "view-samples/bulletin-board/bulletin-board.json",
+    "message": "Formatting schema: /rowFormatter/style/padding must match a schema in anyOf",
+    "sourceSha256": "618adbd58b76b56e051fda1176b3582baf5417856cf1bc56c87f93d33f7de567"
+  },
+  {
+    "path": "view-samples/butterfly-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bee8ab624352e6e5bf8b64a8ecd2240806a4552e1fb8f5696706e967f9b9690f"
+  },
+  {
+    "path": "view-samples/certificate-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c1c876cd413329355e889fc6374370f77a6bc8a96480eb87e66bcb03a2515c78"
+  },
+  {
+    "path": "view-samples/chevron-shape-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e0f9cdd5e1730c7aef80230341e0e10b20da15499af40c67083248131b1cf353"
+  },
+  {
+    "path": "view-samples/chevron-shape-format/chevron-shape-format.json",
+    "message": "Formatting schema: /hideColumnHeader must be boolean",
+    "sourceSha256": "51125b5470982f12df7927867960707505e360d7a9a175a6507a1bf039d3cf02"
+  },
+  {
+    "path": "view-samples/christmas-tree/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9ff2ab315005b3cefb4b8e7bcfddd7f8da4ef5d6d509c78a93e7095e5055be82"
+  },
+  {
+    "path": "view-samples/christmas-tree/christmas-tree.json",
+    "message": "Formatting schema: /hideColumnHeader must be boolean",
+    "sourceSha256": "0ceef43417381e45a74223becac3259db8085868c46d80451d876f55f5e125d5"
+  },
+  {
+    "path": "view-samples/chronological-items/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1a9b7c3615978e0c6e72702e7754e625ff6035286af6d7d0c215c026210df07b"
+  },
+  {
+    "path": "view-samples/clipboards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f7eee9555f00f5490f4dfddaa1b42e59f343d6ad203e5516f8000ca69e39dca0"
+  },
+  {
+    "path": "view-samples/clipboards/clipboards.json",
+    "message": "Formatting schema: /hideColumnHeader must be boolean",
+    "sourceSha256": "5fccebb62523f5f9cc9503a8e3a91bd9fabcc070f5a4154c4a3d53d542decde8"
+  },
+  {
+    "path": "view-samples/color-picker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7b6014bd1f8a9c607d15696b596377dd02ec82e5ddcaec81ebaa2f6d13cc8494"
+  },
+  {
+    "path": "view-samples/column-graph/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e781c502acde4915d90f738f08d0cae02055e38a6bedb3a70fab58b005af9fa1"
+  },
+  {
+    "path": "view-samples/column-graph/column-graph.json",
+    "message": "Formatting schema: /hideSelection must be boolean",
+    "sourceSha256": "495ad8429519b82d57bea6a43faff01b4c1ddde5f15155178bfccae3fe6122cd"
+  },
+  {
+    "path": "view-samples/commandbar-display-edit-in-gridview/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7b1b933d490d8bea065148b612d5c4b832639bbff04dfce24ecff8c37b885f0d"
+  },
+  {
+    "path": "view-samples/commandbar-hide-all/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9478ada7660eab06416f3bf0c6913a131d941a8d8b6088ae435e3e9a0f37fd45"
+  },
+  {
+    "path": "view-samples/commandbar-hide-all/commandbar-hide-all.json",
+    "message": "Formatting schema: /commandBarProps/commands/9/key must be equal to one of the allowed values",
+    "sourceSha256": "5fc4c63a00bf334b6b9ffc91ba024b56f35d2f1360ff62d5d2877bb7e8d8020f"
+  },
+  {
+    "path": "view-samples/commandbar-hide-automate/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "63a7ebcb7fee49525ca0be37153c5581abf77752903c22dac04efc03f900ac59"
+  },
+  {
+    "path": "view-samples/contact-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "043bca45fe5a197b4e5c03d98297298ee3185e787a6180584c45d7e928d01b1e"
+  },
+  {
+    "path": "view-samples/contact-custom-avatar/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "25983b24c27da3c6deefa06376ee8724a1d9a27a91accc0a6a1dabff65c56677"
+  },
+  {
+    "path": "view-samples/content-navigator/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "117bdd3174713c511d57cd3e0a62306aa16398f2f8d5b3824129553d39e48c24"
+  },
+  {
+    "path": "view-samples/content-navigator/content-navigator.json",
+    "message": "Formatting schema: /rowFormatter/attributes must NOT have additional properties",
+    "sourceSha256": "b303b3f006ead3e09f3318f43e8b1410dc9ee88818eefb03a2874cd5faf1ebb4"
+  },
+  {
+    "path": "view-samples/contenttype-variations/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b54a6c16e9bac4595b4fb5e7459d691c8b7539fba08b8e2ec4bb97781ed6aa49"
+  },
+  {
+    "path": "view-samples/course-training-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5ccc0a7b2bb16199cd3f28e7f28e362e633b150f5542b81865a8f82a8f9d899e"
+  },
+  {
+    "path": "view-samples/course-training-tiles/README.md",
+    "message": "Review prerequisites: no standard requirements heading detected.",
+    "sourceSha256": "5d59af32191a878b79c0dd103a13d246ed383e1e77e9de113e3eb1aef23cf82e"
+  },
+  {
+    "path": "view-samples/credit-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "cbed30d73b9caa942201bc0e936f931b67938e0642269f66fbf47e0302dd852f"
+  },
+  {
+    "path": "view-samples/current-year-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "077693bfad9d011d695bac68b59f88006993b3f857d5bf5f0d27fe8e43336544"
+  },
+  {
+    "path": "view-samples/current-year-rowclass/current-year-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "3d5e837237141dd9b80da1564b4bfe713083515d6083ef407296757cb642bda8"
+  },
+  {
+    "path": "view-samples/currentuser-liked-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ee11cb3e8d5a44b26d87f168de5532bdf395a39e2d43479e7428d60bc7a1214e"
+  },
+  {
+    "path": "view-samples/currentuser-liked-rowclass/currentuser-liked-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "db67d0185844d6f6d4f8a9116786d09d1fe48d24c1b2efd3760923e8b7d1b4f3"
+  },
+  {
+    "path": "view-samples/custom-charts/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2dfa59af365d0e6a8610283b8fcc78bdeaf3147f84f0860a9b9e811b82d33c96"
+  },
+  {
+    "path": "view-samples/custom-charts/Line-Chart-Large.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/2/children/0/attributes must NOT have additional properties",
+    "sourceSha256": "87e6e4a0df7ce5bc95e2911908b966c90e1e80486de49cc6003afb924bb57371"
+  },
+  {
+    "path": "view-samples/custom-charts/Line-Chart.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/2/children/0/attributes must NOT have additional properties",
+    "sourceSha256": "b96ff42f11016b624638fca0c3b61d9f03c75a67bd6ac6fdb1feddb9fce4f673"
+  },
+  {
+    "path": "view-samples/custom-charts/Radar-Chart.json",
+    "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
+    "sourceSha256": "d882ca207872e03d4532175cac4d79e7d442cdfd781857c3a34c2b549fd1c71b"
+  },
+  {
+    "path": "view-samples/custom-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3b01cb9d3708b7d63be8a962b071c1ba96d07cb0b2278648bb92bf6593516b05"
+  },
+  {
+    "path": "view-samples/custom-hover-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "37f1f10d0bc3b11b1cf61f9bf0e4d117cff83dcc539acc92a81d67f91df3fa2a"
+  },
+  {
+    "path": "view-samples/default-hover-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ac79543a470096548a725781e5f5efc7298cf2d9792a15bc5b563884cb446984"
+  },
+  {
+    "path": "view-samples/department-members-list/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bdaae9f37f9d86226f5598171e4502a5185aaf7369c7b0e0955edb8b36017380"
+  },
+  {
+    "path": "view-samples/diet-plan-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8169cc483602343a93a8e14a1fdbcf78b71195e5ba6503a295401bb552312c86"
+  },
+  {
+    "path": "view-samples/diet-plan-card/diet-plan-card.json",
+    "message": "Formatting schema: /rowFormatter/children/3/children/0 must NOT have additional properties",
+    "sourceSha256": "053b2b58c4c48c4001607fe8b4e32dbcf40f56fd0452618e4710016c9ed0af02"
+  },
+  {
+    "path": "view-samples/disable-click-action/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ea42854847b7536b2b1c91cad7368c7bd91a420799b41e32f25470a53cee4854"
+  },
+  {
+    "path": "view-samples/disable-selection/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c01e14087b875b4382ad5f9570df73076823844dd16dc2e07bc31e9e27125a61"
+  },
+  {
+    "path": "view-samples/discussion-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0ba39c7ff9fb4fbc46780a5fb3c4b01b3bd2409138766a0e658e5822ef80d3e0"
+  },
+  {
+    "path": "view-samples/document-library-gallery-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "86c8763398fe27ef0d376bcb14d65063ee5cb5ef753e38abb243b21cc55cc4f0"
+  },
+  {
+    "path": "view-samples/document-library-thumbnails/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6e1f1b52cf6f10f209e6a67288c01254a7b5ff66224ac2b7e84ee5f021e15791"
+  },
+  {
+    "path": "view-samples/elf-progress-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "53d6e3620e776d85a967b143c81a2677e46cf716604ea485734acd7da1ea17cf"
+  },
+  {
+    "path": "view-samples/elf-progress-board/elf-progress-board.json",
+    "message": "Formatting schema: /formatter/children/0/children/1/children/0/children/0/children/1/children/0/attributes must NOT have additional properties",
+    "sourceSha256": "9af331e7f0a4c1af82cba858590ab4d51c28b05be71738db80153b679d934603"
+  },
+  {
+    "path": "view-samples/emoji-link-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "49332282df3621b35cc9ad109fb3dc2abc1d67aadda08e16e097387a23ee888c"
+  },
+  {
+    "path": "view-samples/emoji-reactions/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "112e226418e70229f5d8418f3a4bc80164a3ed61981e74e02b71d1e27d22d4bc"
+  },
+  {
+    "path": "view-samples/employee-onboarding-steps/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a409057bd0a7f3ccddf1f701bf0ea11e592babdb477701e43a3d7f041da3a6f8"
+  },
+  {
+    "path": "view-samples/employee-onboarding-steps/employee-onboarding-steps.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "d97def1070649378aa439767fd6c1f24b92669b7cca530f702671a4ec98868c1"
+  },
+  {
+    "path": "view-samples/employee-recognition-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "36d385bf848550845d0f53e85b8caacf507d9241210cef1f707e5e98d0bd7d16"
+  },
+  {
+    "path": "view-samples/event-registration/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c1c31b7e9083d6baf6b56c99a219e4ec0a9731a36530370e65249522c78b86b1"
+  },
+  {
+    "path": "view-samples/event-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d4c01f67452ecdd654b0ff8b712a89ca4dd3008fad2a4426d018c35ad5bea309"
+  },
+  {
+    "path": "view-samples/exam-bundle-tracker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e410e4cc6a7b11dbe88e3692febd0c1df9c6f9434635c0160778ac21cfaaf402"
+  },
+  {
+    "path": "view-samples/exam-bundle-tracker/exam-bundle-tracker.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "c117f0433f0de0794a96959557590bf5919794f83607bbd519ff91e9b438a970"
+  },
+  {
+    "path": "view-samples/faq-accordion/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a1f9aaaaaebcefcd356039b5299adfa15fb1e4878f38a8d97e1ffdb6ed7edd47"
+  },
+  {
+    "path": "view-samples/faq-grouped/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "80c794c9dc36e090e44c4db907c16403fda69d69d8b174f90d678da3ea8623f0"
+  },
+  {
+    "path": "view-samples/faq-grouped/faq-grouped-full-width-answer.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "c7a1b0c5be79ade4113be938ad63b7b791a925674d3bca98b954e1874d88ec59"
+  },
+  {
+    "path": "view-samples/faq-grouped/faq-grouped.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "aeb9d5f0d261df5b311110a3e506754709761d5244fe60eecbeb9a078bfe5e72"
+  },
+  {
+    "path": "view-samples/faqs/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "70101c291364ae3bf3dfb4e2e42e77040b179aa473a6096738623b836351b6dc"
+  },
+  {
+    "path": "view-samples/feedback-sentiment-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8ab028543d0e1a15498d9becf47178681a593e6b50f4f1059f927e6651f6d2e7"
+  },
+  {
+    "path": "view-samples/flashcards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3e29b6a70926f6779d009fe0fb5aeabff4fd694a1fc044d66afe9c57e12316e5"
+  },
+  {
+    "path": "view-samples/flight-boarding-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b61a830ff805fcd6cd404225175edcedd7e6c1186b0f0128b4097fa7835f3ee4"
+  },
+  {
+    "path": "view-samples/flight-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "283d42cd4fffc1377a6b9fea9be81bbbb553657c7be05ea40595e10ac02ca719"
+  },
+  {
+    "path": "view-samples/flight-card/flight-card.json",
+    "message": "Formatting schema: /rowFormatter/children/0/children/1/children/3/children/2 must NOT have additional properties",
+    "sourceSha256": "e3fc03d13b9d8a7fa60bf04c1e6752440fdf0b263ffd758b095fdad07ff0cdd6"
+  },
+  {
+    "path": "view-samples/funnel-chart-tile/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fff1f12950887f76e10b4b54cc8f09d576ffd972c4420dbfa5cd9c2632eb0ba1"
+  },
+  {
+    "path": "view-samples/gauge-aggregate-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2bc2bcb09990c92802fdee4617d644e2744ef02ee37593b12180b2bd7d0edbc9"
+  },
+  {
+    "path": "view-samples/generic-numeric-average-comparison/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "44ed66ff8df9b5d098a734703cc33fe6b7357b95d8bdb92ea3f523801520829d"
+  },
+  {
+    "path": "view-samples/generic-numeric-card-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "94ec32e6e971d917d79cb295d8144e4f66bb5d8d236f0146a35401138a8eec70"
+  },
+  {
+    "path": "view-samples/get-video-file-embed-code/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "baa60242b084acf06fc83042b8c39a9a80305be30b3f0e619af031dd4ef4c409"
+  },
+  {
+    "path": "view-samples/glossary-dynamicfilter-view/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b56519a1415ba702684200c6f1d4e780b664cf68488bf8a9a418859f5dbb5545"
+  },
+  {
+    "path": "view-samples/group-header-color-itemcount/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9cba5160498828d612f38fa97b7813636c2bdbb7a3e9e014d9c8c118f8d517bc"
+  },
+  {
+    "path": "view-samples/group-header-remove-column-name/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7fa07ec59c3d263cebf2b505064e99d5bee453ccdf3bd324c0478cd1acf17bbd"
+  },
+  {
+    "path": "view-samples/group-header-status-icon-color/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "27805ab0ffa316874d03a5bc7a98e7696d32c9c0be2258115bf1087b40daeed9"
+  },
+  {
+    "path": "view-samples/group-header-user-picture/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7bfefff313a2844caac042ae1a687fc3a68cd80fdbb2bbfc30c1b22a6e99d1be"
+  },
+  {
+    "path": "view-samples/group-header-user-properties/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "dd7648d6f438a0ba99979253c5dc83234ab0e1823f66249393495739d48c46a6"
+  },
+  {
+    "path": "view-samples/grouped-accordion-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "874e736b94342f08a9b279bf11e7e322c587aea99b6a02568cb721356cd88e4e"
+  },
+  {
+    "path": "view-samples/head-of-bu-overview/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ee48637f01e747781e49e870d7448d7038ad9c2bfdee0eeb5fe4d1bfe6f7d9fc"
+  },
+  {
+    "path": "view-samples/heat-map/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7bcf17f329dd3e0adae7c5d1468bf1a308f4b0a664809d70a1d3ed0b9707176b"
+  },
+  {
+    "path": "view-samples/highlight-rows-current-weekday/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1ff3fc2480aac2d9a6bd651b647c9a834db17ea160d61007c634ffb7f9348660"
+  },
+  {
+    "path": "view-samples/highlight-rows-current-weekday/highlight-rows-current-weekday.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "206128659216c4c91c3a5acd1ee62442aeb144ebc3a0b25e1896e024312f977a"
+  },
+  {
+    "path": "view-samples/highlight-selected-item-rows/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2366aff3971dfaa197398ab251b8c4e4b5247c12d3abf3922852eaaac2dd5c16"
+  },
+  {
+    "path": "view-samples/highlight-selected-item-rows/highlight-selected-item-rows.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "c2128d26e7899b43748e7c766c1a8800165e2e7bad59c8af2a8ef1bf8a95fc99"
+  },
+  {
+    "path": "view-samples/highlighted-announcements/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3891e937447624a518f8bf1cd1def12623fc418c316ba940baea48f8910972b0"
+  },
+  {
+    "path": "view-samples/honeycomb-link/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3f6f04d869f8915212a0da387d09abb70dae2f70436bd0f14cc38ce880685b28"
+  },
+  {
+    "path": "view-samples/horse-crests/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "40c921753997c655593dd14c4c1ca759cccd777a82ef8d88ea9746e71936d655"
+  },
+  {
+    "path": "view-samples/icon-link-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "068b315d4f98dfd1646eda28d55bcb72c0142388acf81268cf3db50cc31fc503"
+  },
+  {
+    "path": "view-samples/image-card-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5b1f7b3e2d0ff2d2351be95f463c9182cea0b707c810199680d4d713a19cc1d8"
+  },
+  {
+    "path": "view-samples/image-card-tiles/image-card-tiles.json",
+    "message": "Formatting schema: /height must match pattern \"^[0-9]+$\"",
+    "sourceSha256": "c5303693016ab142794bd380895dcd457e63bcb67e1457ad70019df9539fae1c"
+  },
+  {
+    "path": "view-samples/image-grid/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2d2b4b0f795c98b121747fc82a7da31a1ba8824ea3f394c1c939f3882cb0e61a"
+  },
+  {
+    "path": "view-samples/image-overlay-buttons/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c7faf3ec26a12a916c5a0f95fd636e830ad3aa987be8188f9c373a453afb2913"
+  },
+  {
+    "path": "view-samples/image-slider/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "856c2ae745527ec31e6957edae65551edf5bf11c49afa84a65a28f2cc3de98c0"
+  },
+  {
+    "path": "view-samples/imdb-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "413ef20dc3e46a66ad873b1e5dd2961956e4f9c21498c23f386f76a3d87ea37f"
+  },
+  {
+    "path": "view-samples/in-memoriam-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1d0b27fed296ca7ef723eaa7c2452b7e54cdd2b8433f3bcb006b238c5998cae2"
+  },
+  {
+    "path": "view-samples/interactive-content-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "aceab53649a7ce013ac695a8f5784c7205862f63420554c8a7afa40768f2b252"
+  },
+  {
+    "path": "view-samples/internal-cv/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "0f9e275ccaf90344e5c007c2eec423cbd73a9ec0b6151e7fb878bc9f4c137ecc"
+  },
+  {
+    "path": "view-samples/internal-cv/internal-cv.json",
+    "message": "Formatting schema: /formatter/children/2/children/2/children/8/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "6258167a84f3da6f41ec8bbee5498d9ea8a09aa004fe57cbd6b6ff00bf6242a3"
+  },
+  {
+    "path": "view-samples/issue-tracker-planner-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d96a771f938a48cd95c0fe5fc21a92174e098ead82c66f11424e6278d93e2f97"
+  },
+  {
+    "path": "view-samples/issue-tracker-planner-cards/issue-tracker-planner-cards.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "ab115129621d604bf782e246f576a211f90d75c13ececa2c54757c61fa729407"
+  },
+  {
+    "path": "view-samples/key-dates-timeline/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "dde5fb7403e0e3ff62593e9d215b0902cfeccebbc5c72c4b6d99b18c4b4a7634"
+  },
+  {
+    "path": "view-samples/key-dates-timeline-checklist/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f7c1623307338dfb138f9a1877227e204dd1e08a95f19e40c83e6b2ea09957bf"
+  },
+  {
+    "path": "view-samples/likes-count-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "54f47f2b0dc8d04ea081fa9ee933e6fa5c80c5d8497608171bcde5ce58e3cc85"
+  },
+  {
+    "path": "view-samples/likes-count-rowclass/likes-count-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "fd62b190c821e68f309c2557352b8724b9ee0f9b0bb1c50b78535186a97a74f3"
+  },
+  {
+    "path": "view-samples/linkinbio/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "742cbc17398c93929459a222a0ff11f475289d50b229c59b26a6f71bba90e4ec"
+  },
+  {
+    "path": "view-samples/linkinbio-instagram/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d817b8168c071231c02bcd18a8d33c7c7060be2c712d5a68cc08ba039f4fece0"
+  },
+  {
+    "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
+    "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must be object",
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
+  },
+  {
+    "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
+    "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must match pattern \"^(?:[\\-+]?\\d+\\s*[\\s,]\\s*){3}(?:[\\-+]?\\d+)$\"",
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
+  },
+  {
+    "path": "view-samples/linkinbio-instagram/linkinbio-instagram.json",
+    "message": "Formatting schema: /formatter/children/2/children/5/children/0/children/0/children/0/attributes/viewBox must match a schema in anyOf",
+    "sourceSha256": "0d58ea1c331b570e04444bb23ed8f7e9607d1bae49b866e4f5ed55d092b32147"
+  },
+  {
+    "path": "view-samples/london-tube-status/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "05f8482da10da0ec5b57fcbce95e2c5a9fc66a58cc2ab9974ec1f3579fc2c8f4"
+  },
+  {
+    "path": "view-samples/match-score-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "406cf3992e7577e6ba2f8aa68c97ed46b8e62a99c043e04fc6878edb705fc682"
+  },
+  {
+    "path": "view-samples/menu-link-button/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ebe7439aa17e40b255756a01e22b089c3171283a84aa5eeb40ecc80483709cfd"
+  },
+  {
+    "path": "view-samples/menu-link-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e3b6c9655eadaebbfa2a55bdf66aed525520c13b7d29aafba0a2c0faf3c53186"
+  },
+  {
+    "path": "view-samples/menu-style-list/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d7f4f8d7cd227e12ba7977ff90b4bcb224d13bd94f8255220522ef49ab1f3ab0"
+  },
+  {
+    "path": "view-samples/message-chat-bubbles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "35311bc5583f82408fb77ad7d250b637a79e264b4290c7db5f297eafc60c01c3"
+  },
+  {
+    "path": "view-samples/modern-event-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b00b1b136d70002beab179505f82d42883c8d300b022ae059bc78108264de3d1"
+  },
+  {
+    "path": "view-samples/movie-ticket-stub/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6726891ed50fabfda7810ae66e12e5bc6a24f16265e39d1f4d74b15d19797f95"
+  },
+  {
+    "path": "view-samples/multi-choice-links/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d3ee92ef62b7f3d8bfb715be426d0168c08f46c0fb5bed149cea097d02ee8af2"
+  },
+  {
+    "path": "view-samples/multi-line-view/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9b9e16230bf518459545ca1b57521b368458753f995971b014e1fb248d170317"
+  },
+  {
+    "path": "view-samples/multi-person-currentuser-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "86f82c0d9b115d3e5a8b95a6ae8cab0454ed581c50cda46edbe38d258ed19ac6"
+  },
+  {
+    "path": "view-samples/multi-person-currentuser-rowclass/multi-person-currentuser-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "8e3e8fdb67029f7a28083d2da3a37ce868cb31474a1b756cbf7d87595e1d46ce"
+  },
+  {
+    "path": "view-samples/multi-person-displays/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "26f6ef87ac180449a6201e4f035689adee22c71d5e2f86127ee4bd30d96e15b6"
+  },
+  {
+    "path": "view-samples/multilingual-quotes/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4d75776369b35c99f3f4fdcf2764e504f11d46585250e93fcbe5cfd091dba1a6"
+  },
+  {
+    "path": "view-samples/numbered-list-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5680a5eb9259b06d4b0d1638000df2d855b3b27f48b2d8751efc632aeefe15d4"
+  },
+  {
+    "path": "view-samples/out-of-office/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "977a4015a844259dfa52f565ba361caf607db0228963333e95c1610bddeaedb4"
+  },
+  {
+    "path": "view-samples/overdue-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f55faac3f79ae3ce519dfcb89ac8bb5ccfbdb3ee8103e9a974f6306c9820f750"
+  },
+  {
+    "path": "view-samples/overdue-rowclass/overdue-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "784810f4aebe73624e5a24545d77a5049dc3ed5622cbe34dd4573e500ec90df2"
+  },
+  {
+    "path": "view-samples/payments/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "70e36a496bdd6767f67dd3abd94f4eaecc87746232e2fcd8ed30bef64b1016f9"
+  },
+  {
+    "path": "view-samples/percent-chart-format/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7cd087ceab35c1722f21b5714e2d3c3f512801550dbcee5b6eb5759936a0cf05"
+  },
+  {
+    "path": "view-samples/person-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1b99ad082468c83d0e9ec51593cf3d3df5a4b6ef4f63f5aca45e2acc4c9abf3c"
+  },
+  {
+    "path": "view-samples/person-currentuser-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "db1f385e1a1ff3aeb4ec319b52e27a5bdb26de07d7a7b1bce6b30fa2f314610d"
+  },
+  {
+    "path": "view-samples/person-currentuser-rowclass/person-currentuser-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "ef3f340741dfd280bab25a764d3a6b9c641faaa8dd86a366721c49333577afb3"
+  },
+  {
+    "path": "view-samples/person-quote-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "655c61f00bd7e8334cb9d77cd65fda8f5b696108f47ae313947213ba3d1a3338"
+  },
+  {
+    "path": "view-samples/photo-gallery-description-link-like/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "03489418419c0dc8d8e2bf69c1b0e38cc5b62e56c9bb025904e6af81addb5d50"
+  },
+  {
+    "path": "view-samples/photo-gallery-with-likes/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a3c4abbad3fe660f61bb5a6027b5bf1286f8b062a67d2f8ea6e57ee419ce9f19"
+  },
+  {
+    "path": "view-samples/piano/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "704b20302b9f73564883bc77c6215a6733633db9b36ec8d1393aca867d6d4dcd"
+  },
+  {
+    "path": "view-samples/picture-link-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c5ea11c28f9ecebc7ac9acaed3f626807583d19b2e59e69ca0efda0fd0c23c28"
+  },
+  {
+    "path": "view-samples/picture-link-tiles-collapsible/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "34371a3f4cce4c2a1689648934bd6970b6bf6be28a5462204bb148e741fe5d61"
+  },
+  {
+    "path": "view-samples/picture-link-tiles-collapsible/picture-link-tiles-collapsible.json",
+    "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
+    "sourceSha256": "58586c8174cabf07f21c5c3d652bc4b79e87e3dc7cf9d72bf925889360410393"
+  },
+  {
+    "path": "view-samples/picture-link-tiles-doc-lib/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "03f6e11cf8491da5facf8ea3eef8d1b11b26176e83e4b8af4691c605dd33a6e7"
+  },
+  {
+    "path": "view-samples/picture-quick-links/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "98259b6d9a94a717dbbb60c4e2254ebd6c10f90e24768b4c5c88693760c4c49e"
+  },
+  {
+    "path": "view-samples/planner-inspired-task-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "98180625ad9e7293937ec34154665f62db9778d3ea7bc91053c84f77479f2e6e"
+  },
+  {
+    "path": "view-samples/praise-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ac401d224a30763ab899681d6d202367cf9307c54b9459953b316d3540d3933e"
+  },
+  {
+    "path": "view-samples/pricing-table/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7a02b3cecc3b8c496409795469586ed6144e6b5e763e092b2217a5c7210afbc2"
+  },
+  {
+    "path": "view-samples/pricing-table/pricing-table.json",
+    "message": "Formatting schema: /formatter/children/0/children/0/children/1/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "ba8bbde436837468e14bba916a06f0c496c9740c5882d215ed6eb3ca6f83f34d"
+  },
+  {
+    "path": "view-samples/product-catalog/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8a315e7e4239756013aff80cd1bb859c7e01b82d218af83eb516ae0c41ab25e4"
+  },
+  {
+    "path": "view-samples/product-gallery/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b944068091f344c58f1d05eebdcf7f096a2e8507a78df08480df38a0c9e04c47"
+  },
+  {
+    "path": "view-samples/profile-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a54213b4740ea62f58c023ae397cf9334ddebbbfe25431d0f20e991d5715430d"
+  },
+  {
+    "path": "view-samples/project-gantt-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "11b952969e13c9e4c2f7778011cb1dc927ffa82ea4e993382d744f52197f72c6"
+  },
+  {
+    "path": "view-samples/project-health-dashboard/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d561f8fbae798f39ef076b91407f600fdcf18d67edf0d95e71bced732df2d5c5"
+  },
+  {
+    "path": "view-samples/prompt-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a3e7343d0bce9bf8250b1d009aa72cce516dc690a2a365735b193fa4b2afe1f9"
+  },
+  {
+    "path": "view-samples/property-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "e95798089d82773cc2ad9e8eba53597def56939e855338917322906a347d3073"
+  },
+  {
+    "path": "view-samples/qr-code/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d621c67f4d08b4a3da24bfa39a9db431a7d5fa69f6ea59df3c693c1736838edb"
+  },
+  {
+    "path": "view-samples/qr-code-tile/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a25b6d2f3cb3659f139ae5dbcf19b09176601e4d85823c03a900fbbd1cddd743"
+  },
+  {
+    "path": "view-samples/quiz/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9452545723936e50c40c9d8d99632c49fdf0aeb6787d42d7535df5b270727f93"
+  },
+  {
+    "path": "view-samples/random-item/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4c6d9ad8385402a226a7f0df24bbf9ed83a01b7cf8943aaa32cbe7b91df5d91b"
+  },
+  {
+    "path": "view-samples/rating-in-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "684d68bff4184f2447abefd6449f9b28d0f71170233840108faf22efe723a90b"
+  },
+  {
+    "path": "view-samples/rating-in-tiles/rating-in-tiles.json",
+    "message": "Formatting schema: /formatter/children/1/children/0/children/0/children/0/children/1/children/0/attributes must NOT have additional properties",
+    "sourceSha256": "96b16b6aab9bd7e3044f6df3225348dc4443472c9dae2496cdd5748f3889fe33"
+  },
+  {
+    "path": "view-samples/recent-comments/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8cfee70e129ae539819c5ee4300230732e6493191e7902176a4454c130361405"
+  },
+  {
+    "path": "view-samples/reorder-expand-board-items/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6b75cca48e5a1db94850ccec3e3cb698f11839a8bc79326581e6471643e9d6c7"
+  },
+  {
+    "path": "view-samples/request-sign-off/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b1566937d354d652490e63d6354e785ce949967db1a4459417b2ebeb813da83b"
+  },
+  {
+    "path": "view-samples/resource-catalog/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "042fa005fb7741bde44b90486352a1d30b375368aef310ecb8dc72a53d1fc8b0"
+  },
+  {
+    "path": "view-samples/responsive-people-profile-cards/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "463fdf79764da887c88b4f9ce8331c1eeabf56d1bd5f458d52c1d20a327fd3d4"
+  },
+  {
+    "path": "view-samples/retail-accounts/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "cb60a73762e64eaf41f8bb23fa5669a3aa14a4204a662cdc3df6158bbe53de9c"
+  },
+  {
+    "path": "view-samples/risk-score-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "347b7bbef0e68570471fe61af7f5de2859aa5f7baf3ba6762ebc9c385e566eb7"
+  },
+  {
+    "path": "view-samples/risk-score-rowclass/risk-score-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "59c5284a5ada55782bb4ac3895e7699f36188b6784761095a2136391392e2fdd"
+  },
+  {
+    "path": "view-samples/roll-dice/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "22f9d9405cf9ab6cf327d66c5118cc1698c65ea14a74910a5de44243dd4d5bdd"
+  },
+  {
+    "path": "view-samples/rota-css-table/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "f23afd1f578263aedbced405beaf5cd651231c349348e8a866c5d178ca6666cd"
+  },
+  {
+    "path": "view-samples/ryg-status-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6b5006e0d471774205a9f3a0376637642a432bd92177718c9ff7ef325e68a4e3"
+  },
+  {
+    "path": "view-samples/ryg-status-rowclass/ryg-status-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "0ef4de68dff24f31c646d64b9b19bb08e7480b51ec18cec89ab14b5a4a2c0685"
+  },
+  {
+    "path": "view-samples/search-page-link-tiles/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "1e0075edf02cccbfde668773fd150222adcecc0e7f6c3c7e64231f40a3828009"
+  },
+  {
+    "path": "view-samples/search-within-tags/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "af291bb4beb2a48a84c41a7f6c989cdc96095e2c2dcccc57df12210885c6c78c"
+  },
+  {
+    "path": "view-samples/shopping-cart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "777808ae7f23bdfc1dc26579ec7df3344194af9beae308a10957bc63c0260691"
+  },
+  {
+    "path": "view-samples/speed-dial/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "3c801516a86b9b57a49c51c826bcd6808a405876dfd4875382e33d1e4cc6a5df"
+  },
+  {
+    "path": "view-samples/sports-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "520750e0b18e6e5476755e026a901136f768cbb6c3562df92aefe68b30e1b721"
+  },
+  {
+    "path": "view-samples/spotify-now-playing/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ab3ba89bca80706a1bc032193f1963daefc5798b52e0d6dd9cb8d88972babf38"
+  },
+  {
+    "path": "view-samples/spotify-now-playing/spotify-now-playing.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/0/attributes must NOT have additional properties",
+    "sourceSha256": "bc572be5c9ba0581515c8758eca7f73162e7758a1277a2032c7a8948ef97d98c"
+  },
+  {
+    "path": "view-samples/stat-comparison-chart/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8f8fdaf4e2a81ebad0c747b01fd0a80be01d3c975fafd79e7449ff3a1c26eca9"
+  },
+  {
+    "path": "view-samples/status-blocks/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ec9bca371ef66a4f92b11a5f28e2dd82cf3df1465fe831f81e59d9efab8acab0"
+  },
+  {
+    "path": "view-samples/status-rowclass/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "32ed8accb5fc0612ec17c246e734abb68b7344900507b817ed80d28540426c34"
+  },
+  {
+    "path": "view-samples/status-rowclass/status-rowclass.json",
+    "message": "Formatting schema: /additionalRowClass must be object",
+    "sourceSha256": "6cbe48c9e01c78f44afb21fbde5cbad151838a4674bc7ef7323ac545a31a0037"
+  },
+  {
+    "path": "view-samples/sticky-notes-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2c4ff4749b3b47d78b9972533103e5a4a5739f5e67ca0807028ae221caf2ef4f"
+  },
+  {
+    "path": "view-samples/sticky-title-feedback-card/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8a6e3a6d97a3aed7676118126086f062831d84b94527fee1b1be906090994b89"
+  },
+  {
+    "path": "view-samples/student-class-learning-tracker/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "86c320a71c51eaeaa4d97e87cc61ce1c4352a16b95101ce3c51785bb2133307e"
+  },
+  {
+    "path": "view-samples/tabs/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5dfce255c03cc7160de75ac9e9cc75878b0cad39490d3c5d2d23aed3e0054065"
+  },
+  {
+    "path": "view-samples/team-poll/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "fb022a889e362eb8b54aa5e7760fef20dcf64f81eb804d6284e35865d2f96a17"
+  },
+  {
+    "path": "view-samples/team-poll/team-poll-configuration.json",
+    "message": "Formatting schema: /rowFormatter/children/0/children/0 must NOT have additional properties",
+    "sourceSha256": "2e02efc323359d102fc95f7de2e2d4d0dbc9b631967524bc2f34dd44884e8e54"
+  },
+  {
+    "path": "view-samples/team-poll/team-poll-response.json",
+    "message": "Formatting schema: /rowFormatter/children/0 must NOT have additional properties",
+    "sourceSha256": "bba76593d430b186e9bbc9d51d530a3b311b73be49cc0974ab18bb8f8d7a0356"
+  },
+  {
+    "path": "view-samples/teams-group-chat-links/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "263c445517be40acb9048e325e4027d0da67ae1e6a08218bd5da989bc4503ebc"
+  },
+  {
+    "path": "view-samples/testimonials/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "329479d9addf8b3c91517e06f0fe1691e7626b8d017d54f69efb975cc4034948"
+  },
+  {
+    "path": "view-samples/tic-tac-toe/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c8de9d446f299e54adbcd0ad2747f708296dc9c2f72efe580e01924529418e8e"
+  },
+  {
+    "path": "view-samples/timeline/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "298499ddd77ea3e15b6cc2610bd42602d49a87a693d02e7df90050ad57f46d4a"
+  },
+  {
+    "path": "view-samples/timeline-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "ef01b57e80499cef11dbf77dbf80871a0f3213a65a5d9cfa493978ba93d537a9"
+  },
+  {
+    "path": "view-samples/to-do/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "8515a2d70e5acd9a606ee6407674b993adab02aa340da7cf19db9dac9057c682"
+  },
+  {
+    "path": "view-samples/travel-requests/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7430afa9fe590135ff0dc1b8ef8a12c345e4373010b4a4684f4f49b397731857"
+  },
+  {
+    "path": "view-samples/travel-requests/travel-requests.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must be object",
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
+  },
+  {
+    "path": "view-samples/travel-requests/travel-requests.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must be string",
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
+  },
+  {
+    "path": "view-samples/travel-requests/travel-requests.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction/actionInput/Approved must match a schema in anyOf",
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
+  },
+  {
+    "path": "view-samples/travel-requests/travel-requests.json",
+    "message": "Formatting schema: /rowFormatter/children/2/children/1/customRowAction must match a schema in anyOf",
+    "sourceSha256": "8d6384ccf2c356a3de757e19a9e3d1d822911d199ba4463f8f85a63290b6f2fa"
+  },
+  {
+    "path": "view-samples/travel-tweets-board/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "aee77652f088ee3d8b58f1645d4503a71dfded95e7b4f77684d808ba8efe625a"
+  },
+  {
+    "path": "view-samples/twitter-timeline/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "b31dd028e3ecd62fff9d6ec398a99c9ef6d7ac09bc58e75e56ae9db701bcab21"
+  },
+  {
+    "path": "view-samples/vertical-mega-menu/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "7806b4bb4b220c857fdac5dee92979c64465547bf5a9336b51480ac1ddd0d589"
+  },
+  {
+    "path": "view-samples/vertical-mega-menu/vertical-mega-menu.json",
+    "message": "Formatting schema: /rowFormatter/customCardProps/formatter/children/0/children/0/forEach must match pattern \"^[^\\]\\$@\\. ]+ in (\\@currentField|\\[\\$.+\\])$\"",
+    "sourceSha256": "910d945fb4da29adc7f32751a2aaa2520db172af993e18a7c4d2dae0ea925762"
+  },
+  {
+    "path": "view-samples/video-gallery/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d82a5695710c709bc89f49fc4ccb4599c66e5c178003d5a4e49169d5a63958cf"
+  },
+  {
+    "path": "view-samples/video-navigator/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "17df223968f7183987ee6ea4a5d933babff88f2bd75efdf79cda18d01a6601eb"
+  },
+  {
+    "path": "view-samples/vinyl-record/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "d03c9eec2c30a25ceffc0776d50221a7a33074b248e6c787b686b7c8e7121033"
+  },
+  {
+    "path": "view-samples/weather-forecast/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4927105c2253cb4b727c4200a92b089fb2463ec98ea26b7aa1f32f494b369f00"
+  },
+  {
+    "path": "view-samples/weekly-heatmap/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "46c99c8e346ff47986c1ca0a95b86a68e39ae50914225c93ce550c183e7a2eda"
+  },
+  {
+    "path": "view-samples/whiteboard-sticky-notes/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "6de56c6d202741cde8533cd249f4fae617b0e90cada76ade1c028b6746ec407f"
+  },
+  {
+    "path": "view-samples/wordle/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4ba93d112483d0d36a36da0133022b7d56b541230d8fc69c940e486416467d9e"
+  },
+  {
+    "path": "form-samples/blank-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c1c78c11eb75da48a121d635a150c08ebb2c9b564ab9c7ccaa1901f4713676db"
+  },
+  {
+    "path": "form-samples/countdown-timer-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2c7ed9513d8291054ed566d372bc6056f9bdfcda81f80fe8f29ba6a2883a7a5c"
+  },
+  {
+    "path": "form-samples/created-modified-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "c3cd70f73ea491467f9e0e7d3cc625c3b0c8d3b446ea159be8d020631fd88dde"
+  },
+  {
+    "path": "form-samples/dashed-line-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "bd47926a06cb5471ab441f84fba2124ebe47ee5405f932cade718849ebe7e9fa"
+  },
+  {
+    "path": "form-samples/event-itinerary-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "36b7a42cbadb003df3d05ece4b7f3fda8e301def0cf2e62572193ff789a62599"
+  },
+  {
+    "path": "form-samples/person-circle-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "5db70a023fa770af647b46596a516166f956dbabd68ad6a5baf236810438e8d0"
+  },
+  {
+    "path": "form-samples/person-circle-header/person-circle-header.json",
+    "message": "Formatting schema: /children/0/children/1/style/border-bottom must be object",
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
+  },
+  {
+    "path": "form-samples/person-circle-header/person-circle-header.json",
+    "message": "Formatting schema: /children/0/children/1/style/border-bottom must be string",
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
+  },
+  {
+    "path": "form-samples/person-circle-header/person-circle-header.json",
+    "message": "Formatting schema: /children/0/children/1/style/border-bottom must match a schema in anyOf",
+    "sourceSha256": "a77dd3ff86cac2cb1df1b13fceb2ed0531120a34daefcc25c3297061fa03ee90"
+  },
+  {
+    "path": "form-samples/ribbon-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "dd23b5ac92d0d0b18d029fb0faca117321cce114f4f1f4cd83619243f6ec307f"
+  },
+  {
+    "path": "form-samples/send-email-task-owner-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "851752e6f17f5dfd8024a458826884c132281574541721b779c793008bdd10ff"
+  },
+  {
+    "path": "form-samples/send-meeting-invite-with-teams-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "696560c6dc9c5027e5e37831d691c80f2565861e50aca166d201abb2b34efbc7"
+  },
+  {
+    "path": "form-samples/status-header-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "118c2677c912c9a6a5c91a831c722ce5c99ab8977ca2719d1111e2f55fba1146"
+  },
+  {
+    "path": "form-samples/teams-chat-task-owner-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "a981240313a1bb6a1b164c6fda24696f25fd5b0dcefe6621987b30dd71e0dc78"
+  },
+  {
+    "path": "form-samples/two-column-logo-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "291a7021998b5c54e4545eb5f43992f86e65d86f2e3d626acf1a59960ed3bd84"
+  },
+  {
+    "path": "form-samples/wave-header-footer/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "89db921d460d8fa922e9a5f613aec8bbbf10925b48582fb9decaf917625e35c4"
+  },
+  {
+    "path": "form-samples/welcome-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "2aa740097bdaf3e8cf032b0e4687ae7de1d1626c457f4f7eeddbae2fd694b00a"
+  },
+  {
+    "path": "form-samples/workflow-progress-header/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "4b22ffcdc685b038536e6463ef941dd584df37e3ca1077f989a98963207b0601"
+  },
+  {
+    "path": "form-samples/wrapped-body/assets/sample.json",
+    "message": "PnP schema: /0 must have required property 'version'",
+    "sourceSha256": "9783892f9bdee1bed0edd2ce1cd1fb43083e24c108cc43c1271b3baa734bd847"
+  }
+]

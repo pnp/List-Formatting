@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Calendar Formatter JSON",
+  "description": "JSON object that defines customization in 'Calendar' view",
+  "type": "object",
+  "properties": {
+    "monthProps": {
+      "description": "JSON object that define formatting in month layout",
+      "type": "object",
+      "properties": {
+        "commandBarProps": {
+          "description": "JSON object that defines command bar customization options",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/command-bar-formatting.schema.json#"
+        },
+        "additionalEventClass": {
+          "description": "CSS class(es) that is applied to the event. Supports expressions.",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json#/definitions/expression"
+        }
+      }
+    }
+  }
+}

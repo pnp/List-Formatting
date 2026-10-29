@@ -31,7 +31,7 @@ Both samples illustrated below have a column **min-width of 730px**, to allow an
 ***
 
 ### 1) Basic thumbnail: how to
-The basic thumbnail template requires only one **multiple choice column**, with custom values allowed or not. After creating a multiple choice column, apply the JSON code available [**here**](./multi-choice-thumbnail-basic.json).
+The basic thumbnail template requires only one **multiple choice column**, with custom values allowed or not. After creating a multiple choice column, apply the JSON code available [**here**](./multi-choice-thumbnail.json).
 
 <img src="./assets/Basic-Thumbnail-Desc.png">
 

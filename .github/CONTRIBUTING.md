@@ -48,7 +48,7 @@ When you are submitting a new sample, it has to follow up below guidelines
 - Include a `README.md` based on the template for its sample type: [column](../column-samples/README-template.md), [form](../form-samples/README-template.md), or [view](../view-samples/README-template.md).
     - Include a picture of the sample in practice in the README file ("pics or it didn't happen"). The preview image must be located in the sample's `assets` folder and named `screenshot.png`.
     - Include `assets/sample.json` with the sample metadata used by the documentation site and sample browser.
-- Name the sample's primary JSON file the same as its containing folder.
+- Prefer naming a single-file sample's primary JSON file the same as its containing folder. Multi-definition samples may use descriptive variant names; document every file and where to apply it.
 - Every sample README must end with the tracking image `<img src="https://m365-visitor-stats.azurewebsites.net/{repository}/{sample-path}" />`. This transparent image is used to track the popularity of individual samples in GitHub.
     - In this repository, use `list-formatting` for `{repository}` and the sample folder's repository-relative path for `{sample-path}`. The suffix must exactly match the sample path. For example, `column-samples/date-range-format` must end with `<img src="https://m365-visitor-stats.azurewebsites.net/list-formatting/column-samples/date-range-format" />`.
 - When you are submitting new sample solution, please name the sample solution folder accordingly
@@ -60,6 +60,19 @@ When you are submitting a new sample, it has to follow up below guidelines
 ## Step-by-step on submitting a pull request to this repository
 
 See [Making Changes](../docs/contributing/changes.md) for detailed steps on submitting a pull request.
+
+## Gallery and sample checks
+
+The [gallery development guide](../GALLERY-DEVELOPMENT.md) documents the same commands used in
+pull request validation. From `site`, run `npm ci`, `npm run validate:samples`,
+`npm run generate`, `npm test`, `npm run check`, and `npm run build`.
+Site changes should also pass `npm run test:e2e`.
+
+The checks cover strict JSON, metadata, exact-case image paths, README trackers,
+formatting schemas, all definition variants, site links, and browser behavior.
+Historical schema findings are recorded explicitly; do not broaden the quality
+baseline just to make a pull request pass. Automated checks do not replace
+testing a changed format in SharePoint.
         
 ## Signing the CLA
 

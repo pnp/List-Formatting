@@ -1,0 +1,22 @@
+---
+import { ArrowUpRight } from '@lucide/astro';
+import { familyLabel, formatDate, sitePath, type Sample } from '../lib/catalog';
+interface Props { sample: Sample; index?: number; }
+const { sample, index = 0 } = Astro.props;
+---
+<article class={`sample-card family-${sample.family}`} data-sample-card data-id={sample.id}
+  data-search={sample.searchText} data-family={sample.family} data-fields={JSON.stringify(sample.fields)}
+  data-authors={sample.authors.map((author) => author.key).join('|')}
+  data-title={sample.title} data-created={sample.created} data-updated={sample.updated}
+  hidden={index >= 18}>
+  <a class="card-image" href={sitePath(sample.route)} tabindex="-1" aria-hidden="true">
+    <img src={sitePath(sample.preview)} alt="" width="800" height="600" loading={index < 3 ? 'eager' : 'lazy'} decoding="async" />
+    <span class="card-arrow"><ArrowUpRight size={18} /></span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta"><span class="type-badge">{familyLabel(sample.family)}</span><time datetime={sample.updated}>{formatDate(sample.updated)}</time></div>
+    <h3><a href={sitePath(sample.route)}>{sample.title}</a></h3>
+    <p>{sample.description}</p>
+    <div class="card-footer"><span>{sample.authors.map((author) => author.name).join(', ')}</span><span class="definition-count">{sample.definitions.length} {sample.definitions.length === 1 ? 'format' : 'formats'}</span></div>
+  </div>
+</article>

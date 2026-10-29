@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Recognition from '../components/Recognition.astro';
+import { contributors, sitePath, samples } from '../lib/catalog';
+---
+<Layout title="Contributors" description="Meet the people sharing SharePoint and Microsoft Lists formatting with the community.">
+  <div class="page-backdrop"><header class="page-heading container"><p class="eyebrow">Made by the community</p><h1>Good ideas have<br /><span>great people behind them.</span></h1><p>{contributors.length} contributors. {samples.length} shared samples. Countless better lists.</p></header>
+    <div class="container"><Recognition /><section class="content-section"><div class="section-heading"><h2>Meet the contributors</h2><p>Recognition from sample metadata · counts link to their formats</p></div><div class="contributor-grid">{contributors.map((author) => <article class="contributor-card">{author.gitHubAccount ? <img class="avatar" src={`https://github.com/${encodeURIComponent(author.gitHubAccount)}.png?size=96`} alt="" width="49" height="49" loading="lazy" decoding="async" referrerpolicy="no-referrer" /> : <div class="avatar" aria-hidden="true">{author.name.slice(0, 1).toUpperCase()}</div>}<div><h3>{author.name}</h3>{author.gitHubAccount && <a href={`https://github.com/${author.gitHubAccount}`}>@{author.gitHubAccount}</a>}<a class="contributor-count" href={sitePath(`?author=${encodeURIComponent(author.key)}#gallery`)}>{author.count} {author.count === 1 ? 'sample' : 'samples'}</a></div></article>)}</div></section></div>
+  </div>
+</Layout>

@@ -5,7 +5,7 @@
         "version": "1.0.0.0",
         "source": "pnp",
         "title": "TITLE",
-        "url": "https://github.com/pnp/List-Formatting/folder-name",
+        "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/folder-name",
         "creationDateTime": "2021-04-20T18:25:43.511Z",
         "updateDateTime": "2021-04-20T18:25:43.511Z",
         "shortDescription": "SHORTDESCRIPTION",
@@ -13,49 +13,55 @@
             "LONGDESCRIPTION"
         ],
         "products": [
-            "Microsoft Teams",
             "SharePoint",
-            "Office"
+            "Microsoft Lists"
         ],
         "categories": [
-            "CATEGORY1",
-            "CATEGORY4"
+            "Status / Progress"
         ],
         "metadata": [
             {
                 "key": "LIST-SAMPLE-TYPE",
-                "value": "View, Column, Form"
+                "value": "Column"
             },
             {
                 "key": "LIST-COLUMN-TYPE",
-                "value": "ContentType, Currency, Date/Time, General, Hyperlink, Location, Multi-Choice, Multi-Person, Number, Person, Picture, Yes/No"
+                "value": "General"
             },
             {
-                "key": "LIST-OPERATOR",
+                "key": "FORMATTING-OPERATORS",
                 "value": "abs, cos, Date, forEach, indexOf, join, length, loopIndex, Modulus %, Number, sin, toLocaleString, toLocaleDateString, toLocaleDateTimeString, toLowerCase, toString"
             },
             {
-                "key": "LIST-PLACEHOLDER-TOKEN",
+                "key": "FORMATTING-TOKENS",
                 "value": "@currentWeb, @me, @now, @rowIndex, @thumbnail, @window"
             },
             {
-                "key": "LIST-ROW-ACTION",
+                "key": "FORMATTING-ACTIONS",
                 "value": "defaultClick, delete, editProps, executeFlow, share"
             },
             {
-                "key": "LIST-CATEGORY",
+                "key": "SAMPLE-CATEGORIES",
                 "value": "Cards, Charts, Document Library, Dynamic Links, Flow, Icons, Maps, People, Severity, Social Media, Status / Progress, SVG, Text Conditional, Tiles, Trending"
             },
             {
+                "key": "FORMATTING-FEATURES",
+                "value": ""
+            },
+            {
+                "key": "CLASSES",
+                "value": "ms-fontWeight-bold"
+            },
+            {
                 "key": "SHAREPOINT-COMPATIBILITY",
-                "value": "SharePoint Online, SharePoint 2019"
+                "value": "SharePoint Online"
             }
         ],
         "thumbnails": [
             {
                 "type": "image",
                 "order": 100,
-                "url": "https://fuufaafuu.png",
+                "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/folder-name/assets/screenshot.png",
                 "alt": "Alt text for the image"
             }
         ],

@@ -1,0 +1,64 @@
+name: Validate gallery
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "column-samples/**"
+      - "view-samples/**"
+      - "form-samples/**"
+      - "docs/**"
+      - "site/**"
+      - "sample-template.json"
+      - "samples.json"
+      - "README.md"
+      - ".gitignore"
+      - ".github/CONTRIBUTING.md"
+      - ".github/workflows/*gallery.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gallery-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Gallery content, build, and browser checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      - run: npm run validate:samples
+      - run: npm run generate && npm test
+      - run: npm run check
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Summarize content and remaining review items
+        if: always()
+        run: |
+          if [ -f .cache/quality.json ]; then
+            node --input-type=module -e 'import fs from "node:fs"; const q=JSON.parse(fs.readFileSync(".cache/quality.json")); fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## List Formatting gallery\n${q.samples} samples, ${q.definitions} definitions, ${q.advisories.length} recorded review items.\nRead-only validation; no deployment or paid application services.\n`);'
+          fi
+      - name: Browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: gallery-browser-failure
+          path: |
+            site/playwright-report/
+            site/test-results/
+          retention-days: 3
+          if-no-files-found: ignore

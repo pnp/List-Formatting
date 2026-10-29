@@ -1,0 +1,30 @@
+---
+import { ArrowUpRight } from '@lucide/astro';
+import Layout from '../layouts/Layout.astro';
+import { samples, sitePath, familyLabel, formatDate } from '../lib/catalog';
+---
+<Layout title="What's new" description="Recently added and updated SharePoint and Microsoft Lists formatting samples.">
+  <div class="page-backdrop"><header class="page-heading container"><p class="eyebrow">Fresh from the community</p><h1>Small updates.<br /><span>New possibilities.</span></h1><p>Recently added and updated samples, ordered by contributor-maintained metadata.</p></header>
+    <section class="container updates-section" aria-label="Catalog updates"><div class="updates-toolbar"><label for="activity-family">Format type</label><select id="activity-family"><option value="">All formats</option><option value="column">Column</option><option value="view">View</option><option value="form">Form</option></select><p class="small" id="activity-count" aria-live="polite">Showing {Math.min(30, samples.length)} of {samples.length} updates</p></div>
+      <div class="updates-list">{samples.map((sample, index) => <article data-update data-family={sample.family} hidden={index >= 30}><time datetime={sample.updated}>{formatDate(sample.updated)}</time><div><p class="eyebrow">{sample.created.slice(0, 10) === sample.updated.slice(0, 10) ? 'Added' : 'Updated'} <span>· {familyLabel(sample.family)}</span></p><h2><a href={sitePath(sample.route)}>{sample.title}</a></h2><p>{sample.description}</p></div><a class="update-arrow" href={sitePath(sample.route)} aria-label={`Explore ${sample.title}`}><ArrowUpRight size={20} aria-hidden="true" /></a></article>)}</div>
+      <button class="button button-secondary load-more" id="more-updates">Show more updates</button>
+      <noscript><style>[data-update][hidden] { display:grid !important; } .updates-toolbar,#more-updates { display:none; }</style></noscript>
+    </section>
+  </div>
+</Layout>
+<script>
+  const filter = document.querySelector<HTMLSelectElement>('#activity-family');
+  const items = [...document.querySelectorAll<HTMLElement>('[data-update]')];
+  const more = document.querySelector<HTMLButtonElement>('#more-updates');
+  const count = document.querySelector<HTMLElement>('#activity-count');
+  let limit = 30;
+  function apply() {
+    const matches = items.filter((item) => !filter?.value || item.dataset.family === filter.value);
+    for (const item of items) item.hidden = true;
+    matches.slice(0, limit).forEach((item) => item.hidden = false);
+    if (more) more.hidden = limit >= matches.length;
+    if (count) count.textContent = `Showing ${Math.min(limit, matches.length)} of ${matches.length} updates`;
+  }
+  filter?.addEventListener('change', () => { limit = 30; apply(); });
+  more?.addEventListener('click', () => { limit += 30; apply(); });
+</script>

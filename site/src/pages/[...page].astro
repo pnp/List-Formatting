@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Recognition from '../components/Recognition.astro';
+import Community from '../components/Community.astro';
+import { documents, type DocumentPage } from '../lib/docs';
+import { sitePath } from '../lib/catalog';
+export function getStaticPaths() {
+  return documents.map((document) => ({ params: { page: document.route }, props: { document } }));
+}
+interface Props { document: DocumentPage; }
+const { document } = Astro.props;
+const gettingStarted = document.canonical === 'getting-started';
+const contributing = document.canonical === 'contributing';
+const tools = document.canonical === 'tools';
+---
+<Layout title={document.title} canonical={`${document.canonical}/`}>
+  <div class="page-backdrop"><header class="page-heading container"><p class="eyebrow">{tools ? 'A better formatting toolkit' : contributing ? 'Your next contribution starts here' : gettingStarted ? 'A little JSON goes a long way' : 'Formatting knowledge, shared'}</p><h1>{document.title}</h1>{gettingStarted && <p>No installation needed. Find a format, check its requirements, copy the JSON, and paste it into SharePoint.</p>}</header>
+    <div class="container">
+      {gettingStarted && <div class="resource-grid"><a class="resource-card" href={sitePath('getting-started/column-formatting/')}><h3>Format a column</h3><p>Give individual values more meaning with colors, icons, and actions.</p><span>Start with a field →</span></a><a class="resource-card" href={sitePath('getting-started/view-formatting/')}><h3>Transform a view</h3><p>Create cards, galleries, row highlights, and new ways to see your data.</p><span>Start with a view →</span></a><a class="resource-card" href={sitePath('getting-started/form-formatting/')}><h3>Polish a form</h3><p>Customize headers and footers, and organize fields into sections.</p><span>Start with a form →</span></a></div>}
+      {contributing && <Recognition />}
+      <div class="doc-layout"><article class="prose" set:html={document.html} /><aside class="doc-links"><h2>Keep exploring</h2><a href={sitePath()}>Sample gallery</a><a href={sitePath('getting-started/')}>Getting started</a><a href={sitePath('getting-started/form-formatting/')}>Form formatting</a><a href={sitePath('reference/')}>Formatting reference</a><a href={sitePath('tools/')}>Formatting tools</a><a href={sitePath('contributing/')}>Contribution guide</a><a href={`https://github.com/pnp/List-Formatting/blob/master/docs/${document.source}`}>Improve this page</a></aside></div>
+    </div>
+  </div>
+  {(gettingStarted || contributing || tools) && <Community />}
+</Layout>

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "TilesFormatter JSON",
+  "description": "JSON object that defines tiles in 'Tiles' layout.",
+  "type": "object",
+  "properties": {
+    "height": {
+      "description": "Height of the tile in pixels.",
+      "type": [
+        "integer",
+        "string"
+      ],
+      "minimum": 1,
+      "pattern": "^[0-9]+$"
+    },
+    "width": {
+      "description": "Width of the tile in pixels. Can go from height /2 to 3x height.",
+      "type": [
+        "integer",
+        "string"
+      ],
+      "minimum": 1,
+      "pattern": "^[0-9]+$"
+    },
+    "hideSelection": {
+      "description": "If true, then selection UX in 'Tiles' layout will be disabled. Ignored if there is no formatter defined.",
+      "type": "boolean"
+    },
+    "formatter": {
+      "description": "JSON object that defines formatting of a tile.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+    },
+    "groupProps": {
+      "type": "object",
+      "description": "Specify the group header formatter",
+      "properties": {
+        "headerFormatter": {
+          "description": "JSON object that defines formatting for the group headers",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+        }
+      }
+    },
+    "commandBarProps": {
+      "description": "JSON object that defines command bar customization options",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/command-bar-formatting.schema.json#"
+    }
+  }
+}

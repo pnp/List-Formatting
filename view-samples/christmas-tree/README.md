@@ -7,7 +7,7 @@ This sample draws a tree across rows in 3 different stages "**alt**" as top, "**
 
 **Christmas Tree with Presents** 
 
-![Christmas Tree](./assets/screenshot-presents.PNG)
+![Christmas Tree](./assets/screenshot-presents.png)
 
 ## View requirements
 - The format expect the following fields:

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ViewFormatter JSON",
+  "description": "View Formatter JSON for SharePoint lists.",
+  "type": "object",
+  "properties": {
+    "hideSelection": {
+      "description": "If true, then selection UX in 'List' and 'Compact List' layout will be disabled. Ignored if there is no rowFormatter defined.",
+      "type": "boolean"
+    },
+    "hideColumnHeader": {
+      "description": "If true, then the list column header UX in in 'List' and 'Compact List' layout will be hidden.",
+      "type": "boolean"
+    },
+    "rowFormatter": {
+      "description": "JSON object that defines formatting of a row.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json#definitions/elm"
+    },
+    "additionalRowClass": {
+      "description": "CSS class(es) that is applied to the entire row. Supports expressions. Only valid for 'List' and 'Compact List' layouts.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json#definitions/expression"
+    },
+    "tileProps": {
+      "description": "JSON object that defines tiles in 'Tiles' layout.",
+      "type": "object",
+      "properties": {
+        "height": {
+          "description": "Height of the tile in pixels.",
+          "type": ["integer","string"],
+          "minimum": 1,
+          "pattern": "^[0-9]+$"
+        },
+        "width": {
+          "description": "Width of the tile in pixels. Can go from height /2 to 3x height.",
+          "type": ["integer","string"],
+          "minimum": 1,
+          "pattern": "^[0-9]+$"
+        },
+        "hideSelection": {
+          "description": "If true, then selection UX in 'Tiles' layout will be disabled. Ignored if there is no formatter defined.",
+          "type": "boolean"
+        },
+        "formatter": {
+          "description": "JSON object that defines formatting of a tile.",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json#definitions/elm"
+        }
+      }
+    }
+  }
+}
