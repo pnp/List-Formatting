@@ -57,8 +57,18 @@ typings/
 # dotenv environment variables file
 .env
 
-# mkdocs build folder
-site/
+# Generated Astro gallery output
+site/.astro/
+site/.cache/
+site/dist/
+site/public/generated/
+site/public/img/
+site/public/tools/
+site/public/catalog.json
+site/public/quality.json
+site/public/deployment.json
+site/playwright-report/
+site/test-results/
 
 # Mac files
 .DS_Store

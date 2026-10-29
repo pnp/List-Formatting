@@ -63,13 +63,13 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gFilterWPSetup.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gFilterWPSetup.png",
         "alt": "screenshot 2"
       },
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gTermsWPSetup.gif",
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/view-samples/glossary-dynamicfilter-view/assets/gTermsWPSetup.png",
         "alt": "screenshot 3"
       }
     ],

@@ -5,7 +5,7 @@ You can use column and view formatting to create buttons that perform pre-define
 
 These samples are all built for column formatting, but these can be easily adapted to work with view formatting.
 
-Custom row actions only work when placed inside of `button`, `div`, or `span` elements. However, you can adjust the element's styles/children to customize the look entirely _(you can even wrap your entire format in a button - see the [bulletin-board-format](../../view-samples/bulletin-board-format) for an example)_.
+Custom row actions only work when placed inside of `button`, `div`, or `span` elements. However, you can adjust the element's styles/children to customize the look entirely _(you can even wrap your entire format in a button - see [Bulletin Board](../../view-samples/bulletin-board) for an example)_.
 
 ![screenshot of the sample](./assets/screenshot.png)
 

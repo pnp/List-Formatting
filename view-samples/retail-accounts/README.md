@@ -25,13 +25,13 @@ Holiday_x0020_Display_x0020_Read | Boolean
 
 ## Site Script
 
-This sample includes a site script ([create-list.json](create-list.json)) that creates the required site columns, the Retail Accounts list, and a new view named **All Items - customized** in the list that contains all the required columns.
+This sample includes a site script ([create-list.json](./provisioning/create-list.json)) that creates the required site columns, the Retail Accounts list, and a new view named **All Items - customized** in the list that contains all the required columns.
 
 See the [SharePoint site design and site script overview article](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview) to learn how to use the site script.
 
 ## Bing Map
 
-The View Formatter JSON ([card-format.json](card-format.json)) uses the Bing Map Imagery REST API to display map images based on the values in the Location column.  
+The View Formatter JSON ([retail-accounts.json](./retail-accounts.json)) uses the Bing Map Imagery REST API to display map images based on the values in the Location column.
 
   > **Note:** You will need your own Bing Maps key to display the maps in your own environment.
 

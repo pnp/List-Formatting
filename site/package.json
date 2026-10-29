@@ -1,0 +1,41 @@
+{
+  "name": "list-formatting-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.19.0" },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "validate:samples": "node scripts/generate.mjs --validate",
+    "catalog:update": "node scripts/generate.mjs --catalog",
+    "quality:baseline": "node scripts/generate.mjs --update-baseline",
+    "dev": "npm run generate && astro dev",
+    "check": "npm run generate && astro check",
+    "build": "npm run generate && astro build && npm run validate:links",
+    "preview": "astro preview",
+    "validate:links": "node scripts/validate-links.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "deployment:verify": "node scripts/verify-deployment.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.3",
+    "@lucide/astro": "1.33.0",
+    "ajv": "^8.17.1",
+    "ajv-draft-04": "^1.0.0",
+    "ajv-formats": "^3.0.1",
+    "astro": "7.3.6",
+    "jsonc-parser": "^3.3.1",
+    "marked": "^16.3.0",
+    "sanitize-html": "^2.17.7",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "^22.0.0",
+    "@types/sanitize-html": "^2.16.1",
+    "typescript": "^5.9.2"
+  }
+}

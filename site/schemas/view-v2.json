@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ViewFormatter JSON",
+  "description": "View Formatter JSON for SharePoint lists.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json"
+    },
+    {
+      "properties": {
+        "tileProps": {
+          "description": "JSON object that defines tiles in 'Tiles' layout.",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json"
+        }
+      }
+    },
+    {
+      "properties": {
+        "kanbanProps": {
+          "description": "JSON object that defines cards in 'Board' layout.",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/board-formatting.schema.json"
+        }
+      }
+    },
+    {
+      "properties": {
+        "calendarProps": {
+          "description": "JSON object that defines customization in 'Calendar' view.",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/calendar-formatting.schema.json"
+        }
+      }
+    }
+  ]
+}

@@ -10,7 +10,7 @@
       "This sample displays a bar with multiple options. When an option on the bar is clicked, the Value column is updated to the corresponding value (0-4) using setValue."
     ],
     "creationDateTime": "2022-01-15T00:00:00.000Z",
-    "updateDateTime": "2021-01-15T00:00:00.000Z",
+    "updateDateTime": "2022-01-15T00:00:00.000Z",
     "products": [
       "SharePoint",
       "Microsoft Lists"

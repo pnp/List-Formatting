@@ -1,0 +1,12 @@
+---
+import { ArrowRight } from '@lucide/astro';
+import { sitePath } from '../lib/catalog';
+---
+<section class="recognition">
+  <img src={sitePath('images/community-contributor.png')} alt="Community Contributor, Microsoft 365 and Power Platform Community 2026 badge" width="180" height="180" loading="lazy" />
+  <div><p class="eyebrow">Make your contribution count</p><h2>A small contribution. A shared impact.</h2>
+    <p>Share a format, improve a guide, or help fix a sample. An approved contribution can qualify you for the Community Contributor badge under the published recognition criteria.</p>
+    <div class="action-row"><a class="button" href={sitePath('contributing/')}>Start contributing <ArrowRight size={17} aria-hidden="true" /></a>
+      <a href="https://www.credly.com/org/m365pnp/badge/community-contributor-microsoft-365-power-platform-">Explore the Credly badge</a></div>
+  </div>
+</section>

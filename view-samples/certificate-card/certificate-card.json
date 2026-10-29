@@ -63,7 +63,7 @@
           {
             "elmType": "img",
             "attributes": {
-              "src": "https://tenant.sharepoint.com/:i:/r/sites/saitename/SiteAssets/image.png", //Change the logo SharePoint blocks images from other domains if they don’t allow CORS (cross-origin requests). Best fix → store images in SharePoint (same domain) or ensure the external server sets Access-Control-Allow-Origin: *.
+              "src": "https://tenant.sharepoint.com/:i:/r/sites/saitename/SiteAssets/image.png",
               "alt": "Certificate Logo"
             },
             "style": {

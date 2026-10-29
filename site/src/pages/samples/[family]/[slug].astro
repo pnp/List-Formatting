@@ -1,0 +1,94 @@
+---
+import { Code } from 'astro:components';
+import { ArrowLeft, ArrowRight, Copy, Download, ExternalLink, Info, Bug, Lightbulb } from '@lucide/astro';
+import Layout from '../../../layouts/Layout.astro';
+import { samples, sitePath, familyLabel, formatDate, type Sample } from '../../../lib/catalog';
+export function getStaticPaths() {
+  return samples.map((sample) => ({ params: { family: sample.family, slug: sample.slug }, props: { sample } }));
+}
+interface Props { sample: Sample; }
+const { sample } = Astro.props;
+const guide = sample.family === 'form' ? 'form-formatting' : `${sample.family}-formatting`;
+const related = samples.filter((candidate) => candidate.id !== sample.id && candidate.family === sample.family &&
+  candidate.fields['SAMPLE-CATEGORIES'].some((category) => sample.fields['SAMPLE-CATEGORIES'].includes(category))).slice(0, 3);
+const feedback = `https://github.com/pnp/List-Formatting/issues/new?title=${encodeURIComponent(`[${sample.id}] `)}`;
+---
+<Layout title={sample.title} description={sample.description} image={sample.preview} sampleId={sample.id}>
+  <div class="page-backdrop">
+    <div class="container detail-page">
+      <a class="back-link" href={sitePath(`?type=${sample.family}#gallery`)}><ArrowLeft size={16} aria-hidden="true" /> Back to {sample.family} formats</a>
+      <header class="detail-hero"><div><div class="tag-row"><span class={`type-badge family-${sample.family}`}>{familyLabel(sample.family)} formatting</span>{sample.fields['SHAREPOINT-COMPATIBILITY'].map((value) => <span class="tag">{value}</span>)}</div>
+        <h1>{sample.title}</h1><p class="lead">{sample.description}</p>
+        <div class="action-row"><a class="button" href="#get-format">Get this format <ArrowRight size={17} aria-hidden="true" /></a><a href={sample.sourceUrl}>View on GitHub <ExternalLink size={14} aria-hidden="true" /></a></div>
+        <p class="small detail-byline">Shared by {sample.authors.map((author, index) => <>{index > 0 && ', '}{author.gitHubAccount ? <a href={`https://github.com/${author.gitHubAccount}`}>{author.name}</a> : <span>{author.name}</span>}</>)}<br />Updated {formatDate(sample.updated)}</p>
+      </div><figure class="detail-preview"><a href={sample.images[0].url} aria-label={`Open full-size ${sample.title} preview`}><img src={sitePath(sample.preview)} alt={sample.previewAlt} width="800" height="600" fetchpriority="high" /></a><figcaption>Sample preview · <a href={sample.images[0].url}>View original {sample.images[0].url.toLowerCase().endsWith('.gif') ? 'animation' : 'image'}</a></figcaption></figure></header>
+      <div class="detail-layout">
+        <div class="detail-main">
+          <section class="format-panel" id="get-format" aria-labelledby="format-title">
+            <div class="format-heading"><div><p class="eyebrow">Copy. Apply. Make it yours.</p><h2 id="format-title">Get this format</h2></div><span class="tag">{sample.definitions.length} {sample.definitions.length === 1 ? 'definition' : 'definitions'}</span></div>
+            <p>Review the <a href="#sample-documentation">requirements below</a>, then paste this JSON into the matching formatting panel. <a href={sitePath(`getting-started/${guide}/`)}>Show me where</a>.</p>
+            <div class="format-notice"><Info size={18} aria-hidden="true" /><p>Use your list's <strong>internal column names</strong> and replace any tenant-specific URLs or flow IDs. Formatting is presentation, not a way to secure data.</p></div>
+            <div class="variant-chooser"><label for="definition">Definition</label><select id="definition">{sample.definitions.map((definition) => <option value={definition.filename}>{definition.filename} · {definition.target}</option>)}</select></div>
+            {sample.definitions.map((definition, index) => <section class="definition" data-definition={definition.filename} id={`definition-${definition.filename}`} hidden={index > 0} aria-label={definition.filename}>
+              <div class="code-toolbar"><span>{definition.target}</span><div><a href={sitePath(definition.download)} download={definition.filename}><Download size={15} aria-hidden="true" /> Download JSON</a><button type="button" data-copy><Copy size={15} aria-hidden="true" /> Copy JSON</button></div></div>
+              <textarea data-source hidden aria-label={`Source for ${definition.filename}`}>{definition.source}</textarea>
+              <div class="code-scroll"><Code code={definition.source} lang="json" theme="github-dark" /></div>
+              <div class="code-footer"><a href={definition.sourceUrl}>View source</a><a href={`#definition-${encodeURIComponent(definition.filename)}`}>Link to this definition</a><span>{definition.filename}</span></div>
+              {definition.schemaIssues.length > 0 && <details class="schema-note"><summary>Schema compatibility review notes</summary><p>This historical definition differs from the pinned Microsoft schema. This may indicate an unsupported pattern or a schema limitation. Check the original requirements and test in your tenant before use.</p><ul>{definition.schemaIssues.map((issue) => <li>{issue}</li>)}</ul></details>}
+            </section>)}
+            <p class="copy-status" role="status" aria-live="polite"></p>
+            <noscript><style>.definition[hidden] { display:block !important; } .variant-chooser,[data-copy] { display:none; }</style><p>All definitions are shown below. Select the code manually or download the JSON file.</p></noscript>
+          </section>
+          <article class="prose sample-documentation" id="sample-documentation"><p class="eyebrow">From the contributor</p><h2>How to use this sample</h2><div set:html={sample.readmeHtml} /></article>
+        </div>
+        <aside class="detail-sidebar" aria-label="Sample information">
+          <section><h2>At a glance</h2><dl><div><dt>Format type</dt><dd>{familyLabel(sample.family)}</dd></div><div><dt>Created</dt><dd>{formatDate(sample.created)}</dd></div><div><dt>Updated</dt><dd>{formatDate(sample.updated)}</dd></div></dl><p class="small">Community sample, provided as-is. Gallery checks are not a guarantee of SharePoint compatibility.</p></section>
+          <section><h2>Explore this pattern</h2><div class="tag-row">{sample.fields['SAMPLE-CATEGORIES'].map((value) => <a class="tag" href={sitePath(`?category=${encodeURIComponent(value)}#gallery`)}>{value}</a>)}</div>{sample.fields['LIST-COLUMN-TYPE'].length > 0 && <p class="small"><strong>Column types:</strong> {sample.fields['LIST-COLUMN-TYPE'].join(', ')}</p>}<a class="sidebar-link" href={sitePath(`getting-started/${guide}/`)}>Application guide <ArrowRight size={15} aria-hidden="true" /></a><a class="sidebar-link" href={sitePath('tools/')}>Formatting tools <ArrowRight size={15} aria-hidden="true" /></a></section>
+          <section><h2>Keep it getting better</h2><a class="sidebar-link" href={`${feedback}Problem`}><Bug size={16} aria-hidden="true" /> Report a problem</a><a class="sidebar-link" href={`${feedback}Improvement`}><Lightbulb size={16} aria-hidden="true" /> Suggest an improvement</a><a class="sidebar-link" href={sample.sourceUrl}>View all files <ExternalLink size={15} aria-hidden="true" /></a></section>
+          {sample.references.length > 0 && <section><h2>Learn more</h2>{sample.references.map((reference) => <a class="sidebar-link" href={reference.url}>{reference.name}</a>)}</section>}
+        </aside>
+      </div>
+      {related.length > 0 && <section class="related"><p class="eyebrow">Keep exploring</p><h2>More formats like this</h2><div class="resource-grid">{related.map((item) => <a class="resource-card" href={sitePath(item.route)}><h3>{item.title}</h3><p>{item.description}</p><span>Explore format <ArrowRight size={15} aria-hidden="true" /></span></a>)}</div></section>}
+    </div>
+  </div>
+</Layout>
+<script>
+  const selector = document.querySelector<HTMLSelectElement>('#definition');
+  const definitions = [...document.querySelectorAll<HTMLElement>('[data-definition]')];
+  const status = document.querySelector<HTMLElement>('.copy-status');
+  function showDefinition(filename: string, updateHash = false) {
+    if (!selector || !definitions.some((element) => element.dataset.definition === filename)) return;
+    selector.value = filename;
+    for (const element of definitions) element.hidden = element.dataset.definition !== filename;
+    if (updateHash) history.replaceState(null, '', `#definition-${encodeURIComponent(filename)}`);
+  }
+  function restoreDefinition() {
+    if (!location.hash.startsWith('#definition-')) return;
+    try { showDefinition(decodeURIComponent(location.hash.slice('#definition-'.length))); }
+    catch (error) { console.warn('Invalid definition link.', error); }
+  }
+  selector?.addEventListener('change', () => showDefinition(selector.value, true));
+  restoreDefinition();
+  addEventListener('hashchange', restoreDefinition);
+  for (const element of definitions) {
+    element.querySelector<HTMLButtonElement>('[data-copy]')?.addEventListener('click', async () => {
+      const source = element.querySelector<HTMLTextAreaElement>('[data-source]');
+      if (!source || !status) throw new Error('The definition source or status region is missing.');
+      try {
+        await navigator.clipboard.writeText(source.value);
+        status.textContent = `Copied ${element.dataset.definition}. Ready to paste into SharePoint.`;
+      } catch (error) {
+        status.textContent = 'Copy was not available. Select the code manually, or use Download JSON.';
+        console.warn('Could not copy the definition to the clipboard.', error);
+        const code = element.querySelector('code');
+        if (code) {
+          const range = document.createRange();
+          range.selectNodeContents(code);
+          const selection = getSelection();
+          selection?.removeAllRanges();
+          selection?.addRange(range);
+        }
+      }
+    });
+  }
+</script>

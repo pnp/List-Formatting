@@ -5,8 +5,9 @@ The easiest way to submit a sample is to duplicate an existing sample folder of 
 A sample will have at least the following files:
 
   - `[your-sample].json`
-    - The primary JSON file must be named the same as the sample folder
+    - Prefer naming a single-file sample's primary JSON file the same as the sample folder
     - Additional json files can use whatever name makes sense, but usually some variation of the main sample
+    - For multi-definition samples, document each variant and its destination: Column, View, or Form Header/Body/Footer. The gallery exposes every root-level JSON definition.
   - `README.md`
     - Start with the README template for the sample type
     - This is the document people will read to understand what your sample does and how to use it

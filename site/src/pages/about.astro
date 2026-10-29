@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { sitePath } from '../lib/catalog';
+---
+<Layout title="About this gallery"><div class="container article-page"><header class="page-heading"><p class="eyebrow">Open by design</p><h1>Free formats.<br /><span>No hidden platform.</span></h1></header><article class="prose">
+  <h2>Built to stay simple and free</h2><p>This is an open-source static site on GitHub Pages. Search and filters run in your browser. There is no database, account system, paid search service, or new Azure infrastructure. Downloads are ordinary static files.</p>
+  <h2>Privacy and view tracking</h2><p>By default this version sends no visitor statistics or session-replay requests. The existing community visitor-image integration is available only when maintainers explicitly enable it. If enabled, a sample page requests one unique image from the existing Microsoft 365 community statistics endpoint; no new tracking service is provisioned.</p><p>Original documentation images and source links may use GitHub's public CDN. Community, YouTube, and Credly links take you to their respective services.</p>
+  <h2>Community samples, not product guarantees</h2><p>Samples are provided as-is. Automated checks validate catalog structure, JSON syntax, local assets, routes, and the gallery experience. They do not prove that every format works in every SharePoint tenant. Read prerequisites and compatibility information before applying a sample. Formatting does not secure the underlying data.</p>
+  <h2>Help improve the collection</h2><p><a href={sitePath('contributing/')}>Contribute a sample or documentation fix</a>, <a href="https://github.com/pnp/List-Formatting/issues/new/choose">report a problem</a>, or <a href="https://aka.ms/community/calls">join a community call</a>.</p>
+</article></div></Layout>

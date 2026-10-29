@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "BoardFormatter JSON",
+  "description": "JSON object that defines cards in 'Board' layout.",
+  "type": "object",
+  "properties": {
+    "hideSelection": {
+      "description": "If true, then selection UX in 'Board' layout will be disabled. Ignored if there is no formatter defined.",
+      "type": "boolean"
+    },
+    "formatter": {
+      "description": "JSON object that defines formatting of a card.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+    },
+    "commandBarProps": {
+      "description": "JSON object that defines command bar customization options",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/command-bar-formatting.schema.json#"
+    }
+  }
+}

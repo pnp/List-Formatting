@@ -1,0 +1,122 @@
+---
+import { Menu, Sun, Moon, GitFork, ArrowUpRight } from '@lucide/astro';
+import { sitePath } from '../lib/catalog';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  canonical?: string;
+  sampleId?: string;
+}
+const {
+  title = 'List Formatting Gallery',
+  description = 'Discover community-built JSON formats for SharePoint and Microsoft Lists. Find a sample, copy the JSON, and make it yours.',
+  image = 'images/sharepoint.png',
+  canonical,
+  sampleId,
+} = Astro.props;
+const pageTitle = title === 'List Formatting Gallery' ? title : `${title} | List Formatting Gallery`;
+const current = Astro.url.pathname;
+const navigation = [
+  { label: 'Community', href: 'https://aka.ms/community/home', external: true },
+  { label: 'Gallery', href: sitePath(), external: false },
+  { label: 'Getting started', href: sitePath('getting-started/'), external: false },
+  { label: 'Contributors', href: sitePath('contributors/'), external: false },
+  { label: 'Contributing', href: sitePath('contributing/'), external: false },
+  { label: "What's new", href: sitePath('whats-new/'), external: false },
+];
+const active = (href: string) => href === sitePath()
+  ? current === href || current.startsWith(sitePath('samples/'))
+  : current.startsWith(href);
+const tracker = `https://m365-visitor-stats.azurewebsites.net/list-formatting/${sampleId ?? `site/${current.slice(sitePath().length).replace(/\/$/, '') || 'gallery'}`}`;
+const trackingEnabled = import.meta.env.PUBLIC_ENABLE_VISITOR_STATS === 'true';
+---
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f1f8f6" />
+    <script is:inline>
+      (() => {
+        try {
+          if (localStorage.getItem('list-formatting-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+        } catch (error) {
+          console.info('Theme preference storage is unavailable; using the default theme.', error);
+        }
+      })();
+    </script>
+    <title>{pageTitle}</title>
+    <link rel="icon" href={sitePath('images/sharepoint.png')} type="image/png" />
+    <link rel="canonical" href={new URL(canonical ? sitePath(canonical) : current, Astro.site)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(canonical ? sitePath(canonical) : current, Astro.site)} />
+    <meta property="og:image" content={new URL(sitePath(image), Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body style={`--side-left:url('${sitePath('images/side-bg-left.webp')}');--side-right:url('${sitePath('images/side-bg-right.webp')}')`}>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="brand-line"></div>
+      <div class="header-inner container">
+        <a class="brand" href={sitePath()} aria-label="SharePoint List Formatting home">
+          <img src={sitePath('images/sharepoint.png')} alt="" width="34" height="34" />
+          <span>SharePoint <strong>List Formatting</strong></span>
+        </a>
+        <div class="header-actions">
+          <nav class="desktop-nav" aria-label="Primary navigation">
+            {navigation.map((item) => <a href={item.href} aria-current={!item.external && active(item.href) ? 'page' : undefined}>
+              {item.label}{item.external && <ArrowUpRight size={12} aria-hidden="true" />}
+            </a>)}
+          </nav>
+          <a class="icon-button github-link" href="https://github.com/pnp/List-Formatting" aria-label="View repository on GitHub"><GitFork size={19} aria-hidden="true" /></a>
+          <button class="theme-toggle icon-button" type="button" aria-label="Switch to dark mode" role="switch" aria-checked="false">
+            <Sun class="sun" size={18} aria-hidden="true" /><Moon class="moon" size={18} aria-hidden="true" />
+          </button>
+          <details class="mobile-nav">
+            <summary aria-label="Open navigation"><Menu size={23} aria-hidden="true" /></summary>
+            <nav aria-label="Mobile navigation">{navigation.map((item) => <a href={item.href}>{item.label}</a>)}</nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main id="main-content"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>Sharing is caring.</strong><p>Microsoft 365 &amp; Power Platform Community</p><p class="small">Open source. Free to explore. Built by people like you.</p></div>
+        <nav aria-label="Footer navigation">
+          <a href="https://aka.ms/community/home">Community</a><a href="https://aka.ms/community/calls">Community calls</a><a href="https://aka.ms/community/youtube">YouTube</a>
+          <a href={sitePath('tools/')}>Tools</a><a href={sitePath('reference/')}>Formatting reference</a><a href={sitePath('catalog.json')}>Catalog JSON</a>
+          <a href="https://github.com/pnp/List-Formatting/issues/new/choose">Report an issue</a>
+          <a href="https://opensource.microsoft.com/codeofconduct/">Code of conduct</a>
+          <a href="https://github.com/pnp/List-Formatting/blob/master/LICENSE">License</a>
+          <a href={sitePath('about/')}>About this gallery</a>
+        </nav>
+      </div>
+    </footer>
+    {trackingEnabled && <img data-visitor-stats src={tracker} alt="" width="1" height="1" aria-hidden="true" class="tracking-image" />}
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.theme-toggle');
+      const root = document.documentElement;
+      function syncTheme() {
+        const dark = root.dataset.theme === 'dark';
+        const label = `Switch to ${dark ? 'light' : 'dark'} mode`;
+        toggle?.setAttribute('aria-checked', String(dark));
+        toggle?.setAttribute('aria-label', label);
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#091b18' : '#f1f8f6');
+      }
+      syncTheme();
+      toggle?.addEventListener('click', () => {
+        root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        syncTheme();
+        try { localStorage.setItem('list-formatting-theme', root.dataset.theme); }
+        catch (error) { console.info('Theme preference cannot be saved on this browser.', error); }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { sitePath } from '../lib/catalog';
+---
+<Layout title="Page not found"><section class="container page-heading"><p class="eyebrow">404 · A little lost?</p><h1>Let's get you<br /><span>back to the list.</span></h1><p>The page may have moved. Search the gallery or explore the formatting reference.</p><div class="action-row"><a class="button" href={sitePath()}>Explore the gallery</a><a href={sitePath('reference/')}>Formatting reference</a></div></section></Layout>

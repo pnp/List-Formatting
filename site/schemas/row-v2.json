@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "RowFormatter JSON",
+  "description": "JSON object that defines row in 'List' and 'Compact List' layout.",
+  "type": "object",
+  "properties": {
+    "hideSelection": {
+      "description": "If true, then selection UX in 'List' and 'Compact List' layout will be disabled. Ignored if there is no rowFormatter defined.",
+      "type": "boolean"
+    },
+    "hideColumnHeader": {
+      "description": "If true, then the list column header UX in in 'List' and 'Compact List' layout will be hidden.",
+      "type": "boolean"
+    },
+    "rowFormatter": {
+      "description": "JSON object that defines formatting of a row.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+    },
+    "additionalRowClass": {
+      "description": "CSS class(es) that is applied to the entire row. Supports expressions. Only valid for 'List' and 'Compact List' layouts.",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json#/definitions/expression"
+    },
+    "groupProps": {
+      "type": "object",
+      "description": "Specify the group header and footer formatters",
+      "properties": {
+        "headerFormatter": {
+          "description": "JSON object that defines formatting for the group headers",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+        },
+        "hideFooter": {
+          "description": "Boolean value to hide the group footer",
+          "type": "boolean"
+        },
+        "footerFormatter": {
+          "description": "JSON object that defines formatting for the group footers",
+          "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+        }
+      }
+    },
+    "hideFooter": {
+      "description": "Boolean value to hide the list footer",
+      "type": "boolean"
+    },
+    "footerFormatter": {
+      "description": "JSON object that defines formatting for the list footer",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"
+    },
+    "commandBarProps": {
+      "description": "JSON object that defines command bar customization options",
+      "$ref": "https://developer.microsoft.com/json-schemas/sp/v2/command-bar-formatting.schema.json#"
+    }
+  }
+}

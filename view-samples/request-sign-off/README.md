@@ -55,7 +55,7 @@ See the [SharePoint site design and site script overview article](https://docs.m
 
 ### Update the Flow ID in the View Formatter JSON
 
-The View Formatter JSON ([request-signoff.json](request-signoff.json)) defines a button labeled Request Sign Off that executes a Flow.  To make it execute the Flow you just imported, follow these steps.
+The View Formatter JSON ([request-sign-off.json](request-sign-off.json)) defines a button labeled Request Sign Off that executes a Flow.  To make it execute the Flow you just imported, follow these steps.
 
 1. Replace the **actionParams id value** (shown below) with the ID of the Flow you imported and configured in the steps above.
 

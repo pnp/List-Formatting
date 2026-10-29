@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { documents } from '../lib/docs';
+import { sitePath } from '../lib/catalog';
+const groups = documents.filter((document) => document.route.startsWith('groupings/') && !document.route.includes('/classes/'));
+const classes = documents.filter((document) => document.route.startsWith('groupings/classes/'));
+---
+<Layout title="Formatting reference"><div class="page-backdrop"><header class="page-heading container"><p class="eyebrow">Explore the building blocks</p><h1>A reference for<br /><span>your next idea.</span></h1><p>Discover samples by the expressions, actions, tokens, and classes they use. Reference sample lists are generated from the current catalog.</p></header><div class="container content-section"><h2>Find a pattern</h2><div class="resource-grid">{groups.map((group) => <a class="resource-card" href={sitePath(`${group.route}/`)}><h3>{group.title.replace(/^Samples (?:by |for )/, '')}</h3><p>Browse related samples and explore the building blocks.</p><span>Explore patterns →</span></a>)}</div><h2>CSS class families</h2><p class="lead">Backgrounds, borders, typography, and shared SharePoint styling.</p><div class="resource-grid">{classes.map((group) => <a class="resource-card" href={sitePath(`${group.route}/`)}><h3>{group.title.replace(/^Samples by Class: /, '')}</h3><span>Explore classes →</span></a>)}</div></div></div></Layout>

@@ -4,7 +4,7 @@
 This sample creates a speed dial list for your team members/contacts, that you can list as a tab in your teams channel and/or display on your Team SharePoint site, to get quick access to your contacts through Teams call, chat and email.
 
 ![screenshot of the sample](./assets/screenshot.png)
-![Speed dial screenshot](./assets/Speed dial 2.png)
+![Speed dial screenshot](./assets/Speed%20dial%202.png)
 
 ## View requirements
 

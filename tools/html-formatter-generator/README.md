@@ -2,6 +2,11 @@
 
 This tool allows you to quickly convert an HTML snippet (with acceptable tags) into JSON for list formatting!
 
+> This is a deprecated tool retained for legacy projects. Use
+> [Jsonify](https://marketplace.visualstudio.com/items?itemName=thechriskent.jsonify)
+> for modern conversion workflows. Normal Astro gallery builds serve the
+> preserved bundle without installing or rebuilding this tool's dependencies.
+
 Current HTML tags supported in list formatting:
 
 ```
@@ -38,9 +43,14 @@ Installs all the required dependencies.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder. This bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production into
+[`docs/tools/html-formatter-generator`](../../docs/tools/html-formatter-generator/),
+as configured in [webpack.config.js](./webpack.config.js). This bundles React
+in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include hashes. The bundle files then get copied to the `docs/html-formatter-generator` folder which integrates the build step with mkdocs. This allows them to be served directly from the list formatting Github site.
+The build is minified and the filenames include hashes. The Astro asset
+preparation step copies the preserved bundle into the site's static tools
+directory, keeping the existing public tool URL working.
 
 ### `yarn start`
 

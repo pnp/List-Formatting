@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /List-Formatting/
+
+Sitemap: https://pnp.github.io/List-Formatting/sitemap-index.xml
